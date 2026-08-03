@@ -34,11 +34,54 @@ import sys
 
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ENVS_DIR = os.path.join(REPO_ROOT, "textarena", "envs")
-DEFAULT_LANGS = ["ar", "de", "es", "fr", "he", "ms", "zh"]  # en is the source
+DEFAULT_LANGS = ["ar", "de", "es", "fr", "he", "ms", "pt", "zh", "it", "ru", "ja", "fa", "sr", "fil", "ko", "hi", "bn", "ta", "sw", "af", "bg", "az", "ca", "cs", "da", "el", "et", "fi", "hr", "gl", "hu", "id", "is", "lt", "lv", "mk", "nb", "nl", "pl", "ro", "sk", "sl", "sq", "sv", "th", "tr", "uk", "vi", "ur"]  # en is the source
 LANG_NAMES = {
     "ar": "Arabic", "de": "German", "es": "Spanish", "fr": "French",
-    "he": "Hebrew", "ms": "Malay", "zh": "Simplified Chinese",
+    "he": "Hebrew", "ms": "Malay", "pt": "Portuguese", "zh": "Simplified Chinese",
+    "it": "Italian",
+    "ru": "Russian",
+    "ja": "Japanese",
+    "fa": "Persian",
+    "sr": "Serbian",
+    "fil": "Filipino",
+    "ko": "Korean",
+    "hi": "Hindi",
+    "bn": "Bengali",
+    "ta": "Tamil",
+    "sw": "Swahili",
+    "af": "Afrikaans",
+    "bg": "Bulgarian",
+    "az": "Azerbaijani",
+    "ca": "Catalan",
+    "cs": "Czech",
+    "da": "Danish",
+    "el": "Greek",
+    "et": "Estonian",
+    "fi": "Finnish",
+    "hr": "Croatian",
+    "gl": "Galician",
+    "hu": "Hungarian",
+    "id": "Indonesian",
+    "is": "Icelandic",
+    "lt": "Lithuanian",
+    "lv": "Latvian",
+    "mk": "Macedonian",
+    "nb": "Norwegian Bokmål",
+    "nl": "Dutch",
+    "pl": "Polish",
+    "ro": "Romanian",
+    "sk": "Slovak",
+    "sl": "Slovenian",
+    "sq": "Albanian",
+    "sv": "Swedish",
+    "th": "Thai",
+    "tr": "Turkish",
+    "uk": "Ukrainian",
+    "vi": "Vietnamese",
+    "ur": "Urdu",
 }
+# Languages written right-to-left (prose RTL; Latin move tokens/placeholders stay LTR).
+RTL_LANGS = {"ar", "he", "fa", "ur", "ps", "sd"}
 
 SYSTEM = (
     "You are a professional game-localization translator for the TextArena project. "
@@ -54,8 +97,16 @@ HARD RULES (a violation breaks the game at runtime):
 2. Keep every {{placeholder}} EXACTLY as-is (same spelling, same braces). Do not add,
    remove, reorder-into-different-tokens, or translate placeholders. Every placeholder
    that appears in an English value MUST appear in your translation.
-3. Do NOT translate move tokens or format examples like '[4]', '[X 4]', '[macro micro]',
-   backticks, or ASCII art — copy them verbatim.
+3. EVERYTHING inside square brackets [ ] is a literal action token the game parser
+   matches on. Copy each bracketed token EXACTLY as in the source, character for
+   character, INCLUDING any English words inside it. NEVER translate, reorder, or
+   alter text inside [ ] — even ordinary words. Tokens that MUST stay verbatim:
+   '[4]', '[X 4]', '[up]', '[down]', '[left]', '[right]', '[bet 5]', '[call]',
+   '[fold]', '[raise 5]', '[check]', '[Cooperate]', '[Defect]', '[Accept]',
+   '[Deny]', '[play A♠ 0]', '[discard A♠ 1]', '[draw]', '[Offer: 3 Sheep -> 2 Ore]'.
+   (Only a bracket that is purely a description of what to type — e.g. '[count]',
+   '[row col]' — may be rendered in the target language.) The same verbatim rule
+   applies to backticks `like this` and ASCII art.
 4. Preserve the JSON structure exactly (same nesting, same keys). Output VALID JSON only.
 5. Translate the values under "_comment" and "_slots" too (they are human guidance),
    but keep any {{placeholder}} inside them literal.
@@ -87,7 +138,7 @@ def load(game, lang):
 
 def build_prompt(game, lang, reference_game=None):
     en = load(game, "en")
-    rtl = RTL_NOTE.format(lang_name=LANG_NAMES[lang]) if lang in ("ar", "he") else ""
+    rtl = RTL_NOTE.format(lang_name=LANG_NAMES[lang]) if lang in RTL_LANGS else ""
     parts = [RULES.format(lang_name=LANG_NAMES[lang], lang_code=lang, rtl=rtl)]
     if reference_game:
         ref_path = os.path.join(ENVS_DIR, reference_game, "locales", f"{lang}.json")
