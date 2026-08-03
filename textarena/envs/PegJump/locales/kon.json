@@ -1,0 +1,16 @@
+{
+  "player_prompt": {
+    "intro": "Nge ke na kusala nsaka ya kudilosa (pegasse). Kudilosa mosi na zulu yankaka, mpi kulumuka kisika yina kele mpamba. Lukanu: kumanisa ti kaka **kisadilu** mosi mebikalaka. Mutindu ya kusoba mambu: mu mbandu '[4 1]'."
+  },
+  "board": {
+    "current_board": "Maboko avila: {count}\n{board}"
+  },
+  "invalid_move": {
+    "wrong_format": "Sintaxe ya mbote ve. Kusadila [i->j] .",
+    "illegal_move": "Kusala mutindu yina kele ve na nsiku."
+  },
+  "outcome": {
+    "win": "Bo me manisa yo na mwa ntangu fioti!",
+    "no_moves": "Bo me bika ve ata kima mosi."
+  }
+}

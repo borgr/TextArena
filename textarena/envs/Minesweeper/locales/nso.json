@@ -1,0 +1,22 @@
+{
+  "player_prompt": {
+    "intro": "You are playing the Minesweeper game.\nThe objective of the game is to reveal all cells that do not contain mines.\nTo make a move, simply specify the row and column coordinates you want to reveal using the format:\n- `[row col]`: Reveal the cell at the specified row and column.\nFor example:\n- `[3 2]` to reveal the cell in Row 3, Column 2.\n- `[5 6]` to reveal the cell in Row 5, Column 6.\nOn your first move, you will reveal an area around the cell you choose to ensure a safe start.\nThe current board layout is shown below. Cells that are unrevealed are represented by a dot ('.'), revealed numbers show the count of adjacent mines.\nBe mindful not to choose already revealed cells.\nHere is the current board layout:\n"
+  },
+  "board": {
+    "game_board": "Boto ya Papadi: {board}",
+    "current_board": "Lekgotla la ga bjale: {board}"
+  },
+  "invalid_move": {
+    "wrong_format": "Ga se wa araba ka dikhonotšene tše di nepagetšego tšeo di lego magareng ga dihlopha tša dikwere.",
+    "out_of_bounds": "Dikopanyo tša methaladi le dikholomo tše di boletšwego ga se tša maleba.",
+    "already_revealed": "Selula ka ({row}, {col}) e already been gannele.",
+    "hit_mine": "O tshwere mine ka ({row}, {col})."
+  },
+  "game_action": {
+    "revealed": "O gannele selula ka ({row}, {col})."
+  },
+  "outcome": {
+    "win": "Re a go lebogiša, o atlegile ka katlego go tloša boto ya Minesweeper.",
+    "turn_limit": "O fihleletše tekanyo ya go dikologa. {percent}% ya disele tše di šireletšegilego o kgonne go e utolla ka katlego."
+  }
+}

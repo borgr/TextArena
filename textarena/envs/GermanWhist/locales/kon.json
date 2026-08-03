@@ -1,0 +1,76 @@
+{
+  "game_start": {
+    "intro": "The game begins. Trump suit: {trump_suit} (trump card: {trump_str}).",
+    "no_trump_card": "ata mosi ve"
+  },
+  "player_prompt": {
+    "intro": "Wewe ni Mchezaji {player_id} katika Whist ya Kijerumani.\n{phase_info}\nUshikiliaje {hand_size} kadi.\nCheza kadi kwa '[play N]', ambapo N ni nafasi yake katika mkono wako (kwa mfano '[play 3]').",
+    "phase_learning": "KUNYONGA: Muntu yina ke nunga na konso nsaka ya kubetula kitini mosi kebakaka karte yina kele ti ntu, mpi muntu yina mebela kesosa karti yankaka. Bansaka yonso ya bo mesala na nsungi yai ketadila ve kununga.",
+    "phase_playing": "Konso mayele ya mbi yina bo tasadila banda ntangu yai, tanatila beto kununga."
+  },
+  "next_card": {
+    "playing_phase": "Bo kepesa ve ata karti mosi - kitini ya bansaka meyantika.",
+    "deck_empty": "Na kati ya bakarto, bo me tula ve ata karti mosi.",
+    "available": "Karti ya bo kepesa: {card}",
+    "available_trump": "Bo me pesa karti: {card} (TRUMP)"
+  },
+  "invalid_move": {
+    "wrong_format": "Mutindu ya kusala kitambi kele mbote ve. Sadila '[play N]' sambu na kubula karte N-THE yina nge kele ti yo na maboko.",
+    "bad_position": "Nge kele na bakarti {hand_size}.",
+    "must_follow_suit": "Nge fwete landa mbandu na yandi mpi kubula karte {lead_suit}.",
+    "invalid_play": "Beto lenda sadila ve karti yina."
+  },
+  "game_action": {
+    "played": "Player {player_id} played {card}."
+  },
+  "trick": {
+    "won": "Muntu yina kebula {winner_id} kebakaka nsaka ya bo mebutila yandi na maboko ti {card}.",
+    "won_learning": "Player {winner_id} wins the trick with {card} and takes the face-up card."
+  },
+  "phase": {
+    "learning_complete": "Mambu yonso ya bo vandaka kulonga na kati me mana - konso mayele yina kele mfunu sambu na kununga."
+  },
+  "draw": {
+    "winner_received": "Nge me nunga mpi nge me baka {card}.",
+    "loser_received": "Nge me vidisa mayele ya kusala nsaka mpi nge me baka {card} na zulu ya mesa.",
+    "winner_preview": "Karti ya kelanda kele {card}."
+  },
+  "turn": {
+    "board": "{phase}\n{scores}\n{next_card}\n\n{trick}\n\n{hand}",
+    "scores_learning": "Mafunzo yaliyopatikana hadi sasa - Mchezaji 0: {tricks0}, Mchezaji 1: {tricks1}",
+    "scores_playing": "Scoring tricks - Player 0: {tricks0}, Player 1: {tricks1}",
+    "phase": "Kitini ya ntete: {phase}",
+    "phase_learning": "Phase: {phase} ({remaining_cards} cards left in the deck)"
+  },
+  "hand": {
+    "no_cards": "Bo ta pesa nge ve bakarti.",
+    "no_cards_in_hand": "Bo me pesa ve ata muntu mosi bakarti na maboko.",
+    "header": "Diboko na nge:",
+    "trump_indicator": " (TRUMP)",
+    "suit_line": "{observation}\n  {suit}{trump_indicator}:",
+    "card_line": "{observation}\n    {index}. {card}"
+  },
+  "trick_view": {
+    "empty": "Ata muntu mosi ve me sala yo.",
+    "header": "Mayele ya bubu yai:",
+    "trump_indicator": "(TRUMP) Beto kele na kyese mingi sambu beto mezaba nde:",
+    "card_line": "{observation}\n  Mchezaji {player_id}: {card}{trump_indicator}"
+  },
+  "board_str": {
+    "not_started": "Nsaka kuyantikaka ve.",
+    "header": "=== LUNGI YA BANTU NA KINSHASA GERMAN WIST=== Yandi kele na zulu ya disiki.",
+    "phase": "{observation}\nMzunguko: {phase}",
+    "trump_suit": "{observation}\nSuti ya trump: {trump_suit}",
+    "trump_card": "{observation}\nKadi ya trump: {card}",
+    "cards_left": "{observation}\nKajila kwa kudia: {count}",
+    "next_card": "{observation}\nKadi inayofuata kwa mshindi: {card}",
+    "blank": "{observation}  ya kele na ntu-dyambu \"M\"",
+    "current_trick": "{observation} Mayele ya bubu yai:",
+    "trump_indicator": "(TRUMP) Beto kele na kyese mingi sambu beto mezaba nde:",
+    "trick_line": "{observation}\n  Player {player_id}: {card}{trump_indicator}",
+    "player_line": "{observation}\nPlayer {player_id}: {scoring} scoring tricks ({tricks} total), {hand_size} cards in hand"
+  },
+  "outcome": {
+    "summary": "Learning phase - Player 0: {l0}, Player 1: {l1}. Playing phase - Player 0: {p0}, Player 1: {p1}. Player {winner_id} wins with {winner_tricks} scoring tricks!"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "player_prompt": {
+    "intro": "Umdlalo wekugcagca. Gcila umchele munye ungene kulomunye, ususe lomchamuka loligcumkile. Injongo: kucedza ngemachamuke linye lelisasele. Indlela yekusebenta: sibonelo '[4 1]'."
+  },
+  "board": {
+    "current_board": "Pegs lisetse: {count}\n{board}"
+  },
+  "invalid_move": {
+    "wrong_format": "Sento lesingasebenti. Sebentisa [i->j] .",
+    "illegal_move": "Kwenta lokungekho emtsetfweni."
+  },
+  "outcome": {
+    "win": "Kuphetfwe, kusele sinye kuphela!",
+    "no_moves": "Kute lokunye longakwenta."
+  }
+}

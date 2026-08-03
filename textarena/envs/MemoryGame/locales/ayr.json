@@ -1,0 +1,25 @@
+{
+  "player_prompt": {
+    "intro": "You are Player {player_id}. You are playing the Memory Game.\nYour goal is to match more pairs of cards on the board, than your opponent.\nOn your turn, select two cards to flip by entering the row and column numbers of the first and second card respectively like '[0 1 1 0]', where the first card is in row 0 and column 1, and the second card is in row 1 and column 0.\nIf the two cards match, you get a point and the cards remain face up. If they do not match, the cards are flipped back face down, e.g. '.'.\nThe game ends when all pairs have been matched."
+  },
+  "board": {
+    "current_board": "Jichhaxa: {board}",
+    "current_game_board": "Jichha anatäwi: {board}"
+  },
+  "invalid_move": {
+    "wrong_format": "Jani wali wakichata. {player_id} anatirixa janiw mä chiqpach amtaru jayskiti, paréntesis cuadrados ukankiwa.",
+    "out_of_bounds": "Jan wali amta. {player_id} anatirix anqaxankiri chiqaruw ajlliwiyi.",
+    "same_card_twice": "Jani waliki. {player_id} anatirixa pay kutiw mä carta ajlliwiyi.",
+    "already_matched": "Jani waliki. {player_id} anatirixa maya jani ukaxa paypacha khariñwa ajlliwayxi, ukata mayakiptayatawa."
+  },
+  "game_message": {
+    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
+    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+  },
+  "outcome": {
+    "draw": "Paypach anatirix pachpakiw payar k'uchirt'apxi.",
+    "win": "¡Jugador {winner_id} atipt'iwa!",
+    "turn_limit": "Nayrïr kutiw mä juk'a pachanak anatasiñatak wakt'ayata. Anatt ' añasti tukusxiwa, 0 anatañanix {score_0} puntos jikxatawayi; 1 anatañaninakax {score_1} puntos jikxatapxaraki.",
+    "turn_limit_win": "{reason} Player {winner_id} p'iqinirakiw!"
+  }
+}

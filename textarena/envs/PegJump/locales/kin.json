@@ -1,0 +1,16 @@
+{
+  "player_prompt": {
+    "intro": "Urimo gukina PegJump. Jump igiti kimwe hejuru yikindi mu rwobo rutagifite, ukuraho igipfundikiye gitsinze. Intego: kurangiza n'igitsure ** kimwe** kiri hasi. Imiterere yimikorere: urugero '[4 1]'."
+  },
+  "board": {
+    "current_board": "Pegs zisigaye: {count}\n{board}"
+  },
+  "invalid_move": {
+    "wrong_format": "Imvugo idafite agaciro. Koresha [i->j] .",
+    "illegal_move": "Ni igikorwa kinyuranyije n'amategeko."
+  },
+  "outcome": {
+    "win": "Byarangiye hasigaye igiti kimwe!",
+    "no_moves": "Nta ntambwe zindi zishobora guterwa."
+  }
+}

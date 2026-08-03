@@ -1,0 +1,22 @@
+{
+  "player_prompt": {
+    "intro": "You are playing Tower of Hanoi with {num_disks} disks.\nYou have to move the disks from tower A to tower C.\nTo move a disk, type the source tower and the target tower (e.g., '[A C]').\nNote that you can only move the top disk of a tower, and that a bigger disk cannot be placed on a smaller disk.\nAt each turn, submit one move."
+  },
+  "board": {
+    "current_board": "Kibuka kia Utuminu: {board}."
+  },
+  "invalid_move": {
+    "wrong_format": "You did not respond with valid '[source] [target]'.",
+    "invalid_tower": "You specified an invalid source or target tower.",
+    "empty_tower": "Eie ua fikisa ku katula o komputadolo ku thandu dia'nzo.",
+    "same_tower": "Eie ua fikisa ku texi o komputadolo iê, phala kuiza ijimbuete ia mukuá.",
+    "larger_on_smaller": "Eie ua fikisa ku ta ka diski ia dikota bhu kaxi ka ka disiki iofele."
+  },
+  "game_action": {
+    "moved": "O ukimi disk {disk} ku {source} o {target}."
+  },
+  "outcome": {
+    "win": "Nga mu ku ximana, ua batula o maka a lungu ni sabhalalu ia Hanoi.",
+    "turn_limit": "O jimbandu ja ku bhilula, a ji sange. Eie ua te kiambote o mbandu ia {pct}% mu Kibhangelu C."
+  }
+}

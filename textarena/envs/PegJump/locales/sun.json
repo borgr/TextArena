@@ -1,0 +1,16 @@
+{
+  "player_prompt": {
+    "intro": "Anjeun keur ulin PegJump. Luncat hiji paku leuwih sejen kana liang kosong, ngaleupaskeun peg jumped. Tujuan: rengse kalawan persis ** salah** paku kénca. format aksi: e.g '[4 1]'."
+  },
+  "board": {
+    "current_board": "Pég kiri: {count}\n{board}"
+  },
+  "invalid_move": {
+    "wrong_format": "Sintaksis henteu valid. Paké [i->j] .",
+    "illegal_move": "Pindahkeun ilegal."
+  },
+  "outcome": {
+    "win": "Dijawab jeung hiji peg sésana!",
+    "no_moves": "Teu aya deui gerakan."
+  }
+}

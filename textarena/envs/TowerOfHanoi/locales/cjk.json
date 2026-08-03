@@ -1,0 +1,22 @@
+{
+  "player_prompt": {
+    "intro": "You are playing Tower of Hanoi with {num_disks} disks.\nYou have to move the disks from tower A to tower C.\nTo move a disk, type the source tower and the target tower (e.g., '[A C]').\nNote that you can only move the top disk of a tower, and that a bigger disk cannot be placed on a smaller disk.\nAt each turn, submit one move."
+  },
+  "board": {
+    "current_board": "Current Board: \n{board}."
+  },
+  "invalid_move": {
+    "wrong_format": "You did not respond with valid '[source] [target]'.",
+    "invalid_tower": "Ulandik'a kongolo ya ndundu eyi nga si na bombo.",
+    "empty_tower": "Ulijaribu ku sende disk kutoka tower empty.",
+    "same_tower": "Ulijaribu ku sende dishi mu tower nderi.",
+    "larger_on_smaller": "Ulijaribu kuweka disk kubwa kwenye diski ndogo."
+  },
+  "game_action": {
+    "moved": "You moved disk {disk} from {source} to {target}."
+  },
+  "outcome": {
+    "win": "Congratulations! Wa solve the bridge of Hanoi.",
+    "turn_limit": "Cjk ck, limite d'un chemin est atteint. You have correctly placed {pct}% of the disks on Tower C."
+  }
+}

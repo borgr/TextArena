@@ -1,0 +1,20 @@
+{
+  "player_prompt": {
+    "intro": "Ny lalao Breakthrough dia milalao {color}. Mihetsika {direction} eo amin'ny solaitrabe {board_size}x{board_size} ianao. Amin'ny anjaranao dia afaka mihetsika tsikelikely mandroso na mihetsika miandalana ianao. Ny tsatoka dia tsy afaka mihetsika miandalana raha tsy misy ny tsatoka mpifanandrina, ary mihetsika fotsiny amin'ny kianja iray toy izany amin'ny dingana diagonal. Rehefa miditra amin'ny kianja misy tsatoka mpifanandrina ianao dia misambotra azy ary esorina tsy tapaka amin'ny solaitrabe ny tsatoka mpifanandrina. Ampiasao ny fanamarihana toy ny UCI ao anaty fononteny, ohatra [a2a3] hifindra avy amin'ny a2 mankany a3. * 'a' mifanaraka amin'ny tsanganana ankavia indrindra, '1' no laharana ambany (amin'ny fomba fijerin'ny White). * Ny laharana an-trano mainty dia ny laharana ambony (laharana 8 ho an'ny 8x8). Ny laharana an-trano fotsy dia ny laharana ambany (laharana 1 ho an'ny 8x8). Raha ny mpilalao voalohany no mahatratra ny tsatoka an-trano mpifanandrina dia mandresy."
+  },
+  "invalid_move": {
+    "wrong_format": "Ampiasao ny fanamarihana algebraika misy fononteny toy ny [a2a3].",
+    "out_of_bounds": "Tsy afaka mihetsika ny birao.",
+    "illegal": "Tsy manaraka ny fitsipiky ny Fandresena io hetsika io na tsy anjaranao."
+  },
+  "game_action": {
+    "moved": "Mpilalao {player_id} mihetsika {move_str} ({piece})."
+  },
+  "outcome": {
+    "white_reached": "Tonga teo amin'ny laharana voalohany i White.",
+    "black_reached": "Tonga teo amin'ny laharana voalohany i Mainty.",
+    "white_captured": "Voafandrika avokoa ny sombin-koditra fotsy.",
+    "black_captured": "Voafandrika avokoa ny sombin'ny mainty.",
+    "no_moves": "Tsy manana hetsika intsony ny mpilalao {player_id}."
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "player_prompt": {
+    "intro": "Welcome to Frozen Lake!\n\nYou are represented by 'P' on the grid.\nGrid symbols:\n  ' ' = Frozen surface (safe to walk on)\n  'H' = Hole (fall in and lose!)\n  'G' = Goal (reach this to win!)\n  'P' = Your current position\n\nAvailable actions: up, down, left, right (or w, a, s, d)\nType your action as: [up], [down], [left], [right] or [w], [a], [s], [d]\n\nObjective: Navigate from the start (top-left) to the goal (bottom-right) without falling into any holes!\n"
+  },
+  "board": {
+    "current_board": "Bɔde afa horow:\n\n{board}\n\nAdwuma a wɔde bɛka ho: {actions}"
+  },
+  "invalid_move": {
+    "wrong_format": "Invalid action format. Use [up], [down], [left], [right] or [w], [a], [s], [d].",
+    "unknown_action": "Adwuma a wonnim no '{action}'. Fa di dwuma, soro hɔ fam, benkum so, nifa so anaa w, a, s, d.",
+    "hit_wall": "You tried to move {action} but hit a wall!"
+  },
+  "game_action": {
+    "moved": "Wɔde {action} kɔ duru beae a ɛyɛ ({row}, {col})."
+  },
+  "outcome": {
+    "win": "Anigyesɛm ne sɛ, woadu botae no ho!",
+    "fell_in_hole": "Woahwehwe abura mu! Agoru no awie. Wudii akwantu a ɛkɔ ɔbodan ho {pct}% so nkonim.",
+    "turn_limit": "Woadi nea ɛsɛ sɛ wowie! Agoru no awie. Wudii akwantu a ɛkɔ botae no ho {pct}% mu."
+  }
+}

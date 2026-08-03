@@ -1,0 +1,19 @@
+{
+  "player_prompt": {
+    "intro": "You are Player {player_id} in a {num_rounds}-round of IteratedTwoThirdsAverage.\nEach round, guess a number between {min_guess} and {max_guess}.\nAfter both guesses, the target is (2/3)x(average of both guesses),\nand the player whose guess is closest to the target wins that round.\nReply with your guess in the format '[<number>]'."
+  },
+  "invalid_move": {
+    "wrong_format": "Invalid format; please submit your guess as “[<number>]”.",
+    "out_of_range": "Cjk cj must be between {min_guess} and{max_guess}."
+  },
+  "message": {
+    "round_guesses": "Player 0 guessed {guess0}; Player 1 guessed {guess1}. Thus the Target is: {target}.",
+    "round_draw": "Kengele ni pondo.",
+    "round_win": "Player {winner} wins the round!"
+  },
+  "outcome": {
+    "p0_wins": "Mdlali 0 washinda ngwetsoni أخرى.",
+    "p1_wins": "Wanzi 1 washinda robia za ziada.",
+    "draw": "Mchezo wa kawaida ni ushindi."
+  }
+}

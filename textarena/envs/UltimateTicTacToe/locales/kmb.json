@@ -1,0 +1,27 @@
+{
+  "player_prompt": {
+    "intro": "You are Player {player_id} in **Ultimate Tic Tac Toe**.\nSubmit your move as **[macro  micro]** (two numbers 0-8):\n• *macro*  = which mini-board you play in\n• *micro* = which square inside that mini-board\nExample `[7 8]` ➜ place your mark in mini-board 7, square 8, and\nforce your opponent to play in mini-board 8 next.\n\nYou are `{symbol}`.\n"
+  },
+  "board": {
+    "current_board": "Kibuka kia utuminu: {board}"
+  },
+  "invalid_move": {
+    "wrong_format": "O kijimbuete kia tokala ku i soneka mu mukanda iú, o [macro micro].",
+    "out_of_range": "Kala dijimbuluilu dia tokala di kala ni 0 mba 8.",
+    "index_out_of_range": "O kijimbuete kia \"micro_board\", mba mbandu ia muxi, iala ku thandu dia kaxa.",
+    "cell_occupied": "O inzo íii io lange kiá.",
+    "wrong_micro_board": "O muthu ua tokala ku ta o kidimbu kiê, mu papela ia mukuá iala ni kolo imoxi.",
+    "micro_board_won": "O kitutu kia te kiá, ki tu kuatekesa."
+  },
+  "next_board": {
+    "any": "kima kioso-kioso kia difu ni kalatá ka zele",
+    "specific": "kaxa ionene {nxt}"
+  },
+  "game_action": {
+    "played": "Player {player_id} played in micro board {macro_idx}, cell {micro_idx} (row {row}, col {col}). Player {opponent_id} must now play in {nxt_txt}."
+  },
+  "outcome": {
+    "win": "O mukua jisanzala {player_id} u nganhala o \"Final Tic Tac Toe!\" (O Finale de Tick-Tac-Toes!)",
+    "draw": "O ita ia bhu!"
+  }
+}

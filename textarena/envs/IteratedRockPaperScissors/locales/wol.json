@@ -1,0 +1,20 @@
+{
+  "player_prompt": {
+    "intro": "You are Player {player_id} in a {num_rounds}-round Rock-Paper-Scissors game.\nYour goal is to win as many rounds as possible.\nIn each round, respond with one of: '[rock]', '[paper]', or '[scissors]'.\nYou may also use '[r]', '[p]', or '[s]' as shorthand.\n"
+  },
+  "invalid_move": {
+    "wrong_format": "Ñuul ko defoon. Sama [rock], [paper], ne [scissors]."
+  },
+  "game_action": {
+    "selects": "Jëfandikukat {player_id} tànn na jëfekaay bi {move}."
+  },
+  "message": {
+    "round_draw": "Jëfandikukat:Teew",
+    "round_win": "Jëfandikukat:Jàmbaar {winner} moo ci jël ndam!"
+  },
+  "outcome": {
+    "p0_wins": "Jëfandikukat 0 moo ci gën a am ay jàll!",
+    "p1_wins": "Jëfandikukat 1 moo jël li ëpp ci ay tukki!",
+    "draw": "Dafa am benn-benn!"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "player_prompt": {
+    "intro": "You are Player {player_id}. You are playing Guess The Number.\nYou have to guess the number between {min_number} and {max_number} within {max_turns} turns.\nAs you enter your guess, the game will provide you with hints such as 'higher' or 'lower'.\nYou may provide your response in any manner. Only the number that is wrapped in square brackets will be considered as your guess. For example, [5].\nAs you play, the history of your guesses will be appended below. Use the information to complete the game before you run out of guesses.\nEnter your guess."
+  },
+  "invalid_move": {
+    "wrong_format": "Invalid move format. Player {player_id} did not respond with valid '[number]'.",
+    "out_of_range": "Pɩfɛyɩ ɖeu se pala aleɣya ana. Aleeɖu {player_id} ɛlaba nɛ pɩɖɛɛna ɖenɖe paɖʋʋ yɔ.",
+    "already_guessed": "Pɩfɛyɩ ɖeu se pala aleɣya ana. Aleeɖʋ {player_id} tɛm ɛ-tɩ yɔɔ wɛnaʋ nɛ ɛna ɛzɩma palɩzɩ mayaɣ ŋga yɔ."
+  },
+  "game_message": {
+    "target_higher": "The target number is higher.",
+    "target_lower": "The target number is lower."
+  },
+  "outcome": {
+    "win": "Pɩlabɩ ɖeu, ŋmaɣzɩnɩ mbʋ pɩ-taa ɖɩtɩŋnaa yɔ.",
+    "turn_limit": "The turn limit has been reached. Guess: {guess}, Target: {target}"
+  }
+}

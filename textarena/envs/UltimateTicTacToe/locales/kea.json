@@ -1,0 +1,27 @@
+{
+  "player_prompt": {
+    "intro": "You are Player {player_id} in **Ultimate Tic Tac Toe**.\nSubmit your move as **[macro  micro]** (two numbers 0-8):\n• *macro*  = which mini-board you play in\n• *micro* = which square inside that mini-board\nExample `[7 8]` ➜ place your mark in mini-board 7, square 8, and\nforce your opponent to play in mini-board 8 next.\n\nYou are `{symbol}`.\n"
+  },
+  "board": {
+    "current_board": "Konsedju atual: {board}"
+  },
+  "invalid_move": {
+    "wrong_format": "Mudansa debe ser na forma [macro micro] ku númeru 0-8.",
+    "out_of_range": "Kada indísiu debe sta entri 0 i 8.",
+    "index_out_of_range": "Mákina di mikro, fila ô koluna sta fóra di alkansi.",
+    "cell_occupied": "Kel prédiu dja sta okupadu.",
+    "wrong_micro_board": "Kel jugador ten ki djunta na kel otu micro.",
+    "micro_board_won": "Nu ganha kel jogu di mininu."
+  },
+  "next_board": {
+    "any": "kalker karton di mikro-prugrama",
+    "specific": "mikro-pratu {nxt}"
+  },
+  "game_action": {
+    "played": "Jogadó {player_id} jogou na tabuleiro micro {macro_idx}, célula {micro_idx} (linha {row}, coluna {col}). Jogadó {opponent_id} ten ki ta jogá agora na {nxt_txt}."
+  },
+  "outcome": {
+    "win": "Jogu {player_id} ta ganha Ultimu Tic Tac Toe! (Tic-tac-toe) ki é un karta di djogus.",
+    "draw": "Es jogo é na igualdadi!"
+  }
+}

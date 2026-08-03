@@ -1,0 +1,17 @@
+{
+  "player_prompt": {
+    "intro": "Ianao no mpilalao {player_id}. Milalao ny lalao 15 Puzzle ianao. Ny tanjon'ny lalao dia ny handamina ireo taila isaina amin'ny filaharana miakatra avy amin'ny 1 ka hatramin'ny 15, miaraka amin'ny toerana banga hita eo amin'ny zoro ambany ankavanana. Mba hanaovana hetsika, azonao atao ny manetsiketsika taila iray ao amin'ny toerana banga (asolo tena ny tsipika roa, ohatra __) amin'ny alàlan'ny fampiasana ny iray amin'ireto baiko manaraka ireto: - 'miakatra': Afindra ny taila eo ambanin'ny toerana banga miakatra. - 'midina': Afindra ny taila eo ambonin'ny toerana banga midina. - 'ankavia': Afindra ny taila eo ankavanan'ny toerana banga havia. - 'havanana': Afindra ny taila eo ankavanan'ny toerana banga havanana. Mba handefasana ny hetsikao, soraty ny làlana (ohatra, 'miakatra', 'midina', 'ankavia', na 'havanana') ao anaty fononteny boribory, ohatra [up]. Aseho eto ambany ny firafitry ny tabilao ankehitriny. Ampiasao ny fampahalalana hamahana ny pio."
+  },
+  "board": {
+    "current_board": "Birao ankehitriny: {board} Hetsika azo atao: {moves}",
+    "game_board": "Birao lalao: {board}"
+  },
+  "invalid_move": {
+    "wrong_format": "Tsy mety ny endrika fihetsika. Tsy namaly tamin'ny làlana marina ao anaty fononteny marindrano ny mpilalao {player_id} .",
+    "illegal_move": "Tsy mety ny hetsika. Tsy azo afindra amin'ny lalana voatondro ny taila."
+  },
+  "outcome": {
+    "win": "Arahabaina! Nahomby tamin'ny famahana ny piozila 15 ny mpilalao {player_id}.",
+    "turn_limit": "Nahatratra ny fetran'ny fihodinana. Ny modely dia nahavita {percent} isan-jaton'ny piozila"
+  }
+}

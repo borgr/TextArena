@@ -1,0 +1,22 @@
+{
+  "player_prompt": {
+    "intro": "You are playing Tower of Hanoi with {num_disks} disks.\nYou have to move the disks from tower A to tower C.\nTo move a disk, type the source tower and the target tower (e.g., '[A C]').\nNote that you can only move the top disk of a tower, and that a bigger disk cannot be placed on a smaller disk.\nAt each turn, submit one move."
+  },
+  "board": {
+    "current_board": "ⵜⴰⴱⵔⵉⵜⴰ ⵜⴰⵏ ⴰⵎⴰⵔⴰⴷ: {board}."
+  },
+  "invalid_move": {
+    "wrong_format": "You did not respond with valid '[source] [target]'.",
+    "invalid_tower": "ⵜⵙⵙⵏⴽⴷ ⴰⵙⴰⴳⵎ ⵏ ⵓⴱⵔⵉⴷ ⵏⵖ ⴷ ⵜⴰⵖⵔⴷⴰ ⵓⵔ ⵉⴳⵉⵏ ⵡⵉⵍⵍⵉ ⵉⵅⵚⵚⴰⵏ.",
+    "empty_tower": "ⵜⴰⵔⴰⵎ ⴰⴷ ⴰⴾⵉⴰⴷⴰⵜ ⴷⵉⵙⵈⵓⴻⵜ ⴷⴰⵗ ⴻⴷⴰⴶ ⵓⴰⵔⴻⵏ ⵉⵍⴰ ⵂⴰⵏⴰⵉ.",
+    "same_tower": "ⵜⴰⵔⴰⵎ ⴰⴷ ⴰⴾⵉⴰⴷⴰⵜ ⴷⵉⵙⵈⵓⴻ ⵉⵓⵔ ⵙⵓⵏⴷ ⵜⵂⴰⴶⵉⵜ.",
+    "larger_on_smaller": "ⵜⴰⵔⴰⵎ ⴰⴷ ⴰⵛⴰⵗⴰⵍ ⵏⴰⵜ ⴷⵉⵙⴾ ⵓⵉ ⵎⴰⵈⵈⵓⵔⵏⵢⵏ ⴼⴰⵍ ⵢⵙⴽⵢⴷ ⴰⵏⴷⴰⵔⵔⴰⵏ."
+  },
+  "game_action": {
+    "moved": "Tettak tegi disken {disk} seg {source} ar {target}."
+  },
+  "outcome": {
+    "win": "ⴰⵙⵂⴰⵗⴰⵜ, ⴰⵜⵓⴰⵙⴰⵏⴷⴰⴱⴰⵔⴰ ⵏⴰⵍⴾⴰⴷ ⵓⴰⵏ ⵂⴰⵏoⵉ.",
+    "turn_limit": "ⴰⵜⵓⴰⴶⵔⴰⵣ ⴰⵍⵆⴰⴷⵓⴷ ⵓⴰⵏ ⵜⴰⵔⵂⴰⵏ. {pct}% ⵏ ⴷⵉⵙⴾ ⵜⴰⵏ ⵓⵉⵏ ⵜⵉⴷⴰⵓⵜ ⵉⵋⵋⵉⵛ ⵙ ⵜⴻⵗⴰⵔⴻ C."
+  }
+}

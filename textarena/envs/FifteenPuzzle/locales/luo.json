@@ -1,0 +1,17 @@
+{
+  "player_prompt": {
+    "intro": "You are Player {player_id}. You are playing the 15-Puzzle game.\nThe objective of the game is to arrange the numbered tiles in ascending order from 1 to 15, with the empty space located in the bottom-right corner.\nTo make a move, you can slide a tile into the empty space (represented by a double underscore, e.g. __) by using one of the following commands:\n- 'up': Move the tile below the empty space up.\n- 'down': Move the tile above the empty space down.\n- 'left': Move the tile to the right of the empty space left.\n- 'right': Move the tile to the left of the empty space right.\nTo submit your move, type the direction (e.g., 'up', 'down', 'left', or 'right') in square brackets, e.g. [up].\nThe current board layout is shown below. Use the information to solve the puzzle.\n"
+  },
+  "board": {
+    "current_board": "Bodi la sasa:\n\n{board}\nMicujo iliyopatikana: {moves}",
+    "game_board": "Bodi mar tugo: {board}"
+  },
+  "invalid_move": {
+    "wrong_format": "Yo ma ok owinjore mar tugo. Jalo {player_id} ne ok odwoko gi yo mowinjore e kind brackets mag kare ariyo.",
+    "illegal_move": "Ok nyalre. Olembego ok nyal yiengni e yo mowachono."
+  },
+  "outcome": {
+    "win": "Wagoyo erokamano! Jalo {player_id} oseloso maber oboke mar 15.",
+    "turn_limit": "Giko mar ng'wech osechopo. Ngero otieko {percent} pasent mag puzzle"
+  }
+}

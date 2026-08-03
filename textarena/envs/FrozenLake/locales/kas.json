@@ -1,0 +1,21 @@
+{
+  "player_prompt": {
+    "intro": "Welcome to Frozen Lake!\n\nYou are represented by 'P' on the grid.\nGrid symbols:\n  ' ' = Frozen surface (safe to walk on)\n  'H' = Hole (fall in and lose!)\n  'G' = Goal (reach this to win!)\n  'P' = Your current position\n\nAvailable actions: up, down, left, right (or w, a, s, d)\nType your action as: [up], [down], [left], [right] or [w], [a], [s], [d]\n\nObjective: Navigate from the start (top-left) to the goal (bottom-right) without falling into any holes!\n"
+  },
+  "board": {
+    "current_board": "موجوہ بۆرڈ:\n\n{board}\n\nبەردەست کاردانەکان: {actions}"
+  },
+  "invalid_move": {
+    "wrong_format": "شێوەی کاردانەی نادروستە. بەکارھێنە [up]، [down]، [left]، [right] یان [w]، [a]، [s]، [d].",
+    "unknown_action": "अज्ञात क्रिया '{action}'. ऊपर, नीचे, बाये, दाएँ या w, a, s, d इस्तमाल करूं.",
+    "hit_wall": "तुहने {action} हिलवच कोशिश क्र लकिन अख देवर हिट!"
+  },
+  "game_action": {
+    "moved": "You moved {action} to position ({row}, {col})."
+  },
+  "outcome": {
+    "win": "बधाई. तुहने लक्ष्य छू ल्यो!",
+    "fell_in_hole": "तुह छेकाख मंज़ गिर! गेम ओव्हर. तुहुं छू {pct}% सफरस गोल ताम पूरान। तूही हकोव पनुन अख खास खूफियत दिथ,तेतकीच तैर पइठ ये वुनमुट कि तुम कुएं ते चीज़ें हिंज मरम्मत करा.",
+    "turn_limit": "तुह्य़ छि वरासती लिमिट पेठः पोठ! खेल खत्म। तुह् छे {pct}% सफर लक्ष्यस ताम पूर करमुत. तूही छु यिमव मंज़ सेठाह रफ़्तार ति पूरा कोरमुत युस टर्निंग रिचार्ज करनक इजाज़थ दियि, तॆ हॅकि यि ब्रोन्ह कुन वुछु तः अथ गॉर कांह गलत कारकरदगी आसि न कर्णन करिथ।"
+  }
+}

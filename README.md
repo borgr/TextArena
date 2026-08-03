@@ -105,3 +105,166 @@ If you have any questions at all, feel free to reach out on discord. The below i
 - Make RushHour board generation algorithmic
 - extend Fifteenpuzzel to arbitrary sizes
 - Add a nice end-of-game screen to the SimpleRenderWrapper visualizations
+
+<!-- BEGIN trackb-low-resource -->
+
+### Low-resource community localizations
+
+Beyond the human-reviewed languages, TextArena includes **143 additional low-resource UI localizations** produced with open machine translation (NLLB-200) and verified for **meaning fidelity** by a careful two-model LLM judge (llama-3.1-405B + Qwen2.5-72B, per-leaf concordance) — validated at 100% sensitivity/specificity on a human-known control. **These are machine-verified, not native-reviewed.** Each language lists its measured **meaning-fidelity %** (share of sampled strings both judges rate faithful) and its target-language coverage. At runtime, `textarena.utils.locales.language_confidence.warn_if_flagged(lang)` emits a `UserWarning` for any non-certified locale; the machine-readable source is [`_trackb_confidence.json`](textarena/utils/locales/_trackb_confidence.json).
+
+**Certified-flagged** (124) — LLM-verified meaning fidelity, sorted best-first:
+
+| Language | Tier | Meaning fidelity | Target-language coverage |
+|---|---|---|---|
+| Kannada (`kn`) | CERTIFIED_FLAGGED | 100% | ~95% |
+| Gujarati (`gu`) | CERTIFIED_FLAGGED | 100% | ~96% |
+| Punjabi (`pa`) | CERTIFIED_FLAGGED | 100% | ~97% |
+| Marathi (`mr`) | CERTIFIED_FLAGGED | 100% | ~97% |
+| Sindhi (`sd`) | CERTIFIED_FLAGGED | 100% | ~96% |
+| Lao (`lo`) | CERTIFIED_FLAGGED | 100% | ~95% |
+| Uzbek (`uz`) | CERTIFIED_FLAGGED | 100% | ~95% |
+| Malayalam (`ml`) | CERTIFIED_FLAGGED | 100% | ~95% |
+| Assamese (`as`) | CERTIFIED_FLAGGED | 100% | ~95% |
+| Odia (`or`) | CERTIFIED_FLAGGED | 100% | ~94% |
+| Yoruba (`yo`) | CERTIFIED_FLAGGED | 100% | ~93% |
+| Banjar (`bjn`) | CERTIFIED_FLAGGED | 100% | ~92% |
+| Egyptian Arabic (`arz`) | CERTIFIED_FLAGGED | 100% | ~92% |
+| Crimean Tatar (`crh`) | CERTIFIED_FLAGGED | 100% | ~90% |
+| Acehnese (`ace`) | CERTIFIED_FLAGGED | 100% | ~92% |
+| Moroccan Arabic (`ary`) | CERTIFIED_FLAGGED | 100% | ~91% |
+| Central Kurdish (`ckb`) | CERTIFIED_FLAGGED | 100% | ~86% |
+| Bashkir (`bak`) | CERTIFIED_FLAGGED | 100% | ~82% |
+| Esperanto (`epo`) | CERTIFIED_FLAGGED | 100% | ~94% |
+| Irish (`gle`) | CERTIFIED_FLAGGED | 100% | ~89% |
+| Javanese (`jav`) | CERTIFIED_FLAGGED | 100% | ~93% |
+| Lombard (`lmo`) | CERTIFIED_FLAGGED | 100% | ~88% |
+| Luxembourgish (`ltz`) | CERTIFIED_FLAGGED | 100% | ~90% |
+| Chhattisgarhi (`hne`) | CERTIFIED_FLAGGED | 100% | ~88% |
+| Maithili (`mai`) | CERTIFIED_FLAGGED | 100% | ~91% |
+| Magahi (`mag`) | CERTIFIED_FLAGGED | 100% | ~88% |
+| Ilocano (`ilo`) | CERTIFIED_FLAGGED | 100% | ~89% |
+| Ligurian (`lij`) | CERTIFIED_FLAGGED | 100% | ~87% |
+| Sicilian (`scn`) | CERTIFIED_FLAGGED | 100% | ~92% |
+| Papiamento (`pap`) | CERTIFIED_FLAGGED | 100% | ~92% |
+| Occitan (`oci`) | CERTIFIED_FLAGGED | 100% | ~91% |
+| Minangkabau (`min`) | CERTIFIED_FLAGGED | 100% | ~90% |
+| Sardinian (`srd`) | CERTIFIED_FLAGGED | 100% | ~88% |
+| Maori (`mri`) | CERTIFIED_FLAGGED | 100% | ~90% |
+| Maltese (`mlt`) | CERTIFIED_FLAGGED | 100% | ~86% |
+| Tatar (`tat`) | CERTIFIED_FLAGGED | 100% | ~86% |
+| Venetian (`vec`) | CERTIFIED_FLAGGED | 100% | ~92% |
+| Tajik (`tgk`) | CERTIFIED_FLAGGED | 100% | ~90% |
+| Xhosa (`xho`) | CERTIFIED_FLAGGED | 100% | ~86% |
+| Turkmen (`tuk`) | CERTIFIED_FLAGGED | 100% | ~86% |
+| Belarusian (`be`) | CERTIFIED_FLAGGED | 98% | ~96% |
+| Pashto (`ps`) | CERTIFIED_FLAGGED | 98% | ~95% |
+| Telugu (`te`) | CERTIFIED_FLAGGED | 98% | ~95% |
+| Zulu (`zu`) | CERTIFIED_FLAGGED | 98% | ~95% |
+| Kazakh (`kk`) | CERTIFIED_FLAGGED | 98% | ~93% |
+| Kyrgyz (`ky`) | CERTIFIED_FLAGGED | 98% | ~94% |
+| Hausa (`ha`) | CERTIFIED_FLAGGED | 98% | ~95% |
+| Igbo (`ig`) | CERTIFIED_FLAGGED | 98% | ~96% |
+| Mongolian (`mn`) | CERTIFIED_FLAGGED | 98% | ~90% |
+| Amharic (`am`) | CERTIFIED_FLAGGED | 98% | ~85% |
+| ceb (`ceb`) | CERTIFIED_FLAGGED | 98% | ~91% |
+| Najdi Arabic (`ars`) | CERTIFIED_FLAGGED | 98% | ~93% |
+| North Levantine Arabic (`apc`) | CERTIFIED_FLAGGED | 98% | ~91% |
+| South Levantine Arabic (`ajp`) | CERTIFIED_FLAGGED | 98% | ~92% |
+| Bhojpuri (`bho`) | CERTIFIED_FLAGGED | 98% | ~88% |
+| Asturian (`ast`) | CERTIFIED_FLAGGED | 98% | ~84% |
+| Balinese (`ban`) | CERTIFIED_FLAGGED | 98% | ~91% |
+| Awadhi (`awa`) | CERTIFIED_FLAGGED | 98% | ~89% |
+| Akan (`aka`) | CERTIFIED_FLAGGED | 98% | ~74% |
+| Scottish Gaelic (`gla`) | CERTIFIED_FLAGGED | 98% | ~88% |
+| Friulian (`fur`) | CERTIFIED_FLAGGED | 98% | ~88% |
+| Faroese (`fao`) | CERTIFIED_FLAGGED | 98% | ~91% |
+| Dzongkha (`dzo`) | CERTIFIED_FLAGGED | 98% | ~75% |
+| Haitian Creole (`hat`) | CERTIFIED_FLAGGED | 98% | ~93% |
+| Northern Kurdish (`kmr`) | CERTIFIED_FLAGGED | 98% | ~87% |
+| Mizo (`lus`) | CERTIFIED_FLAGGED | 98% | ~78% |
+| Jingpho (`kac`) | CERTIFIED_FLAGGED | 98% | ~71% |
+| Shona (`sna`) | CERTIFIED_FLAGGED | 98% | ~90% |
+| Samoan (`smo`) | CERTIFIED_FLAGGED | 98% | ~89% |
+| Silesian (`szl`) | CERTIFIED_FLAGGED | 98% | ~91% |
+| Sanskrit (`san`) | CERTIFIED_FLAGGED | 98% | ~86% |
+| Shan (`shn`) | CERTIFIED_FLAGGED | 98% | ~76% |
+| Tamasheq (`taq`) | CERTIFIED_FLAGGED | 98% | ~71% |
+| Eastern Yiddish (`ydd`) | CERTIFIED_FLAGGED | 98% | ~88% |
+| Waray (`war`) | CERTIFIED_FLAGGED | 98% | ~87% |
+| Central Atlas Tamazight (`tzm`) | CERTIFIED_FLAGGED | 98% | ~76% |
+| Nepali (`ne`) | CERTIFIED_FLAGGED | 95% | ~95% |
+| Khmer (`km`) | CERTIFIED_FLAGGED | 95% | ~94% |
+| Armenian (`hy`) | CERTIFIED_FLAGGED | 95% | ~95% |
+| Welsh (`cy`) | CERTIFIED_FLAGGED | 95% | ~93% |
+| Sinhala (`si`) | CERTIFIED_FLAGGED | 95% | ~94% |
+| Burmese (`my`) | CERTIFIED_FLAGGED | 95% | ~94% |
+| Malagasy (`mg`) | CERTIFIED_FLAGGED | 95% | ~94% |
+| Georgian (`ka`) | CERTIFIED_FLAGGED | 95% | ~91% |
+| Taizzi-Adeni Arabic (`acq`) | CERTIFIED_FLAGGED | 95% | ~92% |
+| Mesopotamian Arabic (`acm`) | CERTIFIED_FLAGGED | 95% | ~92% |
+| South Azerbaijani (`azb`) | CERTIFIED_FLAGGED | 95% | ~82% |
+| Standard Tibetan (`bod`) | CERTIFIED_FLAGGED | 95% | ~75% |
+| Limburgish (`lim`) | CERTIFIED_FLAGGED | 95% | ~91% |
+| Latgalian (`ltg`) | CERTIFIED_FLAGGED | 95% | ~87% |
+| Kabuverdianu (`kea`) | CERTIFIED_FLAGGED | 95% | ~87% |
+| Sundanese (`sun`) | CERTIFIED_FLAGGED | 95% | ~94% |
+| Tigrinya (`tir`) | CERTIFIED_FLAGGED | 95% | ~78% |
+| Tsonga (`tso`) | CERTIFIED_FLAGGED | 95% | ~88% |
+| Wolof (`wol`) | CERTIFIED_FLAGGED | 95% | ~70% |
+| Somali (`so`) | CERTIFIED_FLAGGED | 92% | ~95% |
+| Central Aymara (`ayr`) | CERTIFIED_FLAGGED | 92% | ~79% |
+| Nigerian Fulfulde (`fuv`) | CERTIFIED_FLAGGED | 92% | ~81% |
+| Kinyarwanda (`kin`) | CERTIFIED_FLAGGED | 92% | ~86% |
+| Ganda (`lug`) | CERTIFIED_FLAGGED | 92% | ~84% |
+| Luo (`luo`) | CERTIFIED_FLAGGED | 92% | ~84% |
+| Central Kanuri (`knc`) | CERTIFIED_FLAGGED | 92% | ~76% |
+| Norwegian Nynorsk (`nno`) | CERTIFIED_FLAGGED | 92% | ~89% |
+| Swati (`ssw`) | CERTIFIED_FLAGGED | 92% | ~87% |
+| Mossi (`mos`) | CERTIFIED_FLAGGED | 92% | ~71% |
+| Uyghur (`uig`) | CERTIFIED_FLAGGED | 92% | ~82% |
+| Tswana (`tsn`) | CERTIFIED_FLAGGED | 92% | ~86% |
+| Twi (`twi`) | CERTIFIED_FLAGGED | 92% | ~76% |
+| Basque (`eu`) | CERTIFIED_FLAGGED | 90% | ~86% |
+| Tunisian Arabic (`aeb`) | CERTIFIED_FLAGGED | 90% | ~90% |
+| Fijian (`fij`) | CERTIFIED_FLAGGED | 90% | ~84% |
+| Guarani (`grn`) | CERTIFIED_FLAGGED | 90% | ~84% |
+| Ewe (`ewe`) | CERTIFIED_FLAGGED | 90% | ~79% |
+| Fon (`fon`) | CERTIFIED_FLAGGED | 90% | ~74% |
+| Kabyle (`kab`) | CERTIFIED_FLAGGED | 90% | ~80% |
+| Ayacucho Quechua (`quy`) | CERTIFIED_FLAGGED | 90% | ~79% |
+| Tok Pisin (`tpi`) | CERTIFIED_FLAGGED | 90% | ~84% |
+| Kashmiri (`kas`) | CERTIFIED_FLAGGED | 88% | ~84% |
+| Pangasinan (`pag`) | CERTIFIED_FLAGGED | 88% | ~86% |
+| Northern Sotho (`nso`) | CERTIFIED_FLAGGED | 88% | ~85% |
+| Nuer (`nus`) | CERTIFIED_FLAGGED | 88% | ~79% |
+| Bemba (`bem`) | CERTIFIED_FLAGGED | 85% | ~78% |
+| Southwestern Dinka (`dik`) | CERTIFIED_FLAGGED | 85% | ~78% |
+| Southern Sotho (`sot`) | CERTIFIED_FLAGGED | 85% | ~89% |
+
+> ⚠️ **Experimental** (19) — measured meaning fidelity below the certification bar; structurally valid and playable, but prose quality is lower. Use for coverage/research, not as a reference translation:
+
+| Language | Tier | Meaning fidelity | Target-language coverage |
+|---|---|---|---|
+| Dyula (`dyu`) | EXPERIMENTAL | 82% | ~68% |
+| Nyanja (`nya`) | EXPERIMENTAL | 82% | ~90% |
+| Sango (`sag`) | EXPERIMENTAL | 82% | ~77% |
+| Buginese (`bug`) | EXPERIMENTAL | 80% | ~86% |
+| Bambara (`bam`) | EXPERIMENTAL | 80% | ~79% |
+| Lingala (`lin`) | EXPERIMENTAL | 80% | ~85% |
+| Kikongo (`kon`) | EXPERIMENTAL | 80% | ~76% |
+| Kamba (`kam`) | EXPERIMENTAL | 80% | ~57% |
+| Rundi (`run`) | EXPERIMENTAL | 80% | ~86% |
+| Santali (`sat`) | EXPERIMENTAL | 80% | ~75% |
+| Kikuyu (`kik`) | EXPERIMENTAL | 78% | ~79% |
+| Kabiye (`kbp`) | EXPERIMENTAL | 78% | ~64% |
+| Meitei (`mni`) | EXPERIMENTAL | 78% | ~69% |
+| West Central Oromo (`gaz`) | EXPERIMENTAL | 75% | ~79% |
+| Tumbuka (`tum`) | EXPERIMENTAL | 72% | ~82% |
+| Umbundu (`umb`) | EXPERIMENTAL | 72% | ~63% |
+| Kimbundu (`kmb`) | EXPERIMENTAL | 70% | ~63% |
+| Luba-Kasai (`lua`) | EXPERIMENTAL | 65% | ~82% |
+| Chokwe (`cjk`) | EXPERIMENTAL | 63% | ~63% |
+
+Languages move from experimental to certified as verification improves; the list grows over time.
+
+<!-- END trackb-low-resource -->

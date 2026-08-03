@@ -1,0 +1,18 @@
+{
+  "player_prompt": {
+    "intro": "You are Player {player_id}. You are playing Guess The Number.\nYou have to guess the number between {min_number} and {max_number} within {max_turns} turns.\nAs you enter your guess, the game will provide you with hints such as 'higher' or 'lower'.\nYou may provide your response in any manner. Only the number that is wrapped in square brackets will be considered as your guess. For example, [5].\nAs you play, the history of your guesses will be appended below. Use the information to complete the game before you run out of guesses.\nEnter your guess."
+  },
+  "invalid_move": {
+    "wrong_format": "ၼႃႉတီႈလႆႈၸိူင်ႉၼႆႉ ဢမ်ႇၸိုဝ်ႈၸႂ်ႈ။ ၸဝ်ႈၶွင်ႉ {player_id} ဢမ်ႇပေႃးလႆႈၸိူင်ႉ '[number]' ၸိုဝ်ႈၸႂ်ႈ။",
+    "out_of_range": "လွင်ႈလဵၼ်ႈဢၼ်ဢမ်ႇမႅၼ်ႈၼၼ်ႉ ၽူႈလဵၼ်ႈ {player_id} ထၢင်ႇဝႃႈပဵၼ် တူဝ်ၼပ်ႉ ဢၼ်ဢွၵ်ႇၼွၵ်ႈတီႈၵႂၢင်ႈမၼ်းၼၼ်ႉယဝ်ႉ။",
+    "already_guessed": "လွင်ႈလဵၼ်ႈဢၼ်ဢမ်ႇမႅၼ်ႈၼၼ်ႉ ၽူႈလဵၼ်ႈ {player_id} ထၢင်ႇဝႆႉဝႃႈ မၢႆမၼ်းပဵၼ်သင်ၼႆယဝ်ႉ။"
+  },
+  "game_message": {
+    "target_higher": "ႁူဝ်ၼပ်ႉဢၼ်ယိူင်းၸူးၼႆႉ ၼမ်လိူဝ်မႃးယဝ်ႉ။",
+    "target_lower": "ႁူဝ်ၼပ်ႉယိူင်းဢၢၼ်းၼႆႉ ယွမ်းလူင်းမႃးယူႇယဝ်ႉ။"
+  },
+  "outcome": {
+    "win": "မႂ်ႇသုင်ၶႃႈ၊ သူၸင်ႇတွပ်ႇလႆႈမႅၼ်ႈယဝ်ႉ။",
+    "turn_limit": "လၢႆးတႅမ်ႈၸိူင်ႉၼႆႉ လႆႈၸိူင်ႉၼႆႉ။ လၢႆးတႅမ်ႈ: {guess}, တႃႇလဵပ်ႈႁဵၼ်း: {target}"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "board": {
+    "current_board": "Одоогийн тамирчин: {board}"
+  },
+  "player_prompt": {
+    "intro": "Та бол {player_id} тоглогч бөгөөд {color} шиг шатар тоглоом тоглодог. Шатар тоглоомын дүрэмд [fileRank fileRank], жишээ нь '[b2c3]' (төмөрний үсэгтэй, дарааллын дугаар 07) гэсэн дүрэмд гарна. Үндсэн дүрэм: • Хэрэв хоосон бол 1-ээр урагш алхаж. • Бүрэн эрэгт хүрвэл эзэмших."
+  },
+  "invalid_move": {
+    "wrong_format": "Хувьсгалт хэлбэр олдоогүй. [a1b2], жишээ нь [b2c3] ашиглана.",
+    "illegal": "Move [{move}] is illegal."
+  },
+  "game_action": {
+    "moved": "Тоглогч {player_id} хөдөлсөн {move}."
+  },
+  "outcome": {
+    "red_no_pieces": "Улаан өнгөт нь үлдээгүй.",
+    "black_no_pieces": "Хар өнгөт нь ямар ч хувцас үлдээгүй.",
+    "no_moves": "Player {player_id} has no moves left.",
+    "draw": "Хаалганы хязгаар хүрчээ."
+  }
+}

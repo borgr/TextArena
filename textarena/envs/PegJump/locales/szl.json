@@ -1,0 +1,16 @@
+{
+  "player_prompt": {
+    "intro": "Gracie w PegJump. Skok jedyn szpil na drugigo do pusty dziury, usuwjyniym skokowanego szpila. Celo: skoczyć z akuratnym **jednego** szpilu leżōncego. Formatu akcyje: np '[4 1]'."
+  },
+  "board": {
+    "current_board": "Szpile pozostŏły: {count}\n{board}"
+  },
+  "invalid_move": {
+    "wrong_format": "Niyprawidłowy syntaks. Użyj [i->j].",
+    "illegal_move": "Niylegalne posuniyncie."
+  },
+  "outcome": {
+    "win": "Rozwiōnzano, jedyn szpil ôstoł!",
+    "no_moves": "Żodyn sie niy ruszo."
+  }
+}

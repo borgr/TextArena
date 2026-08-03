@@ -1,0 +1,20 @@
+{
+  "player_prompt": {
+    "intro": "Ianao no mpilalao {player_id} ao amin'ny lalao Reverse Tic Tac Toe. Ny marikao dia '{symbol}'. Ny tanjona dia ny hisorohana ny fahazoana telo misesy (mandeha, mitsangana, na miolakolaka). Raha manao telo misesy ianao, dia VERY. Alefaso ny hetsikao amin'ny alàlan'ny endrika '[4] 'hametrahana ny marikao ao amin'ny sela 4. Amin'ny maha mpilalao {player_id} anao dia '{symbol}' ary ny mpanohitra anao dia '{opponent_symbol}'."
+  },
+  "board": {
+    "current_board": "Birao ankehitriny: {board} Hetsika azo atao: {moves}"
+  },
+  "invalid_move": {
+    "wrong_format": "Tsy mety ny endrika famindrana. Ampiasao ny \"[cell]\".",
+    "invalid_cell": "Fitaovana tsy mety.",
+    "already_occupied": "Efa misy olona ao amin'ny sela {cell}."
+  },
+  "game_action": {
+    "placed": "Ny mpilalao {player_id} dia nametraka ny marika ({symbol}) ao amin'ny sela {cell}."
+  },
+  "outcome": {
+    "loss": "Very ny mpilalao {player_id} raha mamita tsipika!",
+    "draw": "Tsy nisy resy."
+  }
+}

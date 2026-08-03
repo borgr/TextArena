@@ -1,0 +1,25 @@
+{
+  "player_prompt": {
+    "intro": "Umdlali {player_id} kuQuantum Tic Tac Toe. Isimboli yakho ngu-'{symbol}', futhi izinombolo zakho zokuhamba zihlala ziyi-{parity} (isib., X1, X3 noma O2, O4). Umgomo: Wina ngokwakha umugqa wamamaki amathathu akudala (aqiniswe kusuka kuma-superpositions). Indlela Yokudlala: - Ekuphendukeni ngakunye, beka uphawu olwesabekayo ezikweleni ezimbili ezingenalutho ezihlukene usebenzisa ifomethi '[a,b]'. - Lezi zimpawu zixakanisiwe, futhi zifakwe ilebula njenge-'X1 / X1' noma 'O4 / O4'. - Awukwazi ukubeka izimpawu ezesabekayo esikhaleni esivele siwile (siqinisiwe). Umthetho wokuwa: - Uma isinyathelo sakho sakha umjikelezo emgqeni wokuxakaniswa, siyawa ngokuzenzakalelayo. - Uphawu ngalunye olwesabekayo kumjikelezo luba uphawu olujwayelekile kwesinye sezikhundla zalo ezimbili. - Noma yimaphi amamaki asusayo nawo ayawa. - Ukunqoba: Uma umdlalo uphela lapho bobabili abadlali benamaphuzu amathathu alandelanayo emgqeni olune ngenombolo elifanayo, umdlali uzuza u-'[0,4] - Isibonelo: Uma umdlali ngamunye edlala uhola u-0 futhi udlala endaweni eyodwa ngesikhathi sokuhamba komugqa."
+  },
+  "board": {
+    "current_board": "I-Quantum Tic Tac Toe Board: {board} Thumela isinyathelo sakho ngokuthi \"[a,b]\" ukubeka uphawu lwe-quantum ezindaweni ezimbili."
+  },
+  "invalid_move": {
+    "wrong_format": "Ifomethi engalungile. Sebenzisa u-'[a,b]'.",
+    "invalid_cells": "Izinkomba zamaseli ezingavumelekile noma eziphindaphindwayo.",
+    "already_solidified": "Elinye lamangqamuzana selivele seliqinile."
+  },
+  "game_action": {
+    "placed": "Umdlali {player_id} wabeka uphawu lwakhe phakathi kwamagumbi {pos_a} no {pos_b}."
+  },
+  "game_message": {
+    "dependent_resolved": "Ukubekwa phezulu okuxhomeke kuxazululwe. Iseli ({r}, {c}) manje seyi {symbol}.",
+    "last_cell_resolved": "Ukubekwa kwe-cell yokugcina kuxazululwe. I-cell ({r}, {c}) manje seyi-{symbol}.",
+    "superposition_resolved": "Ukubekwa phezulu kuxazululwe. Iseli ({r}, {c}) manje seyi {symbol}."
+  },
+  "outcome": {
+    "win": "Umdlali {player_id} unqoba ngamamaki aqinile!",
+    "draw": "Umdlalo awunamphumela!"
+  }
+}

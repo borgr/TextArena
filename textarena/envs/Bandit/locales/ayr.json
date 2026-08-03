@@ -1,0 +1,23 @@
+{
+  "player_prompt": {
+    "intro": "You are in a room with {num_buttons} buttons: {buttons}. Each button is associated with a Bernoulli distribution with a fixed but unknown mean; the means for the buttons could be different.\nFor each button, when you press it, you will get a reward that is sampled from associated distribution.\nYou have {num_turns} time steps and, on each time step, you can choose any button and receive the reward.\nYour goal is to strategically choose buttons at each time step to collect information about their reward distribution, that will let you choose the button with the highest mean reward correctly at the end of {num_turns} turns."
+  },
+  "board": {
+    "stat_line": "{button}: {reward} (juk'ata {count} p'unchaykama)",
+    "summary": "Summary: {stats}"
+  },
+  "invalid_move": {
+    "wrong_format": "Uka anatirix janiw mä aski lurawimpix jayskiti.",
+    "invalid_button": "Mä jan wali k'achachañaw ajllt'ata."
+  },
+  "game_action": {
+    "pressed": "Kamisita {button} jach'a uta, {reward} suman irpirinakax utji."
+  },
+  "game_message": {
+    "final_decision": "Kunatï utjkäna uk yantʼañatakisa, kunjamsa yanaptʼätam uñjañatakis qollqejj janiw utjapktamti."
+  },
+  "outcome": {
+    "win": "Jachañchañani, walikispaw uka pulsillur ajlliñaxa.",
+    "lose": "Jan wali pulsillurakiw ajlliwaytaxa."
+  }
+}
