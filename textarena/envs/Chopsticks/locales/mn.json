@@ -14,7 +14,7 @@
   },
   "game_action": {
     "attack": "P{player_id} нь P{opp_id}-ийн гарыг {opp_idx} халдаж, {opp_val}-аас {new_val}-д шилжинэ.",
-    "split": "P{player_id} splits into [{L}, {R}]."
+    "split": "Тоглогч {player_id} [{L}, {R}] болгон хуваав."
   },
   "history": {
     "entry": "P{player_id} {desc}"

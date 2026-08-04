@@ -1,14 +1,14 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a 3-player Iterated Prisoner's Dilemma. The match lasts {num_rounds} rounds.\nRound structure:\n• {conv_rounds} free-chat turns\n• 1 decision turn - submit one token per opponent: '[<opp-id> cooperate]' or '[<opp-id> defect]' (i.e. '[1 defect] [2 cooperate]'; the default is 'cooperate'). \nPair-wise payoff matrix (applied to each unordered pair):\n  - Both cooperate  ->  {reward}\n  - Both defect     ->  {punishment}\n  - You defect, they cooperate -> {temptation}\n  - You cooperate, they defect -> {sucker}\nThe player(s) with the highest score at the end of all rounds wins."
+    "intro": "Yin ee Player {player_id} ee 3-player Iterated Prisoner's Dilemma. Match ee dhieth {num_rounds} rounds.\nKoc ee round:\n• {conv_rounds} akuen kek thiaan\n• 1 akuen kek bany - cuet akuen tok per opponent: '[<opp-id> cooperate]' ku '[<opp-id> defect]' (kec. '[1 defect] [2 cooperate]'; default ee 'cooperate'). \nMatrix ee payoff ee riinic (applied ee koor ee unordered pair):\n  - Koor ee cooperate  ->  {reward}\n  - Koor ee defect     ->  {punishment}\n  - Yin defect, kek cooperate -> {temptation}\n  - Yin cooperate, kek defect -> {sucker}\nPlayer(s) ee adhieth score ee koor ee rounds aacuei ee win."
   },
   "round": {
-    "start": "─── Starting Round {round} ───\tYou can converse freely for the next {conv_rounds} rounds.",
-    "chat_finished": "Chat finished for round {round}. Submit your decisions, one token per opponent: `[pid cooperate]` or `[pid defect]`."
+    "start": "─── Yin ee koor Round {round} ───\tYin aakuem converse freely ee {conv_rounds} rounds.",
+    "chat_finished": "Chat ee koor ee round {round}. Cuet kek decisions, akuen tok per opponent: `[pid cooperate]` ku `[pid defect]`."
   },
   "results": {
     "header": "### Round {round} - Kë cï yök:",
-    "pair_line": "{observation}\n\t Player {i} vs Player {j} cë lëu bë '{choice_i}' na '{choice_j}' (Player {i} cë lëu {gain_i}, Player {j} cë lëu {gain_j})",
+    "pair_line": "{observation}\n\t Jɛnɛ {i} ku Jɛnɛ {j} aake ye {choice_i} ku {choice_j} ɣɔ̈ɔ̈r (Jɛnɛ {i} aake ciɛ̈ɛ̈ŋ {gain_i}, Jɛnɛ {j} aake ciɛ̈ɛ̈ŋ {gain_j})",
     "scores_open": "{observation} -> Kä ye kek yök në yemɛɛn: ",
     "score_first": "{observation}Player {player_id} ({score})",
     "score_next": "{observation}; Player {player_id} ({score})",

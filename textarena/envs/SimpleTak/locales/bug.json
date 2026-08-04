@@ -5,7 +5,7 @@
   "invalid_move": {
     "invalid_move_format": "Format appelleengeng de'na magello",
     "cell_out_of_range": "Sel nyalaʼi {cell_num}. Harus antara 0 dan {max_board_num}.",
-    "cell_already_occupied": "Cell {cell_num} is already occupied. Choose an empty cell."
+    "cell_already_occupied": "Sel {cell_num} sudah terisi. Pili' sel kosong."
   },
   "board": {
     "current_state": "Papan Saaran:\n\n{rendered_board}\nGeriak Selanjutnyo: {available_moves}"

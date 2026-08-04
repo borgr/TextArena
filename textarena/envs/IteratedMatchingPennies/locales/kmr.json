@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({role}) in a {num_rounds}-round Matching Pennies game.\n- Each round, submit [heads] or [tails] (or [h], [t]).\n- If your choice matches your opponent’s, Player 0 wins the round; otherwise Player 1 wins.\nReply with your choice in the format '[heads]' or '[tails]'.\n"
+    "intro": "Tu Lêzer {player_id} ({role}) î di lîstika Matching Pennies a {num_rounds}-çerxî de.\n- Di her çerxî de, [heads] an [tails] (an [h], [t]) bişîne.\n- Eger hilbijartina te bi ya dijberê te re hevûdu, Lêzer 0 çerxê qezenc dike; naçe wê Lêzer 1 qezenc dike.\nBersivê xwe bi formatê '[heads]' an '[tails]' bişîne.\n"
   },
   "invalid_move": {
     "wrong_format": "Şêweya neşik; ji kerema xwe '[heads]' an '[tails]' pêşkêş bike."

@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "ක් රියාව [row col] ආකෘතියේ විය යුතුය. එහිදී පේළිය සහ තීරුව 0 සිට {max_index} දක්වා පූර්ණ සංඛ් යා වේ.",
-    "out_of_range": "Coordinates must be between 0 and {max_index}. You entered [{row},{col}]."
+    "out_of_range": "ඛණ්ඩිත අක්ෂාංශ යාව යුත්තේ 0 සහ {max_index} අතර ය. ඔබ [{row},{col}] ඇතුළත් කළා."
   },
   "outcome": {
     "win": "සුභ පැතුම්! ඔයා ප් රහේලිකාව {moves_used} චලනයන්ගෙන් විසඳගත්තා!",

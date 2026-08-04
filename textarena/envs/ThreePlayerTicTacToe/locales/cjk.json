@@ -11,22 +11,22 @@
     "{moves}": "The comma-separated list of available move tokens like '[4]' (do not translate)"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player Tic Tac Toe.\nYour symbol is '{symbol}'.\nYou take turns placing your symbol on a 5x5 board to form a line of four.\nLines can be horizontal, vertical, or diagonal.\nSubmit your move using the format '[4]' to mark cell 4."
+    "intro": "Wena ule muthu wakwela {player_id} mu Three-Player Tic Tac Toe.\nChisimbolo chako ni '{symbol}'.\nWena ukwela mizungu yakwe kulemba chisimbolo chako pa mphapha wa 5x5 kutengeneza mstari wa nne.\nMistari inaweza kuwa ya mlalo, wima, au diagonal.\nTumiza mizungu yako kwa kutumia mfumo '[4]' kutia alama seli 4."
   },
   "board": {
-    "current_board": "Current Board:\n\n{board}\n\nAvailable Moves: {moves}"
+    "current_board": "Mphapha wa Sasa:\n\n{board}\n\nMizungu Inayopatikana: {moves}"
   },
   "invalid_move": {
-    "wrong_format": "Cjk ck. Failed to move format. Use '[cell]' where cell is 0-.{max_cell}.",
-    "out_of_range": "Invalid cell number: {cell}. Must be between 0 and {max_cell}.",
-    "already_occupied": "Cell {cell} is already occupied.",
-    "made_invalid": "Player {player_id} made an invalid move"
+    "wrong_format": "Mfumo wa mzungu usio sahihi. Tumia '[cell]' ambapo seli ni 0-{max_cell}.",
+    "out_of_range": "Nambari ya seli isiyo sahihi: {cell}. Lazima iwe kati ya 0 na {max_cell}.",
+    "already_occupied": "Seli {cell} tayari imejaa.",
+    "made_invalid": "Muthu wakwela {player_id} alifanya mzungu usio sahihi"
   },
   "game_action": {
-    "placed": "Player {player_id} places their symbol ({symbol}) in field ({row}, {col})."
+    "placed": "Muthu wakwela {player_id} anaweka chisimbolo chake ({symbol}) m'munda ({row}, {col})."
   },
   "outcome": {
-    "win": "Player {player_id} ({symbol}) wins!",
+    "win": "Muthu wakwela {player_id} ({symbol}) akunja!",
     "draw": "Mchezo ni draw!"
   }
 }

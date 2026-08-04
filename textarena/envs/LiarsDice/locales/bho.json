@@ -33,7 +33,7 @@
     "caller_loses": "प्लेयर {current_player_id} कॉल करता है! मुख {face_value} की वास्तविक गणना {count} है, जो {quantity} से >= है।\nप्लेयर {loser_id} (कॉलर) एक पासा खो देता है."
   },
   "action": {
-    "bid_announce": "Player {player_id} bids {quantity} of face {face_value}."
+    "bid_announce": "प्लेयर {player_id} {quantity} फेस {face_value} की बिड लगाता है।"
   },
   "invalid_move": {
     "call_no_bid": "बिना कवनो बोली के कइल गइल कॉल.",

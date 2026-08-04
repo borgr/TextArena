@@ -16,7 +16,7 @@
   },
   "game_action": {
     "skipped": "لوبغاړی {pid} باید خپل وار له لاسه ورکړي",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "لوبغاړی {pid} ({piece}) لوبه وکړه [{r}, {c}] په ګرځولو {flipped} ټوټه(ټوټې)"
   },
   "game_message": {
     "must_skip": "لوبغاړی {pid} ({piece}) هیڅ معتبر حرکت نه لري او باید پریږدي."

@@ -3,11 +3,11 @@
     "current_board": "Patronato atuale: {board}"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} playing a game of Checkers as {color}.\nMake your move in chess-style notation [fileRank fileRank], e.g. '[b2c3]' (column letter a–h, row digit 0–7).\nBasic rules:\n  • Move diagonally forward by 1 if empty.\n  • Capture by jumping over an opponent piece.\n  • A piece is Kinged if it reaches the opposite end.\n"
+    "intro": "Ti xe Giugador {player_id} che zuga a Dama come {color}.\nFa la to mossa in notasion stile scacchi [fileRank fileRank], par exenpio '[b2c3]' (letera de colona a–h, sifra de riga 0–7).\nRegole bazeghe:\n  • Move in diagonal in avanti de 1 se vodo.\n  • Ciapa saltando sora na pedina de l'avversario.\n  • Na pedina la vien incoronada se la riva al lato oposto.\n"
   },
   "invalid_move": {
     "wrong_format": "Nisun formato de mossa valido trovà. Dopara [a1b2], par exenpio [b2c3].",
-    "illegal": "Move [{move}] is illegal."
+    "illegal": "La mossa [{move}] no la xe valida."
   },
   "game_action": {
     "moved": "Giocatore {player_id} spostato {move}."

@@ -26,7 +26,7 @@
     "placed": "Muteri {player_id} u chela simbolo yakwe ({symbol}) eka ndhawu ({row}, {col})."
   },
   "outcome": {
-    "win": "Player {player_id} ({symbol}) wins!",
+    "win": "Mchavi {player_id} ({symbol}) uhlula!",
     "draw": "Ntlangu wu ve na ku ringana!"
   }
 }

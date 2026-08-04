@@ -9,7 +9,7 @@
     "selects": "Bidh cluicheadair {player_id} a 'taghadh gluasad {move}."
   },
   "message": {
-    "round_draw": "Co-dhùnadh: Draw",
+    "round_draw": "Builgean na cuairt: Co-thàth",
     "round_win": "Co-dhùnadh a' chuairt: Tha cluicheadair {winner} air buannachadh!"
   },
   "outcome": {

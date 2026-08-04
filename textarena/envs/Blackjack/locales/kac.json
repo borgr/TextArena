@@ -1,9 +1,9 @@
 {
   "player_prompt": {
-    "intro": "You are playing Blackjack against the dealer.\nYour goal is to get as close to 21 as possible without going over.\nOn your turn, choose '[Hit]' to draw another card or '[Stand]' to hold.\nJ/Q/K = 10 points; A = 11 or 1, whichever is better.\n"
+    "intro": "Nan Blackjack kawp na dealer hpe tsun ai.\nNan a lam madang 21 hpe tsap ai hku na, shanhte hpe shangun ai hku na.\nNan a shani hta, '[Hit]' hpe pawt ai nhtoi hta na, '[Stand]' hpe pawt ai nhtoi hta na.\nJ/Q/K = 10 point; A = 11 le 1, gaw gap ai hku na.\n"
   },
   "board": {
-    "current_state": "Hand {hand_number}/{num_hands}\nYour hand: {player_hand} (Score: {score})\nDealer shows: {dealer_card}"
+    "current_state": "Lak {hand_number}/{num_hands}\nNan a lak: {player_hand} (Score: {score})\nDealer a shana: {dealer_card}"
   },
   "invalid_move": {
     "wrong_format": "Invalid action. '[Hit]' yan '[Stand]' hpang ra ai."

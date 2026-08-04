@@ -16,10 +16,10 @@
   },
   "game_action": {
     "skipped": "Muntu ya kebula {pid} fwete sala ve nsaka na yandi.",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "Mwana nkenda {pid} ({piece}) akenda [{r}, {c}] akakatwa {flipped} mamboko"
   },
   "game_message": {
-    "must_skip": "Player {pid} ({piece}) has no valid moves and must skip."
+    "must_skip": "Mwana nkenda {pid} ({piece}) hana mwendo unaoruhusiwa na unabidi kuleka."
   },
   "outcome": {
     "black_wins": "Bantu ndombe ke nungaka {black_count}-{white_count}.",

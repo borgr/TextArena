@@ -13,6 +13,6 @@
   },
   "outcome": {
     "win": "Құттықтап отырмын! Сіз дұрыс санды ойлап таптыңыз.",
-    "turn_limit": "The turn limit has been reached. Guess: {guess}, Target: {target}"
+    "turn_limit": "Қадам шектеуіне жетті. Болжам: {guess}, Мақсат: {target}"
   }
 }

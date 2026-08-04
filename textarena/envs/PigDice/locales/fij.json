@@ -6,18 +6,18 @@
     "invalid_action": "Na vunaucoko e sega ni dodonu. Vakadidike '[roll]' se '[hold]'."
   },
   "actions": {
-    "player_busted": "Player {player_id} busted, losing {turn_total} points!",
-    "player_hold": "Player {player_id} holds and banks {turn_total} points."
+    "player_busted": "Na Player {player_id} sa cala, sori {turn_total} poi!",
+    "player_hold": "Na Player {player_id} sa hold ka bank {turn_total} poi."
   },
   "board": {
-    "player": "Player 0: '{score_0}'; Player 1: '{score_1}'",
+    "player": "Dauqito 0: '{score_0}'; Dauqito 1: '{score_1}'",
     "current_total_scores": "Na iwiliwili taucoko ni nomu gauna oqo: {scores} na levu kece ni nomu sausaumi ena gauna qo e {turn_total}.",
     "roll_history": "{observation}\nNa itukutuku ni nomu roll ena turn qo: {roll_history}",
     "first_roll": "{observation} Qo na imatai ni nomu gauna mo vakaliliga.",
     "available_actions": "{observation}\nVakadidike ni veika e rawa ni cakava: '[roll]' se '[hold]'"
   },
   "outcome": {
-    "winner_by_turn_limit": "Player {winner_id} sa wini ena ni sa tu na turn limit ({scores})",
+    "winner_by_turn_limit": "Na Player {winner_id} sa qalai ena kena vakarawarawataki na isau makawa ({scores})",
     "winner_by_score": "Player {winner_id} sa wini ena ni sa veita {winning_score}!",
     "draw": "Sa yacova na iyalayala ni gauna ka ra sa tautauvata kece kina o ira era qito: {scores}"
   }

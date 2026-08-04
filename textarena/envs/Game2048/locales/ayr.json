@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing 2048 on a {board_size}x{board_size} board. Your goal is to reach a {target_tile} tile by sliding identical numbers together!\nValid moves: [Up], [Down], [Left], [Right]. Tiles combine when they collide, doubling their value.\n"
+    "intro": "Jugaskt'as 2048 ukatxa {board_size}x{board_size} p'iqi. Q'umachañkamaxa {target_tile} p'iqi uñacht'asina, sartawi número iguales ukatxa junt'asina!\nKunasa kamayasi: [Up], [Down], [Left], [Right]. P'iqinakaxa junt'asina, valorapaxa duplikasina.\n"
   },
   "board": {
     "current_board": "Score: {score}\n{board}"

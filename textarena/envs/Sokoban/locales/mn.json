@@ -12,7 +12,7 @@
     "invalid_position": "Хөдөлгөөний хүчингүй байдал - энэ байрлалд шилжих боломжгүй."
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
+    "moved": "Та {pushed} хөдлөв [{action}].",
     "pushed_prefix": "нэг хайрцаг түрүүлэв"
   },
   "outcome": {

@@ -6,7 +6,7 @@
     "invalid_action": "Amalning haqiqiy bo'lmagan shakli. \"[roll]\" yoki \"[hold]\" dan foydalaning."
   },
   "actions": {
-    "player_busted": "Player {player_id} busted, losing {turn_total} points!",
+    "player_busted": "O'yinchi {player_id} mag'lub bo'ldi, {turn_total} ochkoni yo'qotdi!",
     "player_hold": "O'yinchi {player_id} o'yinchiga o'tadi va bank {turn_total} ball to'laydi."
   },
   "board": {

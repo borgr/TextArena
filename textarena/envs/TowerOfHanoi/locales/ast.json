@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing Tower of Hanoi with {num_disks} disks.\nYou have to move the disks from tower A to tower C.\nTo move a disk, type the source tower and the target tower (e.g., '[A C]').\nNote that you can only move the top disk of a tower, and that a bigger disk cannot be placed on a smaller disk.\nAt each turn, submit one move."
+    "intro": "Tas xugando a la Torre de Ḥanói con {num_disks} discos.\nTienes que mover los discos de la torre A a la torre C.\nPa mover un discu, escribe la torre d'orixe y la torre oxetivu (p. ex., '[A C]').\nTen en cuenta que namái pue mover el discu cimeru d'una torre, y que nun pue asitiar un discu mayor nun discu menor.\nEn cada tornu, unvia una xugada."
   },
   "board": {
     "current_board": "El Conseyu actual: {board}."

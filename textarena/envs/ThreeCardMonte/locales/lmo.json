@@ -11,21 +11,21 @@
     "{ball_pos}": "The cup index the ball is under"
   },
   "player_prompt": {
-    "intro": "Track the hidden ball 'X' while the cups are shuffled.\nAfter shuffling, guess its location with `[k]`."
+    "intro": "Traca la balla 'X' nascosta intant che le coppe i è mescolade.\nDopo de la mescolada, indovina la so posizion con `[k]`."
   },
   "game_message": {
-    "ball_starts": "Ball starts: {line}",
+    "ball_starts": "La balla la scomincia: {line}",
     "shuffle": "Mischia {step}/{steps}: i copp {i} e {j} hinn staa scambiacc.",
     "cups": "Copp: {line}  {prompt}",
     "guess_now": "(Ghètta ORA!)",
     "reveal": "(Rivèl: palla sota {ball_pos})"
   },
   "invalid_move": {
-    "wrong_format": "Bad action. Use `[k]`.",
-    "out_of_range": "Index out of range 0-{max_index}. l i n d e r t a s c h o u m p q k z ."
+    "wrong_format": "Azione mala. Doperà `[k]`.",
+    "out_of_range": "Indice foeura de la gamma 0-{max_index}."
   },
   "outcome": {
     "win": "Giust, t'è trovà la palla.",
-    "lose": "Wrong — ball was under cup {ball_pos}."
+    "lose": "Sbagliad — la balla l'era sota la coppa {ball_pos}."
   }
 }

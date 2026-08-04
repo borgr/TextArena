@@ -11,17 +11,17 @@
     "{ball_pos}": "The cup index the ball is under"
   },
   "player_prompt": {
-    "intro": "Track the hidden ball 'X' while the cups are shuffled.\nAfter shuffling, guess its location with `[k]`."
+    "intro": "Lean air a' bhàla fhalamh 'X' fhad 's a tha na cupaichean air an suilbhidh.\nAn dèidh suilbhidh, thoir an àite aige le `[k]`."
   },
   "game_message": {
     "ball_starts": "Bidh ball a 'tòiseachadh: {line}",
     "shuffle": "Cuir às {step}/{steps}: chaidh cuipan {i} agus {j} a chur às a chèile.",
     "cups": "Cuipan: {line}  {prompt}",
-    "guess_now": "(Guess A-NIS!)",
+    "guess_now": "(Tomhais a-nis!)",
     "reveal": "(Foghlaim: ball fo {ball_pos})"
   },
   "invalid_move": {
-    "wrong_format": "Bad action. Use `[k]`.",
+    "wrong_format": "Gnìomh dona. Cleachd `[k]`.",
     "out_of_range": "Innecs a-muigh à raon 0-{max_index}."
   },
   "outcome": {

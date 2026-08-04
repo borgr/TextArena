@@ -3,7 +3,7 @@
     "intro": "Uwite Player {player_id} mu mukino wa Chopsticks. Mu gihe cy'ukwe, hitamo mo kimwe ku:\n  + Arataka:  '[attack M O]'  where M=igobe ryawe (0 or 1), O=igobe ry'abapfuye (0 or 1).\n    - Igobe ry'abapfuye kizongera kubera igobe ryawe; ikiyongera 5, kizaba 0.\n  + Tandukana:   '[split L R]'  ukoreshe igobe ryawe ryose muri L na R (L+R = igobe ryawe ryose).\nWandanike mo kimwe ku mafunguro yaliyo hapo juu."
   },
   "board": {
-    "current_board": "Bord yakuze:\nPlayer 0: {hands_0}\nPlayer 1: {hands_1}"
+    "current_board": "Urukuta rw'igihe:\nMugenzi 0: {hands_0}\nMugenzi 1: {hands_1}"
   },
   "invalid_move": {
     "my_hand_dead": "Ukuboko kwawe {my_idx} kwarapfuye.",
@@ -14,7 +14,7 @@
   },
   "game_action": {
     "attack": "P{player_id} arataka igobe ry'a P{opp_id} {opp_idx}: ryagenda kuva {opp_val} kugera {new_val}.",
-    "split": "P{player_id} splits into [{L}, {R}]."
+    "split": "P{player_id} agabanya kwa [{L}, {R}]."
   },
   "history": {
     "entry": "P{player_id} {desc}"

@@ -14,26 +14,26 @@
     "{scores}": "The final scores as a raw player-number to score mapping - do not translate"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player GOPS.\n- You hold the 13 cards A-K (each exactly once).\n- Each round a prize is revealed. Submit ONE card like `[Q]`, `[10]`, `[2]` …\n- Highest card wins the prize (+ any carry-over pot). Ties roll the prize into the next round.\n- After 13 rounds, highest total wins. Invalid moves = elimination."
+    "intro": "Ove ule Muthandi {player_id} mu Three-Player GOPS.\n- Ove na kadi 13 A-K (kamwe kadi kamo).\n- Kila kilonda, ivila vya ndjiya vya monikwa. Yandja kadi moja nga `[Q]`, `[10]`, `[2]` …\n- Kadi ya nguvu ina sindika ivila (na ndjiya yoyi isindikilwa). Kadi za nguvu sawa zinatwala ivila kuenda kilonda kikwame.\n- Kuima kilonda 13, nguvu ya juu ina sindika. Mithandhi isivyo vya ulevo = kuondjolwa."
   },
   "round": {
-    "header": "### Round {round}/13 - Prize: {prize} (worth {worth})",
+    "header": "### Nthanda {round}/13 - Nthanda: {prize} (kwa {worth})",
     "hand": "Oku imba ovikanda: {hand}"
   },
   "reveal": {
-    "win": "Bids » {bids} - Player {winner} wins {pot}.",
-    "tie": "Bids » {bids} - tie, pot now {pot}.",
+    "win": "Pange » {bids} - Muthemeni {winner} inakwasha {pot}.",
+    "tie": "Pange » {bids} - ku kwakala, nthanda sasa {pot}.",
     "scores": "Atendelo → {scoreline}"
   },
   "invalid_move": {
-    "no_token": "action needs a bracketed card like '[Q]'",
+    "no_token": "eku ove kufanya a kadi ombalimbali nga '[Q]'",
     "bad_card": "okokanda kaco ka talavaya ale ka ka kuatele esilivilo"
   },
   "elimination": {
-    "player": "Player {pid} eliminated after repeated invalid moves."
+    "player": "Muthandi {pid} aondjolwa kuima mithandhi isivyo vya ulevo."
   },
   "outcome": {
-    "auto_win": "Two players eliminated - automatic win.",
+    "auto_win": "Muthandi wawili aondjolwa - usindiki wa otomatico.",
     "final": "Atendelo a sulako: {scores}"
   }
 }

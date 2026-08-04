@@ -4,7 +4,7 @@
   },
   "round": {
     "start": "─── بدء الجولة {round} ───\tيمكنك التحدث بحرية للجولات {conv_rounds} القادمة.",
-    "chat_finished": "Chat finished for round {round}. Submit your decisions, one token per opponent: `[pid cooperate]` or `[pid defect]`."
+    "chat_finished": "سلاّمت ليهدرة د هاد الجولة {round}. قدم قراراتك، توكين واحد لكل خصم: `[pid cooperate]` أولّا `[pid defect]`."
   },
   "results": {
     "header": "### الجولة {round} - النتائج:",

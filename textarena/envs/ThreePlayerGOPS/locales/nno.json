@@ -14,11 +14,11 @@
     "{scores}": "The final scores as a raw player-number to score mapping - do not translate"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player GOPS.\n- You hold the 13 cards A-K (each exactly once).\n- Each round a prize is revealed. Submit ONE card like `[Q]`, `[10]`, `[2]` …\n- Highest card wins the prize (+ any carry-over pot). Ties roll the prize into the next round.\n- After 13 rounds, highest total wins. Invalid moves = elimination."
+    "intro": "Du er Spelar {player_id} i Tre-spelar-GOPS.\n- Du held dei 13 korta A-K (kvart nøyaktig ein gong).\n- Kvar runde blir ein premie avdekt. Send inn EITT kort som `[Q]`, `[10]`, `[2]` …\n- Høgaste kort vinn premien (+ eventuell overført pot). Uavgjort rullar premien over til neste runde.\n- Etter 13 rundar vinn spelaren med høgaste totale poengsum. Ugyldige trekk = eliminering."
   },
   "round": {
     "header": "### Runde {round}/13 - Premie: {prize} (verdt {worth})",
-    "hand": "Your remaining hand: {hand}"
+    "hand": "Din gjenværende hand: {hand}"
   },
   "reveal": {
     "win": "Bud » {bids} - Spelar {winner} vinn {pot}.",

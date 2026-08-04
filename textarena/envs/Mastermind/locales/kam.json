@@ -1,22 +1,22 @@
 {
   "player_prompt": {
-    "intro": "You are playing Mastermind.\nYou need to find the code that is {code_length} digits long, each digit from 1 to {num_numbers}, {repeats}.\nIn your response, you can submit your guess in the following format: '[2 1 4 5]'.\nAfter each guess, you will receive feedback in the form of black and white pegs.\nA black peg indicates a correct digit in the correct position, while a white peg indicates a correct digit in the wrong position.\nYou have {max_turns} turns to guess the code.\n",
+    "intro": "Unanatania Mastermind.\nUna hitaji kupata msimbo una urefu wa {code_length} tarakimu, kila tarakimu kutoka 1 hadi {num_numbers}, {repeats}.\nKatika jibu lako, unaweza kuwasilisha bahati yako kwa muundo ufuatao: '[2 1 4 5]'.\nBaada ya kila bahati, utapokea maoni katika umbo la kipeo nyeusi na nyeupe.\nKipeo nyeusi kinamaanisha tarakimu sahihi katika nafasi sahihi, wakati kipeo nyeupe kinamaanisha tarakimu sahihi katika nafasi isiyo sahihi.\nUna {max_turns} zamu za kubahatisha msimbo.\n",
     "with_repeats": "na mavinda angĩ nĩtũtonya kwĩthĩa ĩngĩ na ĩngĩ.",
     "no_duplicates": "na vai namba syonanĩtw'e ĩngĩ Mbivilianĩ ĩsu."
   },
   "invalid_move": {
-    "wrong_format": "You did not respond with a space-separated list of numbers wrapped in square brackets.",
+    "wrong_format": "Hukujibu na orodha ya nambari zilizotenganishwa na nafasi zilizowekwa katika mabano ya mraba.",
     "not_integers": "Kĩla vandũ inamba ila syĩthĩawa syoveewe no nginya vethĩwe ve namba iana ũna.",
-    "wrong_length": "The guess should contain exactly {code_length} numbers.",
+    "wrong_length": "Bahati inapaswa kuwa na {code_length} nambari haswa.",
     "out_of_range": "Namba syonthe syaĩle kwĩthĩwa syĩ katĩ wa 1 na {num_numbers}.",
     "duplicates_not_allowed": "Kũthũkya namba sya simũ nĩ kũvatĩtwe.",
-    "repeated_guess": "You have already guessed {guess}. Please try a different guess."
+    "repeated_guess": "Tayari umebahatisha {guess}. Tafadhali jaribu bahati tofauti."
   },
   "game_action": {
-    "feedback": "Submitted [{guess}]. Feedback: {black_pegs} black peg(s), {white_pegs} white peg(s)."
+    "feedback": "Imewasilishwa [{guess}]. Maoni: {black_pegs} kipeo nyeusi, {white_pegs} kipeo nyeupe."
   },
   "outcome": {
-    "win": "You have cracked the code, solving {black_pegs} out of {code_length} pegs correctly",
-    "turn_limit": "Turn limit reached. You guessed {percent} percent of the numbers correctly."
+    "win": "Umefunua msimbo, ukitatua {black_pegs} kati ya {code_length} kipeo kwa usahihi",
+    "turn_limit": "Kikomo cha zamu kimefikia. Ulubahatisha {percent} asilimia ya nambari kwa usahihi."
   }
 }

@@ -13,7 +13,7 @@
     "exceeds_pile": "{quantity}-ті {pile_index}-тен алып тастауға болмайды (тек {pile_count} қалды)."
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "{player_id} ойыншысы [{pile_index} {quantity}] ойнады, {pile_index} үйіндіден {quantity} объект(тер)ді алып тастады."
   },
   "outcome": {
     "win": "Ойыншы {player_id} соңғы затты алды!"

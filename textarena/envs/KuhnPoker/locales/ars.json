@@ -11,12 +11,12 @@
     "not_legal": "يجب ان يكون الإجراء {legal_actions}."
   },
   "action": {
-    "submit_move": "Player {player_id}, submitted move: '[{move}]'.",
+    "submit_move": "اللاعب {player_id}، قدم الإجراء: '[{move}]'.",
     "valid_actions": "الإجراءات المتاحة هي: {legal_actions}.",
     "round_summary": "{reason} النقاط الحالية: اللاعب 0: '{player_0_chips}'; اللاعب 1: '{player_1_chips}'"
   },
   "showdown": {
-    "showdown_summary": "Showdown: Player {winner}'s {winner_card} beats Player {loser}'s {loser_card}. Player {winner} wins pot of {pot_value} chips."
+    "showdown_summary": "المواجهة: بطاقة اللاعب {winner} {winner_card} تتفوق على بطاقة اللاعب {loser} {loser_card}. اللاعب {winner} يفوز بالبوت الذي يحتوي على {pot_value} شيبس."
   },
   "outcome": {
     "draw": "في نهاية جولات {max_rounds}، كان كلا اللاعبين لديهما نفس عدد الرقاق.",

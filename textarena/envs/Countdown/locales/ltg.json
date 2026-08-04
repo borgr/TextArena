@@ -9,7 +9,7 @@
     "progress": "{observation}\nPašreizējais progresa punktu skaits: {progress}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use `[i j op]` where i,j are indices and op is +,-,*,/",
+    "wrong_format": "Nederīgs darbības formāts. Izmantojiet `[i j op]`, kur i,j ir indeksi un op ir +,-,*,/",
     "invalid_indices": "Nederīgi indeksi. Jābūt atšķirīgiem un diapazonā 0-{max_index}",
     "invalid_operation": "Naatbylstūša darbeiba (dalejums ar nulli voi rezultats, kas nav vasals skaitlis)"
   },

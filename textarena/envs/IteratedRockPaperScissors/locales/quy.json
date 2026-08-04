@@ -3,7 +3,7 @@
     "intro": "Kam {player_id} pukaraq kani {num_rounds}-p'unchay Ukhu p'ara, Q'illu, K'usilla pukllaypi.\nYuyaykamusaq kanan, aswan p'unchaykunata atipayaspa.\nHuk p'unchaypi, [rock]', [paper]', [scissors]' nispa akllasqaykita purichkan.\n[r]', [p]', [s]' taytanchu q'illaykamusaqmi ushachichu."
   },
   "invalid_move": {
-    "wrong_format": "Move not recognized. Use [rock], [paper], or [scissors]."
+    "wrong_format": "Kutichiyta manam riqsinichu. [rock], [paper], icha [scissors]ta willakamuy."
   },
   "game_action": {
     "selects": "Pukaraq {player_id} akllasqa {move} takyasqan."

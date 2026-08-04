@@ -9,10 +9,10 @@
     "{pct}": "Progress as a percentage string, e.g. 50%"
   },
   "player_prompt": {
-    "intro": "Map each letter to a unique digit so the arithmetic holds.\nAssign with `[A 5]`, re-assign anytime.\n"
+    "intro": "Vakarautaka na kila lekaleka lalai me vaka na lekaleka levu vou me rawa ni caka na arithmetic.\nVakayagataka na [A 5] me veika, se baci veika tale ena gauna cava ga.\n"
   },
   "invalid_move": {
-    "wrong_format": "Bad action format. Use `[A 5]`.",
+    "wrong_format": "Na fomu ni cakacaka ca. Vakayagataka na [A 5].",
     "letter_not_in_puzzle": "Na matanivola {letter} e sega ni tiko ena vosavosa.",
     "digit_used": "Digit {digit} sa vakayagataki oti mai vei {used_letter}.",
     "leading_zero": "Na matanivola e liu ena dua na vosa, me kua ni 0 (zero)."

@@ -18,7 +18,7 @@
   "outcome": {
     "no_pieces": "Spelaren {player_id} har ingen brikkar.",
     "cannot_move": "Spelaren {player_id} kan ikkje flytta.",
-    "higher_score": "Higher capture score.",
+    "higher_score": "Høgare fangstpoengsum.",
     "move_limit": "Flyttgrensar oppfylte."
   }
 }

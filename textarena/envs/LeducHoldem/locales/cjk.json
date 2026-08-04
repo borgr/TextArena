@@ -16,33 +16,33 @@
     "{lo}": "The loser's chip stack"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Leduc Hold'em.\nRespond with one action token like '[check]', '[bet]', '[call]', '[raise]', or '[fold]' when it is your turn.\nFixed bet sizes: 2 chips pre-flop, 4 chips post-flop (max 2 raises per round)."
+    "intro": "Wena ndi Muthandeni {player_id} ku Leduc Hold'em.\nKhumana na chipimo chimuthu kama '[check]', '[bet]', '[call]', '[raise]', kana '[fold]' apo ndi nthawi yako.\nMakumi ya malipiro gha chipimo: 2 chipu zamu ya kwanza, 4 chipu zamu ya pili (max 2 kupandisha kwa mzunguko)."
   },
   "board": {
-    "new_hand": "### New hand - your private card: {card}",
-    "valid_actions": "Valid actions: {legal}",
-    "flop": "Flop card revealed: {card}"
+    "new_hand": "### Mkono wapya - kadi yako ya siri: {card}",
+    "valid_actions": "Makumi ya vintu: {legal}",
+    "flop": "Kadi ya flop yafichiliwa: {card}"
   },
   "invalid_move": {
-    "wrong_format": "Supply exactly one legal action token.",
-    "illegal_now": "Illegal now. Allowed: {allowed}"
+    "wrong_format": "Perekani chipimo chimuthu cha kufwata.",
+    "illegal_now": "Sivyo apo. Vinga: {allowed}"
   },
   "action": {
-    "check": "Player {pid} checks.",
-    "bet": "Player {pid} bets {amount}.",
-    "raise": "Player {pid} raises {amount}.",
-    "call": "Player {pid} calls {amount}.",
-    "fold": "Player {pid} folds."
+    "check": "Muthandeni {pid} anaangalia.",
+    "bet": "Muthandeni {pid} analipira {amount}.",
+    "raise": "Muthandeni {pid} anapandisha {amount}.",
+    "call": "Muthandeni {pid} anaita {amount}.",
+    "fold": "Muthandeni {pid} anakunja."
   },
   "showdown": {
-    "wins": "Showdown - Player {winner} wins. ",
-    "tie": "Exact tie."
+    "wins": "Mkangano - Muthandeni {winner} anaunda.",
+    "tie": "Mfungano wamwamwamo."
   },
   "outcome": {
-    "banks": "{reason}Current banks: Player 0: {b0}; Player 1: {b1}\n",
-    "hand_limit": "Reached hand limit",
-    "busted": "Player {busted} is busted.",
+    "banks": "{reason}Makumi ya banki apo: Muthandeni 0: {b0}; Muthandeni 1: {b1}\n",
+    "hand_limit": "Mkono ulifikia malipiro",
+    "busted": "Muthandeni {busted} ana vuka.",
     "match_winner": "{reason} | stacks {hi}>{lo}",
-    "match_draw": "{reason} | equal stacks"
+    "match_draw": "{reason} | mizigo ilingana"
   }
 }

@@ -5,7 +5,7 @@
     "commander_beta": "Komandǝ Beta-a."
   },
   "game_state": {
-    "header_round": "=== COLONEL BLOTTO - Round {current_round}/{num_rounds} ===\nRounds Won - Commander Alpha: {alpha_score}, Commander Beta: {beta_score}"
+    "header_round": "=== COLONEL BLOTTO - Rólù {current_round}/{num_rounds} ===\nRólù ɓí - Kàmàndìrì Alpha: {alpha_score}, Kàmàndìrì Beta: {beta_score}"
   },
   "round_battle": {
     "field_result": "\nRɔ́und {current_round}\nCommander Alpha kámɛ́nɛ́: {p0_allocations}\nCommander Beta kámɛ́nɛ́: {p1_allocations}\n",
@@ -17,13 +17,13 @@
     "wrong_format": "Fasal inputbe kalkal gənyi. faidatə: A:5, B:10, C:5",
     "invalid_field": "Su filibe kalkal gənyi. Fatowa kalkal: {field_names}",
     "wrong_allocation_value": "Awowa sammaso yaktəlan lamba kalkallo ba.",
-    "incorrect_total_units": "You have to allocate exactly {num_total_units} units. Current sum: {current_sum}",
+    "incorrect_total_units": "Ká ɓí ɓóɓó {num_total_units} ɓóɓó. Ɓóɓó ɓí ɓí: {current_sum}",
     "good_allocations": "Kәnda dә ngәla."
   },
   "outcome": {
     "winner_alpha": "Commander Alpha wɛ́lɛ́ {score_0}-{score_1} áwɛ́lɛ́ {num_rounds} rɔ́und!",
     "winner_beta": "Commander Beta wɛ́lɛ́ {score_1}-{score_0} áwɛ́lɛ́ {num_rounds} rɔ́und!",
-    "draw": "Game ends in a {score_0}-{score_1} tie after {num_rounds} rounds!",
+    "draw": "Kàm ɓí {score_0}-{score_1} tà rólù {num_rounds}!",
     "early_winner_alpha": "Commander Alpha wɛ́lɛ́ {scores_0}-{scores_1} (shíi kɛ́ kɔ́lɔ́!)!",
     "early_winner_beta": "Commander Beta wɛ́lɛ́ {scores_1}-{scores_0} (shíi kɛ́ kɔ́lɔ́!)!"
   }

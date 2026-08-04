@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing the Minesweeper game.\nThe objective of the game is to reveal all cells that do not contain mines.\nTo make a move, simply specify the row and column coordinates you want to reveal using the format:\n- `[row col]`: Reveal the cell at the specified row and column.\nFor example:\n- `[3 2]` to reveal the cell in Row 3, Column 2.\n- `[5 6]` to reveal the cell in Row 5, Column 6.\nOn your first move, you will reveal an area around the cell you choose to ensure a safe start.\nThe current board layout is shown below. Cells that are unrevealed are represented by a dot ('.'), revealed numbers show the count of adjacent mines.\nBe mindful not to choose already revealed cells.\nHere is the current board layout:\n"
+    "intro": "I ka kɛlɛ kɔrɔ Minesweeper jɛɛ.\nJɛɛ ɲinin bɛ kɛlɛ kɔrɔ bɔɲɛ fɛ, a bɛ kɛlɛ kɔrɔ taa wɛrɛ wɛrɛ ka miiri tɛmɛnna.\nI ka kɛlɛ kɔrɔ bɔɲɛ fɛ, i koo kɛlɛ kɔrɔ bɔɲɛ wɛrɛ wɛrɛ sɔrɔ i n'a fɔ:\n- `[row col]`: Jɛɛ kɛlɛ kɔrɔ bɔɲɛ wɛrɛ wɛrɛ sɔrɔ i n'a fɔ.\nKɔrɔɔri:\n- `[3 2]` jɛɛ kɛlɛ kɔrɔ bɔɲɛ wɛrɛ wɛrɛ sɔrɔ i n'a fɔ ka taa Row 3, Column 2.\n- `[5 6]` jɛɛ kɛlɛ kɔrɔ bɔɲɛ wɛrɛ wɛrɛ sɔrɔ i n'a fɔ ka taa Row 5, Column 6.\nI ka kɛlɛ kɔrɔ bɔɲɛ fɛ, i ka kɛlɛ kɔrɔ wɛrɛ wɛrɛ sɔrɔ i n'a fɔ ka taa kɛlɛ kɔrɔ bɔɲɛ wɛrɛ wɛrɛ.\nKɔrɔɔri bɔɲɛ wɛrɛ wɛrɛ ka sɔrɔ i n'a fɔ, a bɛ kɛlɛ kɔrɔ bɔɲɛ wɛrɛ wɛrɛ.\nKɔrɔɔri bɔɲɛ wɛrɛ wɛrɛ ka sɔrɔ i n'a fɔ:\n"
   },
   "board": {
     "game_board": "Ɲinɛnta: {board}",
@@ -10,13 +10,13 @@
     "wrong_format": "I ma a yira ko i ka jaabili ye tiɲɛn ye.",
     "out_of_bounds": "O kɔ fɛ, a ka kan k'a yira ko sira ni bere tɛ kelen ye.",
     "already_revealed": "Kɛŋɛla tɔɔ la ({row}, {col}) yɛrɛ don niŋa.",
-    "hit_mine": "You hit a mine at ({row}, {col})."
+    "hit_mine": "I ka kɛlɛ kɔrɔ bɔɲɛ wɛrɛ wɛrɛ ka miiri ({row}, {col})."
   },
   "game_action": {
-    "revealed": "You revealed the cell at ({row}, {col})."
+    "revealed": "I ka kɛlɛ kɔrɔ bɔɲɛ wɛrɛ wɛrɛ sɔrɔ i n'a fɔ ({row}, {col})."
   },
   "outcome": {
-    "win": "Congratulations! You have successfully cleared the Minesweeper board.",
-    "turn_limit": "The turn limit has been reached. You successfully uncovered {percent}% of the safe cells."
+    "win": "A barika! A ka Minesweeper ka bɔnɛ kɔrɔw ye.",
+    "turn_limit": "Kɛlɛ ka sɔrɔ kɔrɔw ye ka fɔlɔ. A ka {percent}% ka bɔnɛ kɔrɔw ye."
   }
 }

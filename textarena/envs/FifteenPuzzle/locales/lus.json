@@ -1,10 +1,10 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id}. You are playing the 15-Puzzle game.\nThe objective of the game is to arrange the numbered tiles in ascending order from 1 to 15, with the empty space located in the bottom-right corner.\nTo make a move, you can slide a tile into the empty space (represented by a double underscore, e.g. __) by using one of the following commands:\n- 'up': Move the tile below the empty space up.\n- 'down': Move the tile above the empty space down.\n- 'left': Move the tile to the right of the empty space left.\n- 'right': Move the tile to the left of the empty space right.\nTo submit your move, type the direction (e.g., 'up', 'down', 'left', or 'right') in square brackets, e.g. [up].\nThe current board layout is shown below. Use the information to solve the puzzle.\n"
+    "intro": "I Player {player_id} i ni. I 15-Puzzle game khelh mek a ni.\nHe game thil tum ber chu, 1 atanga 15 inkar number tile te chu ascendin order-a rem tur a ni, empty space chu bottom-right corner-ah dah tur a ni.\nMove pakhat siam turin, double underscore (e.g. __) in represent empty space a ni, a hnuaia tile chu a chungah siam turin, a chung a tile chu a hnuai ah siam turin, a kawtah tile chu a veilam ah siam turin, a veilam a tile chu a kawtah siam turin, hei hi a hnuaia command zinga pakhat hmangin siam tur a ni:\n- 'up': Empty space chung a tile kawt a siam tur.\n- 'down': Empty space hnuai a tile chung a siam tur.\n- 'left': Empty space veilam a tile kawt a siam tur.\n- 'right': Empty space kawtah a tile veilam a siam tur.\nI move thehluh turin, direction (e.g., 'up', 'down', 'left', or 'right') chu square brackets a dah tur, e.g. [up].\nCurrent board layout chu a hnuai a en theih a ni, hei hi puzzle chinfel tur a hman tur a ni.\n"
   },
   "board": {
-    "current_board": "Current Board:\n\n{board}\nAvailable Moves: {moves}",
-    "game_board": "Game Board: {board}"
+    "current_board": "Board Hmanmek:\n\n{board}\nKeimahna Cheng: {moves}",
+    "game_board": "Game Board:\n{board}"
   },
   "invalid_move": {
     "wrong_format": "A khelhna format diklo. Player {player_id} chuan a khelh dan tur chu bracket-a ziak ang hian a chhâng lo va, player pakhatin an hmalakna hi a sawi fel thei ta lova.",

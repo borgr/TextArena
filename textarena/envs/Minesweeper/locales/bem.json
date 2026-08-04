@@ -17,6 +17,6 @@
   },
   "outcome": {
     "win": "Mwabomba bwino ukufumya icibombelo ca Minesweeper pa cilimba.",
-    "turn_limit": "The turn limit has been reached. You successfully uncovered {percent}% of the safe cells."
+    "turn_limit": "Mipaka ya zunguluko ilifikwa. Umwene ukakonka {percent}% ya amashina asalama."
   }
 }

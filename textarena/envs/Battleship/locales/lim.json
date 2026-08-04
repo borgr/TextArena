@@ -8,9 +8,9 @@
     "already_fired": "De coördinaat {coord} is al aangevalle."
   },
   "game_action": {
-    "you_sunk": "Sunk! You sunk a ship at {coord}! Your updated board:\n{view}",
+    "you_sunk": "Gezonke! Doe haos 'n sjeep gezonke op {coord}! Dien geactualiseerd bord:\n{view}",
     "opp_sunk": "Tegenstaander dómpde jouw sjeep bie {coord}! Jouw geüpdate bord:\n{view}",
-    "you_hit": "Hit! You hit a ship at {coord}! Your updated board:\n{view}",
+    "you_hit": "Geraak! Doe haos 'n sjeep geraak op {coord}! Dien geactualiseerd bord:\n{view}",
     "opp_hit": "Tegenstaander trof jouw sjeep bie {coord}! Jouw geüpdate bord:\n{view}",
     "you_miss": "Mis! Doe mós 'ne sjeep bie {coord}! Jouw geüpdate bord:\n{view}",
     "opp_miss": "Tegenstaander mós jouw sjeep bie {coord}! Jouw geüpdate bord:\n{view}"

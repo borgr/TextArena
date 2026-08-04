@@ -14,7 +14,7 @@
   },
   "game_action": {
     "attack": "P{player_id} yana kaiwa hannun P{opp_id} {opp_idx} hari: yana tafiya daga {opp_val} zuwa {new_val} .",
-    "split": "P{player_id} splits into [{L}, {R}]."
+    "split": "P{player_id} ya raba zuwa [{L}, {R}]."
   },
   "history": {
     "entry": "P{player_id} {desc}"

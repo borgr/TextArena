@@ -16,7 +16,7 @@
   },
   "game_action": {
     "skipped": "Spelaren {pid} måtte hoppa over.",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "Spelar {pid} ({piece}) spelte [{r}, {c}] og snudde {flipped} brikke(r)"
   },
   "game_message": {
     "must_skip": "Spelar {pid} ({piece}) har ingen gyldige trekk og må hoppe over."

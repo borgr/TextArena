@@ -19,39 +19,39 @@
     "{deck_count}": "Number of cards left in the deck"
   },
   "game": {
-    "start": "Briscola game started! Trump suit: {trump_suit} (Trump card: {trump_card})"
+    "start": "Muziki wa Briscola utanguli! Mvula ya mpata: {trump_suit} (Khadi ya mpata: {trump_card})"
   },
   "prompt": {
-    "intro": "You are playing Briscola - Player {player_id}.\nGoal: Win tricks and collect the most points (120 total points in the deck).\nCard Points: A=11, 3=10, K=4, Q=3, J=2, others=0\nCard Power: A > 3 > K > Q > J > 7 > 6 > 5 > 4 > 2\nTrump cards beat non-trump cards regardless of power.\n\nAction: '[play X]' where X is the position (1-{max_pos}) of the card in your hand\n"
+    "intro": "Uli na kufwasa Briscola - Mufwasi {player_id}.\nLukelo: Ungana maswali na kupakata malengo mengi (malengo 120 kwa jumla katika sitaha).\nMalengo a kadi: A=11, 3=10, K=4, Q=3, J=2, vingine=0\nNguvu za kadi: A > 3 > K > Q > J > 7 > 6 > 5 > 4 > 2\nKadi za nguvu zinashinda kadi zisizo za nguvu bila kujali nguvu.\n\nKitendo: '[play X]' ambapo X ni nafasi (1-{max_pos}) ya kadi mukononi mwako\n"
   },
   "hand": {
     "none": "cj",
-    "empty": "Hakuna kadi ndani",
-    "header": "Mukono wako:",
+    "empty": "Hakuna khadi kwenye mkono",
+    "header": "Mkono wako:",
     "card_line": "  {pos}. {card} [{points} pts]{trump_mark}",
     "trump_mark": "(TRUMP)"
   },
   "trick": {
-    "empty": "Hakuna kadi zilizocheza sasa hii trick.",
-    "header": "Cjk_e:",
+    "empty": "Hakuna khadi zilizotolewa kwenye mkunjo huu.",
+    "header": "Mkunjo wa sasa:",
     "line": "  Player {player_id}: {card}{trump_mark}"
   },
   "turn": {
-    "score_entry": "Player {player_id}: {points} pts",
-    "trump_info": "Trump suit: {trump_suit}",
-    "trump_info_deck": "Trump suit: {trump_suit} | Cards left in deck: {deck_count}",
-    "board": "{hand}\n\n{trick}\n\nScores: {scores}\n{trump_info}\n\nPlay a card using [play X]"
+    "score_entry": "Mchezaji {player_id}: {points} pointi",
+    "trump_info": "Mvula ya mpata: {trump_suit}",
+    "trump_info_deck": "Mvula ya mpata: {trump_suit} | Khadi zilizobaki kwenye sitaha: {deck_count}",
+    "board": "{hand}\n\n{trick}\n\nMalengo: {scores}\n{trump_info}\n\nFwasa kadi kwa kutumia [play X]"
   },
   "invalid_move": {
-    "wrong_format": "Use [play X] where X is the card position (1, 2, 3, etc.)",
-    "out_of_range": "Invalid card position. You have {count} cards (1-{count})"
+    "wrong_format": "Tumia [play X] ambapo X ni nafasi ya kadi (1, 2, 3, n.k.)",
+    "out_of_range": "Nafasi ya khadi si sahihi. Una {count} khadi (1-{count})"
   },
   "action": {
-    "played": "Player {player_id} played {card}",
-    "trick_win": "Player {winner} wins the trick with {card} and gains {points} points!"
+    "played": "Mchezaji {player_id} alicheza {card}",
+    "trick_win": "Mchezaji {winner} anashinda mkunjo na {card} na kupata {points} pointi!"
   },
   "outcome": {
-    "head": "Game Over! Player {winner} wins with {points} points!\n\nFinal Scores:\n{scores}",
-    "player_line": "Player {player_id}: {points} points ({tricks} tricks)\n"
+    "head": "Muziki umemalizika! Mchezaji {winner} anashinda na {points} pointi!\n\nPointi za Mwisho:\n{scores}",
+    "player_line": "Mchezaji {player_id}: {points} pointi ({tricks} mikunjo)\n"
   }
 }

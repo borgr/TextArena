@@ -10,7 +10,7 @@
     "{to}": "The destination coordinate of a move, such as b3"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in game of LinesOfAction.\nYour pieces are '{side}', opponent pieces are '{other}'.\nMove format: `[b1b3]` (from-coord to-coord). A legal move travels horizontally, vertically, or diagonally a number of squares equal to the total pieces (any colour) in that line. You may jump over your own pieces, but not opponent pieces; landing on an opponent captures it.  Win when all your pieces are 8-neighbour connected."
+    "intro": "Ko koe te Kaitākaro {player_id} i te kēmu o LinesOfAction.\nKo āu pīki ' {side} ', ko ngā pīki o te hoa whawhai ' {other} '.\nTauwhiti nekehanga: `[b1b3]` (tauwhiti-tīmata ki te tauwhiti-whāiti). He nekehanga ture e haere ana ki te tīeke, ki te poutū, ki te diagonal rānei, e rite ana ki te maha o ngā pīki (he tae noa) i taua rārangi. Ka taea te peke atu i āu ake pīki, engari kaua i ngā pīki o te hoa whawhai; ka mau i te whāiti o te hoa whawhai.  Ka toa koe ina hono ngā pīki katoa ki a koe."
   },
   "board": {
     "current_board": "Poari: {board}"

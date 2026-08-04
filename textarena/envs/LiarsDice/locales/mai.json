@@ -22,7 +22,7 @@
     "final_ranking": "list of player indices from first eliminated to winner"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in an {num_players}-player Liar's Dice game.\nRules:\n- On your turn, you may either:\n  1) Make a new bid with a higher quantity or higher face (or both) than the current bid; i.e. '[Bid: 3, 4]',\n  2) Call the last bid by typing '[Call]'.\n\nIf you call:\n  - If the actual count of that face value among all dice is less than the bid, the last bidder loses one die.\n  - Otherwise, the caller loses one die.\nA player who reaches 0 dice is eliminated. The last remaining player wins."
+    "intro": "आप खिलाड़ी {player_id} एक {num_players}-खिलाड़ी लायर्स डाइस गेम में छी।\nनियम:\n- अपने पाली में, आप या तो:\n  १) एक नया बोली एक उच्च मात्रा या उच्च मुख (या दोनों) के साथ वर्तमान बोली से अधिक कर सकते हैं; अर्थात '[Bid: 3, 4]',\n  २) अंतिम बोली को '[Call]' टाइप करके बुला सकते हैं।\n\nयदि आप बुलाते हैं:\n  - यदि सभी पासों में उस मुख मूल्य की वास्तविक संख्या बोली से कम है, तो अंतिम बोलीदाता एक पासा खो देता है।\n  - अन्यथा, कॉल करने वाला एक पासा खो देता है।\nएक खिलाड़ी जो ० पासा तक पहुंच जाता है वह समाप्त हो जाता है। अंतिम शेष खिलाड़ी जीत जाता है।"
   },
   "board": {
     "per_player": "\tप्लेयर {p}: {d}",
@@ -30,7 +30,7 @@
   },
   "call": {
     "bidder_loses": "प्लेयर {current_player_id} कॉल करता है! मुख {face_value} की वास्तविक गणना {count} है, जो {quantity} से कम है।\nप्लेयर {loser_id} (अंतिम बोली लगाने वाला) एक पासा खो देता है।",
-    "caller_loses": "Player {current_player_id} calls! The actual count of face {face_value} is {count}, which is >= {quantity}.\nPlayer {loser_id} (the caller) loses one die."
+    "caller_loses": "प्लेयर {current_player_id} कॉल करता है! फेस {face_value} की वास्तविक गिनती {count} है, जो {quantity} से अधिक या बराबर है।\nप्लेयर {loser_id} (कॉलर) एक डाई हारता है।"
   },
   "action": {
     "bid_announce": "प्लेयर {player_id} {quantity} के मुख {face_value} की बोली लगाता है।"
@@ -50,6 +50,6 @@
     "eliminated_invalid": "खेलाडी {player_id} अमान्य चाल द्वारा बाहर भेल छल ।"
   },
   "outcome": {
-    "win": "Player {winner} wins! Final ranking: {final_ranking}"
+    "win": "प्लेयर {winner} जीतता है! अंतिम रैंकिंग: {final_ranking}"
   }
 }

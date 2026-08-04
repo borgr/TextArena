@@ -13,7 +13,7 @@
     "card_not_held": "ნვმაქ ოჲგვფვ რჲა კარტარა."
   },
   "message": {
-    "tie": "Tie - bids returned. Rebid!",
+    "tie": "ფრე - საფასურები დაბრუნდა. ხელახლა გასვათ!",
     "auction_result": "P0 შეთავაზება {bid0}, P1 შეთავაზება {bid1}. მოთამაშე {winner} იგებს პრესტიჟს {prize} (ჯამში {total})."
   },
   "outcome": {

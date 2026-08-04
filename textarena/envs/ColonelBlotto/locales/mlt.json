@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are {role} in Colonel Blotto.\nYour goal is to win more rounds than your opponent.\nOn each round, allocate exactly {num_total_units} units across fields {field_names}.\nThe player who allocates more units to a field wins that field, and the player who wins more fields wins the round.\nFor example, '[A7 B7 C6]' allocates 7 units to A, 7 to B, and 6 to C.",
+    "intro": "Int qed tkun {role} fil-Kolonel Blotto.\nL-għan tiegħek hu li tirbaħ aktar rounds mill-avversarju tiegħek.\nF'kull round, allokka eżattament {num_total_units} unitajiet fuq il-oqsma {field_names}.\nIl-plejer li jallokka aktar unitajiet f'oqsma jirbaħ dak l-oqsma, u l-plejer li jirbaħ aktar oqsma jirbaħ ir-round.\nPer eżempju, '[A7 B7 C6]' jallokka 7 unitajiet lil A, 7 lil B, u 6 lil C.",
     "commander_alpha": "Kmandant Alfa.",
     "commander_beta": "Kmandant Beta"
   },
@@ -8,7 +8,7 @@
     "header_round": "=== Kolonell Blotto - Rawnd {current_round}/{num_rounds} ===\nRawnds Rebbieħ - Commander Alpha: {alpha_score}, Commander Beta: {beta_score}"
   },
   "round_battle": {
-    "field_result": "\nRound {current_round}\nCommander Alpha allocated: {p0_allocations}\nCommander Beta allocated: {p1_allocations}\n",
+    "field_result": "\nRound {current_round}\nKmandant Alfa allokka: {p0_allocations}\nKmandant Beta allokka: {p1_allocations}\n",
     "winner_alpha": "{message}Rebbieħ: Kmandant Alpha",
     "winner_beta": "{message}Rebbieħ: Kmandant Beta",
     "tie": "{message}Għaqqad!"

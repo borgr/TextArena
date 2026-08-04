@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in **Ultimate Tic Tac Toe**.\nSubmit your move as **[macro  micro]** (two numbers 0-8):\n• *macro*  = which mini-board you play in\n• *micro* = which square inside that mini-board\nExample `[7 8]` ➜ place your mark in mini-board 7, square 8, and\nforce your opponent to play in mini-board 8 next.\n\nYou are `{symbol}`.\n"
+    "intro": "UnguMdlali {player_id} kwi-**Ultimate Tic Tac Toe**.\nNgenisa isithethi sakho njenge-**[macro  micro]** (nambari zimbini 0-8):\n• *macro*  = ipi ibhodi-ncinci udlala kuyo\n• *micro* = ipi iskhwele kwi-bhodi-ncinci leyo\nIsibonelo `[7 8]` ➜ beka isikhala sakho kwi-bhodi-ncinci 7, iskhwele 8, bese\nugawula udlali wakho ukuba adlale kwi-bhodi-ncinci 8 emva.\n\nUngu `{symbol}`.\n"
   },
   "board": {
     "current_board": "Ibhodi yangoku: {board}"
@@ -18,7 +18,7 @@
     "specific": "Ibhodi encinci {nxt}"
   },
   "game_action": {
-    "played": "Player {player_id} played in micro board {macro_idx}, cell {micro_idx} (row {row}, col {col}). Player {opponent_id} must now play in {nxt_txt}."
+    "played": "Umdlali {player_id} udlale kwi-bhodi-ncinci {macro_idx}, iskhwele {micro_idx} (umzila {row}, ikolomu {col}). Umdlali {opponent_id} kufuneka adlale kwi-{nxt_txt} manje."
   },
   "outcome": {
     "win": "Umdlali {player_id} uphumelele i-Ultimate Tic Tac Toe!",

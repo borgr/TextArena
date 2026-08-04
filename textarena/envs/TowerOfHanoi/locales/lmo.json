@@ -3,7 +3,7 @@
     "intro": "Te se giugà Tower of Hanoi con {num_disks} disch.\nTe gh'è de spostà i disch da la tor A a la tor C.\nPer spostà on disch, scriv la tor sorgent e la tor destinazion (per esempi, '[A C]').\nNota che te podè spostà domà el disch de sora de on tor, e che on disch pussee grand no el pò vess mettuu sora on disch pussee piscinin.\nA ogni turn, propon on moviment."
   },
   "board": {
-    "current_board": "CURRENT BOARD: {board}."
+    "current_board": "Taula Atüala: \n{board}."
   },
   "invalid_move": {
     "wrong_format": "Te se te sì respondùu con valid '[source] [target]'.",

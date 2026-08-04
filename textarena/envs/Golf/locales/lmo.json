@@ -54,7 +54,7 @@
     "all_revealed": "l'ha svelaa tucc i carton?"
   },
   "invalid": {
-    "wrong_action": "Use exactly ONE bracketed action: [draw], [take], [swap X Y], [discard], [knock], or [peek X Y]",
+    "wrong_action": "Dovré doperà propi una azion tra parentesi quadre: [draw], [take], [swap X Y], [discard], [knock], o [peek X Y]",
     "discard_empty": "La pila de scartà l'è vuda!",
     "must_draw_first": "Te see gh'è de [draw], [take], [knock], o [peek X Y] prima",
     "cannot_discard_taken": "Te pöl minga scartà 'na carta ciapada dal mucc de scherz, te la devi scambià.",

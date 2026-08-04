@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({piece}). Opponent is ({opp}). Submit moves as '[b1 c3]' (from → to). All pieces move like chess knights.\nEach capture scores {score_per_capture} point. Game ends after {max_moves} moves or when a player has no legal move / no pieces. Higher score wins."
+    "intro": "Шумо бозигари {player_id} ({piece}) ҳастед. Ҳариф ({opp}) аст. Ҳаракатҳоро дар шакли '[b1 c3]' (аз → ба) ворид кунед. Ҳамаи қишрҳо ба монанди аспҳои шатранҷ ҳаракат мекунанд.\nҲар гирифтан {score_per_capture} имтиёз дорад. Бозӣ пас аз {max_moves} ҳаракат ё вақте ки бозигаре ҳаракати қонунӣ надорад / қишр надорад, тамом мешавад. Ҳисоби баландтарин ғолиб мешавад."
   },
   "board": {
     "current_board": "Хисса #{move_count}\n\n{board}\n\nХиссаҳои дастёрихшуда: {moves}"
@@ -9,8 +9,8 @@
     "bad_format": "Формати нодуруст. '[b1 c3]' -ро истифода баред.",
     "unknown_square": "Майдони номаълум.",
     "not_your_piece": "Манбаъ кори шумо нест.",
-    "own_piece": "Cannot land on own piece.",
-    "not_knight": "Not a knight move."
+    "own_piece": "Неметавон бар рӯи қишри худ фуруд омад.",
+    "not_knight": "Ҳаракати асп нест."
   },
   "game_action": {
     "moved": "Бозигар {player_id} қисми худро аз {frm} ба {to} кўчирди.",

@@ -13,8 +13,8 @@
     "already_matched": "अमान्य चाल. खेलाड़ी {player_id} एकटा या दुनू कार्ड चुनल जे पहिने सँ मिलान कएल गेल अछि।"
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "खिलाड़ी {player_id} द्वारा चुने गए कार्ड स्थितियों [{r1} {c1}] और [{r2} {c2}] पर मेल खाते हैं!",
+    "cards_no_match": "खिलाड़ी {player_id} द्वारा चुने गए कार्ड मेल नहीं खाते हैं। स्थितियों [{r1} {c1}] और [{r2} {c2}] पर कार्ड क्रमशः {pos1} और {pos2} हैं।"
   },
   "outcome": {
     "draw": "दुनू खेलाड़ी कार्डक समान संख्यामे जुडल।",

@@ -3,7 +3,7 @@
     "intro": "Wee ndi Mchezaji {player_id} ({piece}). Mdzakati wake ndi ({opp}). Tumia mavuto kama '[b1 c3]' (kutoka → ku). Zinthu zonse zimatenga ngati za chess knights.\nKila kupanda kinalinga {score_per_capture} pointi. Mchezo unamaliza baada ya {max_moves} mavuto au mchezaji aliyese amene asale mavuto / osati na zinthu. Aliyebeba zaidi anawina."
   },
   "board": {
-    "current_board": "Move #{move_count}\n\n{board}\n\nAvailable Moves: {moves}"
+    "current_board": "Zomwe mukuchita #{move_count}\n\n{board}\n\nZomwe zili zokwanira: {moves}"
   },
   "invalid_move": {
     "bad_format": "Maonekedwe oipa. Gwiritsani ntchito '[b1 c3]'.",

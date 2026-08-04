@@ -17,7 +17,7 @@
     "current_board": "Tavol current:\n\n{board}\n\nMoviment disponibij: {moves}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid move format. Use \"[cell]\" wher cell is 0-{max_cell}.",
+    "wrong_format": "Format de la mossa minga bon. Doperà '[cell]' indova cell l'è 0-{max_cell}.",
     "out_of_range": "Numer de cella no valid: {cell}. El gh'ha de vèss tra 0 e {max_cell}.",
     "already_occupied": "La cellula {cell} l'è già ocupada.",
     "made_invalid": "Giocatore {player_id} fà una mossa invalida."

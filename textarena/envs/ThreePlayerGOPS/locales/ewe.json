@@ -14,7 +14,7 @@
     "{scores}": "The final scores as a raw player-number to score mapping - do not translate"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player GOPS.\n- You hold the 13 cards A-K (each exactly once).\n- Each round a prize is revealed. Submit ONE card like `[Q]`, `[10]`, `[2]` …\n- Highest card wins the prize (+ any carry-over pot). Ties roll the prize into the next round.\n- After 13 rounds, highest total wins. Invalid moves = elimination."
+    "intro": "Nyɛ Ŋutinya {player_id} le Three-Player GOPS.\n- Nyɛ wɔ 13 kaɖi siwo A-K (ɖeɖe kple dzɔdzɔ).\n- Le xexlẽ siwo la, kaɖi siwo woɖe ƒe dzɔdzɔ. Dze kaɖi ɖeɖe abe `[Q]`, `[10]`, `[2]` …\n- Kaɖi siwo woɖe dzɔdzɔ wɔ la, wɔ akɔnta siwo le dzɔdzɔ. Ties roll kaɖi siwo le xexlẽ siwo.\n- Le 13 xexlẽ siwo gɔme, akɔnta siwo wɔ la wɔ dzɔdzɔ. Dze siwo vɔvɔ o = kɔ siwo."
   },
   "round": {
     "header": "### Round {round}/13 - Prize: {prize} (wɔ {worth})",

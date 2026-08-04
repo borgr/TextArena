@@ -14,7 +14,7 @@
     "{scores}": "The final scores as a raw player-number to score mapping - do not translate"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player GOPS.\n- You hold the 13 cards A-K (each exactly once).\n- Each round a prize is revealed. Submit ONE card like `[Q]`, `[10]`, `[2]` …\n- Highest card wins the prize (+ any carry-over pot). Ties roll the prize into the next round.\n- After 13 rounds, highest total wins. Invalid moves = elimination."
+    "intro": "Դուք Խաղացող {player_id} եք Երեք Խաղացողի GOPS-ում։\n- Դուք պահում եք 13 քարտ A-K (յուրաքանչյուրը ճիշտ մեկ անգամ)։\n- Ամեն ռաունդ մրցանակ է բացահայտվում։ Ներկայացրեք ՄԻ քարտ, ինչպես `[Q]`, `[10]`, `[2]` …\n- Ամենաբարձր քարտը հաղթում է մրցանակ (+ ցանկացած կրեր-մնացած գումար)։ Հավասարությունը մրցանակը հավաքում է հաջորդ ռաունդում։\n- 13 ռաունդից հետո ամենաբարձր ընդհանուր հաղթում է։ Անվավեր քայլեր = դուրս մնալ։"
   },
   "round": {
     "header": "### Շրջան {round}/13 - մրցանակ: {prize} (արժեքը {worth})",

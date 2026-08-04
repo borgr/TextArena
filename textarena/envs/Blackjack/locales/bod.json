@@ -9,10 +9,10 @@
     "wrong_format": "ལག་རྩལ་མི་འདུག་པ་. '[Hit]' ཡིག་སྒྱུར་དང་ '[Stand]' སྤྱོད་ཅིག"
   },
   "game_message": {
-    "hand_result": "Hand {hand_number}: you {outcome}. Your final {player_score}, Dealer {dealer_score}.",
-    "all_complete": "=== All {num_hands} hands complete ===\nWins: {wins}, Losses: {losses}, Draws: {draws}\n"
+    "hand_result": "ལག་པ་ {hand_number}: ཁྱེད་ {outcome}། ཁྱེད་ཀྱི་མཇུག་རིམ་པ་ {player_score}, རྒྱལ་ {dealer_score}།",
+    "all_complete": "=== ལག་པ་ {num_hands} ཐམས་ཅད་མཇུག་རྫོགས་ ===\nརྒྱལ་བ་: {wins}, ཕམ་པ་: {losses}, འགྲིག་པ་: {draws}\n"
   },
   "outcome": {
-    "game_over": "The game has concluded. Final scores: Dealer: {losses}, You: {wins}, Draws: {draws}"
+    "game_over": "རྩེད་མོ་མཇུག་སྒྲིལ་ཟིན། མཇུག་ཐོ། ཚོང་པ། {losses} ཁྱེད། {wins} འགྲིག་པ། {draws}"
   }
 }

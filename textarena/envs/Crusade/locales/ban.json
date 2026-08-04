@@ -19,7 +19,7 @@
   "outcome": {
     "no_pieces": "Pamain {player_id} nénten madué potongan.",
     "cannot_move": "Pamain {player_id} nénten dados magingsir.",
-    "higher_score": "Higher capture score.",
+    "higher_score": "Skor nyerang paling tegeh.",
     "move_limit": "Wates pamargi sampun kaanggén."
   }
 }

@@ -26,7 +26,7 @@
   },
   "board": {
     "per_player": "\tJogador {p}: {d}",
-    "new_round": "\nNew round - Remaining dice: {dice_summary}\nYour current Dice are: {your_dice}"
+    "new_round": "\nÑeha'ã pyahu - Dados ñesãmbyhy: {dice_summary}\nNe dados ko'ágã ha'e: {your_dice}"
   },
   "call": {
     "bidder_loses": "Jogador {current_player_id} oñemboja! Ko teju kuera hína {face_value} ha'e {count}, ha upéva imichĩve {quantity}.\nJogador {loser_id} (último ojapo) ohasa peteĩ teju",

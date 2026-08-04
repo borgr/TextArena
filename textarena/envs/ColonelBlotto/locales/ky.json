@@ -17,7 +17,7 @@
     "wrong_format": "Жарамсыз киргизүү форматы. Колдонуу: A:5, B:10, C:5",
     "invalid_field": "Жарамсыз талаанын аталышы (((ж. Жарамдуу талаалар: {field_names}",
     "wrong_allocation_value": "Бардык бөлүштүрүүлөр терс эмес бүтүн сандардан болушу керек.",
-    "incorrect_total_units": "You have to allocate exactly {num_total_units} units. Current sum: {current_sum}",
+    "incorrect_total_units": "Сиздин {num_total_units} бөлүкчөлөрдү бөлүштүрүүңүз керек. Азыркы сумма: {current_sum}",
     "good_allocations": "Бөлүштүрүү жакшы."
   },
   "outcome": {

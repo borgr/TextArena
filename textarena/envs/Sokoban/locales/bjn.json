@@ -12,7 +12,7 @@
     "invalid_position": "Pindah kada sah - kada kawa bapindah ka posisi itu."
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
+    "moved": "Kamu {pushed} pindah [{action}].",
     "pushed_prefix": "manurung sabuah kotak samantara"
   },
   "outcome": {

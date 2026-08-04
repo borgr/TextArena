@@ -11,7 +11,7 @@
     "{ball_pos}": "The cup index the ball is under"
   },
   "player_prompt": {
-    "intro": "Track the hidden ball 'X' while the cups are shuffled.\nAfter shuffling, guess its location with `[k]`."
+    "intro": "Segûi a bâlla ascôza 'X' mentre e teie són mescciûe.\nDòppo a mescciûa, azàrda a sò poxiçión con `[k]`."
   },
   "game_message": {
     "ball_starts": "A ballâ a comensa: {line}",
@@ -21,7 +21,7 @@
     "reveal": "(Rivòlze: a balonâ sotta {ball_pos})"
   },
   "invalid_move": {
-    "wrong_format": "Bad action. Use `[k]`.",
+    "wrong_format": "Azión errô. Deuviâ `[k]`.",
     "out_of_range": "Indice fœra di rango 0-{max_index}."
   },
   "outcome": {

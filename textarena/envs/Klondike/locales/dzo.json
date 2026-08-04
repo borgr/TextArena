@@ -16,7 +16,7 @@
     "{cards}": "The cards in a pile as neutral labels, or '--' if empty (never translate)"
   },
   "player_prompt": {
-    "intro": "You are playing Klondike Solitaire. Your goal is to move all cards to the foundation piles.\n\nGame Rules:\n- Foundation piles (F1-F4): Build up from Ace to King in suit\n- Tableau piles (T1-T7): Build down alternating colors (red on black, black on red)\n- Stock: Draw cards to waste pile\n- Waste (W): Top card available for play\n\nCommands:\n- 'draw' - Draw cards from stock to waste\n- 'move <source> <destination> [count]' - Move cards between piles\n  Examples: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count can also be 'all', which will try to move all face-up cards.\n- 'forfeit' - End the game immediately and lock in your current score\n- Pile names: W (waste), F1-F4 (foundations), T1-T7 (tableau)\n\nYou can execute multiple actions in one turn by separating them with commas:\n  Example: 'draw, move W T1, move T2 F1'\n\nOnly Kings can be placed on empty tableau piles.\nActions execute in order - if one fails, the remaining actions are skipped.\nUse 'forfeit' if you believe the game is impossible to win."
+    "intro": "ཁྱེད་ཀློན་དིག་སོ་ལི་ཏིར་རྩེ་བཞིན་ཡོད། ཁྱེད་ཀྱི་འགྲོ་གོམ་ནི་ཐམས་ཅད་ཀྱི་ཤོ་མཚམས་གཏིང་ལ་སྤོ་བ་ཡིན།\n\nརྩེ་སྟངས་ཀྱི་གནད་དོན།\n- གཏིང་མཚམས་མཚམས་མཚམས་པིལ་ཨེབ་སི་(F1-F4): ཨེབ་ནས་རྒྱལ་པོའི་བར་གྱི་རིགས་བསྐྲུན་པ།\n- ཏཱ་བླུའུ་མཚམས་མཚམས་པིལ་ཨེབ་སི་(T1-T7): མདོག་གི་རིགས་བསྐྲུན་པ།\n- སྟོག་པིལ། ཤོ་མཚམས་སྟོག་པིལ་ལ་སྤོ་བ།\n- ཝེསི་མཚམས་མཚམས་པིལ། ཤོ་མཚམས་གཏིང་ལ་སྤོ་བ།\n\nབཀའ་གནང་བ།\n- 'draw' - སྟོག་པིལ་ནས་ཝེསི་མཚམས་མཚམས་པིལ་ལ་ཤོ་སྤོ་བ།\n- 'move <source> <destination> [count]' - ཤོ་མཚམས་མཚམས་པིལ་ནས་ཤོ་མཚམས་མཚམས་པིལ་ལ་ཤོ་སྤོ་བ། དཔེ་ན། 'move W T1', 'move T1 F2', 'move T3 T5 2'། count ཡང་ 'all' བྱས་ཆོག གང་བྱས་པ་ཅི་ཡང་མི་འགྲིག་པ་རྩ་བ་ནས་སྤོ་བར་འགྲེལ།\n- 'forfeit' - རྩེ་བཞིན་པ་མྱུར་དུ་མཚམས་འཇོག་པ།\n- ཤོ་མཚམས་མཚམས་པིལ་གྱི་མིང་། W (ཝེསི་མཚམས་མཚམས་པིལ་), F1-F4 (གཏིང་མཚམས་མཚམས་པིལ་), T1-T7 (ཏཱ་བླུའུ་མཚམས་མཚམས་པིལ་)\n\nཁྱེད་ཀྱིས་བཀའ་གནང་བ་མང་པོ་ཞིག་གཅིག་གི་རྗེས་སུ་བསྒྲིགས་ནས་བསྒྲུབ་ཆོག\n  དཔེ་ན། 'draw, move W T1, move T2 F1'\n\nཏཱ་བླུའུ་མཚམས་མཚམས་པིལ་གྱི་སྟོང་པར་རྒྱལ་པོ་ཁོ་ན་བཞག་ཆོག\nབཀའ་གནང་བ་རྗེས་སུ་བསྒྲུབ་པ་ཡིན། གལ་ཏེ་གཅིག་འགྲིག་མ་བྱུང་ན་དེ་རྗེས་ཀྱི་བཀའ་གནང་བ་རྣམས་བརྗེད་པ་ཡིན། རྩེ་བཞིན་པ་ཐམས་ཅད་རྒྱལ་མི་ཐུབ་པར་འདོད་ན་ 'forfeit' བཀའ་གནང་བ་བྱོས།"
   },
   "format_error": {
     "no_brackets": "བྱ་རིམ་གྱི་རྣམ་པ་འདི་ ཆ་མེད་ཨིན། ལས་སྣ་ཚུ་ ཀེར་ཐིག་ནང་བཞག་དགོཔ་ཨིན།",
@@ -24,9 +24,9 @@
     "empty_command": "ཐོ་ཡིག་སྟོངམ་ཨིན། ཨེབ་གཏང་འབད་ 'draw' ཡང་ན་ 'move <source> <destination> [count]'",
     "empty_action": "ལག་ལེན་མེད་མི་ལཱ་ཚུ་ཨིན།",
     "move_needs_args": "སྤོ་བཤུད་འབད་ཡོད་པའི་བཀའ་རྒྱ་འདི་འབྱུང་ཁུངས་དང་དམིགས་ཡུལ་ལུ་ དགོས་མཁོ་ཡོདཔ་ཨིན། ལག་ལེན་: 'move <source> <destination> [count]'",
-    "count_positive": "གྲངས་རྩིས་འདི་ ནུས་ཅན་ ཡང་ན་ \"ཆ་མཉམ་\" སྦེ་དགོཔ་ཨིན།",
+    "count_positive": "གྲངས་ཀྱི་མཚམས་མཚམས་པིལ་ནི་སྤྱི་ཚོགས་པ་ཡིན་དགོས་པ་ཡིན་ནམ་ 'all' ཡིན་དགོས་པ་ཡིན།",
     "count_invalid": "གྲངས་རྩིས་འདི་ ཆ་མེད་འབདཝ་ཨིན། ཨང་གྲངས་ ཡང་ན་ 'all' ལག་ལེན་འཐབ་དགོ།",
-    "unknown_command": "མི་ཤེས་པའི་སྤྱི་ཁྱབ་'{cmd}' བཀོད་པ། 'བྲིས་པ'、 'གཡོ་བ་ <འབྱུང་ཁུངས་> <གནས་སྟངས་> [count]'、 ཡང་ན་ 'འགོག་པ'",
+    "unknown_command": "མི་ཤེས་པའི་བྱ་བའི་སྐད་ཆ། '{cmd}' དེ་བཀོད་མ་བཞིན་པ། 'draw', 'move <source> <destination> [count]', དང་ 'forfeit' དེ་བཀོད་དགོས།",
     "wrapped": "འཕྲིན་ལས་{n}: {msg}"
   },
   "action_result": {
@@ -59,7 +59,7 @@
   "outcome": {
     "forfeit": "རྩེད་འགྲན་འདི་མཇུག་བསྡུ་ནུག གཞི་རྟེན་གྱི་ནང་ {score} གི་ལག་ཁྲམ་ཚུ་ཡོདཔ་ཨིན།",
     "won": "དགའ་ཚོར་གྱི་གླུ་དབྱངས་ Klondike Solitaire ནང་ལུ་ རྒྱལ་ཁ་ཐོབ་ཅི།",
-    "turn_limit": "Game over! You reached the maximum of {max_turns} turns. Score: {score} cards in foundations."
+    "turn_limit": "བྱ་བ་མཇུག་སྐྲུན་པ། ཁྱེད་ཀྱི་འགྲུལ་བསྐྱོད་ཀྱི་ཨང་རྟགས། {max_turns} ལ་སླེབས་པ། འབྲས་བུ། {score} ཤོག་རིམ་པར་ཡོད་པ།"
   },
   "board": {
     "title": "=== ཀལཱོན་ཌི་ཀེ སོལ་ཊ་བིར===",

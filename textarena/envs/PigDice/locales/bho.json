@@ -7,7 +7,7 @@
   },
   "actions": {
     "player_busted": "प्लेयर {player_id} बर्बाद हो गइल, {turn_total} प्वाइंट्स हार गइल!",
-    "player_hold": "Player {player_id} holds and banks {turn_total} points."
+    "player_hold": "खिलाड़ी {player_id} होल्ड कर लिहलस और {turn_total} पॉइंट्स बैंक कर लिहलस।"
   },
   "board": {
     "player": "प्लेयर 0: '{score_0}'; प्लेयर 1: '{score_1}'",

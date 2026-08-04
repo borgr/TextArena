@@ -14,7 +14,7 @@
     "intro": "Yin acë Wɛ̈t de {player_id} kɛ Threes-Player Tic Tac Toe.\nSymbol yin aye '{symbol}'.\nYin rot lo̱i kɛmɛ̈th symbol yin kɛ board 5x5 kuɛ̈t thok ke kɛ̈ cɛ̈ thok.\nThok aye kɛ̈ thok, kɛ̈ thok, kɛ̈ thok ku kɛ̈ thok.\nJot ke kɛmɛ̈th '[4]' kɛmɛ̈th ke thok 4."
   },
   "board": {
-    "current_board": "Current Board:\n\n{board}\n\nAvailable Moves: {moves}"
+    "current_board": "Pamac Tïïm:\n\n{board}\n\nKuëër Kuëny: {moves}"
   },
   "invalid_move": {
     "wrong_format": "Kɛmɛ̈th format thok. Lo '[cell]' kɛmɛ̈th ke bɛ̈n 0-{max_cell}.",
@@ -23,7 +23,7 @@
     "made_invalid": "Raan ye gɔ̈ɔ̈r {player_id} acï lɔ tueŋ ke cie luɔide."
   },
   "game_action": {
-    "placed": "Player {player_id} places their symbol ({symbol}) in field ({row}, {col})."
+    "placed": "Aköök {player_id} kuëër akïïmdu ({symbol}) në pamac ({row}, {col})."
   },
   "outcome": {
     "win": "Wɛ̈t de {player_id} ({symbol}) wɛ̈t!",

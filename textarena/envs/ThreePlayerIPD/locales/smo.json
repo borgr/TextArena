@@ -4,7 +4,7 @@
   },
   "round": {
     "start": "─── Amataina Ripoti {round} ───\tE mafai ona e talanoa faʻalelei mo le {conv_rounds} ripoti i luma.",
-    "chat_finished": "Chat finished for round {round}. Submit your decisions, one token per opponent: `[pid cooperate]` or `[pid defect]`."
+    "chat_finished": "Ua uma le talanoaga mo le taamilosaga {round}. Tuuina atu lau faaiuga, o le token e tasi mo le fili e tasi: `[pid cooperate]` pe `[pid defect]`."
   },
   "results": {
     "header": "### Faʻataʻamilosaga {round} - Iuga:",

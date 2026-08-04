@@ -1,9 +1,9 @@
 {
   "player_prompt": {
-    "intro": "You are playing Slitherlink on a {R}x{C} grid!\nDraw a single continuous loop so each numbered cell has that many bordering edges.\nToggle edges with:\n  [h r c] - toggle horizontal edge above dots at row r, column c\n  [v r c] - toggle vertical edge left of dots at row r, column c\nNumbers show required edge count, '.' means no constraint.\nYou have up to {max_turns} moves to solve the puzzle."
+    "intro": "Reko hasa Slitherlink-pe peteĩ {R}x{C} kuadrículape!\nMoha'anga peteĩ vuelta continua oĩramo ñe'ẽpavẽ kuadrícula oĩramo umi kuatia'i ijykére.\nJeporu ñe'ẽpe:\n  [h r c] - jeporu horizontal ñe'ẽpe yvate gotyo tĩriku'i r, columna c-pe\n  [v r c] - jeporu vertical ñe'ẽpe akatúa gotyo tĩriku'i r, columna c-pe\nÑe'ẽpavẽ ohechauka kuatia'i rekomendado, '.' he'i nanderekói.\nReko oguereko {max_turns} ñe'ẽpe oikuaauka rompecabezas."
   },
   "board": {
-    "current_board": "{board}\nClues satisfied: {progress}"
+    "current_board": "{board}\nTembiaporã oñemoneĩva: {progress}"
   },
   "invalid_move": {
     "wrong_format": "He'i akue jehecháva. Eikuái [h row col] térã [v row col].",

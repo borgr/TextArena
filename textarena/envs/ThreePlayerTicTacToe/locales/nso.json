@@ -11,7 +11,7 @@
     "{moves}": "The comma-separated list of available move tokens like '[4]' (do not translate)"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player Tic Tac Toe.\nYour symbol is '{symbol}'.\nYou take turns placing your symbol on a 5x5 board to form a line of four.\nLines can be horizontal, vertical, or diagonal.\nSubmit your move using the format '[4]' to mark cell 4."
+    "intro": "O mmoledi {player_id} mo Tic Tac Toe ya Bamoledi ba Bararo.\nLetshwao la gago ke '{symbol}'.\nO tshameka ka go bea letshwao la gago mo bodulong bjo bo 5x5 go bopa mstari wa dinne.\nMistari e ka ba wa kgoro, wa thoko goba wa diagonal.\nRomela tsamaiso ya gago ka go dirisa mokgwa wa '[4]' go lekola sekgoba sa 4."
   },
   "board": {
     "current_board": "Boro ya gona ya kgwedi:\n\n{board}\n\nDitshelelo tse di kgonegang: {moves}"
@@ -26,7 +26,7 @@
     "placed": "Mmoki {player_id} o hloma semelo sa gagwe ({symbol}) mo sephiring ({row}, {col})."
   },
   "outcome": {
-    "win": "Player {player_id} ({symbol}) wins!",
+    "win": "Mmoledi {player_id} ({symbol}) o thopile!",
     "draw": "Papadi e sa felela!"
   }
 }

@@ -22,7 +22,7 @@
     "final_ranking": "list of player indices from first eliminated to winner"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in an {num_players}-player Liar's Dice game.\nRules:\n- On your turn, you may either:\n  1) Make a new bid with a higher quantity or higher face (or both) than the current bid; i.e. '[Bid: 3, 4]',\n  2) Call the last bid by typing '[Call]'.\n\nIf you call:\n  - If the actual count of that face value among all dice is less than the bid, the last bidder loses one die.\n  - Otherwise, the caller loses one die.\nA player who reaches 0 dice is eliminated. The last remaining player wins."
+    "intro": "አንተ ተጫዋች {player_id} በ {num_players} ተጫዋቾች የሚጫወት የላይርስ ዳይስ ጨዋታ ነህ።\nህጎች፦\n- በድረጃዎ፡ አንደኛ) ከአሁን ያለው ግብይት በላይ ያለ ብዛት ወይም ሌላ ምስል (ወይም ሁለቱም) በማቅረብ አዲስ ግብይት ማድረግ ይችላላሃ፣ ለምሳሌ '[Bid: 3, 4]፡'\n  ሁለተኛ) የላለውን ግብይት በ '[Call]' በማስጫወት ማስጠራጠር ይችላላሃ።\n\nየማስጠራጠር ተጫዋች ከሆንክ፦\n  - በሁሉም ዳይስ ውስጥ ያለው የአንድ ምስል ብዛት ከግብይት በታች ከሆነ፡ የላለው ግብይት አድራጎት አንድ ዳይ ይወድቃል።\n  - እንደሌላ፡ ማስጠራጠሪው አንድ ዳይ ይወድቃል።\nየአንድ ዳይ ወድቋል ተጫዋች ከሆነ ይወገዳል። የላለው ተጫዋች ያሸንፋል።"
   },
   "board": {
     "per_player": "\tኤሌሞን {p}: {d}",
@@ -30,7 +30,7 @@
   },
   "call": {
     "bidder_loses": "ኤሌሞን {current_player_id} ኮል ማድረግ! ባለበት ፊስ {face_value} ብዛት {count} ከ{quantity} በታች ነው.\nኤሌሞን {loser_id} (እረፍት ቢደር) አንድ ዲስ አሸንፋል",
-    "caller_loses": "Player {current_player_id} calls! The actual count of face {face_value} is {count}, which is >= {quantity}.\nPlayer {loser_id} (the caller) loses one die."
+    "caller_loses": "ተጫዋቹ {current_player_id} ጮኽ! የፊት {face_value} ብዛት {count} ነው, እሱም >= {quantity} ነው።\nተጫዋቹ {loser_id} (የጮኽ) አንድ ዳይስ ይሸጣል።"
   },
   "action": {
     "bid_announce": "ኤሌሞን �{player_id} በ{quantity} ከፍተኛ ቁጥር ላይ በ{face_value} ፊስ ቢድ ማድረግ"

@@ -16,7 +16,7 @@
     "{cards}": "The cards in a pile as neutral labels, or '--' if empty (never translate)"
   },
   "player_prompt": {
-    "intro": "You are playing Klondike Solitaire. Your goal is to move all cards to the foundation piles.\n\nGame Rules:\n- Foundation piles (F1-F4): Build up from Ace to King in suit\n- Tableau piles (T1-T7): Build down alternating colors (red on black, black on red)\n- Stock: Draw cards to waste pile\n- Waste (W): Top card available for play\n\nCommands:\n- 'draw' - Draw cards from stock to waste\n- 'move <source> <destination> [count]' - Move cards between piles\n  Examples: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count can also be 'all', which will try to move all face-up cards.\n- 'forfeit' - End the game immediately and lock in your current score\n- Pile names: W (waste), F1-F4 (foundations), T1-T7 (tableau)\n\nYou can execute multiple actions in one turn by separating them with commas:\n  Example: 'draw, move W T1, move T2 F1'\n\nOnly Kings can be placed on empty tableau piles.\nActions execute in order - if one fails, the remaining actions are skipped.\nUse 'forfeit' if you believe the game is impossible to win."
+    "intro": "Klondike Solitariuwa utjawi. Q'umachasiñani, tukuy kartanakaru fundación q'uyunakaru apayita.\n\nP'ukllay T'aqi:\n- Fundación q'uyunaka (F1-F4): Aceitewa Reykama sayt'asiñani, kartanakapuni\n- Tableau q'uyunaka (T1-T7):  K'ara k'ara t'inku t'inku (janq'u k'ara, k'ara janq'u)\n- Stock: Kartanakaru waste q'uyunakaru apayasiñani\n- Waste (W): Jach'a kartanakapuni utjawi\n\nKamachinaka:\n- 'draw' - Stockitewa waste q'uyunakaru kartanakaru apayasiñani\n- 'move <source> <destination> [count]' - Q'uyunakapuni kartanakaru apayasiñani\n  Ejemplos: 'move W T1', 'move T1 F2', 'move T3 T5 2'. 'all' sutini, tukuy kartanakapuni utjawinakapuni.\n- 'forfeit' - P'ukllay tukuyanani, partituri utjawi\n- Q'uyunakapuni sutinaka: W (waste), F1-F4 (fundaciones), T1-T7 (tableau)\n\nMayni kamachinakapuni utjawi, q'uyunakapuni t'inku t'inku:\n  Ejemplo: 'draw, move W T1, move T2 F1'\n\nTableau q'uyunakapuni, Reykama janq'umpi utjawi.\nKamachinakapuni utjawi, mayni tukuyanani - mayni janq'umpi, q'epi kamachinakapuni janq'umpi.\n'forfeit' sutini, p'ukllay janq'umpi tukuyanani."
   },
   "format_error": {
     "no_brackets": "Jani chiqapa luraña. Lurawixa paréntesis taypina uñachayatañapawa.",
@@ -24,15 +24,15 @@
     "empty_command": "Jan kuna kamacht'ata. \"draw\" jan ukax \"move <source> <destination> [count] ukamp qillqantma\".",
     "empty_action": "Jan kuna lurawinaka.",
     "move_needs_args": "Uka movimiento uka mayiwix kawkhat jutki ukatx kawksar sarañ munaraki. \"move <source> <destination> [count]\"",
-    "count_positive": "Jaqixa suma jakhuñapawa jan ukax \"taqinisa\"",
-    "count_invalid": "Jani chiqapa. Mayampi jakhuña, jani ukaxa \"todos\" ukjamaraki mayamp qillqantma.",
-    "unknown_command": "Comando desconocido '{cmd}'. Use 'draw', 'move <source> <destination> [count]', o 'forfeit'",
+    "count_positive": "Númeroni janq'u 'all' sutini",
+    "count_invalid": "Númeroni janq'u. Númeroni 'all' sutinakapuni utjawi",
+    "unknown_command": "Kamachi akañi '{cmd}'. 'draw', 'move <source> <destination> [count]', ukatxa 'forfeit' muni",
     "wrapped": "Accion {n}: {msg}"
   },
   "action_result": {
     "success": "Accion {n}: {msg}",
     "before_failure": "Jani phuqhat {n} lurawi.",
-    "failed": "Accion {n} failed: {msg}"
+    "failed": "Kamachini {n} janq'u: {msg}"
   },
   "move_result": {
     "drew": "Cartel de dibujo ukanx mä jisk'a t'unanakaruw tukt'ayi.",
@@ -41,25 +41,25 @@
     "foundation_one_card": "Mä cartaw base ukar apkataspa.",
     "waste_to_foundation_ok": "Q'añu t'unanakat fundación ukar apayatapa F{dst}",
     "waste_to_foundation_bad": "Jani wakichata tarjeta apaqaña uta pirqaru. 🔍",
-    "tableau_to_foundation_ok": "Movido carta de tableau T{src} a fundacion F{dst}",
+    "tableau_to_foundation_ok": "Tableau T{src} fundación F{dst} kartanakaru apayasiñani",
     "tableau_to_foundation_bad": "Jani wakichata tarjeta ukaru apaqaña.",
     "foundation_to_foundation": "Janiw mä uta qalltat yaqha utar sarksnati.",
     "waste_to_tableau_one_card": "Mä cartaw mä tarjetat yaqha tarjeta ukar apsuñatak utji.",
     "waste_to_tableau_ok": "Q'añu t'unanakat T{dst} tablar apsuta.",
     "waste_to_tableau_bad": "Janiw tarjetax uka tablero ukar uchatakaspati.",
     "no_face_up": "Janiw kuna tarjetanakas uñstayatäkänti.",
-    "tableau_to_tableau_ok": "Movido {count} carta(s) de tableau T{src} a T{dst}",
-    "tableau_to_tableau_bad": "No se puede mover {count} carta(s) de T{src} a T{dst}",
+    "tableau_to_tableau_ok": "{count} kartanakaru tableau T{src} T{dst} apayasiñani",
+    "tableau_to_tableau_bad": "{count} kartanakaru T{src} T{dst} janq'umpi apayasiñani",
     "foundation_to_tableau_one_card": "Mä cartax mayawjaruw sarantaspa.",
     "foundation_empty": "Fundación F{src} ukax ch'usawa.",
-    "foundation_to_tableau_ok": "Movido carta de fundacion F{src} a tableau T{dst}",
+    "foundation_to_tableau_ok": "Fundación F{src} tableau T{dst} kartanakaru apayasiñani",
     "foundation_to_tableau_bad": "Janiw tarjeta de fundación T{dst} tablero ukar uchkaspati.",
     "to_waste_or_stock": "Janiw q'añu t'unanakar sarkaspati."
   },
   "outcome": {
     "forfeit": "Anatañani: {score} tarjetanaka.",
     "won": "¡Jach'a qhananaka! Klondike Solitario atipt'apxtawa.",
-    "turn_limit": "Juego terminado! Alcanzaste el maximo de {max_turns} turnos. Puntuacion: {score} cartas en fundaciones."
+    "turn_limit": "P'ukllay tukuyanani! {max_turns} turnokama utjawi. Partituri: {score} kartanakaru fundaciones q'uyunakapuni"
   },
   "board": {
     "title": "=== KLONDIKE SOLITAIRE === Jisk'a markanaka:",

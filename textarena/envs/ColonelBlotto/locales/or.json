@@ -22,7 +22,7 @@
   },
   "outcome": {
     "winner_alpha": "କମାଣ୍ଡର ଆଲ୍ଫା {score_0}-{score_1} ଜିତେ ପାରିଛି {num_rounds} ରାଉଣ୍ଡ ପରେ!",
-    "winner_beta": "Commander Beta wins {score_1}-{score_0} after {num_rounds} rounds!",
+    "winner_beta": "କମାଣ୍ଡର ବିଟା {score_1}-{score_0} ଜିତିଥିଲେ {num_rounds} ରାଉଣ୍ଡ ପରେ!",
     "draw": "ଖେଳ ଏକ {score_0}-{score_1} ଟାଇରେ {num_rounds} ରାଉଣ୍ଡ ପରେ ଶେଷ ହୁଏ!",
     "early_winner_alpha": "କମାଣ୍ଡର ଆଲଫା ବିଜୟୀ {scores_0}-{scores_1} (ବହୁମତ ହାସଲ)!",
     "early_winner_beta": "କମାଣ୍ଡର ବେଟା ବିଜୟୀ {scores_1}-{scores_0} (ବହୁମତ ହାସଲ)!"

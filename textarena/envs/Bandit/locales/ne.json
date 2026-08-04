@@ -14,7 +14,7 @@
     "pressed": "तपाईंले {button} बटन थिचेर {reward}को पुरस्कार प्राप्त गर्नुभयो।"
   },
   "game_message": {
-    "final_decision": "You have exhausted your budget for trying out different choices and observe their rewards. Now make a deduction about what the best choice is."
+    "final_decision": "तपाईंले विभिन्न विकल्पहरू प्रयास गरेर र तिनीहरूको पुरस्कारहरू अवलोकन गरेर आफ्नो बजेट समाप्त गर्नुभयो। अब के उत्तम विकल्प हो भनेर अनुमान लगाउनुहोस्।"
   },
   "outcome": {
     "win": "बधाई छ! तपाईंले सही बटन छान्नुभयो।",

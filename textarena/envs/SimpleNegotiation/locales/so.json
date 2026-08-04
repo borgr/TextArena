@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "Waxaad tahay ciyaaryahanka {player_id} ee ciyaarta wadahadalka. Waxaad haysataa xoogaa kheyraad ah, hawshaaduna waa inaad ganacsi sameyso si wadarta qiimaha kheyraadkaagu u kordho. Kheyraadka iyo qiimaha la xiriira ee aad hadda haysato waa: + {resource_value_list} Dhan kasta, waxaad la hadli kartaa qofka kaa soo horjeeda oo aad u sameyn kartaa dalab ganacsi. Isticmaal astaamaha gaarka ah ee soo socda ee ficillada: - '[Talo: 3 Adhi, 2 Ore -> 5 Brick, 2 Sheep]': [Talo: Kheyraadka la bixiyay -> Kheyraadka la codsaday] - '[Accept]': Si aad u aqbasho dalab soo galaya. - '[Deny]': Si aad u diiddo dalab soo galaya (default). Ciyaartu waxay socotaa {max_turns} wareeg oo dhan."
+    "intro": "Waxaad tahay ciyaaryahanka {player_id} ee ciyaarta wadahadalka. Waxaad haysataa xoogaa kheyraad ah, hawshaaduna waa inaad ganacsi sameyso si wadarta qiimaha kheyraadkaagu u kordho. Kheyraadka iyo qiimaha la xiriira ee aad hadda haysato waa: + {resource_value_list} Dhan kasta, waxaad la hadli kartaa qofka kaa soo horjeeda oo aad u sameyn kartaa dalab ganacsi. Isticmaal astaamaha gaarka ah ee soo socda ee ficillada: - '[Offer: 3 Sheep, 2 Ore -> 5 Brick, 2 Sheep]': [Offer: Offered Resources -> Requested Resources] - '[Accept]': Si aad u aqbasho dalab soo galaya. - '[Deny]': Si aad u diiddo dalab soo galaya (default). Ciyaartu waxay socotaa {max_turns} wareeg oo dhan."
   },
   "invalid_move": {
     "receiving_with_no_resource": "Ciyaaryahanka ayaa isku dayay inuu aqbalo ganacsi isaga oo aan haysan ilaha lagama maarmaanka ah.",

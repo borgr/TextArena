@@ -9,7 +9,7 @@
     "progress": "{observation}\nवर्तमान प्रगति स्कोर: {progress}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use `[i j op]` where i,j are indices and op is +,-,*,/",
+    "wrong_format": "अवैधक्रियाप्रारूपम्। [i j op] इति प्रयोजय यत्र i,j सूचकौ, op च +,-,∗,/ इत्यादिः",
     "invalid_indices": "अमान्यम् अनुक्रमणिकाः भिन्नं भवेत्, 0-{max_index} इत्यन्तर्गतस्य च।",
     "invalid_operation": "अमान्यक्रिया (शून्यद्वारा वा न पूर्णाङ्कः परिणयः)"
   },

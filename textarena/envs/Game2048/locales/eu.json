@@ -10,7 +10,7 @@
     "no_change": "Kontseiluak ez du bere jokaldia aldatuko, zerbait gehiago egingo du."
   },
   "outcome": {
-    "win": "Congratulations, you reached {target_tile}! Final score {score}.",
+    "win": "Zorionak, {target_tile} lortu duzu! Azken puntuazioa {score}.",
     "lose": "Ez dago mugimendurik geratzen. {max_tile} max balioa - {score} amaierako puntuazioa."
   }
 }

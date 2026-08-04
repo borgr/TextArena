@@ -8,11 +8,11 @@
     "already_fired": "Woɖe to ɖe {coord} teƒea xoxo."
   },
   "game_action": {
-    "you_sunk": "Sunk! You sunk a ship at {coord}! Your updated board:\n{view}",
+    "you_sunk": "Aʋa! Ame aʋa asie a le {coord}! Ame ƒe ŋkeke ƒe ƒoƒo:\n{view}",
     "opp_sunk": "Ɔtsɔ kpe shipi la ŋe {coord}! Teɖe ŋkɔ gaɖi o:\n{view}",
-    "you_hit": "Hit! You hit a ship at {coord}! Your updated board:\n{view}",
+    "you_hit": "Akpɔ! Ame akpɔ asie a le {coord}! Ame ƒe ŋkeke ƒe ƒoƒo:\n{view}",
     "opp_hit": "Ɔtsɔ hiti shipi la ŋe {coord}! Teɖe ŋkɔ gaɖi o:\n{view}",
-    "you_miss": "Miss! You missed the ship at {coord}! Your updated board:\n{view}",
+    "you_miss": "Wòakpɔ! Ame wòakpɔ asie a le {coord}! Ame ƒe ŋkeke ƒe ƒoƒo:\n{view}",
     "opp_miss": "Ɔtsɔ ɖu shipi la ŋe {coord}! Teɖe ŋkɔ gaɖi o:\n{view}"
   },
   "outcome": {

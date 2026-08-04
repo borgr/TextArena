@@ -71,6 +71,6 @@
     "player_line": "{observation}\nKaitākaro {player_id}: {scoring} pōti whai ({tricks} katoa), {hand_size} kāri i te ringa"
   },
   "outcome": {
-    "summary": "Learning phase - Player 0: {l0}, Player 1: {l1}. Playing phase - Player 0: {p0}, Player 1: {p1}. Player {winner_id} wins with {winner_tricks} scoring tricks!"
+    "summary": "Wāhanga ako - Tākaroa 0: {l0}, Tākaroa 1: {l1}. Wāhanga purei - Tākaroa 0: {p0}, Tākaroa 1: {p1}. I wikitoria te Tākaroa {winner_id} ki {winner_tricks} tīreke e whai ana ki te wikitoria!"
   }
 }

@@ -1,11 +1,11 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in an Iterated Prisoner's Dilemma spanning {num_rounds} rounds.\n\nGame Structure:\n- Before each decision you have {total_conversation_rounds} turns to communicate freely.\n- After that, both players simultaneously choose to cooperate or defect.\n\nPayoff Matrix (fixed each round):\n- Both Cooperate ➜ each {cooperate_reward}\n- Both Defect ➜ each {mutual_defect_reward}\n- One Defects, one Cooperates ➜ Defector {defect_reward}, Cooperator {sucker_reward}\n\nHow to Play:\n- During conversation: type any text you wish.\n- During decision phase: include '[Cooperate]' or '[Defect]' (case-insensitive). You may add extra text before/after the token."
+    "intro": "Ove uakalenge uakalenge {player_id} mu Iterated Prisoner's Dilemma iheke {num_rounds} ikuhaku.\n\nEstrutura ya Jogo:\n- Kabla ya kila desisaão ove na {total_conversation_rounds} ovingila vya kuuliza kwa ulolondji.\n- Ondaka, imwe ya maweka mawili ya ulolondji hinyikisa kubambeka kwa kusunga kana kuhinyikisa.\n\nMatrix ya Pagamento (fixe kwa kila ikuhaku):\n- Imwe yombili ya kusunga ➜ kila {cooperate_reward}\n- Imwe yombili ya kuhinyikisa ➜ kila {mutual_defect_reward}\n- Imwe inahinyikisa, imwe inasunga ➜ inahinyikisa {defect_reward}, inasunga {sucker_reward}\n\nKukwasha Jogo:\n- Pa ulolondji: tanga ulolondji waco.\n- Pa kipindi cha desisaão: tanga '[Cooperate]' kana '[Defect]' (kana kikwasha). Ove ungaweza kuongeza ulolondji waco kabla/ondaka ya token."
   },
   "phases": {
-    "conversation_finished": "Conversation finished for round {round}. Please reply with '[Cooperate]' or '[Defect]' within \\boxed{{}}.",
+    "conversation_finished": "Kupangana kwawe kwa milonga {round}. Tanga '[Cooperate]' kana '[Defect]' munda \\boxed{{}}.",
     "starting_round": "--- Oku fetika ohongele {round} ---",
-    "round_summary": "Round {round} results:\n{outcome}\nPlayer 0 earned {r0} (total {score_0}), Player 1 earned {r1} (total {score_1})."
+    "round_summary": "Zikwiza {round} zisikwiza:\n{outcome}\nMwana 0 akwata {r0} (jumla {score_0}), Mwana 1 akwata {r1} (jumla {score_1})."
   },
   "outcome": {
     "winner": "Mukwiyu {winner} ukala {win_score} - {lose_score}.",
@@ -13,6 +13,6 @@
     "round_both_cooperate": "Alume vaco vavali, va kuatisa koku nena ocikasia caco.",
     "round_both_defect": "Kuenje, vosi yavo va fetika oku litunula.",
     "round_p0_cooperates_p1_defects": "Ocimunga catete, ca liwekapo oku yaka.",
-    "round_p0_defects_p1_cooperates": "Player 0 defected, Player 1 cooperated."
+    "round_p0_defects_p1_cooperates": "Mwana 0 akubuluka, Mwana 1 akupambana."
   }
 }

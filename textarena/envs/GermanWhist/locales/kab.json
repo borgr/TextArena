@@ -71,6 +71,6 @@
     "player_line": "{observation}\nAɣelluy {player_id} : {scoring} tikdiwin n ussuɣ ({tricks} yakk), {hand_size} tikdiwin deg yidukku"
   },
   "outcome": {
-    "summary": "Learning phase - Player 0: {l0}, Player 1: {l1}. Playing phase - Player 0: {p0}, Player 1: {p1}. Player {winner_id} wins with {winner_tricks} scoring tricks!"
+    "summary": "Tazwara n ussɣen - Akli 0: {l0}, Akli 1: {l1}. Tazwara n ugran - Akli 0: {p0}, Akli 1: {p1}. Akli {winner_id} i rebḥ s {winner_tricks} krayat i rebḥen!"
   }
 }

@@ -1,12 +1,12 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} playing a game of Pig Dice.\n\nRules:\n- On your turn, you can either '[roll]' or '[hold]'\n- Roll a 2-6: Add to your turn total\n- Roll a 1: Lose turn total and end turn\n- Hold: Add turn total to your score and end turn\n- First to {winning_score} points wins\n\nWhen it's your turn, you'll see the current scores and turn total.\nRespond with '[roll]' to roll the die or '[hold]' to bank your points."
+    "intro": "တႆးပိုၼ်ႈတူင်ႉတိုၼ်း {player_id} တိုၼ်ႇမူၼ်ႈၵိုၵ်း Pig Dice ၼႆႉ။\n\nၶေႃႈၵႂၢမ်း:\n- ပေႃးၸဝ်ႈၵဝ်ႇၶိုၼ်ႈႁိူၼ်းၸဝ်ႈၵဝ်ႇ၊ တိုၼ်း '[roll]' ဢမ်ႇၼၼ် '[hold]'\n- တိုၼ်း 2-6: ၶိုၼ်ႈႁိူၼ်းၸဝ်ႈၵဝ်ႇ တိုၼ်းၼိူင်ႈ\n- တိုၼ်း 1: သဵင်ႈႁိူၼ်းၸဝ်ႈၵဝ်ႇ တိုၼ်းၼိူင်ႈ သဵင်ႈႁိူၼ်း\n- တိုၼ်ႇႁိူၼ်း: ၶိုၼ်ႈႁိူၼ်းၸဝ်ႈၵဝ်ႇ တိုၼ်းၼိူင်ႈ သဵင်ႈႁိူၼ်း\n- ၵေႃႉၼိူင်ႈ {winning_score} ပွၵ်ႈၸဵင်ႈၸႂ်ႈ\n\nပေႃးၸဝ်ႈၵဝ်ႇၶိုၼ်ႈႁိူၼ်းၸဝ်ႈၵဝ်ႇ၊ တိုၼ်းၸဝ်ႈၵဝ်ႇ လႄႈ တိုၼ်းၼိူင်ႈ တေႁၼ်။\nၸဝ်ႈၵဝ်ႇၶိုၼ်းတွပ်ႇ '[roll]' တိုၼ်းၼိူင်ႈ ဢမ်ႇၼၼ် '[hold]' ၸဝ်ႈၵဝ်ႇၶိုၼ်းတွပ်ႇ။"
   },
   "invalid_move": {
     "invalid_action": "ၶေႃႈငိုၼ်းၸႂ်ႈ ဢမ်ႇပေႃးမီးလၵ်းထၢၼ်။ ၸႂ်ႉ '[roll]' ဢမ်ႇၼၼ် '[hold]'."
   },
   "actions": {
-    "player_busted": "Player {player_id} busted, losing {turn_total} points!",
+    "player_busted": "ၸဝ်ႈၵဝ်ႇ {player_id} သဵင်ႈႁိူၼ်း၊ သဵင်ႈ {turn_total} ပွၵ်ႈ!",
     "player_hold": "ၽူႈလႆႈၸႂ်ႈ {player_id} ၶိုၼ်းယိပ်းတိုဝ်းလႄႈ ႁပ်ႉပၼ် {turn_total} ပုၼ်ႈ။"
   },
   "board": {

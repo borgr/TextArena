@@ -7,16 +7,16 @@
     "available_actions": "Aw bɛ se ka min kɛ, o filɛ: {available_actions}"
   },
   "invalid_move": {
-    "wrong_format": "Action must be [Check], [Bet], [Call], or [Fold].",
+    "wrong_format": "Action bɛna [Check], [Bet], [Call], wa [Fold].",
     "not_legal": "Baara ka kan {legal_actions}."
   },
   "action": {
-    "submit_move": "Player {player_id}, submitted move: '[{move}]'.",
+    "submit_move": "Player {player_id}, kɛlɛ bɛna: '[{move}]'.",
     "valid_actions": "I ka waleya minnu bɛ se k'i bolo, olu filɛ: {legal_actions}.",
     "round_summary": "{reason} Lakika don: Jokelani 0: '{player_0_chips}'; Jokelani 1: '{player_1_chips}'"
   },
   "showdown": {
-    "showdown_summary": "Showdown: Player {winner}'s {winner_card} beats Player {loser}'s {loser_card}. Player {winner} wins pot of {pot_value} chips."
+    "showdown_summary": "Kɔlɔsi: Jɛgɛ {winner} ka {winner_card} kɛra jɛgɛ {loser} ka {loser_card}. Jɛgɛ {winner} sera kɔlɔbɔ {pot_value} kɔlɔbɔ."
   },
   "outcome": {
     "draw": "{max_rounds} lɔni laban na, ɲɔntɔnw bɛɛ bolo bɛ kɛ kelen ye.",

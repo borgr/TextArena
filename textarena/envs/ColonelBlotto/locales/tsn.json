@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are {role} in Colonel Blotto.\nYour goal is to win more rounds than your opponent.\nOn each round, allocate exactly {num_total_units} units across fields {field_names}.\nThe player who allocates more units to a field wins that field, and the player who wins more fields wins the round.\nFor example, '[A7 B7 C6]' allocates 7 units to A, 7 to B, and 6 to C.",
+    "intro": "O wena {role} mo Colonel Blotto.\nSepheo sa gago ke go fenya dikgwedi tse dintsi go feta mmaba wa gago.\nMo kgweding nngwe le nngwe, abelela matlhasedi a {num_total_units} ka botlalo masimo a {field_names}.\nMmaba yo o abelang matlhasedi a mantsi mo simong o fenya seimo seo, mme mmaba yo o fenyang masimo a mantsi o fenya kgwedi.\nKa sekao, '[A7 B7 C6]' abelela matlhasedi a 7 mo A, 7 mo B, le 6 mo C.",
     "commander_alpha": "Molaodi Alpha",
     "commander_beta": "Molaodi Beta"
   },

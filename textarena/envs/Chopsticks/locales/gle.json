@@ -14,7 +14,7 @@
   },
   "game_action": {
     "attack": "P{player_id} ionsaíonn lámh P{opp_id} {opp_idx}: tá sé ag dul ó {opp_val} go {new_val}.",
-    "split": "P{player_id} splits into [{L}, {R}]."
+    "split": "P{player_id} scoilteann ina [{L}, {R}]."
   },
   "history": {
     "entry": "P{player_id} {desc}"

@@ -8,13 +8,13 @@
   },
   "results": {
     "header": "### Rondadi {round} - Rezultadu:",
-    "pair_line": "{observation}\n\t Xogador {i} vs Xogador {j} skoje di {choice_i} i {choice_j} respektivamenti (Xogador {i} ganha {gain_i}, Xogador {j} ganha {gain_j})",
+    "pair_line": "{observation}\n\t Xugadó {i} vs Xugadó {j} iziu eskozha pa {choice_i} i {choice_j} respektivamenti (Xugadó {i} ganhá {gain_i}, Xugadó {j} ganhá {gain_j})",
     "scores_open": "{observation} -> Pontu atual: ",
     "score_first": "{observation}Xogador {player_id} ({score})",
     "score_next": "{observation}; Xogador {player_id} ({score})",
     "finalize": "{observation}\n"
   },
   "outcome": {
-    "final": "Final scores: {scores}.  Ranking groups (worst→best): {groups}"
+    "final": "Pontuaçõn final: {scores}.  Grupos di klasifikason (pio→mellor): {groups}"
   }
 }

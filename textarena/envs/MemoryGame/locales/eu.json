@@ -13,8 +13,8 @@
     "already_matched": "Mugimendu baliogabea. Jokalariak {player_id} kartetako bat edo biak aukeratu ditu, eta jada bat datoz."
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "Jokalariak {player_id} hautatutako kartak [{r1} {c1}] eta [{r2} {c2}] posizioetan bat datoz!",
+    "cards_no_match": "Jokalariak {player_id} hautatutako kartak ez datoz bat. Kartak [{r1} {c1}] eta [{r2} {c2}] posizioetan {pos1} eta {pos2} dira, hurrenez hurren."
   },
   "outcome": {
     "draw": "Bi jokalariek karta kopuru berbera egin zuten.",

@@ -13,7 +13,7 @@
     "repeated_guess": "Tú hevur longu gitað {guess}. Vinarliga royn eitt annað gátur."
   },
   "game_action": {
-    "feedback": "Submitted [{guess}]. Feedback: {black_pegs} black peg(s), {white_pegs} white peg(s)."
+    "feedback": "Sendi [{guess}]. Aftursvar: {black_pegs} svørt keil(ar), {white_pegs} hvít keil(ar)."
   },
   "outcome": {
     "win": "Tú hevur brotið kóðan, løst {black_pegs} av {code_length} pinn(a) rétt",

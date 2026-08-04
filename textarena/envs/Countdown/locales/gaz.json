@@ -9,7 +9,7 @@
     "progress": "{observation}\nOnnee guutuu yeroo kana: {progress}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use `[i j op]` where i,j are indices and op is +,-,*,/",
+    "wrong_format": "Foormaata tapha dogoggora. `[i j op]` i,j indeksii yoo ta'an op +,-,*,/ tiin fayyadami.",
     "invalid_indices": "Indices invalid. must be different and in range 0-{max_index} (Indeeksii hin ta'u, gosa adda addaa fi giddu galeessa keessatti kan argamu)",
     "invalid_operation": "Hojiin hin hojjanne (bu'aa sagaliin qooduu ykn bu'aa lakkoofsa guutuu ta'e miti)"
   },

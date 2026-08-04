@@ -13,7 +13,7 @@
     "exceeds_pile": "Tidak bisa mengambil {quantity} dari tumpukan {pile_index} (hanya {pile_count} yang tersisa)."
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "Pemain {player_id} memainkan [{pile_index} {quantity}], menghapus {quantity} objek dari tumpukan {pile_index}."
   },
   "outcome": {
     "win": "Pamain {player_id} maambil objek tarakhir!"

@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing 2048 on a {board_size}x{board_size} board. Your goal is to reach a {target_tile} tile by sliding identical numbers together!\nValid moves: [Up], [Down], [Left], [Right]. Tiles combine when they collide, doubling their value.\n"
+    "intro": "Agto ka managpapat 2048 ed sakey a {board_size}x{board_size} tablero. Say tuyo mo so makasakey a {target_tile} tile paagi nen pagslide na saray numero ya pare-pareho!\nSaray balido a gawa: [Up], [Down], [Left], [Right]. Saray tile so managkakasakey no agkakabunggo da, say balor da so managdodoble.\n"
   },
   "board": {
     "current_board": "Puntos: {score}\n{board}"

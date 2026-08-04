@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing {color} in a game of Chess.\n Make your moves in UCI format enclosed in square brackets (e.g., [e2e4])."
+    "intro": "Һеҙ {color} төҫөндә Шахмат уйынында уйнайһығыҙ.\n Йөрөштәрҙе квадрат йәйәләр эсендә UCI форматында яҙығыҙ (мәҫәлән, [e2e4])."
   },
   "board": {
     "current_board": "Ағымдағы идара: {board}",

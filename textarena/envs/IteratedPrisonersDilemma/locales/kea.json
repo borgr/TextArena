@@ -8,7 +8,7 @@
     "round_summary": "Rezultadu ronda {round}:\n{outcome}\nJogadôr 0 ganha {r0} (total {score_0}), Jogadôr 1 ganha {r1} (total {score_1})."
   },
   "outcome": {
-    "winner": "Player {winner} wins {win_score} - {lose_score}.",
+    "winner": "Jogador {winner} ganhó {win_score} - {lose_score}.",
     "draw": "Tudu dôs djugadoris marka {s0}.",
     "round_both_cooperate": "Es dôs ta trabadjaba djuntu.",
     "round_both_defect": "Es tudu dôs dizisti.",

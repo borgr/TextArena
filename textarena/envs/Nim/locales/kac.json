@@ -1,19 +1,19 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in Nim.\nYour goal is to take the last remaining object.\nOn each turn, choose exactly one pile and remove one or more objects from it.\nUse the format '[pile quantity]', where pile is the pile index and quantity is the number of objects to remove.\nFor example, '[0 3]' removes 3 objects from pile 0."
+    "intro": "Nanhte Player {player_id} Nim re.\nNanhte a lam acha kawp kashun kaja ai.\nKaja shani shagu kawp kashun kaja wa, kaja shagu kawp kashun kaja ai.\n'[pile quantity]' ngai hku format hta ka, pile ngai hku index kaja ai, quantity ngai hku kaja shagu hpe kaja ai.\nHpang shani, '[0 3]' ngai hku pile 0 kaw na 3 kaja shagu hpe kaja ai."
   },
   "state": {
     "current_pile": "Ya aten hta nga ai Hpungtang: {piles}"
   },
   "invalid_move": {
-    "wrong_format": "No valid move format found. '[pile quantity]' hpe lang u.",
-    "correct_format_wrong_fields": "Player {player_id}, မောက်မယ် လုပ်ငန်း။ Column {col} သည် နယ်နမိတ်များထဲမှ ပြန်လည်ရှာဖွေရန်။",
+    "wrong_format": "Kaja format hku n re. '[pile quantity]' hku format hta ka.",
+    "correct_format_wrong_fields": "Player {player_id}, kaja ai n re. Column {col} jaw ai n re.",
     "out_of_range": "Pile index {pile_index} gaw n lawm ai.",
     "non_positive": "Hkum htum arai langai ngai hpe la kau ra ai.",
-    "exceeds_pile": "Pile {pile_index} (တွင် {pile_count} ကျန်ရှိသေး၏) မှ {quantity} ကို ဖယ်ရှားနိုင်မည်မဟုတ်။"
+    "exceeds_pile": "Pile {pile_index} kaw na {quantity} hpe kaja ai n re (jaw {pile_count} hku n re)."
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "Player {player_id} hku hta [{pile_index} {quantity}], {quantity} hku hku hku hta hpun {pile_index} hta."
   },
   "outcome": {
     "win": "Player {player_id} gaw hpang jahtum na object hpe lu la sai!"

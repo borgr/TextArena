@@ -13,7 +13,7 @@
     "exceeds_pile": "ناتوانی {quantity} لە پاشە {pile_index} بەدەست بھێنی (تەنھا {pile_count} مابۆیەوە)."
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "یاریزانی {player_id} یاریی [{pile_index} {quantity}]ی کرد، {quantity} شت(ەکان) لە پیلەی {pile_index} لابرد."
   },
   "outcome": {
     "win": "یاریزان {player_id} کۆتا ئۆبجێکتی (((s)) ی برد!"

@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "Aiki dole ne a cikin tsari [row col] inda jere da shafi sune lambobi daga 0 zuwa {max_index}.",
-    "out_of_range": "Coordinates must be between 0 and {max_index}. You entered [{row},{col}]."
+    "out_of_range": "Koordinatoci dole ne su kasance tsakanin 0 da {max_index}. Ka shigar da [{row},{col}]."
   },
   "outcome": {
     "win": "Taya murna! Kun warware wuyar warwarewa a cikin motsawar {moves_used}!",

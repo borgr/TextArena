@@ -14,14 +14,14 @@
     "{scores}": "The final scores as a raw player-number to score mapping - do not translate"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player GOPS.\n- You hold the 13 cards A-K (each exactly once).\n- Each round a prize is revealed. Submit ONE card like `[Q]`, `[10]`, `[2]` …\n- Highest card wins the prize (+ any carry-over pot). Ties roll the prize into the next round.\n- After 13 rounds, highest total wins. Invalid moves = elimination."
+    "intro": "D uwanek {player_id} i Three-Player GOPS.\n- Tesɛedda 13 n tkart A-K (yiwet kan).\n- Yal turart, tkart n tifin tettusfid. Azen ONE tkart am `[Q]`, `[10]`, `[2]` …\n- Tkart n tifin i rebḥen + tin n tuqqna. Tifin n tifin tettusfid ɣer turart n ddaw.\n- Seld 13 n turart, uwanek i rebḥen aṭṭan. Azalen n tifin = tixxamin."
   },
   "round": {
     "header": "### Aseggas {round}/13 - Tawla tamettant: {prize} (acu-ynes {worth})",
     "hand": "ⵜⴰⴳⴰⴼⵜ ⵏⵏⴽ ⵢⴰⴹⵏ: {hand}"
   },
   "reveal": {
-    "win": "Bids » {bids} - Player {winner} wins {pot}.",
+    "win": "Tazmilt » {bids} - Uwanek {winner} i rebḥen {pot}.",
     "tie": " {bids} - ⵜⴰⵣⴳⵉⵍⵜ, ⵜⴱⵓⵜ ⵖⵉⵍⴰⴷ {pot}.",
     "scores": "ⵜⵉⵖⵓⵔⵉⵡⵉⵏ → {scoreline}"
   },

@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in Chopsticks. On your turn, choose one of:\n  + Attack:  '[attack M O]'  where M=your hand (0 or 1), O=opponent hand (0 or 1).\n    - Opponent's hand count increases by your hand; if >=5, it becomes 0.\n  + Split:   '[split L R]'  to redistribute your total fingers into L and R (L+R = your total).\nReply with exactly one of those commands."
+    "intro": "أنت اللاعب {player_id} في لعبة Chopsticks. في دورك، اختر واحد من:\n  + هجوم: '[attack M O]' حيث M=يدك (0 أو 1)، O=يد الخصم (0 أو 1).\n    - عدد أصابع الخصم يزيد بمقدار أصابعك؛ إذا كان >=5، يصبح 0.\n  + تقسيم: '[split L R]' لإعادة توزيع أصابعك الإجمالية إلى L و R (L+R = إجمالي أصابعك).\nأجِب بأحد هذه الأوامر فقط."
   },
   "board": {
     "current_board": "اللوحة الحالية:\nاللاعب 0: {hands_0}\nاللاعب 1: {hands_1}"

@@ -4,7 +4,7 @@
     "no_trump_card": "ᱡᱟᱦᱟᱱ ᱵᱟᱦᱟ"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in German Whist.\n{phase_info}\nYou hold {hand_size} cards.\nPlay a card with '[play N]', where N is its position in your hand (for example '[play 3]').",
+    "intro": "ᱟᱢᱮ ᱯᱞᱮᱭᱟᱨ {player_id} ᱟᱜ ᱡᱟᱨᱢᱟᱱ ᱣᱤᱥᱴ ᱨᱮ᱾\n{phase_info}\nᱟᱢᱮ {hand_size} ᱠᱟᱨᱰᱥ ᱥᱟᱵ ᱟᱠᱟᱫᱟ᱾\nᱠᱟᱨᱰ ᱠᱷᱮᱞᱚᱜ ᱞᱟᱹᱜᱤᱫ '[play N]' ᱵᱮᱵᱷᱟᱨ ᱢᱮ, ᱡᱟᱦᱟᱸ N ᱟᱢᱟᱜ ᱦᱟᱛ ᱨᱮᱱᱟᱜ ᱥᱴᱤᱥᱚᱱ (ᱡᱮᱢᱚᱱ '[play 3]')᱾",
     "phase_learning": "ᱥᱮᱪᱮᱫ ᱦᱟᱹᱴᱤᱧ: ᱡᱟᱦᱟᱸᱭ ᱴᱨᱤᱠ ᱨᱮᱜᱮ ᱜᱟᱛᱮ ᱟᱜ ᱫᱚ ᱪᱮᱛᱟᱱ ᱠᱷᱚᱱ ᱩᱫᱩᱜ ᱠᱟᱰ ᱮ ᱧᱟᱢᱚᱜ-ᱟ ᱟᱨ ᱚᱠᱚᱭᱟᱜ ᱛᱤᱱᱟᱹᱝ ᱜᱮ ᱵᱟᱝ ᱦᱩᱭ ᱞᱮᱱ ᱠᱷᱟᱱ ᱩᱱᱤᱭᱟᱜ ᱥᱚᱢᱯᱚᱛᱤ ᱠᱟᱨᱰ ᱠᱚ ᱵᱟᱧᱪᱟᱣ ᱛᱟᱦᱮᱸᱱᱟ ᱾ ᱱᱚᱶᱟ ᱦᱟᱹᱵᱤᱫ ᱛᱮ ᱥᱟᱸᱣᱦᱮᱫ ᱨᱮᱱᱟᱜ ᱫᱟᱲᱮ ᱦᱚᱸ ᱵᱟᱹᱜᱤ ᱟᱠᱟᱱᱟ ᱾",
     "phase_playing": "ᱠᱷᱮᱞᱚᱸᱰ ᱨᱮ: ᱰᱮᱠ ᱫᱚ ᱯᱩᱨᱟᱹᱣ ᱮᱱᱟ ᱾ ᱱᱤᱛ ᱠᱷᱚᱱ ᱡᱚᱛᱚ ᱪᱚᱞᱚᱱ ᱫᱷᱤᱨᱤ ᱜᱮ ᱵᱷᱟᱨᱚᱛ ᱫᱤᱥᱚᱢ ᱨᱮᱭᱟᱜ ᱟᱯᱤᱞ ᱠᱚ ᱞᱟᱹᱜᱤᱫ ᱛᱮ ᱦᱩᱭᱩᱜ ᱠᱟᱱᱟ ᱾"
   },
@@ -38,7 +38,7 @@
   "turn": {
     "board": "{phase}\n{scores}\n{next_card}\n\n{trick}\n\n{hand}",
     "scores_learning": "ᱴᱨᱤᱠᱥ ᱡᱤᱛᱠᱟᱹᱨ - ᱯᱞᱮᱭᱟᱨ 0: {tricks0}, ᱯᱞᱮᱭᱟᱨ 1: {tricks1}",
-    "scores_playing": "Scoring tricks - Player 0: {tricks0}, Player 1: {tricks1}",
+    "scores_playing": "ᱴᱨᱤᱠᱥ ᱡᱤᱛᱠᱟᱹᱨ ᱨᱮᱱᱟᱜ ᱥᱮᱨᱢᱟ - ᱯᱞᱮᱭᱟᱨ 0: {tricks0}, ᱯᱞᱮᱭᱟᱨ 1: {tricks1}",
     "phase": "ᱛᱷᱚᱠ: {phase}",
     "phase_learning": "ᱯᱷᱮᱡᱽ: {phase} ({remaining_cards} ᱠᱟᱨᱰᱥ ᱫᱮᱠ ᱨᱮ ᱵᱟᱠᱤ)"
   },
@@ -71,6 +71,6 @@
     "player_line": "{observation}\nᱯᱞᱮᱭᱟᱨ {player_id}: {scoring} ᱥᱠᱳᱨᱤᱝ ᱴᱨᱤᱠᱥ ({tricks} ᱜᱩᱴ), {hand_size} ᱠᱟᱨᱰᱥ ᱛᱮ ᱦᱟᱛᱛᱮ"
   },
   "outcome": {
-    "summary": "Learning phase - Player 0: {l0}, Player 1: {l1}. Playing phase - Player 0: {p0}, Player 1: {p1}. Player {winner_id} wins with {winner_tricks} scoring tricks!"
+    "summary": "ᱥᱤᱠᱱᱟᱹᱛ ᱯᱷᱮᱡ - ᱯᱞᱮᱭᱟᱨ 0: {l0}, ᱯᱞᱮᱭᱟᱨ 1: {l1}᱾ ᱠᱷᱮᱞ ᱯᱷᱮᱡ - ᱯᱞᱮᱭᱟᱨ 0: {p0}, ᱯᱞᱮᱭᱟᱨ 1: {p1}᱾ ᱯᱞᱮᱭᱟᱨ {winner_id} ᱡᱤᱛᱠᱟᱹᱨ ᱠᱟᱱᱟ {winner_tricks} ᱴᱨᱤᱠᱥ ᱥᱟᱶ!"
   }
 }

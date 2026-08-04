@@ -14,7 +14,7 @@
     "intro": "أنت اللاعب {player_id} في لعبة تيك تاك تو لثلاثة لاعبين.\nرمزك هو '{symbol}'.\nتتخذ الدورات لوضع رمزك على لوحة 5x5 لتشكيل خط من أربعة.\nالخطوط يمكن أن تكون أفقية أو عمودية أو قطرية.\nأدخل حركتك باستخدام التنسيق '[4]' لتسجيل الخلية 4."
   },
   "board": {
-    "current_board": "Current Board:\n\n{board}\n\nAvailable Moves: {moves}"
+    "current_board": "اللوحة الحالية:\n\n{board}\n\nالحركات المتاحة: {moves}"
   },
   "invalid_move": {
     "wrong_format": "شكل نقل غير صالح. استخدم \"[cell]\" وين الخلية هيي 0-{max_cell} .",

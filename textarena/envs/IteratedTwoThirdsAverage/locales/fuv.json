@@ -7,7 +7,7 @@
     "out_of_range": "Njaɓugo haani hakkunde {min_guess} e {max_guess}."
   },
   "message": {
-    "round_guesses": "Player 0 guessed {guess0}; Player 1 guessed {guess1}. Thus the Target is: {target}.",
+    "round_guesses": "Tooraa 0 tafaa nammba {guess0}; Tooraa 1 tafaa nammba {guess1}. Kadi takku ngal: {target}.",
     "round_draw": "Ko ɓe waɗi fuu ɗum boɗɗum.",
     "round_win": "Jaawal {winner} heɓti raandu!"
   },

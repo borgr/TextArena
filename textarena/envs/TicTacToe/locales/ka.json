@@ -13,7 +13,7 @@
     "current_board": "მიმდინარე ბორდი: {board} ხელმისაწვდომი გადაადგილებები: {moves}"
   },
   "invalid_move": {
-    "wrong_format": "The submitted move does not follow the correct format.",
+    "wrong_format": "გაგზავნილი სვლა არ არის სწორ ფორმატში.",
     "out_of_range": "{cell} არ არის ვალიდური უჯრედი. უნდა იყოს 0-დან 8-მდე.",
     "already_occupied": "უჯრედი {cell} უკვე დაკავებულია."
   },

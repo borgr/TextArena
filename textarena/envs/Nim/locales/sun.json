@@ -13,7 +13,7 @@
     "exceeds_pile": "Teu bisa ngalikeun {quantity} tina pile {pile_index} (ngan {pile_count} nu tinggal)."
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "Pamaen {player_id} maén [{pile_index} {quantity}], ngangkat {quantity} objék ti tumpukan {pile_index}."
   },
   "outcome": {
     "win": "Pamaén {player_id} nyokot objék pamungkas ((s)!"

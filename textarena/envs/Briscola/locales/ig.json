@@ -39,7 +39,7 @@
   "turn": {
     "score_entry": "Onye na-egwu egwu {player_id}: {points} pts",
     "trump_info": "Trump uwe: {trump_suit}",
-    "trump_info_deck": "Trump suit: {trump_suit} | Cards left in deck: {deck_count}",
+    "trump_info_deck": "Ụdị ọkachamara: {trump_suit} | Kaadị fọdụrụ n'ime dek: {deck_count}",
     "board": "{hand} {trick} Akara: {scores} {trump_info} Gwuo kaadị site na iji [play X]"
   },
   "invalid_move": {

@@ -15,8 +15,8 @@
     "illegal": "Хууль бус зөрчлийн үйлдэл. Хууль ёсны зөрчлүүд: {valid}"
   },
   "game_action": {
-    "skipped": "Player {pid} had to skip their turn",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "skipped": "Тоглогч {pid} ээлжээ алгасах хэрэгтэй байв",
+    "played": "Тоглогч {pid} ({piece}) [{r}, {c}] нүүдэл хийж {flipped} хэсэг(үүд)-ийг хүрээлүүлэв"
   },
   "game_message": {
     "must_skip": "Тоглогч {pid} ({piece}) нь хүчин төгөлдөр алхмуудгүй бөгөөд давж явах ёстой."

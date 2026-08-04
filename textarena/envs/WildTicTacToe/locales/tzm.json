@@ -6,7 +6,7 @@
     "current_board": "Asenmel n uṭṭun:\n\n{board}\n\nIɣmisen ikelman: {moves}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid move format. Use '[X 4]' or '[O 2]' format.",
+    "wrong_format": "Tawmamt tazunɣidt. Sqed '[X 4]' neɣ '[O 2]' tɣimit.",
     "invalid_cell": "ⵓⵟⵟⵓⵏ ⵏ ⵜⵖⵔⴰⵙⵜ ⵓⵔ ⵉⵣⵔⴼⴰⵏ: {cell}. ⵉⵇⵇⵏ ⴰⴷ ⵢⵉⵍⵉ ⴳⵔ 0 ⴷ 8.",
     "already_occupied": "ⵓⵔ ⵉⴳⵉ ⵓⵎⵓⵙⵙⵓ. ⵜⴰⵖⵔⴰⵙⵜ {cell} ⵜⵍⵍⴰ ⵖⵉⴽⵍⵍⵉ ⴷ ⵢⵓⵙⴰ."
   },

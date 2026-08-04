@@ -1,13 +1,13 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({role}) in a {num_rounds}-round Matching Pennies game.\n- Each round, submit [heads] or [tails] (or [h], [t]).\n- If your choice matches your opponent’s, Player 0 wins the round; otherwise Player 1 wins.\nReply with your choice in the format '[heads]' or '[tails]'.\n"
+    "intro": "Ngeye Mwana {player_id} ({role}) mu mukanda wa {num_rounds} wa michezo ya Makuta ya Kulingana.\n- Mu kila mukanda, tuma [heads] au [tails] (au [h], [t]).\n- Ikiwa chaguo lako linafanana na la mpinzani wako, Mwana 0 anashinda mukanda; vinginevyo Mwana 1 anashinda.\nJibu na chaguo lako katika mfumo wa '[heads]' au '[tails]'.\n"
   },
   "invalid_move": {
-    "wrong_format": "Invalid format; please submit '[heads]' or '[tails]'."
+    "wrong_format": "Mfumo usio sahihi; tafadhali tuma '[heads]' au '[tails]'."
   },
   "message": {
-    "round_match": "Player 0 picked {choice0}; Player 1 picked {choice1}. Match -> Player 0 wins",
-    "round_mismatch": "Player 0 picked {choice0}; Player 1 picked {choice1}. Mismatch -> Player 1 wins."
+    "round_match": "Mwana 0 alichagua {choice0}; Mwana 1 alichagua {choice1}. Mfanano -> Mwana 0 anashinda",
+    "round_mismatch": "Mwana 0 alichagua {choice0}; Mwana 1 alichagua {choice1}. Kutofanana -> Mwana 1 anashinda."
   },
   "outcome": {
     "p0_wins": "Muena manaya 0 uvua mupete mashinyi a bungi.",

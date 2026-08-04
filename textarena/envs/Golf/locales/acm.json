@@ -26,7 +26,7 @@
   "board": {
     "drew": "لقد رسمت: {card}\nالآن يجب عليك [swap X Y] أو [discard].",
     "took": "لقد أخذت: {card} من كومة الإستبعاد\nيجب عليك [swap X Y] معه (لا يمكن الإستبعاد).",
-    "peeked": "You peeked at position ({row},{col}): {card}",
+    "peeked": "لقد نظرت إلى الموقع ({row},{col}): {card}",
     "turn_view": "يدك:\n{hand}\nكومة الإستبعاد: {discard}\n{options}",
     "none": "لا شيء."
   },
@@ -43,7 +43,7 @@
   },
   "action_desc": {
     "swapped": "اللاعب {pid} تبادل {new} مع {old} في الموقع ({row},{col})",
-    "discarded": "Player {pid} discarded {card}"
+    "discarded": "اللاعب {pid} تخلص من {card}"
   },
   "message": {
     "deck_empty": "الطابق فارغ، اللعبة تنتهي حالاً.",
@@ -58,7 +58,7 @@
     "discard_empty": "كُومة التخلّص فارغة!",
     "must_draw_first": "يجب عليك أولاً [draw], [take], [knock], أو [peek X Y]",
     "cannot_discard_taken": "ما تَقْدِر ان تتخلّص من بطاقة مُسْتَخْلَف، بل يجب عليك تبادلها.",
-    "have_drawn_card": "You have a drawn card. You must [swap X Y] or [discard] it.",
+    "have_drawn_card": "لديك بطاقة مسحوبة. يجب عليك [swap X Y] أو [discard] البطاقة.",
     "need_drawn_swap": "تَحْتَاجُ لِرَسْمٍ مُقَوَّم لأجل التبادلة.",
     "need_drawn_discard": "تُحْتَاجُ لِرَمْي كارتٍ مُسْلَخ.",
     "out_of_bounds": "الموقع خارج الحدود. استخدم الصف 1-{max_row}, العمود 1-{max_col}",

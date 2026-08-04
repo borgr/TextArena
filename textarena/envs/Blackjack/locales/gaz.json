@@ -9,10 +9,10 @@
     "wrong_format": "Aksiyon gadi dhaalu. '[Hit]' ykn '[Stand]' fayyadamu."
   },
   "game_message": {
-    "hand_result": "Hand {hand_number}: you {outcome}. Your final {player_score}, Dealer {dealer_score}.",
-    "all_complete": "=== All {num_hands} hands complete ===\nWins: {wins}, Losses: {losses}, Draws: {draws}\n"
+    "hand_result": "Harka {hand_number}: ati {outcome}. Skuurii kee dhuma {player_score}, Dealer {dealer_score}.",
+    "all_complete": "=== Harka {num_hands} hundi xumurame ===\nMo'icha: {wins}, Shirri: {losses}, Kufaasa: {draws}\n"
   },
   "outcome": {
-    "game_over": "The game has concluded. Final scores: Dealer: {losses}, You: {wins}, Draws: {draws}"
+    "game_over": "Taphi sun dhuma baha. Skuurii dhuma: Dealer: {losses}, Ati: {wins}, Kufaasa: {draws}"
   }
 }

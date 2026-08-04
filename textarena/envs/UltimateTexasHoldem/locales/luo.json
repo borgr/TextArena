@@ -42,7 +42,7 @@
     "dealer_hand": " WER! Ng'at ma chiwo: {cards}",
     "community_cards": " Kad mag oganda: {cards}",
     "player_best": "🎴 Mkono bora wa mchezaji: {name} ({cards})",
-    "dealer_best": "🎴 Dealer's best hand: {name} ({cards})",
+    "dealer_best": "🎴 Mkono bora wa dealer: {name} ({cards})",
     "ante_lost_folded": " ANTE bet LOST! -${ante} (ma ne oseriw)",
     "blind_lost_folded": " BET MAG JUMBO OWINJO! -${blind} (ma ne oselok)",
     "ante_won": "✅ ANTE bet WON! +${amount} ok ok ok",

@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "Welcome to Frozen Lake!\n\nYou are represented by 'P' on the grid.\nGrid symbols:\n  ' ' = Frozen surface (safe to walk on)\n  'H' = Hole (fall in and lose!)\n  'G' = Goal (reach this to win!)\n  'P' = Your current position\n\nAvailable actions: up, down, left, right (or w, a, s, d)\nType your action as: [up], [down], [left], [right] or [w], [a], [s], [d]\n\nObjective: Navigate from the start (top-left) to the goal (bottom-right) without falling into any holes!\n"
+    "intro": "Koláwa ngúlà Frozen Lake!\n\nKáma káwúra 'P' cikin grid.\nGrid ramúka:\n  ' ' = Fâsè bàga (àmàntákára káwúra)\n  'H' = Rijia (kásùwúra ngúlà ríjiáwúra!)\n  'G' = Màntáwúra (kásùwúra màntáwúra káwúra!)\n  'P' = Wúrúwúra bàga káwúra\n\nÀmàntákára kásùwú: hárùwú, kásùwú, bàgàwú, yâwú (ko w, a, s, d)\nKásùwúra àmàntákára káwú: [up], [down], [left], [right] ko [w], [a], [s], [d]\n\nMàntáwúra: Kásùwúra bàga (hárùwú bàga) ngúlà màntáwúra (kásùwúra bàga) bàga ríjiáwúra!\n"
   },
   "board": {
     "current_board": "Borti K'ono K'ono:\n\n{board}\n\nKadi K'ono: {actions}"
@@ -8,7 +8,7 @@
   "invalid_move": {
     "wrong_format": "Kadi k'ono k'ono kadi k'ono. Kadi [up], [down], [left], [right] ko [w], [a], [s], [d].",
     "unknown_action": "Awo notәnyi '{action}'. faidatǝ, cidibe-a, laanzaye-a au w, a, s, d.",
-    "hit_wall": "You tried to move {action} but hit a wall!"
+    "hit_wall": "Káma ǵí kóló {action} kóló gúǵí síríǵí!"
   },
   "game_action": {
     "moved": "Kadi {action} kadi k'ono ({row}, {col})."

@@ -6,11 +6,11 @@
     "wrong_format": "Na vakadewa ni vakatotolo; kurabui '[heads]' se '[tails]'."
   },
   "message": {
-    "round_match": "Player 0 a chomereki '{choice0}'; Player 1 a chomereki '{choice1}'. Match -> Player 0 wini",
-    "round_mismatch": "Player 0 a chomereki '{choice0}'; Player 1 a chomereki '{choice1}'. Mismatch -> Player 1 wini."
+    "round_match": "Na Dauqito 0 e digitaki {choice0}; Na Dauqito 1 e digitaki {choice1}. Veikilikili -> Na Dauqito 0 sa qai",
+    "round_mismatch": "Na timi 0 a digitaka {choice0}; Na timi 1 a digitaka {choice1}. Veicalati -> Na timi 1 sa qai qona."
   },
   "outcome": {
-    "p0_wins": "Player 0 won more rounds.",
+    "p0_wins": "Player 0 e qai wini vica na raundi.",
     "p1_wins": "E levu cake na iwiliwili ni qito e qaqa kina o koya ena imatai ni timi.",
     "draw": "E sega ni dua na macala e yaco ena qito."
   }

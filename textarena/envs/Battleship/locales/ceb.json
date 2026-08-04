@@ -8,7 +8,7 @@
     "already_fired": "Ang koordinato {coord} gipusil na."
   },
   "game_action": {
-    "you_sunk": "Sunk! You sunk a ship at {coord}! Your updated board:\n{view}",
+    "you_sunk": "Nalubog! Nalubog nimo ang usa ka sakayan sa {coord}! Ang imong gibag-ohan nga board:\n{view}",
     "opp_sunk": "Ang kaatbang naglubog sa imong barko sa {coord}! Ang imong gin-updatang tabla:\n{view}",
     "you_hit": "Hit! Naghit ka sa usa ka barko sa {coord}! Ang imong gin-updatang tabla:\n{view}",
     "opp_hit": "Ang kaatbang naghit sa imong barko sa {coord}! Ang imong gin-updatang tabla:\n{view}",

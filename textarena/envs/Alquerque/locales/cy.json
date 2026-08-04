@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({piece}). Opponent is ({opp}).\nSubmit moves as '[a2 a3]' (from → to).\n- A normal move is one forward step to an adjacent empty vertex.\n- A capture is a jump over an adjacent enemy piece landing on the empty node beyond.\nEach capture yields {score_per_capture} points.\nGame ends after {max_moves} moves or when a player has no legal move."
+    "intro": "Rydych chi'n Chwaraewr {player_id} ({piece}). Gwrthwynebydd yw ({opp}).\nCyflwyno symudiadau fel '[a2 a3]' (o → i).\n- Symudiad arferol yw cam ymlaen i fertig cyfagos gwag.\n- Dal yw neidio dros ddarn gelyn cyfagos gan lanio ar y nod gwag tu hwnt.\nMae pob dal yn cynnig {score_per_capture} pwynt.\nMae'r gêm yn dod i ben ar ôl {max_moves} symudiadau neu pan nad oes gan chwaraewr symudiad cyfreithlon."
   },
   "board": {
     "current_board": "Symud #{move_count} {board}"

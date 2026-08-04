@@ -14,6 +14,6 @@
   },
   "outcome": {
     "win": "Selamat! Pemain {player_id} menyelesaikan teka-teki Sudoku. (Pemain 0) iya nih, aku mau bilang: \"Saduku!\"",
-    "turn_limit": "The turn limit has been reached. You correctly filled {percent}% of the empty cells."
+    "turn_limit": "Batas giliran sudah tercapai. Ia berhasil mengisi {percent}% sel-sel kosong."
   }
 }

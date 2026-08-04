@@ -9,10 +9,10 @@
     "{pct}": "Progress as a percentage string, e.g. 50%"
   },
   "player_prompt": {
-    "intro": "Map each letter to a unique digit so the arithmetic holds.\nAssign with `[A 5]`, re-assign anytime.\n"
+    "intro": "Kɛ kʋyʋʋ tɛɛ tɛɛ sɩŋŋ tɛɛ kʋyʋʋ nɛɛ kɛɛɛ kʋyʋʋ.\nKɛ [A 5] nɛɛ kʋyʋʋ tɛɛ, kɛ kʋyʋʋ pɩŋŋ tɛɛ tɛɛ.\n"
   },
   "invalid_move": {
-    "wrong_format": "Bad action format. Use `[A 5]`.",
+    "wrong_format": "Kʋyʋʋ tɛɛ tɛɛ kʋyʋʋ pɩŋŋ. Kɛ [A 5] nɛɛ.",
     "letter_not_in_puzzle": "Takayaɣ {letter} fɛyɩ tɔm kpou taa.",
     "digit_used": "Nɔmɖɛ {digit} ɛlɛɛ ñɛwɛɛ na {used_letter}.",
     "leading_zero": "Tɔm piye naɖɩyɛ taa kajalaɣ mayaɣ ɛɛpɩzɩɣ nɛ kɛwɛɛ 0."

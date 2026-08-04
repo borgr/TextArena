@@ -12,7 +12,7 @@
   },
   "outcome": {
     "white_reached": "ಬಿಳಿ ಕಪ್ಪು ಮನೆ ಸಾಲು ತಲುಪಿತು.",
-    "black_reached": "Black reached White's home row.",
+    "black_reached": "ಕಪ್ಪು ಬಣ್ಣವು ಬಿಳಿಯ ಮೂಲ ಸಾಲನ್ನು ತಲುಪಿದೆ.",
     "white_captured": "ಎಲ್ಲಾ ಬಿಳಿ ತುಣುಕುಗಳನ್ನು ಸೆರೆಹಿಡಿಯಲಾಗಿದೆ.",
     "black_captured": "ಎಲ್ಲಾ ಕಪ್ಪು ತುಣುಕುಗಳನ್ನು ಸೆರೆಹಿಡಿಯಲಾಗಿದೆ.",
     "no_moves": "ಆಟಗಾರ {player_id} ಇನ್ನು ಮುಂದೆ ಚಲಿಸುವುದಿಲ್ಲ."

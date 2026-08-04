@@ -13,13 +13,13 @@
     "already_matched": "Spill {player_id} huet eng oder béid Kaarten ausgewielt, déi scho matgemaach goufen."
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "D'Kaarten, déi vum Spiller {player_id} op de Positioune [{r1} {c1}] an [{r2} {c2}] gewielt goufen, passen zesummen!",
+    "cards_no_match": "D'Kaarten, déi vum Spiller {player_id} gewielt goufen, passen net zesummen. D'Kaarten op de Positioune [{r1} {c1}] an [{r2} {c2}] sinn {pos1} an {pos2}."
   },
   "outcome": {
     "draw": "Déi zwee Spiller hunn déi selwecht Zuel vu Kartpaar matgemaach.",
     "win": "De Spiller {winner_id} huet gewonnen!",
-    "turn_limit": "The turn limit has been reached. The game is over. Player 0 scored {score_0} points, Player 1 scored {score_1} points.",
+    "turn_limit": "D'Zuchlimit ass erreecht. D'Spill ass eriwwer. Spiller 0 huet {score_0} Punkten, Spiller 1 huet {score_1} Punkten.",
     "turn_limit_win": "{reason} De Spiller {winner_id} huet gewonnen!"
   }
 }

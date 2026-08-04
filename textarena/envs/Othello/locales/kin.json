@@ -4,7 +4,7 @@
   },
   "board": {
     "game_board": "Igikoresho cy'umukino: {board}",
-    "valid_moves": "{observation}\nValid moves: {moves}",
+    "valid_moves": "{observation}\nIngendo zishoboka: {moves}",
     "no_valid_moves_reset": "{observation} Nta ntambwe yemewe - ushobora gusimbuka.",
     "no_valid_moves_step": "{observation} Nta ntambwe yemewe ushobora gusimbuka.",
     "scores_reset": "{observation}\nAmashyirahamwe y'ubu - Black: {black_count}, White: {white_count}\n",
@@ -16,7 +16,7 @@
   },
   "game_action": {
     "skipped": "Umukinnyi {pid} yagombaga kurenga ku mwanya we.",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "Mugenzi {pid} ({piece}) yakiniye [{r}, {c}] akahindura {flipped} kigufi(c)"
   },
   "game_message": {
     "must_skip": "Umukino {pid} ({piece}) atavuga indorerezo z'indashyikirwa na azakomeza."

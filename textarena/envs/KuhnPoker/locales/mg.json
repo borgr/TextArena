@@ -11,7 +11,7 @@
     "not_legal": "Tsy maintsy {legal_actions} ny hetsika."
   },
   "action": {
-    "submit_move": "Player {player_id}, submitted move: '[{move}]'.",
+    "submit_move": "Mpilalao {player_id}, nandefa hetsika: '[{move}]'.",
     "valid_actions": "Ireto ny zavatra azonao atao: {legal_actions}.",
     "round_summary": "{reason} Famaritana ny isa ankehitriny: Mpilalao 0: \"{player_0_chips}\"; Mpilalao 1: \"{player_1_chips}\""
   },

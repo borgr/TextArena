@@ -26,19 +26,19 @@
   },
   "hand": {
     "none": "کارت یوخدور.",
-    "empty": "الده کارت یوخدور.",
-    "header": "الین:",
+    "empty": "هیچ کارتی در دست نیست",
+    "header": "دست شما:",
     "card_line": "  {pos}. {card} [{points} pts]{trump_mark}",
     "trump_mark": "(ترامپ)"
   },
   "trick": {
-    "empty": "بو ترقّي هله ليک کارت اويناماييب.",
-    "header": "ایندیکی حیله:",
+    "empty": "هنوز هیچ کارتی در این ترفند بازی نشده است.",
+    "header": "ترفند فعلی:",
     "line": "  Oyuncu {player_id}: {card}{trump_mark}"
   },
   "turn": {
     "score_entry": "Oyuncu {player_id}: {points} puan",
-    "trump_info": "ترامپ سوئیسی: {trump_suit}",
+    "trump_info": "خال برتر: {trump_suit}",
     "trump_info_deck": "Koz suiti: {trump_suit} | Destede kalan kartlar: {deck_count}",
     "board": "{hand}\n\n{trick}\n\nSkorlar: {scores}\n{trump_info}\n\nBir kartı [play X] kullanarak oynayın"
   },
@@ -48,7 +48,7 @@
   },
   "action": {
     "played": "Oyuncu {player_id} {card} oynadı",
-    "trick_win": "Player {winner} wins the trick with {card} and gains {points} points!"
+    "trick_win": "بازیکن {winner} ترفند را با کارت {card} برنده شد و {points} امتیاز به دست آورد!"
   },
   "outcome": {
     "head": "Oyun Bitti! Oyuncu {winner} {points} puanla kazandı!\n\nSon Skorlar:\n{scores}",

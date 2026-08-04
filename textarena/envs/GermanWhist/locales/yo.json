@@ -5,7 +5,7 @@
   },
   "player_prompt": {
     "intro": "O jẹ Player {player_id} ni German Whist. {phase_info} O ni awọn kaadi {hand_size}. Mu kaadi kan pẹlu '[play N]', nibiti N jẹ ipo rẹ ni ọwọ rẹ (fun apẹẹrẹ '[play 3]').",
-    "phase_learning": "LEARNING PHASE: the winner of each trick takes the face-up card and the loser draws the next card from the deck. Tricks won in this phase do not count towards victory.",
+    "phase_learning": "ÌPELE ÌKÓṢE: olúborí ìgbà gbogbo gba kárí tí ó wà jáde àti olùṣẹ̀ gbá kárí tókàn nínú pọ̀. Àwọn ìgbà tó gbà nínú ìpele yìí kò sí ṣe pàtàkì fún ìṣẹ́gun.",
     "phase_playing": "ÌGBÀ ÌṢÉ: Àpótí náà ti tán. Gbogbo ẹ̀tàn láti ìsinsìnyí lọ yóò ṣe pàtàkì fún ìṣẹ́gun."
   },
   "next_card": {

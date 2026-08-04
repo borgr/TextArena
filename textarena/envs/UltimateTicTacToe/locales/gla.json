@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in **Ultimate Tic Tac Toe**.\nSubmit your move as **[macro  micro]** (two numbers 0-8):\n• *macro*  = which mini-board you play in\n• *micro* = which square inside that mini-board\nExample `[7 8]` ➜ place your mark in mini-board 7, square 8, and\nforce your opponent to play in mini-board 8 next.\n\nYou are `{symbol}`.\n"
+    "intro": "Is tu Player {player_id} ann an **Ultimate Tic Tac Toe**.\nCuir a-steach do ghluas mar **[macro  micro]** (dà àireamh 0-8):\n• *macro*  = cò tha thu a' cluich air a' bhòrd beag\n• *micro* = cò tha thu a' cluich air a' cheàrn taobh a-staigh a' bhòrd bheag\nEisimpleir `[7 8]` ➜ cuir do chomharra air bòrd beag 7, ceàrn 8, agus\nèigheachd do dh'fhàinne a chluich air bòrd beag 8 an ath-thuras.\n\nIs tu `{symbol}`.\n"
   },
   "board": {
     "current_board": "Bòrd gnàthach: {board}"

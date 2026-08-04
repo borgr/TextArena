@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "Welcome to Frozen Lake!\n\nYou are represented by 'P' on the grid.\nGrid symbols:\n  ' ' = Frozen surface (safe to walk on)\n  'H' = Hole (fall in and lose!)\n  'G' = Goal (reach this to win!)\n  'P' = Your current position\n\nAvailable actions: up, down, left, right (or w, a, s, d)\nType your action as: [up], [down], [left], [right] or [w], [a], [s], [d]\n\nObjective: Navigate from the start (top-left) to the goal (bottom-right) without falling into any holes!\n"
+    "intro": "Kamogelo mo Letsha la Gaenetsi!\n\nO emetswe ke 'P' mo grid.\nMabodi a grid:\n  ' ' = Sehafa se se tletseng (se bolokele go tsamaya)\n  'H' = Logaga (wa neelela o bo o lahlegetse!)\n  'G' = Bokhutlo (fikela fa go wina!)\n  'P' = Maemo a gago a jaanong\n\nDitiro tse di kgatlhileng: godimo, tlase, go le letona, go le letshoho (kgotsa w, a, s, d)\nTlhagisa ditiro tsa gago jaana: [up], [down], [left], [right] kgotsa [w], [a], [s], [d]\n\nBokhutlo: Kgweetsa go tswa kwa tshimologo (godimo-letona) go ya kwa bokhutlo (tlase-letshoho) ntle le go neelela mo logageng lepe!\n"
   },
   "board": {
     "current_board": "Boro ya kgwele ya tshwane:\n\n{board}\n\nTswelelo ya dikgetho: {actions}"

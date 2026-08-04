@@ -51,10 +51,10 @@
     "final_round": "Mkuruleni {pid} {reason}! Vangani vambirhi va vaya na sungula yin'wana."
   },
   "reason": {
-    "all_revealed": "has all cards revealed"
+    "all_revealed": "ana khadi zote zilizofichuliwa"
   },
   "invalid": {
-    "wrong_action": "Use exactly ONE bracketed action: [draw], [take], [swap X Y], [discard], [knock], or [peek X Y]",
+    "wrong_action": "Tumia kitendo kimoja tu kilichowekwa mabano: [draw], [take], [swap X Y], [discard], [knock], au [peek X Y]",
     "discard_empty": "Nhulu ya thyaka yi hava nchumu!",
     "must_draw_first": "U fanele ku sungula [draw], [take], [knock], or [peek X Y]",
     "cannot_discard_taken": "A wu nge swi koti ku lahla khadi leri tekiweke eka nhulu ya makhadi lama lahliwaka. U fanele u ri cinca.",
@@ -74,6 +74,6 @@
     "title": "=== GOLF GAME=== Ku Hlayisa Xiyenge Xa Vumbirhi:",
     "discard": "Ku cukumeta nhulu: {card}",
     "knocked": "Mutlangi {pid} u gongondzile!",
-    "player_header": "Player {pid} (Score: {score}):"
+    "player_header": "Mchezaji {pid} (Alama: {score}):"
   }
 }

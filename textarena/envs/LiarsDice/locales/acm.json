@@ -33,7 +33,7 @@
     "caller_loses": "اللاعب {current_player_id} يدعو! العدد الفعلي للوجه {face_value} هو {count}، وهو >= {quantity}.\nاللاعب {loser_id} (المدعو) يفقد نردًا واحدًا."
   },
   "action": {
-    "bid_announce": "Player {player_id} bids {quantity} of face {face_value}."
+    "bid_announce": "اللاعب {player_id} يعرض {quantity} من وجه {face_value}."
   },
   "invalid_move": {
     "call_no_bid": "اتصل بدون اي عرض مسبق.",

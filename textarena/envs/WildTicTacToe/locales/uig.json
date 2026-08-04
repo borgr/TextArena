@@ -11,7 +11,7 @@
     "already_occupied": "ئىناۋەتسىز يۆتكەش. {cell} خانىسى ئاللىقاچان ئىشلەيدۇ."
   },
   "game_action": {
-    "placed": "Player {player_id} placed their symbol ({mark}) in cell {cell}"
+    "placed": "{player_id} نومۇرلۇق ئويۇنچى {mark} بەلگىسىنى {cell} نومۇرلۇق كۋادراتقا قويۇپ قويدى"
   },
   "outcome": {
     "win": "ئويناشچى {player_id} {mark} لار بىلەن ئۇتتى!",

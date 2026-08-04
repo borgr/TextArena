@@ -11,14 +11,14 @@
     "{groups}": "Neutral ranking data (a list of player-id groups, worst to best); do not translate"
   },
   "player_prompt": {
-    "intro": "{num_players}-Player Snake on a {width}×{height} grid.\nYou control snake {player_id}. Valid moves: '[up]'/'[down]'/'[left]'/'[right]' (or w/s/a/d).\nObjective: survive longest or be the longest and get the highest score (turn limit {max_turns} turns)."
+    "intro": "{num_players}-Ŋʊnʊm lɛɣɛ Snake kɛ {width}×{height} kɔɣɛ.\nƐsɔŋɛɛ kɛ snake {player_id}. Sɔŋɛɛ sɔlɛm: '[up]'/'[down]'/'[left]'/'[right]' (ɛntɛ w/s/a/d).\nƆɛlɛkɛ: wiɛm ɛntɛŋɛɛ kɛɛlɛm ɛntɛŋɛɛ ɛntɛŋɛɛ kɛɛlɛm ɛntɛŋɛɛ kɛɛlɛm (ɛntɛŋɛɛ {max_turns} ɛntɛŋɛɛ)."
   },
   "board": {
     "current": "Ɛjaɖɛ ñʊʊtʊ: {board}",
     "after_moves": "Ɛjaɖɛ nɖɩ ɖɩ-taa palɩza ŋgbɛyɛ ńɖɩ yɔ: {board}"
   },
   "game_action": {
-    "invalid_death": "Snake {player_id} died due to invalid move."
+    "invalid_death": "Wɔɖɩyɛ {player_id} kʊyɩ kɛ pɩyɛɛ kʊyɩmɩŋ lɛɣtʊ."
   },
   "outcome": {
     "survived_win": "Aleɣya laɖʋ {player_id} pɩzaa nɛ ɛɖɔkɩ e-nesi, lalaa tɩŋa sɩba.",
@@ -26,6 +26,6 @@
     "outlived": "Ɛ-ɛyʋ kɩbɩnʋ kaacaɣ wezuu nɛ pɩɖɛɛ lalaa.",
     "all_dead": "Ɛsɩnzɩ ɖʋmaa tɩŋa payɩ.",
     "turn_limit": "Ye ŋtalɩ hɔɔlʋʋ ŋgʋ kɩ-taa pɩwɛɛ se ŋpɩsɩ yɔ, mbʋ pɩhaɣ waɖɛ nɛ ña ɖɔɖɔ ŋkpaɣ lɩmaɣza.",
-    "ranking": "{reason} Final ranking groups (worst→best): {groups}"
+    "ranking": "{reason} Pɩyɛɛ kɩfam tɩŋɛ tʊma (kɩcɛcɛyɩ→kɩkpaɖɩyɩ): {groups}"
   }
 }

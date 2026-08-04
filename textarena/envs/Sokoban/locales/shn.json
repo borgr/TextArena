@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are solving the Sokoban puzzle. You are the player and you need to push all boxes to targets.\n        When you are right next to a box, you can push it by moving in the same direction.\n        You cannot push a box through a wall, and you cannot pull a box.\n        On the board, objects are represented as: \n        - The player (you) appears as 'P' \n        - Walls are represented with '#' \n        - Boxes are marked as 'X' \n        - Empty goals are shown with a 'O'\n        - Boxes on goals are visualized with '√'\n        You can also use [w] for up, [a] for left, [s] for down, and [d] for right.\n        "
+    "intro": "တႆးတီႈၼႆႈ မၼ်းပဵၼ် puzzle Sokoban ၼင်ႇႁိုဝ်ၸဝ်ႈၵဝ်ႇ တေလႆႈၸႂ်ႉၼမ်ႉၸႂ်သေ ပွႆႇၶဵဝ်ႈၸူးတီႈပၵ်းသုတ်း။\n        ၸဝ်ႈၵဝ်ႇ မီးၸွမ်းၶဵဝ်ႈၼၼ်ႉၼႆ တေၸၢင်ႈၶိုၼ်ႈၶဵဝ်ႈၼၼ်ႉ ဢဝ်ႁူဝ်ၼၼ်ႉၵႂႃႇၸူး။\n        ၸဝ်ႈၵဝ်ႇ ဢမ်ႇၸၢင်ႈၶိုၼ်ႈၶဵဝ်ႈၼၼ်ႉႁူဝ်ၶူဝ် လႄႈ ဢမ်ႇၸၢင်ႈပွႆႇၶဵဝ်ႈၼၼ်ႉ။\n        ၼိူဝ်ၽိူၼ်ၼၼ်ႉ မၼ်းပဵၼ်ၸိူဝ်းၼႆႉ: \n        - ၸဝ်ႈၵဝ်ႇ (ၸဝ်ႈၵဝ်ႇ) မီးဝႆႉ 'P' \n        - ၶူဝ် မီးဝႆႉ '#' \n        - ၶဵဝ်ႈ မီးဝႆႉ 'X' \n        - တီႈပၵ်းသုတ်း မီးဝႆႉ 'O'\n        - ၶဵဝ်ႈ တီႈပၵ်းသုတ်း မီးဝႆႉ '√'\n        ၸဝ်ႈၵဝ်ႇ ၸၢင်ႈၸႂ်ႉ [w] ၼိူဝ်, [a] ၶႂႃ, [s] တႂ်ႈ, လႄႈ [d] ၶႂႃ။\n        "
   },
   "board": {
     "current_board": "ၼႃႈလိၼ်ပဵၼ်တၢင်းၼႃႈ:\n\n{board}\nလၢႆးလွင်ႈၸႂ်ႉၸၢႆႇ: {moves}"
@@ -12,8 +12,8 @@
     "invalid_position": "လွင်ႈၶၢႆႉဢၼ်ဢမ်ႇၽဵင်ႇပဵင်း - ဢမ်ႇၸၢင်ႈၵႂႃႇတီႈၼႃႈၼၼ်ႉ။"
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
-    "pushed_prefix": "pushed a box while"
+    "moved": "ၸဝ်ႈၵဝ်ႇ {pushed} ၶိုၼ်ႈ [{action}].",
+    "pushed_prefix": "သေတ္တာတခုကိုချောက်ခဲ့ၿပီး"
   },
   "outcome": {
     "win": "မႂ်ႇသုင်ၶႃႈ၊ သူၵႄႈလိတ်ႈလႆႈ လွင်ႈထၢင်ႇႁၢင်ႈ Sokoban ယဝ်ႉ!",

@@ -48,7 +48,7 @@
   },
   "action": {
     "played": "प्लेयर {player_id} {card} खेललक",
-    "trick_win": "Player {winner} wins the trick with {card} and gains {points} points!"
+    "trick_win": "खिलाड़ी {winner} {card} के साथ चाल जीतता है और {points} पॉइंट्स प्राप्त करता है!"
   },
   "outcome": {
     "head": "गेम समाप्त! प्लेयर {winner} {points} पॉइंट्स के साथ जीतलक!\n\nअंतिम स्कोर:\n{scores}",

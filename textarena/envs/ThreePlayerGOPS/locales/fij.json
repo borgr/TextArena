@@ -14,7 +14,7 @@
     "{scores}": "The final scores as a raw player-number to score mapping - do not translate"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player GOPS.\n- You hold the 13 cards A-K (each exactly once).\n- Each round a prize is revealed. Submit ONE card like `[Q]`, `[10]`, `[2]` …\n- Highest card wins the prize (+ any carry-over pot). Ties roll the prize into the next round.\n- After 13 rounds, highest total wins. Invalid moves = elimination."
+    "intro": "O iko na Player {player_id} e Three-Player GOPS.\n- O tiko kina na 13 kadi A-K (e dua ga na kila kadi).\n- E dua na raundi e tiko kina na prize e vakaraitaki kina. Vakauta e dua na kadi me vaka `[Q]`, `[10]`, `[2]` …\n- Na kadi e levu duadua e wini kina na prize (+ na kena pot e tiko kina). Na tie e roll kina na prize ki na raundi e tarava.\n- E muri na 13 raundi, na kena totolo e wini kina. Na moves e sega ni valid = elimination."
   },
   "round": {
     "header": "### Round {round}/13 - Prize: {prize} (ni vakavuvulitaki {worth})",
@@ -22,7 +22,7 @@
   },
   "reveal": {
     "win": "Bids  {bids} - Player {winner} qaqa {pot}.",
-    "tie": "Bids » {bids} - tie, pot now {pot}.",
+    "tie": "Bids » {bids} - tie, pot e tiko kina {pot}.",
     "scores": "Na iwiliwili ni sikoa → {scoreline}"
   },
   "invalid_move": {

@@ -14,14 +14,14 @@
     "{scores}": "The final scores as a raw player-number to score mapping - do not translate"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player GOPS.\n- You hold the 13 cards A-K (each exactly once).\n- Each round a prize is revealed. Submit ONE card like `[Q]`, `[10]`, `[2]` …\n- Highest card wins the prize (+ any carry-over pot). Ties roll the prize into the next round.\n- After 13 rounds, highest total wins. Invalid moves = elimination."
+    "intro": "Шумо Бозигари {player_id} дар GOPS-и Се-Бозигарӣ ҳастед.\n- Шумо 13 корти А-К (ҳар кадом як бор)-ро дар даст доред.\n- Дар ҳар давр мукофоте ошкор мешавад. Як корти монанди `[Q]`, `[10]`, `[2]` ва ғайраро ворид кунед.\n- Баландтарин корт мукофотро (ҳамроҳ бо гачоҳи боқимонда) мегирад. Баробарӣ мукофотро ба даври оянда мегузаронад.\n- Пас аз 13 давр, бозигари дорои баландтарин ҳисоби умумӣ ғолиб мешавад. Ҳаракатҳои нодуруст = барканорӣ."
   },
   "round": {
     "header": "### Давр {round}/13 - Ҷоиза: {prize} (ба қиммат {worth})",
     "hand": "Дасти боқимондаи шумо: {hand}"
   },
   "reveal": {
-    "win": "Bids » {bids} - Player {winner} wins {pot}.",
+    "win": "Таклифҳо » {bids} - Бозигари {winner} мукофоти {pot}-ро мегирад.",
     "tie": "Тӯҳфаҳо  {bids} - равобит, зарф ҳоло {pot}.",
     "scores": "Натиҷаҳо → {scoreline}"
   },

@@ -21,11 +21,11 @@
     "{scores}": "The pre-rendered per-player list of final scores"
   },
   "player_prompt": {
-    "intro": "You are playing Golf (Card Game) - Player {player_id}.\nGoal: Get the lowest total score in this single round. If columns share the same value, they are summed as 0.\nCard Values: A=1, 2-10=face value, J/Q=10, K=0\n\nActions (use exact brackets):\n- '[draw]' - Draw from deck\n- '[take]' - Take from discard pile\n- '[swap X Y]' - Swap drawn card with position X (row) Y (column)\n- '[discard]' - Discard the drawn card\n"
+    "intro": "አንድ ጎልፍ (ካርድ ጨዋታ) ተጫዋች እንደሚኖር - ተጫዋች {player_id}.\nግብ: አንድ አንስት ነጥብ ጠቅላላ እንደሚኖር በአንድ አንስት ነጥብ. አንድ አምዶች እንደሚኖሩ አንድ አንስት ነጥብ, እንደ 0 እንደሚኖሩ.\nካርድ ነጥቦች: A=1, 2-10=አንድ ነጥብ, J/Q=10, K=0\n\nእርምጃዎች (እንደሚኖሩ በትክክል ባንድስ):\n- '[draw]' - ከዴክ ውስጥ ይለሱ\n- '[take]' - ከጥረግ አንድ ይወስዱ\n- '[swap X Y]' - ካርድ እንደሚኖር ከዴክ ውስጥ ከአንድ ቦታ X (ሰል) Y (አምድ) ይለውጡ\n- '[discard]' - ካርድ እንደሚኖር ከዴክ ውስጥ ይጥሩ"
   },
   "board": {
     "drew": "እርስዎ ጨረሰው: �{card}\nአሁን እርስዎ መልሰው �[swap X Y] ወይም ጨረሱዋት �[discard]",
-    "took": "You took: {card} from discard pile\nYou must [swap X Y] with it (cannot discard).",
+    "took": "አንድ ካርድ ይወስዱ: {card} ከጥረግ አንድ\nአንድ [swap X Y] እንደሚኖሩ (አልባል ጥረግ).",
     "peeked": "እርስዎ አየው በማዕዘን ({row},{col}): �{card}",
     "turn_view": "እርስዎ እጅ:\n{hand}\nአስወጡ ማዕዘን: �{discard}\n{options}",
     "none": "የለም"
@@ -34,7 +34,7 @@
     "final_turns": "መጨረሻ እንቅስቃሴ! እርስዎ እይታ: ጨረስ መስራት አስፈልጋል �[draw], ቦታ መለወጥ መስራት አስፈልጋል �[take], አስወጡ መስራት አስፈልጋል �[peek X Y]",
     "draw": "እርስዎ እይታ: ጨረስ መስራት አስፈልጋል �[draw], ቦታ መለወጥ መስራት አስፈልጋል �[take]",
     "must_swap": "አንተ: [swap X Y] (የተጣሉ ክምር ከ ካርዶች መጣል አይችልም)",
-    "swap_or_discard": "You must: [swap X Y] or [discard]"
+    "swap_or_discard": "አንድ [swap X Y] ወይ [discard]"
   },
   "hand": {
     "no_cards": "ካርዶች የሉም",
@@ -48,7 +48,7 @@
   "message": {
     "deck_empty": "የመርከቧ መርከብ ባዶ ነው! ጨዋታው ወዲያውኑ ያበቃል።",
     "knocked": "ተጫዋች {pid} ተደበደበ! እያንዳንዱ ሌላ ተጫዋች አንድ ተጨማሪ ተራ ያገኛል.",
-    "final_round": "Player {pid} {reason}! Each other player gets one more turn."
+    "final_round": "ተጫዋች {pid} {reason}! አንድ ተጫዋች አንድ አንስት ነጥብ."
   },
   "reason": {
     "all_revealed": "ካርዶቹ በሙሉ ተገለጡ?"
@@ -61,14 +61,14 @@
     "have_drawn_card": "እርስዎ ካርድ ጨረሱዋት. እርስዎ መልሰው ማድረግ ያስፈልጋል ወይም ጨረሱዋት �[swap X Y] ወይም ጨረሱዋት �[discard]",
     "need_drawn_swap": "ለመለዋወጥ የተሳለ ካርዶች ያስፈልግሃል።",
     "need_drawn_discard": "ለመጣል የተሳለ ካርታ ያስፈልግሃል።",
-    "out_of_bounds": "Position out of bounds. Use row 1-{max_row}, column 1-{max_col}",
+    "out_of_bounds": "ቦታ ከግሪድ ውስጥ. ሰል 1-{max_row}, አምድ 1-{max_col} እንደሚኖሩ.",
     "knock_with_card": "በወረቀት ካርድ መደርደሪያ ላይ መታ ማድረግ አይቻልም። መጀመሪያ ተራህን ጨርስ።",
     "already_knocked": "አንድ ሰው ይህን ዙር ቀድሞውኑ አንኳኩቷል.",
     "already_revealed": "ይህ ካርድ ቀድሞውኑ ተገልጧል!"
   },
   "summary": {
-    "full": "Game Over! Player {winner} wins with a score of {score} points!\n\nFinal Scores:\n{scores}",
-    "line": "Player {pid}: {score} points\n"
+    "full": "ጨዋታ አሁን! ተጫዋች {winner} እንደሚኖር ከአንድ ነጥብ {score} ነጥቦች!\n\nአማራጭ ነጥቦች:\n{scores}",
+    "line": "ተጫዋች {pid}: {score} ነጥቦች\n"
   },
   "board_str": {
     "title": "=== የጎልፍ ጨዋታ===",

@@ -17,6 +17,6 @@
   },
   "outcome": {
     "win": "བཀྲིས་བདེ་ལེགས། ཁྱེད་ཀྱིས་ Minesweeper board ཀྱི་ས་ཁྲ་དེ་ལེགས་པར་སེལ་ཐུབ་སོང་།",
-    "turn_limit": "The turn limit has been reached. You successfully uncovered {percent}% of the safe cells."
+    "turn_limit": "གོམ་པའི་ཚད་ལས་འདས་སོང་། ཁྱེད་ཀྱིས་བདེ་བའི་གསིག་{percent}% བསལ་ཟིན།"
   }
 }

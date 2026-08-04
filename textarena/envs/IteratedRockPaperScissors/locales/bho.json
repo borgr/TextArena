@@ -6,7 +6,7 @@
     "wrong_format": "मूव के पहचान नइहीं पावल। [rock], [paper], या [scissors] के इस्तमाल करीं।"
   },
   "game_action": {
-    "selects": "Player {player_id} selects move {move}."
+    "selects": "खेलाड़ी {player_id} चाल {move} चुनले बा।"
   },
   "message": {
     "round_draw": "राउंड के परिणाम: ड्रॉ भइल",

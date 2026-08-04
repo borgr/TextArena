@@ -12,7 +12,7 @@
     "invalid_position": "ଅବୈଧ ଚାଲ - ସେହି ସ୍ଥିତିକୁ ଯାଇପାରିବ ନାହିଁ."
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
+    "moved": "ଆପଣ {pushed} [{action}] ଚାଲ କଲେ।",
     "pushed_prefix": "ଗୋଟିଏ ବାକ୍ସକୁ ଧକ୍କା ଦେଇଥିଲା"
   },
   "outcome": {

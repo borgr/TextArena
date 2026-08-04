@@ -9,7 +9,7 @@
     "wrong_format": "Ɔyɛ adeyɛ a ɛsɛ sɛ ɛyɛ [accept] anaa [continue]."
   },
   "outcome": {
-    "summary": "You accepted value {value} at draw {draw_num}/{N}. The best overall was {best}. {result}",
+    "summary": "Woyi {value} wɔ {draw_num}/{N} mu. Nea ɛkorɔn sen nyinaa no yɛ {best}. {result}",
     "perfect": "N'ani gye ho pa ara! ",
     "not_max": "Ɛnyɛ nea ɛboro so."
   }

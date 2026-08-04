@@ -24,7 +24,7 @@
     "intro": "أنت تلعب غولف (لعبة بطاقات) - لاعب {player_id}.\nالهدف: الحصول على أدنى مجموع نقاط في هذا الدور الواحد. إذا كانت الأعمدة تشترك في نفس القيمة، فسيتم جمعها كـ 0.\nقيم البطاقات: A=1، 2-10 = قيمة الوجه، J/Q=10، K=0\n\nالأفعال (استخدم الشكل الدقيق):\n- '[draw]' - سحب من الكومة\n- '[take]' - أخذ من كومة الرمى\n- '[swap X Y]' - استبدال البطاقة المشحونة مع الموقع X (الصف) Y (العمود)\n- '[discard]' - رمي البطاقة المشحونة"
   },
   "board": {
-    "drew": "You drew: {card}\nNow you must [swap X Y] or [discard] it.",
+    "drew": "لقد سحبت: {card}\nالآن يجب عليك [swap X Y] أو [discard] البطاقة.",
     "took": "لقد اخذت: {card} من كومة الرمى\nيجب عليك [swap X Y] معه (لا يمكن رميه)",
     "peeked": "لقد نظرت إلى الموقع ({row}،{col}): {card}",
     "turn_view": "يدك:\n{hand}\nكومة الرمى: {discard}\n{options}",
@@ -42,19 +42,19 @@
     "row": "الصف {n}: {cards}"
   },
   "action_desc": {
-    "swapped": "Player {pid} swapped {new} with {old} at position ({row},{col})",
+    "swapped": "اللاعب {pid} استبدل {new} بـ {old} في الموقع ({row},{col})",
     "discarded": "لاعب {pid} رمى {card}"
   },
   "message": {
     "deck_empty": "الطابق فاضي، اللعبة بتنتهي هلأ.",
     "knocked": "لاعب {pid} طرقت! كل لاعب آخر يحصل على دور واحد.",
-    "final_round": "Player {pid} {reason}! Each other player gets one more turn."
+    "final_round": "اللاعب {pid} {reason}! كل لاعب آخر يحصل على دور إضافي."
   },
   "reason": {
     "all_revealed": "كل البطاقات ظهرت؟"
   },
   "invalid": {
-    "wrong_action": "استخدم действие واحد محاط بالشكل: [draw]، [take]، [swap X Y]، [discard]، [knock]، أو [peek X Y]",
+    "wrong_action": "استخدم إجراءً واحداً بين قوسين: [draw]، [take]، [swap X Y]، [discard]، [knock]، أو [peek X Y]",
     "discard_empty": "كتير التخلص فاضي!",
     "must_draw_first": "يجب عليك أولاً [draw]، [take]، [knock]، أو [peek X Y]",
     "cannot_discard_taken": "ما فيك ترم بطاقة من كومة التخلص، لازم تبدلها.",

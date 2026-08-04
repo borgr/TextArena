@@ -16,7 +16,7 @@
     "{cards}": "The cards in a pile as neutral labels, or '--' if empty (never translate)"
   },
   "player_prompt": {
-    "intro": "You are playing Klondike Solitaire. Your goal is to move all cards to the foundation piles.\n\nGame Rules:\n- Foundation piles (F1-F4): Build up from Ace to King in suit\n- Tableau piles (T1-T7): Build down alternating colors (red on black, black on red)\n- Stock: Draw cards to waste pile\n- Waste (W): Top card available for play\n\nCommands:\n- 'draw' - Draw cards from stock to waste\n- 'move <source> <destination> [count]' - Move cards between piles\n  Examples: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count can also be 'all', which will try to move all face-up cards.\n- 'forfeit' - End the game immediately and lock in your current score\n- Pile names: W (waste), F1-F4 (foundations), T1-T7 (tableau)\n\nYou can execute multiple actions in one turn by separating them with commas:\n  Example: 'draw, move W T1, move T2 F1'\n\nOnly Kings can be placed on empty tableau piles.\nActions execute in order - if one fails, the remaining actions are skipped.\nUse 'forfeit' if you believe the game is impossible to win."
+    "intro": "Anda sadang bamain Klondike Solitaire. Tujuan Anda adolah mamindahkan kartu sadonyo ka tumpukan pondasi.\n\nAturan Permainan:\n- Tumpukan pondasi (F1-F4): Bangun dari As hinggo Rajo dalam satuan warna\n- Tumpukan tableau (T1-T7): Bangun turun jo warna selang-seling (merah di ateh itam, itam di ateh merah)\n- Stock: Ambiak kartu ka tumpukan sampah\n- Sampah (W): Kartu paling ateh tasadio untuak dimainkan\n\nPerintah:\n- 'draw' - Ambiak kartu dari stock ka sampah\n- 'move <source> <destination> [count]' - Pindahkan kartu antaro tumpukan\n  Contoh: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count dapek pulo 'all', nan akan mancubo mamindahkan kartu sadonyo nan tatuo.\n- 'forfeit' - Akhiri permainan langsung jo kunci skor kini\n- Namo tumpukan: W (sampah), F1-F4 (pondasi), T1-T7 (tableau)\n\nAnda dapek malakukan aksi-aksi babarapo dalam ciek giliran jo mamisahkan mareka jo koma:\n  Contoh: 'draw, move W T1, move T2 F1'\n\nHanyo Rajo dapek ditempatkan di ateh tumpukan tableau kosong.\nAksi-aksi bajalan sacaro baturuik - jiko ciek gagal, aksi-aksi salanjuiknyo diabaikan.\nGunokan 'forfeit' jiko Anda picayo permainan ko mustahil dimenangkan."
   },
   "format_error": {
     "no_brackets": "Format tindakan indak sah. Tindakan harus ado dalam kurung-kurung.",
@@ -24,15 +24,15 @@
     "empty_command": "Parintah kosong. Ketik \"draw\" atau 'move <source> <destination> [count]'",
     "empty_action": "Aksi nan indak ado gunonyo",
     "move_needs_args": "Parintah pindah mamaraluan sumber jo tujuan. Panggunoan: 'move <source> <destination> [count]'",
-    "count_positive": "Hitungnyo harus positif atau \"semua\"",
-    "count_invalid": "Panghitungan indak sah. Gunakannyo angka atau 'semua'",
+    "count_positive": "Jumlah harus positif atau 'all'",
+    "count_invalid": "Jumlah tidak valid. Gunakan angka atau 'all'",
     "unknown_command": "Perintah tidak diketahui '{cmd}'. Gunakan 'draw', 'move <source> <destination> [count]', atau 'forfeit'",
     "wrapped": "Action {n}: {msg}"
   },
   "action_result": {
     "success": "Action {n}: {msg}",
     "before_failure": "Dilaksanakannyo {n} tindakan (s) sabalun gagal.",
-    "failed": "Action {n} failed: {msg}"
+    "failed": "Aksi {n} gagal: {msg}"
   },
   "move_result": {
     "drew": "Tarik kartu (s) dari stok ka limbah.",

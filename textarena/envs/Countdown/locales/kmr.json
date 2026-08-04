@@ -5,11 +5,11 @@
   "board": {
     "header": "ARMANC: {target}\n\nJimareyên berçav:\n{numbers}",
     "best": "{observation}\n\nBaştirîn heya niha: {best_value} (dûrî: {distance})\nBaştirîn pîvan: {best_expression}",
-    "history": "{observation}\n\nMove history:\n{moves}",
+    "history": "{observation}\n\nDîroka kiryaran:\n{moves}",
     "progress": "{observation}\nAstoniya pêşketina niha: {progress}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use `[i j op]` where i,j are indices and op is +,-,*,/",
+    "wrong_format": "Formatê kiryarê ne rast e. `[i j op]` bikar bîne ku i,j indeks in û op +,-,*,/ e.",
     "invalid_indices": "Indeksên neheq. Divê cuda be û di nav 0-{max_index} de bin",
     "invalid_operation": "Operasyona neheq (beşkirina bi sifir an encama non-integer)"
   },

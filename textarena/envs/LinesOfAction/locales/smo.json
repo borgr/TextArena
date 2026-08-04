@@ -10,7 +10,7 @@
     "{to}": "The destination coordinate of a move, such as b3"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in game of LinesOfAction.\nYour pieces are '{side}', opponent pieces are '{other}'.\nMove format: `[b1b3]` (from-coord to-coord). A legal move travels horizontally, vertically, or diagonally a number of squares equal to the total pieces (any colour) in that line. You may jump over your own pieces, but not opponent pieces; landing on an opponent captures it.  Win when all your pieces are 8-neighbour connected."
+    "intro": "Oe o le Tagata Taaalo {player_id} i le ta'aloga o LinesOfAction.\nO pusa a oe o '{side}', pusa a le fili o '{other}'.\nFa'atinoga o le gaioiga: `[b1b3]` (fa'ailoga o le amataga i le fa'aiuga). O se gaioiga sa'o e alu i le itu fa'asaga, itu fa'atupu, po'o itu fa'akona e o'o lava i le aofa'i o pusa (so'o se lanu) i lea laina. E mafai ona e alu i luga o pusa a oe, ae le mafai ona alu i luga o pusa a le fili; pe a e pa'u i luga o se pusa a le fili, e maua ai."
   },
   "board": {
     "current_board": "Komiti Faatino: {board}"

@@ -1,12 +1,12 @@
 {
   "player_prompt": {
-    "intro": "Welcome to Frozen Lake!\n\nYou are represented by 'P' on the grid.\nGrid symbols:\n  ' ' = Frozen surface (safe to walk on)\n  'H' = Hole (fall in and lose!)\n  'G' = Goal (reach this to win!)\n  'P' = Your current position\n\nAvailable actions: up, down, left, right (or w, a, s, d)\nType your action as: [up], [down], [left], [right] or [w], [a], [s], [d]\n\nObjective: Navigate from the start (top-left) to the goal (bottom-right) without falling into any holes!\n"
+    "intro": "Kpɛndɛɛm nɛ Frozen Lake!\n\nƐwɛ kɩmaɣzɩm 'P' kɛ kɩgaɖɛ taa.\nKɩgaɖɛ tɛ akɔma:\n  ' ' = Tɛtɛ kpɛndɛɛm (ɛzɩmtaa lɩmaɣza)\n  'H' = Hɔlɩ (ɖɩɖɩɩ nɛ pɩwɛɛ nɛ pɩtɛ lɛɣtɛ!)\n  'G' = Kɩjɛɖɛ (ɛzɩmtaa kɩfɛyɩ nɛ pɩwɛɛ!)\n  'P' = Ɛwɛ lɩmaɣzɩm tɛɛ\n\nLɩmaɣzɩm wɛɛ: kɩɖɛ, kɩɖɩ, kɩcɛlɛ, kɩcɛɖɩ (ɛzɩmtaa w, a, s, d)\nLɩmaɣzɩm kɛɛ kɛ: [up], [down], [left], [right] ɛzɩmtaa [w], [a], [s], [d]\n\nKɩjɛɖɛ: Ɛzɩmtaa kɩfɛyɩ kɩɖɛ (kɩɖɛ-kɩɖɛ) nɛ kɩjɛɖɛ (kɩcɛlɛ-kɩcɛɖɩ) pɩtɛ lɛɣtɛ hɔlɩ taa!\n"
   },
   "board": {
     "current_board": "Tablo Akpandaa:\n\n{board}\n\nTɩŋ Ŋɛtʊ: {actions}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use [up], [down], [left], [right] or [w], [a], [s], [d].",
+    "wrong_format": "Lɩmaɣzɩm tɛɛ kɛɛ fɛyɩ. Lɩzɩ [up], [down], [left], [right] ɛzɩmtaa [w], [a], [s], [d].",
     "unknown_action": "Ɖɩtɩtɩlɩna tʊmɩyɛ '{action}'. Tɩŋnɩ pɩ-yɔɔ, pɔɔyɩŋ yɔɔ, nɩwaŋ yɔɔ yaa w, a, s, d.",
     "hit_wall": "Aɖaʊ {action} pɩlɩna walɩ!"
   },
@@ -15,7 +15,7 @@
   },
   "outcome": {
     "win": "Pɩlabɩ ɖeu, ŋtalɩ kaɖʋwa ŋga!",
-    "fell_in_hole": "You fell into a hole! Game over. You completed {pct}% of the journey to the goal.",
+    "fell_in_hole": "Ɖɛnɛ kpɛndɛɛ kɛ sɔɖɛɛ! Kpɛndɛɛ kɛ pɩɣa. Ɖɛnɛ kpɛndɛɛ {pct}% kɛ kpɛndɛɛ kɛ kpɛndɛɛ kɛ kpɛndɛɛ.",
     "turn_limit": "Ŋtalɩ pɩ-tɛ hɔɔlɩŋ weyi ɩfɛyɩ yɔ! Aleɣya tɛm. Ŋlaba nʋmɔʋ ŋgʋ ŋɖɔm nɛ ŋkɔɔ ɖenɖe ŋɖʋwa se ŋwoki yɔ, kɩ-taa {pct}% tam."
   }
 }

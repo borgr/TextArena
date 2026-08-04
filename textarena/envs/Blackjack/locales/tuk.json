@@ -9,7 +9,7 @@
     "wrong_format": "Natykam ýalan hereket. '[Hit]' ýa-da '[Stand]' ulanyn."
   },
   "game_message": {
-    "hand_result": "Hand {hand_number}: you {outcome}. Your final {player_score}, Dealer {dealer_score}.",
+    "hand_result": "El {hand_number}: siz {outcome}. Siziň ahyrky {player_score}, Diler {dealer_score}.",
     "all_complete": "=== Bölünip tamamlanan {num_hands} kartlar ===\nÝeňişler: {wins}, Ýeňilme: {losses}, Deňlik: {draws}\n"
   },
   "outcome": {

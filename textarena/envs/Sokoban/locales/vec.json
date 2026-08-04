@@ -6,13 +6,13 @@
     "current_board": "Tavolo corrente:\n\n{board}\nMossi disponibili: {moves}"
   },
   "invalid_move": {
-    "wrong_format": "The submitted move does not follow the correct format. Use [up], [down], [left], [right] or [w], [a], [s], [d].",
+    "wrong_format": "La mossa inviada no segue el formato coreto. Usa [up], [down], [left], [right] o [w], [a], [s], [d].",
     "not_valid_action": "La mossa presentà no xe na asion vałida.",
     "wall_collision": "No te pol moverte contro un muro!",
     "invalid_position": "Movimento invalido - no se pol mover a quela posizion."
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
+    "moved": "Ti {pushed} te ga mosso [{action}].",
     "pushed_prefix": "spinta na scatola mentre"
   },
   "outcome": {

@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are in a room with {num_buttons} buttons: {buttons}. Each button is associated with a Bernoulli distribution with a fixed but unknown mean; the means for the buttons could be different.\nFor each button, when you press it, you will get a reward that is sampled from associated distribution.\nYou have {num_turns} time steps and, on each time step, you can choose any button and receive the reward.\nYour goal is to strategically choose buttons at each time step to collect information about their reward distribution, that will let you choose the button with the highest mean reward correctly at the end of {num_turns} turns."
+    "intro": "Ati jirta bakka {num_buttons} buutonoota waliin: {buttons}. Buutonootti tokko tokko qabata Bernoulli tarree waliin mean ajaa ibsu, garuu mean buutonootaa adda adda ta'uu danda'a.\nBuutonoota tokko tokko, yeroo ati cuqaasita, badhaasa argata tarree waliin walqabataa.\nAti {num_turns} tura jirta, tura tokko tokko, buutonootti tokko filachuun badhaasa argachuun danda'a.\nKaayyoon kee buutonoota tura tokko tokko filachuun beekumsa argachuuf tarree badhaasaa, buutonootti mean badhaasa olaanaa qabu sirriitti filachuuf {num_turns} tura booda."
   },
   "board": {
     "stat_line": "{button}: {reward} ({count} maraattiin tamsa'ame)",
@@ -11,7 +11,7 @@
     "invalid_button": "Buttaan hin hojjanne filatame."
   },
   "game_action": {
-    "pressed": "You pressed the {button} button and received a reward of {reward}."
+    "pressed": "Ati buutonootti {button} cuqaasite, badhaasa {reward} argate."
   },
   "game_message": {
     "final_decision": "Filannoo garaagara gochuuf jecha qarshii kee guutuufi buʼaa filannoo sanaatiin argattu erga qorattee booda, amma filannaan gaarii taʼe isa kam akka taʼen murteessi."

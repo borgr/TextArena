@@ -22,7 +22,7 @@
     "final_ranking": "list of player indices from first eliminated to winner"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in an {num_players}-player Liar's Dice game.\nRules:\n- On your turn, you may either:\n  1) Make a new bid with a higher quantity or higher face (or both) than the current bid; i.e. '[Bid: 3, 4]',\n  2) Call the last bid by typing '[Call]'.\n\nIf you call:\n  - If the actual count of that face value among all dice is less than the bid, the last bidder loses one die.\n  - Otherwise, the caller loses one die.\nA player who reaches 0 dice is eliminated. The last remaining player wins."
+    "intro": "Oyo wewe Mchezaji {player_id} oyo azali na michezo ya Liar's Dice na bato {num_players}.\nMikano:\n- Siku wewe ozali na wakati wa kucheza, wewe angaye:\n  1) Tunga mbele mpya na wingi mwingi au uso wa juu (tangu wote mawili) kuliko mbele wa sasa; ndenge '[Bid: 3, 4]',\n  2) Ita mbele ya mwisho kwa kutunga '[Call]'.\n\nSiku wewe ita:\n  - Siku idadi ya kweli ya thamani ya uso kati ya dice zote ni chini ya mbele, mchezaji wa mwisho anapoteza die mmoja.\n  - Vinginevyo, mtoa ita anapoteza die mmoja.\nMchezaji anayefikia 0 dice anatolewa. Mchezaji wa mwisho aliyesalia anashinda."
   },
   "board": {
     "per_player": "\tMokeli {p}: {d}",
@@ -33,7 +33,7 @@
     "caller_loses": "Mokeli {current_player_id} akeli ! Ndakisa ya nkisi {face_value} eza {count}, ambao eza >= {quantity}.\nMokeli {loser_id} (mokeli wa kojela) akeli malu moke."
   },
   "action": {
-    "bid_announce": "Player {player_id} bids {quantity} of face {face_value}."
+    "bid_announce": "Mchezaji {player_id} atunga {quantity} ya uso {face_value}."
   },
   "invalid_move": {
     "call_no_bid": "Moto oyo abengaki te azalaki na mposa ya kopesa mbongo.",

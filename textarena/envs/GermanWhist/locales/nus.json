@@ -71,6 +71,6 @@
     "player_line": "{observation}\nRɛɛth {player_id}: {scoring} kɛm kɛn ë tiɔp ({tricks} kɛn ë dhɔl), {hand_size} kɛm kɛn ë rɛɛth"
   },
   "outcome": {
-    "summary": "Learning phase - Player 0: {l0}, Player 1: {l1}. Playing phase - Player 0: {p0}, Player 1: {p1}. Player {winner_id} wins with {winner_tricks} scoring tricks!"
+    "summary": "Kɛɛl kɔ̈ɔ̈c - Tɛ̈ɛ̈ŋ kɛ̈ɛ̈th 0: {l0}, Tɛ̈ɛ̈ŋ kɛ̈ɛ̈th 1: {l1}. Kɛɛl wïïr - Tɛ̈ɛ̈ŋ kɛ̈ɛ̈th 0: {p0}, Tɛ̈ɛ̈ŋ kɛ̈ɛ̈th 1: {p1}. Tɛ̈ɛ̈ŋ {winner_id} a dhïïm ëë {winner_tricks} kɛ̈ɛ̈l wïïr!"
   }
 }

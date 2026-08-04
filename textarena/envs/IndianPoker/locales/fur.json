@@ -6,12 +6,12 @@
     "announce": "### Turn {current_round}/{max_rounds}\nLa cartis dal aversari è: {card}"
   },
   "invalid_move": {
-    "ambiguous": "Supply exactly ONE bracketed action, e.g. '[check]', '[bet 2]', '[call]', '[raise 3]', or '[fold]'.",
+    "ambiguous": "Fornìs une azion in parentesis, par esempli '[check]', '[bet 2]', '[call]', '[raise 3]', o '[fold]'.",
     "cannot_check": "No pues [check] - tu âs di fâ une scomesse.",
     "amount_min": "L'impuart di scomesse/raivament al à di jessi ≥ 1.",
-    "cannot_bet": "Cannot [bet] - must [call] / [raise] / [fold].",
+    "cannot_bet": "No pues [bet] - al è necessari [call] / [raise] / [fold].",
     "nothing_to_call": "Nissune robe di clamâ; tu puedis [check] invezit.",
-    "no_bet_to_raise": "Use [bet X] to open; there is no bet to raise.",
+    "no_bet_to_raise": "Dopre [bet X] par vierzi; no je scomesse di rilanciâ.",
     "insufficient": "No son bastantis fiestis par cheste azion."
   },
   "game_action": {

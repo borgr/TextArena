@@ -1,13 +1,13 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} playing a game of Pig Dice.\n\nRules:\n- On your turn, you can either '[roll]' or '[hold]'\n- Roll a 2-6: Add to your turn total\n- Roll a 1: Lose turn total and end turn\n- Hold: Add turn total to your score and end turn\n- First to {winning_score} points wins\n\nWhen it's your turn, you'll see the current scores and turn total.\nRespond with '[roll]' to roll the die or '[hold]' to bank your points."
+    "intro": "Jumaxa Player {player_id} uñt'asipxi Pig Dice p'ikt'it. \n\nQ'awa:\n- Turnompi, '[roll]' jan ukax '[hold]' manta\n- 2-6 Roll: Turnompi totalman q'uwant'a\n- 1 Roll: Turnompi totalman q'ulunta, turnompi tukuyi\n- Hold: Turnompi totalman punkunkir scoreman q'uwant'a, turnompi tukuyi\n- Nayra {winning_score} puntosman jikxatasi\n\nTurnoma, kunjamsa scores actuals ukat turnompi total uñt'ayata.\n'[roll]' jan ukax '[hold]' manta jawirixi."
   },
   "invalid_move": {
-    "invalid_action": "Invalid action format. Use '[roll]' or '[hold]'."
+    "invalid_action": "Q'awa manq'a format. '[roll]' jan ukax '[hold]' manta."
   },
   "actions": {
-    "player_busted": "Player {player_id} busted, losing {turn_total} points!",
-    "player_hold": "Player {player_id} holds and banks {turn_total} points."
+    "player_busted": "Player {player_id} q'ulunta, {turn_total} puntosman tukuyi!",
+    "player_hold": "Player {player_id} punkunki, {turn_total} puntosman q'uwant'a."
   },
   "board": {
     "player": "Jaqi 0: '{score_0}'; Jaqi 1: '{score_1}'",
@@ -17,8 +17,8 @@
     "available_actions": "{observation}\nJaniw uñt'ayirinakaxa: '[roll]' jan '[hold]'"
   },
   "outcome": {
-    "winner_by_turn_limit": "Player {winner_id} won by having a higher score at the turn limit ({scores})",
-    "winner_by_score": "Player {winner_id} won by reaching the target score of {winning_score}!",
+    "winner_by_turn_limit": "Player {winner_id} jikxatasi turnompi limitan (scores {scores})",
+    "winner_by_score": "Player {winner_id} jikxatasi {winning_score} puntosman!",
     "draw": "Uka turnionx mä pachakiw utjxi, ukat taqpach anatirinakax kikipakïpxiwa: {scores}"
   }
 }

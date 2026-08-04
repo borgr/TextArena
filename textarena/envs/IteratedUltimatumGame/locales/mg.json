@@ -27,7 +27,7 @@
     "begins": "--- Manomboka ny fihodinana {round_number}! --- Ny mpilalao {proposer_id} no manolotra, ny mpilalao {responder_id} no mamaly.",
     "offer": "Fihodinana {round_number}: Ny mpilalao {proposer_id} dia manolotra ${offer} ho an'ny mpilalao {responder_id} (mihazona ${keep}).",
     "accepted": "Mpilalao {responder_id} ekena! Fifaninanana fihodinana {round_number}: Mpilalao {proposer_id} +${proposer_gain}, Mpilalao {responder_id} +${responder_gain}. Total vaovao: Mpilalao 0: ${total_0}, Mpilalao 1: ${total_1}.",
-    "rejected": "Player {responder_id} nanafoana ny fanirihana! Round {round_number} gains: Both players +$0. Totals remain: Player 0: ${total_0}, Player 1: ${total_1}."
+    "rejected": "Mpilalao {responder_id} tsy ekeny ny ofera! Ny tour {round_number} dia: Samy +$0 no azo. Totaly mbola: Mpilalao 0: ${total_0}, Mpilalao 1: ${total_1}."
   },
   "invalid_move": {
     "no_offer_format": "Ny mpangataka dia tsy maintsy manao tolotra amin'ny fampiasana ny endrika [Offer: $X].",

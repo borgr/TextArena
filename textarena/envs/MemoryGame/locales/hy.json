@@ -13,8 +13,8 @@
     "already_matched": "Անօրինական քայլ: Խաղացողը {player_id} ընտրել է մեկ կամ երկու քարտ, որոնք արդեն համընկել են:"
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "Խաղացող {player_id} կողմից ընտրված քարտերը [{r1} {c1}] և [{r2} {c2}] դիրքերում համապատասխանում են։",
+    "cards_no_match": "Խաղացող {player_id} կողմից ընտրված քարտերը չեն համապատասխանում։ [{r1} {c1}] և [{r2} {c2}] դիրքերում քարտերը {pos1} և {pos2} են համապատասխանաբար։"
   },
   "outcome": {
     "draw": "Երկու խաղացողները միեւնույն թվով զույգ քարտեր են խաղացել:",

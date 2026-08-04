@@ -1,10 +1,10 @@
 {
   "game_start": {
-    "intro": "Permainan dimulai. Jenis trump: {trump_suit} (kartu trump: {trump_str}).",
+    "intro": "Pappasemména ri laro. Laro makkuloe: {trump_suit} (kattoe makkuloe: {trump_str}).",
     "no_trump_card": "degaga engkana"
   },
   "player_prompt": {
-    "intro": "Anda adalah Pemain {player_id} di Whist Jerman.\n{phase_info}\nAnda memegang {hand_size} kartu.\nMainkan kartu dengan '[play N]', di mana N adalah posisi kartu di tangan Anda (contoh '[play 3]').",
+    "intro": "Ri olomu Player {player_id} ri German Whist.\n{phase_info}\nRi olomu {hand_size} kattoe.\nLaro kattoe ri '[play N]', ri olomu N na posisi ri olomu tanganmu (contona '[play 3]').",
     "phase_learning": "FASE MAMPILU: Pemenang pole ri tungke' trikki nalai kartu iya coppo e nenniya tau iyya teddengnge naruntui kartu laingnge. Trikki ripapole rilaleng fase degaga riaseng mancaji pammulanna perenang.",
     "phase_playing": "Tungke' akkattana pole iyae wettu e, ribilang untu pammulanna."
   },
@@ -16,16 +16,16 @@
   },
   "invalid_move": {
     "wrong_format": "Format gerak iya de'na valid. Pakkegunai '[play N]' untu mappuaru kartu Nth ri lima mu.",
-    "bad_position": "Posisi kartu itu tidak ada. Anda memegang {hand_size} kartu.",
+    "bad_position": "Posisi kattoe itu tidak ada. Ri olomu {hand_size} kattoe.",
     "must_follow_suit": "Iko waji'i naccoweri sibawa mappigau kartu {lead_suit}.",
     "invalid_play": "Iyaro kartue de'na wedding ri pake."
   },
   "game_action": {
-    "played": "Pelaen {player_id} maenang {card}."
+    "played": "Pamain {player_id} mappasae {card}."
   },
   "trick": {
-    "won": "Pemaen {winner_id} menang trikna pake {card}.",
-    "won_learning": "Pemain {winner_id} memenangkan trik dengan {card} dan mengambil kartu yang terbuka."
+    "won": "Pamain {winner_id} menang katto ri {card}.",
+    "won_learning": "Pamain {winner_id} menang katto ri {card} sibawa ngala karto ri muka."
   },
   "phase": {
     "learning_complete": "Pakke'na pura cappu. Wettu magguru e purani - tungke trik iya engkae riolo wedding mancaji papparinra untu' amanna."
@@ -37,10 +37,10 @@
   },
   "turn": {
     "board": "{phase}\n{scores}\n{next_card}\n\n{trick}\n\n{hand}",
-    "scores_learning": "Trik yang dimenangkan sejauh ini - Pemain 0: {tricks0}, Pemain 1: {tricks1}",
-    "scores_playing": "Trik penilaian - Pemain 0: {tricks0}, Pemain 1: {tricks1}",
+    "scores_learning": "Katto ri laleng - Pamain 0: {tricks0}, Pamain 1: {tricks1}",
+    "scores_playing": "Katto ngaseng - Pamain 0: {tricks0}, Pamain 1: {tricks1}",
     "phase": "Fase: {phase} (maccue'e ri laleng)",
-    "phase_learning": "Fase: {phase} ({remaining_cards} kartu yang tersisa di dek)"
+    "phase_learning": "Mappasae: {phase} ({remaining_cards} karto ri tana)"
   },
   "hand": {
     "no_cards": "Degaga kartu-kartu.",
@@ -60,17 +60,17 @@
     "not_started": "Akkegunang de'na ripammulai",
     "header": "=== GAMERAN WHIST GAME=== (Game pole pole)",
     "phase": "{observation}\nFase: {phase}",
-    "trump_suit": "{observation}\nJenis trump: {trump_suit}",
-    "trump_card": "{observation}\nKartu trump: {card}",
-    "cards_left": "{observation}\nKartu yang tersisa di dek: {count}",
-    "next_card": "{observation}\nKartu berikutnya untuk pemenang: {card}",
+    "trump_suit": "{observation}\nLakko: {trump_suit}",
+    "trump_card": "{observation}\nKarto lakko: {card}",
+    "cards_left": "{observation}\nKarto ri tana: {count}",
+    "next_card": "{observation}\nKarto pambaru ri pamenang: {card}",
     "blank": "{observation}  ripaseng",
     "current_trick": "{observation} Akkerajang makkokkoe:",
     "trump_indicator": "(TRUMP) iya nih, iya tuh.",
     "trick_line": "{observation}\n  Pemain {player_id}: {card}{trump_indicator}",
-    "player_line": "{observation}\nPemain {player_id}: {scoring} trik penilaian ({tricks} total), {hand_size} kartu di tangan"
+    "player_line": "{observation}\nPamain {player_id}: {scoring} katto ngaseng ({tricks} total), {hand_size} karto ri lima"
   },
   "outcome": {
-    "summary": "Learning phase - Player 0: {l0}, Player 1: {l1}. Playing phase - Player 0: {p0}, Player 1: {p1}. Player {winner_id} wins with {winner_tricks} scoring tricks!"
+    "summary": "Mappasae - Pamain 0: {l0}, Pamain 1: {l1}. Mappasae ri laleng - Pamain 0: {p0}, Pamain 1: {p1}. Pamain {winner_id} menang ngaseng {winner_tricks} katto!"
   }
 }

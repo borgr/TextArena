@@ -3,7 +3,7 @@
     "intro": "I nih hi Player {player_id} ni Wild Tic Tac Toe-ah.\nI turn ah, i chuan 'X' emaw 'O' i chawi thei e.\nI hnehsawm thei via mark pakhat (X or O) a rualin a awm.\nI hnehsawm thei via symbol pakhat.\nI move i thlan dan chu '[X 4]' format hi hman rawh 'X' center-ah a thlen nan"
   },
   "board": {
-    "current_board": "Current Board:\n\n{board}\n\nAvailable Moves: {moves}"
+    "current_board": "Board Hmanmek:\n\n{board}\n\nTih theih Moves: {moves}"
   },
   "invalid_move": {
     "wrong_format": "Move format a dik lo. '[X 4]' emaw '[O 2]' format hi si la",

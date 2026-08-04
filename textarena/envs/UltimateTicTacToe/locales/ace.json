@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in **Ultimate Tic Tac Toe**.\nSubmit your move as **[macro  micro]** (two numbers 0-8):\n• *macro*  = which mini-board you play in\n• *micro* = which square inside that mini-board\nExample `[7 8]` ➜ place your mark in mini-board 7, square 8, and\nforce your opponent to play in mini-board 8 next.\n\nYou are `{symbol}`.\n"
+    "intro": "Droeueuh Player {player_id} lam **Ultimate Tic Tac Toe**.\nKirimkan geudumbak droeueuh seubagoe **[macro  micro]** (dua angka 0-8):\n• *macro*  = mini papan nan droeueuh main\n• *micro* = nan pat lam mini papan nyan\nConto `[7 8]` ➜ tamong tanda droeueuh lam mini papan 7, pat 8, ngon\npaksa lawan droeueuh main lam mini papan 8 lheueh.\n\nDroeueuh `{symbol}`.\n"
   },
   "board": {
     "current_board": "Papan nyang jinoë: {board}"
@@ -22,6 +22,6 @@
   },
   "outcome": {
     "win": "Pemain {player_id} meunang Ultimate Tic Tac Toe!",
-    "draw": "Nyan game nyan draw!"
+    "draw": "Permainan nyan seri!"
   }
 }

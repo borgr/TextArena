@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in SimpleTak.\nOn the board, your stones appear as '{player_stone}' and your opponent's stones appear as '{opponent_stone}'.\n\nOn your turn, choose one empty cell (by its numbered index) and place your stone there.\nFor example, '[12]' places your stone in cell 12.\n\nYour objective is to form a continuous path of your stones that connects two opposite edges of the board (top-to-bottom or left-to-right)."
+    "intro": "Aam tima SimpleTak re Player {player_id} aahaan.\nBoard re tima kothona '{player_stone}' emanaa, ar tima saakhi kothona '{opponent_stone}' emanaa.\n\nTima paal re, ek khali cell (ota numbered index) chunao ar tima kothona ota rakhaao.\nUdaaharan, '[12]' cell 12 re tima kothona rakhaao.\n\nTima lakshya ahaan tima kothona re ek sampradaayik raasta banaao je board re dui biparit kinare (upar-theke-niche ya baam-theke-daam) connect kare."
   },
   "invalid_move": {
     "invalid_move_format": "ᱵᱟᱹᱲᱤᱡ ᱪᱟᱞᱟᱣ ᱥᱟᱯᱟᱵᱽ",
@@ -8,10 +8,10 @@
     "cell_already_occupied": "ᱡᱟᱦᱟᱸᱭ ᱜᱮ {cell_num} ᱨᱮᱱᱤᱡ ᱫᱚᱦᱚᱭᱟ ᱾ ᱢᱤᱫᱴᱮᱱ ᱵᱟᱹᱲᱛᱤ ᱵᱟᱪᱷᱟᱣ ᱢᱮ."
   },
   "board": {
-    "current_state": "ᱱᱤᱛᱟᱜ Board:\n\n{rendered_board}\nAvailable Moves: {available_moves}"
+    "current_state": "Ekaal Board:\n\n{rendered_board}\nUpalabdh Chal: {available_moves}"
   },
   "action": {
-    "placement": "Player {current_player_id} placed their symbol ({symbol}) in cell {cell_num}."
+    "placement": "Player {current_player_id} taan symbol ({symbol}) cell {cell_num} re rakhaache."
   },
   "outcome": {
     "winner": "Player {current_player_id} ('{symbol}') ᱵᱤᱨᱳᱫᱷᱤ ᱫᱷᱟᱨᱮ ᱡᱚᱲᱟᱣ ᱟᱫᱮᱭᱟ!",

@@ -25,7 +25,7 @@
   },
   "board": {
     "drew": "Na e sau: {card}\nO lou filifiliga o [swap X Y] poʻo [discard]",
-    "took": "You took: {card} from discard pile\nYou must [swap X Y] with it (cannot discard).",
+    "took": "E te togi mai: {card} mai le fa'aputuga\nE tatau ona e [swap X Y] ma le pepa (e le mafai ona aveese).",
     "peeked": "Na e vaʻai i le tulaga ({row},{col}): {card}",
     "turn_view": "Lou lima:\n{hand}\nDiscard pile: {discard}\n{options}",
     "none": "Leai se tasi."
@@ -67,8 +67,8 @@
     "already_revealed": "Ua uma ona faailoa mai lenā kata!"
   },
   "summary": {
-    "full": "Taʻaloga Faʻaiʻu! Player {winner} manumalo ma le scori o {score} points!\n\nScori Faʻaiʻu:\n{scores}",
-    "line": "Player {pid}: {score} points\n"
+    "full": "Ta'aloga e fa'aiu! Ta'aalo {winner} manumalo ma sekorate o {score} points!\n\nSekorate Fa'aiuga:\n{scores}",
+    "line": "Ta'aalo {pid}: {score} points\n"
   },
   "board_str": {
     "title": "=== GOLF GAMING=== O le a ou taʻalo i se taaloga e lua.",

@@ -9,7 +9,7 @@
     "progress": "{observation} Ներկայիս առաջընթացի գնահատականը: {progress}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use `[i j op]` where i,j are indices and op is +,-,*,/",
+    "wrong_format": "Անվավեր գործողության ֆորմատ։ Օգտագործեք `[i j op]`, որտեղ i,j ինդեքսներ են, իսկ op գործողություն է +,-,*,/",
     "invalid_indices": "Անհաստատ ինդեքսներ: Պետք է տարբեր լինեն եւ 0-{max_index} միջակայքում լինեն",
     "invalid_operation": "Անհաստատ գործողություն (բաժանումը զրո կամ ոչ ամբողջական արդյունքի միջոցով)"
   },

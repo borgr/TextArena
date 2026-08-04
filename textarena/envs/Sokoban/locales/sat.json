@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are solving the Sokoban puzzle. You are the player and you need to push all boxes to targets.\n        When you are right next to a box, you can push it by moving in the same direction.\n        You cannot push a box through a wall, and you cannot pull a box.\n        On the board, objects are represented as: \n        - The player (you) appears as 'P' \n        - Walls are represented with '#' \n        - Boxes are marked as 'X' \n        - Empty goals are shown with a 'O'\n        - Boxes on goals are visualized with '√'\n        You can also use [w] for up, [a] for left, [s] for down, and [d] for right.\n        "
+    "intro": "ᱟᱢᱮ ᱥᱚᱠᱚᱵᱟᱱ ᱯᱟᱡᱚᱞ ᱮ ᱨᱤᱫᱟᱹᱭ ᱠᱟᱱᱟᱢ᱾ ᱟᱢᱮ ᱠᱷᱮᱞᱚᱸᱰᱤ ᱟᱨ ᱟᱢᱮ ᱥᱟᱱᱟᱢ ᱵᱚᱠᱥ ᱴᱟᱨᱜᱮᱴ ᱠᱚ ᱥᱮᱫ ᱤᱫᱤ ᱦᱩᱭᱩᱜ ᱠᱟᱱᱟᱢ᱾\n        ᱟᱢᱮ ᱵᱚᱠᱥ ᱥᱩᱨ ᱨᱮ ᱢᱮᱱᱟᱢᱟ, ᱟᱢᱮ ᱚᱱᱟ ᱫᱤᱥᱟᱹ ᱨᱮ ᱤᱫᱤ ᱠᱟᱛᱮ ᱵᱚᱠᱥ ᱮ ᱨᱟᱹᱯᱩᱫ ᱫᱟᱲᱮᱭᱟᱜ-ᱟᱢ᱾\n        ᱟᱢᱮ ᱵᱚᱠᱥ ᱫᱚ ᱫᱩᱣᱟᱹᱨ ᱛᱟᱞᱟᱛᱮ ᱤᱫᱤ ᱫᱟᱲᱮᱭᱟᱜ-ᱟᱢ ᱵᱟᱝ, ᱟᱨ ᱟᱢᱮ ᱵᱚᱠᱥ ᱮ ᱟᱹᱜᱩ ᱫᱟᱲᱮᱭᱟᱜ-ᱟᱢ ᱵᱟᱝ᱾\n        ᱵᱚᱨᱰ ᱨᱮ, ᱡᱤᱱᱤᱥ ᱠᱚ ᱫᱚ ᱱᱚᱝᱠᱟ ᱩᱫᱩᱜ ᱦᱩᱭᱩᱜ ᱠᱟᱱᱟ: \n        - ᱠᱷᱮᱞᱚᱸᱰᱤ (ᱟᱢᱮ) 'P' ᱞᱮᱠᱟᱛᱮ ᱩᱫᱩᱜ ᱦᱩᱭᱩᱜ ᱠᱟᱱᱟᱢ᱾ \n        - ᱫᱩᱣᱟᱹᱨ ᱠᱚ ᱫᱚ '#' ᱞᱮᱠᱟᱛᱮ ᱩᱫᱩᱜ ᱦᱩᱭᱩᱜ ᱠᱟᱱᱟ᱾ \n        - ᱵᱚᱠᱥ ᱠᱚ ᱫᱚ 'X' ᱞᱮᱠᱟᱛᱮ ᱩᱫᱩᱜ ᱦᱩᱭᱩᱜ ᱠᱟᱱᱟ᱾ \n        - ᱨᱤᱠᱟᱹ ᱜᱳᱞ ᱠᱚ ᱫᱚ 'O' ᱞᱮᱠᱟᱛᱮ ᱩᱫᱩᱜ ᱦᱩᱭᱩᱜ ᱠᱟᱱᱟ᱾\n        - ᱜᱳᱞ ᱨᱮ ᱵᱚᱠᱥ ᱠᱚ ᱫᱚ '√' ᱞᱮᱠᱟᱛᱮ ᱩᱫᱩᱜ ᱦᱩᱭᱩᱜ ᱠᱟᱱᱟ᱾\n        ᱟᱢᱮ [w] ᱦᱚᱨᱟ ᱞᱟᱹᱜᱤᱫ ᱪᱮᱛᱟᱱ, [a] ᱦᱚᱨᱟ ᱞᱟᱹᱜᱤᱫ ᱞᱮᱸᱜᱟ, [s] ᱦᱚᱨᱟ ᱞᱟᱹᱜᱤᱫ ᱞᱟᱛᱟᱨ, ᱟᱨ [d] ᱦᱚᱨᱟ ᱞᱟᱹᱜᱤᱫ ᱡᱚᱡᱚᱢ ᱦᱚᱨᱟ ᱞᱟᱹᱜᱤᱫ ᱵᱟᱵᱚᱦᱟᱨ ᱫᱟᱲᱮᱭᱟᱜ-ᱟᱢ᱾\n        "
   },
   "board": {
     "current_board": "ᱱᱤᱛᱟᱜ ᱵᱳᱨᱰ:\n\n{board}\nᱮᱵᱮᱞ ᱢᱩᱵᱽᱥ: {moves}"
@@ -12,8 +12,8 @@
     "invalid_position": "ᱵᱟᱹᱞᱤ ᱪᱟᱞ - ᱱᱚᱣᱟ ᱴᱷᱟᱶ ᱨᱮ ᱵᱟᱝ ᱥᱮᱱ ᱫᱟᱲᱮᱭᱟᱜᱼᱟ ᱾"
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
-    "pushed_prefix": "pushed a box while"
+    "moved": "ᱟᱢᱮ {pushed} ᱤᱫᱤ ᱟᱠᱟᱫᱟᱢ [{action}]᱾",
+    "pushed_prefix": "ᱵᱚᱠᱥ ᱮ ᱨᱟᱹᱯᱩᱫ ᱟᱠᱟᱫᱟᱢ ᱡᱚᱠᱷᱚᱱ"
   },
   "outcome": {
     "win": "ᱥᱟᱨᱦᱟᱣ ᱾ ᱟᱢ ᱫᱚ Sokoban ᱯᱟᱥᱞᱚᱢ ᱠᱚᱭ ᱥᱟᱵ ᱟᱠᱟᱫᱼᱟ!",

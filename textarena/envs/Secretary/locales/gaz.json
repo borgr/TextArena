@@ -6,7 +6,7 @@
     "current_value": "Gatiin amma jiru {value} dha."
   },
   "invalid_move": {
-    "wrong_format": "Action must be either [accept] or [continue]."
+    "wrong_format": "Sochiin jedhuu [accept] ykn [continue] ta'uu qaba."
   },
   "outcome": {
     "summary": "Galmaa {value} draw {draw_num}/{N} keessatti fudhate. Innis ni kessaa guddaa {best} ture. {result}",

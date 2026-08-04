@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are {role} in Colonel Blotto.\nYour goal is to win more rounds than your opponent.\nOn each round, allocate exactly {num_total_units} units across fields {field_names}.\nThe player who allocates more units to a field wins that field, and the player who wins more fields wins the round.\nFor example, '[A7 B7 C6]' allocates 7 units to A, 7 to B, and 6 to C.",
+    "intro": "Jeżeś {role} we grajze Colonel Blotto.\nTwůj cel to wygrać wjyncyj rund niż twůj przeciwnik.\nWe każdyj rundzie rozdźelaj dokładnie {num_total_units} jednostek na pola {field_names}.\nGracz, kery rozdźeli wjyncyj jednostek na pole, wygrywo to pole, a gracz, kery wygrywo wjyncyj pól, wygrywo rundę.\nNa przykład, '[A7 B7 C6]' rozdźelaj 7 jednostek na A, 7 na B i 6 na C.",
     "commander_alpha": "Dowōdca Alfa.",
     "commander_beta": "Dowōdca Beta."
   },

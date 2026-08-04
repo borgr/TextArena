@@ -27,7 +27,7 @@
     "drew": "Du trekte: {card}\nNo må du [swap X Y] eller [discard] det.",
     "took": "Du tok: {card} frå discard-pile\nDu må [swap X Y] med det (kan ikkje kaste)",
     "peeked": "Du kikka på posisjon ({row},{col}): {card}",
-    "turn_view": "Your hand:\n{hand}\nDiscard pile: {discard}\n{options}",
+    "turn_view": "Din hånd:\n{hand}\nAvfallsdyngen: {discard}\n{options}",
     "none": "Ingen av dei."
   },
   "options": {
@@ -47,7 +47,7 @@
   },
   "message": {
     "deck_empty": "Spelet er over.",
-    "knocked": "Player {pid} knocked! Each other player gets one more turn.",
+    "knocked": "Spelar {pid} slo! Kvar spelar får ein omgang til.",
     "final_round": "Spelar {pid} {reason}! Kvar andre spelar får ein meir tur."
   },
   "reason": {
@@ -71,7 +71,7 @@
     "line": "Spelar {pid}: {score} poeng\n"
   },
   "board_str": {
-    "title": "=== GOLF GAME ===",
+    "title": "=== GOLFSPILLET ===",
     "discard": "Kast-haug: {card}",
     "knocked": "Spelaren {pid} har banka på!",
     "player_header": "Spelar {pid} (Poeng: {score}):"

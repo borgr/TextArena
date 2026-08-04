@@ -15,7 +15,7 @@
   },
   "invalid_move": {
     "wrong_format": "រូបមន្តបញ្ចូលមិនត្រឹមត្រូវ: ប្រើ A: 5, B: 10, C: 5",
-    "invalid_field": "Invalid field name(s). Valid fields: {field_names}",
+    "invalid_field": "ឈ្មោះសមរភូមិមិនត្រឹមត្រូវ។ សមរភូមិត្រឹមត្រូវ: {field_names}",
     "wrong_allocation_value": "ការបែងចែកទាំងអស់ត្រូវតែជា integer ដែលមិនមែនជាអវិជ្ជមាន។",
     "incorrect_total_units": "អ្នកត្រូវបែងចែកត្រឹមតែ {num_total_units} បច្ចុប្បន្នសរុប: {current_sum}",
     "good_allocations": "ការចែកចាយល្អ។"

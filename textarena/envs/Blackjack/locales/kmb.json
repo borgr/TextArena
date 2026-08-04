@@ -1,18 +1,18 @@
 {
   "player_prompt": {
-    "intro": "You are playing Blackjack against the dealer.\nYour goal is to get as close to 21 as possible without going over.\nOn your turn, choose '[Hit]' to draw another card or '[Stand]' to hold.\nJ/Q/K = 10 points; A = 11 or 1, whichever is better.\n"
+    "intro": "O wewe usaka kuxina Blackjack kucontra o dealer.\nO teu oxikilo i kuvingila 21 sem kuweka.\nNa o teu xiku, xina '[Hit]' kuvinga karta n'outra ou '[Stand]' kuzinga.\nJ/Q/K = 10 pontu; A = 11 ou 1, kiweka kiampwena.\n"
   },
   "board": {
-    "current_state": "Hand {hand_number}/{num_hands}\nYour hand: {player_hand} (Score: {score})\nDealer shows: {dealer_card}"
+    "current_state": "Moko {hand_number}/{num_hands}\nMoko aku: {player_hand} (Puntu: {score})\nMupiki amonisa: {dealer_card}"
   },
   "invalid_move": {
     "wrong_format": "Kulanda kosa. Ita '[Hit]' or '[Stand]'."
   },
   "game_message": {
-    "hand_result": "Hand {hand_number}: you {outcome}. Your final {player_score}, Dealer {dealer_score}.",
-    "all_complete": "=== All {num_hands} hands complete ===\nWins: {wins}, Losses: {losses}, Draws: {draws}\n"
+    "hand_result": "Mão {hand_number}: o wewe {outcome}. O teu pontu final {player_score}, Dealer {dealer_score}.",
+    "all_complete": "=== Mão zote {num_hands} zikwama ===\nVitoria: {wins}, Derrota: {losses}, Empate: {draws}\n"
   },
   "outcome": {
-    "game_over": "The game has concluded. Final scores: Dealer: {losses}, You: {wins}, Draws: {draws}"
+    "game_over": "O xiku xikwama. Pontu zote za mwisho: Dealer: {losses}, O wewe: {wins}, Empate: {draws}"
   }
 }

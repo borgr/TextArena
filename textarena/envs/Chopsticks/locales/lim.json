@@ -14,7 +14,7 @@
   },
   "game_action": {
     "attack": "P{player_id} valk P{opp_id}'s hand {opp_idx} aan: 't geit van {opp_val} nao {new_val}.",
-    "split": "P{player_id} splits into [{L}, {R}]."
+    "split": "P{player_id} splits in twieë deile: [{L}, {R}]."
   },
   "history": {
     "entry": "P{player_id} {desc}"

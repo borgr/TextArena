@@ -10,7 +10,7 @@
     "intro": "Inti Player {player_id} fi Tic Tac Toe.\nL-għan tiegħek hu li tirbaħ tlieta fi rwol (orizzontalment, vertikalment, jew djagonalment) fuq il-bord.\nMat-turn tiegħek, għandek tagħżel in-numru tal-kwadrat (0-8) li trid taqqiegħ fid-dahar il-marka tiegħek.\nGħal eżempju, '[4]' taqqiegħ il-marka tiegħek fi ċ-ċellula ċentrali tal-bord.\nBħala Player {player_id}, inti se tkun '{symbol}', filwaqt li l-avversarju tiegħek hu '{opponent_symbol}'."
   },
   "board": {
-    "current_board": "Current Board:\n\n{board}\n\nAvailable Moves: {moves}"
+    "current_board": "Bord Attwali:\n\n{board}\n\nMosse Disponibbli: {moves}"
   },
   "invalid_move": {
     "wrong_format": "Il-pass sottomess ma jsegwix il-format korrett.",

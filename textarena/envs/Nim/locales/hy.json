@@ -13,7 +13,7 @@
     "exceeds_pile": "Չի կարող հեռացնել {quantity}-ը {pile_index}-ից (միայն {pile_count}-ն է մնացել):"
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "Խաղացող {player_id} խաղաց [{pile_index} {quantity}], հեռացնելով {quantity} օբյեկտ(ներ) {pile_index} կույտից։"
   },
   "outcome": {
     "win": "Խաղացողը {player_id} վերցրեց վերջին օբյեկտը (((s)!"

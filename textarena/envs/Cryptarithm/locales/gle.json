@@ -9,10 +9,10 @@
     "{pct}": "Progress as a percentage string, e.g. 50%"
   },
   "player_prompt": {
-    "intro": "Map each letter to a unique digit so the arithmetic holds.\nAssign with `[A 5]`, re-assign anytime.\n"
+    "intro": "Mapáil gach litir go digit uathúil ionas go gcloíonn an t-airteagal. Sann le `[A 5]`, athshann aon uair.\n"
   },
   "invalid_move": {
-    "wrong_format": "Bad action format. Use `[A 5]`.",
+    "wrong_format": "Drochfhoirmat gníomhaíochta. Úsáid `[A 5]`.",
     "letter_not_in_puzzle": "Litir {letter} nach bhfuil i pháisle.",
     "digit_used": "Digit {digit} a úsáideann an t-ainm cheana féin ag {used_letter}.",
     "leading_zero": "Ní féidir le dígiotán tosaigh focal a bheith 0."
@@ -20,7 +20,7 @@
   "outcome": {
     "correct": "Ceart! Tá an chothromóid sásúil.",
     "incorrect": "Cártaíocht iomlán ach tá an chothromóid mícheart.",
-    "limit": "Reach Movement Limit."
+    "limit": "Tá teorainn na ngluasanna bainte amach."
   },
   "board": {
     "mapping_header": "Mapping:",

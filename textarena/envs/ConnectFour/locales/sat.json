@@ -1,15 +1,15 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in Connect Four.\nYour disc symbol: {symbol}.\nThe game board has {num_rows} rows and {num_cols} columns.\nPlayers take turns dropping their disc into one of the columns (0 to {end_col}).\nThe first to connect (their own) four discs vertically, horizontally, or diagonally wins.\nOn your turn, enter the column number in squared brackets to make your move.\nFor example: '[col 4]' or '[col 1]'."
+    "intro": "Am ạmi Player {player_id} Connect Four re.\nẠmi ṭikā ṭhākur: {symbol}.\nKhel pāṭā {num_rows} ṭhār aur {num_cols} ṭhambha āhāṅ.\nKhelār ṭurn ṭurn ṭhambha (0 ṭo {end_col}) re ṭhākur ṭhēlā.\nPahil ṭhākur (ạpan) cār ṭhākur ṭhambha, ṭhār, aur ṭhār-khut re jīt ṭhākur.\nẠmi ṭurn re, ṭhambha ṭhār ṭhēlā ṭhākur ṭhēlā.\nUdāharaṇ: '[col 4]' aur '[col 1]'."
   },
   "board": {
     "board_visible_state": "ᱵᱳᱨᱰ ᱫᱤᱥᱟᱹᱢ: {board_visual}",
-    "board_notvisible_state": "The game board is not visible to players."
+    "board_notvisible_state": "Khel pāṭā khelār ṭhākur ṭhēnā."
   },
   "invalid_move": {
-    "wrong_format": "Player {player_id}, Invalid action format. Expected format: '[col x]'.",
-    "out_of_range": "Player {player_id}, Invalid action. Column {col} is out of bounds.",
-    "already_full": "Player {player_id}, Invalid action. Column {col} is full."
+    "wrong_format": "Player {player_id}, Ṭhālā ṭhākur ṭhēlā ṭhākur. Ṭhālā ṭhākur ṭhēlā ṭhākur: '[col x]'.",
+    "out_of_range": "Player {player_id}, Ṭhālā ṭhākur ṭhēlā ṭhākur. Ṭhambha {col} ṭhār ṭhēnā.",
+    "already_full": "Player {player_id}, Ṭhālā ṭhākur ṭhēlā ṭhākur. Ṭhambha {col} ṭhēṅgā."
   },
   "action": {
     "dropped_disk": "Player {player_id} ᱟᱡᱟᱜ disk ({player_symbol}) ᱮ column {col} ᱨᱮ ᱟᱬᱫᱤ ᱮᱫᱟ."

@@ -9,13 +9,13 @@
     "{pct}": "Progress as a percentage string, e.g. 50%"
   },
   "player_prompt": {
-    "intro": "Map each letter to a unique digit so the arithmetic holds.\nAssign with `[A 5]`, re-assign anytime.\n"
+    "intro": "Przypisz kożdy buchsztaba do uńikalnyj cyfry, coby rachůńka szła dobrze.\nPrzypiszajće ze `[A 5]`, przypiszajće jeszcze raz w kożdej chwili.\n"
   },
   "invalid_move": {
-    "wrong_format": "Bad action format. Use `[A 5]`.",
+    "wrong_format": "Zły format akcyji. Użyj `[A 5]`.",
     "letter_not_in_puzzle": "Litera {letter} niy ma we puzle.",
     "digit_used": "Cyfra {digit} używano już ôd {used_letter}.",
-    "leading_zero": "Leading digit of a word cannot be 0."
+    "leading_zero": "Pjyrszo cyfra słowa ńy może być 0."
   },
   "outcome": {
     "correct": "Rōwnanie zadowolōne.",

@@ -14,7 +14,7 @@
   },
   "game_action": {
     "attack": "اللاعب {player_id} يهاجم يد اللاعب {opp_id} {opp_idx}: تصبح من {opp_val} إلى {new_val}.",
-    "split": "P{player_id} splits into [{L}, {R}]."
+    "split": "P{player_id} بتقطع ل [{L}, {R}]."
   },
   "history": {
     "entry": "اللاعب {player_id} {desc}"

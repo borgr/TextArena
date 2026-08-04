@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a {max_rounds} round game of Kuhn Poker.\nGame Rules:\n- Kuhn Poker uses a 3-card deck with J, Q, K (J lowest, K highest)\n- Each player antes {ante} chip and receives 1 card each round (note that the cards are dealt without replacement, so you cannot have the same card as your opponent).\n- Game continues for {max_rounds} rounds\n- The player with the most chips after all rounds wins\nAction Rules:\n- '[check]': Pass without betting (only if no bet is on the table)\n- '[bet]': Add 1 chip to the pot (only if no bet is on the table)\n- '[call]': Match an opponent's bet by adding 1 chip to the pot\n- '[fold]': Surrender your hand and let your opponent win the pot"
+    "intro": "Nyewe Player {player_id} le agbagba {max_rounds} ƒe agbagba si nye Kuhn Poker.\nGbɔgbɔ siwo:\n- Kuhn Poker ɖu 3-katiba deck siwo J, Q, K (J nye viviwo, K nye agbagba)\n- Eƒe agbagba ƒe ante {ante} chip eye wòakpɔ 1 katiba ƒe agbagba ƒe agbagba (xɔxɔ ƒe katiba siwo wòakpɔ la, wòakpɔ ƒe agbagba ƒe agbagba siwo wòakpɔ la).\n- Agbagba ƒe agbagba {max_rounds} agbagba\n- Agbagba siwo ƒe agbagba ƒe chip siwo sɔ woƒe agbagba ƒe agbagba siwo.\nGbɔgbɔ siwo:\n- '[check]': Ƒo nu ƒe agbagba ƒe agbagba (ne agbagba ƒe agbagba ƒe agbagba ƒe agbagba la)\n- '[bet]': Ƒo 1 chip ƒe agbagba ƒe agbagba (ne agbagba ƒe agbagba ƒe agbagba ƒe agbagba la)\n- '[call]': Ƒo agbagba ƒe agbagba ƒe agbagba ƒe agbagba ƒe agbagba 1 chip ƒe agbagba ƒe agbagba\n- '[fold]': Ƒo nu ƒe agbagba ƒe agbagba eye wòakpɔ agbagba ƒe agbagba ƒe agbagba"
   },
   "init_round": {
     "round_start": "### Nufaali {current_round} le ɖe {max_rounds} wogatsina. Kɔmi enye: '{player_card}'",
@@ -11,12 +11,12 @@
     "not_legal": "Ele be {legal_actions} nanye nu si wowɔ."
   },
   "action": {
-    "submit_move": "Player {player_id}, submitted move: '[{move}]'.",
+    "submit_move": "Player {player_id}, ƒo agbagba siwo: '[{move}]'.",
     "valid_actions": "Nu siwo nàte ŋu awɔ la dometɔ aɖewoe nye: {legal_actions}.",
     "round_summary": "{reason} Nufaali wogatsina: Dɔdzikpɔla 0: '{player_0_chips}'; Dɔdzikpɔla 1: '{player_1_chips}'"
   },
   "showdown": {
-    "showdown_summary": "Showdown: Player {winner}'s {winner_card} beats Player {loser}'s {loser_card}. Player {winner} wins pot of {pot_value} chips."
+    "showdown_summary": "Ŋgɔŋgɔŋ: Agbenɔla {winner} ƒe {winner_card} ɖe Agbenɔla {loser} ƒe {loser_card} dzi. Agbenɔla {winner} ɖo kpɔɖeŋu ƒe {pot_value} cɛpe."
   },
   "outcome": {
     "draw": "Le {max_rounds} ƒe nuwuwu la, kpe agbɔsɔsɔme ɖeka koe nɔ fefewɔla eveawo si.",

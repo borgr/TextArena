@@ -14,7 +14,7 @@
   },
   "game_action": {
     "attack": "P{player_id} P{opp_id} ৰ হাত {opp_idx} আক্ৰমণ কৰে: ই {opp_val} ৰ পৰা {new_val} লৈ যায়।",
-    "split": "P{player_id} splits into [{L}, {R}]."
+    "split": "P{player_id} [{L}, {R}]-ত বিভক্ত হয়।"
   },
   "history": {
     "entry": "পি{player_id} {desc}"

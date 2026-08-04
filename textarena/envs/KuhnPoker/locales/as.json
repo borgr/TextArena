@@ -11,7 +11,7 @@
     "not_legal": "কাৰ্য্য {legal_actions} হ'ব লাগিব।"
   },
   "action": {
-    "submit_move": "Player {player_id}, submitted move: '[{move}]'.",
+    "submit_move": "খেলোয়াড় {player_id}, কাৰ্য জমা দিছে: '[{move}]'।",
     "valid_actions": "আপোনাৰ উপলব্ধ ক্ৰিয়াসমূহ হৈছেঃ {legal_actions}।",
     "round_summary": "{reason} বৰ্তমানৰ স্ক'ৰঃ খেলুৱৈ ০ঃ \"{player_0_chips}\"; খেলুৱৈ ১ঃ \"{player_1_chips}\""
   },

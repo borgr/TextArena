@@ -13,7 +13,7 @@
   "offers": {
     "reject": "ⵢⵓⴳⵉ ⵓⵎⵓⵔⴰⵔ {player_id} ⵜⴰⵙⵏⵜⴰⵢⵜ ⵏ ⵓⵙⵏⴼⵍ.",
     "accept": "Imcidi {acceptor_id} ikcem ɣer waddag n wansaɣ n Imcidi {proposer_id}.",
-    "proposal": "Player {player_id} made the following offer to Player {opponent_id}: Offered items: {offered} -> Requested items: {requested}"
+    "proposal": "Amurar {player_id} yexdem tawwri-agi i Amurar {opponent_id}: Yimɣuzen itedduɣ: {offered} -> Yimɣuzen ittwasnen: {requested}"
   },
   "outcome": {
     "win": "ⵢⵉⵡⵉ ⵓⵎⵓⵔⴰⵔ {winner_id} ⵙ ⵡⴰⵜⵉⴳ ⵏ ⵓⵙⵏⴼⵍⵓⵍ.",

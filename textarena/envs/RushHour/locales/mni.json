@@ -1,10 +1,10 @@
 {
   "player_prompt": {
-    "intro": "You are playing a {difficulty} RushHour puzzle. Slide cars to free the red car [X] and drive it out the right edge.\nActions: [A+], [B-], etc.  (+ = forward, - = backward)."
+    "intro": "অমা {difficulty} RushHour  কোৎপা তাম্বা লেই। অঙাংবা  লাল  গাড়ী [X] পুক্নো তাংবা লেই অদু ফানবা পুক্লি।\nকোৎপা পুক্মীশিং: [A+], [B-] ইত্যাদি। (+ = মহু, - = কোনু)।"
   },
   "invalid_move": {
-    "wrong_format": "ಮಾನ್ಯವಲ್ಲದ ಕ್ರಿಯೆ. ಫಾರ್ಮ್ಯಾಟ್ ಅನ್ನು ಬಳಸಿ [A+] / [B-].",
-    "no_car": "বোর্দতা কার '{car_id}' অমত্তা লৈতে।",
+    "wrong_format": "অপৎপা কোৎপা। [A+] / [B-] কোৎপা ফরমেট লেইবা হৌজিক।",
+    "no_car": "গাড়ী '{car_id}' বোর্ডতা লাইবা হৈজদে।",
     "blocked": "খোঙথাং থিংলে."
   },
   "game_message": {

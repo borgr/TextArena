@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id}. You are playing Guess The Number.\nYou have to guess the number between {min_number} and {max_number} within {max_turns} turns.\nAs you enter your guess, the game will provide you with hints such as 'higher' or 'lower'.\nYou may provide your response in any manner. Only the number that is wrapped in square brackets will be considered as your guess. For example, [5].\nAs you play, the history of your guesses will be appended below. Use the information to complete the game before you run out of guesses.\nEnter your guess."
+    "intro": "Ndiwe Mchezaji {player_id}. Ukucheza Guess The Number.\nUkutenga kubisa nambari kati ya {min_number} na {max_number} mwa {max_turns} zolingana.\nMukati mwa kubisa chaguo lako, mchezo ukutumikizani na maumboni ngati 'kupanda' au 'kutsika'.\nUngaweke chaguo lako mwa njira yoyose. Nambari pekee iliyojumuishwa mwa mabano ya mraba ikutazgwidwa ngati chaguo lako. Kwa mfano, [5].\nMukati mwa kucheza, mbiri ya chaguo zako zikutazgwidwa pansipa. Tumikizani na habari ili kukamilisha mchezo kabla ya kukwana kwa chaguo.\nLowetsa chaguo lako."
   },
   "invalid_move": {
     "wrong_format": "Fomu ya kufanya move si sahihi. Mchezaji {player_id} hakujibu kwa '[number]' halali.",
@@ -13,6 +13,6 @@
   },
   "outcome": {
     "win": "Wacita makora, ndipo wakumanya nadi unandi wa ŵanthu awo ŵakukoma.",
-    "turn_limit": "The turn limit has been reached. Guess: {guess}, Target: {target}"
+    "turn_limit": "Mpaka wa zolingana umfikwa. Chaguo: {guess}, Lengo: {target}"
   }
 }

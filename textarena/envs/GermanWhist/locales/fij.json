@@ -1,10 +1,10 @@
 {
   "game_start": {
-    "intro": "Na game e start. Trump suit: {trump_suit} (trump card: {trump_str}).",
+    "intro": "Na qito e sa tekivu. Suit ni trump: {trump_suit} (katoni ni trump: {trump_str}).",
     "no_trump_card": "sega ni dua na ka"
   },
   "player_prompt": {
-    "intro": "O cei Player {player_id} in German Whist.\n{phase_info}\nO tiko {hand_size} kaarte.\nPlay a card with '[play N]', where N is its position in your hand (for example '[play 3]').",
+    "intro": "O kerekere mo ni na Player {player_id} ena German Whist.\n{phase_info}\nO tiko na {hand_size} kad ni pepa.\nQito e dua na pepa ena '[play N]', eke N e sa yacana na nona itutu ena ligadra (vakataki '[play 3]').",
     "phase_learning": "Na gauna ni vuli: na qaqa ena veiqito yadua e taura tu mai na kadi sa rai cake ka o koya a druka me tosoya tale yani na iotioti ni tikinipepa. E sega ni wiliki ki na qaqa na ivadi era rawata ena itutu oqo.",
     "phase_playing": "Na qito kece e caka ena gauna oqo, sa na rawa ni tini vinaka kina."
   },
@@ -25,7 +25,7 @@
   },
   "trick": {
     "won": "Na dauqito {winner_id} e qaqa ena nona vakacakacakataki na {card}.",
-    "won_learning": "Player {winner_id} wins the trick with {card} and takes the face-up card."
+    "won_learning": "Player {winner_id} e qito sere kei {card} kei tauri katoni ni muri tu."
   },
   "phase": {
     "learning_complete": "Sa oti na nodra vuli - e bibi kece ga mera qaqa."
@@ -37,8 +37,8 @@
   },
   "turn": {
     "board": "{phase}\n{scores}\n{next_card}\n\n{trick}\n\n{hand}",
-    "scores_learning": "Tricks won so far - Player 0: {tricks0}, Player 1: {tricks1}",
-    "scores_playing": "Scoring tricks - Player 0: {tricks0}, Player 1: {tricks1}",
+    "scores_learning": "Iwiliwili e ciri mai - Vakaiyautaki 0: {tricks0}, Vakaiyautaki 1: {tricks1}",
+    "scores_playing": "Kerekere ni ciri - Vakaiyautaki 0: {tricks0}, Vakaiyautaki 1: {tricks1}",
     "phase": "Na itutu: {phase}",
     "phase_learning": "Phase: {phase} ({remaining_cards} kaarte qai left in the deck)"
   },
@@ -60,17 +60,17 @@
     "not_started": "Sega ni tekivu na qito.",
     "header": "=== Na QITO NI VAKATAKILAKA NA DUA ENA VOSA Vaka-JEMANI===",
     "phase": "{observation}\nPhase: {phase}",
-    "trump_suit": "{observation}\nTrump suit: {trump_suit}",
-    "trump_card": "{observation}\nTrump card: {card}",
+    "trump_suit": "{observation}\nSuit ni trump: {trump_suit}",
+    "trump_card": "{observation}\nKatoni ni trump: {card}",
     "cards_left": "{observation}\nKaarte qai left in deck: {count}",
-    "next_card": "{observation}\nNext card for winner: {card}",
+    "next_card": "{observation}\nKatoni ni muri tu e soli: {card}",
     "blank": "{observation}  na kena iwiliwili e sega ni kilai.",
     "current_trick": "{observation} Na ivadi ni gauna oqo:",
     "trump_indicator": "(TRUMP) Na cava e yaco?",
     "trick_line": "{observation}\n  Player {player_id}: {card}{trump_indicator}",
-    "player_line": "{observation}\nPlayer {player_id}: {scoring} scoring tricks ({tricks} total), {hand_size} kaarte in hand"
+    "player_line": "{observation}\nPlayer {player_id}: {scoring} veimuri ni sere ({tricks} veimuri), {hand_size} katoni ena ligadra"
   },
   "outcome": {
-    "summary": "Learning phase - Player 0: {l0}, Player 1: {l1}. Playing phase - Player 0: {p0}, Player 1: {p1}. Player {winner_id} wins with {winner_tricks} scoring tricks!"
+    "summary": "Yavala ni vuli - Vakaiyautaki 0: {l0}, Vakaiyautaki 1: {l1}. Yavala ni qito - Vakaiyautaki 0: {p0}, Vakaiyautaki 1: {p1}. Vakaiyautaki {winner_id} e qalovi kerekere ni ciri {winner_tricks}!"
   }
 }

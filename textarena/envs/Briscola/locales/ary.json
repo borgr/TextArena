@@ -19,7 +19,7 @@
     "{deck_count}": "Number of cards left in the deck"
   },
   "game": {
-    "start": "Briscola game started! Trump suit: {trump_suit} (Trump card: {trump_card})"
+    "start": "بدأت لعبة بريسكولا! البستوني: {trump_suit} (البطاقة البستونية: {trump_card})"
   },
   "prompt": {
     "intro": "أنت تلعب البريسكولا - اللاعب {player_id}.\nالهدف: الفوز بالحيل وجمع أكبر عدد من النقاط (120 نقطة في العدة).\nنقاط البطاقة: A=11, 3=10, K=4, Q=3, J=2, أخرى=0\nقوة البطاقة: A > 3 > K > Q > J > 7 > 6 > 5 > 4 > 2\nأوراق الأوراق العالية تهزم الأوراق غير العالية بغض النظر عن القوة.\n\nالإجراء: '[play X]' حيث X هو موقع (1-{max_pos}) للبطاقة في يدك\n"
@@ -39,8 +39,8 @@
   "turn": {
     "score_entry": "اللاعب {player_id}: {points} نقطة",
     "trump_info": "حوايج ترامب: {trump_suit}",
-    "trump_info_deck": "Trump suit: {trump_suit} | Cards left in deck: {deck_count}",
-    "board": "{hand}\n\n{trick}\n\nScores: {scores}\n{trump_info}\n\nPlay a card using [play X]"
+    "trump_info_deck": "البستوني: {trump_suit} | البطاقات المتبقية في الكومة: {deck_count}",
+    "board": "{hand}\n\n{trick}\n\nالنتائج: {scores}\n{trump_info}\n\nالعب بطاقة باستخدام [play X]"
   },
   "invalid_move": {
     "wrong_format": "استخدم [play X] حيث X هو موقع البطاقة (1, 2, 3، إلخ.)",

@@ -11,12 +11,12 @@
     "not_legal": "Kuchita zinthu kuyenera kukhala {legal_actions}."
   },
   "action": {
-    "submit_move": "Player {player_id}, submitted move: '[{move}]'.",
+    "submit_move": "Player {player_id}, watisa chitika: '[{move}]'.",
     "valid_actions": "Zochita zanu zilipo ndi izi: {legal_actions}.",
-    "round_summary": "{reason} Aliyense: Magulu a Player 0: '{player_0_chips}'; Player 1: '{player_1_chips}'"
+    "round_summary": "{reason} Mipigo ya sasa: Mchezaji 0: '{player_0_chips}'; Mchezaji 1: '{player_1_chips}'"
   },
   "showdown": {
-    "showdown_summary": "Kuonekana: Player {winner}'s {winner_card} ikutha Player {loser}'s {loser_card}. Player {winner} anawina poti yeneyi {pot_value} chip."
+    "showdown_summary": "Kupambana: Khadi ya Mchezaji {winner} '{winner_card}' inaungula khadi ya Mchezaji {loser} '{loser_card}'. Mchezaji {winner} apata mphika wa {pot_value} chips."
   },
   "outcome": {
     "draw": "Kumapeto kwa {max_rounds} kuzungulira, osewera onse anali ndi chiwerengero chofanana cha tchipisi.",

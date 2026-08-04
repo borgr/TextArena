@@ -37,21 +37,21 @@
     "line": "  Player {player_id}: {card}{trump_mark}"
   },
   "turn": {
-    "score_entry": "Player {player_id}: {points} pts",
-    "trump_info": "Trump suit: {trump_suit}",
+    "score_entry": "Magmurulay {player_id}: {points} pts",
+    "trump_info": "Suit han trump: {trump_suit}",
     "trump_info_deck": "Trump suit: {trump_suit} | Mga card na natitira ha deck: {deck_count}",
     "board": "{hand}\n\n{trick}\n\nMga Scores: {scores}\n{trump_info}\n\nPilara an card gamit an [play X]"
   },
   "invalid_move": {
     "wrong_format": "Gamiton an [play X] diin X amo an posisyon han kard (1, 2, 3, ngan iba pa)",
-    "out_of_range": "Invalid card position. You have {count} cards (1-{count})"
+    "out_of_range": "Diri pwede nga posisyon han karta. Mayda ka {count} karta (1-{count})"
   },
   "action": {
     "played": "Player {player_id} naglaro han {card}",
     "trick_win": "Player {winner} nakakda han trick nga may {card} ngan nakakuha han {points} puntos!"
   },
   "outcome": {
-    "head": "Game Over! Player {winner} nakakda han {points} puntos!\n\nMga Pangwakas na Scores:\n{scores}",
-    "player_line": "Player {player_id}: {points} points ({tricks} tricks)\n"
+    "head": "Tapos na an game! Magmurulay {winner} nanguna nga {points} puntos!\n\nMga iskor ha katapusan:\n{scores}",
+    "player_line": "Magmurulay {player_id}: {points} puntos ({tricks} mga trick)\n"
   }
 }

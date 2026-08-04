@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in **Ultimate Tic Tac Toe**.\nSubmit your move as **[macro  micro]** (two numbers 0-8):\n• *macro*  = which mini-board you play in\n• *micro* = which square inside that mini-board\nExample `[7 8]` ➜ place your mark in mini-board 7, square 8, and\nforce your opponent to play in mini-board 8 next.\n\nYou are `{symbol}`.\n"
+    "intro": "አንተ ተጫዋች {player_id} አለኻ በ **ከፍተኛ ቲክ ታክ ቶይ** እንተይኻ።\nእትነብር እንተይኻ አብ ንጥረ ድምጺ **[macro  micro]** (ክልተ ቁጽሪ 0-8)።\n• *macro*  = አየርካ ባይት ማንታ ትጫወያ እንተይኻ\n• *micro* = አየርካ ኣስኳር እትሃልዋ ባይት ማንታ\nኣረጋገጽ `[7 8]` ➜ እትነብር ምልክትካ ኣብ ማንታ-ባይት 7፣ ኣስኳር 8፣ እና\nእትገደድ ኣለኻ ንግደያኻ ንጫወይ ኣብ ማንታ-ባይት 8 ደሓራ።\n\nአንተ `{symbol}` አለኻ።\n"
   },
   "board": {
     "current_board": "እዋናዊ ቦርድ: {board}"

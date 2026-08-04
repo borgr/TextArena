@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} playing {colour} ({piece}) in a game of Othello.\nYour goal is to have more pieces of your color on the board by the end of the game.\nOn your turn, place a piece such that it flanks one or more of your opponent's pieces-in any direction (horizontal, vertical, or diagonal)-between your new piece and another of your existing pieces. All flanked opponent pieces will be flipped to your color.\nProvide your move in the format '[row, col]'."
+    "intro": "O kemuni na Player {player_id} ka qito ena {colour} ({piece}) ena qito vata ni Othello.\nNa nomuni nui vinaka e veika me baleta na kemu yadua me rawa ni wili kina e vuqa na kemu ni nomuni colata ena tabalevu ni qito ena vakasigalevu ni qito.\nEna nomuni gauna, biuta e dua na kemu me vaka e vakatabui e dua se vuqa na kemu ni nomuni meca ena vei koi (vakadodonu, vakatotolo, se vakasauri) - vakatabui na kemuni kemu vou kei na kemu vosoti ni kemuni.\nKece kina na kemu ni meca e vakatabui ena colata ki na nomuni colata.\nSolia na kemuni qito ena fomu '[row, col]'."
   },
   "board": {
     "game_board": "Na iYaya ni Qito: {board}",
@@ -16,7 +16,7 @@
   },
   "game_action": {
     "skipped": "Na dauqito {pid} e dodonu me na sega ni vakaitavi ena nona gauna.",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "Player {pid} ({piece}) a qito [{r}, {c}] ka veletaka {flipped} iyaya"
   },
   "game_message": {
     "must_skip": "Player {pid} ({piece}) e sega ni vakadidike ni kena ibuli kei na qai vakaloloma."

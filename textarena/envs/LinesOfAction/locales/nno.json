@@ -10,7 +10,7 @@
     "{to}": "The destination coordinate of a move, such as b3"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in game of LinesOfAction.\nYour pieces are '{side}', opponent pieces are '{other}'.\nMove format: `[b1b3]` (from-coord to-coord). A legal move travels horizontally, vertically, or diagonally a number of squares equal to the total pieces (any colour) in that line. You may jump over your own pieces, but not opponent pieces; landing on an opponent captures it.  Win when all your pieces are 8-neighbour connected."
+    "intro": "Du er Spelar {player_id} i eit spel LinesOfAction.\nBrikkene dine er '{side}', motstandarbrikkene er '{other}'.\nFlytteformat: `[b1b3]` (frå-koordinat til-koordinat). Ein gyldig flytt går horisontalt, vertikalt eller diagonalt eit visst tal ruter som er likt det totale talet på brikker (i alle fargar) på den linja. Du kan hoppe over brikkene dine, men ikkje motstandarbrikkene; å lande på ein motstandarbrikke fangar han. Vinn når alle brikkene dine er 8-nabosamanhengande."
   },
   "board": {
     "current_board": "Styresett: {board}"
@@ -30,7 +30,7 @@
   },
   "outcome": {
     "win": "Alle delane er samansett.",
-    "draw_no_capture": "60 moves without capture.",
+    "draw_no_capture": "60 flytt utan fangst.",
     "draw_repetition": "Staden er gjenteke tre gonger."
   }
 }

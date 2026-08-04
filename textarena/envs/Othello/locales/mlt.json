@@ -16,10 +16,10 @@
   },
   "game_action": {
     "skipped": "Il-plejer {pid} kellu jaqbeż id-dura tiegħu.",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "Il-Player {pid} ({piece}) lagħab [{r}, {c}] u ħawla {flipped} biċċa/i"
   },
   "game_message": {
-    "must_skip": "Player {pid} ({piece}) has no valid moves and must skip."
+    "must_skip": "Il-Player {pid} ({piece}) m'għandux mossi validi u jrid jiskipja."
   },
   "outcome": {
     "black_wins": "Il-black jirbaħ {black_count} -{white_count}.",

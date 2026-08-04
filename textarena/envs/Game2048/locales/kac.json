@@ -1,16 +1,16 @@
 {
   "player_prompt": {
-    "intro": "You are playing 2048 on a {board_size}x{board_size} board. Your goal is to reach a {target_tile} tile by sliding identical numbers together!\nValid moves: [Up], [Down], [Left], [Right]. Tiles combine when they collide, doubling their value.\n"
+    "intro": "Nan gawt 2048 shawng {board_size}x{board_size} shawng hpe gawt. Nan a lam shagu hta e {target_tile} shawng hpe shawng na matu nan a lam hta e shawng hpun hpun shagu hpe shawng hkra hkra shawng na!\nHtawng shawng: [Up], [Down], [Left], [Right]. Shawng hpe shawng hkra hkra shawng na matu shawng shagu hpe shawng shawng.\n"
   },
   "board": {
     "current_board": "Score: {score}\n{board}"
   },
   "invalid_move": {
-    "invalid_action": "Invalid action. Use '[Up]'/'[Down]'/'[Left]'/'[Right]'.",
+    "invalid_action": "Htawng shawng hta e shawng shagu hpe shawng shawng. '[Up]'/'[Down]'/'[Left]'/'[Right]' hpe shawng hkra hkra shawng na.",
     "no_change": "Dai majaw, shanhte gaw lam amyu myu hpe lata wa ai."
   },
   "outcome": {
-    "win": "Congratulations, you reached {target_tile}! Final score {score}.",
-    "lose": "No moves left. Max tile {max_tile} - final score {score}."
+    "win": "Nan a lam shagu hta e {target_tile} shawng hpe shawng na! Shawng hpun {score} hpe shawng shawng.",
+    "lose": "Htawng shawng hta e shawng shagu hpe shawng shawng hta e shawng hpun hpun shawng na. Shawng hpun {max_tile} shawng hpe shawng shawng - shawng hpun {score} hpe shawng shawng."
   }
 }

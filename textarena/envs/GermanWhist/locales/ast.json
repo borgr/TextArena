@@ -6,7 +6,7 @@
   "player_prompt": {
     "intro": "Yes xugador {player_id} en Whist alemán.\n{phase_info}\nTienes {hand_size} cartes.\nXuega una carta con '[play N]', onde N ye la so posición na to mano (por exemplu '[play 3]').",
     "phase_learning": "FASE DE LA ENSINANZA: El ganador de cada trucu toma la carta abierta y el perdedor saca la siguiente tarxeta del mazo. Los trucos ganaos nesta fase nun cuenten pa ganar.",
-    "phase_playing": "PLAYING PHASE: the deck is exhausted. Every trick from now on counts towards victory."
+    "phase_playing": "FASE DE XUEGU: el mazu ta escosu. Cada trucu d'equí p'arriba cuenta pa la victoria."
   },
   "next_card": {
     "playing_phase": "Nun se-y da tarxeta, la fase de xuegu empezó.",
@@ -17,7 +17,7 @@
   "invalid_move": {
     "wrong_format": "El formatu de movimientu inválidu. Usa '[play N]' pa xugar la n-esima carta na to mano.",
     "bad_position": "La posición de la carta nun esiste. tien cartes {hand_size}.",
-    "must_follow_suit": "Ye necesariu que sigas el so exemplu y xugues una carta {lead_suit}.",
+    "must_follow_suit": "Tienes de siguir palu y xugar una carta de {lead_suit}.",
     "invalid_play": "Esa carta nun puede ser xugada."
   },
   "game_action": {
@@ -40,7 +40,7 @@
     "scores_learning": "Lligues ganaes hasta agora - Xugador 0: {tricks0}, Xugador 1: {tricks1}",
     "scores_playing": "Lligues puntuables - Xugador 0: {tricks0}, Xugador 1: {tricks1}",
     "phase": "La fase: {phase}",
-    "phase_learning": "Fase: {phase} ({remaining_cards} cartes que queden nel mazu)"
+    "phase_learning": "Fase: {phase} ({remaining_cards} cartes restantes nel mazu)"
   },
   "hand": {
     "no_cards": "Nun hai tarxetes.",
@@ -62,7 +62,7 @@
     "phase": "{observation} Fase: {phase}",
     "trump_suit": "{observation}\nPalo de trunfu: {trump_suit}",
     "trump_card": "{observation} Tarxeta de triunfu: {card}",
-    "cards_left": "{observation}\nCartes que queden nel mazu: {count}",
+    "cards_left": "{observation}\nCartes restantes nel mazu: {count}",
     "next_card": "{observation}\nSiguiente carta pal ganador: {card}",
     "blank": "{observation} ",
     "current_trick": "{observation} El trucu actual:",

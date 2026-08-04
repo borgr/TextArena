@@ -1,12 +1,12 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a {num_rounds}-round Rock-Paper-Scissors game.\nYour goal is to win as many rounds as possible.\nIn each round, respond with one of: '[rock]', '[paper]', or '[scissors]'.\nYou may also use '[r]', '[p]', or '[s]' as shorthand.\n"
+    "intro": "O wewe Mwana {player_id} na mbanza ya {num_rounds}-mbanza ya Rock-Paper-Scissors.\nKimpwanza kiaku ni kuwina mbanza mingi ikele.\nNa kila mbanza, yembela na mo: '[rock]', '[paper]', to '[scissors]'.\nO wewe pia koyemba '[r]', '[p]', to '[s]' na njia ya kufupisha.\n"
   },
   "invalid_move": {
-    "wrong_format": "Kisicho halali. Utumie [rock], [paper], au [scissors]."
+    "wrong_format": "Kibandi kiaku kitambulwa te. Yemba [rock], [paper], to [scissors]."
   },
   "game_action": {
-    "selects": "Mwana {player_id} akisi kufanya kitendo {move}."
+    "selects": "Mwana {player_id} asakola kibandi {move}."
   },
   "message": {
     "round_draw": "Nsuka ya nsaka: Bo me sala diama.",

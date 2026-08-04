@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "Akzioa [row col] formatuan izan behar da, non errenkada eta zutabea 0tik {max_index} arteko zenbaki osoak diren.",
-    "out_of_range": "Coordinates must be between 0 and {max_index}. You entered [{row},{col}]."
+    "out_of_range": "Koordenatuak 0 eta {max_index} artean izan behar dute. [{row},{col}] sartu duzu."
   },
   "outcome": {
     "win": "Zorte on! Puslekuaren konponketa {moves_used} mugimendutan lortu duzu!",

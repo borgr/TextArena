@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "Dir sidd Spiller {player_id} am Negotiatiounsspill.\nDir hutt e puer Ressourcen, an Är Opgab ass et, ze handelen, sou datt de Gesamtwäert vu Äre Ressourcen zouhëlt.\nD'Ressourcen an déi zougerechte Wäerter, déi dir derzäit hutt, sinn:\n\t+ {resource_value_list}\nBei all Rond, kënnt dir mat Ärem Géigner schwätzen an e Handelsoffre maachen.\nBenotzt déi follgenden speziellen Tokenen fir Aktiounen:\n  - '[Offre: 3 Schaf, 2 Äerz -> 5 Ziegel, 2 Schaf]': [Offre: Ugebuede Ressourcen -> Ugefrote Ressourcen]\n  - '[Accept]': Fir eng agängeg Offre z'akzeptéieren.\n  - '[Deny]': Fir eng agängeg Offre ofzeleenen (Standard).\nD'Spill dauert {max_turns} Ronnen an der Totalitéit."
+    "intro": "Dir sidd Spiller {player_id} am Negotiatiounsspill.\nDir hutt e puer Ressourcen, an Är Opgab ass et, ze handelen, sou datt de Gesamtwäert vu Äre Ressourcen zouhëlt.\nD'Ressourcen an déi zougerechte Wäerter, déi dir derzäit hutt, sinn:\n\t+ {resource_value_list}\nBei all Rond, kënnt dir mat Ärem Géigner schwätzen an e Handelsoffre maachen.\nBenotzt déi follgenden speziellen Tokenen fir Aktiounen:\n  - '[Offer: 3 Sheep, 2 Ore -> 5 Brick, 2 Sheep]': [Offer: Offered Resources -> Requested Resources]\n  - '[Accept]': Fir eng agängeg Offre z'akzeptéieren.\n  - '[Deny]': Fir eng agängeg Offre ofzeleenen (Standard).\nD'Spill dauert {max_turns} Ronnen an der Totalitéit."
   },
   "invalid_move": {
     "receiving_with_no_resource": "De Spiller huet probéiert en Handel unzehuelen ouni déi néideg Ressourcen ze hunn.",

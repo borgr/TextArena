@@ -10,10 +10,10 @@
     "correct_format_wrong_fields": "Zogador {player_id}, Azion no valide. Colone {col} e fûr dai limits.",
     "out_of_range": "L'indiç di pile {pile_index} al è fûr dal range.",
     "non_positive": "Al à di gjavâ almancul un ogjet.",
-    "exceeds_pile": "Cannot remove {quantity} from pile {pile_index} (only {pile_count} left)."
+    "exceeds_pile": "No si pues rimuovi {quantity} ogjets de pile {pile_index} (a son restâts dome {pile_count})."
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "Il Zugadôr {player_id} al à zuiât [{pile_index} {quantity}], rimuvint {quantity} ogjet(s) de pile {pile_index}."
   },
   "outcome": {
     "win": "Il zuiadôr {player_id} al à cjapât l'ultin ogjet (s)!"

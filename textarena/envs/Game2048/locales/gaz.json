@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing 2048 on a {board_size}x{board_size} board. Your goal is to reach a {target_tile} tile by sliding identical numbers together!\nValid moves: [Up], [Down], [Left], [Right]. Tiles combine when they collide, doubling their value.\n"
+    "intro": "Ati 2048 irratti tapha {board_size}x{board_size} boordii irratti. Galma kee {target_tile} tile ga'uuf nambarii walfakkaatuun walitti makamuun ga'uuf!\nTapha sirrii: [Up], [Down], [Left], [Right]. Tileonnii walitti bu'uuree, saamii isaanii lamaanfachuun.\n"
   },
   "board": {
     "current_board": "Namni: {score}\n{board}"
@@ -11,6 +11,6 @@
   },
   "outcome": {
     "win": "Galatoomi, {target_tile} dhufte! Namni guddaa {score}.",
-    "lose": "No moves left. Max tile {max_tile} - final score {score}."
+    "lose": "Sochii hin jiru. Tilee guddaa {max_tile} - akkaataa xumuraa {score}."
   }
 }

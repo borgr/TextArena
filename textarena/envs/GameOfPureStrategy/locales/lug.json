@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a match of GameOfPureStrategy.\n- You hold the 13 cards A-K; each can be used once.\n- Each round a prize card is revealed. Play exactly ONE card by writing something that contains a bracketed token like '[Q]', '[10]', '[2]' ...\n- Higher card wins the prize (plus carry-over). Ties roll prize into the pot for next round.\n- Highest total after 13 rounds wins."
+    "intro": "Oli mchezaji {player_id} mu mupiira wa GameOfPureStrategy.\n- Olina kadi 13 A-K; kila moja inaweza kutumika mara moja.\n- Buli mpaka kadi ya zawadi inatolewa. Cheza kadi moja tu kwa kuandika kitu ambacho kina tokeni iliyo na mabano kama '[Q]', '[10]', '[2]' ...\n- Kadi ya juu inashinda zawadi (pamoja na kubeba). Shindano la sare husogeza zawadi hadi kwenye kopo kwa mpaka ujao.\n- Jumla ya juu zaidi baada ya mipaka 13 inashinda."
   },
   "round": {
     "announce": "### Mzunguko {round}/13 - Bezawo: {prize}  (iliyo na thamani ya {worth})"

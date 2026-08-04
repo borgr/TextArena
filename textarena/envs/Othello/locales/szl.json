@@ -16,7 +16,7 @@
   },
   "game_action": {
     "skipped": "Gracz {pid} musioł ôpuścić swōj kōnsek.",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "Gracz {pid} ({piece}) zagroł [{r}, {c}] ôdwracajōnc {flipped} sztuk(ã)"
   },
   "game_message": {
     "must_skip": "Gracz {pid} ({piece}) nie mo ůywa żadnych poprawnych posuněć i musi pominąć."

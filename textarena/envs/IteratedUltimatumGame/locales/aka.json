@@ -21,23 +21,23 @@
     "{total}": "Each player's tied final total (a number)"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id}, playing {num_rounds} rounds of Iterated Ultimatum Game.\nYou have ${pool} to split this round between yourself and Player {other_id}.\n\nProposer:\n  - Make an offer: [Offer: $X] (0 <= X <= pool)\n  - If accepted → You get $(pool - X), other player gets $X\n  - If rejected → Both get $0\n  - Example: [Offer: $3]  or  'I think this is fair. [Offer: $5]'\n\nResponder:\n  - Decide on the offer with either [Accept] or [Reject]\n  - Example: 'That seems reasonable. [Accept]'\n            'Too unfair. [Reject]'\n"
+    "intro": "Wo ne Odwumayɛni {player_id}, wɔreyɛ {num_rounds} rounds Iterated Ultimatum Game.\nWo wɔ $ {pool} sɛ wode bɛkyɛ wɔ round yi mu wɔ wo ne Odwumayɛni {other_id}.\n\nOdwumayɛni a ɔreyɛ proposal:\n  - Yɛ proposal: [Offer: $X] (0 <= X <= pool)\n  - Sɛ wɔgye tom → Wo bɛnya $(pool - X), odwumayɛni foforo no bɛnya $X\n  - Sɛ wɔnti → Wo nyinaa bɛnya $0\n  - Nhwehwɛmu: [Offer: $3]  anaa  'Mewɔ mu sɛ ɛyɛ pɛpɛɛpɛ. [Offer: $5]'\n\nOdwumayɛni a ɔreyɛ response:\n  - Yɛ response a wɔde bɛgye anaa wɔnti [Accept] anaa [Reject]\n  - Nhwehwɛmu: 'Ɛte sɛ ɛyɛ pɛpɛɛpɛ. [Accept]'\n            'Ɛnyɛ pɛpɛɛpɛ. [Reject]'\n"
   },
   "round": {
     "begins": "--- Nnuaneɛ {round_number} reba! ---\nɔkandifo {proposer_id} ne onyɛ ɔhyɛɛ no, ɔkandifo {responder_id} ne nsɛm a ɛnyɛ pɛ no.",
-    "offer": "Round {round_number}: Player {proposer_id} offers ${offer} to Player {responder_id} (keeping ${keep}).",
-    "accepted": "Player {responder_id} accepted! Round {round_number} gains: Player {proposer_id} +${proposer_gain}, Player {responder_id} +${responder_gain}. New totals: Player 0: ${total_0}, Player 1: ${total_1}.",
+    "offer": "Round {round_number}: Odwumayɛni {proposer_id} de $ {offer} bɛma Odwumayɛni {responder_id} (de $ {keep} bɛkora).",
+    "accepted": "Odwumayɛni {responder_id} gye tom! Round {round_number} nyaa: Odwumayɛni {proposer_id} +$ {proposer_gain}, Odwumayɛni {responder_id} +$ {responder_gain}. Sika dodow foforo: Odwumayɛni 0: $ {total_0}, Odwumayɛni 1: $ {total_1}.",
     "rejected": "ɔkandifo {responder_id} mpɛ ahɔdeɛ no! Nnuaneɛ {round_number} nyaa: ɔkandifo nyinaa +$0. Nnuaneɛ foforɔ no abɛn hɔ: ɔkandifo 0: ${total_0}, ɔkandifo 1: ${total_1}."
   },
   "invalid_move": {
-    "no_offer_format": "Proposer must make an offer using the format [Offer: $X].",
+    "no_offer_format": "Odwumayɛni a ɔreyɛ proposal no debe yɛ proposal a wɔde bɛma wɔ saa format yi [Offer: $X].",
     "bad_integer": "Ɛwɔ sɛ wɔ ka no yɛ ɔpepepem a ɛmu da hɔ.",
     "out_of_range": "Ɛwɔ sɛ wɔhyɛ bɔ a ɛwɔ $0 ne ${pool} ntam.",
     "no_current_offer": "Mprempren no, obiara nni hɔ a ɔde ne nsa aka ade.",
     "accept_or_reject": "Nsɛm a ɛnyɛ pɛ no, ɛsɔɔ sɛ wɔbɛhyɛ [Accept] anaa [Reject] ahɔdeɛ no."
   },
   "outcome": {
-    "win": "Player {winner} won with ${winner_total} total vs Player {loser}'s ${loser_total}.",
+    "win": "Odwumayɛni {winner} dii nkunim wɔ $ {winner_total} sika dodow mu vs Odwumayɛni {loser} $ {loser_total} sika dodow.",
     "draw": "Wɔpenee so sɛ wɔn nyinaa bɛtumi adi nkonim wɔ ${total} mu."
   }
 }

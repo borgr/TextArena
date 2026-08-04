@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a game of Reverse Tic Tac Toe. Your symbol is '{symbol}'.\nThe goal is to avoid getting three in a row (horizontally, vertically, or diagonally).\nIf you make three in a row, you LOSE.\nSubmit your move using the format '[4]' to place your symbol in cell 4.\nAs Player {player_id}, you are '{symbol}' and your opponent is '{opponent_symbol}'."
+    "intro": "Inwe ni Player {player_id} katika mchezo wa Reverse Tic Tac Toe. Isimu yako ni '{symbol}'.\nLengo ni kuepuka kupata mstari wa tatu mfululizo (mlalo, wima, au diagonally).\nIkiwa utafanya mstari wa tatu mfululizo, utashindwa.\nTuma hamu yako kwa kutumia mfumo '[4]' ili kuweka isimu yako katika seli 4.\nKama Player {player_id}, inwe ni '{symbol}' na mpinzani wako ni '{opponent_symbol}'."
   },
   "board": {
     "current_board": "Bodi E Maber Current:\n\n{board}\n\nMikwano Maber: {moves}"

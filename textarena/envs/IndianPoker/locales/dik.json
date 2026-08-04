@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a game of Indian Poker.\n- 52-card deck; you see only the opponent's card.\n- Ante {ante} chip(s) each round, {max_rounds} round(s) total.\n- Valid moves: '[check]'  |  '[bet X]'  |  '[call]'  |  '[raise X]'  |  '[fold]'  (X is a positive integer <= your chip count.)\n- Highest hidden card wins the pot at showdown.\n"
+    "intro": "Yin ee Player {player_id} ee game de Indian Poker.\n- Dek ee 52-card; yin ee kek card de opponent.\n- Ante {ante} chip(s) ee kɔ̈ɔ̈c, {max_rounds} kɔ̈ɔ̈c ee jɔ̈l.\n- Luɔ̈ɔ̈i ee kuɛ̈ɛ̈t: '[check]'  |  '[bet X]'  |  '[call]'  |  '[raise X]'  |  '[fold]'  (X ee akɔ̈ɔ̈m kuɛ̈ɛ̈t ee chip yïn ee kuɛ̈ɛ̈t.)\n- Card ee kuɛ̈ɛ̈t ee yɔ̈ɔ̈ŋ ee kuɛ̈ɛ̈t ee pot ee showdown.\n"
   },
   "round": {
     "announce": "### Run {current_round}/{max_rounds}\nKɔc kuɔp ee: {card}"
@@ -23,14 +23,14 @@
     "possible_actions": "Kä lëu ba looi: {legal}"
   },
   "message": {
-    "round_result": "{reason}  Pot {pot} → Player {winner}. (Bankrolls P0:{p0}, P1:{p1})",
+    "round_result": "{reason}  Këpɛ̈t {pot} → Raan {winner}. (Ŋɛ̈ɛ̈r P0:{p0}, P1:{p1})",
     "folded": "Raan ye gɔ̈ɔ̈r {player_id} acï puɔ̈l.",
     "showdown_win": "Käk cï kek thɔ̈ɔ̈r: {card_win} aye gɔl në kë de {card_lose}.",
-    "showdown_tie": "Tie: Both {card}. Pot split  each receives {split}."
+    "showdown_tie": "Showdown ee kuɛ̈ɛ̈t: kuɔ̈ɔ̈c ee {card}. Pot ee kuɔ̈ɔ̈c – kuɔ̈ɔ̈c ee kuɔ̈ɔ̈c {split}."
   },
   "outcome": {
-    "p0_wins": "Player 0 wins ({bank0} > {bank1})",
-    "p1_wins": "Player 1 wins ({bank1} > {bank0})",
+    "p0_wins": "Player 0 ee kuɛ̈ɛ̈t ({bank0} > {bank1})",
+    "p1_wins": "Player 1 ee kuɛ̈ɛ̈t ({bank1} > {bank0})",
     "draw": "Kä thöŋ në thää cï döŋ cök ëbën."
   }
 }

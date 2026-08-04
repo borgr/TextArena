@@ -14,15 +14,15 @@
     "{scores}": "The final scores as a raw player-number to score mapping - do not translate"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player GOPS.\n- You hold the 13 cards A-K (each exactly once).\n- Each round a prize is revealed. Submit ONE card like `[Q]`, `[10]`, `[2]` …\n- Highest card wins the prize (+ any carry-over pot). Ties roll the prize into the next round.\n- After 13 rounds, highest total wins. Invalid moves = elimination."
+    "intro": "तुम्हें तीन खेलाड़ी GOPS में खेलाड़ी {player_id} हो।\n- तुम्हारे पास 13 पत्ती A-K (हर एक ठीक एक बार) है।\n- हर राउंड में एक इनाम देखाया जाता है। एक पत्ती जैसे `[Q]`, `[10]`, `[2]` … जमा करो।\n- सबसे ऊंची पत्ती इनाम जीतती है (+ कोई भी कैरी-ओवर पॉट)। टाई होने पर इनाम अगले राउंड में रोल होता है।\n- 13 राउंड के बाद, सबसे ऊंचा कुल जीतता है। अवैध चालें = खारिज।"
   },
   "round": {
-    "header": "### राउंड {round}/१३ - पुरस्कार: {prize} (मूल्य {worth})",
-    "hand": "आपके शेष हाथः {hand} (अंग्रेजी म: 0)"
+    "header": "### राउंड {round}/13 - इनाम: {prize} (मूल्य {worth})",
+    "hand": "तुम्हारे हाथ में बची पत्ती: {hand}"
   },
   "reveal": {
-    "win": "बोली » {bids} - खिलाड़ी {winner} {pot} जीतथे।",
-    "tie": "बोली » {bids} - टाई, पॉट अब {pot}।",
+    "win": "बोली » {bids} - खेलाड़ी {winner} {pot} जीतता है।",
+    "tie": "बोली » {bids} - टाई, पॉट अब {pot} है।",
     "scores": "स्कोर → {scoreline}"
   },
   "invalid_move": {
@@ -30,7 +30,7 @@
     "bad_card": "कार्ड पहिली ले उपयोग म हे या अवैध हवय"
   },
   "elimination": {
-    "player": "खिलाड़ी {pid} बार-बार अमान्य चाल के पाछू बाहर करे गय।"
+    "player": "खेलाड़ी {pid} अवैध चालों के कारण खारिज कर दिया गया है।"
   },
   "outcome": {
     "auto_win": "दू खिलाड़ी ह खारिज हो जाथे - स्वचालित जीत।",

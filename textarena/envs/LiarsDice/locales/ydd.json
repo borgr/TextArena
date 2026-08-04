@@ -30,7 +30,7 @@
   },
   "call": {
     "bidder_loses": "שפּילער {current_player_id} רופֿט! די טאָטעלע צאָל פֿון פֿאַץ {face_value} איז {count}, וואָס איז ווייניגער ווי {quantity}.\nשפּילער {loser_id} (דער לעצטער בידער) פֿאַרלירט איין וו�ירפֿל.",
-    "caller_loses": "Player {current_player_id} calls! The actual count of face {face_value} is {count}, which is >= {quantity}.\nPlayer {loser_id} (the caller) loses one die."
+    "caller_loses": "Shpiler {current_player_id} ruft! Der emeser tsol fun ponim {face_value} iz {count}, vos iz >= {quantity}.\nShpiler {loser_id} (der rufndiker) farliert aynen kubik."
   },
   "action": {
     "bid_announce": "שפּילער {player_id} בידט {quantity} פֿון פֿאַץ {face_value}."

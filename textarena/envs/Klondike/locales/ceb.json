@@ -21,11 +21,11 @@
   "format_error": {
     "no_brackets": "Dili balido nga format sa aksyon. Ang aksiyon kinahanglan diha sa mga parentehe.",
     "no_closing_bracket": "Dili balido nga format sa aksyon. Wala'y closing bracket ']\"",
-    "empty_command": "Wala'y mando. Type 'draw' o 'move <source><destination> [count]'",
+    "empty_command": "Walang-laman na utos. Itayp ang 'draw' o 'move <source> <destination> [count]'",
     "empty_action": "Wala'y hinungdan nga aksyon",
     "move_needs_args": "Pagbalhin sa mando nagkinahanglan og tinubdan ug destinasyon. Usage: 'move <source> <destination> [count]'",
-    "count_positive": "Ang ihap kinahanglang positibo o \"tanan\"",
-    "count_invalid": "Dili balido nga ihap. Gamita ang usa ka numero o 'tanan'",
+    "count_positive": "Ang count ay dapat positibo o 'all'",
+    "count_invalid": "Hindi wastong count. Gumamit ng isang numero o 'all'",
     "unknown_command": "Nahiunang komando '{cmd}'. Gamita 'draw', 'move <source> <destination> [count]', o 'forfeit'",
     "wrapped": "Ang aksyon {n}: {msg}"
   },

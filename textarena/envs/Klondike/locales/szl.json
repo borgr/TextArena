@@ -16,16 +16,16 @@
     "{cards}": "The cards in a pile as neutral labels, or '--' if empty (never translate)"
   },
   "player_prompt": {
-    "intro": "You are playing Klondike Solitaire. Your goal is to move all cards to the foundation piles.\n\nGame Rules:\n- Foundation piles (F1-F4): Build up from Ace to King in suit\n- Tableau piles (T1-T7): Build down alternating colors (red on black, black on red)\n- Stock: Draw cards to waste pile\n- Waste (W): Top card available for play\n\nCommands:\n- 'draw' - Draw cards from stock to waste\n- 'move <source> <destination> [count]' - Move cards between piles\n  Examples: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count can also be 'all', which will try to move all face-up cards.\n- 'forfeit' - End the game immediately and lock in your current score\n- Pile names: W (waste), F1-F4 (foundations), T1-T7 (tableau)\n\nYou can execute multiple actions in one turn by separating them with commas:\n  Example: 'draw, move W T1, move T2 F1'\n\nOnly Kings can be placed on empty tableau piles.\nActions execute in order - if one fails, the remaining actions are skipped.\nUse 'forfeit' if you believe the game is impossible to win."
+    "intro": "Grajosz we Klondike Solitaire. Twojim celem je przeniesienie wszyjskich kart do fundamentowych kup.\n\nPrawidła Gry:\n- Fundamentowe kupy (F1-F4): Buduj w górę od Asa do Króla we farbie\n- Tabelowe kupy (T1-T7): Buduj w dół na przemian farb (czerwony na czorny, czorny na czerwony)\n- Zapas: Dobierz karty do kupë wyrzutowych\n- Wyrzut (W): Górna karta dostępna do gry\n\nKomyndy:\n- 'draw' - Dobierz karty ze zapasu do wyrzutu\n- 'move <source> <destination> [count]' - Przenies karty między kupami\n  Przikłady: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count może być tyż 'all', co spróbuje przeniesć wszyjskie karty z wierzchu.\n- 'forfeit' - Skoncz grę natychmiast i zablokuj swojã teroźnõ punktacjõ\n- Nazwy kup: W (wyrzut), F1-F4 (fundamenty), T1-T7 (tabela)\n\nMożesz wykonywać wiele akcji w jednym ruchu, oddzielając je przecinkami:\n  Przikład: 'draw, move W T1, move T2 F1'\n\nIno Króle mogą być umieszczëni na pustyj tabelë.\nAkcje są wykonywane w kolejności - jeśli jedna zawodzi, pozostałe akcje są pomijane.\nUżyj 'forfeit', jeśli uwazasz, że gra je niemożliwa do wygraniô."
   },
   "format_error": {
     "no_brackets": "Niyprawidłowy format akcyje. Akcyjo powinna być we ôkładkach.",
     "no_closing_bracket": "Niyprawidłowy format akcyje. Brakuje ôkłŏdki kōńcowyj \"]\"",
     "empty_command": "Puste polecenie. Wpisz \"draw\" abo \"move <source> <destination> [count]\".",
     "empty_action": "Prōzno akcyjo",
-    "move_needs_args": "Kōmandyjo przesuwanio wymogo zdrzōdła i cylu. Użycie: \"przenosić <źrōd> <cyla> [count]\"",
-    "count_positive": "Liczba musi być dodatnio abo \"wszyscy\"",
-    "count_invalid": "Niyprawidłowe liczenie. Użyj liczby abo \"wszyscy\"",
+    "move_needs_args": "Komynda przeniesienia wymaga źródła i celu. Użycie: 'move <source> <destination> [count]'",
+    "count_positive": "Liczba musi być dodatniô abo 'all'",
+    "count_invalid": "Niemożliwa liczba. Użyj liczby abo 'all'",
     "unknown_command": "Nieznana komenda '{cmd}'. Użyj 'draw', 'move <source> <destination> [count]', lub 'forfeit'",
     "wrapped": "Akcja {n}: {msg}"
   },

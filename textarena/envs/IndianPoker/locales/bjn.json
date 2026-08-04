@@ -6,7 +6,7 @@
     "announce": "### Ronde {current_round}/{max_rounds}\nKartu lawan Anda adalah: {card}"
   },
   "invalid_move": {
-    "ambiguous": "Supply exactly ONE bracketed action, e.g. '[check]', '[bet 2]', '[call]', '[raise 3]', or '[fold]'.",
+    "ambiguous": "Berikan tepat SATU aksi yang diapit, contohnya '[check]', '[bet 2]', '[call]', '[raise 3]', atau '[fold]'.",
     "cannot_check": "Kada kawa [check] - ikam mahadapi taruhan.",
     "amount_min": "Jumlah taruhan / menaikkan harus ≥ 1.",
     "cannot_bet": "Tidak bisa [bet] - harus [call] / [raise] / [fold].",
@@ -25,7 +25,7 @@
   "message": {
     "round_result": "{reason}  Pot {pot} → Pemain {winner}. (Bankrolls P0:{p0}, P1:{p1})",
     "folded": "Pamain {player_id} manyimpang.",
-    "showdown_win": "Showdown: {card_win} beats {card_lose}.",
+    "showdown_win": "Showdown: {card_win} mengalahkan {card_lose}.",
     "showdown_tie": "Showdown tie: kaduanya {card}. Pot dibagi  masing-masing manarima {split}."
   },
   "outcome": {

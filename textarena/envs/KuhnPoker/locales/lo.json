@@ -11,7 +11,7 @@
     "not_legal": "ການກະທໍາຕ້ອງເປັນ {legal_actions}."
   },
   "action": {
-    "submit_move": "Player {player_id}, submitted move: '[{move}]'.",
+    "submit_move": "ຜູ້ຫຼິ້ນ {player_id} ສົ່ງການຫຼິ້ນ: '[{move}]'.",
     "valid_actions": "ການກະທໍາຂອງທ່ານແມ່ນ: {legal_actions}.",
     "round_summary": "{reason} ຄະແນນປະຈຸບັນ: ຜູ້ນ 0: \"{player_0_chips}\"; ຜູ້ນ 1: \"{player_1_chips}\""
   },

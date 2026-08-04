@@ -1,17 +1,17 @@
 {
   "player_prompt": {
-    "intro": "Welcome to Frozen Lake!\n\nYou are represented by 'P' on the grid.\nGrid symbols:\n  ' ' = Frozen surface (safe to walk on)\n  'H' = Hole (fall in and lose!)\n  'G' = Goal (reach this to win!)\n  'P' = Your current position\n\nAvailable actions: up, down, left, right (or w, a, s, d)\nType your action as: [up], [down], [left], [right] or [w], [a], [s], [d]\n\nObjective: Navigate from the start (top-left) to the goal (bottom-right) without falling into any holes!\n"
+    "intro": "Bénvegnûi into Lâgo Ghiaciòu!\n\nTi sêu raprezentòu da 'P' into griglia.\nSimboli do griglia:\n  ' ' = Superfìcce ghiaciâ (segûo de camminâ)\n  'H' = Pertûzo (cæze e perdi!)\n  'G' = Obiettîvo (arîva lì pe vincî!)\n  'P' = A tò poxiçión atoâle\n\nAçioîn dispònibili: d'âto, a bàsso, a scîa, a drita (ò w, a, s, d)\nDîgita a tò açión cómme: [up], [down], [left], [right] ò [w], [a], [s], [d]\n\nObiettîvo: Navegâ da-o prinçìpio (in âto a scîa) a l'obiettîvo (in bàsso a drita) sénsa chéite inte di pertûzi!\n"
   },
   "board": {
-    "current_board": "Current Board:\n\n{board}\n\nAvailable Actions: {actions}"
+    "current_board": "Tabellón Atuâle:\n\n{board}\n\nAçioin disponibili: {actions}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use [up], [down], [left], [right] or [w], [a], [s], [d].",
+    "wrong_format": "Formâto de açión invâlide. Dêvi dêuviâ [up], [down], [left], [right] ò [w], [a], [s], [d].",
     "unknown_action": "Açion sconosciua \"{action}\". Utilizzâ in sciô, sotta, a-a manciña, drita ò w, a, s, d.",
-    "hit_wall": "You tried to move {action} but hit a wall!"
+    "hit_wall": "T'æ provòu a mòvite {action} ma t'æ inciampòu in sciô mûro!"
   },
   "game_action": {
-    "moved": "You moved {action} to position ({row}, {col})."
+    "moved": "T'æ mòsso {action} a-a posission ({row}, {col})."
   },
   "outcome": {
     "win": "Congratulaçioin! Ti l'æ arrivou à a meta.",

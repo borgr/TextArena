@@ -14,14 +14,14 @@
     "{scores}": "The final scores as a raw player-number to score mapping - do not translate"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player GOPS.\n- You hold the 13 cards A-K (each exactly once).\n- Each round a prize is revealed. Submit ONE card like `[Q]`, `[10]`, `[2]` …\n- Highest card wins the prize (+ any carry-over pot). Ties roll the prize into the next round.\n- After 13 rounds, highest total wins. Invalid moves = elimination."
+    "intro": "Qanmi Pukllay Runa {player_id} Three-Player GOPS nisqapi.\n- Qanmi 13 q'ipikunayuqmi A-K (sapa kuti).\n- Sapa p'unchay q'umir q'ipita q'ipin. Huk q'ipita q'ipiy hinamanta `[Q]`, `[10]`, `[2]` …\n- Aswan hatun q'ipita q'umir q'ipita atin (sapa kuti q'ipisqap qullqinwan). Tiki-tikimanta q'umir q'ipita q'ipinakunaman.\n- 13 p'unchaykunamanta, aswan hatun qullqi atin. Ama p'unchaykuna = illaqasqa."
   },
   "round": {
     "header": "### P'unchay {round}/13 - Premiu: {prize} (q'uwanku {worth})",
     "hand": "Qampa kaq makiyki: {hand}"
   },
   "reveal": {
-    "win": "Bids  {bids} - Player {winner} wins {pot}.",
+    "win": "Q'ipikuna » {bids} - Pukllay Runa {winner} q'umir q'ipita atin {pot}.",
     "tie": "Q'illay  {bids} - t'ikrasqa, q'illluña {pot}.",
     "scores": "Qhapaqkuna → {scoreline}"
   },

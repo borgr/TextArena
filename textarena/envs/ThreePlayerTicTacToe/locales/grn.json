@@ -11,22 +11,22 @@
     "{moves}": "The comma-separated list of available move tokens like '[4]' (do not translate)"
   },
   "player_prompt": {
-    "intro": "Usted es Jugador {player_id} en Tic Tac Toe de Tres Jugadores.\nSu símbolo es '{symbol}'.\nUsted turna colocando su símbolo en un tablero 5x5 para formar una línea de cuatro.\nLas líneas pueden ser horizontales, verticales o diagonales.\nEnvíe su movimiento usando el formato '[4]' para marcar la celda 4."
+    "intro": "Nde Player {player_id} Three-Player Tic Tac Toe-pe.\nNe símbolo '{symbol}'.\nNde ohasa ñembyaty ojapo línea irundyha rupi 5x5 tablero-pe.\nLínea ikatu horizontal, vertical térã diagonal.\nEmoĩ nde jugada-pe formato '[4]' ojapo celda 4-pe."
   },
   "board": {
-    "current_board": "Tablero Actual:\n\n{board}\n\nMovimientos Disponibles: {moves}"
+    "current_board": "Tablero Ag̃agua:\n\n{board}\n\nJugada Ikatúva: {moves}"
   },
   "invalid_move": {
     "wrong_format": "Formato de movimiento ndoikóiva. Eipuru \"[cell]\" ha'ehápe celda 0-{max_cell}.",
-    "out_of_range": "Número de celda inválido: {cell}. Debe estar entre 0 y {max_cell}.",
+    "out_of_range": "Celda número he'ẽ: {cell}. Va'erã {max_cell} peve.",
     "already_occupied": "Celdilla {cell} oĩma ocupada.",
     "made_invalid": "Jokuaihára {player_id} ojapo peteĩ movimiento invalido."
   },
   "game_action": {
-    "placed": "Jugador {player_id} coloca su símbolo ({symbol}) en el campo ({row}, {col})."
+    "placed": "Player {player_id} omoĩ símbolo ({symbol}) campo-pe ({row}, {col})."
   },
   "outcome": {
-    "win": "Jugador {player_id} ({symbol}) gana!",
+    "win": "Player {player_id} ({symbol}) ipu'akai!",
     "draw": "Pe juego ha'e peteî empate!"
   }
 }

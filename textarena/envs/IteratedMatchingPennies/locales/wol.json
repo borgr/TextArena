@@ -1,13 +1,13 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({role}) in a {num_rounds}-round Matching Pennies game.\n- Each round, submit [heads] or [tails] (or [h], [t]).\n- If your choice matches your opponent’s, Player 0 wins the round; otherwise Player 1 wins.\nReply with your choice in the format '[heads]' or '[tails]'.\n"
+    "intro": "Yaa ngone jàngoro {player_id} ({role}) ci doxu àttekaayu Matching Pennies, {num_rounds} àtte.\n- Ci beneen àtte, indil [heads] mbaa [tails] (mbaa [h], [t]).\n- Su ngone tànn ngone, jàngoro 0 moo jawe àtte bi; ndaxte jàngoro 1 moo jawe.\nDóol ak sa tànn ci njàngum '[heads]' mbaa '[tails]'.\n"
   },
   "invalid_move": {
     "wrong_format": "Deggoo bu njaboot; sooñal '[heads]' walla '[tails]'."
   },
   "message": {
-    "round_match": "Player 0 picked {choice0}; Player 1 picked {choice1}. Match -> Player 0 wins",
-    "round_mismatch": "Player 0 picked {choice0}; Player 1 picked {choice1}. Mismatch -> Player 1 wins."
+    "round_match": "Jàngoro 0 dafa tànn {choice0}; jàngoro 1 dafa tànn {choice1}. Tànn -> Jàngoro 0 jawe na",
+    "round_mismatch": "Jàngoro 0 dafa tànn {choice0}; jàngoro 1 dafa tànn {choice1}. Tànnul -> Jàngoro 1 jawe na."
   },
   "outcome": {
     "p0_wins": "Jëfandikukat 0 moo jël ay wërsëg yu ëpp.",

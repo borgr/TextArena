@@ -11,7 +11,7 @@
     "not_legal": "Иш-аракет {legal_actions} болушу керек."
   },
   "action": {
-    "submit_move": "Player {player_id}, submitted move: '[{move}]'.",
+    "submit_move": "{player_id} оюнчусу, аракетти жөнөттү: '[{move}]'.",
     "valid_actions": "Сиздин колдо бар иш-аракеттериңиз төмөнкүлөр: {legal_actions}.",
     "round_summary": "{reason} Учурдагы упайлар: 0 оюнчу: \"{player_0_chips}\"; 1 оюнчу: \"{player_1_chips}\""
   },

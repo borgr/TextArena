@@ -5,17 +5,17 @@
   "board": {
     "header": "XIMUTINGA: {target}\n\nSwivutiso swa nambari:\n{numbers}",
     "best": "{observation}\n\nLoyi eku sunguleni: {best_value} (dzhata: {distance})\nLoyi leyi antswisiweke: {best_expression}",
-    "history": "{observation}\n\nMove history:\n{moves}",
+    "history": "{observation}\n\nNkanelo wa tirho:\n{moves}",
     "progress": "{observation}\nMakonswelo ya swivutiso: {progress}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use `[i j op]` where i,j are indices and op is +,-,*,/",
+    "wrong_format": "Mpangwa wa tirho u hoxile. Tirhisa `[i j op]` laha i,j i nambari ya ku tirhisa na op i +,-,*,/",
     "invalid_indices": "Swikombo leswi nga tirhiki. Swi fanele ku hambana naswona swi va eka 0-{max_index}",
     "invalid_operation": "Ntirho lowu nga riki wona (ku avanyisa hi 0 kumbe mbuyelo wa nhlayo leyi nga helelangiki)"
   },
   "outcome": {
     "win": "Yi fikelele pakani ya yona: {target}",
-    "no_moves": "No more moves. Best result: {best_value} (target: {target})",
+    "no_moves": "Ku hava ku famba kwintsongo. Mpimo lowu wunene: {best_value} (mpimo lowu lavaka: {target})",
     "turn_limit": "Ku fika eka masungulo. Mafambelo ya kuleya: {best_value} (ximutinga: {target})"
   }
 }

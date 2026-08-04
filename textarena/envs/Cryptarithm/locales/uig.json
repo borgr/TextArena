@@ -9,10 +9,10 @@
     "{pct}": "Progress as a percentage string, e.g. 50%"
   },
   "player_prompt": {
-    "intro": "Map each letter to a unique digit so the arithmetic holds.\nAssign with `[A 5]`, re-assign anytime.\n"
+    "intro": "ھەر بىر ھەرپنى بىرلا رەقەمگە تەۋەككۇل قىلىڭ. [A 5] بىلەن تەۋەككۇل قىلىڭ، ھەر ۋاقىت قايتا تەۋەككۇل قىلىڭ.\n"
   },
   "invalid_move": {
-    "wrong_format": "Bad action format. Use `[A 5]`.",
+    "wrong_format": "ناتوغرا ھەرىكەت فورماتى. [A 5] نى ئىشلىتىڭ.",
     "letter_not_in_puzzle": "خەت {letter} تېپىشماق ئەمەس.",
     "digit_used": ".ئۈچىنچى خانىلىقنىڭ بېشىدىكى بىر ھەرپ ({digit}) {used_letter} تەرىپىدىن ئىشلىتىلگەن.",
     "leading_zero": "سۆزنىڭ باش سانى 0 بولالمايدۇ."

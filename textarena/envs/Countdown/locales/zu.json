@@ -9,7 +9,7 @@
     "progress": "{observation} Isilinganiso senqubekela phambili yamanje: {progress}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use `[i j op]` where i,j are indices and op is +,-,*,/",
+    "wrong_format": "Ifomethi yenzo ayilungile. Sebenzisa `[i j op]` lapho i,j izikhundla futhi op yenzu +,-,*,/",
     "invalid_indices": "Izinkomba ezingekho emthethweni. Kumele zihluke futhi zibe phakathi kuka-0-{max_index}",
     "invalid_operation": "Ukusebenza okungasebenzi (ukuhlukanisa ngo-zero noma umphumela ongeyona inombolo ephelele)"
   },

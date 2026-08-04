@@ -11,17 +11,17 @@
     "{ball_pos}": "The cup index the ball is under"
   },
   "player_prompt": {
-    "intro": "Track the hidden ball 'X' while the cups are shuffled.\nAfter shuffling, guess its location with `[k]`."
+    "intro": "Sigui e bala skondí 'X' mientras e kup ta wordu shuffle.\nDespues di shuffle, adivina su lokashon ku `[k]`."
   },
   "game_message": {
     "ball_starts": "Ball ta kuminsá: {line}",
     "shuffle": "Mecha {step}/{steps}: a cambia tasnan {i} i {j}.",
     "cups": "Tasan: {line}  {prompt}",
     "guess_now": "(Hasi un deskubrimentu AHORA!)",
-    "reveal": "(Reveal: bola bou di {ball_pos})"
+    "reveal": "(Revela: bala abou {ball_pos})"
   },
   "invalid_move": {
-    "wrong_format": "Bad action. Use `[k]`.",
+    "wrong_format": "Aksyon inkorekto. Usa `[k]`.",
     "out_of_range": "Index for di rang 0-{max_index}."
   },
   "outcome": {

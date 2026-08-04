@@ -3,7 +3,7 @@
     "intro": "Vi ludas PegJump. Saltu unu pinglon super alia en malplenan truon, forigante la saltitan pegon. Celo: fini kun precize **unu** pigo restanta. Agadformato: ekzemple '[4 1]'."
   },
   "board": {
-    "current_board": "Pegs left: {count}\n{board}"
+    "current_board": "Stiftetoj restantaj: {count}\n{board}"
   },
   "invalid_move": {
     "wrong_format": "Malvalida sintakso. Uzu [i->j] .",

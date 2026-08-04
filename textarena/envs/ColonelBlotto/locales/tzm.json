@@ -1,11 +1,11 @@
 {
   "player_prompt": {
-    "intro": "You are {role} in Colonel Blotto.\nYour goal is to win more rounds than your opponent.\nOn each round, allocate exactly {num_total_units} units across fields {field_names}.\nThe player who allocates more units to a field wins that field, and the player who wins more fields wins the round.\nFor example, '[A7 B7 C6]' allocates 7 units to A, 7 to B, and 6 to C.",
+    "intro": "D nugi {role} di Colonel Blotto.\nTigzi d ik d-itsmga tirra n wuzzal n wuzzal n wuzzal n wuzzal.\nDi kraygat asrir, bḍu s umata {num_total_units} n yigrawen ɣef yifurken {field_names}.\nAnagraw n yigrawen n wuzzal i yifurken, d anagraw n wuzzal i yifurken ismun.\nS umdya, '[A7 B7 C6]' bḍu 7 n yigrawen i A, 7 i B, d 6 i C.",
     "commander_alpha": "ⴰⵎⵙⵙⵓⴳⵓⵔ ⴰⵍⴼⴰ.",
     "commander_beta": "ⴰⵎⵙⵙⵓⴳⵓⵔ ⴱⵉⵟⴰ."
   },
   "game_state": {
-    "header_round": "=== COLONEL BLOTTO - Round {current_round}/{num_rounds} ===\nTawrirtin - Commander Alpha: {alpha_score}, Commander Beta: {beta_score}"
+    "header_round": "=== COLONEL BLOTTO - Asrir {current_round}/{num_rounds} ===\nTirra n wuzzal - Anfqqas Alpha: {alpha_score}, Anfqqas Beta: {beta_score}"
   },
   "round_battle": {
     "field_result": "\nTawrirt {current_round}\nCommander Alpha yettwakkes : {p0_allocations}\nCommander Beta yettwakkes : {p1_allocations}\n",
@@ -17,14 +17,14 @@
     "wrong_format": "ⵜⴰⵍⵖⴰ ⵏ ⵓⴽⵛⵛⵓⵎ ⵓⵔ ⵜⵓⵙⵍⵉⴳ. ⵙⵎⵔⵙⵏ: A:5 ⴷ B:10 ⴷ C:5",
     "invalid_field": "ⵉⵙⵎ ⵏ ⵉⴳⵔ ⵓⵔ ⵉⵣⴳⵉⵍⵏ (((ⵙ). ⵉⴽⴰⵍⵉⵡⵏ ⵢⵓⵙⴰⵏ: {field_names}",
     "wrong_allocation_value": "ⵉⵇⵇⴰⵏ ⴷ ⴰⴷ ⴳⵉⵏⵜ ⴽⵓⵍⵍⵓ ⵜⵉⵙⵎⵓⵏⵉ ⵏ ⵉⵎⴹⴰⵏ ⵉⵣⴷⴷⴰⵢⵏ ⵓⵔ ⵉⴳⵏ ⴰⵎⵣⴰⵔⴰⵢ.",
-    "incorrect_total_units": "You have to allocate exactly {num_total_units} units. Current sum: {current_sum}",
+    "incorrect_total_units": "Llan {num_total_units} n yigrawen i yebḍu. Adɣar n wuzzal: {current_sum}",
     "good_allocations": "ⴰⵙⵎⵓⵜⵜⴳ ⵉⵖⵓⴷⴰⵏ."
   },
   "outcome": {
     "winner_alpha": "Commander Alpha yettwassen {score_0}-{score_1} ɣer tawrirt {num_rounds}!",
     "winner_beta": "Commander Beta yettwassen {score_1}-{score_0} ɣer tawrirt {num_rounds}!",
     "draw": "Tadust d tamunt n wudmawen {score_0}-{score_1} ɣer tawrirt {num_rounds}!",
-    "early_winner_alpha": "Commander Alpha wins {scores_0}-{scores_1} (majority achieved)!",
-    "early_winner_beta": "Commander Beta wins {scores_1}-{scores_0} (majority achieved)!"
+    "early_winner_alpha": "Anfɣas Alfa itṛuḥ {scores_0}-{scores_1} (ɛacca ameqqran iɣwwaṭ)!",
+    "early_winner_beta": "Anfɣas Beta itṛuḥ {scores_1}-{scores_0} (ɛacca ameqqran iɣwwaṭ)!"
   }
 }

@@ -1,9 +1,9 @@
 {
   "player_prompt": {
-    "intro": "You are playing the Minesweeper game.\nThe objective of the game is to reveal all cells that do not contain mines.\nTo make a move, simply specify the row and column coordinates you want to reveal using the format:\n- `[row col]`: Reveal the cell at the specified row and column.\nFor example:\n- `[3 2]` to reveal the cell in Row 3, Column 2.\n- `[5 6]` to reveal the cell in Row 5, Column 6.\nOn your first move, you will reveal an area around the cell you choose to ensure a safe start.\nThe current board layout is shown below. Cells that are unrevealed are represented by a dot ('.'), revealed numbers show the count of adjacent mines.\nBe mindful not to choose already revealed cells.\nHere is the current board layout:\n"
+    "intro": "Agayat ka iti Minesweeper a pagsasalisal.\nTi gandat iti pagsasalisal ket ipakita amin dagiti selula a saan a naglaon iti dinamita.\nTapno aramiden ti maysa a tignay, ikkan mo laeng ti koordinado ti raya ken kolumna a kayat mo a ipakita a usaren ti format:\n- `[row col]`: Ipakita ti selula iti naited a raya ken kolumna.\nHalimbawa:\n- `[3 2]` tapno ipakita ti selula iti Raya 3, Kolumna 2.\n- `[5 6]` tapno ipakita ti selula iti Raya 5, Kolumna 6.\nIti umuna a tignay mo, ipakita mo ti maysa a lugar iti likmut ti selula a piliem tapno agpataud iti nasayaat a rugi.\nTi agdama a disenyo iti board ket ipakita dita baba. Dagiti selula a saan a napakita ket representaren babaen ti tuldok ('.'), dagiti napakita a numero ket ipakita ti bilang dagiti dinamita a kaarruba.\nAganawa ka a saan a piliin dagiti selula a napakita.\nDita baba ti agdama a disenyo iti board:\n"
   },
   "board": {
-    "game_board": "Game Board: {board}",
+    "game_board": "Board ti Pagsasaritaan:\n\n{board}",
     "current_board": "agdama a Board: {board}"
   },
   "invalid_move": {

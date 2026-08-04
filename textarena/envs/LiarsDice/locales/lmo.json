@@ -22,7 +22,7 @@
     "final_ranking": "list of player indices from first eliminated to winner"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in an {num_players}-player Liar's Dice game.\nRules:\n- On your turn, you may either:\n  1) Make a new bid with a higher quantity or higher face (or both) than the current bid; i.e. '[Bid: 3, 4]',\n  2) Call the last bid by typing '[Call]'.\n\nIf you call:\n  - If the actual count of that face value among all dice is less than the bid, the last bidder loses one die.\n  - Otherwise, the caller loses one die.\nA player who reaches 0 dice is eliminated. The last remaining player wins."
+    "intro": "Ti seet Giugador {player_id} in d'on gioeugh de Dadi del Busiard in {num_players} giugador.\nRegol:\n- Al tò turn, te pòdet o:\n  1) Fà 'na noeuva oferta con 'na quantità o 'na faccia pussee volta (o tutt e duu) rispet a l'offerta atual; esempi: '[Bid: 3, 4]',\n  2) Ciamà l'ultima oferta scrivend '[Call]'.\n\nSe te ciamet:\n  - Se 'l contegg atual de chela faccia tra tucc i dadi l'è men del oferta, l'ultim oferent el perdet vun di.\n  - Se l'è inscì, el ciamador el perdet vun di.\nOn giugador che 'l riva a 0 di l'è eliminad. L'ultim giugador che 'l resta el vens."
   },
   "board": {
     "per_player": "\tGiugadore {p}: {d}",
@@ -37,17 +37,17 @@
   },
   "invalid_move": {
     "call_no_bid": "Chiamàda fàta senza 'na preziusa.",
-    "invalid_bid": "Invalid bid: {reason}",
+    "invalid_bid": "Offerta no valida: {reason}",
     "not_recognized": "Azzion minga recognossuda 'me 'na valida '[Bid: X, Y]' o '[Call]'. Azzion presentada: {action}"
   },
   "bid_reason": {
-    "quantity_lower": "Nuovo quantità {new_quantity} è inferiore a quella attuale {current_quantity}.",
-    "face_lower": "New face value {new_face_value} is lower than current {current_face_value}.",
+    "quantity_lower": "La noeuva quantità {new_quantity} l'è pussee bassa de la atual {current_quantity}.",
+    "face_lower": "La noeuva faccia {new_face_value} l'è pussee bassa de la atual {current_face_value}.",
     "identical": "L'offerta l'è identica a quella attuala.",
     "face_range": "El valor nominal el dev vess intra 1 e 6."
   },
   "message": {
-    "eliminated_invalid": "Giocatore {player_id} è stato eliminato per mossa invalida."
+    "eliminated_invalid": "El Giugador {player_id} l'è stat eliminad per mossa no valida."
   },
   "outcome": {
     "win": "Giugadore {winner} el veng! Classifica final: {final_ranking}"

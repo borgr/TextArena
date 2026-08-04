@@ -1,9 +1,9 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a game of Indian Poker.\n- 52-card deck; you see only the opponent's card.\n- Ante {ante} chip(s) each round, {max_rounds} round(s) total.\n- Valid moves: '[check]'  |  '[bet X]'  |  '[call]'  |  '[raise X]'  |  '[fold]'  (X is a positive integer <= your chip count.)\n- Highest hidden card wins the pot at showdown.\n"
+    "intro": "မိအဲ Player {player_id} မိအဲ ကဳပ အိန္ဒိယ ပုကာ ဟိုႏ။\n- 52-ကား ဒဲက္; မိအဲ ကဳ မိအဲ ပုန္ ကား မိအဲ။\n- အန္တ {ante} ခီပ (စ) တုန္ တုန္, {max_rounds} တုန္ (စ) တုန္။\n- မိအဲ မုပ မိအဲ: '[check]'  |  '[bet X]'  |  '[call]'  |  '[raise X]'  |  '[fold]'  (X မိအဲ ပိုဇီတိပ န္တဲ မိအဲ ခီပ ကား မိအဲ။)\n- မိအဲ ကဳ မိအဲ ပုန္ ကား မိအဲ ပုကာ တုန္ တုန္။\n"
   },
   "round": {
-    "announce": "### Round {current_round}/{max_rounds}\nNing opponent gi card: {card}"
+    "announce": "### တုန္ {current_round}/{max_rounds}\nမိအဲ ပုန္ ကား မိအဲ: {card}"
   },
   "invalid_move": {
     "ambiguous": "Exactly ONE bracketed action supply yi, e.g. '[check]', '[bet 2]', '[call]', '[raise 3]', '[fold]' cha",
@@ -23,14 +23,14 @@
     "possible_actions": "নহাক্না লৌখৎপা য়াবা থবকশিং: {legal}"
   },
   "message": {
-    "round_result": "{reason}  Pot {pot} → Player {winner}. (Bankrolls P0:{p0}, P1:{p1})",
+    "round_result": "{reason}  ပုတ {pot} → Player {winner}။ (ဘဏ္ ပီ 0:{p0}, ပီ 1:{p1})",
     "folded": "শান্নরোই {player_id}না ফোল্দ তৌখ্রে।",
     "showdown_win": "Showdown: {card_win} {card_lose} keina khalla",
-    "showdown_tie": "Showdown tie: both {card}. Pot split – each receives {split}."
+    "showdown_tie": "ပုကာ တုန္ တုန္: မိအဲ ကဳ မိအဲ {card}။ ပုတ ခီပ – မိအဲ တုန္ {split}။"
   },
   "outcome": {
-    "p0_wins": "Player 0 wins ({bank0} > {bank1})",
-    "p1_wins": "Player 1 wins ({bank1} > {bank0})",
+    "p0_wins": "Player 0 မိအဲ ပုကာ ({bank0} > {bank1})",
+    "p1_wins": "Player 1 မိအဲ ပုကာ ({bank1} > {bank0})",
     "draw": "রাউন্দ খুদিংমক্কী মতুংদা চপ মান্নবা চিপশিং লৈগনি।"
   }
 }

@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing {color} in a game of Breakthrough. You move {direction} on an {board_size}x{board_size} board.\nIn your turn you can move a single piece one step forward or diagonally forward.\nA piece may only move diagonally if an opponent piece is there, and only move into such a preoccupied square in a diagonal step.\nWhen stepping into a square with an opponent piece, you capture it and the opponent's piece is removed permanently from the board.\nUse UCI-like notation in brackets, e.g. [a2a3] to move from a2 to a3.\n* 'a' corresponds to the leftmost column, '1' is the bottom row (from White's perspective).\n* Blacks's home row is the top row (row 8 for an 8x8). White's home row is the bottom row (row 1 for an 8x8).\nThe first player whose piece reaches the opponent's home row wins. If your pieces are all captured, you lose."
+    "intro": "တႆးပွႆး {color} တီႈၼႂ်းပွႆး Breakthrough။ မႂ်းၶၢႆႉတီႈ {direction} ၼိူဝ်ပိတ်ႈ {board_size}x{board_size}။\nၸိူဝ်ႉမႂ်းၶိုၼ်း မႂ်းၸၢင်ႈၶၢႆႉတူဝ်ပွႆးမွၵ်ႇလွတ်ႈၼိုင်ႈၶိုၼ်း ၼိုင်ႈၵမ်ႈၼႃႈသုတ်း ဢမ်ႇၼၼ် ၶိုၼ်းၼိုင်ႈၼႃႈသုတ်း။\nတူဝ်ပွႆးၼိုင်ႈၶိုၼ်း ၸၢင်ႈၶၢႆႉၶိုၼ်ႈၼိုင်ႈၼႃႈသုတ်း သေ ပေႃးတီႈၼၼ်ႈ မီးတူဝ်ပွႆးၶဵၼ် ယဝ်ႉ။ ပေႃးၶၢႆႉၶိုၼ်ႈၼိုင်ႈၼႃႈသုတ်း တီႈၼိူဝ်တူဝ်ပွႆးၶဵၼ်ၸိုင် မႂ်းၸွမ်းမၼ်းသေ တူဝ်ပွႆးၶဵၼ်ၼၼ်ႈ လူႉလႅဝ်ယဝ်ႉ။\nၸႂ်ႉတီႈပွင်ႇ UCI ၼႂ်းမေႃ [a2a3] တႃႇၶၢႆႉတီႈ a2 ၵႂႃႇ a3။\n* 'a' ပွင်ႇၼိူဝ်ၵၢင်ႇၶႂႃ သုတ်းၸၢၼ်း။ '1' ပွင်ႇၼိူဝ်ၶဵင်ႇၽၢႆႇၼိူဝ် (တီႈၼႃႈထိူၼ်ႇၶႅင်)။\n* ၶဵင်ႇၼိူဝ်ၼႃႈႁိူၼ်း ၶဵၼ် ပွင်ႇၼိူဝ်ၶဵင်ႇၼိူဝ် (ၶဵင်ႇ 8 တႃႇ 8x8)။ ၶဵင်ႇၼိူဝ်ၼႃႈႁိူၼ်းၸိုဝ်ႈ ပွင်ႇၼိူဝ်ၶဵင်ႇၽၢႆႇၼိူဝ် (ၶဵင်ႇ 1 တႃႇ 8x8)။\nၽူႈပွႆးၵေႃႉၼိုင်ႈ ဢၼ်တူဝ်ပွႆးမၼ်း ၽႅဝ်ၼိူဝ်ၶဵင်ႇၼႃႈႁိူၼ်းၶဵၼ်ၼၼ်ႈ ပၢင်း။ ပေႃးတူဝ်ပွႆးမႂ်း လူႉလႅဝ်ၵေႃႈ မႂ်းပဵၼ်ပိူၼ်ႈ။"
   },
   "invalid_move": {
     "wrong_format": "ၶႅၼ်းတေႃႈၸႂ်ႉတိုဝ်း တူဝ်ၼပ်ႉသွၼ်ႇဢၼ်မီးႁိမ်းၶွပ်ႇ မိူၼ်ၼင်ႇ [a2a3]။",
@@ -12,7 +12,7 @@
   },
   "outcome": {
     "white_reached": "ၶၢဝ်ၶဝ် ႁွတ်ႈထိုင်တီႈသဵၼ်ႈတၢင်းႁိူၼ်း ၶွင်ၶဵဝ်ၼၼ်ႉယဝ်ႉ။",
-    "black_reached": "Black ႁွတ်ႈထိုင်တီႈ home row ၶွင် White ၼၼ်ႉယဝ်ႉ။",
+    "black_reached": "သီႇၶႂႃၶဵၼ် ၽႅဝ်ၸၼ်ႉႁဵတ်းယဝ်ႉ။",
     "white_captured": "ၶႅပ်းႁၢင်ႈၶၢဝ်တင်းမူတ်း လႆႈသိမ်းဢဝ်ၵႂႃႇယဝ်ႉ။",
     "black_captured": "ၶႅပ်းႁၢင်ႈ ၵူၼ်းမၢၵ်ႇၶိူဝ်ႊၶဝ် တင်းမူတ်း လႆႈသိမ်းဢဝ်ၵႂႃႇ။",
     "no_moves": "ၽူႈလဵၼ်ႈ {player_id} ဢမ်ႇမီးလွင်ႈၶၢႆႉထႅင်ႈ။"

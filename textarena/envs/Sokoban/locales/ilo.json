@@ -12,7 +12,7 @@
     "invalid_position": "Saan a mabalin nga agtignay - saanen a mabalinen ti mapan iti dayta a puesto."
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
+    "moved": "Sika {pushed} nangiyadayo [{action}].",
     "pushed_prefix": "inturongna ti kahon bayat a"
   },
   "outcome": {

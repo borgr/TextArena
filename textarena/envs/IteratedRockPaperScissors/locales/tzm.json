@@ -6,7 +6,7 @@
     "wrong_format": "Ur igi tettwabni. Sken [rock], [paper], neɣ [scissors]."
   },
   "game_action": {
-    "selects": "Player {player_id} selects move {move}."
+    "selects": "Player {player_id} isemma tazmert {move}."
   },
   "message": {
     "round_draw": "ⵜⴰⵢⴰⴼⵓⵜ ⵏ ⵜⵙⵔⴰⴳⵜ: ⴰⵙⵖⵏⵓ.",
@@ -15,6 +15,6 @@
   "outcome": {
     "p0_wins": "ⵢⵉⵡⵉ ⵓⵎⵓⵔⴰⵔ 0 ⴰⴳⴳⵓⴳ ⵏ ⵉⵎⵏⵖⵉⵜⵏ!",
     "p1_wins": "ⵢⵉⵡⵉ ⵓⵎⵓⵔⴰⵔ 1 ⵜⵓⴳⵜ ⵏ ⵜⴽⴰⵍⵉⵏ!",
-    "draw": "The match is a draw!"
+    "draw": "Tirni ɣ-ittazal!"
   }
 }

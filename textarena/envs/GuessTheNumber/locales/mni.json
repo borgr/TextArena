@@ -13,6 +13,6 @@
   },
   "outcome": {
     "win": "নুংঙাইবা ফোংদোকচরি! অদোম্না অচুম্বা মশীংদু খংলে।",
-    "turn_limit": "The turn limit has been reached. Guess: {guess}, Target: {target}"
+    "turn_limit": "মগুন সীমা অতিক্রম করিং। খেজেলি: {guess}, লক্ষ্য: {target}"
   }
 }

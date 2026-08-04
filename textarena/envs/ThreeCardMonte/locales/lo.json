@@ -11,7 +11,7 @@
     "{ball_pos}": "The cup index the ball is under"
   },
   "player_prompt": {
-    "intro": "Track the hidden ball 'X' while the cups are shuffled.\nAfter shuffling, guess its location with `[k]`."
+    "intro": "ຕິດຕາມບານ 'X' ທີ່ບໍ່ຮູ້ຈັກ ສະໄໝທີ່ໂລກາພັດຖືກຂະບວນ.\nຫຼັງຈາກຂະບວນ, ຄິດວ່າມັນຢູ່ທີ່ໃດ ດ້ວຍ `[k]`."
   },
   "game_message": {
     "ball_starts": "ບານເລີ່ມຕົ້ນ: {line}",
@@ -21,7 +21,7 @@
     "reveal": "(ເປີດເຜີຍ: ບານພາຍໃຕ້ {ball_pos})"
   },
   "invalid_move": {
-    "wrong_format": "Bad action. Use `[k]`.",
+    "wrong_format": "ການກະທຳທີ່ຜິດພາດ. ກະລຸນາໃຊ້ `[k]`.",
     "out_of_range": "ດັດຊະນີອອກຈາກຂອບເຂດ 0-{max_index}."
   },
   "outcome": {

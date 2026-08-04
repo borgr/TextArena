@@ -5,7 +5,7 @@
     "no_duplicates": "बिना कौनो डुप्लिकेट के"
   },
   "invalid_move": {
-    "wrong_format": "You did not respond with a space-separated list of numbers wrapped in square brackets.",
+    "wrong_format": "तुमने संख्याओं की एक स्पेस-सेपरेटेड सूची के साथ जवाब नहीं दिया जो वर्गाकार ब्रैकेट में लिपटी हुई है।",
     "not_integers": "सब प्रविष्टियां मान्य पूर्णांक से होनी चाहिए.",
     "wrong_length": "अनुमान मा बिल्कुल {code_length} अंक शामिल हो।",
     "out_of_range": "सब अंक 1 से {num_numbers} के बीच मा होवे चाही।",
@@ -13,7 +13,7 @@
     "repeated_guess": "आप पहिले ही {guess} का अनुमान लगा चुके हैं. कृपया एक अलग अंदाज लगाने की कोशिश करें।"
   },
   "game_action": {
-    "feedback": "Submitted [{guess}]. Feedback: {black_pegs} black peg(s), {white_pegs} white peg(s)."
+    "feedback": "जमा किया गया [{guess}]। प्रतिक्रिया: {black_pegs} काला पेग, {white_pegs} सफेद पेग।"
   },
   "outcome": {
     "win": "तुमनी कोड को तोड़ लिहिन, {black_pegs} में से {code_length} पेग्स को सही से हल किहिन",

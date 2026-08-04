@@ -22,15 +22,15 @@
     "final_ranking": "list of player indices from first eliminated to winner"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in an {num_players}-player Liar's Dice game.\nRules:\n- On your turn, you may either:\n  1) Make a new bid with a higher quantity or higher face (or both) than the current bid; i.e. '[Bid: 3, 4]',\n  2) Call the last bid by typing '[Call]'.\n\nIf you call:\n  - If the actual count of that face value among all dice is less than the bid, the last bidder loses one die.\n  - Otherwise, the caller loses one die.\nA player who reaches 0 dice is eliminated. The last remaining player wins."
+    "intro": "Am  ᱟᱢ ᱠᱷᱮᱞᱚᱸᱰᱤ {player_id} ᱢᱤᱫ ᱠᱷᱮᱞ {num_players}-ᱠᱷᱮᱞᱚᱸᱰᱤ ᱞᱟᱭᱚᱨᱥ ᱰᱟᱭᱥ ᱠᱷᱮᱞ ᱨᱮ᱾\nᱱᱤᱭᱚᱢ:\n- ᱟᱢᱟᱜ ᱯᱟᱲᱟᱣ ᱨᱮ, ᱟᱢ ᱵᱟᱨᱭᱟ ᱠᱟᱹᱢᱤ ᱠᱚᱨᱟᱣ ᱫᱟᱲᱮᱭᱟᱜ-ᱟ:\n  ᱑) ᱢᱤᱫ ᱱᱟᱣᱟ ᱵᱤᱰ ᱠᱚᱨᱟᱣ ᱢᱤᱫ ᱵᱟᱹᱲᱛᱤ ᱯᱚᱨᱤᱢᱟᱱ ᱥᱮ ᱵᱟᱹᱲᱛᱤ ᱯᱷᱮᱥ (ᱵᱟᱱᱟᱨ) ᱠᱟᱨᱮᱱᱴ ᱵᱤᱰ ᱠᱷᱚᱱ; ᱡᱮᱞᱮᱠᱟ '[Bid: 3, 4]',\n  ᱒) ᱢᱩᱪᱟᱹᱫ ᱵᱤᱰ ᱠᱳᱞ ᱠᱚᱨᱟᱣ ᱛᱟᱭᱯ ᱠᱚᱨᱟᱣ '[Call]'᱾\n\nᱡᱩᱫᱤ ᱟᱢ ᱠᱳᱞ ᱠᱚᱨᱟᱣ:\n  - ᱡᱩᱫᱤ ᱚᱱᱟ ᱯᱷᱮᱥ ᱵᱮᱞᱩ ᱥᱟᱵ ᱥᱟᱠᱟᱢ ᱠᱚᱨᱮᱱᱟᱜ ᱵᱟᱹᱲᱛᱤ ᱵᱤᱰ ᱠᱷᱚᱱ ᱠᱚᱢ ᱜᱮᱭᱟ, ᱢᱩᱪᱟᱹᱫ ᱵᱤᱰᱟᱨ ᱢᱤᱫ ᱥᱟᱠᱟᱢ ᱦᱟᱹᱲ ᱮᱭᱟ᱾\n  - ᱚᱱᱠᱟ ᱵᱟᱝ ᱠᱷᱟᱱ, ᱠᱳᱞᱟᱨ ᱢᱤᱫ ᱥᱟᱠᱟᱢ ᱦᱟᱹᱲ ᱮᱭᱟ᱾\nᱢᱤᱫ ᱠᱷᱮᱞᱚᱸᱰᱤ ᱡᱟᱦᱟᱸ ᱐ ᱥᱟᱠᱟᱢ ᱨᱮ ᱥᱮᱴᱮᱨᱚᱜ-ᱟ ᱚᱱᱟ ᱵᱟᱫ ᱯᱟᱲᱟᱣᱜ-ᱟ᱾ ᱢᱩᱪᱟᱹᱫ ᱨᱮ ᱥᱟᱨᱮᱡ ᱠᱷᱮᱞᱚᱸᱰᱤ ᱡᱤᱛᱠᱟᱹᱨᱚᱜ-ᱟ᱾"
   },
   "board": {
     "per_player": "\tPlayer {p}: {d}",
-    "new_round": "\nNew round - Remaining dice: {dice_summary}\nYour current Dice are: {your_dice}"
+    "new_round": "\nᱱᱤᱭᱩ ᱨᱟᱣᱩᱱᱰ - ᱵᱟᱠᱤ ᱰᱟᱭᱥ: {dice_summary}\nᱟᱢᱟᱜ ᱠᱟᱨᱮᱱᱴ ᱰᱟᱭᱥ ᱠᱚ: {your_dice}"
   },
   "call": {
-    "bidder_loses": "Player {current_player_id} calls! The actual count of face {face_value} is {count}, which is LESS than {quantity}.\nPlayer {loser_id} (the last bidder) loses one die.",
-    "caller_loses": "Player {current_player_id} calls! The actual count of face {face_value} is {count}, which is >= {quantity}.\nPlayer {loser_id} (the caller) loses one die."
+    "bidder_loses": "ᱠᱷᱮᱞᱚᱸᱰᱤᱭᱟᱹ {current_player_id} ᱠᱚᱞ ᱠᱮᱫᱟ! ᱯᱷᱮᱥ {face_value} ᱨᱮᱱᱟᱜ ᱵᱟᱹᱲᱛᱤ ᱠᱟᱣᱱᱴ {count} ᱡᱟᱦᱟᱸ {quantity} ᱠᱷᱚᱱ ᱠᱚᱢ᱾\nᱠᱷᱮᱞᱚᱸᱰᱤᱭᱟᱹ {loser_id} (ᱢᱩᱪᱟᱹᱫ ᱵᱤᱰᱟᱨ) ᱢᱤᱫ ᱰᱟᱭ ᱦᱟᱨᱟᱣ ᱮᱱᱟ᱾",
+    "caller_loses": "ᱠᱷᱮᱞᱚᱸᱰᱤᱭᱟᱹ {current_player_id} ᱠᱚᱞ ᱠᱮᱫᱟ! ᱯᱷᱮᱥ {face_value} ᱨᱮᱱᱟᱜ ᱵᱟᱹᱲᱛᱤ ᱠᱟᱣᱱᱴ {count} ᱡᱟᱦᱟᱸ {quantity} ᱠᱷᱚᱱ >=᱾\nᱠᱷᱮᱞᱚᱸᱰᱤᱭᱟᱹ {loser_id} (ᱠᱚᱞᱟᱨ) ᱢᱤᱫ ᱰᱟᱭ ᱦᱟᱨᱟᱣ ᱮᱱᱟ᱾"
   },
   "action": {
     "bid_announce": "Player {player_id} {quantity} of face {face_value} ᱮ ᱵᱤᱰ ᱮᱫᱟ."
@@ -38,7 +38,7 @@
   "invalid_move": {
     "call_no_bid": "ᱱᱤᱡᱮᱨᱟᱜ ᱵᱟᱰᱟᱭ ᱞᱟᱹᱜᱤᱫ ᱵᱟᱝ ᱵᱮᱱᱟᱣ ᱟᱠᱟᱱ ᱢᱮᱫᱦᱟ.",
     "invalid_bid": "ᱵᱟᱹᱞᱤ ᱟᱠᱟᱱ ᱵᱮᱰᱟ: {reason}",
-    "not_recognized": "Action not recognized as either a valid '[Bid: X, Y]' or '[Call]'. Submitted action: {action}"
+    "not_recognized": "ᱠᱟᱹᱢᱤ ᱵᱟᱝ ᱪᱤᱱᱦᱟᱹᱣ ᱟᱠᱟᱱᱟ ᱢᱤᱫ ᱵᱮᱵᱷᱟᱨᱚᱜ ᱠᱟᱱ '[Bid: X, Y]' ᱥᱮ '[Call]'᱾ ᱠᱟᱹᱢᱤ ᱠᱚᱨᱟᱣ ᱟᱠᱟᱱᱟ: {action}"
   },
   "bid_reason": {
     "quantity_lower": "New quantity {new_quantity} current {current_quantity} ᱠᱷᱚᱱ ᱠᱟᱹᱡ ᱜᱮᱭᱟ.",
@@ -50,6 +50,6 @@
     "eliminated_invalid": "ᱠᱷᱮᱞᱚᱸᱰᱤᱭᱟᱹ {player_id} ᱫᱚ ᱵᱟᱹᱲᱤᱡ ᱪᱟᱞᱟᱜ ᱛᱮ ᱵᱟᱦᱨᱮ ᱞᱮᱱᱟᱭ ᱾"
   },
   "outcome": {
-    "win": "Player {winner} wins! Final ranking: {final_ranking}"
+    "win": "ᱠᱷᱮᱞᱚᱸᱰᱤᱭᱟᱹ {winner} ᱡᱤᱛᱠᱟᱹᱨ ᱮᱱᱟ! ᱯᱷᱟᱭᱱᱟᱞ ᱨᱮᱱᱠᱤᱝ: {final_ranking}"
   }
 }

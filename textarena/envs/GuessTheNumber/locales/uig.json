@@ -13,6 +13,6 @@
   },
   "outcome": {
     "win": "مۇبارەك بولسۇن! سىز توغرا ساننى تاپتىڭىز.",
-    "turn_limit": "The turn limit has been reached. Guess: {guess}, Target: {target}"
+    "turn_limit": "قەدەم چەكلىمىسىگە يېتىپ كەلدى. تېپىش: {guess}, ھەدەپ: {target}"
   }
 }

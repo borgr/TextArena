@@ -25,8 +25,8 @@
   "message": {
     "round_result": "{reason}  ፖት {pot} → ተሸላሚ {winner}. (ባንክሮሎስ P0:{p0}, P1:{p1})",
     "folded": "ተጻዋታይ {player_id} ተጣሒሱ።",
-    "showdown_win": "Showdown: {card_win} beats {card_lose}.",
-    "showdown_tie": "Showdown tie: both {card}. Pot split – each receives {split}."
+    "showdown_win": "ሾውዳውን: {card_win} ይበልጣል {card_lose}.",
+    "showdown_tie": "ሾውዳውን እኩል: እኩል {card}. ገንዘብ ክፍል – እያንዳንዱ ይቀበላል {split}."
   },
   "outcome": {
     "p0_wins": "ተሸላሚ 0 ይሸንፋል ({bank0} > {bank1})",

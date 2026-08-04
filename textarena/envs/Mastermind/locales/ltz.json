@@ -13,7 +13,7 @@
     "repeated_guess": "Dir hutt schonn {guess} erraten. Probéiert w.e.g eng aner Erwaardung ze maachen."
   },
   "game_action": {
-    "feedback": "Submitted [{guess}]. Feedback: {black_pegs} black peg(s), {white_pegs} white peg(s)."
+    "feedback": "Abgeschéckt [{guess}]. Feedback: {black_pegs} schwaarzen Péil(en), {white_pegs} wäissen Péil(en)."
   },
   "outcome": {
     "win": "Du hast den Code geknackt, {black_pegs} vun {code_length} Dëppen korrekt geléist",

@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id}. You are playing the Memory Game.\nYour goal is to match more pairs of cards on the board, than your opponent.\nOn your turn, select two cards to flip by entering the row and column numbers of the first and second card respectively like '[0 1 1 0]', where the first card is in row 0 and column 1, and the second card is in row 1 and column 0.\nIf the two cards match, you get a point and the cards remain face up. If they do not match, the cards are flipped back face down, e.g. '.'.\nThe game ends when all pairs have been matched."
+    "intro": "Ni wewe Mugenzi {player_id}. Ukinzwe Umukino wa Kubuka.\nIcyo ukeneye ni kuganisha impeta z'ibitabo ku isahani, zirenze uwo mukinana wawe.\nKu mukino wawe, hitamo ibitabo bibiri ugahindure kwa kwinjiza nambari za safu na za kugira ibitabo bya mbere na bya kabiri, nk' '[0 1 1 0]', aho ibitabo bya mbere biri ku safu 0 na ku gira 1, na ibitabo bya kabiri biri ku safu 1 na ku gira 0.\nIkiwa ibitabo byombi bimurika, woweza agahigo na ibitabo bikomeye wambaye. Ikiwa bitamurika, ibitabo birahinduka inyuma, urugero '.'.\nUmukino urangira iyo impeta zose zaramurikwa."
   },
   "board": {
     "current_board": "Ubuyobozi bw'ikigo: {board}",
@@ -10,11 +10,11 @@
     "wrong_format": "Imyitozo idakwiriye. Umukinnyi {player_id} ntabwo yasubije n'amabwiriza yemewe mu nkingi z'imfuruka.",
     "out_of_bounds": "Umukinnyi {player_id} yahisemo umwanya utari uwabo.",
     "same_card_twice": "Umukino udafite agaciro. Umukinnyi {player_id} yatoranyije ikarita imwe inshuro ebyiri.",
-    "already_matched": "Invalid move. Player {player_id} selected one or both cards that have already been matched."
+    "already_matched": "Kugenda kwa Mugenzi {player_id} kutabaye. Yatoye ikarita imwe cyangwa zombi zikaba zamurikwa."
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "Ibitabo byatoye na Mugenzi {player_id} ku ntego [{r1} {c1}] na [{r2} {c2}] byamurika!",
+    "cards_no_match": "Ibitabo byatoye na Mugenzi {player_id} ntibimurika. Ibitabo ku ntego [{r1} {c1}] na [{r2} {c2}] ni {pos1} na {pos2} mtawali."
   },
   "outcome": {
     "draw": "Abakinnyi bombi bahuriye ku mubare umwe w'amakarita.",

@@ -21,7 +21,7 @@
     "invalid_play": "Kartu punika nénten prasida kajudi."
   },
   "game_action": {
-    "played": "Player {player_id} played {card}."
+    "played": "Pemain {player_id} mainang {card}."
   },
   "trick": {
     "won": "Pamain {winner_id} menang antuk trik sareng {card}.",
@@ -71,6 +71,6 @@
     "player_line": "{observation}\nPemain {player_id}: {scoring} trik penilaian ({tricks} total), {hand_size} kartu di tangan"
   },
   "outcome": {
-    "summary": "Learning phase - Player 0: {l0}, Player 1: {l1}. Playing phase - Player 0: {p0}, Player 1: {p1}. Player {winner_id} wins with {winner_tricks} scoring tricks!"
+    "summary": "Fase belajar - Pemain 0: {l0}, Pemain 1: {l1}. Fase main - Pemain 0: {p0}, Pemain 1: {p1}. Pemain {winner_id} menang nganggén {winner_tricks} trik kacétak!"
   }
 }

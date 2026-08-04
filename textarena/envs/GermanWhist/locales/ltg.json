@@ -6,7 +6,7 @@
   "player_prompt": {
     "intro": "Jūs esat Spēlētājs {player_id} Vācu Visā.\n{phase_info}\nJūs turat {hand_size} kartes.\nIzspēlējiet kārti ar '[play N]', kur N ir tās pozīcija jūsu rokā (piemēram '[play 3]').",
     "phase_learning": "Apvuiceibu pūsms: kotra trika uzvarātuojs pajam izlūzis kartis, bet zaudiejs atjem nuokušuos karteitis. Itamā pūsmā īgiutī trikumi nateik skaiteiti par uzvaru.",
-    "phase_playing": "PLAYING PHASE: the deck is exhausted. Every trick from now on counts towards victory."
+    "phase_playing": "SPĒLES FĀZE: kavs ir izsmelts. Katra nākamā trīksa tiek skaitīta uzvarai."
   },
   "next_card": {
     "playing_phase": "Nivīna karte nav pīduovuota - suocēs spēlis pūsms.",

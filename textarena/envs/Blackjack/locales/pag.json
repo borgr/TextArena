@@ -9,7 +9,7 @@
     "wrong_format": "Diaten action. Gawat '[Hit]' o '[Stand]'."
   },
   "game_message": {
-    "hand_result": "Hand {hand_number}: you {outcome}. Your final {player_score}, Dealer {dealer_score}.",
+    "hand_result": "Kamot {hand_number}: agkalabas ka {outcome}. Say final mo {player_score}, Dealer {dealer_score}.",
     "all_complete": "=== Amin a {num_hands} kamot kompletado ===\nPanalo: {wins}, Pada: {losses}, Tabla: {draws}\n"
   },
   "outcome": {

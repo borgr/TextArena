@@ -10,7 +10,7 @@
     "{to}": "The destination coordinate of a move, such as b3"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in game of LinesOfAction.\nYour pieces are '{side}', opponent pieces are '{other}'.\nMove format: `[b1b3]` (from-coord to-coord). A legal move travels horizontally, vertically, or diagonally a number of squares equal to the total pieces (any colour) in that line. You may jump over your own pieces, but not opponent pieces; landing on an opponent captures it.  Win when all your pieces are 8-neighbour connected."
+    "intro": "Inti Plejer {player_id} f'logħba ta' LinesOfAction.\nIl-biċċiet tiegħek huma '{side}', il-biċċiet tal-avversarju huma '{other}'.\nFormat tal-mossa: `[b1b3]` (mill-koordinata tal-oriġini sal-koordinata tad-destinazzjoni). Mossa legali tas-saqaf tivvjaġġa orizzontalment, vertikalment, jew diagonalment numru ta' kwadri ugwali għat-totalità tal-biċċiet (kull kulur) f'dik il-linja. Tista' taqbeż il-biċċiet tiegħek stess, imma mhux il-biċċiet tal-avversarju; it-tiniżża fuq avversarju jieħu.  Rebħa meta il-biċċiet kollha tiegħek huma konnessi 8-ġirien."
   },
   "board": {
     "current_board": "Il-Bord: {board}"
@@ -26,7 +26,7 @@
   },
   "game_action": {
     "moved": "Player {player_id} mova {from} -> {to}",
-    "captured_suffix": "Player {player_id} moved {from} -> {to} capturing an enemy."
+    "captured_suffix": "Il-plejer {player_id} mexa {from} -> {to} u qabża għadu."
   },
   "outcome": {
     "win": "Il- biċċiet kollha huma konnessi.",

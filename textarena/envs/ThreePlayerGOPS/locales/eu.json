@@ -14,7 +14,7 @@
     "{scores}": "The final scores as a raw player-number to score mapping - do not translate"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player GOPS.\n- You hold the 13 cards A-K (each exactly once).\n- Each round a prize is revealed. Submit ONE card like `[Q]`, `[10]`, `[2]` …\n- Highest card wins the prize (+ any carry-over pot). Ties roll the prize into the next round.\n- After 13 rounds, highest total wins. Invalid moves = elimination."
+    "intro": "Jokalari {player_id} zara Three-Player GOPS-en.\n- 13 kartak dituzu A-K (bakoitza behin bakarrik).\n- Txanda bakoitzean sari bat agertzen da. Kart bat bidali, '[Q]', '[10]', '[2]' bezala …\n- Kartarik altuena saria irabazten du (+ pot barruan dagoena). Berdinketa batean, saria hurrengo txandara eramaten da.\n- 13 txanden ondoren, puntuazio total altuena irabazten du. Mugimendu baliogabeak = kanporaketa."
   },
   "round": {
     "header": "### Bidegurutze {round}/13 - Saria: {prize} (balioa {worth})",

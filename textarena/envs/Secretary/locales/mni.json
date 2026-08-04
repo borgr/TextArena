@@ -1,15 +1,15 @@
 {
   "player_prompt": {
-    "intro": "You will observe {N} hidden values sequentially.\nAt each step type [accept] to pick the *current* value, or [continue] to skip it and see the next one.\nIf you never accept, you are forced to take the final value.\nYou win (reward = 1) **only** if the value you ultimately pick is the highest of all."
+    "intro": "আপুনগী {N} লুককৃত মানগী পারপাটগী চাওবা পাম্বী।\nপ্রতিটি মতাং আপুনগী [accept] টাইপ করবা পারে বর্তমান মানটি লৈবা, অথবা [continue] টাইপ করবা পারে এটি এড়িয়ে যাইবা আর পরেরটি চাওবা।\nআপুনগী কখনই লৈবা নহলে, আপুনগী শেষ মানটি লৈবা পারে।\nআপুনগী জিতে (রিওয়ার্ড = ১) **শুধু** আপুনগী যে মানটি লৈবা সেটি সমস্ত মানগীর সর্বোচ্চ হলে।"
   },
   "game_action": {
     "current_value": "হৌজিক্কী ভেল্যু অসি {value}নি।"
   },
   "invalid_move": {
-    "wrong_format": "Action must be either [accept] or [continue]."
+    "wrong_format": "কাজটি হয় [accept] অথবা [continue] হতে হবে।"
   },
   "outcome": {
-    "summary": "You accepted value {value} at draw {draw_num}/{N}. The best overall was {best}. {result}",
+    "summary": "আপুনগী মান {value} লৈবা ড্র {draw_num}/{N}। সর্বোত্তম মান ছিল {best}। {result}",
     "perfect": "ফজবা খনবগী মতৌ! ",
     "not_max": "খ্বাইদগী হেন্না ফবা নত্তে।"
   }

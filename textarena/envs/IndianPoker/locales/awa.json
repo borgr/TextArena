@@ -10,7 +10,7 @@
     "cannot_check": "नाहीं [check] - आप एक दांव का सामना कर रहे हैं.",
     "amount_min": "दांव / बढ़ाव राशि ≥ 1 होनी चाहिये.",
     "cannot_bet": "[bet] नहीं कर सकते - [call] / [raise] / [fold] करना होगा।",
-    "nothing_to_call": "Nothing to call; you may [check] instead.",
+    "nothing_to_call": "कुछ नाहीं पुकारब; तुम [check] कर सकत हौ।",
     "no_bet_to_raise": "खोले खातिर [bet X] का प्रयोग करीं; बढ़ावे के कौनो शर्त नाहीं बा।",
     "insufficient": "अइसन कार्रवाई खातिर अपर्याप्त चिप्स."
   },

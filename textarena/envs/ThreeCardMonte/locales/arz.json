@@ -11,7 +11,7 @@
     "{ball_pos}": "The cup index the ball is under"
   },
   "player_prompt": {
-    "intro": "Track the hidden ball 'X' while the cups are shuffled.\nAfter shuffling, guess its location with `[k]`."
+    "intro": "تتبع الكرة المخفية 'X' أثناء خلط الكؤوس.\nبعد الخلط، اختر موقعها باستخدام `[k]`."
   },
   "game_message": {
     "ball_starts": "الكرة بتبدأ: {line}",
@@ -21,7 +21,7 @@
     "reveal": "(كشف: الكرة تحت {ball_pos})"
   },
   "invalid_move": {
-    "wrong_format": "Bad action. Use `[k]`.",
+    "wrong_format": "إجراء غير صحيح. استخدم `[k]`.",
     "out_of_range": "مؤشر خارج النطاق 0-{max_index}."
   },
   "outcome": {

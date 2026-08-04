@@ -21,7 +21,7 @@
     "{scores}": "The pre-rendered per-player list of final scores"
   },
   "player_prompt": {
-    "intro": "You are playing Golf (Card Game) - Player {player_id}.\nGoal: Get the lowest total score in this single round. If columns share the same value, they are summed as 0.\nCard Values: A=1, 2-10=face value, J/Q=10, K=0\n\nActions (use exact brackets):\n- '[draw]' - Draw from deck\n- '[take]' - Take from discard pile\n- '[swap X Y]' - Swap drawn card with position X (row) Y (column)\n- '[discard]' - Discard the drawn card\n"
+    "intro": "Golf (Geejjiba Kaardii) - Geejjibaa {player_id}.\nKa'uun: Walitti lakkoofsa xiqqoo kana raundii tokkoo keessatti argachuu. Yoo kolomiin walii qixxeessan, 0 jedhamuun walitti lakkoofsa.\nIlaalchaa Kaardii: A=1, 2-10=ilaalchaa, J/Q=10, K=0\n\nRaawwiilee (tuqaalee akka-jiruutti fayyadami):\n- '[draw]' - Kuusaa irraa kaardii fuudhu\n- '[take]' - Kaardii kuusa irraa fuudhu\n- '[swap X Y]' - Kaardii fuudhamee bakka X (safuu) Y (kolomii) waliin jijjiiru\n- '[discard]' - Kaardii fuudhamee gubbaa kuusaa buusu\n"
   },
   "board": {
     "drew": "Ati {card} argite\nAmma ati [swap X Y] ykn [discard]",
@@ -34,7 +34,7 @@
     "final_turns": "Turni dhufaa! Fayyadamu: [draw], [take], [peek X Y]",
     "draw": "Fayyadamu: [draw], [take]",
     "must_swap": "Ati: [swap X Y] (kaardiiwwan kuusaa irraa baasuu hin dandeessu)",
-    "swap_or_discard": "You must: [swap X Y] or [discard]"
+    "swap_or_discard": "[swap X Y] ykn [discard] godhuu qabda"
   },
   "hand": {
     "no_cards": "Kaardii hin qabu.",
@@ -67,7 +67,7 @@
     "already_revealed": "Kaardiin sun amma iyyuu banameera!"
   },
   "summary": {
-    "full": "Game Over! Player {winner} wins with a score of {score} points!\n\nFinal Scores:\n{scores}",
+    "full": "Geejjibaan Dhume! Geejjibaa {winner} moo'ate lakkoofsa {score}!\n\nWalitti Lakkoofsota Dhumaati:\n{scores}",
     "line": "Player {pid}: {score} poiniti"
   },
   "board_str": {

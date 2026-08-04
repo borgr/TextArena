@@ -51,7 +51,7 @@
     "blind_won": "✅ الرهان المجهول فاز! +${amount}",
     "blind_pushed": " الرهان المعتوه تم دفعه! ${blind} رجع.",
     "blind_lost": " الرهان العمياء خسر! -${blind}",
-    "play_won": "✅ PLAY bet WON! +${amount}",
+    "play_won": "✅ رهان PLAY فائز! +${amount}",
     "play_pushed": " PLAY bet PUSHED! ${play} رجع.",
     "play_lost": " PLAY bet LOST! -${play}",
     "net_gain": "🎉 انتهت الجولة {round}! الربح الشبكي: +${net}",

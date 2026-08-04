@@ -71,6 +71,6 @@
     "player_line": "{observation}\nप्लेयर {player_id}: {scoring} स्कोरिंग ट्रिक्स ({tricks} कुल), {hand_size} हाथमे कार्ड"
   },
   "outcome": {
-    "summary": "Learning phase - Player 0: {l0}, Player 1: {l1}. Playing phase - Player 0: {p0}, Player 1: {p1}. Player {winner_id} wins with {winner_tricks} scoring tricks!"
+    "summary": "लर्निंग फेज - प्लेयर 0: {l0}, प्लेयर 1: {l1}। प्लेइंग फेज - प्लेयर 0: {p0}, प्लेयर 1: {p1}। प्लेयर {winner_id} {winner_tricks} स्कोरिंग ट्रिक के साथ जीतता है!"
   }
 }

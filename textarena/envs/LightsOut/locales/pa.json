@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "ਐਕਸ਼ਨ ਨੂੰ ਫਾਰਮੈਟ [row col] ਵਿੱਚ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ ਜਿੱਥੇ ਕਿ ਰੇਂਜ ਅਤੇ ਕਾਲਮ 0 ਤੋਂ {max_index} ਤੱਕ ਦੇ ਪੂਰਨ ਅੰਕ ਹੁੰਦੇ ਹਨ।",
-    "out_of_range": "Coordinates must be between 0 and {max_index}. You entered [{row},{col}]."
+    "out_of_range": "ਕੋਆਰਡੀਨੇਟਸ 0 ਅਤੇ {max_index} ਦੇ ਵਿਚਕਾਰ ਹੋਣੇ ਚਾਹੀਦੇ ਹਨ। ਤੁਸੀਂ [{row},{col}] ਦਾਖਲ ਕੀਤਾ ਹੈ।"
   },
   "outcome": {
     "win": "ਵਧਾਈਆਂ! ਤੁਸੀਂ {moves_used} ਚਾਲਾਂ ਵਿੱਚ ਬੁਝਾਰਤ ਨੂੰ ਹੱਲ ਕੀਤਾ!",

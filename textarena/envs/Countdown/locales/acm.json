@@ -5,11 +5,11 @@
   "board": {
     "header": "الهدف: {target}\n\nالأرقام المتاحة:\n{numbers}",
     "best": "{observation}\n\nالأفضل حتى الآن: {best_value} (المسافة: {distance})\nأفضل تعبير: {best_expression}",
-    "history": "{observation}\n\nMove history:\n{moves}",
+    "history": "{observation}\n\nسجل الحركات:\n{moves}",
     "progress": "{observation}\nدرجة التقدم الحالية: {progress}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use `[i j op]` where i,j are indices and op is +,-,*,/",
+    "wrong_format": "صيغة الإجراء غير صحيحة. استخدم `[i j op]` حيث i، j هي فهارس والعملية هي +، -، *، /",
     "invalid_indices": "المؤشرات غير صالحة. لازم تكون مختلفه وبين 0-{max_index}",
     "invalid_operation": "عمل غير صالح (قسمة بالصفر او نتيجة ليست عددا كاملا)"
   },

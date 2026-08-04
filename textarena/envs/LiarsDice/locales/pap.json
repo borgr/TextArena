@@ -22,7 +22,7 @@
     "final_ranking": "list of player indices from first eliminated to winner"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in an {num_players}-player Liar's Dice game.\nRules:\n- On your turn, you may either:\n  1) Make a new bid with a higher quantity or higher face (or both) than the current bid; i.e. '[Bid: 3, 4]',\n  2) Call the last bid by typing '[Call]'.\n\nIf you call:\n  - If the actual count of that face value among all dice is less than the bid, the last bidder loses one die.\n  - Otherwise, the caller loses one die.\nA player who reaches 0 dice is eliminated. The last remaining player wins."
+    "intro": "Bo ta Hungado {player_id} den un wega di Liar's Dice ku {num_players} hungado.\nReglanan:\n- Na bo turno, bo por:\n  1) Hasi un oferta nobo ku un kantidat mas haltu of un kara mas haltu (of ambos) ku e oferta aktual; p.e. '[Bid: 3, 4]',\n  2) Yama e ultimo oferta dor di skirbi '[Call]'.\n\nSi bo yama:\n  - Si e kantidat real di e valor di kara entre tur dado ta menos ku e oferta, e ultimo ofertante ta perde un dado.\n  - Otrobanda, e yamante ta perde un dado.\nUn hungado ku yega 0 dado ta eliminado. E ultimo hungado restante ta gana."
   },
   "board": {
     "per_player": "\tHungador {p}: {d}",

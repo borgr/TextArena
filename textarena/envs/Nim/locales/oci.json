@@ -13,7 +13,7 @@
     "exceeds_pile": "Impossible de retirar {quantity} del monton {pile_index} (només {pile_count} demòran)."
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "Jogaire {player_id} a jogat [{pile_index} {quantity}], suprimissent {quantity} objècte(s) del molon {pile_index}."
   },
   "outcome": {
     "win": "Lo jogaire {player_id} prenguèt lo darrièr objècte (s)!"

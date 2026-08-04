@@ -1,12 +1,12 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({role}) in a {num_rounds}-round Matching Pennies game.\n- Each round, submit [heads] or [tails] (or [h], [t]).\n- If your choice matches your opponent’s, Player 0 wins the round; otherwise Player 1 wins.\nReply with your choice in the format '[heads]' or '[tails]'.\n"
+    "intro": "Uri Mchezaji {player_id} ({role}) michezoni ya Matching Pennies inayochezwa kwa mizunguko ya {num_rounds}.\n- Mzunguko wowote, tuma [heads] kana [tails] (kana [h], [t]).\n- Kana uchaguo wako ukafanana na uchaguo wa mshindani wako, Mchezaji 0 anoshinda mzunguko huo; kana asifanane Mchezaji 1 anoshinda.\nDhinda na uchaguo wako ukiwa uko katika mfumo wa '[heads]' kana '[tails]'.\n"
   },
   "invalid_move": {
     "wrong_format": "Fomati rasina; taura '[heads]' kana '[tails]'."
   },
   "message": {
-    "round_match": "Player 0 picked {choice0}; Player 1 picked {choice1}. Match -> Player 0 wins",
+    "round_match": "Mchezaji 0 akachagua {choice0}; Mchezaji 1 akachagua {choice1}. Kufanana -> Mchezaji 0 anoshinda",
     "round_mismatch": "Mwari 0 akashanda {choice0}; Mwari 1 akashanda {choice1}. Mismatch -> Mwari 1 anotsiga."
   },
   "outcome": {

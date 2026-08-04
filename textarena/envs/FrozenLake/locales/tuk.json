@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "Welcome to Frozen Lake!\n\nYou are represented by 'P' on the grid.\nGrid symbols:\n  ' ' = Frozen surface (safe to walk on)\n  'H' = Hole (fall in and lose!)\n  'G' = Goal (reach this to win!)\n  'P' = Your current position\n\nAvailable actions: up, down, left, right (or w, a, s, d)\nType your action as: [up], [down], [left], [right] or [w], [a], [s], [d]\n\nObjective: Navigate from the start (top-left) to the goal (bottom-right) without falling into any holes!\n"
+    "intro": "Ýagy güller ýazyna hoş geldiniz!\n\nSizi gridde 'P' harpy ýaly görkezýär.\nGrid simwollary:\n  ' ' = Dury ýüz ( ýöremäge ýaraýjy ýer)\n  'H' = Deşik (içine düşseň ýygnyder!)\n  'G' = Maksat (buna ýetmek ýeňişdir!)\n  'P' = Häzirki ýeriňiz\n\nÝerine ýetirýän hereketler: ýokary, aşak, çep, sag (ýa-da w, a, s, d)\nHereketiňizi ýazuň: [up], [down], [left], [right] ýa-da [w], [a], [s], [d]\n\nMaksat: Başlangyç ýerinden (ýokary-çep) maksada (aşak-sag) deşiklere düşmän ýetmek!\n"
   },
   "board": {
     "current_board": " Häzirki tahta:\n\n{board}\n\nÝörite çäreler: {actions}"
@@ -16,6 +16,6 @@
   "outcome": {
     "win": "Guraplaýaryn! Maksada ýetdiň.",
     "fell_in_hole": "Siz ýarma ýigyldyňyz! Oýun tamamlandy. Siz ýolun {pct}%-ini tamamladýňyz.",
-    "turn_limit": "You reached the turn limit! Game over. You completed {pct}% of the journey to the goal."
+    "turn_limit": "Siz ýöriş ýerine ýetişýän ýerleşýän ýetişýän ýetişýän! Ýygnanýarsyň. Siz maksada ýetişýän ýolunyň {pct}% ýetişýän bolsyňyz."
   }
 }

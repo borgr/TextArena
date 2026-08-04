@@ -12,7 +12,7 @@
     "draw": "Parehas! Ang duha ka magdudula nagpunting {s0}.",
     "round_both_cooperate": "Ang duha ka magdudula nagkooperar.",
     "round_both_defect": "Ang duha ka magdudula milayas.",
-    "round_p0_cooperates_p1_defects": "Ang Player 0 nakigkooperar, ang Player 1 milayas.",
-    "round_p0_defects_p1_cooperates": "Ang Player 0 milayas, ang Player 1 misuporta."
+    "round_p0_cooperates_p1_defects": "Ang Manlalaro 0 mitabang, ang Manlalaro 1 milapas.",
+    "round_p0_defects_p1_cooperates": "Ang Manlalaro 0 milapas, ang Manlalaro 1 mitabang."
   }
 }

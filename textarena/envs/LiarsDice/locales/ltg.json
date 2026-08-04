@@ -38,7 +38,7 @@
   "invalid_move": {
     "call_no_bid": "Sazvaneja bez īprīkšejis bolvys.",
     "invalid_bid": "Naatbylstūšs bolvys pīduovuojums: {reason}",
-    "not_recognized": "Action not recognized as either a valid '[Bid: X, Y]' or '[Call]'. Submitted action: {action}"
+    "not_recognized": "Darbība netika atpazīta kā derīgs '[Bid: X, Y]' vai '[Call]'. Iesniegtā darbība: {action}"
   },
   "bid_reason": {
     "quantity_lower": "Jaunā daudzuma {new_quantity} ir zemāka par pašreizējo {current_quantity}.",

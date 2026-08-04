@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are in a room with {num_buttons} buttons: {buttons}. Each button is associated with a Bernoulli distribution with a fixed but unknown mean; the means for the buttons could be different.\nFor each button, when you press it, you will get a reward that is sampled from associated distribution.\nYou have {num_turns} time steps and, on each time step, you can choose any button and receive the reward.\nYour goal is to strategically choose buttons at each time step to collect information about their reward distribution, that will let you choose the button with the highest mean reward correctly at the end of {num_turns} turns."
+    "intro": "Tllaḍiḍ g uḍay s {num_buttons} ibuttonen: {buttons}. Kraygat button ittuṣṣan s tafḍna n Bernoulli s yan umḍan ibḍan maca ur ittwassnen; imḍannen i buttonen zemren ad illin yemḍanen.\nI kraygat button, mi tḍeḍsas-t, rad tawiḍ tifernin i d-yettwaṣṣaṣen seg tafḍna tinṣibin.\nḌareɣ {num_turns} tikkal n wakud, dɣa, dech kraygat tikkelt n wakud, tzemreḍ ad xṭeḍ button akk d ad tawiḍ tifernin.\nTafukk-kem d ad tzemreḍ ad xṭeḍ buttonen s tɣara yal tikkelt n wakud akken ad tawiḍ talɣut ɣef tafḍna-nsen n tifernin, i d-yetṣṣaḍen-kem ad xṭeḍ button s umḍan meqqren n tifernin s tɣara tamaẓẓant n {num_turns} tikkal."
   },
   "board": {
     "stat_line": "{button}: {reward} (tettwen {count} n tikkal)",

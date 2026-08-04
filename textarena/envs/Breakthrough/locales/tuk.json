@@ -1,10 +1,10 @@
 {
   "player_prompt": {
-    "intro": "You are playing {color} in a game of Breakthrough. You move {direction} on an {board_size}x{board_size} board.\nIn your turn you can move a single piece one step forward or diagonally forward.\nA piece may only move diagonally if an opponent piece is there, and only move into such a preoccupied square in a diagonal step.\nWhen stepping into a square with an opponent piece, you capture it and the opponent's piece is removed permanently from the board.\nUse UCI-like notation in brackets, e.g. [a2a3] to move from a2 to a3.\n* 'a' corresponds to the leftmost column, '1' is the bottom row (from White's perspective).\n* Blacks's home row is the top row (row 8 for an 8x8). White's home row is the bottom row (row 1 for an 8x8).\nThe first player whose piece reaches the opponent's home row wins. If your pieces are all captured, you lose."
+    "intro": "Siz Breakthrough oyununda {color} oynuyorsunuz. Siz {direction} ýöneşde {board_size}x{board_size} tagtada hereket edýärsiňiz.\nSiziň ýerine bir bölek bir ädim öňe ýa-da diagonally öňe hereket edip bilersiňiz.\nBir bölek diňe ýeňijiniň bölegi ýerinde bolsa diagonally hereket edip biler, we diňe şol ýerde ýerleşen kwadrat ýerine diagonally ädimde hereket edip biler.\nÝeňijiniň bölegi ýerleşen kwadrata ädim edeniňde, siz ony ele geçirýärsiňiz we ýeňijiniň bölegi tagtadan häzirki wagtda aýrylýar.\nUCI ýaly notasiýany möçberlerde ulanyň, mysal üçin [a2a3] a2-den a3-e hereket etmek üçin.\n* 'a' sol ýaka sütuna gabat gelýär, '1' bolsa ak ýeriniň aşagyndaky setir (Akdakyň nukdaý nazaryndan).\n* Gara ýeriniň öý setiri ýokarky setir (8x8 üçin 8-nji setir). Ak ýeriniň öý setiri bolsa aşagyndaky setir (8x8 üçin 1-nji setir).\nIlkinji oýunçynyň bölegi ýeňijiniň öý setirine ýetende ýeňýär. Eger siziň bölekleriňiz hemmesi ele geçirilse, siz ýeňilýärsiňiz."
   },
   "invalid_move": {
     "wrong_format": "Haýyş et, [a2a3] ýaly berkemli algebraik notasy ulanyň.",
-    "out_of_bounds": "Move is out of board bounds.",
+    "out_of_bounds": "Hereket tagtanyň çäklerinden daşarda.",
     "illegal": "Bu hereket Öňürtilik düzgünine eýermeýär ýa-da seniň oýunçyň däl."
   },
   "game_action": {

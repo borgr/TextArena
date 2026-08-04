@@ -7,7 +7,7 @@
     "out_of_range": "Ti panagpakpakauna ket masapul nga adda iti nagbaetan ti {min_guess} ken {max_guess}."
   },
   "message": {
-    "round_guesses": "Player 0 guessed {guess0}; Player 1 guessed {guess1}. Thus the Target is: {target}.",
+    "round_guesses": "Ti Player 0 ket nagtaray ti {guess0}; Ti Player 1 ket nagtaray ti {guess1}. Kastoy ti Target ket: {target}.",
     "round_draw": "Naitunos ti round.",
     "round_win": "Ti agay-ayam {winner} ti nangabak iti round!"
   },

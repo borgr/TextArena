@@ -9,7 +9,7 @@
     "selects": "Mpilalao {player_id} mifidy hetsika {move}."
   },
   "message": {
-    "round_draw": "Round result: Draw",
+    "round_draw": "Vokatry ny fihidianana: Serana",
     "round_win": "Valin'ny fihodinana: Mandresy ny mpilalao {winner}!"
   },
   "outcome": {

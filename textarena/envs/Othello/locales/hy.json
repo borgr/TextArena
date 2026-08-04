@@ -16,7 +16,7 @@
   },
   "game_action": {
     "skipped": "Խաղացող {pid} ստիպված էր անցնել իր քայլը",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "Խաղացող {pid} ({piece}) խաղաց [{r}, {c}] շրջելով {flipped} խաղաքար(ներ)"
   },
   "game_message": {
     "must_skip": "Խաղացողը {pid} ({piece}) չունի վավեր քայլեր եւ պետք է բաց թողնի:"

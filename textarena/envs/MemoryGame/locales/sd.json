@@ -13,8 +13,8 @@
     "already_matched": "ناجائز حرڪت. پليئر {player_id} هڪ يا ٻئي ڪارڊ چونڊيو جيڪي اڳ ۾ ئي ملائي چڪا آهن."
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "پليئر {player_id} پاران چونڊيل کارڊ پوزيشن [{r1} {c1}] ۽ [{r2} {c2}] تي ملن ٿا!",
+    "cards_no_match": "پليئر {player_id} پاران چونڊيل کارڊ ملن نه ٿا. پوزيشن [{r1} {c1}] ۽ [{r2} {c2}] تي کارڊ {pos1} ۽ {pos2} آهن."
   },
   "outcome": {
     "draw": "ٻنهي رانديگرن ڪارڊ جي ساڳئي جوڙن جي برابر ڪئي.",

@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in Quantum Tic Tac Toe.\nYour symbol is '{symbol}', and your move numbers are always {parity} (e.g., X1, X3 or O2, O4).\n\nGoal: Win by forming a line of three classical marks (solidified from superpositions).\n\nHow to Play:\n- On each turn, place a spooky mark in two different empty squares using the format '[a,b]'.\n- These marks are entangled, and labeled like 'X1 / X1' or 'O4 / O4'.\n- You cannot place spooky marks in a square that has already collapsed (solidified).\n\nCollapse Rule:\n- If your move creates a cycle in the entanglement graph, it collapses automatically.\n- Each spooky mark in the cycle turns into a classical mark in one of its two positions.\n- Any dependent spooky marks also collapse.\n\nVictory:\n- The game ends when a player has three classical marks in a row.\n- If both players get a line during the same collapse, the one with the lower max move number wins.\n\nExample move: '[0,4]' places a spooky mark in cells 0 and 4."
+    "intro": "Wee ni Mchezaji {player_id} katika Tic Tac Toe ya Quantum.\nIshara yako ni '{symbol}', na nambari za harakati zako zina {parity} kila wakati (kwa mfano, X1, X3 au O2, O4).\n\nLengo: Shinda kwa kuunda mstari wa alama tatu za kitamaduni (zilizotengenezwa kutoka kwa hali ya juu).\n\nJinsi ya Kucheza:\n- Katika kila zamu, weka alama ya kutisha katika miraba miwili tofauti tupu kwa kutumia umbizo '[a,b]'.\n- Alama hizi zimeunganishwa, na zimepewa lebo kama 'X1 / X1' au 'O4 / O4'.\n- Huwezi kuweka alama za kutisha katika mraba ambao tayari umekuwa imara (umetengenezwa).\n\nKanuni ya Kuanguka:\n- Ikiwa harakati yako inaunda mzunguko katika grafu ya kuunganisha, inaanguka kiotomatiki.\n- Kila alama ya kutisha katika mzunguko inabadilika kuwa alama ya kitamaduni katika mojawapo ya nafasi zake mbili.\n- Alama zozote zinazotegemea za kutisha pia huanguka.\n\nUshindi:\n- Mchezo unamalizika wakati mchezaji ana alama tatu za kitamaduni mfululizo.\n- Ikiwa wachezaji wote wawili wanapata mstari wakati wa kuanguka kwa wakati mmoja, yule aliye na nambari ya chini ya harakati anashinda.\n\nMfano wa harakati: '[0,4]' huweka alama ya kutisha katika seli 0 na 4."
   },
   "board": {
     "current_board": "Bodi ya Quantum Tic Tac Toe:\n\n{board}\n\nTuma harakati yako kama '[a,b]' ili kuweka alama ya kquantum katika maeneo mawili."
@@ -16,7 +16,7 @@
   "game_message": {
     "dependent_resolved": "Uhusiano wa kawaida umesuluhishwa. Seli ({r}, {c}) sasa ni {symbol}.",
     "last_cell_resolved": "Uhusiano wa seli ya mwisho umesuluhishwa. Seli ({r}, {c}) sasa ni {symbol}.",
-    "superposition_resolved": "Superposition resolved. Cell ({r}, {c}) is now {symbol}."
+    "superposition_resolved": "Hali ya juu imepatikana. Seli ({r}, {c}) sasa ni {symbol}."
   },
   "outcome": {
     "win": "Mũthaaki {player_id} nĩ agaacinda na marũũri ma kwĩhokeka!",

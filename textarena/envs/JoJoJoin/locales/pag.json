@@ -1,9 +1,9 @@
 {
   "player_prompt": {
-    "intro": "Ikaw ay Player {player_id} sa JoJoJoin, tinatugtog sa 5x5 na board na may mga cell na numinuon 0-24.\nSa iyong turn, iluklok ang iyong tandang sa alin mang bakanteng cell, halimbawa '[12]'.\nNANALO KA sa pagkuha ng APAT ng iyong mga tandang nang sunud-sunod — apat na sunud-sunod na cell pahalang, patayo, o pahilig.\nBilang Player {player_id} ikaw ay '{symbol}'; ang iyong kalaban ay '{opponent_symbol}'."
+    "intro": "Sika'y Managpapat {player_id} ed JoJoJoin, pinalnan ed board ya 5x5 ya walay selula ya numerado 0-24.\nNo panag-pano mo, itayak mo so tanda mo ed anggan selula ya aliwa, alimbawa '[12]'.\nSIKA SO NANGABAK ed paggawa na APAT ya tanda mo ed pila — apat ya konsikusong selula ed pahigda, patayo, o diagonal.\nA bilang Managpapat {player_id} sika'y '{symbol}'; so kalaban mo ya '{opponent_symbol}'."
   },
   "board": {
-    "current_board": "Sakupan na Board:\n\n{board}\n\nMga Available na Lugan: {moves}"
+    "current_board": "Kasalukuyan ya Board:\n\n{board}\n\nMakasalukuyan ya Galaw: {moves}"
   },
   "invalid_move": {
     "wrong_format": "Say inyakar ya sulat et aliwan unong ed dugan pormat.",
@@ -11,7 +11,7 @@
     "already_occupied": "Say selula {cell} et wala la."
   },
   "game_action": {
-    "placed": "Iniluklok ni Player {player_id} ang tandang kanyang ({symbol}) sa cell {cell}."
+    "placed": "Managpapat {player_id} inyaplikar so tanda to ({symbol}) ed selula {cell}."
   },
   "outcome": {
     "win": "Tinalo na {player_id} a manlalako!",

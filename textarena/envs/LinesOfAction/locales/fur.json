@@ -10,7 +10,7 @@
     "{to}": "The destination coordinate of a move, such as b3"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in game of LinesOfAction.\nYour pieces are '{side}', opponent pieces are '{other}'.\nMove format: `[b1b3]` (from-coord to-coord). A legal move travels horizontally, vertically, or diagonally a number of squares equal to the total pieces (any colour) in that line. You may jump over your own pieces, but not opponent pieces; landing on an opponent captures it.  Win when all your pieces are 8-neighbour connected."
+    "intro": "Tu sês Zugador {player_id} in un zûc di LinesOfAction.\nLis tôs pedinis son '{side}', lis pedinis dal aversari son '{other}'.\nFormat di moviment: `[b1b3]` (coordenade di partence - coordenade di destinazion). Un moviment leçâl si sposte orizontalmentri, verticalmentri o diagonalmentri di un numar di cjasis compagn al numar di pedinis (di cualsiasi colôr) in chê linie. Tu puedis saltâ soredi lis tôs pedinis, ma no soredi lis pedinis dal aversari; rivâ parsore di un aversari lu cjape.  Vince cuant che dutis lis tôs pedinis son colegadis in maniere 8-vicin."
   },
   "board": {
     "current_board": "Comitât: {board}"

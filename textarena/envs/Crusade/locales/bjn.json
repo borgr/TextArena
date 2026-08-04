@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({piece}). Opponent is ({opp}). Submit moves as '[b1 c3]' (from → to). All pieces move like chess knights.\nEach capture scores {score_per_capture} point. Game ends after {max_moves} moves or when a player has no legal move / no pieces. Higher score wins."
+    "intro": "Kamu adalah Pemain {player_id} ({piece}). Lawan adalah ({opp}). Kirim langkah sebagai '[b1 c3]' (dari → ka). Semua bidak bagaraka kaya kuda dalam catur.\nSatiap tangkapan mendapat {score_per_capture} poin. Permainan tamat imbah {max_moves} langkah atawa bila pemain kadada langkah legal / kadada bidak. Skor tatinggi manang."
   },
   "board": {
     "current_board": "Gilir #{move_count}\n\n{board}\n\nGilir Tersedia: {moves}"

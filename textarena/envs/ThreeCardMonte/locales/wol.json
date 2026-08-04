@@ -11,21 +11,21 @@
     "{ball_pos}": "The cup index the ball is under"
   },
   "player_prompt": {
-    "intro": "Track the hidden ball 'X' while the cups are shuffled.\nAfter shuffling, guess its location with `[k]`."
+    "intro": "Tey jàppi bantu bu ñuul 'X' ba ñaari koppuñuñu.\nCi ginnaaw bi, xoolal fa mu nekkoon ngir `[k]`."
   },
   "game_message": {
     "ball_starts": "Ball bi di tàmbalee: {line}",
-    "shuffle": "Shuffle {step}/{steps}: swapped cups {i} and {j}.",
+    "shuffle": "Tey koppuñuñu {step}/{steps}: ñaari koppuñuñu {i} ak {j} ñuñuñu.",
     "cups": "Kobu: {line}  {prompt}",
     "guess_now": "(Déglu léegi!)",
     "reveal": "(Bëj: ball bi ci {ball_pos})"
   },
   "invalid_move": {
-    "wrong_format": "Bad action. Use `[k]`.",
+    "wrong_format": "Jëf jàppi jekk. Jëndal `[k]`.",
     "out_of_range": "Nettali bi génne na ci 0-{max_index}."
   },
   "outcome": {
     "win": "Dafa baax, dangaa fekk top bi.",
-    "lose": "Wrong — ball was under cup {ball_pos}."
+    "lose": "Jekk — bantu bu ñuul nekkoon ci koppuñuñu {ball_pos}."
   }
 }

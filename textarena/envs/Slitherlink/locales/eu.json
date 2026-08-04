@@ -10,7 +10,7 @@
     "out_of_bounds": "Ertza taula gainetik."
   },
   "outcome": {
-    "win": "🎉 You formed a single loop! Puzzle solved!",
+    "win": "🎉 Begizta bakarra osatu duzu! Puzzlea ebaztuta!",
     "turn_limit": "Mugitzeko muga gainditu dugu, eta ez dugu bukatu."
   }
 }

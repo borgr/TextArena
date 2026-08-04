@@ -1,9 +1,9 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({piece}). Opponent is ({opp}). Submit moves as '[b1 c3]' (from → to). All pieces move like chess knights.\nEach capture scores {score_per_capture} point. Game ends after {max_moves} moves or when a player has no legal move / no pieces. Higher score wins."
+    "intro": "অমা খেলকপী {player_id} ({piece}) নী, প্রতিদ্বন্দ্বী নী ({opp})। '[b1 c3]' (অস্থানত অগতা) হৈবা খেলগা পানবা। সকল খেলকপী ঘোড়সেবা লাইখিদ্রবা মতো খেলগা হন্না।\nপ্রতিটি খেলকপী নকলা {score_per_capture} পয়েন্ট পামদ্রবা। খেল অস্থানত {max_moves} খেলগা হৈবা অথবা খেলকপী অনুমতি খেলগা নথকলে/খেলকপী নথকলে খেল অস্থানত হন্না। উচ্চ স্কোর খেলকপী জয় হন্না।"
   },
   "board": {
-    "current_board": "Move #{move_count}\n\n{board}\n\nAvailable Moves: {moves}"
+    "current_board": "খেলগা #{move_count}\n\n{board}\n\nউপলব্ধ খেলগা: {moves}"
   },
   "invalid_move": {
     "bad_format": "ফোর্মেৎ অশোয়বা. '[b1 c3]' শিজিন্নৌ।",
@@ -13,8 +13,8 @@
     "not_knight": "মসি অঙকপা খোঙথাং নত্তে।"
   },
   "game_action": {
-    "moved": "Player {player_id} moved their piece from {frm} to {to}.",
-    "capture": "{observation} Capturing a piece! (+{score_per_capture})"
+    "moved": "খেলকপী {player_id} তাংকপী {frm} অস্থানত {to} খেলগা হন্না।",
+    "capture": "{observation} খেলকপী নকলা হন্না! (+{score_per_capture})"
   },
   "outcome": {
     "no_pieces": "শান্নরোই {player_id}দা ফিস অমত্তা লৈতে।",

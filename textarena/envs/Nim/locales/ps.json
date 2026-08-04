@@ -13,7 +13,7 @@
     "exceeds_pile": "نه شي کولای {quantity} له {pile_index} ډنډ څخه لرې کړي (یوازې {pile_count} پاتې دی)."
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "لوبغاړی {player_id} د [{pile_index} {quantity}] لوبه وکړه، {quantity} شی(یان) له ډیرې {pile_index} څخه لیرې کړل."
   },
   "outcome": {
     "win": "لوبغاړي {player_id} وروستی شی واخیست (((s)!"

@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "Ba daidai ba. Yi amfani da [i->j].",
-    "illegal_move": "Illegal move."
+    "illegal_move": "Motsi mara doka."
   },
   "outcome": {
     "win": "An warware tare da sauran ƙugiya ɗaya!",

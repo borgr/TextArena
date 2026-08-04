@@ -16,17 +16,17 @@
     "{cards}": "The cards in a pile as neutral labels, or '--' if empty (never translate)"
   },
   "player_prompt": {
-    "intro": "You are playing Klondike Solitaire. Your goal is to move all cards to the foundation piles.\n\nGame Rules:\n- Foundation piles (F1-F4): Build up from Ace to King in suit\n- Tableau piles (T1-T7): Build down alternating colors (red on black, black on red)\n- Stock: Draw cards to waste pile\n- Waste (W): Top card available for play\n\nCommands:\n- 'draw' - Draw cards from stock to waste\n- 'move <source> <destination> [count]' - Move cards between piles\n  Examples: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count can also be 'all', which will try to move all face-up cards.\n- 'forfeit' - End the game immediately and lock in your current score\n- Pile names: W (waste), F1-F4 (foundations), T1-T7 (tableau)\n\nYou can execute multiple actions in one turn by separating them with commas:\n  Example: 'draw, move W T1, move T2 F1'\n\nOnly Kings can be placed on empty tableau piles.\nActions execute in order - if one fails, the remaining actions are skipped.\nUse 'forfeit' if you believe the game is impossible to win."
+    "intro": "شما در حال بازی کردن Klondike Solitaire هستید. هدف شما انتقال همه کارت‌ها به پایل‌های بنیاد است.\n\nقوانین بازی:\n- پایل‌های بنیاد (F1-F4): ساخت از Ace تا King در سوت\n- پایل‌های جدول (T1-T7): ساخت به پایین با رنگ‌های متناوب (قرمز روی سیاه، سیاه روی قرمز)\n- انبار: کارت‌ها را به پایل زباله بکشید\n- زباله (W): کارت بالایی برای بازی در دسترس است\n\nفرمان‌ها:\n- 'draw' - کارت‌ها را از انبار به پایل زباله بکشید\n- 'move <source> <destination> [count]' - کارت‌ها را بین پایل‌ها منتقل کنید\n  مثال‌ها: 'move W T1'، 'move T1 F2'، 'move T3 T5 2'. count همچنین می‌تواند 'all' باشد، که سعی می‌کند همه کارت‌های رو به بالا را منتقل کند.\n- 'forfeit' - بازی را بلافاصله پایان دهید و امتیاز فعلی خود را قفل کنید\n- نام پایل‌ها: W (زباله)، F1-F4 (بنیادها)، T1-T7 (جدول)\n\nشما می‌توانید چندین عمل را در یک نوبت با جدا کردن آنها با کاما اجرا کنید:\n  مثال: 'draw, move W T1, move T2 F1'\n\nفقط پادشاهان می‌توانند روی پایل‌های جدول خالی قرار بگیرند.\nاعمال به ترتیب اجرا می‌شوند - اگر یکی از آنها شکست بخورد، اعمال باقی مانده略 می‌شوند.\nاز 'forfeit' استفاده کنید اگر معتقدید بازی غیرممکن است."
   },
   "format_error": {
     "no_brackets": "غیر معتبر عمل فورماسی.عمل قوسلار آراسیندا اولمالیدیر.",
     "no_closing_bracket": "غلط عمل فورمات. غائب قوس بند ']'",
     "empty_command": "بوش امر. \"draw\" و یا \"move <source><destination> [count]' تایپ ائدین.",
     "empty_action": "بوش عمل.",
-    "move_needs_args": "Move command requires source and destination. Usage: 'move <source> <destination> [count]' \"مورد و مقصدین حرکت ائتمه سی لازیمدیر\".",
-    "count_positive": "سايين گرک مثبت اولسون يا \"همه\"",
-    "count_invalid": "یالنیز بیر سایی یا دا \"بوتون\" ایستیفاده ائدین.",
-    "unknown_command": "Tanınmayan əmr '{cmd}'. 'çiz', 'hərəkət <mənbə> <destinasiya> [count]', və ya 'imtina' əmrlərindən istifadə edin",
+    "move_needs_args": "فرمان move به منبع و مقصد نیاز دارد. استفاده: 'move <source> <destination> [count]'",
+    "count_positive": "تعداد باید مثبت یا 'all' باشد",
+    "count_invalid": "تعداد نامعتبر است. از یک عدد یا 'all' استفاده کنید",
+    "unknown_command": "فرمان ناشناخته '{cmd}'. از 'draw'، 'move <source> <destination> [count]'، یا 'forfeit' استفاده کنید",
     "wrapped": "Əməliyyat {n}: {msg}"
   },
   "action_result": {

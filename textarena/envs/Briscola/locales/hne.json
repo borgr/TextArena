@@ -22,7 +22,7 @@
     "start": "ब्रिस्कोला गेम शुरू हुआ! ट्रम्प सूट: {trump_suit} (ट्रम्प कार्ड: {trump_card})"
   },
   "prompt": {
-    "intro": "You are playing Briscola - Player {player_id}.\nGoal: Win tricks and collect the most points (120 total points in the deck).\nCard Points: A=11, 3=10, K=4, Q=3, J=2, others=0\nCard Power: A > 3 > K > Q > J > 7 > 6 > 5 > 4 > 2\nTrump cards beat non-trump cards regardless of power.\n\nAction: '[play X]' where X is the position (1-{max_pos}) of the card in your hand\n"
+    "intro": "तुम Briscola खेलत हाव - खिलाड़ी {player_id}.\nउद्देश्य: चाल जीतो और सबसे ज्यादा पॉइंट इकठ्ठा करो (डेक में कुल 120 पॉइंट)।\nकार्ड पॉइंट: A=11, 3=10, K=4, Q=3, J=2, अन्य=0\nकार्ड शक्ति: A > 3 > K > Q > J > 7 > 6 > 5 > 4 > 2\nट्रम्प कार्ड गैर-ट्रम्प कार्ड को शक्ति की परवाह किए बिना हराते हैं.\n\nकार्रवाई: '[play X]' जहां X तुम्हारे हाथ में कार्ड की स्थिति (1-{max_pos}) है\n"
   },
   "hand": {
     "none": "कोई कार्ड नी हावे",
@@ -48,7 +48,7 @@
   },
   "action": {
     "played": "प्लेयर {player_id} ने {card} खेला",
-    "trick_win": "Player {winner} wins the trick with {card} and gains {points} points!"
+    "trick_win": "खिलाड़ी {winner} {card} के साथ चाल जीतत है और {points} पॉइंट प्राप्त करत है!"
   },
   "outcome": {
     "head": "गेम ओवर! प्लेयर {winner} {points} पॉइंट्स के साथ जीतता है!\n\nअंतिम स्कोर:\n{scores}",

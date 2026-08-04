@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "Isenzo kufuneka sibe kwifomathi [row col] apho umgca kunye necol ziyinombolo ukusuka ku-0 ukuya ku-{max_index}.",
-    "out_of_range": "Coordinates must be between 0 and {max_index}. You entered [{row},{col}]."
+    "out_of_range": "Izikoordineeti kufuneka zibe phakathi kwe-0 no-{max_index}. Uvulele [{row},{col}]."
   },
   "outcome": {
     "win": "Ndiyavuyisana nawe, usombulule iphazili ngeendlela ezi- {moves_used}!",

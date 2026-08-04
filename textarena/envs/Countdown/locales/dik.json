@@ -9,7 +9,7 @@
     "progress": "{observation}\nKu tiŋde ku bëny: {progress}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use `[i j op]` where i,j are indices and op is +,-,*,/",
+    "wrong_format": "Kɛ̈ɛ̈n kɛ̈ɛ̈n format aayeŋ. Kɛ̈ɛ̈n `[i j op]` kɛ̈ɛ̈n i,j aayeŋ kɛ̈ɛ̈n op aayeŋ +,-,*,/",
     "invalid_indices": "Kë cë gɔ̈ɔ̈r/juric yic. adhil bï ya kë wääc ku ye 0-{max_index}",
     "invalid_operation": "Luɔi cïï path (ke ye kë de yic tek në nimira ku kä cie nambaai)"
   },

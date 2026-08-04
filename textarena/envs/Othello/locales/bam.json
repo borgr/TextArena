@@ -4,11 +4,11 @@
   },
   "board": {
     "game_board": "Dɔgɔtɔrɔso: {board}",
-    "valid_moves": "{observation}\nValid moves: {moves}",
+    "valid_moves": "{observation}\nTaa wɛrɛ wɛrɛ: {moves}",
     "no_valid_moves_reset": "{observation} Fɛɛrɛ ɲuman tɛ - i bɛ se ka tɛmɛ.",
     "no_valid_moves_step": "{observation} I tɛ se ka taa yɔrɔ min na, i bɛ se k'i sen to yen.",
-    "scores_reset": "{observation}\nCurren Scores - Black: {black_count}, White: {white_count}\n",
-    "scores_step": "{observation}\nScores - Black: {black_count}, White: {white_count}\n"
+    "scores_reset": "{observation}\nKɔlɔrɛ Sɔrɔ - Ɛrɛ: {black_count}, Bulu: {white_count}\n",
+    "scores_step": "{observation}\nKɔlɔrɛ Sɔrɔ - Ɛrɛ: {black_count}, Bulu: {white_count}\n"
   },
   "invalid_move": {
     "wrong_format": "O bɛ se ka kɛ [row, col] ye.",
@@ -16,14 +16,14 @@
   },
   "game_action": {
     "skipped": "Jalakɛla {pid} tun ka kan k'i sen bɔ a lɔyɔrɔ la.",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "Jɛgɛ {pid} ({piece}) taa [{r}, {c}] ka kɛlɛ {flipped} kɔlɔrɛ"
   },
   "game_message": {
-    "must_skip": "Player {pid} ({piece}) has no valid moves and must skip."
+    "must_skip": "Jɛgɛ {pid} ({piece}) tɛ mɔgɔ taa wɛrɛ wɛrɛ ka bɔ ni mɛ kɛ i taa."
   },
   "outcome": {
     "black_wins": "Black taninna {black_count}-{white_count}.",
-    "white_wins": "Blan yé gagné {white_count}-{black_count}.",
+    "white_wins": "Bulu sɔrɔ {white_count}-{black_count}.",
     "draw": "Tɛmɛnɛ {black_count}-{white_count}."
   }
 }

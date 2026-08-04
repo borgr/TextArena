@@ -13,6 +13,6 @@
     "all_complete": "=== Mikono yote {num_hands} imekamilika ===\nUshindi: {wins}, Hasara: {losses}, Sawa: {draws}\n"
   },
   "outcome": {
-    "game_over": "The game has concluded. Final scores: Dealer: {losses}, You: {wins}, Draws: {draws}"
+    "game_over": "Msewero umatha. Alama za mwisho: Wogulitsa: {losses}, Inu: {wins}, Mikwamo: {draws}"
   }
 }

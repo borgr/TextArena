@@ -7,7 +7,7 @@
     "{cell}": "A board cell number between 0 and 8"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Tic Tac Toe.\nYour goal is to win three in a row (horizontally, vertically, or diagonally) on the board.\nOn your turn, you should select the square number (0-8) you want to put your mark in next.\nFor example, '[4]' places your mark in the center cell of the board.\nAs Player {player_id}, you will be '{symbol}', while your opponent is '{opponent_symbol}'."
+    "intro": "Ati Kubbaa {player_id} Tic Tac Toe keessa jirta.\nGaalii kee kuusaa sadii sirnaan (bantii, oliifi, ykn viidiyaa) boordii irratti mo'achuudha.\nGidduu kee, kuusaa nambarii (0-8) ittiin kubbayyuu kee boordii irratti maxxansuuf filachuu qabda.\nFkn, '[4]' kubbayyuu kee boordii gidduu maxxansa.\nKubbaa {player_id} ta'uu kee, ati '{symbol}' ta'a, diinni kee '{opponent_symbol}' ta'a."
   },
   "board": {
     "current_board": "Burdhaa Ammaa:\n\n{board}\n\nGolee Dheerina: {moves}"

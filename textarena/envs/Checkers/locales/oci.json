@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "Cap de format de moviment valable trobat. Utilizatz [a1b2], per exemple [b2c3].",
-    "illegal": "Move [{move}] is illegal."
+    "illegal": "Lo movement [{move}] es illegau."
   },
   "game_action": {
     "moved": "Lo jogaire {player_id} se desplacèt {move}."

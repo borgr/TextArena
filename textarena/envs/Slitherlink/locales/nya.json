@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing Slitherlink on a {R}x{C} grid!\nDraw a single continuous loop so each numbered cell has that many bordering edges.\nToggle edges with:\n  [h r c] - toggle horizontal edge above dots at row r, column c\n  [v r c] - toggle vertical edge left of dots at row r, column c\nNumbers show required edge count, '.' means no constraint.\nYou have up to {max_turns} moves to solve the puzzle."
+    "intro": "Mukupikisana Slitherlink pa gridi ya {R}x{C}!\nKolerani mphika mmodzi wosathimuka ili kila seli iliyo na nambari iwe na mphika zingati zomwe zili ku mpaka.\nSinjilani mphika ndi:\n  [h r c] - sinjilani mphika wamwamba juu ya midoti pa safu r, kolamu c\n  [v r c] - sinjilani mphika wamkono kushoto kwa midoti pa safu r, kolamu c\nNambari zikuonetsa mphika zofunika, '.' zikutanthauza kuti palibe vikwazo.\nMuli ndi mpaka {max_turns} zosinthika kuti mutatule puzzle."
   },
   "board": {
     "current_board": "{board}\nZikuoneka zisanu: {progress}"

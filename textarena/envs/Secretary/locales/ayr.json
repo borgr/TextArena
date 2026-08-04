@@ -1,12 +1,12 @@
 {
   "player_prompt": {
-    "intro": "You will observe {N} hidden values sequentially.\nAt each step type [accept] to pick the *current* value, or [continue] to skip it and see the next one.\nIf you never accept, you are forced to take the final value.\nYou win (reward = 1) **only** if the value you ultimately pick is the highest of all."
+    "intro": "Q'umachaspa {N} q'illqaykunata qhawasq'aspa. \nKullasuyu kullakita, '[accept]' sasachaña utjapuni *kasaya* q'illqayta, o '[continue]' sasachaña ch'iqachaña qhipaq q'illqayta qhawasq'aspa. \nJaniraqta q'illqayt'akipuni, qhipaq q'illqayt q'arañaspa. \nQ'ana (p'inqay = 1) **wak'i** q'illqayt q'arañaspa, tukuy q'illqaykunapuni aswan hanq'a."
   },
   "game_action": {
     "current_value": "Jichha pacha valor ukax {value} ukhamawa."
   },
   "invalid_move": {
-    "wrong_format": "Action must be either [accept] or [continue]."
+    "wrong_format": "Kamay q'arañaspa, '[accept]' o '[continue]' sasachaña kullasuyu."
   },
   "outcome": {
     "summary": "Janiw uñt'ayirixä {value} draw {draw_num}/{N}. Jupanakax uñt'ayirinakax {best}. {result}",

@@ -36,6 +36,6 @@
     "payoff_cleared": "Onye ọkpụkpọ {current_player} emechaala nchịkọta ụgwọ ọrụ ha! Onye ọkpụkpọ {current_player} meriri!",
     "deadlock_player_0": "Onye na-egwu egwu 0 meriri na {player_0_payoff} kaadị fọdụrụ vs Player 1 si {player_1_payoff} kaadị.",
     "deadlock_player_1": "A na-enweta ihe nkwụsị! Onye ọkpụkpọ 1 na-emeri na {player_1_payoff} kaadị fọdụrụnụ vs Player 0 si {player_0_payoff} kaadị.",
-    "deadlock_tie": "Deadlock reached with tie! Both players have {player_0_payoff} cards remaining. Player {current_player} wins by default."
+    "deadlock_tie": "Ịgbọ agwụla na tie! Onye Egwuregwu abụọ nwere {player_0_payoff} kọdị fọdụrụnụ. Onye Egwuregwu {current_player} meriri site na default."
   }
 }

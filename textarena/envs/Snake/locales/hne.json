@@ -11,7 +11,7 @@
     "{groups}": "Neutral ranking data (a list of player-id groups, worst to best); do not translate"
   },
   "player_prompt": {
-    "intro": "{num_players}-Player Snake on a {width}×{height} grid.\nYou control snake {player_id}. Valid moves: '[up]'/'[down]'/'[left]'/'[right]' (or w/s/a/d).\nObjective: survive longest or be the longest and get the highest score (turn limit {max_turns} turns)."
+    "intro": "{num_players}-खेलाड़ी साँप {width}×{height} ग्रिड मा।\nतुम्हार साँप {player_id} नियंत्र करथ। मान्य चाल: '[up]'/'[down]'/'[left]'/'[right]' (या w/s/a/d)।\nउद्देश्य: सबसे लंबा समय तक जीवित रहो या सबसे लंबा साँप बनके सबसे ज्यादा स्कोर पाओ (मोड़ सीमा {max_turns} मोड़)।"
   },
   "board": {
     "current": "वर्तमान बोर्ड: {board} अउ",

@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id}. You are playing the 15-Puzzle game.\nThe objective of the game is to arrange the numbered tiles in ascending order from 1 to 15, with the empty space located in the bottom-right corner.\nTo make a move, you can slide a tile into the empty space (represented by a double underscore, e.g. __) by using one of the following commands:\n- 'up': Move the tile below the empty space up.\n- 'down': Move the tile above the empty space down.\n- 'left': Move the tile to the right of the empty space left.\n- 'right': Move the tile to the left of the empty space right.\nTo submit your move, type the direction (e.g., 'up', 'down', 'left', or 'right') in square brackets, e.g. [up].\nThe current board layout is shown below. Use the information to solve the puzzle.\n"
+    "intro": "Yaa ngone jàngoro {player_id}. Yaa taañ 15-Puzzle. Amul solo ci jëfandikoo jàngoro ji, mooy tabaxaat tuuti yi ci limu 1 ba 15, ak barab bi weex ci kaw-suuf-saar-saar. Ngone def ay pax, man ngaa jëlee tuut ci barab bi weex (ñu won ko ci __) ci jëfandikoo benn ci yëglekaayi yi: - 'up': Jëlee tuut bi ci suufu barab bi weex ci kaw. - 'down': Jëlee tuut bi ci kawu barab bi weex ci suuf. - 'left': Jëlee tuut bi ci ndawu barab bi weex ci cammooñ. - 'right': Jëlee tuut bi ci cammooñu barab bi weex ci ndaw. Ngone indil pax bi, bindaale ci limu jëfandikoo bi (naka 'up', 'down', 'left', mbaa 'right') ci kaar-skaar, naka [up]. Tere bi ñu won nekk ci suuf si topp. Jëfandikoo xibaar bi ngir dindi pax bi."
   },
   "board": {
     "current_board": "Taabal bu njaboot:\n\n{board}\nTéere yi meluwu: {moves}",
@@ -12,6 +12,6 @@
   },
   "outcome": {
     "win": "Congratulations! Jëfandikukat {player_id} am na ag njariñ ci xettli 15-Puzzle bi.",
-    "turn_limit": "The turn limit has been reached. The model completed {percent} percent of the puzzle"
+    "turn_limit": "Limite bi ñu jote nañu ci. Model bi defoon na {percent} pour sant bi ci puzzle bi"
   }
 }

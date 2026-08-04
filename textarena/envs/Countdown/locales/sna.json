@@ -9,8 +9,8 @@
     "progress": "{observation}\nMakore ekutanga: {progress}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use `[i j op]` where i,j are indices and op is +,-,*,/",
-    "invalid_indices": "Invalid indices. inofanira kunge yakasiyana uye iri mukati me 0-{max_index}",
+    "wrong_format": "Mfumo we kutenda haushandike. Shandisa `[i j op]` apo i,j ndiyo ma-index uye op ndiyo +,-,*,/",
+    "invalid_indices": "Ma-index haushandike. Zvinofanira kuwa tofauti uye kubva 0-{max_index}",
     "invalid_operation": "Kushanda kusina kukodzera (kugovera ne zero kana kuti mugumisiro usiri nhamba yose)"
   },
   "outcome": {

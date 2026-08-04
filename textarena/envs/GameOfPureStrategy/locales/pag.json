@@ -3,7 +3,7 @@
     "intro": "Ikaw so Player {player_id} ed say match na GameOfPureStrategy.\n- Tinmulang mo so 13 cards A-K; say anggad matakken na saray sanen.\n- Say anggad round, say prize card so aralen. Anggapoyan na saray card na may bracketed token aantonen '[Q]', '[10]', '[2]' ...\n- Say masanto y card so manalo na prize (plus carry-over). Say ties so iroran na prize ed pot para say sunod round.\n- Say masanto y total na anggad 13 rounds so manalo."
   },
   "round": {
-    "announce": "### Round {round}/13 - Prize: {prize}  (worth {worth})"
+    "announce": "### Ronda {round}/13 - Premyo: {prize}  (wert {worth})"
   },
   "board": {
     "hand": "Say akera na nakekeraan a lima: {hand}"

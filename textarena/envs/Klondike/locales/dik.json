@@ -23,10 +23,10 @@
     "no_closing_bracket": "Kë cë gɔ̈ɔ̈r ë luɔi acie yic. Kä cïn kä ye kek thiääk thïn ']'",
     "empty_command": "Löŋ cïn kë ye lueel. Ku gɔ̈ɔ̈r 'draw' ka 'move <source><destination> [count]'.",
     "empty_action": "Kë cïn kë ye looi",
-    "move_needs_args": "Lëk ë lɔ̈ɔ̈m ee wïc bë kä ye kek bɛ̈n yök ku jɔl ya tɛ̈ bï yen la thïn. Luɔi: 'lɔɔr <luɔɔi> <tök > [count]'",
-    "count_positive": "Akut adhil bï ya kë puɔth wala 'käk ëbën'",
-    "count_invalid": "Nɔŋ yic. Luɔ̈k nimira ka 'bɛi'",
-    "unknown_command": "Riɛl kuɛɛr '{cmd}' alɔŋ. Lɔ riɛl 'cäth', 'wɛ̈t <guɛ̈t > <thiɛ̈k > [count]', ka 'kɔɔr'",
+    "move_needs_args": "Lëk ë lɔ̈ɔ̈m ee wïc bë kä ye kek bɛ̈n yök ku jɔl ya tɛ̈ bï yen la thïn. Luɔi: move <source> <destination> [count]",
+    "count_positive": "Akut adhil bï ya kë puɔth wala all",
+    "count_invalid": "Nɔŋ yic. Luɔ̈k nimira ka all",
+    "unknown_command": "Riɛl kuɛɛr {cmd} alɔŋ. Lɔ riɛl draw, move <source> <destination> [count], ka forfeit",
     "wrapped": "Action {n}: {msg}"
   },
   "action_result": {

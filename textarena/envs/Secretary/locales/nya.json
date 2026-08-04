@@ -9,7 +9,7 @@
     "wrong_format": "Chinthucho chiyenera kukhala [accept] kapena [continue]."
   },
   "outcome": {
-    "summary": "You accepted value {value} at draw {draw_num}/{N}. The best overall was {best}. {result}",
+    "summary": "Ulemekeza thamani {value} pa droo {draw_num}/{N}. Ya bwinobwino zaidi ilikuwa {best}. {result}",
     "perfect": "Kusankha kwabwino! ",
     "not_max": "Osati zochuluka."
   }

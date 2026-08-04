@@ -9,8 +9,8 @@
     "wrong_format": "एक्शन [accept] या [continue] में से एक होना चाहिए."
   },
   "outcome": {
-    "summary": "You accepted value {value} at draw {draw_num}/{N}. The best overall was {best}. {result}",
+    "summary": "तोहार लोग मान {value} को ड्रॉ {draw_num}/{N} पर स्वीकार कइन। सभसे अच्छा मान {best} रहल। {result}",
     "perfect": "बढ़िया चुनाव भइल! ",
-    "not_max": "Not the maximum."
+    "not_max": "अधिकतम नइखे।"
   }
 }

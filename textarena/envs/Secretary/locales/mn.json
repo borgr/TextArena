@@ -9,7 +9,7 @@
     "wrong_format": "Ажиллага нь [accept] эсвэл [continue] байх ёстой."
   },
   "outcome": {
-    "summary": "You accepted value {value} at draw {draw_num}/{N}. The best overall was {best}. {result}",
+    "summary": "Та утга {value} -г {draw_num}/{N} дахь таталтад хүлээн зөвшөөрлөө. Хамгийн сайн нь {best} байсан. {result}",
     "perfect": "Сайн сонголт!",
     "not_max": "Хамгийн их биш."
   }

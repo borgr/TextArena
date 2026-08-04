@@ -14,7 +14,7 @@
     "intro": "Estás jugando a Le Truc, un juego de bazas para 2 jugadores con una baraja de 40 cartas (rango de mayor a menor: 3 2 A K Q J 7 6 5 4).\nEn cada mano recibes 3 cartas y juegas hasta tres bazas de una carta. El rango más alto gana la baza sin importar el palo; los rangos iguales empatan ('anulada'). Gana la mano llevándote dos bazas, o ganando la primera baza cuando la otra empata; una baza anulada cuenta para quien ganó la primera baza, y si las tres empatan nadie puntúa.\nUna mano vale 1 punto. En tu turno puedes '[raise]' (truc) para aumentar la apuesta: 1->2, luego +2 por cada subida adicional hasta 12. Tu oponente debe '[accept]', '[fold]' o volver a '[raise]'. Quien se retira concede la mano, y quien subió se anota la apuesta anterior a esa subida.\nAcciones: '[play <rank>]' (p. ej. '[play 3]'), '[raise]', '[accept]', '[fold]'. El primero en llegar a 12 puntos gana la partida."
   },
   "board": {
-    "new_hand": "### Nueva mano que vale {points} pto(s)\nTus cartas: {cards}",
+    "new_hand": "### Nueva mano valorada en {points} pt(s)\nTus cartas: {cards}",
     "valid_actions": "Válidas ahora: {legal}."
   },
   "invalid_move": {

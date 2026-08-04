@@ -1,9 +1,9 @@
 {
   "player_prompt": {
-    "intro": "Welcome to Frozen Lake!\n\nYou are represented by 'P' on the grid.\nGrid symbols:\n  ' ' = Frozen surface (safe to walk on)\n  'H' = Hole (fall in and lose!)\n  'G' = Goal (reach this to win!)\n  'P' = Your current position\n\nAvailable actions: up, down, left, right (or w, a, s, d)\nType your action as: [up], [down], [left], [right] or [w], [a], [s], [d]\n\nObjective: Navigate from the start (top-left) to the goal (bottom-right) without falling into any holes!\n"
+    "intro": "འཁྱགས་པའི་མཚེའུ་ལ་དགའ་བསུ་གནང་གསོལ།\n\nཁྱེད་ཀྱི་སྒྱུར་མཚོན་གྱི་རིགས་ནི་མཚེའུ་ཐོག་གི་པི་ཡིག་པ་ཡིན།\nམཚེའུ་ཐོག་གི་མཚོན་རྟགས་རྣམས་ནི།\n  ' ' = འཁྱགས་པའི་ཕྱི་ངོས་(རྐང་པས་འགྲོ་ཆོག)\n  'H' = རི་ཀླུང་(འགྲེམས་ནས་ཤོར་རོ།)\n  'G' = འགྲུབ་འབྲས། (འདི་ལ་སླེབས་ན་རྒྱལ་ཁ་ཐོབ།)\n  'P' = ཁྱེད་ཀྱི་ད་ལྟའི་གནས་ཡུལ།\n\nཁྱེད་ཀྱི་འགུལ་སྐྱོད་རིགས་ནི། ཡར། མར། གཡོན། གཡས། (ཡང་ན་ w, a, s, d)\nཁྱེད་ཀྱི་འགུལ་སྐྱོད་འདི་ལྟར་བྲིས། [up], [down], [left], [right] ཡང་ན་ [w], [a], [s], [d]\n\nའགུལ་སྐྱོད་ཀྱི་དགོས་པ་ནི། འགོ་མགོ་(སྟོད་གཡོན) ནས་འགྲུབ་འབྲས་(སྨད་གཡས) ལ་འགྲོ་བའི་སྐབས་སུ་རི་ཀླུང་གང་ཡང་འགྲེམས་མི་བྱེད་པ་དེ་ཡིན།\n"
   },
   "board": {
-    "current_board": "Current Board:\n\n{board}\n\nAvailable Actions: {actions}"
+    "current_board": "ད་ལྟའི་གཞི་རེའུ།\n\n{board}\n\nཁྱེད་ཀྱི་གནས་ཚུལ། {actions}"
   },
   "invalid_move": {
     "wrong_format": "ལག་ཤེས་ཀྱི་ཚིག་སྡེབ་མི་འདུག། [up]、[down]、[left]、[right] ཡང་ན་[w]、[a]、[s]、[d] ཞེས་བྲིས་ཤིག",
@@ -15,7 +15,7 @@
   },
   "outcome": {
     "win": "བསྟོད་ཚོགས། ཁྱེད་ལ་དམིགས་ཡུལ་ཐོབ་སོང་།",
-    "fell_in_hole": "You fell into a hole! Game over. You completed {pct}% of the journey to the goal.",
-    "turn_limit": "You reached the turn limit! Game over. You completed {pct}% of the journey to the goal."
+    "fell_in_hole": "ཁྱེད་ཀྱིས་གཡང་སར་ལྷུང་བ་ཡིན། རྩེད་མཚམས། ཁྱེད་ཀྱིས་བཀའ་ཡིན་པར་སླེབས་པའི་ལམ་གྱི་{pct}%བསྒྲུབས་པ་ཡིན།",
+    "turn_limit": "ཁྱེད་ཀྱིས་རྩེད་སྐབས་ཀྱི་ཚད་ལས་བརྒལ་བ་ཡིན། རྩེད་མཚམས། ཁྱེད་ཀྱིས་བཀའ་ཡིན་པར་སླེབས་པའི་ལམ་གྱི་{pct}%བསྒྲུབས་པ་ཡིན།"
   }
 }

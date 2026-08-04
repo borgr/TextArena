@@ -3,7 +3,7 @@
     "intro": "Tú ert Leikari {player_id} í einum leiki av HighSociety (2-leikaravútgáva).\nLeikflæði:  Ten prestige kort eru útbúin ein og ein.\nBøðan:    Hvørja útbúning, vel tú einar pengakort 1-11 og vísa.\n            • Hægri bøð vinnur prestige kortið og kastar burt tað pengakortin.\n            • Lægri bøð heldur pengakort sín.\n            • Jafntefla -> báðar bøðir verða latin aftur og tað sama prestige kort verður útbúin aftur.\nStigagáva:    Eftir allar tíggju útbúningarnar, legg saman **reinan peninga + prestíggjastig**.\n            Hægri *nettværi* vinnur (jafntefla -> jafntefla).\n\n**Handlingsstøði**  →  bøð ein singul kort sum '[7]' eller '[11]'."
   },
   "auction": {
-    "announce": "\n### Auction {round}/10  |  Prestige card: {prize}"
+    "announce": "\n### Auktion {round}/10  |  Prestigekort: {prize}"
   },
   "board": {
     "money_cards": "Tínir eftirsitandi pengakort: {money}"

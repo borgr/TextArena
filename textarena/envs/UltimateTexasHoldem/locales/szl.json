@@ -51,7 +51,7 @@
     "blind_won": "✅ WARUJĄCY NA ZAŁOŚĆ wygrała! +${amount}",
     "blind_pushed": " WETNA ZAŚŁOBIYŃKA PUSZCZONA! ${blind} ôddane.",
     "blind_lost": " ŚLIMY zakład przegrany! -${blind}",
-    "play_won": "✅ PLAY bet WON! +${amount}",
+    "play_won": "✅ Zakład PLAY wygrał! +${amount}",
     "play_pushed": " PLAY bet PUSHED! ${play} wrōciōł sie",
     "play_lost": " PLAY bet LOST! -${play} ôbejrzijcie, jak sie to robi.",
     "net_gain": "🎉 Runda {round} zakończona! Netto zysk: +${net}",

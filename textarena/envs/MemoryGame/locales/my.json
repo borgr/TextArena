@@ -13,8 +13,8 @@
     "already_matched": "မမှန်သောလှုပ်ရှားမှု။ ကစားသမား {player_id} သည် ယခင်က ယှဉ်တွဲထားပြီးသား ကတ်တစ်ခု သို့မဟုတ် နှစ်ခုလုံးကို ရွေးချယ်သည်။"
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "ကစားသမား {player_id} သည် နေရာများ [{r1} {c1}] နှင့် [{r2} {c2}] တွင် ရွေးချယ် ခဲ့သော ကတ်များ တူညီ ပါသည်!",
+    "cards_no_match": "ကစားသမား {player_id} သည် ရွေးချယ် ခဲ့သော ကတ်များ မတူညီ ပါ။ နေရာများ [{r1} {c1}] နှင့် [{r2} {c2}] တွင် ကတ်များ သည် {pos1} နှင့် {pos2} အသီးသီး ဖြစ်ပါသည်။"
   },
   "outcome": {
     "draw": "ကစားသမားနှစ်ဦးစလုံးဟာ တူညီတဲ့ ကဒ်စုံ အရေအတွက်ကို ထည့်ပေးခဲ့ကြတယ်။",

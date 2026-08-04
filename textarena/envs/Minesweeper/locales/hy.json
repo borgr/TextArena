@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing the Minesweeper game.\nThe objective of the game is to reveal all cells that do not contain mines.\nTo make a move, simply specify the row and column coordinates you want to reveal using the format:\n- `[row col]`: Reveal the cell at the specified row and column.\nFor example:\n- `[3 2]` to reveal the cell in Row 3, Column 2.\n- `[5 6]` to reveal the cell in Row 5, Column 6.\nOn your first move, you will reveal an area around the cell you choose to ensure a safe start.\nThe current board layout is shown below. Cells that are unrevealed are represented by a dot ('.'), revealed numbers show the count of adjacent mines.\nBe mindful not to choose already revealed cells.\nHere is the current board layout:\n"
+    "intro": "Դուք խաղում եք Minesweeper խաղը։\nԽաղի նպատակն է բացահայտել բոլոր բջիջները, որոնք չեն պարունակում ականներ։\nՈրպեսզի քայլ անեք, պարզապես նշեք շարքի և սյունակի կոորդինատները, որոնք դուք ցանկանում եք բացահայտել հետևյալ ֆորմատով.\n- `[row col]`: Բացահայտեք բջիջը նշված շարքում և սյունակում։\nՕրինակ՝\n- `[3 2]` բացահայտել բջիջը 3-րդ շարքում, 2-րդ սյունակում։\n- `[5 6]` բացահայտել բջիջը 5-րդ շարքում, 6-րդ սյունակում։\nԱռաջին քայլի ժամանակ դուք կբացահայտեք տարածքը բջիջի շուրջ, որը դուք ընտրել եք ապահով սկզբի համար։\nԸնթացիկ տախտակի դասավորությունը ցուցադրված է ստորև։ Բջիջները, որոնք չեն բացահայտվել, ներկայացված են կետով ('.'), բացահայտված թվերը ցույց են տալիս հարակից ականների քանակը։\nԶգույշ եղեք չընտրել արդեն բացահայտված բջիջները։\nԱհա ընթացիկ տախտակի դասավորությունը՝\n"
   },
   "board": {
     "game_board": "Խաղային վահանակ: {board}",
@@ -17,6 +17,6 @@
   },
   "outcome": {
     "win": "Շնորհավորում եմ, դուք հաջողությամբ մաքրել եք Մինսվեյփերի տախտակը:",
-    "turn_limit": "The turn limit has been reached. You successfully uncovered {percent}% of the safe cells."
+    "turn_limit": "Քայլերի սահմանը հասել է. Դուք հաջողությամբ բացահայտել եք {percent}% ապահով բջիջները."
   }
 }

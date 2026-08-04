@@ -21,7 +21,7 @@
     "{scores}": "The pre-rendered per-player list of final scores"
   },
   "player_prompt": {
-    "intro": "You are playing Golf (Card Game) - Player {player_id}.\nGoal: Get the lowest total score in this single round. If columns share the same value, they are summed as 0.\nCard Values: A=1, 2-10=face value, J/Q=10, K=0\n\nActions (use exact brackets):\n- '[draw]' - Draw from deck\n- '[take]' - Take from discard pile\n- '[swap X Y]' - Swap drawn card with position X (row) Y (column)\n- '[discard]' - Discard the drawn card\n"
+    "intro": "Ozali komona Golf (Jeux ya Carte) - Moyambi {player_id}.\nMokono: Fanda na ntalo mokuse ya koleka oyo na ronde oyo. Soki ba colonne bazwaka valeur moko, bazongwa na 0.\nValeur ya Carte: A=1, 2-10=valeur ya kati, J/Q=10, K=0\n\nMikakatano (tia bracket moko moko):\n- '[draw]' - Pesa fiche na jeu\n- '[take]' - Keba fiche na pile ya kotala\n- '[swap X Y]' - Kondima fiche ya pesa na position X (ligne) Y (colonne)\n- '[discard]' - Kotala fiche ya pesa\n"
   },
   "board": {
     "drew": "Olingi: {card}\nSasa olingi [swap X Y] au [discard]",
@@ -43,7 +43,7 @@
   },
   "action_desc": {
     "swapped": "Mokeli {pid} asili {new} na {old} kwa nafasi ({row},{col})",
-    "discarded": "Player {pid} discarded {card}"
+    "discarded": "Moyambi {pid} akotala {card}"
   },
   "message": {
     "deck_empty": "Masano esili na mbala moko.",
@@ -60,7 +60,7 @@
     "cannot_discard_taken": "Okoki te kobwaka karte oyo olongolaki na liboke ya babuku, kasi osengeli kokɔtisa mosusu.",
     "have_drawn_card": "Olingi kadi iliyoangaliwa. Olingi [swap X Y] au [discard]",
     "need_drawn_swap": "Mpo na kofuta, esengeli ozala kaka na mokanda ya libala.",
-    "need_drawn_discard": "You need a drawn card to discard.",
+    "need_drawn_discard": "Ozali komona fiche ya pesa po na kotala.",
     "out_of_bounds": "Nafasi imepita kikomo. Tumia safu 1-{max_row}, safu wima 1-{max_col}",
     "knock_with_card": "Okoki te kobɛta na karte oyo obimisi, osengeli naino kosilisa mosala.",
     "already_knocked": "Moto moko asilaki kobeta mbala oyo.",

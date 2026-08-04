@@ -12,7 +12,7 @@
     "draw": "Pareggio! Tutti doî i zugadöi an segnou {s0}.",
     "round_both_cooperate": "I doî zugadô an cooperou.",
     "round_both_defect": "I doî zugadô an desertòu.",
-    "round_p0_cooperates_p1_defects": "Player 0 cooperated, Player 1 defected.",
-    "round_p0_defects_p1_cooperates": "Player 0 defected, Player 1 cooperated."
+    "round_p0_cooperates_p1_defects": "O Zugador 0 o l'ha cooperòu, o Zugador 1 o no l'ha cooperòu.",
+    "round_p0_defects_p1_cooperates": "O Zugador 0 o no l'ha cooperòu, o Zugador 1 o l'ha cooperòu."
   }
 }

@@ -7,7 +7,7 @@
     "valid_moves": "{observation} Àwọn ìgbésẹ̀ tó bágbà mu: {moves}",
     "no_valid_moves_reset": "{observation} Kò sí ìgbésẹ̀ tó bágbà mu - o lè ní láti sá.",
     "no_valid_moves_step": "{observation} Kò sí ìgbésẹ̀ tó bá òfin mu  o lè ní láti sá fún.",
-    "scores_reset": "{observation} Curren Scores - Black: {black_count}, White: {white_count} ",
+    "scores_reset": "{observation}\nÀwọn Èsì Lọ́wọ́ - Dúdú: {black_count}, Fúnfun: {white_count}\n",
     "scores_step": "{observation} Ìṣirò - Dudu: {black_count}, funfun: {white_count} "
   },
   "invalid_move": {
@@ -16,7 +16,7 @@
   },
   "game_action": {
     "skipped": "Ẹ̀yà eré {pid} ní láti sáà yí ìyí wọn ká",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "Player {pid} ({piece}) gbé [{r}, {c}] tí ó ń ṣẹ̀ṣẹ̀ {flipped} akẹgbẹ"
   },
   "game_message": {
     "must_skip": "Ẹ̀yà eré {pid} ({piece}) kò ní ìgbésẹ̀ tó bá a mu, ó sì gbọ́dọ̀ fo."

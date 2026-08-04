@@ -1,9 +1,9 @@
 {
   "player_prompt": {
-    "intro": "Welcome to Frozen Lake!\n\nYou are represented by 'P' on the grid.\nGrid symbols:\n  ' ' = Frozen surface (safe to walk on)\n  'H' = Hole (fall in and lose!)\n  'G' = Goal (reach this to win!)\n  'P' = Your current position\n\nAvailable actions: up, down, left, right (or w, a, s, d)\nType your action as: [up], [down], [left], [right] or [w], [a], [s], [d]\n\nObjective: Navigate from the start (top-left) to the goal (bottom-right) without falling into any holes!\n"
+    "intro": "Sawubona ku-Frozen Lake!\n\nUyemekelwa 'P' esigridini.\nTibonjana tesigridi:\n  ' ' = Sikwala sesikhala (kulungile ukugijima kuwo)\n  'H' = Mgodu (wele ngaphakathi uwile!)\n  'G' = Injongo (fikha kule ukunqoba!)\n  'P' = Indawo yakho yamanje\n\nTinhlelo tinzima: phezulu, phansi, ekunene, ekusha (noma w, a, s, d)\nBhala tinhlelo takho njengesi: [up], [down], [left], [right] noma [w], [a], [s], [d]\n\nInjongo: Khanyela ekuqaleni (phezulu ekunene) ukufikha kuleyo injongo (phansi ekusha) ungawezi wa wele emgodini!\n"
   },
   "board": {
-    "current_board": "Current Board:\n\n{board}\n\nAvailable Actions: {actions}"
+    "current_board": "Sibhodi samanje:\n\n{board}\n\nImisebenzi inovuliwe: {actions}"
   },
   "invalid_move": {
     "wrong_format": "Tindzimo lesingekho mahlako. Utisa [up], [down], [left], [right] kanye na [w], [a], [s], [d].",
@@ -11,7 +11,7 @@
     "hit_wall": "Wetama kuhamba {action} kodvwa washayisana nelubondza!"
   },
   "game_action": {
-    "moved": "You moved {action} to position ({row}, {col})."
+    "moved": "Uhambe {action} uye endaweni ({row}, {col})."
   },
   "outcome": {
     "win": "Ngiyakuhalalisela, sewuyifinyelele umgomo wakho!",

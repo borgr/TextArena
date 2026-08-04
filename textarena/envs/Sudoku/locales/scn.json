@@ -4,16 +4,16 @@
   },
   "board": {
     "game_board": "Cunsigliu di ghjocu: {board}",
-    "board_state": "Statu di u Cunsigliu: {board}"
+    "board_state": "Statu di la tabelluni: \n{board}"
   },
   "invalid_move": {
     "wrong_format": "Formatu di mossa nvaliddu. Lu jucaturi {player_id} nun rispunniu cu nu nummiru validu dâ rigghia e la culonna.",
-    "out_of_bounds": "Mossa invalida. Giocatore {player_id} ha tentato di posizionare {num} a ({row}, {col}), che è fuori dai limiti.",
-    "overwrite": "Mossa invalida. Giocatore {player_id} ha tentato di sovrascrivere una cella precompilata ({row}, {col}).",
-    "violates_rules": "Mossa invalida. Giocatore {player_id} ha tentato di posizionare {num} a ({row}, {col}), che viola le regole del Sudoku."
+    "out_of_bounds": "Muvimentu invalidu. Lu Jucaturi {player_id} tentò di piazzari {num} a ({row}, {col}), ca è fora di li limiti.",
+    "overwrite": "Muvimentu invalidu. Lu Jucaturi {player_id} tentò di suprascriviri na cèllula già cumplinata ({row}, {col}).",
+    "violates_rules": "Muvimentu invalidu. Lu Jucaturi {player_id} tentò di piazzari {num} a ({row}, {col}), ca viola li regoli di Sudoku."
   },
   "outcome": {
     "win": "Congratulazioni! Lu jocaturi {player_id} cumpletò lu puzzle di Sudoku.",
-    "turn_limit": "U limitu di turnu hè statu righjuntu. Avete cumplettatu currettamente {percent}% di e cellule vuote."
+    "turn_limit": "Lu limiti di turni è statu raggiuntu. Hai riempitu {percent}% di li cèlluli vacanti."
   }
 }

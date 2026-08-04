@@ -1,10 +1,10 @@
 {
   "game_start": {
-    "intro": "The game begins. Trump suit: {trump_suit} (trump card: {trump_str}).",
+    "intro": "Piya pɩɣa. Pɩlaɣa tɛɛ tʊmɩyɛ: {trump_suit} (pɩlaɣa tɛɛ kaɣɖɛ: {trump_str}).",
     "no_trump_card": "Paawɛ peeɖe paa ññɩɩ."
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in German Whist.\n{phase_info}\nYou hold {hand_size} cards.\nPlay a card with '[play N]', where N is its position in your hand (for example '[play 3]').",
+    "intro": "Nyɛ kɩlaɣ {player_id} kɛ German Whist taa.\n{phase_info}\nNyɛ wɛna kɔɔka {hand_size}.\nPɛlɛ kɔɔka na '[play N]', ɛntɛ N yɛ kɔɔka ŋga nɛ wɛna a-tɩm kɛ a-lɩm taa (kpɛlɛkɛ '[play 3]').",
     "phase_learning": "KƖYAKƲ YƆ: Paa kpɩtaʋ ŋgʋ lɛ, weyi ɛwabɩnɩ-kʋ yɔ, ɛmʋʋ kɩlɛmɩŋ yɔɔ kɛdɛsɩ nɛ weyi eleba yɔ, ɛkpaɣ pʋwayɩ.",
     "phase_playing": "Kpaɣnɩ sɔnɔ lɛ, paa aleɣya wena ŋlakɩ yɔ a-tɩŋa akɔŋ sɩnʋʋ nɛ ɖɩwa."
   },
@@ -12,7 +12,7 @@
     "playing_phase": "Pahaɣ ɛyaa takayaɣ nakɛyɛ, mbʋ pʋyɔɔ yɔ aleɣya paɣzɩ.",
     "deck_empty": "Kaɖaɣ fɛyɩ - paapɩzɩɣ nɛ pakpaɣ ka-taa nakɛyɛ.",
     "available": "Takayaɣ ŋga ka-taa pamaɣ yɔ: {card}",
-    "available_trump": "Card on offer: {card} (TRUMP)"
+    "available_trump": "Kaɣɖɛ ŋga wɛɛna: {card} (PɩLAƔA)"
   },
   "invalid_move": {
     "wrong_format": "Pɩfɛyɩ ɖeu se ŋɖɔmna nɛ pɩɖɛɛ. Labɩnɩ tʋmɩyɛ \"[play N]\" pʋcɔ nɛ ŋkpaɣ ña-n̄ʋʋ nɩŋgbaŋaɣ ŋga kɛwɛ ñe-nesi tɛɛ yɔ.",
@@ -24,8 +24,8 @@
     "played": "Ɛyʊ {player_id} ɛlakaɣ tʊma ndɩ ndɩ nɛ payaa-ɩ se {card}."
   },
   "trick": {
-    "won": "Player {winner_id} wins the trick with {card}.",
-    "won_learning": "Player {winner_id} wins the trick with {card} and takes the face-up card."
+    "won": "Pɩlaɣa {winner_id} wɛɛ tʊmɩyɛ ŋga {card}.",
+    "won_learning": "Pɩlaɣa {winner_id} wɛɛ tʊmɩyɛ ŋga {card} ɛlɛ pɩlaɣa tɛɛ kaɣɖɛ."
   },
   "phase": {
     "learning_complete": "Pɩtɛ lɛ, ɖɩpaɣzɩ kpɛlɩkʋʋ nɛ paa aleɣya wena a-taa ɖihikiɣ ñɩm yɔ, awɛ kɩjɛyʋʋ se ɖɩla."
@@ -40,7 +40,7 @@
     "scores_learning": "Tɔm kɛdɩtʊ ɖɩwɩɣ so far - Pɩyalɩ 0: {tricks0}, Pɩyalɩ 1: {tricks1}",
     "scores_playing": "Tɔm kɛdɩtʊ ɖɩwɩɣ - Pɩyalɩ 0: {tricks0}, Pɩyalɩ 1: {tricks1}",
     "phase": "Pɩtɛ alɩwaatʊ: {phase}",
-    "phase_learning": "Phase: {phase} ({remaining_cards} cards left in the deck)"
+    "phase_learning": "Tʊmɩyɛ taa: {phase} ({remaining_cards} kaɣɖɛ pɩlaɣa tɛɛ tʊmɩyɛ taa)"
   },
   "hand": {
     "no_cards": "Kaarɩdɩwaa fɛyɩ.",
@@ -60,17 +60,17 @@
     "not_started": "Tɛtʊ ndʋʋ tɩpaɣzɩna-ɩ.",
     "header": "=== Caama ɛjaɖɛ taa aleɣya===",
     "phase": "{observation}\nPhase: {phase}",
-    "trump_suit": "{observation}\nTrump suit: {trump_suit}",
-    "trump_card": "{observation}\nTrump card: {card}",
-    "cards_left": "{observation}\nCards left in deck: {count}",
+    "trump_suit": "{observation}\nPɩlaɣa tɛɛ tʊmɩyɛ: {trump_suit}",
+    "trump_card": "{observation}\nPɩlaɣa tɛɛ kaɣɖɛ: {card}",
+    "cards_left": "{observation}\nKaɣɖɛ pɩlaɣa tɛɛ tʊmɩyɛ taa: {count}",
     "next_card": "{observation}\nKarti ɖɩnɛ ɖɩlaba naɣa: {card}",
     "blank": "{observation}  ŋgbɛyɛ taa ñɩma",
     "current_trick": "{observation} Lɩmaɣza wena ɛyaa wɛnɩ sɔnɔ yɔ:",
     "trump_indicator": " (TRUMP)",
     "trick_line": "{observation}\n  Player {player_id}: {card}{trump_indicator}",
-    "player_line": "{observation}\nPlayer {player_id}: {scoring} scoring tricks ({tricks} total), {hand_size} cards in hand"
+    "player_line": "{observation}\nPɩlaɣa {player_id}: {scoring} tʊmɩyɛ taa ({tricks} tʊmɩyɛ), {hand_size} kaɣɖɛ pɩlaɣa tɛɛ tʊmɩyɛ taa"
   },
   "outcome": {
-    "summary": "Learning phase - Player 0: {l0}, Player 1: {l1}. Playing phase - Player 0: {p0}, Player 1: {p1}. Player {winner_id} wins with {winner_tricks} scoring tricks!"
+    "summary": "Sɔnzɩ tʊmɩyɛ taa - Pɩlaɣa 0: {l0}, Pɩlaɣa 1: {l1}. Pɩlaɣa tɛɛ tʊmɩyɛ taa - Pɩlaɣa 0: {p0}, Pɩlaɣa 1: {p1}. Pɩlaɣa {winner_id} wɛɛ tʊmɩyɛ ŋga {winner_tricks} tʊmɩyɛ taa!"
   }
 }

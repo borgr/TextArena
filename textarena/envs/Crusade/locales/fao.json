@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({piece}). Opponent is ({opp}). Submit moves as '[b1 c3]' (from → to). All pieces move like chess knights.\nEach capture scores {score_per_capture} point. Game ends after {max_moves} moves or when a player has no legal move / no pieces. Higher score wins."
+    "intro": "Tú ert Spælar {player_id} ({piece}). Mótstøðumaður er ({opp}). Send inn leikir sum '[b1 c3]' (frá → til). Allir leikar flyta sær sum riddarar í skák.\nKvart tilfong givir {score_per_capture} stig. Leikur endar eftir {max_moves} leikir ella tá ein spælari ikki hevur nakað loyvt leik ella eingi leikar. Hægri stig vinnur."
   },
   "board": {
     "current_board": "Førur #{move_count}\n\n{board}\n\nFøruligar Tøk: {moves}"

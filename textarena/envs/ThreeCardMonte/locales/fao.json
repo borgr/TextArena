@@ -11,7 +11,7 @@
     "{ball_pos}": "The cup index the ball is under"
   },
   "player_prompt": {
-    "intro": "Track the hidden ball 'X' while the cups are shuffled.\nAfter shuffling, guess its location with `[k]`."
+    "intro": "Fylg bólinum 'X', meðan kopparnar verða shufflaðar.\nEftir shuffling, gissa staðsetingina við `[k]`."
   },
   "game_message": {
     "ball_starts": "Bóli byrjar: {line}",
@@ -21,7 +21,7 @@
     "reveal": "(Vís: bóltur undir {ball_pos})"
   },
   "invalid_move": {
-    "wrong_format": "Bad action. Use `[k]`.",
+    "wrong_format": "Rang aðgerð. Nýt `[k]`.",
     "out_of_range": "Índeksið er ikki í lagi 0-{max_index}."
   },
   "outcome": {

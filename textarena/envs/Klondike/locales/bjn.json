@@ -16,7 +16,7 @@
     "{cards}": "The cards in a pile as neutral labels, or '--' if empty (never translate)"
   },
   "player_prompt": {
-    "intro": "You are playing Klondike Solitaire. Your goal is to move all cards to the foundation piles.\n\nGame Rules:\n- Foundation piles (F1-F4): Build up from Ace to King in suit\n- Tableau piles (T1-T7): Build down alternating colors (red on black, black on red)\n- Stock: Draw cards to waste pile\n- Waste (W): Top card available for play\n\nCommands:\n- 'draw' - Draw cards from stock to waste\n- 'move <source> <destination> [count]' - Move cards between piles\n  Examples: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count can also be 'all', which will try to move all face-up cards.\n- 'forfeit' - End the game immediately and lock in your current score\n- Pile names: W (waste), F1-F4 (foundations), T1-T7 (tableau)\n\nYou can execute multiple actions in one turn by separating them with commas:\n  Example: 'draw, move W T1, move T2 F1'\n\nOnly Kings can be placed on empty tableau piles.\nActions execute in order - if one fails, the remaining actions are skipped.\nUse 'forfeit' if you believe the game is impossible to win."
+    "intro": "Kamu main Klondike Solitaire. Tujuanmu adalah pindahakan kartu semua ka tumpukan dasar.\n\nAturan Main:\n- Tumpukan dasar (F1-F4): Bangun matan As ka Raja dalam warna\n- Tumpukan meja (T1-T7): Bangun turun warna salang-saling (habang di atas hirang, hirang di atas habang)\n- Stok: Ambil kartu ka tumpukan buang\n- Buang (W): Kartu paling atas tasadia gasan dimainkan\n\nParintah:\n- 'draw' - Ambil kartu matan stok ka tumpukan buang\n- 'move <source> <destination> [count]' - Pindahakan kartu antara tumpukan\n  Contoh: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count kawa jua 'all', nang akan mencuba pindahakan kartu tasadia sadaya.\n- 'forfeit' - Akhiri main langsung wan kunci skormu nang ada\n- Ngaran tumpukan: W (buang), F1-F4 (dasar), T1-T7 (meja)\n\nKamu kawa jalankan aksi banyak dalam satu giliran dengan mamisahkannya lawan koma:\n  Contoh: 'draw, move W T1, move T2 F1'\n\nHanya Raja nang kawa ditaruh di atas tumpukan meja kosong.\nAksi dijalankan bardasarkan urutan - amun salah satu gagal, aksi sasainingnya dihiraukan.\nGunakan 'forfeit' amun kamu parcaya mainan ngini kada kawa dimenangkan."
   },
   "format_error": {
     "no_brackets": "Format aksi kada sah. Aksi harus dalam kurung-kurungan.",
@@ -24,8 +24,8 @@
     "empty_command": "Tugas kosong. Ketik \"draw\" atawa 'move <source><destination> [count]'",
     "empty_action": "Tindakan kosong",
     "move_needs_args": "Parintah pindah mamarluakan sumber wan tujuan. Pamakéan: 'move <source> <destination> [count]'",
-    "count_positive": "Hitung harus positif atawa 'semua'",
-    "count_invalid": "Hitung kada sah. Gunaakan angka atawa 'semua'",
+    "count_positive": "Jumlah harus positif atau 'all'",
+    "count_invalid": "Jumlah tidak valid. Gunakan angka atau 'all'",
     "unknown_command": "Perintah tidak diketahui '{cmd}'. Gunakan 'draw', 'move <source> <destination> [count]', atau 'forfeit'",
     "wrapped": "Aksi {n}: {msg}"
   },

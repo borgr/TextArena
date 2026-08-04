@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "कार्य ढाँचामा हुनुपर्दछ [row col] जहाँ पङ्क्ति र स्तम्भ ० देखि {max_index} सम्मका पूर्णांकहरू हुन्।",
-    "out_of_range": "Coordinates must be between 0 and {max_index}. You entered [{row},{col}]."
+    "out_of_range": "निर्देशांक ० र {max_index} को बीचमा हुनुपर्छ। तपाईले [{row},{col}] प्रवेश गर्नुभयो।"
   },
   "outcome": {
     "win": "बधाई छ! तपाईंले {moves_used} चालमा पहेली समाधान गर्नुभयो!",

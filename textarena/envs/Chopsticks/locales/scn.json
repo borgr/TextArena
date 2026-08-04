@@ -13,8 +13,8 @@
     "invalid_command": "Mossa no validu. Usa “[attack M O]” o “[split L R]”."
   },
   "game_action": {
-    "attack": "P{player_id} attacks P{opp_id}’s hand {opp_idx}: it goes from {opp_val} to {new_val}.",
-    "split": "P{player_id} splits into [{L}, {R}]."
+    "attack": "P{player_id} attacca la manu {opp_idx} di P{opp_id}: passa di {opp_val} a {new_val}.",
+    "split": "P{player_id} si sparti 'n [{L}, {R}]."
   },
   "history": {
     "entry": "P{player_id} {desc}"

@@ -1,9 +1,9 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id}. You are playing Guess The Number.\nYou have to guess the number between {min_number} and {max_number} within {max_turns} turns.\nAs you enter your guess, the game will provide you with hints such as 'higher' or 'lower'.\nYou may provide your response in any manner. Only the number that is wrapped in square brackets will be considered as your guess. For example, [5].\nAs you play, the history of your guesses will be appended below. Use the information to complete the game before you run out of guesses.\nEnter your guess."
+    "intro": "Ngeye Mwana nkenda {player_id}. Ngeye nkenda Mambu a Mbalula.\nNgeye na fwa kusolula mbalula kati ya {min_number} na {max_number} na mikolo {max_turns}.\nNgeye osinga solula, mambu ikutana ngeye na mawete oyo 'kuna juu' to 'kuna nsi'.\nNgeye singa pese mukumbi ngeye na njia yoyi. Mbalula oyo ikukatwa na mikwamba itazwa kama solula ngeye. Kwa mfano, [5].\nNgeye nkenda, mukumbi wa masolula ngeye ikukatwa na nsi. Sumba mawete yina kukwiza mambu liboso ngeye kukwiza mikolo.\nTika solula ngeye."
   },
   "invalid_move": {
-    "wrong_format": "Invalid move format. Player {player_id} did not respond with valid '[number]'.",
+    "wrong_format": "Mbiso ya kutanga yina dosi. Mwanakiti {player_id} kaka sambwisa na 'mbalango ya kuzinga' '[number]'.",
     "out_of_range": "Muntu yina ke bulaka na {player_id} me zaba ntalu ya kele ve na ndonga.",
     "already_guessed": "Muntu yina ke bulaka na nimero {player_id} me zaba dezia ntalu ya bo fwete baka."
   },

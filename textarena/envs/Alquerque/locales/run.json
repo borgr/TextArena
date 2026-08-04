@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({piece}). Opponent is ({opp}).\nSubmit moves as '[a2 a3]' (from → to).\n- A normal move is one forward step to an adjacent empty vertex.\n- A capture is a jump over an adjacent enemy piece landing on the empty node beyond.\nEach capture yields {score_per_capture} points.\nGame ends after {max_moves} moves or when a player has no legal move."
+    "intro": "Uri umukinnyi {player_id} ({piece}). Mwanyaga ni ({opp}).\nTanga mizunguko kama '[a2 a3]' (kuvyinuka → kujegera).\n- Mizunguko ya kawaida ni hatua moja ya mbele kwenye vertex tupu iliyo karibu.\n- Kufungwa ni kuruka kwenye kipande cha adui kilicho karibu kikagonga kwenye nukta tupu iliyo mbele.\nKila kufungwa kunazalisha {score_per_capture} alama.\nMchezo unamalizika baada ya {max_moves} mizunguko au wakati mchezaji hana mzunguko wa kisheria."
   },
   "board": {
     "current_board": "Kuhamisha #{move_count}\n\n{board}"

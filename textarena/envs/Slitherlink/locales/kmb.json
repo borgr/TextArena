@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing Slitherlink on a {R}x{C} grid!\nDraw a single continuous loop so each numbered cell has that many bordering edges.\nToggle edges with:\n  [h r c] - toggle horizontal edge above dots at row r, column c\n  [v r c] - toggle vertical edge left of dots at row r, column c\nNumbers show required edge count, '.' means no constraint.\nYou have up to {max_turns} moves to solve the puzzle."
+    "intro": "O waza kusaka Slitherlink ku {R}x{C} rede!\nTunga lúpuso lusoke lumwe kwamba kila selula ina nomero ina maborda mangi.\nBuka maborda na:\n  [h r c] - buka maborda ya mpwita ku mbala r, koluna c\n  [v r c] - buka maborda ya kikulu ku mbala r, koluna c\nNúmeros emonstra konta ya maborda, '.' kanena kamba hakuna kizuizi.\nO waza na mpaka {max_turns} mikweso ya kutatua jigiti."
   },
   "board": {
     "current_board": "{board} O ibuka ia tange: {progress}"
@@ -10,7 +10,7 @@
     "out_of_bounds": "O mbânji i kala ku thandu dia bola."
   },
   "outcome": {
-    "win": "🎉 You formed a single loop! Puzzle solved!",
+    "win": "🎉 O waza kusaka lúpuso lumwe! Jigiti jatatuliwa!",
     "turn_limit": "O jimbambe ja ku tolola o ima ia iibha, ji moneka ngó."
   }
 }

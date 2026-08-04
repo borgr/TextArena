@@ -10,7 +10,7 @@
   },
   "game_message": {
     "hand_result": "Han {hand_number}: yu {outcome}. Skor bilong yu i go daun long {player_score}, Dila i go daun long {dealer_score}.",
-    "all_complete": "=== All {num_hands} hands complete ===\nWins: {wins}, Losses: {losses}, Draws: {draws}\n"
+    "all_complete": "=== Ol {num_hands} han i pinis ===\nWin: {wins}, Lus: {losses}, Drol: {draws}\n"
   },
   "outcome": {
     "game_over": "Gem i pinis. Skor bilong taim i go daun: Dila: {losses}, Yu: {wins}, Dro: {draws}"

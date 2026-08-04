@@ -16,7 +16,7 @@
     "{cards}": "The cards in a pile as neutral labels, or '--' if empty (never translate)"
   },
   "player_prompt": {
-    "intro": "You are playing Klondike Solitaire. Your goal is to move all cards to the foundation piles.\n\nGame Rules:\n- Foundation piles (F1-F4): Build up from Ace to King in suit\n- Tableau piles (T1-T7): Build down alternating colors (red on black, black on red)\n- Stock: Draw cards to waste pile\n- Waste (W): Top card available for play\n\nCommands:\n- 'draw' - Draw cards from stock to waste\n- 'move <source> <destination> [count]' - Move cards between piles\n  Examples: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count can also be 'all', which will try to move all face-up cards.\n- 'forfeit' - End the game immediately and lock in your current score\n- Pile names: W (waste), F1-F4 (foundations), T1-T7 (tableau)\n\nYou can execute multiple actions in one turn by separating them with commas:\n  Example: 'draw, move W T1, move T2 F1'\n\nOnly Kings can be placed on empty tableau piles.\nActions execute in order - if one fails, the remaining actions are skipped.\nUse 'forfeit' if you believe the game is impossible to win."
+    "intro": "Agay-ayam ka iti Klondike Solitaire. Ti gannuat mo ket mapan amin a cards iti foundation piles.\n\nDagiti Alagaden ti Game:\n- Dagiti foundation piles (F1-F4): Builta ti ngato manipud Ace agingga King iti suit\n- Dagiti tableau piles (T1-T7): Builta ti baba a simsuot dagiti maris (nalabbaga iti nangisit, nangisit iti nalabbaga)\n- Stock: Draw cards iti waste pile\n- Waste (W): Top card a magagam iti panagay-ayam\n\nDagiti Komando:\n- 'draw' - Draw cards manipud stock iti waste\n- 'move <source> <destination> [count]' - Mapan cards iti nagbaetan dagiti piles\n  Dagiti Panangipatarus: 'move W T1', 'move T1 F2', 'move T3 T5 2'. Ti count ket mabalin a 'all', a mangtay-ak a mapan amin a face-up cards.\n- 'forfeit' - Patingga iti game itan a lok-in ti agdama a score mo\n- Dagiti nagan ti pile: W (waste), F1-F4 (foundations), T1-T7 (tableau)\n\nMabalin a mapan dagiti adu a aksion iti maysa a turn babaen ti panagkomi dagiti komma:\n  Panangipatarus: 'draw, move W T1, move T2 F1'\n\nDagiti Kings laeng ti mabalin a mapan iti awan a tableau piles.\nDagiti aksion ket mapan iti urnos - no maysa ket agfallo, dagiti nabati a aksion ket maliklikan.\nUsaren 'forfeit' no namnamaen mo a ti game ket imposible a mapanen."
   },
   "format_error": {
     "no_brackets": "Saan a mabalin nga aramiden ti format. Ti aramid ket nasken iti parentehe.",
@@ -24,8 +24,8 @@
     "empty_command": "Awan ti bilin. I-type 'draw' wenno 'move <source><destination> [count]'",
     "empty_action": "Awan ti aksionna",
     "move_needs_args": "Ti bilin ti move ket agkasapulan iti taudan ken pagturongan. Panagusar: 'move <source> <destination> [count]'",
-    "count_positive": "Ti bilang ket masapul a positibo wenno \"amin\"",
-    "count_invalid": "Saan a maitutop ti bilang. Agusar iti numero wenno 'amin'",
+    "count_positive": "Ti count nasken a positibo wenno 'all'",
+    "count_invalid": "Saan a nasayaat a count. Usaren numero wenno 'all'",
     "unknown_command": "Saannot a komento '{cmd}'. Usaren 'draw', 'move <source> <destination> [count]', wenno 'forfeit'",
     "wrapped": "Action {n}: {msg}"
   },

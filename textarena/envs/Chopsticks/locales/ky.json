@@ -14,13 +14,13 @@
   },
   "game_action": {
     "attack": "P{player_id} кол салат P{opp_id} колуна {opp_idx}: ал {opp_val}ден {new_val}ге чейин барат.",
-    "split": "P{player_id} splits into [{L}, {R}]."
+    "split": "{player_id} оюнчусу [{L}, {R}] деп бөлүштүрдү."
   },
   "history": {
     "entry": "П{player_id} {desc}"
   },
   "outcome": {
     "win": "Эки кол тең өлөт.",
-    "draw": "The turn limit has been reached."
+    "draw": "Кезектин чеги жетти."
   }
 }

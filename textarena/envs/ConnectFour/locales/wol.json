@@ -1,15 +1,15 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in Connect Four.\nYour disc symbol: {symbol}.\nThe game board has {num_rows} rows and {num_cols} columns.\nPlayers take turns dropping their disc into one of the columns (0 to {end_col}).\nThe first to connect (their own) four discs vertically, horizontally, or diagonally wins.\nOn your turn, enter the column number in squared brackets to make your move.\nFor example: '[col 4]' or '[col 1]'."
+    "intro": "Yaa ngone jàngoro {player_id} ci Connect Four.\nBennu ngone: {symbol}.\nTaflé bi amna {num_rows} rawu ak {num_cols} koli.\nJàngoro yi ñëw ñëw ñu joxe seen bennu ci benn koli (0 ba {end_col}).\nKépp ku ci gën a jël (bennam) ñeenti bennu ci suuf, wëram, mbaa ci diggante.\nCi tawu ngone, bindaayu koli bi ci squared brackets ngir def seen taw.\nNekk na: '[col 4]' mbaa '[col 1]'."
   },
   "board": {
     "board_visible_state": "Sénégal: {board_visual}",
     "board_notvisible_state": "Jëfandikukat bii du gis jokkoo yi."
   },
   "invalid_move": {
-    "wrong_format": "Player {player_id}, Invalid action format. Expected format: '[col x]'.",
-    "out_of_range": "Player {player_id}, Invalid action. Column {col} is out of bounds.",
-    "already_full": "Player {player_id}, Invalid action. Column {col} is full."
+    "wrong_format": "Jàngoro {player_id}, Formatu taw bi du saaf. Format biy joge: '[col x]'.",
+    "out_of_range": "Jàngoro {player_id}, Taw bi du saaf. Koli {col} du ci diggante.",
+    "already_full": "Jàngoro {player_id}, Taw bi du saaf. Koli {col} tasse."
   },
   "action": {
     "dropped_disk": "Jigeen {player_id} tàmbli na disk ({player_symbol}) ci colom {col}."

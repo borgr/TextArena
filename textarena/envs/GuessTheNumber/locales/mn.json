@@ -13,6 +13,6 @@
   },
   "outcome": {
     "win": "Баярлалаа! Чи зөв тоог таамагласан.",
-    "turn_limit": "The turn limit has been reached. Guess: {guess}, Target: {target}"
+    "turn_limit": "Ээлжийн хязгаар хүрсэн. Таамаглал: {guess}, Цэл тоо: {target}"
   }
 }

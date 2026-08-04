@@ -13,8 +13,8 @@
     "already_matched": "ល្បឿនមិនត្រឹមត្រូវ: កីឡាករ {player_id} បានជ្រើសរើសកាតមួយឬទាំងពីរដែលត្រូវបានផ្ទៀងផ្ទាត់រួចមកហើយ ។"
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "កាតដែលអ្នកលេង {player_id} បានជ្រើសរើសនៅមុខតំណែង [{r1} {c1}] និង [{r2} {c2}] ត្រូវគ្នា!",
+    "cards_no_match": "កាតដែលអ្នកលេង {player_id} បានជ្រើសរើសមិនត្រូវគ្នា។ កាតនៅមុខតំណែង [{r1} {c1}] និង [{r2} {c2}] គឺ {pos1} និង {pos2} រៀងគ្នា។"
   },
   "outcome": {
     "draw": "កីឡាករទាំងពីរបានប្រកួតជាមួយចំនួនដដែលនៃគូកាត។",

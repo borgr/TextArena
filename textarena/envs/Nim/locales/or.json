@@ -13,7 +13,7 @@
     "exceeds_pile": "{quantity}କୁ {pile_index}ସ୍ତମ୍ଭରୁ ହଟାଯାଇପାରିବ ନାହିଁ (କେବଳ {pile_count} ବାମ) ।"
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "ଖେଳାଳି {player_id} [{pile_index} {quantity}] ଖେଳି, ଢେରୀ {pile_index} ରୁ {quantity} ବସ୍ତୁ(ଗୁଡିକ) ହଟାଇ ।"
   },
   "outcome": {
     "win": "ଖେଳାଳି {player_id} ଶେଷ ବସ୍ତୁ ନେଇଗଲେ !"

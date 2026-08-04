@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are in a room with {num_buttons} buttons: {buttons}. Each button is associated with a Bernoulli distribution with a fixed but unknown mean; the means for the buttons could be different.\nFor each button, when you press it, you will get a reward that is sampled from associated distribution.\nYou have {num_turns} time steps and, on each time step, you can choose any button and receive the reward.\nYour goal is to strategically choose buttons at each time step to collect information about their reward distribution, that will let you choose the button with the highest mean reward correctly at the end of {num_turns} turns."
+    "intro": "I room-ah {num_buttons} button awm a, {buttons}. Button tinrengah Bernoulli distribution pakhat a awm a, a mean chu fixed mahse hriat loh a ni; button tin mean a inang lo thei bawk.\nButton tinah, i press chuan, a distribution atanga sample reward i dawng ang.\nI nei {num_turns} time steps a, time step tinah, button i duh ber i thlang thei a, reward i dawng ang.\nI tum ber chu, time step tinah button i thlang turah dan tha i hmang a, an reward distribution chungchang i hriat theih nan, {num_turns} turns tawp lamah mean reward sang ber nei button i thlang thei tur a ni."
   },
   "board": {
     "stat_line": "{button}: {reward} ({count} vawn thlen)",

@@ -4,7 +4,7 @@
   },
   "board": {
     "game_board": "El tableru de xuegu: {board}",
-    "board_state": "Board state: \n{board}"
+    "board_state": "Estáu de la cuadrícula: \n{board}"
   },
   "invalid_move": {
     "wrong_format": "El xugador {player_id} nun respondió col númberu válidu de la fila.",

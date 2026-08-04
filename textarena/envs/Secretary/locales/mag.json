@@ -11,6 +11,6 @@
   "outcome": {
     "summary": "आपने ड्रा {draw_num}/{N} में मूल्य {value} स्वीकार किया। सर्वोत्तम समग्र {best} था। {result}",
     "perfect": "सही विकल्प! ",
-    "not_max": "Not the maximum."
+    "not_max": "सबसे ऊंचा नइखे।"
   }
 }

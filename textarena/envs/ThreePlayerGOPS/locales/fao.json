@@ -14,14 +14,14 @@
     "{scores}": "The final scores as a raw player-number to score mapping - do not translate"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player GOPS.\n- You hold the 13 cards A-K (each exactly once).\n- Each round a prize is revealed. Submit ONE card like `[Q]`, `[10]`, `[2]` …\n- Highest card wins the prize (+ any carry-over pot). Ties roll the prize into the next round.\n- After 13 rounds, highest total wins. Invalid moves = elimination."
+    "intro": "Tú ert Spælari {player_id} í Three-Player GOPS.\n- Tú heldur 13 kortini A-K (hvørt einasta sinni).\n- Hvørt umfar verður eitt vinningarkort víst. Send ein kort sum `[Q]`, `[10]`, `[2]` …\n- Hægsta kortið vinnur vinningin (+ evt. uppsamlan pott). Javnspil flytur vinningin til næsta umfar.\n- Eftir 13 umfar, vinnur hægsta samlaða stig. Ógyldugar leikir = útskotan."
   },
   "round": {
     "header": "### Rúna {round}/13 - Virðisbónus: {prize} (verður {worth})",
     "hand": "Tín verandi hond: {hand}"
   },
   "reveal": {
-    "win": "Bids » {bids} - Player {winner} wins {pot}.",
+    "win": "Bud » {bids} - Spælari {winner} vinnur {pot}.",
     "tie": "Býtið  {bids} - javnleikur, pottur nú {pot}.",
     "scores": "Skólar → {scoreline}"
   },

@@ -7,11 +7,11 @@
     "available_actions": "Siziñ mevcut areketleriñiz: {available_actions}"
   },
   "invalid_move": {
-    "wrong_format": "Action must be [Check], [Bet], [Call], or [Fold].",
+    "wrong_format": "Areket [Check], [Bet], [Call] yada [Fold] olmalı.",
     "not_legal": "Areket {legal_actions} olmalı."
   },
   "action": {
-    "submit_move": "Player {player_id}, submitted move: '[{move}]'.",
+    "submit_move": "Oyuncu {player_id}, areketini bildirdi: '[{move}]'.",
     "valid_actions": "Siziñ mevcut areketleriñiz: {legal_actions}.",
     "round_summary": "{reason} Cariy hesablari: Oynaci 0: '{player_0_chips}'; Oynaci 1: '{player_1_chips}'"
   },

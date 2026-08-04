@@ -14,7 +14,7 @@
     "{scores}": "The final scores as a raw player-number to score mapping - do not translate"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player GOPS.\n- You hold the 13 cards A-K (each exactly once).\n- Each round a prize is revealed. Submit ONE card like `[Q]`, `[10]`, `[2]` …\n- Highest card wins the prize (+ any carry-over pot). Ties roll the prize into the next round.\n- After 13 rounds, highest total wins. Invalid moves = elimination."
+    "intro": "D kemm iḍef {player_id} deg Three-Player GOPS.\n- Ṭṭef 13 n tkarḍiwin A-K (yiwet yiwet).\n- Yal ddur, lexlaṣ yettwabeyyen. Ssifeḍ tkarḍa yiwet am `[Q]`, `[10]`, `[2]` …\n- Tkarḍa tafellayt ternu lexlaṣ (+ akk ayen yellan deg-s). Tifin n tasanḍaḍt ṭṭṛuḍ lexlaṣ ɣer ddur ameḍyan.\n- Seld 13 n dduren, aqemmuḥ ameqqran yernu. Iɣewwaṛen ur nelli ara = yettwaxṣer."
   },
   "round": {
     "header": "### Aseggas {round}/13 - Aɣellum: {prize} (aqenṭar {worth})",

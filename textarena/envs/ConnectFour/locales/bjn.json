@@ -12,7 +12,7 @@
     "already_full": "Pemain {player_id}, Tindakan tidak valid. Kolom {col} sudah penuh."
   },
   "action": {
-    "dropped_disk": "Player {player_id} dropped their disk ({player_symbol}) into column {col}."
+    "dropped_disk": "Pemain {player_id} menjatuhkan cakram mereka ({player_symbol}) ke kolom {col}."
   },
   "outcome": {
     "win": "Pamain {player_id} manang lawan manyambungakan ampat!",

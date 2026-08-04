@@ -1,9 +1,9 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({piece}). Opponent is ({opp}). Submit moves as '[b1 c3]' (from → to). All pieces move like chess knights.\nEach capture scores {score_per_capture} point. Game ends after {max_moves} moves or when a player has no legal move / no pieces. Higher score wins."
+    "intro": "Kcemm iseqdac {player_id} ({piece}). Annaɣmas d ({opp}). Rzem tazmart s yif ' [b1 c3] ' (zɣ → ɣer). Akk ticarixt tazmart am tazmart n ccix. \nKull tazmart n uɣrar tazmart {score_per_capture} n uɣrar. Arur tazmart tɣiri s {max_moves} n tazmart neɣ mi iseqdac ur yezmir ad ixeddem / ur illi ticarixt. Uɣrar meqqer yernu."
   },
   "board": {
-    "current_board": "Move #{move_count}\n\n{board}\n\nAvailable Moves: {moves}"
+    "current_board": "Tazmart #{move_count}\n\n{board}\n\nTazmart yezmer : {moves}"
   },
   "invalid_move": {
     "bad_format": "ⵓⵔ ⵉⵃⵍⵉⵏ ⵓⴽⵙⵓⵎ. ⵙⵎⵔⴰⵙⵏ \"[b1 c3]\".",
@@ -13,8 +13,8 @@
     "not_knight": "ⵓⵔ ⴷ ⵜⴰⵙⵏⵜⴰⵢⵜ ⵏ ⵓⵅⴷⴷⴰⵎ."
   },
   "game_action": {
-    "moved": "Player {player_id} moved their piece from {frm} to {to}.",
-    "capture": "{observation} Capturing a piece! (+{score_per_capture})"
+    "moved": "Iseqdac {player_id} ixeddem ticarixt ines zɣ {frm} ɣer {to}.",
+    "capture": "{observation} Tazmart n uɣrar! (+{score_per_capture})"
   },
   "outcome": {
     "no_pieces": "ⵓⵔ ⵖⵓⵔ ⵓⵎⵙⵡⴰⵔ {player_id} ⴽⵔⴰ ⵏ ⵜⴱⵔⵣⴰ.",

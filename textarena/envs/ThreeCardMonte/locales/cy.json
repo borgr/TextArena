@@ -11,17 +11,17 @@
     "{ball_pos}": "The cup index the ball is under"
   },
   "player_prompt": {
-    "intro": "Track the hidden ball 'X' while the cups are shuffled.\nAfter shuffling, guess its location with `[k]`."
+    "intro": "Dilyn y bêl gudd 'X' tra bod y cwpannau'n cael eu cymysgu.\nAr ôl cymysgu, dywedwch ei leoliad gyda `[k]`."
   },
   "game_message": {
     "ball_starts": "Mae'r bêl yn dechrau: {line}",
     "shuffle": "Cwblhau {step}/{steps}: cwpanau wedi'u cyfnewid {i} a {j}.",
     "cups": "Cwpanau: {line} {prompt}",
-    "guess_now": "(Rhoi dyfalu NOW!)",
+    "guess_now": "(Dywedwch Nawr!)",
     "reveal": "(Dangos: bêl o dan {ball_pos})"
   },
   "invalid_move": {
-    "wrong_format": "Bad action. Use `[k]`.",
+    "wrong_format": "Gweithred ddrwg. Defnyddiwch `[k]`.",
     "out_of_range": "Mae'r index allan o'r ystod 0-{max_index}."
   },
   "outcome": {

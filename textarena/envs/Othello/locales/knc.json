@@ -3,7 +3,7 @@
     "intro": "You are Player {player_id} playing {colour} ({piece}) in a game of Othello.\nYour goal is to have more pieces of your color on the board by the end of the game.\nOn your turn, place a piece such that it flanks one or more of your opponent's pieces-in any direction (horizontal, vertical, or diagonal)-between your new piece and another of your existing pieces. All flanked opponent pieces will be flipped to your color.\nProvide your move in the format '[row, col]'."
   },
   "board": {
-    "game_board": "Game Board: {board}",
+    "game_board": "Tàwà ɗáràwá:\n{board}",
     "valid_moves": "{observation}\nKárángù Múusù: {moves}",
     "no_valid_moves_reset": "{observation} Kәndaramma kalkal ba - nyiye sǝkkin.",
     "no_valid_moves_step": "{observation} Kǝndaramma kalkal gәnyi wo. Nyiye sәdin ba ro waljin.",
@@ -16,10 +16,10 @@
   },
   "game_action": {
     "skipped": "Kambiwu {pid} dǝga kǝla loktǝnzǝn gǝrjin ba.",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "Káma {pid} ({piece}) tàwà [{r}, {c}] ɓáwáɗí {flipped} káma"
   },
   "game_message": {
-    "must_skip": "Player {pid} ({piece}) has no valid moves and must skip."
+    "must_skip": "Káma {pid} ({piece}) bá tàwà ɓáwáɗí káma káma náwáɗí káma káma."
   },
   "outcome": {
     "black_wins": "Black ye kǝnasar {black_count}-{white_count}.",

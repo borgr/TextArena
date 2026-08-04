@@ -7,7 +7,7 @@
     "{cell}": "A board cell number between 0 and 8"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Tic Tac Toe.\nYour goal is to win three in a row (horizontally, vertically, or diagonally) on the board.\nOn your turn, you should select the square number (0-8) you want to put your mark in next.\nFor example, '[4]' places your mark in the center cell of the board.\nAs Player {player_id}, you will be '{symbol}', while your opponent is '{opponent_symbol}'."
+    "intro": "Ngwe udi Mwana-kudikila {player_id} mu Tic Tac Toe.\nKimbundu kya kuwina, ngwe udi na kudikila mitatu mfululizo (ku lunga, ku tala, kana ku mpaka) ku tala ya kudikila.\nKwa kudikila kwaku, ngwe udi na kuteka ombala ya kudikila (0-8) ngwe unganaka kuteka kima kwaku.\nKwa kudikilakwaku, '[4]' kuteka kima kwaku ku kati ya tala ya kudikila.\nNgwe Mwana-kudikila {player_id}, ngwe udi na kuwa '{symbol}', kana ngwe udi na kudikila '{opponent_symbol}'."
   },
   "board": {
     "current_board": "Tala ya Kuwasha:\n\n{board}\n\nMikisi Inayopatikana: {moves}"

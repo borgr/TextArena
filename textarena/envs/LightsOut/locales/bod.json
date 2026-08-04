@@ -6,8 +6,8 @@
     "current_state": "འཕྲིན་རྒྱུན་གྲིབ་གྱི་སྐོར། (རྩེ་འཇོག་{moves_made}، {moves_left} འཇོག་སྟངས་བཞིན་ཡོད་，{completion}% རྫོགས་ཚར་)：\n{grid}"
   },
   "invalid_move": {
-    "wrong_format": "Action must be in format [row col] where row and col are integers from 0 to {max_index}.",
-    "out_of_range": "Coordinates must be between 0 and {max_index}. You entered [{row},{col}]."
+    "wrong_format": "{max_index} ནས 0 བར་གྱི་ གྲངས་ཀྱི་ཚད་གཞི་ལྟར་གྱི་ [row col] ཡིག་གཟུགས་འོག་ཏུ་བསྟན་དགོས།",
+    "out_of_range": "ས་ཁྱོན་ནི་0 ནས་{max_index} བར་ཡིན་པར་བསྟོད། ཁྱེད་ཀྱིས་[{row},{col}] བསྟོད་པ་ཡིན།"
   },
   "outcome": {
     "win": "བསྟོད་ཚོགས། ཁྱོད་ཀྱིས་གབ་ཚིག་འདི་ཧྲིལ་བུར་ ({moves_used}) གྱིས་སྒྲུབས་སོང་།",

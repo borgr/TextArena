@@ -1,9 +1,9 @@
 {
   "player_prompt": {
-    "intro": "You are playing Blackjack against the dealer.\nYour goal is to get as close to 21 as possible without going over.\nOn your turn, choose '[Hit]' to draw another card or '[Stand]' to hold.\nJ/Q/K = 10 points; A = 11 or 1, whichever is better.\n"
+    "intro": "Mwena uli na kusebanya Blackjack pamo na dela.\nCilochelo chako ni kufikia 21 bila kupita.\nPa zamu yako, sana '[Hit]' ukutole nkhani nyingine, '[Stand]' ukubwele.\nJ/Q/K = pointi 10; A = 11 kapena 1, kulingana na kile kilicho bora.\n"
   },
   "board": {
-    "current_state": "Hand {hand_number}/{num_hands}\nYour hand: {player_hand} (Score: {score})\nDealer shows: {dealer_card}"
+    "current_state": "Mwendo {hand_number}/{num_hands}\nMwendo wako: {player_hand} (Alama: {score})\nDela anaonesha: {dealer_card}"
   },
   "invalid_move": {
     "wrong_format": "Kugwirizana kwakukana. Tumia '[Hit]' kapena '[Stand]'."

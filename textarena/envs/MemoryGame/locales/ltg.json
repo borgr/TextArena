@@ -13,8 +13,8 @@
     "already_matched": "Naatbylstūšs sūļs. {player_id} spēlētājs ir īvieliejs vīnu voi obejis kartis, kas jau beja saskaņuotys."
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "Kortys, izvēlētys Spēlētuoja {player_id} pozīcejūs [{r1} {c1}] i [{r2} {c2}], līdzīn!",
+    "cards_no_match": "Kortys, izvēlētys Spēlētuoja {player_id}, nav līdzīnys. Kortys pozīcejūs [{r1} {c1}] i [{r2} {c2}] ir {pos1} i {pos2} atsīkš."
   },
   "outcome": {
     "draw": "Obeji spēlētāji sasadorbuoja ar vīnu i tū pošu puoru karteņu skaitu.",

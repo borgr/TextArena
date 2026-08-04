@@ -1,9 +1,9 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in an Iterated Prisoner's Dilemma spanning {num_rounds} rounds.\n\nGame Structure:\n- Before each decision you have {total_conversation_rounds} turns to communicate freely.\n- After that, both players simultaneously choose to cooperate or defect.\n\nPayoff Matrix (fixed each round):\n- Both Cooperate ➜ each {cooperate_reward}\n- Both Defect ➜ each {mutual_defect_reward}\n- One Defects, one Cooperates ➜ Defector {defect_reward}, Cooperator {sucker_reward}\n\nHow to Play:\n- During conversation: type any text you wish.\n- During decision phase: include '[Cooperate]' or '[Defect]' (case-insensitive). You may add extra text before/after the token."
+    "intro": "Yin e jiäär Player {player_id} kuäär Iterated Prisoner's Dilemma e jiäär {num_rounds} kuäär.\n\nTɛ̈ɛ̈m de jiäär:\n- Ɛ ca jiäär ke cieŋ, yin e jiäär {total_conversation_rounds} kuäär lɔ̈ɔ̈ŋ ke cɔl.\n- Ɛ ca jiäär ke nɛ̈k, ɣɔnɛ̈ɛ̈ŋ jiäär ke cieŋ kuäär defect.\n\nKäŋ de jiäär (cieŋ kuäär):\n- Ɣɔnɛ̈ɛ̈ŋ Cooperate ➜ käŋ {cooperate_reward}\n- Ɣɔnɛ̈ɛ̈ŋ Defect ➜ käŋ {mutual_defect_reward}\n- Ɛ ca jiäär Defects, ɣɔnɛ̈ɛ̈ŋ Cooperate ➜ Defector {defect_reward}, Cooperator {sucker_reward}\n\nKäŋ jiäär:\n- Ɛ ca jiäär cɔl: yin e jiäär ke cieŋ.\n- Ɛ ca jiäär ke nɛ̈k: yin e jiäär '[Cooperate]' kuäär '[Defect]' (cieŋ kuäär). Yin e jiäär ke cieŋ yɔ̈ɔ̈ŋ/ɣɔ̈ɔ̈ŋ token."
   },
   "phases": {
-    "conversation_finished": "Conversation finished for round {round}. Please reply with '[Cooperate]' or '[Defect]' within \\boxed{{}}.",
+    "conversation_finished": "Cɔl jiäär ke cieŋ kuäär {round}. Yin e jiäär '[Cooperate]' kuäär '[Defect]' \\boxed{{}}.",
     "starting_round": "--- Luɔ̱c in tok rɔ {round} ---",
     "round_summary": "Round {round} kɛ̈kɛ̈:\n{outcome}\nRiäŋ 0 kuɛ̈r {r0} (total {score_0}), Riäŋ 1 kuɛ̈r {r1} (total {score_1})."
   },

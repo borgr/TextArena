@@ -10,7 +10,7 @@
     "illegal_move": "Peurangoe nyan ilegal."
   },
   "outcome": {
-    "win": "Solved with one peg remaining! (Geupeuglah ngon saboh patok nyang mantong na)",
+    "win": "Selesai ngon saboh péng nyang tinggai!",
     "no_moves": "Hana le nyang jak."
   }
 }

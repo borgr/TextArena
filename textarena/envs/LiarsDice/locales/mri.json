@@ -33,7 +33,7 @@
     "caller_loses": "Kaitakaro {current_player_id} ka karanga! Ko te tatau tūturu o te kanohi {face_value} ko {count}, koia ko te nui ake ranei {quantity}.\nKaitakaro {loser_id} (te kaitāpae) ka potea kotahi kōwhatu."
   },
   "action": {
-    "bid_announce": "Player {player_id} bids {quantity} of face {face_value}."
+    "bid_announce": "Kaitākaro {player_id} tono {quantity} o te uara mata {face_value}."
   },
   "invalid_move": {
     "call_no_bid": "I waea atu me te kore tono i mua.",

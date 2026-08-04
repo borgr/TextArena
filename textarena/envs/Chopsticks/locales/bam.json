@@ -1,9 +1,9 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in Chopsticks. On your turn, choose one of:\n  + Attack:  '[attack M O]'  where M=your hand (0 or 1), O=opponent hand (0 or 1).\n    - Opponent's hand count increases by your hand; if >=5, it becomes 0.\n  + Split:   '[split L R]'  to redistribute your total fingers into L and R (L+R = your total).\nReply with exactly one of those commands."
+    "intro": "I ni jεgε {player_id} ye Chopsticks. Ni i ka tεmε, tafacogo kelen ye:\n  + Kale:  '[attack M O]'  ka M=i ka liman (0 walima 1), O=kɔnɔ liman (0 walima 1).\n    - Kɔnɔ liman kɔnɔ bɔyɔra i ka liman; ni a ≥5, a bɛɛ bɛɛ 0.\n  + Fari:   '[split L R]'  ka i ka kɔnɔ bɔyɔrɔ L ani R (L+R = i ka kɔnɔ bɔyɔrɔ).\nKɛlɛ ni kelen ye o kɔmandi wɛrɛw."
   },
   "board": {
-    "current_board": "Current Board:\nPlayer 0: {hands_0}\nPlayer 1: {hands_1}"
+    "current_board": "Bɔri kɔnɔ:\nJεgε 0: {hands_0}\nJεgε 1: {hands_1}"
   },
   "invalid_move": {
     "my_hand_dead": "I bolo {my_idx} salen don.",
@@ -14,7 +14,7 @@
   },
   "game_action": {
     "attack": "P{player_id} kɛ {opp_id} kɔnɔnɛ {opp_idx}: a bɛ a to {opp_val} si {new_val}.",
-    "split": "P{player_id} splits into [{L}, {R}]."
+    "split": "P{player_id} fari ni [{L}, {R}]."
   },
   "history": {
     "entry": "P{player_id} {desc}"

@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a {max_rounds} round game of Kuhn Poker.\nGame Rules:\n- Kuhn Poker uses a 3-card deck with J, Q, K (J lowest, K highest)\n- Each player antes {ante} chip and receives 1 card each round (note that the cards are dealt without replacement, so you cannot have the same card as your opponent).\n- Game continues for {max_rounds} rounds\n- The player with the most chips after all rounds wins\nAction Rules:\n- '[check]': Pass without betting (only if no bet is on the table)\n- '[bet]': Add 1 chip to the pot (only if no bet is on the table)\n- '[call]': Match an opponent's bet by adding 1 chip to the pot\n- '[fold]': Surrender your hand and let your opponent win the pot"
+    "intro": "Káma káma {player_id} a káma {max_rounds} káma ɗe Kuhn Poker.\nKáma ɗe:\n- Kuhn Poker ásá 3-káma ɗe J, Q, K (J ásáɗe, K ásáɓe)\n- Káma káma ántá {ante} ɗe káma káma 1 káma káma káma (ɓana káma káma káma káma káma káma káma káma).\n- Káma káma {max_rounds} káma\n- Káma káma ɗe ɓana káma káma káma káma.\nKáma ɗe:\n- '[check]': Káma káma káma káma káma (ɓana káma káma káma káma káma káma).\n- '[bet]': Káma káma 1 ɗe káma káma káma (ɓana káma káma káma káma káma káma).\n- '[call]': Káma káma káma káma káma káma káma káma káma káma.\n- '[fold]': Káma káma káma káma káma káma káma káma káma."
   },
   "init_round": {
     "round_start": "### Innde rundu {current_round} caka {max_rounds} rundee. Kaartiɗu e: '{player_card}'",
@@ -11,12 +11,12 @@
     "not_legal": "Awo diwo dǝ shima {legal_actions}."
   },
   "action": {
-    "submit_move": "Player {player_id}, submitted move: '[{move}]'.",
+    "submit_move": "Káma {player_id}, káma káma: '[{move}]'.",
     "valid_actions": "Awo-a do nyiye karǝngǝn dǝ: {legal_actions}.",
     "round_summary": "{reason} Maaɓe caka: Mbolle 0: '{player_0_chips}'; Mbolle 1: '{player_1_chips}'"
   },
   "showdown": {
-    "showdown_summary": "Showdown: Player {winner}'s {winner_card} beats Player {loser}'s {loser_card}. Player {winner} wins pot of {pot_value} chips."
+    "showdown_summary": "Káma káma: Káma {winner} káma {winner_card} káma Káma {loser} káma {loser_card}. Káma {winner} káma káma {pot_value} ɗe."
   },
   "outcome": {
     "draw": "Dareram {max_rounds} roundsbe dən, bikkewa indisoye jimla tilo'a mbeji.",

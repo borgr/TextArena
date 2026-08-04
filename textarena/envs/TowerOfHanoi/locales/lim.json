@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing Tower of Hanoi with {num_disks} disks.\nYou have to move the disks from tower A to tower C.\nTo move a disk, type the source tower and the target tower (e.g., '[A C]').\nNote that you can only move the top disk of a tower, and that a bigger disk cannot be placed on a smaller disk.\nAt each turn, submit one move."
+    "intro": "Doe speuls Tower of Hanoi mit {num_disks} sjieven.\nDoe mós de sjieven verplaatsen van toren A nao toren C.\nOm 'ne sjief te verplaatsen, typ de bron toren en de doel toren (bv. '[A C]').\nHaw in de gater det doe allein de baoveste sjief van 'ne toren kins verplaatsen, en det 'ne groeëtere sjief neet op 'ne kleiner sjief gezat kin waere.\nBie eder beurt, gief ein zet door."
   },
   "board": {
     "current_board": "Huidig Besjtuur: {board}."
@@ -17,6 +17,6 @@
   },
   "outcome": {
     "win": "Gefeliciteerd, ge höb 't puzzel van de toren vaan Hanoi opgelos.",
-    "turn_limit": "The turn limit has been reached. You correctly placed {pct}% of the disks on Tower C."
+    "turn_limit": "De beurtelimiet is bereik. Doe höbs {pct}% van de sjieven correct op toren C gezat."
   }
 }

@@ -21,7 +21,7 @@
     "{total}": "Each player's tied final total (a number)"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id}, playing {num_rounds} rounds of Iterated Ultimatum Game.\nYou have ${pool} to split this round between yourself and Player {other_id}.\n\nProposer:\n  - Make an offer: [Offer: $X] (0 <= X <= pool)\n  - If accepted → You get $(pool - X), other player gets $X\n  - If rejected → Both get $0\n  - Example: [Offer: $3]  or  'I think this is fair. [Offer: $5]'\n\nResponder:\n  - Decide on the offer with either [Accept] or [Reject]\n  - Example: 'That seems reasonable. [Accept]'\n            'Too unfair. [Reject]'\n"
+    "intro": "سیز اوْیونچو {player_id} سیز، {num_rounds} دور Iterated Ultimatum Game اوْیناییرسینیز.\nبو دوردا سیزین و اوْیونچو {other_id} آراسیندا ${pool} پول وار.\n\nپیشنهاد وئرن:\n  - بیر تکلیف وئرین: [Offer: $X] (0 <= X <= pool)\n  - اگر قبول ائدیلسه → سیز $(pool - X) آلیرسینیز، باشقا اوْیونچو $X آلیر\n  - اگر رد ائدیلسه → هر ایکیسیز $0 آلیرسینیز\n  - مثال: [Offer: $3]  یا  'من فیکر ائدیرم کی بو عادلانه دیر. [Offer: $5]'\n\nپاسخ وئرن:\n  - تکلیفی [Accept] یا [Reject] ایله قرار وئرین\n  - مثال: 'بو عادلانه گؤرونور. [Accept]'\n            'چوخ عادلانه دئییل. [Reject]'\n"
   },
   "round": {
     "begins": "--- Raund {round_number} başlayır! ---\nOyuncu {proposer_id} təklif verən, Oyuncu {responder_id} cavabdehdir.",
@@ -31,7 +31,7 @@
   },
   "invalid_move": {
     "no_offer_format": "پروپوزال وئرن شخص فورمادان [Offer: $X] ایستیفاده ائده رک، بیر آچیقلاما تقدیم ائتمه لی دیر.",
-    "bad_integer": "Offer amount must be a valid integer.",
+    "bad_integer": "تکلیف میقداری صحیح عدد اولمالی دیر.",
     "out_of_range": "Təklif $0 və ${pool} arasında olmalıdır.",
     "no_current_offer": "جواب وئرمه یه جک حاضردا بیر پیشنهاد یوخدور.",
     "accept_or_reject": "Cavabdeh ya [Accept] ya [Reject] təklifi qəbul etməlidir."

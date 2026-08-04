@@ -1,11 +1,11 @@
 {
   "player_prompt": {
-    "intro": "You are {role} in Colonel Blotto.\nYour goal is to win more rounds than your opponent.\nOn each round, allocate exactly {num_total_units} units across fields {field_names}.\nThe player who allocates more units to a field wins that field, and the player who wins more fields wins the round.\nFor example, '[A7 B7 C6]' allocates 7 units to A, 7 to B, and 6 to C.",
+    "intro": "Doe bies {role} in Colonel Blotto.\nDien doel is óm mieë rundes te winne es dien taegesjtander.\nBie eder runde, wieës percies {num_total_units} einhede euver velder {field_names}.\nDe sjpeler dae mieë einhede aan e veld toewieës, wint dat veld, en de sjpeler dae mieë velder wint, wint de runde.\nBieveurbeeld, '[A7 B7 C6]' wieës 7 einhede aan A, 7 aan B, en 6 aan C.",
     "commander_alpha": "Commandant Alpha. - Waat is dat?",
     "commander_beta": "Commandant Beta. - Waat is dat?"
   },
   "game_state": {
-    "header_round": "=== COLONEL BLOTTO - Round {current_round}/{num_rounds} ===\nRounds Won - Commander Alpha: {alpha_score}, Commander Beta: {beta_score}"
+    "header_round": "=== COLONEL BLOTTO - Runde {current_round}/{num_rounds} ===\nRundes Gewonne - Commandant Alpha: {alpha_score}, Commandant Beta: {beta_score}"
   },
   "round_battle": {
     "field_result": "\nRondje {current_round}\nCommander Alpha heet toepondeild: {p0_allocations}\nCommander Beta heet toepondeild: {p1_allocations}\n",

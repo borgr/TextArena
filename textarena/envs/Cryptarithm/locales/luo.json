@@ -9,10 +9,10 @@
     "{pct}": "Progress as a percentage string, e.g. 50%"
   },
   "player_prompt": {
-    "intro": "Map each letter to a unique digit so the arithmetic holds.\nAssign with `[A 5]`, re-assign anytime.\n"
+    "intro": "Pakia herufi kila moja kwenye nambari maalum ili hesabu ibaki sawa.\nWeka na `[A 5]`, toa na uweke tena wakati wowote.\n"
   },
   "invalid_move": {
-    "wrong_format": "Bad action format. Use `[A 5]`.",
+    "wrong_format": "Mtindo wa kitendo si sawa. Tumia `[A 5]`.",
     "letter_not_in_puzzle": "Barua mar {letter} ok en e wach ma ji hinyo wacho.",
     "digit_used": "Digit {digit} oseti gi {used_letter}.",
     "leading_zero": "Diro mokwongo mar wach moro ok nyal bedo 0."

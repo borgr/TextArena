@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "Non hai rispostu cu validu '[source] [target]'.",
-    "invalid_tower": "Avete specificatu una fonte o un'attellu di destinazione invalidi.",
+    "invalid_tower": "Spicificasti na torri di partenza o di arrivo nun vàlida.",
     "empty_tower": "Pruvau a spustari un discu di na torra vacanti.",
     "same_tower": "Pruvisti di trasfiriri un discu â stissa turri.",
     "larger_on_smaller": "Pruvau a mettiri un discu cchiù granni supra unu chiù nicu."
@@ -17,6 +17,6 @@
   },
   "outcome": {
     "win": "Congratulazioni! Haiu risolto lu puzzle dâ Torra di Hanoi.",
-    "turn_limit": "U limitu di giru hè statu righjuntu. Avete piazzatu currettamente {pct}% di i dischi nantu à a Torre C."
+    "turn_limit": "Lu lìmiti di giru è statu raggiuntu. Pusisti correttamenti lu {pct}% di li dischi supra la Torri C."
   }
 }

@@ -17,14 +17,14 @@
   "invalid_move": {
     "wrong_format": "अमान्य चाल प्रारूप. अपने हाथ में एन टी कार्ड खेले लागी '[play N]' के उपयोग करहो।",
     "bad_position": "ऊ कार्डवा स्थिति मौजूद न हो। तोहर पास {hand_size}कार्ड होव है।",
-    "must_follow_suit": "You must follow suit and play a {lead_suit} card.",
+    "must_follow_suit": "आपको सूट का पालन करना होगा और {lead_suit} कार्ड खेलना होगा।",
     "invalid_play": "ऊ कार्डवा पर खेल न हो सक है।"
   },
   "game_action": {
     "played": "खिलाड़ी {player_id} खेललई {card}।"
   },
   "trick": {
-    "won": "Player {winner_id} wins the trick with {card}.",
+    "won": "प्लेयर {winner_id} {card} के साथ ट्रिक जीतता है।",
     "won_learning": "प्लेयर {winner_id} {card} के साथ ट्रिक जीतता है और फेस-अप कार्ड लेता है।"
   },
   "phase": {
@@ -45,7 +45,7 @@
   "hand": {
     "no_cards": "कोई कार्ड न हई",
     "no_cards_in_hand": "हाथ में कार्ड न हई",
-    "header": "Your hand:",
+    "header": "आपका हाथ:",
     "trump_indicator": " (TRUMP)",
     "suit_line": "{observation}\n  {suit}{trump_indicator}:",
     "card_line": "{observation}\n    {index}. {card}"
@@ -71,6 +71,6 @@
     "player_line": "{observation}\nप्लेयर {player_id}: {scoring} स्कोरिंग ट्रिक्स ({tricks} कुल), {hand_size} हाथ में कार्ड"
   },
   "outcome": {
-    "summary": "Learning phase - Player 0: {l0}, Player 1: {l1}. Playing phase - Player 0: {p0}, Player 1: {p1}. Player {winner_id} wins with {winner_tricks} scoring tricks!"
+    "summary": "लर्निंग फेज - प्लेयर 0: {l0}, प्लेयर 1: {l1}। प्लेइंग फेज - प्लेयर 0: {p0}, प्लेयर 1: {p1}। प्लेयर {winner_id} {winner_tricks} स्कोरिंग ट्रिक के साथ जीतता है!"
   }
 }

@@ -1,9 +1,9 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id}. You are playing Guess The Number.\nYou have to guess the number between {min_number} and {max_number} within {max_turns} turns.\nAs you enter your guess, the game will provide you with hints such as 'higher' or 'lower'.\nYou may provide your response in any manner. Only the number that is wrapped in square brackets will be considered as your guess. For example, [5].\nAs you play, the history of your guesses will be appended below. Use the information to complete the game before you run out of guesses.\nEnter your guess."
+    "intro": "Wo ne Player {player_id}. Wo reko Guess The Number.\nWo haw sɛ wo bɛto dwom no wɔ {min_number} ne {max_number} ntam wɔ {max_turns} berɛ mu.\nSɛ wo de wo bɔtoɔ kɔ, agorɔ no bɛma wo nkyerɛkyerɛmu te sɛ 'kɔ soro' anaa 'kɔ fam'.\nWo betumi de wo bɔtoɔ ama wɔ kwan biara. Nokware, nambari a ɛwɔ square brackets mu no nko ara na yɛbɛgye tom sɛ wo bɔtoɔ. Sɛ nhwɛso, [5].\nSɛ wo reko no, abakɔsɛm a ɛfa wo bɔtoɔ ho no bɛka ho ase. Fa mfidie no so na wo dwom no ansa na wo bɔtoɔ ahwe ase.\nKɔka wo bɔtoɔ."
   },
   "invalid_move": {
-    "wrong_format": "Invalid move format. Player {player_id} did not respond with valid '[number]'.",
+    "wrong_format": "Nkyerɛwdeɛ a ɛyɛ mũ a wɔde bɛba no yɛ saa. Osei {player_id} ampene soa '[number]' a ɛfata.",
     "out_of_range": "Nkɔso a enni mu. Odifo {player_id} kaa biribi wɔ baabi foforo na ɛnka nea wɔahyɛ ato hɔ no ho.",
     "already_guessed": "Nkɔso a enni mu. Odifo {player_id} adi kan ahu nea ɛyɛ ne de dedaw."
   },

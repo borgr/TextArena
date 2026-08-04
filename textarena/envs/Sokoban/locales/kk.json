@@ -12,7 +12,7 @@
     "invalid_position": "Жарамсыз қимыл - сол орынға қозғала алмайды."
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
+    "moved": "Сіз {pushed} қозғадыңыз [{action}].",
     "pushed_prefix": "бір уақытта қорапты түртіп"
   },
   "outcome": {

@@ -9,7 +9,7 @@
     "progress": "{observation} ప్రస్తుత పురోగతి స్కోరు: {progress}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use `[i j op]` where i,j are indices and op is +,-,*,/",
+    "wrong_format": "చెల్లని చర్య ఫార్మాట్. [i j op] ఉపయోగించండి ఇక్కడ i,j సూచికలు మరియు op +,-,*,/",
     "invalid_indices": "చెల్లుబాటు కాని సూచికలు. 0-{max_index} పరిధిలో భిన్నంగా ఉండాలి",
     "invalid_operation": "చెల్లని ఆపరేషన్ (సున్నా ద్వారా విభజన లేదా పూర్ణాంక ఫలితం కాదు)"
   },

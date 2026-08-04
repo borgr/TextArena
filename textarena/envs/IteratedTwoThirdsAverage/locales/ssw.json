@@ -7,7 +7,7 @@
     "out_of_range": "Kucabanga kumele kube emkhatsini wa {min_guess} na {max_guess}."
   },
   "message": {
-    "round_guesses": "Player 0 kukhona {guess0}; Player 1 kukhona {guess1}. Kungaba Target ikho: {target}.",
+    "round_guesses": "Mdlali 0 utshelele {guess0}; Mdlali 1 utshelele {guess1}. Ngako-ke inombolo lenzelwe i: {target}.",
     "round_draw": "Umjikelo usho kungadlali.",
     "round_win": "Umdlali {winner} nguye lowinako kulomjikelo!"
   },

@@ -8,7 +8,7 @@
     "round_summary": "Resultados de sa rundha {round}:\n{outcome}\nGiogadore 0 atzetadu {r0} (totale {score_0}), Giogadore 1 atzetadu {r1} (totale {score_1})."
   },
   "outcome": {
-    "winner": "Player {winner} wins {win_score} - {lose_score}.",
+    "winner": "Giogadore {winner} binchet {win_score} - {lose_score}.",
     "draw": "Parigi! Ambos giogadores ant fatu su gol {s0}.",
     "round_both_cooperate": "Sos duos giogadores ant collaboradu.",
     "round_both_defect": "Ambos sos giogadores sunt disertados.",

@@ -1,20 +1,20 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a game of Reverse Tic Tac Toe. Your symbol is '{symbol}'.\nThe goal is to avoid getting three in a row (horizontally, vertically, or diagonally).\nIf you make three in a row, you LOSE.\nSubmit your move using the format '[4]' to place your symbol in cell 4.\nAs Player {player_id}, you are '{symbol}' and your opponent is '{opponent_symbol}'."
+    "intro": "Wi u ndi Mwina {player_id} mu michezo ya Reverse Tic Tac Toe. Chikomo chako ni '{symbol}'.\nKusudi ni kuepuka kupata sitatu mfululizo (wima, mlalo, au ulalo).\nUkapata sitatu mfululizo, u SHINDWA.\nTuma mpigo wako kwa kutumia mfumo '[4]' kuweka chikomo chako mu seli 4.\nNga Mwina {player_id}, wi u ndi '{symbol}' na mpinzani wako ni '{opponent_symbol}'."
   },
   "board": {
-    "current_board": "Current Board:\n\n{board}\n\nAvailable Moves: {moves}"
+    "current_board": "Bodi ya Sasa:\n\n{board}\n\nMipigo Inayopatikana: {moves}"
   },
   "invalid_move": {
     "wrong_format": "Invalid move format. Use '[cell]'.",
     "invalid_cell": "Cjk.",
-    "already_occupied": "Cell {cell} is already occupied."
+    "already_occupied": "Seli {cell} tayari imejaa."
   },
   "game_action": {
-    "placed": "Player {player_id} placed their symbol ({symbol}) in cell {cell}."
+    "placed": "Mwina {player_id} wameweka chikomo chao ({symbol}) mu seli {cell}."
   },
   "outcome": {
-    "loss": "Player {player_id} loses by completing a line!",
-    "draw": "Ni mupira! Hakuna mtu ali lose."
+    "loss": "Mwina {player_id} wameshindwa kwa kukamilisha mstari!",
+    "draw": "Ni sare! Hakuna aliyeshindwa."
   }
 }

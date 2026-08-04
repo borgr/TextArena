@@ -6,7 +6,7 @@
     "current_board": "ھازىرقى تەكىتەك:\n\n{board}\n\nئىشقا چىقىرغىلى بولىدىغان ھەرەكەتلەر: {actions}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use [up], [down], [left], [right] or [w], [a], [s], [d].",
+    "wrong_format": "ھەرىكەت فورماتى ناتوغرى. [up], [down], [left], [right] ياكى [w], [a], [s], [d] قاتارلىقلارنى ئىشلىتىڭ.",
     "unknown_action": "نامەلۇم ھەرىكەت '{action}'. يۇقىرى، تۆۋەن، سول، ئوڭ ياكى w, a, s, d ئىشلىتىش.",
     "hit_wall": "سىز ھەرىكەت قىلماقچى ئىدىڭىز {action} لېكىن بىر تامغا ئۇرۇپ كەتتىڭ!"
   },

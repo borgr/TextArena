@@ -9,10 +9,10 @@
     "{pct}": "Progress as a percentage string, e.g. 50%"
   },
   "player_prompt": {
-    "intro": "Map each letter to a unique digit so the arithmetic holds.\nAssign with `[A 5]`, re-assign anytime.\n"
+    "intro": "Kartlegg kvar bokstav til eit unikt siffer så aritmetikken held.\nTildel med `[A 5]`, tilordna på nytt når som helst.\n"
   },
   "invalid_move": {
-    "wrong_format": "Bad action format. Use `[A 5]`.",
+    "wrong_format": "Feil format på handlinga. Bruk `[A 5]`.",
     "letter_not_in_puzzle": "Bokstaven {letter} er ikkje i puslespillet.",
     "digit_used": "Tallet {digit} er allereie brukt av {used_letter}.",
     "leading_zero": "Det leiande sifret i eit ord kan ikkje vera 0."

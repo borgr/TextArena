@@ -9,10 +9,10 @@
     "{pct}": "Progress as a percentage string, e.g. 50%"
   },
   "player_prompt": {
-    "intro": "Map each letter to a unique digit so the arithmetic holds.\nAssign with `[A 5]`, re-assign anytime.\n"
+    "intro": "ಪ್ರತಿ ಅಕ್ಷರವನ್ನು ವಿಶಿಷ್ಟ ಅಂಕೆಗೆ ನಕ್ಷೆ ಮಾಡಿ ತದ್ವಾರಾ ಅಂಕಗಣಿತ ಹಿಡಿದಿರುತ್ತದೆ.\n `[A 5]` ನೊಂದಿಗೆ ನಿಯೋಜಿಸಿ, ಯಾವುದೇ ಸಮಯದಲ್ಲಿ ಮರು-ನಿಯೋಜಿಸಿ.\n"
   },
   "invalid_move": {
-    "wrong_format": "Bad action format. Use `[A 5]`.",
+    "wrong_format": "ಕೆಟ್ಟ ಕ್ರಿಯೆ ರೂಪ. `[A 5]` ಅನ್ನು ಬಳಸಿ.",
     "letter_not_in_puzzle": "ಅಕ್ಷರ {letter} ಪಜಲ್ನಲ್ಲಿ ಇಲ್ಲ.",
     "digit_used": "ಅಂಕಿ {digit} ಅನ್ನು {used_letter} ಈಗಾಗಲೇ ಬಳಸಿದ್ದಾರೆ.",
     "leading_zero": "ಒಂದು ಪದದ ಪ್ರಮುಖ ಅಂಕಿಯು 0 ಆಗಿರಲು ಸಾಧ್ಯವಿಲ್ಲ."

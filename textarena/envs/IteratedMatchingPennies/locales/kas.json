@@ -6,12 +6,12 @@
     "wrong_format": "ناجائز فۆرمیٹ؛ براہ کرم '[heads]' یا '[tails]' جمع کرن۔"
   },
   "message": {
-    "round_match": "Player 0 picked {choice0}; Player 1 picked {choice1}. Match -> Player 0 wins",
+    "round_match": "کھلاڑی 0 نے {choice0} چنئ؛ کھلاڑی 1 نے {choice1} چنئ۔ میچ -> کھلاڑی 0 جیت گیا",
     "round_mismatch": "کھلاڑی 0 نے {choice0} چنی؛ کھلاڑی 1 نے {choice1} چنی۔ میچ نہیں -> کھلاڑی 1 جیتتا ہے"
   },
   "outcome": {
-    "p0_wins": "प्लेयर 0 क्र ज़याद राउंड जीत.",
-    "p1_wins": "प्लेयर 1 क्र ज़याद राउंड जीत.",
-    "draw": "कुल मिलाप पेठ छी ये ड्राई."
+    "p0_wins": "Player 0 نے زیادہ راؤنڈس جیتھے.",
+    "p1_wins": "Player 1 نے زیادہ راؤنڈس جیتھے.",
+    "draw": "کُل گیمس ہے ڈرا."
   }
 }

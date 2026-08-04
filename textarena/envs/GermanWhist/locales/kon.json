@@ -1,10 +1,10 @@
 {
   "game_start": {
-    "intro": "The game begins. Trump suit: {trump_suit} (trump card: {trump_str}).",
+    "intro": "Mambu ya kisalu kianza. Mambu ya kikundi: {trump_suit} (kadi ya kikundi: {trump_str}).",
     "no_trump_card": "ata mosi ve"
   },
   "player_prompt": {
-    "intro": "Wewe ni Mchezaji {player_id} katika Whist ya Kijerumani.\n{phase_info}\nUshikiliaje {hand_size} kadi.\nCheza kadi kwa '[play N]', ambapo N ni nafasi yake katika mkono wako (kwa mfano '[play 3]').",
+    "intro": "O wewe mukendi {player_id} na German Whist.\n{phase_info}\nO wewe udi na {hand_size} kadi.\nTambula kadi na '[play N]', wapi N i posisioni yake na maboko nge (kwa mfano '[play 3]').",
     "phase_learning": "KUNYONGA: Muntu yina ke nunga na konso nsaka ya kubetula kitini mosi kebakaka karte yina kele ti ntu, mpi muntu yina mebela kesosa karti yankaka. Bansaka yonso ya bo mesala na nsungi yai ketadila ve kununga.",
     "phase_playing": "Konso mayele ya mbi yina bo tasadila banda ntangu yai, tanatila beto kununga."
   },
@@ -21,11 +21,11 @@
     "invalid_play": "Beto lenda sadila ve karti yina."
   },
   "game_action": {
-    "played": "Player {player_id} played {card}."
+    "played": "Mwana-salu {player_id} ametambula kadi {card}."
   },
   "trick": {
     "won": "Muntu yina kebula {winner_id} kebakaka nsaka ya bo mebutila yandi na maboko ti {card}.",
-    "won_learning": "Player {winner_id} wins the trick with {card} and takes the face-up card."
+    "won_learning": "Mwana-salu {winner_id} anashinda kadi na {card} na kuchukua kadi iliyo wazi."
   },
   "phase": {
     "learning_complete": "Mambu yonso ya bo vandaka kulonga na kati me mana - konso mayele yina kele mfunu sambu na kununga."
@@ -37,10 +37,10 @@
   },
   "turn": {
     "board": "{phase}\n{scores}\n{next_card}\n\n{trick}\n\n{hand}",
-    "scores_learning": "Mafunzo yaliyopatikana hadi sasa - Mchezaji 0: {tricks0}, Mchezaji 1: {tricks1}",
-    "scores_playing": "Scoring tricks - Player 0: {tricks0}, Player 1: {tricks1}",
+    "scores_learning": "Kadi zilizoshinda mpaka sasa - Mwana-salu 0: {tricks0}, Mwana-salu 1: {tricks1}",
+    "scores_playing": "Kadi zinazohesabiki - Mwana-salu 0: {tricks0}, Mwana-salu 1: {tricks1}",
     "phase": "Kitini ya ntete: {phase}",
-    "phase_learning": "Phase: {phase} ({remaining_cards} cards left in the deck)"
+    "phase_learning": "Kipindi: {phase} ({remaining_cards} kadi zimesalia kwenye sitaha)"
   },
   "hand": {
     "no_cards": "Bo ta pesa nge ve bakarti.",
@@ -68,9 +68,9 @@
     "current_trick": "{observation} Mayele ya bubu yai:",
     "trump_indicator": "(TRUMP) Beto kele na kyese mingi sambu beto mezaba nde:",
     "trick_line": "{observation}\n  Player {player_id}: {card}{trump_indicator}",
-    "player_line": "{observation}\nPlayer {player_id}: {scoring} scoring tricks ({tricks} total), {hand_size} cards in hand"
+    "player_line": "{observation}\nMwana-salu {player_id}: {scoring} kadi zinazohesabiki ({tricks} jumla), {hand_size} kadi kwenye maboko"
   },
   "outcome": {
-    "summary": "Learning phase - Player 0: {l0}, Player 1: {l1}. Playing phase - Player 0: {p0}, Player 1: {p1}. Player {winner_id} wins with {winner_tricks} scoring tricks!"
+    "summary": "Kipindi cha kujifunza - Mwana-salu 0: {l0}, Mwana-salu 1: {l1}. Kipindi cha kutambula - Mwana-salu 0: {p0}, Mwana-salu 1: {p1}. Mwana-salu {winner_id} anashinda na {winner_tricks} kadi zinazohesabiki!"
   }
 }

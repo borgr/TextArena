@@ -1,13 +1,13 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in **Ultimate Tic Tac Toe**.\nSubmit your move as **[macro  micro]** (two numbers 0-8):\n• *macro*  = which mini-board you play in\n• *micro* = which square inside that mini-board\nExample `[7 8]` ➜ place your mark in mini-board 7, square 8, and\nforce your opponent to play in mini-board 8 next.\n\nYou are `{symbol}`.\n"
+    "intro": "O ẹni Player {player_id} ni **Ultimate Tic Tac Toe**.\nṢe afiṣẹ si iṣẹ rẹ gẹgẹbi **[macro  micro]** (meji nọmba 0-8):\n• *macro*  = mini-bọọdu wo ni o nṣe\n• *micro* = ibiti o wa ni mini-bọọdu naa\nApeere `[7 8]` ➜ ṣe afiṣẹ si ibiti rẹ ni mini-bọọdu 7, ibiti 8, ati\nṣe afiṣẹ lọwọ oponu rẹ lati ṣe ni mini-bọọdu 8.\n\nO ẹni `{symbol}`.\n"
   },
   "board": {
     "current_board": "Àgbékalẹ̀ tó wà nísinsìnyí: {board}"
   },
   "invalid_move": {
     "wrong_format": "Igbesẹ gbọdọ jẹ ni fọọmu [macro micro] pẹlu awọn nọmba 0-8.",
-    "out_of_range": "Indices must each be between 0 and 8.",
+    "out_of_range": "Awọn nọmba gbọdọ wọ kọọkan jẹ laarin 0 ati 8.",
     "index_out_of_range": "Àpótí micro_board, ìlà, tàbí kóólò wà ní ìta.",
     "cell_occupied": "Àwọn èèyàn ti gba yàrá náà.",
     "wrong_micro_board": "Ẹnìkan náà ní láti lọ síbi tí wọ́n ti ń ta bọ́ọ̀lù kékeré tó kàn.",
@@ -22,6 +22,6 @@
   },
   "outcome": {
     "win": "Ẹ̀yà {player_id} ló borí nínú Ìdánwò Ìdánwò Ìdánwò Ìdánwò Ìdánwò Ìdánwò Ìdánwò Ìdánwò Ìdánwò Ìdánwò Ìdánwò Ìdánwò Ìdánwò Ìdánwò Ìdánwò Ìdánwò Ìdánwò Ìdánwò Ìdánwò Ìdánwò Ìdánwò Ìdánwò Ìdánwò Ìdánwò Ìdánwò Ìdánwò Ìdánwò Ìdánwò Ìdánwò Ìdánwò Ìdánwò Ìdánwò Ìdánwò Ìdánwò Ìdánwò Ìdánwò Ìdánwò Ìdánwò Ìdánwò Ìdánwò Ìdánwò Ìdánwò Ìdánwò Ìdánwò Ìdánwò Ìdánwò Ìdánwò Ìdánwò Ìdánwò Ìdánwò Ìdánwò Ìdánwò Ìdánwò Ìdánwò Ìdánwò Ìdánwò Ìdánwò Ìdánwò Ìdánwò Ìdánwò Ìdánwò Ìdánwò Ìdánwò Ìdánwò Ìdánwò Ìdánwò Ìdánwò Ìdánwò Ìdánwò Ìdánwò Ìdánwò",
-    "draw": "The game is a draw!"
+    "draw": "Ère naa jẹ ìdọ̀rọ̀!"
   }
 }

@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "Амал бояд дар формати [row col] бошад, ки сатр ва сутун аз 0 то {max_index} аст.",
-    "out_of_range": "Coordinates must be between 0 and {max_index}. You entered [{row},{col}]."
+    "out_of_range": "Координатаҳо бояд байни 0 ва {max_index} бошанд. Шумо [{row},{col}] ворид кардед."
   },
   "outcome": {
     "win": "Табрикот! Шумо ҳалли муамморо дар {moves_used} ҳаракатҳо ба даст овардед!",

@@ -7,7 +7,7 @@
   },
   "message": {
     "round_match": "Onye ọkpụkpọ 0 họọrọ {choice0}; Onye ọkpụkpọ 1 họọrọ {choice1}. Egwuregwu -> Onye ọkpụkpọ 0 meriri",
-    "round_mismatch": "Player 0 picked {choice0}; Player 1 picked {choice1}. Mismatch -> Player 1 wins."
+    "round_mismatch": "Onye Egwuregwu 0 họọrọ {choice0}; Onye Egwuregwu 1 họọrọ {choice1}. Ezụta -> Onye Egwuregwu 1 meriri."
   },
   "outcome": {
     "p0_wins": "Onye na-egwu egwu 0 meriri ọtụtụ agba.",

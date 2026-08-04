@@ -25,7 +25,7 @@
     "wrong_move_type": "نوع حركة غير صالح. لاعب {player_id} لم يرد بنوع حركه صحيحة."
   },
   "game_action": {
-    "you_drew": "You drew cards.",
+    "you_drew": "لقد سحبت البطاقات.",
     "opponent_drew": "لاعب {player_id} سحب بطاقات.",
     "you_played": "لعب {card} على كومة الوسط {index}.",
     "opponent_played": "اللاعب {player_id} لعب {card} على كومة الوسط {index}.",

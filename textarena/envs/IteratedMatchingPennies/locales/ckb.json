@@ -6,7 +6,7 @@
     "wrong_format": "شێوەی نادروست؛ تکایە '[heads]' یان '[tails]' بنێرە."
   },
   "message": {
-    "round_match": "Player 0 picked {choice0}; Player 1 picked {choice1}. Match -> Player 0 wins",
+    "round_match": "یاریزانی ٠ {choice0}ی ھەڵبژارد؛ یاریزانی ١ {choice1}ی ھەڵبژارد. یەکێتی -> یاریزانی ٠ قۆناغەکە دەباتەوە",
     "round_mismatch": "یاریکەر 0 ھەڵبژاردە '{choice0}'ی; یاریکەر 1 ھەڵبژاردە '{choice1}'ی. ناگونجێ -> یاریکەر 1 سەرکەوت."
   },
   "outcome": {

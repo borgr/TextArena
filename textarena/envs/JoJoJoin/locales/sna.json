@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in JoJoJoin, played on a 5x5 board with cells numbered 0-24.\nOn your turn, place your mark on any empty cell, e.g. '[12]'.\nYOU WIN by getting FOUR of your marks in a row — four consecutive cells horizontally, vertically, or diagonally.\nAs Player {player_id} you are '{symbol}'; your opponent is '{opponent_symbol}'."
+    "intro": "Iwe ndiwe Mutambi {player_id} kuJoJoJoin, inotambwa pa bodo 5x5 na maselo anowanikwa 0-24.\nPa zamu yako, nyora chapa yako pa sele yoyote isina mutu, kwa mfano '[12]'.\nIWE UCHISHINE kwa kupata CHAPA ZINA nne mfululizo — maselo manne mfululizo wakati wa kufamba wakati wa kwenda wakati wa kwenda kwa mlalo, wakati wa kwenda kwa wima, kana kwa diagonal.\nSekiwa Mutambi {player_id} iwe '{symbol}'; mukwasha wako ndiye '{opponent_symbol}'."
   },
   "board": {
     "current_board": "Bhoja Rairo:\n\n{board}\n\nMikando Yopinda: {moves}"

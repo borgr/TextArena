@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing Slitherlink on a {R}x{C} grid!\nDraw a single continuous loop so each numbered cell has that many bordering edges.\nToggle edges with:\n  [h r c] - toggle horizontal edge above dots at row r, column c\n  [v r c] - toggle vertical edge left of dots at row r, column c\nNumbers show required edge count, '.' means no constraint.\nYou have up to {max_turns} moves to solve the puzzle."
+    "intro": "Tirid taɣḍft n Slitherlink ɣef {R}x{C} tiɣri!\nAẓẓul ṭṭerf n yiwen umḍin s igenni, iɣil d akk tiggtin n uṭṭun s tinṭṭi n isḍafen.\nBeddel isḍafen s:\n  [h r c] - beddel asḍaf aɣziw f llid n tiggtin ɣef uṣṭṭu r, tamḍla c\n  [v r c] - beddel asḍaf aɣersiw f tama n tiggtin ɣef uṣṭṭu r, tamḍla c\nInṭṭi n uṭṭun mmalen-d tiɣzi n isḍafen ilḥan, '.' anɣil amnaḍ.\nTella-k d akk {max_turns} imḍinen ad tettusḍaf tiɣḍft."
   },
   "board": {
     "current_board": "{board}\nTinml {progress}"

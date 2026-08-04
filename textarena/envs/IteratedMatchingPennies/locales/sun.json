@@ -7,7 +7,7 @@
   },
   "message": {
     "round_match": "Pamaén 0 milih {choice0}; Pamaén 1 milih {choice1}. Patarungan -> Pamaén 0 meunang",
-    "round_mismatch": "Player 0 picked {choice0}; Player 1 picked {choice1}. Mismatch -> Player 1 wins."
+    "round_mismatch": "Pamaén 0 milih {choice0}; Pamaén 1 milih {choice1}. Teu cocog -> Pamaén 1 meunang."
   },
   "outcome": {
     "p0_wins": "Pamaén 0 meunang leuwih rounds.",

@@ -16,7 +16,7 @@
   },
   "game_action": {
     "skipped": "O'yinchi {pid} o'z navbatini o'tkazib yuborishi kerak edi",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "{pid}-o'yinchi ({piece}) [{r}, {c}] o'ynadi va {flipped} dona(lar)ni ag'darib tashladi"
   },
   "game_message": {
     "must_skip": "O'yinchi {pid} ({piece}) ning harakatlari haqiqiy emas va u o'tishi kerak."

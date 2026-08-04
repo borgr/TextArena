@@ -3,7 +3,7 @@
     "intro": "O sa qito tiko ena dua na mataqali ni jumping. Lako mai e dua na tiki ni kau ki cake tale ka lako yani kina dua na qara lala, kauta tani na kena icurucuru. iTavi: tini vata kei **one** tikiniqele taudaku. iwalewale ni cakacaka: me vaka '[4 1]'."
   },
   "board": {
-    "current_board": "Pegs left: {count}\n{board}"
+    "current_board": "Pegi e tiko: {count}\n{board}"
   },
   "invalid_move": {
     "wrong_format": "Sega ni dodonu na kena syntax. Vakayagataka [i->j] .",

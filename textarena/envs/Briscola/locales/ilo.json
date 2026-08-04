@@ -22,7 +22,7 @@
     "start": "Nangrugi ti Briscola! Trump suit: {trump_suit} (Trump card: {trump_card})"
   },
   "prompt": {
-    "intro": "You are playing Briscola - Player {player_id}.\nGoal: Win tricks and collect the most points (120 total points in the deck).\nCard Points: A=11, 3=10, K=4, Q=3, J=2, others=0\nCard Power: A > 3 > K > Q > J > 7 > 6 > 5 > 4 > 2\nTrump cards beat non-trump cards regardless of power.\n\nAction: '[play X]' where X is the position (1-{max_pos}) of the card in your hand\n"
+    "intro": "Agay-ayam ka ti Briscola - Agay-ayam {player_id}.\nGannuat: Abaken dagiti trick ken kolektaren dagiti kaaduan a puntos (120 a dagup a puntos iti deck).\nPuntos ti Karda: A=11, 3=10, K=4, Q=3, J=2, dadduma=0\nPoder ti Karda: A > 3 > K > Q > J > 7 > 6 > 5 > 4 > 2\nDagiti karda ti trump mangabak kadagiti karda a saan a trump aniaman ti poder.\n\nTignay: '[play X]' a ti X ket ti posisyon (1-{max_pos}) ti karda iti ima mo\n"
   },
   "hand": {
     "none": "Awan ti kard.",
@@ -37,14 +37,14 @@
     "line": "  Player {player_id}: {card}{trump_mark}"
   },
   "turn": {
-    "score_entry": "Player {player_id}: {points} pts",
+    "score_entry": "Agay-ayam {player_id}: {points} pts",
     "trump_info": "Trump a kawes: {trump_suit}",
     "trump_info_deck": "Trump suit: {trump_suit} | Nabati a card iti baraha: {deck_count}",
     "board": "{hand}\n\n{trick}\n\nPuntos: {scores}\n{trump_info}\n\nPaspasen ti maysa a card babaen ti [play X]"
   },
   "invalid_move": {
     "wrong_format": "Usaren ti [play X] a sadiay X ket isu ti puesto dagiti kard (1, 2, 3, ken dadduma pay)",
-    "out_of_range": "Saanket a posisyon ti card. Adda {count} ka kad card (1-{count})"
+    "out_of_range": "Saan a mabalin a posisyon ti karda. Adda {count} karda mo (1-{count})"
   },
   "action": {
     "played": "Player {player_id} nangrugi {card}",

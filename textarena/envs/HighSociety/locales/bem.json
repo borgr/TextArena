@@ -1,9 +1,9 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a game of HighSociety (2-player version).\nGame flow:  Ten prestige cards are auctioned one after another.\nBidding:    Each auction, secretly choose a money card 1-11 and reveal.\n            • Higher bid wins the prestige card and discards that money card.\n            • Lower bid keeps their money card.\n            • Tie -> both bids are returned and the same prestige card is re-auctioned.\nScoring:    After all ten auctions, add **remaining cash + prestige points**.\n            Higher *net-worth* wins (exact tie -> draw).\n\n**Action syntax**  →  bid a single card like '[7]' or '[11]'."
+    "intro": "Nga ni Player {player_id} mu game ya HighSociety (version ya ba player 2).\nMpangilio wa game:  Mikadoni ya prestige kumi ikaminwa moja baada ya nyingine.\nKukomba:    Kila mnada, chagua kwa siri kadoni ya ndalama 1-11 na funika.\n            • Kukomba kwakuti kwa juu kunashinda kadoni ya prestige na kukwepa kadoni ya ndalama.\n            • Kukomba kwakuti kwa chini kunakwepa kadoni ya ndalama.\n            • Tie -> mabid yote mawili yalikwepushwa na kadoni ya prestige ile ile ikaminwa tena.\nKutungulwa:    Baada ya mikadoni yote kumi, ongeza **ndalama zilizobaki + pointi za prestige**.\n            *Net-worth* ya juu inashinda (tie kamili -> droo).\n\n**Mfumo wa vitendo**  →  komba kadoni moja kama '[7]' au '[11]'."
   },
   "auction": {
-    "announce": "\n### Auction {round}/10  |  Prestige card: {prize}"
+    "announce": "\n### Mnada {round}/10  |  Kadoni ya prestige: {prize}"
   },
   "board": {
     "money_cards": "Amakardi ya ndalama ayo mwashalapo: {money}"
@@ -13,8 +13,8 @@
     "card_not_held": "Nomba tamukwetepo na kardi ya kubomfya indalama."
   },
   "message": {
-    "tie": "Tie - bids returned. Rebid!",
-    "auction_result": "P0 bid {bid0}, P1 bid {bid1}. Player {winner} wins prestige {prize} (total {total})."
+    "tie": "Tie - mabid yalikwepushwa. Komba tena!",
+    "auction_result": "P0 alikomba {bid0}, P1 alikomba {bid1}. Player {winner} akashinda prestige {prize} (jumla {total})."
   },
   "outcome": {
     "p0_wins": "Thamani ya kuuzwa {nw0} > {nw1}",

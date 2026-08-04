@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "Amalga oshgan harakat formati topilmadi. [a1b2] dan foydalaning, masalan [b2c3] .",
-    "illegal": "Move [{move}] is illegal."
+    "illegal": "Yurish [{move}] noqonuniy."
   },
   "game_action": {
     "moved": "O'yinchi {player_id} harakat qildi {move} ."

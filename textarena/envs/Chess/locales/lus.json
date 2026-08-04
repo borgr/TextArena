@@ -11,7 +11,7 @@
     "illegal": "Dan bawhchhiatna a ni."
   },
   "game_action": {
-    "moved": "Player {player_id} chuan move hmasa ber a siam: {move_uci}"
+    "moved": "Player {player_id} hian khelh dan hnuai ami hi a siam: {move_uci}"
   },
   "outcome": {
     "draw": "Inkhel chu a inhnehtawk ta mai.",

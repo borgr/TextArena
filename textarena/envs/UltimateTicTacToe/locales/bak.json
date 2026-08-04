@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in **Ultimate Tic Tac Toe**.\nSubmit your move as **[macro  micro]** (two numbers 0-8):\n• *macro*  = which mini-board you play in\n• *micro* = which square inside that mini-board\nExample `[7 8]` ➜ place your mark in mini-board 7, square 8, and\nforce your opponent to play in mini-board 8 next.\n\nYou are `{symbol}`.\n"
+    "intro": "Һеҙ Ultimate Tic Tac Toe уйынында {player_id} уйынсыһыһығыҙ.\nҺәр йөрөшөңдө **[macro  micro]** тип яҙығыҙ (ике һан 0-8):\n• *macro*  = ҡайһы мини-таҡтала уйнайһығыҙ\n• *micro* = мини-таҡталағы ҡайһы квадратта уйнайһығыҙ\nМиҫал `[7 8]` ➜ һеҙҙең билдәһеҙ мини-таҡта 7, квадрат 8-ҙә урынлаштырыла, һәм\nкөнәркәшегеҙҙе киләһе мини-таҡтала уйнарға мәжбүр итә.\n\nҺеҙ `{symbol}`.\n"
   },
   "board": {
     "current_board": "Ағымдағы идара: {board}"
@@ -18,7 +18,7 @@
     "specific": "микротаҡта {nxt}"
   },
   "game_action": {
-    "played": "Player {player_id} played in micro board {macro_idx}, cell {micro_idx} (row {row}, col {col}). Player {opponent_id} must now play in {nxt_txt}."
+    "played": "{player_id} уйынсыһы мини-таҡта {macro_idx}, квадрат {micro_idx} (рәт {row}, бағана {col}) уйнай. {opponent_id} уйынсыһы хәҙер {nxt_txt} уйнарға тейеш."
   },
   "outcome": {
     "win": "Уйынсы {player_id} еңеүсе булып \"Ultimate Tic Tac Toe!\" була.",

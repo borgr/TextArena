@@ -13,8 +13,8 @@
     "already_matched": "Ógildiligur túr. Spælari {player_id} hevur valt eitt ella bæði kort, sum longu eru samsett."
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "Kortini, sum Spælarin {player_id} valdi á støðunum [{r1} {c1}] og [{r2} {c2}], eru eins!",
+    "cards_no_match": "Kortini, sum Spælarin {player_id} valdi, eru ikki eins. Kortini á støðunum [{r1} {c1}] og [{r2} {c2}] eru {pos1} og {pos2} á sama hátt."
   },
   "outcome": {
     "draw": "Báðir spælararnir hava sama tal av kortum.",

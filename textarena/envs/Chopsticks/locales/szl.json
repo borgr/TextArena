@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in Chopsticks. On your turn, choose one of:\n  + Attack:  '[attack M O]'  where M=your hand (0 or 1), O=opponent hand (0 or 1).\n    - Opponent's hand count increases by your hand; if >=5, it becomes 0.\n  + Split:   '[split L R]'  to redistribute your total fingers into L and R (L+R = your total).\nReply with exactly one of those commands."
+    "intro": "Jeżeś graczem {player_id} we Chopsticks. We swojij turze, wybjer jedyn ze:\n  + Atak:  '[attack M O]'  gdzie M=twojo rynka (0 abo 1), O=przeciwnika rynka (0 abo 1).\n    - Przeciwnika rynka wert zwiynkszo śe uod twojij rynki; jeśli >=5, uostaje 0.\n  + Podział:   '[split L R]'  coby przeredagować twoje wszyjske palce na L i R (L+R = twojo suma).\nOdpowiedź z dokładnie jednym ze tych komend."
   },
   "board": {
     "current_board": "Aktualno płyta:\nGracz 0: {hands_0}\nGracz 1: {hands_1}"
@@ -14,7 +14,7 @@
   },
   "game_action": {
     "attack": "P{player_id} atakuje rękę P{opp_id} {opp_idx}: idzie od {opp_val} do {new_val}.",
-    "split": "P{player_id} splits into [{L}, {R}]."
+    "split": "P{player_id} dzieli śe na [{L}, {R}]."
   },
   "history": {
     "entry": "P{player_id} {desc}"

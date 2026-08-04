@@ -4,7 +4,7 @@
   },
   "invalid_move": {
     "invalid_move_format": "ልክ ያልሆነ የመንቀሳቀስ ቅርጸት",
-    "cell_out_of_range": "Invalid cell number {cell_num}. Must be between 0 and {max_board_num}.",
+    "cell_out_of_range": "የህዋስ ቁጥር {cell_num} ትክክል አይደለም። በ0 እና {max_board_num} መካከል ማውጣት አለበት።",
     "cell_already_occupied": "ህዋስ {cell_num} ቀድሞውኑ ተይዟል ባዶ ሕዋስን ይምረጡ."
   },
   "board": {

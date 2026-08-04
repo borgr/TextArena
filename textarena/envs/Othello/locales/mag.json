@@ -16,7 +16,7 @@
   },
   "game_action": {
     "skipped": "खिलाड़ी {pid} के अपन बारी छोड़ देवे पड़लई।",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "खेलाड़ी {pid} ({piece}) ने [{r}, {c}] पर खेलकर {flipped} टुकड़ा पलट दिया"
   },
   "game_message": {
     "must_skip": "खिलाड़ी {pid} ({piece}) के पास कोई वैध चाल नहीं है और उन्हें छोड़ना होगा।"

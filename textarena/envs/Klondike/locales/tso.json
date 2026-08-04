@@ -16,7 +16,7 @@
     "{cards}": "The cards in a pile as neutral labels, or '--' if empty (never translate)"
   },
   "player_prompt": {
-    "intro": "You are playing Klondike Solitaire. Your goal is to move all cards to the foundation piles.\n\nGame Rules:\n- Foundation piles (F1-F4): Build up from Ace to King in suit\n- Tableau piles (T1-T7): Build down alternating colors (red on black, black on red)\n- Stock: Draw cards to waste pile\n- Waste (W): Top card available for play\n\nCommands:\n- 'draw' - Draw cards from stock to waste\n- 'move <source> <destination> [count]' - Move cards between piles\n  Examples: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count can also be 'all', which will try to move all face-up cards.\n- 'forfeit' - End the game immediately and lock in your current score\n- Pile names: W (waste), F1-F4 (foundations), T1-T7 (tableau)\n\nYou can execute multiple actions in one turn by separating them with commas:\n  Example: 'draw, move W T1, move T2 F1'\n\nOnly Kings can be placed on empty tableau piles.\nActions execute in order - if one fails, the remaining actions are skipped.\nUse 'forfeit' if you believe the game is impossible to win."
+    "intro": "U tirhisa Klondike Solitaire. Xikongomelo xa wena iku susa swipala hinkwaso eka mitsundu ya mphakelo.\n\nMilawu ya Tirhiselo:\n- Mitsundu ya mphakelo (F1-F4): Akela eka ku tlhela ku fika eka Kosi hi ku landzelela muvala\n- Mitsundu ya tebele (T1-T7): Akela eka ku tlhela ku fika eka muvala wa xiviri (muvala wa ntima eka muvala wa basa, muvala wa basa eka muvala wa ntima)\n- Sitokisi: Khenisa swipala eka mitsundu ya swipala swinene\n- Swipala swinene (W): Swipala leswi swi kona eka ndzhaku swi tirhisiwa\n\nMilinganyo:\n- 'draw' - Khenisa swipala eka sitokisi eka swipala swinene\n- 'move <source> <destination> [count]' - Susa swipala eka mitsundu\n  Swikombiso: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count yi nga va 'all', leyi yi ta ringeta ku susa swipala hinkwaso leswi swi kona eka ndzhaku.\n- 'forfeit' - Pfala tirhiselo hi ku si vaka na xikongomelo na u tirhisa nambari ya wena ya sweswi\n- Maina ya mitsundu: W (swipala swinene), F1-F4 (mitsundu ya mphakelo), T1-T7 (mitsundu ya tebele)\n\nU nga tirhisa milinganyo yimbirhi eka ndzhaku yin'we hi ku yi hambanisa na mafokolodi:\n  Xikombiso: 'draw, move W T1, move T2 F1'\n\nMakosi ntsena yi nga tlhela eka mitsundu ya tebele leyi yi kona.\nMilinganyo yi tirhisiwa hi ku landzelela ndzhaku - loko yi n'wi tlhela, milinganyo yin'wana yi skipiwa.\nTirhisa 'forfeit' loko u pfumela ku tirhiselo i siyala ku hlula."
   },
   "format_error": {
     "no_brackets": "Fomete ya xiendlo leyi nga tirhiki. Xiendlo xi fanele ku va eka swiangi.",
@@ -24,8 +24,8 @@
     "empty_command": "Xileriso lexi nga hava nchumu. Tsala 'draw' kumbe 'move <source><destination> [count]'.",
     "empty_action": "Xiendlo lexi nga hava xikongomelo",
     "move_needs_args": "Xileriso xa Move xi lava xihlovo na xikongomelo. Matirhiselo: 'move <source> <destination> [count]'",
-    "count_positive": "Nhlayo yi fanele ku va leyi nga na \"nkateko\" kumbe 'hinkwaswo'",
-    "count_invalid": "Ku hlayela loku nga riki enawini. Tirhisa nomboro kumbe 'hinkwaswo'",
+    "count_positive": "Nhlayo i fanela ku va chanya kumbe 'all'",
+    "count_invalid": "Nhlayo ya khwilo i fele. Tekela nambari kumbe 'all'",
     "unknown_command": "Khomando ra ku tiva '{cmd}'. U na komanda 'draw', 'move <source> <destination> [count]', kana 'forfeit'",
     "wrapped": "Action {n}: {msg}"
   },
@@ -59,7 +59,7 @@
   "outcome": {
     "forfeit": "Ntlangu wu tshikiwile. Nhlayo yo hetelela: {score} makhadi eka masungulo ya ntlango lowu.",
     "won": "Mawaku, mi winile eka ntlangu wa Klondike Solitaire!",
-    "turn_limit": "Game over! You reached the maximum of {max_turns} turns. Score: {score} cards in foundations."
+    "turn_limit": "Muthuki u fele! U kota muthuki wa {max_turns} wa muthuki. Muthuki wa wena: {score} khadi kwenye mphakelo wa khadi."
   },
   "board": {
     "title": "=== KLONDIKE SOLITAIRE=== Ku Hlayisa Xiyenge Xa Vumbirhi:",

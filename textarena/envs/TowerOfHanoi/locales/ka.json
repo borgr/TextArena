@@ -16,7 +16,7 @@
     "moved": "თქვენ გადაიტანეთ დისკი {disk} {source}-დან {target}-ში."
   },
   "outcome": {
-    "win": "Congratulations! You solved the Tower of Hanoi puzzle.",
+    "win": "გილოცავთ! თქვენ გადაწყვიტეთ ჰანოის კოშკის თავსატეხი.",
     "turn_limit": "ტურების ლიმიტი მიღწეულია. თქვენ სწორად მოათავსეთ დისკების {pct}% კოშკზე C."
   }
 }

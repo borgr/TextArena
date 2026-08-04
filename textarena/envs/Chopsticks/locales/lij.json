@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in Chopsticks. On your turn, choose one of:\n  + Attack:  '[attack M O]'  where M=your hand (0 or 1), O=opponent hand (0 or 1).\n    - Opponent's hand count increases by your hand; if >=5, it becomes 0.\n  + Split:   '[split L R]'  to redistribute your total fingers into L and R (L+R = your total).\nReply with exactly one of those commands."
+    "intro": "Ti sei o Zugador {player_id} in Chopsticks. A-o teu turno, scegli unn-a de:\n  + Attacco:  '[attack M O]'  dove M=a teu man (0 o 1), O=man de l'aversaio (0 o 1).\n    - O conteggio da man de l'aversaio aumenta de a teu man; se >=5, o diventa 0.\n  + Division: '[split L R]'  pe redistribuï a teu dii in L e R (L+R = o teu totale).\nRispondi con esattamente unn-a de quelle comande."
   },
   "board": {
     "current_board": "Tavoliêre atoâle:\nZugòu 0: {hands_0}\nZugòu 1: {hands_1}"
@@ -14,7 +14,7 @@
   },
   "game_action": {
     "attack": "P{player_id} atàcca a man do P{opp_id} {opp_idx}: a va da {opp_val} a {new_val}.",
-    "split": "P{player_id} splits into [{L}, {R}]."
+    "split": "P{player_id} se divide in [{L}, {R}]."
   },
   "history": {
     "entry": "P{player_id} {desc}"

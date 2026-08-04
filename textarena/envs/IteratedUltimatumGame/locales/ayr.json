@@ -21,12 +21,12 @@
     "{total}": "Each player's tied final total (a number)"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id}, playing {num_rounds} rounds of Iterated Ultimatum Game.\nYou have ${pool} to split this round between yourself and Player {other_id}.\n\nProposer:\n  - Make an offer: [Offer: $X] (0 <= X <= pool)\n  - If accepted → You get $(pool - X), other player gets $X\n  - If rejected → Both get $0\n  - Example: [Offer: $3]  or  'I think this is fair. [Offer: $5]'\n\nResponder:\n  - Decide on the offer with either [Accept] or [Reject]\n  - Example: 'That seems reasonable. [Accept]'\n            'Too unfair. [Reject]'\n"
+    "intro": "Jugador {player_id} kawkani, {num_rounds} rondas de Iterated Ultimatum Game khaynatä.\nQullqi ${pool} kawkani esta ronda entre kawkani y jugador {other_id}.\n\nPropositor:\n  - Ofrecimiento: [Offer: $X] (0 <= X <= pool)\n  - Si aceptado → Kawkani $(pool - X) ganado, otro jugador $X ganado\n  - Si rechazado → Ambos $0 ganado\n  - Ejemplo: [Offer: $3]  o  'Kunjamasa justicia. [Offer: $5]'\n\nRespondiente:\n  - Decisión sobre la oferta con [Accept] o [Reject]\n  - Ejemplo: 'Kunjamasa razonable. [Accept]'\n            'Masi injusticia. [Reject]'\n"
   },
   "round": {
     "begins": "--- Juk'ampisxani {round_number} q'awinakapxani! ---\nJichha {proposer_id} q'awiri, Jichha {responder_id} jani q'awiri.",
-    "offer": "Round {round_number}: Player {proposer_id} offers ${offer} to Player {responder_id} (keeping ${keep}).",
-    "accepted": "Player {responder_id} accepted! Round {round_number} gains: Player {proposer_id} +${proposer_gain}, Player {responder_id} +${responder_gain}. New totals: Player 0: ${total_0}, Player 1: ${total_1}.",
+    "offer": "Ronda {round_number}: Jugador {proposer_id} ofrece ${offer} a jugador {responder_id} (guardando ${keep}).",
+    "accepted": "Jugador {responder_id} aceptado! Ronda {round_number} ganancias: Jugador {proposer_id} +${proposer_gain}, jugador {responder_id} +${responder_gain}. Nuevos totales: Jugador 0: ${total_0}, jugador 1: ${total_1}.",
     "rejected": "Jichha {responder_id} janiwipxani offeranakapuni! Juk'ampisxani {round_number} yapunipxani: Jichhakaxa jani walt'asi +$0. Jach'asi jani walt'asi: Jichha 0: ${total_0}, Jichha 1: ${total_1}."
   },
   "invalid_move": {
@@ -34,10 +34,10 @@
     "bad_integer": "Uka mayt'äwix mä suma phuqhatakïñapawa.",
     "out_of_range": "Offerakaxa $0 ukhamaraki ${pool} khayañanipxani.",
     "no_current_offer": "Janiw jichhaxa kuna oferta jaysañas utjkiti.",
-    "accept_or_reject": "Responder must either [Accept] or [Reject] the offer."
+    "accept_or_reject": "Respondiente debe aceptar o rechazar la oferta con [Accept] o [Reject]."
   },
   "outcome": {
-    "win": "Player {winner} won with ${winner_total} total vs Player {loser}'s ${loser_total}.",
+    "win": "Jugador {winner} ganó con ${winner_total} total vs jugador {loser} ${loser_total}.",
     "draw": "Paypach anatirix ${total} ukhaw tukuyapxäna."
   }
 }

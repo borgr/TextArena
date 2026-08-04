@@ -1,15 +1,15 @@
 {
   "player_prompt": {
-    "intro": "You will observe {N} hidden values sequentially.\nAt each step type [accept] to pick the *current* value, or [continue] to skip it and see the next one.\nIf you never accept, you are forced to take the final value.\nYou win (reward = 1) **only** if the value you ultimately pick is the highest of all."
+    "intro": "တႃႉ တေလႆႈႁၼ် {N} ႁူဝ်ၶေႃႈၸိူဝ်းၼႆႉ တႅမ်ႈၼိူဝ်ၵၼ်။\nၶၢဝ်းႁိုဝ်ၸိူဝ်းၼႆႉ တီႈၼိူဝ်ၼိုင်ႈၼႆႉ တေလႆႈတႅမ်ႈ [accept] သေႇၶိုၼ်ႈႁူဝ်ၶေႃႈၼႆႉ၊ ဢမ်ႇၼၼ် တေလႆႈတႅမ်ႈ [continue] သေႇၶၢမ်ႈၵႂႃႇႁႃႁူဝ်ၶေႃႈၸိူဝ်းၼႆႉ။\nၸိူဝ်းၼႆႉ ဢမ်ႇၶိုၼ်ႈၸိုင် တေလႆႈႁပ်ႉၶေႃႈၸိူဝ်းၼႆႉ။\nတႃႉ ပၢင်းၶိုၼ်ႈ (reward = 1) **ၵူၺ်း** ၸိူဝ်းၼႆႉ ပေႃးႁူဝ်ၶေႃႈၸိူဝ်းၼႆႉ ပဵၼ်ႁူဝ်ၶေႃႈၸိူဝ်းၼႆႉ ဢၼ်သုင်သုတ်း။"
   },
   "game_action": {
     "current_value": "ၵႃႈၶၼ်မိူဝ်ႈလဵဝ်ၼႆႉ ပဵၼ် {value}ယဝ်ႉ။"
   },
   "invalid_move": {
-    "wrong_format": "အက်ဆံုး ထားရန်သည် [accept] သို့မဟုတ် [continue] ဖြစ်ရမည်။"
+    "wrong_format": "လၢႆးၵၢၼ်ၼႆႉ တေလႆႈ [accept] ဢမ်ႇၼၼ် [continue] ။"
   },
   "outcome": {
-    "summary": "မိမိ တန်ဖိုး {value} ကို တန်ဖိုး ထုတ်ပေးချိန် {draw_num}/{N} တွင် လက်ခံခဲ့သည်။ အကောင်းဆုံး တန်ဖိုး အားလုံးသည် {best} ဖြစ်သည်။ {result}",
+    "summary": "တႃႉ ႁပ်ႉၶေႃႈ {value} တီႈၼႂ်း {draw_num}/{N} ။ ႁူဝ်ၶေႃႈၸိူဝ်းၼႆႉ ဢၼ်ၸိုဝ်ႈသုင်သုတ်း ပဵၼ် {best} ။ {result}",
     "perfect": "လွင်ႈလိူၵ်ႈဢၼ်လီတႄႉ! ",
     "not_max": "ဢမ်ႇၸႂ်ႈဝႃႈ ပဵၼ်ဢၼ်သုင်သုတ်း။"
   }

@@ -21,7 +21,7 @@
     "{total}": "Each player's tied final total (a number)"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id}, playing {num_rounds} rounds of Iterated Ultimatum Game.\nYou have ${pool} to split this round between yourself and Player {other_id}.\n\nProposer:\n  - Make an offer: [Offer: $X] (0 <= X <= pool)\n  - If accepted → You get $(pool - X), other player gets $X\n  - If rejected → Both get $0\n  - Example: [Offer: $3]  or  'I think this is fair. [Offer: $5]'\n\nResponder:\n  - Decide on the offer with either [Accept] or [Reject]\n  - Example: 'That seems reasonable. [Accept]'\n            'Too unfair. [Reject]'\n"
+    "intro": "Yɛ̈ɛ̈ŋ Nɔ̈ɔ̈ŋ {player_id}, kɛ̈ɛ̈ŋ {num_rounds} kɛ̈ɛ̈ŋ Iterated Ultimatum Game.\nYɛ̈ɛ̈ŋ $ {pool} kɛ̈ɛ̈ŋ kɛ̈ɛ̈ŋ kɛ̈ɛ̈ŋ kɛ̈ɛ̈ŋ kɛ̈ɛ̈ŋ Nɔ̈ɔ̈ŋ {other_id}.\n\nNɔ̈ɔ̈ŋ kɛ̈ɛ̈ŋ:\n  - Kɔɛɛr kɔ̈ɔ̈ kɛ̈ɛ̈ŋ: [Offer: $X] (0 <= X <= pool)\n  - Kɔɛɛr kɔ̈ɔ̈ kɛ̈ɛ̈ŋ → Yɛ̈ɛ̈ŋ $(pool - X), Nɔ̈ɔ̈ŋ kɛ̈ɛ̈ŋ kɛ̈ɛ̈ŋ $X\n  - Kɔɛɛr kɔ̈ɔ̈ kɛ̈ɛ̈ŋ → Kɛ̈ɛ̈ŋ kɛ̈ɛ̈ŋ kɛ̈ɛ̈ŋ $0\n  - Kɔɛɛr kɔ̈ɔ̈: [Offer: $3]  kɔ̈ɔ̈  'Aɣɔɔn kɛ̈ɛ̈ŋ kɛ̈ɛ̈ŋ. [Offer: $5]'\n\nNɔ̈ɔ̈ŋ kɛ̈ɛ̈ŋ kɛ̈ɛ̈ŋ:\n  - Kɔɛɛr kɔ̈ɔ̈ kɛ̈ɛ̈ŋ kɛ̈ɛ̈ŋ [Accept] kɔ̈ɔ̈ [Reject]\n  - Kɔɛɛr kɔ̈ɔ̈: 'Kɛ̈ɛ̈ŋ kɛ̈ɛ̈ŋ kɛ̈ɛ̈ŋ. [Accept]'\n            'Kɛ̈ɛ̈ŋ kɛ̈ɛ̈ŋ kɛ̈ɛ̈ŋ. [Reject]'\n"
   },
   "round": {
     "begins": "--- Weŋ {round_number} ee thiaan! ---\nThiaan {proposer_id} ee thiaan ee yen, thiaan {responder_id} ee thiaan ee kuɛr.",
@@ -34,7 +34,7 @@
     "bad_integer": "Mi̱ ci̱ pek in ca thöp ɛ mi̱ lot rɔ kɛ jɛ.",
     "out_of_range": "Ɛn yuɔ̱p yiöwni bɛ tä kam $0 kɛnɛ ${pool}.",
     "no_current_offer": "Thiɛlɛ mi̱ ca thöp kɛ ɣöö ba loc thi̱n.",
-    "accept_or_reject": "Responder must either [Accept] or [Reject] the offer."
+    "accept_or_reject": "Nɔ̈ɔ̈ŋ kɛ̈ɛ̈ŋ kɔɛɛr kɔ̈ɔ̈ [Accept] kɔ̈ɔ̈ [Reject] kɛ̈ɛ̈ŋ."
   },
   "outcome": {
     "win": "Thiaan {winner} aci luɔi kɛn ${winner_total} kɛn thiaan {loser} ee ${loser_total}.",

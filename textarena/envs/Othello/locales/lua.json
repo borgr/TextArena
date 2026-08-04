@@ -16,10 +16,10 @@
   },
   "game_action": {
     "skipped": "Muena manaya {pid} uvua ne bua kulengulula mudimu wabu.",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "Mwana {pid} ({piece}) alicheza [{r}, {c}] akibadilisha {flipped} bata"
   },
   "game_message": {
-    "must_skip": "Player {pid} ({piece}) has no valid moves and must skip."
+    "must_skip": "Mwana {pid} ({piece}) hana mipindi inayoruhusiwa na lazima acheleweshe."
   },
   "outcome": {
     "black_wins": "Mnyama udi utshimuna {black_count}-{white_count}.",

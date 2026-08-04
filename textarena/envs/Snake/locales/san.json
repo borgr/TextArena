@@ -11,7 +11,7 @@
     "{groups}": "Neutral ranking data (a list of player-id groups, worst to best); do not translate"
   },
   "player_prompt": {
-    "intro": "{num_players}-Player Snake on a {width}×{height} grid.\nYou control snake {player_id}. Valid moves: '[up]'/'[down]'/'[left]'/'[right]' (or w/s/a/d).\nObjective: survive longest or be the longest and get the highest score (turn limit {max_turns} turns)."
+    "intro": "{num_players}-आदिमानुषः सर्पः {width}×{height} जालके उपरि।\nत्वं सर्पं {player_id} नियन्त्रयसि। प्रामाणिकगतयः: '[up]'/'[down]'/'[left]'/'[right]' (वा w/s/a/d)।\nउद्देश्यः दीर्घतमं जीवितुं वा दीर्घतमः भूत्वा उच्चतमां कोटिं प्राप्तुं (परिवर्तनसंख्यापरिमितिः {max_turns} परिवर्तनानि)।"
   },
   "board": {
     "current": "वर्तमानः बोर्ड: {board}",

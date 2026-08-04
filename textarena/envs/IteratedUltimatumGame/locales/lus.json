@@ -34,10 +34,10 @@
     "bad_integer": "Offer amount hi integer dik tak a ni tur a ni.",
     "out_of_range": "A bid chu $0 leh ${pool} inkâra a ni tûr a ni.",
     "no_current_offer": "Tûnah chuan a chhân lêt theih loh.",
-    "accept_or_reject": "Responder must either [Accept] or [Reject] the offer."
+    "accept_or_reject": "Responder in offer pawm tur emaw hre loh tur emaw [Accept] emaw [Reject] hmang tur a ni."
   },
   "outcome": {
-    "win": "Player {winner} hian ${winner_total} zeta tlingin Player {loser} ${loser_total} zeta tling chu a hneh.",
+    "win": "Player {winner} in ${winner_total} a hmu a chak, Player {loser} in ${loser_total} a hmu a chak lo.",
     "draw": "A khelh zawh chuan player pahnih hian ${total} an nei ve ta a."
   }
 }

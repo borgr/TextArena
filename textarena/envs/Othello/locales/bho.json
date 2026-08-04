@@ -16,10 +16,10 @@
   },
   "game_action": {
     "skipped": "खिलाड़ी {pid} के आपन बारी छोड़ देबे पड़ल.",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "खिलाड़ी {pid} ({piece}) ने [{r}, {c}] पर खेला और {flipped} टुकड़ा(ओं) को पलट दिया"
   },
   "game_message": {
-    "must_skip": "Player {pid} ({piece}) has no valid moves and must skip."
+    "must_skip": "खिलाड़ी {pid} ({piece}) के पास कोई मान्य चाल नहीं है और उन्हें छोड़ना होगा।"
   },
   "outcome": {
     "black_wins": "काला जीत गइल {black_count}-{white_count}.",

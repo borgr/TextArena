@@ -16,7 +16,7 @@
   },
   "game_action": {
     "skipped": "ಆಟಗಾರ {pid} ತಮ್ಮ ಸರದಿ ಬಿಟ್ಟುಬಿಡಬೇಕಾಯಿತು",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "ಆಟಗಾರ {pid} ({piece}) [{r}, {c}] ಆಡಿ {flipped} ಕಾಯಿ(ಗಳು) ತಿರುಗಿಸಿದರು"
   },
   "game_message": {
     "must_skip": "ಆಟಗಾರ {pid} ({piece}) ಗೆ ಯಾವುದೇ ಮಾನ್ಯವಾದ ಚಲನೆಗಳು ಇಲ್ಲ ಮತ್ತು ಬಿಟ್ಟುಬಿಡಬೇಕು."

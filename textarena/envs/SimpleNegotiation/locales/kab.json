@@ -4,16 +4,16 @@
   },
   "invalid_move": {
     "receiving_with_no_resource": "Amur-nni yeεreḍ ad iqbel ameslay mebla ma yesɛa ayen ilaqen.",
-    "out_of_range": "Player {player_id}, Invalid action. Column {col} is out of bounds.",
-    "already_full": "Player {player_id}, Invalid action. Column {col} is full.",
+    "out_of_range": "Amiraz {player_id}, Aseqdec ur nelli. Tawlaft {col} d tin iɣezzifen.",
+    "already_full": "Amiraz {player_id}, Aseqdec ur nelli. Tawlaft {col} d tin iɛeggen.",
     "proposing_with_no_resource": "Amyurar {player_id} yeεreḍ ad d-yefk taweṛt n uṣewwi mebla ma yesɛa ayen ilaqen.",
     "incorrect_offer_format": "Amyurar {player_id} yefka-d asefk n uṣewweṛ s usebter ur nelhi.",
     "no_new_offer": "Amur {player_id} ur d-yefki ara taweṛt tamaynut."
   },
   "offers": {
     "reject": "Amur {player_id} yugi asumer n umeslay.",
-    "accept": "Player {acceptor_id} yefka asenfar n yefka n yexles n Player {proposer_id}.",
-    "proposal": "Player {player_id} yefka asenfar i Player {opponent_id}: Imɣaden yettwafken: {offered} -> Imɣaden yettwasnen: {requested}"
+    "accept": "Amiraz {acceptor_id} qeble asfel n tanegt seg Amiraz {proposer_id}.",
+    "proposal": "Amiraz {player_id} yesɛedda asfel-agi i Amiraz {opponent_id}: Yifecka iɛeddan: {offered} -> Yifecka iɣewwaɣen: {requested}"
   },
   "outcome": {
     "win": "Amyurar {winner_id} yerbeḥ s uḥric n lfenǧal.",

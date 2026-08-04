@@ -9,10 +9,10 @@
     "{pct}": "Progress as a percentage string, e.g. 50%"
   },
   "player_prompt": {
-    "intro": "Map each letter to a unique digit so the arithmetic holds.\nAssign with `[A 5]`, re-assign anytime.\n"
+    "intro": "ھەر پیتێک بە ژمارەیەکی نەکراوەیەکەوە ناسێنە بۆ ئەوەی ھەژماری بەردەوام بێت.\nناساندن بە `[A 5]`، دووبارە ناساندن ھەر کاتێک.\n"
   },
   "invalid_move": {
-    "wrong_format": "Bad action format. Use `[A 5]`.",
+    "wrong_format": "فۆرماتی کردارەکە ھەڵەیە. `[A 5]` بەکاربھێنە.",
     "letter_not_in_puzzle": "پیتی {letter} لە پازڵدا نییە.",
     "digit_used": "ژمارە {digit} پێشتر بەکارهێنراوە لەلایەن {used_letter}.",
     "leading_zero": "ژمارە سەرەکیی وشەیەک ناتوانێت 0 بێت."

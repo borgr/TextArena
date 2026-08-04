@@ -48,7 +48,7 @@
   "message": {
     "deck_empty": "Papadi e fela kapejana.",
     "knocked": "Sebapadi {pid} se kgorometšwe! Se sengwe le se sengwe sa dibapadi tše dingwe di hwetša sebaka se tee.",
-    "final_round": "Player {pid} {reason}! Batho ba bangwe ba na turn e nngwe"
+    "final_round": "Mokgatlo {pid} {reason}! Mokgatlo o mongwe le o mongwe o fumana kgato e tee."
   },
   "reason": {
     "all_revealed": "Na o utolotše dikarata ka moka?"

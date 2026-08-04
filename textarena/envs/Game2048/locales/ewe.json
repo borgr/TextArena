@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing 2048 on a {board_size}x{board_size} board. Your goal is to reach a {target_tile} tile by sliding identical numbers together!\nValid moves: [Up], [Down], [Left], [Right]. Tiles combine when they collide, doubling their value.\n"
+    "intro": "Aɖeke ƒo 2048 le {board_size}x{board_size} taɖi dzi. Aƒeme aɖeke nye be na aɖu {target_tile} taɖi ɖe kple dzidzɔ dzidzɔ wɔwɔ ƒe xexlẽwo!\nDziɖuɖu siwo sɔgbɔ: [Up], [Down], [Left], [Right]. Taɖiwo laɖiɖi ƒe xexlẽwo wɔwɔ ƒe agbɔsɔsɔ.\n"
   },
   "board": {
     "current_board": "Score: {score}\n{board}"
@@ -11,6 +11,6 @@
   },
   "outcome": {
     "win": "Akpe, mi gblɔ be {target_tile}! Agbalɛ fɔfɔ {score}.",
-    "lose": "No moves left. Max tile {max_tile} - final score {score}."
+    "lose": "Dziɖuɖu meɖo o. Taɖi gãtɔ {max_tile} - akɔnta titina {score}."
   }
 }

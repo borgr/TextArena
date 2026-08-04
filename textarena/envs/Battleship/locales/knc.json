@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id}. You are playing the Battleship game.\nYour goal is to sink all of your opponent's ships before they sink yours.\nOn your turn, you can fire missiles at specific coordinates in teh following format: '[a4]'. If the missile hits a ship, it is marked with 'X'. If it misses, it is marked with 'O'. In either scenarios, the game environment will inform you of your hits. If you have sunk a boat, the game environment will tell you!\nThe game ends when all of one player's ships have been sunk.\nYour initial board will show all of your ships placed and your opponent's hits on you, and your hits and misses on your opponent's board without showing your opponent's ships.\nHere is the initial board:\n"
+    "intro": "Káma káma {player_id}. Káma káma kwakúrò tíyèr Battleship.\nKwakúrò tíyèr káma káma kúrò tíyèr káma kúrò káma kúrò.\nKáma kúrò tíyèr, káma kúrò kúrò missiles kúrò kúrò kwakúrò tíyèr '[a4]'. Kúrò missiles kúrò kúrò ship, kúrò kúrò 'X'. Kúrò kúrò kúrò, kúrò kúrò 'O'. Kúrò kúrò kúrò, kúrò kúrò kúrò environment kúrò kúrò kúrò hits. Kúrò kúrò kúrò boat, kúrò kúrò kúrò environment kúrò kúrò!\nKúrò kúrò kúrò kúrò kúrò kúrò kúrò kúrò kúrò kúrò kúrò kúrò kúrò kúrò kúrò.\nKúrò kúrò kúrò board kúrò kúrò kúrò kúrò kúrò kúrò kúrò kúrò kúrò kúrò:\n"
   },
   "invalid_move": {
     "wrong_format": "Kambiwu dǝye coordinate kalkallo suro bracket karebe lan jazazǝnyi.",
@@ -9,11 +9,11 @@
   },
   "game_action": {
     "you_sunk": "Kɔɔ! A kuri kala kɔɔ ship ŋin at {coord}! Kuri kala ŋa board ŋin dii:\n{view}",
-    "opp_sunk": "Opponent sunk your ship at {coord}! Your updated board:\n{view}",
+    "opp_sunk": "Kàmbɛrí ndɛ̀ɓɛ̀ cídì kɛ̀ɓɛ̀ kà {coord}! Àsɛ̀ɓɛ̀ kɛ̀ɓɛ̀ kɛ̀:\n{view}",
     "you_hit": "Kuri kala! A kuri kala ship ŋin at {coord}! Kuri kala ŋa board ŋin dii:\n{view}",
-    "opp_hit": "Opponent hit your ship at {coord}! Your updated board:\n{view}",
-    "you_miss": "Miss! You missed the ship at {coord}! Your updated board:\n{view}",
-    "opp_miss": "Opponent missed your ship at {coord}! Your updated board:\n{view}"
+    "opp_hit": "Kàmbɛrí ndɛ̀ɓɛ̀ cídì kɛ̀ɓɛ̀ tà {coord}! Àsɛ̀ɓɛ̀ kɛ̀ɓɛ̀ kɛ̀:\n{view}",
+    "you_miss": "Kàlɛ̀! Kà kɛ̀ɓɛ̀ wù cídì kɛ̀ɓɛ̀ kà {coord}! Àsɛ̀ɓɛ̀ kɛ̀ɓɛ̀ kɛ̀:\n{view}",
+    "opp_miss": "Kàmbɛrí ndɛ̀ɓɛ̀ wù cídì kɛ̀ɓɛ̀ kà {coord}! Àsɛ̀ɓɛ̀ kɛ̀ɓɛ̀ kɛ̀:\n{view}"
   },
   "outcome": {
     "win": "Kambiwu {player_id}ye kurunza samma so cidi nzabe dәga sukkuru!"

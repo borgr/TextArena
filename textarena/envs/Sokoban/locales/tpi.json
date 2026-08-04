@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are solving the Sokoban puzzle. You are the player and you need to push all boxes to targets.\n        When you are right next to a box, you can push it by moving in the same direction.\n        You cannot push a box through a wall, and you cannot pull a box.\n        On the board, objects are represented as: \n        - The player (you) appears as 'P' \n        - Walls are represented with '#' \n        - Boxes are marked as 'X' \n        - Empty goals are shown with a 'O'\n        - Boxes on goals are visualized with '√'\n        You can also use [w] for up, [a] for left, [s] for down, and [d] for right.\n        "
+    "intro": "Yu wok long solvim Sokoban puzzle. Yu stap player na yu mas pushim ol box i go long target.\n        Taim yu stap klostu long box, yu ken pushim long move long same direkshin.\n        Yu no ken pushim box i go insait long wall, na yu no ken pulim box.\n        Long board, ol samting i kamap olsem: \n        - Player (yu) i kamap olsem 'P' \n        - Ol wall i kamap long '#' \n        - Ol box i makim 'X' \n        - Ol empty goal i soim long 'O'\n        - Ol box long goal i kamap long '√'\n        Yu ken tu usim [w] long go antap, [a] long go lef, [s] long go daun, na [d] long go rait.\n        "
   },
   "board": {
     "current_board": "Boriti karim bilong yumi:\n\n{board}\nMuvim i go long ples: {moves}"
@@ -9,10 +9,10 @@
     "wrong_format": "Muvim yu givim i no folow format bilong stret. Usim [up], [down], [left], [right] o [w], [a], [s], [d].",
     "not_valid_action": "Dispela tok i no stret.",
     "wall_collision": "Yu no inap go insait long banis!",
-    "invalid_position": "Invalid move - i no inap go long dispela posisen."
+    "invalid_position": "Move i no korrekt - yu no ken move i go long dispela posishin."
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
+    "moved": "Yu {pushed} i go pas [{action}].",
     "pushed_prefix": "i subim wanpela bokis taim em i stap long haus."
   },
   "outcome": {

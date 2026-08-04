@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "Inti Player {player_id} fil-Logħba tan-Negozjati.\nGħandek xi riżorsi, u l-missjoni tiegħek hija biex tittraffaħja biex il-valur totali tar-riżorsi tiegħek jiżdied.\nIr-riżorsi u l-valuri assoċjati li għandek bħalissa huma:\n\t+ {resource_value_list}\nF'kull darba, tista' titkellem mal-avversarju tiegħek u tagħmel offerta ta' skambju.\nUża l-tokenijiet speċjali li ġejjin għal azzjonijiet:\n  - '[Offerta: 3 Mħażżrin, 2 Xagħar -> 5 Ġebla, 2 Mħażżrin]': [Offerta: Riżorsi offerti -> Riżorsi mitluba]\n  - '[Accept]': Biex taċċetta offerta li waslet.\n  - '[Deny]': Biex tirrifjuta offerta li waslet (default).\nIl-logħba tadumu għal {max_turns} darbiet f'total."
+    "intro": "Inti Player {player_id} fil-Logħba tan-Negozjati.\nGħandek xi riżorsi, u l-missjoni tiegħek hija biex tittraffaħja biex il-valur totali tar-riżorsi tiegħek jiżdied.\nIr-riżorsi u l-valuri assoċjati li għandek bħalissa huma:\n\t+ {resource_value_list}\nF'kull darba, tista' titkellem mal-avversarju tiegħek u tagħmel offerta ta' skambju.\nUża l-tokenijiet speċjali li ġejjin għal azzjonijiet:\n  - '[Offer: 3 Sheep, 2 Ore -> 5 Brick, 2 Sheep]': [Offer: Offered Resources -> Requested Resources]\n  - '[Accept]': Biex taċċetta offerta li waslet.\n  - '[Deny]': Biex tirrifjuta offerta li waslet (default).\nIl-logħba tadumu għal {max_turns} darbiet f'total."
   },
   "invalid_move": {
     "receiving_with_no_resource": "Il-plejer ipprova jaċċetta skambju mingħajr ma kellu r-riżorsi meħtieġa.",

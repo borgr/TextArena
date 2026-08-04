@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing a {difficulty} RushHour puzzle. Slide cars to free the red car [X] and drive it out the right edge.\nActions: [A+], [B-], etc.  (+ = forward, - = backward)."
+    "intro": "Kei te tākaro koe i te panga RushHour {difficulty}. Whakakīkī ngā motokā kia haere ai te motokā whero [X] ki te taha matau.\nMahi: [A+], [B-], ētahi atu. (+ = whakamua, - = whakamuri)."
   },
   "invalid_move": {
     "wrong_format": "Haere ki te whāinga. Whakamahia te whāinga [A+] / [B-].",

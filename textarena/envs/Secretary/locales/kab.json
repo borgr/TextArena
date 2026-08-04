@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You will observe {N} hidden values sequentially.\nAt each step type [accept] to pick the *current* value, or [continue] to skip it and see the next one.\nIf you never accept, you are forced to take the final value.\nYou win (reward = 1) **only** if the value you ultimately pick is the highest of all."
+    "intro": "Ad kem-ixelḍ {N} imḍanen usligin s wakka.\nDi krayat tikkelt, sekci [accept] akken ad d-tafem imḍan *agdidan*, neɣ [continue] akken ad t-sḥebsi-t  d-tafem win n d-awtani.\nMa yella ur d-tafem, ad kem-xedmeḍ ad d-tafem imḍan aneggaru.\nTernuḍ (tazmert = 1) **kan** ma d imḍan i d-ternuḍ d win meqqren akk."
   },
   "game_action": {
     "current_value": "Azal-a d {value}."

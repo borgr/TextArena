@@ -1,9 +1,9 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({role}) in a {num_rounds}-round Matching Pennies game.\n- Each round, submit [heads] or [tails] (or [h], [t]).\n- If your choice matches your opponent’s, Player 0 wins the round; otherwise Player 1 wins.\nReply with your choice in the format '[heads]' or '[tails]'.\n"
+    "intro": "سىز {num_rounds} راوندلىق تەڭ پۇللۇق ئويۇندا ئويۇنچى {player_id} ({role}) .\n- ھەر بىر راوندتا، [heads] ياكى [tails] (ياكى [h]، [t]) تەقديم قىلىڭ.\n- ئەگەر سىزنىڭ تاللىشىڭىز رەقىبىڭىزنىڭ تاللىشى بىلەن ئوخشاش بولسا، ئويۇنچى 0 بۇ راوندتىن غەلىبە قىلىدۇ؛ ئەكسى ھالدا ئويۇنچى 1 غەلىبە قىلىدۇ.\nئەندىزە '[heads]' ياكى '[tails]' شەكلىدە تاللىڭىڭىزنى بىلدۈرۈڭ.\n"
   },
   "invalid_move": {
-    "wrong_format": "Invalid format; please submit '[heads]' or '[tails]'."
+    "wrong_format": "ئىناۋەتسىز ئەندىزە؛ '[heads]' ياكى '[tails]' شەكلىدە تەقديم قىلىڭ."
   },
   "message": {
     "round_match": "ئويناشچى 0 '{choice0}' نى تاللىغان؛ ئويناشچى 1 '{choice1}' نى تاللىغان. مۇناسىۋەت -> ئويناشچى 0 گەلىڭەن",

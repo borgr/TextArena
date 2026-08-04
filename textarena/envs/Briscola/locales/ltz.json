@@ -48,7 +48,7 @@
   },
   "action": {
     "played": "Spiller {player_id} huet {card} gespillt",
-    "trick_win": "Player {winner} wins the trick with {card} and gains {points} points!"
+    "trick_win": "Spiller {winner} gewënnt de Stich mat {card} a kritt {points} Punkten!"
   },
   "outcome": {
     "head": "Spill eriwwer! Spiller {winner} gewënnt mat {points} Punkten!\n\nEndlech Punkte:\n{scores}",

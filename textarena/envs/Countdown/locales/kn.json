@@ -9,7 +9,7 @@
     "progress": "{observation} ಪ್ರಸ್ತುತ ಪ್ರಗತಿ ಅಂಕಃ {progress}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use `[i j op]` where i,j are indices and op is +,-,*,/",
+    "wrong_format": "ಅಮಾನ್ಯ ಕ್ರಿಯೆ ರೂಪ. `[i j op]` ಅನ್ನು ಬಳಸಿ ಇಲ್ಲಿ i,j ಸೂಚಿಗಳು ಮತ್ತು op ಕಾರ್ಯಾಚರಣೆ +,-,*,/",
     "invalid_indices": "ಅಮಾನ್ಯ ಸೂಚ್ಯಂಕಗಳು. 0-{max_index} ವ್ಯಾಪ್ತಿಯಲ್ಲಿ ವಿಭಿನ್ನವಾಗಿರಬೇಕು",
     "invalid_operation": "ಅಮಾನ್ಯ ಕಾರ್ಯಾಚರಣೆ (ಶೂನ್ಯ ಅಥವಾ ಪೂರ್ಣಾಂಕವಲ್ಲದ ಫಲಿತಾಂಶದಿಂದ ಭಾಗಿಸುವುದು)"
   },

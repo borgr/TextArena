@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in **Ultimate Tic Tac Toe**.\nSubmit your move as **[macro  micro]** (two numbers 0-8):\n• *macro*  = which mini-board you play in\n• *micro* = which square inside that mini-board\nExample `[7 8]` ➜ place your mark in mini-board 7, square 8, and\nforce your opponent to play in mini-board 8 next.\n\nYou are `{symbol}`.\n"
+    "intro": "D kečč imiraz {player_id} di **Ultimate Tic Tac Toe**.\nSekkelsen tajdect-ik am **[macro  micro]** (sin imḍanen 0-8):\n• *macro*  = aya d tablirt n waddar i d-yalalen\n• *micro* = aya d takat n waddar di tablirt n waddar\nAmedya `[7 8]` ➜ ssekcem isem-ik di tablirt n waddar 7, takat 8, d\nḍmen ad d-yalalen wergaz-ik di tablirt n waddar 8 i d-yernan.\n\nD kečč `{symbol}`.\n"
   },
   "board": {
     "current_board": "Asqamu amatu: {board}"
@@ -18,7 +18,7 @@
     "specific": "Aɣmis n uẓeṭṭa {nxt}"
   },
   "game_action": {
-    "played": "Player {player_id} played in micro board {macro_idx}, cell {micro_idx} (row {row}, col {col}). Player {opponent_id} must now play in {nxt_txt}."
+    "played": "Ayalal {player_id} yalalen di tablirt n waddar {macro_idx}, takat {micro_idx} (ajgu {row}, takat {col}). Ayalal {opponent_id} ilaq ad d-yalalen di {nxt_txt}."
   },
   "outcome": {
     "win": "Amyurar {player_id} yerbeḥ Ultimate Tic Tac Toe!",

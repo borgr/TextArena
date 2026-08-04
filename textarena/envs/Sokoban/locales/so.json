@@ -12,7 +12,7 @@
     "invalid_position": "Dhaqdhaqaaq aan sax ahayn - ma dhaqaajin karo booskaas."
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
+    "moved": "Waxaad {pushed} dhaqdhaqaaqdayt [{action}].",
     "pushed_prefix": "waxay ku riixeen sanduuq"
   },
   "outcome": {

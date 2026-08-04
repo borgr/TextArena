@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({piece}). Opponent is ({opp}).\nSubmit moves as '[a2 a3]' (from → to).\n- A normal move is one forward step to an adjacent empty vertex.\n- A capture is a jump over an adjacent enemy piece landing on the empty node beyond.\nEach capture yields {score_per_capture} points.\nGame ends after {max_moves} moves or when a player has no legal move."
+    "intro": "Һеҙ Уйынсы {player_id} ({piece}). Дошман - ({opp}).\nЙөрөүҙәрҙе '[a2 a3]' (ҡайҙан → ҡайҙа) рәүешендә ебәрергә кәрәк.\n- Ғәҙәти йөрөү - күрше буш вершинаға бер аҙым.\n- Тотороу - күрше дошман фигураһы аша һикереү һәм унан һуңғы буш төйөнөндә урынлашыу.\nҺәр тотороу өсөн {score_per_capture} мәрәй бирелә.\nУйын {max_moves} йөрөүҙән һуң йәки уйынсыға рөхсәт ителгән йөрөүҙәр бөткәс тамамлана."
   },
   "board": {
     "current_board": "Хәрәкәт #{move_count}\n\n{board}"

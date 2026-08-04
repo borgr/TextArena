@@ -24,8 +24,8 @@
     "empty_command": "Бос команда. \"draw\" немесе \"move <source> <destination> [count]\" деп теріңіз.",
     "empty_action": "Бос әрекет",
     "move_needs_args": "Жылжыту командасы көзін және мақсатын талап етеді. Пайдалануы: 'move <source> <destination> [count]'",
-    "count_positive": "Санау оң немесе \"барлық\" болуы тиіс",
-    "count_invalid": "Жарамсыз санау. Санды немесе \"барлығын\" қолдану",
+    "count_positive": "Сан оң болуы керек немесе 'all'",
+    "count_invalid": "Жарамсыз сан. Сан немесе 'all' пайдаланыңыз",
     "unknown_command": "Беймәлім команда '{cmd}'. 'draw', 'move <source> <destination> [count]', немесе 'forfeit' қолданыңыз",
     "wrapped": "Іс-әрекет {n}: {msg}"
   },
@@ -62,7 +62,7 @@
     "turn_limit": "Ойын аяқталды! Сіз ең көп {max_turns} айналымға жеттіңіз. Нысан: {score} карточкалар іргетаста."
   },
   "board": {
-    "title": "=== KLONDIKE SOLITAIRE ===",
+    "title": "=== KLONDIKE СОЛИТЕРІ ===",
     "turn": "Ауысым: {turn}/{max_turns}",
     "stock": "Қор: {stock} карточкалар",
     "waste": "Қалдықтар (W): {waste}",

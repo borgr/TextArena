@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in an Iterated Prisoner's Dilemma spanning {num_rounds} rounds.\n\nGame Structure:\n- Before each decision you have {total_conversation_rounds} turns to communicate freely.\n- After that, both players simultaneously choose to cooperate or defect.\n\nPayoff Matrix (fixed each round):\n- Both Cooperate ➜ each {cooperate_reward}\n- Both Defect ➜ each {mutual_defect_reward}\n- One Defects, one Cooperates ➜ Defector {defect_reward}, Cooperator {sucker_reward}\n\nHow to Play:\n- During conversation: type any text you wish.\n- During decision phase: include '[Cooperate]' or '[Defect]' (case-insensitive). You may add extra text before/after the token."
+    "intro": "Ame nye Aka {player_id} le Iterated Prisoner's Dilemma si woɖe {num_rounds} ɣleti.\n\nAgbale si:\n- Le ɣleti ɖesiaɖe la, awoe {total_conversation_rounds} ɣletiwo be na alesiɖe.\n- Emea, aka siawo katã ade si be woakpɔtɔ kple woade.\n\nPayoff Matrix (ɖeɖe ɣleti):\n- Aka siawo katã ade ɖoɖo ➜ aka {cooperate_reward}\n- Aka siawo katã ade ade ➜ aka {mutual_defect_reward}\n- Aka ɖeka ade, aka ɖeka ɖoɖo ➜ Aka ade {defect_reward}, Aka ɖoɖo {sucker_reward}\n\nNe eme na:\n- Le alesiɖe: ŋkɔ ŋu alesi be woawo.\n- Le ɣleti si: ɖe '[Cooperate]' alo '[Defect]' (meɖeɖe o). Awoe ade ŋu alesi ɖeɖe."
   },
   "phases": {
     "conversation_finished": "Nuxɔxɔxɔ ɖɔɖɔe le round {round}. Mɔ na mi be yɛ '[Cooperate]' kple '[Defect]' le \boxed{{}}.",

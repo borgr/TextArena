@@ -5,7 +5,7 @@
   "invalid_move": {
     "receiving_with_no_resource": "Pamain mancubo manarimo parubahan tanpa punyo sumber daya nan diparaluan.",
     "out_of_range": "Pamain {player_id}, Tindakan indak bapaten. Kolom {col} di luar jangkauan.",
-    "already_full": "Player {player_id}, Invalid action. Column {col} is full.",
+    "already_full": "Pemain {player_id}, Aksi indak valid. Kolom {col} alah panuah.",
     "proposing_with_no_resource": "Pamain {player_id} mancubo untuak mambuek tawaran pardagangan tanpa mampunyoi sumber daya nan diparaluan.",
     "incorrect_offer_format": "Pamain {player_id} mambuek tawaran dagang dalam format nan salah.",
     "no_new_offer": "Pamain {player_id} indak mangadokan tawaran dagang baru."

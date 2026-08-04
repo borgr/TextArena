@@ -7,7 +7,7 @@
     "current_board": "वर्तमान बोर्ड: {board} मा ज्वालामुखीय ऊर्जा का स्रोत है।"
   },
   "invalid_move": {
-    "wrong_format": "You did not respond with valid coordinates in square brackets.",
+    "wrong_format": "तुमने वैध निर्देशांकों के साथ जवाब नहीं दिया।",
     "out_of_bounds": "निर्दिष्ट पंक्ति अउर स्तंभ समन्वय सीमा से बाहर बा.",
     "already_revealed": "({row}, {col}) पर सेल पहले से ही उजागर किया जा चुका है।",
     "hit_mine": "आपने ({row}, {col}) पर एक माइन मारा है।"
@@ -16,7 +16,7 @@
     "revealed": "आपने ({row}, {col}) पर सेल को उजागर किया है।"
   },
   "outcome": {
-    "win": "Congratulations! You have successfully cleared the Minesweeper board.",
+    "win": "बधाई! तुमने सफलतापूर्वक माइनस्वीपर बोर्ड को साफ कर दिया है।",
     "turn_limit": "वक्र सीमा पहुंच गई है. आप सुरक्षित कक्ष का {percent}% सफलतापूर्वक उजागर कर रहे हैं।"
   }
 }

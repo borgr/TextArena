@@ -16,7 +16,7 @@
   },
   "game_action": {
     "skipped": "Roedd rhaid i chwaraewr {pid} esgyn eu tro",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "Chwaraeodd Chwaraewr {pid} ({piece}) [{r}, {c}] gan droi {flipped} darn(au)"
   },
   "game_message": {
     "must_skip": "Nid oes gan chwaraewr {pid} ({piece}) symudiadau dilys ac mae'n rhaid iddo neidio."

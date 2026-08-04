@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a {num_rounds}-round of IteratedTwoThirdsAverage.\nEach round, guess a number between {min_guess} and {max_guess}.\nAfter both guesses, the target is (2/3)x(average of both guesses),\nand the player whose guess is closest to the target wins that round.\nReply with your guess in the format '[<number>]'."
+    "intro": "Wo ne Player {player_id} wɔ {num_rounds}-round a IteratedTwoThirdsAverage.\nKwa round biara, susuw biribi kati {min_guess} ne {max_guess}.\nWɔkyekyɛm biribiara, botae no ne (2/3)x(average a biribiara susuw),\nna player a ne susuw no dɔɔso botae no na ɔdi round no.\nKɔ bae wɔ format yi '[<number>]'."
   },
   "invalid_move": {
     "wrong_format": "Nhyehyɛe a enni mu; mesrɛ sɛ fa wo nkyerɛɛmu no to hɔ s[<number>].",

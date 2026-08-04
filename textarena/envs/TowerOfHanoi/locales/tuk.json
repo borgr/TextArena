@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing Tower of Hanoi with {num_disks} disks.\nYou have to move the disks from tower A to tower C.\nTo move a disk, type the source tower and the target tower (e.g., '[A C]').\nNote that you can only move the top disk of a tower, and that a bigger disk cannot be placed on a smaller disk.\nAt each turn, submit one move."
+    "intro": "Siz Tower of Hanoi oýunyny {num_disks} disk bilen oýnaýyorsyňyz.\nSiz diskleri A towerinden C towerine geçirmeli.\nDiski geçirmek üçin, çeşme we ýedňe towerlerini ýazyň (meselem, '[A C]').\nDiňe bir toweriň ýokarky diskini geçire bilersiňiz we uly diskini kiçi diskine goýup bolmaýar.\nHer gezek bir hereket ýazyň."
   },
   "board": {
     "current_board": "Häzirki maslahat: {board}."

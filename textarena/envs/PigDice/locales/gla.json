@@ -11,7 +11,7 @@
   },
   "board": {
     "player": "Cluichiche 0: '{score_0}'; Cluichiche 1: '{score_1}'",
-    "current_total_scores": "Current Total Scores: {scores}\nYour current turn total is {turn_total}.",
+    "current_total_scores": "Sgòran Tòtailean Làithreach: {scores}\nIs e {turn_total} tòtal turas làithreach agad.",
     "roll_history": "{observation}\nEachdraidh do chluich airson an turais seo: {roll_history}",
     "first_roll": "{observation} Is e seo a' chiad rolla den turas agad.",
     "available_actions": "{observation}\nGnìomhan ri làimh: '[roll]' no '[hold]'"

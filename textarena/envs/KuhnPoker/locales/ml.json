@@ -11,7 +11,7 @@
     "not_legal": "നടപടി {legal_actions} ആയിരിക്കണം."
   },
   "action": {
-    "submit_move": "Player {player_id}, submitted move: '[{move}]'.",
+    "submit_move": "പ്ലെയർ {player_id}, സമർപ്പിച്ച നീക്കം: '[{move}]'.",
     "valid_actions": "നിങ്ങളുടെ ലഭ്യമായ നടപടികൾ ഇവയാണ്: {legal_actions}.",
     "round_summary": "{reason} നിലവിലെ സ്കോറുകൾഃ കളിക്കാരൻ 0: \"{player_0_chips}\"; കളിക്കാരൻ 1: \"{player_1_chips}\""
   },

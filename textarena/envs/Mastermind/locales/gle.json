@@ -13,7 +13,7 @@
     "repeated_guess": "Tá {guess} tugtha agat cheana féin. Déan iarracht a aimsiú ar bhealach eile le do thoil."
   },
   "game_action": {
-    "feedback": "Submitted [{guess}]. Feedback: {black_pegs} black peg(s), {white_pegs} white peg(s)."
+    "feedback": "Cuireadh [{guess}]. Aiseolas: {black_pegs} pionn dubh(a), {white_pegs} pionn bán(a)."
   },
   "outcome": {
     "win": "Tá an cód briste agat, ag réiteach {black_pegs} as {code_length} peig go ceart",

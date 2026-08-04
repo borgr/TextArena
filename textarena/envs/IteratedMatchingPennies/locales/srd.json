@@ -1,13 +1,13 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({role}) in a {num_rounds}-round Matching Pennies game.\n- Each round, submit [heads] or [tails] (or [h], [t]).\n- If your choice matches your opponent’s, Player 0 wins the round; otherwise Player 1 wins.\nReply with your choice in the format '[heads]' or '[tails]'.\n"
+    "intro": "Ses Giogadore {player_id} ({role}) in un giogu de Matching Pennies de {num_rounds} turnos.\n- In ogni turno, imbia [heads] o [tails] (o [h], [t]).\n- Si sa scelta tua currispondet a cussa de s'avversariu, Giogadore 0 binchet su turno; in casu contrariu Giogadore 1 binchet.\nRispundi cun sa tua scelta in su formatu '[heads]' o '[tails]'.\n"
   },
   "invalid_move": {
-    "wrong_format": "Invalid format; please submit '[heads]' or '[tails]'."
+    "wrong_format": "Formatu non bàlidu; imbia '[heads]' o '[tails]'."
   },
   "message": {
-    "round_match": "Player 0 picked {choice0}; Player 1 picked {choice1}. Match -> Player 0 wins",
-    "round_mismatch": "Player 0 picked {choice0}; Player 1 picked {choice1}. Mismatch -> Player 1 wins."
+    "round_match": "Giogadore 0 at seletzionadu {choice0}; Giogadore 1 at seletzionadu {choice1}. Currisspondèntzia -> Giogadore 0 binchet",
+    "round_mismatch": "Giogadore 0 at seletzionadu {choice0}; Giogadore 1 at seletzionadu {choice1}. Discurrisspondèntzia -> Giogadore 1 binchet."
   },
   "outcome": {
     "p0_wins": "Su giogadore 0 at bintu prus rundas.",

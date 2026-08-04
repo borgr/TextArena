@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in **Ultimate Tic Tac Toe**.\nSubmit your move as **[macro  micro]** (two numbers 0-8):\n• *macro*  = which mini-board you play in\n• *micro* = which square inside that mini-board\nExample `[7 8]` ➜ place your mark in mini-board 7, square 8, and\nforce your opponent to play in mini-board 8 next.\n\nYou are `{symbol}`.\n"
+    "intro": "Doe bies Speler {player_id} in **Ultiem Tic Tac Toe**.\nGief dien zet op as **[macro  micro]** (twie getalle 0-8):\n• *macro*  = in welk mini-bord doe speul\n• *micro* = in welk veld binne dat mini-bord\nVeurbeeld `[7 8]` ➜ plaots dien teike in mini-bord 7, veld 8, en\ndwing dien taegenstander óm in mini-bord 8 te speule.\n\nDoe bies `{symbol}`.\n"
   },
   "board": {
     "current_board": "Huidig bestuur: {board}"
@@ -15,7 +15,7 @@
   },
   "next_board": {
     "any": "e mikrokartel",
-    "specific": "micro board {nxt}"
+    "specific": "micro-bord {nxt}"
   },
   "game_action": {
     "played": "Speler {player_id} haet gespeeld in microbord {macro_idx}, cel {micro_idx} (riek {row}, kolom {col}). Speler {opponent_id} móts noe gespelen in {nxt_txt}."

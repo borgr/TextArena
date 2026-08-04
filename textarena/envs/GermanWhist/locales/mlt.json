@@ -24,8 +24,8 @@
     "played": "Player {player_id} lagħab {card}."
   },
   "trick": {
-    "won": "Player {winner_id} wins the trick with {card}.",
-    "won_learning": "Player {winner_id} wins the trick with {card} and takes the face-up card."
+    "won": "Player {winner_id} rebaħ il-trick bil-karta {card}.",
+    "won_learning": "Player {winner_id} rebaħ il-trick bil-karta {card} u ħa l-karta li qed turi."
   },
   "phase": {
     "learning_complete": "Il-gverta hija eżawrita. L-istadju tat-tagħlim huwa fuq - kull trick li jibqa 'jgħodd lejn ir-rebħa."
@@ -37,8 +37,8 @@
   },
   "turn": {
     "board": "{phase}\n{scores}\n{next_card}\n\n{trick}\n\n{hand}",
-    "scores_learning": "Trikqliet rebħu sal-lum - Player 0: {tricks0}, Player 1: {tricks1}",
-    "scores_playing": "Trikqliet ta' skor - Player 0: {tricks0}, Player 1: {tricks1}",
+    "scores_learning": "Trikkejjiet mirbuħa s'issa - Plejer 0: {tricks0}, Plejer 1: {tricks1}",
+    "scores_playing": "Trikkejjiet li jġibu punti - Plejer 0: {tricks0}, Plejer 1: {tricks1}",
     "phase": "Fażi: {phase}",
     "phase_learning": "Fażi: {phase} ({remaining_cards} karti baqgħu fil-ġabra)"
   },
@@ -61,7 +61,7 @@
     "header": "=== ĠERMAN WHIST logħba ===",
     "phase": "{observation}\nFażi: {phase}",
     "trump_suit": "{observation}\nSuit trump: {trump_suit}",
-    "trump_card": "{observation}\nTrump card: {card}",
+    "trump_card": "{observation}\nKarta tal-trump: {card}",
     "cards_left": "{observation}\nKarti li baqgħu fil-ġabra: {count}",
     "next_card": "{observation}\nKarta li jmiss għar-rebbieħ: {card}",
     "blank": "{observation} ",
@@ -71,6 +71,6 @@
     "player_line": "{observation}\nPlayer {player_id}: {scoring} triqqliet ({tricks} total), {hand_size} karti fl-idejn"
   },
   "outcome": {
-    "summary": "Learning phase - Player 0: {l0}, Player 1: {l1}. Playing phase - Player 0: {p0}, Player 1: {p1}. Player {winner_id} wins with {winner_tricks} scoring tricks!"
+    "summary": "Fażi ta' tagħlim - Plejer 0: {l0}, Plejer 1: {l1}. Fażi ta' logħba - Plejer 0: {p0}, Plejer 1: {p1}. Il-Plejer {winner_id} jirbaħ b'{winner_tricks} trikkijiet li jġibu punti!"
   }
 }

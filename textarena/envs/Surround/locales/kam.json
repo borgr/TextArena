@@ -10,7 +10,7 @@
     "{groups}": "Neutral ranking data (a list of player-id groups, best to worst); do not translate"
   },
   "player_prompt": {
-    "intro": "{num_players}-Player Surround on a {width}x{height} grid.\nYou are player {player_id}. Valid moves: '[up]' '[down]' '[left]' '[right]' or w/s/a/d.\nObjective: outlive everyone else. Trails are deadly; wall hits kill; head-on crashes kill both."
+    "intro": "Mchezo wa {num_players}-Wachezaji wa Surround kwenye gridi ya {width}x{height}.\nWewe ni mchezaji {player_id}. Harakati zinazokubalika: '[up]' '[down]' '[left]' '[right]' au w/s/a/d.\nLengo: kuishi zaidi ya wengine wote. Njia zinazoua; kugonga ukuta kunaua; kugongana uso kwa uso kunaua wote wawili."
   },
   "board": {
     "current": "Kamitii ya Ũũngamĩi: {board}",
@@ -20,9 +20,9 @@
     "invalid_death": "MŨTHAKĨI {player_id} akw'ĩĩe kaũnĩ nũndũ wa kũlea kũthaũka mũvĩla."
   },
   "outcome": {
-    "survived_win": "Player {player_id} survived; all others crashed.",
+    "survived_win": "Mchezaji {player_id} alinusurika; wengine wote waligongana.",
     "all_crashed": "Andũ asu onthe makwatiwe nĩ mĩisyo ĩsu ĩmwe kwa ĩmwe.",
-    "outlived": "Player outlived all others.",
+    "outlived": "Mchezaji alinusurika zaidi ya wengine wote.",
     "all_dead": "Andũ onthe ala mathaũkaa nĩmooawa.",
     "turn_limit": "Mũndũ ũla ũleaa kũvĩtũka kĩvĩla kĩla waĩle kũlika akeethĩwa e mũsindi.",
     "ranking": "{reason} Mavuno ya mwisho ya vikundi (bora→mbaya zaidi): {groups}"

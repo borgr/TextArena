@@ -3,8 +3,8 @@
     "intro": "Te se Giugadur {player_id} in d'on {num_rounds}-turn de IteratedTwoThirdsAverage.\nA ogni turn, giuga on numer tra {min_guess} e {max_guess}.\nDopo i du giug, el target l'è (2/3)x(media di tucc du i giug),\ne 'l giugadur che 'l giuga pussee arent al target el venc quel turn.\nRespond con la tua giugada in del format '[<number>]'."
   },
   "invalid_move": {
-    "wrong_format": "Invalid format; submit your guess as [<number>].",
-    "out_of_range": "Guess must be between {min_guess} and {max_guess}."
+    "wrong_format": "Format minga bon; per piasè, manda la toa ipotesi 'me “[<number>]”.",
+    "out_of_range": "L'ipotesi la gh'ha de vess tra {min_guess} e {max_guess}."
   },
   "message": {
     "round_guesses": "Giugadur 0 a giugaa {guess0}; Giugadur 1 a giugaa {guess1}. Inscì el Target l'è: {target}.",

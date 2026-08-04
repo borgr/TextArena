@@ -12,7 +12,7 @@
     "target_lower": "Ang target nga numero mas ubos."
   },
   "outcome": {
-    "win": "Congratulations! You guessed the correct number.",
+    "win": "Mabuhay! Nakasabot ka sa sakto nga numero.",
     "turn_limit": "Ang limit sa turno nakuha na. Guess: {guess}, Target: {target}"
   }
 }

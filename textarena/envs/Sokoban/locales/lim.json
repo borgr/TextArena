@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are solving the Sokoban puzzle. You are the player and you need to push all boxes to targets.\n        When you are right next to a box, you can push it by moving in the same direction.\n        You cannot push a box through a wall, and you cannot pull a box.\n        On the board, objects are represented as: \n        - The player (you) appears as 'P' \n        - Walls are represented with '#' \n        - Boxes are marked as 'X' \n        - Empty goals are shown with a 'O'\n        - Boxes on goals are visualized with '√'\n        You can also use [w] for up, [a] for left, [s] for down, and [d] for right.\n        "
+    "intro": "Doe dees de Sokoban-puzzel op. Doe bös de speler en mos doe alle kiste nao de doele brengen.\n        Wen doe naeve 'ne kis steit, kins doe dem duje door in dezelfde richting te bewaege.\n        Doe kins geen kis door 'ne moer duje, en doe kins ouch geen kis trèkke.\n        Op 't bord were objekte wie volgt aafgebeeld:\n        - De speler (dich) steit aafgebeeld as 'P' \n        - Moere were aafgebeeld mit '#' \n        - Kiste were aangemerk as 'X' \n        - Laeg doele were aafgebeeld mit 'O'\n        - Kiste op doele were aafgebeeld mit '√'\n        Doe kins ouch [w] veur baove, [a] veur links, [s] veur ónger en [d] veur rechs gebroeke.\n        "
   },
   "board": {
     "current_board": "Huidig bord:\n\n{board}\nBesjikbare zètte: {moves}"
@@ -12,7 +12,7 @@
     "invalid_position": "Onwaordige beweging - kin neet nao die positie."
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
+    "moved": "Doe {pushed} dich bewaegd [{action}].",
     "pushed_prefix": "'n doosje geduwdj."
   },
   "outcome": {

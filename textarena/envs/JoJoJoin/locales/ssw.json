@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in JoJoJoin, played on a 5x5 board with cells numbered 0-24.\nOn your turn, place your mark on any empty cell, e.g. '[12]'.\nYOU WIN by getting FOUR of your marks in a row — four consecutive cells horizontally, vertically, or diagonally.\nAs Player {player_id} you are '{symbol}'; your opponent is '{opponent_symbol}'."
+    "intro": "Unguwele Mdlali {player_id} ku JoJoJoin, umdlalo odlalwa phezu kwetabho ye 5x5 leyenombolo zeceli zibhalwe 0-24.\nEkuseni kwakho, beka isikhala sakho phezu kwe cela elingenamuntu, njengaku '[12]'.\nUWINA ngokuwa nemikhala eyine ya wena elandelanayo — emikhala eyine elandelanayo ngendlela yehlathi, phezulu, noma diagonally.\nNjenge Mdlali {player_id} ungu '{symbol}'; isitha sakho yena '{opponent_symbol}'."
   },
   "board": {
     "current_board": "Bhoja Lesitsandvo:\n\n{board}\n\nImigomo Yemidlalo: {moves}"

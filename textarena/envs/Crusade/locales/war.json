@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "bad_format": "Diri maopay nga pormat. Gamit an \"[b1 c3]\".",
-    "unknown_square": "An unknown square.",
+    "unknown_square": "Waray kilala nga kwadrado.",
     "not_your_piece": "Diri imo an tinikangan.",
     "own_piece": "Diri ka makakahimo pag-atras ha imo kalugaringon nga lugar.",
     "not_knight": "Diri ini usa nga pag-abante."

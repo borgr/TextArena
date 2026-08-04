@@ -27,7 +27,7 @@
     "drew": "Ou te tire: {card}\nKounye a ou dwe [swap X Y] oubyen [discard] li.",
     "took": "Ou te pran: {card} soti nan pak boule\nOu dwe [swap X Y] ak li (pa ka boule).",
     "peeked": "Ou te gade nan pozisyon ({row},{col}): {card}",
-    "turn_view": "Your hand:\n{hand}\nDiscard pile: {discard}\n{options}",
+    "turn_view": "Men ou:\n{hand}\nPil discard: {discard}\n{options}",
     "none": "Pa gen okenn."
   },
   "options": {
@@ -74,6 +74,6 @@
     "title": "=== GOLF JWE ===",
     "discard": "Dechè pil: {card}",
     "knocked": "Jwè {pid} te frape!",
-    "player_header": "Player {pid} (Score: {score}):"
+    "player_header": "Jwè {pid} (Skò: {score}):"
   }
 }

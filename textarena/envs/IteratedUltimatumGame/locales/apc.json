@@ -21,18 +21,18 @@
     "{total}": "Each player's tied final total (a number)"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id}, playing {num_rounds} rounds of Iterated Ultimatum Game.\nYou have ${pool} to split this round between yourself and Player {other_id}.\n\nProposer:\n  - Make an offer: [Offer: $X] (0 <= X <= pool)\n  - If accepted → You get $(pool - X), other player gets $X\n  - If rejected → Both get $0\n  - Example: [Offer: $3]  or  'I think this is fair. [Offer: $5]'\n\nResponder:\n  - Decide on the offer with either [Accept] or [Reject]\n  - Example: 'That seems reasonable. [Accept]'\n            'Too unfair. [Reject]'\n"
+    "intro": "أنت لاعب {player_id}، تلعب {num_rounds} جولات من لعبة Iterated Ultimatum Game.\n لديك ${pool} لتقسيمها في هذه الجولة بينك وبين لاعب {other_id}.\n\nمقترح:\n  - قدم عرضًا: [Offer: $X] (0 <= X <= pool)\n  - إذا قبل → تحصل على $(pool - X)، اللاعب الآخر يحصل على $X\n  - إذا رفض → كلا اللاعبين يحصل على $0\n  - مثال: [Offer: $3]  أو  'أعتقد أن هذا عادل. [Offer: $5]'\n\nمستجيب:\n  - قرر العرض إما [Accept] أو [Reject]\n  - مثال: 'يبدو ذلك معقولًا. [Accept]'\n            'غير عادل جدًا. [Reject]'\n"
   },
   "round": {
-    "begins": "--- Round {round_number} begins! ---\nPlayer {proposer_id} is the proposer, Player {responder_id} is the responder.",
-    "offer": "Round {round_number}: Player {proposer_id} offers ${offer} to Player {responder_id} (keeping ${keep}).",
+    "begins": "--- تبدأ الجولة {round_number}! ---\nاللاعب {proposer_id} هو المقترح، اللاعب {responder_id} هو المستجيب.",
+    "offer": "الجولة {round_number}: اللاعب {proposer_id} يقدم ${offer} للاعب {responder_id} (يحتفظ بـ ${keep}).",
     "accepted": "اللاعب {responder_id} قبل! مكاسب الجولة {round_number}: اللاعب {proposer_id} +${proposer_gain} ، اللاعب {responder_id} +${responder_gain}. الإجماليات الجديدة: اللاعب 0: ${total_0} ، اللاعب 1: ${total_1}.",
     "rejected": "اللاعب {responder_id} رفض العرض! مكاسب الجولة {round_number}: كلا اللاعبين +$0. الإجماليات تبقى: اللاعب 0: ${total_0} ، اللاعب 1: ${total_1}."
   },
   "invalid_move": {
     "no_offer_format": "المقدم لازم يرفع العرض باستخدام الشكل [Offer: $X].",
     "bad_integer": "مبلغ العرض لازم يكون رقم صحيح.",
-    "out_of_range": "Offer must be between $0 and ${pool}.",
+    "out_of_range": "يجب أن يكون العرض بين $0 و ${pool}.",
     "no_current_offer": "ما في عرض حالي للإجابة عليه.",
     "accept_or_reject": "المرتجِع يجب أن [Accept] أو [Reject] العرض."
   },

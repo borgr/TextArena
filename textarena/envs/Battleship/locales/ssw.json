@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id}. You are playing the Battleship game.\nYour goal is to sink all of your opponent's ships before they sink yours.\nOn your turn, you can fire missiles at specific coordinates in teh following format: '[a4]'. If the missile hits a ship, it is marked with 'X'. If it misses, it is marked with 'O'. In either scenarios, the game environment will inform you of your hits. If you have sunk a boat, the game environment will tell you!\nThe game ends when all of one player's ships have been sunk.\nYour initial board will show all of your ships placed and your opponent's hits on you, and your hits and misses on your opponent's board without showing your opponent's ships.\nHere is the initial board:\n"
+    "intro": "Nawe nguMdlali {player_id}. Nawe ulidlala umdlalo weBattleship.\nInhloso yakho kugwaza zonke izikepe zakho zesikhala ngaphambi kokuba zikugwaze zona.\nKusuku lwakho, unaweza kuphumisa imikhosi kwenye iziko-ndawo ezithile kwenye ifomethi elandelayo: '[a4]'. Uma imikhosi ikhona isikepe, isibhala 'X'. Uma iyiphumele, isibhala 'O'. Kwezinye izimo, indawo yomdlalo iyakutshela ngemikhosi yakho. Uma usigwaze isikepe, indawo yomdlalo iyakutshela!\nUmdlalo uphela lapho zonke izikepe zomdlali zinye zigwazwe.\nIbhodi yakho yokuqala iyakubonisa zonke izikepe zakho ezibekwe nezikhala zakho zesikhala kwenye wena, nezikhala zakho zokuphumelela nezikhala zakho zokuphumelela kwenye ibhodi yakho yomdlali ngaphandle kokubonisa izikepe zakho zesikhala.\nNansi ibhodi yokuqala:\n"
   },
   "invalid_move": {
     "wrong_format": "Lomdlali akazange aphendvule ngekukhombisa indlela lecondzile yekubhala emagama.",
@@ -12,7 +12,7 @@
     "opp_sunk": "Mdlali uwasula mbiri yakho ku {coord}! Ibhoja yakho ephindzelelwe:\n{view}",
     "you_hit": "Walishaya! Uwalishaya mbiri ku {coord}! Ibhoja yakho ephindzelelwe:\n{view}",
     "opp_hit": "Mdlali uwalishaya mbiri yakho ku {coord}! Ibhoja yakho ephindzelelwe:\n{view}",
-    "you_miss": "Miss! You missed the ship at {coord}! Your updated board:\n{view}",
+    "you_miss": "Kuphumele! Ukhohlwe isikepe kwenye {coord}! Ibhodi yakho yabuye:\n{view}",
     "opp_miss": "Mdlali akalishaya mbiri yakho ku {coord}! Ibhoja yakho ephindzelelwe:\n{view}"
   },
   "outcome": {

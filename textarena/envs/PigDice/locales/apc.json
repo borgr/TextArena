@@ -12,7 +12,7 @@
   "board": {
     "player": "اللاعب 0: '{score_0}'؛ اللاعب 1: '{score_1}'",
     "current_total_scores": "الدرجات الإجمالية الحالية: {scores}\nإجمالي دورك الحالي هو {turn_total}.",
-    "roll_history": "{observation}\nYour roll history for this turn: {roll_history}",
+    "roll_history": "{observation}\nتاريخ لفاتك لهذا الدور: {roll_history}",
     "first_roll": "{observation} هيدا أول رماية بدورك.",
     "available_actions": "{observation}\nالإجراءات المتاحة: '[roll]' أو '[hold]'"
   },

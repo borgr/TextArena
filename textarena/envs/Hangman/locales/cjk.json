@@ -9,23 +9,23 @@
     "{target_word}": "The hidden target word"
   },
   "prompt": {
-    "intro": "You are playing Hangman. The objective of the game is to guess the word by providing one letter guesses or the entire word.\nEach column is numbered. The cells that need to be populated with letters are represented by '_'.\n\nThere are two ways you can answer. You can provide one letter guesses in the format of '[L]', or you can guess the entire word in the format of '[LIGHT]'.\nIf the given letter is in the word, it will be revealed in the grid.\nIf the given word is correct, you win.\nAs you play, the history of your choices will be appended below. Use the information to figure out the word and win.\nYou have 6 incorrect tries before the game ends.\n\n"
+    "intro": "Uli na kusakala Hangman. Cilonda ca kusakala ni kuwona cipande cakusakala kwa kutoa mawona matiya gha kutila gha kutila gha mawona.\nCilonda cilonda kutila nambari. Mawona gha kutila gha kutila gha mawona gha kutila '_'.\n\nKuna njia ziwili za kujibu. Ungaweza kutoa mawona matiya gha kutila gha fomu ya '[L]', kana ungaweza kutoa cipande cakusakala gha fomu ya '[LIGHT]'.\nUkapewa mawona gha kutila gha cipande, cipande cakusakala cikawoneka gha gridi.\nUkapewa cipande cakusakala gha cipande, ungawina.\nUkasakala, histori ya mawona gha kutila gha kutila gha mawona ikawoneka panshi. Tumia habari hiyo kuwona cipande cakusakala na kuwina.\nUli na 6 mawona yasiyo sahihi kabla ya kusakala kumalizika.\n\n"
   },
   "board": {
-    "status": "Current board:\n{board}\nYou have {tries_left} tries left.\nGuessed letters: {guessed}"
+    "status": "Bodi ya sasa:\n{board}\nUli na {tries_left} mawona yaliyobaki.\nMawona yaliyowekwa: {guessed}"
   },
   "invalid": {
-    "wrong_format": "Invalid move format. You did not respond with a valid 'letter' or 'word'.",
-    "already_guessed": "You guessed the letter '{letter}' which has already been guessed."
+    "wrong_format": "Fomu ya kusakala si sahihi. Ungaweza kujibu gha fomu ya 'herufi' kana 'cipande'.",
+    "already_guessed": "Ungaweza kutoa herufi '{letter}' ambayo tayari imewekwa."
   },
   "message": {
-    "wrong_word": "Your guess of '{letter}' is not the target word.",
-    "letter_in": "Your guess of {letter} is in the word",
-    "letter_not_in": "Your guess of {letter} is not in the word. You have {tries_left} lives left."
+    "wrong_word": "Kutoweka kwako kwa '{letter}' si cipande cakusakala.",
+    "letter_in": "Kutoweka kwako kwa {letter} kuli gha cipande",
+    "letter_not_in": "Kutoweka kwako kwa {letter} kuli si gha cipande. Uli na {tries_left} maisha yaliyobaki."
   },
   "outcome": {
-    "win_word": "Congratulations! You completed the Hangman puzzle.",
-    "win_board": "Congratulations! You have completed the Hangman puzzle.",
-    "out_of_tries": "You are out of tries. You guessed {pct} percentage of the characters correctly. The target word was : {target_word}"
+    "win_word": "Hongera! Uliweza kukamilisha puzzle ya Hangman.",
+    "win_board": "Hongera! Uliweza kukamilisha puzzle ya Hangman.",
+    "out_of_tries": "Uliisha mawona yako. Uliweza kutoweka {pct} asilimia ya herufi kwa usahihi. Cipande cakusakala kilikuwa: {target_word}"
   }
 }

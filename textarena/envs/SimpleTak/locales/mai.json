@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in SimpleTak.\nOn the board, your stones appear as '{player_stone}' and your opponent's stones appear as '{opponent_stone}'.\n\nOn your turn, choose one empty cell (by its numbered index) and place your stone there.\nFor example, '[12]' places your stone in cell 12.\n\nYour objective is to form a continuous path of your stones that connects two opposite edges of the board (top-to-bottom or left-to-right)."
+    "intro": "आपने सिंपल टाक मे प्लेयर {player_id} हुनिहार।\nबोर्ड मे, आप के पत्थर '{player_stone}' के रूप मे देखल जाइत अछि आ आप के प्रतिद्वंद्वी के पत्थर '{opponent_stone}' के रूप मे देखल जाइत अछि।\n\nआप के पाली मे, एक खाली सेल (उनके नंबर वाला अनुक्रमण द्वारा) चुनी आ आप के पत्थर ओही ठाम रखी।\nउदाहरण के लेल, '[12]' आप के पत्थर सेल 12 मे रखल जाइत अछि।\n\nआप के उद्देश्य आप के पत्थर के एक सतत मार्ग बनाना अछि जे बोर्ड के दू विपरीत किनारा (ऊपर से नीचे या बाएं से दाहिने) के जोड़ल जाइत अछि।"
   },
   "invalid_move": {
     "invalid_move_format": "अमान्य स्थानान्तरण प्रारूप",

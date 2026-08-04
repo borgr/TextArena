@@ -9,10 +9,10 @@
     "{pct}": "Progress as a percentage string, e.g. 50%"
   },
   "player_prompt": {
-    "intro": "Map each letter to a unique digit so the arithmetic holds.\nAssign with `[A 5]`, re-assign anytime.\n"
+    "intro": "Pesa kila barua kwa tarakimu ya kipekee, mbala ya kisanii ikome.\nWeka kwa `[A 5]`, badilisha wakati wowote.\n"
   },
   "invalid_move": {
-    "wrong_format": "Bad action format. Use `[A 5]`.",
+    "wrong_format": "Mbala mbi ya kitendo. Tumia `[A 5]`.",
     "letter_not_in_puzzle": "Kisono {letter} kele ve na puzzle.",
     "digit_used": "Dijiti {digit} kazala kena {used_letter}.",
     "leading_zero": "Ntalu ya ntete na kati ya ntalu yina kele ti zina lenda vanda ve 0."

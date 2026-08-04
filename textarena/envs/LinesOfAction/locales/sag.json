@@ -10,7 +10,7 @@
     "{to}": "The destination coordinate of a move, such as b3"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in game of LinesOfAction.\nYour pieces are '{side}', opponent pieces are '{other}'.\nMove format: `[b1b3]` (from-coord to-coord). A legal move travels horizontally, vertically, or diagonally a number of squares equal to the total pieces (any colour) in that line. You may jump over your own pieces, but not opponent pieces; landing on an opponent captures it.  Win when all your pieces are 8-neighbour connected."
+    "intro": "Mo ye zo {player_id} na kôsi ya LinesOfAction.\nZo ti mo ye '{side}', zo ti angbô ye '{other}'.\nFormat ya déplacement: `[b1b3]` (kötä zo ti kôsi na kotä zo ti déplacement). Déplacement ya lôi ye na ndö horizontal, vertical, ou diagonal, na kôme ya kare ya zo ti mbû (ndöngö zo ti mô) na ndö la. Mo ye déplacer na zo ti mo ye, mais pas na zo ti angbô; kotä na zo ti angbô ye kôsi ya capture.  Gagner lè tout zo ti mo ye ye 8-voisin connecté."
   },
   "board": {
     "current_board": "Bungbi ti azo so ayeke bâ lege ni: {board}"
@@ -18,14 +18,14 @@
   "invalid_move": {
     "wrong_format": "A lingbi a zia ni na yâ ti kode so e2e4 (ti londo, juska coordinate).",
     "no_piece": "Mɛlɛ {side} wɛ̈ɛ̈ŋde pɛ̈i {coord}",
-    "identical": "Source and destination identical.",
+    "identical": "Kötä zo ti source na kotä zo ti déplacement ye ndöngö.",
     "not_straight_or_diagonal": "A lingbi a gue na nduzu wala ti bâ ndo.",
     "wrong_distance": "A lingbi lo gue ayo tongana ti so a yeke tambela na yâ molongo.",
     "enemy_blocks": "Mbeni wato akanga lege na e.",
     "destination_own": "A yeke mbeni ye so a zia na yâ ti ndo ni."
   },
   "game_action": {
-    "moved": "Player {player_id} moved {from} -> {to}",
+    "moved": "Mo ye {player_id} déplacer {from} -> {to}",
     "captured_suffix": "Lokuta {player_id} sɛndɛ {from} -> {to} na kɔti mɛlɛ"
   },
   "outcome": {

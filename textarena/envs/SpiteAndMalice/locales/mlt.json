@@ -1,17 +1,17 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a two-player game of Spite and Malice. Your goal is to be the first to empty your payoff pile.\n\n### Game Overview:\n- The objective is to clear your payoff pile by playing cards to the center piles.\n- You can play cards from three sources:\n  1. Your **hand** (you start each turn with up to 5 cards in hand).\n  2. The **top card of your payoff pile**.\n  3. The **top card of any of your discard piles**.\n\n### Playing Rules:\n- You may play a card to a center pile if it is **one rank higher** than the top card on that pile (center piles start with Ace and go up to Queen; Kings are wild - they can be played on any card but do not change the rank sequence. This means if a King is used after 4, then that King is ranked 5 and the next card must be a 6).\n- If you can't play any more cards, you must **discard a card** to one of your discard piles to end your turn.\n- If a center pile reaches Queen, it will be cleared automatically.\n- The rank order is: A=1, 2=2, ..., 9=9, J=10, Q=11, K as wild.\n\n### Actions:\n1. **Draw**: At the start of your turn, draw cards to fill your hand up to 5 cards. Enter **[draw]** to begin.\n2. **Play a Card**: To play a card, specify the card and the center pile like this: **[play A♠ 0]** (where 'A♠' is the card and '0' is the center pile index).\n3. **Discard**: If you can't play any more cards, discard a card from your hand to a discard pile to end your turn. Enter **[discard A♠ 1]** (where 'A♠' is the card and '1' is the discard pile index). Note that you cannot discard any card from the payoff pile. You may only discard the cards from your hand.\n\n"
+    "intro": "Int qed ikun Player {player_id} f'logħba ta' żewġ plejers ta' Spite and Malice. L-għan tiegħek huwa li tkun l-ewwel li tħalli l-pile tal-payoff tiegħek vojta.\n\n### Ħarsa Ġenerali tal-Logħba:\n- L-objettiv huwa li tħalli l-pile tal-payoff tiegħek vojta billi tilgħab karta fuq il-pile tal-ċentru.\n- Tista' tilgħab karta minn tliet sorsi:\n  1. Il-**ħand** tiegħek (tibda kull dawra b'saħħa ta' 5 karti f'ħandek).\n  2. Il-**karta ta' fuq tal-pile tal-payoff tiegħek**.\n  3. Il-**karta ta' fuq ta' xi waħda mill-pile tal-discard tiegħek**.\n\n### Regoli tal-Logħba:\n- Tista' tilgħab karta fuq pile tal-ċentru jekk tkun **rank waħda ogħla** mill-karta ta' fuq fuq dik il-pile (il-pile tal-ċentru jibdew b'Ace u jaslu sa Queen; il-Kings huma wild - jistgħu jintlagħbu fuq karta kwalunkwe imma ma jbiddlux is-sekwenza tar-rank. Dan ifisser li jekk King jintuża wara 4, imbagħad dik il-King tirranka 5 u l-karta li jmiss trid tkun 6).\n- Jekk ma tistax tilgħab karti oħra, trid **tiddiska karta** fuq waħda mill-pile tal-discard tiegħek biex tintemm id-dawra tiegħek.\n- Jekk pile tal-ċentru tasal sa Queen, se tiġi mħallija awtomatikament.\n- L-ordni tar-rank hija: A=1, 2=2, ..., 9=9, J=10, Q=11, K bħala wild.\n\n### Azzjonijiet:\n1. **Tella'**: Fl-ewwel ta' dawra tiegħek, tella' karti biex timla l-ħand tiegħek sa 5 karti. Daħħal **[draw]** biex tibda.\n2. **Lagħab Karta**: Biex tilgħab karta, speċifika l-karta u l-pile tal-ċentru hekk: **[play A♠ 0]** (fejn 'A♠' hija l-karta u '0' hija l-indiċi tal-pile tal-ċentru).\n3. **Diddiska**: Jekk ma tistax tilgħab karti oħra, diddiska karta mill-ħand tiegħek fuq pile tal-discard biex tintemm id-dawra tiegħek. Daħħal **[discard A♠ 1]** (fejn 'A♠' hija l-karta u '1' hija l-indiċi tal-pile tal-discard). Żomm f'moħħek li ma tistax tiddiska karta mill-pile tal-payoff. Tista' tiddiska biss il-karti mill-ħand tiegħek.\n\n"
   },
   "board": {
-    "current_board": "Current Board:\n\n{board}\nAvailable Moves: {moves}"
+    "current_board": "Bord Attwali:\n\n{board}\nMosse Disponibbli: {moves}"
   },
   "render": {
     "center_piles_header": "--- Piles Ċentrali --- ",
     "pile": "{observation}Pile {i}: {pile}\n",
-    "player_view_header": "{observation}\n--- Player {player_id}'s View ---\n",
-    "payoff": "{observation}Payoff Pile (Top Card): {top_card}, Payoff Pile Length: {payoff_length}\n",
+    "player_view_header": "{observation}\n--- Veduta tal-Player {player_id} ---\n",
+    "payoff": "{observation}Pile tal-Payoff (Karta ta' Fuq): {top_card}, Tul tal-Pile tal-Payoff: {payoff_length}\n",
     "hand": "{observation}Hand: {hand}\n",
-    "discard": "{observation}Discard Piles: {discard}\n",
+    "discard": "{observation}Pile tal-Discard: {discard}\n",
     "empty": "Ħieles."
   },
   "game_message": {
@@ -19,7 +19,7 @@
   },
   "invalid_move": {
     "wrong_format": "Format ta' mossa invalidu. Il-plejer {player_id} ma wieġebx b'mossa valida fi qrennijiet kwadri.",
-    "invalid_play": "Invalid play. Player {player_id} tried to play {card} on center pile {index}.",
+    "invalid_play": "Logħba invalida. Il-Player {player_id} prova jilgħab {card} fuq pile tal-ċentru {index}.",
     "discard_from_payoff": "Riżarkar invalidu. Il-plejer {player_id} ipprova jirriżarma karta mill-munzell tal-ħlas.",
     "discard_not_in_hand": "Riżarkar invalidu. Il-plejer {player_id} ipprova jirriżarma karta li mhix f'idejh.",
     "wrong_move_type": "Tip ta' mossa invalidu. Il-plejer {player_id} ma wieġebx b'tip ta' pass validu."
@@ -28,14 +28,14 @@
     "you_drew": "Int ġibdet il-karti.",
     "opponent_drew": "Il-plejer {player_id} ġibed il-karti.",
     "you_played": "Int lagħbu {card} fuq il-pil ċentrali {index}.",
-    "opponent_played": "Player {player_id} played {card} on center pile {index}.",
-    "you_discarded": "You have discarded {card} to discard pile {index}, which also means you have finished their turn. No further actions of yours is considered for this turn. Player {next_player_id} will go next.",
-    "opponent_discarded": "Player {player_id} discarded {card} to discard pile {index}, which also means they finished their turn. No further actions of Player {player_id} is considered for this turn. Player {next_player_id}, you will go next. Please enter your action in the format [action card center_index]."
+    "opponent_played": "Il-Player {player_id} lagħab {card} fuq pile tal-ċentru {index}.",
+    "you_discarded": "Int diddiskajt {card} fuq pile tal-discard {index}, li tfisser ukoll li temmejt id-dawra tiegħek. L-ebda azzjoni oħra tiegħek mhix konsiderata għal din id-dawra. Il-Player {next_player_id} se jmur il-ġdid.",
+    "opponent_discarded": "Il-plejer {player_id} ħaġġ {card} fil-miżbla tal-karti {index}, li tfisser ukoll li temm id-dawra tiegħu. L-ebda azzjoni oħra tal-plejer {player_id} mhix qed titqies għal din id-dawra. Il-plejer {next_player_id}, inti sejjer it-tieni. Jekk jogħġbok daħħal l-azzjoni tiegħek fil-format [action card center_index]."
   },
   "outcome": {
-    "payoff_cleared": "Player {current_player} spiċċa il-pila tal-ħlas! Player {current_player} jirbaħ!",
-    "deadlock_player_0": "Deadlock reached! Player 0 wins with {player_0_payoff} cards remaining vs Player 1's {player_1_payoff} cards.",
-    "deadlock_player_1": "Deadlock reached! Player 1 wins with {player_1_payoff} cards remaining vs Player 0's {player_0_payoff} cards.",
-    "deadlock_tie": "Deadlock reached with tie! Both players have {player_0_payoff} cards remaining. Player {current_player} wins by default."
+    "payoff_cleared": "Il-plejer {current_player} temm is-safra tal-pagament! Il-plejer {current_player} jirbaħ!",
+    "deadlock_player_0": "Deadlock! Il-Player 0 rebaħ b'{player_0_payoff} karti li fadal kontra {player_1_payoff} karti tal-Player 1.",
+    "deadlock_player_1": "Deadlock! Il-Player 1 rebaħ b'{player_1_payoff} karti li fadal kontra {player_0_payoff} karti tal-Player 0.",
+    "deadlock_tie": "Deadlock b'parità! Iż-żewġ plejers għandhom {player_0_payoff} karti li fadal. Il-Player {current_player} rebaħ b'default."
   }
 }

@@ -14,7 +14,7 @@
   },
   "game_action": {
     "attack": "П{player_id} ҳамла мекунад ба дасти П{opp_id} {opp_idx}: он аз {opp_val} ба {new_val} мегузарад.",
-    "split": "P{player_id} splits into [{L}, {R}]."
+    "split": "Б{player_id} ба [{L}, {R}] тақсим мешавад."
   },
   "history": {
     "entry": "П{player_id} {desc}"

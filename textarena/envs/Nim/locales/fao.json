@@ -13,7 +13,7 @@
     "exceeds_pile": "Ikki kann vera tekið {quantity} frá tíggj {pile_index} (bert {pile_count} eftir)."
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "Spælar {player_id} spældi [{pile_index} {quantity}], fjalaði {quantity} objekt(um) frá púl {pile_index}."
   },
   "outcome": {
     "win": "Leikarin {player_id} hevur tikið seinastu lutirnar!"

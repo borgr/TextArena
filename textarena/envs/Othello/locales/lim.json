@@ -3,7 +3,7 @@
     "intro": "Jie zint Speler {player_id} en spelen {colour} ({piece}) in e spel Othello.\nJie doel is óm mieër steine van jie egen kleur op 't bordj te höbbe biej 't ing van 't spel.\nBiej jie beurt, lègk 'ne stein zodanig dat 't ein of mieër van jie tegenstander z'n steine in e richting (horizontaal, verticaal of diagonaal) tösse jie nuje stein en 'ne angere van jie besteande steine in zjwaart. Alle ingeslaote tegenstandersteine zulle waere gedraaid nao jie kleur.\nGae jie zèt in 't formaat '[row, col]'."
   },
   "board": {
-    "game_board": "Game Board: {board}",
+    "game_board": "Sjpelbord:\n{board}",
     "valid_moves": "{observation}\nGeldige zètte: {moves}",
     "no_valid_moves_reset": "{observation} Gein geldige beweginge - ge mós waal euvergaete.",
     "no_valid_moves_step": "{observation} Gein geldige beweginge. 't Kan waere dat geer ze neet mós vergaete.",
@@ -16,7 +16,7 @@
   },
   "game_action": {
     "skipped": "Speler {pid} mós hunne beurt euvergaete.",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "Speler {pid} ({piece}) haet [{r}, {c}] gespäöld en {flipped} stök(ke) gedrejd"
   },
   "game_message": {
     "must_skip": "Speler {pid} ({piece}) haet gein geldige zètte en mót overslaon."

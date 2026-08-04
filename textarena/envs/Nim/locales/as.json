@@ -13,7 +13,7 @@
     "exceeds_pile": "{quantity}ক {pile_index}ৰ পৰা আঁতৰাব নোৱাৰি (কেৱল {pile_count}হে বাকী আছে) ।"
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "খেলুৱা {player_id} [{pile_index} {quantity}] খেলিলে, {quantity}টা বস্তু {pile_index} স্তূপৰ পৰা আঁতৰালে।"
   },
   "outcome": {
     "win": "খেলুৱৈ {player_id}য়ে শেষ বস্তুটো লৈ গ'ল!"

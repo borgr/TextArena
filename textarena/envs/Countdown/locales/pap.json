@@ -9,7 +9,7 @@
     "progress": "{observation}\nPuntuacion actual di progreso: {progress}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use `[i j op]` where i,j are indices and op is +,-,*,/",
+    "wrong_format": "Formato di aksion inválido. Usa `[i j op]` kaminda i,j ta índise i op ta +,-,*,/",
     "invalid_indices": "Indices Invalids: Must Be Different and Within Range 0-{max_index} (Indexnan no válido mester ta diferente i den e intervalo di 0 - 〔0])",
     "invalid_operation": "Operashon invalido (divishon pa zero òf resultado ku no ta un kantidat integral)"
   },

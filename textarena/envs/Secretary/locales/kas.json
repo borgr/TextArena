@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You will observe {N} hidden values sequentially.\nAt each step type [accept] to pick the *current* value, or [continue] to skip it and see the next one.\nIf you never accept, you are forced to take the final value.\nYou win (reward = 1) **only** if the value you ultimately pick is the highest of all."
+    "intro": "تساں {N} لُکے ہوے قدریں ہرے کرم سے ویکھس۔\nہر قدم پر [accept] ٹائپ کرو تاکہ تساں موجودہ قدری چنو، یا [continue] ٹائپ کرو تاکہ اس قدری کو چھوڑو تے اگلی قدری ویکھو۔\nاگر تساں کدی وی قبول نہیں کرتے، تو تساں اخرکار آخری قدری لینے پے مجبور ہوس۔\nتساں جیتو (انعام = 1) **صرف** اگر تساں جو قدری چنو وہ سارے قدریوں میں سب سے زیادہ ہو۔"
   },
   "game_action": {
     "current_value": "युस करंट वैल्यू छू {value}."
@@ -10,7 +10,7 @@
   },
   "outcome": {
     "summary": "تہٕنے ٹھوس کِیا  {value} اَچھنہِ دوش {draw_num}/{N} ۔ سارِوَڈِک بہترین ٔ{best} ہو۔ {result}",
-    "perfect": "परफेक्ट चॉइस ! ",
+    "perfect": "مکمل انتخاب! 🎉",
     "not_max": "मक्समिम छुं."
   }
 }

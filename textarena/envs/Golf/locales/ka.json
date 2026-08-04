@@ -55,7 +55,7 @@
   },
   "invalid": {
     "wrong_action": "გამოიყენეთ ზუსტად ერთი კოლოფის ფარგლებში: [draw], [take], [swap X Y], [discard], [knock], ან [peek X Y]",
-    "discard_empty": "The discard pile is empty!",
+    "discard_empty": "გადაყრილი დაფა ცარიელია!",
     "must_draw_first": "თქვენ უნდა [draw], [take], [knock], ან [peek X Y]",
     "cannot_discard_taken": "ნვ მჲზვქ ეა თჱდლვჱვქ კარტრა ჲრ ჟრპარა, მჲპა ეა დჲ ოპჲმჲრთქ.",
     "have_drawn_card": "რპწბგა ეა [swap X Y] თლთ [discard] დჲ.",

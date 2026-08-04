@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing a {difficulty} RushHour puzzle. Slide cars to free the red car [X] and drive it out the right edge.\nActions: [A+], [B-], etc.  (+ = forward, - = backward)."
+    "intro": "Tiririt daɣen {difficulty} n RushHour. Ssers iminigaten i wakken ad tefreḍ takarṛit tazeggaɣt [X] dɣen tettekkes seg uɣerbaz aneẓraf.\nTiktiwin: [A+], [B-], atg. (+ = zdat, - = deffir)."
   },
   "invalid_move": {
     "wrong_format": "Aseɣwen ur yezmir. Sken format [A+] / [B-].",

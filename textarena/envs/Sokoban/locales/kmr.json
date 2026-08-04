@@ -12,8 +12,8 @@
     "invalid_position": "Tevgera Nepejirandî - nikare biçe wê helwesta."
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
-    "pushed_prefix": "pushed box dema ku"
+    "moved": "Hûn {pushed} ber bi [{action}] ve çûn.",
+    "pushed_prefix": "qutiyeke kişandin dema"
   },
   "outcome": {
     "win": "Te puzzleya Sokobanê çareser kir!",

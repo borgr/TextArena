@@ -22,27 +22,27 @@
     "final_ranking": "list of player indices from first eliminated to winner"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in an {num_players}-player Liar's Dice game.\nRules:\n- On your turn, you may either:\n  1) Make a new bid with a higher quantity or higher face (or both) than the current bid; i.e. '[Bid: 3, 4]',\n  2) Call the last bid by typing '[Call]'.\n\nIf you call:\n  - If the actual count of that face value among all dice is less than the bid, the last bidder loses one die.\n  - Otherwise, the caller loses one die.\nA player who reaches 0 dice is eliminated. The last remaining player wins."
+    "intro": "Yɛrɛ Player {player_id} kɔm Liar's Dice kɛlɛ la {num_players} jugɛrɛ.\nLaasɛ:\n- Nɛ yɛrɛ wɛɛlɛ, yɛrɛ pɔsɛ:\n  1) Kɛlɛ kɔm bid kɔmɔgɔ wɛɛlɛ yɛrɛ kɔmɔgɔ wɛɛlɛ '[Bid: 3, 4]',\n  2) Kɔlɛ kɔmɔgɔ wɛɛlɛ '[Call]'.\n\nYɛrɛ kɔlɛ:\n  - Yɛrɛ kɔmɔgɔ wɛɛlɛ yɛrɛ face value kɔmɔgɔ wɛɛlɛ yɛrɛ bid la, kɔmɔgɔ wɛɛlɛ yɛrɛ bidder kɔmɔgɔ wɛɛlɛ die.\n  - Lɛɛ kɔmɔgɔ wɛɛlɛ, kɔlɛrɛ kɔmɔgɔ wɛɛlɛ die.\nJugɛrɛ yɛrɛ 0 dice kɔmɔgɔ wɛɛlɛ, yɛrɛ kɔmɔgɔ wɛɛlɛ."
   },
   "board": {
     "per_player": "\tPlayer {p}: {d}",
-    "new_round": "\nNew round - Remaining dice: {dice_summary}\nYour current Dice are: {your_dice}"
+    "new_round": "\nKɛlɛ kɔmɔgɔ wɛɛlɛ - Dice kɔmɔgɔ wɛɛlɛ: {dice_summary}\nYɛrɛ Dice kɔmɔgɔ wɛɛlɛ: {your_dice}"
   },
   "call": {
-    "bidder_loses": "Player {current_player_id} calls! The actual count of face {face_value} is {count}, which is LESS than {quantity}.\nPlayer {loser_id} (the last bidder) loses one die.",
-    "caller_loses": "Player {current_player_id} calls! The actual count of face {face_value} is {count}, which is >= {quantity}.\nPlayer {loser_id} (the caller) loses one die."
+    "bidder_loses": "Player {current_player_id} kɔlɛ! Face {face_value} kɔmɔgɔ wɛɛlɛ yɛrɛ {count}, yɛrɛ LESS kɔmɔgɔ wɛɛlɛ {quantity}.\nPlayer {loser_id} (kɔmɔgɔ wɛɛlɛ bidder) kɔmɔgɔ wɛɛlɛ die.",
+    "caller_loses": "Player {current_player_id} kɔlɛ! Face {face_value} kɔmɔgɔ wɛɛlɛ yɛrɛ {count}, yɛrɛ >= kɔmɔgɔ wɛɛlɛ {quantity}.\nPlayer {loser_id} (kɔlɛrɛ) kɔmɔgɔ wɛɛlɛ die."
   },
   "action": {
-    "bid_announce": "Player {player_id} bids {quantity} of face {face_value}."
+    "bid_announce": "Player {player_id} kɛlɛ {quantity} kɔm face {face_value}."
   },
   "invalid_move": {
     "call_no_bid": "B sẽn bool-a wã pa yɩ ne ligd ye.",
     "invalid_bid": "Sẽn pa zemse: {reason}",
-    "not_recognized": "Action not recognized as either a valid '[Bid: X, Y]' or '[Call]'. Submitted action: {action}"
+    "not_recognized": "Kɛlɛ kɔmɔgɔ wɛɛlɛ yɛrɛ '[Bid: X, Y]' yɛrɛ '[Call]'. Kɛlɛ wɛɛlɛ: {action}"
   },
   "bid_reason": {
-    "quantity_lower": "New quantity {new_quantity} is lower than current {current_quantity}.",
-    "face_lower": "New face value {new_face_value} is lower than current {current_face_value}.",
+    "quantity_lower": "Kɔmɔgɔ wɛɛlɛ {new_quantity} yɛrɛ kɔmɔgɔ wɛɛlɛ {current_quantity}.",
+    "face_lower": "Face kɔmɔgɔ wɛɛlɛ {new_face_value} yɛrɛ kɔmɔgɔ wɛɛlɛ {current_face_value}.",
     "identical": "B sẽn kõ ligd ningã zemsa ne b sẽn da kõt rũnda wã.",
     "face_range": "B sẽn boond tɩ \"face value\" wã segd n yɩɩ 1 ne 6."
   },
@@ -50,6 +50,6 @@
     "eliminated_invalid": "B sẽn yãk a soab t'a {player_id} yaa ne so-toak sẽn pa zemse."
   },
   "outcome": {
-    "win": "Player {winner} wins! Final ranking: {final_ranking}"
+    "win": "Player {winner} wɛɛ! Kɔmɔgɔ wɛɛlɛ ranking: {final_ranking}"
   }
 }

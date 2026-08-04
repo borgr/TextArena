@@ -1,10 +1,10 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id}. You are playing the Memory Game.\nYour goal is to match more pairs of cards on the board, than your opponent.\nOn your turn, select two cards to flip by entering the row and column numbers of the first and second card respectively like '[0 1 1 0]', where the first card is in row 0 and column 1, and the second card is in row 1 and column 0.\nIf the two cards match, you get a point and the cards remain face up. If they do not match, the cards are flipped back face down, e.g. '.'.\nThe game ends when all pairs have been matched."
+    "intro": "Yaa ngone Player {player_id}. Yaa ngone di tànk Memory Game.\nWaxadale waa ngone moo gënaa ñaar-ñaar kart yi ci bànqaas bi, tey waa sa ñaaw.\nCi tànk waa, ndawloo ñaar kart ngir jébbaloo ci ñoom, ndawloo limu row ak column yi ci ñaar kart yi ci màndaŋa '[0 1 1 0]', nde ñaar kart yi ci row 0 ak column 1, ak ñaar kart yi ci row 1 ak column 0.\nBu ñaar kart yi daje, waa am na ñett ak kart yi des ci kaw. Bu ñu dul daje, kart yi dañu ci suuf, màndaŋa '.'.\nTànk bi jeex na bu ñaar-ñaar yi daje."
   },
   "board": {
     "current_board": "Jëfandikukat: {board}",
-    "current_game_board": "Current Game Board:\n{board}"
+    "current_game_board": "Bànqaas bi Tànk bi ci suŋu:\n{board}"
   },
   "invalid_move": {
     "wrong_format": "Jëf ju amul solo. Njiitu {player_id} tontuwul ak benn yoon bu am solo ci ay tëriin yu ràkk yi nekk ciy kuréet-réew mi .",
@@ -13,13 +13,13 @@
     "already_matched": "Jëf ju amul solo. Njiitu {player_id} tànn na benn walla ñaari kaar yi ñu séddale woon ba noppi."
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "Ñaar kart yi Player {player_id} ndawloo ci ñoom ci posisyon yi [{r1} {c1}] ak [{r2} {c2}] daje!",
+    "cards_no_match": "Ñaar kart yi Player {player_id} ndawloo ci ñoom dul daje. Kart yi ci posisyon yi [{r1} {c1}] ak [{r2} {c2}] ñoo {pos1} ak {pos2} ci màndaŋa."
   },
   "outcome": {
     "draw": "Ñaari jëfandikukat yi mat nañu benn limug kaar yu ñu séddale.",
     "win": "Jëfandikukat bi {winner_id} moo ci jël ndam!",
-    "turn_limit": "The turn limit has been reached. The game is over. Player 0 scored {score_0} points, Player 1 scored {score_1} points.",
+    "turn_limit": "Limu tànk bi jeex na. Tànk bi jeex na. Player 0 am na {score_0} poin, Player 1 am na {score_1} poin.",
     "turn_limit_win": "{reason} Player {winner_id} a gënee!"
   }
 }

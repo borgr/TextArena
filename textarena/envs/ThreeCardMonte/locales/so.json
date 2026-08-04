@@ -11,7 +11,7 @@
     "{ball_pos}": "The cup index the ball is under"
   },
   "player_prompt": {
-    "intro": "Track the hidden ball 'X' while the cups are shuffled.\nAfter shuffling, guess its location with `[k]`."
+    "intro": "Raad raac kubada qarsoon 'X' inta koobabku jilayaan.\nKa dib jilaysa, odhan meesha ay ku jirta iyada oo aadan `[k]`."
   },
   "game_message": {
     "ball_starts": "Kubada ayaa bilaabaneysa: {line}",
@@ -21,11 +21,11 @@
     "reveal": "(Muujinta: kubada hoos {ball_pos})"
   },
   "invalid_move": {
-    "wrong_format": "Bad action. Use `[k]`.",
-    "out_of_range": "Index out of range 0-{max_index}."
+    "wrong_format": "Ficil su'aal ah. Isticmaal `[k]`.",
+    "out_of_range": "Fahanka ka baxay u dhexeeya 0-{max_index}."
   },
   "outcome": {
     "win": "sax! waad heshay kubada.",
-    "lose": "Wrong — ball was under cup {ball_pos}."
+    "lose": "Khataa — kubada waxay ku jirtay koobka {ball_pos}."
   }
 }

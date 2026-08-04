@@ -16,17 +16,17 @@
     "{cards}": "The cards in a pile as neutral labels, or '--' if empty (never translate)"
   },
   "player_prompt": {
-    "intro": "You are playing Klondike Solitaire. Your goal is to move all cards to the foundation piles.\n\nGame Rules:\n- Foundation piles (F1-F4): Build up from Ace to King in suit\n- Tableau piles (T1-T7): Build down alternating colors (red on black, black on red)\n- Stock: Draw cards to waste pile\n- Waste (W): Top card available for play\n\nCommands:\n- 'draw' - Draw cards from stock to waste\n- 'move <source> <destination> [count]' - Move cards between piles\n  Examples: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count can also be 'all', which will try to move all face-up cards.\n- 'forfeit' - End the game immediately and lock in your current score\n- Pile names: W (waste), F1-F4 (foundations), T1-T7 (tableau)\n\nYou can execute multiple actions in one turn by separating them with commas:\n  Example: 'draw, move W T1, move T2 F1'\n\nOnly Kings can be placed on empty tableau piles.\nActions execute in order - if one fails, the remaining actions are skipped.\nUse 'forfeit' if you believe the game is impossible to win."
+    "intro": "Ị na-egwu Klondike Solitaire. Ọrụ gị bụ ịkwaga kaadị niile gaa na ihe ndị mkpali.\n\nEgwuregwu:\n- Ihe mkpali (F1-F4): Wụnye site na Ace ruo King na uwe\n- Ihe ndị a na-egwu (T1-T7): Wụnye ala na-aga n'ihu na-acha ọbara ọbara na oji\n- Ọgbụgba: Kọwaa kaadị gaa na ihe mkpofu\n- Ihe mkpofu (W): Kaadị dị n'elu dị maka egwuregwu\n\nỊdịri:\n- 'draw' - Kọwaa kaadị site na ọgbụgba gaa na ihe mkpofu\n- 'move <source> <destination> [count]' - Kwaga kaadị n'etiti ihe ndị a na-egwu\n  Ọmụmaatụ: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count nwekwara ike ịbụ 'all', nke ga-agbalị ịkwaga kaadị niile dị n'ihu.\n- 'forfeit' - Kwụsị egwuregwu ozugbo na kọọ akara gị ugbu a\n- Aha ihe ndị a na-egwu: W (ihe mkpofu), F1-F4 (ihe mkpali), T1-T7 (ihe ndị a na-egwu)\n\nỊ nwere ike ịrụ ọtụtụ ihe n'otu egwuregwu site na kewaa ha na commas:\n  Ọmụmaatụ: 'draw, move W T1, move T2 F1'\n\nNaanị Eze nwere ike ịbụ ebe a na-etinye na ihe ndị a na-egwu efu.\nIhe ịrụ ga-agbaso usoro - ọ bụrụ na otu dara, ndị fọdụrụ ga-atụgharị.\nJiri 'forfeit' ọ bụrụ na ị kwenyere na egwuregwu ahụ adịghị mma ịmeri."
   },
   "format_error": {
     "no_brackets": "Ọdịdị ihe na-abaghị uru. Ihe kwesịrị ịdị n'etiti parentheses.",
     "no_closing_bracket": "Ọkpụkpọ ihe na-abaghị uru. Enweghị mmechi mmechi ']'",
-    "empty_command": "Iwu efu. Pịnye 'dọrọ' ma ọ bụ 'move <source> <destination> [count]'",
+    "empty_command": "Ịdịri efu. Dere 'draw' ma ọ bụ 'move <source> <destination> [count]'",
     "empty_action": "Emeghị ihe ọ bụla",
     "move_needs_args": "Iwu mbugharị chọrọ isi mmalite na ebe njedebe. Ojiji: 'move <source> <destination> [count]'",
-    "count_positive": "Ọnụ ọgụgụ ga-abụrịrị nke ọma ma ọ bụ \"niile\"",
-    "count_invalid": "Nchịkọta na-abaghị uru. Jiri ọnụọgụ ma ọ bụ 'niile'",
-    "unknown_command": "Iwu a na-amaghị ama '{cmd}'. Jiri 'dọrọ', 'move <source> <destination> [count]', ma ọ bụ 'forfeit'",
+    "count_positive": "Ọnụ ọgụgụ kwesịrị ịbụ chanya ma ọ bụ 'all'",
+    "count_invalid": "Ọnụ ọgụgụ ezighi ezi. Jiri nọmba ma ọ bụ 'all'",
+    "unknown_command": "Ịdịri amaghị '{cmd}'. Jiri 'draw', 'move <source> <destination> [count]', ma ọ bụ 'forfeit'",
     "wrapped": "Omume {n}: {msg}"
   },
   "action_result": {
@@ -62,7 +62,7 @@
     "turn_limit": "Egwuregwu agwụla! Ị ruru oke nke {max_turns} na-atụgharị. Akara: {score} kaadị na ntọala."
   },
   "board": {
-    "title": "=== KLONDIKE SOLITAIRE === [Onye na-egwu egwu]",
+    "title": "=== EGWUREGWU KLONDIKE ===",
     "turn": "Gbanwee: {turn}/{max_turns}",
     "stock": "N'ụlọ: {stock} kaadị",
     "waste": "Ihe mkpofu (W): {waste}",

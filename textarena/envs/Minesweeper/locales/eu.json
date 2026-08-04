@@ -9,7 +9,7 @@
   "invalid_move": {
     "wrong_format": "Ez duzu koordenatu zuzenik erantzun.",
     "out_of_bounds": "Koordenatu horiek ez dute balio.",
-    "already_revealed": "The cell at ({row}, {col}) has already been revealed.",
+    "already_revealed": "Gelaxka ({row}, {col}) dagoeneko agerian dago.",
     "hit_mine": "Mina jo duzu ({row}, {col}) kokalekuan."
   },
   "game_action": {
@@ -17,6 +17,6 @@
   },
   "outcome": {
     "win": "Zorionak, erabateko arrakasta duzu.",
-    "turn_limit": "The turn limit has been reached. You successfully uncovered {percent}% of the safe cells."
+    "turn_limit": "Txanda mugatua iritsi da. {percent}% seguru gelaxkak arrakastaz agerian utzi dituzu."
   }
 }

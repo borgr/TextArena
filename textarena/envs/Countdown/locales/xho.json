@@ -9,13 +9,13 @@
     "progress": "{observation}\nIskoru yempumelelo yokuqhubeka: {progress}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use `[i j op]` where i,j are indices and op is +,-,*,/",
+    "wrong_format": "Ifomathi yenzo ayilunganga. Sebenzisa `[i j op]` apho i,j zii-indekhi na op yeyona +,-,*,/",
     "invalid_indices": "Iimpawu ezingekho mthethweni. Kufuneka zahluke kwaye zibe kuluhlu 0-{max_index}",
     "invalid_operation": "Umsebenzi ongasebenziyo (ukwahlulwa ngeziro okanye isiphumo esingaphelelanga)"
   },
   "outcome": {
     "win": "Ukugqibelela! Ufumene eyona njongo: {target}",
     "no_moves": "Azikho mikhuba yodwa. Eliqonde lelingcono: {best_value} (inikeli: {target})",
-    "turn_limit": "Turn limit reached. Best result: {best_value} (target: {target})"
+    "turn_limit": "Umgomo wenzo wezikhathi wafikiwe. Umphumela omhle: {best_value} (inqaku: {target})"
   }
 }

@@ -19,7 +19,7 @@
     "{deck_count}": "Number of cards left in the deck"
   },
   "game": {
-    "start": "Briscola game started! Trump suit: {trump_suit} (Trump card: {trump_card})"
+    "start": "Mambu ya Briscola imesonga! Lufwasa lwa kubula: {trump_suit} (Kadi ya kubula: {trump_card})"
   },
   "prompt": {
     "intro": "Oyo kudia Briscola - Mwana {player_id}.\nLengo: Kudia trick na kukusanya pointi nyingi (120 pointi za jumla katika deck).\nPointi za kadi: A=11, 3=10, K=4, Q=3, J=2, zingine=0\nNguvu ya kadi: A > 3 > K > Q > J > 7 > 6 > 5 > 4 > 2\nTrump kadi hushinda kadi zisizo na trump bila kujali nguvu.\n\nHatua: '[play X]' ambapo X ni nafasi (1-{max_pos}) ya kadi katika mkono wako"
@@ -39,7 +39,7 @@
   "turn": {
     "score_entry": "Mwana {player_id}: {points} pts",
     "trump_info": "Kimvuka ya Trump: {trump_suit}",
-    "trump_info_deck": "Trump suit: {trump_suit} | Cards left in deck: {deck_count}",
+    "trump_info_deck": "Lufwasa lwa kubula: {trump_suit} | Kadi zilizosalia mu kipande: {deck_count}",
     "board": "{hand}\n\n{trick}\n\nAlama: {scores}\n{trump_info}\n\nCheza kadi kwa kutumia [play X]"
   },
   "invalid_move": {
@@ -47,11 +47,11 @@
     "out_of_range": "Nzila ya kati ikwenda mbaya. Oyo na {count} kati (1-{count})"
   },
   "action": {
-    "played": "Player {player_id} played {card}",
-    "trick_win": "Player {winner} wins the trick with {card} and gains {points} points!"
+    "played": "Mambiki {player_id} abeti kadi {card}",
+    "trick_win": "Mambiki {winner} abeti mambu na kadi {card} na kupata {points} makolo!"
   },
   "outcome": {
     "head": "Game Over! Mwana {winner} ukundila na {points} pointi!\n\nMaboko ya mwisho:\n{scores}",
-    "player_line": "Player {player_id}: {points} points ({tricks} tricks)\n"
+    "player_line": "Mambiki {player_id}: {points} makolo ({tricks} mambu)\n"
   }
 }

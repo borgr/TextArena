@@ -1,13 +1,13 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({role}) in a {num_rounds}-round Matching Pennies game.\n- Each round, submit [heads] or [tails] (or [h], [t]).\n- If your choice matches your opponent’s, Player 0 wins the round; otherwise Player 1 wins.\nReply with your choice in the format '[heads]' or '[tails]'.\n"
+    "intro": "Yin ee Player {player_id} ({role}) ee game ciɛl de Matching Pennies ee {num_rounds} de round.\n- Ee kɔɔr, cɔl [heads] ku [tails] (ku [h], [t]).\n- Na cɔl yin ee kɔɔr ee raan yɔ̈ɔ̈k, Player 0 eeŋu kɔɔr; wäärɛɛn Player 1 eeŋu.\nCɔl yin ee kɔɔr ee ciɛl de '[heads]' ku '[tails]'.\n"
   },
   "invalid_move": {
     "wrong_format": "Kac thok kekic; pe'ic '[heads]' ba '[tails]'."
   },
   "message": {
-    "round_match": "Player 0 picked {choice0}; Player 1 picked {choice1}. Match -> Player 0 wins",
-    "round_mismatch": "Player 0 picked {choice0}; Player 1 picked {choice1}. Mismatch -> Player 1 wins."
+    "round_match": "Raandit 0 acek {choice0}; Raandit 1 acek {choice1}. Acek ye jam -> Raandit 0 a yeŋ",
+    "round_mismatch": "Raandit 0 acek {choice0}; Raandit 1 acek {choice1}. Acek ye ciɛɛm -> Raandit 1 a yeŋ"
   },
   "outcome": {
     "p0_wins": "Raan ye 0 ke yen acï wëu juëc bɛ̈n yök.",

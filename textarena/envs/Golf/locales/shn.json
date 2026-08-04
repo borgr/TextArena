@@ -21,11 +21,11 @@
     "{scores}": "The pre-rendered per-player list of final scores"
   },
   "player_prompt": {
-    "intro": "You are playing Golf (Card Game) - Player {player_id}.\nGoal: Get the lowest total score in this single round. If columns share the same value, they are summed as 0.\nCard Values: A=1, 2-10=face value, J/Q=10, K=0\n\nActions (use exact brackets):\n- '[draw]' - Draw from deck\n- '[take]' - Take from discard pile\n- '[swap X Y]' - Swap drawn card with position X (row) Y (column)\n- '[discard]' - Discard the drawn card\n"
+    "intro": "သင် ဂေါက် (ဖဲကစားနည်း) ကစားနေပါသည် - ကစားသမား {player_id}။\nရည်မှန်းချက်: ဤ အချီ တစ်ချီတွင် အနိမ့်ဆုံး အမှတ် စုစုပေါင်း ရရှိပါ။ အခန်းများ တူညီသည့် တန်ဖိုး ရှိပါက၊ သူတို့ကို ၀ အဖြစ် ပေါင်းပါ။\nဖဲလက်မှတ် တန်ဖိုးများ: A=၁၊ ၂-၁၀=မျက်နှာ တန်ဖိုး၊ J/Q=၁၀၊ K=၀\n\nအမှုကိစ္စများ (အတိုင်းပင် အက္ခရာများ အသုံးပြုပါ):\n- '[draw]' - ဖဲလက်မှတ် ကုလာပါ\n- '[take]' - ဖယ်ရှားသည့် ဖဲလက်မှတ် ကုလာပါ\n- '[swap X Y]' - ကုလာသည့် ဖဲလက်မှတ်နှင့် နေရာ X (အတန်း) Y (အခန်း) လဲလှယ်ပါ\n- '[discard]' - ကုလာသည့် ဖဲလက်မှတ် ဖယ်ရှားပါ\n"
   },
   "board": {
-    "drew": "You drew: {card}\nNow you must [swap X Y] or [discard] it.",
-    "took": "You took: {card} from discard pile\nYou must [swap X Y] with it (cannot discard).",
+    "drew": "သင် ကုလာသည်: {card}\nအခု သင် [swap X Y] သို့မဟုတ် [discard] ပြုလုပ်ရမည်။",
+    "took": "သင် ကုလာသည်: {card} ဖယ်ရှားသည့် ဖဲလက်မှတ် ကုလာပါ\nသင် သူ့နှင့် [swap X Y] ပြုလုပ်ရမည် (ဖယ်ရှား၍ မရပါ)။",
     "peeked": "မႂ်းလႆႈၶၢဝ်လႅၵ်ႈတီႈဢွင်ႈတီႈ ({row},{col}): {card}",
     "turn_view": "မုၼ်ၸဝ်ႈၶဝ်ႈမႂ်း:\n{hand}\nပိူင်ၶိုၼ်း: {discard}\n{options}",
     "none": "ဢမ်ႇမီး။"
@@ -43,22 +43,22 @@
   },
   "action_desc": {
     "swapped": "ၽူႈလႄႈ {pid} လႆႈလၢႅၼ်ႈ {new} တင်း {old} တီႈဢွင်ႈတီႈ ({row},{col})",
-    "discarded": "Player {pid} discarded {card}"
+    "discarded": "ကစားသမား {pid} {card} ဖယ်ရှားသည်"
   },
   "message": {
     "deck_empty": "ၵူၼ်ဢၼ်ဢမ်ႇမီးၵူၼ်းၼၼ်ႉ ပဵၼ်ၵွၼ်ႈပဝ်ႇယဝ်ႉ! လွင်ႈလဵၼ်ႈၼႆႉ မၼ်းသုတ်းၵႂႃႇၵမ်းလဵဝ်ယဝ်ႉ။",
     "knocked": "ၽူႈလဵၼ်ႈ {pid} ၶုတ်ႈ! ၵူၼ်းတၢင်ႇၵေႃႉၶဝ် လႆႈၶိုၼ်းထႅဝ်ထႅင်ႈၵမ်းၼိူင်ႈယဝ်ႉ။",
-    "final_round": "Player {pid} {reason}! Each other player gets one more turn."
+    "final_round": "ကစားသမား {pid} {reason}! အခြား ကစားသမားများ တစ်ချီ ရရှိသည်။"
   },
   "reason": {
     "all_revealed": "ၸွင်ႇလႆႈပိုတ်ႇၼႄ မၢႆလပ်ႉတင်းမူတ်းယဝ်ႉႁႃႉ?"
   },
   "invalid": {
-    "wrong_action": "Use exactly ONE bracketed action: [draw], [take], [swap X Y], [discard], [knock], or [peek X Y]",
+    "wrong_action": "အတိုင်းပင် တစ်ခုတည်း အက္ခရာ အမှုကိစ္စ အသုံးပြုပါ: [draw], [take], [swap X Y], [discard], [knock], သို့မဟုတ် [peek X Y]",
     "discard_empty": "ၶူဝ်းၶွင်ဢၼ်လႆႈထုၵ်ႇပႅတ်ႈၼၼ်ႉ ဢမ်ႇမီးသင်ယဝ်ႉ!",
     "must_draw_first": "မႂ်းတေလႆႈပွၵ်ႈဢွၼ်တၢင်း [draw], [take], [knock], ဢမ်ႇၼၼ် [peek X Y]",
     "cannot_discard_taken": "သူဢမ်ႇၸၢင်ႈဢဝ်လႆႈ ဝႂ်ဢၼ်လုၵ်ႉတီႈ ထုပ်ႉပႅတ်ႈၼၼ်ႉသေ ဢဝ်ၵႂႃႇ။သူတေလႆႈလႅၵ်ႈမၼ်းၶိုၼ်းၵူၺ်းယဝ်ႉ။",
-    "have_drawn_card": "You have a drawn card. You must [swap X Y] or [discard] it.",
+    "have_drawn_card": "သင် ကုလာသည့် ဖဲလက်မှတ် ရှိပါသည်။ သင် [swap X Y] သို့မဟုတ် [discard] ပြုလုပ်ရမည်။",
     "need_drawn_swap": "တႃႇတေလႅၵ်ႈလၢႆႈလႆႈၼၼ်ႉ လူဝ်ႇမီးဝႂ်ဢၼ်ၸၼ်ဝႆႉၼၼ်ႉယဝ်ႉ။",
     "need_drawn_discard": "တႃႇတေထွၼ်ပႅတ်ႈၼၼ်ႉ လူဝ်ႇလႆႈ ထႆႇဝၼ်ႇဢၼ်ၶိုၵ်ႉၶႅမ်ႉၼၼ်ႉယဝ်ႉ။",
     "out_of_bounds": "ဢွင်ႈတီႈဢမ်ႇပေႃးမီး။ သႂ်ႇၶေႃႈလၢႆး 1-{max_row}, လွၵ်း 1-{max_col}",
@@ -67,8 +67,8 @@
     "already_revealed": "ၽႅၼ်ႇဢၼ်ၼၼ်ႉ လႆႈပိုတ်ႇၼႄဝႆႉယဝ်ႉ!"
   },
   "summary": {
-    "full": "Game Over! Player {winner} wins with a score of {score} points!\n\nFinal Scores:\n{scores}",
-    "line": "Player {pid}: {score} points\n"
+    "full": "ကစားနည်း အဆုံးသတ်! ကစားသမား {winner} {score} အမှတ် ဖြင့် အနိုင်ရသည်!\n\nနောက်ဆုံး အမှတ်များ:\n{scores}",
+    "line": "ကစားသမား {pid}: {score} အမှတ်\n"
   },
   "board_str": {
     "title": "=== လွင်ႈလဵၼ်ႈၵေႃး (လ်) ၽ်ႉ===",

@@ -24,8 +24,8 @@
     "intro": "እንተጸልእካ ጎልፍ (ካርት ገይም) - ሰለማዊ �{player_id}.\nምክንያት: ኣብ እዋን ረብዕ ዘይተኣምን ምክንያት ንስለማዊ እዩ. እንተኾነ ኮሎንም ኣንዳይ ተደናገረ እዩ፣ ኣብ ረብዕ ዘይተኣምን ምክንያት እዩ.\nቅንዐት ካርት: A=1, 2-10=ቅንዐት, J/Q=10, K=0\n\nምንባረ (ኣንስኪ ምንባረ እዩ):\n- '[draw]' - ካርት ንበረ\n- '[take]' - ካርት ንበረ ካብ ማዕበል ተሰርዝቦ\n- '[swap X Y]' - ካርት ንበረካ ጋን ማዕበል X (ረብዕ) Y (ኮሎን)\n- '[discard]' - ካርት ንበረካ ተሰርዘ"
   },
   "board": {
-    "drew": "You drew: {card}\nNow you must [swap X Y] or [discard] it.",
-    "took": "You took: {card} from discard pile\nYou must [swap X Y] with it (cannot discard).",
+    "drew": "አንተ ተረኽብካህ: {card}\nሕጂ አንተ ወዲ [swap X Y] ምስኡ ወይ [discard] ክትገብር አለካ።",
+    "took": "አንተ ወስድካህ: {card} ካብ ናህሪ ወጥሪ\nአንተ ወዲ [swap X Y] ምስኡ ክትገብር አለካ። አይክወጽን ኢኻ።",
     "peeked": "እንተንበረካ በማዕበል ({row},{col}): {card}",
     "turn_view": "እድኩረ ኣንቲ:\n{hand}\nማዕበል ተሰርዝቦ: {discard}\n{options}",
     "none": "ኣይፋልን።"
@@ -58,7 +58,7 @@
     "discard_empty": "እቲ ናይ ምጥፍፋእ ክራማት ባዶ እዩ!",
     "must_draw_first": "ንሕን መልእኽቲ ምንባረ �〕[draw]፣ [take]፣ [knock]፣ ወይ �〕[peek X Y]",
     "cannot_discard_taken": "ካብ'ቲ ዝተወሃበካ ካርድ ክትድርብዮ ኣይትኽእልን ኢኻ። ከተልውጦ ኣለካ።",
-    "have_drawn_card": "You have a drawn card. You must [swap X Y] or [discard] it.",
+    "have_drawn_card": "አንተ ተረኽብ ካርድ አለካ። አንተ ወዲ [swap X Y] ምስኡ ወይ [discard] ክትገብር አለካ።",
     "need_drawn_swap": "ንምልዋጥ ካርዲ የድልየካ።",
     "need_drawn_discard": "ክትድርብዮም ከለኻ እተደርበየ ካርድ የድልየካ እዩ።",
     "out_of_bounds": "ማዕበል ወገን ኣይተኣምን። ረብዕ 1-{max_row}፣ ኮለን 1-{max_col} ይጠቕም",
@@ -67,7 +67,7 @@
     "already_revealed": "እቲ ካርድ ድሮ ተገልጸ!"
   },
   "summary": {
-    "full": "Game Over! Player {winner} wins with a score of {score} points!\n\nFinal Scores:\n{scores}",
+    "full": "ጌም አበቃ! ተጫዋች {winner} አሸንፈዋል ከስኮር {score} ፖይንቶች!\n\nመጨረሻ ስኮርዛት:\n{scores}",
     "line": "ሰለማዊ �{pid}: {score} ምክንያት\n"
   },
   "board_str": {

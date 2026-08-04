@@ -16,16 +16,16 @@
     "{cards}": "The cards in a pile as neutral labels, or '--' if empty (never translate)"
   },
   "player_prompt": {
-    "intro": "You are playing Klondike Solitaire. Your goal is to move all cards to the foundation piles.\n\nGame Rules:\n- Foundation piles (F1-F4): Build up from Ace to King in suit\n- Tableau piles (T1-T7): Build down alternating colors (red on black, black on red)\n- Stock: Draw cards to waste pile\n- Waste (W): Top card available for play\n\nCommands:\n- 'draw' - Draw cards from stock to waste\n- 'move <source> <destination> [count]' - Move cards between piles\n  Examples: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count can also be 'all', which will try to move all face-up cards.\n- 'forfeit' - End the game immediately and lock in your current score\n- Pile names: W (waste), F1-F4 (foundations), T1-T7 (tableau)\n\nYou can execute multiple actions in one turn by separating them with commas:\n  Example: 'draw, move W T1, move T2 F1'\n\nOnly Kings can be placed on empty tableau piles.\nActions execute in order - if one fails, the remaining actions are skipped.\nUse 'forfeit' if you believe the game is impossible to win."
+    "intro": "O tshameka Klondike Solitaire. Sepheo sa gago ke go tsamaya dikarata tsotlhe kwa mafelo a thekiso.\n\nMelao ya Tshameko:\n- Mafelo a thekiso (F1-F4): Aga gore go tle go tloga ka Ace go ya go King ka letsogo\n- Mafelo a tafole (T1-T7): Aga kwa tlase ka go fetofetoga mebala (mokgwa o mosweu mo go mokgwa o moshibidu, mokgwa o moshibidu mo go mokgwa o mosweu)\n- Tsamaiso: Tshwara dikarata go ya kwa mafelo a makgwakgwa\n- Makgwakgwa (W): Karata e e godimo e kgona go tshamekiwa\n\nDitaelo:\n- 'draw' - Tshwara dikarata go tswa kwa tsamaiso go ya kwa makgwakgwa\n- 'move <source> <destination> [count]' - Tsamaya dikarata kwa gare ga mafelo\n  Mekwalo: 'move W T1', 'move T1 F2', 'move T3 T5 2'. palo e ka nna le 'all', e e tla leka go tsamaya dikarata tsotlhe tse di bonwang.\n- 'forfeit' - Khutlisa tshameko ka bonako le go kgwega sephelo sa gago sa jaanong\n- Maina a mafelo: W (makgwakgwa), F1-F4 (mafeldo a thekiso), T1-T7 (mafeldo a tafole)\n\nO ka dira ditiro tse dintsi ka go arola ka dikoma:\n  Sekwalo: 'draw, move W T1, move T2 F1'\n\nFela dikgosi fela tse di ka bewang kwa mafelo a tafole a a sa nang.\nDitiro di dirwa ka tatelano - fa e le gore e mongwe e palelwa, ditiro tse di setseng di tlaolwa.\nTumisa 'forfeit' fa o dumela gore tshameko e si ya kgonega go wina."
   },
   "format_error": {
     "no_brackets": "Sebopego sa tiro se ne se le phoso. Tiro e tshwanetse go nna mo dikopaneng tse di fa gare ga ditshipi.",
     "no_closing_bracket": "Sebopego sa tiro se se seng molaong. Go tlhaela kholomo ya go tswala ']'",
     "empty_command": "Taelo e se na sepe. Tsenya 'draw' kgotsa 'move <source><destination> [count]'",
     "empty_action": "Kgato e e senang sepe",
-    "move_needs_args": "Taolo ya go fudusa e tlhoka motswedi le kwa o yang teng. Tiriso: 'fudusetsa <motswedi> <kwa o yang gone> [count]'",
-    "count_positive": "Palo e tshwanetse go nna ya bosetlaboika kgotsa 'botlhe'",
-    "count_invalid": "Palo e sa amogelesegang. Dirisa palo kgotsa 'botlhe'",
+    "move_needs_args": "Taelo ya tsamaya e tlhoka motswedi le legae la tsamaya. Tumiso: 'move <source> <destination> [count]'",
+    "count_positive": "Palo e tshwanetse go nna e e siameng kgotsa 'all'",
+    "count_invalid": "Palo e e sa siamang. Tumia palo kgotsa 'all'",
     "unknown_command": "Taelo e seng tlhokegilego '{cmd}'. Tsaya 'draw', 'move <source> <destination> [count]', or 'forfeit'",
     "wrapped": "Tshetso {n}: {msg}"
   },
@@ -49,7 +49,7 @@
     "waste_to_tableau_bad": "Ga o kgone go baya karata ya matlakala mo mokgokoloseng oo wa tafole.",
     "no_face_up": "Ga go na dikarata tse di ka sutisiwang.",
     "tableau_to_tableau_ok": "Tsamaisitswe {count} karte(s) go tswa tableau T{src} go ya T{dst}",
-    "tableau_to_tableau_bad": "Cannot move {count} card(s) from T{src} to T{dst}",
+    "tableau_to_tableau_bad": "Ga go kgonege go tsamaya dikarata {count} go T{src} go T{dst}",
     "foundation_to_tableau_one_card": "O ka kgona go sutisa karata e le 1 fela go tswa mo setlhomong go ya kwa tafoleng.",
     "foundation_empty": "Motheo F{src} ga o na sepe.",
     "foundation_to_tableau_ok": "Karte e tsamaisitswe go tswa foundation F{src} go ya tableau T{dst}",
@@ -59,7 +59,7 @@
   "outcome": {
     "forfeit": "Papadi e ne ya latlhwa.Palo ya bofelo: {score} dikarata mo metheong.",
     "won": "O fentse kgaisano ya Klondike Solitaire!",
-    "turn_limit": "Game over! You reached the maximum of {max_turns} turns. Score: {score} cards in foundations."
+    "turn_limit": "Metswedi e fedile! O tlhakane le palo ya {max_turns} ditlhogo. Legato: {score} dikarata mo mafundishong."
   },
   "board": {
     "title": "=== KLONDIKE SOLITAIRE=== Ke ne ka bona gore ke na le bothata jwa go bua.",

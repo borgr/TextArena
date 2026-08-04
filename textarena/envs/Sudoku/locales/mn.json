@@ -13,7 +13,7 @@
     "violates_rules": "Хууль бус хөдөлгөөн. {player_id} тоглогч {num}-г ({row}, {col}) дээр байрлуулахыг оролдсон нь Судокугийн дүрмийг зөрчсөн байна."
   },
   "outcome": {
-    "win": "Congratulations! Player {player_id} completed the Sudoku puzzle.",
+    "win": "Баяр хүргье! Тоглогч {player_id} Судокугийн бодлогоо бүрэн гүйцэтгэв.",
     "turn_limit": "Та хоосон ячейгуудын {percent}% -ийг зөв дүүргэсэн."
   }
 }

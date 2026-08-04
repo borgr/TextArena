@@ -26,14 +26,14 @@
     "you_bomb_lost": "Woyɛ wo nhwɛsoɔ fa {source} ko to {dest}. Nhwɛsoɔ a ɛhyɛɛ nsiesie no ne {attacking_rank} na beaeɛ a nhwɛsoɔ no kɔeɛ no ne {target_rank}. Sɛ nhwɛsoɔ a ɛhyɛɛ nsiesie no nyɛ bomb, woyɛ nsiesie no.",
     "opponent_bomb_won": "Ɔmanfofo {player_id} ayɛ nhwɛsoɔ fa {source} ko to {dest}. Nhwɛsoɔ a ɛhyɛɛ nsiesie no ne {attacking_rank} na beaeɛ a nhwɛsoɔ no kɔeɛ no ne {target_rank}. Sɛ nhwɛsoɔ a ɛhyɛɛ nsiesie no nyɛ miner a, woyɛ nsiesie no.",
     "you_spy_won": "Woyɛ wo nhwɛsoɔ fa {source} ko to {dest}. Nhwɛsoɔ a ɛhyɛɛ nsiesie no ne {attacking_rank} na beaeɛ a nhwɛsoɔ no kɔeɛ no ne {target_rank}. Sɛ nhwɛsoɔ a ɛhyɛɛ nsiesie no yɛ spy na beaeɛ a nhwɛsoɔ no kɔeɛ no yɛ marshall, woyɛ nsiesie no.",
-    "opponent_spy_lost": "Player {player_id} has moved a piece from {source} to {dest}. The attacking piece was {attacking_rank} and the destination piece was {target_rank}. As the attacker is a spy and the destination is a marshall, you lost the battle.",
+    "opponent_spy_lost": "Odwumfo {player_id} ato nkrɛm firi {source} kɔ {dest}. Nkrɛm a ɛrekɔɔ yɛ {attacking_rank} na nkrɛm a ɛrekɔɔ hɔ yɛ {target_rank}. Esiane sɛ ɔrekɔɔ no yɛ okomfoɔ ne nkrɛm a ɛrekɔɔ hɔ yɛ ɔsahene, wunuu adwumɔ no.",
     "you_higher_won": "Woyɛ wo nhwɛsoɔ fa {source} ko to {dest}. Nhwɛsoɔ a ɛhyɛɛ nsiesie no ne {attacking_rank} na beaeɛ a nhwɛsoɔ no kɔeɛ no ne {target_rank}. Sɛ nhwɛsoɔ a ɛhyɛɛ nsiesie no yɛ abɔdeɛ kɛseɛ paa sɛ beaeɛ a nhwɛsoɔ no kɔeɛ no, woyɛ nsiesie no.",
-    "opponent_higher_lost": "Player {player_id} has moved a piece from {source} to {dest}. The attacking piece was {attacking_rank} and the destination piece was {target_rank}. As the attacker is a higher rank than the destination, you lost the battle.",
-    "you_lower_lost": "You have moved your piece from {source} to {dest}. The attacking piece was {attacking_rank} and the destination piece was {target_rank}. As the attacker is a lower rank than the destination, you lost the battle.",
+    "opponent_higher_lost": "Odwumfo {player_id} ato nkrɛm firi {source} kɔ {dest}. Nkrɛm a ɛrekɔɔ yɛ {attacking_rank} na nkrɛm a ɛrekɔɔ hɔ yɛ {target_rank}. Esiane sɛ ɔrekɔɔ no yɛ ɔsahene sen nkrɛm a ɛrekɔɔ hɔ, wunuu adwumɔ no.",
+    "you_lower_lost": "Wo atu wo piece fi {source} kɔ {dest}. Piece a wo tu no ne rank yɛ {attacking_rank}, na piece a wɔ destination no ne rank yɛ {target_rank}. Sɛ attacker no ne rank yɛ ketewa sen destination no a, wo fi nkunim.",
     "opponent_lower_won": "Ɔmanfofo {player_id} ayɛ nhwɛsoɔ fa {source} ko to {dest}. Nhwɛsoɔ a ɛhyɛɛ nsiesie no ne {attacking_rank} na beaeɛ a nhwɛsoɔ no kɔeɛ no ne {target_rank}. Sɛ nhwɛsoɔ a ɛhyɛɛ nsiesie no yɛ abɔdeɛ ketewa paa sɛ beaeɛ a nhwɛsoɔ no kɔeɛ no, woyɛ nsiesie no."
   },
   "outcome": {
     "flag_captured": "Ɔpanyin {player_id} no agye ɔfoforo frankaa!",
-    "no_movable_pieces": "Player {winner_id} wins! Player {loser_id} has no more movable pieces."
+    "no_movable_pieces": "Odwumfo {winner_id} adi nkunim! Odwumfo {loser_id} nni nnooma biara a ɔbetumi ato biom."
   }
 }

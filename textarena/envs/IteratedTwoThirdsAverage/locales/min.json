@@ -7,7 +7,7 @@
     "out_of_range": "Tantuan harus antaro {min_guess} jo {max_guess}."
   },
   "message": {
-    "round_guesses": "Player 0 guessed {guess0}; Player 1 guessed {guess1}. Thus the Target is: {target}.",
+    "round_guesses": "Pemain 0 tebak {guess0}; Pemain 1 tebak {guess1}. Dengan demikian Target adolah: {target}.",
     "round_draw": "Putaran adolah undian.",
     "round_win": "Pamain {winner} manang dalam ronde!"
   },

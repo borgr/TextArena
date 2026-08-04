@@ -1,10 +1,10 @@
 {
   "game_start": {
-    "intro": "The game begins. Trump suit: {trump_suit} (trump card: {trump_str}).",
+    "intro": "Mchezo unanuka. Suti ya kupiga chapuo: {trump_suit} (chapuo cha kupiga chapuo: {trump_str}).",
     "no_trump_card": "gũtirĩ o na ũmwe"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in German Whist.\n{phase_info}\nYou hold {hand_size} cards.\nPlay a card with '[play N]', where N is its position in your hand (for example '[play 3]').",
+    "intro": "We ni Mchezaji {player_id} katika Whist ya Kijerumani.\n{phase_info}\nUna mikono {hand_size} ya kadi.\nCheza kadi kwa kutumia '[play N]', ambapo N ni nafasi yake kwenye mkono wako (kwa mfano '[play 3]').",
     "phase_learning": "GĨCUNJIRI KŨRUTWO: ũrĩa ũhootanaga kĩgeranio o gĩothe nĩ we wĩyohagĩra kadi ĩrĩa ĩrorete igũrũ na ũcio ũkũhootwo agacoka akeyũkia karati ĩngĩ kuuma gĩkero-inĩ. Kĩgerania kĩrĩa kĩahotetwo ihinda rĩrĩ gĩtituaga kũrũa kana gũtoorania.",
     "phase_playing": "GĨCUNJĨ KŨREKIA: Mbarathi nĩ ĩrĩkĩtie kũhĩa. Kĩgeranio o gĩothe kuuma rĩu no kĩhote gũgũteithia ũhootane."
   },
@@ -25,7 +25,7 @@
   },
   "trick": {
     "won": "Mũthaaki {winner_id} nĩ agaacinda kĩgeranio na {card}.",
-    "won_learning": "Player {winner_id} wins the trick with {card} and takes the face-up card."
+    "won_learning": "Mchezaji {winner_id} anashinda mchezo huo kwa kutumia {card} na kuchukua kadi iliyo wazi."
   },
   "phase": {
     "learning_complete": "Gĩthaka kĩu gĩgĩkira, na mũico wa kwĩruta ũgĩkinya - o kĩgeranio kĩrĩa kĩngĩ nĩ kĩa bata harĩ kũhootana."
@@ -37,8 +37,8 @@
   },
   "turn": {
     "board": "{phase}\n{scores}\n{next_card}\n\n{trick}\n\n{hand}",
-    "scores_learning": "Tricks won so far - Player 0: {tricks0}, Player 1: {tricks1}",
-    "scores_playing": "Scoring tricks - Player 0: {tricks0}, Player 1: {tricks1}",
+    "scores_learning": "Michezo iliyoshinda mpaka sasa - Mchezaji 0: {tricks0}, Mchezaji 1: {tricks1}",
+    "scores_playing": "Michezo inayopata alama - Mchezaji 0: {tricks0}, Mchezaji 1: {tricks1}",
     "phase": "Kĩrathi: {phase}",
     "phase_learning": "Mzunguko: {phase} (〕{remaining_cards} kadi zimesalia katika sitaha)"
   },
@@ -60,17 +60,17 @@
     "not_started": "Gĩkundi gĩtiambĩrĩirie",
     "header": "=== GĨTŨMBA KĨA NJARIMANI=== Mũrango wa mũico:",
     "phase": "{observation}\nMzunguko: {phase}",
-    "trump_suit": "{observation}\nTrump suit: {trump_suit}",
+    "trump_suit": "{observation}\nSuti ya kupiga chapuo: {trump_suit}",
     "trump_card": "{observation}\nKadi ya trump: {card}",
     "cards_left": "{observation}\nKadi zimesalia: {count}",
-    "next_card": "{observation}\nNext card for winner: {card}",
+    "next_card": "{observation}\nKadi inayofuata kwa mshindi: {card}",
     "blank": "{observation}  nĩ ũndũ wa gũkua gwakwa.",
     "current_trick": "{observation} Ũrĩa ũramenya rĩu:",
     "trump_indicator": "(TRUMP) Nĩ ngenaga mũno.",
     "trick_line": "{observation}\n  Player {player_id}: {card}{trump_indicator}",
-    "player_line": "{observation}\nPlayer {player_id}: {scoring} scoring tricks ({tricks} total), {hand_size} cards in hand"
+    "player_line": "{observation}\nMchezaji {player_id}: {scoring} michezo inayopata alama ({tricks} kwa jumla), mikono {hand_size} ya kadi"
   },
   "outcome": {
-    "summary": "Learning phase - Player 0: {l0}, Player 1: {l1}. Playing phase - Player 0: {p0}, Player 1: {p1}. Player {winner_id} wins with {winner_tricks} scoring tricks!"
+    "summary": "Muda wa kujifunza - Mchezaji 0: {l0}, Mchezaji 1: {l1}. Muda wa kucheza - Mchezaji 0: {p0}, Mchezaji 1: {p1}. Mchezaji {winner_id} anashinda kwa {winner_tricks} michezo inayopata alama!"
   }
 }

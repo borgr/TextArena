@@ -27,7 +27,7 @@
     "drew": "Сез {card} чыгардыгыз:\nХәзер сез [swap X Y] яки [discard] кылырга тиеш",
     "took": "Сез {card} алыгыз бирдеткән урыныннан\nСез аны [swap X Y] белән кулланырга тиеш (бирдеткә алмагыз)",
     "peeked": "Сез ({row},{col}) урынын карадыгыз: {card}",
-    "turn_view": "Your hand:\n{hand}\nDiscard pile: {discard}\n{options}",
+    "turn_view": "Синең кулыңда:\n{hand}\nТашланган карталар өеме: {discard}\n{options}",
     "none": "Беркем дә юк ."
   },
   "options": {

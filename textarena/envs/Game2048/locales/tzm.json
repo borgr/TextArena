@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing 2048 on a {board_size}x{board_size} board. Your goal is to reach a {target_tile} tile by sliding identical numbers together!\nValid moves: [Up], [Down], [Left], [Right]. Tiles combine when they collide, doubling their value.\n"
+    "intro": "Tirid 2048 ɣef ussida {board_size}x{board_size}. Ifuk inuɣen a k-awḍeḍ i tajṛa {target_tile} s usragl n imzalayen idrusen!\nImussugen imseflalen: [Up], [Down], [Left], [Right]. Tijṛiwin ttekkin mi ara kkin, tettekkin aḥric-nsent.\n"
   },
   "board": {
     "current_board": "Askkil: {score}\n{board}"
@@ -10,7 +10,7 @@
     "no_change": "ⵓⵔ ⵉⵙⵏⴼⵍ ⵓⵙⵇⵇⵉⵎ - ⵙⵜⴰⵢ ⵢⴰⵏ ⵓⴱⵔⵉⴷ ⵢⴰⴹⵏ."
   },
   "outcome": {
-    "win": "Congratulations, you reached {target_tile}! Final score {score}.",
-    "lose": "No moves left. Max tile {max_tile} - final score {score}."
+    "win": "Tafaska, tewwiḍeḍ {target_tile}! Timsal aneggaru {score}.",
+    "lose": "Ur sul imussugen. Tajṛa tamqrant {max_tile} - timsal aneggaru {score}."
   }
 }

@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "Wiri Player {player_id} muNegotiation Game.\nUnenge wachiwanika nezvinhu, na chakuitika chako kufungidza kutengeserana zvinhu izvi kuti jumla ya thamani yezvinhu yako ipendeke.\nZvinhu na maadhi anowana kwa sasa zvinhu izvi:\n\t+ {resource_value_list}\nPa kila turn, unogona kungwerengera na mwana weoponendi na kubatsira offer.\nTengai tokens zidziro zvinotevema kwa ajensi:\n  - '[Offer: 3 Sheep, 2 Ore -> 5 Brick, 2 Sheep]': [Offer: Zvinhu zvakabatsirwa -> Zvinhu zvakadzorwa]\n  - '[Accept]': Kudzorera offer inotuma.\n  - '[Deny]': Kukana offer inotuma (default).\nGame ino ina miguu {max_turns} yose."
+    "intro": "Wiri Player {player_id} muNegotiation Game.\nUnenge wachiwanika nezvinhu, na chakuitika chako kufungidza kutengeserana zvinhu izvi kuti jumla ya thamani yezvinhu yako ipendeke.\nZvinhu na maadhi anowana kwa sasa zvinhu izvi:\n\t+ {resource_value_list}\nPa kila turn, unogona kungwerengera na mwana weoponendi na kubatsira offer.\nTengai tokens zidziro zvinotevema kwa ajensi:\n  - '[Offer: 3 Sheep, 2 Ore -> 5 Brick, 2 Sheep]': [Offer: Offered Resources -> Requested Resources]\n  - '[Accept]': Kudzorera offer inotuma.\n  - '[Deny]': Kukana offer inotuma (default).\nGame ino ina miguu {max_turns} yose."
   },
   "invalid_move": {
     "receiving_with_no_resource": "Mutambi akaedza kugamuchira kutengeserana asina kuva nezvinhu zvinodiwa.",

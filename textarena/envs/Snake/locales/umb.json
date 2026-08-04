@@ -11,7 +11,7 @@
     "{groups}": "Neutral ranking data (a list of player-id groups, worst to best); do not translate"
   },
   "player_prompt": {
-    "intro": "{num_players}-Player Snake on a {width}×{height} grid.\nYou control snake {player_id}. Valid moves: '[up]'/'[down]'/'[left]'/'[right]' (or w/s/a/d).\nObjective: survive longest or be the longest and get the highest score (turn limit {max_turns} turns)."
+    "intro": "{num_players}-Vantu yomboli Snake kwa {width}×{height} ndaka.\nOvu kontrolla yomboli {player_id}. Vipindi vyovya: '[up]'/'[down]'/'[left]'/'[right]' (kana w/s/a/d).\nKulunga: kulikala kwavulu kwa mpindi mukwawo, kana uwe yomboli mukwawo uye we mukwawo matala (kikomo kyovya {max_turns} vipindi)."
   },
   "board": {
     "current": "Omba oyo yi Mwanzo:\n{board}",
@@ -26,6 +26,6 @@
     "outlived": "Omanu vosi va kalapo eci handi ohongele yofeka ka ya fetikile, va komõhele calua.",
     "all_dead": "Vosi yavo va fa.",
     "turn_limit": "Kuenje, o linga ohundo ya velapo vokuenda kueteke.",
-    "ranking": "{reason} Final ranking groups (worst→best): {groups}"
+    "ranking": "{reason} Vipindi vya mpangala vya mwisho (mbi→mbwisi): {groups}"
   }
 }

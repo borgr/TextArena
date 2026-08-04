@@ -7,7 +7,7 @@
     "out_of_range": "Tebak kudu antara {min_guess} lan {max_guess} ."
   },
   "message": {
-    "round_guesses": "Player 0 mrahane {guess0}; Player 1 mrahane {guess1}. Mula bukti iku Target kuwe: {target}.",
+    "round_guesses": "Pemain 0 menebak {guess0}; Pemain 1 menebak {guess1}. Mula Targeté: {target}.",
     "round_draw": "Babak kuwi imbang.",
     "round_win": "Pemain {winner} menang babak!"
   },

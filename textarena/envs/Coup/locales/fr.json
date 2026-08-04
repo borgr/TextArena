@@ -113,7 +113,7 @@
     "assass_others": "Le Player #{source} vient d'assassiner le Player #{target}. Il a perdu une carte et révélé un {card}. Il {remaining}",
     "steal_source": "Vous venez de voler deux pièces au Player #{target} avec succès. Vous avez maintenant {scoins} pièces. Le Player #{target} a {tcoins} pièces",
     "steal_target": "Le Player #{source} vient de vous voler deux pièces. Vous avez maintenant {tcoins} pièces. Le Player #{source} a {scoins} pièces",
-    "steal_others": "Le Player #{source} vient de voler deux pièces au Player #{target}. Le Player #{source} a {scoins} pièces. Le Player #{target} a {tcoins} pièces",
+    "steal_others": "Le Joueur #{source} vient de voler deux pièces au Joueur #{target}. Le Joueur #{source} a {scoins} pièces. Le Joueur #{target} a {tcoins} pièces",
     "exchange_source_two": "Vous avez pioché deux cartes dans la pioche pour l'échange. Vous avez maintenant : {cards}. Vous devez choisir quelles deux cartes garder avec [keep <card1> <card2>]",
     "exchange_source_one": "Vous avez pioché deux cartes dans la pioche pour l'échange. Vous avez maintenant : {cards}. Puisque vous avez perdu une influence, vous devez choisir quelle carte garder avec [keep <card>]",
     "exchange_others": "Le Player #{source} échange des cartes avec le paquet de la Cour."
@@ -161,10 +161,10 @@
   "hl": {
     "won": "Le Player #{winner} a gagné !",
     "turn": "C'est le tour du Player #{pid}",
-    "query_block": "Le Player #{source} tente un {action}{target}, demandant si le Player #{pid} veut bloquer/défier.",
+    "query_block": "Le Joueur #{source} tente une action {action}{target}, demande si le Joueur #{pid} veut bloquer/défiler.",
     "target_on": " sur le Player #{target}",
     "target_from": " au Player #{target}",
-    "query_challenge_blocker": "Le Player #{blocker} effectue un {block} sur le Player #{source}, demandant si le Player #{pid} veut défier le blocage.",
+    "query_challenge_blocker": "Le Joueur #{blocker} fait un bloc {block} sur le Joueur #{source}, demande si le Joueur #{pid} veut défier le bloc.",
     "query_keep": "Le Player #{source} tente un Échange, demandant lesquelles il souhaite garder."
   }
 }

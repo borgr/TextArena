@@ -14,7 +14,7 @@
   },
   "message": {
     "tie": "Bitim - teklipler yzyna gaýtaryldy. Ýene okal!",
-    "auction_result": "P0 bid {bid0}, P1 bid {bid1}. Player {winner} wins prestige {prize} (total {total})."
+    "auction_result": "P0 ýylgaý {bid0}, P1 ýylgaý {bid1}. Oýunçy {winner} prestiž {prize} ýeňýär (jemi {total})."
   },
   "outcome": {
     "p0_wins": "Net-kär {nw0} > {nw1}",

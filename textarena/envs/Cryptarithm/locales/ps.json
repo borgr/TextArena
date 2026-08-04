@@ -9,10 +9,10 @@
     "{pct}": "Progress as a percentage string, e.g. 50%"
   },
   "player_prompt": {
-    "intro": "Map each letter to a unique digit so the arithmetic holds.\nAssign with `[A 5]`, re-assign anytime.\n"
+    "intro": "هر لیک د یو ځانګړي څو سره مپ کړئ تر څو حساب ساتنه شي.\nد `[A 5]` سره اساین کړئ، بيا بيا اساین کړئ کله چې غواړئ.\n"
   },
   "invalid_move": {
-    "wrong_format": "Bad action format. Use `[A 5]`.",
+    "wrong_format": "خراب عمل فارمیټ. `[A 5]` کار وکړئ.",
     "letter_not_in_puzzle": "لیک {letter} په پزل کې نه دی.",
     "digit_used": "د {digit} عدد چې د {used_letter} لخوا لا دمخه کارول شوی.",
     "leading_zero": "د یوې کلمې مخکښ عدد صفر نشي کېدای."

@@ -1,16 +1,16 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a {num_rounds}-round Rock-Paper-Scissors game.\nYour goal is to win as many rounds as possible.\nIn each round, respond with one of: '[rock]', '[paper]', or '[scissors]'.\nYou may also use '[r]', '[p]', or '[s]' as shorthand.\n"
+    "intro": "We u Player {player_id} mu joga ya {num_rounds}-round ya Rock-Paper-Scissors.\nKulengwa kwenu ni kuwina vijiti vingi ivyo vikwete.\nMu kila joga, itikeni na moja ya: '[rock]', '[paper]', or '[scissors]'.\nMungayi kutumisa '[r]', '[p]', or '[s]' kuwa kufupisha.\n"
   },
   "invalid_move": {
-    "wrong_format": "Move not recognized. Use [rock], [paper], or [scissors]."
+    "wrong_format": "Kutenda kwa joga hakutambulwa. Tumisani [rock], [paper], or [scissors]."
   },
   "game_action": {
-    "selects": "Player {player_id} selects move {move}."
+    "selects": "Player {player_id} wachagua kutenda {move}."
   },
   "message": {
-    "round_draw": "Cjk ck: Draw",
-    "round_win": "cjk final result: Player {winner} wins!"
+    "round_draw": "Matokeo ya joga: Kuwawana",
+    "round_win": "Matokeo ya joga: Player {winner} wuwini!"
   },
   "outcome": {
     "p0_wins": "Mdlalo 0 wawina ndulu!",

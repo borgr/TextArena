@@ -11,7 +11,7 @@
     "not_legal": "ක් රියාව {legal_actions} විය යුතුයි."
   },
   "action": {
-    "submit_move": "Player {player_id}, submitted move: '[{move}]'.",
+    "submit_move": "ක්‍රීඩක {player_id}, ඉදිරිපත් කළ ක්‍රියාව: '[{move}]'.",
     "valid_actions": "ඔබේ ක් රියාකාරකම් පහත පරිදි වේ: {legal_actions}.",
     "round_summary": "{reason} වර්තමාන ලකුණු: ක් රීඩකයා 0: \"{player_0_chips}\"; ක් රීඩකයා 1: \"{player_1_chips}\""
   },

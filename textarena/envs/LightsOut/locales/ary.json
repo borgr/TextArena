@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "التدخل خاص يكون في الشكل [row col] حيث الصف والعمود هما أرقام صحيحة من 0 إلى {max_index}.",
-    "out_of_range": "Coordinates must be between 0 and {max_index}. You entered [{row},{col}]."
+    "out_of_range": "الإحداثيات يجب أن تكون بين 0 و {max_index}. قمت بإدخال [{row},{col}]."
   },
   "outcome": {
     "win": "تهانينا! لقد حللت اللغز في {moves_used} خطوات!",

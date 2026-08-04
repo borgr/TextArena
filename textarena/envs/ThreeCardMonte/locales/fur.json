@@ -11,7 +11,7 @@
     "{ball_pos}": "The cup index the ball is under"
   },
   "player_prompt": {
-    "intro": "Track the hidden ball 'X' while the cups are shuffled.\nAfter shuffling, guess its location with `[k]`."
+    "intro": "Segui la bale platade 'X' intant che i tassis a son mescolâts.\nDaspo la mescoladure, indovine la sô posizion cun `[k]`."
   },
   "game_message": {
     "ball_starts": "Il balon al scomence: {line}",
@@ -21,11 +21,11 @@
     "reveal": "(Rivelatîf: balon sot dal {ball_pos})"
   },
   "invalid_move": {
-    "wrong_format": "Bad action. Use `[k]`.",
+    "wrong_format": "Azion no valide. Dopre `[k]`.",
     "out_of_range": "Indicât fûr dal interval 0-{max_index}."
   },
   "outcome": {
     "win": "Coret! Tu âs cjatât la bale.",
-    "lose": "Wrong — ball was under cup {ball_pos}."
+    "lose": "Sbagliât — la bale e jere sot il tass {ball_pos}."
   }
 }

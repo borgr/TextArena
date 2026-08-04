@@ -11,7 +11,7 @@
     "not_legal": "Дзеянне павінна быць {legal_actions}."
   },
   "action": {
-    "submit_move": "Player {player_id}, submitted move: '[{move}]'.",
+    "submit_move": "Гулец {player_id} зрабіў ход: '[{move}]'.",
     "valid_actions": "Вашы даступныя дзеянні: {legal_actions}.",
     "round_summary": "{reason} Цяперашнія балы: Гулец 0: \"{player_0_chips}\"; Гулец 1: \"{player_1_chips}\""
   },

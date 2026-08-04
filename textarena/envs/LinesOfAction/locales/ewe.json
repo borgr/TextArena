@@ -10,7 +10,7 @@
     "{to}": "The destination coordinate of a move, such as b3"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in game of LinesOfAction.\nYour pieces are '{side}', opponent pieces are '{other}'.\nMove format: `[b1b3]` (from-coord to-coord). A legal move travels horizontally, vertically, or diagonally a number of squares equal to the total pieces (any colour) in that line. You may jump over your own pieces, but not opponent pieces; landing on an opponent captures it.  Win when all your pieces are 8-neighbour connected."
+    "intro": "Nyɔnu {player_id} nye LinesOfAction ƒe nyɔnu.\nWo ƒe kluwo nye '{side}', kɔkɔtɔ ƒe kluwo nye '{other}'.\nFiazikpui ƒe ŋkɔ: `[b1b3]` (akpa gbɔ akpa me). Fiazikpui si wɔwɔ le mɔxenu, gbɔtɔ, alo ŋgɔdɔƒe akpa ƒe xexlẽ si nye kluwo ƒe xexlẽ (gbɔƒe klu) le eme. Ameaɖeƒe wo ƒe kluwo, gake me kɔkɔtɔ ƒe kluwo; ƒeƒe kɔkɔtɔ ƒe klu la, woaɖe."
   },
   "board": {
     "current_board": "Kɔmiti: {board}"
@@ -26,7 +26,7 @@
   },
   "game_action": {
     "moved": "Dɔdzikpɔla {player_id} wɔ {from} -> {to}",
-    "captured_suffix": "Player {player_id} moved {from} -> {to} capturing an enemy."
+    "captured_suffix": "Nyɔnu {player_id} fiazikpui {from} -> {to} eye woaɖe kɔkɔtɔ ƒe klu."
   },
   "outcome": {
     "win": "Nu sia nu wɔ ɖeka.",

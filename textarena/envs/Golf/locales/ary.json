@@ -26,7 +26,7 @@
   "board": {
     "drew": "لقد رسمت: {card}\nالآن يجب عليك [swap X Y] أو [discard]",
     "took": "لقد أخذت: {card} من كومة التخلص\nيجب عليك [swap X Y] معه (لا يمكن التخلص)",
-    "peeked": "You peeked at position ({row},{col}): {card}",
+    "peeked": "لقد نظرت إلى الموضع ({row},{col}): {card}",
     "turn_view": "يدك:\n{hand}\nكومة التخلص: {discard}\n{options}",
     "none": "لا شي واحد."
   },
@@ -42,7 +42,7 @@
     "row": "الصف {n}: {cards}"
   },
   "action_desc": {
-    "swapped": "Player {pid} swapped {new} with {old} at position ({row},{col})",
+    "swapped": "اللاعب {pid} استبدل {new} مع {old} في الموضع ({row},{col})",
     "discarded": "لاعب {pid} طرد {card}"
   },
   "message": {
@@ -54,8 +54,8 @@
     "all_revealed": "واش كشفتو كل البطاقات؟"
   },
   "invalid": {
-    "wrong_action": "استخدم действие واحد محاطًا بالقوسين: [draw]، [take]، [swap X Y]، [discard]، [knock]، أو [peek X Y]",
-    "discard_empty": "The discard pile is empty!",
+    "wrong_action": "استخدم إجراءً واحدًا بالضبط بين الأقواس: [draw]، [take]، [swap X Y]، [discard]، [knock]، أو [peek X Y]",
+    "discard_empty": "كومة التخلص فارغة!",
     "must_draw_first": "يجب عليك أولاً [draw]، [take]، [knock]، أو [peek X Y]",
     "cannot_discard_taken": "ما تقدرش تتخلص من بطاقة خريده من كومة التخلّي، خاصك تبدلها.",
     "have_drawn_card": "لديك بطاقة مشرورة. يجب عليك [swap X Y] أو [discard]",

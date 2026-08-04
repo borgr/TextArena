@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "Tu wek Player {player_id} yî Di Yarîya Mizakiriyê de.\nTe hin çavkanî hene û armanca te ev e ku bazirganî bikî, ta ku bi tevahî ya çavkaniyên te zêde bibe.\nÇavkanî û nirxên wan ên ku niha te pê ve ne:\n\t+ {resource_value_list}\nDi her gera xwe de, tu dikarî bi dijberê xwe têkevê û pêşniyara bazirganiyê bikî.\nEmolkirin tokenên taybet ên ji bo çalakiyan:\n  - '[Pêşniyar: 3 Mish, 2 Kanî -> 5 Brique, 2 Mish]': [Pêşniyar: Çavkaniyên pêşniyarî -> Çavkaniyên xwestî]\n  - '[Accept]': Ji bo pejirandina pêşniyara ku tê.\n  - '[Deny]': Ji bo redkirina pêşniyara ku tê (serekî).\nYarî dikeve {max_turns} geran de."
+    "intro": "Tu wek Player {player_id} yî Di Yarîya Mizakiriyê de.\nTe hin çavkanî hene û armanca te ev e ku bazirganî bikî, ta ku bi tevahî ya çavkaniyên te zêde bibe.\nÇavkanî û nirxên wan ên ku niha te pê ve ne:\n\t+ {resource_value_list}\nDi her gera xwe de, tu dikarî bi dijberê xwe têkevê û pêşniyara bazirganiyê bikî.\nEmolkirin tokenên taybet ên ji bo çalakiyan:\n  - '[Offer: 3 Sheep, 2 Ore -> 5 Brick, 2 Sheep]': [Offer: Offered Resources -> Requested Resources]\n  - '[Accept]': Ji bo pejirandina pêşniyara ku tê.\n  - '[Deny]': Ji bo redkirina pêşniyara ku tê (serekî).\nYarî dikeve {max_turns} geran de."
   },
   "invalid_move": {
     "receiving_with_no_resource": "Lîstikvanê ku hewl da tevgerek qebûl bike, bêyî çavkaniyên pêwîst hebû.",
@@ -12,8 +12,8 @@
   },
   "offers": {
     "reject": "Lîstikvan {player_id} pêşniyara guhertinê red kir.",
-    "accept": "Player {acceptor_id} pêşniyara bazirganiyê ya ji Player {proposer_id} pejirand.",
-    "proposal": "Player {player_id} pêşniyarekê wiha ji Player {opponent_id} kir: Şayenên pêşniyarî: {offered} -> Şayenên xwestî: {requested}"
+    "accept": "Lêzer {acceptor_id} pêşniyara danûstendinê ji Lêzer {proposer_id} qebûl kir.",
+    "proposal": "Lêzer {player_id} pêşniyara danûstendinê ya jêrîn ji Lêzer {opponent_id} re kir: Tiştên pêşkêşkirî: {offered} -> Tiştên xwestî: {requested}"
   },
   "outcome": {
     "win": "Lîstikvan {winner_id} bi hêjayî zêdebûna nirxê enstîtûyê ya mezin qezenc kir.",

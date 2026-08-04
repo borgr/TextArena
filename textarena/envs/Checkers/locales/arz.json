@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "لم يتم العثور على تنسيق حركة صالح. استخدم [a1b2]، على سبيل المثال [b2c3].",
-    "illegal": "Move [{move}] is illegal."
+    "illegal": "الحركة [{move}] غير قانونية."
   },
   "game_action": {
     "moved": "اللاعب {player_id} حركت {move}."

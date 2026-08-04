@@ -25,7 +25,7 @@
   "message": {
     "round_result": "{reason}  Pot {pot} → Imreoir {winner}. (Bancréití P0:{p0}, P1:{p1})",
     "folded": "Imreoir {player_id} folded.",
-    "showdown_win": "Showdown: {card_win} beats {card_lose}.",
+    "showdown_win": "Comórtas: {card_win} buaileann {card_lose}.",
     "showdown_tie": "Showdown tie: an dá {card}. Pott Split  each receives {split}."
   },
   "outcome": {

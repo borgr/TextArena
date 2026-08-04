@@ -10,7 +10,7 @@
     "{to}": "The destination coordinate of a move, such as b3"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in game of LinesOfAction.\nYour pieces are '{side}', opponent pieces are '{other}'.\nMove format: `[b1b3]` (from-coord to-coord). A legal move travels horizontally, vertically, or diagonally a number of squares equal to the total pieces (any colour) in that line. You may jump over your own pieces, but not opponent pieces; landing on an opponent captures it.  Win when all your pieces are 8-neighbour connected."
+    "intro": "ཁྱེད་ཀྱིས་ LinesOfAction གི་རྩེདམོར་མི་སྣ་ {player_id} ཡིན།\nཁྱེད་ཀྱི་སྒྱུ་ཆ་ '{side}' ཡིན་པ་དང་། ཕྱོགས་གཞན་གྱི་སྒྱུ་ཆ་ '{other}' ཡིན།\nསྤོར་བཀོད་དབྱིབས་: `[b1b3]` (གནས་ཚུལ་ནས་གནས་ཚུལ་བར་) ཁྲིམས་མཐུན་པའི་སྤོར་བ་ནི་ཐད་ཀར་དང་ཐད་རིགས་སམ་མདུན་རིགས་ཀྱི་ཐད་ཀར་སྤོར་བ་ཡིན་པ་དང་། ཐད་ཀར་དེ་ནང་གི་སྒྱུ་ཆའི་གྲངས་ཀ (ཁ་དོག་གང་ཡང་རུང་) དེ་ཙམ་གྱི་སྒོ་སྤོར་བ་ཡིན། ཁྱེད་ཀྱི་སྒྱུ་ཆ་རང་གི་སྒྱུ་ཆ་ཐོག་ནས་སྤོར་ཆོག ཕྱོགས་གཞན་གྱི་སྒྱུ་ཆ་ཐོག་ནས་སྤོར་མི་ཆོག ཕྱོགས་གཞན་གྱི་སྒྱུ་ཆ་ཐོག་ཏུ་འབྱར་ན་དེ་ཁྱེར་བ་ཡིན། ཁྱེད་ཀྱི་སྒྱུ་ཆ་ཐམས་ཅད་མདུན་རིགས་ཀྱི་སྒྱུ་ཆ་དང་འབྲེལ་ན་རྒྱལ་ཁ་ཐོབ་པ་ཡིན།"
   },
   "board": {
     "current_board": "གྲོས་ཚོགས་: {board}"
@@ -26,7 +26,7 @@
   },
   "game_action": {
     "moved": "Player {player_id} ཕྱིན་{from} -> {to} འགྲོ་ཡོད།",
-    "captured_suffix": "Player {player_id} moved {from} -> {to} capturing an enemy."
+    "captured_suffix": "མི་གཉིས་ཀྱི་ཨང་རྟགས་ {player_id} སྤོ་བ་ {from} -> {to} ཕྱོགས་གཞན་གྱི་སྒྲོམ་ཚིག་གི་ཐིག་རིས་དེ་བཟུང་བ་ཡིན།"
   },
   "outcome": {
     "win": "སྦྲགས་ཐིག་ག་ར་ མཐུད་ལྡོག་འབད་ཡོདཔ་ཨིན།",

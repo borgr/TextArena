@@ -30,7 +30,7 @@
     "you_higher_won": "Tu hai mossu sa tua pezza da {source} a {dest}. Sa pezza attaccante fiat {attacking_rank} e sa pezza de destinu fiat {target_rank}. Comu s'attaccante est unu gradu superiori a su destinu, hai bintu sa battalla.",
     "opponent_higher_lost": "Giocatore {player_id} ha mossu una pezza da {source} a {dest}. Sa pezza attaccante fiat {attacking_rank} e sa pezza de destinu fiat {target_rank}. Comu s'attaccante est unu gradu superiori a su destinu, hai pèrdidu sa battalla.",
     "you_lower_lost": "Tu hai mossu sa tua pezza da {source} a {dest}. Sa pezza attaccante fiat {attacking_rank} e sa pezza de destinu fiat {target_rank}. Comu s'attaccante est unu gradu inferiori a su destinu, hai pèrdidu sa battalla.",
-    "opponent_lower_won": "Player {player_id} has moved a piece from {source} to {dest}. The attacking piece was {attacking_rank} and the destination piece was {target_rank}. As the attacker is a lower rank than the destination, you won the battle."
+    "opponent_lower_won": "Giogadore {player_id} at mòvidu unu pezzu dae {source} a {dest}. Su pezzu atacante fiat {attacking_rank} e su pezzu de destinatzione fiat {target_rank}. Comente s'atacante est unu gradu prus basciu de su pezzu de destinatzione, as binchidu sa batalia."
   },
   "outcome": {
     "flag_captured": "Su giogadore {player_id} at pigadu sa bandera de s'aversàriu!",

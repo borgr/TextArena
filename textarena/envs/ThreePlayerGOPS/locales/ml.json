@@ -14,7 +14,7 @@
     "{scores}": "The final scores as a raw player-number to score mapping - do not translate"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player GOPS.\n- You hold the 13 cards A-K (each exactly once).\n- Each round a prize is revealed. Submit ONE card like `[Q]`, `[10]`, `[2]` …\n- Highest card wins the prize (+ any carry-over pot). Ties roll the prize into the next round.\n- After 13 rounds, highest total wins. Invalid moves = elimination."
+    "intro": "നിങ്ങൾ മൂന്ന്-കളിക്കാരുടെ GOPS-ൽ കളിക്കാരൻ {player_id} ആണ്.\n- നിങ്ങൾ 13 കാർഡുകൾ A-K (ഓരോന്നും ഒരു തവണ) പിടിച്ചിരിക്കുന്നു.\n- ഓരോ റൗണ്ടിലും ഒരു സമ്മാനം വെളിപ്പെടുത്തുന്നു. ഒരു കാർഡ് സമർപ്പിക്കുക `[Q]`, `[10]`, `[2]` …\n- ഏറ്റവും ഉയർന്ന കാർഡ് സമ്മാനം (+ ഏതെങ്കിലും കാരി-ഓവർ പോട്ട്) നേടുന്നു. ടൈകൾ സമ്മാനം അടുത്ത റൗണ്ടിലേക്ക് ഉരുട്ടുന്നു.\n- 13 റൗണ്ടുകൾക്ക് ശേഷം, ഏറ്റവും ഉയർന്ന മൊത്തം വിജയിക്കുന്നു. അസാധുവായ നീക്കങ്ങൾ = ഒഴിവാക്കൽ."
   },
   "round": {
     "header": "### റൌണ്ട് {round}/13 - സമ്മാനം: {prize} (മൂല്യം {worth})",

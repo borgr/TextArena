@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({piece}). Opponent is ({opp}).\nSubmit moves as '[a2 a3]' (from → to).\n- A normal move is one forward step to an adjacent empty vertex.\n- A capture is a jump over an adjacent enemy piece landing on the empty node beyond.\nEach capture yields {score_per_capture} points.\nGame ends after {max_moves} moves or when a player has no legal move."
+    "intro": "Yaa ngone jàngoro {player_id} ({piece}). Kañ gi nekk ({opp}).\nBindal ci xarala yu mel ne '[a2 a3]' (ci → fo).\n- Xarala bu baax ci genn wàll bu woyof bu jege.\n- Nekkale mooy sawar ci genn wàll bu jege bu ñuul, bàyyi ko ci wàll wi ñuul bu jege.\nNekkale bu nekk dina yéene {score_per_capture} àdduna.\nXarala xotti na {max_moves} xarala walla bi jàngoro ju nekk xarala bu sell."
   },
   "board": {
     "current_board": "Move #{move_count}\n\n{board}"
@@ -13,7 +13,7 @@
     "illegal": "Jëf juy jaaduwul."
   },
   "game_action": {
-    "captured": "Player {player_id} captured a piece! (+{score_per_capture})"
+    "captured": "Jàngoro {player_id} jëfandoo na benn pièce! (+{score_per_capture})"
   },
   "outcome": {
     "no_pieces": "Jëfandikukat {player_id} amul ay xët.",

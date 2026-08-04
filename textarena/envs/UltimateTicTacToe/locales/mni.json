@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in **Ultimate Tic Tac Toe**.\nSubmit your move as **[macro  micro]** (two numbers 0-8):\n• *macro*  = which mini-board you play in\n• *micro* = which square inside that mini-board\nExample `[7 8]` ➜ place your mark in mini-board 7, square 8, and\nforce your opponent to play in mini-board 8 next.\n\nYou are `{symbol}`.\n"
+    "intro": "অমসুং **Ultimate Tic Tac Toe** গেমত নং অমা খেলোয়াড় {player_id} নি।\nঅমসুং অমসুং খেল করবা মত **[macro  micro]** (দুইগো সংখ্যা 0-8) লিখনবা:\n• *macro*  = কোন মিনি-বোর্ডত খেলবা করবা\n• *micro* = মিনি-বোর্ডত কোন স্কোয়ারত খেলবা\nউদাহরণ `[7 8]` ➜ মিনি-বোর্ড 7, স্কোয়ার 8ত অমসুং চিহ্ন রাখনবা, অমসুং প্রতিপক্ষক মিনি-বোর্ড 8ত খেলবা করবা।\n\nঅমসুং `{symbol}` নি।\n"
   },
   "board": {
     "current_board": "হৌজিক লৈরিবা বোর্দ: {board}"
@@ -18,7 +18,7 @@
     "specific": "মাইক্রো বোর্দ {nxt}"
   },
   "game_action": {
-    "played": "Player {player_id} played in micro board {macro_idx}, cell {micro_idx} (row {row}, col {col}). Player {opponent_id} must now play in {nxt_txt}."
+    "played": "খেলোয়াড় {player_id} মিনি-বোর্ড {macro_idx}, সেল {micro_idx} (রো {row}, কলাম {col})ত খেললে। খেলোয়াড় {opponent_id} এবাক {nxt_txt}ত খেলবা করবা।"
   },
   "outcome": {
     "win": "শান্নরোই {player_id}না অল্টিমেৎ টিক তেক তু!দা মায় পাকখি।",

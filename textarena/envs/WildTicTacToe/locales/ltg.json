@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in Wild Tic Tac Toe.\nOn your turn, you can place either an 'X' or an 'O' in an empty square.\nYou win by aligning three of the same mark (X or O) in a row.\nYou can win with either symbol.\nChoose your move using the format '[X 4]' to place X in the center.\n"
+    "intro": "Tū esi Spēlētājs {player_id} Vairākā Tic Tac Toe.\nSavā gājienā, tū vari novietot vai nu 'X', vai 'O' tukšā kvadrātā.\nTū uzvar, ja izvēlies trīs vienādus zīmējumus (X vai O) rindā.\nTū vari uzvarēt ar abi simboli.\nIzvēlies savu gājienu, izmantojot formātu '[X 4]', lai novietotu X centrā.\n"
   },
   "board": {
     "current_board": "Pašreizējā tabula:\n\n{board}\n\nPieejamie soļi: {moves}"

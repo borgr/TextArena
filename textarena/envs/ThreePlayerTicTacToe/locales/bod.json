@@ -19,7 +19,7 @@
   "invalid_move": {
     "wrong_format": "འདྲ་གཟུགས་སྤོ་རྒྱུ་དེ་མི་མཐུན་པ་རེད་འདུག ཁང་མིག་ནི་ 0-{max_cell}ཡིན་ན་ \"[cell]\" ལག་ལེན་འཐབ་དགོས།",
     "out_of_range": "མི་འཇགས་པའི་འཁོད་ས་གྲངས།: {cell}。 ༠ དང་{max_cell} བར་དག་ཡིན་དགོས",
-    "already_occupied": "Cell {cell} is already occupied.",
+    "already_occupied": "ལྡེ་མིག་ {cell} ནང་ད་སྔོན་ནས་བཀོད་ཟིན།",
     "made_invalid": "རྩེད་འགྲན་པ་ {player_id} གིས་བྱ་རིམ་སྐྱོན་ཅན་ཞིག་བཟོས་པ།"
   },
   "game_action": {

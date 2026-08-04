@@ -11,7 +11,7 @@
     "{ball_pos}": "The cup index the ball is under"
   },
   "player_prompt": {
-    "intro": "Track the hidden ball 'X' while the cups are shuffled.\nAfter shuffling, guess its location with `[k]`."
+    "intro": "Tevera bora rakavhizwa 'X' pamakomichi anopindukwa.\nMushure mokupinduka, taura kwaino iko nenhau `[k]`."
   },
   "game_message": {
     "ball_starts": "Bhora rinotanga: {line}",
@@ -21,11 +21,11 @@
     "reveal": "(Zvinoratidza: bhora riri pasi pe {ball_pos})"
   },
   "invalid_move": {
-    "wrong_format": "Bad action. Use `[k]`.",
+    "wrong_format": "Maitiro akaipa. Shandisa `[k]`.",
     "out_of_range": "Index kunze kwechikamu 0-{max_index}."
   },
   "outcome": {
     "win": "Chokwadi, wawana bhora.",
-    "lose": "Wrong — ball was under cup {ball_pos}."
+    "lose": "Akakanganisa — bora rakanga riri pasi pekomichi {ball_pos}."
   }
 }

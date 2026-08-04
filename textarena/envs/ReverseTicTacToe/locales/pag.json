@@ -1,13 +1,13 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a game of Reverse Tic Tac Toe. Your symbol is '{symbol}'.\nThe goal is to avoid getting three in a row (horizontally, vertically, or diagonally).\nIf you make three in a row, you LOSE.\nSubmit your move using the format '[4]' to place your symbol in cell 4.\nAs Player {player_id}, you are '{symbol}' and your opponent is '{opponent_symbol}'."
+    "intro": "Sika'y Managpapat {player_id} ed sakey a palaro na Reverse Tic Tac Toe. Say simbolo mo et '{symbol}'.\nSay layun et ag-ewa'y managka-tatlo ed sakey a linya (pahorisontal, patikal, o diagonal).\nNo managka-tatlo ka ed sakey a linya, TALO ka.\nIsumitey mo'y sakey a galaw ed format na '[4]' a pangiyapen mo'y simbolo mo ed selula 4.\nA bilang Managpapat {player_id}, sika'y '{symbol}' tan say kalaban mo et '{opponent_symbol}'."
   },
   "board": {
-    "current_board": "Sakupan na Board:\n\n{board}\n\nMga Available na Galaw: {moves}"
+    "current_board": "Kasalukuyan a Board:\n\n{board}\n\nMakapag-galaw: {moves}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid move format. Use '[cell]'.",
-    "invalid_cell": "Invalid cell index. Say sakey ya impormasyon et:",
+    "wrong_format": "Mali so pormat na galaw. Usaren yo so '[cell]'.",
+    "invalid_cell": "Mali a index na selula.",
     "already_occupied": "Say selula {cell} et wala la."
   },
   "game_action": {

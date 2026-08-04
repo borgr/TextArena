@@ -29,11 +29,11 @@
     "new_round": "\nДаври нав - Шансҳои боқимонда: {dice_summary}\nШансҳои кунунии Шумо: {your_dice}"
   },
   "call": {
-    "bidder_loses": "Player {current_player_id} calls! The actual count of face {face_value} is {count}, which is LESS than {quantity}.\nPlayer {loser_id} (the last bidder) loses one die.",
-    "caller_loses": "Player {current_player_id} calls! The actual count of face {face_value} is {count}, which is >= {quantity}.\nPlayer {loser_id} (the caller) loses one die."
+    "bidder_loses": "Бозигари {current_player_id} даъват мекунад! Шумораи воқеии рӯи зари {face_value} {count} аст, ки камтар аз {quantity} аст.\nБозигари {loser_id} (таклифкунандаи охирин) як зарро гум мекунад.",
+    "caller_loses": "Бозигари {current_player_id} даъват мекунад! Шумораи воқеии рӯи зари {face_value} {count} аст, ки >= {quantity} аст.\nБозигари {loser_id} (даъваткунанда) як зарро гум мекунад."
   },
   "action": {
-    "bid_announce": "Player {player_id} bids {quantity} of face {face_value}."
+    "bid_announce": "Бозигари {player_id} {quantity} зари рӯи {face_value} пешниҳод мекунад."
   },
   "invalid_move": {
     "call_no_bid": "Боздошти бе пешниҳоди пешакӣ.",

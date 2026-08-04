@@ -10,7 +10,7 @@
     "{to}": "The destination coordinate of a move, such as b3"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in game of LinesOfAction.\nYour pieces are '{side}', opponent pieces are '{other}'.\nMove format: `[b1b3]` (from-coord to-coord). A legal move travels horizontally, vertically, or diagonally a number of squares equal to the total pieces (any colour) in that line. You may jump over your own pieces, but not opponent pieces; landing on an opponent captures it.  Win when all your pieces are 8-neighbour connected."
+    "intro": "I n'ye Wariyòrò {player_id} ye LinesOfAction wari la.\nI ka kaw niw ye '{side}', sigidankè ka kaw niw ye '{other}'.\nWari format: `[b1b3]` (kònòw ka kèw ye - kònòw ka kèw ye). Wari-kèw ka kèw ye kònòw la, wari-kèw ka kèw ye kònòw la, walima kònòw ka kèw ye kònòw la, wari-kèw ka kèw ye kònòw la. I ka kaw niw ye sigidankè ka kaw niw ye kònòw la, nka sigidankè ka kaw niw ye kònòw la; kònòw la sigidankè ka kaw niw ye kònòw la.  I ka wari-kèw ye 8-kònòw ka kèw ye kònòw la, i ka wari bèèrè."
   },
   "board": {
     "current_board": "Jɛkulu: {board}"

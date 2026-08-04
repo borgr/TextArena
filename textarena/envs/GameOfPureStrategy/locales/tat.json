@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a match of GameOfPureStrategy.\n- You hold the 13 cards A-K; each can be used once.\n- Each round a prize card is revealed. Play exactly ONE card by writing something that contains a bracketed token like '[Q]', '[10]', '[2]' ...\n- Higher card wins the prize (plus carry-over). Ties roll prize into the pot for next round.\n- Highest total after 13 rounds wins."
+    "intro": "Сез GameOfPureStrategy уенының {player_id} уенчысы.\n- Сездә 13 карта бар, аларның һәрберсе бер тапкыр кулланыла ала.\n- Һәр раундта бүләк карта ачыла. Турында бер карта уйнагыз, '[Q]', '[10]', '[2]' кебек квадрат мәгълүматны эченә алган берәр нәрсә язганда.\n- Югарырак карта бүләкне ота (арттырып китә). Бердәйлекләр бүләкне киләсе раундка күчерә.\n- 13 раундтан соң иң югары гомуми җыем ота."
   },
   "round": {
     "announce": "### Раунд {round}/13 - Приз: {prize}  (кыйммәте {worth})"
@@ -14,7 +14,7 @@
   },
   "message": {
     "bids": "Бидләр: P0 {card0} vs P1 {card1} - ",
-    "p0_wins": "{observation}Player 0 wins {pot_value}.",
+    "p0_wins": "{observation}Уенчы 0 {pot_value} отты.",
     "p1_wins": "{observation}Уенчы 1 җиңә {pot_value}.",
     "tie": "{observation}Тигез -> хәзер чүлмәк. {carry_pot} .",
     "scores": "Баллар -> P0:{score0}  P1:{score1}"

@@ -21,7 +21,7 @@
     "{total}": "Each player's tied final total (a number)"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id}, playing {num_rounds} rounds of Iterated Ultimatum Game.\nYou have ${pool} to split this round between yourself and Player {other_id}.\n\nProposer:\n  - Make an offer: [Offer: $X] (0 <= X <= pool)\n  - If accepted → You get $(pool - X), other player gets $X\n  - If rejected → Both get $0\n  - Example: [Offer: $3]  or  'I think this is fair. [Offer: $5]'\n\nResponder:\n  - Decide on the offer with either [Accept] or [Reject]\n  - Example: 'That seems reasonable. [Accept]'\n            'Too unfair. [Reject]'\n"
+    "intro": "A nyi azɔnwá {player_id}, mi wàzɔ {num_rounds} kɛ gbèdègbèyɔyɔ ɖo Iterated Ultimatum Game.\nA nyi dɔ ${pool} wèzɔ gbɛ̀ gbèdègbèyɔyɔ ɖo ɖi kɛ mi wàzɔ ɖi kɛ Player {other_id}.\n\nGbɛ̀tɛ̀:\n  - Dɔ azɔ: [Offer: $X] (0 <= X <= pool)\n  - Nù wè azɔ gbɛ̀kɛ mi wàzɔ $(pool - X), Player kɛkɛ wàzɔ $X\n  - Nù wè azɔ gbɛ̀kɛ mi wàzɔ $0, Player kɛkɛ wàzɔ $0\n  - Alɛ̀: [Offer: $3]  kɛ  'Mɛ wɛ̀nyi gbɛ̀ ɖi. [Offer: $5]'\n\nGbɛ̀tɛ̀tɛ̀:\n  - Dɔ azɔ gbɛ̀ ɖi wɛ̀ [Accept] kɛ [Reject]\n  - Alɛ̀: 'Gbɛ̀ ɖi wɛ̀nyi gbɛ̀. [Accept]'\n            'Gbɛ̀ ɖi wɛ̀nyi gbɛ̀ gbɛ̀. [Reject]'\n"
   },
   "round": {
     "begins": "--- Alọgọ ṣin ṣọṣi {round_number} ko bẹ̀! ---\nAgba ṣinatọ̀n {proposer_id} wẹ proposer, Agba ṣinatọ̀n {responder_id} wẹ responder.",
@@ -33,11 +33,11 @@
     "no_offer_format": "Mɛ e na w'azɔ̌ ɔ ná é ɖó na zán nùjlɛ́n [Offer: $X] tɔn dó bló tuto.",
     "bad_integer": "akwɛ e è na sɔ́ dó xɔ ɔ ná é ɖó na nyí nùjlɛ̌n ɖagbe ɖé.",
     "out_of_range": "Akwɛ ɔ ɖo na nɔ tɛntin $0 kpo ${pool} kpo.",
-    "no_current_offer": "No current offer to respond to.",
+    "no_current_offer": "Gbɛ̀ azɔ gbɛ̀ ɖi kɛ wɛ̀.",
     "accept_or_reject": "Respondè do àlọ tọn dehe na tindo avase yi [Accept] kavi [Reject] dọ ema."
   },
   "outcome": {
     "win": "Agba ṣinatọ̀n he ye ji {winner} gba na gbẹ̀, pọsunu ${winner_total} wutu, bo ṣẹṣẹ sọn Agba ṣinatọ̀n he ye ji {loser} he mọ pọsunu ${loser_total}.",
-    "draw": "Ðèñóíîê! 2 ôóòáîëèñòà çàêîí÷èëè ñ ${total} â êîìàíäå."
+    "draw": "Gbɛ̀ gbɛ̀! Player kpɛkpɛ wèzɔ ${total} gbɛ̀ gbɛ̀."
   }
 }

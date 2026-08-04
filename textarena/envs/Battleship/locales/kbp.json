@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id}. You are playing the Battleship game.\nYour goal is to sink all of your opponent's ships before they sink yours.\nOn your turn, you can fire missiles at specific coordinates in teh following format: '[a4]'. If the missile hits a ship, it is marked with 'X'. If it misses, it is marked with 'O'. In either scenarios, the game environment will inform you of your hits. If you have sunk a boat, the game environment will tell you!\nThe game ends when all of one player's ships have been sunk.\nYour initial board will show all of your ships placed and your opponent's hits on you, and your hits and misses on your opponent's board without showing your opponent's ships.\nHere is the initial board:\n"
+    "intro": "Aweyi Player {player_id}. Aweyi ame Battleship.\nTɔm sɔm mɛyɛlɛ wɛyɛ pɛɛlɛyɛlɛyɛ nɛyɛ pɛɛlɛyɛlɛyɛ nɛyɛ wɛyɛ pɛɛlɛyɛlɛyɛ nɛyɛ pɛɛlɛyɛlɛyɛ.\nKɛyɛlɛyɛ wɛyɛ pɛɛlɛyɛlɛyɛ, a pɛɛlɛyɛlɛyɛ taa missiles le tɛɛlɛyɛ kɔɔrɔɔdɔɔnɛyɛ tɛɛlɛyɛ fɔɔrɔɔmɛyɛ: '[a4]'. A missile taa pɛɛlɛyɛlɛyɛ, a wɛyɛ 'X'. A taa pɛɛlɛyɛlɛyɛ, a wɛyɛ 'O'. Kɛyɛlɛyɛ wɛyɛ pɛɛlɛyɛlɛyɛ, pɛɛlɛyɛlɛyɛ ame wɛyɛ pɛɛlɛyɛlɛyɛ!\nPɛɛlɛyɛlɛyɛ tɔm sɔm mɛyɛlɛ wɛyɛ pɛɛlɛyɛlɛyɛ nɛyɛ wɛyɛ pɛɛlɛyɛlɛyɛ nɛyɛ pɛɛlɛyɛlɛyɛ.\nAweyi pɛɛlɛyɛlɛyɛ taa pɛɛlɛyɛlɛyɛ:\n"
   },
   "invalid_move": {
     "wrong_format": "Ɛyʊ ɛnʊ ɛtatɩŋna nɛ ɛma tɔmpiye nɖɩ ɖɩ-taa ɛwɛ camɩyɛ yɔ.",
@@ -8,12 +8,12 @@
     "already_fired": "Pʊtɔbʊʊ se {coord} ñamaɣzaɣna nɛ pana."
   },
   "game_action": {
-    "you_sunk": "Sunk! You sunk a ship at {coord}! Your updated board:\n{view}",
-    "opp_sunk": "Opponent sunk your ship at {coord}! Your updated board:\n{view}",
+    "you_sunk": "Pɛɛlɛyɛlɛyɛ! Aweyi pɛɛlɛyɛlɛyɛ taa pɛɛlɛyɛlɛyɛ kɔɔrɔɔdɔɔnɛyɛ {coord}! Aweyi pɛɛlɛyɛlɛyɛ taa pɛɛlɛyɛlɛyɛ:\n{view}",
+    "opp_sunk": "Pɛɛlɛyɛlɛyɛ taa pɛɛlɛyɛlɛyɛ aweyi pɛɛlɛyɛlɛyɛ kɔɔrɔɔdɔɔnɛyɛ {coord}! Aweyi pɛɛlɛyɛlɛyɛ taa pɛɛlɛyɛlɛyɛ:\n{view}",
     "you_hit": "Tii! Aŋɛ tii ŋkʊʊ ŋɛ ŋɔnɔnaa ŋɛ {coord}! Piŋŋ naaŋ kɛɛkɛɛ ñɔŋ ŋɛ:\n{view}",
-    "opp_hit": "Opponent hit your ship at {coord}! Your updated board:\n{view}",
-    "you_miss": "Miss! You missed the ship at {coord}! Your updated board:\n{view}",
-    "opp_miss": "Opponent missed your ship at {coord}! Your updated board:\n{view}"
+    "opp_hit": "Pɛɛlɛyɛlɛyɛ taa aweyi pɛɛlɛyɛlɛyɛ kɔɔrɔɔdɔɔnɛyɛ {coord}! Aweyi pɛɛlɛyɛlɛyɛ taa pɛɛlɛyɛlɛyɛ:\n{view}",
+    "you_miss": "Kɔyɛ! Awɛyɛ pɛpɛɛ ɛ {coord}! Tɛbili laɣim ɛwɛ:\n{view}",
+    "opp_miss": "Ɔsɔɣa awɛyɛ pɛpɛɛ ɛ {coord}! Tɛbili laɣim ɛwɛ:\n{view}"
   },
   "outcome": {
     "win": "Aleɣya {player_id} n̄ɩnʋʋ taa lɛ, ɛpɩzɩ nɛ ehuuzi po-koyindinaa mɛlɛnaa tɩŋa yɔɔ."

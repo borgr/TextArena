@@ -24,8 +24,8 @@
     "intro": "Golf (Karta Pukllay) pukllanayki - Pukara {player_id}.\nWakichikay: Aswan p'unchayuq puntuashunyata q'awaspa, huk ruwaypi.\nIcha k'uska ukhupiqa, p'asñakunaqa 0-man sumakunku.\nKarta Q'ellanakuna: A=1, 2-10=ukhupi, J/Q=10, K=0\n\nRuwachinkuna (k'usqa ruwachinayki):\n- '[draw]' - Q'awaspa k'uska p'akasqamanta\n- '[take]' - Q'usqo p'akasqamanta\n- '[swap X Y]' - Q'awasqa k'usqa X (p'asña) Y (k'uska)wan rantikuspa\n- '[discard]' - Q'awachkay k'usqa"
   },
   "board": {
-    "drew": "You drew: {card}\nNow you must [swap X Y] or [discard] it.",
-    "took": "You took: {card} from discard pile\nYou must [swap X Y] with it (cannot discard).",
+    "drew": "Qam hurquykanki: {card}\nKunan qam [swap X Y] icha [discard] wakichiy atinki.",
+    "took": "Qam hurquykanki: {card} q'umiraya ukhumanta\nQam [swap X Y] wakichiy atinki (mana q'umirayman wakichiy atiykichu).",
     "peeked": "Q'awasqa allin p'asñanmanta ({row}, {col}): {card}",
     "turn_view": "Kamaykuna:\n{hand}\nQ'awachkay wasi: {discard}\n{options}",
     "none": "Mana kanchu."
@@ -42,32 +42,32 @@
     "row": "P'asña {n}: {cards}"
   },
   "action_desc": {
-    "swapped": "Player {pid} swapped {new} with {old} at position ({row},{col})",
-    "discarded": "Player {pid} discarded {card}"
+    "swapped": "Pukllaq {pid} wakichirqan {new} {old} siqi ({row},{col}) ukhupi",
+    "discarded": "Pukllaq {pid} q'umirayman wakichirqan {card}"
   },
   "message": {
     "deck_empty": "Q'uñi qhatunqa, pukllaykuna tukukun.",
-    "knocked": "Player {pid} knocked! Each other player gets one more turn.",
+    "knocked": "Pukllaq {pid} wakichirqan! Wakinqa pukllaqkunaqa huk pukllay atiykun.",
     "final_round": "Pukara {pid} {reason}! Wakin pukarakuna huk ñawpa ruwayta atinku"
   },
   "reason": {
     "all_revealed": "tukuy cartakunata rikuchinchu."
   },
   "invalid": {
-    "wrong_action": "Use exactly ONE bracketed action: [draw], [take], [swap X Y], [discard], [knock], or [peek X Y]",
+    "wrong_action": "Huklla q'umir qillqata wakichi: [draw], [take], [swap X Y], [discard], [knock], icha [peek X Y]",
     "discard_empty": "¡Manan imapis kanchu!",
-    "must_draw_first": "You must first [draw], [take], [knock], or [peek X Y]",
+    "must_draw_first": "Q'umirlla [draw], [take], [knock], icha [peek X Y] ruway",
     "cannot_discard_taken": "Mana atiwaqchu, mana allin tarjetataqa cambianayki tiyan.",
-    "have_drawn_card": "You have a drawn card. You must [swap X Y] or [discard] it.",
+    "have_drawn_card": "Qam hurqusqa karta qillqayuqmi. Qam [swap X Y] icha [discard] wakichiy atinki.",
     "need_drawn_swap": "Chaypaqqa cartata churaykunan tiyan.",
-    "need_drawn_discard": "You need a drawn card to discard.",
+    "need_drawn_discard": "Qam hurqusqa karta qillqata q'umirayman wakichiy atinki.",
     "out_of_bounds": "Allin p'asña mana lluqsiyachkachu. P'asña 1-{max_row}, k'uska 1-{max_col}",
     "knock_with_card": "Mana atiwaqchu, mana tarisqayki cartata churaspa.",
     "already_knocked": "Wakinqa chaymantaña atipanku.",
     "already_revealed": "Chay cartataqa, ña rikuchishanña."
   },
   "summary": {
-    "full": "Game Over! Player {winner} wins with a score of {score} points!\n\nFinal Scores:\n{scores}",
+    "full": "Pukllay tukukun! Pukllaq {winner} atirqan {score} yupaykunawan!\n\nTukukuypi yupaykuna:\n{scores}",
     "line": "Pukara {pid}: {score} puntu"
   },
   "board_str": {

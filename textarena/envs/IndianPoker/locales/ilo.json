@@ -23,14 +23,14 @@
     "possible_actions": "Dagiti mabalin nga aramidem: {legal}"
   },
   "message": {
-    "round_result": "{reason}  Pot {pot} → Player {winner}. (Bankrolls P0:{p0}, P1:{p1})",
+    "round_result": "{reason}  Pot {pot} → Agpapel {winner}. (Saldo ti Bank P0:{p0}, P1:{p1})",
     "folded": "Naikkat ti player {player_id}.",
     "showdown_win": "Showdown: {card_win} ket maabak ti {card_lose}.",
     "showdown_tie": "Ti panagiparang ket agpada nga {card}. Naibingay ti banga iti tunggal maysa a mangawat iti {split}."
   },
   "outcome": {
-    "p0_wins": "Player 0 wins ({bank0} > {bank1})",
-    "p1_wins": "Player 1 wins ({bank1} > {bank0})",
+    "p0_wins": "Player 0 nangabak ({bank0} > {bank1})",
+    "p1_wins": "Player 1 nangabak ({bank1} > {bank0})",
     "draw": "Agpapada a tsips kalpasan ti amin nga aglawlaw"
   }
 }

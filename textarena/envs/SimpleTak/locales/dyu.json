@@ -8,13 +8,13 @@
     "cell_already_occupied": "Sɛli {cell_num} ye sɔrɔ ka ban. I sɛlili dɔ sugandi k'a kɛ lakolon ye."
   },
   "board": {
-    "current_state": "Current Board:\n\n{rendered_board}\nAvailable Moves: {available_moves}"
+    "current_state": "Bɔnɔ kɔnɔɲɛnɛ:\n\n{rendered_board}\nTɛmɛɲɛmɛ kɔnɔw: {available_moves}"
   },
   "action": {
     "placement": "Jokelani {current_player_id} daa o laama so ({symbol}) kɔnɔ {cell_num}."
   },
   "outcome": {
-    "winner": "Player {current_player_id} ('{symbol}') connected two opposite edges!",
+    "winner": "Jɔgɔ {current_player_id} ('{symbol}') da cɛma kaɲɔgɔn de bɛɛ la!",
     "draw": "A laban ye bɛnbaliya lo ye!"
   }
 }

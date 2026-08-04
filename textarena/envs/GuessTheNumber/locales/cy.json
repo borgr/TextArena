@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id}. You are playing Guess The Number.\nYou have to guess the number between {min_number} and {max_number} within {max_turns} turns.\nAs you enter your guess, the game will provide you with hints such as 'higher' or 'lower'.\nYou may provide your response in any manner. Only the number that is wrapped in square brackets will be considered as your guess. For example, [5].\nAs you play, the history of your guesses will be appended below. Use the information to complete the game before you run out of guesses.\nEnter your guess."
+    "intro": "Rydych chi'n Chwaraewr {player_id}. Rydych chi'n chwarae Guess The Number.\nMae'n rhaid i chi ddyfalu'r rhif rhwng {min_number} a {max_number} o fewn {max_turns} tro.\nWrth i chi roi eich dyfalu, bydd y gêm yn rhoi gwybodaeth i chi megis 'uwch' neu 'is'.\nGallwch roi eich ymateb mewn unrhyw fodd. Dim ond y rhif sydd wedi'i lapio mewn cromfachau sgwâr a fydd yn cael ei ystyried fel eich dyfalu. Er enghraifft, [5].\nWrth i chi chwarae, bydd hanes eich dyfaluon yn cael ei ychwanegu isod. Defnyddiwch y wybodaeth i gwblhau'r gêm cyn i chi redeg allan o dyfaluon.\nRhowch eich dyfalu."
   },
   "invalid_move": {
     "wrong_format": "Fformat symudiad anghywir. Nid yw chwaraewr {player_id} wedi ymateb gyda '[number]' dilys.",

@@ -16,7 +16,7 @@
   },
   "game_action": {
     "skipped": "Бозингар {pid} бояд навбати худро гузарад.",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "Бозигари {pid} ({piece}) ҳаракати [{r}, {c}] кард ва {flipped} қисм(ҳо)-ро иваз кард"
   },
   "game_message": {
     "must_skip": "Бозигар {pid} ({piece}) ҳаракати ҷоизе надорад ва бояд гузаронад."

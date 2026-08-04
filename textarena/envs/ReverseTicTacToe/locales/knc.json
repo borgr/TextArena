@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a game of Reverse Tic Tac Toe. Your symbol is '{symbol}'.\nThe goal is to avoid getting three in a row (horizontally, vertically, or diagonally).\nIf you make three in a row, you LOSE.\nSubmit your move using the format '[4]' to place your symbol in cell 4.\nAs Player {player_id}, you are '{symbol}' and your opponent is '{opponent_symbol}'."
+    "intro": "Káma káma {player_id} a kanuri Reverse Tic Tac Toe. Ásá káma '{symbol}'.\nManzár káma káma ásá káma kútu kóló (kóló, kóló, kóló) kóló.\nKáma káma kóló kóló, káma káma LOSE.\nKáma káma káma kóló kóló '[4]' kóló káma káma kóló 4.\nKáma káma {player_id}, káma káma '{symbol}' kóló káma káma '{opponent_symbol}'."
   },
   "board": {
     "current_board": "Borti Kadi:\n\n{board}\n\nKadi Kwatirika: {moves}"

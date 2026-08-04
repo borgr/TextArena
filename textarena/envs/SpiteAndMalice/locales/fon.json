@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a two-player game of Spite and Malice. Your goal is to be the first to empty your payoff pile.\n\n### Game Overview:\n- The objective is to clear your payoff pile by playing cards to the center piles.\n- You can play cards from three sources:\n  1. Your **hand** (you start each turn with up to 5 cards in hand).\n  2. The **top card of your payoff pile**.\n  3. The **top card of any of your discard piles**.\n\n### Playing Rules:\n- You may play a card to a center pile if it is **one rank higher** than the top card on that pile (center piles start with Ace and go up to Queen; Kings are wild - they can be played on any card but do not change the rank sequence. This means if a King is used after 4, then that King is ranked 5 and the next card must be a 6).\n- If you can't play any more cards, you must **discard a card** to one of your discard piles to end your turn.\n- If a center pile reaches Queen, it will be cleared automatically.\n- The rank order is: A=1, 2=2, ..., 9=9, J=10, Q=11, K as wild.\n\n### Actions:\n1. **Draw**: At the start of your turn, draw cards to fill your hand up to 5 cards. Enter **[draw]** to begin.\n2. **Play a Card**: To play a card, specify the card and the center pile like this: **[play A♠ 0]** (where 'A♠' is the card and '0' is the center pile index).\n3. **Discard**: If you can't play any more cards, discard a card from your hand to a discard pile to end your turn. Enter **[discard A♠ 1]** (where 'A♠' is the card and '1' is the discard pile index). Note that you cannot discard any card from the payoff pile. You may only discard the cards from your hand.\n\n"
+    "intro": "A nyi Player {player_id} to gbɛtɔ ɖeka ɖo Spite and Malice tɔn. A nyi ɖɛɖɛɖɛ wu gbɛtɔɔ ɖo a nyi payoff pile ɖa.\n\n### Nu Ɖoɖo Ɖo:\n- A nyi ɖɛɖɛɖɛ wu gbɛtɔɔ ɖo a nyi payoff pile ɖa gbɔn na ɖaɖi ɖo center piles ɖɔ.\n- A nyi le gbɛtɔ ɖeka ɖo e ɖo:\n  1. A nyi **alɔ** (a nyi ɖɔ kpɔɖeɖe ɖo e ɖo gbɛtɔ 5 ɖo alɔ ɖɔ).\n  2. A nyi **payoff pile ɖo e ɖo**.\n  3. A nyi **discard piles ɖo e ɖo**.\n\n### Nu Ɖoɖo Ɖo:\n- A nyi le gbɛtɔ ɖeka ɖo center pile ɖɔ eyi **ɖɔɖɔ ɖɔɖɔ** wu a nyi top card ɖɔ ɖɔ pile ɖɔ (center piles ɖɔ gbɔn na Ace ɖɔ Queen; Kings ɖɔ wild - a nyi le gbɛtɔ ɖeka ɖo e ɖo gbɔn na ɖaɖi ɖo, gbe a nyi ɖɔɖɔ ɖɔɖɔ wu ɖaɖi ɖo).\n- A nyi ɖɛɖɛɖɛ wu gbɛtɔɔ ɖo a nyi discard pile ɖɔ eyi a nyi ɖɔɖɔ ɖɔɖɔ wu gbɛtɔɔ ɖo.\n- A nyi center pile ɖɔ wu Queen, a nyi ɖɔɖɔ ɖɔɖɔ wu gbɛtɔɔ ɖo.\n- A nyi ɖɔɖɔ ɖɔɖɔ wu: A=1, 2=2, ..., 9=9, J=10, Q=11, K as wild.\n\n### Nu Ɖoɖo Ɖo:\n1. **Gbɛtɔ**: A nyi ɖɔ kpɔɖeɖe ɖo e ɖo gbɛtɔ 5 ɖo alɔ ɖɔ, gbɛtɔ [draw] ɖɔ.\n2. **Gbɛtɔ ɖeka**: A nyi gbɛtɔ ɖeka ɖo, kpɔɖeɖe ɖo e ɖo gbɛtɔ ɖɔ ɖɔ center pile ɖɔ, gbɛtɔ **[play A♠ 0]** (gbɛtɔ 'A♠' ɖɔ gbɛtɔ ɖɔ ɖɔ '0' ɖɔ center pile ɖɔ).\n3. **Discard**: A nyi ɖɛɖɛɖɛ wu gbɛtɔɔ ɖo a nyi discard pile ɖɔ, gbɛtɔ **[discard A♠ 1]** (gbɛtɔ 'A♠' ɖɔ gbɛtɔ ɖɔ ɖɔ '1' ɖɔ discard pile ɖɔ). A nyi ɖɔ kpɔɖeɖe ɖo e ɖo gbɛtɔ ɖɔ ɖɔ payoff pile ɖɔ.\n\n"
   },
   "board": {
     "current_board": "Tablo Hounkpa:\n\n{board}\nAzon si dèhouè: {moves}"
@@ -8,7 +8,7 @@
   "render": {
     "center_piles_header": "--- Akɔ́nkpá ɔ́ sín ayi mɛ̀ lɛ́ɛ -- ",
     "pile": "{observation}Pòtè {i}: {pile}\n",
-    "player_view_header": "{observation}\n--- Vue Jwe {player_id} ---\n",
+    "player_view_header": "{observation}\n--- Kɔ̀n {player_id} wɛ̀ mɛ̀ ---\n",
     "payoff": "{observation}Pòtè Peman (Kat Anwo): {top_card}, Longè Pòtè Peman: {payoff_length}\n",
     "hand": "{observation}Azɔ: {hand} ",
     "discard": "{observation}Pòtè Déchèt: {discard}\n",
@@ -18,24 +18,24 @@
     "no_cards_left": "É sɔ́ ɖò wema ɖé lɛ mɛ ǎ. Mi flín ɖɔ mi hɛn ɔ, mi na zé nǔ elɔ lɛ dó ayihun nú miɖée: 1. alɔ mitɔn 2. Akpá e ɖo tají é 3. Akpá è nɔ ɖu sín akpà jí tɔn 4. Kpa e nɔ te jɛ nukɔn nú bǐ é 5."
   },
   "invalid_move": {
-    "wrong_format": "Invalid move format. Player {player_id} did not respond with a valid move in square brackets.",
-    "invalid_play": "Invalid play. Player {player_id} tried to play {card} on center pile {index}.",
-    "discard_from_payoff": "Invalid discard. Player {player_id} tried to discard a card from the payoff pile.",
+    "wrong_format": "Gbɛtɔɔ ɖɔ wu gbɛtɔɔ ɖo. Player {player_id} ɖɔ kpɔɖeɖe ɖo e ɖo gbɛtɔ ɖo square brackets ɖɔ.",
+    "invalid_play": "Gbɛtɔɔ ɖɔ wu gbɛtɔɔ ɖo. Player {player_id} ɖɔ gbɛtɔ ɖeka ɖo {card} ɖɔ center pile {index}.",
+    "discard_from_payoff": "Gbɛtɔɔ ɖɔ wu gbɛtɔɔ ɖo. Player {player_id} ɖɔ discard ɖeka ɖo payoff pile ɖɔ.",
     "discard_not_in_hand": "Ðåæèññåð {player_id} tɛnkpɔn bo ɖè kpò e ɖò alɔ tɔn mɛ ǎ é.",
-    "wrong_move_type": "Ðåæèññåð {player_id} íå âîçâðàùàëñÿ ñ ïðàâèëüíîé ðàñïðîñòðàíåííîñòüþ."
+    "wrong_move_type": "Gbɛtɔɔ ɖɔ wu gbɛtɔɔ ɖo. Player {player_id} ɖɔ kpɔɖeɖe ɖo e ɖo gbɛtɔ ɖo gbɛtɔ ɖo."
   },
   "game_action": {
     "you_drew": "A ɖè lɛta.",
     "opponent_drew": "{player_id} ɔ ɖè lɛ́ɛ.",
-    "you_played": "Ou jwe {card} sou pòtè sant {index}.",
-    "opponent_played": "Jwe {player_id} jwe {card} sou pòtè sant {index}.",
-    "you_discarded": "Ou dé pòtè {card} nan pòtè déchèt {index}, sa vle di ke ou fini tou nan yon tou. Pa gen okenn lòt aksyon ou ki pral konsidere pou tou sa a. Jwe {next_player_id} pral vin apre.",
-    "opponent_discarded": "Jwe {player_id} dé pòtè {card} nan pòtè déchèt {index}, sa vle di ke yo fini tou nan yon tou. Pa gen okenn lòt aksyon Jwe {player_id} ki pral konsidere pou tou sa a. Jwe {next_player_id}, ou pral vin apre. Tanpri, antre aksyon ou nan fòmat [action card center_index]."
+    "you_played": "A nyi gbɛtɔ ɖeka ɖo {card} ɖɔ center pile {index}.",
+    "opponent_played": "Player {player_id} gbɛtɔ ɖeka ɖo {card} ɖɔ center pile {index}.",
+    "you_discarded": "A nyi discard ɖeka ɖo {card} ɖɔ discard pile {index}, eyi a nyi ɖɔ kpɔɖeɖe ɖo e ɖo gbɛtɔ ɖo. A nyi ɖɔ kpɔɖeɖe ɖo e ɖo gbɛtɔ ɖo Player {next_player_id}.",
+    "opponent_discarded": "Player {player_id} discarded {card} to discard pile {index}, which also means they finished their turn. No further actions of Player {player_id} is considered for this turn. Player {next_player_id}, you will go next. Please enter your action in the format [action card center_index]."
   },
   "outcome": {
-    "payoff_cleared": "Jwe {current_player} fini pòtè peman li! Jwe {current_player} genyen!",
-    "deadlock_player_0": "Bloke rejwi! Jwe 0 genyen ak {player_0_payoff} kat pou koze kont {player_1_payoff} kat Jwe 1.",
-    "deadlock_player_1": "Bloke rejwi! Jwe 1 genyen ak {player_1_payoff} kat pou koze kont {player_0_payoff} kat Jwe 0.",
-    "deadlock_tie": "Bloke rejwi ak egalite! De jwe yo gen {player_0_payoff} kat pou koze. Jwe {current_player} genyen pa defo."
+    "payoff_cleared": "Akpɛvi {current_player} ko xó xwé payoff pile etọn! Akpɛvi {current_player} wẹ azọ́n!",
+    "deadlock_player_0": "Gbɛtɔɔ ɖɔ wu gbɛtɔɔ ɖo! Player 0 wu {player_0_payoff} gbɛtɔ ɖo vs Player 1 ɖɔ {player_1_payoff} gbɛtɔ.",
+    "deadlock_player_1": "Gbɛtɔɔ ɖɔ wu gbɛtɔɔ ɖo! Player 1 wu {player_1_payoff} gbɛtɔ ɖo vs Player 0 ɖɔ {player_0_payoff} gbɛtɔ.",
+    "deadlock_tie": "Gbɛtɔɔ ɖɔ wu gbɛtɔɔ ɖo tie! A nyi player ɖɔ {player_0_payoff} gbɛtɔ ɖo. Player {current_player} wu gbɛtɔɔ ɖo."
   }
 }

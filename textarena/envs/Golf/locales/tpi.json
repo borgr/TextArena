@@ -56,9 +56,9 @@
   "invalid": {
     "wrong_action": "Usim wanpela aktibiti bilong breket: [draw], [take], [swap X Y], [discard], [knock], o [peek X Y]",
     "discard_empty": "Ol samting bilong rausim i no stap!",
-    "must_draw_first": "You must first [draw], [take], [knock], or [peek X Y]",
+    "must_draw_first": "Yu mas [draw], [take], [knock], o [peek X Y] pastaim",
     "cannot_discard_taken": "Yu no ken rausim wanpela kat em yu bin kisim long hap bilong ol narapela, nogat.",
-    "have_drawn_card": "You have a drawn card. You must [swap X Y] or [discard] it.",
+    "have_drawn_card": "Yu gat drawn kadi. Yu mas [swap X Y] o [discard] em.",
     "need_drawn_swap": "Yu mas kisim wanpela kat bilong senisim.",
     "need_drawn_discard": "Yu mas i gat wanpela samting bilong yu yet long mekim.",
     "out_of_bounds": "Posisen i go longwe. Usim row 1-{max_row}, kolom 1-{max_col}",

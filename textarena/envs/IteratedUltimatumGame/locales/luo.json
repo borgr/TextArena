@@ -34,7 +34,7 @@
     "bad_integer": "Pesa michulo nyaka bed kwan makare.",
     "out_of_range": "Chiwo nyaka bed e kind $0 kod ${pool}.",
     "no_current_offer": "Onge ng'ama nyalo nyisi gima onego itim.",
-    "accept_or_reject": "Responder must either [Accept] or [Reject] the offer."
+    "accept_or_reject": "Mchezaji anayejibu lazima atumie ama [Accept] au [Reject] kwa pendekezo."
   },
   "outcome": {
     "win": "Mchezaji {winner} alishinda na ${winner_total} jumla dhidi ya Mchezaji {loser}'s ${loser_total}.",

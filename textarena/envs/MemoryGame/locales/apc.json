@@ -13,8 +13,8 @@
     "already_matched": "خطوة مش صالحة. لاعب {player_id} اختار بطاقة أو كلتين من البطاقات اللي اتصلا مسبقاً ."
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "البطاقات التي اختارها اللاعب {player_id} في المواقع [{r1} {c1}] و [{r2} {c2}] تتطابق!",
+    "cards_no_match": "البطاقات التي اختارها اللاعب {player_id} لا تتطابق. البطاقات في المواقع [{r1} {c1}] و [{r2} {c2}] هي {pos1} و {pos2} على التوالي."
   },
   "outcome": {
     "draw": "كلا اللاعبين عديو نفس عدد من أزواج البطاقات.",

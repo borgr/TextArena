@@ -4,7 +4,7 @@
   },
   "invalid_move": {
     "receiving_with_no_resource": "ၽူႈလဵၼ်ႈၼၼ်ႉ ၶတ်းၸႂ်ႁပ်ႉဢဝ် လွင်ႈလႅၵ်ႈလၢႆႈဢၼ်ဢမ်ႇမီး ငိုၼ်းၵွင်ၵၢင် ဢၼ်လူဝ်ႇၼၼ်ႉယဝ်ႉ။",
-    "out_of_range": "Player {player_id}, Invalid action. Column {col} is out of bounds.",
+    "out_of_range": "ၵူၼ်းလဵၼ်ႈ {player_id}၊ ၵၢၼ်ႁဵတ်းၼႆႉ ဢမ်ႇသၢင်ႇထုၵ်ႇ။ ၶဵၼ်ႇ {col} ဢမ်ႇမီးၼႂ်းၸႃႇၵၢၼ်ႁဵတ်း။",
     "already_full": "ၽၵ်းၸုမ်း {player_id}, လၢမ်းလႅၼ်ႇ ဢမ်ႇၸိုဝ်ႈၸႂ်ႈ။ Column {col} တိုၵ်ႉလႆႈၶဝ်ႈယဝ်ႉ။",
     "proposing_with_no_resource": "ၽူႈလဵၼ်ႈ {player_id} ၶတ်းၸႂ်တႃႇတေႁဵတ်း လွင်ႈၶၢႆဢၼ်ဢမ်ႇမီး ငိုၼ်းတွင်းတၢင်းလူဝ်ႇ။",
     "incorrect_offer_format": "ၽူႈလဵၼ်ႈ {player_id} ႁဵတ်းဝႆႉ လွင်ႈပၼ်တၢင်းၶႆႈၸ်ႂလွင်ႈလႅၵ်ႈလၢႆႈဢၼ်ဢမ်ႇထုၵ်ႇမႅၼ်ႈ တီႈၼ်ႂးပိူင်ႁၢင်ႊၼၼ်ႉယဝ်ႉ။",

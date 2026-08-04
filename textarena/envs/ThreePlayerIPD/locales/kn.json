@@ -4,7 +4,7 @@
   },
   "round": {
     "start": "─── ಆರಂಭಿಕ ಸುತ್ತು {round} ─── ಮುಂದಿನ {conv_rounds} ಸುತ್ತುಗಳಲ್ಲಿ ನೀವು ಮುಕ್ತವಾಗಿ ಸಂವಹನ ಮಾಡಬಹುದು.",
-    "chat_finished": "Chat finished for round {round}. Submit your decisions, one token per opponent: `[pid cooperate]` or `[pid defect]`."
+    "chat_finished": "ಸುತ್ತು {round} ಕ್ಕೆ ಚಾಟ್ ಮುಗಿದಿದೆ. ನಿಮ್ಮ ನಿರ್ಧಾರಗಳನ್ನು ಸಲ್ಲಿಸಿ, ಪ್ರತಿ ಎದುರಾಳಿಗೆ ಒಂದು ಟೋಕನ್: `[pid cooperate]` ಅಥವಾ `[pid defect]`."
   },
   "results": {
     "header": "### ಸುತ್ತು {round} - ಫಲಿತಾಂಶಗಳು:",

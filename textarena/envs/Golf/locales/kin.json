@@ -21,13 +21,13 @@
     "{scores}": "The pre-rendered per-player list of final scores"
   },
   "player_prompt": {
-    "intro": "You are playing Golf (Card Game) - Player {player_id}.\nGoal: Get the lowest total score in this single round. If columns share the same value, they are summed as 0.\nCard Values: A=1, 2-10=face value, J/Q=10, K=0\n\nActions (use exact brackets):\n- '[draw]' - Draw from deck\n- '[take]' - Take from discard pile\n- '[swap X Y]' - Swap drawn card with position X (row) Y (column)\n- '[discard]' - Discard the drawn card\n"
+    "intro": "Uri kuzakina Golf (Umukino wa Karata) - Umukinnyi {player_id}.\nIntego: Fata umwanya wa chini kabisa muri iri raundi imwe. Ikiwa safu zina agaciro kamwe, zisomwe nka 0.\nAgaciro ka Karata: A=1, 2-10=agaciro k'umuso, J/Q=10, K=0\n\nIbikorwa (koresha ibyapa by'ukwiri):\n- '[draw]' - Kora karata kuva muri paketi\n- '[take]' - Fata karata kuva muri kivungu\n- '[swap X Y]' - Hambanya karata yatoranyijwe na ahantu X (umurongo) Y (umurambi)\n- '[discard]' - Tega karata yatoranyijwe\n"
   },
   "board": {
     "drew": "Wavuyeho: {card}\nBo wavuyeho [swap X Y] cyangwa [discard]",
     "took": "Wavuyeho: {card} ku rutonde rw'avuyeho\nWavuyeho [swap X Y] nayo (ntavuyeho)",
     "peeked": "Wavuyeho ku ntera ({row},{col}): {card}",
-    "turn_view": "Your hand:\n{hand}\nDiscard pile: {discard}\n{options}",
+    "turn_view": "Mkono wako:\n{hand}\nKundi la kutupa: {discard}\n{options}",
     "none": "Nta na kimwe kirimo."
   },
   "options": {
@@ -43,7 +43,7 @@
   },
   "action_desc": {
     "swapped": "Umukinozi {pid} yabeshye {new} na {old} ku ntera ({row},{col})",
-    "discarded": "Player {pid} discarded {card}"
+    "discarded": "Mchezaji {pid} alitupa {card}"
   },
   "message": {
     "deck_empty": "Umukino urarangiye.",
@@ -54,7 +54,7 @@
     "all_revealed": "ese amakarita yose yabonetse?"
   },
   "invalid": {
-    "wrong_action": "Use exactly ONE bracketed action: [draw], [take], [swap X Y], [discard], [knock], or [peek X Y]",
+    "wrong_action": "Koresha ibyapa by'ukwiri kimwe: [draw], [take], [swap X Y], [discard], [knock], cyangwa [peek X Y]",
     "discard_empty": "Ibikoresho byo mu nzu by'ibishingwe nta kintu birimo!",
     "must_draw_first": "Wavuyeho mbere [draw], [take], [knock], cyangwa [peek X Y]",
     "cannot_discard_taken": "Ntimushobora gutakaza ikarita yavanywe mu byo mwajyaga mutanga. Mugomba kuyisimbuza indi.",

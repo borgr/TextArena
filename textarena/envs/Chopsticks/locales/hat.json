@@ -14,7 +14,7 @@
   },
   "game_action": {
     "attack": "P{player_id} atake men P{opp_id} {opp_idx}: li pase de {opp_val} a {new_val}.",
-    "split": "P{player_id} splits into [{L}, {R}]."
+    "split": "P{player_id} separe nan [{L}, {R}]."
   },
   "history": {
     "entry": "P{player_id} {desc}"

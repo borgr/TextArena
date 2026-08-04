@@ -11,7 +11,7 @@
     "{ball_pos}": "The cup index the ball is under"
   },
   "player_prompt": {
-    "intro": "Track the hidden ball 'X' while the cups are shuffled.\nAfter shuffling, guess its location with `[k]`."
+    "intro": "Tɛ̈ɛ̈ŋɛ̈ɛ̈ŋ 'X' wëëtëë këëtëëtëë. Käŋë käŋë, käŋë käŋë `[k]`."
   },
   "game_message": {
     "ball_starts": "Ball bɛ jɛ tok: {line}",
@@ -21,7 +21,7 @@
     "reveal": "(Jiek: bi̱lɛ piny {ball_pos})"
   },
   "invalid_move": {
-    "wrong_format": "Bad action. Use `[k]`.",
+    "wrong_format": "Käŋë käŋë. Käŋë `[k]`.",
     "out_of_range": "Index ɛ wä raar kä 0-{max_index}."
   },
   "outcome": {

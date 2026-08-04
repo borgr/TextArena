@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in **Ultimate Tic Tac Toe**.\nSubmit your move as **[macro  micro]** (two numbers 0-8):\n• *macro*  = which mini-board you play in\n• *micro* = which square inside that mini-board\nExample `[7 8]` ➜ place your mark in mini-board 7, square 8, and\nforce your opponent to play in mini-board 8 next.\n\nYou are `{symbol}`.\n"
+    "intro": "Ianao no Mpilalao {player_id} ao amin'ny **Ultimate Tic Tac Toe**.\nAmpidiro ny hetsika anao amin'ny fomba **[macro  micro]** (roa isa 0-8):\n• *macro*  = aiza no mini-tabitra ilainao\n• *micro* = aiza no takelaka ao anatin'ny mini-tabitra\nOhatra `[7 8]` ➜ apetraka ny marika anao ao amin'ny mini-tabitra 7, takelaka 8, ary\nhampihenja ny mpifanandrina anao hanao lalao ao amin'ny mini-tabitra 8 manaraka.\n\nIanao no `{symbol}`.\n"
   },
   "board": {
     "current_board": "Birao ankehitriny: {board}"

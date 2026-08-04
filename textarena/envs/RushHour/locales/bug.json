@@ -1,9 +1,9 @@
 {
   "player_prompt": {
-    "intro": "Anda sedang memainkan teka-teki RushHour {difficulty}. Geser mobil untuk membebaskan mobil merah [X] dan keluarkan dari tepi kanan.\nAksi: [A+], [B-], dll.  (+ = maju, - = mundur)."
+    "intro": "Mu ri maina {difficulty} RushHour puzzle. Sipakai oto ri bebasa oto mera [X] sibawa laju oto mera ri wawo kakanan.\nAksi: [A+], [B-], dsb.  (+ = maju, - = mundur)."
   },
   "invalid_move": {
-    "wrong_format": "Aksi tidak sah. Gunakan format [A+] / [B-].",
+    "wrong_format": "Aksi sala. Pake format [A+] / [B-].",
     "no_car": "Degaga oto '{car_id}' ri papan.",
     "blocked": "Iyyaro kedo'e diblokir."
   },

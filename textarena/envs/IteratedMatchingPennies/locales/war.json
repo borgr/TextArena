@@ -1,13 +1,13 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({role}) in a {num_rounds}-round Matching Pennies game.\n- Each round, submit [heads] or [tails] (or [h], [t]).\n- If your choice matches your opponent’s, Player 0 wins the round; otherwise Player 1 wins.\nReply with your choice in the format '[heads]' or '[tails]'.\n"
+    "intro": "Ikaw amo an Player {player_id} ({role}) ha usa ka {num_rounds}-round Matching Pennies nga mulay.\n- Kada round, isumite [heads] o [tails] (o [h], [t]).\n- Kon an imo pilian magkatupong ha pilian han imo kalaban, an Player 0 amo an mananaog han round; kon diri, an Player 1 amo an mananaog.\nTubag ha imo pilian ha format nga '[heads]' o '[tails]'.\n"
   },
   "invalid_move": {
     "wrong_format": "Baliwan an format; pakiusog '[heads]' o '[tails]'."
   },
   "message": {
-    "round_match": "Napili an Player 0 an '{choice0}'; Napili an Player 1 an '{choice1}'. Match -> Player 0 an nagdaog",
-    "round_mismatch": "Napili an Player 0 an '{choice0}'; Napili an Player 1 an '{choice1}'. Mismatch -> Player 1 an nagdaog."
+    "round_match": "Ang Manugmulay 0 nagpili hin {choice0}; Ang Manugmulay 1 nagpili hin {choice1}. Katugma -> Ang Manugmulay 0 an nakadaog",
+    "round_mismatch": "Ang Manugmulay 0 nagpili hin {choice0}; Ang Manugmulay 1 nagpili hin {choice1}. Diri tugma -> Ang Manugmulay 1 an nakadaog"
   },
   "outcome": {
     "p0_wins": "An Player 0 nagdaog hin damo nga mga round.",

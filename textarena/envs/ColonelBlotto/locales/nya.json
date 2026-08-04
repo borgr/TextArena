@@ -16,7 +16,7 @@
   "invalid_move": {
     "wrong_format": "Mawonekedwe olakwika a mawu. Gwiritsani ntchito: A: 5, B 10: C 5:",
     "invalid_field": "Dzina la munda losavomerezeka. Minda yovomerezeka: {field_names}",
-    "wrong_allocation_value": "Onse allocations ayenera kukhala non-negative integers.",
+    "wrong_allocation_value": "Zonse zimene zikugawidwa zikhale nambari zisizo hasi.",
     "incorrect_total_units": "Inu ndikufunika kubweza uniti {num_total_units} zosiyanasi. Jumla linaloonekana: {current_sum}",
     "good_allocations": "Kugawidwa kuli bwino."
   },

@@ -13,8 +13,8 @@
     "already_matched": "ଅଚଳ ଚାଲ: ଖେଳାଳି {player_id} ଗୋଟିଏ କିମ୍ବା ଉଭୟ କାର୍ଡ ବାଛିଛନ୍ତି ଯାହା ପୂର୍ବରୁ ମେଳ ଖାଇସାରିଛି ।"
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "ଖେଳାଳୀ {player_id} ଦ୍ୱାରା [{r1} {c1}] ଏବଂ [{r2} {c2}] ଅବସ୍ଥାନରେ ଚୟନ କରା କାର୍ଡ ମେଳ ହୁଏ!",
+    "cards_no_match": "ଖେଳାଳୀ {player_id} ଦ୍ୱାରା ଚୟନ କରା କାର୍ଡ ମେଳ ହୁଏ ନାହି। [{r1} {c1}] ଏବଂ [{r2} {c2}] ଅବସ୍ଥାନର କାର୍ଡ ଯଥାକ୍ରମେ {pos1} ଏବଂ {pos2}।"
   },
   "outcome": {
     "draw": "ଉଭୟ ଖେଳାଳି ସମାନ ସଂଖ୍ୟକ କାର୍ଡ ଯୋଡିର ମେଳ ଖାଇଲେ ।",

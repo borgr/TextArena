@@ -9,7 +9,7 @@
     "ambiguous": "Tokko tokkeetti bracketed action ilaali, fm '[check]', '[bet 2]', '[call]', '[raise 3]', ykn '[fold]'.",
     "cannot_check": "[check] hin danda'u - ati qamaarsaa keessa jirta.",
     "amount_min": "Baay'inni shorkeessaa/kabajachuu ≥ 1 ta'uu qaba.",
-    "cannot_bet": "Cannot [bet] - must [call] / [raise] / [fold].",
+    "cannot_bet": "[bet] hin danda'u - [call] / [raise] / [fold] qofa.",
     "nothing_to_call": "Waan waamuu hin qabne; bakka isaa [check] gochuu dandeessa.",
     "no_bet_to_raise": "[bet X] banuuf fayyadami; kaffalamuudhaaf gatii hin jiru.",
     "insufficient": "Hojii kanaaf chiipsi ga'aa miti."
@@ -23,9 +23,9 @@
     "possible_actions": "Tarkaanfiiwwan ati fudhachuu dandeessu: {legal}"
   },
   "message": {
-    "round_result": "{reason}  Pot {pot} → Player {winner}. (Bankrolls P0:{p0}, P1:{p1})",
+    "round_result": "{reason}  Pot {pot} → Taphattuu {winner}. (Dheebuu P0:{p0}, P1:{p1})",
     "folded": "Taphachiisaa {player_id} gadi lakkifame.",
-    "showdown_win": "Showdown: {card_win} beats {card_lose}.",
+    "showdown_win": "Showdown: {card_win} {card_lose} mo'a.",
     "showdown_tie": "Showdown tie: lamaan {card}. Boteeniin wal qooduu  tokkoon tokkoo isaanii ni argata {split} ."
   },
   "outcome": {

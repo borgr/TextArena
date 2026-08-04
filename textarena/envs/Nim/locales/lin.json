@@ -13,7 +13,7 @@
     "exceeds_pile": "Ozali kosuba {quantity} kati ya koloni {pile_index} (kuna {pile_count} pe doko)."
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "Joueur {player_id} azwi kobeba [{pile_index} {quantity}], kobeba {quantity} kiti (s) kutoka na pile {pile_index}."
   },
   "outcome": {
     "win": "{player_id} azwaki eloko ya nsuka!"

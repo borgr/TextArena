@@ -10,7 +10,7 @@
     "{to}": "The destination coordinate of a move, such as b3"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in game of LinesOfAction.\nYour pieces are '{side}', opponent pieces are '{other}'.\nMove format: `[b1b3]` (from-coord to-coord). A legal move travels horizontally, vertically, or diagonally a number of squares equal to the total pieces (any colour) in that line. You may jump over your own pieces, but not opponent pieces; landing on an opponent captures it.  Win when all your pieces are 8-neighbour connected."
+    "intro": "D kemm wemarir {player_id} deg urar n LinesOfAction.\nIɣallen-ik d '{side}', iɣallen n wemsebrir d '{other}'.\nFormat n usenqed: `[b1b3]` (tisurta n uẓeṭṭa n usenqed). Usenqed usrid yettawi s uḍḍun, s aɣella, neɣ s uɣella n iɣallen (nnayn n yini) deg wakal-ik. Tzemreḍ ad tɛeddiɣ ɣef iɣallen-ik, maca ur tɛeddiɣ ara ɣef iɣallen n wemsebrir; asenqed ɣef wemsebrir ad yeṭṭfeɣ-it.  Irem-d wemarir miṣaṣ iɣallen-ik d-qqnen ɣer 8 n iɣallen."
   },
   "board": {
     "current_board": "Aɣawas: {board}"
@@ -22,7 +22,7 @@
     "not_straight_or_diagonal": "Azal-is ilaq ad yili d azegrar neɣ n tnezzut.",
     "wrong_distance": "Ilaq ad yeddu s temnaḍt yemgaraden ɣer yiferrawen deg yiwet n tgara.",
     "enemy_blocks": "Aɣawas n weɛdaw yeṭṭef abrid.",
-    "destination_own": "Destination occupied by own piece."
+    "destination_own": "Uẓeṭṭa n usenqed yettwasenqed sɣur iɣallen-ik."
   },
   "game_action": {
     "moved": "Player {player_id} yefɣen {from} -> {to}",

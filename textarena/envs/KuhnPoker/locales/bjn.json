@@ -11,7 +11,7 @@
     "not_legal": "Tindakan harus {legal_actions}."
   },
   "action": {
-    "submit_move": "Player {player_id}, submitted move: '[{move}]'.",
+    "submit_move": "Pemain {player_id}, mengajukan aksi: '[{move}]'.",
     "valid_actions": "Tindakan nang kawa dilaku'i adalah: {legal_actions}.",
     "round_summary": "{reason} Skor saat ini: Pemain 0: '{player_0_chips}'; Pemain 1: '{player_1_chips}'"
   },

@@ -22,7 +22,7 @@
     "start": "Juego de Briscola oñepyrũ! Palo de triunfo: {trump_suit} (Carta de triunfo: {trump_card})"
   },
   "prompt": {
-    "intro": "You are playing Briscola - Player {player_id}.\nGoal: Win tricks and collect the most points (120 total points in the deck).\nCard Points: A=11, 3=10, K=4, Q=3, J=2, others=0\nCard Power: A > 3 > K > Q > J > 7 > 6 > 5 > 4 > 2\nTrump cards beat non-trump cards regardless of power.\n\nAction: '[play X]' where X is the position (1-{max_pos}) of the card in your hand\n"
+    "intro": "Eha'o jaha Briscola - Jugador {player_id}.\nTekotevẽ: Epu'ã ñaní ñemiha ha emoĩporãve heta punto (120 punto opaite mbyja ka'aguýpe).\nPunto Mbyja: A=11, 3=10, K=4, Q=3, J=2, ambue=0\nTupã Mbyja: A > 3 > K > Q > J > 7 > 6 > 5 > 4 > 2\nMbyja triunfo opo'i mbyja ndatriunfo g̃uarã.\n\nTembiapo: '[play X]' X-pehẽ (1-{max_pos}) mbyja nde pópe\n"
   },
   "hand": {
     "none": "Ndaipóri tarjeta.",
@@ -37,21 +37,21 @@
     "line": "  Player {player_id}: {card}{trump_mark}"
   },
   "turn": {
-    "score_entry": "Player {player_id}: {points} pts",
+    "score_entry": "Jugador {player_id}: {points} puntu",
     "trump_info": "Trump ao: {trump_suit}",
-    "trump_info_deck": "Palo de triunfo: {trump_suit} | Cartas restantes en la baraja: {deck_count}",
-    "board": "{hand}\n\n{trick}\n\nScores: {scores}\n{trump_info}\n\nPlay a card using [play X]"
+    "trump_info_deck": "Mbarakaja aty: {trump_suit} | Mbarakaja kuéra oikovéva mbarakaja atyre: {deck_count}",
+    "board": "{hand}\n\n{trick}\n\nPuntos: {scores}\n{trump_info}\n\nEha'ã mbyja [play X] rupive"
   },
   "invalid_move": {
     "wrong_format": "Eipuru [play X] ha'ehápe X pe tarjeta renda (1, 2, 3, etc.)",
-    "out_of_range": "Posición de carta inválida. Tenés {count} cartas (1-{count})"
+    "out_of_range": "Mbarakaja rova ndaja. Nde reko {count} mbarakaja (1-{count})"
   },
   "action": {
-    "played": "Player {player_id} played {card}",
-    "trick_win": "Player {winner} wins the trick with {card} and gains {points} points!"
+    "played": "Jugador {player_id} oñembosa {card}",
+    "trick_win": "Jugador {winner} oñemomba'e umi mbarakaja {card} ha ogana {points} puntu!"
   },
   "outcome": {
-    "head": "Game Over! Player {winner} wins with {points} points!\n\nFinal Scores:\n{scores}",
-    "player_line": "Player {player_id}: {points} points ({tricks} tricks)\n"
+    "head": "Juego ohasa! Jugador {winner} oñemomba'e {points} puntu!\n\nPuntuación kuéra paha:\n{scores}",
+    "player_line": "Jugador {player_id}: {points} puntu ({tricks} mbarakaja)\n"
   }
 }

@@ -16,7 +16,7 @@
   },
   "game_action": {
     "skipped": "O zugatô {pid} o l'à dovuo sciortî da-o seu turno.",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "O Zugador {pid} ({piece}) o l'à zuguæ [{r}, {c}] voltàndo {flipped} peççe(i)"
   },
   "game_message": {
     "must_skip": "Giocatô {pid} ({piece}) no l'ha mosse valide e deve saltà."

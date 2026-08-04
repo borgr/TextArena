@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in JoJoJoin, played on a 5x5 board with cells numbered 0-24.\nOn your turn, place your mark on any empty cell, e.g. '[12]'.\nYOU WIN by getting FOUR of your marks in a row — four consecutive cells horizontally, vertically, or diagonally.\nAs Player {player_id} you are '{symbol}'; your opponent is '{opponent_symbol}'."
+    "intro": "Ndinu Player {player_id} mu JoJoJoin, yomwe imapikisidwa pa bawo la 5x5 ndi ma celli anuweredwa 0-24.\nPa zamu zanu, weka chizindikiro chanu pa celli yoyipayi iliyo wopanda, e.g. '[12]'.\nINU PAMBANA kwa kupata chizindikiro chanu CHINAI pa mstari — ma celli manayi ofananayo wapansi, wamwamba, kapena wakunja.\nNdiye Player {player_id} ndinu '{symbol}'; mphinzitsi wanu ndi '{opponent_symbol}'."
   },
   "board": {
     "current_board": "Bodi Lililonse:\n\n{board}\n\nMavuto Ang'ambiri: {moves}"

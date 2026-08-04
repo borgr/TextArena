@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in Chopsticks. On your turn, choose one of:\n  + Attack:  '[attack M O]'  where M=your hand (0 or 1), O=opponent hand (0 or 1).\n    - Opponent's hand count increases by your hand; if >=5, it becomes 0.\n  + Split:   '[split L R]'  to redistribute your total fingers into L and R (L+R = your total).\nReply with exactly one of those commands."
+    "intro": "D ikelli d amarir {player_id} deg Chopsticks. Di tawmirt-ik, xtar yiwen seg:\n  + Ḍef:  '[attack M O]'  anda M=afus-ik (0 neɣ 1), O=afus n umsenti (0 neɣ 1).\n    - Tiddi n afus n umsenti tetwali s afus-ik; ma yella ≥5, ad yuɣal 0.\n  + Bḍu:   '[split L R]'  akken ad tessekcem tiddi n swalen-ik s L d R (L+R = tiddi-ik).\nSken asiwel s yiwen kan seg isallen-agi."
   },
   "board": {
     "current_board": "Asenmel n uṭṭun:\nAnṣli 0: {hands_0}\nAnṣli 1: {hands_1}"
@@ -14,13 +14,13 @@
   },
   "game_action": {
     "attack": "P{player_id} ikkes P{opp_id}’s afus {opp_idx}: tettwa tamettut s {opp_val} ar {new_val}.",
-    "split": "P{player_id} splits into [{L}, {R}]."
+    "split": "P{player_id} ibḍa ɣer [{L}, {R}]."
   },
   "history": {
     "entry": "P{player_id} {desc}"
   },
   "outcome": {
-    "win": "Both opponent hands dead.",
+    "win": "Tifawin n udnif immuten.",
     "draw": "ⵜⵍⴽⵎⴷ ⵉ ⵓⵡⵜⵜⵓ ⵏ ⵓⵙⵏⴼⵍ."
   }
 }

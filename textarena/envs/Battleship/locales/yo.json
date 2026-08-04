@@ -11,9 +11,9 @@
     "you_sunk": "Sunk! O ti rì ọkọ̀ ojú omi kan ní {coord}! Àwòrán rẹ tí a mú àtúnṣe sí: {view}",
     "opp_sunk": "Ẹ̀tá rì ọkọ̀ ojú omi rẹ ní {coord}! Àwòrán rẹ tí a mú ṣẹ̀sín: {view}",
     "you_hit": "O kọlu ọkọ oju omi kan ni {coord}! Àwòrán rẹ tí a ṣe àtúnṣe: {view}",
-    "opp_hit": "Opponent hit your ship at {coord}! Your updated board:\n{view}",
+    "opp_hit": "Oṣere ṣẹ́ ọkọ̀ rẹ sí {coord}! Tábìlò rẹ tuntun:\n{view}",
     "you_miss": "Miss! O ti padanu ọkọ oju omi ni {coord}! Àwòrán rẹ tí a ṣe àtúnṣe: {view}",
-    "opp_miss": "Opponent missed your ship at {coord}! Your updated board:\n{view}"
+    "opp_miss": "Oṣere ṣẹ̀ṣẹ́ ọkọ̀ rẹ sí {coord}! Tábìlò rẹ tuntun:\n{view}"
   },
   "outcome": {
     "win": "Ẹ̀yin òṣèré {player_id} ti rì gbogbo ọkọ̀ ojú omi àwọn ọ̀tá wọn!"

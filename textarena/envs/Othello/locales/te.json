@@ -16,7 +16,7 @@
   },
   "game_action": {
     "skipped": "ఆటగాడు {pid} వారి మలుపును దాటవేయవలసి వచ్చింది",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "ప్లేయర్ {pid} ({piece}) [{r}, {c}] ఆడాడు {flipped} ముక్క(లు) తిప్పడం"
   },
   "game_message": {
     "must_skip": "ఆటగాడు {pid} ({piece}) కు చెల్లుబాటు అయ్యే కదలికలు లేవు మరియు తప్పించుకోవాలి."

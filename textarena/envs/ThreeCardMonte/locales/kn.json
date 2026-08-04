@@ -11,7 +11,7 @@
     "{ball_pos}": "The cup index the ball is under"
   },
   "player_prompt": {
-    "intro": "Track the hidden ball 'X' while the cups are shuffled.\nAfter shuffling, guess its location with `[k]`."
+    "intro": "ಕಪ್‌ಗಳನ್ನು ಶಫಲ್ ಮಾಡುವಾಗ ಅಡಗಿರುವ ಚೆಂಡು 'X' ಅನ್ನು ಟ್ರ್ಯಾಕ್ ಮಾಡಿ.\nಶಫಲ್ ಮಾಡಿದ ನಂತರ, ಅದರ ಸ್ಥಾನವನ್ನು `[k]` ನೊಂದಿಗೆ ಊಹಿಸಿ."
   },
   "game_message": {
     "ball_starts": "ಚೆಂಡು ಪ್ರಾರಂಭವಾಗುತ್ತದೆ: {line}",
@@ -21,7 +21,7 @@
     "reveal": "(ಬೋಲ್ ಅನ್ನು {ball_pos} ಅಡಿಯಲ್ಲಿ ಬಹಿರಂಗಪಡಿಸಿ)"
   },
   "invalid_move": {
-    "wrong_format": "Bad action. Use `[k]`.",
+    "wrong_format": "ತಪ್ಪು ಕ್ರಿಯೆ. `[k]` ಅನ್ನು ಬಳಸಿ.",
     "out_of_range": "ಸೂಚ್ಯಂಕ 0-{max_index} ವ್ಯಾಪ್ತಿಯಿಂದ ಹೊರಗಿದೆ."
   },
   "outcome": {

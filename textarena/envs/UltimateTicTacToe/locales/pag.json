@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in **Ultimate Tic Tac Toe**.\nSubmit your move as **[macro  micro]** (two numbers 0-8):\n• *macro*  = which mini-board you play in\n• *micro* = which square inside that mini-board\nExample `[7 8]` ➜ place your mark in mini-board 7, square 8, and\nforce your opponent to play in mini-board 8 next.\n\nYou are `{symbol}`.\n"
+    "intro": "Sika'y Managpapat {player_id} ed **Ultimate Tic Tac Toe**.\nIsumite'y iyong galaw a **[macro  micro]** (duaran numero 0-8):\n• *macro*  = panon mini-board so iyong galawan\n• *micro* = panon kuadrado ed abayag na mini-board\nHalimbawa `[7 8]` ➜ itayak'y iyong marka ed mini-board 7, kuadrado 8, tan\npiliten'y iyong kalaban a galawen ed mini-board 8 sumunad.\n\nSika'y `{symbol}`.\n"
   },
   "board": {
     "current_board": "Natan ya board: {board}"
@@ -15,10 +15,10 @@
   },
   "next_board": {
     "any": "antokaman a micro board",
-    "specific": "micro board {nxt} [Mikro-board na saray ugugaw]"
+    "specific": "mikro tablero {nxt}"
   },
   "game_action": {
-    "played": "Player {player_id} tinmua ed micro board {macro_idx}, cell {micro_idx} (row {row}, col {col}). Player {opponent_id} nansia napaten na ag play ed {nxt_txt}."
+    "played": "Managpapat {player_id} so galawen ed micro board {macro_idx}, selula {micro_idx} (row {row}, col {col}). Managpapat {opponent_id} nayarin galawen ed {nxt_txt}."
   },
   "outcome": {
     "win": "Say manlalaban {player_id} so analo ed Ultimate Tic Tac Toe!",

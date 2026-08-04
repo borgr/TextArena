@@ -11,6 +11,6 @@
   },
   "outcome": {
     "win": "Ayɛ wo adze! Woetwaa {target_tile}! Score akɔnsɔn {score}.",
-    "lose": "No moves left. Max tile {max_tile} - final score {score}."
+    "lose": "Nkɔmmɔdie nni hɔ bio. Tile a ɛkɔɔ fam {max_tile} - nkontabuo a etwa to {score}."
   }
 }

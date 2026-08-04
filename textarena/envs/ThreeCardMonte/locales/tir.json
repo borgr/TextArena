@@ -11,7 +11,7 @@
     "{ball_pos}": "The cup index the ball is under"
   },
   "player_prompt": {
-    "intro": "Track the hidden ball 'X' while the cups are shuffled.\nAfter shuffling, guess its location with `[k]`."
+    "intro": "ኣብ ጽላሎት ሳሕሳሕ ምስ ጽላሎት ክትከታተል ወይን `X` ዘሎ ቦላ።\nኣብ ሳሕሳሕ ድሕሪ ምጽናሕ ቦታኡ ብ `[k]` ክትእምን እዚልካ።"
   },
   "game_message": {
     "ball_starts": "መጀመርያ ኩዕሶ {line}",
@@ -21,7 +21,7 @@
     "reveal": "(ብትሕቲ {ball_pos} ዘሎ ኩዕሶ ይግለጽ)"
   },
   "invalid_move": {
-    "wrong_format": "Bad action. Use `[k]`.",
+    "wrong_format": "አልተሳካም። `[k]` ይጠቀሙ።",
     "out_of_range": "ኢንዴክስ ካብ 0-{max_index} ወፃኢ እዩ።"
   },
   "outcome": {

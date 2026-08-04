@@ -11,22 +11,22 @@
     "{moves}": "The comma-separated list of available move tokens like '[4]' (do not translate)"
   },
   "player_prompt": {
-    "intro": "Kai ne Kadi {player_id} a cikin Tic Tac Toe na uku.\nAlama ka shi '{symbol}'.\nKai ka ci gaba da kadi alama shi a kasa 5x5 don kirkiri layi na huɗu.\nLayoyi zana iya zama na yashi, tsaki, ko diagonal.\nGabatar da kadi ka shi da tsarin '[4]' don marka selka 4."
+    "intro": "Kana ndugo {player_id} cikin Wasan Tic Tac Toe na Mutum Uku.\nAlama nka ita ce '{symbol}'.\nKana dauka wuri na alama nka a kan allo na 5x5 domin kirkirar layi na hudu.\nLayi na iya zama kwarai, tsaye, ko kwance.\nMika wuri nka da salon '[4]' domin kada kuri 4."
   },
   "board": {
-    "current_board": "Borti Kadi:\n\n{board}\n\nKadi Kalamu: {moves}"
+    "current_board": "Allo na Yanzu:\n\n{board}\n\nMiyagun Wuri: {moves}"
   },
   "invalid_move": {
-    "wrong_format": "Tsarin kadi batu. Amfani da '[cell]' inda selka shi 0-{max_cell}.",
-    "out_of_range": "Selka mara batu: {cell}. Ina kamata tsakanin 0 da {max_cell}.",
+    "wrong_format": "Kala ndolo mana. Kisa '[cell]' kwa kala {max_cell} ɗawɗo.",
+    "out_of_range": "Lambar kuri ba daidai ba: {cell}. Dole ne iya zama tsakanin 0 da {max_cell}.",
     "already_occupied": "Cell {cell} dǝ kulashinzǝ kǝrma ro.",
     "made_invalid": "Kambiwu {player_id}be letәgәnyi sәdәna."
   },
   "game_action": {
-    "placed": "Kadi {player_id} ina kadi alama shi ({symbol}) a fidi ({row}, {col})."
+    "placed": "Ndugo {player_id} ya sa alama nsa ({symbol}) a filin ({row}, {col})."
   },
   "outcome": {
-    "win": "Kadi {player_id} ({symbol}) ya ci!",
+    "win": "Ndugo {player_id} ({symbol}) ya yi nasara!",
     "draw": "Kәndodǝ shima kangiwo!"
   }
 }

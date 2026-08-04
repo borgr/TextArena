@@ -8,7 +8,7 @@
     "round_summary": "Ngā huanga o te rauniga {round}:\n{outcome}\nI whiwhi ai te Kaikaiwhakaari 0 i {r0} (ngā huanga katoa {score_0}), i whiwhi ai te Kaikaiwhakaari 1 i {r1} (ngā huanga katoa {score_1})."
   },
   "outcome": {
-    "winner": "Player {winner} wins {win_score} - {lose_score}.",
+    "winner": "Ka toa te Kaiwhakataetae {winner} {win_score} - {lose_score}.",
     "draw": "He toenga! I eke nga kaitakaro e rua {s0}.",
     "round_both_cooperate": "I mahi tahi ngā kaitākaro e rua.",
     "round_both_defect": "I rere atu ngā kaitākaro e rua.",

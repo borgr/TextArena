@@ -4,7 +4,7 @@
   },
   "invalid_move": {
     "invalid_move_format": "Хувьсгалт хэлбэр нь хүчингүй",
-    "cell_out_of_range": "Invalid cell number {cell_num}. Must be between 0 and {max_board_num}.",
+    "cell_out_of_range": "Буруу нүхийн дугаар {cell_num}. 0-ээс {max_board_num} хүртэлх дугаар байх ёстой.",
     "cell_already_occupied": "{cell_num} хуудас аль хэдийн эзэмшсэн байна. Бусдын хуудас сонгоно."
   },
   "board": {

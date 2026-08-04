@@ -1,10 +1,10 @@
 {
   "player_prompt": {
-    "intro": "Siz Oyuncu {player_id}'sınız. Hafıza Oyunu oynuyorsunuz.\nAmacınız, rakibinizden daha fazla kart çiftini panoda eşleştirmektir.\nSıranızda, iki kartı çevirmek için ilk ve ikinci kartın sırasıyla satır ve sütun numaralarını girin, örneğin '[0 1 1 0]', ilk kart 0. satır ve 1. sütunda, ikinci kart 1. satır ve 0. sütunda olsun.\nEğer iki kart eşleşirse, bir puan kazanırsınız ve kartlar yüzüstü kalır. Eğer eşleşmezse, kartlar yüzüstü çevrilir, örneğin '.'.\nOyun, tüm çiftler eşleştirildiğinde biter."
+    "intro": "Siz {player_id} oyuncusısınız. Siz Hatıra Oyununı oynaymaqtasız.\nSizim maqsadınız, qarşıdakinden ziyade kart çiftlerini tahta üzerinde tapmaqtır.\nSizim sıranızda, iki kart açmaq içün, birinci ve ikinci kartnıñ satır ve sütun nomerlerin ' [0 1 1 0]' kibi girin, birinci kart 0 satır ve 1 sütunda, ikinci kart ise 1 satır ve 0 sütunda buluna.\nEğer iki kart uyusarsa, siz bir puan alırsız ve kartlar açıq qalırlar. Eğer uyusmazsa, kartlar ters çevirilip, örneğin '.' olaraq qalırlar.\nOyun, bütün çiftler tapılğan zaman bite."
   },
   "board": {
-    "current_board": "Şimdiki tahta: {board}",
-    "current_game_board": "Şimdiki oyun tahtası: {board}"
+    "current_board": "Şimdiki tahta:\n{board}",
+    "current_game_board": "Şimdiki Oyun Tahtası:\n{board}"
   },
   "invalid_move": {
     "wrong_format": "Ucuz areket şekli. {player_id} oyuncısı kvadrat qavğalarda doğru bir yönelişnen cevap bermedi.",
@@ -13,13 +13,13 @@
     "already_matched": "Saqlanğan areket. Oynayıcı {player_id} endi eşleştirilgen bir ya da eki kartnı sayladı."
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "{player_id} oyuncusı tarafından seçilgen kartlar [{r1} {c1}] ve [{r2} {c2}] pozisyonlarında uyuşmağa!",
+    "cards_no_match": "{player_id} oyuncusı tarafından seçilgen kartlar uyusmamağa. [{r1} {c1}] ve [{r2} {c2}] pozisyonlarında kartlar sırasınen {pos1} ve {pos2} olıp."
   },
   "outcome": {
     "draw": "Eki oyuncı da aynı sayıda çift kartnı birleştirdi.",
     "win": "Oyuncı {winner_id} ğalebe qazandı!",
-    "turn_limit": "Tur limiti ulaşıldı. Oyun bitti. Oyuncu 0 {score_0} puan, Oyuncu 1 {score_1} puan kazandı.",
-    "turn_limit_win": "{reason} Oyuncu {winner_id} kazandı!"
+    "turn_limit": "Sıra sınırlaması yetişti. Oyun bite. 0 oyuncusu {score_0} puan, 1 oyuncusu {score_1} puan aldı.",
+    "turn_limit_win": "{reason} {winner_id} oyuncusu qazandı!"
   }
 }

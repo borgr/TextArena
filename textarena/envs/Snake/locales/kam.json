@@ -11,7 +11,7 @@
     "{groups}": "Neutral ranking data (a list of player-id groups, worst to best); do not translate"
   },
   "player_prompt": {
-    "intro": "{num_players}-Player Snake on a {width}×{height} grid.\nYou control snake {player_id}. Valid moves: '[up]'/'[down]'/'[left]'/'[right]' (or w/s/a/d).\nObjective: survive longest or be the longest and get the highest score (turn limit {max_turns} turns)."
+    "intro": "Nyoka ya {num_players}-Wachezaji kwenye gridi ya {width}×{height}.\nUnadhibiti nyoka {player_id}. Harakati zinazokubalika: '[up]'/'[down]'/'[left]'/'[right]' (au w/s/a/d).\nLengo: kuishi muda mrefu zaidi au kuwa mrefu zaidi na kupata alama ya juu zaidi (kikomo cha zamu {max_turns} zamu)."
   },
   "board": {
     "current": "Kamitii ya Ũũngamĩi: {board}",
@@ -21,11 +21,11 @@
     "invalid_death": "Njoka {player_id} yakwie nũndũ wa kũlea kwĩthukĩĩsya nesa."
   },
   "outcome": {
-    "survived_win": "Player {player_id} survived; all others perished.",
+    "survived_win": "Mchezaji {player_id} alinusurika; wengine wote walikufa.",
     "all_dead_simul": "Nzoka isu syonthe syakw'ĩĩe vau.",
-    "outlived": "Player outlived all others.",
+    "outlived": "Mchezaji alinusurika kuliko wengine wote.",
     "all_dead": "Nzoka syonthe ila syaĩ kw'o ĩvindanĩ yĩu nĩsyooaiwe.",
-    "turn_limit": "Turn limit reached - best score wins tie-break.",
+    "turn_limit": "Kikomo cha zamu kimefikia - alama bora inashinda kufungua kwa sare.",
     "ranking": "{reason} Mavuno ya mwisho ya vikundi (mbaya→bora): {groups}"
   }
 }

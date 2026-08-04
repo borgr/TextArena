@@ -10,7 +10,7 @@
     "{to}": "The destination coordinate of a move, such as b3"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in game of LinesOfAction.\nYour pieces are '{side}', opponent pieces are '{other}'.\nMove format: `[b1b3]` (from-coord to-coord). A legal move travels horizontally, vertically, or diagonally a number of squares equal to the total pieces (any colour) in that line. You may jump over your own pieces, but not opponent pieces; landing on an opponent captures it.  Win when all your pieces are 8-neighbour connected."
+    "intro": "Ti xe el Xugador {player_id} in un xugo de LinesOfAction.\nLe tue pedine xe '{side}', łe pedine de l'avversario xe '{other}'.\nFormato de mòsa: `[b1b3]` (coordinata-de-partensa coordinata-de-destinasion). Na mòsa łegałe traversa orizontalmente, verticalmente o diagonalmente un numaro de caxele uguałe al numaro totałe de pedine (de ogni cołor) in quella łinea. Ti pol saltar sora łe tue pedine, ma no łe pedine de l'avversario; rivar a destinasion so na pedina de l'avversario ła catura.  Vinxi quando tute łe tue pedine xe conese a 8-vixini."
   },
   "board": {
     "current_board": "Concilio: {board}"

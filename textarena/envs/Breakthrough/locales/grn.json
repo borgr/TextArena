@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing {color} in a game of Breakthrough. You move {direction} on an {board_size}x{board_size} board.\nIn your turn you can move a single piece one step forward or diagonally forward.\nA piece may only move diagonally if an opponent piece is there, and only move into such a preoccupied square in a diagonal step.\nWhen stepping into a square with an opponent piece, you capture it and the opponent's piece is removed permanently from the board.\nUse UCI-like notation in brackets, e.g. [a2a3] to move from a2 to a3.\n* 'a' corresponds to the leftmost column, '1' is the bottom row (from White's perspective).\n* Blacks's home row is the top row (row 8 for an 8x8). White's home row is the bottom row (row 1 for an 8x8).\nThe first player whose piece reaches the opponent's home row wins. If your pieces are all captured, you lose."
+    "intro": "Reko ojapo {color} peteĩ ñembosarái Breakthrough-pe. Reko oho {direction} peteĩ tablero {board_size}x{board_size}-pe.\nNe ñembohovái reiko ikatu oho peteĩ pieza peteĩ paso adelante térã diagonalemente adelante.\nPeteĩ pieza ikatu oho diagonalemente javeve oĩ peteĩ pieza oponente upépe, ha ikatu oho upépe ku tablero rupiári.\nOiko rei peteĩ kuadro ndive peteĩ pieza oponente, reiko rei chupe ha oponente pieza oiko jepe tablero-gui.\nEipuru notación UCI-icha kuadro-pe, techapyrãme [a2a3] oho a2-gui a3-pe.\n* 'a' oiko ku columna opytáva akatúa gotyo, '1' ha'e ku fila pypukúva (ohechávo morotĩ ñe'ẽ).\n* Pytã ñe'ẽ ogaygua fila ha'e ku fila yvate (fila 8 peteĩ 8x8-pe). Morotĩ ñe'ẽ ogaygua fila ha'e ku fila pypukúva (fila 1 peteĩ 8x8-pe).\nPe ñembosarái peteĩha oguahẽ oponente ogaygua fila rehe oiko. Oiko ne piezakuéra oĩpa reiko, reiko rei."
   },
   "invalid_move": {
     "wrong_format": "Eipuru notación algebraica oje'éva [a2a3].",
@@ -8,7 +8,7 @@
     "illegal": "Upe movimiento ndojapói umi regla de avance térã ndaha'éi ne mba'e."
   },
   "game_action": {
-    "moved": "Jogador {player_id} ohecha {move_str} ({piece})."
+    "moved": "Jugador {player_id} oho {move_str} ({piece})."
   },
   "outcome": {
     "white_reached": "Umi morotĩ og̃uahẽ umi hũ róga jerére.",

@@ -14,7 +14,7 @@
   },
   "game_action": {
     "attack": "പി {player_id} പി {opp_id} ന്റെ കൈയെ {opp_idx} ആക്രമിക്കുന്നു: ഇത് {opp_val} മുതൽ {new_val} വരെ പോകുന്നു.",
-    "split": "P{player_id} splits into [{L}, {R}]."
+    "split": "P{player_id} [{L}, {R}] ആയി വിഭജിക്കുന്നു."
   },
   "history": {
     "entry": "പി {player_id} {desc}"

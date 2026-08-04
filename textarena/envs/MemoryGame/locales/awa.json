@@ -13,8 +13,8 @@
     "already_matched": "अमान्य चाल. खिलाड़ी {player_id} एक या दोनों कार्ड का चयन करें जो पहले से मिलान हो चुके हैं।"
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "खिलाड़ी {player_id} द्वारा चुनल गेल कार्ड [{r1} {c1}] अउर [{r2} {c2}] पे मेल खात बा!",
+    "cards_no_match": "खिलाड़ी {player_id} द्वारा चुनल गेल कार्ड मेल नइ खात बा. कार्ड [{r1} {c1}] अउर [{r2} {c2}] पे {pos1} अउर {pos2} हउवे क्रमशः."
   },
   "outcome": {
     "draw": "दुनो खिलाड़ी एके संग रहे, बिना कौनो अंतर के खेली.",

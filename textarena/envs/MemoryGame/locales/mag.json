@@ -13,8 +13,8 @@
     "already_matched": "अवैध चाल. खिलाड़ी {player_id} एगो चाहे दुनहु कार्ड के चयन करलई जे पहिले से मिलान हो चुकल हई।"
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "खिलाड़ी {player_id} द्वारा चुने गए कार्ड [{r1} {c1}] आ [{r2} {c2}] पर मिलान हउ!",
+    "cards_no_match": "खिलाड़ी {player_id} द्वारा चुने गए कार्ड मिलान नहीं हउ। कार्ड [{r1} {c1}] आ [{r2} {c2}] पर {pos1} आ {pos2} हउ।"
   },
   "outcome": {
     "draw": "दुनहु खिलाड़ी कार्ड के एके संख्या में मिलान करई छलई।",

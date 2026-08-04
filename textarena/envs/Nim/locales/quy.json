@@ -7,13 +7,13 @@
   },
   "invalid_move": {
     "wrong_format": "Mana allin riqsisqa t'ikrasqa tarikunchu. \"[pile quantity]\" nisqawan llamk'apuy.",
-    "correct_format_wrong_fields": "Player {player_id}, Invalid action. Column {col} is out of bounds.",
+    "correct_format_wrong_fields": "Kawakim {player_id}, Mana allin llamk'ay. Sutun {col} waqaychaw kanchu.",
     "out_of_range": "Q'illay index {pile_index} nisqaqa mana atiypichu.",
     "non_positive": "Chaypaqqa, uj kaqllataña tʼaqana.",
-    "exceeds_pile": "Cannot remove {quantity} from pile {pile_index} (only {pile_count} left)."
+    "exceeds_pile": "Mana {quantity} q'apakunata q'umir {pile_index}-manta hurq'uyta atinichu ( {pile_count} q'apakunallataq)."
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "Kawakim {player_id} pukllarqa [{pile_index} {quantity}], {quantity} q'apakunata q'umir {pile_index}-manta hurq'uspa."
   },
   "outcome": {
     "win": "Qhapaqninqa {player_id} qhipa kaq imakunata jap'iqan (s)!"

@@ -21,20 +21,20 @@
     "{scores}": "The pre-rendered per-player list of final scores"
   },
   "player_prompt": {
-    "intro": "Kamu sedang bermain Golf (Permainan Kartu) - Pamain {player_id}.\nTujuan: Dapatkan skor total terendah dalam satu ronde. Jika kolom memiliki nilai yang sama, mereka dijumlahkan sebagai 0.\nNilai Kartu: A=1, 2-10=nilai wajah, J/Q=10, K=0\n\nTindakan (gunakan kurung yang tepat):\n- '[draw]' - Mengambil dari dek\n- '[take]' - Mengambil dari tumpukan buangan\n- '[swap X Y]' - Menukar kartu yang diambil dengan posisi X (baris) Y (kolom)\n- '[discard]' - Membuang kartu yang diambil"
+    "intro": "Mu maina Golf (Permainan Karta) - Pemain {player_id}.\nTujuan: Nai ri nilai terendah total ri ronde sibawa. Na kolumu nai nilai sama, nai dijumlah 0.\nNilai Karta: A=1, 2-10=nilai muka, J/Q=10, K=0\n\nAksi (guna kurung tepat):\n- '[draw]' - Mu nai ri tumpukan\n- '[take]' - Mu nallae ri pile nallae\n- '[swap X Y]' - Mu ganti karta nai ri posisi X (baris) Y (kolom)\n- '[discard]' - Mu nallae karta nai\n"
   },
   "board": {
-    "drew": "You drew: {card}\nNow you must [swap X Y] or [discard] it.",
-    "took": "You took: {card} from discard pile\nYou must [swap X Y] with it (cannot discard).",
-    "peeked": "Kamu melihat posisi ({row},{col}): {card}",
-    "turn_view": "Kartu kamu:\n{hand}\nTumpukan buangan: {discard}\n{options}",
+    "drew": "Mu riolle: {card}\nRiolo kutika [swap X Y] atau [discard] iye.",
+    "took": "Mu nallae: {card} ri pile nallae\nKutika [swap X Y] nainappa iye (tena nallae ri discard).",
+    "peeked": "Mu nai ri posisi ({row},{col}): {card}",
+    "turn_view": "Tanganmu:\n{hand}\nPile nallae: {discard}\n{options}",
     "none": "Degaga"
   },
   "options": {
-    "final_turns": "Giliran terakhir! Opsi kamu: [draw], [take], [peek X Y]",
-    "draw": "Opsi kamu: [draw], [take]",
-    "must_swap": "You must: [swap X Y] (cannot discard cards from discard pile)",
-    "swap_or_discard": "Kamu harus: [swap X Y] atau [discard]"
+    "final_turns": "Giliran terakhir! Aksimu: [draw], [take], [peek X Y]",
+    "draw": "Aksimu: [draw], [take]",
+    "must_swap": "Kutika: [swap X Y] (tena nallae ri pile nallae)",
+    "swap_or_discard": "Kutika: [swap X Y] atau [discard]"
   },
   "hand": {
     "no_cards": "Degaga kartu-kartu.",
@@ -42,38 +42,38 @@
     "row": "Baris {n}: {cards}"
   },
   "action_desc": {
-    "swapped": "Pamain {pid} menukar {new} dengan {old} di posisi ({row},{col})",
-    "discarded": "Pamain {pid} membuang {card}"
+    "swapped": "Pemain {pid} ganti {new} nainappa {old} ri posisi ({row},{col})",
+    "discarded": "Pemain {pid} nallae {card}"
   },
   "message": {
     "deck_empty": "Dek'e kosong! Maccappa toni wettu e.",
     "knocked": "Pemaen {pid} terkalahkan! Tungke-tungke pemaena laingnge naala seddi giliran.",
-    "final_round": "Pamain {pid} {reason}! Setiap pemain lain mendapatkan satu giliran lagi"
+    "final_round": "Pemain {pid} {reason}! Setiap pemain lain mendapat satu giliran lagi."
   },
   "reason": {
     "all_revealed": "purai nappitang sininna kartu'e."
   },
   "invalid": {
-    "wrong_action": "Gunakan satu tindakan yang dikurung: [draw], [take], [swap X Y], [discard], [knock], atau [peek X Y]",
+    "wrong_action": "Guna tepat SATU aksi kurung: [draw], [take], [swap X Y], [discard], [knock], atau [peek X Y]",
     "discard_empty": "Tassadiya'ni onrong untu' ritanro!",
-    "must_draw_first": "You must first [draw], [take], [knock], or [peek X Y]",
+    "must_draw_first": "Kutika riolo [draw], [take], [knock], atau [peek X Y] sibawa",
     "cannot_discard_taken": "Aja' mupuadai kartu iya ripigau pole acculeng. Harusu'ko pasellei iyaro.",
-    "have_drawn_card": "You have a drawn card. You must [swap X Y] or [discard] it.",
+    "have_drawn_card": "Mu riolle karta. Kutika [swap X Y] atau [discard] iye.",
     "need_drawn_swap": "Parellu makkaci kartu untu' siselle.",
     "need_drawn_discard": "Parellu makkatenning kartu untu' ripalisu.",
-    "out_of_bounds": "Posisi di luar batas. Gunakan baris 1-{max_row}, kolom 1-{max_col}",
+    "out_of_bounds": "Posisi di luar batas. Guna baris 1-{max_row}, kolom 1-{max_col}",
     "knock_with_card": "Aja' muwelliwi sibawa kartu iya ripallebbangi. Ullei giliranna riyolo'.",
     "already_knocked": "Engka tau pura najagai ronde'e.",
     "already_revealed": "Iyaro kartué purani ripallebbang!"
   },
   "summary": {
-    "full": "Permainan Berakhir! Pamain {winner} menang dengan skor {score} poin!\n\nSkor Akhir:\n{scores}",
-    "line": "Pamain {pid}: {score} poin\n"
+    "full": "Permainan Selesai! Pemain {winner} menang dengan nilai {score} poin!\n\nNilai Akhir:\n{scores}",
+    "line": "Pemain {pid}: {score} poin\n"
   },
   "board_str": {
     "title": "=== PELANG GOLF=== (Pengantar)",
     "discard": "Bulu'na iya ripassu: {card}",
     "knocked": "Pemaen {pid} telah mengetuk! (Pemain 0) tidak mau maen lagi.",
-    "player_header": "Pamain {pid} (Skor: {score}):"
+    "player_header": "Pemain {pid} (Nilai: {score}):"
   }
 }

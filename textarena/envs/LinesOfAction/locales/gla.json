@@ -10,7 +10,7 @@
     "{to}": "The destination coordinate of a move, such as b3"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in game of LinesOfAction.\nYour pieces are '{side}', opponent pieces are '{other}'.\nMove format: `[b1b3]` (from-coord to-coord). A legal move travels horizontally, vertically, or diagonally a number of squares equal to the total pieces (any colour) in that line. You may jump over your own pieces, but not opponent pieces; landing on an opponent captures it.  Win when all your pieces are 8-neighbour connected."
+    "intro": "Is tusa Cluicheadair {player_id} ann an geama LinesOfAction.\nTha pìosan agad '{side}', tha pìosan nàimhde '{other}'.\nFòrmat siubhail: `[b1b3]` (co-chomharra tùs gu co-chomharra ceann-uidhe). Siubhail laghail a' gluasad air feadh, suas no sìos, no trasnadh àireamh cheàrnagan co-ionann ris an àireamh pìosan (dath sam bith) anns an loidhne sin. Faodaidh tu leum thar pìosan agad fhèin, ach chan fhaod thu leum thar pìosan nàimhde; ma laigh thu air pìos nàimhde, ghlacas tu e.  Buannaich nuair a tha pìosan uile agad ceangailte ri 8 nàbaidhean."
   },
   "board": {
     "current_board": "Bòrd: {board}"

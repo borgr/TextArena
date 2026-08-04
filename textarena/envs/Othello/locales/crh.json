@@ -16,13 +16,13 @@
   },
   "game_action": {
     "skipped": "Oyuncı {pid} öz nevbetini keçmek mecbur oldı.",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "Oyuncu {pid} ({piece}) [{r}, {c}] oynadı, {flipped} parçanı çevirip"
   },
   "game_message": {
     "must_skip": "Oyuncu {pid} ({piece}) mümkün hareketi yok ve atlayacak."
   },
   "outcome": {
-    "black_wins": "Black wins {black_count}-{white_count}.",
+    "black_wins": "Qara {black_count}-{white_count} hesabnen qazandı.",
     "white_wins": "Aq {white_count}-{black_count} ile kazandı.",
     "draw": "Beraberlik {black_count}-{white_count}."
   }

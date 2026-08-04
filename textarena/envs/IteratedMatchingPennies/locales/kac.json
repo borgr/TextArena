@@ -1,13 +1,13 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({role}) in a {num_rounds}-round Matching Pennies game.\n- Each round, submit [heads] or [tails] (or [h], [t]).\n- If your choice matches your opponent’s, Player 0 wins the round; otherwise Player 1 wins.\nReply with your choice in the format '[heads]' or '[tails]'.\n"
+    "intro": "Nanhte Player {player_id} ({role}) a {num_rounds}-hpang Matching Pennies mali kawp.\n- Hpang shagu, [heads] shagu [tails] (shagu [h], [t]) sha rai.\n- Nanhte akyu hte nang hpang shai wa, Player 0 hpang shai; shing nrai, Player 1 hpang shai.\nNanhte akyu hpe [heads] shagu [tails] hku rai.\n"
   },
   "invalid_move": {
-    "wrong_format": "ၼႃႉတီႈပွင်ႈလႅၼ်ႈ ဢမ်ႇပေႃးလီ၊ တႃႇတေႁပ်ႉ/submit ၸွမ်း '[heads]' ဢမ်ႇၼၼ် '[tails]'."
+    "wrong_format": "Makam masham; [heads] shagu [tails] hku rai."
   },
   "message": {
-    "round_match": "Player 0 လႆႈၶဝ်ႈၸူး '{choice0}'၊ Player 1 လႆႈၶဝ်ႈၸူး '{choice1}'။ Match -> Player 0 ဢၼ်ၸွႆႈထိုင်",
-    "round_mismatch": "Player 0 picked {choice0}; Player 1 picked {choice1}. Mismatch -> Player 1 wins."
+    "round_match": "Masha 0 na {choice0} sha hkam; Masha 1 na {choice1} sha hkam. Hpang maga jaw -> Masha 0 gaw shanu",
+    "round_mismatch": "Masha 0 na {choice0} sha hkam; Masha 1 na {choice1} sha hkam. Hpang maga de -> Masha 1 gaw shanu"
   },
   "outcome": {
     "p0_wins": "Dai shaloi, player 0 gaw raundi law htum lu ai.",

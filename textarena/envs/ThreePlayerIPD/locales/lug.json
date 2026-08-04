@@ -4,7 +4,7 @@
   },
   "round": {
     "start": "─── Ekivvula kya Round {round} ───\tOsiibye kuwuliriza bulijjo kwa {conv_rounds} emizannyo ejja.",
-    "chat_finished": "Chat finished for round {round}. Submit your decisions, one token per opponent: `[pid cooperate]` or `[pid defect]`."
+    "chat_finished": "Lutalo lwa njogera lusaze lwakati lwa luzunguko {round}. Saba kufanya maamuzi yo, etiketi emu buli mudduki: `[pid cooperate]` oba `[pid defect]`."
   },
   "results": {
     "header": "### Round {round} - Ebivuddemu:",

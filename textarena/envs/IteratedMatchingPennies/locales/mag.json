@@ -7,7 +7,7 @@
   },
   "message": {
     "round_match": "प्लेयर 0 ने {choice0} चुना; प्लेयर 1 ने {choice1} चुना। मैच -> प्लेयर 0 जीतता है",
-    "round_mismatch": "Player 0 picked {choice0}; Player 1 picked {choice1}. Mismatch -> Player 1 wins."
+    "round_mismatch": "खेलाड़ी 0 ने {choice0} चुना; खेलाड़ी 1 ने {choice1} चुना। मिसमैच -> खेलाड़ी 1 जीतता है।"
   },
   "outcome": {
     "p0_wins": "खिलाड़ी 0 अधिक राउंड जीतलई।",

@@ -7,7 +7,7 @@
     "out_of_range": "Teuman harus antara {min_guess} ngon {max_guess}."
   },
   "message": {
-    "round_guesses": "Player 0 guessed {guess0}; Player 1 guessed {guess1}. Thus the Target is: {target}.",
+    "round_guesses": "Peumain 0 teuka {guess0}; Peumain 1 teuka {guess1}. Maka Teumpa nyan nakeuh: {target}.",
     "round_draw": "Bulat nyan adalah undian.",
     "round_win": "Pemain {winner} meunang ronde!"
   },

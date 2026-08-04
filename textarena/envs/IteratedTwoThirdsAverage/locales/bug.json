@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a {num_rounds}-round of IteratedTwoThirdsAverage.\nEach round, guess a number between {min_guess} and {max_guess}.\nAfter both guesses, the target is (2/3)x(average of both guesses),\nand the player whose guess is closest to the target wins that round.\nReply with your guess in the format '[<number>]'."
+    "intro": "Sida Player {player_id} ri olona {num_rounds}-rona sibawa IteratedTwoThirdsAverage.\nSibawa rona, pakkokona bilang antara {min_guess} siagang {max_guess}.\nSibaluna pakkokona rua, sibawa titik sasaran (2/3)x(rerata pakkokona rua),\nsibawa player sibawa pakkokona paling dekat siagang titik sasaran menang rona.\nBalasa siagang pakkokona mu ri format '[<number>]'."
   },
   "invalid_move": {
     "wrong_format": "Format de'na valid; tolong kirim pakkutana mu sebagai [<number>].",

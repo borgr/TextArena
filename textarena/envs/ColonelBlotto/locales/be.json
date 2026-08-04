@@ -17,7 +17,7 @@
     "wrong_format": "Несапраўдны фармат уваходу. Выкарыстанне: A: 5, B: 10, C: 5",
     "invalid_field": "Несапраўдныя назвы палёў. Сапраўдныя палі: {field_names}",
     "wrong_allocation_value": "Усе вылучэння павінны быць неадмоўнымі цэлымі лікамі.",
-    "incorrect_total_units": "You have to allocate exactly {num_total_units} units. Current sum: {current_sum}",
+    "incorrect_total_units": "Вы павінны выдзяліць дакладна {num_total_units} адзінак. Бягучая сума: {current_sum}",
     "good_allocations": "Выдзяленне добра."
   },
   "outcome": {

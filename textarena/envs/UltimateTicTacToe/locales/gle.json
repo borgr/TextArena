@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in **Ultimate Tic Tac Toe**.\nSubmit your move as **[macro  micro]** (two numbers 0-8):\n• *macro*  = which mini-board you play in\n• *micro* = which square inside that mini-board\nExample `[7 8]` ➜ place your mark in mini-board 7, square 8, and\nforce your opponent to play in mini-board 8 next.\n\nYou are `{symbol}`.\n"
+    "intro": "Tusa an Imreoir {player_id} i **Ultimate Tic Tac Toe**.\nCuir isteach do bhogadh mar **[macro  micro]** (dhá uimhir 0-8):\n• *macro*  = cén mionchlár a imríonn tú ann\n• *micro* = cén chearnóg taobh istigh den mionchlár sin\nSampla `[7 8]` ➜ cuir do mharc i mionchlár 7, chearnóg 8, agus\ncuir iallach ar do chéile comhraic imirt i mionchlár 8 ar an gcéad.\n\nTusa `{symbol}`.\n"
   },
   "board": {
     "current_board": "Bord reatha: {board}"
@@ -18,7 +18,7 @@
     "specific": "micreabord {nxt}"
   },
   "game_action": {
-    "played": "Player {player_id} played in micro board {macro_idx}, cell {micro_idx} (row {row}, col {col}). Player {opponent_id} must now play in {nxt_txt}."
+    "played": "D'imir Imreoir {player_id} i mionchlár {macro_idx}, chill {micro_idx} (sraith {row}, col {col}). Ní mór d'Imreoir {opponent_id} imirt anois i {nxt_txt}."
   },
   "outcome": {
     "win": "Buaileann imreoir {player_id} Ultimate Tic Tac Toe!",

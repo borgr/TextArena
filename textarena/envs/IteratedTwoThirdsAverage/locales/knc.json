@@ -1,13 +1,13 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a {num_rounds}-round of IteratedTwoThirdsAverage.\nEach round, guess a number between {min_guess} and {max_guess}.\nAfter both guesses, the target is (2/3)x(average of both guesses),\nand the player whose guess is closest to the target wins that round.\nReply with your guess in the format '[<number>]'."
+    "intro": "Káma kaŋ Bìrì {player_id} a cikin {num_rounds}-zàga na IteratedTwoThirdsAverage.\nA kowacce zagaye, ka tsinci lamba tsakanin {min_guess} da {max_guess}.\nBayan ka tsinci duka biyu, burin shine (2/3)x(matsakaicin duka tsinci biyu),\nka wanda tsincinsa ya fi kusa da burin ya ci zagayen.\nAmsa da tsincinka a cikin tsari '[<number>]'."
   },
   "invalid_move": {
     "wrong_format": "Format ba; raayinǝm dǝga [<number>] ro ruwojǝmin.",
     "out_of_range": "Káálá shíi kámbu kadi {min_guess} nde {max_guess}."
   },
   "message": {
-    "round_guesses": "Player 0 guessed {guess0}; Player 1 guessed {guess1}. Thus the Target is: {target}.",
+    "round_guesses": "Dan wasa 0 ya yi hasashen {guess0}; Dan wasa 1 ya yi hasashen {guess1}. Don haka Burin shine: {target}.",
     "round_draw": "Round dǝ shima draw.",
     "round_win": "Kambiwu {winner} dǝ shima kǝnasarǝ!"
   },

@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are in a room with {num_buttons} buttons: {buttons}. Each button is associated with a Bernoulli distribution with a fixed but unknown mean; the means for the buttons could be different.\nFor each button, when you press it, you will get a reward that is sampled from associated distribution.\nYou have {num_turns} time steps and, on each time step, you can choose any button and receive the reward.\nYour goal is to strategically choose buttons at each time step to collect information about their reward distribution, that will let you choose the button with the highest mean reward correctly at the end of {num_turns} turns."
+    "intro": "Mo yeke na kabinet na {num_buttons} boutons: {buttons}. Kila bouton a associé na distribution de Bernoulli na moyenne fixe mais inconnue; les moyennes pour les boutons peuvent être différentes.\nPour chaque bouton, lè mo pesa, mo reçoit récompense qui échantillonné à partir de distribution associée.\nMo a {num_turns} étapes de temps et, à chaque étape de temps, mo peut choisir n'importe quel bouton et recevoir la récompense.\nMo objectif a de choisir stratégiquement les boutons à chaque étape de temps pour collecter informations sur leur distribution de récompense, qui va permettre mo de choisir le bouton avec la moyenne de récompense la plus élevée correctement à la fin de {num_turns} tours."
   },
   "board": {
     "stat_line": "{button}: {reward} (zémbé {count} tî)",

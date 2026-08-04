@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing Countdown numbers game!\nGoal: Combine numbers using +, -, *, / to reach the target.\nAction format: [i j op] where i,j are indices and op is the operation.\nExample: [0 2 *] multiplies number at index 0 with number at index 2.\nDivision must result in whole numbers only."
+    "intro": "O kerekere qori na qito Countdown!\nLega: Vakaicili vata na nambari ka vakayagataka +, -, *, / me rawa ni yacova na itavi.\nItukutuku ni cakacaka: [i j op] kerekere i,j sai indeksi kei op sai cakacaka.\nKerekere ivakaraitaki: [0 2 *] vakayacori kina na nambari mai indeksi 0 kei na nambari mai indeksi 2.\nNa cakacaka wase e dodonu me rawa kina na nambari dina ga."
   },
   "board": {
     "header": "TARGET: {target}\n\nNa nomuri available:\n{numbers}",
@@ -9,7 +9,7 @@
     "progress": "{observation}\nScori ni veikau sara ga: {progress}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use `[i j op]` where i,j are indices and op is +,-,*,/",
+    "wrong_format": "Itukutuku ni cakacaka e sega ni dina. Vakayagataka `[i j op]` kerekere i,j sai indeksi kei op sai +,-,*,/",
     "invalid_indices": "Na idusidusi e sega ni dodonu. E duidui ka tiko ena maliwa 0-{max_index}",
     "invalid_operation": "Na cakacaka e sega ni dodonu (na kena wasei ena zero se na isau ka sega ni integer)"
   },

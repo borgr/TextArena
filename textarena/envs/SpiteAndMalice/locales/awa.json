@@ -25,7 +25,7 @@
     "wrong_move_type": "अमान्य चाल प्रकार. खिलाड़ी {player_id} एक वैध चाल प्रकार के साथ जवाब नहीं दिया।"
   },
   "game_action": {
-    "you_drew": "You drew cards.",
+    "you_drew": "आपने कार्ड ड्रा किए।",
     "opponent_drew": "खिलाड़ी {player_id} ने पत्ते का चयन किया।",
     "you_played": "आपने {card} को केंद्रीय ढेर {index} पर खेला।",
     "opponent_played": "खिलाड़ी {player_id} ने {card} को केंद्रीय ढेर {index} पर खेला।",

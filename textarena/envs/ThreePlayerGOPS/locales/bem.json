@@ -14,15 +14,15 @@
     "{scores}": "The final scores as a raw player-number to score mapping - do not translate"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player GOPS.\n- You hold the 13 cards A-K (each exactly once).\n- Each round a prize is revealed. Submit ONE card like `[Q]`, `[10]`, `[2]` …\n- Highest card wins the prize (+ any carry-over pot). Ties roll the prize into the next round.\n- After 13 rounds, highest total wins. Invalid moves = elimination."
+    "intro": "Ni mchezaji {player_id} katika Three-Player GOPS.\n- Unashikilia kadi 13 za A-K (kila moja mara moja).\n- Kila raundi zawadi inafichuliwa. Wasilisha kadi moja kama `[Q]`, `[10]`, `[2]` …\n- Kadi ya juu hushinda zawadi (+ kiasi chochote kilichobebwa). Ties inasukuma zawadi hadi raundi inayofuata.\n- Baada ya raundi 13, jumla ya juu hushinda. Mipigo isiyo sahihi = kuondolewa."
   },
   "round": {
     "header": "### Mungelo {round}/13 - Mphongo: {prize} (wenye thamani {worth})",
     "hand": "Icinwe cenu icalesala: {hand}"
   },
   "reveal": {
-    "win": "Bids  {bids} - Player {winner} wins {pot}.",
-    "tie": "Bids  {bids} - tie, pot now {pot}. Ifya kutambika: 0 (kushitisha) = 1 (kushitisha).",
+    "win": "Mipigo » {bids} - Mchezaji {winner} anashinda {pot}.",
+    "tie": "Mipigo » {bids} - sare, zawadi sasa {pot}.",
     "scores": "Ifyabupe → {scoreline}"
   },
   "invalid_move": {
@@ -33,7 +33,7 @@
     "player": "Umulashi {pid} afumishiwapo pa mulandu wa kubomfya imilato yabula ukukonka."
   },
   "outcome": {
-    "auto_win": "Two players eliminated - automatic win.",
+    "auto_win": "Wachezaji wawili wameondolewa - ushindi wa otomatiki.",
     "final": "Ifisambililo fya kulekelesha: {scores}"
   }
 }

@@ -1,17 +1,17 @@
 {
   "player_prompt": {
-    "intro": "Welcome to Frozen Lake!\n\nYou are represented by 'P' on the grid.\nGrid symbols:\n  ' ' = Frozen surface (safe to walk on)\n  'H' = Hole (fall in and lose!)\n  'G' = Goal (reach this to win!)\n  'P' = Your current position\n\nAvailable actions: up, down, left, right (or w, a, s, d)\nType your action as: [up], [down], [left], [right] or [w], [a], [s], [d]\n\nObjective: Navigate from the start (top-left) to the goal (bottom-right) without falling into any holes!\n"
+    "intro": "ꯐ꯭ꯔꯣꯖꯦꯟ ꯂꯦꯛ ꯃꯅꯤꯗ ꯌꯦꯡꯕꯤꯌꯨ!\n\nꯅꯤꯡꯁꯤ 'P' ꯍꯥꯏꯕ ꯂꯦꯇꯔ ꯅꯥꯗ ꯒ꯭ꯔꯤꯗ ꯇ ꯁꯟꯗꯣꯛꯏ.\nꯒ꯭ꯔꯤꯗ ꯁꯤꯝꯕꯣꯜꯁ:\n  ' ' = ꯐ꯭ꯔꯣꯖꯦꯟ ꯁꯔꯐꯦꯁ (ꯂꯝꯕ ꯌꯦꯡꯕ ꯌꯥꯏ)\n  'H' = ꯍꯣꯜ (ꯇꯨꯝꯕ ꯃꯤ ꯇꯍꯥꯏ!)\n  'G' = ꯒꯣꯜ (ꯁꯤ ꯌꯦꯡꯕ ꯌꯥꯏ ꯃꯥꯏꯌꯨ!)\n  'P' = ꯅꯤꯡꯁꯤ ꯂꯦꯇꯔ ꯅꯥꯗ ꯁꯟꯗꯣꯛꯏ\n\nꯌꯥꯏꯕ ꯊꯧ ꯇꯧꯕꯁ: ꯌꯨꯄ, ꯗꯥꯎꯟ, ꯂꯦꯐꯇ, ꯔꯥꯏꯠ (ꯅꯠꯇ ꯗ꯭ꯕ, ꯑꯦ, ꯁ, ꯗ)\nꯊꯧ ꯇꯧꯕ ꯍꯥꯏꯕ ꯋꯥꯍꯩ ꯃꯈꯨꯝ ꯑꯁꯤ ꯌꯥꯏ: [up], [down], [left], [right] ꯅꯠꯇ [w], [a], [s], [d]\n\nꯃꯤ ꯇꯧꯕ ꯌꯥꯏ: ꯁꯤ ꯌꯦꯡꯕ ꯌꯥꯏ ꯃꯥꯏꯌꯨ ꯐ꯭ꯔꯣꯖꯦꯟ ꯂꯦꯛ ꯃꯅꯤꯗ ꯌꯦꯡꯕꯤꯌꯨ (ꯇꯣꯞ-ꯂꯦꯐꯇ) ꯗ ꯒꯣꯜ (ꯕꯣꯇꯣꯝ-ꯔꯥꯏꯠ) ꯃꯅꯤꯗ ꯌꯦꯡꯕ ꯌꯥꯏ ꯃꯥꯏꯌꯨ ꯍꯣꯜ ꯇꯨꯝꯕ ꯌꯥꯏ ꯃꯤ ꯇꯍꯥꯏ!"
   },
   "board": {
-    "current_board": "Current Board:\n\n{board}\n\nAvailable Actions: {actions}"
+    "current_board": "ꯍꯔꯃꯤ ꯕꯣꯔꯗ:\n\n{board}\n\nꯁꯤꯖꯤ ꯊꯤꯖꯤꯐꯝ: {actions}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use [up], [down], [left], [right] or [w], [a], [s], [d].",
+    "wrong_format": "ꯊꯧ ꯇꯧꯕ ꯑꯁꯤ ꯌꯥꯏ ꯃꯈꯨꯝ ꯑꯁꯤ ꯌꯥꯏ ꯗ ꯌꯦꯡꯕ ꯌꯥꯏ ꯃꯥꯏꯌꯨ. [up], [down], [left], [right] ꯅꯠꯇ [w], [a], [s], [d] ꯃꯈꯨꯝ ꯑꯁꯤ ꯌꯥꯏ.",
     "unknown_action": "খঙদবা এক্সন '{action}'। মথক্তা, মখাদা, মনমথংবা, অচুম্বা নত্ত্রগা ৱি.এ., এস.দি. শিজিন্নৌ।",
     "hit_wall": "অদোম্না {action} চৎনবা হোৎনখি অদুবু ফক্লাং অমদা থেংনরকই!"
   },
   "game_action": {
-    "moved": "You moved {action} to position ({row}, {col})."
+    "moved": "ꯃꯤ ꯊꯤꯖꯤꯐꯝ {action} ꯇ ꯆꯤꯡ ꯌꯥꯏ ꯐꯣꯖꯤꯁꯟ ({row}, {col}) ꯇ."
   },
   "outcome": {
     "win": "নুংঙাইবা ফোংদোকচরি! অদোম্না পান্দম অদু ফংলে।",

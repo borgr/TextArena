@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({piece}). Opponent is ({opp}).\nSubmit moves as '[a2 a3]' (from → to).\n- A normal move is one forward step to an adjacent empty vertex.\n- A capture is a jump over an adjacent enemy piece landing on the empty node beyond.\nEach capture yields {score_per_capture} points.\nGame ends after {max_moves} moves or when a player has no legal move."
+    "intro": "O ile wena Mmathapetša {player_id} ({piece}). Mmabatho wa gago ke ({opp}).\nRomela dikgato tša gago ka go ngwala '[a2 a3]' (go tšwa → go ya).\n- Kgato tše tlwaeleha ke kgato e tee ya pele go ya kgauswi le vertex e se nago selo.\n- Go tšea ke go hlompha kgato ya kgauswi le selo sa mmaba, go theoga node e se nago selo.\nKgato e nngwe le e nngwe ya go tšea e fa {score_per_capture} diponto.\nTau e fela ka morago ga {max_moves} dikgato kapa ge mmathapetša a se na kgato e molaong."
   },
   "board": {
     "current_board": "Move #{move_count}\n\n{board}"

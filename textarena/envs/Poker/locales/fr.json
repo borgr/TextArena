@@ -31,19 +31,16 @@
     "{share}": "La part de jetons que reçoit chaque gagnant ex æquo",
     "{ranking}": "Le classement final des numéros de joueurs, du plus bas au plus haut"
   },
-
   "player_prompt": {
     "intro": "Vous êtes le Joueur {player_id} dans une partie de Texas Hold'em Poker à {num_players} joueurs.\nInformations sur la partie :\n- {num_rounds} mains au total\n- Tapis de départ : {starting_chips} jetons\n- Blinds : {small_blind}/{big_blind}\n\nActions disponibles (jetons exacts) :\n  '[Check]'  - quand aucune mise n'est active\n  '[Call]'   - suivre la mise actuelle\n  '[Fold]'   - jeter votre main\n  '[Bet N]'  - ouvrir pour N jetons\n  '[Raise N]'- relancer de N jetons\n"
   },
-
   "game": {
     "start": "Démarrage d'une nouvelle partie de Texas Hold'em de {num_rounds} manches avec {num_players} joueurs."
   },
-
   "board": {
     "panel": "===== Main {round} / {num_rounds} - {street} =====\nPot : {pot} | Mise actuelle : {current_bet}\nBoard visible : [{comm}]\n{lines}\nVotre main : {hole0}, {hole1}\n==============================================",
     "player_line": "P{pid}{role_txt} : {chips} jetons | mise {bet} | {status}",
-    "street_preflop": "Pre‑flop",
+    "street_preflop": "Pré‑flop",
     "street_flop": "Flop",
     "street_turn": "Turn",
     "street_river": "River",
@@ -54,34 +51,29 @@
     "status_folded": "couché",
     "status_all_in": "all-in"
   },
-
   "invalid_move": {
-    "wrong_action":     "Action de poker invalide.",
+    "wrong_action": "Action de poker invalide.",
     "check_facing_bet": "Impossible de checker face à une mise.",
-    "raise_too_small":  "La relance doit dépasser la mise actuelle.",
-    "game_complete":    "La partie est déjà terminée."
+    "raise_too_small": "La relance doit dépasser la mise actuelle.",
+    "game_complete": "La partie est déjà terminée."
   },
-
   "message": {
     "eliminated_invalid": "Le Joueur {pid} a été éliminé pour un coup invalide."
   },
-
   "action": {
-    "fold":  "Le Joueur {pid} se couche.",
+    "fold": "Le Joueur {pid} se couche.",
     "check": "Le Joueur {pid} checke.",
-    "call":  "Le Joueur {pid} suit {amount}.",
-    "bet":   "Le Joueur {pid} mise jusqu'à {total}.",
+    "call": "Le Joueur {pid} suit {amount}.",
+    "bet": "Le Joueur {pid} mise jusqu'à {total}.",
     "raise": "Le Joueur {pid} relance jusqu'à {total}."
   },
-
   "showdown": {
-    "fold_win":    "Le Joueur {winner} remporte le pot de {pot} jetons (tous les autres se sont couchés).",
+    "fold_win": "Le Joueur {winner} remporte le pot de {pot} jetons (tous les autres se sont couchés).",
     "reveal_line": "Joueur {pid} : {c0} {c1}",
-    "reveal":      "Showdown manche {round} :\n{reveals}\nCartes communes : {community}",
-    "win":         "Le Joueur {winner} remporte le pot de {pot} jetons.",
-    "tie":         "Égalité entre les joueurs {winners}. Chacun reçoit {share} jetons."
+    "reveal": "Showdown manche {round} :\n{reveals}\nCartes communes : {community}",
+    "win": "Le Joueur {winner} remporte le pot de {pot} jetons.",
+    "tie": "Égalité entre les joueurs {winners}. Chacun reçoit {share} jetons."
   },
-
   "outcome": {
     "final": "Classement final (bas→haut) : {ranking}. Gagnant : Joueur {winner}"
   }

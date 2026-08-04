@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "Дұрыс жылжыту форматы табылмады. [a1b2], мысалы [b2c3] қолданылсын.",
-    "illegal": "Move [{move}] is illegal."
+    "illegal": "[{move}] жүрісі заңсыз."
   },
   "game_action": {
     "moved": "Ойыншы {player_id} жылжыды {move}."

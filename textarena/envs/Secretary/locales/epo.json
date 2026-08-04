@@ -6,7 +6,7 @@
     "current_value": "La nuna valoro estas {value}."
   },
   "invalid_move": {
-    "wrong_format": "Action must be either [accept] or [continue]."
+    "wrong_format": "Ago devas esti aŭ [accept] aŭ [continue]."
   },
   "outcome": {
     "summary": "Vi akceptis valoron {value} ĉe egaleco {draw_num}/{N}. La plej bona ĝenerala estis {best}. {result}",

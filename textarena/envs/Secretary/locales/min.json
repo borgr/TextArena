@@ -9,7 +9,7 @@
     "wrong_format": "Tindakan harus [accept] atau [continue]."
   },
   "outcome": {
-    "summary": "You accepted value {value} at draw {draw_num}/{N}. The best overall was {best}. {result}",
+    "summary": "Anda menerima nilai {value} pado undian {draw_num}/{N}. Nan rancak dari sadonyo adolah {best}. {result}",
     "perfect": "Piliah nan samparono! ",
     "not_max": "Indak maksimum."
   }

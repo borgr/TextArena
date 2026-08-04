@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "Ní mór an gníomh a bheith i bhformáid [row col] áit ar ionann líne agus col uimhreacha iomlána ó 0 go dtí {max_index}.",
-    "out_of_range": "Coordinates must be between 0 and {max_index}. You entered [{row},{col}]."
+    "out_of_range": "Caithfidh na comhordanáidí a bheith idir 0 agus {max_index}. Chuir tú isteach [{row},{col}]."
   },
   "outcome": {
     "win": "Comhghairdeas! D'fhág tú an pháisle i mbeart {moves_used}!",

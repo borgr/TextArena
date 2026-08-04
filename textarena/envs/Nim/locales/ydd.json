@@ -13,7 +13,7 @@
     "exceeds_pile": "מען קען נישט אַראָפּנעמען {quantity} פֿון קאָלאָנע {pile_index} (נאָר {pile_count} איבעריג)."
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "שפילער {player_id} האט געשפילט [{pile_index} {quantity}], ענטפערנדיק {quantity} אביעקט(ן) פון קופע {pile_index}."
   },
   "outcome": {
     "win": "שפּילער {player_id} האָט גענומען דעם לעצטן כייפעץ!"

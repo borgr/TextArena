@@ -9,10 +9,10 @@
     "{pct}": "Progress as a percentage string, e.g. 50%"
   },
   "player_prompt": {
-    "intro": "Map each letter to a unique digit so the arithmetic holds.\nAssign with `[A 5]`, re-assign anytime.\n"
+    "intro": "מאפט יעדע אות צו א יחודי ציפער אז די אריטמעטיק האלט.\nאסיין מיט `[A 5]`, רע-אסיין אימער.\n"
   },
   "invalid_move": {
-    "wrong_format": "Bad action format. Use `[A 5]`.",
+    "wrong_format": "שלעכטע אקציע פארמאט. ניצט `[A 5]`.",
     "letter_not_in_puzzle": "בריוו {letter} נישט אין פּאַזאַל.",
     "digit_used": "ציפער {digit} שוין געניצט דורך {used_letter}.",
     "leading_zero": "די לידינג ציפער פֿון אַ וואָרט קען נישט זײַן 0."

@@ -16,23 +16,23 @@
     "{cards}": "The cards in a pile as neutral labels, or '--' if empty (never translate)"
   },
   "player_prompt": {
-    "intro": "You are playing Klondike Solitaire. Your goal is to move all cards to the foundation piles.\n\nGame Rules:\n- Foundation piles (F1-F4): Build up from Ace to King in suit\n- Tableau piles (T1-T7): Build down alternating colors (red on black, black on red)\n- Stock: Draw cards to waste pile\n- Waste (W): Top card available for play\n\nCommands:\n- 'draw' - Draw cards from stock to waste\n- 'move <source> <destination> [count]' - Move cards between piles\n  Examples: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count can also be 'all', which will try to move all face-up cards.\n- 'forfeit' - End the game immediately and lock in your current score\n- Pile names: W (waste), F1-F4 (foundations), T1-T7 (tableau)\n\nYou can execute multiple actions in one turn by separating them with commas:\n  Example: 'draw, move W T1, move T2 F1'\n\nOnly Kings can be placed on empty tableau piles.\nActions execute in order - if one fails, the remaining actions are skipped.\nUse 'forfeit' if you believe the game is impossible to win."
+    "intro": "E ta'alo Klondike Solitaire oe. O lou sini e si'itia pepa uma i le fa'avae.\n\nTulafono o le Ta'aloga:\n- Fa'avae (F1-F4): Fa'atupu mai Ace i King i le ituaiga\n- Fa'aputuga (T1-T7): Fa'atupu ifo i le lanu e si'itia (lanu mumu i luga o lanu uliuli, lanu uliuli i luga o lanu mumu)\n- Stock: Si'i pepa i le waste\n- Waste (W): O le pepa i luga e mafai ona si'itia\n\nKomiti:\n- 'draw' - Si'i pepa mai le stock i le waste\n- 'move <source> <destination> [count]' - Si'i pepa i le va o fa'aputuga\n  Fa'ata'ita'iga: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count e mafai foi ona 'all', lea e taumafai e si'itia pepa uma e fa'aali i luga.\n- 'forfeit' - Fa'ai'u le ta'aloga i le taimi nei ma fa'atumau lou 'ai\n- Igoa o fa'aputuga: W (waste), F1-F4 (fa'avae), T1-T7 (fa'aputuga)\n\nE mafai ona e fa'ata'ita'iga komiti e tele i le vaitaimi e tasi e ala i le fa'akomi i le komiti:\n  Fa'ata'ita'iga: 'draw, move W T1, move T2 F1'\n\nNa'o Kings e mafai ona si'itia i luga o fa'aputuga tuufua.\nGaioiga e fa'ata'ita'iga i le anotusi - pe afai e le manuia se tasi, gaioiga e totoe e skip.\nFa'aaoga 'forfeit' pe afai e te manatu o le ta'aloga e le mafai ona manumalo."
   },
   "format_error": {
     "no_brackets": "Faʻamatalaga e le aoga. E tatau ona i totonu o puipui faapipii gaioiga.",
     "no_closing_bracket": "Faʻataʻitaʻiga le saʻo o gaioiga. Leai se puipui faaiu ']'",
-    "empty_command": "Poloaiga gaogao. ituaiga 'toso' po o le \"siitia <puna> <taunuuga> [count]\"",
+    "empty_command": "Komiti tuufua. Tusi 'draw' po'o 'move <source> <destination> [count]'",
     "empty_action": "Gaoioiga gaogao",
     "move_needs_args": "O le faatonuga o le siitia atu e manaomia ai se punavai ma se taunuuga. Faaaogaina: 'move <source> <destination> [count]'",
-    "count_positive": "E tatau ona lelei le faitauga po o \"uma\"",
-    "count_invalid": "Faitau lē saʻo. Faaaoga se numera po o le \"tasi\"",
-    "unknown_command": "Unknown command '{cmd}'. Use 'draw', 'move <source> <destination> [count]', or 'forfeit'",
+    "count_positive": "Count e tatau ona posetive po'o 'all'",
+    "count_invalid": "Count e le sa'o. Fa'aaoga se numera po'o 'all'",
+    "unknown_command": "Fa'atonuga e le iloa '{cmd}'. Fa'aaoga 'draw', 'move <source> <destination> [count]', pe 'forfeit'",
     "wrapped": "Action {n}: {msg}"
   },
   "action_result": {
     "success": "Action {n}: {msg}",
     "before_failure": "Faatinoina {n} gaoioiga (s) i luma o le toilalo.",
-    "failed": "Action {n} failed: {msg}"
+    "failed": "Gaioiga {n} le manuia: {msg}"
   },
   "move_result": {
     "drew": "Na ia tosoina le pepa mai i se fale teu oloa e fai ma otaota.",

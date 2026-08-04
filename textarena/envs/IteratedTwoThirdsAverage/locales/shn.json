@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a {num_rounds}-round of IteratedTwoThirdsAverage.\nEach round, guess a number between {min_guess} and {max_guess}.\nAfter both guesses, the target is (2/3)x(average of both guesses),\nand the player whose guess is closest to the target wins that round.\nReply with your guess in the format '[<number>]'."
+    "intro": "တော်ပုံနာမည် {player_id} ဖြစ်ပါတယ်။ ဒီကနေ့ကစားမယ်ဆိုတဲ့ {num_rounds} ခုနှစ်ပတ်ကစားမယ်။\nတစ်ပတ်ခြင်းစီ သင်ခန်းစီတဲ့ {min_guess} နဲ့ {max_guess} အကြားက ဂဏန်းတစ်ခုကို ခန့်မှန်းပါ။\nခန့်မှန်းတဲ့ ဂဏန်း ၂ ခု အပြီးမှာ ပစ်မှတ်ဂဏန်းက (၂/၃) x (၂ ခု ခန့်မှန်းတဲ့ ဂဏန်း ပျမ်းမျှ) ဖြစ်ပါတယ်။\nပစ်မှတ် ဂဏန်းနဲ့ အနီးဆုံး ခန့်မှန်းတဲ့ ကစားသမား အနိုင်ရပါတယ်။\nသင်ခန့်မှန်းတဲ့ ဂဏန်းကို '[<number>]' ပုံစံမှာ ပြန်ပါ။"
   },
   "invalid_move": {
     "wrong_format": "ပိူင်ၽၢင်ဢၼ်ဢမ်ႇထုၵ်ႇမႅၼ်ႈၼၼ်ႉ၊ ၶႅၼ်းတေႃႈတၢင်ႇပၼ် လွင်ႈလၢမ်းၶၢတ်ႈၶွင်ၸဝ်ႈၵဝ်ႇ မိူၼ်ၼင်ႇ [<number>]။",

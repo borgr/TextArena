@@ -11,7 +11,7 @@
     "{ball_pos}": "The cup index the ball is under"
   },
   "player_prompt": {
-    "intro": "Track the hidden ball 'X' while the cups are shuffled.\nAfter shuffling, guess its location with `[k]`."
+    "intro": "కప్పులు షఫుల్ చేయబడుతున్నప్పుడు దాగి ఉన్న బంతి 'X'ని ట్రాక్ చేయండి.\nషఫుల్ చేసిన తర్వాత, దాని స్థానాన్ని `[k]`తో ఊహించండి."
   },
   "game_message": {
     "ball_starts": "బంతి ప్రారంభం: {line}",
@@ -21,7 +21,7 @@
     "reveal": "(బంతిని {ball_pos} కింద చూపించు)"
   },
   "invalid_move": {
-    "wrong_format": "Bad action. Use `[k]`.",
+    "wrong_format": "తప్పు చర్య. `[k]`ని ఉపయోగించండి.",
     "out_of_range": "సూచిక 0-{max_index} పరిధిలో లేదు."
   },
   "outcome": {

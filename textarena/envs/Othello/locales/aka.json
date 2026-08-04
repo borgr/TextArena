@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} playing {colour} ({piece}) in a game of Othello.\nYour goal is to have more pieces of your color on the board by the end of the game.\nOn your turn, place a piece such that it flanks one or more of your opponent's pieces-in any direction (horizontal, vertical, or diagonal)-between your new piece and another of your existing pieces. All flanked opponent pieces will be flipped to your color.\nProvide your move in the format '[row, col]'."
+    "intro": "Wo ne Agodifo {player_id} a oregoro {colour} ({piece}) wɔ Othello agoro mu.\nWo botae ne sɛ wo bɛnya wo kɔla pii sen biara wɔ agorɔdan no so bere a agoro no bɛba awiee.\nWo bere mu, fa kɔla si hɔ sɛnea ɛbɛtrɛw wo pɛpɛfo kɔla biara wɔ kwan biara (kwan a ɛyɛ pɛ, kwan a ɛyɛ kwansin, anaasɛ kwan a ɛyɛ kwankyɛn)-afei wo kɔla foforo no ne wo kɔla a wodii kan no bɛn abɔnten so. Wopɛpɛfo kɔla biara a wobɛtrɛw no bɛsesa kɔla wɔ wo dea.\nFa wo kwan a wobɛfa no wɔ '[row, col]' mu."
   },
   "board": {
     "game_board": "Agorɔ a wɔde di agoru: {board}",
@@ -16,10 +16,10 @@
   },
   "game_action": {
     "skipped": "Na ɛsɛ sɛ ɔgyinafo {pid} no to ne nsa so wɔ bere a ɔnni n'asae mu.",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "Player {pid} ({piece}) dii kwan [{r}, {c}] na ɛdan {flipped} kɔla(kɔla)"
   },
   "game_message": {
-    "must_skip": "Player {pid} ({piece}) has no valid moves and must skip."
+    "must_skip": "Player {pid} ({piece}) nni kwan a wobɛfa na ɛbɛyɛ sɛ wobɛdwane."
   },
   "outcome": {
     "black_wins": "Abibifo di nkonim {black_count}-{white_count}.",

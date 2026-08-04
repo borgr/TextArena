@@ -33,7 +33,7 @@
   },
   "trick": {
     "empty": "अब तक कौनो कार्ड एह चाल के ना खेलल रहे.",
-    "header": "Current trick:",
+    "header": "वर्तमान चाल:",
     "line": "  प्लेयर {player_id}: {card}{trump_mark}"
   },
   "turn": {

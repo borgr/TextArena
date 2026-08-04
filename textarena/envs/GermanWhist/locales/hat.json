@@ -31,7 +31,7 @@
     "learning_complete": "Deck la se fin itilize. faz aprantisaj lan fini - chak trik ki rete konte pou viktwa a."
   },
   "draw": {
-    "winner_received": "Ou te genyen trik la e ou resevwa {card}.",
+    "winner_received": "Ou genyen tou a epi resevwa {card}.",
     "loser_received": "Ou pèdi a ak trase {card} soti nan pon an.",
     "winner_preview": "Kat kap vini an sou òf se {card}."
   },
@@ -71,6 +71,6 @@
     "player_line": "{observation}\nJwè {player_id}: {scoring} mak yo ({tricks} total), {hand_size} kat nan men"
   },
   "outcome": {
-    "summary": "Learning phase - Player 0: {l0}, Player 1: {l1}. Playing phase - Player 0: {p0}, Player 1: {p1}. Player {winner_id} wins with {winner_tricks} scoring tricks!"
+    "summary": "Faz aprennaj - Jwè 0: {l0}, Jwè 1: {l1}. Faz jwe - Jwè 0: {p0}, Jwè 1: {p1}. Jwè {winner_id} genyen ak {winner_tricks} tou ki konte nan viktwa!"
   }
 }

@@ -16,7 +16,7 @@
   },
   "game_action": {
     "skipped": "Umdlali {pid} kwafuneka agqithe ithuba lakhe",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "UMdlali {pid} ({piece}) udlale [{r}, {c}] ukhupha {flipped} ipisi(zi)"
   },
   "game_message": {
     "must_skip": "Mdlali {pid} ({piece}) akakwazi ukudlala izakhono ezibaliswa kwaye kufuneka asule."

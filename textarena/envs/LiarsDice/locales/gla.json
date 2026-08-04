@@ -22,7 +22,7 @@
     "final_ranking": "list of player indices from first eliminated to winner"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in an {num_players}-player Liar's Dice game.\nRules:\n- On your turn, you may either:\n  1) Make a new bid with a higher quantity or higher face (or both) than the current bid; i.e. '[Bid: 3, 4]',\n  2) Call the last bid by typing '[Call]'.\n\nIf you call:\n  - If the actual count of that face value among all dice is less than the bid, the last bidder loses one die.\n  - Otherwise, the caller loses one die.\nA player who reaches 0 dice is eliminated. The last remaining player wins."
+    "intro": "Is tu Player {player_id} ann an geama Liar's Dice le {num_players} cluicheadairean.\nRiaghailtean:\n- Air do throigh, faodaidh tu:\n  1) Dèan tairgse ùr le barrachd àireamh no àireamh àiteach àrd (no an dà chuid) na tairgse làithreach; m.e. '[Bid: 3, 4]',\n  2) Gairm an tairgse mu dheireadh le bhith a' clàradh '[Call]'.\n\nMa gheallas tu:\n  - Ma tha àireamh fìor den luach àiteach sin am measg a h-uile dìs nas lugha na an tairgse, tha an neach-tairgse mu dheireadh a' call die aon.\n  - Mur eil, tha an gairmiche a' call die aon.\nTha cluicheadair a ruigeas 0 dìs air a dh'fhàgadh a-mach. Tha an cluicheadair mu dheireadh a' bhuannachadh."
   },
   "board": {
     "per_player": "\tCluicheach {p}: {d}",

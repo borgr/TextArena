@@ -31,19 +31,16 @@
     "{share}": "חלק האסימונים שכל מנצח בתיקו מקבל",
     "{ranking}": "הדירוג הסופי של מספרי השחקנים, מהנמוך לגבוה"
   },
-
   "player_prompt": {
     "intro": "אתה שחקן {player_id} במשחק Texas Hold'em Poker של {num_players} שחקנים.\nמידע על המשחק:\n- {num_rounds} ידיים בסך הכול\n- ערימה התחלתית: {starting_chips} אסימונים\n- בליינדים: {small_blind}/{big_blind}\n\nפעולות זמינות (אסימונים מדויקים):\n  '[Check]'  - כשאין הימור פעיל\n  '[Call]'   - להשוות את ההימור הנוכחי\n  '[Fold]'   - להשליך את היד שלך\n  '[Bet N]'  - לפתוח ב-N אסימונים\n  '[Raise N]'- להעלות ב-N אסימונים\n"
   },
-
   "game": {
     "start": "מתחילים משחק Texas Hold'em חדש בן {num_rounds} סבבים עם {num_players} שחקנים."
   },
-
   "board": {
     "panel": "===== יד {round} / {num_rounds} - {street} =====\nקופה: {pot} | הימור נוכחי: {current_bet}\nלוח גלוי: [{comm}]\n{lines}\nקלפי הכיס שלך: {hole0}, {hole1}\n==============================================",
     "player_line": "P{pid}{role_txt}: {chips} אסימונים | הימור {bet} | {status}",
-    "street_preflop": "Pre‑flop",
+    "street_preflop": "פרה-פלופ",
     "street_flop": "Flop",
     "street_turn": "Turn",
     "street_river": "River",
@@ -54,34 +51,29 @@
     "status_folded": "קיפל",
     "status_all_in": "all-in"
   },
-
   "invalid_move": {
-    "wrong_action":     "פעולת פוקר לא חוקית.",
+    "wrong_action": "פעולת פוקר לא חוקית.",
     "check_facing_bet": "אי אפשר לבדוק מול הימור.",
-    "raise_too_small":  "ההעלאה חייבת לעלות על ההימור הנוכחי.",
-    "game_complete":    "המשחק כבר הסתיים."
+    "raise_too_small": "ההעלאה חייבת לעלות על ההימור הנוכחי.",
+    "game_complete": "המשחק כבר הסתיים."
   },
-
   "message": {
     "eliminated_invalid": "שחקן {pid} הודח בגלל מהלך לא חוקי."
   },
-
   "action": {
-    "fold":  "שחקן {pid} מקפל.",
+    "fold": "שחקן {pid} מקפל.",
     "check": "שחקן {pid} בודק.",
-    "call":  "שחקן {pid} משווה {amount}.",
-    "bet":   "שחקן {pid} מהמר עד {total}.",
+    "call": "שחקן {pid} משווה {amount}.",
+    "bet": "שחקן {pid} מהמר עד {total}.",
     "raise": "שחקן {pid} מעלה עד {total}."
   },
-
   "showdown": {
-    "fold_win":    "שחקן {winner} זוכה בקופה של {pot} אסימונים (כל האחרים קיפלו).",
+    "fold_win": "שחקן {winner} זוכה בקופה של {pot} אסימונים (כל האחרים קיפלו).",
     "reveal_line": "שחקן {pid}: {c0} {c1}",
-    "reveal":      "הכרעה בסבב {round}:\n{reveals}\nקלפים משותפים: {community}",
-    "win":         "שחקן {winner} זוכה בקופה של {pot} אסימונים.",
-    "tie":         "תיקו בין השחקנים {winners}. כל אחד מקבל {share} אסימונים."
+    "reveal": "הכרעה בסבב {round}:\n{reveals}\nקלפים משותפים: {community}",
+    "win": "שחקן {winner} זוכה בקופה של {pot} אסימונים.",
+    "tie": "תיקו בין השחקנים {winners}. כל אחד מקבל {share} אסימונים."
   },
-
   "outcome": {
     "final": "דירוג סופי (מהנמוך→לגבוה): {ranking}. המנצח: שחקן {winner}"
   }

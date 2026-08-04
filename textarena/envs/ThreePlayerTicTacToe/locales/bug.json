@@ -11,22 +11,22 @@
     "{moves}": "The comma-separated list of available move tokens like '[4]' (do not translate)"
   },
   "player_prompt": {
-    "intro": "Anda adalah Pemain {player_id} dalam Tic Tac Toe Tiga Pemain.\nSimbol Anda adalah '{symbol}'.\nAnda bergantian menaruh simbol Anda pada papan 5x5 untuk membentuk garis empat.\nGaris dapat horizontal, vertikal, atau diagonal.\nKirimkan gerakan Anda menggunakan format '[4]' untuk menandai sel 4."
+    "intro": "Riolo nuwiwi {player_id} ri Three-Player Tic Tac Toe.\nSimbolu nuwiwi ri '{symbol}'.\nRiolo nuwiwi mappasili simbolu nuwiwi ri papan 5x5 makkala liné empa.\nLiné éréngé horizontal, vertical, atawa diagonal.\nSérékka gau nuwiwi ri format '[4]' makkala cell 4."
   },
   "board": {
-    "current_board": "Papan Saaran:\n\n{board}\n\nGerakkan Yang Tersedia: {moves}"
+    "current_board": "Papan Kini:\n\n{board}\n\nGau Makkala: {moves}"
   },
   "invalid_move": {
     "wrong_format": "Format appelleengeng de'na valid. Pakkegunai \"[cell]\" ri onrong sel e iyanaritu 0-{max_cell}.",
-    "out_of_range": "Nomor sel yang tidak valid: {cell}. Harus antara 0 dan {max_cell}.",
+    "out_of_range": "Cell nuwiwi salah: {cell}. Makkala riolo antara 0 sié {max_cell}.",
     "already_occupied": "Sel {cell} pura riakkegunangi.",
     "made_invalid": "Pelainang {player_id} makkebbu gerakang de'na magello."
   },
   "game_action": {
-    "placed": "Pemain {player_id} menaruh simbol mereka ({symbol}) di lapangan ({row}, {col})."
+    "placed": "Riolo {player_id} mappasili simbolu nuwiwi ({symbol}) ri tanété ({row}, {col})."
   },
   "outcome": {
-    "win": "Pemain {player_id} ({symbol}) menang!",
+    "win": "Riolo {player_id} ({symbol}) menanga!",
     "draw": "Pelengenna padai!"
   }
 }

@@ -11,7 +11,7 @@
     "{groups}": "Neutral ranking data (a list of player-id groups, worst to best); do not translate"
   },
   "player_prompt": {
-    "intro": "{num_players}-Player Snake on a {width}×{height} grid.\nYou control snake {player_id}. Valid moves: '[up]'/'[down]'/'[left]'/'[right]' (or w/s/a/d).\nObjective: survive longest or be the longest and get the highest score (turn limit {max_turns} turns)."
+    "intro": "{num_players}-Spiller-Schnäer op engem {width}×{height}-Gitter.\nDir kontrolléiert Schnäer {player_id}. Gëlteg Beweegungen: '[up]'/'[down]'/'[left]'/'[right]' (oder w/s/a/d).\nZil: iwwerliewen am längsten oder de längsten sinn an de héchsten Score kréien (Limite vu {max_turns} Réien)."
   },
   "board": {
     "current": "Aktuell Board: {board}",
@@ -26,6 +26,6 @@
     "outlived": "De Spiller huet all déi aner iwwerlieft.",
     "all_dead": "All Schlaangen si gestuerwen.",
     "turn_limit": "D'Récklimit ass erreecht - de beschte Score gewënnt den Tie-break.",
-    "ranking": "{reason} Final ranking groups (worst→best): {groups}"
+    "ranking": "{reason} Endgëlteg Ranking-Gruppen (schlechtsten → beschte): {groups}"
   }
 }

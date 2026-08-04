@@ -4,7 +4,7 @@
   },
   "board": {
     "current_board": "Bi tile la: {board}",
-    "valid_moves": "{observation}\nValid moves: {moves}"
+    "valid_moves": "{observation}\nJwele dɔw la: {moves}"
   },
   "invalid_move": {
     "wrong_format": "Yɛlɛma cogoya fililen.",

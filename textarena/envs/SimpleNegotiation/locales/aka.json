@@ -4,16 +4,16 @@
   },
   "invalid_move": {
     "receiving_with_no_resource": "Ɔbɔadeɛ no bɔɔ mmɔden sɛ obegye adwuma bi a na onni ho nimdeɛ.",
-    "out_of_range": "Player {player_id}, Invalid action. Column {col} is out of bounds.",
-    "already_full": "Player {player_id}, Invalid action. Column {col} is full.",
+    "out_of_range": "Player {player_id}, Adwuma a woyɛ no saa. Column {col} no wɔ akyirikyiri.",
+    "already_full": "Player {player_id}, Adwuma a woyɛ no saa. Column {col} no akyɛ.",
     "proposing_with_no_resource": "Ɔbɔadeɛ {player_id} bɔɔ mmɔden sɛ ɔbɛma no sika a ɔde bɛsesa ne agyapadeɛ nanso na onni bi.",
     "incorrect_offer_format": "Ɔbɔadeɛ {player_id} yɛɛ ne kyɛfa wɔ ɔfã a ɛntene mu.",
     "no_new_offer": "Ɔpanyin {player_id} no amma wɔn nsesaeɛ foforɔ biara."
   },
   "offers": {
     "reject": "Ɔbɔadeɛ {player_id} no antie n'akwanya.",
-    "accept": "Player {acceptor_id} accepted the trade offer from Player {proposer_id}.",
-    "proposal": "Player {player_id} made the following offer to Player {opponent_id}: Offered items: {offered} -> Requested items: {requested}"
+    "accept": "Akwantufoɔ {acceptor_id} gyeɛ agyapadeeɛ a Akwantufoɔ {proposer_id} de bɔɔ no.",
+    "proposal": "Player {player_id} bɔɔ tɔn a ɛte sɛɛ: Nneɛma a wɔde bɔ: {offered} -> Nneɛma a wɔpɛ: {requested} ma Player {opponent_id}"
   },
   "outcome": {
     "win": "Ɔbɔadeɛ {winner_id} no adi nkonim denam akatua a wanya wɔ nkrataa mu so.",

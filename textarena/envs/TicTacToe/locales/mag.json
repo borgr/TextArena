@@ -10,7 +10,7 @@
     "intro": "आप टिक टैक टो में खिलाड़ी {player_id} हैं।\nआपका लक्ष्य बोर्ड पर तीन को कतार में जीतना है (क्षैतिज, ऊर्ध्वाधर, या विकर्ण में)।\nअपनी बारी में, आपको अगले वर्ग संख्या (0-8) का चयन करना चाहिए जिसमें आप अपना निशान रखना चाहते हैं।\nउदाहरण के लिए, '[4]' बोर्ड के केंद्रीय सेल में आपका निशान रखता है।\nखिलाड़ी {player_id} के रूप में, आप '{symbol}' होंगे, जबकि आपका प्रतिद्वंद्वी '{opponent_symbol}' होगा।"
   },
   "board": {
-    "current_board": "Current Board:\n\n{board}\n\nAvailable Moves: {moves}"
+    "current_board": "वर्तमान बोर्ड:\n\n{board}\n\nउपलब्ध चालें: {moves}"
   },
   "invalid_move": {
     "wrong_format": "प्रस्तुत चाल सही प्रारूप के पालन ना करई छई।",
@@ -18,7 +18,7 @@
     "already_occupied": "सेल {cell} पहिले से ही कब्जा कर लेल गेल हई।"
   },
   "game_action": {
-    "placed": "Player {player_id} placed their symbol ({symbol}) in cell {cell}."
+    "placed": "खिलाड़ी {player_id} ने अपना प्रतीक ({symbol}) कोशिका {cell} में रखा है।"
   },
   "outcome": {
     "win": "खिलाड़ी {player_id} जीत गेलइ!",

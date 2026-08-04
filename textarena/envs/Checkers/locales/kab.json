@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "Urɛad ara aseɣwen sɣur amḍan. Sken [a1b2], sɛɛṛḍ [b2c3].",
-    "illegal": "Move [{move}] is illegal."
+    "illegal": "Tirir [{move}] d ilegal."
   },
   "game_action": {
     "moved": "Amyurar {player_id} yedda {move}."

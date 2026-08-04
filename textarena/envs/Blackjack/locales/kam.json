@@ -1,18 +1,18 @@
 {
   "player_prompt": {
-    "intro": "You are playing Blackjack against the dealer.\nYour goal is to get as close to 21 as possible without going over.\nOn your turn, choose '[Hit]' to draw another card or '[Stand]' to hold.\nJ/Q/K = 10 points; A = 11 or 1, whichever is better.\n"
+    "intro": "Unanatania Blackjack dhidi ya muuzaji.\nLengo lako ni kupata karibu 21 iwezekanavyo bila kupita.\nKatika zamu yako, chagua '[Hit]' ili kuchora kadi nyingine au '[Stand]' ili kushikilia.\nJ/Q/K = pointi 10; A = 11 au 1, kile ambacho ni bora.\n"
   },
   "board": {
     "current_state": "Mikono {hand_number}/{num_hands}\nMikono yako: {player_hand} (Alama: {score})\nMchezaji anayoonyesha: {dealer_card}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action. Use '[Hit]' or '[Stand]'."
+    "wrong_format": "Kitendo kisichofaa. Tumia '[Hit]' au '[Stand]'."
   },
   "game_message": {
-    "hand_result": "Hand {hand_number}: you {outcome}. Your final {player_score}, Dealer {dealer_score}.",
+    "hand_result": "Moko {hand_number}: u {outcome}. Alama yako ya mwisho {player_score}, Muuzaji {dealer_score}.",
     "all_complete": "=== Mikono yote {num_hands} imekamilika ===\nUshindi: {wins}, Hasara: {losses}, Sawa: {draws}\n"
   },
   "outcome": {
-    "game_over": "The game has concluded. Final scores: Dealer: {losses}, You: {wins}, Draws: {draws}"
+    "game_over": "Mchezo umekamilika. Alama za mwisho: Muuzaji: {losses}, Wewe: {wins}, Sare: {draws}"
   }
 }

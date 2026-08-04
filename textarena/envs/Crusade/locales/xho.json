@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({piece}). Opponent is ({opp}). Submit moves as '[b1 c3]' (from → to). All pieces move like chess knights.\nEach capture scores {score_per_capture} point. Game ends after {max_moves} moves or when a player has no legal move / no pieces. Higher score wins."
+    "intro": "UnguMdlali {player_id} ({piece}). Omgadleli wakho ngu ({opp}). Ngenisa iingqondo njengoko '[b1 c3]' (ukusuka → kuya). Zonke iimpawu zintshintsha njengempawu ye-khessi.\nInqaku ngalinye inikeza {score_per_capture} iphawu. Umdlalo uphela emva kwe {max_moves} ingqondo okanye xa umdlali anganakho ingqondo / alina mpawu. Iphawu ephakamileyo inqoba."
   },
   "board": {
     "current_board": "Khusele #{move_count}\n\n{board}\n\nIimovo Ezikhethekileyo: {moves}"

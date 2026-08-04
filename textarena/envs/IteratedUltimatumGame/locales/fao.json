@@ -24,7 +24,7 @@
     "intro": "Tú ert Leikari {player_id}, spælir {num_rounds} umførir av Iterated Ultimatum Leik.\nTú hevur ${pool} at skifta í hesa umførslu millum teg og Leikara {other_id}.\n\nFráboðari:\n  - Ger tilboð: [Offer: $X] (0 <= X <= pool)\n  - Um samtykt → Tú fær $(pool - X), hin leikarin fær $X\n  - Um avnumma → Báðir fáa $0\n  - Dømi: [Offer: $3]  eller  'Eg halda, at hetta er rættvís. [Offer: $5]'\n\nSvarandi:\n  - Ger avgerð um tilboðið við annaðhvort [Accept] eller [Reject]\n  - Dømi: 'Tað fer at síggja rættvís. [Accept]'\n            'Tað er ov unfair. [Reject]'\n"
   },
   "round": {
-    "begins": "--- Round {round_number} begins! ---\nPlayer {proposer_id} is the proposer, Player {responder_id} is the responder.",
+    "begins": "--- Runda {round_number} byrjar! ---\nSpælari {proposer_id} er uppleggjari, Spælari {responder_id} er svarari.",
     "offer": "Umførsla {round_number}: Leikari {proposer_id} bjóðar ${offer} til Leikara {responder_id} (heldur ${keep}).",
     "accepted": "Leikari {responder_id} hevur samtykt! Umførsla {round_number} vinnur: Leikari {proposer_id} +${proposer_gain}, Leikari {responder_id} +${responder_gain}. Nýggj samanlagt: Leikari 0: ${total_0}, Leikari 1: ${total_1}.",
     "rejected": "Leikari {responder_id} hevur avnumma tilboðið! Umførsla {round_number} vinnur: Báðir leikarar +$0. Samanlagt verður: Leikari 0: ${total_0}, Leikari 1: ${total_1}."

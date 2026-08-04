@@ -10,7 +10,7 @@
     "{to}": "The destination coordinate of a move, such as b3"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in game of LinesOfAction.\nYour pieces are '{side}', opponent pieces are '{other}'.\nMove format: `[b1b3]` (from-coord to-coord). A legal move travels horizontally, vertically, or diagonally a number of squares equal to the total pieces (any colour) in that line. You may jump over your own pieces, but not opponent pieces; landing on an opponent captures it.  Win when all your pieces are 8-neighbour connected."
+    "intro": "Siz LinesOfAction oýunundaky {player_id} oýunçysyňyz.\nSiziň daşlaryňyz '{side}', duşmanyň daşlary '{other}'.\nHereket formaty: `[b1b3]` (başlangyç-koordinat ýetişýän-koordinat). Kanuny hereket ýatyrýan, ýokarda ýa-da diagonally bir san köp daşlaryň (hemişe reňk) ýolundaky sanyna deňdir. Öz daşlaryňyzdan atlap geçip bilersiňiz, emma duşmanyň daşlaryndan geçip bilmeýärsiňiz; duşmanyň daşyna ýetişýän ýerinde ony ele geçirýärsiňiz.  Ähli daşlaryňyz 8-gonşy birleşýän wagty ýeňiş gazanýarsyňyz."
   },
   "board": {
     "current_board": "Ýolbaşçylyk maslahaty: {board}"

@@ -1,9 +1,9 @@
 {
   "player_prompt": {
-    "intro": "You are playing a {difficulty} RushHour puzzle. Slide cars to free the red car [X] and drive it out the right edge.\nActions: [A+], [B-], etc.  (+ = forward, - = backward)."
+    "intro": "Ati puzzle RushHour {difficulty} taphattuu jirta. Konkola diimaa bilisa baasuuf konkola gara mirgaatti socho'a [X] fi konkola diimaa gara mirgaatti ba'a.\nTaphattoo: [A+], [B-], kkf. (+ = gara fuulduraatti, - = gara duubaatti)."
   },
   "invalid_move": {
-    "wrong_format": "Invalid action. Use format [A+] / [B-].",
+    "wrong_format": "Taphattoo dogoggora. Akkaataa [A+] / [B-] fayyadamaa.",
     "no_car": "Boordicharra konkolaataan '{car_id}' hin jiru.",
     "blocked": "Sochiin cufameera."
   },

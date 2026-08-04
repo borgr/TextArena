@@ -13,7 +13,7 @@
     "repeated_guess": "तुम्ही आधीच {guess} अंदाज केला आहे. कृपया वेगळा अंदाज करून पहा."
   },
   "game_action": {
-    "feedback": "Submitted [{guess}]. Feedback: {black_pegs} black peg(s), {white_pegs} white peg(s)."
+    "feedback": "सादर केले [{guess}]. अभिप्राय: {black_pegs} काळे पेग(s), {white_pegs} पांढरे पेग(s)."
   },
   "outcome": {
     "win": "तुम्ही कोड क्रॅक केला आहे, {black_pegs} मधून {code_length} पेग्स बरोबर सोडवत आहात",

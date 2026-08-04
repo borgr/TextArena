@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in **Ultimate Tic Tac Toe**.\nSubmit your move as **[macro  micro]** (two numbers 0-8):\n• *macro*  = which mini-board you play in\n• *micro* = which square inside that mini-board\nExample `[7 8]` ➜ place your mark in mini-board 7, square 8, and\nforce your opponent to play in mini-board 8 next.\n\nYou are `{symbol}`.\n"
+    "intro": "Ame wò {player_id} le **Ultimate Tic Tac Toe**.\nDze move wò be **[macro  micro]** (agbalẽ eve 0-8):\n• *macro*  = mini-board siame wò dze\n• *micro* = square siame mini-board siame\nDzɔdzɔɖo `[7 8]` ➜ tsɔ mark wò le mini-board 7, square 8, eye\nkple woƒe opponent be wo dze le mini-board 8 ɣleti.\n\nAme wò `{symbol}`.\n"
   },
   "board": {
     "current_board": "Dɔwɔƒe si li fifia: {board}"
@@ -15,13 +15,13 @@
   },
   "next_board": {
     "any": "micro board ɖesiaɖe si me woazã mɔ̃wo le.",
-    "specific": "micro board {nxt}"
+    "specific": "agbadja viɖe {nxt}"
   },
   "game_action": {
-    "played": "Player {player_id} played in micro board {macro_idx}, cell {micro_idx} (row {row}, col {col}). Player {opponent_id} must now play in {nxt_txt}."
+    "played": "Agɔla {player_id} ɖu agbadja viɖe le agbadja gã {macro_idx} me, akpa {micro_idx} me (dzadza {row}, akɔnta {col}). Agɔla {opponent_id} wɔna ɖu le {nxt_txt} me."
   },
   "outcome": {
-    "win": "Player {player_id} won Ultimate Tic Tac Toe! (Tic-tac toe) - Eye to eye, eye to eye.",
+    "win": "Player {player_id} dzɔ Ultimate Tic Tac Toe!",
     "draw": "Wowɔ ɖeka!"
   }
 }

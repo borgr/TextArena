@@ -11,7 +11,7 @@
     "invalid_button": "Yon bouton ki pa valab te chwazi."
   },
   "game_action": {
-    "pressed": "Ou te peze bouton {button} la epi ou resevwa yon rekonpans nan {reward}."
+    "pressed": "Ou peze bouton {button} la ak resevwa yon rekonpans de {reward}."
   },
   "game_message": {
     "final_decision": "Ou fin itilize tout lajan ou genyen pou w eseye fè plizyè chwa e pou w gade sa yo bay, kounye a se lè sa a pou w deside ki pi bon opsyon."

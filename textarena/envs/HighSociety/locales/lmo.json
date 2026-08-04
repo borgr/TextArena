@@ -9,12 +9,12 @@
     "money_cards": "I tò cartòṅ di dinàr restànt: {money}"
   },
   "invalid_move": {
-    "wrong_format": "Must include exactly one [X] money card. (Must include precisely 1 [ 0]) cash card.",
+    "wrong_format": "El gh'ha de vesser denter ona carta de danee [X].",
     "card_not_held": "Tu nun ce l'hai più quella carta de credito."
   },
   "message": {
-    "tie": "Bids return. Rebid!",
-    "auction_result": "P0 bid {bid0}, P1 bid {bid1}. Player {winner} wins prestige {prize} (total {total})."
+    "tie": "Parità - oferten tornade. Ofri ancamò!",
+    "auction_result": "P0 l'ha ofertaa {bid0}, P1 l'ha ofertaa {bid1}. El giugador {winner} el vinc prestisg {prize} (total {total})."
   },
   "outcome": {
     "p0_wins": "Patrimoni {nw0} > {nw1}",

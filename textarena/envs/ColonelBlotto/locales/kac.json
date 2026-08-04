@@ -1,14 +1,14 @@
 {
   "player_prompt": {
-    "intro": "You are {role} in Colonel Blotto.\nYour goal is to win more rounds than your opponent.\nOn each round, allocate exactly {num_total_units} units across fields {field_names}.\nThe player who allocates more units to a field wins that field, and the player who wins more fields wins the round.\nFor example, '[A7 B7 C6]' allocates 7 units to A, 7 to B, and 6 to C.",
+    "intro": "Nanhte {role} Colonel Blotto na.\nNanhte a lam a kawp kawp hte maren a kawp kawp hpe n-gun ja yang gaw, nanhte a lam a kawp kawp hte maren a kawp kawp hpe n-gun ja yang gaw.\nNanhte a lam a kawp kawp hte maren a kawp kawp hpe n-gun ja yang gaw, {num_total_units} hpung shangun hku {field_names} na.\nNanhte a lam a kawp kawp hte maren a kawp kawp hpe n-gun ja yang gaw, shangun hku a kawp kawp hte maren a kawp kawp hpe n-gun ja yang gaw, '[A7 B7 C6]' hpung shangun hku 7 A, 7 B, 6 C na.",
     "commander_alpha": "Du Kaba Alpha hpe shaga u.",
     "commander_beta": "Hpyen Du Kaba Beta hpe shaga la u."
   },
   "game_state": {
-    "header_round": "=== COLONEL BLOTTO - Round {current_round}/{num_rounds} ===\nRounds Won - Commander Alpha: {alpha_score}, Commander Beta: {beta_score}"
+    "header_round": "=== COLONEL BLOTTO - {current_round}/{num_rounds} Maren ===\nMaren Kawp Kawp - Kumander Alpha: {alpha_score}, Kumander Beta: {beta_score}"
   },
   "round_battle": {
-    "field_result": "\nRound {current_round}\nCommander Alpha allocated: {p0_allocations}\nCommander Beta allocated: {p1_allocations}\n",
+    "field_result": "\nMaren {current_round}\nKumander Alpha shangun hku: {p0_allocations}\nKumander Beta shangun hku: {p1_allocations}\n",
     "winner_alpha": "{message}Awng Dang ai wa: Commander Alpha",
     "winner_beta": "{message}Awng dang ai wa: Commander Beta",
     "tie": "{message}Hkaw tsun bungli!"
@@ -17,14 +17,14 @@
     "wrong_format": "N htuk ai input format. A:5, B:10, C:5 hpe lang u",
     "invalid_field": "N htuk ai gabaw mying ni. Hkam kaja ai ga baw ni: {field_names}",
     "wrong_allocation_value": "Yawng hpe n jaw ai hkum dingnum ni hku nna garan ya ra ai.",
-    "incorrect_total_units": "You have to allocate exactly {num_total_units} units. Current sum: {current_sum}",
+    "incorrect_total_units": "Nanhte {num_total_units} hpung shangun hku shangun yang gaw. Shangun hku a lam a kawp kawp hte maren a kawp kawp hpe n-gun ja yang gaw: {current_sum}",
     "good_allocations": "Hkaw tsun bungli gaw kaja ai."
   },
   "outcome": {
-    "winner_alpha": "Commander Alpha wins {score_0}-{score_1} after {num_rounds} rounds!",
-    "winner_beta": "Commander Beta wins {score_1}-{score_0} after {num_rounds} rounds!",
-    "draw": "Game ends in a {score_0}-{score_1} tie after {num_rounds} rounds!",
-    "early_winner_alpha": "Commander Alpha wins {scores_0}-{scores_1} (majority achieved)!",
-    "early_winner_beta": "Commander Beta wins {scores_1}-{scores_0} (majority achieved)!"
+    "winner_alpha": "Kumander Alpha a kawp kawp {score_0}-{score_1} maren {num_rounds} kawp kawp!",
+    "winner_beta": "Kumander Beta a kawp kawp {score_1}-{score_0} maren {num_rounds} kawp kawp!",
+    "draw": "Maren {num_rounds} kawp kawp, {score_0}-{score_1} kawp kawp!",
+    "early_winner_alpha": "Kumander Alpha a kawp kawp {scores_0}-{scores_1} (kawp kawp a kawp kawp)!",
+    "early_winner_beta": "Kumander Beta a kawp kawp {scores_1}-{scores_0} (kawp kawp a kawp kawp)!"
   }
 }

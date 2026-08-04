@@ -9,7 +9,7 @@
     "progress": "{observation}\nPunteggi dal progres atual: {progress}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use `[i j op]` where i,j are indices and op is +,-,*,/",
+    "wrong_format": "Formât di azion no valit. Dopre `[i j op]` dulà che i,j a son i indiçs e op e je +,-,*,/",
     "invalid_indices": "Indics no valids. A àn di jessi diviers e a son tal interval 0-{max_index}",
     "invalid_operation": "Operazion no valide (division par zero o risultât che nol è un intîr)"
   },

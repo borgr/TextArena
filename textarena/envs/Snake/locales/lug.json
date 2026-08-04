@@ -23,7 +23,7 @@
   "outcome": {
     "survived_win": "Omuzannyi {player_id} yawonawo; abalala bonna baafa.",
     "all_dead_simul": "Emisota gyonna gyafa omulundi gumu.",
-    "outlived": "Player outlived all others.",
+    "outlived": "Mchezaji aliishi muda mrefu kuliko wengine wote.",
     "all_dead": "Emisota gyonna gifudde.",
     "turn_limit": "Ekigero ky'ekikopo kituuse - ekifo ekisingayo obulungi kiwangula tie-break.",
     "ranking": "{reason} Mpaka z'akafubo (zzaasi→zzibuukira): {groups}"

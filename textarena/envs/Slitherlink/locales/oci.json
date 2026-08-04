@@ -6,7 +6,7 @@
     "current_board": "{board}\nIndices satisfaches : {progress}"
   },
   "invalid_move": {
-    "wrong_format": "Mauvais format d'accion. Utilizatz [h row col] o [v row col].",
+    "wrong_format": "Format d'accion incorrècte. Utilizatz [h row col] o [v row col].",
     "out_of_bounds": "Bord exterior."
   },
   "outcome": {

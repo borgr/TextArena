@@ -1,21 +1,21 @@
 {
   "board": {
-    "current_board": "Huidig bestuur: {board}"
+    "current_board": "Aktueel bord:\n{board}"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} playing a game of Checkers as {color}.\nMake your move in chess-style notation [fileRank fileRank], e.g. '[b2c3]' (column letter a–h, row digit 0–7).\nBasic rules:\n  • Move diagonally forward by 1 if empty.\n  • Capture by jumping over an opponent piece.\n  • A piece is Kinged if it reaches the opposite end.\n"
+    "intro": "Geer zeen Speler {player_id} dee 'n spel van Dammen speult es {color}.\nDoog uch zet in sjakstijl-notatie [fileRank fileRank], b.v. '[b2c3]' (kolomletter a-h, rijciefel 0-7).\n Basisregele:\n  • Beweeg diagonaal nao veure mèt 1 es leeg.\n  • Verover door euver 'n stuk van d'n opponent te springe.\n  • E stuk weurt gekroend es 't de euverkant bereikt.\n"
   },
   "invalid_move": {
     "wrong_format": "Gein geldig zattypus gevónje. Gebruuk [a1b2], b.v. [b2c3].",
-    "illegal": "Move [{move}] is illegal."
+    "illegal": "Zet [{move}] is illegaal."
   },
   "game_action": {
-    "moved": "Speler {player_id} verplaatsde zich {move}."
+    "moved": "Speler {player_id} haet {move} gezat."
   },
   "outcome": {
     "red_no_pieces": "Rood haet gein stukkes meer. 't Zwart wint!",
     "black_no_pieces": "Zwart haet gein stukke meer. 't Rood wint!",
     "no_moves": "Speler {player_id} haet gein sjtapke meer.",
-    "draw": "De bocht is bereikt."
+    "draw": "De beurtelimiet is bereik."
   }
 }

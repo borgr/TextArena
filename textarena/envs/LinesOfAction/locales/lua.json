@@ -10,7 +10,7 @@
     "{to}": "The destination coordinate of a move, such as b3"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in game of LinesOfAction.\nYour pieces are '{side}', opponent pieces are '{other}'.\nMove format: `[b1b3]` (from-coord to-coord). A legal move travels horizontally, vertically, or diagonally a number of squares equal to the total pieces (any colour) in that line. You may jump over your own pieces, but not opponent pieces; landing on an opponent captures it.  Win when all your pieces are 8-neighbour connected."
+    "intro": "Owe udi Mwana {player_id} mu ndamba ya LinesOfAction.\nBikunda byobe ni '{side}', bikunda bya mukonda ni '{other}'.\nMfumo wa kusonga: `[b1b3]` (kuva-kwenda). Songa ya kikatengo kikendeke kwa mpimo wa kisonga, kwa kisonga, kwa mpimo wa kisonga, kwa kusonga munda wa bikunda byonso (wa mutengo wowote) mu kisonga kile. Owe usonga kupita bikunda byobe, kansi si bikunda bya mukonda; kusonga kwa mukonda kikukwata.  Owe ushinda loko bikunda byobe byonso bikatengele."
   },
   "board": {
     "current_board": "Kabadi: {board}"

@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in **Ultimate Tic Tac Toe**.\nSubmit your move as **[macro  micro]** (two numbers 0-8):\n• *macro*  = which mini-board you play in\n• *micro* = which square inside that mini-board\nExample `[7 8]` ➜ place your mark in mini-board 7, square 8, and\nforce your opponent to play in mini-board 8 next.\n\nYou are `{symbol}`.\n"
+    "intro": "Aweyi kɔnɔ {player_id} le **Ultimate Tic Tac Toe**.\nKɔnɔ kpaŋa kɛ **[macro  micro]** (kɔntɛmɛ ɖɛmɛ 0-8):\n• *macro*  = ɛyaa mini-kɔnɔ kɛ a kɔnɔ\n• *micro* = ɛyaa kɔntɛmɛ le mini-kɔnɔ ɛnɛ\nKɛlɛ kɛ `[7 8]` ➜ kɔnɔ a ɛyaa le mini-kɔnɔ 7, kɔntɛmɛ 8, pɛɛ\na kɔnɔ a ɖɔlɔ kɛ a kɔnɔ le mini-kɔnɔ 8 ɛnɛ.\n\nAweyi kɛ `{symbol}`.\n"
   },
   "board": {
     "current_board": "Kɩ-tɛ alɩwaatʊ taa: {board}"
@@ -18,7 +18,7 @@
     "specific": "Mikrowaa kɩkpɛdaa {nxt}"
   },
   "game_action": {
-    "played": "Player {player_id} played in micro board {macro_idx}, cell {micro_idx} (row {row}, col {col}). Player {opponent_id} must now play in {nxt_txt}."
+    "played": "Aweyi {player_id} kɔnɔ le mini-kɔnɔ {macro_idx}, kɔntɛmɛ {micro_idx} (kɔntɛmɛ {row}, kɔntɛmɛ {col}). Aweyi {opponent_id} kɔnɔ kɛ kɔnɔ le {nxt_txt}."
   },
   "outcome": {
     "win": "Ɛyʊ {player_id} wabɩ kɩcɛlɛŋ kɛ Tic Tac Toe! taa.",

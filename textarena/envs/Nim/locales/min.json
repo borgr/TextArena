@@ -13,7 +13,7 @@
     "exceeds_pile": "Indak buliah mangambil {quantity} dari tumpukan {pile_index} (hanyo {pile_count} nan tasiso)."
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "Pemain {player_id} bamain [{pile_index} {quantity}], manghapus {quantity} objek dari tumpukan {pile_index}."
   },
   "outcome": {
     "win": "Pamain {player_id} maambiak objek nan tarakhir!"

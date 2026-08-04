@@ -13,7 +13,7 @@
     "exceeds_pile": "{quantity} ඉවත් කිරීම {pile_index} පල්ලමෙන් (අඩුම වශයෙන් {pile_count} ඉතිරිව ඇත)."
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "ක්‍රීඩක {player_id} [{pile_index} {quantity}] ක්‍රීඩා කළේ, ගොඩ {pile_index} වෙතින් {quantity} වස්තූන් ඉවත් කරමින්."
   },
   "outcome": {
     "win": "ක්‍රීඩක {player_id} අවසාන වස්තු(වේ) ගත්තා!"

@@ -10,10 +10,10 @@
   "game_action": {
     "you_sunk": "Warishinze! Ushinze bato ku {coord}! Bato bwacu bufatshiwe:\n{view}",
     "opp_sunk": "Mukerarugamba yashinze bato yacu ku {coord}! Bato bwacu bufatshiwe:\n{view}",
-    "you_hit": "Hit! You hit a ship at {coord}! Your updated board:\n{view}",
+    "you_hit": "Gongwe! Wagogwe imbaraga kuri {coord}! Bodi yawe iliyosajiliwa:\n{view}",
     "opp_hit": "Mukerarugamba arishinye bato yacu ku {coord}! Bato bwacu bufatshiwe:\n{view}",
     "you_miss": "Ntwarishinze! Ushinze bato ku {coord}! Bato bwacu bufatshiwe:\n{view}",
-    "opp_miss": "Opponent missed your ship at {coord}! Your updated board:\n{view}"
+    "opp_miss": "Umukinnyi wawe atahise meli yawe kuri {coord}! Ubwagizo bwawe bwa meli bwa hivi punde:\n{view}"
   },
   "outcome": {
     "win": "Umukinyi {player_id} yarasenyuye amato yose y'uwo bahanganye!"

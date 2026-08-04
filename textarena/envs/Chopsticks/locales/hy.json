@@ -14,7 +14,7 @@
   },
   "game_action": {
     "attack": "P{player_id} հարձակվում է P{opp_id}-ի ձեռքի վրա {opp_idx}: այն գնում է {opp_val}-ից {new_val}:",
-    "split": "P{player_id} splits into [{L}, {R}]."
+    "split": "P{player_id} բաժանվում է [{L}, {R}]։"
   },
   "history": {
     "entry": "P{player_id} {desc}"

@@ -4,22 +4,22 @@
   },
   "board": {
     "current_board": "Yana nga board: {board}",
-    "current_game_board": "Yana nga Game Board: {board}"
+    "current_game_board": "Kasamtangan nga Board han Dula:\n{board}"
   },
   "invalid_move": {
     "wrong_format": "Waray balido nga format hin pag-agi. An magdudula {player_id} waray tumugon pinaagi han balido na direksyon ha mga paryente kwadrado.",
-    "out_of_bounds": "An invalid move. Player {player_id} nagpili hin out-of-bounds nga posisyon.",
+    "out_of_bounds": "Diri husto an imo pag-kiwa. An Player {player_id} nagpili hin posisyon nga aada ha gawas han board.",
     "same_card_twice": "Waray-pagpalit nga paglihok. An magdudula {player_id} nagpili hin pareho nga kard ha makaduha.",
     "already_matched": "An diri balido nga pag-agi. an Manlalaro {player_id} nagpili hin usa o duha ka mga kard nga ginparesulta na."
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "An mga kard nga pinili han Player {player_id} ha mga posisyon [{r1} {c1}] ngan [{r2} {c2}] nag-match!",
+    "cards_no_match": "An mga kard nga pinili han Player {player_id} diri nag-match. An mga kard ha mga posisyon [{r1} {c1}] ngan [{r2} {c2}] amo an {pos1} ngan {pos2} ha pagkakasunod."
   },
   "outcome": {
     "draw": "An duha nga magdudula nag-uyon han pariho nga kadamu hin mga pares.",
     "win": "Nagdaog an magdudula {winner_id}!",
-    "turn_limit": "Nakakarabot na an limitasyon han turn. Human na an game. Nakapuntos an Player 0 hin {score_0} puntos, ngan nakapuntos an Player 1 hin {score_1} puntos.",
-    "turn_limit_win": "{reason} Player {winner_id} has won!"
+    "turn_limit": "An turno limit naabot na. An mulay tapos na. An Player 0 nakascore hin {score_0} puntos, an Player 1 nakascore hin {score_1} puntos.",
+    "turn_limit_win": "{reason} An Player {winner_id} nakadaog!"
   }
 }

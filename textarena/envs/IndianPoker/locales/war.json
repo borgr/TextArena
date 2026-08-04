@@ -6,10 +6,10 @@
     "announce": "### Round {current_round}/{max_rounds}\nAn card han imo kalaban amo: {card}"
   },
   "invalid_move": {
-    "ambiguous": "Supply exactly ONE bracketed action, e.g. '[check]', '[bet 2]', '[call]', '[raise 3]', or '[fold]'.",
+    "ambiguous": "Ihatag an eksakto nga USA ka aksyon ha bracket, e.g. '[check]', '[bet 2]', '[call]', '[raise 3]', o '[fold]'.",
     "cannot_check": "Diri [check] - nagkikita ka hin pag-aresto.",
     "amount_min": "An kantidad han pag-ipon / pagdugang kinahanglan ≥ 1.",
-    "cannot_bet": "Cannot [bet] - must [call] / [raise] / [fold].",
+    "cannot_bet": "Diri pwede [bet] - dapat [call] / [raise] / [fold].",
     "nothing_to_call": "Waray na tawag; puydi ka [check] lugod.",
     "no_bet_to_raise": "Gamita an [bet X] ha pag-abre; waray bet nga igbabakwi.",
     "insufficient": "Diri igo nga mga chips para hiton na buhat."
@@ -23,7 +23,7 @@
     "possible_actions": "An imo posible nga mga buhat: {legal}"
   },
   "message": {
-    "round_result": "{reason}  Pot {pot} → Player {winner}. (Bankrolls P0:{p0}, P1:{p1})",
+    "round_result": "{reason}  Pot {pot} → Paragmay {winner}. (Mga Bankrolls P0:{p0}, P1:{p1})",
     "folded": "An manlalaro {player_id} in nag-iikyas.",
     "showdown_win": "Showdown: {card_win} nag-aabante kan {card_lose}.",
     "showdown_tie": "Showdown tie: pareho {card}. Pot split  an kada usa nakakarawat hin {split}."

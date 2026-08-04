@@ -7,7 +7,7 @@
     "out_of_range": "Gjev må vera mellom {min_guess} og {max_guess}."
   },
   "message": {
-    "round_guesses": "Player 0 guessed {guess0}; Player 1 guessed {guess1}. Thus the Target is: {target}.",
+    "round_guesses": "Spelar 0 gjetta {guess0}; spelar 1 gjetta {guess1}. Dermed er målet: {target}.",
     "round_draw": "Rundt er det ein tomme.",
     "round_win": "Spelaren {winner} vann runda!"
   },

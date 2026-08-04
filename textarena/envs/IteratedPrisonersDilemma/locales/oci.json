@@ -5,7 +5,7 @@
   "phases": {
     "conversation_finished": "Conversation acabada per lo torn {round}. Respondez amb '[Cooperate]' o '[Defect]' dins \\boxed{{}}.",
     "starting_round": "--- Començament de la ronda {round} ---",
-    "round_summary": "Resultats del torn {round}:\n{outcome}\nJogador 0 a ganhat {r0} (total {score_0}), Jogador 1 a ganhat {r1} (total {score_1})."
+    "round_summary": "Resultats del torn {round}:\n{outcome}\nLo Jogaire 0 a ganhat {r0} (total {score_0}), lo Jogaire 1 a ganhat {r1} (total {score_1})."
   },
   "outcome": {
     "winner": "Jogador {winner} ganha {win_score} - {lose_score}.",

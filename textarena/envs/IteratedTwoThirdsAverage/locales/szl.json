@@ -7,7 +7,7 @@
     "out_of_range": "Zgadnij musi być miyndzy {min_guess} a {max_guess}."
   },
   "message": {
-    "round_guesses": "Player 0 guessed {guess0}; Player 1 guessed {guess1}. Thus the Target is: {target}.",
+    "round_guesses": "Graczer 0 zgadł {guess0}; Graczer 1 zgadł {guess1}. To je Cyl: {target}.",
     "round_draw": "Runda to remis.",
     "round_win": "Gracz {winner} wygrywo rundã!"
   },

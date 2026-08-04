@@ -6,7 +6,7 @@
     "invalid_action": "Mtundu wa kujambula usikuwa sawa. Tumia '[roll]' or '[hold]'."
   },
   "actions": {
-    "player_busted": "Player {player_id} busted, losing {turn_total} points!",
+    "player_busted": "Mchezaji {player_id} wabwela, kupoteza {turn_total} pointi!",
     "player_hold": "Mwini {player_id} kukhala na kubana {turn_total} zipata."
   },
   "board": {

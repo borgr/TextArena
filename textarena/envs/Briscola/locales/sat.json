@@ -44,7 +44,7 @@
   },
   "invalid_move": {
     "wrong_format": "[play X] ᱵᱮᱵᱷᱟᱨ ᱢᱮ ᱡᱟᱦᱟᱸ ᱨᱮ X ᱫᱚ ᱠᱟᱨᱰ ᱨᱮᱱᱟᱜ ᱴᱷᱟᱶ (1, 2, 3, ᱮᱢᱟᱱ) ᱠᱟᱱᱟ ᱾",
-    "out_of_range": "Invalid card position. You have {count} cards (1-{count})"
+    "out_of_range": "ᱵᱟᱹᱲᱛᱤ ᱠᱟᱨᱰ ᱯᱳᱡᱤᱥᱚᱱ. ᱟᱢᱟᱜ {count} ᱠᱟᱨᱰ (᱑-{count})"
   },
   "action": {
     "played": "Player {player_id} {card} ᱮ ᱫᱚᱦᱚ ᱟᱠᱟᱫᱟ",

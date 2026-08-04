@@ -1,14 +1,14 @@
 {
   "player_prompt": {
-    "intro": "You are {role} in Colonel Blotto.\nYour goal is to win more rounds than your opponent.\nOn each round, allocate exactly {num_total_units} units across fields {field_names}.\nThe player who allocates more units to a field wins that field, and the player who wins more fields wins the round.\nFor example, '[A7 B7 C6]' allocates 7 units to A, 7 to B, and 6 to C.",
+    "intro": "O wewe {role} na Colonel Blotto.\nKolokoso ya wewe iya kwina mikolo mingi kuluta ya mpangi ya wewe.\nNa kila mikolo, wewe utala kusala {num_total_units} batalioni na bisika {field_names}.\nO muntu asala batalioni mingi na bisika mosi akokola bisika yina, na o muntu akokola bisika mingi akokola mikolo.\nKwa mfano, '[A7 B7 C6]' asala 7 batalioni na A, 7 na B, na 6 na C.",
     "commander_alpha": "Komanda Alfa.",
     "commander_beta": "Komanda Beta."
   },
   "game_state": {
-    "header_round": "=== COLONEL BLOTTO - Round {current_round}/{num_rounds} ===\nRounds Won - Commander Alpha: {alpha_score}, Commander Beta: {beta_score}"
+    "header_round": "=== COLONEL BLOTTO - Mikolo {current_round}/{num_rounds} ===\nMikolo ya kusala - Komandi Alpha: {alpha_score}, Komandi Beta: {beta_score}"
   },
   "round_battle": {
-    "field_result": "\nRound {current_round}\nCommander Alpha allocated: {p0_allocations}\nCommander Beta allocated: {p1_allocations}\n",
+    "field_result": "\nMikolo {current_round}\nKomandi Alpha asala: {p0_allocations}\nKomandi Beta asala: {p1_allocations}\n",
     "winner_alpha": "{message}Muntu yina me nunga: Komanda Alpha",
     "winner_beta": "{message}Muntu yina me nunga: Komanda Beta",
     "tie": "{message}Kanga nsinga!"

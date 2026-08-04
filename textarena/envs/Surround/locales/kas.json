@@ -10,21 +10,21 @@
     "{groups}": "Neutral ranking data (a list of player-id groups, best to worst); do not translate"
   },
   "player_prompt": {
-    "intro": "{num_players}-प्लेयर {width}x{height} ग्रिड पर घेरें।\nआप प्लेयर {player_id} हैं। वैध चालें: '[up]' '[down]' '[left]' '[right]' या w/s/a/d.\nउद्देश्य: सभी को पीछे छोड़ दें। ट्रेल्स घातक हैं; दीवार से टकराने से मौत होती है; सीधी टक्कर दोनों को मार देती है।"
+    "intro": "{num_players}-کھلاڑی سراؤنڈ {width}x{height} گرڈ پہ.\nتوہ کھلاڑی {player_id} ہوہ. وازہ حرکتاں: '[up]' '[down]' '[left]' '[right]' یا w/s/a/d.\nمقصد: باقی سب کھلاڑیاں نالوہ بچنہ. پگڈنڈیاں جانگہ ختم کرنہ; دیواراں نال ٹکراں مارنہ; آمنے سامنے ٹکراں دونوں کھلاڑیاں ختم کرنہ."
   },
   "board": {
-    "current": "करंट बोर्ड: {board}",
+    "current": "موجودہ بورڈ:\n{board}",
     "after_moves": "बोर्ड पतः येलि ज़न अख अकिस सीत चालान छु करन् यिवान: {board}"
   },
   "game_action": {
-    "invalid_death": "प्लेयर {player_id} छू अमान्य चाल की वजह से मर गया।"
+    "invalid_death": "کھلاڑی {player_id} غیر قانونی حرکت کی وجہ سے مر گیا."
   },
   "outcome": {
-    "survived_win": "प्लेयर {player_id} बचे; बाकि सब क्रैश.",
+    "survived_win": "کھلاڑی {player_id} بچ گیا; باقی سب کھلاڑیاں ٹکراں مارنہ.",
     "all_crashed": "सलीम प्लेयर क्रैश अकिस टाइमस पेठ.",
     "outlived": "प्लेयर छू बाक़ी सब्बो खोत ज़याद ज़िंदा.",
     "all_dead": "सरे प्लेयर मुद.",
     "turn_limit": "टर्न लिमिट छू -युस लोंगस्ट सर्वाइवर छी विनिंग्स मंज़.",
-    "ranking": "{reason} अंतिम रैंकिंग समूह (सबसे अच्छा→सबसे खराब): {groups}"
+    "ranking": "{reason} آخری درجہ بندی گروپ (بہترین→بدترین): {groups}"
   }
 }

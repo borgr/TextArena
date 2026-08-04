@@ -13,10 +13,10 @@
     "repeated_guess": "Sele uqikelele {guess}. Nceda uzame ukuqikelela ngenye indlela."
   },
   "game_action": {
-    "feedback": "Submitted [{guess}]. Feedback: {black_pegs} black peg(s), {white_pegs} white peg(s)."
+    "feedback": "Ithumelelwe [{guess}]. Impendulo: {black_pegs} izibane ezimnyama, {white_pegs} izibane ezimpempe."
   },
   "outcome": {
-    "win": "You have cracked the code, solving {black_pegs} out of {code_length} pegs correctly",
+    "win": "Uyiphule ikhowudi, ukhange usulunge {black_pegs} kwi-{code_length} izibane ngokwanele",
     "turn_limit": "Umda wokuguqula ufikelelwe. Uqikelele {percent} ekhulwini lamanani ngokuchanekileyo."
   }
 }

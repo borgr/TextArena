@@ -1,22 +1,22 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a {max_rounds} round game of Kuhn Poker.\nGame Rules:\n- Kuhn Poker uses a 3-card deck with J, Q, K (J lowest, K highest)\n- Each player antes {ante} chip and receives 1 card each round (note that the cards are dealt without replacement, so you cannot have the same card as your opponent).\n- Game continues for {max_rounds} rounds\n- The player with the most chips after all rounds wins\nAction Rules:\n- '[check]': Pass without betting (only if no bet is on the table)\n- '[bet]': Add 1 chip to the pot (only if no bet is on the table)\n- '[call]': Match an opponent's bet by adding 1 chip to the pot\n- '[fold]': Surrender your hand and let your opponent win the pot"
+    "intro": "Nanhte Player {player_id} ni {max_rounds} hpun Kuhn Poker hpun kawp kaw sa.\nHpun Gawng:\n- Kuhn Poker ni 3-hkaipawt hte J, Q, K (J hpan, K hpun kawp) hte shtu\n- Shi hte shi hkan {ante} chip shahte hte 1-hkaipawt kawp kaw sa hpun kawp hte (hkaipawt ni shi hte shi hkan n re ai, nang kawp kaw sa hte nang hte shi hkan hkaipawt n re ai)\n- Hpun kawp {max_rounds} hpun kawp sa\n- Shi hte shi hkan chip shagu hte hpun kawp kaw sa hte shi hte shi hkan chip shagu hte n re ai hte shi hte shi hkan hpun kawp sa\nAction Gawng:\n- '[check]': N re ai hte bet n re ai hte shi hte shi hkan (shi hte shi hkan n re ai hte bet n re ai hte)\n- '[bet]': 1 chip shahte hte pot hte (shi hte shi hkan n re ai hte bet n re ai hte)\n- '[call]': Shi hte shi hkan bet hte 1 chip shahte hte pot hte\n- '[fold]': Nang kawp kaw sa hte shi hte shi hkan hpun kawp sa"
   },
   "init_round": {
-    "round_start": "### {current_round} အရေးတွင် စတင်ရန်။ {max_rounds} အရေးများ။ သင့် ကတ်ပြားသည်။ '{player_card}'",
+    "round_start": "### {current_round} hpun kawp {max_rounds} hpun kawp sa. Nanhte hkaipawt ni: '{player_card}'",
     "available_actions": "Nang galaw mai ai lam ni gaw: {available_actions}"
   },
   "invalid_move": {
-    "wrong_format": "လှုပ်ရှားမှုသည် [Check]၊ [Bet]၊ [Call]၊ သို့ [Fold] ဖြစ်ရမည်။",
+    "wrong_format": "Action ni [Check], [Bet], [Call], hte [Fold] re.",
     "not_legal": "Galaw ra ai lam gaw {legal_actions} rai na re."
   },
   "action": {
-    "submit_move": "Player {player_id}, submitted move: '[{move}]'.",
+    "submit_move": "Player {player_id}, action sa: '[{move}]'.",
     "valid_actions": "Nang galaw mai ai lam ni gaw: {legal_actions}.",
-    "round_summary": "{reason} မွတ်စံတင်ထားသည်။ အချိန်ပိုင်းအမှတ်များ။ Player 0: '{player_0_chips}'။ Player 1: '{player_1_chips}'"
+    "round_summary": "{reason} Hkringmi a lam: Mi Hkrai 0: '{player_0_chips}'; Mi Hkrai 1: '{player_1_chips}'"
   },
   "showdown": {
-    "showdown_summary": "ပွဲ ပြီး။ Player {winner} '{winner_card}' အနိုင်။ Player {loser} '{loser_card}'။ Player {winner} ဘက် အနိုင်။ {pot_value} ချေးငွေ"
+    "showdown_summary": "Showdown: Player {winner} hte {winner_card} ni Player {loser} hte {loser_card} hte kawp kaw sa. Player {winner} ni {pot_value} chip shahte hte hpun kawp sa."
   },
   "outcome": {
     "draw": "{max_rounds} round ngut ai hpang, player lahkawng yan a sumpu gaw maren sha re.",

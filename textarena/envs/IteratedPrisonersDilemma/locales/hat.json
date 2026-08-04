@@ -8,7 +8,7 @@
     "round_summary": "Rezilta tou {round}:\n{outcome}\nJwè 0 genyen {r0} (total {score_0}), Jwè 1 genyen {r1} (total {score_1})."
   },
   "outcome": {
-    "winner": "Player {winner} wins {win_score} - {lose_score}.",
+    "winner": "Jwè {winner} genyen {win_score} - {lose_score}.",
     "draw": "Tou de jwè te fè nòt {s0}.",
     "round_both_cooperate": "Tou de jwè yo te kolabore.",
     "round_both_defect": "Tou de jwè yo te dezè.",

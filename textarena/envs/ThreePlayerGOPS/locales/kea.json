@@ -14,14 +14,14 @@
     "{scores}": "The final scores as a raw player-number to score mapping - do not translate"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player GOPS.\n- You hold the 13 cards A-K (each exactly once).\n- Each round a prize is revealed. Submit ONE card like `[Q]`, `[10]`, `[2]` …\n- Highest card wins the prize (+ any carry-over pot). Ties roll the prize into the next round.\n- After 13 rounds, highest total wins. Invalid moves = elimination."
+    "intro": "Bu é Jogadóri {player_id} na Three-Player GOPS.\n- Bu ten kartas 13 A-K (kada unu exatamenti unu vez).\n- Kada ronda un prémio é reveladu. Submeti UMA karta komu `[Q]`, `[10]`, `[2]` …\n- Karta mais alta ganha prémio (+ pote levadu). Empati lansa prémio pa ronda seguinti.\n- Depois di 13 rondas, pontu total mais altu ganha. Movimentus inválidus = eliminaçon."
   },
   "round": {
     "header": "### Rodada {round}/13 - Prémio: {prize} (balia {worth})",
     "hand": "Bu pó ki resta: {hand}"
   },
   "reveal": {
-    "win": "Ofertas  {bids} - Jogador {winner} ta ganha {pot}.",
+    "win": "Ofertas » {bids} - Jogadóri {winner} ganha {pot}.",
     "tie": "Ofertas  {bids} - empatá, pó agora {pot}.",
     "scores": "Skoreu → {scoreline}"
   },
@@ -33,7 +33,7 @@
     "player": "Jogu {pid} eliminadu dipôs di repitidu movimentu inválidu."
   },
   "outcome": {
-    "auto_win": "Dôs jogador eliminadu - ganha automátikamenti.",
+    "auto_win": "Dois jogadóris eliminadus - vitória automática.",
     "final": "Pontu di konkluzon: {scores}"
   }
 }

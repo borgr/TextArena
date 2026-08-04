@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "L'azion la dev esercitar el formatt [row col] indova i righe e le colonn a hinn di intger da 0 a {max_index}.",
-    "out_of_range": "Coordinates must be between 0 and {max_index}. You entered [{row},{col}]."
+    "out_of_range": "I coordinàa gh'hann de vèss tra 0 e {max_index}. Te hett inserìi [{row},{col}]."
   },
   "outcome": {
     "win": "FELICITÀ, hai risolto il puzzle in {moves_used} mosse! (in inglese) L'è staa bon de fà la part del problema.",

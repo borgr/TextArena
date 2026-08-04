@@ -1,9 +1,9 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a game of HighSociety (2-player version).\nGame flow:  Ten prestige cards are auctioned one after another.\nBidding:    Each auction, secretly choose a money card 1-11 and reveal.\n            • Higher bid wins the prestige card and discards that money card.\n            • Lower bid keeps their money card.\n            • Tie -> both bids are returned and the same prestige card is re-auctioned.\nScoring:    After all ten auctions, add **remaining cash + prestige points**.\n            Higher *net-worth* wins (exact tie -> draw).\n\n**Action syntax**  →  bid a single card like '[7]' or '[11]'."
+    "intro": "Ame wò Player {player_id} le agbalẽ HighSociety (agbalẽ 2-ame).\nAgbalẽ ƒe mɔnu:  Kɔsi wò 10 prestige ƒe kaɖiwo le agbalẽ me.\nGbedo:    Agbalẽ ɖeka ɖeka, tsɔ kɔsi wò 1-11 ƒe kaɖi gbedo eye wòazu.\n            • Gbedo kɔkɔe wòa nyagbɔgblɔ la prestige ƒe kaɖi eye wòa kɔsi wòa ɖe.\n            • Gbedo viví la wòa kɔsi wòa.\n            • Ŋku ɖeka -> gbedo eve wòazu eye prestige ƒe kaɖi ma wòa agbalẽ.\nKɔkɔe wòazu:    Agbalẽ wò 10 ƒe eme, ɖe **kɔsi wò + prestige akɔnta**.\n            Nyagbɔgblɔ *ƒe akɔnta* wòa (ŋku ɖeka -> agbalẽ xɔxɔ). \n\n**Ɖo ƒe sintaks**  →  gbedo kɔsi wò ɖeka abe '[7]' alo '[11]'."
   },
   "auction": {
-    "announce": "\n### Auction {round}/10  |  Prestige card: {prize}"
+    "announce": "\n### Agbalẽ {round}/10  |  Prestige ƒe kaɖi: {prize}"
   },
   "board": {
     "money_cards": "Ga si susɔ le wò gaƒlegbalẽvi dzi: {money}"
@@ -13,12 +13,12 @@
     "card_not_held": "Ga mele ŋuwò o."
   },
   "message": {
-    "tie": "Tie - bids returned. Rebid!",
-    "auction_result": "P0 bid {bid0}, P1 bid {bid1}. Player {winner} wins prestige {prize} (total {total})."
+    "tie": "Ŋku ɖeka - gbedo wòazu. Gbedo ga!",
+    "auction_result": "P0 gbedo {bid0}, P1 gbedo {bid1}. Player {winner} wòa prestige {prize} (kɔsi wò {total})."
   },
   "outcome": {
-    "p0_wins": "Net-worth {nw0} > {nw1}",
-    "p1_wins": "Net-worth {nw1} > {nw0}",
+    "p0_wins": "Fɔfɔ akɔnta {nw0} > {nw1}",
+    "p1_wins": "Fɔfɔ akɔnta {nw1} > {nw0}",
     "draw": "Wo ame evea siaa ƒe kesinɔnuwo {nw0}  sɔ pɛpɛpɛ."
   }
 }

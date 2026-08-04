@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "Waray makit-an nga balidong porma han move. Gamita ang [a1b2], e.g. [b2c3].",
-    "illegal": "Move [{move}] is illegal."
+    "illegal": "An lihok [{move}] amo an ilegal."
   },
   "game_action": {
     "moved": "An magdudula {player_id} in nagbalhin hin {move}."

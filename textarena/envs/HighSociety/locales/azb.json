@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a game of HighSociety (2-player version).\nGame flow:  Ten prestige cards are auctioned one after another.\nBidding:    Each auction, secretly choose a money card 1-11 and reveal.\n            • Higher bid wins the prestige card and discards that money card.\n            • Lower bid keeps their money card.\n            • Tie -> both bids are returned and the same prestige card is re-auctioned.\nScoring:    After all ten auctions, add **remaining cash + prestige points**.\n            Higher *net-worth* wins (exact tie -> draw).\n\n**Action syntax**  →  bid a single card like '[7]' or '[11]'."
+    "intro": "شما اویونچو {player_id} اوْلوب، HighSociety اویونونون ۲-اویونچولو وئرسیاسیندادیرسینیز.\nاویون آخیشی:  اون پرئستیژ کارتینین هر بیری آردیجیل اولاراق آکسیونا چیخاریلیر.\nتیکلر:    هر آکسیوندا، گیزلیجه ۱-۱۱ آراسی پول کارتیندان بیری سئچین و آچیقلاشدیرین.\n            • یوخاری تیک قازانان پرئستیژ کارتینی آلیب و اوْ پول کارتینی آتیر.\n            • آشاغی تیک اویونچوسو پول کارتینی ساخلاییر.\n            • برابرسئچی -> هر ایکی تیک ده گئری قایتاریلیر و عئینی پرئستیژ کارتینین آکسیونو تکرارلانیر.\nحئسابلاما:    اون آکسیوندان سوْنرا، **قالان پول + پرئستیژ خاللاری**نی توْپلایین.\n            یوخاری *خالص دَیَر* قازانیر (تام برابرسئچی -> برابرسئچی).\n\n**ائدیلمه سینتاکسی**  →  تکجه '[7]' و یا '[11]' کیمی بیر کارت تیکلایین."
   },
   "auction": {
     "announce": "\n### Müzayidə {round}/10  |  Nufuz kartı: {prize}"
@@ -14,7 +14,7 @@
   },
   "message": {
     "tie": "برابرلیک لی بولیج لر قایتاریلدی. یئنی دن!",
-    "auction_result": "P0 bid {bid0}, P1 bid {bid1}. Player {winner} wins prestige {prize} (total {total})."
+    "auction_result": "P0 {bid0} تیکلادی، P1 {bid1} تیکلادی. اویونچو {winner} پرئستیژ {prize} قازاندی (توْپلام {total})."
   },
   "outcome": {
     "p0_wins": "Net-dəyər {nw0} > {nw1}",

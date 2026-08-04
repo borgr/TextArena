@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are in a room with {num_buttons} buttons: {buttons}. Each button is associated with a Bernoulli distribution with a fixed but unknown mean; the means for the buttons could be different.\nFor each button, when you press it, you will get a reward that is sampled from associated distribution.\nYou have {num_turns} time steps and, on each time step, you can choose any button and receive the reward.\nYour goal is to strategically choose buttons at each time step to collect information about their reward distribution, that will let you choose the button with the highest mean reward correctly at the end of {num_turns} turns."
+    "intro": "Yin ee ruom ke {num_buttons} buthoŋ: {buttons}. Buthoŋ kɔ̈ɔ̈k aye ke kɔc piɛ̈r Bernoulli ke kɔc piɛ̈r ke kɔc wɛ̈ɛ̈r thɛɛ̈r; kɔc piɛ̈r ke buthoŋ aye ke kɔc wɛ̈ɛ̈r thɛɛ̈r.\nYin ee buthoŋ kɔ̈ɔ̈k, yin ee ŋɛ̈ɛ̈r ke kɔc piɛ̈r ke kɔc wɛ̈ɛ̈r thɛɛ̈r.\nYin ee {num_turns} aköl ke kɔc piɛ̈r, yin ee kɔc buthoŋ kɔ̈ɔ̈k ke kɔc piɛ̈r ke kɔc wɛ̈ɛ̈r thɛɛ̈r.\nYin ee kɔc buthoŋ kɔ̈ɔ̈k ke kɔc piɛ̈r ke kɔc wɛ̈ɛ̈r thɛɛ̈r, yin ee kɔc buthoŋ ke kɔc piɛ̈r ke kɔc wɛ̈ɛ̈r thɛɛ̈r ke {num_turns} aköl."
   },
   "board": {
     "stat_line": "{button}: {reward} (ciɛ̈l {count})",

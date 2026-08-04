@@ -60,7 +60,7 @@
     "not_started": "Agodie no ankɔ so ara",
     "header": "=== Germanfo Agoro Ahorow Game===",
     "phase": "{observation}\nPhase: {phase}",
-    "trump_suit": "{observation}\nTrump suit: {trump_suit}",
+    "trump_suit": "{observation}\nAhyɛnsodeɛ: {trump_suit}",
     "trump_card": "{observation}\nTrump kaa: {card}",
     "cards_left": "{observation}\nKaa no mu sɛ deck no mu: {count}",
     "next_card": "{observation}\nKaa a ɛba wɔn a ɛdi nkonim: {card}",
@@ -68,9 +68,9 @@
     "current_trick": "{observation} Akwan a yɛfa so di nnɛ:",
     "trump_indicator": "(TRUMP) Ɔyɛ obi a ɔtaa kasa.",
     "trick_line": "{observation}\n  Player {player_id}: {card}{trump_indicator}",
-    "player_line": "{observation}\nPlayer {player_id}: {scoring} scoring tricks ({tricks} total), {hand_size} cards in hand"
+    "player_line": "{observation}\nPlayer {player_id}: {scoring} nkonim a ɛbɛma woadi ({tricks} nyinaa), {hand_size} ka wɔ w'nsa mu"
   },
   "outcome": {
-    "summary": "Learning phase - Player 0: {l0}, Player 1: {l1}. Playing phase - Player 0: {p0}, Player 1: {p1}. Player {winner_id} wins with {winner_tricks} scoring tricks!"
+    "summary": "Sukuupɛ mu - Agodifoɔ 0: {l0}, Agodifoɔ 1: {l1}. Agorodie mu - Agodifoɔ 0: {p0}, Agodifoɔ 1: {p1}. Agodifoɔ {winner_id} di nkunim wɔ {winner_tricks} nsa"
   }
 }

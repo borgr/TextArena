@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in Connect Four.\nYour disc symbol: {symbol}.\nThe game board has {num_rows} rows and {num_cols} columns.\nPlayers take turns dropping their disc into one of the columns (0 to {end_col}).\nThe first to connect (their own) four discs vertically, horizontally, or diagonally wins.\nOn your turn, enter the column number in squared brackets to make your move.\nFor example: '[col 4]' or '[col 1]'."
+    "intro": "Iwe ndiwe Mutambi {player_id} muConnect Four.\nChishongo chako: {symbol}.\nBhodi ya mutambo ina {num_rows} safu na {num_cols} mitsamba.\nVatambi vanotamba zvekutamba vachidhibiti chishongo chavo mukati me mitsamba (0 kusvika {end_col}).\nAnenge atamba ari wekutanga kubatanidza (ake) diski nne wakati achipinda, achipfuura, kana ari diagonal anohwinha.\nPavakutamba kwako, nyora nambari ye mitsamba mabhuku e makoronyera kutamba.\nSekuruza: '[col 4]' kana '[col 1]'."
   },
   "board": {
     "board_visible_state": "Hurumende yebhodhi: {board_visual}",

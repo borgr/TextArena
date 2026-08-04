@@ -5,7 +5,7 @@
     "commander_beta": "Onyeisi ndị agha Beta"
   },
   "game_state": {
-    "header_round": "=== COLONEL BLOTTO - Round {current_round}/{num_rounds} === Rounds Won - Commander Alpha: {alpha_score}, Commander Beta: {beta_score}"
+    "header_round": "=== COLONEL BLOTTO - Agba {current_round}/{num_rounds} ===\nAga Mmeri - Onyeisi Alpha: {alpha_score}, Onyeisi Beta: {beta_score}"
   },
   "round_battle": {
     "field_result": "Gburugburu {current_round} Onye isi Alpha ekenyela: {p0_allocations} Onye isi Beta ekenyela: {p1_allocations} ",
@@ -17,7 +17,7 @@
     "wrong_format": "Ọdịdị ntinye na-abaghị uru. Jiri: A: 5, B: 10, C: 5",
     "invalid_field": "Aha ubi na-abaghị uru (s). ubi ndị dị mma: {field_names}",
     "wrong_allocation_value": "Ntinye niile ga-abụrịrị ọnụọgụgụ na-abụghị nke na-adịghị mma.",
-    "incorrect_total_units": "You have to allocate exactly {num_total_units} units. Current sum: {current_sum}",
+    "incorrect_total_units": "Ị ga-akewa otu {num_total_units} n'ime. Mkpụrụ ugbu a: {current_sum}",
     "good_allocations": "E kenyere ha ọrụ nke ọma."
   },
   "outcome": {

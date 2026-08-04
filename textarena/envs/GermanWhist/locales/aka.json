@@ -24,8 +24,8 @@
     "played": "Ɔbɔadeɛ {player_id} bɔɔ ɔbaa no a ɔde {card}."
   },
   "trick": {
-    "won": "Player {winner_id} wins the trick with {card}.",
-    "won_learning": "Player {winner_id} wins the trick with {card} and takes the face-up card."
+    "won": "Player {winner_id} di nkonim wɔ agorɔ yi mu a ɔde {card}.",
+    "won_learning": "Player {winner_id} di nkonim wɔ agorɔ yi mu a ɔde {card} na ɔfa ka no a ɛda adi."
   },
   "phase": {
     "learning_complete": "Wɔama pon no so ayɛ ma. Adesua a wɔresua no aba awiei - agoru biara a aka ho hia de kɔ nkonimdi mu."
@@ -60,7 +60,7 @@
     "not_started": "Agodie no amfi ase da.",
     "header": "=== Germanfo Agorobea a Wɔbɔ no Mfonini===",
     "phase": "{observation}\nPhase: {phase}",
-    "trump_suit": "{observation}\nTrump suit: {trump_suit}",
+    "trump_suit": "{observation}\nAhyɛnsodeɛ: {trump_suit}",
     "trump_card": "{observation}\nTrump kaa: {card}",
     "cards_left": "{observation}\nKaa no mu sɛ deck no mu: {count}",
     "next_card": "{observation}\nKaa a ɛba wɔn a ɛdi nkonim: {card}",

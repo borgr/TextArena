@@ -24,10 +24,10 @@
     "intro": "Nderehe Player {player_id}, ojapo {num_rounds} ñembo Iterated Ultimatum Game.\nNde réra ${pool} oñondiveva ko’ápe jasy ko Player {other_id}.\n\nProposer:\n  - Eñõguare: [Offer: $X] (0 <= X <= pool)\n  - Mba’eichapa ojeikuaa → Nderehe oiko $(pool - X), hapykuére oiko $X\n  - Mba’eichapa oñemboty → Mbohapy oiko $0\n  - Ejemplo: [Offer: $3]  or  'Ndaguete oiko fair. [Offer: $5]'\n\nResponder:\n  - Oñembo’e ñemonguare mbohapy [Accept] or [Reject]\n  - Ejemplo: 'Ko jevy oiko reason. [Accept]'\n            'Too unfair. [Reject]'\n"
   },
   "round": {
-    "begins": "--- Jasy {round_number} oñepyrũ! ---\nPlayer {proposer_id} ha’e proposer, Player {responder_id} ha’e responder.",
-    "offer": "Jasy {round_number}: Player {proposer_id} oñeme’ẽ ${offer} Player {responder_id} (oiko ${keep}).",
-    "accepted": "Player {responder_id} ojeikuaa! Jasy {round_number} oiko: Player {proposer_id} +${proposer_gain}, Player {responder_id} +${responder_gain}. New totals: Player 0: ${total_0}, Player 1: ${total_1}.",
-    "rejected": "Player {responder_id} oñemboty ñemonguare! Jasy {round_number} oiko: Mbohapy oiko +$0. Totals oiko: Player 0: ${total_0}, Player 1: ${total_1}."
+    "begins": "--- Ñembyaty {round_number} oñepyrû! ---\nJugador {proposer_id} ha'e ombotuicháva, Jugador {responder_id} ha'e oikuaáva.",
+    "offer": "Ñembyaty {round_number}: Jugador {proposer_id} ome'ẽ $ {offer} Jugador {responder_id} pe (oñongatupyty $ {keep}).",
+    "accepted": "Jugador {responder_id} oikuaauka! Ñembyaty {round_number} ohupyty: Jugador {proposer_id} +$ {proposer_gain}, Jugador {responder_id} +$ {responder_gain}. Opaite pytyvõ: Jugador 0: $ {total_0}, Jugador 1: $ {total_1}.",
+    "rejected": "Jugador {responder_id} oñembotavy ome'ẽ! Ñembyaty {round_number} ohupyty: Mokõveva +$0. Pytyvõ katuete: Jugador 0: $ {total_0}, Jugador 1: $ {total_1}."
   },
   "invalid_move": {
     "no_offer_format": "Oikuave'êva oikuavãta oiporúvo formato [Offer: $X].",
@@ -37,7 +37,7 @@
     "accept_or_reject": "Oñe'ê vaerã [Accept] térã [Reject] oferta."
   },
   "outcome": {
-    "win": "Player {winner} oñeha ${winner_total} jepyapyre vs Player {loser} ${loser_total}.",
+    "win": "Jugador {winner} oĩ ipytyvõ $ {winner_total} opytáva Jugador {loser} $ {loser_total} rehe.",
     "draw": "Mokõive jugador omohu'ã ${total} total."
   }
 }

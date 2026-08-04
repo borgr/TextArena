@@ -14,11 +14,11 @@
   },
   "message": {
     "tie": "ናይ ማዕረ ዋጋ ጨረታታት ተመሊሶም ኣለዉ። ዳግማይ!",
-    "auction_result": "P0 bid {bid0}, P1 bid {bid1}. Player {winner} wins prestige {prize} (total {total})."
+    "auction_result": "P0 ቢድ {bid0}፣ P1 ቢድ {bid1}። ተጫዋች {winner} ካርዳት ፕሬስቴጅ {prize} (ጠቅላላ {total}) ያሸንፋል።"
   },
   "outcome": {
-    "p0_wins": "Net-worth {nw0} > {nw1}",
-    "p1_wins": "Net-worth {nw1} > {nw0}",
+    "p0_wins": "ነጥ-ወርጥ {nw0} > {nw1}",
+    "p1_wins": "ነጥ-ወርጥ {nw1} > {nw0}",
     "draw": "ክልቲኦም ናይ {nw0}-ንጽሩይ ዋጋ ዘለዎም፡ ብማዕረ ዝተመሳሰሉ እዮም።"
   }
 }

@@ -7,10 +7,10 @@
     "{cell}": "A board cell number between 0 and 8"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Tic Tac Toe.\nYour goal is to win three in a row (horizontally, vertically, or diagonally) on the board.\nOn your turn, you should select the square number (0-8) you want to put your mark in next.\nFor example, '[4]' places your mark in the center cell of the board.\nAs Player {player_id}, you will be '{symbol}', while your opponent is '{opponent_symbol}'."
+    "intro": "Wee ni Mchezaji {player_id} katika Tic Tac Toe.\nLengo lako ni kushinda matatu mfululizo (mlalo, wima, au diagonal) kwenye ubao.\nWakati wa zamu yako, unapaswa kuchagua nambari ya mraba (0-8) unayotaka kuweka alama yako kwenye hatua inayofuata.\nKwa mfano, '[4]' huweka alama yako katika seli ya katikati ya ubao.\nKama Mchezaji {player_id}, utakuwa '{symbol}', wakati mpinzani wako ni '{opponent_symbol}'."
   },
   "board": {
-    "current_board": "Current Board:\n\n{board}\n\nAvailable Moves: {moves}"
+    "current_board": "Ubao wa Sasa:\n\n{board}\n\nMichezo Inayopatikana: {moves}"
   },
   "invalid_move": {
     "wrong_format": "Ũndũ ũla ũnatũtavisye kĩlungunĩ kĩĩ ũtumaa tũsũanĩa ta tũtonya kũelewa nesa ngewa ĩsu.",
@@ -21,7 +21,7 @@
     "placed": "Mchezaji {player_id} ameweka alama yake ({symbol}) kwenye seli {cell}."
   },
   "outcome": {
-    "win": "Player {player_id} has won!",
-    "draw": "The game is a draw!"
+    "win": "Mchezaji {player_id} ameshinda!",
+    "draw": "Mchezo umekwisha kwa sare!"
   }
 }

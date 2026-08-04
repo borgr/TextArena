@@ -10,7 +10,7 @@
     "unknown_square": "ᱵᱟᱰᱟᱭ ᱵᱟᱹᱱᱩᱜ ᱛᱟᱭᱟ ᱡᱤᱞᱤᱧ᱾",
     "not_your_piece": "ᱥᱚᱨᱵᱚ ᱫᱚ ᱟᱢᱟᱜ ᱴᱷᱟᱶ ᱵᱟᱝ ᱠᱟᱱᱟ ᱾",
     "own_piece": "ᱱᱤᱡᱮᱨᱟᱜ ᱴᱷᱟᱶ ᱨᱮ ᱵᱟᱭ ᱦᱟᱹᱴᱤᱧ ᱫᱟᱲᱮᱭᱟᱜᱼᱟ ᱾",
-    "not_knight": "Not a knight move."
+    "not_knight": "Knight gatividhi nai."
   },
   "game_action": {
     "moved": "ᱯᱞᱮᱭᱟᱨ {player_id} ᱟᱡᱟᱜ ᱯᱤᱥ ᱫᱚ {frm} ᱠᱷᱚᱱ {to} ᱛᱮ ᱩᱪᱟᱹᱲ ᱞᱮᱫᱟ.",

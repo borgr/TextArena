@@ -33,7 +33,7 @@
     "no_offer_format": "შემოთავაზების შემსრულებელმა უნდა გააკეთოს შეთავაზება ფორმატის [Offer: $X] გამოყენებით.",
     "bad_integer": "შეთავაზების თანხა უნდა იყოს სწორი მთელი რიცხვი.",
     "out_of_range": "შეთავაზება უნდა იყოს $0 და ${pool} შორის.",
-    "no_current_offer": "No current offer to respond to.",
+    "no_current_offer": "არ არსებობს მიმდინარე შეთავაზება პასუხის გასაცემად.",
     "accept_or_reject": "რესპონდენტმა უნდა [Accept] ან [Reject] შეთავაზება."
   },
   "outcome": {

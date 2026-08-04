@@ -12,8 +12,8 @@
   },
   "offers": {
     "reject": "Jaawal {player_id} sali jaɓɓol feere.",
-    "accept": "Player {acceptor_id} ina jibinaa trade offer haa Player {proposer_id}.",
-    "proposal": "Player {player_id} woni offer haa Player {opponent_id}: Offered items: {offered} -> Requested items: {requested}"
+    "accept": "Toɓo {acceptor_id} njaɓi eɗe ndaɗɗo ndaɓɓe toɓo {proposer_id}.",
+    "proposal": "Toɓo {player_id} wadi eɗe ndaɗɗo ndaɓɓe to toɓo {opponent_id}: Koɗe eɗe ndaɗɗo: {offered} -> Koɗe eɗe ndaɓɓe: {requested}"
   },
   "outcome": {
     "win": "Jaawal {winner_id} heɓi ngam heɓugo ɓesdugo nder daraja kujeji.",

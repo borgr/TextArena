@@ -10,7 +10,7 @@
     "{to}": "The destination coordinate of a move, such as b3"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in game of LinesOfAction.\nYour pieces are '{side}', opponent pieces are '{other}'.\nMove format: `[b1b3]` (from-coord to-coord). A legal move travels horizontally, vertically, or diagonally a number of squares equal to the total pieces (any colour) in that line. You may jump over your own pieces, but not opponent pieces; landing on an opponent captures it.  Win when all your pieces are 8-neighbour connected."
+    "intro": "Wo ne Oyikyerɛ {player_id} wɔ LinesOfAction agorɔ mu.\nWo pieces no yɛ '{side}', oponnyi pieces no yɛ '{other}'.\nMove format: `[b1b3]` (firi-coord to-coord). Move a ɛfata no fa kwan horizontal, vertical, anaa diagonal a ɛyɛ squares dodoɔ a ɛyɛ pieces (kɔkɔɔ biara) wɔ saa line no mu. Wobɛtumi akɔtene wo pieces wɔn ho, nanso wuntumi ankɔtene oponnyi pieces; wokɔ a woduru oponnyi no, wobɛfa no.  Wo a wodi agorɔ no bere a wo pieces nyinaa yɛ 8-neighbour connected."
   },
   "board": {
     "current_board": "Dwumadibea: {board}"
@@ -26,11 +26,11 @@
   },
   "game_action": {
     "moved": "Ɔdan {player_id} tu kɔ {from} -> {to}",
-    "captured_suffix": "Player {player_id} moved {from} -> {to} capturing an enemy."
+    "captured_suffix": "Oyikyerɛ {player_id} tuu {from} -> {to} faa oponnyi."
   },
   "outcome": {
     "win": "Nneɛma no nyinaa wɔ abusuabɔ.",
-    "draw_no_capture": "60 moves without capture.",
+    "draw_no_capture": "60 moves a wɔntumi ankɔfa oponnyi.",
     "draw_repetition": "Wɔsan yɛɛ tebea no ho adwuma mprɛnsa."
   }
 }

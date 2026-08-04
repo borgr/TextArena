@@ -9,7 +9,7 @@
     "progress": "{observation}\nAgdama a puntos ti progreso: {progress}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use `[i j op]` where i,j are indices and op is +,-,*,/",
+    "wrong_format": "Di mabalin a format ti aramid. Usaren `[i j op]` idiay i,j ket indices ken op ket +,-,*,/",
     "invalid_indices": "Dagiti saan nga umisu a indeks. Nasken a naiduma ken adda iti ranggo ti 0-{max_index}",
     "invalid_operation": "Saan a mabalin nga operasion (panagbibingayan babaen ti zero wenno saan-integer result)"
   },

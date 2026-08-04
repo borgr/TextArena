@@ -6,7 +6,7 @@
     "current_board": "Movimentu #{move_count} {board}"
   },
   "invalid_move": {
-    "bad_format": "Bad format. Use \"[a2 a3]\". [S'iscadèntzia de sa pàgina est istada cambiada]",
+    "bad_format": "Formatu malu. Impreada '[a2 a3]'.",
     "unknown_square": "Tzìrriu disconnotu.",
     "not_your_piece": "Sa fonte no est sa cosa tua.",
     "dest_not_empty": "Sa destinatzione no est bòida.",

@@ -11,7 +11,7 @@
     "illegal": "Ko ɗum jeyaaka bee dooka."
   },
   "game_action": {
-    "moved": "Player {player_id} made the following move: {move_uci}"
+    "moved": "Koɗo {player_id} yi'iwa maayde: {move_uci}"
   },
   "outcome": {
     "draw": "Fijirde timmi nder fijo.",

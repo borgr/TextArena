@@ -13,8 +13,8 @@
     "already_matched": "अमान्य चाल. खिलाड़ी {player_id} एगो या दुनों कार्ड चुनले बा जे पहिले से मिलान हो चुकल बाटे।"
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "खिलाड़ी {player_id} द्वारा चुनल कार्ड [{r1} {c1}] आ [{r2} {c2}] स्थान पर मिलान!",
+    "cards_no_match": "खिलाड़ी {player_id} द्वारा चुनल कार्ड मिल ना। [{r1} {c1}] आ [{r2} {c2}] स्थान पर कार्ड क्रमशः {pos1} आ {pos2} ह।"
   },
   "outcome": {
     "draw": "दुनों खिलाड़ी कार्ड के बराबर संख्या में जोड़ेलें.",

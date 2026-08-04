@@ -8,12 +8,12 @@
   },
   "invalid_move": {
     "wrong_format": "Taphachiisaa {player_id} ' lakkoofsa safaraa fi saanduqa' sirrii hin taaneen deebii kenne.",
-    "out_of_bounds": "Invalid move. Player {player_id} attempted to place {num} at ({row}, {col}), which is out of bounds.",
-    "overwrite": "Galti move. Player {player_id} yaroo cellii pre-filled ({row}, {col}) keessatti maxxanu.",
-    "violates_rules": "Galti move. Player {player_id} yaroo {num} akka ({row}, {col}) keessatti maxxanu, kan Sudoku rules violaes."
+    "out_of_bounds": "Tarkaanfii hin tolu. Player {player_id} lakkaa'uu {num} safuu ({row}, {col}) irratti buusuu yaale, baha keessaa hin taane.",
+    "overwrite": "Tarkaanfii hin tolu. Player {player_id} celliin duraan qabamee jiru ({row}, {col}) lakkaa'uuf yaale.",
+    "violates_rules": "Tarkaanfii hin tolu. Player {player_id} lakkaa'uu {num} safuu ({row}, {col}) irratti buusuu yaale, Seerota Sudoku hin tolu."
   },
   "outcome": {
     "win": "Taphachiisaa {player_id} sudokuu xumureera.",
-    "turn_limit": "The turn limit has been reached. You correctly filled {percent}% of the empty cells."
+    "turn_limit": "Dhuma tarkaanfii irra gahe. Ati celliin duwwaa {percent}% guute."
   }
 }

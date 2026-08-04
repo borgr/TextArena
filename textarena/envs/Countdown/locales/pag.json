@@ -9,7 +9,7 @@
     "progress": "{observation}\nSay kasalanan na puntos na panagduruman: {progress}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use `[i j op]` where i,j are indices and op is +,-,*,/",
+    "wrong_format": "Mali so format ti aksyon. Usaren `[i j op]` no sika, j so indices ken op so +,-,*,/",
     "invalid_indices": "Saray indehes ya aliwan balido. Nepeg a duma tan walad range 0-{max_index}",
     "invalid_operation": "Aliwan dugan operasyon (pambilay ed resulta na zero odino aliwan integer)"
   },

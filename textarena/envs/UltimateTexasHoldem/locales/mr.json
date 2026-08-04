@@ -45,7 +45,7 @@
     "dealer_best": " डीलरचा सर्वोत्तम हात: {name} ({cards})",
     "ante_lost_folded": " ANTE bet LOST! -${ante} (दुमडलेला)",
     "blind_lost_folded": " ब्लिंड बेट हरला! -${blind} (गुंडाळले)",
-    "ante_won": "✅ ANTE bet WON! +${amount}",
+    "ante_won": "✅ अँटे बेट जिंकले! +${amount}",
     "ante_pushed": " ANTE बेट पुश! ${ante} परत आले",
     "ante_lost": "❌ एंटी बेट गमावले! -${ante}",
     "blind_won": "✅ ब्लिंड बेट जिंकला! +${amount}",

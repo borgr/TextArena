@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({piece}). Opponent is ({opp}). Submit moves as '[b1 c3]' (from → to). All pieces move like chess knights.\nEach capture scores {score_per_capture} point. Game ends after {max_moves} moves or when a player has no legal move / no pieces. Higher score wins."
+    "intro": "तू खेलाड़ी {player_id} ({piece}) हउ। विरोधी हउ ({opp})। चाल '[b1 c3]' (से → तक) के रूप में जमा करू। सभी टुकड़े शतरंज के घोड़े की तरह चलते हउ।\nहर कैप्चर {score_per_capture} पॉइंट स्कोर करता हउ। खेल {max_moves} चालों के बाद या जब किसी खिलाड़ी के पास कोई वैध चाल / कोई टुकड़ा नहीं होता हउ, तब समाप्त होता हउ। उच्च स्कोर जीतता हउ।"
   },
   "board": {
     "current_board": "चाल #{move_count}\n\n{board}\n\nउपलब्ध चालें: {moves}"
@@ -9,7 +9,7 @@
     "bad_format": "खराब प्रारूप. '[b1 c3]' के उपयोग करहु।",
     "unknown_square": "अज्ञात वर्ग के साथ।",
     "not_your_piece": "स्रोत ऊ तुरी नयँ हइ ।",
-    "own_piece": "Cannot land on own piece.",
+    "own_piece": "अपने टुकड़े पर उतर नहीं सकता हउ।",
     "not_knight": "ई नाइट चाल नञ् हइ।"
   },
   "game_action": {

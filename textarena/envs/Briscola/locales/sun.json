@@ -39,7 +39,7 @@
   "turn": {
     "score_entry": "Pamaén {player_id}: {points} poin",
     "trump_info": "Trump jas: {trump_suit}",
-    "trump_info_deck": "Trump suit: {trump_suit} | Cards left in deck: {deck_count}",
+    "trump_info_deck": "Lambang trump: {trump_suit} | Kartu nu sésa dina dek: {deck_count}",
     "board": "{hand}\n\n{trick}\n\nSkor: {scores}\n{trump_info}\n\nMaénkeun kartu maké [play X]"
   },
   "invalid_move": {
@@ -48,7 +48,7 @@
   },
   "action": {
     "played": "Pamaén {player_id} ngalakon {card}",
-    "trick_win": "Player {winner} wins the trick with {card} and gains {points} points!"
+    "trick_win": "Pamaén {winner} meunang trik kalawan {card} sarta meunang {points} poin!"
   },
   "outcome": {
     "head": "Pigura rampung! Pamaén {winner} meunang kalawan {points} poin!\n\nSkor Ahir:\n{scores}",

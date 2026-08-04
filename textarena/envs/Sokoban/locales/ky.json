@@ -12,7 +12,7 @@
     "invalid_position": "Жарамсыз кыймыл - бул абалга кыймылдай албайт."
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
+    "moved": "Сиз {pushed} кыймылдаттыңыз [{action}].",
     "pushed_prefix": "бир кутуча түртүп"
   },
   "outcome": {

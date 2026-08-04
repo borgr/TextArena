@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a game of HighSociety (2-player version).\nGame flow:  Ten prestige cards are auctioned one after another.\nBidding:    Each auction, secretly choose a money card 1-11 and reveal.\n            • Higher bid wins the prestige card and discards that money card.\n            • Lower bid keeps their money card.\n            • Tie -> both bids are returned and the same prestige card is re-auctioned.\nScoring:    After all ten auctions, add **remaining cash + prestige points**.\n            Higher *net-worth* wins (exact tie -> draw).\n\n**Action syntax**  →  bid a single card like '[7]' or '[11]'."
+    "intro": "ଆପଣ ହାଇ ସୋସାଇଟି (2-ଖେଳାଳି ସଂସ୍କରଣ) ଗେମର ଖେଳାଳି {player_id} ।\nଗେମ ପ୍ରବାହ: ଦଶଟି ପ୍ରେସ୍ଟିଜ କାର୍ଡ ଏକ ପରେ ଅନ୍ୟ ନିଲାମ କରାଯାଏ ।\nବିଡିଂ: ପ୍ରତି ନିଲାମ, 1-11 ଟଙ୍କା କାର୍ଡ ଗୋପନୀୟ ଭାବେ ବାଛନ୍ତୁ ଏବଂ ପ୍ରକାଶ କରନ୍ତୁ ।\n            • ଉଚ୍ଚ ବିଡ ପ୍ରେସ୍ଟିଜ କାର୍ଡ ଜିତେ ଏବଂ ସେହି ଟଙ୍କା କାର୍ଡ ତ୍ୟାଗ କରେ ।\n            • ନିମ୍ନ ବିଡ ତାଙ୍କ ଟଙ୍କା କାର୍ଡ ରଖେ ।\n            • ଟାଇ -> ଉଭୟ ବିଡ ଫେରାଯାଏ ଏବଂ ସମାନ ପ୍ରେସ୍ଟିଜ କାର୍ଡ ପୁନଃ ନିଲାମ କରାଯାଏ ।\nସ୍କୋରିଂ: ସମସ୍ତ ଦଶ ନିଲାମ ପରେ, **ଅବଶିଷ୍ଟ ନଗଦ + ପ୍ରେସ୍ଟିଜ ପଏଣ୍ଟ** ଯୋଗ କରନ୍ତୁ ।\n            ଉଚ୍ଚ *ନେଟ-ୱର୍ଥ* ଜିତେ (ସଠିକ ଟାଇ -> ଡ୍ର) ।\n\n**କ୍ରିୟା ସିନ୍ଟାକ୍ସ**  →  ଏକ କାର୍ଡ ପରି '[7]' ଅଥବା '[11]' ପରି ବିଡ କରନ୍ତୁ ।"
   },
   "auction": {
     "announce": "### ନିଲାମ {round}/10 {prize} ପ୍ରତିଷ୍ଠିତ କାର୍ଡ:"

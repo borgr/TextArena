@@ -11,21 +11,21 @@
     "{groups}": "Neutral ranking data (a list of player-id groups, worst to best); do not translate"
   },
   "player_prompt": {
-    "intro": "{num_players}-Player Snake on a {width}×{height} grid.\nYou control snake {player_id}. Valid moves: '[up]'/'[down]'/'[left]'/'[right]' (or w/s/a/d).\nObjective: survive longest or be the longest and get the highest score (turn limit {max_turns} turns)."
+    "intro": "{num_players}-Pukllayuq Amaru {width}×{height} willañiqipi.\nQamkuna amaru {player_id} kamachiq. Kanan puriykuna: '[up]'/'[down]'/'[left]'/'[right]' (w/s/a/d).\nObjetivo: aswan unay kawsay icha aswan suni kawsayta atiy (pukllay tantiy {max_turns} tantiykuna)."
   },
   "board": {
     "current": "Kunanqa: {board}",
-    "after_moves": "Estado de la Junta actual: {board}"
+    "after_moves": "Kunan Willakuna Imayna:\n{board}"
   },
   "game_action": {
     "invalid_death": "Snake {player_id} wañusqa mana allin puriyrayku."
   },
   "outcome": {
-    "survived_win": "Player {player_id} survived; all others perished.",
+    "survived_win": "Pukllayuq {player_id} kawsarqa; wakin pukllayuqkuna wañuykamurqa.",
     "all_dead_simul": "Tukuy chay machʼasqa uj ratolla wañurqanku.",
     "outlived": "Chaypaqqa, tukuy rikusqanmanta aswanta kawsarqa.",
     "all_dead": "Tukuy machʼaqway wañusqa.",
     "turn_limit": "Chaypi, mayqen pukllaykunapas aswan allin kaqmi.",
-    "ranking": "{reason} Final ranking groups (worst→best): {groups}"
+    "ranking": "{reason} Qhipa ranking q'umir (pisipaymanta aswan allin): {groups}"
   }
 }

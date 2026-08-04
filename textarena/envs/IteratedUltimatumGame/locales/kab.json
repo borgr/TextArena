@@ -21,23 +21,23 @@
     "{total}": "Each player's tied final total (a number)"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id}, playing {num_rounds} rounds of Iterated Ultimatum Game.\nYou have ${pool} to split this round between yourself and Player {other_id}.\n\nProposer:\n  - Make an offer: [Offer: $X] (0 <= X <= pool)\n  - If accepted → You get $(pool - X), other player gets $X\n  - If rejected → Both get $0\n  - Example: [Offer: $3]  or  'I think this is fair. [Offer: $5]'\n\nResponder:\n  - Decide on the offer with either [Accept] or [Reject]\n  - Example: 'That seems reasonable. [Accept]'\n            'Too unfair. [Reject]'\n"
+    "intro": "D nek Wammud {player_id}, ttaɣlam {num_rounds} n tɣulin n Iterated Ultimatum Game.\nTesɛedda ${pool} i wakken ad txezmen deg kray-agi gar kečč d Wammud {other_id}.\n\nAɣellis:\n  - Ɛiwed tɛerrebt: [Offer: $X] (0 <= X <= pool)\n  - Ma d-yečča → Tesɛedda $(pool - X), wammud nniḍen tesɛedda $X\n  - Ma yugi → Ku tenɣa $0\n  - Amedya: [Offer: $3]  neɣ  'Xeɣṛen-aɣ d aḍil. [Offer: $5]'\n\nAɛewwi:\n  - Ṣṣayet ɣef tɛerrebt s [Accept] neɣ [Reject]\n  - Amedya: 'Yebɣa-d aḍil. [Accept]'\n            'Ur yelli ara aḍil. [Reject]'\n"
   },
   "round": {
-    "begins": "--- Round {round_number} begins! ---\nPlayer {proposer_id} is the proposer, Player {responder_id} is the responder.",
+    "begins": "--- Tɣult {round_number} tebda! ---\nWammud {proposer_id} d aɣellis, Wammud {responder_id} d aɛewwi.",
     "offer": "Twafra {round_number}: Aṭas {proposer_id} yernu ${offer} i Aṭas {responder_id} (yekkes ${keep}).",
-    "accepted": "Player {responder_id} accepted! Round {round_number} gains: Player {proposer_id} +${proposer_gain}, Player {responder_id} +${responder_gain}. New totals: Player 0: ${total_0}, Player 1: ${total_1}.",
-    "rejected": "Player {responder_id} rejected the offer! Round {round_number} gains: Both players +$0. Totals remain: Player 0: ${total_0}, Player 1: ${total_1}."
+    "accepted": "Wammud {responder_id} yečča! Tɣult {round_number} rebḥen: Wammud {proposer_id} +${proposer_gain}, Wammud {responder_id} +${responder_gain}. Teddaxin timaynutin: Wammud 0: ${total_0}, Wammud 1: ${total_1}.",
+    "rejected": "Wammud {responder_id} yugi tɛerrebt! Tɣult {round_number} rebḥen: Ku tenɣa $0. Teddaxin qeblen: Wammud 0: ${total_0}, Wammud 1: ${total_1}."
   },
   "invalid_move": {
     "no_offer_format": "Win i d-yefkan asumer ilaq ad yexdem taferka s useqdec n umedya [Offer: $X].",
     "bad_integer": "Aɣawas n usumer ilaq ad yili d amḍan imdanen.",
     "out_of_range": "Lḥeḍ ilaq ad yili gar $0 ed ${pool}.",
     "no_current_offer": "Ulac asumer i d-yettunefken tura.",
-    "accept_or_reject": "Responder must either [Accept] or [Reject] the offer."
+    "accept_or_reject": "Aɛewwi yessefk ad iɛejjem s [Accept] neɣ [Reject] tɛerrebt."
   },
   "outcome": {
-    "win": "Player {winner} won with ${winner_total} total vs Player {loser}'s ${loser_total}.",
+    "win": "Wammud {winner} rebḥen s ${winner_total} n teddaxt mgal Wammud {loser} i yesɛan ${loser_total}.",
     "draw": "Ssemman! Imezdaɣ-nni i sin kfan s ${total} n yedrimen."
   }
 }

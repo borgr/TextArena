@@ -16,16 +16,16 @@
     "{cards}": "The cards in a pile as neutral labels, or '--' if empty (never translate)"
   },
   "player_prompt": {
-    "intro": "You are playing Klondike Solitaire. Your goal is to move all cards to the foundation piles.\n\nGame Rules:\n- Foundation piles (F1-F4): Build up from Ace to King in suit\n- Tableau piles (T1-T7): Build down alternating colors (red on black, black on red)\n- Stock: Draw cards to waste pile\n- Waste (W): Top card available for play\n\nCommands:\n- 'draw' - Draw cards from stock to waste\n- 'move <source> <destination> [count]' - Move cards between piles\n  Examples: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count can also be 'all', which will try to move all face-up cards.\n- 'forfeit' - End the game immediately and lock in your current score\n- Pile names: W (waste), F1-F4 (foundations), T1-T7 (tableau)\n\nYou can execute multiple actions in one turn by separating them with commas:\n  Example: 'draw, move W T1, move T2 F1'\n\nOnly Kings can be placed on empty tableau piles.\nActions execute in order - if one fails, the remaining actions are skipped.\nUse 'forfeit' if you believe the game is impossible to win."
+    "intro": "Sampeyan lagi dolanan Klondike Solitaire. Tujuan sampeyan yaiku mindahake kabeh kertu menyang tumpukan pondasi.\n\nAturan Dolanan:\n- Tumpukan pondasi (F1-F4): Bangun saka As nganti Raja miturut jinis\n- Tumpukan meja (T1-T7): Bangun mudhun kanthi warna selang-seling (abang ing ireng, ireng ing abang)\n- Stok: Jupuk kertu menyang tumpukan limbah\n- Limbah (W): Kertu paling ndhuwur bisa dimainake\n\nPitakon:\n- 'draw' - Jupuk kertu saka stok menyang limbah\n- 'move <source> <destination> [count]' - Mindahake kertu antarane tumpukan\n  Tuladha: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count uga bisa 'all', sing bakal njarwakake mindahake kabeh kertu sing madhep munggah.\n- 'forfeit' - Mandhegake dolanan langsung lan kunci skor saiki\n- Jeneng tumpukan: W (limbah), F1-F4 (pondasi), T1-T7 (meja)\n\nSampeyan bisa nglakokake aksi-aksi akeh ing siji giliran kanthi misahake karo koma:\n  Tuladha: 'draw, move W T1, move T2 F1'\n\nMung Raja sing bisa dipasang ing tumpukan meja kosong.\nAksi-aksi dijalankan miturut urutan - yèn siji gagal, aksi-aksi sing isih bakal dilewati.\nGunakake 'forfeit' yèn sampeyan percaya dolanan iku ora bisa dimenangake."
   },
   "format_error": {
     "no_brackets": "Format tumindak ora valid. Tindakan kudu ing kurung .",
     "no_closing_bracket": "Format tumindak ora valid. Kurung penutupan sing ilang ']'",
     "empty_command": "Pesenan kosong. Ketik 'draw' utawa 'move <source> <destination> [count]'.",
     "empty_action": "Tumindak kosong",
-    "move_needs_args": "Pesenan pindhah mbutuhake sumber lan tujuan. Panganggone: 'pindhah <sumber> <tujuan> [count]'",
-    "count_positive": "Count kudu positif utawa 'kabeh'",
-    "count_invalid": "Nomer ora valid. Gunakake nomer utawa 'kabeh'",
+    "move_needs_args": "Pitakon mindahake butuh sumber lan tujuan. Cara nganggo: 'move <source> <destination> [count]'",
+    "count_positive": "Jumlah kudu positif utawa 'all'",
+    "count_invalid": "Jumlah ora bener. Gunakake angka utawa 'all'",
     "unknown_command": "Perintah tidak dikenal '{cmd}'. Gunakan 'draw', 'move <source> <destination> [count]', atau 'forfeit'",
     "wrapped": "Action {n}: {msg}"
   },

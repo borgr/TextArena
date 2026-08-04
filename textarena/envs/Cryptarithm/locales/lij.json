@@ -9,10 +9,10 @@
     "{pct}": "Progress as a percentage string, e.g. 50%"
   },
   "player_prompt": {
-    "intro": "Map each letter to a unique digit so the arithmetic holds.\nAssign with `[A 5]`, re-assign anytime.\n"
+    "intro": "Mappa ogni lettra a 'na cifra ùnica in mòddo che l'aritmética a ségge giùsta.\nAssegna con `[A 5]`, re-assegna in quæ se vòdde.\n"
   },
   "invalid_move": {
-    "wrong_format": "Bad action format. Use `[A 5]`.",
+    "wrong_format": "Formâto de açión errô. Usa `[A 5]`.",
     "letter_not_in_puzzle": "Lettera {letter} no inta puzzle.",
     "digit_used": "Digit {digit} za deuviou da {used_letter}.",
     "leading_zero": "A cifre de l'inandio d'unna poula a no peu ëse 0."

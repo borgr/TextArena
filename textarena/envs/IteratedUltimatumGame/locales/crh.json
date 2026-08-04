@@ -37,7 +37,7 @@
     "accept_or_reject": "Cavapçı [Accept] ya da [Reject] teklif etmeli."
   },
   "outcome": {
-    "win": "Player {winner} won with ${winner_total} total vs Player {loser}'s ${loser_total}.",
+    "win": "Oyuncu {winner} ${winner_total} toplamnen qazandı, Oyuncu {loser} ise ${loser_total} topladı.",
     "draw": "Eki oyuncı da ${total} umumiy miqdarında yekünledi."
   }
 }

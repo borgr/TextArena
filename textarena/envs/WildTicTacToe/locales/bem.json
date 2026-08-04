@@ -1,12 +1,12 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in Wild Tic Tac Toe.\nOn your turn, you can place either an 'X' or an 'O' in an empty square.\nYou win by aligning three of the same mark (X or O) in a row.\nYou can win with either symbol.\nChoose your move using the format '[X 4]' to place X in the center.\n"
+    "intro": "Nga ni Player {player_id} mu Wild Tic Tac Toe.\nPa zamu yako, ungashinsha ama 'X' kapena 'O' mu square ishina.\nUngakwata kwa kupeleka vitone vitatu vya umo alama (X kapena O) mu mstari.\nUngakwata na alama yoyene.\nSala zamu yako kwa kutumia mfumo '[X 4]' uweke X katikati.\n"
   },
   "board": {
-    "current_board": "Current Board:\n\n{board}\n\nAvailable Moves: {moves}"
+    "current_board": "Bodi Iliyo Sasa:\n\n{board}\n\nMizunguko Iliyo Wazi: {moves}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid move format. Use '[X 4]' or '[O 2]' format.",
+    "wrong_format": "Mfumo wa zamu usio sahihi. Tumia mfumo '[X 4]' kapena '[O 2]'.",
     "invalid_cell": "Inambala ya cell iyabula insambu: {cell}. Ifwile ukuba pakati ka 0 na 8.",
     "already_occupied": "Ukubombako kwabula insambu. cell {cell} yalikwata abantu kale."
   },

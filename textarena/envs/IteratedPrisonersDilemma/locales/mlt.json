@@ -4,8 +4,8 @@
   },
   "phases": {
     "conversation_finished": "Konversazzjoni spiċċat għar-round {round}. Jekk jogħġbok irrispondi bil-'[Cooperate]' jew '[Defect]' ġo \boxed{{}}.",
-    "starting_round": "--- Starting Round {round} ---",
-    "round_summary": "Riżultati tar-round {round}:\n{outcome}\nPlayer 0 ikiseb {r0} (total {score_0}), Player 1 ikiseb {r1} (total {score_1})."
+    "starting_round": "--- Qed tibda r-Rawnd {round} ---",
+    "round_summary": "Riżultati tar-Rawnd {round}:\n{outcome}\nPlejer 0 kiseb {r0} (total {score_0}), Plejer 1 kiseb {r1} (total {score_1})."
   },
   "outcome": {
     "winner": "Player {winner} jirbaħ {win_score} - {lose_score}.",

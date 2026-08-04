@@ -11,10 +11,10 @@
     "{moves}": "The comma-separated list of available move tokens like '[4]' (do not translate)"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player Tic Tac Toe.\nYour symbol is '{symbol}'.\nYou take turns placing your symbol on a 5x5 board to form a line of four.\nLines can be horizontal, vertical, or diagonal.\nSubmit your move using the format '[4]' to mark cell 4."
+    "intro": "We ni Mchezaji {player_id} katika Tic Tac Toe ya Wachezaji Watatu.\nIshara yako ni '{symbol}'.\nUnapishana kupanga ishara yako kwenye ubao wa 5x5 ili kuunda mstari wa nne.\nMistari inaweza kuwa ya usawa, wima, au diagonal.\nWasilisha hatua yako kwa kutumia mfumo '[4]' ili kuweka alama kwenye seli ya 4."
   },
   "board": {
-    "current_board": "Current Board:\n\n{board}\n\nAvailable Moves: {moves}"
+    "current_board": "Ubao wa Sasa:\n\n{board}\n\nHatua Zinazopatikana: {moves}"
   },
   "invalid_move": {
     "wrong_format": "Gũthama ti kĩo. Twandĩkĩre \"[cell]\" harĩa cell nĩ 0-{max_cell} .",

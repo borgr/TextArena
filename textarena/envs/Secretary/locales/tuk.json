@@ -1,15 +1,15 @@
 {
   "player_prompt": {
-    "intro": "You will observe {N} hidden values sequentially.\nAt each step type [accept] to pick the *current* value, or [continue] to skip it and see the next one.\nIf you never accept, you are forced to take the final value.\nYou win (reward = 1) **only** if the value you ultimately pick is the highest of all."
+    "intro": "Siz ýaşyrýn {N} sany gymmaty ýalyň ýerine ýetirip görmeli. \nHer ädimde häzirki gymmaty saýlamak üçin [accept] ýazyň ýa-da ony geçip, indiki gymmaty görmek üçin [continue] ýazyň. \nEger-de siz hiç haçan kabul etmeseniz, siz iň soňky gymmaty almaga mejbur edilýärsiňiz. \nSiz ýeňýärsiňiz (sylag = 1) **diňe** eger-de siz iň soňunda saýlaýan gymmatyňyz ähli gymmatlardan ýokary bolsa."
   },
   "game_action": {
     "current_value": "Häzirki baha {value}."
   },
   "invalid_move": {
-    "wrong_format": "Action must be either [accept] or [continue]."
+    "wrong_format": "Hereket ýa [accept] ýa-da [continue] bolmaly."
   },
   "outcome": {
-    "summary": "You accepted value {value} at draw {draw_num}/{N}. The best overall was {best}. {result}",
+    "summary": "Siz {draw_num}/{N} ýoryşda {value} gymmatyny kabul etdiňiz. Iň ýokary gymmaty bolsa {best}. {result}",
     "perfect": "Täze saýlaw! ",
     "not_max": "Maksimum däl."
   }

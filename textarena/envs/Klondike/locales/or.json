@@ -16,17 +16,17 @@
     "{cards}": "The cards in a pile as neutral labels, or '--' if empty (never translate)"
   },
   "player_prompt": {
-    "intro": "You are playing Klondike Solitaire. Your goal is to move all cards to the foundation piles.\n\nGame Rules:\n- Foundation piles (F1-F4): Build up from Ace to King in suit\n- Tableau piles (T1-T7): Build down alternating colors (red on black, black on red)\n- Stock: Draw cards to waste pile\n- Waste (W): Top card available for play\n\nCommands:\n- 'draw' - Draw cards from stock to waste\n- 'move <source> <destination> [count]' - Move cards between piles\n  Examples: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count can also be 'all', which will try to move all face-up cards.\n- 'forfeit' - End the game immediately and lock in your current score\n- Pile names: W (waste), F1-F4 (foundations), T1-T7 (tableau)\n\nYou can execute multiple actions in one turn by separating them with commas:\n  Example: 'draw, move W T1, move T2 F1'\n\nOnly Kings can be placed on empty tableau piles.\nActions execute in order - if one fails, the remaining actions are skipped.\nUse 'forfeit' if you believe the game is impossible to win."
+    "intro": "ଆପଣ Klondike Solitaire ଖେଳୁଛନ୍ତି. ଆପଣର ଲକ୍ଷ୍ୟ ହେଉଛି ସମସ୍ତ କାର୍ଡକୁ ପ୍ରତିଷ୍ଠା ପାଇଲକୁ ସ୍ଥାନାନ୍ତର କରିବା.\n\nଖେଳ ନିୟମ:\n- ପ୍ରତିଷ୍ଠା ପାଇଲ (F1-F4): ଏକ ରଙ୍ଗର କ୍ରମ ଅନୁସାରେ ଏସ ପରଠାରୁ କିଙ୍ଗ ପର୍ଯ୍ୟନ୍ତ ତିଆରି କରନ୍ତୁ\n- ଟେବୁଲ ପାଇଲ (T1-T7): ରଙ୍ଗ ବଦଳ କରି କାର୍ଡ ତିଆରି କରନ୍ତୁ (ଲାଲ ଉପରେ କଳା, କଳା ଉପରେ ଲାଲ)\n- ଷ୍ଟକ: କାର୍ଡ ଡ୍ର କରି ୱେଷ୍ଟ ପାଇଲକୁ ପଠାନ୍ତୁ\n- ୱେଷ୍ଟ (W): ଉପର କାର୍ଡ ଖେଳ ପାଇଁ ଉପଲବ୍ଧ\n\nକମାଣ୍ଡ:\n- 'draw' - ଷ୍ଟକରୁ ୱେଷ୍ଟ ପାଇଲକୁ କାର୍ଡ ଡ୍ର କରନ୍ତୁ\n- 'move <source> <destination> [count]' - ପାଇଲ ମଧ୍ୟରେ କାର୍ଡ ସ୍ଥାନାନ୍ତର କରନ୍ତୁ\n  ଉଦାହରଣ: 'move W T1', 'move T1 F2', 'move T3 T5 2'. ଗଣନା 'all' ହୋଇପାରେ, ଯାହା ସମସ୍ତ ମୁଖ-ଉପର କାର୍ଡ ସ୍ଥାନାନ୍ତର କରିବ.\n- 'forfeit' - ଖେଳ ତତ୍‌କ୍ଷଣାତ ଶେଷ କରନ୍ତୁ ଏବଂ ବର୍ତ୍ତମାନ ସ୍କୋର ଲକ କରନ୍ତୁ\n- ପାଇଲ ନାମ: W (ୱେଷ୍ଟ), F1-F4 (ପ୍ରତିଷ୍ଠା), T1-T7 (ଟେବୁଲ)\n\nଆପଣ ଏକ ଟର୍ନରେ ଏକାଧିକ କ୍ରିୟା କାର୍ଯ୍ୟ କରିପାରିବେ କମା ଦ୍ୱାରା ସେଗୁଡିକୁ ପୃଥକ କରି:\n  ଉଦାହରଣ: 'draw, move W T1, move T2 F1'\n\nଖାଲି ଟେବୁଲ ପାଇଲ ଉପରେ କେବଳ କିଙ୍ଗ ରଖାଯାଇ ପାରିବ.\nକ୍ରିୟା କ୍ରମ ଅନୁସାର କାର୍ଯ୍ୟ କରନ୍ତି - ଯଦି ଗୋଟିଏ ବିଫଳ ହୁଏ, ଅବଶିଷ୍ଟ କ୍ରିୟା ଏଡ଼ା ଯାଇଥାଏ.\n'forfeit' ବ୍ୟବହାର କରନ୍ତୁ ଯଦି ଆପଣ ଖେଳ ଜିତିବା ଅସମ୍ଭବ ବୋଲି ଭାବନ୍ତି."
   },
   "format_error": {
     "no_brackets": "ଅବୈଧ କ୍ରିୟା ଶୈଳୀ. କ୍ରିୟା କୁଣ୍ଡଳୀରେ ରହିବା ଉଚିତ.",
     "no_closing_bracket": "ଅବୈଧ ଆକ୍ସନ ଫର୍ମାଟ. ବନ୍ଦ ହେବା ପାଇଁ ବ୍ରାକେଟ୍ ମିସ୍ ']'",
-    "empty_command": "ଖାଲି ଆଦେଶ. ଟାଇପ୍ କରନ୍ତୁ 'ଡ୍ର' କିମ୍ବା 'ମବ <ସ୍ରୋତ> <ଗନ୍ତବ୍ୟ> [count]'",
+    "empty_command": "ଖାଲି କମାଣ୍ଡ. 'draw' କିମ୍ବା 'move <source> <destination> [count]' ଟାଇପ କରନ୍ତୁ",
     "empty_action": "ଖାଲି କାର୍ଯ୍ୟାନୁଷ୍ଠାନ",
     "move_needs_args": "ଘୁଞ୍ଚାଇବା ଆଦେଶରେ ଉତ୍ସ ଏବଂ ଗନ୍ତବ୍ୟ ଆବଶ୍ୟକ ହୋଇଥାଏ । ବ୍ୟବହାରଃ 'move <source> <destination> [count]'",
-    "count_positive": "ଗଣନା ସକାରାତ୍ମକ ହେବା ଉଚିତ କିମ୍ବା 'ସବୁ'",
-    "count_invalid": "ଅବୈଧ ଗଣନା. ଏକ ସଂଖ୍ୟା କିମ୍ବା 'ସମସ୍ତ' ବ୍ୟବହାର କରନ୍ତୁ",
-    "unknown_command": "ଅଜଣା ଆଦେଶ '{cmd}'. 'ଡ୍ର', 'ମୋର <ଉତ୍ସ> <ଗନ୍ତବ୍ୟ> [count]' କିମ୍ବା 'ଅସ୍ୱୀକାର' ବ୍ୟବହାର କରନ୍ତୁ",
+    "count_positive": "ଗଣନା ଧନାତ୍ମକ ହୋଇଥାଏ କିମ୍ବା 'all'",
+    "count_invalid": "ଅବୈଧ ଗଣନା. ଏକ ସଂଖ୍ୟା କିମ୍ବା 'all' ବ୍ୟବହାର କରନ୍ତୁ",
+    "unknown_command": "ଅଜଣା କମାଣ୍ଡ '{cmd}'. 'draw', 'move <source> <destination> [count]', କିମ୍ବା 'forfeit' ବ୍ୟବହାର କରନ୍ତୁ",
     "wrapped": "କାର୍ଯ୍ୟାନୁଷ୍ଠାନ {n}: {msg}"
   },
   "action_result": {

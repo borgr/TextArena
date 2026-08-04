@@ -10,10 +10,10 @@
     "correct_format_wrong_fields": "Player {player_id}, Walang saysay nga kilos. Column {col} wala sa mga hanganan.",
     "out_of_range": "Ang pile index {pile_index} wala sa sakup.",
     "non_positive": "Kinahanglan nga kuhaon ang labing menos 1 ka butang.",
-    "exceeds_pile": "Cannot remove {quantity} from pile {pile_index} (only {pile_count} left)."
+    "exceeds_pile": "Dili makakuha og {quantity} gikan sa pundok {pile_index} (naa ra {pile_count} ka butang ang nahabilin)."
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "Ang Player {player_id} milihok [{pile_index} {quantity}], nagkuha og {quantity} ka butang gikan sa pundok {pile_index}."
   },
   "outcome": {
     "win": "Ang player {player_id} mikuha sa katapusang butang ((s)!"

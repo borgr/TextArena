@@ -1,16 +1,16 @@
 {
   "player_prompt": {
-    "intro": "Wewe ni Mchezaji {player_id} katika mchezo wa Indian Poker.\n- Decks ya kadi 52; unaweza tu kuona kadi ya mpinzani.\n- Ante {ante} chip(s) kila raundi, {max_rounds} raundi zote.\n- Hatua halali: '[check]'  |  '[bet X]'  |  '[call]'  |  '[raise X]'  |  '[fold]'  (X ni nambari chanya <= idadi ya chip yako.)\n- Kadi ya juu zaidi iliyofichwa inashinda poti katika mchezo wa showdown.\n"
+    "intro": "Wee ni Mchezaji {player_id} katika mchezo wa Indian Poker.\n- Sitaha ya kadi 52; unaweza tu kuona kadi ya mpinzani.\n- Ante {ante} chip(s) kila raundi, {max_rounds} raundi kwa jumla.\n- Vitendo halali: '[check]'  |  '[bet X]'  |  '[call]'  |  '[raise X]'  |  '[fold]'  (X ni nambari chanya <= hesabu yako ya chip.)\n- Kadi iliyojificha ya juu hushinda poti kwenye ushindani.\n"
   },
   "round": {
-    "announce": "### Round {current_round}/{max_rounds}\nYour opponent's card is: {card}"
+    "announce": "### Raundi {current_round}/{max_rounds}\nKadi ya mpinzani wako ni: {card}"
   },
   "invalid_move": {
-    "ambiguous": "Peleka hatua moja tu iliyo ndani ya mabano, kwa mfano '[check]', '[bet 2]', '[call]', '[raise 3]', au '[fold]'.",
-    "cannot_check": "Hauwezi [check] - uko katika hali ya kukabiliwa na beti.",
+    "ambiguous": "Toa kitendo kimoja tu kilichowekwa mabano, mfano '[check]', '[bet 2]', '[call]', '[raise 3]', au '[fold]'.",
+    "cannot_check": "Huwezi [check] - unakabiliwa na beti.",
     "amount_min": "No nginya mwĩthĩwe mũtatonya kũsoma nesa.",
-    "cannot_bet": "Hauwezi [bet] - lazima [call] / [raise] / [fold].",
-    "nothing_to_call": "Hakuna kitu cha kuita; unaweza [check] badala yake.",
+    "cannot_bet": "Huwezi [bet] - lazima [call] / [raise] / [fold].",
+    "nothing_to_call": "Hakuna kitu cha kuomba; unaweza [check] badala yake.",
     "no_bet_to_raise": "Tũmĩa [bet X] kwambĩĩsya; vai ĩsaũ ya kũlika.",
     "insufficient": "Vai mũndũ wĩsĩ ũsũngĩo."
   },
@@ -23,14 +23,14 @@
     "possible_actions": "Maũndũ ala ũtonya kwĩka: {legal}"
   },
   "message": {
-    "round_result": "{reason}  Pot {pot} → Mchezaji {winner}. (Bankrolls P0:{p0}, P1:{p1})",
+    "round_result": "{reason}  Poti {pot} → Mchezaji {winner}. (Bankrolls P0:{p0}, P1:{p1})",
     "folded": "Mũthaũki {player_id} aekanie na ũmbano.",
     "showdown_win": "Kũvuany'a: {card_win} kũkũna {card_lose}.",
-    "showdown_tie": "Showdown tie: wote {card}. Pot imegawanywa – kila mmoja anapata {split}."
+    "showdown_tie": "Ushindani sawa: zote mbili {card}. Poti imegawanywa – kila mmoja anapokea {split}."
   },
   "outcome": {
     "p0_wins": "Mchezaji 0 anashinda ({bank0} > {bank1})",
-    "p1_wins": "Player 1 wins ({bank1} > {bank0})",
+    "p1_wins": "Mchezaji 1 anashinda ({bank1} > {bank0})",
     "draw": "Mĩio ĩla ĩkwendeka mavindanĩ asu na ĩngĩ."
   }
 }

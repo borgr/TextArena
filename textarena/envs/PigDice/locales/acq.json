@@ -6,13 +6,13 @@
     "invalid_action": "صيغة الإجراء غير صالحة. استخدم '[roll]' أو '[hold]'."
   },
   "actions": {
-    "player_busted": "Player {player_id} busted, losing {turn_total} points!",
+    "player_busted": "اللاعب {player_id} خسر، وخسر {turn_total} نقاط!",
     "player_hold": "اللاعب {player_id} يحتفظ ويدخر {turn_total} نقطة."
   },
   "board": {
     "player": "اللاعب 0: '{score_0}'؛ اللاعب 1: '{score_1}'",
     "current_total_scores": "الدرجات الإجمالية الحالية: {scores}\nإجمالي دورك الحالي هو {turn_total}.",
-    "roll_history": "{observation}\nYour roll history for this turn: {roll_history}",
+    "roll_history": "{observation}\nتاريخ لفاتك لهذا الدور: {roll_history}",
     "first_roll": "{observation}\nهذا هو الدور الأول من دورك.",
     "available_actions": "{observation}\nالإجراءات المتاحة: '[roll]' أو '[hold]'"
   },

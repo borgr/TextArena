@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a {max_rounds} round game of Kuhn Poker.\nGame Rules:\n- Kuhn Poker uses a 3-card deck with J, Q, K (J lowest, K highest)\n- Each player antes {ante} chip and receives 1 card each round (note that the cards are dealt without replacement, so you cannot have the same card as your opponent).\n- Game continues for {max_rounds} rounds\n- The player with the most chips after all rounds wins\nAction Rules:\n- '[check]': Pass without betting (only if no bet is on the table)\n- '[bet]': Add 1 chip to the pot (only if no bet is on the table)\n- '[call]': Match an opponent's bet by adding 1 chip to the pot\n- '[fold]': Surrender your hand and let your opponent win the pot"
+    "intro": "አንተ ተጫዋች {player_id} በ {max_rounds} ዙር ጌም የኩን ፖከር ነህ።\nጌም ህጎች፦\n- ኩን ፖከር አራት ካርድ (ጄ, ኪንግ እና ኪውን) ያለው ዴክ በጠቀሜ ላይ ይጠቀማል (ጄ ዝቅተኛ፣ ኪንግ ከፍተኛ)\n- እያንዳንዱ ተጫዋች አንቴ {ante} ቺፕ ሰጥተው 1 ካርድ በእያንዳንዱ ዙር ይቀበላሉ (ካርዶቹ የተተኮሩ ሳይሆኑ እንደሚቀበሉ ይገንዘቡ፣ ስለዚህ ከተጫዋቹ የእርስዎ ተወዳዳሪ ጋር አንድ ካርድ ማሳያዝ አይችሉም)።\n- ጌም ለ {max_rounds} ዙሮች ይቀጥላል\n- ሁሉም ዙሮች ከተጠናቀቁ በኋላ ከፍተኛ ቺፕ ባለቤት ተጫዋች ያሸንፋል\nእርምጃ ህጎች፦\n- '[check]': ሳይጫወት እንደሚያልፍ (የጫወት ላይ ባይወድቅ እንደሆነ)\n- '[bet]': ሳይጫወት ወደ ገንዘብ አንድ ቺፕ እንደሚያስጫወት (የጫወት ላይ ባይወድቅ እንደሆነ)\n- '[call]': ተወዳዳሪዎን በአንድ ቺፕ እንደሚሸንፉ (ወደ ገንዘብ አንድ ቺፕ እንደሚያስጫወት)\n- '[fold]': እጆን እንደሚሰጡ እና ተወዳዳሪዎ ገንዘብ እንደሚያሸንፋል"
   },
   "init_round": {
     "round_start": "### ምዕራፍ {current_round} እንደገና ጀምሮ ከ{max_rounds} ምዕራፎች. ካርድህ: '{player_card}'",
@@ -11,12 +11,12 @@
     "not_legal": "እርምጃው {legal_actions} መሆን አለበት።"
   },
   "action": {
-    "submit_move": "Player {player_id}, submitted move: '[{move}]'.",
+    "submit_move": "ተጫዋች {player_id}, እርምጃ አስገባ: '[{move}]'.",
     "valid_actions": "ሊወሰዱ የሚችሉ እርምጃዎች {legal_actions} ናቸው ።",
     "round_summary": "{reason} የአሁን ሸንጎሮች: ተጫዋች 0: '{player_0_chips}'; ተጫዋች 1: '{player_1_chips}'"
   },
   "showdown": {
-    "showdown_summary": "Showdown: Player {winner}'s {winner_card} beats Player {loser}'s {loser_card}. Player {winner} wins pot of {pot_value} chips."
+    "showdown_summary": "ሾውዳውን: ተጫዋች {winner} ካርድ {winner_card} ተጫዋች {loser} ካርድ {loser_card} ይቀድማል። ተጫዋች {winner} ጣም {pot_value} ቺፕ ያሸንፋል።"
   },
   "outcome": {
     "draw": "በ{max_rounds} ምዕራፎች ላይ, ሁለት ተጫዋቾች እኩል ብዛት ቺፕስ አላቸው.",

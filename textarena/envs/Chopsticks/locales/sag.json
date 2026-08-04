@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in Chopsticks. On your turn, choose one of:\n  + Attack:  '[attack M O]'  where M=your hand (0 or 1), O=opponent hand (0 or 1).\n    - Opponent's hand count increases by your hand; if >=5, it becomes 0.\n  + Split:   '[split L R]'  to redistribute your total fingers into L and R (L+R = your total).\nReply with exactly one of those commands."
+    "intro": "Mo ye zo {player_id} na Chopsticks. Na kôli ãla, tînda môko na:\n  + Kûnga: '[attack M O]'  mô M=kôli ãla (0 tô 1), O=kôli ãla kûnga (0 tô 1).\n    - Kôli ãla kûnga akûnga na kôli ãla; tô >=5, akûnga 0.\n  + Pâna:   '[split L R]'  tô pâna kôli ãla na L na R (L+R = kôli ãla).\nKiri na môko ya kômanda ôla."
   },
   "board": {
     "current_board": "Sängö tî ködörö:\nPolä 0: {hands_0}\nPolä 1: {hands_1}"
@@ -14,7 +14,7 @@
   },
   "game_action": {
     "attack": "P{player_id} a mbätï na ködörö P{opp_id} {opp_idx}: êkö a tî {opp_val} mpé êzî ngâ {new_val}.",
-    "split": "P{player_id} splits into [{L}, {R}]."
+    "split": "P{player_id} partage en [{L}, {R}]."
   },
   "history": {
     "entry": "P{player_id} {desc}"

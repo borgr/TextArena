@@ -21,17 +21,17 @@
     "{scores}": "The pre-rendered per-player list of final scores"
   },
   "player_prompt": {
-    "intro": "You are playing Golf (Card Game) - Player {player_id}.\nGoal: Get the lowest total score in this single round. If columns share the same value, they are summed as 0.\nCard Values: A=1, 2-10=face value, J/Q=10, K=0\n\nActions (use exact brackets):\n- '[draw]' - Draw from deck\n- '[take]' - Take from discard pile\n- '[swap X Y]' - Swap drawn card with position X (row) Y (column)\n- '[discard]' - Discard the drawn card\n"
+    "intro": "Tqelleḍ ujjen (karta n ujjen) - Ujjen {player_id}.\nAɣilif: Awi uḍḍan meẓẓiyen ɣer uḍḍan-agi. Ma yella uḍḍanen iqedcen uḍḍan amezwaru, ad ttwaḥseb ɣas 0.\nUḍḍan n tikartiyin: A=1, 2-10=face value, J/Q=10, K=0\n\nTiddiyin (seqdec kan i uḍḍanen iqedcen):\n- '[draw]' - Awi ɣer uḍḍan\n- '[take]' - Awi ɣer uḍḍan n tikartiyin\n- '[swap X Y]' - Mseḍfer tikartiyin i yezzizwen ɣer uḍḍan X (uṣṣif) Y (uṣṣif)\n- '[discard]' - Awi tikartiyin i yezzizwen ɣer uḍḍan n tikartiyin\n"
   },
   "board": {
-    "drew": "You drew: {card}\nNow you must [swap X Y] or [discard] it.",
-    "took": "You took: {card} from discard pile\nYou must [swap X Y] with it (cannot discard).",
+    "drew": "Tqelleḍ: {card}\nTura, aseqdec '[swap X Y]' neɣ '[discard]' i tikartiyin-agi.",
+    "took": "Tekkeḍ: {card} i yifer n uẓḍam\nWakkaḍ a [swap X Y] d ayiti (ur teẓḍim ara).",
     "peeked": "Tefkadeḍ deg teɣzi n ({row},{col}): {card}",
-    "turn_view": "Your hand:\n{hand}\nDiscard pile: {discard}\n{options}",
+    "turn_view": "Afen-ik:\n{hand}\nUḍḍan n tikartiyin: {discard}\n{options}",
     "none": "ⵓⴰⵔ ⵉⵍⵍⴰ ⴽⵔⴰ."
   },
   "options": {
-    "final_turns": "Final turns! Your options: [draw], [take], [peek X Y]",
+    "final_turns": "Uḍḍanen aneggaru! Tiddiyin-ik: [draw], [take], [peek X Y]",
     "draw": "Iṭṭijen-ik: [draw], [take]",
     "must_swap": "ⵉⵇⵏⴻⵏ ⴰⴷ: [swap X Y] (ⴰⴷ ⵓⵔ ⵉⵣⵎⵉⵔ ⴰⵜ-ⵉⴼⵙⵔ ⵜⴰⴽⴰⵔⴷⵉⵡⵉⵏ ⵙⴳ ⵜⴱⴰⵏⴳⴰ ⵏ ⵓⵙⵙⵓⴼⵖ)",
     "swap_or_discard": "Tura teṭṭafareḍ ad t- [swap X Y] neɣ ad t- [discard]"
@@ -42,23 +42,23 @@
     "row": "Row {n}: {cards}"
   },
   "action_desc": {
-    "swapped": "Player {pid} swapped {new} with {old} at position ({row},{col})",
-    "discarded": "Player {pid} discarded {card}"
+    "swapped": "Ujjen {pid} yeseḍfer {new} ɣer {old} ɣer uḍḍan ({row},{col})",
+    "discarded": "Ameẓẓu {pid} yiruḥ {card}"
   },
   "message": {
     "deck_empty": "ⵜⴰⴱⴰⵔⴰⵜ ⵓⵍⴰⵂ! ⴰⵛⴰⵆⵉⵍ ⵉⴾⴼ-ⴰⴷ ⵙⴰⵎⴰⵏⴷⵓ.",
     "knocked": "ⴰⵛⴰⵆⵉⵍ {pid} ⵉⴾⴰⵙ! ⴰⵓⴰⴷⵉⵎ ⴼⵓⴾ ⵓⴰⵔ ⵏ ⵉⵎⵓⵙ ⵢⵎⴰⴶⵔⵉⴷ ⴰⴷⵓⴱⴰⵜ ⴰⵙⵉⵙⵙⵉⵔⵜⴰⵉ ⴷⴰⵗ ⵜⴰⴱⴰⵔⴰⵓⵜ.",
-    "final_round": "Player {pid} {reason}! Each other player gets one more turn."
+    "final_round": "Ameẓẓu {pid} {reason}! Kul ameẓẓu nniḍen ar ittawi tawala tayne."
   },
   "reason": {
     "all_revealed": "ⵉⵍⴰ ⴾⴰⵔⵜⵉ ⵜⴰⵏ ⴼⵓⴾ ⴰⵗⵏⴰⵏⴻⵏ"
   },
   "invalid": {
-    "wrong_action": "Use exactly ONE bracketed action: [draw], [take], [swap X Y], [discard], [knock], or [peek X Y]",
+    "wrong_action": "Seqdec kan i uḍḍanen iqedcen: [draw], [take], [swap X Y], [discard], [knock], neɣ [peek X Y]",
     "discard_empty": "ⵜⴰⴱⴰⵔⴰⵜ ⵏ ⵓⵛⵔⴰⵉ ⵜⵍⴰ ⴰⵜⵉⴳ!",
     "must_draw_first": "Tura teṭṭafareḍ ad t- [draw], [take], [knock], neɣ [peek X Y]",
     "cannot_discard_taken": "ⵓⴰⵔ ⴰⴷⴷⵓⴱⴰⵜ ⴰⴾⴰⵔⴰⵛⵂ ⵏ ⵆⴰⵔⵜ ⵜⴰⵏ ⵜⵉⵓⴰⵋⵔⴰⵉⵏⵢⵏ ⴷⴰⵗ ⵜⴰⵂⵔⵉⴾⴻ, ⵉⵋⵋⵉⵛ ⴰⵏⵎⵉⵣⵍⴰⵉⴰⵏ.",
-    "have_drawn_card": "You have a drawn card. You must [swap X Y] or [discard] it.",
+    "have_drawn_card": "Tqelleḍ tikartiyin. Aseqdec kan: [swap X Y] neɣ [discard].",
     "need_drawn_swap": "ⵉⵍⴰ ⴰⵍⵆⵉⴷⵎⴰⵜ ⵏ ⴾⴰⵔⵜⵉ ⵜⴰⵏ ⵓⵉⵏ ⴰⵂⴰⵏⴰⵉ ⴼⴰⵍ ⴰⵙⵉⵓⴰⴷ.",
     "need_drawn_discard": "ⵉⵍⴰ ⴰⵍⵆⵉⴷⵎⴰⵜ ⵏ ⴾⴰⵔⵜⵉ ⵜⴰⵏ ⴰⵔⴰⵜⴰⵉⵏⴻⵏ ⴼⴰⵍ ⴰⴷ ⵜⵉⵋⵔⴻⵎ.",
     "out_of_bounds": "Teɣzi ur telli d awṭan. Sken tabaqt 1-{max_row}, tilift 1-{max_col}",

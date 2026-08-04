@@ -22,7 +22,7 @@
   "outcome": {
     "survived_win": "Fefewɔla {player_id} tsi agbe; ame susɔeawo katã dze anyi.",
     "all_crashed": "Amesiwo katã nɔ fefe ma wɔm la dze anyi le ɣeyiɣi ɖeka me.",
-    "outlived": "Player nɔ agbe wu ame bubuawo katã.",
+    "outlived": "Ame ku aƒe ame bubu.",
     "all_dead": "Fefewɔla ɖesiaɖe ku.",
     "turn_limit": "Ne wotrɔa asi le eŋu wòde akpa aɖe dzi la, amesi tsi agbe didi wu lae ɖu.",
     "ranking": "{reason} Kɔmitii kple kɔmitiiwo katɛ (dɔwɔla→xɔxɔla): {groups}"

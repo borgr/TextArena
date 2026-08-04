@@ -24,8 +24,8 @@
     "intro": "Mwinaona Golf (Card Game) - Mwini {player_id}.\nLengo: Pata alama ndogo zaidi katika gawo hili.\nThamani za kadi: A=1, 2-10=thamani, J/Q=10, K=0\n\nActions (tumia brackets kamili):\n- '[draw]' - Chora kutoka kwenye deck\n- '[take]' - Chukua kutoka kwenye mpando wa kukanidwa\n- '[swap X Y]' - Badilisha kadi iliyochorwa na nafasi X (mpando) Y (koloni)\n- '[discard]' - Kana kadi iliyochorwa"
   },
   "board": {
-    "drew": "You drew: {card}\nNow you must [swap X Y] or [discard] it.",
-    "took": "You took: {card} from discard pile\nYou must [swap X Y] with it (cannot discard).",
+    "drew": "Wachota: {card}\nLero, wamuyenera kuchita [swap X Y] kapena [discard] icho.",
+    "took": "Wachota: {card} kuchoka pa chikwama cha zotcheka\nWamuyenera kuchita [swap X Y] nacho (siungathe kuchitika).",
     "peeked": "Mwinaona ku mpando ({row},{col}): {card}",
     "turn_view": "Lero lako:\n{hand}\nMpando wa kukanidwa: {discard}\n{options}",
     "none": "Palije."
@@ -47,18 +47,18 @@
   },
   "message": {
     "deck_empty": "M'thumba mulije kanthu! Maseŵera ghakumara nyengo yeneyiyo.",
-    "knocked": "Player {pid} knocked! Each other player gets one more turn.",
+    "knocked": "Mchezaji {pid} aligonga! Kila mchezaji mwingine anapata mzunguko mmoja zaidi.",
     "final_round": "Mwini {pid} {reason}! Wawili winaona mwingine akudya gawo moja"
   },
   "reason": {
-    "all_revealed": "has all cards revealed"
+    "all_revealed": "ana kadi zote zilizofichuliwa"
   },
   "invalid": {
     "wrong_action": "Tumia moja ya Bracketed action: [draw], [take], [swap X Y], [discard], [knock], or [peek X Y]",
     "discard_empty": "Munda wa vinthu vyambura kukhumbikwa ulije kanthu!",
     "must_draw_first": "Mwinaona kudya [draw], [take], [knock], or [peek X Y]",
     "cannot_discard_taken": "Mungaleka yayi kugwiliskira nchito khadi ilo mwapeleka, kweni mukwenera kughasinthiska.",
-    "have_drawn_card": "You have a drawn card. You must [swap X Y] or [discard] it.",
+    "have_drawn_card": "Muli ndi khadi yotcheka. Wamuyenera kuchita [swap X Y] kapena [discard] icho.",
     "need_drawn_swap": "Kuti musinthe, mukwenera kuŵa na kadi ilo mwalemba.",
     "need_drawn_discard": "Kuti muleke kugwiliskira nchito khadi la munthu munyake, mukwenera kuŵa na kadi ilo mwalemba.",
     "out_of_bounds": "Mpando sikufika. Tumia mpando 1-{max_row}, ndi koloni 1-{max_col}",

@@ -4,11 +4,11 @@
   },
   "round": {
     "start": "─── Kuanza Mhango {round} ───\tUnaweza kujadwiza kwa uhuru kwa mizungu inayokuja {conv_rounds}.",
-    "chat_finished": "Chat finished for round {round}. Submit your decisions, one token per opponent: `[pid cooperate]` or `[pid defect]`."
+    "chat_finished": "Hurukuro hwaperera kwa round {round}. Tumira zvido zvenyu, token moja kwa mukwasha mmoja: `[pid cooperate]` kana `[pid defect]`."
   },
   "results": {
     "header": "### Round {round} - Zvabuda:",
-    "pair_line": "{observation}\n\t Player {i} vs Player {j} akachagua {choice_i} na {choice_j} mtawaliwa (Player {i} akapata {gain_i}, Player {j} akapata {gain_j})",
+    "pair_line": "{observation}\n\t Mutambo {i} na Mutambo {j} vakasarudza {choice_i} na {choice_j} zvichienderana (Mutambo {i} akawana {gain_i}, Mutambo {j} akawana {gain_j})",
     "scores_open": "{observation} -> Zviverengero zvazvino: ",
     "score_first": "{observation}Player {player_id} ({score})",
     "score_next": "{observation}; Player {player_id} ({score})",

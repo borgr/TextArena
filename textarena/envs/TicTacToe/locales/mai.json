@@ -7,7 +7,7 @@
     "{cell}": "A board cell number between 0 and 8"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Tic Tac Toe.\nYour goal is to win three in a row (horizontally, vertically, or diagonally) on the board.\nOn your turn, you should select the square number (0-8) you want to put your mark in next.\nFor example, '[4]' places your mark in the center cell of the board.\nAs Player {player_id}, you will be '{symbol}', while your opponent is '{opponent_symbol}'."
+    "intro": "आप टिक टैक टो मे प्लेयर {player_id} हुनिहार।\nआपक उद्देश्य बोर्ड पर तीन क्रमशः (क्षैतिज, अनुलंब, या विकर्ण) जीतना ह।\nआपक पाली मे, आपको अगला अपना निशान लगाने के लिए वर्ग संख्या (0-8) चुनना होगा।\nउदाहरण के लिए, '[4]' बोर्ड के केंद्र सेल मे आपका निशान लगाता है।\nप्लेयर {player_id} के रूप मे, आप '{symbol}' हुनिहार, जबकि आपका प्रतिद्वंद्वी '{opponent_symbol}' हुनिहार।"
   },
   "board": {
     "current_board": "वर्तमान बोर्ड:\n\n{board}\n\nउपलब्ध चालें: {moves}"
@@ -18,7 +18,7 @@
     "already_occupied": "कक्ष {cell} पहिलेसँ नै कब्जामे अछि।"
   },
   "game_action": {
-    "placed": "खिलाड़ी {player_id} ने अपना प्रतीक ({symbol}) को सेल {cell} में रखा।"
+    "placed": "खिलाड़ी {player_id} ने अपना निशान ({symbol}) सेल {cell} में रखा है।"
   },
   "outcome": {
     "win": "खेलाड़ी {player_id} जीत गेल अछि!",

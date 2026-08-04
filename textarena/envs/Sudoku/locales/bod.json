@@ -8,9 +8,9 @@
   },
   "invalid_move": {
     "wrong_format": "ཚུལ་མིན་གྱི་རྣམ་གྲངས། རྩེད་འགྲན་པ་ {player_id} གིས་ \"row column number\" ལ་ལན་འདེབས་བྱས་མེད།",
-    "out_of_bounds": "Invalid move. Player {player_id} attempted to place {num} at ({row}, {col}), which is out of bounds.",
-    "overwrite": "Invalid move. Player {player_id} attempted to overwrite a pre-filled cell ({row}, {col}).",
-    "violates_rules": "Invalid move. Player {player_id} attempted to place {num} at ({row}, {col}), which violates Sudoku rules."
+    "out_of_bounds": "གོམ་པ་མི་འགྲིག རྩེད་མཁན་ {player_id} གྱིས་ {num} ཨང་གྲངས་དེ་ ({row}, {col}) གྱི་ནང་དུ་བཀང་བར་འགྲིག་མི་འདུག",
+    "overwrite": "གོམ་པ་མི་འགྲིག རྩེད་མཁན་ {player_id} གྱིས་སྔོན་ནས་བཀང་བའི་ཁོངས་ ({row}, {col}) བསྐྱར་བར་འགྲིག་མི་འདུག",
+    "violates_rules": "གོམ་པ་མི་འགྲིག རྩེད་མཁན་ {player_id} གྱིས་ {num} ཨང་གྲངས་དེ་ ({row}, {col}) གྱི་ནང་དུ་བཀང་བ་ནི་སུ་དོ་ཀུ་གྲིམ་གྱི་སྲོལ་ཡིག་ལ་འགལ་བ་ཡིན།"
   },
   "outcome": {
     "win": "བསྟོད་ཚོགས། རྩེད་འགྲན་པ་ {player_id} གིས་སོ་དོ་ཀུའི་གབ་ཚིག་དེ་གྲུབ་སོང་།",

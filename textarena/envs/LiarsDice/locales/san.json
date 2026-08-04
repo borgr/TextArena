@@ -22,27 +22,27 @@
     "final_ranking": "list of player indices from first eliminated to winner"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in an {num_players}-player Liar's Dice game.\nRules:\n- On your turn, you may either:\n  1) Make a new bid with a higher quantity or higher face (or both) than the current bid; i.e. '[Bid: 3, 4]',\n  2) Call the last bid by typing '[Call]'.\n\nIf you call:\n  - If the actual count of that face value among all dice is less than the bid, the last bidder loses one die.\n  - Otherwise, the caller loses one die.\nA player who reaches 0 dice is eliminated. The last remaining player wins."
+    "intro": "त्वं खेलकः {player_id} असि {num_players}-खेलकानां मिथ्यापाशक-खेले।\nनियमाः\n- स्वकीये पाले त्वं वा कर्तुं शक्नोषि:\n  १) नवीनां विदां उच्चतरेण परिमाणेन वा उच्चतरेण मुखेन (वा उभाभ्यां) वर्तमानात् विदात् समुन्नतां कर्तुं; यथा '[Bid: 3, 4]',\n  २) अन्तिमां विदां '[Call]' इति लिखित्वा आह्वातुं।\n\nयदि त्वं आह्वासि:\n  - यदि सर्वेषु पाशकेषु विदितस्य मुखमूल्यस्य वास्तविकसंख्या विदितात् न्यूना भवति, अन्तिमः विदकः एकं पाशकं हारयति।\n  - अन्यथा, आह्वायकः एकं पाशकं हारयति।\nखेलकः यः शून्यं पाशकं प्राप्नोति सः निराकृतः भवति। अन्तिमः अवशिष्टः खेलकः जयति।"
   },
   "board": {
     "per_player": "\tखिलाड़ी {p}: {d}",
-    "new_round": "\nनया दौर - शेष पासे: {dice_summary}\nआपके वर्तमान पासे हैं: {your_dice}"
+    "new_round": "\nनवीन चक्र - अवशिष्ट पासाक्रीडा: {dice_summary}\nतव वर्तमान पासाक्रीडा सन्ति: {your_dice}"
   },
   "call": {
-    "bidder_loses": "खिलाड़ी {current_player_id} कॉल करता है! मुखमंडळ {face_value} की वास्तविक गणना {count} है, जो {quantity} से कम है।\nखिलाड़ी {loser_id} (अंतिम बिडर) एक पासा खो देता है।",
-    "caller_loses": "खिलाड़ी {current_player_id} कॉल करता है! मुखमंडळ {face_value} की वास्तविक गणना {count} है, जो {quantity} से >= है।\nखिलाड़ी {loser_id} (कॉलर) एक पासा खो देता है।"
+    "bidder_loses": "खिलाडि {current_player_id} आह्वयति! वास्तविक गणना मुखमूल्य {face_value} अस्ति {count}, या वर्तमान विद्युत्क्रियात्मकात् {quantity} न्यूना अस्ति ।\nखिलाडि {loser_id} (अन्तिम विद्युत्क्रियात्मककर्ता) एक पासाक्रीडां हारयति ।",
+    "caller_loses": "खिलाडि {current_player_id} आह्वयति! वास्तविक गणना मुखमूल्य {face_value} अस्ति {count}, या वर्तमान विद्युत्क्रियात्मकात् {quantity} समाना वा अधिका अस्ति ।\nखिलाडि {loser_id} (आह्वयिता) एक पासाक्रीडां हारयति ।"
   },
   "action": {
-    "bid_announce": "खिलाड़ी {player_id} {quantity} मुखमंडळ {face_value} का दांव लगाता है।"
+    "bid_announce": "खिलाडि {player_id} विद्युत्क्रियात्मकं {quantity} मुखमूल्य {face_value} करोति ।"
   },
   "invalid_move": {
     "call_no_bid": "पूर्वं निवेदनेन विना सम्भाषणम् अकरोत्।",
     "invalid_bid": "अमान्यम् निवेदः {reason}",
-    "not_recognized": "कार्रवाई को न तो वैध '[Bid: X, Y]' और न ही '[Call]' के रूप में मान्यता प्राप्त है। जमा की गई कार्रवाई: {action}"
+    "not_recognized": "विद्युत्क्रियात्मकं नैव आह्वयितुं वा '[Bid: X, Y]' वा '[Call]' इति वैध रूपेण प्रस्तुतं । प्रस्तुत विद्युत्क्रियात्मकं: {action}"
   },
   "bid_reason": {
-    "quantity_lower": "नया मात्रा {new_quantity} वर्तमान {current_quantity} से कम है।",
-    "face_lower": "नया मुखमंडळ मूल्य {new_face_value} वर्तमान {current_face_value} से कम है।",
+    "quantity_lower": "नवीन परिमाण {new_quantity} वर्तमान {current_quantity} न्यूनं अस्ति ।",
+    "face_lower": "नवीन मुखमूल्य {new_face_value} वर्तमान {current_face_value} न्यूनं अस्ति ।",
     "identical": "अधुना प्रदत्तं निवेद्य समानम् अस्ति।",
     "face_range": "नाममात्रं मूल्यम् १ तः ६ यावत् भवेत् ।"
   },
@@ -50,6 +50,6 @@
     "eliminated_invalid": "{player_id} इति क्रीडाकारः अवैधं कदमम् अकरोत् ।"
   },
   "outcome": {
-    "win": "खिलाड़ी {winner} जीतता है! अंतिम रैंकिंग: {final_ranking}"
+    "win": "खिलाडि {winner} जयति! अन्तिम क्रम: {final_ranking}"
   }
 }

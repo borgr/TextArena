@@ -3,7 +3,7 @@
     "intro": "Siz Sadə Tak-da Oyuncu {player_id}-sünüz.\nTaxtada, daşlarınız '{player_stone}' kimi, rəqibinizin daşları '{opponent_stone}' kimi görünür.\n\nNövbənizdə, boş hücrəni (numरल indeksi ilə) seçin və ora daşınızı yerləşdirin.\nMəsələn, '[12]' daşınızı 12-ci hücrəyə yerləşdirir.\n\nMəqsədzəniz taxtanın iki qarşı tərəfini (yuxarıdan-aşağıya və ya soldan-sağa) birləşdirən davamlı daş yolunu formalaşdırmaqdır."
   },
   "invalid_move": {
-    "invalid_move_format": "Invalid move format",
+    "invalid_move_format": "یالنیش حرکت فورماتی",
     "cell_out_of_range": "Yanlış hücrə nömrəsi {cell_num}. 0 və {max_board_num} arasında olmalıdır.",
     "cell_already_occupied": "Hücrə {cell_num} artıq tutulmuşdur. Boş hücrə seçin."
   },
@@ -15,6 +15,6 @@
   },
   "outcome": {
     "winner": "Oyuncu {current_player_id} ('{symbol}') iki qarşı tərəfi birləşdirdi!",
-    "draw": "تخته دولودور.تعادل!"
+    "draw": "تخته دولو. برابردیر!"
   }
 }

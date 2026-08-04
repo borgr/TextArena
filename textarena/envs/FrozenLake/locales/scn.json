@@ -11,7 +11,7 @@
     "hit_wall": "Tu pruvasti a muviriti {action} ma ti scantasti di nu muru!"
   },
   "game_action": {
-    "moved": "You moved {action} to position ({row}, {col})."
+    "moved": "Ti muovisti {action} a pusizioni ({row}, {col})."
   },
   "outcome": {
     "win": "Congratulazioni! Haiu raggiuntu l'obiettivu.",

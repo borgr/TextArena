@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a game of Indian Poker.\n- 52-card deck; you see only the opponent's card.\n- Ante {ante} chip(s) each round, {max_rounds} round(s) total.\n- Valid moves: '[check]'  |  '[bet X]'  |  '[call]'  |  '[raise X]'  |  '[fold]'  (X is a positive integer <= your chip count.)\n- Highest hidden card wins the pot at showdown.\n"
+    "intro": "Ndinu Player {player_id} m'mwendo wa Indian Poker.\n- Deki la khadi 52; mumuona khadi ya mnzako.\n- Ante {ante} chip(s) kila mwendo, {max_rounds} mwendo (s) wathunthu.\n- Zomwe zingatheka: '[check]'  |  '[bet X]'  |  '[call]'  |  '[raise X]'  |  '[fold]'  (X ndi nambari chanya <= ndalama zanu za chip.)\n- Khadi iliyo juu ambayo haionekani imenyeza pot pa showdown.\n"
   },
   "round": {
     "announce": "### Raundi {current_round}/{max_rounds}\nKadi ya mpinzani wako ni: {card}"
@@ -9,7 +9,7 @@
     "ambiguous": "Pelekani kitendo kimoja cha mabano, kwa mfano '[check]', '[bet 2]', '[call]', '[raise 3]', au '[fold]'.",
     "cannot_check": "Simungathe [check] - mukukumana ndi kubetcha.",
     "amount_min": "Ndalama zimene amaika kapena kukweza ziyenera kukhala ≥ 1.",
-    "cannot_bet": "Cannot [bet] - must [call] / [raise] / [fold].",
+    "cannot_bet": "Sungatheka kuchita [bet] - muyenera kuchita [call] / [raise] / [fold].",
     "nothing_to_call": "Palibe choitana; inu mukhoza [check] m'malo.",
     "no_bet_to_raise": "Gwiritsani ntchito [bet X] kutsegula; palibe kubetcha kuti muwonjezere.",
     "insufficient": "Ma tchipisi osakwanira kaamba ka mchitidwe umenewo."

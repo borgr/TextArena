@@ -8,7 +8,7 @@
   "invalid_move": {
     "wrong_format": "অবৈধ ক্ৰিয়াৰ বিন্যাস [up], [down], [left], [right] বা [w], [a], [s], [d] ব্যৱহাৰ কৰক।",
     "unknown_action": "অজ্ঞাত ক্ৰিয়া '{action}'. ব্যৱহাৰ কৰক ওপৰলৈ, তললৈ, বাওঁলৈ, সোঁলৈ, বা w, a, s, d.",
-    "hit_wall": "You tried to move {action} but hit a wall!"
+    "hit_wall": "আপুনি {action} ক্রিয়া কৰিবলৈ চেষ্টা কৰিলে কিন্তু এটা প্ৰাচীৰত খুন্দিলে!"
   },
   "game_action": {
     "moved": "আপুনি {action}ক স্থানান্তৰ কৰি ({row}, {col}) লৈ লৈ গৈছে।"

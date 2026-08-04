@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing Mastermind.\nYou need to find the code that is {code_length} digits long, each digit from 1 to {num_numbers}, {repeats}.\nIn your response, you can submit your guess in the following format: '[2 1 4 5]'.\nAfter each guess, you will receive feedback in the form of black and white pegs.\nA black peg indicates a correct digit in the correct position, while a white peg indicates a correct digit in the wrong position.\nYou have {max_turns} turns to guess the code.\n",
+    "intro": "Mastermind i khelh meh a ni.\n{code_length} digit a sei code i hmuh a ngai a, digit tin 1 atanga {num_numbers} thleng a ni, {repeats}.\nI chhanna ah, '[2 1 4 5]' tih format hmangin i guess thehluh thei ang.\nGuess tin hnu ah, black leh white pegs hmangin feedback i dawng ang.\nBlack peg chu digit dik, position dik a entir a, white peg chu digit dik, position dik lo a entir.\n{max_turns} vawi i nei a, code i guess theih nan.\n",
     "with_repeats": "leh thei ang.",
     "no_duplicates": "a pahnihna awm lo va,"
   },
@@ -13,7 +13,7 @@
     "repeated_guess": "I lo chhut tawh {guess} a. A dang han sawi chhin teh le."
   },
   "game_action": {
-    "feedback": "Submitted [{guess}]. Feedback: {black_pegs} black peg(s), {white_pegs} white peg(s)."
+    "feedback": "[{guess}] i theh lut. Feedback: {black_pegs} black peg(s), {white_pegs} white peg(s)."
   },
   "outcome": {
     "win": "Code chu ai la crack ta, {black_pegs} aṭangin {code_length} pegs te chu dik taka",

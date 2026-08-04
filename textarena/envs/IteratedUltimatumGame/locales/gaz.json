@@ -21,13 +21,13 @@
     "{total}": "Each player's tied final total (a number)"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id}, playing {num_rounds} rounds of Iterated Ultimatum Game.\nYou have ${pool} to split this round between yourself and Player {other_id}.\n\nProposer:\n  - Make an offer: [Offer: $X] (0 <= X <= pool)\n  - If accepted → You get $(pool - X), other player gets $X\n  - If rejected → Both get $0\n  - Example: [Offer: $3]  or  'I think this is fair. [Offer: $5]'\n\nResponder:\n  - Decide on the offer with either [Accept] or [Reject]\n  - Example: 'That seems reasonable. [Accept]'\n            'Too unfair. [Reject]'\n"
+    "intro": "Ati Leensa {player_id} ti, raundi {num_rounds} Iterated Ultimatum Game tiritaa.\nQarshii ${pool} raundi kanaaf siifaa fi Leensa {other_id} gidduu qoodaa.\n\nAjaja:\n  - Dhiyeessa: [Offer: $X] (0 <= X <= pool)\n  - Yoo fudhatame → $(pool - X) argatta, leensa bira $X argata\n  - Yoo didame → Lachuu $0 argatta\n  - Fakkeenya: [Offer: $3]  ykn  'Naaf akkaataa kanaa firooma. [Offer: $5]'\n\nDeebii:\n  - Dhiyeessiin irratti [Accept] ykn [Reject] filadhu\n  - Fakkeenya: 'Akkaataa kanaa waan gadi jiru natti fakkaata. [Accept]'\n            'Kanumaan waan gadi jiru natti hin fakkaatu. [Reject]'\n"
   },
   "round": {
-    "begins": "--- Guyyaa {round_number} jalqaba! ---\nPlayer {proposer_id} Proposer dha, Player {responder_id} Responder dha",
-    "offer": "Guyyaa {round_number}: Player {proposer_id} ${offer} Player {responder_id}tti kaayyoo dhaadhe (yoo ${keep} qaba)",
-    "accepted": "Player {responder_id} dhabame! Guyyaa {round_number}: Player {proposer_id} +${proposer_gain}, Player {responder_id} +${responder_gain}. Hundi isaa: Player 0: ${total_0}, Player 1: ${total_1}",
-    "rejected": "Player {responder_id} diigame! Guyyaa {round_number}: Lammaffaan $0. Hundi isaa: Player 0: ${total_0}, Player 1: ${total_1}"
+    "begins": "--- Raundi {round_number} jalqaba! ---\nLeensa {proposer_id} ajaja, Leensa {responder_id} deebiidha.",
+    "offer": "Raundi {round_number}: Leensa {proposer_id} $ {offer} Leensa {responder_id} dhiyeessa ( $ {keep} harkaa qabu).",
+    "accepted": "Leensa {responder_id} fudhate! Raundi {round_number} irraa: Leensa {proposer_id} +$ {proposer_gain}, Leensa {responder_id} +$ {responder_gain}. Jumla haaraa: Leensa 0: $ {total_0}, Leensa 1: $ {total_1}.",
+    "rejected": "Leensa {responder_id} didate! Raundi {round_number} irraa: Lachuu +$0. Jumla yeroo jalqabaa: Leensa 0: $ {total_0}, Leensa 1: $ {total_1}."
   },
   "invalid_move": {
     "no_offer_format": "Namni yaada dhiyeessu foormii [Offer: $X] fayyadamee dhiheessuu qaba.",

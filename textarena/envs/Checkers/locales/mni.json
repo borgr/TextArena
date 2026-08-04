@@ -3,11 +3,11 @@
     "current_board": "হৌজিক লৈরিবা বোর্দ: {board}"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} playing a game of Checkers as {color}.\nMake your move in chess-style notation [fileRank fileRank], e.g. '[b2c3]' (column letter a–h, row digit 0–7).\nBasic rules:\n  • Move diagonally forward by 1 if empty.\n  • Capture by jumping over an opponent piece.\n  • A piece is Kinged if it reaches the opposite end.\n"
+    "intro": "অহানসিদা প্লেয়ার {player_id} চেকার্স খেল খেললে {color} ৰূপে।\nচেস-স্টাইল নোটেশন [fileRank fileRank] ত আপনা সরান, উদাহরণস্বরূপ '[b2c3]' (কলাম অক্ষর a–h, সারি অঙ্ক 0–7)।\nমৌলিক নিয়ম:\n  • খালি থাকলে ১ দ্বারা তির্যকভাবে সামনে সরান।\n  • বিরোধী টুকরা লাফিয়ে ক্যাপচার করুন।\n  • একটি টুকরা রাজাকৃত হয় যদি এটি বিপরীত প্রান্তে পৌঁছায়।\n"
   },
   "invalid_move": {
     "wrong_format": "কোন বৈধ চলক ফরম্যাট পাওয়া যায়নি। [a1b2] ব্যবহার করুন, যেমন [b2c3].",
-    "illegal": "Move [{move}] is illegal."
+    "illegal": "সরান [{move}] অবৈধ।"
   },
   "game_action": {
     "moved": "শান্নরোই {player_id}না মফম হোংখি {move}।"

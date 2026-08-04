@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing 2048 on a {board_size}x{board_size} board. Your goal is to reach a {target_tile} tile by sliding identical numbers together!\nValid moves: [Up], [Down], [Left], [Right]. Tiles combine when they collide, doubling their value.\n"
+    "intro": "Yu pilai 2048 long wanpela {board_size}x{board_size} bod. Yu laik kisim wanpela {target_tile} tile long pulim nambar wankain wantaim!\nMuvmen i orait: [Up], [Down], [Left], [Right]. Tiles i kamap wanpela tasol taim ol i bungim, na i tambuim valu bilong ol.\n"
   },
   "board": {
     "current_board": "Skor: {score}\n{board}"

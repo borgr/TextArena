@@ -16,7 +16,7 @@
   },
   "game_action": {
     "skipped": "Lîstikvan {pid} divêt ku guhê xwe derxîne.",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "Lêzer {pid} ({piece}) lîst [{r}, {c}] û {flipped} parçe veguherand"
   },
   "game_message": {
     "must_skip": "Lîstikvan {pid} ({piece}) birînên dijî nîn e û divê bêje."

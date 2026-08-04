@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "কোনো বৈধ স্থানান্তৰ বিন্যাস পোৱা নগ'ল। [a1b2] ব্যৱহাৰ কৰক, উদাহৰণস্বৰূপে [b2c3]।",
-    "illegal": "Move [{move}] is illegal."
+    "illegal": "চাল [{move}] অবৈধ।"
   },
   "game_action": {
     "moved": "খেলুৱৈ {player_id} আগবাঢ়ি গ'ল {move}।"

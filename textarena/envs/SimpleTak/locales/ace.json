@@ -1,20 +1,20 @@
 {
   "player_prompt": {
-    "intro": "Anda adalah Pemain {player_id} di SimpleTak.\nDi papan, batu Anda muncul sebagai '{player_stone}' dan batu lawan Anda muncul sebagai '{opponent_stone}'.\n\nPada giliran Anda, pilih satu sel kosong (dengan indeks bernomor) dan letakkan batu Anda di sana.\nSebagai contoh, '[12]' meletakkan batu Anda di sel 12.\n\nTujuan Anda adalah membentuk jalur kontinu batu Anda yang menghubungkan dua tepi berlawanan papan (atas-bawah atau kiri-kanan)."
+    "intro": "Droeueuh Player {player_id} lam SimpleTak.\nDi ateueh papan, batée droeueuh nampak seubagoe '{player_stone}' ngon batée lawan nampak seubagoe '{opponent_stone}'.\n\nBak watee droe, piléh saboh sél kosông (bak indeks nyang geutunyok) ngon peubloe batée droe di sinan.\nMisalkan, '[12]' peubloe batée droe lam sél 12.\n\nTujuan droe nakeuh peubentuk jalur nyang töt deungön batée droe nyang hubông dua ujông papan nyang berlawanan (ateueh-keu-yôh atau kiri-keu-kanan)."
   },
   "invalid_move": {
     "invalid_move_format": "Format geulangkah hana sah",
-    "cell_out_of_range": "Nomor sel tidak valid {cell_num}. Harus berada di antara 0 dan {max_board_num}.",
-    "cell_already_occupied": "Sel {cell_num} sudah ditempati. Pilih sel kosong."
+    "cell_out_of_range": "Nomor sél {cell_num} salah. Harus antara 0 ngon {max_board_num}.",
+    "cell_already_occupied": "Sél {cell_num} ka geutempati. Piléh sél kosông."
   },
   "board": {
-    "current_state": "Current Board:\n\n{rendered_board}\nAvailable Moves: {available_moves}"
+    "current_state": "Papan Jinoe:\n\n{rendered_board}\nGerakan Nyang Tersedia: {available_moves}"
   },
   "action": {
-    "placement": "Pemain {current_player_id} meletakkan simbol mereka ({symbol}) di sel {cell_num}."
+    "placement": "Player {current_player_id} peubloe simbol nyang ({symbol}) lam sél {cell_num}."
   },
   "outcome": {
-    "winner": "Pemain {current_player_id} ('{symbol}') menghubungkan dua tepi berlawanan!",
+    "winner": "Player {current_player_id} ('{symbol}') hubông dua ujông papan!",
     "draw": "Meunoe, awak nyan ka peunoh."
   }
 }

@@ -3,18 +3,18 @@
     "current_board": "Kɩ-tɛ alɩwaatʊ taa: {board}"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} playing a game of Checkers as {color}.\nMake your move in chess-style notation [fileRank fileRank], e.g. '[b2c3]' (column letter a–h, row digit 0–7).\nBasic rules:\n  • Move diagonally forward by 1 if empty.\n  • Capture by jumping over an opponent piece.\n  • A piece is Kinged if it reaches the opposite end.\n"
+    "intro": "Nyɛ kɩlaŋ {player_id} kɩlaŋ Checkers hɩlaɣ {color}.\nKɛɛ kɩ-tɔm ɛzɩŋɔɔɖɛ kɩlaŋ [fileRank fileRank], pɩ-tɛkɛ pɩlaŋ '[b2c3]' (kɔɔlaɣ takayaɣ a–h, lɩŋaɣ 0–7).\nKɩlaŋ paɣtʊ:\n  • Ɛzɩŋɔɔɖɛ kɛɛ kɩ-kɛɛyɔɔ kɩ-taa 1 ɛɛ pɩ-taa.\n  • Kɛɛ kɩ-tɔm kɩ-kɛɛyɔɔ kɩ-taa kɩ-kɔɔlaɣ.\n  • Kɩ-kɛɛyɔɔ kɩ-taa kɩ-kɛɛ kɩ-taa kɩ-kɔɔlaɣ pɩ-taa kɩ-tɛkɛ.\n"
   },
   "invalid_move": {
     "wrong_format": "Tɔm piye kɛlɛɛ tɩŋgaŋ kɩlɩɣ. Sɩɣa [a1b2], e.g. [b2c3].",
-    "illegal": "Move [{move}] is illegal."
+    "illegal": "Tʊmɩyɛ [{move}] kaɣa."
   },
   "game_action": {
     "moved": "Aleɣya laɖʋ {player_id} ɖɛwa nɛ ɛsɩɩna-ɩ {move}."
   },
   "outcome": {
     "red_no_pieces": "Kɩsɛmʋʋ fɛyɩnɩ pɩya, kɩkpɛndʋ wabɩ!",
-    "black_no_pieces": "Black has no pieces left. Red wins!",
+    "black_no_pieces": "Ŋʊnɖɛɛna kɩla wɛɛ ɛyaa. Ɛsɩla wɛna!",
     "no_moves": "Aleɣya {player_id} fɛyɩna ɛ-tɩ yɔɔ wɛʊ.",
     "draw": "Pɩtɛŋ lɛ, ɖɩtalɩ ɖenɖe pɩpɔzʋʋ se ɖikizi yɔ."
   }

@@ -1,12 +1,12 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a {num_rounds}-round Rock-Paper-Scissors game.\nYour goal is to win as many rounds as possible.\nIn each round, respond with one of: '[rock]', '[paper]', or '[scissors]'.\nYou may also use '[r]', '[p]', or '[s]' as shorthand.\n"
+    "intro": "तुम्हर Player {player_id} हाव, एक {num_rounds}-राउंड के रॉक-पेपर-सिजर खेल में।\nतुम्हर लक्ष्य है जितके राउंड जीतना संभव होवय।\nहर राउंड में, '[rock]', '[paper]', या '[scissors]' में से एक निर्णय देव।\nतुम्हर '[r]', '[p]', या '[s]' शॉर्टहैंड के रूप में उपयोग कर सकथ।\n"
   },
   "invalid_move": {
     "wrong_format": "move पहचाने में नाइ आव रहे. [rock], [paper], या [scissors] का उपयोग करे. "
   },
   "game_action": {
-    "selects": "Player {player_id} move {move} चुनत हे. "
+    "selects": "प्लेयर {player_id} चाल {move} चुनथ।"
   },
   "message": {
     "round_draw": "राउंड के नतीजा: ड्रॉ करे गिस",

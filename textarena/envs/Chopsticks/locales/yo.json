@@ -14,7 +14,7 @@
   },
   "game_action": {
     "attack": "P{player_id} kọlu ọwọ P{opp_id} {opp_idx}: ó lọ láti {opp_val} sí {new_val}.",
-    "split": "P{player_id} splits into [{L}, {R}]."
+    "split": "P{player_id} pín sí [{L}, {R}]."
   },
   "history": {
     "entry": "P{player_id} {desc}"

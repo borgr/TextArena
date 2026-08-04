@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in **Ultimate Tic Tac Toe**.\nSubmit your move as **[macro  micro]** (two numbers 0-8):\n• *macro*  = which mini-board you play in\n• *micro* = which square inside that mini-board\nExample `[7 8]` ➜ place your mark in mini-board 7, square 8, and\nforce your opponent to play in mini-board 8 next.\n\nYou are `{symbol}`.\n"
+    "intro": "Tu Lêzer {player_id} î di **Ultimate Tic Tac Toe** de.\nHereketên xwe wekî **[macro  micro]** (du jimare 0-8) bişîne:\n• *macro*  = li kê mini-lokê de dilîze\n• *micro* = li kê çargoşeyê di wê mini-lokê de\nMînak `[7 8]` ➜ nîşana xwe di mini-loka 7, çargoşeya 8 de bi cih bike û\nhevalbendê xwe mecbûr bike ku di mini-loka 8 de dilîze.\n\nTu `{symbol}` î.\n"
   },
   "board": {
     "current_board": "Desteya niha: {board}"
@@ -15,10 +15,10 @@
   },
   "next_board": {
     "any": "her board micro",
-    "specific": "micro board {nxt}"
+    "specific": "mini-loka {nxt}"
   },
   "game_action": {
-    "played": "Player {player_id} di micro board {macro_idx}, cell {micro_idx} (row {row}, col {col}) de lîst. Player {opponent_id} niha divê di {nxt_txt} de lîst."
+    "played": "Lêzer {player_id} di mini-loka {macro_idx} de, çargoşeya {micro_idx} (rêza {row}, sûtûna {col}) de dilîze. Lêzer {opponent_id} îro divê di {nxt_txt} de dilîze."
   },
   "outcome": {
     "win": "Lîstikvan {player_id} Ultimate Tic Tac Toe! qezenç dike.",

@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "Zu zara Jokalari {player_id} GameOfPureStrategy partida batean.\n- 13 karta dituzu A-K; karta bakoitza behin erabil daiteke.\n- Erloju bakoitzean sari-karta bat aurkeztu da. Idatzi zerbait idatzi karta BAT jokatuz, hau dauka tokien artean token bat ['[Q]'], ['[10]'], ['[2]'] ...\n- Karta altuena irabazten du saria (eta garraioa). Berdinketa bada, saria hurrengo erlojuaren ontzian sartzen da.\n- 13 erloju ondoren guztira altuena irabazten du."
+    "intro": "Jokalari {player_id} zara GameOfPureStrategy partidan.\n- 13 karta dituzu, A-K; bakoitza behin bakarrik erabil daiteke.\n- Sari karta bat agertzen da txandan. Idatzi '[Q]', '[10]', '[2]' bezalako parentesiko token bat duen zerbait, karta bakarra jokatzeko.\n- Karta altuena irabazten du saria (eta hurrengo txandarako gordetzen dena). Berdinketa bada, saria hurrengo txandarako gordetzen da.\n- 13 txanden ondoren, puntuazio altuena duenak irabazten du."
   },
   "round": {
     "announce": "### Bidegurutze {round}/13 - Saria: {prize} (balioa {worth})"

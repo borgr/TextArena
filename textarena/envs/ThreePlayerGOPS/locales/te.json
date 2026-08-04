@@ -14,7 +14,7 @@
     "{scores}": "The final scores as a raw player-number to score mapping - do not translate"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player GOPS.\n- You hold the 13 cards A-K (each exactly once).\n- Each round a prize is revealed. Submit ONE card like `[Q]`, `[10]`, `[2]` …\n- Highest card wins the prize (+ any carry-over pot). Ties roll the prize into the next round.\n- After 13 rounds, highest total wins. Invalid moves = elimination."
+    "intro": "మీరు మూడు-ఆటగాళ్ల GOPSలో ఆటగాడు {player_id}.\n- మీకు 13 కార్డ్‌లు A-K (ఒక్కొక్కటి ఖచ్చితంగా ఒకసారి) ఉన్నాయి.\n- ప్రతి రౌండ్‌లో ఒక బహుమతి బహిర్గతమవుతుంది. [Q], [10], [2] వంటి ఒక కార్డ్‌ను సమర్పించండి…\n- అత్యధిక కార్డ్ బహుమతిని (క్యారీ-ఓవర్ పాట్‌తో సహా) గెలుచుకుంటుంది. టైలు బహుమతిని తదుపరి రౌండ్‌లోకి రోల్ చేస్తాయి.\n- 13 రౌండ్‌ల తర్వాత, అత్యధిక మొత్తం గెలుచుకుంటుంది. చెల్లని కదలికలు = తొలగింపు."
   },
   "round": {
     "header": "### రౌండ్ {round}/13 - బహుమతి: {prize} (విలువ {worth})",

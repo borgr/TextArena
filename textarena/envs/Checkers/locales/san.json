@@ -3,11 +3,11 @@
     "current_board": "वर्तमानः बोर्डः {board}"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} playing a game of Checkers as {color}.\nMake your move in chess-style notation [fileRank fileRank], e.g. '[b2c3]' (column letter a–h, row digit 0–7).\nBasic rules:\n  • Move diagonally forward by 1 if empty.\n  • Capture by jumping over an opponent piece.\n  • A piece is Kinged if it reaches the opposite end.\n"
+    "intro": "त्वं खिलाडी {player_id} चेकेर्सक्रीडायां {color} वर्णेन क्रीडासि।\nचतुरङ्गशैल्यां सञ्चलनं कुरु [fileRank fileRank], उदाहरणार्थं '[b2c3]' (स्तम्भाक्षरं अ-ह, पङ्क्त्यङ्क ०-७)।\nमूलनियमाः\n  • यदि रिक्तं तर्हि कर्णेनाग्रे एकेन सञ्चलनं कुरु।\n  • प्रतिस्पर्ध्याक्षस्य उपर्युत्क्रमणेन ग्रहणं कुरु।\n  • यदि विपरीतान्तं प्राप्नोति तर्हि राज्यत्वं लभते।\n"
   },
   "invalid_move": {
     "wrong_format": "कोऽपि वैध चलन प्रारूपम् न प्राप्तं। [a1b2] प्रयोगं कुरु, यथा [b2c3].",
-    "illegal": "Move [{move}] is illegal."
+    "illegal": "सञ्चलनं [{move}] अवैधः ।"
   },
   "game_action": {
     "moved": "खिलाड़ी {player_id} गतः {move}."

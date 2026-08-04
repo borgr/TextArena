@@ -1,16 +1,16 @@
 {
   "player_prompt": {
-    "intro": "You are playing PegJump. Jump one peg over another into an empty hole, removing the jumped peg.\nGoal: finish with exactly **one** peg left. Action format: e.g. '[4 1]'."
+    "intro": "Ukina PegJump. Tamba upele omozeyi kuenda ku mwamba ushakala, ukanzakanya upele ozeyi.\nLelo: malaika na **umwe** upele ushakala. Mfano wa kutamba: kwa mfano '[4 1]'."
   },
   "board": {
-    "current_board": "Pegs left: {count}\n{board}"
+    "current_board": "Mapele ashakala: {count}\n{board}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid syntax. Use [i->j].",
+    "wrong_format": "Mfano usio wa kawaida. Tumina [i->j].",
     "illegal_move": "Kanza."
   },
   "outcome": {
     "win": "Cjk'ekikandulhi na mughonye owakasa!",
-    "no_moves": "Hakuna hatua zilizobaki."
+    "no_moves": "Kutamba hakuna tena."
   }
 }

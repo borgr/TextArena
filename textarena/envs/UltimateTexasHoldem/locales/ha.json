@@ -48,7 +48,7 @@
     "ante_won": "✅ ANTE fare ya ci nasara! + $ {amount}",
     "ante_pushed": " ANTE fare PUSHED! ${ante} ya dawo",
     "ante_lost": " ANTE fare ya yi hasara! -${ante}",
-    "blind_won": "✅ BLIND bet WON! +${amount}",
+    "blind_won": "✅ BLIND bet YA YI NASARA! +${amount}",
     "blind_pushed": " BIND fare ya tura! ${blind} ya dawo",
     "blind_lost": " BIND fare ya yi asara! -${blind}",
     "play_won": "✅ Wasan Wasan WIN! + $ {amount}",
@@ -66,8 +66,8 @@
     "reward_win_max": "Mai kunnawa ya kammala zagaye {max_turns} tare da kwakwalwan kwamfuta ${chips}"
   },
   "hand_names": {
-    "royal_flush": "Royal Flush",
-    "straight_flush": "Straight Flush",
+    "royal_flush": "Rufin Sarauta",
+    "straight_flush": "Rufin Luru",
     "four_of_a_kind": "Hudu na Irinsa",
     "full_house": "Cikakken Gida",
     "flush": "Fashewa",

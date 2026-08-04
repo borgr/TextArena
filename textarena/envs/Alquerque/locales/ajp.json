@@ -10,7 +10,7 @@
     "unknown_square": "مربع مجهول.",
     "not_your_piece": "المصدر مش قطعتك.",
     "dest_not_empty": "الوجهة مش فاضية.",
-    "illegal": "Illegal move."
+    "illegal": "حركة غير قانونية."
   },
   "game_action": {
     "captured": "اللاعب {player_id} أسر قطعة! (+{score_per_capture})"

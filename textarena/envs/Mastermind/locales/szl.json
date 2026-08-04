@@ -13,7 +13,7 @@
     "repeated_guess": "Zgadliście już {guess}. Sprōbujcie inkszego zgadywać."
   },
   "game_action": {
-    "feedback": "Submitted [{guess}]. Feedback: {black_pegs} black peg(s), {white_pegs} white peg(s)."
+    "feedback": "Przesłano [{guess}]. Informacyjo: {black_pegs} czorny(ch) kołków, {white_pegs} bjoły(ch) kołków."
   },
   "outcome": {
     "win": "Ōdgiadłŏś code, rozwiōnzujōnc {black_pegs} z {code_length} pegs prawidłowo",

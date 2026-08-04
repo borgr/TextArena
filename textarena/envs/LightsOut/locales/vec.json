@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "L'azion la ga da esar in formato [row col] dove riga e col xe numeri intieri dal 0 al {max_index}.",
-    "out_of_range": "Coordinates must be between 0 and {max_index}. You entered [{row},{col}]."
+    "out_of_range": "Łe coordinae łe ga da èsar tra 0 e {max_index}. Ti ghè inserìo [{row},{col}]."
   },
   "outcome": {
     "win": "Complimenti! Te ghe risolto el puzzle in {moves_used} mosse!",

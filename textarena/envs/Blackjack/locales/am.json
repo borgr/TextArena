@@ -9,7 +9,7 @@
     "wrong_format": "በቂ እንቅስቃሴ የለም. '[Hit]' ወይም '[Stand]'ን ይጠቀሙ."
   },
   "game_message": {
-    "hand_result": "Hand {hand_number}: you {outcome}. Your final {player_score}, Dealer {dealer_score}.",
+    "hand_result": "እጅ {hand_number}፡ አንተ {outcome}። የአንተ መጨረሻው {player_score}፣ ድራይቨር {dealer_score}።",
     "all_complete": "=== ሁሉም {num_hands} እጆች ግምት ላይ ናቸው ===\nድሎች: {wins}, ባርነቶች: {losses}, አስተማማንቶች: {draws}\n"
   },
   "outcome": {

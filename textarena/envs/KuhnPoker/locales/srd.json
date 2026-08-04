@@ -11,7 +11,7 @@
     "not_legal": "S'atzione depet èssere {legal_actions}."
   },
   "action": {
-    "submit_move": "Player {player_id}, submitted move: '[{move}]'.",
+    "submit_move": "Giogadore {player_id}, at presentadu sa mossa: '[{move}]'.",
     "valid_actions": "Sas atziones a disponimentu tuas sunt: {legal_actions}.",
     "round_summary": "{reason} Puntiziones atuales: Giogadore 0: '{player_0_chips}'; Giogadore 1: '{player_1_chips}'"
   },

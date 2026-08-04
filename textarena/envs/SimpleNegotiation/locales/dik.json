@@ -4,15 +4,15 @@
   },
   "invalid_move": {
     "receiving_with_no_resource": "Raan ye gam acï them bï ya lɔ̈ɔ̈m ke cïn kä lëu benëke looi.",
-    "out_of_range": "Player {player_id}, Invalid action. Column {col} is out of bounds.",
-    "already_full": "Player {player_id}, Invalid action. Column {col} is full.",
+    "out_of_range": "Raan {player_id}, Kɛɛc kuɛ̈ɛ̈c acɛ̈ɛ̈c. Kɔlɔm {col} acɛ̈ɛ̈c wɛ̈ɛ̈r ciɛl.",
+    "already_full": "Raan {player_id}, Kɛɛc kuɛ̈ɛ̈c acɛ̈ɛ̈c. Kɔlɔm {col} ee kɛɛc.",
     "proposing_with_no_resource": "Raan ye cɔl {player_id} acï bɛ̈n them bï kɔc ya gäm wëëu ke cïn kä lëu kek.",
     "incorrect_offer_format": "Raan ye cɔl {player_id} acï wɛ̈t cï lueel bɛ̈n looi në tɛ̈ cïï yen path.",
     "no_new_offer": "Raan ye cɔl {player_id} akëc këdɛ̈t yam looi."
   },
   "offers": {
     "reject": "Raan ye gɔ̈ɔ̈r {player_id} acï kë cï gam bɛ̈n kuec.",
-    "accept": "Player {acceptor_id} accepted the trade offer from Player {proposer_id}.",
+    "accept": "Raan {acceptor_id} ee kɛɛc kuɛ̈ɛ̈c wɛ̈ɛ̈r ciɛl raan {proposer_id}.",
     "proposal": "Wär {player_id} cɔl luɔi kɛn ë wär {opponent_id}: Luɔi bïk: {offered} -> Luɔi ë bɛn: {requested}"
   },
   "outcome": {

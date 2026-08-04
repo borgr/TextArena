@@ -11,12 +11,12 @@
     "not_legal": "L-azzjoni għandha tkun {legal_actions}."
   },
   "action": {
-    "submit_move": "Player {player_id}, submitted move: '[{move}]'.",
+    "submit_move": "Plejer {player_id}, ippreżenta mossa: '[{move}]'.",
     "valid_actions": "L-azzjonijiet disponibbli tiegħek huma: {legal_actions}.",
-    "round_summary": "{reason} Punti attwali: Player 0: '{player_0_chips}'; Player 1: '{player_1_chips}'"
+    "round_summary": "{reason} Is-skorijiet attwali: Plejer 0: '{player_0_chips}'; Plejer 1: '{player_1_chips}'"
   },
   "showdown": {
-    "showdown_summary": "Showdown: Il-{winner_card} tal-Player {winner} jgħolleb lil {loser_card} tal-Player {loser}. Player {winner} jirbaħ il-pot ta' {pot_value} ċips."
+    "showdown_summary": "Showdown: Il-karta {winner_card} ta' Plejer {winner} tħossha l-karta {loser_card} ta' Plejer {loser}. Plejer {winner} jirbaħ pot ta' {pot_value} ċip."
   },
   "outcome": {
     "draw": "Fl-aħħar tar-rawnds {max_rounds}, iż-żewġ plejers kellhom l-istess numru ta' ċips.",

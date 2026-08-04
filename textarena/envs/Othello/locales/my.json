@@ -16,13 +16,13 @@
   },
   "game_action": {
     "skipped": "ကစားသမား {pid} သည် သူ့အလှည့်ကို ကျော်ခဲ့ရသည်။",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "ကစားသမား {pid} ({piece}) သည် [{r}, {c}] လှုပ်ရှားမှု ပြုလုပ် ခဲ့သည် အပိုင်း {flipped} လှည့်လိုက်သည်"
   },
   "game_message": {
     "must_skip": "ကစားသမား {pid} ({piece}) မှာ ခိုင်လုံတဲ့ ရွေ့လျားမှုမရှိတော့ဘဲ ရှောင်လွှဲရမယ်။"
   },
   "outcome": {
-    "black_wins": "Black wins {black_count}-{white_count}.",
+    "black_wins": "အနက် အနိုင်ရသည် {black_count}-{white_count}။",
     "white_wins": "အဖြူ အနိုင်ရ {white_count}-{black_count}။",
     "draw": "အကျအနိုင် မရှိ {black_count}-{white_count}။"
   }

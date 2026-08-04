@@ -13,8 +13,8 @@
     "already_matched": "Malvalida movo. Ludanto {player_id} elektis unu aŭ ambaŭ kartojn kiuj jam estis egaligitaj."
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "La kartoj elektitaj de Ludanto {player_id} en pozicioj [{r1} {c1}] kaj [{r2} {c2}] kongruas!",
+    "cards_no_match": "La kartoj elektitaj de Ludanto {player_id} ne kongruas. Kartoj en pozicioj [{r1} {c1}] kaj [{r2} {c2}] estas {pos1} kaj {pos2} respektive."
   },
   "outcome": {
     "draw": "Ambaŭ ludantoj egaligis la saman nombron da kartoparoj.",

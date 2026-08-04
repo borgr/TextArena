@@ -6,7 +6,7 @@
     "current_board": "Boro ya tona:\n\n{board}\n\nLitsamaiso tse patilweng: {moves}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid move format. Use '[X 4]' or '[O 2]' format.",
+    "wrong_format": "Mofuta wa tshwetso o fosahetse. Sebedisa mofuta '[X 4]' kapa '[O 2]'.",
     "invalid_cell": "Nomoro ea sele e sa sebetseng: {cell}. E tlameha ho ba pakeng tsa 0 le 8.",
     "already_occupied": "Ho falla ho sa nepahalang. Sele {cell} e se ntse e na le motho ea seng a lutse teng."
   },

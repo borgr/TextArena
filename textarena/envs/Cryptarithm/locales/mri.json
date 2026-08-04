@@ -9,10 +9,10 @@
     "{pct}": "Progress as a percentage string, e.g. 50%"
   },
   "player_prompt": {
-    "intro": "Map each letter to a unique digit so the arithmetic holds.\nAssign with `[A 5]`, re-assign anytime.\n"
+    "intro": "Whakamāpia ngā reta ki ngā tau motuhake kia tūturu te pāngarau.\nWhakapāngia ki `[A 5]`, whakapāngia anō wā kāinga.\n"
   },
   "invalid_move": {
-    "wrong_format": "Bad action format. Use `[A 5]`.",
+    "wrong_format": "Hē te āhua o te whakapānga. Whakamahi `[A 5]`.",
     "letter_not_in_puzzle": "Kāore te reta {letter} i roto i ngā kupu whakatakoto.",
     "digit_used": "Ko te mati {digit} kua whakamahia e {used_letter}.",
     "leading_zero": "Kāore e taea te 0 hei mati matua o tētahi kupu."

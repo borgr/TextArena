@@ -18,7 +18,7 @@
   },
   "outcome": {
     "p0_wins": "Luach líonra {nw0} > {nw1}",
-    "p1_wins": "Net-worth {nw1} > {nw0}",
+    "p1_wins": "Luach nett {nw1} > {nw0}",
     "draw": "An dá ghlan-luach {nw0}  comhionannas cruinn."
   }
 }

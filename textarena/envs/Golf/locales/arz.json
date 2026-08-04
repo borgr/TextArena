@@ -48,7 +48,7 @@
   "message": {
     "deck_empty": "السطح فاضي، اللعبه بتنتهي حالا.",
     "knocked": "اللاعب {pid} طرقت! كل لاعب آخر يحصل على دور واحد.",
-    "final_round": "Player {pid} {reason}! Each other player gets one more turn."
+    "final_round": "اللاعب {pid} {reason}! كل لاعب آخر يحصل على دور إضافي."
   },
   "reason": {
     "all_revealed": "كشف كل البطاقات؟"

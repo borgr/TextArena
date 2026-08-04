@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in **Ultimate Tic Tac Toe**.\nSubmit your move as **[macro  micro]** (two numbers 0-8):\n• *macro*  = which mini-board you play in\n• *micro* = which square inside that mini-board\nExample `[7 8]` ➜ place your mark in mini-board 7, square 8, and\nforce your opponent to play in mini-board 8 next.\n\nYou are `{symbol}`.\n"
+    "intro": "Waxaad u tahay Ciyaartoyga {player_id} ee **Ultimate Tic Tac Toe**.\nGudbi halagaaga sida **[macro  micro]** (lambaro laba ah 0-8):\n• *macro*  = goobta mini ee aad ciyaarto\n• *micro* = goobta ku jirta goobta mini\nTusaale `[7 8]` ➜ ku qor alaabtaada goobta mini 7, goobta 8, oo\nkhasaasha ciyaartoygaaga bannaanka ugu ciyaaro goobta mini 8 inay soo socoto.\n\nWaxaad u tahay `{symbol}`.\n"
   },
   "board": {
     "current_board": "Guddiga hadda jira: {board}"
@@ -11,7 +11,7 @@
     "index_out_of_range": "Baarka yar, safka ama tiirka waa ka baxsan yihiin.",
     "cell_occupied": "Qolkana waa la qabsaday.",
     "wrong_micro_board": "Ciyaaryahanka waa inuu ku ciyaaraa shaxda mikro-ka xiga.",
-    "micro_board_won": "The micro board is already won."
+    "micro_board_won": "Goobta mini waa hadda la guuleystay."
   },
   "next_board": {
     "any": "wax kasta oo micro board ah",

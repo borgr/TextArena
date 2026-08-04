@@ -5,7 +5,7 @@
   "invalid_move": {
     "wrong_format": "صيغة الحركة غير صالحة. لم يستجب اللاعب {player_id} بـ '[number]' صالحة.",
     "out_of_range": "لاعب {player_id} تخمين رقم خارج المدى المعين.",
-    "already_guessed": "Invalid move. Player {player_id} has already guessed the number."
+    "already_guessed": "حركة غلط. اللاعب {player_id} كان خمن الرقم من قبل."
   },
   "game_message": {
     "target_higher": "العدد المستهدف أعلى.",

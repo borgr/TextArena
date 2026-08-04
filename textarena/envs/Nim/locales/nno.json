@@ -13,7 +13,7 @@
     "exceeds_pile": "Kan ikkje fjerna {quantity} frå haug {pile_index} (berre {pile_count} att)."
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "Spelar {player_id} spelte [{pile_index} {quantity}], og fjerna {quantity} objekt frå haug {pile_index}."
   },
   "outcome": {
     "win": "Spelaren {player_id} tok den siste objektet ((s)!)"

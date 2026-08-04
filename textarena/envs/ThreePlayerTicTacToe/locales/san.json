@@ -18,7 +18,7 @@
   },
   "invalid_move": {
     "wrong_format": "अमान्यचालप्रारूप। '[cell]' का उपयोगकरें जहाँ कोशिका ०-{max_cell} है।",
-    "out_of_range": "Invalid cell number: {cell}. Must be between 0 and {max_cell}.",
+    "out_of_range": "अमान्य कोशिका संख्या: {cell}। ० और {max_cell} के बीच होना चाहिए।",
     "already_occupied": "{cell} कोष्ठं पूर्वमेव आश्रितः अस्ति ।",
     "made_invalid": "क्रीडकः {player_id} अवैधं चालम् अकरोत् ।"
   },

@@ -1,24 +1,24 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({piece}). Opponent is ({opp}).\nSubmit moves as '[a2 a3]' (from → to).\n- A normal move is one forward step to an adjacent empty vertex.\n- A capture is a jump over an adjacent enemy piece landing on the empty node beyond.\nEach capture yields {score_per_capture} points.\nGame ends after {max_moves} moves or when a player has no legal move."
+    "intro": "တႃႇသူၼ်းပဵၼ်ၵူၼ်းလဵၼ်ႈ {player_id} ({piece})။ ၵူၼ်းၶဵၼ်ပဵၼ် ({opp})။\nသူၼ်းႁဵတ်းလၢႆးၶိုၼ်ႈမႂ်ႇတူဝ်း '[a2 a3]' (တီႈၼႆႈ → တီႈၼၼ်ႈ)။\n- ၶိုၼ်ႈမႂ်ႇပိူင်ၼိုင်ႈ ပဵၼ်ၶိုၼ်ႈၼိုင်ႈၵမ်း ၸူးၵိုတ်းပိုၵ်ႉ ဢၼ်ၸမ်ႁွမ်း။\n- ပိုတ်ႉၶိုၼ်ႈ ပဵၼ်ၶိုၼ်ႈၶိုၼ်ႈၸူးၼိူဝ် ၶိူင်ႈၶဵၼ် ဢၼ်ၸမ်ႁွမ်း သေ တူၵ်းၸူးၵိုတ်းပိုၵ်ႉ ဢၼ်ၵိုတ်း။\nၶိုၼ်ႈၶိုၼ်ႈၼိုင်ႈ ၸႅင်ႈၼႆႉ {score_per_capture} ၵမ်ႈ။\nၵျူႇမိူဝ်ႈၼႆႉ သုတ်းၼႆႉ {max_moves} ၶိုၼ်ႈၶိုၼ်ႈ ႁိုဝ် ၽူႈလဵၼ်ႈၼိုင်ႈ ဢမ်ႇမီးၶိုၼ်ႈၶိုၼ်ႈၸိုဝ်ႈၸႂ်ႈ။"
   },
   "board": {
     "current_board": "လုပ်ဆောင်ချက် #{move_count}\n\n{board}"
   },
   "invalid_move": {
     "bad_format": "ၽၢင်ႁၢင်ႈဢမ်ႇလီ၊ ၸႂ်ႉ \"[a2 a3]\"။",
-    "unknown_square": "သီႇၸဵင်ႇဢမ်ႇႁူႉ။",
-    "not_your_piece": "ငဝ်ႈငႃႇမၼ်းဢမ်ႇၸႂ်ႈ ၶိူင်ႈၶွင်သူ။",
-    "dest_not_empty": "တီႈဢွင်ႈတီႈမၼ်းဢမ်ႇၽၢတ်ႇဢွၵ်ႇ။",
-    "illegal": "လွင်ႈၶၢႆႉပၢႆႈ ဢၼ်ဢမ်ႇၸွမ်းမၢႆမီႈ။"
+    "unknown_square": "တီႈၼႆႉ ဢမ်ႇမီး။",
+    "not_your_piece": "တီႈၼႆႉ ဢမ်ႇၸႂ်ႈ သူၼ်း။",
+    "dest_not_empty": "တီႈၼႆႉ ဢမ်ႇၸႂ်ႈ တီႈၶႅမ်ႉ။",
+    "illegal": "ၶိုၼ်ႈၶိုၼ်ႈ ဢမ်ႇၸိုဝ်ႈၸႂ်ႈ။"
   },
   "game_action": {
-    "captured": "ကစားသမား {player_id} သည် တခုခု ဖမ်းမိပါသည်! (+{score_per_capture})"
+    "captured": "ၵူၼ်းလဵၼ်ႈ {player_id} ဢဝ်ၶဵၼ်ၼႆႉ ပဵၼ်ၼိုင်ႈ! (+{score_per_capture})"
   },
   "outcome": {
     "no_pieces": "ၽူႈလဵၼ်ႈ {player_id} ဢမ်ႇမီးမၢၵ်ႇ။",
     "cannot_move": "ၽူႈလဵၼ်ႈ {player_id} ဢမ်ႇလႆႈၶၢႆႉ။",
-    "higher_score": "လွင်ႈလႆႈဢဝ်ဢၼ်သုင်လိူဝ်ၼႆႉယဝ်ႉ။",
-    "move_limit": "လွင်ႈၶၢႆႉၵႂႃႇလႆႈတဵမ်ထူၼ်ႈ။"
+    "higher_score": "ၸႅင်ႈၶိုၼ်ႈၶိုၼ်ႈ မႂ်ႇၼမ်။",
+    "move_limit": "ၶၢႆႉၼႆႉ သဵင်ႈသေ။"
   }
 }

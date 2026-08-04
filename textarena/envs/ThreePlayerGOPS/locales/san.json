@@ -14,7 +14,7 @@
     "{scores}": "The final scores as a raw player-number to score mapping - do not translate"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player GOPS.\n- You hold the 13 cards A-K (each exactly once).\n- Each round a prize is revealed. Submit ONE card like `[Q]`, `[10]`, `[2]` …\n- Highest card wins the prize (+ any carry-over pot). Ties roll the prize into the next round.\n- After 13 rounds, highest total wins. Invalid moves = elimination."
+    "intro": "त्वम् त्रिपुरुषगोप्सक्रीडायां खिलाडी {player_id} असि।\n- त्वं त्रयोदश पत्राणि एकैकस्मिन् एकवारं धारयसि।\n- प्रतिपर्याये एका पारितोषिकं प्रकाश्यते। एकं पत्रं यथा `[Q]`, `[10]`, `[2]` इत्यादि प्रस्तुत करोतु।\n- उत्कृष्टं पत्रं पारितोषिकं (+ कोऽपि प्रवृत्तः पात्रं) जयति। समानार्थकानां पत्राणां पारितोषिकं पुनरागमनाय पर्याये प्रक्षिप्यते।\n- त्रयोदश पर्यायानां पश्चात् उत्कृष्टतमः सङ्ख्या जयति। अवैधानां चालानां निराकरणं भवति।"
   },
   "round": {
     "header": "### वर्तयित्वं {round}/१३ - पुरस्कारः: {prize} (मूल्य {worth})",

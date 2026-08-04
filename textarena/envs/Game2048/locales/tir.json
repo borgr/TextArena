@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing 2048 on a {board_size}x{board_size} board. Your goal is to reach a {target_tile} tile by sliding identical numbers together!\nValid moves: [Up], [Down], [Left], [Right]. Tiles combine when they collide, doubling their value.\n"
+    "intro": "አንተ በ {board_size}x{board_size} ሰሌዳ ላይ 2048 ትጫወታለህ። አንተ ምንጪን ከማይተሳሰሩ አንድ ዓይነት ቁጥሮች በማስገጋገር አንድ {target_tile} ጣይል ለመድረስ ነው።\nማለፍ የሚፈቀዱ እርምጃዎች፥ [Up]፣ [Down]፣ [Left]፣ [Right]። ጣይሎች በማጋጨት ጊዜ ተዋህደው ዋጋቸው ሲለካ ለሁለት ያድጋሉ።\n"
   },
   "board": {
     "current_board": "ስኮር: {score}\n{board}"
@@ -10,7 +10,7 @@
     "no_change": "ቦርድ ኣይተቐየረን - ካልእ ኣንፈት መሪጹ።"
   },
   "outcome": {
-    "win": "Congratulations, you reached {target_tile}! Final score {score}.",
+    "win": "አብረን አንገበርን፣ {target_tile} ለመድረስ ተቻለህ! መጨረሻ ውጤት {score}።",
     "lose": "ምሕራት ኣይተረፈን። ከፊል ኣዕላፊ {max_tile} - መጻእ ስኮር {score}."
   }
 }

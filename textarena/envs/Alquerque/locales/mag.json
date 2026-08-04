@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({piece}). Opponent is ({opp}).\nSubmit moves as '[a2 a3]' (from → to).\n- A normal move is one forward step to an adjacent empty vertex.\n- A capture is a jump over an adjacent enemy piece landing on the empty node beyond.\nEach capture yields {score_per_capture} points.\nGame ends after {max_moves} moves or when a player has no legal move."
+    "intro": "तू खेलाड़ी {player_id} ({piece}) हउ। विरोधी हउ ({opp})।\nचाल '[a2 a3]' (से → तक) के रूप में जमा करू।\n- एक सामान्य चाल एक आगे कदम हउ जो एक सटे हुए खाली शीर्ष पर हउ।\n- एक कैप्चर एक सटे हुए दुश्मन के टुकड़े पर कूदकर खाली नोड पर उतरना हउ।\nहर कैप्चर {score_per_capture} अंक देता हउ।\nखेल {max_moves} चालों के बाद या जब एक खेलाड़ी के पास कोई कानूनी चाल नहीं होती हउ तब समाप्त हो जाता हउ।"
   },
   "board": {
     "current_board": "#{move_count} {board} स्थानांतरित करे"

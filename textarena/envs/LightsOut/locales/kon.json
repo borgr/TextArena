@@ -1,16 +1,16 @@
 {
   "player_prompt": {
-    "intro": "Welcome to Lights Out! You have a {size}x{size} grid of lights.\nYour goal is to turn ALL lights OFF (represented by '.')\nWhen you press a light, it toggles itself AND its adjacent neighbors (up/down/left/right).\nType [row col] to press a light (0-indexed, so valid range is 0-{max_index}).\nYou have up to {max_turns} moves to solve the puzzle.\nLegend: 'O' = light ON, '.' = light OFF"
+    "intro": "Mbote na Lights Out! O na {size}x{size} kisika ya mianga.\nKimpwanza kiaku ni kumika mianga yonso OFF (mianga ikonzi na '.').\nKobalula mwanga, kobalula kimene na bapaya badi (juu/mansi/kunsi/kulia).\nLoba [row col] kobalula mwanga (kutoka 0, kwa hivyo kilengele kizuri ni 0-{max_index}).\nUna mpaka {max_turns} mikwamo kutatua kisabu.\nMakota: 'O' = mwanga wazi, '.' = mwanga zima"
   },
   "board": {
     "current_state": "Mfueto wa gridi wa sika (Luseke {moves_made}, {moves_left} luseke luzolo, {completion}% luvukeni):\n{grid}"
   },
   "invalid_move": {
     "wrong_format": "Kisalu fwete vanda na mutindu ya [row col] kisika ndonga ti dikunzi kele ntalu-bima yantika 0 tii {max_index}.",
-    "out_of_range": "Coordinates must be between 0 and {max_index}. You entered [{row},{col}]."
+    "out_of_range": "Kuratibu lazima ziwe kati ya 0 na {max_index}. Umetikisa [{row},{col}]."
   },
   "outcome": {
-    "win": "Congratulations! You solved the puzzle in {moves_used} moves!",
-    "loss": "Game over! You used all {max_turns} moves without solving the puzzle. Final completion: {completion}%\nFinal state:\n{grid}"
+    "win": "Hongera! Umetatua kisadi katika {moves_used} mikono!",
+    "loss": "Mchezo umekwisha! Umetumia mikono yote {max_turns} bila kutatua kisadi. Ukamilishaji wa mwisho: {completion}%\nHali ya mwisho:\n{grid}"
   }
 }

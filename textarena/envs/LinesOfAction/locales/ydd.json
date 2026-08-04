@@ -10,7 +10,7 @@
     "{to}": "The destination coordinate of a move, such as b3"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in game of LinesOfAction.\nYour pieces are '{side}', opponent pieces are '{other}'.\nMove format: `[b1b3]` (from-coord to-coord). A legal move travels horizontally, vertically, or diagonally a number of squares equal to the total pieces (any colour) in that line. You may jump over your own pieces, but not opponent pieces; landing on an opponent captures it.  Win when all your pieces are 8-neighbour connected."
+    "intro": "Ir zent Shpiler {player_id} in shpil fun LinesOfAction.\nAyere figurlekh zenen '{side}', kegners figurlekh zenen '{other}'.\nZug-format: `[b1b3]` (fun-koordinate tsu-koordinate). A legaler zug fahrt horizontal, vertikal, oder diagonal a tsol fun kvadratn glaykh tsu der totaler figurlekh (yeder farb) in der linie. Ir megt iberspringen ayere eygene figurlekh, ober nisht kegners figurlekh; landn af a kegner nemt im.  Gvint ven ale ayere figurlekh zenen 8-nokhbarn farbunden."
   },
   "board": {
     "current_board": "באָרד: {board}"

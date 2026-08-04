@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in Wild Tic Tac Toe.\nOn your turn, you can place either an 'X' or an 'O' in an empty square.\nYou win by aligning three of the same mark (X or O) in a row.\nYou can win with either symbol.\nChoose your move using the format '[X 4]' to place X in the center.\n"
+    "intro": "Nge ujile Mubadi {player_id} mu Tic Tac Toe ya Ndala.\nPa kudila kwaku, nge uweza kubika 'X' kapwa 'O' mu quadradu vazio.\nNge usunga kufwana tatu ya sinali ile (X kapwa O) mu linha.\nNge usunga kufwana na sinali yoyi.\nSola kuenda kwaku kwa kutumisa fomatu '[X 4]' pa kubika X mu kati.\n"
   },
   "board": {
     "current_board": "Tala ya Kuunganisha:\n\n{board}\n\nMikono Inayopatikana: {moves}"

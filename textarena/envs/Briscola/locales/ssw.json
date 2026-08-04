@@ -19,7 +19,7 @@
     "{deck_count}": "Number of cards left in the deck"
   },
   "game": {
-    "start": "Briscola game started! Trump suit: {trump_suit} (Trump card: {trump_card})"
+    "start": "Umdlalo we-Briscola uqalile! Buhlalu bemali: {trump_suit} (Imalebula yebuhlalu bemali: {trump_card})"
   },
   "prompt": {
     "intro": "Udla emdlalo waBriscola - Player {player_id}.\nInhloso: Phinda amagasi bese uthole iphoyinti eziningi (iphoyinti 120 eziphelele kulendondo).\nAmaphuzu akakati: A=11, 3=10, K=4, Q=3, J=2, ezinye=0\nAmakati ahamba phezulu: A > 3 > K > Q > J > 7 > 6 > 5 > 4 > 2\nAmakati endondo anapha amakati angendondo ngaphandle kwempilo.\n\nSebenza: '[play X]' lapho X ingaposisi (1-{max_pos}) yekati kulendawo yakho"

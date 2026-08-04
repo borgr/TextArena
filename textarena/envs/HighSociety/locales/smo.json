@@ -17,8 +17,8 @@
     "auction_result": "P0 na faaaogaina {bid0}, P1 na faaaogaina {bid1}. Tagata taalo {winner} manumalo prestige {prize} (aofa’i {total})."
   },
   "outcome": {
-    "p0_wins": "Net-worth {nw0} > {nw1}",
-    "p1_wins": "Net-worth {nw1} > {nw0}",
+    "p0_wins": "Agaagaaga {nw0} > {nw1}",
+    "p1_wins": "Agaagaaga {nw1} > {nw0}",
     "draw": "O le tau o nei mea uma e lua {nw0}  tutusa lelei."
   }
 }

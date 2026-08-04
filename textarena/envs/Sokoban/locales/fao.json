@@ -6,13 +6,13 @@
     "current_board": "Núverandi borð:\n\n{board}\nFáanlegir leikir: {moves}"
   },
   "invalid_move": {
-    "wrong_format": "The submitted move does not follow the correct format. Use [up], [down], [left], [right] or [w], [a], [s], [d].",
+    "wrong_format": "Innsendt leikur fylgir ikki rættu sniði. Brúka [up], [down], [left], [right] ella [w], [a], [s], [d].",
     "not_valid_action": "Tað, sum er lagt fram, er ikki ein galdandi avgerð.",
     "wall_collision": "Tú kanst ikki flyta teg inn í ein múr!",
     "invalid_position": "Ógildig rørsla - kann ikki flyta til hesa støðu."
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
+    "moved": "Tú {pushed} flutt [{action}].",
     "pushed_prefix": "trýstið eina kassa, meðan"
   },
   "outcome": {

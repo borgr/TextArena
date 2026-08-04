@@ -6,7 +6,7 @@
     "current_board": "Bhoja Raunga:\n\n{board}\n\nMikando Yopinda: {moves}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid move format. Use '[cell]'.",
+    "wrong_format": "Fomu isina kunyatsorwa. Shandisa '[cell]'.",
     "invalid_cell": "Indekisi yesero isiriyo.",
     "already_occupied": "Sero {cell} ratotorwa."
   },

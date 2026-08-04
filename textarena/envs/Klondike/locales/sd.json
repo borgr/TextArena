@@ -16,16 +16,16 @@
     "{cards}": "The cards in a pile as neutral labels, or '--' if empty (never translate)"
   },
   "player_prompt": {
-    "intro": "You are playing Klondike Solitaire. Your goal is to move all cards to the foundation piles.\n\nGame Rules:\n- Foundation piles (F1-F4): Build up from Ace to King in suit\n- Tableau piles (T1-T7): Build down alternating colors (red on black, black on red)\n- Stock: Draw cards to waste pile\n- Waste (W): Top card available for play\n\nCommands:\n- 'draw' - Draw cards from stock to waste\n- 'move <source> <destination> [count]' - Move cards between piles\n  Examples: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count can also be 'all', which will try to move all face-up cards.\n- 'forfeit' - End the game immediately and lock in your current score\n- Pile names: W (waste), F1-F4 (foundations), T1-T7 (tableau)\n\nYou can execute multiple actions in one turn by separating them with commas:\n  Example: 'draw, move W T1, move T2 F1'\n\nOnly Kings can be placed on empty tableau piles.\nActions execute in order - if one fails, the remaining actions are skipped.\nUse 'forfeit' if you believe the game is impossible to win."
+    "intro": "توهان ڪلونڊائڪ سوليٽير کيڏي رهيا آهيو. توھان جو مقصد سڀ ڪارڊ فائونڊيشن پائيلن ۾ منتقل ڪرڻ آھي.\n\nڪھڙي قائدن:\n- فائونڊيشن پائيلن (F1-F4): سوٽ ۾ ايڪ کان ڪنگ تائين ٺاھيو\n- ٽيبلو پائيلن (T1-T7): رنگ بدلائيندڙ رنگن ۾ ڊائون ٺاھيو (ڳاڙھو ڪارو تي، ڪارو ڳاڙھو تي)\n- اسٽاڪ: ڪارڊز کي ويسٽ پائيل ۾ ڊراء ڪريو\n- ويسٽ (W): ٽاپ ڪارڊ پليء لاءِ دستياب آھي\n\nحڪمن:\n- 'draw' - اسٽاڪ مان ڪارڊز کي ويسٽ ۾ ڊراء ڪريو\n- 'move <source> <destination> [count]' - پائيلن جي وچ ۾ ڪارڊز منتقل ڪريو\n  مثال: 'move W T1', 'move T1 F2', 'move T3 T5 2'. ڳڻپ 'all' پڻ ٿي سگھي ٿي، جيڪا سڀ منھن تي ڪارڊز منتقل ڪرڻ جي ڪوشش ڪندي.\n- 'forfeit' - راند کي فوري طور تي ختم ڪريو ۽ پنهنجو موجوده اسڪور تالا ڪريو\n- پائيل نالا: W (ويسٽ)، F1-F4 (فائونڊيشنز)، T1-T7 (ٽيبلو)\n\nتوهان هڪ چڪر ۾ ڪيتريون ئي ڪاروائون هڪ ساٿ ۾ ڪري سگھو ٿا، انهن کي ڪاما سان الڳ ڪريو:\n  مثال: 'draw, move W T1, move T2 F1'\n\nصرف ڪنگز خالي ٽيبلو پائيلن تي رکي سگھجن ٿا.\nڪاروائون ترتيب ۾ هڪجھڙيون آھن - جيڪڏھن هڪ ناڪام ٿئي، باقي ڪاروائون ڇڏي ڏنيون وينديون.\n'forfeit' استعمال ڪريو جيڪڏھن توهان وٺي ٿو ته راند کٽڻ ناممڪن آھي."
   },
   "format_error": {
     "no_brackets": "عمل جو فارميٽ غلط آهي. عمل کي قوسين ۾ هجڻ گهرجي.",
     "no_closing_bracket": "غلط عمل فارميٽ. بند ڪرڻ وارو قوس غائب آهي ']'",
     "empty_command": "خالي حڪم. ٽائيپ ڪريو 'draw' يا 'move <source> <destination> [count]'",
     "empty_action": "خالي ڪارروائي",
-    "move_needs_args": "منتقل ڪرڻ جو حڪم ذريعو ۽ منزل جي ضرورت آهي. استعمال: 'منتقل <ماخذ> <مقصد> [count]'",
-    "count_positive": "ڳڻپ مثبت هجڻ گهرجي يا \"سڀ\"",
-    "count_invalid": "غلط ڳڻپ. هڪ نمبر استعمال ڪريو يا 'سڀ'",
+    "move_needs_args": "موو حڪم لاءِ ذريعو ۽ منزلگاهه ضروري آھن. استعمال: 'move <source> <destination> [count]'",
+    "count_positive": "ڳڻپ مثبت يا 'all' هئڻ گھرجي",
+    "count_invalid": "ڳڻپ غلط آھي. هڪ نمبر يا 'all' استعمال ڪريو",
     "unknown_command": "نامعلوم حڪم \"{cmd}\". استعمال ڪريو \"draw\"، \"move <source> <destination> [count]\"، يا \"forfeit\"",
     "wrapped": "ڪارروائي {n}: {msg}"
   },

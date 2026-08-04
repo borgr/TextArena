@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing Countdown numbers game!\nGoal: Combine numbers using +, -, *, / to reach the target.\nAction format: [i j op] where i,j are indices and op is the operation.\nExample: [0 2 *] multiplies number at index 0 with number at index 2.\nDivision must result in whole numbers only."
+    "intro": "አንተ በካውንትዳውን ናምበርስ ጌም እየተጫወትክ ነው!\nግብአት: ቁጥሮችን በ+, -, *, / በመጠቀም አላማውን ለማግኘት.\nእንቅስቃሴ ቅርጸት: [i j op] እዚህ i,j ኢንዴክሶች እና op እንቅስቃሴ ነው.\nምሳሌ: [0 2 *] ቁጥር በኢንዴክስ 0 ቁጥር በኢንዴክስ 2 ከተባዛ.\nክፍለጥ ሙሉ ቁጥሮች ብቻ ማስገኘት አለበት."
   },
   "board": {
     "header": "ንብረት: {target}\n\nድማ ኣብ እንተዘርእዮ ዘለዎ ቁጽሪ ዕዳድ:\n{numbers}",
@@ -9,7 +9,7 @@
     "progress": "{observation}\nኣብ ወገንቲ ዝርከብ ኮይን: {progress}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use `[i j op]` where i,j are indices and op is +,-,*,/",
+    "wrong_format": "የእንቅስቃሴ ቅርጸት ተሳስቷል. `[i j op]` እዚህ i,j ኢንዴክሶች እና op እንቅስቃሴ ነው ተጠቀም",
     "invalid_indices": "ዘይቅቡል መዐቀኒታት ኣለዉ፡ ዝተፈላለዩ ክኾኑ ይግባእ ኣብ ውሽጢ 0-{max_index}።",
     "invalid_operation": "ዘይቅኑዕ መስርሕ (ብዜሮ ምክፋል ወይ ብሙሉእ ቁጽሪ ዘይኮነ ውጽኢት)"
   },

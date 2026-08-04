@@ -24,8 +24,8 @@
     "intro": "Siz Golf (Karta oyi) - Oyuncu {player_id} oynyaysiz.\nMaqsad: Eng kam ball toplash. Agar ustunlar bir xil qiymatga ega bolsa, ular 0 deb hisoblanadi.\nKarta qiymatlari: A=1, 2-10=qiymati, J/Q=10, K=0\n\nHarakatlar (to'g'ri qavs ishlétishingiz kerak):\n- '〕[draw]' - Kartani chiqarish\n- '〕[take]' - Bétilgen tepadan olish\n- '〕[swap X Y]' - Chiqarilgan kartani X (qat) Y (ustun) orin bilan almashtirish\n- '〕[discard]' - Chiqarilgan kartani béttik"
   },
   "board": {
-    "drew": "You drew: {card}\nNow you must [swap X Y] or [discard] it.",
-    "took": "You took: {card} from discard pile\nYou must [swap X Y] with it (cannot discard).",
+    "drew": "سىز چېكىپ تۇرۇسىز: {card}\nھازىر سىز [swap X Y] ياكى [discard] قىلىشىڭىز كېرەك.",
+    "took": "سىز تاشلىغان كارتىلاردىن بىرنى ئالدىڭىز: {card}\nسىز [swap X Y] قىلىشىڭىز كېرەك (تاشلىيالمايسىز).",
     "peeked": "Siz (〕{row},〕{col}) orinda qarap chiqdingiz: {card}",
     "turn_view": "Sizning qoliniڭiz:\n〕{hand}\nBétilgen tepa: {discard}\n〕{options}",
     "none": "ھېچقايسى يوق."
@@ -42,7 +42,7 @@
     "row": "Qat {n}: {cards}"
   },
   "action_desc": {
-    "swapped": "Player {pid} swapped {new} with {old} at position ({row},{col})",
+    "swapped": "ئويۇنچى {pid} كارتە {new} نى كارتە {old} بىلەن قۇر ({row},{col}) غا ئالماشتۇردى",
     "discarded": "Oyuncu {pid} {card}ni béttik"
   },
   "message": {

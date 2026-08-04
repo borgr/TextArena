@@ -11,7 +11,7 @@
     "{ball_pos}": "The cup index the ball is under"
   },
   "player_prompt": {
-    "intro": "Track the hidden ball 'X' while the cups are shuffled.\nAfter shuffling, guess its location with `[k]`."
+    "intro": "P'iqi 'X' k'utu tukuyasi. K'utu k'utuyasi, ñiqi khatt'ayasi `[k]`."
   },
   "game_message": {
     "ball_starts": "Palla qalltaña: {line}",
@@ -21,11 +21,11 @@
     "reveal": "(Uñacht'ayama: bola {ball_pos}) uksana."
   },
   "invalid_move": {
-    "wrong_format": "Bad action. Use `[k]`.",
+    "wrong_format": "Janiw kuna aru. `[k]` khatt'ayasi.",
     "out_of_range": "Indice ukax 0-{max_index} uksankiwa."
   },
   "outcome": {
     "win": "Chiqapa, palla jikxatapxtaxa.",
-    "lose": "Wrong — ball was under cup {ball_pos}."
+    "lose": "Janiw — p'iqi k'utu {ball_pos} ñiqi."
   }
 }

@@ -5,11 +5,11 @@
   "board": {
     "header": "TARGET: {target}\n\nAngka-angka nan tadapek:\n{numbers}",
     "best": "{observation}\n\nTaruih ba'a: {best_value} (jarak: {distance})\nEkspresi taruih ba'a: {best_expression}",
-    "history": "{observation}\n\nMove history:\n{moves}",
+    "history": "{observation}\n\nRiwayat garih:\n{moves}",
     "progress": "{observation}\nSkor kamajuan kini: {progress}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use `[i j op]` where i,j are indices and op is +,-,*,/",
+    "wrong_format": "Format aksi salah. Gunakan `[i j op]` di mano i,j adolah indeks dan op adolah +,-,*,/",
     "invalid_indices": "Indeks indak sah. harus babeda jo dalam kisaran 0-{max_index}",
     "invalid_operation": "Operasi indak sah (pembagian jo nol atau hasil nan bukan bilangan bulat)"
   },

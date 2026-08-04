@@ -16,7 +16,7 @@
     "{cards}": "The cards in a pile as neutral labels, or '--' if empty (never translate)"
   },
   "player_prompt": {
-    "intro": "You are playing Klondike Solitaire. Your goal is to move all cards to the foundation piles.\n\nGame Rules:\n- Foundation piles (F1-F4): Build up from Ace to King in suit\n- Tableau piles (T1-T7): Build down alternating colors (red on black, black on red)\n- Stock: Draw cards to waste pile\n- Waste (W): Top card available for play\n\nCommands:\n- 'draw' - Draw cards from stock to waste\n- 'move <source> <destination> [count]' - Move cards between piles\n  Examples: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count can also be 'all', which will try to move all face-up cards.\n- 'forfeit' - End the game immediately and lock in your current score\n- Pile names: W (waste), F1-F4 (foundations), T1-T7 (tableau)\n\nYou can execute multiple actions in one turn by separating them with commas:\n  Example: 'draw, move W T1, move T2 F1'\n\nOnly Kings can be placed on empty tableau piles.\nActions execute in order - if one fails, the remaining actions are skipped.\nUse 'forfeit' if you believe the game is impossible to win."
+    "intro": "Dir spillt Klondike Solitaire. Äert Zil ass et, all Kaarte op d'Grondlagspäiler ze plazen.\n\nSpillreegelen:\n- Grondlagspäiler (F1-F4): Opbau vun Ass bis Kinnek an der selwechter Faarf\n- Tableaupäiler (T1-T7): Ofbau a wiesselnde Faarwen (rout op schwaarz, schwaarz op rout)\n- Stock: Zeechnen vu Kaarten op den Ofallpäil\n- Ofall (W): Déi iewescht Kaart steet fir d'Spill zur Verfügung\n\nKommanden:\n- 'draw' - Zeechnen vu Kaarten vum Stock op den Ofall\n- 'move <source> <destination> [count]' - Plazen vu Kaarten tëscht de Päiler\n  Beispiller: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count kann och 'all' sinn, wat probéiert, all Kaarten ze plazen, déi opgedeckt sinn.\n- 'forfeit' - D'Spill direkt beenden an Äeren aktuelle Score festhalen\n- Päilnimm: W (Ofall), F1-F4 (Grondlagspäiler), T1-T7 (Tableaupäiler)\n\nDir kënnt méi Aktiounen an engem Zuch ausféieren, andeems Dir se mat Kommaen trennt:\n  Beispill: 'draw, move W T1, move T2 F1'\n\nNëmmen Kinneken kënnen op eide Tableaupäiler gesat ginn.\nAktiounen gi an der Reihefolleg ausgeféiert - wann eng feilt, ginn déi iwwereg Aktiounen iwwergangen.\nBenotzt 'forfeit', wann Dir mengt, d'Spill ass onméiglech ze gewannen."
   },
   "format_error": {
     "no_brackets": "Ongëlteg Aktioun Format. Action soll an Klammern sinn.",
@@ -26,7 +26,7 @@
     "move_needs_args": "Beweeg Kommando erfuerdert Quell an Destinatioun. Benotzung: 'move <source> <destination> [count]'",
     "count_positive": "D'Zuel muss positiv sinn oder \"all\"",
     "count_invalid": "Ongëlteg Zählung. Benotzt eng Zuel oder \"all\"",
-    "unknown_command": "Onbekannte Kommand '{cmd}'. Benotzt 'zieh', 'beweegen <Quell> <Ziil> [count]', oder 'opginn'",
+    "unknown_command": "Onbekannte Kommando '{cmd}'. Benotzt 'draw', 'move <source> <destination> [count]', oder 'forfeit'",
     "wrapped": "Action {n}: {msg}"
   },
   "action_result": {

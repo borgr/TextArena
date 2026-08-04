@@ -14,10 +14,10 @@
     "{scores}": "The final scores as a raw player-number to score mapping - do not translate"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player GOPS.\n- You hold the 13 cards A-K (each exactly once).\n- Each round a prize is revealed. Submit ONE card like `[Q]`, `[10]`, `[2]` …\n- Highest card wins the prize (+ any carry-over pot). Ties roll the prize into the next round.\n- After 13 rounds, highest total wins. Invalid moves = elimination."
+    "intro": "Am  Three-Player GOPS re Player {player_id} aad.\n- Am 13 taa A-K taa (mit' taa okoy saal taa) aapni jagaaye rakha men.\n- Pratyek round re ek prize udaasi. Ek taa card jaise `[Q]`, `[10]`, `[2]` … daakna.\n- Upara taa card prize jeet'taa (+ kono carry-over pot oda). Tie re prize agla round te jaay.\n- 13 round paar, sabse upar total jeet'taa. Agyaay move = elimination."
   },
   "round": {
-    "header": "### Round {round}/13 - Prize: {prize} (worth {worth})",
+    "header": "### ᱨᱟᱣᱩᱱᱰ {round}/᱑᱓ - ᱯᱩᱨᱩᱥᱠᱟᱨ: {prize} (ᱢᱩᱞᱭᱚ {worth})",
     "hand": "ᱟᱢᱟᱜ ᱮᱴᱟᱜ ᱦᱟᱛᱟᱝ: {hand}"
   },
   "reveal": {

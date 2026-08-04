@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id}. You are playing the Memory Game.\nYour goal is to match more pairs of cards on the board, than your opponent.\nOn your turn, select two cards to flip by entering the row and column numbers of the first and second card respectively like '[0 1 1 0]', where the first card is in row 0 and column 1, and the second card is in row 1 and column 0.\nIf the two cards match, you get a point and the cards remain face up. If they do not match, the cards are flipped back face down, e.g. '.'.\nThe game ends when all pairs have been matched."
+    "intro": "Inwe Player {player_id}. Inwe uchiwo gi ludo mar Memory Game.\nDhumo lako ni kuongo mak wuod ang'wen mar karata kodi kodi nyingi kuliko jatelo lako.\nKa wakati wuod inwe, tich wuod karata abiri kodi kaweyo gi nambari mar safu na safu wuod karata achiel na karata ariri mtawali kama '[0 1 1 0]', ambapo karata achiel iko safu 0 na safu 1, na karata ariri iko safu 1 na safu 0.\nKa karata abiri gi ongo, inwe udhuru akinyi na karata kagawo gi kodi kaw gi moko. Ka ok ongo, karata kagawo gi kodi kaw gi chini, mfano '.'.\nLudo osie ka gi karata wuod ang'wen gi ongo wote."
   },
   "board": {
     "current_board": "Bodi masani: {board}",
@@ -13,13 +13,13 @@
     "already_matched": "Ok en gima owinjore. Jalo {player_id} oyiero achiel kata kad ariyo ma osepwodhore."
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "Karata kagawo gi Player {player_id} kodi kaweyo gi [{r1} {c1}] na [{r2} {c2}] ongo!",
+    "cards_no_match": "Karata kagawo gi Player {player_id} ok ongo. Karata kodi kaweyo gi [{r1} {c1}] na [{r2} {c2}] gi {pos1} na {pos2} mtawali."
   },
   "outcome": {
     "draw": "Jothum ariyogo duto ne nigi namba maromre e tugo.",
-    "win": "Mchezaji {winner_id} ameshinda!",
-    "turn_limit": "The turn limit has been reached. The game is over. Player 0 scored {score_0} points, Player 1 scored {score_1} points.",
-    "turn_limit_win": "{reason} Player {winner_id} has won!"
+    "win": "Player {winner_id} osie odhi!",
+    "turn_limit": "Wakati wa kaweyo karata osie. Ludo osie. Player 0 ochiek {score_0} alama, Player 1 ochiek {score_1} alama.",
+    "turn_limit_win": "{reason} Player {winner_id} osie odhi!"
   }
 }

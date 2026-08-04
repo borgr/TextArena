@@ -3,7 +3,7 @@
     "intro": "Uyiyipleya {player_id} kuChopsticks. Kwixesha lakho, khetha eya kuzo:\n  + Khwaza:  '[attack M O]'  lapho M=unyawo (0 okanye 1), O=unyawo lomdlali odala (0 okanye 1).\n    - Inyawo lomdlali odala liphela ngunyawo; ukanti liphikiswe ku-5, liya ku-0.\n  + Phathela:   '[split L R]'  ukuphatheleleza ngokwendlela inyawo yakho yonke kuL na R (L+R = inyawo yakho yonke).\nYipheni ngelithi lilodwa kwaloo mafu."
   },
   "board": {
-    "current_board": "Bhozeni bokwenziwe:\nPlayer 0: {hands_0}\nPlayer 1: {hands_1}"
+    "current_board": "Bhodi yokuQhuba:\nMdlali 0: {hands_0}\nMdlali 1: {hands_1}"
   },
   "invalid_move": {
     "my_hand_dead": "Isandla sakho {my_idx} sifile.",
@@ -14,7 +14,7 @@
   },
   "game_action": {
     "attack": "P{player_id} ikhwaza P{opp_id}’s hand {opp_idx}: iyaphula ku{opp_val} ku〕{new_val}.",
-    "split": "P{player_id} splits into [{L}, {R}]."
+    "split": "P{player_id} hlukanisa ngokuba [{L}, {R}]."
   },
   "history": {
     "entry": "P{player_id} {desc}"

@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "Ez dago mugimendu formatu baliozkoa aurkitu. Erabili [a1b2], adibidez [b2c3].",
-    "illegal": "Move [{move}] is illegal."
+    "illegal": "Mugimendua [{move}] legez kanpokoa da."
   },
   "game_action": {
     "moved": "Jokalariak {player_id} mugitu zuen {move}."

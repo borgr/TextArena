@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a {num_rounds}-round of IteratedTwoThirdsAverage.\nEach round, guess a number between {min_guess} and {max_guess}.\nAfter both guesses, the target is (2/3)x(average of both guesses),\nand the player whose guess is closest to the target wins that round.\nReply with your guess in the format '[<number>]'."
+    "intro": "سیز اویونچو {player_id}، {num_rounds} دور IteratedTwoThirdsAverage اویونوندا سیز.\nهر دوردا، {min_guess} و {max_guess} آراسیندا بیر عدد تخمین ائدین.\nایکی تخمیندن سونرا، هدفه (۲/۳)×(ایکی تخمینین اورتاسی) دیر،\nو تخمین هدفه ان یاخین اولان اویونچو او دورو قازانیر.\nجوابینیزی '[<number>]' فورمتینده وئرین."
   },
   "invalid_move": {
     "wrong_format": "فارماسیت صحیح نیست؛ لطفاً حدس تانو [<number>] وایییییین.",

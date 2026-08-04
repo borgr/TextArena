@@ -23,9 +23,9 @@
   "outcome": {
     "survived_win": "O zugatô {player_id} o l'é rescivæu; tutti i atri en mòrti.",
     "all_dead_simul": "Tutti i serpenti en mòrti à l'instante.",
-    "outlived": "Player outlived all others.",
+    "outlived": "O xugador o l'à sopravvisciûo a tùtti i âtri.",
     "all_dead": "Tutti i serpenti son mòrti.",
     "turn_limit": "O limite de rotaçion o l'é stæto raggiunto: a ciù bella scortua vinse in tie-break.",
-    "ranking": "{reason} Final ranking groups (worst→best): {groups}"
+    "ranking": "{reason} Grùppi de clasificaçión finâle (da-o pèzo a-o mêgio): {groups}"
   }
 }

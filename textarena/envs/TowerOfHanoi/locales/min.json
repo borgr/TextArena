@@ -6,7 +6,7 @@
     "current_board": "Dewan nan ado: {board}."
   },
   "invalid_move": {
-    "wrong_format": "You did not respond with valid '[source] [target]'.",
+    "wrong_format": "Sanak indak mananggapi jo format '[source] [target]' nan sah.",
     "invalid_tower": "Sanak manyatokan sumber atau manara tujuan nan indak sah.",
     "empty_tower": "Awak cubo mangindahkan disk dari manara nan kosong.",
     "same_tower": "Awak cubo mangapuih disk ka manara nan samo.",

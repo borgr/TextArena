@@ -7,7 +7,7 @@
   },
   "message": {
     "round_match": "མི་སྣ་ 0 གྱིས {choice0} བཀོད་; མི་སྣ་ 1 གྱིས {choice1} བཀོད་. མཐུན་པ་ -> མི་སྣ་ 0 ཡི་རྒྱལ་",
-    "round_mismatch": "Player 0 picked {choice0}; Player 1 picked {choice1}. Mismatch -> Player 1 wins."
+    "round_mismatch": "མི་ཁོངས་མི་ 0 གིས་ {choice0} འདེམས་པ་རེད། མི་ཁོངས་མི་ 1 གིས་ {choice1} འདེམས་པ་རེད། མི་མཉམ་པ་རེད་-> མི་ཁོངས་མི་ 1 རྒྱུགས་ཐོབ་རེད།"
   },
   "outcome": {
     "p0_wins": "ཤོག་གྲངས་ 0 ནང་གི་རྩེད་འགྲན་པ་མང་ཤོས་ཐོབ་ཡོད།",

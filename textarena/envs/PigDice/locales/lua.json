@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} playing a game of Pig Dice.\n\nRules:\n- On your turn, you can either '[roll]' or '[hold]'\n- Roll a 2-6: Add to your turn total\n- Roll a 1: Lose turn total and end turn\n- Hold: Add turn total to your score and end turn\n- First to {winning_score} points wins\n\nWhen it's your turn, you'll see the current scores and turn total.\nRespond with '[roll]' to roll the die or '[hold]' to bank your points."
+    "intro": "Ngeye Mwana {player_id} akalaka mchezo wa Pig Dice.\n\nMikano:\n- Pa kizungu chako, ngeye ulanda '[roll]' to '[hold]'\n- Zungusha 2-6: Ongeza kwa jumla ya kizungu chako\n- Zungusha 1: Poteza jumla ya kizungu chako na maliza kizungu\n- Shikilia: Ongeza jumla ya kizungu chako kwa alama zako na maliza kizungu\n- Wa kwanza kufikia {winning_score} pointi akunda\n\nPa kizungu chako, ngeye utaona alama za sasa na jumla ya kizungu.\nItikia na '[roll]' ili zungusha kufa au '[hold]' ili weka alama zako."
   },
   "invalid_move": {
     "invalid_action": "Nketo tei yakokela. Utumie '[roll]' oba '[hold]'."

@@ -1,10 +1,10 @@
 {
   "player_prompt": {
-    "intro": "You are playing a {difficulty} RushHour puzzle. Slide cars to free the red car [X] and drive it out the right edge.\nActions: [A+], [B-], etc.  (+ = forward, - = backward)."
+    "intro": "Kɩlaŋ kɛ kɛwɛɛ {difficulty} RushHour kɩlaŋ. Ɛyʋʋ tɛma wɛɛ kɩlaŋ kɩsɛɛm [X] nɛ kɩlaŋ kɩ-tɛɛ kɩ-kɩmɩŋ tɛɛ kɩlaŋ kɩlaŋ. \nKɩlaŋ tɛɛ tɛɛ: [A+], [B-], kpɛlɛkɛ. (+ = kɩlaŋ kɩ-tɛɛ, - = kɩlaŋ kɩ-kɩmɩŋ)."
   },
   "invalid_move": {
     "wrong_format": "Pɩlɩʊ pɔyɔɔ. Neze format [A+] / [B-].",
-    "no_car": "No car '{car_id}' on the board.",
+    "no_car": "Kɩlaŋ kɩsɛɛm '{car_id}' fɛyɩ kɩlaŋ tɛɛ.",
     "blocked": "Pɩɩlakɩ-m nabʋyʋ."
   },
   "game_message": {

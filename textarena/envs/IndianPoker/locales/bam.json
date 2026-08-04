@@ -29,8 +29,8 @@
     "showdown_tie": "Jate ye kelenye: u fila {card}. Banakɔta bɛ tila ka kɛ , bɛɛ ta bɛ sɔrɔ {split}."
   },
   "outcome": {
-    "p0_wins": "Player 0 wins ({bank0} > {bank1})",
-    "p1_wins": "Player 1 wins ({bank1} > {bank0})",
+    "p0_wins": "Jεgε 0 sɔrɔ ({bank0} > {bank1})",
+    "p1_wins": "Jεgε 1 sɔrɔ ({bank1} > {bank0})",
     "draw": "Fɛɛrɛ kelenw bɛɛ kɔfɛ, a bɛ se ka kɛ ko o ye tiɲɛni dɔ ye."
   }
 }

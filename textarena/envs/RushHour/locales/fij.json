@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing a {difficulty} RushHour puzzle. Slide cars to free the red car [X] and drive it out the right edge.\nActions: [A+], [B-], etc.  (+ = forward, - = backward)."
+    "intro": "O kerekere mo dou qito e dua na {difficulty} RushHour puzzle. Soso na motoka me rawa kina na motoka damudamu [X] ka kerekere kina ki na matau.\nVakayacori: [A+], [B-], etc.  (+ = vei liu, - = vei muri)."
   },
   "invalid_move": {
     "wrong_format": "Vakaloloma tabaki. Vakayagata na itavi [A+] / [B-].",

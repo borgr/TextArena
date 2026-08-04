@@ -24,8 +24,8 @@
     "empty_command": "Waray ginsugo. I-type an 'draw' o 'move <source><destination> [count]'.",
     "empty_action": "Waray-pagbuhat nga aksyon",
     "move_needs_args": "An sugo nga move in nagkikinahanglan hin tinubdan ngan destinasyon. Paggamit: 'move <source> <destination> [count]'",
-    "count_positive": "An ihap kinahanglan magin positibo o \"ngatanan\"",
-    "count_invalid": "Diri-makatuman nga ihap. Gamit an numero o 'ngatanan'",
+    "count_positive": "Kinahanglan positibo an ihap o 'all'",
+    "count_invalid": "Diri naangay an ihap. Gamita an numero o 'all'",
     "unknown_command": "Nakilala nga komanda '{cmd}'. Gamita 'draw', 'move <source> <destination> [count]', o 'forfeit'",
     "wrapped": "Action {n}: {msg}"
   },
@@ -48,8 +48,8 @@
     "waste_to_tableau_ok": "Ginbalhin an kard tikang ha basura ngadto han talaan T{dst}",
     "waste_to_tableau_bad": "Diri makakahimo pagbutang hin mga karsada nga waray gamit dida hiton talaan han tabla",
     "no_face_up": "Waray mga card nga waray nawong basi ibalhin",
-    "tableau_to_tableau_ok": "Moved {count} card(s) from tableau T{src} to T{dst}",
-    "tableau_to_tableau_bad": "Cannot move {count} card(s) from T{src} to T{dst}",
+    "tableau_to_tableau_ok": "Ginbalyo an {count} ka baraha tikang ha tableau T{src} ngadto ha T{dst}",
+    "tableau_to_tableau_bad": "Dili pwede magbalyo hin {count} ka baraha tikang ha T{src} ngadto ha T{dst}",
     "foundation_to_tableau_one_card": "Puydi la magbalhin hin 1 nga kard tikang ha pundasyon ngadto han lamesa.",
     "foundation_empty": "An pundasyon F{src} waray sulod.",
     "foundation_to_tableau_ok": "Ginbalhin an card tikang ha foundation F{src} ngadto ha tableau T{dst}",
@@ -59,7 +59,7 @@
   "outcome": {
     "forfeit": "An katapusan nga score: {score} mga kard ha pundasyon.",
     "won": "Kumusta, nagdaog ka ha Klondike Solitaire!",
-    "turn_limit": "Game over! Nakabalyo ka han maximum nga {max_turns} turns. Score: {score} cards ha foundations."
+    "turn_limit": "Tapos na an dula! Nakabot ka han maximum nga {max_turns} ka turno. Iskor: {score} ka baraha ha pundok han foundation."
   },
   "board": {
     "title": "=== KLONDIKE SOLITAIRE=== An mga pakli nga ginliwat:",

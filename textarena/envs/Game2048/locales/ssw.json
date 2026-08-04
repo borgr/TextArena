@@ -11,6 +11,6 @@
   },
   "outcome": {
     "win": "Rejoice, wufikile {target_tile}! Skor yoqedileyo {score}.",
-    "lose": "No moves left. Max tile {max_tile} - final score {score}."
+    "lose": "Akekho emidlalo ilishiyile. I-tile enkulu {max_tile} - iscoru yokugcina {score}."
   }
 }

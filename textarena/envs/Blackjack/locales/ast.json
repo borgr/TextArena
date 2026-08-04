@@ -9,7 +9,7 @@
     "wrong_format": "Aición non válida. Usa '[Hit]' o '[Stand]'."
   },
   "game_message": {
-    "hand_result": "Hand {hand_number}: you {outcome}. Your final {player_score}, Dealer {dealer_score}.",
+    "hand_result": "Mano {hand_number}: tu {outcome}. La to puntuación final {player_score}, Crupier {dealer_score}.",
     "all_complete": "=== Toles {num_hands} manes completaron ===\nVictories: {wins}, Derrotes: {losses}, Empates: {draws}\n"
   },
   "outcome": {

@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} playing {colour} ({piece}) in a game of Othello.\nYour goal is to have more pieces of your color on the board by the end of the game.\nOn your turn, place a piece such that it flanks one or more of your opponent's pieces-in any direction (horizontal, vertical, or diagonal)-between your new piece and another of your existing pieces. All flanked opponent pieces will be flipped to your color.\nProvide your move in the format '[row, col]'."
+    "intro": "Yu Player {player_id} pilai {colour} ({piece}) long wanpela gem Othello.\nMipela i lakim yu i gat moa pisi bilong yu kala long boda sapos gem i pinis.\nLong taim bilong yu, yu putim pisi olsem em i kisim wanpela o moa pisi bilong bikim i go pas long eni direkson (sideway, up-down, o kona-kona)-namel long yu new pisi na narapela pisi yu i gat. Ol pisi bilong bikim bai i tanim long yu kala.\nGivim yu muv long forma '[row, col]'."
   },
   "board": {
     "game_board": "Ples Bilong Pilim Kaikai: {board}",
@@ -11,15 +11,15 @@
     "scores_step": "{observation}\nSkores - Black: {black_count}, White: {white_count}\n"
   },
   "invalid_move": {
-    "wrong_format": "Move must be of the form [row, col].",
+    "wrong_format": "Muv i mas i go long forma [row, col].",
     "illegal": "Ol i no orait long dispela pasin. {valid}"
   },
   "game_action": {
     "skipped": "Man {pid} i no inap mekim wok bilong em yet.",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "Player {pid} ({piece}) pilai [{r}, {c}] na tanim {flipped} pisi"
   },
   "game_message": {
-    "must_skip": "Player {pid} ({piece}) has no valid moves and must skip."
+    "must_skip": "Player {pid} ({piece}) i nogat muv i orait na mas skelim."
   },
   "outcome": {
     "black_wins": "Blak i winim {black_count}-{white_count}.",

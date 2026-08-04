@@ -12,7 +12,7 @@
     "already_full": "प्लेयर {player_id}, अमान्य कार्रवाई. कॉलम {col} भरल बा."
   },
   "action": {
-    "dropped_disk": "Player {player_id} dropped their disk ({player_symbol}) into column {col}."
+    "dropped_disk": "प्लेयर {player_id} अपन डिस्क ({player_symbol}) स्तंभ {col} मे गिराए छ।"
   },
   "outcome": {
     "win": "{player_id} खेलाड़ी चारि टा जोड़िकय जीतैत अछि!",

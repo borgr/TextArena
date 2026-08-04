@@ -10,7 +10,7 @@
     "cannot_check": "[check]མི་ཐུབ། - ཁྱོད་ཚོར་གདམ་ཁ་ཞིག་ཡོད།",
     "amount_min": "བཙུགས་/ཡར་སེང་གི་ཚད་གཞི་ནི་ ≥ 1 ཡིན་དགོས།",
     "cannot_bet": "[bet]ལ་མི་རྩི་- དགོས་[call] / [raise] / [fold]。",
-    "nothing_to_call": "Nothing to call; you may [check] instead.",
+    "nothing_to_call": "འདི་ལ་འབོད་རྒྱུ་མེད། ཁྱེད་ཀྱིས་དེའི་ཚབ་ཏུ་[check] བྱེད་ཆོག",
     "no_bet_to_raise": "[bet X] སྒོ་ཕྱེ་བའི་ཆེད་དུ་ལག་ལེན་བྱེད། གོང་དུ་ཕབ་པའི་ཆེད་དངུལ་ཁང་གི་ནང་ལ་མེད།",
     "insufficient": "ལས་ཀ་དེའི་ཆེད་དུ་ལག་རྟགས་མ་ལག"
   },
@@ -26,11 +26,11 @@
     "round_result": "{reason}  ཐོབ་ཚད་{pot} → མི་སྣ་{winner}。（མི་སྣ་P0：{p0}，P1：{p1}）",
     "folded": "རྩེད་འགྲན་པ་ {player_id} ཕོལ་ཌ།",
     "showdown_win": "{card_win} beat {card_lose}: showdown.",
-    "showdown_tie": "Showdown tie: both {card}. Pot split – each receives {split}."
+    "showdown_tie": "མཇུག་འཕྲལ་འདྲ་མཉམ། གཉིས་ཀ་ {card} རེད། སྒོར་གྱི་བགོས་སྟངས་– རེ་རེར་ {split} ཐོབ་པ་རེད།"
   },
   "outcome": {
     "p0_wins": "མི་སྣ་0 རྒྱལ་ཁ་（{bank0} > {bank1}）",
-    "p1_wins": "Player 1 wins ({bank1} > {bank0})",
+    "p1_wins": "མིང་འབྲུ་1 རྒྱལ་ཁ་ཐོབ་པ་དང་། ({bank1} > {bank0})",
     "draw": "འཁོར་བ་ཚང་མ་མཇུག་བསྡུ་བའི་རྗེས་སུ། འདྲ་མཉམ་གྱི་ཊི་པིསི་ (chips) ཡོད།"
   }
 }

@@ -39,7 +39,7 @@
   "turn": {
     "score_entry": "Mpilalao {player_id}: {points} pts",
     "trump_info": "Fitafiana Trump: {trump_suit}",
-    "trump_info_deck": "Trump suit: {trump_suit} | Cards left in deck: {deck_count}",
+    "trump_info_deck": "Piaka: {trump_suit} | Katy sisa ao amin'ny paka: {deck_count}",
     "board": "{hand} {trick} isa: {scores} {trump_info} Milalao karatra mampiasa [play X]"
   },
   "invalid_move": {

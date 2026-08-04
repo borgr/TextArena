@@ -6,7 +6,7 @@
     "current_board": "Boro ya kgwedi:\n\n{board}\nDitsheleke tse di kwagalwang: {moves}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Player {player_id} did not input a move in the format [A0 B0].",
+    "wrong_format": "Fomiti ya kgato e e sa siamang. Mmaba {player_id} o sa tlhagise kgato ka fomiti ya [A0 B0].",
     "invalid_coordinates": "Mofuta wa tiro o sa amogelesegang. Motshameki {player_id} ga a tsenya dikopano tse di nepagetseng.",
     "not_own_piece": "Mokgweleo o sa amogelesegang. Motshameki {player_id} o tshwanetse go tsamaisa nngwe ya dikarolwana tsa gagwe ka boene.",
     "scout_through_pieces": "Mofuta wa tiro o sa amogelesegang. Motshameki {player_id} ga a kgone go tsamaisa scout ka dikarolwana tse dingwe.",

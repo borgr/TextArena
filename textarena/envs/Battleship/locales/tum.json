@@ -5,10 +5,10 @@
   "invalid_move": {
     "wrong_format": "Munthu uyo wakuseŵera wakazgora yayi na fundo yakwenelera iyo yili mu vilembo vyamumphepete.",
     "out_of_board": "Chizindikiro cha {coord} chili kuwaro kwa chiphambano.",
-    "already_fired": "The coordinate {coord} has already been fired upon."
+    "already_fired": "Kuratibu {coord} tayari imepigwa."
   },
   "game_action": {
-    "you_sunk": "Sunk! You sunk a ship at {coord}! Your updated board:\n{view}",
+    "you_sunk": "Zama! Umewazamisha shipi kwenye {coord}! Ubao wako ulioboreshwa:\n{view}",
     "opp_sunk": "Mdzuka wako anazamwa chipande chako kwa {coord}! Bodi yako iliyosasishwa:\n{view}",
     "you_hit": "Ukota! Wewe ukota chipande kwa {coord}! Bodi yako iliyosasishwa:\n{view}",
     "opp_hit": "Mdzuka wako anaukota chipande chako kwa {coord}! Bodi yako iliyosasishwa:\n{view}",

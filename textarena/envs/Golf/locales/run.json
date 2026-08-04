@@ -31,7 +31,7 @@
     "none": "Nta na kimwe"
   },
   "options": {
-    "final_turns": "Final turns! Your options: [draw], [take], [peek X Y]",
+    "final_turns": "Imikino ya mwisho! Amahitamo yawe: [draw], [take], [peek X Y]",
     "draw": "Ikoresho ryawe: [draw], [take]",
     "must_swap": "Utegerezwa: [swap X Y] (ntushobora guta amakarata yo mu mugwi wo gutabwa)",
     "swap_or_discard": "Ubasha [swap X Y] cyangwa [discard]"

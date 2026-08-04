@@ -11,7 +11,7 @@
     "invalid_button": "ᱢᱤᱫ ᱵᱟᱹᱲᱤᱡ ᱠᱩᱞᱤ ᱵᱟᱪᱷᱟᱣ ᱟᱠᱟᱱᱟ."
   },
   "game_action": {
-    "pressed": "You pressed the {button} button and received a reward of {reward}."
+    "pressed": "ᱟᱢᱮ {button} ᱠᱩᱴᱟᱹ ᱫᱟᱵᱟᱭ ᱞᱮᱫᱟ ᱟᱨ {reward} ᱥᱚᱢᱢᱟᱱ ᱧᱟᱢ ᱟᱠᱟᱱᱟ᱾"
   },
   "game_message": {
     "final_decision": "ᱟᱢ ᱫᱚ ᱟᱭᱢᱟ ᱞᱮᱠᱟᱱᱟᱜ ᱵᱟᱪᱷᱟᱣ ᱠᱚ ᱪᱮᱫᱚᱜ ᱟᱨ ᱚᱱᱟ ᱨᱮᱭᱟᱜ ᱥᱟᱨᱦᱟᱣ ᱧᱮᱞ ᱠᱟᱛᱮᱜ ᱜᱮᱢ ᱦᱟᱛᱟᱣ ᱟᱠᱟᱫᱼᱟ ᱾ ᱱᱤᱛᱚᱝ ᱡᱟᱦᱟᱸᱱ ᱥᱟᱱᱟᱥ ᱠᱷᱚᱱ ᱱᱟᱯᱟᱭ ᱵᱟᱪᱷᱚᱱ ᱠᱟᱱᱟ, ᱚᱱᱟ ᱨᱮᱱᱟᱜ ᱯᱟᱹᱛᱭᱟᱹᱣ ᱢᱮ।"

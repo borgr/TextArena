@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({piece}). Opponent is ({opp}).\nSubmit moves as '[a2 a3]' (from → to).\n- A normal move is one forward step to an adjacent empty vertex.\n- A capture is a jump over an adjacent enemy piece landing on the empty node beyond.\nEach capture yields {score_per_capture} points.\nGame ends after {max_moves} moves or when a player has no legal move."
+    "intro": "तुन्हू खेलाड़ी {player_id} ({piece}) हस। विरोधी हे ({opp})।\nचाला '[a2 a3]' (ले → ला) के रूप में जमा करा।\n- एक सामान्य चाल एक आगे कदम हे जो एक सटल खाली शीर्ष पर हे।\n- एक कब्जा एक सटल दुश्मन टुकड़ा के ऊपर एक छलांग हे जो खाली नोड के परे उतरता हे।\nप्रत्येक कब्जा {score_per_capture} अंक देता हे।\nखेल {max_moves} चाला के बाद या जब एक खेलाड़ी के पास कोई कानूनी चाल नहीं हे तो समाप्त होता हे।"
   },
   "board": {
     "current_board": "चलन #{move_count}\n\n{board}"

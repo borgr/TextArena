@@ -8,7 +8,7 @@
   "invalid_move": {
     "wrong_format": "अवैध चाल प्रारूप. '[cell]' के उपयोग करीं.",
     "invalid_cell": "अमान्य सेल सूचकांक.",
-    "already_occupied": "Cell {cell} is already occupied."
+    "already_occupied": "सेल {cell} पहले से ही अधिकृत बा।"
   },
   "game_action": {
     "placed": "प्लेयर {player_id} अपना प्रतीक ({symbol}) सेल {cell} में रख दिया है।"

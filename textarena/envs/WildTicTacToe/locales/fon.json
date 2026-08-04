@@ -14,7 +14,7 @@
     "placed": "Aɖewɔnɔ {player_id} wɔ na ɖo ({mark}) to kɛji {cell}"
   },
   "outcome": {
-    "win": "Player {player_id} wins with {mark}s!",
-    "draw": "The game is a draw!"
+    "win": "A nyi azɔnwla {player_id} wu pɔ {mark}s!",
+    "draw": "Èzun wò ɖɔ ɖɔɖɔ!"
   }
 }

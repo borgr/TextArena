@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "Aksyon dwe nan fòma [row col] kote ranje ak kolòn yo se antye soti nan 0 a {max_index}.",
-    "out_of_range": "Coordinates must be between 0 and {max_index}. You entered [{row},{col}]."
+    "out_of_range": "Kòdone yo dwe ant 0 ak {max_index}. Ou antre [{row},{col}]."
   },
   "outcome": {
     "win": "Felisitasyon! Ou rezoud devinèt la nan mouvman {moves_used} !",

@@ -14,7 +14,7 @@
   },
   "game_action": {
     "attack": "P{player_id} ໂຈມຕີມື P{opp_id} {opp_idx}: ມັນຈາກ {opp_val} ໄປຫາ {new_val}.",
-    "split": "P{player_id} splits into [{L}, {R}]."
+    "split": "P{player_id} ຕັດເປັນ [{L}, {R}]."
   },
   "history": {
     "entry": "P{player_id} {desc}"

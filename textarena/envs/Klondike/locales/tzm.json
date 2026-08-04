@@ -16,16 +16,16 @@
     "{cards}": "The cards in a pile as neutral labels, or '--' if empty (never translate)"
   },
   "player_prompt": {
-    "intro": "You are playing Klondike Solitaire. Your goal is to move all cards to the foundation piles.\n\nGame Rules:\n- Foundation piles (F1-F4): Build up from Ace to King in suit\n- Tableau piles (T1-T7): Build down alternating colors (red on black, black on red)\n- Stock: Draw cards to waste pile\n- Waste (W): Top card available for play\n\nCommands:\n- 'draw' - Draw cards from stock to waste\n- 'move <source> <destination> [count]' - Move cards between piles\n  Examples: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count can also be 'all', which will try to move all face-up cards.\n- 'forfeit' - End the game immediately and lock in your current score\n- Pile names: W (waste), F1-F4 (foundations), T1-T7 (tableau)\n\nYou can execute multiple actions in one turn by separating them with commas:\n  Example: 'draw, move W T1, move T2 F1'\n\nOnly Kings can be placed on empty tableau piles.\nActions execute in order - if one fails, the remaining actions are skipped.\nUse 'forfeit' if you believe the game is impossible to win."
+    "intro": "Tqeqqilt di Klondike Solitaire. Tawwuri-k wɛrri ad tɛddɛt tifilit n yikarḍi ɣer waddalen n ussɛẓ.\n\nTawwuri n wari:\n- Waddalen n ussɛẓ (F1-F4): Rnu ɣer tifilit n Ace ɣer tifilit n King ɣer wakal\n- Waddalen n tɛbili (T1-T7): Rnu ɣer wakal n tɛbili n waran (aẓerɣ ɣef aberkan, aberkan ɣef aẓerɣ)\n- Stock: Ssɛẓ tifilit ɣer waddal n waste\n- Waste (W): Tifilit n uzwu tɛlla kif-kif ɣer wari\n\nIwaliwen:\n- 'draw' - Ssɛẓ tifilit ɣer waddal n waste\n- 'move <source> <destination> [count]' - Ssɛẓ tifilit ɣer waddalen\n  Imedyaten: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count yezmer ad yili 'all', ad yeqqel ad yessɛẓ tifilit akkʷ.\n- 'forfeit' - Ffeɣ wari tawwuri-k tura d tɛddɛt tawwuri-k tura\n- Isemawen n waddalen: W (waste), F1-F4 (ussɛẓ), T1-T7 (tɛbili)\n\nTzemreɣ ad teddɛt tawwuri akkʷ di kra n wakud s tɛṣṣifi-nsen s tɛṣṣifi n commas:\n  Imedyat: 'draw, move W T1, move T2 F1'\n\nKan King ad yeqqel ad yili ɣer waddal n tɛbili iɣer.\nTawwuri teddɛt s wakud - ma yella kra n wakud yeqqel, tawwuri tɛddɛt tɛṣṣifi-nsen.\nSeqdec 'forfeit' ma tɛẓra wari ur yezmir ad yeqqel."
   },
   "format_error": {
     "no_brackets": "ⵜⴰⵍⵖⴰ ⵏ ⵜⵡⵓⵔⵉ ⵓⵔ ⵜⵓⵙⵍⵉⴳ. ⵉⵇⵇⴰⵏⴷ ⴰⴷ ⵢⵉⵍⵉ ⴳ ⵓⴳⵔⴰⵡⵏ.",
     "no_closing_bracket": "ⵜⴰⵍⵖⴰ ⵏ ⵜⵡⵓⵔⵉ ⵓⵔ ⵜⵓⵙⵍⵉⴳ. ⵉⵅⴷⵎ ⵓⴽⵛⵓⵎ \"]\"",
-    "empty_command": "ⵜⴰⵡⵓⵔⵉ ⵜⵓⵏⵏⵓⵏⵜ. ⵙⴽⵔ \"ⴷⵔⴰ\" ⵏⵖ ⴷ \"ⵎⵓⵙⵙⵓⴼ <ⴰⵥⵓⵕ> <ⴰⵙⵓⵖⵍ> [count]\".",
+    "empty_command": "Iwaliw azwi. Seqdec 'draw' neɣ 'move <source> <destination> [count]'",
     "empty_action": "ⵜⵉⴳⴰⵡⵜ ⵜⵓⵎⵍⵉⵍⵜ",
     "move_needs_args": "ⴷⴰ ⵉⵜⵜⵉⵔⵉ ⵓⴹⴼⵓⵕ ⵏ ⵓⵎⵙⵙⵓⴷⵓ ⴰⴷ ⵉⵙⵏⵓⵍⴼⴰ ⴰⵙⴰⴼⴰⵔ ⴷ ⵜⴰⵏⵜⵜⴰⵎⵜ. ⴰⵖⵎⵉⵙ: \"move <source> <destination> [count]\"",
-    "count_positive": "ⵉⵇⵇⴰⵏⴷ ⴰⴷ ⵉⴳ ⵓⵟⵟⵓⵏ ⴰⵎⵏⵉⴳ ⵏⵖ \" ⴽⵓⵍⵍⵓ\"",
-    "count_invalid": "ⵓⵔ ⵉⴳⵉ ⵡⵓⵟⵟⵓⵏ ⵏ ⵓⵙⵙⵉⴹⵏ. ⵙⵎⵔⴰⵙ ⴰⵎⴹⴰⵏ ⵏⵖ \" ⴽⵓⵍⵍⵓ \".",
+    "count_positive": "Uṭṭun ilaq ad yili d uṭṭun usdid neɣ 'all'",
+    "count_invalid": "Uṭṭun ur yelli ara. Sekcem uṭṭun neɣ 'all'",
     "unknown_command": "Asebter ur ifazen '{cmd}' ur igamen. Sken 'draw', 'move <source> <destination> [count]', neɣ 'forfeit'",
     "wrapped": "Asebter {n}: {msg}"
   },

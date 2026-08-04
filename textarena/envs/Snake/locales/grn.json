@@ -11,7 +11,7 @@
     "{groups}": "Neutral ranking data (a list of player-id groups, worst to best); do not translate"
   },
   "player_prompt": {
-    "intro": "{num_players}-Jugador Serpiente en una {width}×{height} cuadrícula.\nUsted controla serpiente {player_id}. Movimientos válidos: '[up]'/'[down]'/'[left]'/'[right]' (o w/s/a/d).\nObjetivo: sobrevivir más tiempo o ser el más largo y obtener la puntuación más alta (límite de turnos {max_turns} turnos)."
+    "intro": "{num_players}-Ñande ñañirõ Snake {width}×{height} kuádi ári.\nEñe'ẽ snake {player_id} pe. Ñemboguepyre oĩ: '[up]'/'[down]'/'[left]'/'[right]' (oĩve w/s/a/d).\nObjetivo: oikoiteve areteve térã eñe'ẽteve ha oikoiteve pontuación hetavéva (jey'urã {max_turns} jey)"
   },
   "board": {
     "current": "Junta ko'ágãgua: {board}",
@@ -26,6 +26,6 @@
     "outlived": "Péva ha'e pe ohasáva opavavépe.",
     "all_dead": "Opaite mbói omano.",
     "turn_limit": "Oñeg̃uahẽ límite de vuelta - puntaje iporãvéva ogana tie-break.",
-    "ranking": "{reason} Ranking final grupo (peor→mejor): {groups}"
+    "ranking": "{reason} Kuatia ñembyaty paha (mbaya→porãve): {groups}"
   }
 }

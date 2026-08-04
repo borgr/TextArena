@@ -3,18 +3,18 @@
     "intro": "تہسے {color} کھیلندے اوس چس کی کھیل مۺ.\n اپنی چالہیں یوسی آئی فارمیٹ مۺ مربع کونے مۺ بند کَرکے بناوہ (مثلاً, [e2e4])."
   },
   "board": {
-    "current_board": "करंट बोर्ड: {board}",
+    "current_board": "ہُنٛد بورڈ:\n{board}",
     "valid_moves": "{observation}\nواضع چلنے والے چال: {moves}"
   },
   "invalid_move": {
-    "wrong_format": "गलत चाल फॉर्मेट.",
-    "illegal": "गैरकानूनी छींच."
+    "wrong_format": "غلط حرکت فارمیٹ.",
+    "illegal": "غیر قانونی حرکت."
   },
   "game_action": {
-    "moved": "प्लेयर {player_id} ने ये मुकाम हासिल कर लियाः {move_uci}"
+    "moved": "کھلاڑی {player_id}نہ یہ حرکت کٲڑ: {move_uci}"
   },
   "outcome": {
     "draw": "खेल ख़तम गाछ ड्राई पेठ.",
-    "win": "{player_id} खिलाड़ी जीत छूता है।"
+    "win": "کھلاڑی {player_id}نہ میچ جیتمٔت."
   }
 }

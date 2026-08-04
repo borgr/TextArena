@@ -17,7 +17,7 @@
     "available_actions": "{observation}\nئەمەلىي ئاكتىۋ قىلمىشلار: '[roll]' ياكى '[hold]'"
   },
   "outcome": {
-    "winner_by_turn_limit": "Player {winner_id} won by having a higher score at the turn limit ({scores})",
+    "winner_by_turn_limit": "{winner_id}-نومۇرلۇق ئويۇنچى نۆۋىت چەكلىمىسىدە يۇقىرى نومۇرغا ئېرىشىپ غەلىبە قىلدى ({scores})",
     "winner_by_score": "ئوينچى {winner_id} {winning_score} لىنىيە نۇقتىسىگە يېتىشىپ ئۇتتى!",
     "draw": "ئايلانما چەكلىمىسىگە يەتتى ۋە بارلىق توپچىلار ئوخشاش نومۇرغا ئېرىشتى: {scores}"
   }

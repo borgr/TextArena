@@ -16,7 +16,7 @@
   },
   "game_action": {
     "skipped": "پليئر {pid} کي پنهنجو موڙ ڇڏي ڏيڻ گهرجي",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "پليئر {pid} ({piece}) چال [{r}, {c}] کيڏي {flipped} ٽڪا پٽڻ"
   },
   "game_message": {
     "must_skip": "پليئر {pid} ({piece}) وٽ صحيح حرڪت نه آهي ۽ ان کي ڇڏي ڏيڻو پوندو."

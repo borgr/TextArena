@@ -4,7 +4,7 @@
   },
   "invalid_move": {
     "wrong_format": "Azzion minga valida. Doperà el format [A+] / [B-].",
-    "no_car": "No car \"{car_id}\" on the board. Nè a la scheda nè in quella cartolina, nè sul quadretto.",
+    "no_car": "Gh'è minga la màchina '{car_id}' in sul bòrd.",
     "blocked": "Movement bloccà."
   },
   "game_message": {

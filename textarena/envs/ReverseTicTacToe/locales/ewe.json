@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a game of Reverse Tic Tac Toe. Your symbol is '{symbol}'.\nThe goal is to avoid getting three in a row (horizontally, vertically, or diagonally).\nIf you make three in a row, you LOSE.\nSubmit your move using the format '[4]' to place your symbol in cell 4.\nAs Player {player_id}, you are '{symbol}' and your opponent is '{opponent_symbol}'."
+    "intro": "Ame wò {player_id} le Reverse Tic Tac Toe me. Afa si wò nye '{symbol}'.\nƉoɖoɖo enye be wòana nɔvi eve ɖeka ɖeka ɖe eme (gbɔ wu, gbɔ hɛ, alo gbɔ ɖeka ɖeka).\nEne wò wɔ nɔvi eve ɖeka ɖeka la, wò KU.\nDze wò ƒe nɔƒe si wò zɔna le ƒormat '[4]' me nɛ be wò na wò ƒe afa si le ƒe 4 me.\nLe Ame wò {player_id} me, wò nye '{symbol}' eye wò ƒe ɖeklemi nye '{opponent_symbol}'."
   },
   "board": {
     "current_board": "Asa ŋuti:\n\n{board}\n\nŊuti vevie: {moves}"

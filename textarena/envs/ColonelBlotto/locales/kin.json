@@ -5,7 +5,7 @@
     "commander_beta": "Komanda Beta, ibyo birimo biba."
   },
   "game_state": {
-    "header_round": "=== COLONEL BLOTTO - Round {current_round}/{num_rounds} ===\nRounds Won - Commander Alpha: {alpha_score}, Commander Beta: {beta_score}"
+    "header_round": "=== COLONEL BLOTTO - Mukino {current_round}/{num_rounds} ===\nImikino Yatsinzwe - Komandi Alpha: {alpha_score}, Komandi Beta: {beta_score}"
   },
   "round_battle": {
     "field_result": "\nRound {current_round}\nCommander Alpha yaguritse: {p0_allocations}\nCommander Beta yaguritse: {p1_allocations}\n",

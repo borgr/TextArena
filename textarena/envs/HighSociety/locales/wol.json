@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a game of HighSociety (2-player version).\nGame flow:  Ten prestige cards are auctioned one after another.\nBidding:    Each auction, secretly choose a money card 1-11 and reveal.\n            • Higher bid wins the prestige card and discards that money card.\n            • Lower bid keeps their money card.\n            • Tie -> both bids are returned and the same prestige card is re-auctioned.\nScoring:    After all ten auctions, add **remaining cash + prestige points**.\n            Higher *net-worth* wins (exact tie -> draw).\n\n**Action syntax**  →  bid a single card like '[7]' or '[11]'."
+    "intro": "Yaa ngone jàngoro {player_id} ci geemu HighSociety (wersiinu 2-jàngoro).\nDoomu geemu:  Kàrti prestige 10 dëkkar ak dox ak ñoom.\nÑaaw:    Ci ñaaw bu nekk, tàggat kàrti argent 1-11 te wóotal.\n            • Ñaaw bu kawe dañe kàrti prestige te sab kàrti argent.\n            • Ñaaw bu suufe dañe kàrti argentam.\n            • Yékkati -> ñaaw ñaar yi lañu joxe te kàrti prestige bi ñëw ñaaw.\nNatt:    Ci suba ñaaw 10 yi, ëmbale **argent bu bokku + poenti prestige**.\n            *Wér-guur* bu kawe moo dañe (yékkati -> pàkk). \n\n**Melosu ñaaw**  →  ñaaw kàrti bu nekk ci melosu '[7]' mbaa '[11]'."
   },
   "auction": {
     "announce": "\n### Auction {round}/10  |  Kaartu prestige: {prize}"

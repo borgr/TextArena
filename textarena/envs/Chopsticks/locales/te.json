@@ -14,7 +14,7 @@
   },
   "game_action": {
     "attack": "P{player_id} P{opp_id} చేతిని {opp_idx} దాడి చేస్తుంది: ఇది {opp_val} నుండి {new_val} వరకు వెళుతుంది.",
-    "split": "P{player_id} splits into [{L}, {R}]."
+    "split": "P{player_id} [{L}, {R}]గా విభజించబడింది."
   },
   "history": {
     "entry": "పి {player_id} {desc}"

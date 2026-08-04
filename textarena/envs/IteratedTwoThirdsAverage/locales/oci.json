@@ -7,7 +7,7 @@
     "out_of_range": "La devinada deu èsser entre {min_guess} e {max_guess}."
   },
   "message": {
-    "round_guesses": "Player 0 guessed {guess0}; Player 1 guessed {guess1}. Thus the Target is: {target}.",
+    "round_guesses": "Lo Jogaire 0 a donat {guess0} ; lo Jogaire 1 a donat {guess1}. Atal l'Objectiu es : {target}.",
     "round_draw": "La ronda es un empate.",
     "round_win": "Lo jogaire {winner} ganha lo torn!"
   },

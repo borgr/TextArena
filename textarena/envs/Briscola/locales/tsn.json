@@ -39,16 +39,16 @@
   "turn": {
     "score_entry": "Player {player_id}: {points} dipointi",
     "trump_info": "Sutu ya ga Trump: {trump_suit}",
-    "trump_info_deck": "Trump suit: {trump_suit} | Cards left in deck: {deck_count}",
+    "trump_info_deck": "Maphata a trump: {trump_suit} | Dikarata tse di setseng mo pakeng: {deck_count}",
     "board": "{hand}\n\n{trick}\n\nMademo: {scores}\n{trump_info}\n\nḒula karte ka go ṡelela [play X]"
   },
   "invalid_move": {
     "wrong_format": "Dirisa [play X] fa X e le maemo a karata (1, 2, 3, jalo-jalo)",
-    "out_of_range": "Invalid card position. You have {count} cards (1-{count})"
+    "out_of_range": "Nomoro ya maemo a karata e phoso. O na dikarata tse {count} (1-{count})"
   },
   "action": {
     "played": "Player {player_id} o ile a ḓula {card}",
-    "trick_win": "Player {winner} wins the trick with {card} and gains {points} points!"
+    "trick_win": "Motshameki {winner} o thule kgato ka {card} le go kgobokanya {points} dipalo!"
   },
   "outcome": {
     "head": "Pati e feditse! Player {winner} a ḓola le {points} dipointi!\n\nMademo a Ḓifinal:\n{scores}",

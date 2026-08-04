@@ -12,7 +12,7 @@
     "invalid_position": "Несапраўдны крок - не можа перамяшчацца ў гэтую пазіцыю."
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
+    "moved": "Вы {pushed} зрушыліся [{action}].",
     "pushed_prefix": "штурхнуў скрынку, у той час як"
   },
   "outcome": {

@@ -11,21 +11,21 @@
     "{ball_pos}": "The cup index the ball is under"
   },
   "player_prompt": {
-    "intro": "Track the hidden ball 'X' while the cups are shuffled.\nAfter shuffling, guess its location with `[k]`."
+    "intro": "cup zan shuffling karan waqtas ball 'X' par nazr rakhi.\nShuffling karni kithe, `[k]` saath iski jagah ka andaza lagai."
   },
   "game_message": {
-    "ball_starts": "बॉल शुरू: {line}",
+    "ball_starts": "Ball shuru karta: {line}",
     "shuffle": "شفل {step}/{steps}: کپس {i} تہٕ {j} بدلی.",
     "cups": "کپس: {line}  {prompt}",
-    "guess_now": "(अब अनुमान लगाये !)",
-    "reveal": "(खुलासाः बॉल अंडर {ball_pos})"
+    "guess_now": "(Abhi andaza lagai!)",
+    "reveal": "(Ujagar: ball {ball_pos} keth par)"
   },
   "invalid_move": {
-    "wrong_format": "Bad action. Use `[k]`.",
-    "out_of_range": "इंडेक्स छू रेंज 0-{max_index} सेत नेबर."
+    "wrong_format": "Khara kam. `[k]` istimaal karo.",
+    "out_of_range": "Index 0-{max_index} tak nahi hai."
   },
   "outcome": {
-    "win": "सही. तुं बॉल पायो छे.",
+    "win": "Theek! Tum ball labith.",
     "lose": "نہ ٹھیک — گیند کپ {ball_pos} ہیٹھہ آہ."
   }
 }

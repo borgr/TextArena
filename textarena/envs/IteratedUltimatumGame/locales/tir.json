@@ -24,10 +24,10 @@
     "intro": "You are Player {player_id}, playing {num_rounds} rounds of Iterated Ultimatum Game.\nYou have ${pool} to split this round between yourself and Player {other_id}.\n\nProposer:\n  - Make an offer: [Offer: $X] (0 <= X <= pool)\n  - If accepted → You get $(pool - X), other player gets $X\n  - If rejected → Both get $0\n  - Example: [Offer: $3]  or  'I think this is fair. [Offer: $5]'\n\nResponder:\n  - Decide on the offer with either [Accept] or [Reject]\n  - Example: 'That seems reasonable. [Accept]'\n            'Too unfair. [Reject]'\n"
   },
   "round": {
-    "begins": "--- Round {round_number} begins! ---\nPlayer {proposer_id} is the proposer, Player {responder_id} is the responder.",
-    "offer": "Round {round_number}: Player {proposer_id} offers ${offer} to Player {responder_id} (keeping ${keep}).",
-    "accepted": "Player {responder_id} accepted! Round {round_number} gains: Player {proposer_id} +${proposer_gain}, Player {responder_id} +${responder_gain}. New totals: Player 0: ${total_0}, Player 1: ${total_1}.",
-    "rejected": "Player {responder_id} rejected the offer! Round {round_number} gains: Both players +$0. Totals remain: Player 0: ${total_0}, Player 1: ${total_1}."
+    "begins": "--- ዙር {round_number} ተጀሚሩ! ---\nአስተዋፅኦ {proposer_id} አስተዋፅኦ ናይ ስጡ ኮይኑ፣ አስተዋፅኦ {responder_id} አስተዋፅኦ ናይ ምላሽ ኮይኑ።",
+    "offer": "ዙር {round_number}: አስተዋፅኦ {proposer_id} ስጡ ${offer} ንአስተዋፅኦ {responder_id} አበለጸጋም (ንምብራቕ ${keep})።",
+    "accepted": "አስተዋፅኦ {responder_id} ተቐበልካ! ዙር {round_number} ናይ ገንዘብ ክምት: አስተዋፅኦ {proposer_id} +${proposer_gain}፣ አስተዋፅኦ {responder_id} +${responder_gain}። ናይ ጠቕላላ: አስተዋፅኦ 0: ${total_0}፣ አስተዋፅኦ 1: ${total_1}።",
+    "rejected": "አስተዋፅኦ {responder_id} ኣልተቐበልካ ስጡ! ዙር {round_number} ናይ ገንዘብ ክምት: ኩሎም +$0። ጠቕላላ ከም እንተ ኣሎ: አስተዋፅኦ 0: ${total_0}፣ አስተዋፅኦ 1: ${total_1}።"
   },
   "invalid_move": {
     "no_offer_format": "እቲ ኣቕራቢ ነቲ ቅጥዒ ብመልክዕ [Offer: $X] ክገብሮ ኣለዎ።",
@@ -37,7 +37,7 @@
     "accept_or_reject": "Responder must either [Accept] or [Reject] the offer."
   },
   "outcome": {
-    "win": "Player {winner} won with ${winner_total} total vs Player {loser}'s ${loser_total}.",
+    "win": "አስተዋፅኦ {winner} ከም ${winner_total} ጠቕላላ ናይ ገንዘብ ክምት ናይ አስተዋፅኦ {loser} ከም ${loser_total} ድሕረት ኣገኛ።",
     "draw": "ክልቲኦም ተጻወትቲ ብጠቕላላ ${total} ተዓዊቶም እዮም።"
   }
 }

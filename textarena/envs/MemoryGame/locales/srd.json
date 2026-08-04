@@ -13,13 +13,13 @@
     "already_matched": "Movimentu invàlidu. Giogadore {player_id} at seberadu una o ambas sas cartas chi sunt giai istadas cumpostas."
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "Sas cartas seletzionadas dae Giogadore {player_id} in sas positziones [{r1} {c1}] e [{r2} {c2}] coincidint!",
+    "cards_no_match": "Sas cartas seletzionadas dae Giogadore {player_id} no coincidint. Sas cartas in sas positziones [{r1} {c1}] e [{r2} {c2}] sunt {pos1} e {pos2} rispetivamente."
   },
   "outcome": {
     "draw": "Ambos sos giogadores ant dadu su matessi nùmeru de paris de cartas.",
     "win": "Su giogadore {winner_id} at bintu!",
-    "turn_limit": "The turn limit has been reached. The game is over. Player 0 scored {score_0} points, Player 1 scored {score_1} points.",
+    "turn_limit": "Su lìmite de bortas est istadu raggiuntu. Su giogu est concruidu. Giogadore 0 at ottenidu {score_0} puntos, Giogadore 1 at ottenidu {score_1} puntos.",
     "turn_limit_win": "{reason} Su Giocatore {winner_id} at binchitu!"
   }
 }

@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "Ndaipóri move formato vaerã. Ejuhu [a1b2], e.j. [b2c3].",
-    "illegal": "Move [{move}] is illegal."
+    "illegal": "Mbogue [{move}] ndojehegui."
   },
   "game_action": {
     "moved": "Jokuaihára {player_id} omomýiva'ekue {move}."

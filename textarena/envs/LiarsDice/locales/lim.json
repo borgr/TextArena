@@ -29,7 +29,7 @@
     "new_round": "\nNujen rónj - Resterende dobbelsteine: {dice_summary}\nDin hujige dobbelsteine zint: {your_dice}"
   },
   "call": {
-    "bidder_loses": "Player {current_player_id} calls! The actual count of face {face_value} is {count}, which is LESS than {quantity}.\nPlayer {loser_id} (the last bidder) loses one die.",
+    "bidder_loses": "Speler {current_player_id} röp! 't Echte aantal {face_value} is {count}, wat MINDER is es {quantity}.\nSpeler {loser_id} (de lèste bieder) verluis ein dobbelsteen.",
     "caller_loses": "Speler {current_player_id} rop! De echte tel van gesich {face_value} is {count}, wat >= {quantity}.\nSpeler {loser_id} (de ropers) verluus eine dobbelsteen."
   },
   "action": {

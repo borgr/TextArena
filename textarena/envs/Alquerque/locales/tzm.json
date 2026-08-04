@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({piece}). Opponent is ({opp}).\nSubmit moves as '[a2 a3]' (from → to).\n- A normal move is one forward step to an adjacent empty vertex.\n- A capture is a jump over an adjacent enemy piece landing on the empty node beyond.\nEach capture yields {score_per_capture} points.\nGame ends after {max_moves} moves or when a player has no legal move."
+    "intro": "Kcemm ad ik  {player_id} ({piece}). Annaɣmas d ({opp}).\nSekkem imɣriyen am '[a2 a3]' (zɣ → ɣer).\n- Imɣri amezwaru d imɣri s tɣmert ɣer vertex tazɣant tazɣant.\n- Tamɣrit d tɣmert ɣef ukan iɣallen ɣer waddaɣ tazɣant.\nKraygat tamɣrit tɛddi {score_per_capture} n uɣzu.\nUrarn tɣimzi s {max_moves} n imɣriyen neɣ mi ara ad ik ur yezmir ad imɣri."
   },
   "board": {
     "current_board": "Aɣyu #{move_count}\n\n{board}"

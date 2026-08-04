@@ -12,7 +12,7 @@
     "invalid_position": "Symud anghywir - ni ellir symud i'r sefyllfa honno."
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
+    "moved": "Rydych chi {pushed} wedi symud [{action}].",
     "pushed_prefix": "gwthio blwch tra"
   },
   "outcome": {

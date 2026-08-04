@@ -16,7 +16,7 @@
   },
   "game_action": {
     "skipped": "اللاعب {pid} لازم يتخطى دوره.",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "اللاعب {pid} ({piece}) لعب [{r}, {c}] وقلب {flipped} قطعة(ات)"
   },
   "game_message": {
     "must_skip": "اللاعب {pid} ({piece}) ليس لديه حركات صالحة ويتعين عليه التخطي."

@@ -16,16 +16,16 @@
     "{cards}": "The cards in a pile as neutral labels, or '--' if empty (never translate)"
   },
   "player_prompt": {
-    "intro": "You are playing Klondike Solitaire. Your goal is to move all cards to the foundation piles.\n\nGame Rules:\n- Foundation piles (F1-F4): Build up from Ace to King in suit\n- Tableau piles (T1-T7): Build down alternating colors (red on black, black on red)\n- Stock: Draw cards to waste pile\n- Waste (W): Top card available for play\n\nCommands:\n- 'draw' - Draw cards from stock to waste\n- 'move <source> <destination> [count]' - Move cards between piles\n  Examples: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count can also be 'all', which will try to move all face-up cards.\n- 'forfeit' - End the game immediately and lock in your current score\n- Pile names: W (waste), F1-F4 (foundations), T1-T7 (tableau)\n\nYou can execute multiple actions in one turn by separating them with commas:\n  Example: 'draw, move W T1, move T2 F1'\n\nOnly Kings can be placed on empty tableau piles.\nActions execute in order - if one fails, the remaining actions are skipped.\nUse 'forfeit' if you believe the game is impossible to win."
+    "intro": "तुम Klondike Solitaire खेलत हो। तुम्हर लक्ष्य है सगरो पत्ती फाउंडेशन पाइल में ले जाना।\n\nखेल के नियम:\n- फाउंडेशन पाइल (F1-F4): एक से राजा तक सूट में बनाओ\n- टेबलो पाइल (T1-T7): रंग बदलकर (लाल काला पर, काला लाल पर) नीचे बनाओ\n- स्टॉक: वेस्ट पाइल में पत्ती खींचो\n- वेस्ट (W): उपर के पत्ती खेल के लिए उपलब्ध हो\n\nकमांड:\n- 'draw' - स्टॉक से वेस्ट में पत्ती खींचो\n- 'move <source> <destination> [count]' - पाइल के बीच पत्ती ले जाओ\n  उदाहरण: 'move W T1', 'move T1 F2', 'move T3 T5 2'। count 'all' भी हो सकत है, जे सगरो दिखाई देत पत्ती ले जाने की कोशिश करेगा।\n- 'forfeit' - खेल तुरंत समाप्त करो और वर्तमान स्कोर लॉक करो\n- पाइल के नाम: W (वेस्ट), F1-F4 (फाउंडेशन), T1-T7 (टेबलो)\n\nतुम एक टर्न में कई कार्रवाई कर सकत हो जिन्हें कोमा से अलग करो:\n  उदाहरण: 'draw, move W T1, move T2 F1'\n\nखाली टेबलो पाइल में केवल राजा रख सकत हो।\nकार्रवाई क्रम में चलत है - यदि एक विफल होत है, तो बाकी कार्रवाई छोड़ दी जात है।\nयदि तुम्हें लगत है कि खेल जीतना असंभव है, तो 'forfeit' का उपयोग करो।"
   },
   "format_error": {
     "no_brackets": "अमान्य कार्रवाई प्रारूप. क्रिया कोष्ठक म होना चाहि।",
     "no_closing_bracket": "अवैध कार्रवाई प्रारूप। बंद करे बर ब्रैकट गायब हवय ']'",
     "empty_command": "खाली कमांड. टाइप 'draw' या 'move <source> <destination> [count]'<स्रोत> <गंतव्य> ले जाना \"।",
     "empty_action": "खाली करे कार्रवाई",
-    "move_needs_args": "मूव कमांड के स्रोत अउ गंतव्य के जरूरत होत हवय । उपयोगः 'मूव <सोर्स> <गंतव्य> [count]'",
-    "count_positive": "गिनती सकारात्मक या 'सभी' होनी चाहिए।",
-    "count_invalid": "अमान्य गिनती. एक संख्या या 'सभी' का उपयोग करें",
+    "move_needs_args": "मूव कमांड के लिए सोर्स और डेस्टिनेशन की आवश्यकता है। उपयोग: 'move <source> <destination> [count]'",
+    "count_positive": "गणना सकारात्मक या 'all' होनी चाहिए",
+    "count_invalid": "अमान्य गणना। एक संख्या या 'all' का उपयोग करो",
     "unknown_command": "अज्ञात आदेश '{cmd}'. 'draw', 'move <source> <destination> [count]', या 'forfeit' का उपयोग करें",
     "wrapped": "कार्यवाही {n}: {msg}"
   },

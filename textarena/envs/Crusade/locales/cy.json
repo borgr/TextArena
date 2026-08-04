@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({piece}). Opponent is ({opp}). Submit moves as '[b1 c3]' (from → to). All pieces move like chess knights.\nEach capture scores {score_per_capture} point. Game ends after {max_moves} moves or when a player has no legal move / no pieces. Higher score wins."
+    "intro": "Rydych chi'n Chwaraewr {player_id} ({piece}). Gwrthwynebydd yw ({opp}). Cyflwyno symudiadau fel '[b1 c3]' (o → i). Mae pob darn yn symud fel marchogion gwyddbwyll.\nMae pob dal yn sgorio {score_per_capture} pwynt. Mae'r gêm yn dod i ben ar ôl {max_moves} symudiadau neu pan nad oes gan chwaraewr symudiad cyfreithlon / dim darnau. Mae'r sgor uchaf yn ennill."
   },
   "board": {
     "current_board": "Symud #{move_count} {board} Symud ar gael: {moves}"

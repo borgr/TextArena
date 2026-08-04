@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "Ny hetsika dia tsy maintsy ao amin'ny endrika [row col] izay laharana sy ny tsanganana dia integers avy amin'ny 0 ka {max_index}.",
-    "out_of_range": "Coordinates must be between 0 and {max_index}. You entered [{row},{col}]."
+    "out_of_range": "Koordinasiona dia tsy maintsy eo anelanelan'ny 0 sy {max_index}. Nampiditra [{row},{col}] ianao."
   },
   "outcome": {
     "win": "Arahabaina! Nahafantatra ny piozila tamin'ny hetsika {moves_used} ianao!",

@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in **Ultimate Tic Tac Toe**.\nSubmit your move as **[macro  micro]** (two numbers 0-8):\n• *macro*  = which mini-board you play in\n• *micro* = which square inside that mini-board\nExample `[7 8]` ➜ place your mark in mini-board 7, square 8, and\nforce your opponent to play in mini-board 8 next.\n\nYou are `{symbol}`.\n"
+    "intro": "Ti sei Zugô {player_id} in **Ultimate Tic Tac Toe**.\nManda a tò mòssa comme **[macro  micro]** (dôi nùmeri 0-8):\n• *macro*  = quæ mini-tæula ti zughi\n• *micro* = quæ quadræto drénto a quæ mini-tæula\nEzénpio `[7 8]` ➜ pòsa o tò segno in mini-tæula 7, quadræto 8, e\nfòrsa o tò avversâio a zugâ in mini-tæula 8 dòppo.\n\nTi sei `{symbol}`.\n"
   },
   "board": {
     "current_board": "Conséggio de l'atô: {board}"
@@ -15,7 +15,7 @@
   },
   "next_board": {
     "any": "ògni micro-tavolaia",
-    "specific": "micro board {nxt} (MICRO BOARD) [çèrca a traduçión]"
+    "specific": "tæula micro {nxt}"
   },
   "game_action": {
     "played": "Giouatore {player_id} o l'ha zugou in ta micro scacchiera {macro_idx}, cella {micro_idx} (riga {row}, colonna {col}). Giouatore {opponent_id} o deve adesso zugà in {nxt_txt}."

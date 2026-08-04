@@ -5,7 +5,7 @@
     "commander_beta": "Komandante Beta."
   },
   "game_state": {
-    "header_round": "=== COLONEL BLOTTO - Round {current_round}/{num_rounds} ===\nRounds Won - Commander Alpha: {alpha_score}, Commander Beta: {beta_score}"
+    "header_round": "=== COLONEL BLOTTO - Ronda {current_round}/{num_rounds} ===\nRondas Gana - Komandante Alfa: {alpha_score}, Komandante Beta: {beta_score}"
   },
   "round_battle": {
     "field_result": "\nRondo {current_round}\nKomandante Alpha ta aloka: {p0_allocations}\nKomandante Beta ta aloka: {p1_allocations}\n",
@@ -14,7 +14,7 @@
     "tie": "{message}Tie!"
   },
   "invalid_move": {
-    "wrong_format": "Invalid input format. Use: A:5 B:10 C:5",
+    "wrong_format": "Formato di entrada inválido. Usa: A:5, B:10, C:5",
     "invalid_field": "Nòmber di e kandela no válido (s). Kanalnan balido: {field_names}",
     "wrong_allocation_value": "Tur asignacion mester ta integro no negativo.",
     "incorrect_total_units": "Bo ta haya aloka eksaktamente {num_total_units} unidad. Suma aktual: {current_sum}",

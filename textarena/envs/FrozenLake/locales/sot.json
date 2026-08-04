@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "Welcome to Frozen Lake!\n\nYou are represented by 'P' on the grid.\nGrid symbols:\n  ' ' = Frozen surface (safe to walk on)\n  'H' = Hole (fall in and lose!)\n  'G' = Goal (reach this to win!)\n  'P' = Your current position\n\nAvailable actions: up, down, left, right (or w, a, s, d)\nType your action as: [up], [down], [left], [right] or [w], [a], [s], [d]\n\nObjective: Navigate from the start (top-left) to the goal (bottom-right) without falling into any holes!\n"
+    "intro": "Kamohelo ho Frozen Lake!\n\nU emelwa ke 'P' ho grid.\nMabone a grid:\n  ' ' = Sehlahla se tlotsitsoeng (se bolokehile ho tsamaya ho sona)\n  'H' = Lesaka (o itlama, o lahlehelwa ke mofuthu!)\n  'G' = Sepheo (fihla ho sona o wene!)\n  'P' = Sebaka sa hao sa jwale\n\nMetswako e teng: hodimo, tlas'e, lehlakoreng la ho lewa, lehlakoreng la ho ja (kapa w, a, s, d)\nNgola metswako ya hao jwalo ka: [up], [down], [left], [right] kapa [w], [a], [s], [d]\n\nSepheo: Tsamaya ho tloha qalong (hodimo-holimo lehlakoreng la ho lewa) ho isa sepheong (tlas'e-holimo lehlakoreng la ho ja) ntle le ho itlama lesakeng!"
   },
   "board": {
     "current_board": "Boro ya tsohle ya kajeno:\n\n{board}\n\nLiphetoho tse patilweng: {actions}"

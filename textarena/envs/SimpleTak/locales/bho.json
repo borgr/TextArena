@@ -5,7 +5,7 @@
   "invalid_move": {
     "invalid_move_format": "अवैध स्थानांतरण प्रारूप",
     "cell_out_of_range": "अमान्य सेल नंबर {cell_num}. ० से {max_board_num} के बीच होना चाहिए.",
-    "cell_already_occupied": "Cell {cell_num} is already occupied. Choose an empty cell."
+    "cell_already_occupied": "सेल {cell_num} पहले से ही कब्जा है। एक खाली सेल चुनीं।"
   },
   "board": {
     "current_state": "वर्तमान बोर्ड:\n\n{rendered_board}\nउपलब्ध मूव: {available_moves}"

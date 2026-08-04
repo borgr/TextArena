@@ -13,8 +13,8 @@
     "already_matched": "Gluasad neo-dhligheach. Chleasaiche {player_id} roghnaich aon no an dà chairt a chaidh a choimeasadh mu thràth."
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "Tha na cairtean a thagh Player {player_id} aig suidheachaidhean [{r1} {c1}] is [{r2} {c2}] a' freagairt!",
+    "cards_no_match": "Cha do phàs na cairtean a thagh Player {player_id}. Tha na cairtean aig suidheachaidhean [{r1} {c1}] is [{r2} {c2}] {pos1} is {pos2} fa leth."
   },
   "outcome": {
     "draw": "Bha an dà chluicheadair a' coinneachadh ris an aon àireamh de chàraidean cairtean.",

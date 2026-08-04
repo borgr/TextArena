@@ -13,7 +13,7 @@
     "repeated_guess": "તમે પહેલેથી જ અનુમાન લગાવ્યું છે {guess}. કૃપા કરીને એક અલગ અનુમાન કરવાનો પ્રયાસ કરો."
   },
   "game_action": {
-    "feedback": "Submitted [{guess}]. Feedback: {black_pegs} black peg(s), {white_pegs} white peg(s)."
+    "feedback": "સબમિટ કર્યું [{guess}]. ફીડબેક: {black_pegs} કાળા પેગ, {white_pegs} સફેદ પેગ."
   },
   "outcome": {
     "win": "તમે કોડને તોડ્યો છે, {black_pegs} ને {code_length} પેગ્સમાંથી યોગ્ય રીતે હલ કરી રહ્યા છો",

@@ -3,7 +3,7 @@
     "intro": "Ozali kosakana na lisano ya kobeta mbata. Kamata mbata moko likolo mosusu kati na libulu lizanga eloko, kolongola oyo ekwei. Mokano: kosilisa na kaka **moko** ya bibende etikali. Lolenge ya misala: ndakisa '[4 1]'."
   },
   "board": {
-    "current_board": "Pegs left: {count}\n{board}"
+    "current_board": "Peg zimesala: {count}\n{board}"
   },
   "invalid_move": {
     "wrong_format": "Syntaxe ya mabe. Salela [i->j] .",

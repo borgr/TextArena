@@ -16,7 +16,7 @@
   },
   "game_action": {
     "skipped": "កីឡាករ {pid} ត្រូវតែចាកចេញពីជម្រើសរបស់ខ្លួន",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "អ្នកលេង {pid} ({piece}) បានលេង [{r}, {c}] ផ្លាស់ប្តូរ {flipped} ផ្លូវល្បែង"
   },
   "game_message": {
     "must_skip": "កីឡាករ {pid} ({piece}) គ្មានការចលនាត្រឹមត្រូវទេ ហើយត្រូវចាកចេញ។"

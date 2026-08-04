@@ -26,14 +26,14 @@
   },
   "board": {
     "per_player": "\tMwali {p}: {d}",
-    "new_round": "\nNew round - Remaining dice: {dice_summary}\nYour current Dice are: {your_dice}"
+    "new_round": "\nMzunguko mpya - Dadu zilizobaki: {dice_summary}\nDadu zako za sasa ni: {your_dice}"
   },
   "call": {
     "bidder_loses": "Mwali {current_player_id} akutuma! Nambari ya kweli ya nyuso {face_value} ndi {count}, ambayo ndi chache kuliko {quantity}.\nMwali {loser_id} (wabidizayo wa mwamalo) akupereka mawiliro.",
     "caller_loses": "Mwali {current_player_id} akutuma! Nambari ya kweli ya nyuso {face_value} ndi {count}, ambayo ndi >= {quantity}.\nMwali {loser_id} (wakutumayo) akupereka mawiliro."
   },
   "action": {
-    "bid_announce": "Player {player_id} bids {quantity} of face {face_value}."
+    "bid_announce": "Mchezaji {player_id} anafanya ofa ya {quantity} ya thamani ya uso {face_value}."
   },
   "invalid_move": {
     "call_no_bid": "Ŵakapangana kuti ŵagure kwambura kupempha.",

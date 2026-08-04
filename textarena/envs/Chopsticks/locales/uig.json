@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in Chopsticks. On your turn, choose one of:\n  + Attack:  '[attack M O]'  where M=your hand (0 or 1), O=opponent hand (0 or 1).\n    - Opponent's hand count increases by your hand; if >=5, it becomes 0.\n  + Split:   '[split L R]'  to redistribute your total fingers into L and R (L+R = your total).\nReply with exactly one of those commands."
+    "intro": "سىز چوڭتۇق ئويۇنىدىكى {player_id} نومۇرلۇق ئويۇنچى. ئۆز نۆۋىتىڭىزدە، تۆۋەندىكى بۇيۇرۇقلارنىڭ بىرىنى تاللاڭ:\n  + ھۇجۇم: '[attack M O]'  بۇ يەردە M=سىزنىڭ قولىڭىز (0 ياكى 1)، O=رەقىب قولى (0 ياكى 1).\n    - رەقىب قولىدىكى سان سىزنىڭ قولىڭىزدىكى سانغا ئۇسۇلۇپ ئاشىدۇ؛ ئەگەر >=5 بولسا، 0 غا ئۆزگىرىدۇ.\n  + بۆلۈش:   '[split L R]'  سىزنىڭ قولىڭىزدىكى بارلىق بىلەكلەرنى L ۋە R غا قايتا تەقسىم قىلىش (L+R = سىزنىڭ قولىڭىزدىكى بارلىق بىلەكلەر).\nئۇششاق بۇيۇرۇقلارنىڭ بىرىنىلا كىرگۈزۈڭ."
   },
   "board": {
     "current_board": "ھازىرقى تەختە:\nOyuncu 0: {hands_0}\nOyuncu 1: {hands_1}"
@@ -14,7 +14,7 @@
   },
   "game_action": {
     "attack": "P{player_id} P{opp_id}نىڭ قولى {opp_idx}غا ھۇجۇم قىلىدۇ: ئۇ {opp_val}دىن {new_val}غا بارىدۇ.",
-    "split": "P{player_id} splits into [{L}, {R}]."
+    "split": "{player_id} نومۇرلۇق ئويۇنچى قولىنى [{L}, {R}] غا بۆلدى."
   },
   "history": {
     "entry": "P{player_id} {desc}"

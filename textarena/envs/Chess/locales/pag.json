@@ -11,7 +11,7 @@
     "illegal": "Iligal itan ya inyalis."
   },
   "game_action": {
-    "moved": "Say {player_id} player et made na move: {move_uci}"
+    "moved": "Ang manlalaro {player_id} ginawa so sumunod a kilos: {move_uci}"
   },
   "outcome": {
     "draw": "Nansampot so pilalaban diad impan-draw.",

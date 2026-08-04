@@ -10,7 +10,7 @@
     "{groups}": "Neutral ranking data (a list of player-id groups, best to worst); do not translate"
   },
   "player_prompt": {
-    "intro": "{num_players}-Player Surround on a {width}x{height} grid.\nYou are player {player_id}. Valid moves: '[up]' '[down]' '[left]' '[right]' or w/s/a/d.\nObjective: outlive everyone else. Trails are deadly; wall hits kill; head-on crashes kill both."
+    "intro": "{num_players}-Imawlan n Surround ɣef tegrawla n {width}x{height}.\nD kečč imawlan {player_id}. Imawalen irzan: '[up]' '[down]' '[left]' '[right]' neɣ w/s/a/d.\nInegal: ḥrez fell-awen akken ma llan wiyaḍ. Iɣallen d imettalen; abeṛṛaḥ n lḥeṭṭ n tmejjijin tessuqel; tiɣṭaṭin n uɣzu n sin tessuqel snat."
   },
   "board": {
     "current": "Asqamu amatu: {board}",
@@ -25,6 +25,6 @@
     "outlived": "Amur-nni yeεda ɣef wiyaḍ.",
     "all_dead": "Imurar merra mmuten.",
     "turn_limit": "Tazrawt n tuqqna tewweḍ-d - win i d-yeṭṭfen ugar deg tudert ad yerbeḥ.",
-    "ranking": "{reason} Final ranking groups (best→worst): {groups}"
+    "ranking": "{reason} Iɣewwaṛen n uɣsas amezwar (amezwar→ameḍyan): {groups}"
   }
 }

@@ -1,16 +1,16 @@
 {
   "player_prompt": {
-    "intro": "You are playing Slitherlink on a {R}x{C} grid! Draw a single continuous loop so each numbered cell has that many bordering edges. Toggle the idges with: [h r c] - toggle vertical edge above dots at row r, column c [v r c] - Toggle horizontal edge left of dots in row r, column c Numbers show required edge count '.' means no constraint. You have up to {max_turns} moves to solve the puzzle."
+    "intro": "Ukina Slitherlink pa gridi ya {R}x{C}!\nTunga mzunguko mmoja usio na mwisho ili kila seli iliyo na nambari iwe na kingo nyingi kama hizo.\nBadilisha kingo kwa:\n  [h r c] - badilisha ukingo wa mlalo juu ya vidoti kwenye safu r, safu wima c\n  [v r c] - badilisha ukingo wa wima upande wa kushoto wa vidoti kwenye safu r, safu wima c\nNambari zinaonyesha idadi ya kingo zinazohitajika, '.' inamaanisha hakuna kizuizi.\nUna hadi {max_turns} zamu za kutatua tatizo."
   },
   "board": {
-    "current_board": "{board}\nClues satisfied: {progress}"
+    "current_board": "{board}\nVidokezo vilivyotimizwa: {progress}"
   },
   "invalid_move": {
     "wrong_format": "Bad action format. Use [h row col] or [v row col].",
     "out_of_bounds": "Cjk ck."
   },
   "outcome": {
-    "win": " You formed a single loop! puzzle solved!",
+    "win": "🎉 Umefanya mzunguko mmoja! Tatizo limetatuliwa!",
     "turn_limit": "Cjk, ck."
   }
 }

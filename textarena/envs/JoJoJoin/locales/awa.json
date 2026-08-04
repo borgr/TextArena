@@ -6,7 +6,7 @@
     "current_board": "वर्तमान बोर्ड:\n\n{board}\n\nउपलब्ध चालें: {moves}"
   },
   "invalid_move": {
-    "wrong_format": "The submitted move does not follow the correct format.",
+    "wrong_format": "जमा कइल गइल चाल सही फारमेट का अनुसार नइखे।",
     "out_of_range": "{cell} एक वैध सेल नाहीं है. 0 से 24 के बीच होवे का चाही.",
     "already_occupied": "सेल {cell} पहिले से ही कब्जा कर लिया है."
   },

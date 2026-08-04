@@ -14,7 +14,7 @@
   },
   "game_action": {
     "moved": "Jogador {player_id} mudó su peça de {frm} pa {to}.",
-    "capture": "{observation} Capturing a piece! (+{score_per_capture})"
+    "capture": "{observation} Ta kaptura peça! (+{score_per_capture})"
   },
   "outcome": {
     "no_pieces": "Jogador {player_id} ka ten ninhun pezas.",

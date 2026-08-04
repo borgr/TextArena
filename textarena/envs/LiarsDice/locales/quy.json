@@ -22,15 +22,15 @@
     "final_ranking": "list of player indices from first eliminated to winner"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in an {num_players}-player Liar's Dice game.\nRules:\n- On your turn, you may either:\n  1) Make a new bid with a higher quantity or higher face (or both) than the current bid; i.e. '[Bid: 3, 4]',\n  2) Call the last bid by typing '[Call]'.\n\nIf you call:\n  - If the actual count of that face value among all dice is less than the bid, the last bidder loses one die.\n  - Otherwise, the caller loses one die.\nA player who reaches 0 dice is eliminated. The last remaining player wins."
+    "intro": "Qanmi Player {player_id} kanki {num_players}-pukllaykachaq Liar's Dice pukllaypi.\nKamachikuna:\n- Q'umir turnoykita, qanmi:\n  1) Musuq bid ruwayta, aswan yupayninman aswan face (manañachu) kunan bidmanta; ahinataq '[Bid: 3, 4]',\n  2) Q'ipiyta q'umir bidta '[Call]' qillqaspa.\n\nQ'ipiyta q'umir q'ipiykachaq:\n  - Wakichi yupaykunapaq yupaynin mana yupasqa bidmanta, q'ipiykachaq pask'arqan huk wakichita.\n  - Mana, q'ipiykachaq pask'arqan huk wakichita.\nPukllaykachaq 0 wakichi yupaykunayuq pask'arqan, atipaqmi."
   },
   "board": {
     "per_player": "\tPukaraq {p}: {d}",
     "new_round": "\nUkhu p'unchay - Mana k'usillu: {dice_summary}\nKamayuq k'usilluq kan: {your_dice}"
   },
   "call": {
-    "bidder_loses": "Player {current_player_id} calls! The actual count of face {face_value} is {count}, which is LESS than {quantity}.\nPlayer {loser_id} (the last bidder) loses one die.",
-    "caller_loses": "Player {current_player_id} calls! The actual count of face {face_value} is {count}, which is >= {quantity}.\nPlayer {loser_id} (the caller) loses one die."
+    "bidder_loses": "Pukllaykachaq {current_player_id} q'ipiyta! Wakichi yupaykunapaq yupaynin {face_value} {count}, mana yupasqa {quantity}.\nPukllaykachaq {loser_id} (q'ipiykachaq) pask'arqan huk wakichita.",
+    "caller_loses": "Runa {current_player_id} q'awaraq! {face_value} uya q'awa {count} kaptin, {quantity} kaqmanta aswanmi.\nRuna {loser_id} (q'awaraq) huk t'uru p'unchaykuta chinkan."
   },
   "action": {
     "bid_announce": "Pukaraq {player_id} apukun {quantity} ukhu face {face_value}."

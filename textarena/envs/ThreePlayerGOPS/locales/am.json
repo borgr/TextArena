@@ -14,15 +14,15 @@
     "{scores}": "The final scores as a raw player-number to score mapping - do not translate"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player GOPS.\n- You hold the 13 cards A-K (each exactly once).\n- Each round a prize is revealed. Submit ONE card like `[Q]`, `[10]`, `[2]` …\n- Highest card wins the prize (+ any carry-over pot). Ties roll the prize into the next round.\n- After 13 rounds, highest total wins. Invalid moves = elimination."
+    "intro": "አንተ ተጫዋቹ {player_id} በሦስት ተጫዋቾች GOPS ነህ.\n- አንተ 13 ካርዶች A-K (እያንዳንዱን እንደገና) ትይዛለህ.\n- እያንዳንዱ ዙር አንድ ካርድ እንደ `[Q]`, `[10]`, `[2]` … አስገባ.\n- ከፍተኛው ካርድ ካርዱን ያሸንፋል (+ ማንኛውም ተሸጋገረ ዋጋ). እኩል የሆኑ ካርዶች ካርዱን ወደ ቀጣዩ ዙር ያስገባሉ.\n- 13 ዙሮች በኋላ, ከፍተኛው ጠቅላላ ያሸንፋል. አልተገባለህ እንቅስቃሴዎች = እንደማይቻል."
   },
   "round": {
-    "header": "### Round {round}/13 - Prize: {prize} (worth {worth})",
+    "header": "### ዙር {round}/13 - ካርድ: {prize} (ዋጋ {worth})",
     "hand": "የቀረው እጅህ: {hand}"
   },
   "reveal": {
-    "win": "Bids » {bids} - Player {winner} wins {pot}.",
-    "tie": "Bids » {bids} - tie, pot now {pot}.",
+    "win": "ጥራቶች » {bids} - ተጫዋች {winner} ካርዱን ያሸንፋል {pot}.",
+    "tie": "ጥራቶች » {bids} - እኩል, ካርዱን አሁን {pot}.",
     "scores": "ውጤቶች → {scoreline}"
   },
   "invalid_move": {

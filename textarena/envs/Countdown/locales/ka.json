@@ -9,12 +9,12 @@
     "progress": "{observation} მიმდინარე პროგრესის ქულა: {progress}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use `[i j op]` where i,j are indices and op is +,-,*,/",
+    "wrong_format": "არასწორი მოქმედების ფორმატი. გამოიყენეთ `[i j op]` სადაც i,j არის ინდექსები და op არის +,-,*,/",
     "invalid_indices": "არასწორი ინდექსები. უნდა იყოს განსხვავებული და 0-{max_index} დიაპაზონში",
     "invalid_operation": "არასწორი ოპერაცია (ნაწილება ნულზე ან არამთელი რიცხვის შედეგზე)"
   },
   "outcome": {
-    "win": "Perfect! Found exact target: {target}",
+    "win": "შესანიშნავი! ზუსტი სამიზნე იპოვეთ: {target}",
     "no_moves": "საუკეთესო შედეგი: {best_value} (მიზანი: {target})",
     "turn_limit": "მიტრიალების ლიმიტი მიღწეულია. საუკეთესო შედეგი: {best_value} (მიზანი: {target})"
   }

@@ -10,7 +10,7 @@
     "{to}": "The destination coordinate of a move, such as b3"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in game of LinesOfAction.\nYour pieces are '{side}', opponent pieces are '{other}'.\nMove format: `[b1b3]` (from-coord to-coord). A legal move travels horizontally, vertically, or diagonally a number of squares equal to the total pieces (any colour) in that line. You may jump over your own pieces, but not opponent pieces; landing on an opponent captures it.  Win when all your pieces are 8-neighbour connected."
+    "intro": "O motshameki {player_id} mo papading ya LinesOfAction.\nMabole a gago ke '{side}', mabole a mmotsheki ke '{other}'.\nTsela ya tsamaya: `[b1b3]` (koordinete ya motswedi le koordinete ya bokhutlo). Tsamaya e e siameng e tsamaya ka mokgwa wa tlhogo, wa tshimologo, kgotsa wa diagonal ka palo ya mabole (mabole a mofuta ope) mo mokgweng oo. O ka tshwara mabole a gago, mme o se ka wa tshwara mabole a mmotsheki; go goroga mo mmotshekeng o a mo tshwara.  O wina fa mabole a gago a kgatlhanong."
   },
   "board": {
     "current_board": "Lekgotla: {board}"
@@ -30,7 +30,7 @@
   },
   "outcome": {
     "win": "Dilo tsotlhe di a tshwana.",
-    "draw_no_capture": "60 moves without capture.",
+    "draw_no_capture": "Ditsamaya tse 60 tse di sa tshwarang mole.",
     "draw_repetition": "Boemo bo ne jwa ipoeletsa gararo."
   }
 }

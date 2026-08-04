@@ -12,7 +12,7 @@
     "invalid_position": "ناقانونه حرکت - هغه حالت ته نشي تللی."
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
+    "moved": "تاسو {pushed} حرکت وکړ [{action}].",
     "pushed_prefix": "په داسې حال کې چې يو صندوق فشار"
   },
   "outcome": {

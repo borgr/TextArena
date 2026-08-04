@@ -22,34 +22,34 @@
     "final_ranking": "list of player indices from first eliminated to winner"
   },
   "player_prompt": {
-    "intro": "Anda adalah Pemain {player_id} dalam permainan Liar's Dice {num_players}-pemain.\nAturan:\n- Pada giliran Anda, Anda dapat melakukan salah satu dari:\n  1) Membuat tawaran baru dengan jumlah atau wajah yang lebih tinggi (atau keduanya) dari tawaran saat ini; yaitu '[Bid: 3, 4]',\n  2) Memanggil tawaran terakhir dengan mengetik '[Call]'.\n\nJika Anda memanggil:\n  - Jika jumlah aktual nilai wajah tersebut di antara semua dadu kurang dari tawaran, penawar terakhir kehilangan satu dadu.\n  - Jika tidak, pemanggil kehilangan satu dadu.\nSeorang pemain yang mencapai 0 dadu dieliminasi. Pemain terakhir yang tersisa menang."
+    "intro": "Iraga Pemain {player_id} ring permainan Liar's Dice antuk {num_players} pemain.\nAturan:\n- Ring giliran Iraga, Iraga dados:\n  1) Ngajukan bid anyar antuk kuantitas utawi nilai wajah sing lebih tegeh (utawi makakalih) tinimbang bid kantun; contone '[Bid: 3, 4]',\n  2) Nelpon bid pinih anyar antuk ngetik '[Call]'.\n\nYen Iraga nelpon:\n  - Yen cacah dadu sing cocok ring nilai wajah sing diitung kurang saking bid, pemain bid pinih anyar kalah.\n  - Wenten Iraga, pemain sing nelpon kalah.\nPemain sing kalah dados 0 dados kalah. Pemain sing kantun pinih anyar menang."
   },
   "board": {
     "per_player": "\tPemain {p}: {d}",
-    "new_round": "\nRonde baru - Dadu yang tersisa: {dice_summary}\nDadu Anda saat ini adalah: {your_dice}"
+    "new_round": "\nGiliran anyar - Cacah dados sing kantun: {dice_summary}\nDadu Iraga kantun: {your_dice}"
   },
   "call": {
-    "bidder_loses": "Pemain {current_player_id} memanggil! Jumlah aktual wajah {face_value} adalah {count}, yang KURANG dari {quantity}.\nPemain {loser_id} (penawar terakhir) kehilangan satu dadu.",
-    "caller_loses": "Pemain {current_player_id} memanggil! Jumlah aktual wajah {face_value} adalah {count}, yang >= {quantity}.\nPemain {loser_id} (pemanggil) kehilangan satu dadu."
+    "bidder_loses": "Pemain {current_player_id} nelpon! Cacah dadu sing cocok ring nilai wajah {face_value} inggih {count}, sing kurang saking {quantity}.\nPemain {loser_id} (pemain bid pinih anyar) kalah.",
+    "caller_loses": "Pemain {current_player_id} nelpon! Cacah dadu sing cocok ring nilai wajah {face_value} inggih {count}, sing lebih utawi pateh {quantity}.\nPemain {loser_id} (pemain sing nelpon) kalah."
   },
   "action": {
-    "bid_announce": "Pemain {player_id} menawar {quantity} dari wajah {face_value}."
+    "bid_announce": "Pemain {player_id} ngajukan bid {quantity} ring nilai wajah {face_value}."
   },
   "invalid_move": {
     "call_no_bid": "Panganggén sané nénten naur.",
-    "invalid_bid": "Penawaran nénten valid: {reason}",
-    "not_recognized": "Tindakan tidak dikenal sebagai '[Bid: X, Y]' atau '[Call]' yang valid. Tindakan yang dikirim: {action}"
+    "invalid_bid": "Bid sing salah: {reason}",
+    "not_recognized": "Aksi sing dikirim pemain tanpa dikenal dados '[Bid: X, Y]' utawi '[Call]'. Aksi sing dikirim: {action}"
   },
   "bid_reason": {
-    "quantity_lower": "Jumlah baru {new_quantity} lebih rendah dari saat ini {current_quantity}.",
+    "quantity_lower": "Kuantitas anyar {new_quantity} kurang saking kuantitas kantun {current_quantity}.",
     "face_lower": "Nilai nominal anyar {new_face_value} kirang saking nilai aktual {current_face_value}.",
-    "identical": "Penawaran pateh sareng panawar sané mangkin.",
+    "identical": "Bid sing dikirim pateh antuk bid kantun.",
     "face_range": "Nilai nominal patut pantaraning 1 miwah 6."
   },
   "message": {
     "eliminated_invalid": "Pamain {player_id} kaicalang antuk pamargi nénten patut."
   },
   "outcome": {
-    "win": "Pemain {winner} menang! Peringkat akhir: {final_ranking}"
+    "win": "Pemain {winner} menang! Peringkat pinih anyar: {final_ranking}"
   }
 }

@@ -4,12 +4,12 @@
   },
   "board": {
     "header": "الهدف: {target}\n\nالأرقام المتاحة:\n{numbers}",
-    "best": "{observation}\n\nBest so far: {best_value} (distance: {distance})\nBest expression: {best_expression}",
-    "history": "{observation}\n\nMove history:\n{moves}",
+    "best": "{observation}\n\nالأفضل حتى الآن: {best_value} (المسافة: {distance})\nأفضل تعبير: {best_expression}",
+    "history": "{observation}\n\nتاريخ الحركات:\n{moves}",
     "progress": "{observation}\nدرجة التقدم الحالية: {progress}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use `[i j op]` where i,j are indices and op is +,-,*,/",
+    "wrong_format": "صيغة الإجراء غير صحيحة. استخدم `[i j op]` حيث i،j هي الفهارس و op هي +،-،*،/",
     "invalid_indices": "مؤشرات غير صالحة. يجب ان تكون مختلفه وبين 0-{max_index}",
     "invalid_operation": "عملية غير صالحة (قسمة على الصفر او نتيجة ليست عددا كاملا)"
   },

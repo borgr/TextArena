@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are {role} in Colonel Blotto.\nYour goal is to win more rounds than your opponent.\nOn each round, allocate exactly {num_total_units} units across fields {field_names}.\nThe player who allocates more units to a field wins that field, and the player who wins more fields wins the round.\nFor example, '[A7 B7 C6]' allocates 7 units to A, 7 to B, and 6 to C.",
+    "intro": "Wo ne {role} wɔ Colonel Blotto.\nWo botae ne sɛ wo adi nkunim wɔ nnipa pii so sen wo tamfo.\nWɔ kɔla biara mu, fa {num_total_units} nnipa pii no mu fa kɔla {field_names}.\nOnipa a ɔde nnipa pii kɔ kɔla bi no, ɔno na ɔdi kɔla no, na onipa a ɔdi kɔla pii no, ɔno na ɔdi nkunim wɔ kɔla no.\nSɛ nhwɛso, '[A7 B7 C6]' fa nnipa 7 kɔ A, 7 kɔ B, na 6 kɔ C.",
     "commander_alpha": "Ɔsafohene Alpha",
     "commander_beta": "Ɔsafohene Beta"
   },
@@ -14,7 +14,7 @@
     "tie": "{message}Akyekyere!"
   },
   "invalid_move": {
-    "wrong_format": "Invalid input format. Use: A:5, B:10, C:5",
+    "wrong_format": "Nkyerɛkyerɛmu a ɛnteɛ. Fa: A:5, B:10, C:5",
     "invalid_field": "Asase din a enni mu. Mframa pa: {field_names}",
     "wrong_allocation_value": "Ɛsɛ sɛ wɔde asensuo nyinaa yɛ anansesɛm a wɔnni mfasoɔ.",
     "incorrect_total_units": "Wopɛ sɛ wobɛkyekye {num_total_units} adu. Tumi a ɛwɔ hɔ: {current_sum}",

@@ -24,8 +24,8 @@
     "empty_command": "Komando hutsa. Idatzi \"draw\" edo \"move <source> <destination> [count]\"",
     "empty_action": "Ekintza hutsa",
     "move_needs_args": "Move komandoak jatorria eta helmuga behar ditu. Erabilera: 'move <jatorria> <helmuga> [count]'",
-    "count_positive": "Zenbaketa positiboa edo \"guztiak\" izan behar da.",
-    "count_invalid": "Ez dago zenbakirik, beraz zenbaki bat edo \"guztiak\" erabili",
+    "count_positive": "Zenbakia positiboa izan behar du edo 'all'",
+    "count_invalid": "Zenbakia baliogabea. Erabili zenbaki bat edo 'all'",
     "unknown_command": "Ezagutzen ez den komandoa \"{cmd}\". Erabili \"draw\", \"move <source> <destination> [count]\", edo \"forfeit\"",
     "wrapped": "Ekintza {n}: {msg}"
   },
@@ -35,8 +35,8 @@
     "failed": "Ekintza {n} huts egin du: {msg}"
   },
   "move_result": {
-    "drew": "Drew card(s) from stock to waste.",
-    "cannot_draw": "Cannot draw. Both stock and waste are empty.",
+    "drew": "Karta(k) stocketik waste pilera marraztu ziren.",
+    "cannot_draw": "Ezin da marraztu. Stock eta waste pilak hutsik daude.",
     "invalid_pile": "Pila ezaren izena ez da balio. W, F1-F4 edo T1-T7 erabili",
     "foundation_one_card": "Bakarrik karta bat mugitu ahal izango duzu.",
     "waste_to_foundation_ok": "Hondakinetatik fundaziora mugitutako txartela F{dst}",
@@ -54,7 +54,7 @@
     "foundation_empty": "F{src} fundazioa hutsik dago",
     "foundation_to_tableau_ok": "F{src} oinarritik T{dst} taulara mugitu zen karta",
     "foundation_to_tableau_bad": "Ezin da oinarrizko txartel bat T taulan jarri {dst}",
-    "to_waste_or_stock": "Cannot move to waste or stock"
+    "to_waste_or_stock": "Ezin da waste edo stock pilera mugitu"
   },
   "outcome": {
     "forfeit": "Partida galduta, azken emaitza: {score} karten oinarriak.",
@@ -62,7 +62,7 @@
     "turn_limit": "Jokoaren amaiera! {max_turns} txanda gehien lortu duzu. Puntuazioa: {score} karta fundazioetan."
   },
   "board": {
-    "title": "=== KLONDIKE SOLITAIRE ===",
+    "title": "=== KLONDIKE BAKARREKO JOKOA ===",
     "turn": "Itzuli: {turn}/{max_turns}",
     "stock": "Stock: {stock} karta",
     "waste": "Hondakinak (W): {waste}",

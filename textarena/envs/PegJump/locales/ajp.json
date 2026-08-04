@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "نحوي غير صحيح. استخدم [i->j] .",
-    "illegal_move": "Illegal move."
+    "illegal_move": "حركة غير قانونية."
   },
   "outcome": {
     "win": "حل مع بقية عصا واحدة!",

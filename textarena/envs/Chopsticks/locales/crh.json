@@ -1,9 +1,9 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in Chopsticks. On your turn, choose one of:\n  + Attack:  '[attack M O]'  where M=your hand (0 or 1), O=opponent hand (0 or 1).\n    - Opponent's hand count increases by your hand; if >=5, it becomes 0.\n  + Split:   '[split L R]'  to redistribute your total fingers into L and R (L+R = your total).\nReply with exactly one of those commands."
+    "intro": "Siz Chopsticks oyunda {player_id}-nci oyuncusınız. Sıra sizde, bunlardan birini seçiñiz:\n  + Hücum: '[attack M O]'  M - sizin eliñiz (0 yada 1), O - qarşı taraf eli (0 yada 1).\n    - Qarşı taraf elindeki parmak sayısı sizin eliñizdeki parmak sayısı qadar arta; 5 yada daa çoq bolsa, 0 olur.\n  + Bölüñiz: '[split L R]'  toplam parmak sayınızı L ve R olaraq bölüñiz (L+R = sizin toplam parmak sayınız).\nAqiqaten bu komandalarğa cevaplana."
   },
   "board": {
-    "current_board": "Current Board:\nOyuncu 0: {hands_0}\nOyuncu 1: {hands_1}"
+    "current_board": "Şimdiki Tahta:\nOyuncu 0: {hands_0}\nOyuncu 1: {hands_1}"
   },
   "invalid_move": {
     "my_hand_dead": "Eliniñ {my_idx} ölü.",
@@ -14,7 +14,7 @@
   },
   "game_action": {
     "attack": "P{player_id}, P{opp_id}’nıñ eli {opp_idx}ğa hucum ete: ol {opp_val} dan {new_val} ğa barıp tur.",
-    "split": "P{player_id} splits into [{L}, {R}]."
+    "split": "P{player_id} elini [{L}, {R}] olaraq bölüñe."
   },
   "history": {
     "entry": "P{player_id} {desc}"

@@ -10,7 +10,7 @@
     "{groups}": "Neutral ranking data (a list of player-id groups, best to worst); do not translate"
   },
   "player_prompt": {
-    "intro": "{num_players}-Player Surround on a {width}x{height} grid.\nYou are player {player_id}. Valid moves: '[up]' '[down]' '[left]' '[right]' or w/s/a/d.\nObjective: outlive everyone else. Trails are deadly; wall hits kill; head-on crashes kill both."
+    "intro": "{num_players}-ተጻዋሪ ሱራውንድ በ {width}x{height} ግሪድ.\nአንተ ተጻዋሪ {player_id} ኢኻ። ሓለዋት ምዕባለታት፦ '[up]' '[down]' '[left]' '[right]' ወይ w/s/a/d.\nንዕናድ፦ ካልኦት ሕያው ከም ሂወካ ንኽሃወል። ጥፍኣት ሞት ይገብራሉ። ግድግዳ ሃውልሲ ሞት ይገብራሉ። ሓለዋ ክራሽ ክልቴ ሞት ይገብራሉ።"
   },
   "board": {
     "current": "ናይ ሕጂ ቦርድ: {board}",

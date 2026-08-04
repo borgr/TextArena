@@ -13,13 +13,13 @@
     "already_matched": "Un move invalido. E hungadó {player_id} a skohe un òf tur dos karta ku ya tabata pará kaba."
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "E kartonan selekta pa Jugador {player_id} na posishonnan [{r1} {c1}] i [{r2} {c2}] kombina!",
+    "cards_no_match": "E kartonan selekta pa Jugador {player_id} no kombina. Kartonan na posishonnan [{r1} {c1}] i [{r2} {c2}] ta {pos1} i {pos2} respektivamente."
   },
   "outcome": {
     "draw": "Ambos hungadó a pone e mesun kantidat di par.",
     "win": "E hungadó {winner_id} a gana!",
-    "turn_limit": "E limit di turno a wordo alcanza. E wega a termina. Player 0 a score {score_0} punto, Player 1 a score {score_1} punto.",
+    "turn_limit": "E límite di turno a yega. E hunga ta kaba. Jugador 0 a skor {score_0} punto, Jugador 1 a skor {score_1} punto.",
     "turn_limit_win": "{reason} Player {winner_id} a gana!"
   }
 }

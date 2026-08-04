@@ -14,9 +14,9 @@
   },
   "message": {
     "bids": "Ofert: P0 {card0} vs P1 {card1} - ",
-    "p0_wins": "{observation}Player 0 wins {pot_value}.",
+    "p0_wins": "{observation}Giugador 0 el vensg {pot_value}.",
     "p1_wins": "{observation}Player 1 wins. {pot_value}Sì, sèmper lì!",
-    "tie": "{observation}Tie -> pot now {carry_pot}.",
+    "tie": "{observation}Parità -> el pot adess l'è {carry_pot}.",
     "scores": "Puntegi -> P0:{score0}  P1:{score1}"
   },
   "outcome": {

@@ -7,7 +7,7 @@
     "{cell}": "A board cell number between 0 and 8"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Tic Tac Toe.\nYour goal is to win three in a row (horizontally, vertically, or diagonally) on the board.\nOn your turn, you should select the square number (0-8) you want to put your mark in next.\nFor example, '[4]' places your mark in the center cell of the board.\nAs Player {player_id}, you will be '{symbol}', while your opponent is '{opponent_symbol}'."
+    "intro": "Yïn ee Yicök {player_id} Tic Tac Toe.\nYïn ee wäŋ yäŋ yäŋ kekäŋ (wäŋ nhöl, wäŋ käŋ, wäŋ käŋ nhöl) kekäŋ.\nYïn ee käŋ yäŋ yäŋ, yïn ee yäŋ yäŋ kekäŋ (0-8) yïn ee yäŋ yäŋ yäŋ.\nAlɔŋ, '[4]' ee yäŋ yäŋ yäŋ kekäŋ kekäŋ.\nYïn ee Yicök {player_id}, yïn ee '{symbol}', wä yïn ee yäŋ yäŋ '{opponent_symbol}'."
   },
   "board": {
     "current_board": "Kɛmɛ̈thɛ̈rɛ̈k ë bɔ̈r:\n\n{board}\n\nCäthke wäärëtë: {moves}"

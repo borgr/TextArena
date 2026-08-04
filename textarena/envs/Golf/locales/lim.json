@@ -43,7 +43,7 @@
   },
   "action_desc": {
     "swapped": "Speler {pid} heet {new} omgeruild mit {old} op posisie ({row},{col})",
-    "discarded": "Player {pid} discarded {card}"
+    "discarded": "Speler {pid} haet kaart {card} eweggesmete"
   },
   "message": {
     "deck_empty": "'t Deck is leeg, de partij kump aaf.",
@@ -51,7 +51,7 @@
     "final_round": "Speler {pid} {reason}! Edere angere speler krieg eine extra beurt"
   },
   "reason": {
-    "all_revealed": "has all cards revealed"
+    "all_revealed": "haet alle kaarte oonthöld"
   },
   "invalid": {
     "wrong_action": "Gebruuk eksak ein gehaokde actie: [draw], [take], [swap X Y], [discard], [knock], of [peek X Y]",

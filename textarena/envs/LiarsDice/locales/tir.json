@@ -29,8 +29,8 @@
     "new_round": "\nኣዲ ሮንድ - ዘለዋ ካማት: {dice_summary}\nኣብ ሕጊ ዘለካ ካማት እንተ: {your_dice}"
   },
   "call": {
-    "bidder_loses": "Player {current_player_id} calls! The actual count of face {face_value} is {count}, which is LESS than {quantity}.\nPlayer {loser_id} (the last bidder) loses one die.",
-    "caller_loses": "Player {current_player_id} calls! The actual count of face {face_value} is {count}, which is >= {quantity}.\nPlayer {loser_id} (the caller) loses one die."
+    "bidder_loses": "ተጫዋች {current_player_id} ጥሪ! አብዛኻይ ብዛንቲ ፊስ {face_value} እዩ {count}፣ ዝነነፈሉ ከም {quantity}፣\nተጫዋች {loser_id} (አብዛኻይ ብደይ) አንድ ዳይ ይወድቅ፣",
+    "caller_loses": "ተጫዋች {current_player_id} ጥሪ! አብዛኻይ ብዛንቲ ፊስ {face_value} እዩ {count}፣ ዝነነፈሉ ከም {quantity} ወይ ከበልኡ፣\nተጫዋች {loser_id} (ጥሪኻይ) አንድ ዳይ ይወድቅ፣"
   },
   "action": {
     "bid_announce": "ሰለማዊ �{player_id} ብዛዕባ �{quantity} ንዑራት ላዕሊ �{face_value}."

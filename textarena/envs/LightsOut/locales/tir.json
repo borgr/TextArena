@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "እርምጃ በእንደ [row col] መሆን አለበት እዚህ ላይ ሮው እና ኮል የነጥብ ቁጥሮች ከ0 እስከ {max_index}.",
-    "out_of_range": "Coordinates must be between 0 and {max_index}. You entered [{row},{col}]."
+    "out_of_range": "ኮኦርዲኔቶች ከ 0 እስከ {max_index} ነው። እንዲህ [{row},{col}] አስገቡ።"
   },
   "outcome": {
     "win": "አብራካድ! ፈተናዎን በ{moves_used} እንቅስቃሴዎች ፈትረህ!",

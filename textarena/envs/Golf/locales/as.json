@@ -47,7 +47,7 @@
   },
   "message": {
     "deck_empty": "খেল শেষ হ'ল, খেল শেষ হ'ল, খেল শেষ হ'ল, খেল শেষ হ'ল",
-    "knocked": "Player {pid} knocked! Each other player gets one more turn.",
+    "knocked": "খেলোয়াড় {pid} নক করেছেন! অন্য প্রতিটি খেলোয়াড় আরও একটি পালা পান।",
     "final_round": "খেলুৱৈ {pid} {reason}! প্ৰতিজন খেলুৱৈয়ে আন এজন খেলুৱৈক বেট দিব পাৰে।"
   },
   "reason": {

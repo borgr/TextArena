@@ -5,17 +5,17 @@
     "commander_beta": "ၽူႈၵွၼ်းသိုၵ်း Beta"
   },
   "game_state": {
-    "header_round": "=== COLONEL BLOTTO - Round {current_round}/{num_rounds} ===\nRounds Won - Commander Alpha: {alpha_score}, Commander Beta: {beta_score}"
+    "header_round": "=== COLONEL BLOTTO - ၶိုၼ်း {current_round}/{num_rounds} ===\nၶိုၼ်းဢွင်ႇ - ၽူႈၵွၼ်းတပ်ႉ Alpha: {alpha_score}, ၽူႈၵွၼ်းတပ်ႉ Beta: {beta_score}"
   },
   "round_battle": {
-    "field_result": "\nRound {current_round}\nCommander Alpha allocated: {p0_allocations}\nCommander Beta allocated: {p1_allocations}\n",
+    "field_result": "\nၶိုၼ်း {current_round}\nၽူႈၵွၼ်းတပ်ႉ Alpha ၸႅၵ်ႇၽႄ: {p0_allocations}\nၽူႈၵွၼ်းတပ်ႉ Beta ၸႅၵ်ႇၽႄ: {p1_allocations}\n",
     "winner_alpha": "{message}ၽူႈဢွင်ႇပႄႉ: Commander Alpha",
     "winner_beta": "{message}ၽူႈဢွင်ႇပႄႉ: Commander Beta",
     "tie": "{message}ၵွင်ႉၵၼ်!"
   },
   "invalid_move": {
     "wrong_format": "ၽၢင်ႁၢင်ႈဢၼ်သႂ်ႇဝႆႉဢမ်ႇမႅၼ်ႈ ၸႂ်ႉ: A:5၊ B:10 ၊ C:5",
-    "invalid_field": "Invalid field name(s). Valid fields: {field_names}",
+    "invalid_field": "ၸိုဝ်ႈၼႃႈၽႄဢမ်ႇမၢၼ်ႇ။ ၼႃႈၽႄမၢၼ်ႇ: {field_names}",
     "wrong_allocation_value": "လွင်ႈၸႅၵ်ႇၽႄတၢင်းမူတ်းၼႆႉ တေလႆႈပဵၼ် တူဝ်ၼပ်ႉတဵမ် ဢၼ်ဢမ်ႇၸႂ်ႈတူဝ်ၶတ်း (non-negative) ။",
     "incorrect_total_units": "သင်သည် {num_total_units} ယူနစ်များကို တိကျစွာ ခွဲဝေရမည်။ လက်ရှိ စုစုပေါင်း: {current_sum}",
     "good_allocations": "လွင်ႈၸႅၵ်ႇၽႄၼႆႉ လီယူႇယဝ်ႉ။"

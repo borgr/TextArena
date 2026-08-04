@@ -13,10 +13,10 @@
     "repeated_guess": "Waxaad horey u qiyaastay {guess}. Fadlan isku day inaad qiyaasto mid kale."
   },
   "game_action": {
-    "feedback": "Submitted [{guess}]. Feedback: {black_pegs} black peg(s), {white_pegs} white peg(s)."
+    "feedback": "Waxaad gudbisey [{guess}]. Jawaab celin: {black_pegs} bir madow, {white_pegs} bir cad."
   },
   "outcome": {
     "win": "Waxaad jabisay lambarka, adigoo si sax ah u xalinaya {black_pegs} oo ka soo baxay {code_length}",
-    "turn_limit": "Turn limit reached. You guessed {percent} percent of the numbers correctly."
+    "turn_limit": "Wakhtiga jeerka wuu dhammaaday. Waxaad odhaahday {percent} boqolkiiba oo tirooyinka sax ah."
   }
 }

@@ -13,7 +13,7 @@
     "exceeds_pile": "Enweghi ike iwepu {quantity} site na ikpo {pile_index} (naanị {pile_count} ekpe)."
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "Onye Egwuregwu {player_id} gbara [{pile_index} {quantity}], na-ewepụ {quantity} ihe site na ihe {pile_index}."
   },
   "outcome": {
     "win": "Onye na-egwu egwu {player_id} were ihe ikpeazụ ahụ!"

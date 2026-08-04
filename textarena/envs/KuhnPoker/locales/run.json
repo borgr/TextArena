@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a {max_rounds} round game of Kuhn Poker.\nGame Rules:\n- Kuhn Poker uses a 3-card deck with J, Q, K (J lowest, K highest)\n- Each player antes {ante} chip and receives 1 card each round (note that the cards are dealt without replacement, so you cannot have the same card as your opponent).\n- Game continues for {max_rounds} rounds\n- The player with the most chips after all rounds wins\nAction Rules:\n- '[check]': Pass without betting (only if no bet is on the table)\n- '[bet]': Add 1 chip to the pot (only if no bet is on the table)\n- '[call]': Match an opponent's bet by adding 1 chip to the pot\n- '[fold]': Surrender your hand and let your opponent win the pot"
+    "intro": "Uri umukinnyi {player_id} mu michezo ya Kuhn Poker ya mizunguko {max_rounds}.\nAmategeko ya Mchezo:\n- Kuhn Poker itagira ikarata 3 za J, Q, K (J ndogo zaidi, K kubwa zaidi)\n- Kila mukinnyi atanga {ante} chip na akabona ikarata 1 kila mzunguko (kumbuka kwamba ikarata zitabonwa bila kubadilishwa, kwa hivyo utaweza kuwa na ikarata sawa na ya mpinzani wako).\n- Mchezo utaendelea kwa mizunguko {max_rounds}\n- Mukinnyi aliye na chips nyingi zaidi baada ya mizunguko yote atashinda\nAmategeko ya Vitendo:\n- '[check]': Pita bila kubeti (ni muhimu tu ikiwa hakuna beti kwenye meza)\n- '[bet]': Ongeza chip 1 kwenye poti (ni muhimu tu ikiwa hakuna beti kwenye meza)\n- '[call]': Linganisha beti ya mpinzani wako kwa kuongeza chip 1 kwenye poti\n- '[fold]': Achilia mkono wako na uruhusu mpinzani wako ashinde poti"
   },
   "init_round": {
     "round_start": "### Kuzura mukaro {current_round} kuri {max_rounds} mukaro. Katika {player_card}",
@@ -11,7 +11,7 @@
     "not_legal": "Igikorwa gitegerezwa kuba {legal_actions}."
   },
   "action": {
-    "submit_move": "Player {player_id}, submitted move: '[{move}]'.",
+    "submit_move": "Mukinnyi {player_id}, alituma kitendo: '[{move}]'.",
     "valid_actions": "Ibikorwa ufise ni ibi: {legal_actions}.",
     "round_summary": "{reason} Amascore yakuwe: Mwari 0: '{player_0_chips}'; Mwari 1: '{player_1_chips}'"
   },

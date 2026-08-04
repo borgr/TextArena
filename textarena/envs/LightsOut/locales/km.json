@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "សកម្មភាពត្រូវមានរូបមន្ត [row col] ដែលជួរនិង col គឺជាចំនួនពេញពី 0 ដល់ {max_index} ។",
-    "out_of_range": "Coordinates must be between 0 and {max_index}. You entered [{row},{col}]."
+    "out_of_range": "កូអរដោនេត្រូវតែស្ថិតនៅចន្លោះ 0 និង {max_index}។ អ្នកបានបញ្ចូល [{row},{col}]។"
   },
   "outcome": {
     "win": "ចូររីករាយ! អ្នកបានដំណោះស្រាយប្រភេទបែបណៈនេះក្នុង {moves_used} ចលនា!",

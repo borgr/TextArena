@@ -26,7 +26,7 @@
     "you_bomb_lost": "لقد نقلت قطعتك من {source} إلى {dest}. القطعة المهاجمة كانت {attacking_rank} والقطعة الهدف كانت {target_rank}.由于 المهاجم ليس منقلاً ، خسرت المعركة.",
     "opponent_bomb_won": "اللاعب {player_id} قد نقل قطعة من {source} إلى {dest}. القطعة المهاجمة كانت {attacking_rank} والقطعة الهدف كانت {target_rank}.由于 المهاجم ليس منقلاً ، فازت في المعركة.",
     "you_spy_won": "لقد نقلت قطعتك من {source} إلى {dest}. القطعة المهاجمة كانت {attacking_rank} والقطعة الهدف كانت {target_rank}.由于 المهاجم جاسوس والهدف هو مارشال ، فازت في المعركة.",
-    "opponent_spy_lost": "Player {player_id} has moved a piece from {source} to {dest}. The attacking piece was {attacking_rank} and the destination piece was {target_rank}. As the attacker is a spy and the destination is a marshall, you lost the battle.",
+    "opponent_spy_lost": "اللاعب {player_id} قد حرك قطعة من {source} إلى {dest}. القطعة المهاجمة كانت {attacking_rank} والقطعة المستهدفة كانت {target_rank}. بما أن المهاجم جاسوس والمستهدف هو المشير، فقد خسرت المعركة.",
     "you_higher_won": "لقد نقلت قطعتك من {source} إلى {dest}. القطعة المهاجمة كانت {attacking_rank} والقطعة الهدف كانت {target_rank}.由于 المهاجم رتبة أعلى من الهدف ، فازت في المعركة.",
     "opponent_higher_lost": "اللاعب {player_id} قد نقل قطعة من {source} إلى {dest}. القطعة المهاجمة كانت {attacking_rank} والقطعة الهدف كانت {target_rank}.由于 المهاجم رتبة أعلى من الهدف ، خسرت المعركة.",
     "you_lower_lost": "لقد نقلت قطعتك من {source} إلى {dest}. القطعة المهاجمة كانت {attacking_rank} والقطعة الهدف كانت {target_rank}.由于 المهاجم رتبة أقل من الهدف ، خسرت المعركة.",

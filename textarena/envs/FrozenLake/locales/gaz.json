@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "Welcome to Frozen Lake!\n\nYou are represented by 'P' on the grid.\nGrid symbols:\n  ' ' = Frozen surface (safe to walk on)\n  'H' = Hole (fall in and lose!)\n  'G' = Goal (reach this to win!)\n  'P' = Your current position\n\nAvailable actions: up, down, left, right (or w, a, s, d)\nType your action as: [up], [down], [left], [right] or [w], [a], [s], [d]\n\nObjective: Navigate from the start (top-left) to the goal (bottom-right) without falling into any holes!\n"
+    "intro": "Ku dhufte lakki qabamu Frozen Lake!\n\nAti bakka 'P' irratti grid irratti waamama.\n Mallattoolee grid:\n  ' ' = Lakki qabamu (salphina irratti deemu)\n  'H' = Hoola (kutee badhaadhu!)\n  'G' = Galii (kun gahuun moo'adhu!)\n  'P' = Bakka kee amma jirtu\n\nHojiin mijeessan: gara olii, gara gaditti, gara bitaafi, gara mirga (ykn w, a, s, d)\nBarreessi hojii kee akkana: [up], [down], [left], [right] ykn [w], [a], [s], [d]\n\nGalii: Gara jalqabaa (gara olii-bitaa) hanga galii (gara gaditti-mirga) tarkaanfachuu hoola kamittuu kuteen!\n"
   },
   "board": {
     "current_board": "Booradii kuusaa:\n\n{board}\n\nDhiheenyaalee argamu: {actions}"
@@ -16,6 +16,6 @@
   "outcome": {
     "win": "Galatoomi! Galma ga'anittu.",
     "fell_in_hole": "Hoolaa keessatti arii! Tamsaasaan itti dhufee. Safaroota kee {pct}% tiin guutuun isaa eegale.",
-    "turn_limit": "You reached the turn limit! Game over. You completed {pct}% of the journey to the goal."
+    "turn_limit": "Safartu kee dhumate! Tapha dhumate. Ka'u gahuuf safartu kee {pct}% xumurate."
   }
 }

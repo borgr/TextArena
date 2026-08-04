@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in JoJoJoin, played on a 5x5 board with cells numbered 0-24.\nOn your turn, place your mark on any empty cell, e.g. '[12]'.\nYOU WIN by getting FOUR of your marks in a row — four consecutive cells horizontally, vertically, or diagonally.\nAs Player {player_id} you are '{symbol}'; your opponent is '{opponent_symbol}'."
+    "intro": "Tui ses Giogadore {player_id} in JoJoJoin, giogadu in una taula 5x5 cun tzellas numeradas 0-24.\nIn su tuo turno, poni sa marca tua in d'una tzella bòida, p.e. '[12]'.\nTU BINCIAS ottenendi BATTORE marca tua in fila — battores tzellas consecutivas orizontalmente, verticalmente o diagonalmente.\nComente Giogadore {player_id} tui ses '{symbol}'; su tuo avversàriu est '{opponent_symbol}'."
   },
   "board": {
     "current_board": "Tavoliere corrente:\n\n{board}\n\nMozos disponibiles: {moves}"
@@ -11,7 +11,7 @@
     "already_occupied": "Sa tzella {cell} est giai ocupada."
   },
   "game_action": {
-    "placed": "Giocatore {player_id} ha posizionato il suo segno ({symbol}) nella cella {cell}."
+    "placed": "Giogadore {player_id} at postu sa marca sua ({symbol}) in sa tzella {cell}."
   },
   "outcome": {
     "win": "Su giogadore {player_id} at bintu!",

@@ -25,7 +25,7 @@
   },
   "board": {
     "drew": "Siz {card} çektiniz:\nIndi siz [swap X Y] ýa-da [discard] etmeli",
-    "took": "You took: {card} from discard pile\nYou must [swap X Y] with it (cannot discard).",
+    "took": "Siz alyndyňyz: {card} ýatyrylýan kartlaryň ýygynyndan\nSiz ony bilen (ýatyryp bolmaz) [swap X Y] ýerleşdirmeli.",
     "peeked": "Siz ({row},{col}) pozisiýasyndan şonuňy gördiňiz: {card}",
     "turn_view": "Sizin eliňiz:\n{hand}\nGoýulýan küý: {discard}\n{options}",
     "none": "Hiç zat ýok."
@@ -67,7 +67,7 @@
     "already_revealed": "Bu kart eýýäm açyldy!"
   },
   "summary": {
-    "full": "Game Over! Player {winner} wins with a score of {score} points!\n\nFinal Scores:\n{scores}",
+    "full": "Oýun Tamam! Oýunçy {winner} {score} utuk bilen ýeňiş gazandy!\n\nJemleýji Utuklar:\n{scores}",
     "line": "Oýnaýjy {pid}: {score} ball"
   },
   "board_str": {

@@ -21,7 +21,7 @@
     "{scores}": "The pre-rendered per-player list of final scores"
   },
   "player_prompt": {
-    "intro": "You are playing Golf (Card Game) - Player {player_id}.\nGoal: Get the lowest total score in this single round. If columns share the same value, they are summed as 0.\nCard Values: A=1, 2-10=face value, J/Q=10, K=0\n\nActions (use exact brackets):\n- '[draw]' - Draw from deck\n- '[take]' - Take from discard pile\n- '[swap X Y]' - Swap drawn card with position X (row) Y (column)\n- '[discard]' - Discard the drawn card\n"
+    "intro": "Woreyɛ Golf (Akwaduo mu) - Odwumayɛni {player_id}.\nBotaeɛ: Nyaa akontabuo ketewa wɔ round yi mu. Sɛ kɔlɔm no kyerɛ sɛnea ɛbɛyɛ a, wɔbɛtumi asi 0.\nKɔpɛ Mũ: A=1, 2-10=face value, J/Q=10, K=0\n\nNsɛm a wobɛyɛ (fa bracket a ɛwɔ mu no): \n- '[draw]' - Draw from deck\n- '[take]' - Take from discard pile\n- '[swap X Y]' - Swap drawn card with position X (row) Y (column)\n- '[discard]' - Discard the drawn card\n"
   },
   "board": {
     "drew": "Woduu: {card}\nNia wɔ hɔ sɛ wotumi [swap X Y] anaa [discard] no.",
@@ -48,15 +48,15 @@
   "message": {
     "deck_empty": "Agodi no ba awiei ntɛm ara.",
     "knocked": "Ɔbɔfo {pid} a wɔato no! Ogyinafoɔ biara nya ɔfã biako.",
-    "final_round": "Player {pid} {reason}! Each other player gets one more turn."
+    "final_round": "Odwumayɛni {pid} {reason}! Odwumayɛni biara bɛnya round baako."
   },
   "reason": {
-    "all_revealed": "has all cards revealed"
+    "all_revealed": "wɔahyɛ kɔpɛ no nyinaa"
   },
   "invalid": {
     "wrong_action": "Fa bracketed action baako pɛ: [draw], [take], [swap X Y], [discard], [knock], anaa [peek X Y]",
     "discard_empty": "Nneɛma a wɔtow gu no nni hɔ!",
-    "must_draw_first": "You must first [draw], [take], [knock], or [peek X Y]",
+    "must_draw_first": "Wobɛyɛ [draw], [take], [knock], anaa [peek X Y] afei",
     "cannot_discard_taken": "Wuntumi ntwe kaade a wɔayi afi nea wɔde ato hɔ no mu. Ɛsɛ sɛ wosesa bi.",
     "have_drawn_card": "Woduu card. Wopɛ sɛ wotumi [swap X Y] anaa [discard] no.",
     "need_drawn_swap": "Wuhia nkrataa a wɔatwa ato hɔ de asesa.",
@@ -67,13 +67,13 @@
     "already_revealed": "Wɔayi saa agyiraehyɛde no adi dedaw!"
   },
   "summary": {
-    "full": "Game Over! Ɔdanfo {winner} di nkonim wɔ score a ɛyɛ {score} points!\n\nFinal Scores:\n{scores}",
+    "full": "Akwaduo no awieeɛ! Odwumayɛni {winner} di nkunim a ɔwɔ akontabuo {score}!\n\nAkontabuo a ɛwɔ awieeɛ:\n{scores}",
     "line": "Ɔdanfo {pid}: {score} points\n"
   },
   "board_str": {
     "title": "=== GOLF AGUAMAN===",
     "discard": "Ɔbo a wɔtow gu: {card}",
     "knocked": "Ɔpanyin no {pid} ato pon mu!",
-    "player_header": "Player {pid} (Score: {score}):"
+    "player_header": "Odwumayɛni {pid} (Akontabuo: {score}):"
   }
 }

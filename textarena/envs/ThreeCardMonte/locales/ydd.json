@@ -11,7 +11,7 @@
     "{ball_pos}": "The cup index the ball is under"
   },
   "player_prompt": {
-    "intro": "Track the hidden ball 'X' while the cups are shuffled.\nAfter shuffling, guess its location with `[k]`."
+    "intro": "Khob im aroys di bal 'X', vos di kupes vern gemisht.\nNokh dem shufeln, rikht im zayn ort mit `[k]`."
   },
   "game_message": {
     "ball_starts": "פּילקע סטאַרץ: {line}",
@@ -21,7 +21,7 @@
     "reveal": "(אנטפלעקן: פּילקע אונטער {ball_pos})"
   },
   "invalid_move": {
-    "wrong_format": "Bad action. Use `[k]`.",
+    "wrong_format": "Shlekhte aktsye. Nutzt `[k]`.",
     "out_of_range": "אינדעקס אויס פון קייט 0-{max_index}."
   },
   "outcome": {

@@ -10,7 +10,7 @@
     "{to}": "The destination coordinate of a move, such as b3"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in game of LinesOfAction.\nYour pieces are '{side}', opponent pieces are '{other}'.\nMove format: `[b1b3]` (from-coord to-coord). A legal move travels horizontally, vertically, or diagonally a number of squares equal to the total pieces (any colour) in that line. You may jump over your own pieces, but not opponent pieces; landing on an opponent captures it.  Win when all your pieces are 8-neighbour connected."
+    "intro": "Ove ule ndi Muthandi {player_id} mu nthanda ya LinesOfAction.\nMbilu zove ni '{side}', mbilu za muthandi mwingine ni '{other}'.\nMfano wa kusokela: `[b1b3]` (kutoka-mwendo kuenda-mwendo). Sokela ya kufaa inasafiri wima, mlalo, au diagonal kwa idadi ya miraba inayolingana na jumla ya mbilu (ranghi yoyote) kwenye mstari huo. Ungaweza kupita juu ya mbilu zako, lakini si mbilu za muthandi mwingine; kutua kwenye muthandi mwingine kumkamata.  Ushinde wakati mbilu zako zote zimeunganishwa na majirani 8."
   },
   "board": {
     "current_board": "Board:\n\n{board}"
@@ -26,10 +26,10 @@
   },
   "game_action": {
     "moved": "Mwene {player_id} kala{from} -> {to}",
-    "captured_suffix": "Player {player_id} moved {from} -> {to} capturing an enemy."
+    "captured_suffix": "Muthandi {player_id} asokela {from} -> {to} akakamata muthandi mwingine."
   },
   "outcome": {
-    "win": "All pieces connected.",
+    "win": "Mbilu zote zimeunganishwa.",
     "draw_no_capture": "Wa kuata 60 koloseteko, pole ka yulile.",
     "draw_repetition": "Olonjanja vitatu."
   }

@@ -24,14 +24,14 @@
     "intro": "Te se Giugador {player_id}, che giughet {num_rounds} turn de Iterated Ultimatum Game.\nTe gh'heet ${pool} per spartì in del turn tra te e Giugador {other_id}.\n\nPropositor:\n  - Fà l'offerta: [Offer: $X] (0 <= X <= pool)\n  - Se l'è accettada → Te ciapet $(pool - X), l'alter giugador el ciapa $X\n  - Se l'è refudada → Tucc du giughet $0\n  - Esempi: [Offer: $3]  o  'Me par che l'è giust. [Offer: $5]'\n\nRisponditor:\n  - Decid sull'offerta con [Accept] o [Reject]\n  - Esempi: 'Al par che l'è ragionevol. [Accept]'\n            'L'è tropp ingiust. [Reject]'\n"
   },
   "round": {
-    "begins": "--- Round {round_number} begins! ---\nPlayer {proposer_id} is the proposer, Player {responder_id} is the responder.",
+    "begins": "--- El turn {round_number} el comincia! ---\nEl Giugador {proposer_id} l'è el propositor, el Giugador {responder_id} l'è el risponditor.",
     "offer": "Turn {round_number}: Giugador {proposer_id} el offriss ${offer} a Giugador {responder_id} (tajan ${keep}).",
     "accepted": "Giugador {responder_id} l'ha accettada! Turn {round_number} guadagn: Giugador {proposer_id} +${proposer_gain}, Giugador {responder_id} +${responder_gain}. Noeuv totaj: Giugador 0: ${total_0}, Giugador 1: ${total_1}.",
     "rejected": "Giugador {responder_id} l'ha refudada l'offerta! Turn {round_number} guadagn: Tucc du giughet +$0. Totaj resten: Giugador 0: ${total_0}, Giugador 1: ${total_1}."
   },
   "invalid_move": {
     "no_offer_format": "L'offerent al gh'ha de fà l'offerta dopend el formatt [Offer: $X].",
-    "bad_integer": "Offerta quantità deve essere un numero intero valido.",
+    "bad_integer": "La quantità de l'offerta la gh'ha de vess un numer integer valid.",
     "out_of_range": "L'oferta la dev vess intra $0 e ${pool}.",
     "no_current_offer": "N'offert atual per rispònd.",
     "accept_or_reject": "La risposta la gh'ha de [Accept] o [Reject] l'offerta."

@@ -28,7 +28,7 @@
     "you_spy_won": "لقد نقلت قطعتك من {source} إلى {dest}. القطعة المهاجمة كانت {attacking_rank} والقطعة الهدف كانت {target_rank}.由于 المهاجم هو جاسوس والهدف هو مارشال ، فازت في المعركة.",
     "opponent_spy_lost": "اللاعب {player_id} قد نقل قطعة من {source} إلى {dest}. القطعة المهاجمة كانت {attacking_rank} والقطعة الهدف كانت {target_rank}.由于 المهاجم هو جاسوس والهدف هو مارشال ، خسرت المعركة.",
     "you_higher_won": "لقد نقلت قطعتك من {source} إلى {dest}. القطعة المهاجمة كانت {attacking_rank} والقطعة الهدف كانت {target_rank}.由于 المهاجم هو رتبة أعلى من الهدف ، فازت في المعركة.",
-    "opponent_higher_lost": "Player {player_id} has moved a piece from {source} to {dest}. The attacking piece was {attacking_rank} and the destination piece was {target_rank}. As the attacker is a higher rank than the destination, you lost the battle.",
+    "opponent_higher_lost": "اللاعب {player_id} نقل قطعة من {source} إلى {dest}. القطعة المهاجمة كانت {attacking_rank} والقطعة في الوجهة كانت {target_rank}. بما أن المهاجم رتبة أعلى من الوجهة، خسرت المعركة.",
     "you_lower_lost": "لقد نقلت قطعتك من {source} إلى {dest}. القطعة المهاجمة كانت {attacking_rank} والقطعة الهدف كانت {target_rank}.由于 المهاجم هو رتبة أقل من الهدف ، خسرت المعركة.",
     "opponent_lower_won": "اللاعب {player_id} قد نقل قطعة من {source} إلى {dest}. القطعة المهاجمة كانت {attacking_rank} والقطعة الهدف كانت {target_rank}.由于 المهاجم هو رتبة أقل من الهدف ، فازت في المعركة."
   },

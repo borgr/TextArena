@@ -21,11 +21,11 @@
     "invalid_play": "O karti tɛ se ka kɛ."
   },
   "game_action": {
-    "played": "Player {player_id} played {card}."
+    "played": "Jèwè {player_id} jɛnɛ {card}."
   },
   "trick": {
     "won": "Jiginni {winner_id} bɛ sɔrɔ ni a ye {card} kɛ.",
-    "won_learning": "Player {winner_id} wins the trick with {card} and takes the face-up card."
+    "won_learning": "Jèwè {winner_id} ye kɔlɔba {card} kɛ, kɔlɔba kɛlɛ ka kɛlɛw ye."
   },
   "phase": {
     "learning_complete": "Jate bɛ ban. Kalan labanna - kalan tɔ bɛɛ ye se sɔrɔli kɛ ko kura ye."
@@ -71,6 +71,6 @@
     "player_line": "{observation}\nJokori {player_id}: {scoring} kɔlɔsi ({tricks} jɛma), {hand_size} karti kɔnɔ"
   },
   "outcome": {
-    "summary": "Learning phase - Player 0: {l0}, Player 1: {l1}. Playing phase - Player 0: {p0}, Player 1: {p1}. Player {winner_id} wins with {winner_tricks} scoring tricks!"
+    "summary": "Kalan sigi - Jwé 0: {l0}, Jwé 1: {l1}. Kalan boli - Jwé 0: {p0}, Jwé 1: {p1}. Jwé {winner_id} ye saman {winner_tricks} kè dabô!"
   }
 }

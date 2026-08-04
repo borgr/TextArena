@@ -7,13 +7,13 @@
   },
   "invalid_move": {
     "wrong_format": "Kee valabel Schrëttformat fonnt. Benotzt \"[pile quantity]\".",
-    "correct_format_wrong_fields": "Player {player_id}, Invalid action. Column {col} is out of bounds.",
+    "correct_format_wrong_fields": "Spiller {player_id}, Ongülteg Aktioun. Spalte {col} ass baussent den Grenzen.",
     "out_of_range": "Pile Index {pile_index} ass ausserhalb vum Beräich.",
     "non_positive": "Muss mindestens 1 Objet ewechhuelen.",
-    "exceeds_pile": "Cannot remove {quantity} from pile {pile_index} (only {pile_count} left)."
+    "exceeds_pile": "Kann net {quantity} aus Stapel {pile_index} entfernen (nëmmen {pile_count} Rescht)."
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "Spiller {player_id} huet [{pile_index} {quantity}] gespillt an {quantity} Objet(en) aus Stapel {pile_index} entfernt."
   },
   "outcome": {
     "win": "De Spiller {player_id} huet de leschte Objet ((s)) geholl!"

@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "شێوەی جوڵەی چالاک نەدۆزرا. بەکارھێنە [a1b2], بە نموونە [b2c3].",
-    "illegal": "Move [{move}] is illegal."
+    "illegal": "جوڵەی [{move}] نایاسایییە."
   },
   "game_action": {
     "moved": "یاریزان {player_id} جووڵەی کرد {move}."

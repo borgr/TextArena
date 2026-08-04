@@ -21,12 +21,12 @@
     "{total}": "Each player's tied final total (a number)"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id}, playing {num_rounds} rounds of Iterated Ultimatum Game.\nYou have ${pool} to split this round between yourself and Player {other_id}.\n\nProposer:\n  - Make an offer: [Offer: $X] (0 <= X <= pool)\n  - If accepted → You get $(pool - X), other player gets $X\n  - If rejected → Both get $0\n  - Example: [Offer: $3]  or  'I think this is fair. [Offer: $5]'\n\nResponder:\n  - Decide on the offer with either [Accept] or [Reject]\n  - Example: 'That seems reasonable. [Accept]'\n            'Too unfair. [Reject]'\n"
+    "intro": "Ko koe te Kaitākaro {player_id}, e tākaro ana i te {num_rounds} raundi o te kēmu Iterated Ultimatum.\nKei a koe ${pool} hei wehewehe i tēnei raundi i waenganui i a koe me te Kaitākaro {other_id}.\n\nKaitākaro e tuku ana:\n  - Tuku he tāpae: [Offer: $X] (0 <= X <= pool)\n  - Ki te whakaaetia → Ka whiwhi koe i $(pool - X), ka whiwhi te kaitākaro kē atu i $X\n  - Ki te whakakore → Ka whiwhi kōrua i $0\n  - Tauira: [Offer: $3]  mai,  'E whakaaro ana au he tika tēnei. [Offer: $5]'\n\nKaitākaro e whakautu ana:\n  - Whakatau te tāpae ki te [Accept] mai, [Reject] rānei\n  - Tauira: 'E tika ana tēnei. [Accept]'\n            'He kore tika rawa. [Reject]'\n"
   },
   "round": {
-    "begins": "--- Round {round_number} begins! ---\nPlayer {proposer_id} is the proposer, Player {responder_id} is the responder.",
+    "begins": "--- Kua tīmata te raundi {round_number}! ---\nKo te Kaitākaro {proposer_id} te kaitākaro e tuku ana, ko te Kaitākaro {responder_id} te kaitākaro e whakautu ana.",
     "offer": "Raunga {round_number}: Kaitakaro {proposer_id} e tukua ana ${offer} ki te Kaitakaro {responder_id} (e pupuri ana ${keep}).",
-    "accepted": "Player {responder_id} accepted! Round {round_number} gains: Player {proposer_id} +${proposer_gain}, Player {responder_id} +${responder_gain}. New totals: Player 0: ${total_0}, Player 1: ${total_1}.",
+    "accepted": "I whakaae te kaitākaro {responder_id}! Te rauna {round_number} ka piki: Kaitākaro {proposer_id} +${proposer_gain}, Kaitākaro {responder_id} +${responder_gain}. Ngā tahua hou: Kaitākaro 0: ${total_0}, Kaitākaro 1: ${total_1}.",
     "rejected": "Kaitakaro {responder_id} kua whakakore te tukunga! Raunga {round_number} huanga: Ko raua kaitakaro +$0. Huanga tu tonu: Kaitakaro 0: ${total_0}, Kaitakaro 1: ${total_1}."
   },
   "invalid_move": {
@@ -37,7 +37,7 @@
     "accept_or_reject": "Kaitakaro whakaae me whakakore: Me whakaae ranei [Accept] me whakakore [Reject] te tukunga."
   },
   "outcome": {
-    "win": "Player {winner} won with ${winner_total} total vs Player {loser}'s ${loser_total}.",
+    "win": "Ko te Kaitākaro {winner} te kaitākaro i wini i runga i ${winner_total} i te mutunga, i karo i te Kaitākaro {loser} i runga i ${loser_total}.",
     "draw": "Ka mutu te takaro o nga kaitakaro e rua me ${total} katoa."
   }
 }

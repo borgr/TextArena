@@ -13,7 +13,7 @@
     "you_hit": "हिट! आपने {coord} पर एक जहाज को मारा है! आपका अद्यतन बोर्ड:\n{view}",
     "opp_hit": "विरोधी आपके जहाज को {coord} पर मारा है! आपका अद्यतन बोर्ड:\n{view}",
     "you_miss": "मिस! आपने {coord} पर जहाज को चूक गया है! आपका अद्यतन बोर्ड:\n{view}",
-    "opp_miss": "Opponent missed your ship at {coord}! Your updated board:\n{view}"
+    "opp_miss": "प्रतिद्वंद्वी ने आपके जहाज को {coord} पर मिस कर दिया! आपका अद्यतन बोर्ड:\n{view}"
   },
   "outcome": {
     "win": "खेलाड़ी {player_id} अपन विरोधीक सब जहाजकेँ डूबा देने अछि!"

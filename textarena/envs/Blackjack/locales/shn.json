@@ -1,18 +1,18 @@
 {
   "player_prompt": {
-    "intro": "You are playing Blackjack against the dealer.\nYour goal is to get as close to 21 as possible without going over.\nOn your turn, choose '[Hit]' to draw another card or '[Stand]' to hold.\nJ/Q/K = 10 points; A = 11 or 1, whichever is better.\n"
+    "intro": "တႄႇတင်ႈပဵၼ်တိုဝ်ႉတၢင်းတေႃႇတိုဝ်ႉတၢင်း။\nပဵၼ်လူင်ႉလႅၼ်ႇ 21 ဢၼ်ၼိုင်ႈ။\nပေႃးဝႃႈၸဝ်ႈၵဝ်ႇတိုၵ်ႉၶိုၼ်ႈၼႆႉ '[Hit]' ဢမ်ႇၼၼ် '[Stand]'။\nJ/Q/K = 10 ၵုင်ႇ; A = 11 ဢမ်ႇၼၼ် 1၊ ဢၼ်ၸၢင်ႈၶႅမ်ႉသေပိူၼ်ႈ။\n"
   },
   "board": {
-    "current_state": "Hand {hand_number}/{num_hands}\nYour hand: {player_hand} (Score: {score})\nDealer shows: {dealer_card}"
+    "current_state": "မိုဝ်း {hand_number}/{num_hands}\nမိုဝ်းၸဝ်ႈၵဝ်ႇ: {player_hand} (ၵုင်ႇ: {score})\nတိုဝ်ႉတၢင်းၼႄ: {dealer_card}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action. Use '[Hit]' or '[Stand]'."
+    "wrong_format": "လၢႆးငၢႆႈဢမ်ႇမၢၼ်ႇ။ '[Hit]' ဢမ်ႇၼၼ် '[Stand]' ဢဝ်ၸႂ်ႉ။"
   },
   "game_message": {
-    "hand_result": "Hand {hand_number}: you {outcome}. Your final {player_score}, Dealer {dealer_score}.",
-    "all_complete": "=== All {num_hands} hands complete ===\nWins: {wins}, Losses: {losses}, Draws: {draws}\n"
+    "hand_result": "မိုဝ်း {hand_number}: ၸဝ်ႈၵဝ်ႇ {outcome}။ ၵုင်ႇၸဝ်ႈၵဝ်ႇ {player_score}၊ ၵုင်ႇတိုဝ်ႉတၢင်း {dealer_score}။",
+    "all_complete": "=== မိုဝ်း {num_hands} ယဝ်ႉတူဝ်ႈ ===\nဢွင်ႇ: {wins}၊ သုမ်း: {losses}၊ ပဵၼ်ၵူၼ်း: {draws}\n"
   },
   "outcome": {
-    "game_over": "The game has concluded. Final scores: Dealer: {losses}, You: {wins}, Draws: {draws}"
+    "game_over": "ၵႃႈၶႅၼ်ႇယဝ်ႉတူဝ်ႈ။ ၵုင်ႇလိုၼ်း: တိုဝ်ႉတၢင်း: {losses}၊ ၸဝ်ႈၵဝ်ႇ: {wins}၊ ပဵၼ်ၵူၼ်း: {draws}"
   }
 }

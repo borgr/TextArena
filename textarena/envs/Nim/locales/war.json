@@ -13,7 +13,7 @@
     "exceeds_pile": "Diri makakakuha han {quantity} tikang ha pile {pile_index} (mayda la {pile_count} natira)."
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "An Player {player_id} nag-kiwa han [{pile_index} {quantity}], nagtanggal han {quantity} nga butang tikang ha pundok {pile_index}."
   },
   "outcome": {
     "win": "An magdudula {player_id} kinuha han kataposan nga butang ((s)!"

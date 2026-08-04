@@ -21,17 +21,17 @@
     "{scores}": "The pre-rendered per-player list of final scores"
   },
   "player_prompt": {
-    "intro": "You are playing Golf (Card Game) - Player {player_id}.\nGoal: Get the lowest total score in this single round. If columns share the same value, they are summed as 0.\nCard Values: A=1, 2-10=face value, J/Q=10, K=0\n\nActions (use exact brackets):\n- '[draw]' - Draw from deck\n- '[take]' - Take from discard pile\n- '[swap X Y]' - Swap drawn card with position X (row) Y (column)\n- '[discard]' - Discard the drawn card\n"
+    "intro": "Oli mukino wa Golf (Omuzanyo gw'Ekadi) - Omuzanyi {player_id}.\nGwe: Funa omuwendo gw'amaanyi asinga wansi mu mwezi guno. Bw'oba ntiisa za kikumi zina muwendo gwe gumu, zisibwa za sifuri.\nMaanyi g'Ekadi: A=1, 2-10=muwendo wa kikumi, J/Q=10, K=0\n\nEmikono (kozesa kawandi za kubaliza):\n- '[draw]' - Kuwa ekadi ku kikwata\n- '[take]' - Kuwa ekadi ku kikwata kya kikomya\n- '[swap X Y]' - Kukyusa ekadi eyawudde na nafasi ya X (mukwata) Y (mukwata wa kikumi)\n- '[discard]' - Kukomya ekadi eyawudde\n"
   },
   "board": {
-    "drew": "You drew: {card}\nNow you must [swap X Y] or [discard] it.",
-    "took": "You took: {card} from discard pile\nYou must [swap X Y] with it (cannot discard).",
+    "drew": "Oyawudde: {card}\nKati wakati ono oteekwa okukozesa '[swap X Y]' oba '[discard]' ekadi eyo.",
+    "took": "Oyawudde: {card} ku kikwata kya kikomya\nOteekwa okukozesa '[swap X Y]' nayo (tokozesa kukomya).",
     "peeked": "Owafulidde ku kifo ({row},{col}): {card}",
     "turn_view": "Lukubo lwange:\n{hand}\nKifo ky'okwawula: {discard}\n{options}",
     "none": "Tewali."
   },
   "options": {
-    "final_turns": "Final turns! Your options: [draw], [take], [peek X Y]",
+    "final_turns": "Mikono ya mwisho! Emikono gyo: [draw], [take], [peek X Y]",
     "draw": "Chaguo lyange: [draw], [take]",
     "must_swap": "Olina: [swap X Y] (tosobola kusuula kaadi okuva mu kasasiro)",
     "swap_or_discard": "Lyawe ku [swap X Y] oba [discard]"
@@ -42,13 +42,13 @@
     "row": "Safu {n}: {cards}"
   },
   "action_desc": {
-    "swapped": "Player {pid} swapped {new} with {old} at position ({row},{col})",
-    "discarded": "Player {pid} discarded {card}"
+    "swapped": "Mchezaji {pid} alibadilisha {new} na {old} katika nafasi ({row},{col})",
+    "discarded": "Mchezaji {pid} alisuula {card}"
   },
   "message": {
     "deck_empty": "Emizannyo gikoma mangu.",
     "knocked": "Omuzannyo {pid} gukubiddwa! Buli muzannya omulala afuna omutendera gumu.",
-    "final_round": "Player {pid} {reason}! Each other player gets one more turn."
+    "final_round": "Mchezaji {pid} {reason}! Kila mchezaji mwingine anapata mzunguko mmoja zaidi."
   },
   "reason": {
     "all_revealed": "kaadi zonna zaabikkulwa?"
@@ -58,9 +58,9 @@
     "discard_empty": "Ekisenge ky'ebintu ebyokebwa tekirina kintu kyonna!",
     "must_draw_first": "Lyawe kwanza ku [draw], [take], [knock], oba [peek X Y]",
     "cannot_discard_taken": "Toyinza kusuula kaadi eyaggibwa mu mpeke y'okuzuulibwa, olina okugiwa omulala.",
-    "have_drawn_card": "You have a drawn card. You must [swap X Y] or [discard] it.",
+    "have_drawn_card": "Oli na kadi eyawudde. Oteekwa okukozesa '[swap X Y]' oba '[discard]' ekadi eyo.",
     "need_drawn_swap": "Weetaaga kaadi ey'ekikopo okukyusakyusa.",
-    "need_drawn_discard": "You need a drawn card to discard.",
+    "need_drawn_discard": "Unahitaji kadi iliyochorwa ili kuisuula.",
     "out_of_bounds": "Kifo kisukka mbuga. Guna safu 1-{max_row}, safu 1-{max_col}",
     "knock_with_card": "Tosobola kukomya kaadi ng'ogikuba, sooka omaliriza okukyusa.",
     "already_knocked": "Waliwo eyawangula dda omupiira guno.",
@@ -72,7 +72,7 @@
   },
   "board_str": {
     "title": "=== GOLF GAME === (Oluganda)",
-    "discard": "Discard pile: {card}",
+    "discard": "Kundi la kadi zilizosutwa: {card}",
     "knocked": "Omuzannyi {pid} akubye!",
     "player_header": "Omuzannyi {pid} (Ekikomo: {score}):"
   }

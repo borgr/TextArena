@@ -12,7 +12,7 @@
     "invalid_position": "Gluasad neo-dhligheach - chan urrainn gluasad chun t-suidheachadh sin."
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
+    "moved": "Tha thu air {pushed} gluasad [{action}].",
     "pushed_prefix": "pushed a ' bhogsa fhad' s"
   },
   "outcome": {

@@ -33,14 +33,14 @@
   },
   "trick": {
     "empty": "No si è ancjemò zuiât cun lis schedis chest truc.",
-    "header": "Current trick:",
+    "header": "Truc atuâl:",
     "line": "  Zogador {player_id}: {card}{trump_mark}"
   },
   "turn": {
     "score_entry": "Zogador {player_id}: {points} pts",
     "trump_info": "La cjarte di Trump: {trump_suit}",
     "trump_info_deck": "Seme di trumf: {trump_suit} | Cartis restantis te cuarte: {deck_count}",
-    "board": "{hand}\n\n{trick}\n\nPunts: {scores}\n{trump_info}\n\nZua une carte usant [play X]"
+    "board": "{hand}\n\n{trick}\n\nPuints: {scores}\n{trump_info}\n\nZûe une cjarte doprant [play X]"
   },
   "invalid_move": {
     "wrong_format": "Al è doprât [play X] dulà che X e je la posizion de schede (1, 2, 3, etc.)",

@@ -1,12 +1,12 @@
 {
   "player_prompt": {
-    "intro": "Welcome to Frozen Lake!\n\nYou are represented by 'P' on the grid.\nGrid symbols:\n  ' ' = Frozen surface (safe to walk on)\n  'H' = Hole (fall in and lose!)\n  'G' = Goal (reach this to win!)\n  'P' = Your current position\n\nAvailable actions: up, down, left, right (or w, a, s, d)\nType your action as: [up], [down], [left], [right] or [w], [a], [s], [d]\n\nObjective: Navigate from the start (top-left) to the goal (bottom-right) without falling into any holes!\n"
+    "intro": "Kamogelo ho Frozen Lake!\n\nO emetšwe ke 'P' hodima grid.\nMabapi a grid:\n  ' ' = Sehlahla se tlhagišitšwego (se bolokegile go tsamaya hodima sona)\n  'H' = Seswalo (wa pšhatla o wela o lahlegetše!)\n  'G' = Morero (fikela mo go fenya!)\n  'P' = Maemo a gago a bjale\n\nMetswako e kgotsofaletšego: godimo, tlase, le leboya, le borwa (goba w, a, s, d)\nNgwala metswako ya gago e le: [up], [down], [left], [right] goba [w], [a], [s], [d]\n\nMorero: Fetša leeto la gago go tloga mathomo (godimo-leboya) go ya morerong (tlase-borwa) ntle le go pšhatla seswalong!\n"
   },
   "board": {
     "current_board": "Boro ya Tokologo:\n\n{board}\n\nTsaro ya Maiteko: {actions}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use [up], [down], [left], [right] or [w], [a], [s], [d].",
+    "wrong_format": "Metswako ya kgomotso e fošagetšego. Šomiša [up], [down], [left], [right] goba [w], [a], [s], [d].",
     "unknown_action": "Tiragalo yeo e sa tsebjego '{action}'. Diriša godimo, tlase, ka go le letshadi, ka letona goba w, a, s, d.",
     "hit_wall": "O ile wa leka go šutha {action} eupša o ile wa thula leboto!"
   },
@@ -15,7 +15,7 @@
   },
   "outcome": {
     "win": "Ke a go lebogiša! O fihleletše pakane ya gago!",
-    "fell_in_hole": "You fell into a hole! Game over. You completed {pct}% of the journey to the goal.",
+    "fell_in_hole": "O ile wa wela sekgopong! Ga e sa le ka metsotswana. O phethile {pct}% ya leeto go ya kwa sekgopong sa maikemišetšo.",
     "turn_limit": "O fihleletše tekanyetšo ya go retologa! Papadi e fedile. O phethile {pct}% ya leeto la go fihla mo o yago gona."
   }
 }

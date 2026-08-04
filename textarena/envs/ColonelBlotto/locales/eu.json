@@ -5,7 +5,7 @@
     "commander_beta": "Beta komandantea, zure aginduetara."
   },
   "game_state": {
-    "header_round": "=== COLONEL BLOTTO - Round {current_round}/{num_rounds} ===\nRounds Won - Commander Alpha: {alpha_score}, Commander Beta: {beta_score}"
+    "header_round": "=== COLONEL BLOTTO - {current_round}/{num_rounds} borroka ===\nIrabazitako borrokak - Komandante Alfa: {alpha_score}, Komandante Beta: {beta_score}"
   },
   "round_battle": {
     "field_result": "\nErronda {current_round}\nAlpha Komandanteak esleitutakoa: {p0_allocations}\nBeta Komandanteak esleitutakoa: {p1_allocations}\n",

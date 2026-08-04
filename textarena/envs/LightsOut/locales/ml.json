@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "ആക്ഷന് [row col] ഫോർമാറ്റിലായിരിക്കണം. അവിടെ വരിയും നിരയും 0 മുതൽ {max_index} വരെയുള്ള സംഖ്യകളാണ്.",
-    "out_of_range": "Coordinates must be between 0 and {max_index}. You entered [{row},{col}]."
+    "out_of_range": "കോർഡിനേറ്റുകൾ 0 മുതൽ {max_index} വരെയായിരിക്കണം. നിങ്ങൾ [{row},{col}] എന്ന് നൽകി."
   },
   "outcome": {
     "win": "അഭിനന്ദനങ്ങൾ! നിങ്ങള് {moves_used} ചലനങ്ങളില് പസിലുകള് പരിഹരിച്ചു!",

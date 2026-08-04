@@ -10,7 +10,7 @@
     "unknown_square": "ნვჱნანთწ კვადრატ.",
     "not_your_piece": "წყარო შენი ნაწარმოები არ არის.",
     "own_piece": "ნვ მჲზვ ეა ჟრანვ ნა ნვდჲგთრვ.",
-    "not_knight": "Not a knight move."
+    "not_knight": "ეს არ არის ცხენის სვლა."
   },
   "game_action": {
     "moved": "მოთამაშე {player_id} გადაიტანა თავისი ფიგურა {frm}-დან {to}-მდე.",

@@ -12,11 +12,11 @@
   },
   "invalid_move": {
     "wrong_format": "Mouvman an dwe nan fòm [row, col].",
-    "illegal": "Move ilegal. move valab: {valid}"
+    "illegal": "Mouv ilegal. Mouv valid: {valid}"
   },
   "game_action": {
     "skipped": "Jwè {pid} te oblije sote vire yo.",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "Jwè {pid} ({piece}) jwe [{r}, {c}] vire {flipped} pyès(yo)"
   },
   "game_message": {
     "must_skip": "Jwè {pid} ({piece}) pa gen okenn deplasman valab epi li dwe sispann."

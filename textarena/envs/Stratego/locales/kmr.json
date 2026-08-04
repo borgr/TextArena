@@ -30,7 +30,7 @@
     "you_higher_won": "Hûn pîsaya xwe ji {source} ber bi {dest} birê. Pîsaya êrîşker {attacking_rank} bû û pîsaya dûrketinê {target_rank} bû. Ji ber ku êrîşker rûteyek bilindtir e ji dûrketinê, hûn şerê bazî kir.",
     "opponent_higher_lost": "Lîstikvan {player_id} pîsek ji {source} ber bi {dest} birê. Pîsaya êrîşker {attacking_rank} bû û pîsaya dûrketinê {target_rank} bû. Ji ber ku êrîşker rûteyek bilindtir e ji dûrketinê, hûn şerê winda kir.",
     "you_lower_lost": "Hûn pîsaya xwe ji {source} ber bi {dest} birê. Pîsaya êrîşker {attacking_rank} bû û pîsaya dûrketinê {target_rank} bû. Ji ber ku êrîşker rûteyek nizmtir e ji dûrketinê, hûn şerê winda kir.",
-    "opponent_lower_won": "Player {player_id} has moved a piece from {source} to {dest}. The attacking piece was {attacking_rank} and the destination piece was {target_rank}. As the attacker is a lower rank than the destination, you won the battle."
+    "opponent_lower_won": "Lîstikvan {player_id} karekî ji {source} biriye ser {dest}. Karekî êrîşkar {attacking_rank} bû û karekî li cihê bû {target_rank}. Ji ber ku êrîşkar rûtbeyeke nizimtir e ji cihê, tu şerê qezenc kirî."
   },
   "outcome": {
     "flag_captured": "Lîstikvan {player_id} ala dijmin girt!",

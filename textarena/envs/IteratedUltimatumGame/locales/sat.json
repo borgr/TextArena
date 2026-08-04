@@ -21,12 +21,12 @@
     "{total}": "Each player's tied final total (a number)"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id}, playing {num_rounds} rounds of Iterated Ultimatum Game.\nYou have ${pool} to split this round between yourself and Player {other_id}.\n\nProposer:\n  - Make an offer: [Offer: $X] (0 <= X <= pool)\n  - If accepted → You get $(pool - X), other player gets $X\n  - If rejected → Both get $0\n  - Example: [Offer: $3]  or  'I think this is fair. [Offer: $5]'\n\nResponder:\n  - Decide on the offer with either [Accept] or [Reject]\n  - Example: 'That seems reasonable. [Accept]'\n            'Too unfair. [Reject]'\n"
+    "intro": "ᱟᱢᱮ ᱠᱷᱮᱞᱚᱸᱰᱤᱭᱟᱹ {player_id} ᱠᱟᱱᱟ, ᱟᱢᱮ {num_rounds} ᱨᱟᱣᱩᱱᱰ ᱨᱮ Iterated Ultimatum Game ᱠᱷᱮᱞ ᱠᱟᱱᱟ.\nᱟᱢᱮ ᱱᱤᱛᱚᱜ ᱨᱟᱣᱩᱱᱰ ᱨᱮ ${pool} ᱠᱟᱹᱣᱰᱤ ᱢᱮᱱᱟᱜ ᱟᱢᱟᱨ ᱟᱨ ᱠᱷᱮᱞᱚᱸᱰᱤᱭᱟᱹ {other_id} ᱛᱟᱦᱮᱸᱱ ᱞᱟᱹᱜᱤᱫ.\n\nᱯᱨᱚᱯᱳᱡᱚᱨ:\n  - ᱢᱤᱫ ᱚᱯᱷᱚᱨ ᱵᱮᱱᱟᱣ: [Offer: $X] (0 <= X <= pool)\n  - ᱡᱩᱛᱩᱜ ᱞᱮᱱᱠᱷᱟᱱ → ᱟᱢᱮ $(pool - X) ᱧᱟᱢᱟ, ᱮᱴᱟᱜ ᱠᱷᱮᱞᱚᱸᱰᱤᱭᱟᱹ $X ᱧᱟᱢᱟ\n  - ᱵᱟᱝ ᱡᱩᱛᱩᱜ ᱞᱮᱱᱠᱷᱟᱱ → ᱵᱟᱱᱟᱨ $0 ᱧᱟᱢᱟ\n  - ᱫᱟᱹᱭᱠᱟᱹ: [Offer: $3]  ᱟᱨᱵᱟ  'ᱤᱧᱟᱹᱭ ᱱᱤᱭᱟᱹ ᱫᱚ ᱱᱤᱨᱚᱲᱟ. [Offer: $5]'\n\nᱨᱤᱥᱯᱚᱱᱰᱚᱨ:\n  - ᱚᱯᱷᱚᱨ ᱨᱮ ᱡᱩᱛᱩᱜ ᱞᱮᱱᱠᱷᱟᱱ [Accept] ᱟᱨᱵᱟ [Reject]\n  - ᱫᱟᱹᱭᱠᱟᱹ: 'ᱱᱤᱭᱟᱹ ᱫᱚ ᱱᱤᱨᱚᱲᱟ. [Accept]'\n            'ᱱᱤᱭᱟᱹ ᱫᱚ ᱵᱟᱝ ᱱᱤᱨᱚᱲᱟ. [Reject]'\n"
   },
   "round": {
     "begins": "--- ᱨᱟᱣᱩᱱᱰ {round_number} ᱮ ᱮᱛᱚᱦᱚᱵ ᱮᱱᱟ! ---\nᱯᱞᱮᱭᱟᱨ {proposer_id} ᱫᱚ ᱯᱨᱚᱯᱚᱡᱚᱨ, ᱯᱞᱮᱭᱟᱨ {responder_id} ᱫᱚ ᱨᱤᱥᱯᱚᱱᱰᱚᱨ.",
     "offer": "ᱨᱟᱣᱩᱱᱰ {round_number}: ᱯᱞᱮᱭᱟᱨ {proposer_id} ᱮ ᱚᱯᱷᱚᱨ ᱮᱱᱟ ${offer} ᱯᱞᱮᱭᱟᱨ {responder_id} ᱥᱟᱶ (ᱟᱡᱟᱜ ${keep} ᱨᱮᱱ ᱨᱟᱠᱷᱤ).",
-    "accepted": "Player {responder_id} accepted! Round {round_number} gains: Player {proposer_id} +${proposer_gain}, Player {responder_id} +${responder_gain}. New totals: Player 0: ${total_0}, Player 1: ${total_1}.",
+    "accepted": "ᱠᱷᱮᱞᱚᱸᱰᱤᱭᱟᱹ {responder_id} ᱡᱩᱛᱩᱜ ᱠᱟᱱᱟ! ᱨᱟᱣᱩᱱᱰ {round_number} ᱨᱮᱱᱟᱜ ᱜᱩᱴ: ᱠᱷᱮᱞᱚᱸᱰᱤᱭᱟᱹ {proposer_id} +${proposer_gain}, ᱠᱷᱮᱞᱚᱸᱰᱤᱭᱟᱹ {responder_id} +${responder_gain}. ᱱᱤᱛᱚᱜ ᱜᱩᱴ: ᱠᱷᱮᱞᱚᱸᱰᱤᱭᱟᱹ 0: ${total_0}, ᱠᱷᱮᱞᱚᱸᱰᱤᱭᱟᱹ 1: ${total_1}.",
     "rejected": "ᱯᱞᱮᱭᱟᱨ {responder_id} ᱮ ᱚᱯᱷᱚᱨ ᱮ ᱵᱟᱝ ᱟᱯᱱᱟᱨ ᱮᱱᱟ! ᱨᱟᱣᱩᱱᱰ {round_number} ᱨᱮᱱ ᱡᱤᱛᱠᱟᱹᱨ: ᱵᱟᱱᱟᱨ ᱯᱞᱮᱭᱟᱨ +$0. ᱡᱚᱛᱚᱱ ᱮ ᱵᱟᱝ ᱵᱚᱫᱚᱞ: ᱯᱞᱮᱭᱟᱨ 0: ${total_0}, ᱯᱞᱮᱭᱟᱨ 1: ${total_1}."
   },
   "invalid_move": {
@@ -37,7 +37,7 @@
     "accept_or_reject": "Responder ᱫᱟ ᱠᱩᱪᱤ ᱦᱚᱸ ᱮ ᱟᱯᱱᱟᱨ ᱦᱩᱭᱩᱜ ᱠᱟᱱᱟ ᱥᱮ ᱮ ᱵᱟᱝ ᱟᱯᱱᱟᱨ ᱦᱩᱭᱩᱜ ᱠᱟᱱᱟ ᱚᱯᱷᱚᱨ ᱮ ᱥᱮᱱᱟᱜ ᱠᱟᱱᱟ [Accept] ᱟᱨ [Reject]."
   },
   "outcome": {
-    "win": "Player {winner} won with ${winner_total} total vs Player {loser}'s ${loser_total}.",
+    "win": "ᱠᱷᱮᱞᱚᱸᱰᱤᱭᱟᱹ {winner} ${winner_total} ᱠᱟᱹᱣᱰᱤ ᱥᱟᱶ ᱡᱤᱛᱠᱟᱹᱨ ᱮᱱᱟ ᱠᱷᱮᱞᱚᱸᱰᱤᱭᱟᱹ {loser} ᱨᱮᱱᱟᱜ ${loser_total} ᱠᱟᱹᱣᱰᱤ ᱥᱟᱶ.",
     "draw": "ᱰᱨᱟᱭ! ᱵᱟᱱᱟᱨ ᱠᱷᱮᱞᱚᱸᱰᱤᱭᱟᱹ ${total} ᱥᱟᱢᱟᱝ ᱛᱮᱠᱚ ᱢᱩᱪᱟᱹᱫ ᱠᱮᱫᱟ ᱾."
   }
 }

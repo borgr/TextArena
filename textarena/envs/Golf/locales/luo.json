@@ -21,7 +21,7 @@
     "{scores}": "The pre-rendered per-player list of final scores"
   },
   "player_prompt": {
-    "intro": "You are playing Golf (Card Game) - Player {player_id}.\nGoal: Get the lowest total score in this single round. If columns share the same value, they are summed as 0.\nCard Values: A=1, 2-10=face value, J/Q=10, K=0\n\nActions (use exact brackets):\n- '[draw]' - Draw from deck\n- '[take]' - Take from discard pile\n- '[swap X Y]' - Swap drawn card with position X (row) Y (column)\n- '[discard]' - Discard the drawn card\n"
+    "intro": "Ine un jo kare Golf (Kadi Game) - Jatek {player_id}.\nDhum: Nyal golo mwalo kwa jumla kwa duond kochielo. Ka simba ose nyinge gi ma wach, gi wach ni jumla 0.\nMaadhi ya Kadi: A=1, 2-10=maadhi ya uso, J/Q=10, K=0\n\nTimbe (tijwo kuot bracket):\n- '[draw]' - Koro kadi kutoka dek\n- '[take]' - Koro kadi kutoka kund dhahabu\n- '[swap X Y]' - Sok kadi koro na nafasi X ( safu) Y ( safu wima)\n- '[discard]' - Kund kadi koro\n"
   },
   "board": {
     "drew": "Umechora: {card}\nSasa unahitaji [swap X Y] au [discard]",
@@ -31,7 +31,7 @@
     "none": "Onge kata achiel."
   },
   "options": {
-    "final_turns": "Final turns! Your options: [draw], [take], [peek X Y]",
+    "final_turns": "Dhum mwalo! Chaguo zako: [draw], [take], [peek X Y]",
     "draw": "Chaguo zako: [draw], [take]",
     "must_swap": "Nyaka: [swap X Y] (ok nyal wer kaadi ma ne osewito)",
     "swap_or_discard": "Unahitaji: [swap X Y] au [discard]"
@@ -43,7 +43,7 @@
   },
   "action_desc": {
     "swapped": "Mwani {pid} alibadilisha {new} na {old} kwenye nafasi ({row},{col})",
-    "discarded": "Player {pid} discarded {card}"
+    "discarded": "Mchezaji {pid} alitupa {card}"
   },
   "message": {
     "deck_empty": "Tugo rumo mapiyo.",
@@ -54,11 +54,11 @@
     "all_revealed": "oseelo kad duto?"
   },
   "invalid": {
-    "wrong_action": "Use exactly ONE bracketed action: [draw], [take], [swap X Y], [discard], [knock], or [peek X Y]",
+    "wrong_action": "Tijwo kutumia timbe moja tu: [draw], [take], [swap X Y], [discard], [knock], au [peek X Y]",
     "discard_empty": "Gik mokwal ok tigo!",
-    "must_draw_first": "You must first [draw], [take], [knock], or [peek X Y]",
+    "must_draw_first": "Ine un tijwo kwanza [draw], [take], [knock], au [peek X Y]",
     "cannot_discard_taken": "Ok inyal wito kad ma ne ogol e pile mar gik miwito oko. Nyaka ilokne machielo.",
-    "have_drawn_card": "You have a drawn card. You must [swap X Y] or [discard] it.",
+    "have_drawn_card": "Ine un kadi koro. Ine un tijwo [swap X Y] au [discard] kadi.",
     "need_drawn_swap": "Dwarore ni ng'ato obed gi kad ma ne ogolo.",
     "need_drawn_discard": "Dwarore ni ibed gi kad ma osegol oko mondo iwe go.",
     "out_of_bounds": "Nafasi imepita mipaka. Tumia safu 1-{max_row}, safu wima 1-{max_col}",
@@ -74,6 +74,6 @@
     "title": "=== Tuke mag GOLF===",
     "discard": "Yore mag golo gik moko: {card}",
     "knocked": "Jaloch {pid} osegoyo dhoot!",
-    "player_header": "Player {pid} (Score: {score}):"
+    "player_header": "Mchezaji {pid} (Alama: {score}):"
   }
 }

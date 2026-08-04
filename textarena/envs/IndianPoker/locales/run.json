@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a game of Indian Poker.\n- 52-card deck; you see only the opponent's card.\n- Ante {ante} chip(s) each round, {max_rounds} round(s) total.\n- Valid moves: '[check]'  |  '[bet X]'  |  '[call]'  |  '[raise X]'  |  '[fold]'  (X is a positive integer <= your chip count.)\n- Highest hidden card wins the pot at showdown.\n"
+    "intro": "Uri umukinnyi {player_id} muri Indian Poker.\n- Deki ya karata 52; ubona karata ya mpanzi wawe gusa.\n- Ante {ante} chip(s) kwa kila mzunguko, {max_rounds} mizunguko yose.\n- Mikino iryo: '[check]'  |  '[bet X]'  |  '[call]'  |  '[raise X]'  |  '[fold]'  (X ni nambari nzima chanya <= umubare w'ibitoki byawe.)\n- Karata y'umwirondoro w'umukinnyi watsinze umwanya w'inyongera.\n"
   },
   "round": {
     "announce": "### Raundi {current_round}/{max_rounds}\nKadi ya mpinzani wako ni: {card}"
@@ -29,8 +29,8 @@
     "showdown_tie": "Showdown tie: bose {card}. Pot split  umwe wese araronka {split} ."
   },
   "outcome": {
-    "p0_wins": "Mchezaji 0 anashinda ({bank0} > {bank1})",
-    "p1_wins": "Mchezaji 1 anashinda ({bank1} > {bank0})",
+    "p0_wins": "Umukinnyi 0 atsinze ({bank0} > {bank1})",
+    "p1_wins": "Umukinnyi 1 atsinze ({bank1} > {bank0})",
     "draw": "Amafishi angana inyuma y'inshuro zose."
   }
 }

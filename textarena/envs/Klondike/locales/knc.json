@@ -16,22 +16,22 @@
     "{cards}": "The cards in a pile as neutral labels, or '--' if empty (never translate)"
   },
   "player_prompt": {
-    "intro": "You are playing Klondike Solitaire. Your goal is to move all cards to the foundation piles.\n\nGame Rules:\n- Foundation piles (F1-F4): Build up from Ace to King in suit\n- Tableau piles (T1-T7): Build down alternating colors (red on black, black on red)\n- Stock: Draw cards to waste pile\n- Waste (W): Top card available for play\n\nCommands:\n- 'draw' - Draw cards from stock to waste\n- 'move <source> <destination> [count]' - Move cards between piles\n  Examples: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count can also be 'all', which will try to move all face-up cards.\n- 'forfeit' - End the game immediately and lock in your current score\n- Pile names: W (waste), F1-F4 (foundations), T1-T7 (tableau)\n\nYou can execute multiple actions in one turn by separating them with commas:\n  Example: 'draw, move W T1, move T2 F1'\n\nOnly Kings can be placed on empty tableau piles.\nActions execute in order - if one fails, the remaining actions are skipped.\nUse 'forfeit' if you believe the game is impossible to win."
+    "intro": "Kəmə tətanja Klondike Solitaire. Kəmə ndolo ndoja kərəwa karta zəga foundation piles.\n\nKəmə kaga:\n- Foundation piles (F1-F4): Kərəwa karta ndoja Ace ndolo King kərəwa suit\n- Tableau piles (T1-T7): Kərəwa karta ndoja alternating colors (red kərəwa black, black kərəwa red)\n- Stock: Kərəwa karta ndoja waste pile\n- Waste (W): Karta ndoja ndolo available kərəwa play\n\nKəmə komandi:\n- 'draw' - Kərəwa karta ndoja stock kərəwa waste\n- 'move <source> <destination> [count]' - Kərəwa karta ndoja piles\n  Misali: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count kətanja 'all', ndoja kətanja kərəwa karta zəga face-up.\n- 'forfeit' - Kəmə ndolo ndoja game ndolo ndolo score\n- Pile names: W (waste), F1-F4 (foundations), T1-T7 (tableau)\n\nKəmə kətanja actions ndolo ndolo turn ndolo separating ndolo commas:\n  Misali: 'draw, move W T1, move T2 F1'\n\nKəmə Kings kətanja kərəwa empty tableau piles.\nActions kətanja ndolo order - ndolo kətanja fails, ndolo actions kətanja skipped.\nKətanja 'forfeit' ndolo kəmə kətanja game ndolo impossible ndolo win."
   },
   "format_error": {
     "no_brackets": "Fasal cidabe kalkal gǝnyi. Cida dǝ suro kurtəyen kara.",
     "no_closing_bracket": "Kǝla awo laa diwo dǝ kalkal gǝnazanyi. Karapka datәgәbe ba ']'",
     "empty_command": "Kәrma banna. Type 'draw' au 'move <source> <destination> [count]'",
     "empty_action": "Cida laa kalkal gǝnyi.",
-    "move_needs_args": "Shi command move də na'a kuru bәla-a məradətəna. Usage: 'move <source> <destination> [count]'",
+    "move_needs_args": "Umarni 'move' yakamata kuwa na tushen da kujulikana. Amfani: 'move <source> <destination> [count]'",
     "count_positive": "Count dǝ kǝla-a au \"all\" lan kara.",
-    "count_invalid": "Kәrma ba wo. Lamba au 'sammaso' faidatin",
+    "count_invalid": "Kəmə count ndolo. Kətanja number ndolo 'all'",
     "unknown_command": "Ko e komanda '{cmd}'. Cine 'draw', 'move <source> <destination> [count]', ko 'forfeit'",
     "wrapped": "Yaɓɓe {n}: {msg}"
   },
   "action_result": {
     "success": "Yaɓɓe {n}: {msg}",
-    "before_failure": "Executed {n} action(s) before failure.",
+    "before_failure": "Ai watar da {n} aiki(s) kafin kasa.",
     "failed": "Yaɓɓe {n} kufewuno: {msg}"
   },
   "move_result": {
@@ -49,7 +49,7 @@
     "waste_to_tableau_bad": "Kәrtuwa karebe gәnyi raksa kәla tableau dә ro yaktin ba",
     "no_face_up": "Karta kǝla-kǝlanzǝn ba ro letәgәnyi.",
     "tableau_to_tableau_ok": "Ɗon {count} kadi e tableau T{src} zuɓɓe T{dst}",
-    "tableau_to_tableau_bad": "Cannot move {count} card(s) from T{src} to T{dst}",
+    "tableau_to_tableau_bad": "Ba za a iya motsa {count} katin(s) daga T{src} zuwa T{dst}",
     "foundation_to_tableau_one_card": "Kәrtu falma basro letin daga cidi ro lejin.",
     "foundation_empty": "Foundation F{src} də bowo.",
     "foundation_to_tableau_ok": "Ɗon kati kadi e foundation F{src} zuɓɓe tableau T{dst}",
@@ -62,7 +62,7 @@
     "turn_limit": "Wuni ko! I ɓe turn ɓe ko ɓe {max_turns}. Score: {score} kadi e foundation."
   },
   "board": {
-    "title": "=== KLONDIKE SOLITAIRE=== [Klondike Solitaire] -a kuru kǝnǝngataye.",
+    "title": "=== KÀNDÌKÌ SÒLÌTÈRÌ ===",
     "turn": "Turn: {turn}/{max_turns}",
     "stock": "Stock: {stock} kartǝwa",
     "waste": "Awowa gǝnatǝna dǝ (W): {waste}",

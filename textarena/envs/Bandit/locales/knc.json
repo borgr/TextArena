@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are in a room with {num_buttons} buttons: {buttons}. Each button is associated with a Bernoulli distribution with a fixed but unknown mean; the means for the buttons could be different.\nFor each button, when you press it, you will get a reward that is sampled from associated distribution.\nYou have {num_turns} time steps and, on each time step, you can choose any button and receive the reward.\nYour goal is to strategically choose buttons at each time step to collect information about their reward distribution, that will let you choose the button with the highest mean reward correctly at the end of {num_turns} turns."
+    "intro": "Káma ɗa kúri wúrú {num_buttons} kúri: {buttons}. Kúri kóló kóló Bernoulli káɗí kóló kóló káɗí wúrú; káɗí kóló kúri kóló káɗí kóló káɗí wúrú.\nKúri kóló, kó tálá kúri, káɗí kóló káɗí wúrú kóló káɗí kóló káɗí.\nKáma {num_turns} wúrú sáká, kó sáká kóló kúri kóló káɗí kóló káɗí wúrú.\nKáɗí kóló kúri kóló káɗí kóló káɗí wúrú kóló káɗí kóló káɗí wúrú kóló káɗí kóló káɗí wúrú {num_turns} sáká."
   },
   "board": {
     "stat_line": "{button}: {reward} (kala {count} ngala)",
@@ -11,7 +11,7 @@
     "invalid_button": "Botonyi ba wo təkkəna."
   },
   "game_action": {
-    "pressed": "You pressed the {button} button and received a reward of {reward}."
+    "pressed": "Káma kóló {button} kúri kóló káɗí wúrú {reward}."
   },
   "game_message": {
     "final_decision": "Kuwayaye ngәla-a awowa gade-gade gozǝ nankaro, kuru faida soye hangalnza lan. Kәmaa kәlanǝmro asutin wa do zauro faidaa wo ro waljin ma dǝwo."

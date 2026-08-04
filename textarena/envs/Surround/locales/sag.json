@@ -10,7 +10,7 @@
     "{groups}": "Neutral ranking data (a list of player-id groups, best to worst); do not translate"
   },
   "player_prompt": {
-    "intro": "{num_players}-Player Surround on a {width}x{height} grid.\nYou are player {player_id}. Valid moves: '[up]' '[down]' '[left]' '[right]' or w/s/a/d.\nObjective: outlive everyone else. Trails are deadly; wall hits kill; head-on crashes kill both."
+    "intro": "{num_players}-Mbeni Surround na ngbanga {width}x{height}.\nMo ye mbeni {player_id}. Matakï gbï: '[up]' '[down]' '[left]' '[right]' ôla w/s/a/d.\nGbïa: kiri so mo na ngbanga ôzo. nzïngö ayeke zo bï; ngbanga î gbëtï zo bï; bïngö nzönî zo bïngö ôzo."
   },
   "board": {
     "current": "Ndokua ti a-ancien: {board}",

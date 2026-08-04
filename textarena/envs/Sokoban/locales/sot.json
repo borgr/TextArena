@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are solving the Sokoban puzzle. You are the player and you need to push all boxes to targets.\n        When you are right next to a box, you can push it by moving in the same direction.\n        You cannot push a box through a wall, and you cannot pull a box.\n        On the board, objects are represented as: \n        - The player (you) appears as 'P' \n        - Walls are represented with '#' \n        - Boxes are marked as 'X' \n        - Empty goals are shown with a 'O'\n        - Boxes on goals are visualized with '√'\n        You can also use [w] for up, [a] for left, [s] for down, and [d] for right.\n        "
+    "intro": "U ntse u rarolla papadi ya Sokoban. U wena ke mofani, mme u hloka ho tshwara dibokisi tsohle ho ea mabapi.\n        Ha u le haufi le bokisi, u ka tshwara bokisi ka ho sepela ka tsela e le ngoe.\n        U ka se tshware bokisi ka ho e tshwara ka mora lebota, mme u ka se e tshware ka morao.\n        Holwane, dintho di emetseha jwalo: \n        - Mofani (wena) o bonahala jwalo ka 'P' \n        - Mabota a emetswe ka '#' \n        - Dibokisi di makwa ka 'X' \n        - Dintlha tse se nang letho di bontshwa ka 'O'\n        - Dibokisi tse mabapi di bonahala ka '√'\n        U ka sebelisa le [w] ho ya hodimo, [a] ho ya ho le letona, [s] ho ya tlas'e, le [d] ho ya ho le letšehali.\n        "
   },
   "board": {
     "current_board": "Boro ya Toka:\n\n{board}\nDitshepele tse Availabe: {moves}"
@@ -12,7 +12,7 @@
     "invalid_position": "Ho falla ho sa nepahalang - ha e khone ho fallela boemong boo."
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
+    "moved": "U {pushed} ile a tsamaea [{action}].",
     "pushed_prefix": "o ile a sututsa lebokose ha nako e ntse e ea"
   },
   "outcome": {

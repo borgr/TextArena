@@ -1,24 +1,24 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} playing a game of Pig Dice.\n\nRules:\n- On your turn, you can either '[roll]' or '[hold]'\n- Roll a 2-6: Add to your turn total\n- Roll a 1: Lose turn total and end turn\n- Hold: Add turn total to your score and end turn\n- First to {winning_score} points wins\n\nWhen it's your turn, you'll see the current scores and turn total.\nRespond with '[roll]' to roll the die or '[hold]' to bank your points."
+    "intro": "አንተ ተጫዋች {player_id} ንብረት ዳይስ ትጫወት አለኻ።\n\nሕግግታት፦\n- በእንተራኻ እዚኣቶም ከም '[roll]' ወይ '[hold]' ትገብር አለኻ።\n- ንብረት 2-6 ክረግጥ: ንእንተራኻ ሙሉእ ኣካፍ ኢለኻ።\n- ንብረት 1 ክረግጥ: ንእንተራኻ ሙሉእ ከስር ኢለኻ እንተራኻ ክትዕዘብ።\n- ኣብራኻ: ንእንተራኻ ሙሉእ ከስርካ ኢለኻ እንተራኻ ክትዕዘብ።\n- ቀዳማይ ክሳብ {winning_score} ነጥብታት ክረግጥ ኢሉ ዕወት።\n\nእንተራኻ እንተራኻ ኣብራኻ ክትረኽበካ ኢለኻ እንተራኻ ሙሉእ ከስርካ ኢለኻ እንተራኻ ክትረኽበካ።\nንእንተራኻ እንተራኻ ኣብራኻ ክትረኽበካ ኢለኻ '[roll]' ወይ '[hold]' ክትገብር ኢለኻ።"
   },
   "invalid_move": {
-    "invalid_action": "Invalid action format. Use '[roll]' or '[hold]'."
+    "invalid_action": "ሕግግታት ስራሕ ክረግጥ ኢሉ ኣይኮነን። '[roll]' ወይ '[hold]' ክትገብር ኢለኻ።"
   },
   "actions": {
-    "player_busted": "Player {player_id} busted, losing {turn_total} points!",
-    "player_hold": "Player {player_id} holds and banks {turn_total} points."
+    "player_busted": "ተጫዋች {player_id} ተሸንፈረ፣ {turn_total} አንድ አሸንፈራ አለወጣለህ።",
+    "player_hold": "ተጫዋች {player_id} ተይዛለህ አንድ አሸንፈራ {turn_total} አንድ አሸንፈራ።"
   },
   "board": {
-    "player": "Player 0: '{score_0}'; Player 1: '{score_1}'",
-    "current_total_scores": "Current Total Scores: {scores}\nYour current turn total is {turn_total}.",
-    "roll_history": "{observation}\nYour roll history for this turn: {roll_history}",
+    "player": "ተጫዋች 0: '{score_0}'; ተጫዋች 1: '{score_1}'",
+    "current_total_scores": "አሁን አንድ አብለካለህ አንድ አሸንፈራ፦ {scores}\nአንተ ጊዜ አንድ አብለካለህ አንድ አሸንፈራ {turn_total}።",
+    "roll_history": "{observation}\nአንተ ጊዜ አንድ አብለካለህ አንድ አሸንፈራ ለማንቆር አለወጣለህ፦ {roll_history}",
     "first_roll": "{observation} እዚ ናይ መጀመርታ ምትንኻፍ እዩ።",
-    "available_actions": "{observation}\nAvailable actions: '[roll]' or '[hold]'"
+    "available_actions": "{observation}\nእንተራኻ ክትረኽበካ ኢለኻ: '[roll]' ወይ '[hold]'"
   },
   "outcome": {
-    "winner_by_turn_limit": "Player {winner_id} won by having a higher score at the turn limit ({scores})",
-    "winner_by_score": "Player {winner_id} won by reaching the target score of {winning_score}!",
+    "winner_by_turn_limit": "ተጫዋች {winner_id} አሸንፈረ አንድ አለወጣለህ አንድ አሸንፈራ አለወጣለህ አንድ አሸንፈራ ({scores})",
+    "winner_by_score": "ተጫዋች {winner_id} አሸንፈረ አንድ አለወጣለህ አንድ አሸንፈራ {winning_score}።",
     "draw": "እቲ ናይ ዙር ገደብ በጺሑ ኩሎም ተጻወቲ ሓደ ዓይነት ነጥቢ ኣለዎም: {scores}"
   }
 }

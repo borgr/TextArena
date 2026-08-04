@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} playing a game of Pig Dice.\n\nRules:\n- On your turn, you can either '[roll]' or '[hold]'\n- Roll a 2-6: Add to your turn total\n- Roll a 1: Lose turn total and end turn\n- Hold: Add turn total to your score and end turn\n- First to {winning_score} points wins\n\nWhen it's your turn, you'll see the current scores and turn total.\nRespond with '[roll]' to roll the die or '[hold]' to bank your points."
+    "intro": "توهان پليئر {player_id} پگ ڊائيس جي گيم کيڏي رهيا آهيو.\n\nقاعدا:\n- توهان جي واري تي، توهان يا '[roll]' يا '[hold]' ڪري سگهو ٿا\n- 2-6 رول ڪريو: توهان جي واري جو مجموعو شامل ڪريو\n- 1 رول ڪريو: توهان جي واري جو مجموعو وڃائي وڃو ۽ واري ختم ڪريو\n- هولڊ: توهان جي اسڪور ۾ واري جو مجموعو شامل ڪريو ۽ واري ختم ڪريو\n- پهريون {winning_score} پوائنٽس کٽيندڙ کٽيندو\n\nجڏهن توهان جي واري هوندي، توهان هاڻوڪي اسڪور ۽ واري جو مجموعو ڏسندو.\n'[roll]' جواب ڏيو ڊائيس رول ڪرڻ لاءِ يا '[hold]' توهان جي پوائنٽس بئنڪ ڪرڻ لاءِ."
   },
   "invalid_move": {
     "invalid_action": "غلط عمل فارميٽ. استعمال ڪريو \"[roll]\" يا \"[hold]\"."

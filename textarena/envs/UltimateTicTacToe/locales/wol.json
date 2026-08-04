@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in **Ultimate Tic Tac Toe**.\nSubmit your move as **[macro  micro]** (two numbers 0-8):\n• *macro*  = which mini-board you play in\n• *micro* = which square inside that mini-board\nExample `[7 8]` ➜ place your mark in mini-board 7, square 8, and\nforce your opponent to play in mini-board 8 next.\n\nYou are `{symbol}`.\n"
+    "intro": "Yaa ngone jàngoro {player_id} ci **Ultimate Tic Tac Toe**.\nBindal sa tànk ci **[macro  micro]** (ñaari lim 0-8):\n• *macro*  = bu nu ngone ci mini-po ci ngay wacci\n• *micro* = bu nu ngone ci róobu koko ci mini-po\nSeetu `[7 8]` ➜ wacci sa mark ci mini-po 7, róobu 8, te\nwar ci sa noonam ngay wacci ci mini-po 8 ci ginaaw.\n\nYaa ngone `{symbol}`.\n"
   },
   "board": {
     "current_board": "Jëfandikukat: {board}"
@@ -18,7 +18,7 @@
     "specific": "micro board {nxt} (ci biir)"
   },
   "game_action": {
-    "played": "Player {player_id} played in micro board {macro_idx}, cell {micro_idx} (row {row}, col {col}). Player {opponent_id} must now play in {nxt_txt}."
+    "played": "Jàngoro {player_id} jàpp ci bu nu ngone jàngoro waññi {macro_idx}, waññi {micro_idx} (rëw {row}, kolon {col}). Jàngoro {opponent_id} jàpp na koo xam ci {nxt_txt}."
   },
   "outcome": {
     "win": "Jëfandikukat {player_id} moo ci jël ab tukki bu mujj.",

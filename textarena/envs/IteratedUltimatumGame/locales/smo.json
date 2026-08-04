@@ -34,7 +34,7 @@
     "bad_integer": "O le aofaiga o loʻo ofoina atu e tatau ona avea ma se numera saʻo.",
     "out_of_range": "O le tauofoga e tatau ona i ai i le va o $0 ma le ${pool}.",
     "no_current_offer": "E leai se ofo o loo iai i le taimi nei e tali atu ai.",
-    "accept_or_reject": "Responder must either [Accept] or [Reject] the offer."
+    "accept_or_reject": "E tatau i le tali ona [Accept] po'o [Reject] le ofo."
   },
   "outcome": {
     "win": "Pila {winner} na manumalo ma ${winner_total} i totonu i le tasi ma Pila {loser} ${loser_total}.",

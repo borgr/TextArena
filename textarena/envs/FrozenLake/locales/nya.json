@@ -6,7 +6,7 @@
     "current_board": "Bodi Lililonse:\n\n{board}\n\nZithunzi Zilizonse: {actions}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use [up], [down], [left], [right] or [w], [a], [s], [d].",
+    "wrong_format": "Mtundikira wa chitendo siwo. Tumia [up], [down], [left], [right] kapena [w], [a], [s], [d].",
     "unknown_action": "Ntchito yosadziwika '{action}'. Gwiritsani ntchito mmwamba, pansi, kumanzere, kumanja kapena w, a, s, d.",
     "hit_wall": "Wakutumiza kuwonjezera {action} koma wakana ndi chipinda!"
   },

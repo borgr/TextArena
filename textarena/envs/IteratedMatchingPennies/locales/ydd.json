@@ -6,7 +6,7 @@
     "wrong_format": "Ungiltiker rukh; bite, shikn '[heads]' oder '[tails]'."
   },
   "message": {
-    "round_match": "Player 0 picked {choice0}; Player 1 picked {choice1}. Match -> Player 0 wins",
+    "round_match": "שפילער 0 האט געוועלט {choice0}; שפילער 1 האט געוועלט {choice1}. מעטש -> שפילער 0 געווינט",
     "round_mismatch": "Shpieler 0 hot gebeyn '{choice0}'; Shpieler 1 hot gebeyn '{choice1}'. Matskh nisht -> Shpieler 1 gvirt."
   },
   "outcome": {

@@ -4,10 +4,10 @@
   },
   "board": {
     "game_board": "שפּיל ברעט: {board}",
-    "valid_moves": "{observation}\nValid moves: {moves}",
+    "valid_moves": "{observation}\nגילטיקע רוקן: {moves}",
     "no_valid_moves_reset": "{observation} קיין גילטיקע שריט - איר וועט אפֿשר מוזן שפּרינגען.",
     "no_valid_moves_step": "{observation} קיין גילטיקע שריט, איר וועט האָבן צו שפּרינגען.",
-    "scores_reset": "{observation}\nCurren Scores - Black: {black_count}, White: {white_count}\n",
+    "scores_reset": "{observation}\nהיינטיקע רעזולטאַטן - שוואַרץ: {black_count}, ווייס: {white_count}\n",
     "scores_step": "{observation}\nPunktn - Shvartser: {black_count}, Vays: {white_count}\n"
   },
   "invalid_move": {
@@ -16,7 +16,7 @@
   },
   "game_action": {
     "skipped": "שפּילער {pid} האָט געדאַרפֿט איבערלאָזן זייער קערט.",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "שפּילער {pid} ({piece}) האָט געשפּילט [{r}, {c}] און געדרייט {flipped} שטיקל(ען)"
   },
   "game_message": {
     "must_skip": "Shpiler {pid} ({piece}) hot keyn giltike zitzn un muz oyskipn."

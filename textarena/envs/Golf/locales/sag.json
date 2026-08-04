@@ -21,11 +21,11 @@
     "{scores}": "The pre-rendered per-player list of final scores"
   },
   "player_prompt": {
-    "intro": "You are playing Golf (Card Game) - Player {player_id}.\nGoal: Get the lowest total score in this single round. If columns share the same value, they are summed as 0.\nCard Values: A=1, 2-10=face value, J/Q=10, K=0\n\nActions (use exact brackets):\n- '[draw]' - Draw from deck\n- '[take]' - Take from discard pile\n- '[swap X Y]' - Swap drawn card with position X (row) Y (column)\n- '[discard]' - Discard the drawn card\n"
+    "intro": "Mo ke na Golf (Koti ti Jeux) - Joueur {player_id}.\nMokonzonzo: Få ndo ti mo ke na score ya basse so mo ke na tour unique. Si colonne e partager valeur mêmé, a e sommer na 0.\nValeur ti Koti: A=1, 2-10=valeur ti figure, J/Q=10, K=0\n\nActions (utiliser crochets exacts):\n- '[draw]' - Tirer na pioche\n- '[take]' - Prendre na pile ti défausse\n- '[swap X Y]' - Échanger carte tirée na position X (ligne) Y (colonne)\n- '[discard]' - Défausser carte tirée\n"
   },
   "board": {
-    "drew": "You drew: {card}\nNow you must [swap X Y] or [discard] it.",
-    "took": "You took: {card} from discard pile\nYou must [swap X Y] with it (cannot discard).",
+    "drew": "Mo ke tirer: {card}\nMo ke doit [swap X Y] ou [discard] li.",
+    "took": "Mo kôsi: {card} na pile ya kôsi\nMo loké na [swap X Y] na yé (mo pêpê kôsi yé).",
     "peeked": "Zɛ na kɔzo kɔlɔ kwa pozisiɔn ({row},{col}): {card}",
     "turn_view": "Kɔlɔ ŋɔ:\n{hand}\nKɔlɔ kɔlɔ: {discard}\n{options}",
     "none": "Mbeni oko pëpe."
@@ -42,26 +42,26 @@
     "row": "Row {n}: {cards}"
   },
   "action_desc": {
-    "swapped": "Player {pid} swapped {new} with {old} at position ({row},{col})",
-    "discarded": "Player {pid} discarded {card}"
+    "swapped": "Atiki {pid} akiri {new} na {old} na ndö ({row},{col})",
+    "discarded": "Joueur {pid} défausser {card}"
   },
   "message": {
     "deck_empty": "A zi yâ ti ndo ni kue awe! Ngia ni ahunzi fade fadeso.",
     "knocked": "Zo ti pikango ye {pid} atï na sese! Mbeni zo oko ayeke kiri ande.",
-    "final_round": "Player {pid} {reason}! Each other player gets one more turn."
+    "final_round": "Atiki {pid} {reason}! Atiki ôko ôko na ndö môko."
   },
   "reason": {
-    "all_revealed": "has all cards revealed"
+    "all_revealed": "e avoir tout cartes révélées"
   },
   "invalid": {
-    "wrong_action": "Use exactly ONE bracketed action: [draw], [take], [swap X Y], [discard], [knock], or [peek X Y]",
+    "wrong_action": "Utiliser exactement UN action entre crochets: [draw], [take], [swap X Y], [discard], [knock], ou [peek X Y]",
     "discard_empty": "A zia mbeni ye na yâ ti gbâ ni pëpe!",
-    "must_draw_first": "You must first [draw], [take], [knock], or [peek X Y]",
+    "must_draw_first": "Mo ke doit d'abord [draw], [take], [knock], ou [peek X Y]",
     "cannot_discard_taken": "Mo lingbi pëpe ti bi mbeni carte so a mû ni na yâ molongo ti acarte, me mo doit ti changé ni.",
     "have_drawn_card": "Zɛ na kɔzo kɔlɔ. Zɛ na kɛ mbɛnɛ [swap X Y] ɛzɛnɛ [discard] ɛzɛnɛ.",
     "need_drawn_swap": "Mo yeke na bezoin ti mbeni carte so a gboto ni awe si mo lingbi ti changé.",
     "need_drawn_discard": "A hunda ti tene mo bi mbeni carte na lê ni.",
-    "out_of_bounds": "Position out of bounds. Use row 1-{max_row}, column 1-{max_col}",
+    "out_of_bounds": "Position hors limites. Utiliser ligne 1-{max_row}, colonne 1-{max_col}",
     "knock_with_card": "Mo lingbi pëpe ti pika yanga na mbeni carte so a gboto ni awe.",
     "already_knocked": "Mbeni zo ahon awe na yâ ti molongo so.",
     "already_revealed": "A fa lege ni awe!"

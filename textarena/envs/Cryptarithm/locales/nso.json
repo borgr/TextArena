@@ -9,10 +9,10 @@
     "{pct}": "Progress as a percentage string, e.g. 50%"
   },
   "player_prompt": {
-    "intro": "Map each letter to a unique digit so the arithmetic holds.\nAssign with `[A 5]`, re-assign anytime.\n"
+    "intro": "Abela lengwalo le leng le le nomoro e tee e ikgethile gore arithmetic e tšwele pele.\nAbela ka `[A 5]`, abela gape neng le neng.\n"
   },
   "invalid_move": {
-    "wrong_format": "Bad action format. Use `[A 5]`.",
+    "wrong_format": "Mohlala wa kgato o mpe. Šomiša `[A 5]`.",
     "letter_not_in_puzzle": "Tlhaka {letter} ga e gona ka gare ga phazele.",
     "digit_used": "Digit {digit} yeo e šetšego e dirišitšwe ke {used_letter}.",
     "leading_zero": "Digit ya mathomo ya lentšu e ka se be 0."

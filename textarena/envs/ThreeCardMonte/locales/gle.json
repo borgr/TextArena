@@ -11,7 +11,7 @@
     "{ball_pos}": "The cup index the ball is under"
   },
   "player_prompt": {
-    "intro": "Track the hidden ball 'X' while the cups are shuffled.\nAfter shuffling, guess its location with `[k]`."
+    "intro": "Léirigh an liathróid 'X' folaithe nuair a bhfuil na cupáin á suaitheadh.\nTar éis suaitheadh, déan buille faoi a suíomh le `[k]`."
   },
   "game_message": {
     "ball_starts": "Tosaíonn an liathróid: {line}",
@@ -21,7 +21,7 @@
     "reveal": "(Fógra: liathróid faoi {ball_pos})"
   },
   "invalid_move": {
-    "wrong_format": "Bad action. Use `[k]`.",
+    "wrong_format": "Gníomh mícheart. Úsáid `[k]`.",
     "out_of_range": "Ídseach lasmuigh den raon 0-{max_index}."
   },
   "outcome": {

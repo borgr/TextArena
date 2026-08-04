@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "Awan ti naballigi a porma ti move. Usaren [a1b2], kas [b2c3].",
-    "illegal": "Move [{move}] is illegal."
+    "illegal": "Ti gimong [{move}] ket ilegal."
   },
   "game_action": {
     "moved": "Ti agay-ayam {player_id} ket immakar iti {move}."

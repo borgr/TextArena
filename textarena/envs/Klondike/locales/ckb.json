@@ -16,7 +16,7 @@
     "{cards}": "The cards in a pile as neutral labels, or '--' if empty (never translate)"
   },
   "player_prompt": {
-    "intro": "You are playing Klondike Solitaire. Your goal is to move all cards to the foundation piles.\n\nGame Rules:\n- Foundation piles (F1-F4): Build up from Ace to King in suit\n- Tableau piles (T1-T7): Build down alternating colors (red on black, black on red)\n- Stock: Draw cards to waste pile\n- Waste (W): Top card available for play\n\nCommands:\n- 'draw' - Draw cards from stock to waste\n- 'move <source> <destination> [count]' - Move cards between piles\n  Examples: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count can also be 'all', which will try to move all face-up cards.\n- 'forfeit' - End the game immediately and lock in your current score\n- Pile names: W (waste), F1-F4 (foundations), T1-T7 (tableau)\n\nYou can execute multiple actions in one turn by separating them with commas:\n  Example: 'draw, move W T1, move T2 F1'\n\nOnly Kings can be placed on empty tableau piles.\nActions execute in order - if one fails, the remaining actions are skipped.\nUse 'forfeit' if you believe the game is impossible to win."
+    "intro": "ئێوە یاریی Klondike Solitaire دەکەن. ئامانجەکەتان گواستنەوەی هەموو کارتەکان بۆ پایلەکانی بناغەیە.\n\nیاساکانی یاری:\n- پایلەکانی بناغە (F1-F4): دروستکردن لە Ace بۆ King بە پێی ڕەنگ\n- پایلەکانی تابلۆ (T1-T7): دروستکردن بە ڕەنگی جێگرەوە (سوور لەسەر ڕەش، ڕەش لەسەر سوور)\n- ستۆک: کێشانی کارتەکان بۆ پایلەی waste\n- وێست (W): کارتی سەرەوە بەردەستە بۆ یاریکردن\n\nفەرمانەکان:\n- 'draw' - کێشانی کارتەکان لە ستۆک بۆ وێست\n- 'move <source> <destination> [count]' - گواستنەوەی کارتەکان لە نێوان پایلەکان\n  نموونەکان: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count دەتوانێت 'all'یش بێت، کە هەوڵ دەدات هەموو کارتە دەموچاوەکان بگوازێتەوە.\n- 'forfeit' - کۆتاییپێهێنانی یارییەکە بە خێرایی و قەفەزکردنی ئەنجامی ئێستاتان\n- ناوەکانی پایلە: W (وێست), F1-F4 (بناغەکان), T1-T7 (تابلۆ)\n\nئێوە دەتوانن چەند کارێک لە یەک خولدا جێبەجێ بکەن بە جیاکردنیان بە کۆمایەکان:\n  نموونە: 'draw, move W T1, move T2 F1'\n\nتەنها پاشاکان دەتوانن لەسەر پایلەی تابلۆی بەتاڵ بەجێبێڵن.\nکارەکان بە ڕێک و پێک جێبەجێ دەکرێن - ئەگەر یەکێکیان سەرکەوتوو نەبێت، کارەکانی دیکە دەپەڕنرێن.\n'forfeit' بەکاربێنن ئەگەر باوەڕتان بێت یارییەکە ناتوانرێت ببرێتەوە."
   },
   "format_error": {
     "no_brackets": "فۆرماتی کارکردن هەڵەیە. دەبێت کاری کردن لە قۆچکەدا بێت.",
@@ -24,8 +24,8 @@
     "empty_command": "فەرمانێکی بەتاڵ. تایپ بکە \"draw\" یان \"move <source> <destination> [count]\".",
     "empty_action": "کرداری بەتاڵ",
     "move_needs_args": "فەرمانى گواستنەوە پێویستی بە سەرچاوەو مەبەست هەیە. بەکارھێنان: 'move <source> <destination> [count]'",
-    "count_positive": "پێویستە ژمارەکە پۆزەتیڤ بێت یان \"هەموو\"",
-    "count_invalid": "ژمارە هەڵەیە. ژمارەیەک یان \"هەموو\" بەکاربهێنە",
+    "count_positive": "ژمارە دەبێ مووەتە یان 'all' بێت",
+    "count_invalid": "ژمارەی نادروستە. ژمارەیەک یان 'all' بەکاربێنن",
     "unknown_command": "فەرمانێ نەناسراو '{cmd}'. بەکارھێنە 'draw', 'move <source> <destination> [count]', یا 'forfeit'",
     "wrapped": "Action {n}: {msg}"
   },

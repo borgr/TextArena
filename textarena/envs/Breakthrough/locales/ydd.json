@@ -4,7 +4,7 @@
   },
   "invalid_move": {
     "wrong_format": "ביטע נוצן בראַקטעד אַלגעברעיקער נאָוטיישאַן ווי [a2a3].",
-    "out_of_bounds": "Move is out of board bounds.",
+    "out_of_bounds": "דער רוק איז אויסער דער ברעט גרענעצן.",
     "illegal": "דאָס מאַך פֿאָלגט נישט די כּללים פֿון דער דורכברוך אָדער איז ניט דיין שטיק."
   },
   "game_action": {

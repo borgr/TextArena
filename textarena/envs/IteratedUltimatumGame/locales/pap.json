@@ -24,10 +24,10 @@
     "intro": "Bo ta Player {player_id}, hungando {num_rounds} rond di Iterated Ultimatum Game.\nBo tin ${pool} pa dividí e ronda aki entre bo mes i Player {other_id}.\n\nProposer:\n  - Hasi un ofer: [Offer: $X] (0 <= X <= pool)\n  - Si ta akseptá → Bo ta haya $(pool - X), otro hungador ta haya $X\n  - Si ta rechazá → Tur dos ta haya $0\n  - Ehèmpel: [Offer: $3]  or  'Mi ta kere ku esaki ta justu. [Offer: $5]'\n\nResponder:\n  - Desidi riba e ofer ku ya [Accept] o [Reject]\n  - Ehèmpel: 'Esaki ta paresé razonabel. [Accept]'\n            'Ta demasi injustu. [Reject]'\n"
   },
   "round": {
-    "begins": "--- Ronda {round_number} ta kuminsá! ---\nPlayer {proposer_id} ta e proposer, Player {responder_id} ta e responder.",
-    "offer": "Ronda {round_number}: Player {proposer_id} ta ofer ${offer} na Player {responder_id} (tin ${keep} pa su mes).\n",
-    "accepted": "Player {responder_id} a akseptá! Ronda {round_number} ganashi: Player {proposer_id} +${proposer_gain}, Player {responder_id} +${responder_gain}. Totalnan nobo: Player 0: ${total_0}, Player 1: ${total_1}.",
-    "rejected": "Player {responder_id} a rechazá e ofer! Ronda {round_number} ganashi: Tur dos hungador +$0. Totalnan ta keda: Player 0: ${total_0}, Player 1: ${total_1}."
+    "begins": "--- Ronda {round_number} ta kuminsá! ---\nHungadó {proposer_id} ta e propone, Hungadó {responder_id} ta e responde.",
+    "offer": "Ronda {round_number}: Hungadó {proposer_id} ta ofresé $ {offer} na Hungadó {responder_id} (keda $ {keep}).",
+    "accepted": "Hungadó {responder_id} a aseptá! Ronda {round_number} ganashi: Hungadó {proposer_id} +$ {proposer_gain}, Hungadó {responder_id} +$ {responder_gain}. Total nobo: Hungadó 0: $ {total_0}, Hungadó 1: $ {total_1}.",
+    "rejected": "Hungadó {responder_id} a rechasá e oferta! Ronda {round_number} ganashi: Tur dos hungadó +$0. Total ta keda: Hungadó 0: $ {total_0}, Hungadó 1: $ {total_1}."
   },
   "invalid_move": {
     "no_offer_format": "E proponente mester hasi un oferta usando e formato [Offer: $X].",
@@ -37,7 +37,7 @@
     "accept_or_reject": "E respondente mester [Accept] òf [Reject] e oferta."
   },
   "outcome": {
-    "win": "Player {winner} a gana cu ${winner_total} total vs Player {loser} su ${loser_total}.",
+    "win": "Hungadó {winner} a gana ku $ {winner_total} total vs Hungadó {loser} su $ {loser_total}.",
     "draw": "Ambos hungadó a kaba ku ${total} total."
   }
 }

@@ -3,7 +3,7 @@
     "intro": "Kai ne Jokkondir {player_id} a wasan Indian Poker.\n- 52-card deck; kai ka ga kallon karta din abokin hamayya.\n- Ante {ante} chip(s) a kowace round, {max_rounds} round(s) gaba daya.\n- Kafa kafa: '[check]'  |  '[bet X]'  |  '[call]'  |  '[raise X]'  |  '[fold]'  (X shi nambari mai kyau <= adadin katin ka.)\n- Mafi girma karta mai boye ya ci pot a lokacin showdown.\n"
   },
   "round": {
-    "announce": "### Round {current_round}/{max_rounds}\nYour opponent's card is: {card}"
+    "announce": "### Dowla {current_round}/{max_rounds}\nKarta opponent maa: {card}"
   },
   "invalid_move": {
     "ambiguous": "Ina jama'a kafa kafa kafa, misali '[check]', '[bet 2]', '[call]', '[raise 3]', ko '[fold]'.",

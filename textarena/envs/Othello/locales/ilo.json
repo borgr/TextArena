@@ -3,7 +3,7 @@
     "intro": "Kayatka Player {player_id} a lumaban iti {colour} ({piece}) iti maysa a paglian iti Othello.\nTi gola mo ket addaan kadagiti adu a piece ti kulit mo iti tablero babaen ti pangungunaan ti paglian.\nIti pagliwatan mo, ilukat mo ti piece a kasla makipagrukong kadagiti maysa wenno adu a piece ti kalaban mo - iti ania man a direksion (horizontal, vertical, wenno diagonal) - a pagbaetan ti baro a piece mo ken maysa kadagiti naipakita a piece mo. Amin a naapukan piece ti kalaban mo ket maiflip iti kulit mo.\nIprovida ti pagliwatan mo iti formato '[row, col]'."
   },
   "board": {
-    "game_board": "Game Board: {board}",
+    "game_board": "Tabla ti Paset:\n{board}",
     "valid_moves": "{observation}\nDagiti marikna a pagliwatan: {moves}",
     "no_valid_moves_reset": "{observation} Awan ti maitutop a tignay - mabalin nga aglabsingka.",
     "no_valid_moves_step": "{observation} Awan ti umiso a tignay  mabalin nga aglabsingka.",
@@ -16,10 +16,10 @@
   },
   "game_action": {
     "skipped": "Masapul a saan nga agbuya ti player {pid} iti turona.",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "Ti Player {pid} ({piece}) nagay-ayam [{r}, {c}] a mangbaliktad {flipped} piraso"
   },
   "game_message": {
-    "must_skip": "Player {pid} ({piece}) has no valid moves and must skip."
+    "must_skip": "Ti Player {pid} ({piece}) awan mabalin a tukadna ken nasken a lumakbay."
   },
   "outcome": {
     "black_wins": "Mangabak ti nangisit {black_count}-{white_count}.",

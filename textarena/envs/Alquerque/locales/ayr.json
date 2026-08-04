@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({piece}). Opponent is ({opp}).\nSubmit moves as '[a2 a3]' (from → to).\n- A normal move is one forward step to an adjacent empty vertex.\n- A capture is a jump over an adjacent enemy piece landing on the empty node beyond.\nEach capture yields {score_per_capture} points.\nGame ends after {max_moves} moves or when a player has no legal move."
+    "intro": "Jumaxa Player {player_id} ({piece}).  Opponentewanxa ({opp}).\nK'utxi qillqani '[a2 a3]' (k'uchitu → k'uchituru).\n- Mayni k'utxi mayni k'uchituruw t'axsna k'uchituruw jikxatasi.\n- K'utxi q'ara k'uchituruw jikxatasinxa lup'i k'uchituruw jikxatasina.\nK'ara k'utxi {score_per_capture} puntos lurt'ani.\nK'utxi p'unchaynxa {max_moves} k'utxi p'unchaynxa utjiwa k'utxi jikxatasina."
   },
   "board": {
     "current_board": "Chhuxu #{move_count}\n\n{board}"

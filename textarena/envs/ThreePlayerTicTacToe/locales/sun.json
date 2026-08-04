@@ -17,7 +17,7 @@
     "current_board": "Papan Saiki:\n\n{board}\n\nLangkah nu Tersedia: {moves}"
   },
   "invalid_move": {
-    "wrong_format": "Format move teu valid. Paké \"[cell]\" di mana sél nyaéta 0-{max_cell}.",
+    "wrong_format": "Format gerak salah. Paké '[cell]' kalawan sel 0-{max_cell}.",
     "out_of_range": "Nomer sél anu teu valid: {cell}. Kudu antara 0 jeung {max_cell}.",
     "already_occupied": "Sél {cell} geus aya nu boga.",
     "made_invalid": "Pamaén {player_id} nyieun move anu teu sah."

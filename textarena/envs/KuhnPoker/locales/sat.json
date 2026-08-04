@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a {max_rounds} round game of Kuhn Poker.\nGame Rules:\n- Kuhn Poker uses a 3-card deck with J, Q, K (J lowest, K highest)\n- Each player antes {ante} chip and receives 1 card each round (note that the cards are dealt without replacement, so you cannot have the same card as your opponent).\n- Game continues for {max_rounds} rounds\n- The player with the most chips after all rounds wins\nAction Rules:\n- '[check]': Pass without betting (only if no bet is on the table)\n- '[bet]': Add 1 chip to the pot (only if no bet is on the table)\n- '[call]': Match an opponent's bet by adding 1 chip to the pot\n- '[fold]': Surrender your hand and let your opponent win the pot"
+    "intro": "Ami Player {player_id} aakar {max_rounds} round game Kuhn Poker re.\nGame niyam:\n- Kuhn Poker 3-card deck J, Q, K (J sabse niche, K sabse upar) ka use kare\n- Pratyek player {ante} chip ante kare aur pratyek round 1 card paye (note ki card bina pratisthapana ke deal kiye jaye, isliye aapke paas aapke pratidwandi ki tarah ek hi card nahi ho sakta).\n- Game {max_rounds} round tak chalta rahe\n- Sabse adhik chip wale player sab round ke baad jeet jaye\nKarya niyam:\n- '[check]': Bina bet ke pass kare (keval yadi table par koi bet nahi hai)\n- '[bet]': Pot mein 1 chip jode (keval yadi table par koi bet nahi hai)\n- '[call]': Pratidwandi ki bet ka match kare aur pot mein 1 chip jode\n- '[fold]': Apna haath chhod de aur pratidwandi ko pot jeetne dein"
   },
   "init_round": {
     "round_start": "### {current_round} ᱨᱟᱣᱱᱰ ᱮᱦᱚᱵ ᱠᱟᱛᱮ {max_rounds} ᱨᱟᱣᱱᱰ ᱨᱮ. ᱟᱢᱟᱜ ᱠᱟᱨᱰ ᱫᱚ: '{player_card}'",
@@ -11,12 +11,12 @@
     "not_legal": "ᱠᱟᱹᱢᱤ {legal_actions} ᱦᱩᱭᱩᱜ ᱞᱟᱹᱠᱛᱤ ᱾"
   },
   "action": {
-    "submit_move": "Player {player_id}, submitted move: '[{move}]'.",
+    "submit_move": "Player {player_id}, ne karya submit kiya: '[{move}]'.",
     "valid_actions": "ᱟᱢᱟᱜ ᱟᱞᱜᱟ ᱠᱟᱹᱢᱤ ᱠᱚ ᱫᱚ ᱦᱩᱭᱩᱜ ᱠᱟᱱᱟ: {legal_actions}.",
     "round_summary": "{reason} ᱱᱤᱛᱟᱜ ᱥᱠᱳᱨ: ᱯᱞᱮᱭᱟᱨ 0: '{player_0_chips}'; ᱯᱞᱮᱭᱟᱨ 1: '{player_1_chips}'"
   },
   "showdown": {
-    "showdown_summary": "Showdown: Player {winner}'s {winner_card} beats Player {loser}'s {loser_card}. Player {winner} wins pot of {pot_value} chips."
+    "showdown_summary": "ᱪᱷᱟᱰᱟᱣ: ᱠᱷᱮᱞᱚᱸᱰᱤ {winner} ᱨᱮᱭᱟᱜ {winner_card} ᱠᱷᱮᱞᱚᱸᱰᱤ {loser} ᱨᱮᱭᱟᱜ {loser_card} ᱠᱚ ᱦᱟᱨᱟᱣ ᱮᱫᱟ᱾ ᱠᱷᱮᱞᱚᱸᱰᱤ {winner} {pot_value} ᱪᱤᱯᱥ ᱨᱮᱭᱟᱜ ᱯᱚᱴ ᱡᱤᱛᱟ᱾"
   },
   "outcome": {
     "draw": "{max_rounds} ᱨᱩᱰ ᱨᱮᱱᱟᱜ ᱢᱟᱹᱪᱤ ᱨᱮ, ᱵᱟᱱᱟᱨ ᱠᱷᱮᱞᱚᱸᱰᱤᱭᱟᱹ ᱠᱚᱣᱟᱜ ᱢᱤᱫ ᱞᱮᱠᱟᱱ ᱪᱤᱠᱤᱥ ᱛᱟᱦᱮᱸ ᱠᱟᱱᱟ ᱾",

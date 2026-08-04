@@ -3,7 +3,7 @@
     "intro": "Ikaw so Player {player_id} ken agilaro {colour} ({piece}) ed saray Othello.\nSay tungtungan mo esem na mas dakel so pieza na kulay mo ed tabla diad end na game.\nDiad turn mo, ilukas mo so pieza para makapaligaya so aduana o mas dakel a pieza na kalaban mo - diad any direction (horizontal, vertical, o diagonal) - between new mo a pieza ken say another a pieza mo.\nAll flanked opponent pieces mapalit so kulay mo.\nProvide your move diad format '[row, col]'."
   },
   "board": {
-    "game_board": "Game Board: {board} Say \"play\" to.",
+    "game_board": "Tapew na Palaro:\n{board}",
     "valid_moves": "{observation}\nValido a pagilian: {moves}",
     "no_valid_moves_reset": "{observation} Anggapoy valid iran galaw - nayarin kaukolan mon i-skip.",
     "no_valid_moves_step": "{observation} Anggapoy balibalin galaw. Nayarin kaukolan mon i-skip so sakey a move.",
@@ -16,7 +16,7 @@
   },
   "game_action": {
     "skipped": "Say manlalaban {pid} so kaukolan ya ag-onla ed turno to.",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "Say Managpapat {pid} ({piece}) so anggano'y gawa [{r}, {c}] a pabaliktad {flipped} piraso"
   },
   "game_message": {
     "must_skip": "Player {pid} ({piece}) walang valido a pagilian ken kailangan umalsa."

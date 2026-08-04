@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in Chopsticks. On your turn, choose one of:\n  + Attack:  '[attack M O]'  where M=your hand (0 or 1), O=opponent hand (0 or 1).\n    - Opponent's hand count increases by your hand; if >=5, it becomes 0.\n  + Split:   '[split L R]'  to redistribute your total fingers into L and R (L+R = your total).\nReply with exactly one of those commands."
+    "intro": "Bo ta hungadó {player_id} den Chopsticks. Na bo turno, skohe un di:\n  + Ataka:  '[attack M O]'  kaminda M=bo man (0 of 1), O=man di kontrahent (0 of 1).\n    - Konteo di man di kontrahent ta aumentá pa bo man; si >=5, e ta bira 0.\n  + Split:   '[split L R]'  pa redistribuí bo dedenan total den L i R (L+R = bo total).\nDuna respuesta ku eksaktamente un di e komandonan ei."
   },
   "board": {
     "current_board": "Tablero Aktual:\nHungador 0: {hands_0}\nHungador 1: {hands_1}"
@@ -14,7 +14,7 @@
   },
   "game_action": {
     "attack": "P{player_id} ta ataká e man di P{opp_id} {opp_idx}: e ta bai for di {opp_val} pa {new_val}.",
-    "split": "P{player_id} splits into [{L}, {R}]."
+    "split": "P{player_id} ta split den [{L}, {R}]."
   },
   "history": {
     "entry": "P{player_id} {desc}"

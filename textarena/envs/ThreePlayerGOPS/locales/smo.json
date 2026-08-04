@@ -14,7 +14,7 @@
     "{scores}": "The final scores as a raw player-number to score mapping - do not translate"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player GOPS.\n- You hold the 13 cards A-K (each exactly once).\n- Each round a prize is revealed. Submit ONE card like `[Q]`, `[10]`, `[2]` …\n- Highest card wins the prize (+ any carry-over pot). Ties roll the prize into the next round.\n- After 13 rounds, highest total wins. Invalid moves = elimination."
+    "intro": "Oe o le Tagata Ta'alo {player_id} i le Three-Player GOPS.\n- E te umia le 13 pepa A-K (ta'itasi e tasi).\n- I ta'amilosaga ta'itasi, o le fa'ailoga e fa'aalia. Tu'uina atu se pepa e pei o `[Q]`, `[10]`, `[2]` …\n- O le pepa maualuga e manumalo i le fa'ailoga (+ le poti ua fa'atasi). Ties roll le fa'ailoga i le ta'amilosaga o mae'a.\n- A mae'a le 13 ta'amilosaga, o le aofa'i maualuga e manumalo. Gaioiga le aoga = fa'ate'a."
   },
   "round": {
     "header": "### Tasi taimi {round}/13 - Faʻaaliga: {prize} (e ${worth})",

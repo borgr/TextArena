@@ -67,7 +67,7 @@
     "already_revealed": "Efa hita sahady io karatra io!"
   },
   "summary": {
-    "full": "Game Over! Player {winner} wins with a score of {score} points!\n\nFinal Scores:\n{scores}",
+    "full": "Tafapaka ny lalao! Ny mpilalao {winner} no nandresy tamin'ny isa {score} teboka!\n\nIsa Farany:\n{scores}",
     "line": "Mpilalao {pid}: {score} isa "
   },
   "board_str": {

@@ -10,7 +10,7 @@
     "{to}": "The destination coordinate of a move, such as b3"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in game of LinesOfAction.\nYour pieces are '{side}', opponent pieces are '{other}'.\nMove format: `[b1b3]` (from-coord to-coord). A legal move travels horizontally, vertically, or diagonally a number of squares equal to the total pieces (any colour) in that line. You may jump over your own pieces, but not opponent pieces; landing on an opponent captures it.  Win when all your pieces are 8-neighbour connected."
+    "intro": "तुम्हें लाइन्स ऑफ एक्शन के खेल में खिलाड़ी {player_id} हो।\nतुम्हारा टुकड़ा '{side}' है, विपक्षी टुकड़ा '{other}' है।\nचाल के फॉर्मेट: `[b1b3]` (पहिली कोर्डिनेट से दूसरी कोर्डिनेट तक)। एक वैध चाल क्षैतिज, अनुलंब, या तिरछे वर्ग संख्या के बराबर होती है जो उस पंक्ति में कुल टुकड़े (किसी भी रंग के) होते हैं। तुम अपने स्वयं के टुकड़ों पर से कूद सकते हो, लेकिन विपक्षी टुकड़ों पर नहीं; विपक्षी टुकड़े पर उतरने से वह पकड़ लिया जाता है। जीत तब होती है जब तुम्हारे सभी टुकड़े ८-नेबर कनेक्टेड होते हैं।"
   },
   "board": {
     "current_board": "बोर्ड: {board} अउ"
@@ -26,7 +26,7 @@
   },
   "game_action": {
     "moved": "प्लेयर {player_id} {from} -> {to} खसेड़ दियो.",
-    "captured_suffix": "Player {player_id} moved {from} -> {to} capturing an enemy."
+    "captured_suffix": "खिलाड़ी {player_id} ने {from} से {to} तक चाल चलकर एक दुश्मन को पकड़ लिया।"
   },
   "outcome": {
     "win": "जम्मो टुकड़े जुड़े हवय।",

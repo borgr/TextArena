@@ -34,7 +34,7 @@
     "bad_integer": "Ikiguzi cy'igiciro kigomba kuba ari umubare wose.",
     "out_of_range": "Igiciro cyatanzwe kigomba kuba kiri hagati ya $0 na ${pool}.",
     "no_current_offer": "Nta cyo umuntu ashobora gutanga.",
-    "accept_or_reject": "Responder must either [Accept] or [Reject] the offer."
+    "accept_or_reject": "Washyikirije azahitaji gusa [Accept] cyangwa [Reject] oferi."
   },
   "outcome": {
     "win": "Umukino {winner} yatsinze na ${winner_total} yose kuva na Umukino {loser}'s ${loser_total}.",

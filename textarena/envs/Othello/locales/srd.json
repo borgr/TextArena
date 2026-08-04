@@ -16,7 +16,7 @@
   },
   "game_action": {
     "skipped": "Su giogadore {pid} si fiat dèpidu ispassiare su turnu suo.",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "Giogadore {pid} ({piece}) at jogadu [{r}, {c}] girande {flipped} pezzu(s)"
   },
   "game_message": {
     "must_skip": "Giocadore {pid} ({piece}) no tenet mozus balidos e depet saltare."

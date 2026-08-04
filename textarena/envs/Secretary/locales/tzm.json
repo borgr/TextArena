@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You will observe {N} hidden values sequentially.\nAt each step type [accept] to pick the *current* value, or [continue] to skip it and see the next one.\nIf you never accept, you are forced to take the final value.\nYou win (reward = 1) **only** if the value you ultimately pick is the highest of all."
+    "intro": "Ad ur tẓri {N} imḍanen uffiren s umatar.\nDi kraygat aseggas, arki [accept] akken ad dduḍḍet aɣlan *agdidan*, neɣ [continue] akken ad tḥayyiḍt ɣur-s ɣas d netta.\nMa ulac aɣlan, aɣ-ikkes ad dduḍḍet aɣlan aneggaru.\nTiririt (tazmilt = 1) **ɣas** ma aɣlan i dduḍḍen taneggarut iga aɣlan meqqren akk."
   },
   "game_action": {
     "current_value": "ⴰⵜⵉⴳ ⵏ ⵡⴰⵙⵙ ⴰⴷ ⵉⴳⴰ {value}."
@@ -9,7 +9,7 @@
     "wrong_format": "Asebded yettwabni d akken ad yili [accept] neɣ [continue]."
   },
   "outcome": {
-    "summary": "You accepted value {value} at draw {draw_num}/{N}. The best overall was {best}. {result}",
+    "summary": "Tiwetḍeḍ aqqa {value} ɣef usemḍel {draw_num}/{N}. Amenzu ɣef akk d {best}. {result}",
     "perfect": "ⴰⵙⵜⴰⵢ ⵉⴼⵓⵍⴽⵉⵏ! ",
     "not_max": "ⵓⵔ ⴷ ⴰⴽⴽⵡ."
   }

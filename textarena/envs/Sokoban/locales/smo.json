@@ -12,7 +12,7 @@
     "invalid_position": "Faʻasalaga le saʻo - e lē mafai ona alu i lena tulaga."
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
+    "moved": "Na {pushed} e te alu [{action}].",
     "pushed_prefix": "na tulei se pusa a o"
   },
   "outcome": {

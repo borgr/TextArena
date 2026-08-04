@@ -13,7 +13,7 @@
     "exceeds_pile": "لا يمكن إزالة {quantity} من الركام {pile_index} (متبقي فقط {pile_count})."
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "اللعّاب {player_id} لعّب [{pile_index} {quantity}], يزيل {quantity} حاجة(ات) من كومة {pile_index}."
   },
   "outcome": {
     "win": "لاعب {player_id} خديت آخر شي ((s)!"

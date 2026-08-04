@@ -21,7 +21,7 @@
     "{total}": "Each player's tied final total (a number)"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id}, playing {num_rounds} rounds of Iterated Ultimatum Game.\nYou have ${pool} to split this round between yourself and Player {other_id}.\n\nProposer:\n  - Make an offer: [Offer: $X] (0 <= X <= pool)\n  - If accepted → You get $(pool - X), other player gets $X\n  - If rejected → Both get $0\n  - Example: [Offer: $3]  or  'I think this is fair. [Offer: $5]'\n\nResponder:\n  - Decide on the offer with either [Accept] or [Reject]\n  - Example: 'That seems reasonable. [Accept]'\n            'Too unfair. [Reject]'\n"
+    "intro": "أنت لاعب {player_id}، تلعب {num_rounds} جولات من لعبة Iterated Ultimatum Game.\nلديك ${pool} لتقسيمها في هذه الجولة بينك وبين لاعب {other_id}.\n\nعرض:\n  - قدم عرض: [Offer: $X] (0 <= X <= pool)\n  - إذا قبل → تحصل على $(pool - X)، واللاعب الآخر يحصل على $X\n  - إذا رفض → كلاكما يحصل على $0\n  - مثال: [Offer: $3]  أو  'أعتقد أن هذا عادل. [Offer: $5]'\n\nلاعب الاستجابة:\n  - قرر بشأن العرض باستخدام [Accept] أو [Reject]\n  - مثال: 'يبدو ذلك معقولا. [Accept]'\n            'غير عادل للغاية. [Reject]'\n"
   },
   "round": {
     "begins": "--- تبدأ الجولة {round_number}! ---\nاللاعب {proposer_id} هو المنصّب ، و اللاعب {responder_id} هو المستجيب.",
@@ -32,7 +32,7 @@
   "invalid_move": {
     "no_offer_format": "مقدم العرض لازم يقدم عرض باستخدام الشكل [Offer: $X].",
     "bad_integer": "مبلغ العرض لازم يكون رقم صحيح.",
-    "out_of_range": "Offer must be between $0 and ${pool}.",
+    "out_of_range": "يجب أن يكون العرض بين $0 و ${pool}.",
     "no_current_offer": "ما في عرض حالي لرد عليه.",
     "accept_or_reject": "يجب على المستجيب [Accept] أو [Reject] العرض."
   },

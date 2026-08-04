@@ -3,7 +3,7 @@
     "intro": "Seet a giugà {color} in d'on gioco a scacch.\n Fà i toi moviment in format UCI cheys in parentesi quadre (per esempi, [e2e4])."
   },
   "board": {
-    "current_board": "CURRENT BOARD: {board}",
+    "current_board": "Taula d'adess:\n{board}",
     "valid_moves": "{observation}\nMoviment valid: {moves}"
   },
   "invalid_move": {

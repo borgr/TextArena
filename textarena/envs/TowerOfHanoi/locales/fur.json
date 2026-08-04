@@ -6,7 +6,7 @@
     "current_board": "Consei atuâl: {board}."
   },
   "invalid_move": {
-    "wrong_format": "You did not respond with valid '[source] [target]'.",
+    "wrong_format": "No tu âs rispuindût cun un '[source] [target]' valide.",
     "invalid_tower": "Tu âs specificât une font o un obietîf di torce no validis.",
     "empty_tower": "Tu âs cirût di spostâ un disc da une torze vueide.",
     "same_tower": "Tu âs cirût di spostâ un disc su la stesse tor.",

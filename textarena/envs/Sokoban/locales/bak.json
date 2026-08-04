@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are solving the Sokoban puzzle. You are the player and you need to push all boxes to targets.\n        When you are right next to a box, you can push it by moving in the same direction.\n        You cannot push a box through a wall, and you cannot pull a box.\n        On the board, objects are represented as: \n        - The player (you) appears as 'P' \n        - Walls are represented with '#' \n        - Boxes are marked as 'X' \n        - Empty goals are shown with a 'O'\n        - Boxes on goals are visualized with '√'\n        You can also use [w] for up, [a] for left, [s] for down, and [d] for right.\n        "
+    "intro": "Һеҙ Сокобан пазлын хәл итәһеғеҙ. Һеҙ уйынсы һәм бөтә йәшниктәрҙе маҡсаттарға этәрергә тейешһеғеҙ.\n        Йәшник янында торғанда, һеҙ уны шул уҡ йүнәлештә хәрәкәт итеп этәрә алаһығыҙ.\n        Һеҙ диуар аша йәшникте этәрә алмайһығыҙ, һәм йәшникте тартып ала алмайһығыҙ.\n        Таҡтала объекттар түбәндәгесә күрһәтелгән: \n        - Уйынсы (һеҙ) 'P' булараҡ күренә \n        - Диуарҙар '#' менән билдәләнгән \n        - Йәшниктәр 'X' менән билдәләнгән \n        - Буш маҡсаттар 'O' менән күрһәтелгән\n        - Маҡсаттарҙағы йәшниктәр '√' менән визуалләштерелгән\n        Һеҙ шулай уҡ [w] өҫкә, [a] һулға, [s] аҫҡа, һәм [d] уңға хәрәкәт итеү өсөн ҡуллана алаһығыҙ.\n        "
   },
   "board": {
     "current_board": "Хәҙерге такта:\n\n{board}\nИрекле хәрәкәттәр: {moves}"
@@ -12,7 +12,7 @@
     "invalid_position": "Ғәмәлһеҙ хәрәкәт - был урынға күсә алмай."
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
+    "moved": "Һеҙ {pushed} хәрәкәт иттеғеҙ [{action}].",
     "pushed_prefix": "бер ваҡытта ҡумта этәргән."
   },
   "outcome": {

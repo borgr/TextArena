@@ -1,12 +1,12 @@
 {
   "game_start": {
-    "intro": "The game begins. Trump suit: {trump_suit} (trump card: {trump_str}).",
+    "intro": "O jôgo olanda. Kipande kya kufua: {trump_suit} (kipande kya kufua: {trump_str}).",
     "no_trump_card": "ki muala kima kia difu ni kiki."
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in German Whist.\n{phase_info}\nYou hold {hand_size} cards.\nPlay a card with '[play N]', where N is its position in your hand (for example '[play 3]').",
-    "phase_learning": "LEARNING PHASE: the winner of each trick takes the face-up card and the loser draws the next card from the deck. Tricks won in this phase do not count towards victory.",
-    "phase_playing": "PLAYING PHASE: the deck is exhausted. Every trick from now on counts towards victory."
+    "intro": "Nge o Mwana-jôgo {player_id} mu Whist ya Kijerumani.\n{phase_info}\nNge una mikanda {hand_size}.\nTeka mikanda na '[play N]', ambapo N ni nafasi yake mu maboko enu (kwa mfano '[play 3]').",
+    "phase_learning": "FAZA YA KUJIFUNZA: o mfunge wa kila kipande akota kipande kya kufua na o mfunge wa kushindwa akota kipande kijerumani kutoka kwa sitaha. Mikanda inayoshinda mu faza hii haikuhesabiwa kwa ushindi.",
+    "phase_playing": "FAZA YA KUTWANA: sitaha imekauka. Kila kipande kuanzia sasa kinahesabiwa kwa ushindi."
   },
   "next_card": {
     "playing_phase": "O kitambuijilu kiki, ki moneka kala kia kidi.",
@@ -17,15 +17,15 @@
   "invalid_move": {
     "wrong_format": "O kijimbuete kia mukuá, mu phutu a k'ixana \"[play N]\". Phala kulondekesa o kaxa ia dikuinhi ku lukuaku luê.",
     "bad_position": "O kididi kiki, ki kia kidi. Eie uala ni {hand_size} dia jimapa.",
-    "must_follow_suit": "Unapaswa kufuata nlundo na cheza kajila ya {lead_suit}.",
+    "must_follow_suit": "Nge lazima ufuate kipande kya kufua na uteke kipande {lead_suit}.",
     "invalid_play": "O kitambuijilu kiki ki tena ku kala kia kidi."
   },
   "game_action": {
     "played": "O muadikime {player_id} u jokala o mbandu ia 1 {card}."
   },
   "trick": {
-    "won": "Mfunu {winner_id} anashinda maluza na {card}.",
-    "won_learning": "Player {winner_id} wins the trick with {card} and takes the face-up card."
+    "won": "Mwana-jôgo {winner_id} ashinda kipande na {card}.",
+    "won_learning": "Mwana-jôgo {winner_id} ashinda kipande na {card} na akota kipande kya kufua."
   },
   "phase": {
     "learning_complete": "O athu ka tena dingi ku bhanga kima, kioso kia zubha o ku di longa o ima ioso ia lungu ni maka enhá."
@@ -37,10 +37,10 @@
   },
   "turn": {
     "board": "{phase}\n{scores}\n{next_card}\n\n{trick}\n\n{hand}",
-    "scores_learning": "Tricks won so far - Player 0: {tricks0}, Player 1: {tricks1}",
-    "scores_playing": "Maluza ya kuhesabu - Mfunu 0: {tricks0}, Mfunu 1: {tricks1}",
+    "scores_learning": "Mikanda inayoshinda mpaka sasa - Mwana-jôgo 0: {tricks0}, Mwana-jôgo 1: {tricks1}",
+    "scores_playing": "Mikanda inayohesabiwa - Mwana-jôgo 0: {tricks0}, Mwana-jôgo 1: {tricks1}",
     "phase": "Kikalakalu: {phase}",
-    "phase_learning": "Phase: {phase} ({remaining_cards} cards left in the deck)"
+    "phase_learning": "Faza: {phase} ({remaining_cards} mikanda iliyobaki mu sitaha)"
   },
   "hand": {
     "no_cards": "Kana kuta ji kalatá.",
@@ -60,10 +60,10 @@
     "not_started": "O kitambuijilu ki kiaiibha kana.",
     "header": "O KIZUELU KIA KU BHEKA MU MIKANDA KIAMBOTE= \"O Mona ua Difu\"",
     "phase": "{observation} Kibatu: {phase}",
-    "trump_suit": "{observation}\nTrump suit: {trump_suit}",
+    "trump_suit": "{observation}\nKipande kya kufua: {trump_suit}",
     "trump_card": "{observation} O kamukanda ka beta-o-kota: {card}",
-    "cards_left": "{observation}\nCards left in deck: {count}",
-    "next_card": "{observation}\nNext card for winner: {card}",
+    "cards_left": "{observation}\nMikanda iliyobaki mu sitaha: {count}",
+    "next_card": "{observation}\nKipande kijerumani kwa mshindi: {card}",
     "blank": "{observation} O ku di longa o Bibidia.",
     "current_trick": "{observation} O jindunge ja lelu:",
     "trump_indicator": " (TRUMP)",
@@ -71,6 +71,6 @@
     "player_line": "{observation}\nMfunu {player_id}: {scoring} maluza ({tricks} yote), {hand_size} kajila mukati"
   },
   "outcome": {
-    "summary": "Learning phase - Player 0: {l0}, Player 1: {l1}. Playing phase - Player 0: {p0}, Player 1: {p1}. Player {winner_id} wins with {winner_tricks} scoring tricks!"
+    "summary": "Faza ya kujifunza - Mwana-jôgo 0: {l0}, Mwana-jôgo 1: {l1}. Faza ya kutwana - Mwana-jôgo 0: {p0}, Mwana-jôgo 1: {p1}. Mwana-jôgo {winner_id} ashinda na {winner_tricks} mikanda inayohesabiwa!"
   }
 }

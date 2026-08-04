@@ -11,7 +11,7 @@
     "{ball_pos}": "The cup index the ball is under"
   },
   "player_prompt": {
-    "intro": "Track the hidden ball 'X' while the cups are shuffled.\nAfter shuffling, guess its location with `[k]`."
+    "intro": "Kolim bol i hait 'X' long wakim shaffel bilong kap.\nBiha shaffel, guesim ples bilong en long usim `[k]`."
   },
   "game_message": {
     "ball_starts": "Bal i stat: {line}",
@@ -21,7 +21,7 @@
     "reveal": "(Ritim: Bal i stap aninit long {ball_pos})"
   },
   "invalid_move": {
-    "wrong_format": "Bad action. Use `[k]`.",
+    "wrong_format": "Pas bilong yu i no stret. Usim `[k]`.",
     "out_of_range": "Indeks i stap ausait long mak 0-{max_index}."
   },
   "outcome": {

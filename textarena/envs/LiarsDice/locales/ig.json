@@ -26,7 +26,7 @@
   },
   "board": {
     "per_player": "Onye na-egwu egwu {p}: {d}",
-    "new_round": "New gburugburu - Remaining dice: {dice_summary} Gị ugbu a Dice bụ: {your_dice}"
+    "new_round": "\nOge ọhụrụ - Ndị fọdụrụ nke dice: {dice_summary}\nNdị dice gị ugbu a bụ: {your_dice}"
   },
   "call": {
     "bidder_loses": "Onye na-egwu egwu {current_player_id} na-akpọ! Ọnụ ọgụgụ ihu {face_value} bụ {count}, nke dị obere karịa {quantity}. Onye na-egwu egwu {loser_id} (onye ikpeazụ na-enye ego) na-efunahụ otu die.",

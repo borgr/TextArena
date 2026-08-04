@@ -29,7 +29,7 @@
     "new_round": "\nSarita a balik - Natatali a dice: {dice_summary}\nDagiti agdama a Dice mo: {your_dice}"
   },
   "call": {
-    "bidder_loses": "Player {current_player_id} calls! The actual count of face {face_value} is {count}, which is LESS than {quantity}.\nPlayer {loser_id} (the last bidder) loses one die.",
+    "bidder_loses": "Agdama {current_player_id} ket awag! Ti aktual a bilang ti pateg {face_value} ket {count}, a basbassit ngem {quantity}.\nAgdama {loser_id} (ti naudi a nangbid) ket matatalo iti maysa a dado.",
     "caller_loses": "Player {current_player_id} ket agcall! Ti aktwal a bilang ti face {face_value} ket {count}, a >= {quantity}.\nPlayer {loser_id} (ti caller) ket matalaw iti maysa a die."
   },
   "action": {

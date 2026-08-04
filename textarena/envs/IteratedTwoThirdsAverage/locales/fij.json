@@ -7,7 +7,7 @@
     "out_of_range": "Na kena iwiliwili e tiko ena maliwa ni {min_guess} kei na {max_guess}."
   },
   "message": {
-    "round_guesses": "Player 0 guessed {guess0}; Player 1 guessed {guess1}. Thus the Target is: {target}.",
+    "round_guesses": "Na Dauqito 0 a tarogi {guess0}; Na Dauqito 1 a tarogi {guess1}. Kua ni ya, na Tikina e: {target}.",
     "round_draw": "E sega ni dua na macala ena qito oqo.",
     "round_win": "Na dauqito {winner} e qaqa ena raundi!"
   },

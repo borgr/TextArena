@@ -29,8 +29,8 @@
     "new_round": "\nBabhta nua - Dé fágtha: {dice_summary}\nTá do Dhé seo nó: {your_dice}"
   },
   "call": {
-    "bidder_loses": "Player {current_player_id} calls! The actual count of face {face_value} is {count}, which is LESS than {quantity}.\nPlayer {loser_id} (the last bidder) loses one die.",
-    "caller_loses": "Player {current_player_id} calls! The actual count of face {face_value} is {count}, which is >= {quantity}.\nPlayer {loser_id} (the caller) loses one die."
+    "bidder_loses": "Ghlaonn imreoir {current_player_id}! Tá an comhairimh iomlán den luach aghaidh {face_value} {count}, atá NÍOS ÍSLE ná {quantity}.\nCailltear deice ag imreoir {loser_id} (an t-imreoir a rinne an tairiscint dheireanach).",
+    "caller_loses": "Ghlaonn imreoir {current_player_id}! Tá an comhairimh iomlán den luach aghaidh {face_value} {count}, atá >= {quantity}.\nCailltear deice ag imreoir {loser_id} (an t-imreoir a ghlaonn)."
   },
   "action": {
     "bid_announce": "Tairgeann imreoir {player_id} aghaidh {quantity} ar an duine {face_value} ."

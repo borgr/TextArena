@@ -9,10 +9,10 @@
     "{pct}": "Progress as a percentage string, e.g. 50%"
   },
   "player_prompt": {
-    "intro": "Map each letter to a unique digit so the arithmetic holds.\nAssign with `[A 5]`, re-assign anytime.\n"
+    "intro": "Kɛ̈ɛ̈n dɛ̈l wuɔ̈c cɔɔl tɛ̈ɛ̈n dɛ̈ɛ̈t kɛ̈ɛ̈n, tɛ̈ɛ̈n kɛ̈ɛ̈n aɣɔ̈ɔ̈n.\nKɛ̈ɛ̈n [A 5], kɛ̈ɛ̈n tɛ̈ɛ̈n aɣɔ̈ɔ̈n.\n"
   },
   "invalid_move": {
-    "wrong_format": "Bad action format. Use `[A 5]`.",
+    "wrong_format": "Kɛ̈ɛ̈n aɣɔ̈ɔ̈n aɣɔ̈ɔ̈n. Kɛ̈ɛ̈n [A 5].",
     "letter_not_in_puzzle": "Wargak {letter} /ciɛ mi̱ te rɛy kä min ca la̱t.",
     "digit_used": "Digit {digit} aci looi kekɛ {used_letter}.",
     "leading_zero": "Mi̱ ci̱ ri̱eŋ ɛ tok /cɛ dee a 0."

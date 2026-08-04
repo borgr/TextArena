@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing Countdown numbers game!\nGoal: Combine numbers using +, -, *, / to reach the target.\nAction format: [i j op] where i,j are indices and op is the operation.\nExample: [0 2 *] multiplies number at index 0 with number at index 2.\nDivision must result in whole numbers only."
+    "intro": "I kpaŋa Countdown yelege kɛlɛ!\nKɔrɔ: Kpaŋa yelege kɛlɛ lafi +, -, *, / nɛra kɛlɛ ka tao.\nKɛlɛ format: [i j op] ka i,j bɛ indices nɛ op bɛ kɛlɛ.\nYɛlɛma: [0 2 *] kpaŋa yelege kɛlɛ lafi 0 nɛ yelege kɛlɛ lafi 2.\nKɛlɛ pɔrɔtɛɛ bɛ kɛlɛ ka tao kɛlɛ wɛrɛ wɛrɛ."
   },
   "board": {
     "header": "TARGET: {target}\n\nLamdaŋa din be niŋ: \n{numbers}",
@@ -9,7 +9,7 @@
     "progress": "{observation}\nKɔbigu tariga din be niŋ: {progress}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use `[i j op]` where i,j are indices and op is +,-,*,/",
+    "wrong_format": "Kɛlɛ format ka tao. Kɛlɛ [i j op] ka i,j bɛ indices nɛ op bɛ +,-,*,/",
     "invalid_indices": "B sẽn ka zemsã segd n yɩɩ toor-toore, la zĩnd 0 tɩ ta {max_index} pʋgẽ.",
     "invalid_operation": "Tʋʋmd sẽn pa zemse (kareng ne zéro bɩ n ka sõor zãng ye)"
   },

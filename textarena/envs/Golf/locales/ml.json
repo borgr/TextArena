@@ -46,7 +46,7 @@
     "discarded": "കളിക്കാരൻ {pid} ഒഴിവാക്കി {card}"
   },
   "message": {
-    "deck_empty": "Deck is empty! Game ends immediately.",
+    "deck_empty": "ഡെക്ക് ശൂന്യമാണ്! കളി ഉടനടി അവസാനിക്കുന്നു.",
     "knocked": "കളിക്കാരന് {pid} തട്ടി! ഓരോ കളിക്കാരനും ഒരു തവണ കൂടി ലഭിക്കുന്നു.",
     "final_round": "കളിക്കാരന് {pid} {reason}! ഓരോ കളിക്കാരനും ഒരു തവണ കൂടി കളിക്കാം."
   },

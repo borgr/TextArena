@@ -13,8 +13,8 @@
     "already_matched": "Ныҡ булмаған хәрәкәт. {player_id} уйынсыһы бер йәки ике картаны һайлаған, улар инде тап килгән булалар."
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "Уйынсы {player_id} тарафынан [{r1} {c1}] һәм [{r2} {c2}] позицияларында һайланған карточкалар тура килә!",
+    "cards_no_match": "Уйынсы {player_id} тарафынан һайланған карточкалар тура килмәй. [{r1} {c1}] һәм [{r2} {c2}] позицияларындағы карточкалар {pos1} һәм {pos2} булып тора."
   },
   "outcome": {
     "draw": "Ике уйынсы ла бер үк парлы карталар менән уйнаған.",

@@ -6,8 +6,8 @@
     "invalid_action": "Nuwɔnɔ si le dɛ. Tsɔ '[roll]' yi '[hold]'."
   },
   "actions": {
-    "player_busted": "Player {player_id} busted, losing {turn_total} points!",
-    "player_hold": "Player {player_id} holds and banks {turn_total} points."
+    "player_busted": "Aɖa {player_id} ƒe eme bubu, eƒe {turn_total} akɔnta si!",
+    "player_hold": "Aɖa {player_id} tsɔ kple eƒe {turn_total} akɔnta."
   },
   "board": {
     "player": "Dɔdzikpɔla 0: '{score_0}'; Dɔdzikpɔla 1: '{score_1}'",

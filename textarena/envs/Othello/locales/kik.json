@@ -16,10 +16,10 @@
   },
   "game_action": {
     "skipped": "Mũthaaki {pid} nĩ aagire gũkinya ihinda rĩake.",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "Mchezaji {pid} ({piece}) alicheza [{r}, {c}] akibadilisha {flipped} kipande (s)"
   },
   "game_message": {
-    "must_skip": "Player {pid} ({piece}) has no valid moves and must skip."
+    "must_skip": "Mchezaji {pid} ({piece}) hana hatua zinazokubalika na lazima aduke."
   },
   "outcome": {
     "black_wins": "Mbarĩ njirũ nĩ ĩhootanĩte {black_count}-{white_count}.",

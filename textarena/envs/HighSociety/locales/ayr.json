@@ -1,9 +1,9 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a game of HighSociety (2-player version).\nGame flow:  Ten prestige cards are auctioned one after another.\nBidding:    Each auction, secretly choose a money card 1-11 and reveal.\n            • Higher bid wins the prestige card and discards that money card.\n            • Lower bid keeps their money card.\n            • Tie -> both bids are returned and the same prestige card is re-auctioned.\nScoring:    After all ten auctions, add **remaining cash + prestige points**.\n            Higher *net-worth* wins (exact tie -> draw).\n\n**Action syntax**  →  bid a single card like '[7]' or '[11]'."
+    "intro": "Jumaxa Player {player_id} ukax HighSociety nayra pukara (2-player version) ukatxa.\nKamay p'iqi:  Prestige kartanaka kunka tunka ukax mä q'ara q'ara ukhamawa.\nT'ijt'asña:    Kunka tunka, ukax mä q'ara q'ara, imaña ch'usa ch'usa t'ijt'asña kartanaka 1-11 ukatxa, ukax uñacht'aya.\n            • T'ijt'asña alaxpacha ukax prestige kartanaka ukatxa, ukax ch'usa ch'usa kartanaka ukatxa q'ara q'ara.\n            • T'ijt'asña jisk'a ukax ch'usa ch'usa kartanaka ukatxa jikxatawa.\n            • T'ijt'asña paritxi ukax t'ijt'asña kartanaka ukatxa q'ara q'ara, ukax prestige kartanaka nayra ukax jikxatawa.\nPuntuación ukax:    Kunka tunka t'ijt'asña ukatxa, **q'ara q'ara ch'usa + prestige puntu** ukax yapxta.\n            *Jath'asña patrimonio* alaxpacha ukax jikxatawa (paritxi jisk'a ukax - jikxatawa).\n\n**Kamay sintaxis**  →  mä ch'usa kartanaka jikxata '[7]' ukax '[11]' ukhamawa."
   },
   "auction": {
-    "announce": "\n### Subasta {round}/10  |  Tarjeta de prestigio: {prize}"
+    "announce": "\n### Subasta {round}/10  |  Prestige kartanaka: {prize}"
   },
   "board": {
     "money_cards": "Qullqi tarjetanakama: {money}"
@@ -14,11 +14,11 @@
   },
   "message": {
     "tie": "¡Uñt'atäki uka alasiñax kuttanxiwa!",
-    "auction_result": "P0 ofertó {bid0}, P1 ofertó {bid1}. Jugador {winner} gana prestigio {prize} (total {total})."
+    "auction_result": "P0 t'ijt'asña {bid0}, P1 t'ijt'asña {bid1}. Player {winner} ukax prestige {prize} (jath'asña {total}) ukatxa."
   },
   "outcome": {
-    "p0_wins": "Patrimonio neto {nw0} > {nw1}",
-    "p1_wins": "Patrimonio neto {nw1} > {nw0}",
+    "p0_wins": "Jath'asña patrimonio {nw0} > {nw1}",
+    "p1_wins": "Jath'asña patrimonio {nw1} > {nw0}",
     "draw": "Paypach suma {nw0}  kikipaki."
   }
 }

@@ -51,7 +51,7 @@
     "trick_win": "Cluichiche {winner} a' gluasad a' cheart le {card} agus a' dol a dh'fhàgail {points} phuingean!"
   },
   "outcome": {
-    "head": "Game Over! Player {winner} wins with {points} points!\n\nFinal Scores:\n{scores}",
+    "head": "Crìoch an geama! Tha cluicheadair {winner} a' buannachadh le {points} puingean!\n\nSgòran Deireannach:\n{scores}",
     "player_line": "Cluichiche {player_id}: {points} phuingean ({tricks} cheartan)\n"
   }
 }

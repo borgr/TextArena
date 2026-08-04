@@ -21,7 +21,7 @@
   },
   "outcome": {
     "survived_win": "Lo jogaire {player_id} subrevisquèt; totes los autres se desplomèron.",
-    "all_crashed": "All players crashed simultaneously.",
+    "all_crashed": "Totes los jogaires son estampats simultanèament.",
     "outlived": "Lo jogaire a subreviscut totes los autres.",
     "all_dead": "Totes los jogaires mòrts.",
     "turn_limit": "Limite de virada atengut - ganha lo mai long subrevivent.",

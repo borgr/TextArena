@@ -4,7 +4,7 @@
   },
   "board": {
     "game_board": "Egwuregwu Egwuregwu: {board}",
-    "board_state": "Board steeti: {board}"
+    "board_state": "Steeti bọọdụ: \n{board}"
   },
   "invalid_move": {
     "wrong_format": "Ọkpụkpọ na-abaghị uru. Onye ọkpụkpọ {player_id} azaghị na 'nọmba kọlụm nke ahịrị' ziri ezi.",

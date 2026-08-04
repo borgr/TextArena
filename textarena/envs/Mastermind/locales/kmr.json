@@ -13,7 +13,7 @@
     "repeated_guess": "Hûn berê jî texmîn kirine {guess}. Ji kerema xwe re texmînek din biceribînin."
   },
   "game_action": {
-    "feedback": "Submitted [{guess}]. Feedback: {black_pegs} black peg(s), {white_pegs} white peg(s)."
+    "feedback": "Texmîna [{guess}] hat şandin. Bersiv: {black_pegs} pêgên reş, {white_pegs} pêgên spî."
   },
   "outcome": {
     "win": "Yekê kodê şikest, bi {black_pegs} ji {code_length} qîlaşan rastî.",

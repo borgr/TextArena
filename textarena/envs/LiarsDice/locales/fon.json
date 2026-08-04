@@ -22,7 +22,7 @@
     "final_ranking": "list of player indices from first eliminated to winner"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in an {num_players}-player Liar's Dice game.\nRules:\n- On your turn, you may either:\n  1) Make a new bid with a higher quantity or higher face (or both) than the current bid; i.e. '[Bid: 3, 4]',\n  2) Call the last bid by typing '[Call]'.\n\nIf you call:\n  - If the actual count of that face value among all dice is less than the bid, the last bidder loses one die.\n  - Otherwise, the caller loses one die.\nA player who reaches 0 dice is eliminated. The last remaining player wins."
+    "intro": "A nyi azɔnwá {player_id} to azɔnwá {num_players} tɔn Liar's Dice xwéxwé lɛ.\nNùkpɛ̀:\n- Tɔ̀n wà nwí, a nyi sɔ̀n:\n  1) Fà xwéxwé yíyí ɖò nwí ɖò azɔ̀n wà ɖì nwí ɖì tɛ̀lɛ̀, kà wàkà '[Bid: 3, 4]',\n  2) Xɔ̀ azɔ̀n wà godo tɛ̀lɛ̀ '[Call]'.\n\nNù a xɔ̀:\n  - Nù azɔ̀n wà yíyí ɖò tɛ̀lɛ̀ wàkà xwéxwé yíyí ɖò nwí lɛ̀, azɔnwá wà godo tɛ̀lɛ̀ wàkà ɖò kùn ɖò.\n  - Kà wàkà, xɔ̀wá wàkà ɖò kùn ɖò.\nAzɔnwá wà ɖò kùn ɖò lɛ̀, wàkà wà xwéxwé lɛ̀."
   },
   "board": {
     "per_player": "\tAzo {p}: {d}",
@@ -41,7 +41,7 @@
     "not_recognized": "Azo na ɖɛ wɔnɔ na '[Bid: X, Y]' kple '[Call]'. Azo si na: {action}"
   },
   "bid_reason": {
-    "quantity_lower": "New quantity {new_quantity} is lower than current {current_quantity}.",
+    "quantity_lower": "Numɛro dɔ bid tɔn wɛkɔ wɛkɔ {new_quantity} wɛ LESS wɛ numɛro dɔ bid tɔn wɛkɔ {current_quantity}.",
     "face_lower": "nùjɔnǔ ɔ {new_face_value} nɔ jɛji hú ée ɖò azɔ̌ jí é {current_face_value}.",
     "identical": "Akwɛ e è na dó ɔ́ cí ée ɖò fí din é ɖɔhun.",
     "face_range": "Akwɛ́ e è nɔ mɔ é ɖó na ɖò 1 jɛ 6."

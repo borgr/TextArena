@@ -12,7 +12,7 @@
     "invalid_position": "Gníomh neamhbhailí - ní féidir bogadh go dtí an seasamh sin."
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
+    "moved": "Tú {pushed} d'aistrigh [{action}].",
     "pushed_prefix": "brúigh bosca cé go bhfuil"
   },
   "outcome": {

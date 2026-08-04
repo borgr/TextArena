@@ -25,7 +25,7 @@
   },
   "board": {
     "drew": "I drew: {card}\nTun i pe ang [swap X Y] em awm e or [discard] ang e",
-    "took": "You took: {card} from discard pile\nYou must [swap X Y] with it (cannot discard).",
+    "took": "I take: {card} discard pile-ah\nI [swap X Y] nena a (discard theih loh).",
     "peeked": "Ka en peek at position ({row},{col}): {card}",
     "turn_view": "Ka hand:\n{hand}\nDiscard pile: {discard}\n{options}",
     "none": "Engmah awm lo."
@@ -42,8 +42,8 @@
     "row": "Row {n}: {cards}"
   },
   "action_desc": {
-    "swapped": "Player {pid} a swap {new} with {old} position ({row},{col}) ah",
-    "discarded": "Player {pid} discarded {card}"
+    "swapped": "Player {pid} in {new} nena {old} position ({row},{col})-ah swap a ni",
+    "discarded": "Player {pid} in {card} discard a ni"
   },
   "message": {
     "deck_empty": "Deck a awm tawh lo va, khelh zawh nghal mai ang.",
@@ -67,13 +67,13 @@
     "already_revealed": "Chu card chu a lang tawh!"
   },
   "summary": {
-    "full": "Game Over! Player {winner} hian score {score} points a hmuin a chak! \n\nFinal Scores:\n{scores}",
-    "line": "Player {pid}: {score} points"
+    "full": "Inkhel a zawh! Player {winner} chuan {score} point hmachhualin an chak!\n\nHmachhual thlir:\n{scores}",
+    "line": "Player {pid}: {score} point\n"
   },
   "board_str": {
     "title": "=== GOLF GAY=== chu a ni.",
     "discard": "Hlawk bo: {card}",
     "knocked": "Player {pid} chuan a rawn kik ta!",
-    "player_header": "Player {pid} (Score: {score}):"
+    "player_header": "Player {pid} (Hmachhual: {score}):"
   }
 }

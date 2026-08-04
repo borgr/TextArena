@@ -9,8 +9,8 @@
     "wrong_format": "अमान्य क्रिया। '[Hit]' या '[Stand]' का उपयोग करें।"
   },
   "game_message": {
-    "hand_result": "Hand {hand_number}: you {outcome}. Your final {player_score}, Dealer {dealer_score}.",
-    "all_complete": "=== All {num_hands} hands complete ===\nWins: {wins}, Losses: {losses}, Draws: {draws}\n"
+    "hand_result": "हाथ {hand_number}: तोहार {outcome}। तोहार अंतिम {player_score}, डीलर {dealer_score}।",
+    "all_complete": "=== सभ {num_hands} हाथ पूरा ===\nजीत: {wins}, हार: {losses}, ड्रॉ: {draws}\n"
   },
   "outcome": {
     "game_over": "गेम समाप्त हो गया है। अंतिम स्कोर: डीलर: {losses}, आप: {wins}, ड्रा: {draws}"

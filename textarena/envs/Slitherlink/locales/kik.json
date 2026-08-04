@@ -1,12 +1,12 @@
 {
   "player_prompt": {
-    "intro": "You are playing Slitherlink on a {R}x{C} grid!\nDraw a single continuous loop so each numbered cell has that many bordering edges.\nToggle edges with:\n  [h r c] - toggle horizontal edge above dots at row r, column c\n  [v r c] - toggle vertical edge left of dots at row r, column c\nNumbers show required edge count, '.' means no constraint.\nYou have up to {max_turns} moves to solve the puzzle."
+    "intro": "Ũrĩ kuina Slitherlink kwenye gridi ya {R}x{C}!\nTunga mzunguko mmoja usiotenganishwa ili kila seli iliyo na nambari iwe na kingo zingi za mpaka.\nBadilisha kingo na:\n  [h r c] - badilisha makali ya mlalo juu ya vidoti kwenye safu r, safu wima c\n  [v r c] - badilisha makali ya wima upande wa kushoto wa vidoti kwenye safu r, safu wima c\nNambari zinaonyesha hesabu ya kingo zinazohitajika, '.' ina maana hakuna kizuizi.\nŨna hadi {max_turns} harakati za kutatua puzzle."
   },
   "board": {
     "current_board": "{board}\nMabishano yaliyokidhi: {progress}"
   },
   "invalid_move": {
-    "wrong_format": "Bad action format. Use [h row col] or [v row col].",
+    "wrong_format": "Mbaya wa njia ya kutenda. Tumia [h row col] au [v row col].",
     "out_of_bounds": "Mũrango ũrĩ nja ya mũbira."
   },
   "outcome": {

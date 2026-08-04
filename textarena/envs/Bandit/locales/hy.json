@@ -14,7 +14,7 @@
     "pressed": "Դուք սեղմեցիք {button} կոճակը եւ ստացաք {reward} պարգեւ:"
   },
   "game_message": {
-    "final_decision": "You have exhausted your budget for trying out different choices and observe their rewards. Now make a deduction about what the best choice is."
+    "final_decision": "Դուք սպառել եք ձեր բյուջեն տարբեր ընտրություններ փորձելու և դրանց պարգևները դիտելու համար։ Այժմ արտածեք եզրակացություն այն մասին, թե որն է լավագույն ընտրությունը։"
   },
   "outcome": {
     "win": "Շնորհավորում եմ, ճիշտ կոճակը ընտրեցիք։",

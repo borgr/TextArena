@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing the Minesweeper game.\nThe objective of the game is to reveal all cells that do not contain mines.\nTo make a move, simply specify the row and column coordinates you want to reveal using the format:\n- `[row col]`: Reveal the cell at the specified row and column.\nFor example:\n- `[3 2]` to reveal the cell in Row 3, Column 2.\n- `[5 6]` to reveal the cell in Row 5, Column 6.\nOn your first move, you will reveal an area around the cell you choose to ensure a safe start.\nThe current board layout is shown below. Cells that are unrevealed are represented by a dot ('.'), revealed numbers show the count of adjacent mines.\nBe mindful not to choose already revealed cells.\nHere is the current board layout:\n"
+    "intro": "तोहार माइंसवीपर गेम खेलत बानी।\nगेम के उद्देश्य ई बा कि सारा सेल खोल दिहल जाव जिनमें माइंस नइखे।\nएक चाल चले के लिए, बस ओह पंक्ति आ स्तंभ निर्देशांक निर्दिष्ट करीं जिन्हें तोहार खोलना चाहत बानी निम्नलिखित प्रारूप में:\n- `[row col]`: निर्दिष्ट पंक्ति आ स्तंभ में सेल खोलीं।\nउदाहरण के लिए:\n- `[3 2]` तीसरी पंक्ति में दूसरा स्तंभ में सेल खोलने के लिए।\n- `[5 6]` पाँचवीं पंक्ति में छठा स्तंभ में सेल खोलने के लिए।\nतोहार पहिल चाल पर, तोहार चुनल सेल के आसपास के इलाका खोल दिहल जाई ताकि सुरक्षित शुरुआत हो सके।\nवर्तमान बोर्ड लेआउट नीचे दिखलल बा। जिन सेल खोलल नइखे बा उहे एक बिंदु ('.') द्वारा दर्शावल जाला, खोलल संख्या से सटल माइंस की संख्या दिखावल जाला।\nध्यान रखीं कि पहिले से खोलल सेल न चुनीं।\nवर्तमान बोर्ड लेआउट ई बा:\n"
   },
   "board": {
     "game_board": "गेम बोर्ड: {board}",

@@ -11,7 +11,7 @@
     "{ball_pos}": "The cup index the ball is under"
   },
   "player_prompt": {
-    "intro": "Track the hidden ball 'X' while the cups are shuffled.\nAfter shuffling, guess its location with `[k]`."
+    "intro": "Lacak bal 'X' sing ndhelik nalika cangkir diacak.\nSawise diacak, tebak lokasine karo `[k]`."
   },
   "game_message": {
     "ball_starts": "Bal wiwit: {line}",
@@ -21,7 +21,7 @@
     "reveal": "(Ngungkapake: bal ing {ball_pos})"
   },
   "invalid_move": {
-    "wrong_format": "Bad action. Use `[k]`.",
+    "wrong_format": "Aksi salah. Gunakake `[k]`.",
     "out_of_range": "Indeks metu saka kisaran 0-{max_index}."
   },
   "outcome": {

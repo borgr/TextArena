@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "कोणताही वैध चाल स्वरूप आढळला नाही. [a1b2] वापरा, उदा. [b2c3].",
-    "illegal": "Move [{move}] is illegal."
+    "illegal": "चाल [{move}] अवैध आहे."
   },
   "game_action": {
     "moved": "खेळाडू {player_id} हलविले {move}."

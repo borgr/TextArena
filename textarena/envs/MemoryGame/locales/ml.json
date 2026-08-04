@@ -13,8 +13,8 @@
     "already_matched": "അസാധുവായ നീക്കം. കളിക്കാരൻ {player_id} ഇതിനകം പൊരുത്തപ്പെടുത്തിയ ഒന്നോ രണ്ടോ കാർഡുകൾ തിരഞ്ഞെടുത്തു."
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "കളിക്കാരൻ {player_id} തിരഞ്ഞെടുത്ത കാർഡുകൾ [{r1} {c1}] ഉം [{r2} {c2}] ഉം പൊരുത്തപ്പെടുന്നു!",
+    "cards_no_match": "കളിക്കാരൻ {player_id} തിരഞ്ഞെടുത്ത കാർഡുകൾ പൊരുത്തപ്പെടുന്നില്ല. [{r1} {c1}] ഉം [{r2} {c2}] ഉം സ്ഥാനങ്ങളിലെ കാർഡുകൾ യഥാക്രമം {pos1} ഉം {pos2} ഉം ആണ്."
   },
   "outcome": {
     "draw": "രണ്ട് കളിക്കാരും ഒരേ എണ്ണം ജോഡി കാർഡുകൾ പൊരുത്തപ്പെടുത്തി.",

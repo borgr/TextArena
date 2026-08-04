@@ -16,7 +16,7 @@
   },
   "game_action": {
     "skipped": "Lu jucaturi {pid} avìa a saltari lu sò turnu.",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "Lu Jucaturi {pid} ({piece}) jucò [{r}, {c}] girannu {flipped} pezzu(i)"
   },
   "game_message": {
     "must_skip": "Jucaturi {pid} ({piece}) nun havi mossi validi e deve saltari."

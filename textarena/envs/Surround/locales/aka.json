@@ -10,7 +10,7 @@
     "{groups}": "Neutral ranking data (a list of player-id groups, best to worst); do not translate"
   },
   "player_prompt": {
-    "intro": "{num_players}-Player Surround on a {width}x{height} grid.\nYou are player {player_id}. Valid moves: '[up]' '[down]' '[left]' '[right]' or w/s/a/d.\nObjective: outlive everyone else. Trails are deadly; wall hits kill; head-on crashes kill both."
+    "intro": "{num_players}-Akwanso Surround a ɛwɔ {width}x{height} papa so.\nWo ne akwanso {player_id}. Nkyerɛwee a ɛfata: '[up]' '[down]' '[left]' '[right]' anaa w/s/a/d.\nNsɛm: di akyire nyinaa. Nkwanso a ɛwɔ ɛkyiri yɛ owuo; papa a ɛbɔ yɛ owuo; nea ɛbɔ mu yɛ owuo mmienu."
   },
   "board": {
     "current": "Adwumayɛfoɔ a wɔwɔ hɔ nnɛ: {board}",

@@ -11,12 +11,12 @@
     "not_legal": "ક્રિયા {legal_actions} હોવી જોઈએ."
   },
   "action": {
-    "submit_move": "Player {player_id}, submitted move: '[{move}]'.",
+    "submit_move": "ખેલાડી {player_id} દ્વારા ક્રિયા મોકલવામાં આવી: '[{move}]'.",
     "valid_actions": "તમારી ઉપલબ્ધ ક્રિયાઓ છેઃ {legal_actions}.",
     "round_summary": "{reason} વર્તમાન સ્કોર્સઃ ખેલાડી 0: \"{player_0_chips}\"; ખેલાડી 1: \"{player_1_chips}\""
   },
   "showdown": {
-    "showdown_summary": "Showdown: Player {winner}'s {winner_card} beats Player {loser}'s {loser_card}. Player {winner} wins pot of {pot_value} chips."
+    "showdown_summary": "શોડાઉન: ખેલાડી {winner} નું {winner_card} ખેલાડી {loser} ના {loser_card} ને હરાવે છે. ખેલાડી {winner} {pot_value} ચિપનો પોટ જીતે છે."
   },
   "outcome": {
     "draw": "{max_rounds} રાઉન્ડના અંતે, બંને ખેલાડીઓ પાસે સમાન સંખ્યામાં ચિપ્સ હતા.",

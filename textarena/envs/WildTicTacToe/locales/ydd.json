@@ -15,6 +15,6 @@
   },
   "outcome": {
     "win": "דער שפּילער {player_id} געווינט מיט {mark}ס!",
-    "draw": "The game is a draw!"
+    "draw": "דאָס שפּיל איז אַן אומאָפּגעקומען!"
   }
 }

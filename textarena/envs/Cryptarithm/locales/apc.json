@@ -9,10 +9,10 @@
     "{pct}": "Progress as a percentage string, e.g. 50%"
   },
   "player_prompt": {
-    "intro": "Map each letter to a unique digit so the arithmetic holds.\nAssign with `[A 5]`, re-assign anytime.\n"
+    "intro": "قم بربط كل حرف برقم فريد حتى يبقى الحساب صحيحًا.\nقم بالتعيين باستخدام `[A 5]`، ويمكنك إعادة التعيين في أي وقت.\n"
   },
   "invalid_move": {
-    "wrong_format": "Bad action format. Use `[A 5]`.",
+    "wrong_format": "صيغة الإجراء غير صحيحة. استخدم `[A 5]`.",
     "letter_not_in_puzzle": "الحرف {letter} مش في اللغز.",
     "digit_used": "الرقم {digit} مستعمل مسبقاً من قبل {used_letter}.",
     "leading_zero": "الرقم الأول في كلمة ما بيقدر يكون صفر."

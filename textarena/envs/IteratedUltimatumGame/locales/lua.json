@@ -21,7 +21,7 @@
     "{total}": "Each player's tied final total (a number)"
   },
   "player_prompt": {
-    "intro": "Wewe ni Mchezaji {player_id}, ukitwanga {num_rounds} raundi za Iterated Ultimatum Game.\nUna ${pool} kugawanya kwenye raundi hii kati yako na Mchezaji {other_id}.\n\nMtoa pendekezo:\n  - Fanya pendekezo: [Offer: $X] (0 <= X <= pool)\n  - Ikiwa imekubaliwa → Unapata $(pool - X), mchezaji mwingine anapata $X\n  - Ikiwa imetupwa → Wote wanapata $0\n  - Mfano: [Offer: $3]  au  'Nafikiri hii ni haki. [Offer: $5]'\n\nMjibu:\n  - Amua kuhusu pendekezo kwa njia ya [Accept] au [Reject]\n  - Mfano: 'Hii inaonekana kuwa sawa. [Accept]'\n            'Ni isiyo ya haki sana. [Reject]'\n"
+    "intro": "Owe udi Player {player_id}, ukoluka {num_rounds} mikolo ya Iterated Ultimatum Game.\nUdi na ${pool} kutambulwa mwana mukolo huu kati ya inye na Player {other_id}.\n\nMukoloni:\n  - Fanya ofele: [Offer: $X] (0 <= X <= pool)\n  - Ikiwa ikubaliwa → Udi upate $(pool - X), mchezaji mwingine apate $X\n  - Ikiwa ikataliwa → Wote wapate $0\n  - Mfano: [Offer: $3]  au  'Nadhani hii ni haki. [Offer: $5]'\n\nMujibu:\n  - Amua ofele kwa kutumia ama [Accept] au [Reject]\n  - Mfano: 'Hii inaonekana kuwa sawa. [Accept]'\n            'Hii si haki. [Reject]'\n"
   },
   "round": {
     "begins": "--- Raundi {round_number} inaanza! ---\nMchezaji {proposer_id} ni mtoa pendekezo, Mchezaji {responder_id} ni mjibu.",
@@ -32,12 +32,12 @@
   "invalid_move": {
     "no_offer_format": "Muntu udi wela mukanda wa dilomba neenze mudimu ne mushindu eu [Offer: $X].",
     "bad_integer": "Tshitupa tshia mushinga tshidi ne bua kuikala bungi buonso.",
-    "out_of_range": "Offer ina bidi kati ya $0 na ${pool}.",
+    "out_of_range": "Ofele lazima iwe kati ya $0 na ${pool}.",
     "no_current_offer": "Kakuena tshintu tshidibu batupesha mpindieu bua kutuandamuna to.",
     "accept_or_reject": "Muntu udi ufila diandamuna didi ne bua kuikala [Accept] anyi [Reject]."
   },
   "outcome": {
     "win": "Mchezaji {winner} ameshinda na ${winner_total} jumla dhidi ya Mchezaji {loser}'s ${loser_total}.",
-    "draw": "Sawa! Wachezaji wote walimaliza na ${total} jumla."
+    "draw": "Suluhisho! Wachezaji wote wawili walimaliza kwa ${total} jumla."
   }
 }

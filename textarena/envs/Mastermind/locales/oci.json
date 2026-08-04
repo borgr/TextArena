@@ -13,7 +13,7 @@
     "repeated_guess": "Vos vau ja dire {guess}. Pròvatz una devinhòla diferenta, per favor."
   },
   "game_action": {
-    "feedback": "Submitted [{guess}]. Feedback: {black_pegs} black peg(s), {white_pegs} white peg(s)."
+    "feedback": "Sometètz [{guess}]. Retorn : {black_pegs} cavilha(s) negra(s), {white_pegs} cavilha(s) blanca(s)."
   },
   "outcome": {
     "win": "Avètz trapat lo còde, en resolvant {black_pegs} sus {code_length} pichs justament",

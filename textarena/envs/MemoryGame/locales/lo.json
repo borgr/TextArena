@@ -13,13 +13,13 @@
     "already_matched": "ການເຄື່ອນໄຫວທີ່ບໍ່ຖືກຕ້ອງ. ຜູ້ນ {player_id} ເລືອກເອົາບັດ ຫນຶ່ງ ຫຼືທັງສອງບັດທີ່ໄດ້ຈັບຄູ່ກັນແລ້ວ."
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "ກາດທີ່ຜູ້ຫຼິ້ນ {player_id} ເລືອກທີ່ຕຳແໜ່ງ [{r1} {c1}] ແລະ [{r2} {c2}] ຕອບຄວາມຈື່!",
+    "cards_no_match": "ກາດທີ່ຜູ້ຫຼິ້ນ {player_id} ເລືອກບໍ່ຕອບຄວາມຈື່. ກາດທີ່ຕຳແໜ່ງ [{r1} {c1}] ແລະ [{r2} {c2}] ແມ່ນ {pos1} ແລະ {pos2} ຕາມລຳດັບ."
   },
   "outcome": {
     "draw": "ຜູ້ຫຼິ້ນທັງສອງຄົນໄດ້ຈັບຄູ່ບັດເທົ່າກັນ.",
     "win": "ນັກເຕະ {winner_id} ໄດ້ຊະນະ!",
-    "turn_limit": "The turn limit has been reached. The game is over. Player 0 scored {score_0} points, Player 1 scored {score_1} points.",
+    "turn_limit": "ຮອບຫຼິ້ນຈົບຮອບ. ການຫຼິ້ນສິ້ນສຸດ. ຜູ້ຫຼິ້ນ 0 ໄດ້ {score_0} ຄະແນນ, ຜູ້ຫຼິ້ນ 1 ໄດ້ {score_1} ຄະແນນ.",
     "turn_limit_win": "{reason} ນັກເຕະ {winner_id} ໄດ້ຊະນະ!"
   }
 }

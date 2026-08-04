@@ -16,7 +16,7 @@
   },
   "game_action": {
     "skipped": "खेळाडू {pid}ला त्यांचा वळण वगळणे भाग पडले",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "खेळाडू {pid} ({piece}) ने [{r}, {c}] चाल खेळली आणि {flipped} तुकडे(स) बदलले"
   },
   "game_message": {
     "must_skip": "खेळाडू {pid} ({piece}) कडे कोणतेही वैध चाल नाहीत आणि तो उडी मारणे आवश्यक आहे."

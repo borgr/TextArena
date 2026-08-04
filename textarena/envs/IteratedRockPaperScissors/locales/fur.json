@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a {num_rounds}-round Rock-Paper-Scissors game.\nYour goal is to win as many rounds as possible.\nIn each round, respond with one of: '[rock]', '[paper]', or '[scissors]'.\nYou may also use '[r]', '[p]', or '[s]' as shorthand.\n"
+    "intro": "Tu sês Zugador {player_id} intune partide di {num_rounds} tornadis di Cjar-Pcjâr-Scjissors.\nIl tô scop al è di vincî tancj tornadis che pussibil.\nIn ogni tornadi, rispuint cun une des opzions: '[rock]', '[paper]', o '[scissors]'.\nTu puedis ancje doprâ '[r]', '[p]', o '[s]' come abbreviazion.\n"
   },
   "invalid_move": {
     "wrong_format": "Mozion no ricognossude. Usâ [rock], [paper], o [scissors]."

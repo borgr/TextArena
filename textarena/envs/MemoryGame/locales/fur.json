@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id}. You are playing the Memory Game.\nYour goal is to match more pairs of cards on the board, than your opponent.\nOn your turn, select two cards to flip by entering the row and column numbers of the first and second card respectively like '[0 1 1 0]', where the first card is in row 0 and column 1, and the second card is in row 1 and column 0.\nIf the two cards match, you get a point and the cards remain face up. If they do not match, the cards are flipped back face down, e.g. '.'.\nThe game ends when all pairs have been matched."
+    "intro": "Tu sês Zugadôr {player_id}. Tu sês a zuiâ il Gjûc de Memorie.\nIl tû obietîf al è di cjatâ plui cjopîs di cjartis sul taul, di chel dal tû aversari.\nTe tô volte, sielç dôs cjartis par voltâ jentrant i numars di rie e colonne de prime e seconde cjarte rispetivamentri come '[0 1 1 0]', dulà che la prime cjarte e je in rie 0 e colonne 1, e la seconde cjarte e je in rie 1 e colonne 0.\nSe lis dôs cjartis a cjatin, tu cjapis un pont e lis cjartis a restin cun la muse in sù. Se no cjatin, lis cjartis a vegnin voltadis cun la muse in jù, par esempli '.'.\nIl gjûc al finìs cuant che dutis lis cjopîs a son stadis cjatadis."
   },
   "board": {
     "current_board": "Comitât atuâl: {board}",
@@ -13,8 +13,8 @@
     "already_matched": "Moviment no valid. Il zuiadôr {player_id} al à selezionât une o dutis dôs lis schedis che a son za stadis compagnadis."
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "Lis cjartis sielzûtis dal Zugadôr {player_id} tes posizions [{r1} {c1}] e [{r2} {c2}] a cjatin!",
+    "cards_no_match": "Lis cjartis sielzûtis dal Zugadôr {player_id} no cjatin. Lis cjartis tes posizions [{r1} {c1}] e [{r2} {c2}] a son {pos1} e {pos2} rispetivamentri."
   },
   "outcome": {
     "draw": "Ducj i doi zuiadôrs a àn metût il stes numar di paris di schedis.",

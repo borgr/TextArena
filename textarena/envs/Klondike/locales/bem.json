@@ -16,7 +16,7 @@
     "{cards}": "The cards in a pile as neutral labels, or '--' if empty (never translate)"
   },
   "player_prompt": {
-    "intro": "You are playing Klondike Solitaire. Your goal is to move all cards to the foundation piles.\n\nGame Rules:\n- Foundation piles (F1-F4): Build up from Ace to King in suit\n- Tableau piles (T1-T7): Build down alternating colors (red on black, black on red)\n- Stock: Draw cards to waste pile\n- Waste (W): Top card available for play\n\nCommands:\n- 'draw' - Draw cards from stock to waste\n- 'move <source> <destination> [count]' - Move cards between piles\n  Examples: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count can also be 'all', which will try to move all face-up cards.\n- 'forfeit' - End the game immediately and lock in your current score\n- Pile names: W (waste), F1-F4 (foundations), T1-T7 (tableau)\n\nYou can execute multiple actions in one turn by separating them with commas:\n  Example: 'draw, move W T1, move T2 F1'\n\nOnly Kings can be placed on empty tableau piles.\nActions execute in order - if one fails, the remaining actions are skipped.\nUse 'forfeit' if you believe the game is impossible to win."
+    "intro": "Mwena uli na kusebanya Klondike Solitaire. Mulengo wako ni kuyamisha kadi zote ku kashana kwa mpangilio.\n\nMikwamo ya Mchezo:\n- Kashana kwa mpangilio (F1-F4): Kuyenga kwa kadi kutoka Ace hadi King kwa rangi\n- Kashana kwa kusebanya (T1-T7): Kuyenga kwa kadi kwa kubadilishana rangi (nyekundu pa sumu, sumu pa nyekundu)\n- Sitokwe: Kuyamisha kadi ku kashana kwa kusebanya\n- Kashana kwa kusebanya (W): Kadi ya juu ikapatikana kwa kusebanya\n\nMaagizo:\n- 'draw' - Yengula kadi kutoka sitokwe ku kashana kwa kusebanya\n- 'move <source> <destination> [count]' - Yamisha kadi kati ya kashana\n  Mifano: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count inaweza kuwa 'all', ambayo itakusudia kuyamisha kadi zote zilizo wazi.\n- 'forfeit' - Maliza mchezo mara moja na kubana alama yako ya sasa\n- Majina ya kashana: W (kashana kwa kusebanya), F1-F4 (kashana kwa mpangilio), T1-T7 (kashana kwa kusebanya)\n\nUngaweza kutekeleza vitendo vingi kwa zamu moja kwa kuvitenganisha na vidoti:\n  Mfano: 'draw, move W T1, move T2 F1'\n\nNi Mafumu pekee angawamika pa kashana kwa kusebanya kwa kubadilishana.\nVitendo vinafanya kwa mpangilio - ukishindwa kimoja, vitendo vilivyosalia vitapuuzwa.\nTumia 'forfeit' ukiamini kwamba mchezo hauwezekani kushinda."
   },
   "format_error": {
     "no_brackets": "Ifya kucita fyalibipa. Fyonse fifwile ukuba mu makola (brackets).",
@@ -24,9 +24,9 @@
     "empty_command": "Ifunde lya fye. Type 'draw' nangu 'move <source><destination> [count]'.",
     "empty_action": "Icintu icabula ukucitwa",
     "move_needs_args": "Ifunde lya 'move' lifwaya intulo ne cifulo uko baleya. Ukubomfya: \"move <source> <destination> [count]\"",
-    "count_positive": "Ukumoneka kwacilamo nangu 'bonse'",
-    "count_invalid": "Ukupenda takwafikapo. Ulebomfya inambala nelyo 'bonse'",
-    "unknown_command": "Unknown command '{cmd}'. Use 'draw', 'move <source> <destination> [count]', or 'forfeit'",
+    "count_positive": "Count iliyopo iwe chanya au 'all'",
+    "count_invalid": "Count isiyowezwa. Tumia nambari au 'all'",
+    "unknown_command": "Malamo yamubili '{cmd}'. Tumia 'draw', 'move <source> <destination> [count]', au 'forfeit'",
     "wrapped": "Action {n}: {msg}"
   },
   "action_result": {
@@ -49,7 +49,7 @@
     "waste_to_tableau_bad": "Tekuti mubike card ya busaka pali tableau pile iyo.",
     "no_face_up": "Takwaba amakardi ayabuuta ayo twingafumyapo.",
     "tableau_to_tableau_ok": "Iligeuza {count} kadi(s) kutoka tableau T{src} hadi T{dst}",
-    "tableau_to_tableau_bad": "Cannot move {count} card(s) from T{src} to T{dst}",
+    "tableau_to_tableau_bad": "Haiwezekani kuhamisha kadi {count} kutoka T{src} hadi T{dst}",
     "foundation_to_tableau_one_card": "Kuti wasenda fye kardi imo ukufuma pa nshi ukuya ku cipinda ca mu kati.",
     "foundation_empty": "Icikulwa F{src} tacilipo.",
     "foundation_to_tableau_ok": "Iligeuza kadi kutoka foundation F{src} hadi tableau T{dst}",
@@ -59,7 +59,7 @@
   "outcome": {
     "forfeit": "Ukuteya kwalipwa. Ama point ya kulekeleshako: {score} ama card mu ma foundation.",
     "won": "Mwabomba bwino, mwalicimfya mu Klondike Solitaire!",
-    "turn_limit": "Mchezo umemaliza! Umeifikia kiwango cha juu zaidi cha {max_turns} turns. Alama: {score} kadi kwenye foundation."
+    "turn_limit": "Mchezo umemalizika! Umefikia kiwango cha juu cha {max_turns} zamu. Alama: {score} kadi katika msingi."
   },
   "board": {
     "title": "=== KLONDIKE SOLITAIRE=== (Uwa Kubuusha)",

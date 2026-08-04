@@ -1,11 +1,11 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in an Iterated Prisoner's Dilemma spanning {num_rounds} rounds.\n\nGame Structure:\n- Before each decision you have {total_conversation_rounds} turns to communicate freely.\n- After that, both players simultaneously choose to cooperate or defect.\n\nPayoff Matrix (fixed each round):\n- Both Cooperate ➜ each {cooperate_reward}\n- Both Defect ➜ each {mutual_defect_reward}\n- One Defects, one Cooperates ➜ Defector {defect_reward}, Cooperator {sucker_reward}\n\nHow to Play:\n- During conversation: type any text you wish.\n- During decision phase: include '[Cooperate]' or '[Defect]' (case-insensitive). You may add extra text before/after the token."
+    "intro": "Am ạmi Player {player_id} Iterated Prisoner's Dilemma ṭhakurạy ṭiṅ {num_rounds} ṭhuruy reḷe.\n\nKhela ṭhakurạy:\n- Sạbhnạ ṭhuruy ṭiṅ ạmi {total_conversation_rounds} ṭhuruy ṭiṅ katha kạmi ṭhurạy.\n- Ṭhakurạy ṭiṅ, ṭhuruy ṭiṅ ṭhuruy ṭhakurạy ṭiṅ cooperate ṭhuruy defect ṭhuruy ṭhurạy.\n\nPayoff Matrix (ṭiṅ ṭhuruy ṭhakurạy):\n- Ṭhuruy Cooperate ➜ ṭiṅ {cooperate_reward}\n- Ṭhuruy Defect ➜ ṭiṅ {mutual_defect_reward}\n- Ṭhuruy Ṭiṅ Defects, Ṭhuruy Ṭiṅ Cooperates ➜ Defector {defect_reward}, Cooperator {sucker_reward}\n\nKhela ṭhurạy:\n- Katha kạmi ṭhuruy: ạmi katha kạmi ṭhurạy.\n- Ṭhuruy ṭhakurạy ṭiṅ: '[Cooperate]' ṭhuruy '[Defect]' ṭhuruy ṭhurạy (case-insensitive). Ạmi katha kạmi ṭhuruy ṭiṅ ṭhuruy ṭhuruy ṭhuruy ṭhurạy."
   },
   "phases": {
-    "conversation_finished": "Conversation finished for round {round}. Please reply with '[Cooperate]' or '[Defect]' within \\boxed{{}}.",
+    "conversation_finished": "Katha kạmi ṭhuruy ṭiṅ ṭhuruy {round}. '[Cooperate]' ṭhuruy '[Defect]' ṭhuruy ṭhuruy \\boxed{{}} ṭhuruy ṭhurạy.",
     "starting_round": "--- ᱮᱛᱚᱦᱚᱵ ᱨᱟᱣᱩᱱᱰ {round} ---",
-    "round_summary": "Round {round} results:\n{outcome}\nPlayer 0 earned {r0} (total {score_0}), Player 1 earned {r1} (total {score_1})."
+    "round_summary": "ᱨᱟᱣᱩᱱᱰ {round} ᱨᱮᱡᱟᱞᱴ:\n{outcome}\nᱯᱞᱮᱭᱟᱨ 0 ᱧᱟᱢᱟᱢ {r0} (ᱡᱚᱛᱚ {score_0}), ᱯᱞᱮᱭᱟᱨ 1 ᱧᱟᱢᱟᱢ {r1} (ᱡᱚᱛᱚ {score_1})."
   },
   "outcome": {
     "winner": "Player {winner} ᱡᱤᱛᱠᱟᱹᱨ ᱮᱱᱟ {win_score} - {lose_score}.",

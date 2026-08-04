@@ -1,13 +1,13 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a {num_rounds}-round of IteratedTwoThirdsAverage.\nEach round, guess a number between {min_guess} and {max_guess}.\nAfter both guesses, the target is (2/3)x(average of both guesses),\nand the player whose guess is closest to the target wins that round.\nReply with your guess in the format '[<number>]'."
+    "intro": "Ami Player {player_id} IteratedTwoThirdsAverage ᱨᱮ {num_rounds}-ᱜᱚᱴᱟᱝ ᱨᱟᱣᱩᱱᱰ ᱨᱮ ᱢᱮᱱᱟᱢ᱾\nᱯᱨᱚᱛᱤ ᱨᱟᱣᱩᱱᱰ ᱨᱮ, {min_guess} ᱟᱨ {max_guess} ᱛᱟᱞᱟ ᱨᱮ ᱢᱤᱫ ᱮᱞ ᱟᱸᱫᱟᱡᱽ ᱮᱢ᱾\nᱵᱟᱱᱟᱨ ᱟᱸᱫᱟᱡᱽ ᱛᱟᱭᱚᱢ, ᱞᱟᱹᱠᱛᱤ (᱒/᱓)ᱡᱟᱹᱱ (ᱵᱟᱱᱟᱨ ᱟᱸᱫᱟᱡᱽ ᱨᱮᱭᱟᱜ ᱜᱟᱹᱰᱤ),\nᱟᱨ ᱡᱟᱦᱟᱸ ᱠᱷᱮᱞᱚᱸᱰᱤᱭᱟᱹ ᱟᱸᱫᱟᱡᱽ ᱞᱟᱹᱠᱛᱤ ᱥᱩᱨ ᱨᱮ ᱛᱟᱦᱮᱸᱱᱟ ᱩᱱᱤ ᱨᱟᱣᱩᱱᱰ ᱡᱤᱛᱟᱹᱣ᱾\nᱟᱢᱟᱜ ᱟᱸᱫᱟᱡᱽ ᱨᱤᱯᱞᱟᱭ ᱢᱮ '[<number>]'."
   },
   "invalid_move": {
     "wrong_format": "ᱵᱟᱹᱞᱤᱜᱽ ᱯᱷᱚᱨᱢᱮᱴ; ᱟᱢᱟᱜ ᱜᱟᱱᱟᱝ [<number>] ᱞᱮᱠᱟᱛᱮ ᱮᱢᱟ ᱢᱮ ᱾",
-    "out_of_range": "Guess must be between {min_guess} and {max_guess}."
+    "out_of_range": "ᱟᱸᱫᱟᱡᱽ {min_guess} ᱟᱨ {max_guess} ᱛᱟᱞᱟ ᱨᱮ ᱛᱟᱦᱮᱸ ᱞᱟᱹᱠᱛᱤ᱾"
   },
   "message": {
-    "round_guesses": "Player 0 guessed {guess0}; Player 1 guessed {guess1}. Thus the Target is: {target}.",
+    "round_guesses": "ᱠᱷᱮᱞᱚᱸᱰᱤᱭᱟᱹ ᱐ {guess0} ᱟᱸᱫᱟᱡᱽ ᱞᱮᱫᱟ; ᱠᱷᱮᱞᱚᱸᱰᱤᱭᱟᱹ ᱑ {guess1} ᱟᱸᱫᱟᱡᱽ ᱞᱮᱫᱟ᱾ ᱚᱱᱟᱛᱮ ᱞᱟᱹᱠᱛᱤ ᱫᱚ: {target}᱾",
     "round_draw": "ᱨᱚᱸᱰ ᱫᱚ ᱰᱨᱤ ᱠᱟᱱᱟ ᱾",
     "round_win": "ᱠᱷᱮᱞᱚᱸᱰᱤᱭᱟᱹ {winner} ᱫᱚ ᱨᱟᱣᱩᱱᱰ ᱡᱤᱛᱠᱟ. ᱠᱟᱱᱟᱭ!"
   },

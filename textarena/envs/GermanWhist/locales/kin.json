@@ -60,8 +60,8 @@
     "not_started": "Umukino ntutangira",
     "header": "=== Ikiganiro cyo mu rurimi rw'Ikidage GAME WIST===",
     "phase": "{observation}\nPhase: {phase}",
-    "trump_suit": "{observation}\nTrump suit: {trump_suit}",
-    "trump_card": "{observation}\nTrump card: {card}",
+    "trump_suit": "{observation}\nUrupfu rw'ishyaka: {trump_suit}",
+    "trump_card": "{observation}\nIkarata ya trump: {card}",
     "cards_left": "{observation}\nKari zisigaye ku nda: {count}",
     "next_card": "{observation}\nKarti inayofuata kwa mshindi: {card}",
     "blank": "{observation}  ibyo mu gihugu cyawe.",
@@ -71,6 +71,6 @@
     "player_line": "{observation}\nMwari {player_id}: {scoring} mikwano ({tricks} jumla), {hand_size} kari mikononi"
   },
   "outcome": {
-    "summary": "Learning phase - Player 0: {l0}, Player 1: {l1}. Playing phase - Player 0: {p0}, Player 1: {p1}. Player {winner_id} wins with {winner_tricks} scoring tricks!"
+    "summary": "Igice cyo kwiga - Umukinnyi 0: {l0}, Umukinnyi 1: {l1}. Igice cyo gukina - Umukinnyi 0: {p0}, Umukinnyi 1: {p1}. Umukinnyi {winner_id} atsinda na {winner_tricks} majwi ya manini!"
   }
 }

@@ -21,12 +21,12 @@
     "{total}": "Each player's tied final total (a number)"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id}, playing {num_rounds} rounds of Iterated Ultimatum Game.\nYou have ${pool} to split this round between yourself and Player {other_id}.\n\nProposer:\n  - Make an offer: [Offer: $X] (0 <= X <= pool)\n  - If accepted → You get $(pool - X), other player gets $X\n  - If rejected → Both get $0\n  - Example: [Offer: $3]  or  'I think this is fair. [Offer: $5]'\n\nResponder:\n  - Decide on the offer with either [Accept] or [Reject]\n  - Example: 'That seems reasonable. [Accept]'\n            'Too unfair. [Reject]'\n"
+    "intro": "Та Тоглогч {player_id} байна, {num_rounds} тойргийн Iterated Ultimatum Game тоглож байна.\nТа энэ тойргийн төсөв ${pool}-ийг өөрөө болон Тоглогч {other_id}-тай хувааж байна.\n\nСанал гаргагч:\n  - Санал гарга: [Offer: $X] (0 <= X <= pool)\n  - Хүлээн зөвшөөрөгдсөн бол → Та $(pool - X) авна, нөгөө тоглогч $X авна\n  - Татгалзсан бол → Хоёулаа $0 авна\n  - Жишээ: [Offer: $3]  эсвэл  'Би энэ нь шударга гэж бодож байна. [Offer: $5]'\n\nХариулагч:\n  - Саналыг [Accept] эсвэл [Reject] гэж шийд\n  - Жишээ: 'Энэ нь шударга гэж байна. [Accept]'\n            'Хэтэрхий шударга бус. [Reject]'\n"
   },
   "round": {
-    "begins": "--- Round {round_number} begins! ---\nPlayer {proposer_id} is the proposer, Player {responder_id} is the responder.",
+    "begins": "--- Тойргийн {round_number} эхэллээ! ---\nТоглогч {proposer_id} санал гаргагч, Тоглогч {responder_id} хариулагч.",
     "offer": "Тоглолт {round_number}: Тоглогч {proposer_id} нь Тоглогч {responder_id}-д ${offer} санал болгож (${keep} хадгалах).",
-    "accepted": "Player {responder_id} accepted! Round {round_number} gains: Player {proposer_id} +${proposer_gain}, Player {responder_id} +${responder_gain}. New totals: Player 0: ${total_0}, Player 1: ${total_1}.",
+    "accepted": "Тоглогч {responder_id} хүлээн зөвшөөрлөө! Тойргийн {round_number} орлого: Тоглогч {proposer_id} +${proposer_gain}, Тоглогч {responder_id} +${responder_gain}. Шинэ нийт дүн: Тоглогч 0: ${total_0}, Тоглогч 1: ${total_1}.",
     "rejected": "Тоглогч {responder_id} хүсэлтийг зөвшөөрөөгүй! {round_number} тойргийн орлого: Хоёр тоглогч +$0. Нийт үлдэц: Тоглогч 0: ${total_0}, Тоглогч 1: ${total_1}."
   },
   "invalid_move": {
@@ -37,7 +37,7 @@
     "accept_or_reject": "Хариуцсан нь санал болгохыг [Accept] эсвэл [Reject]"
   },
   "outcome": {
-    "win": "Player {winner} won with ${winner_total} total vs Player {loser}'s ${loser_total}.",
+    "win": "Тоглогч {winner} ${winner_total} нийт дүнгээр яллаа, Тоглогч {loser} ${loser_total} нийт дүнтэй байлаа.",
     "draw": "Хоёр тоглогч ${total}-тай төгссөн."
   }
 }

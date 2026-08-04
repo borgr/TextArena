@@ -9,13 +9,13 @@
     "progress": "{observation}\nNòt kouran pwogres: {progress}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use `[i j op]` where i,j are indices and op is +,-,*,/",
+    "wrong_format": "Fòma aksyon invalid. Itilize `[i j op]` kote i,j se endèks yo ak op se +,-,*,/",
     "invalid_indices": "Endis envalid yo. dwe diferan epi nan ranje 0-{max_index}",
     "invalid_operation": "Operasyon ki pa valab (divizyon ak zewo oswa rezilta non-entijè)"
   },
   "outcome": {
     "win": "Pafè! jwenn sib egzak: {target}",
     "no_moves": "Pa gen mouvman anplis. Rezilta pi bon: {best_value} (target: {target})",
-    "turn_limit": "Turn limit reached. Best result: {best_value} (target: {target})"
+    "turn_limit": "Limit mouvman atenn. Pi bon rezilta: {best_value} (objektif: {target})"
   }
 }

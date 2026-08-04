@@ -13,8 +13,8 @@
   "outcome": {
     "white_reached": "ᱣᱤᱴ ᱫᱚ ᱵᱞᱮᱠ ᱟᱜ ᱦᱚᱢ ᱨᱟᱭ ᱨᱮᱭ ᱥᱮᱱ ᱮᱱᱟ ᱾",
     "black_reached": "ᱵᱞᱮᱠ ᱫᱚ ᱣᱟᱭᱴ ᱟᱜ ᱦᱚᱢ ᱨᱚᱝ ᱨᱮᱭ ᱥᱮᱱ ᱮᱱᱟ ᱾",
-    "white_captured": "All White pieces captured.",
-    "black_captured": "All Black pieces captured.",
+    "white_captured": "ᱣᱟᱭᱤᱴ ᱨᱮᱭᱟᱜ ᱡᱚᱛᱚ ᱴᱩᱠᱩᱡ ᱠᱮᱯᱪᱚᱨ ᱠᱟᱱᱟ᱾",
+    "black_captured": "ᱵᱞᱮᱠ ᱨᱮᱭᱟᱜ ᱡᱚᱛᱚ ᱴᱩᱠᱩᱡ ᱠᱮᱯᱪᱚᱨ ᱠᱟᱱᱟ᱾",
     "no_moves": "ᱠᱷᱮᱞᱚᱸᱰᱤᱭᱟᱹ {player_id} ᱫᱚ ᱟᱨᱦᱚᱸ ᱵᱟᱭ ᱥᱮᱱᱚᱜᱼᱟ ᱾"
   }
 }

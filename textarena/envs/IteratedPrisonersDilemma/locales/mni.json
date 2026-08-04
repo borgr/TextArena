@@ -1,14 +1,14 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in an Iterated Prisoner's Dilemma spanning {num_rounds} rounds.\n\nGame Structure:\n- Before each decision you have {total_conversation_rounds} turns to communicate freely.\n- After that, both players simultaneously choose to cooperate or defect.\n\nPayoff Matrix (fixed each round):\n- Both Cooperate ➜ each {cooperate_reward}\n- Both Defect ➜ each {mutual_defect_reward}\n- One Defects, one Cooperates ➜ Defector {defect_reward}, Cooperator {sucker_reward}\n\nHow to Play:\n- During conversation: type any text you wish.\n- During decision phase: include '[Cooperate]' or '[Defect]' (case-insensitive). You may add extra text before/after the token."
+    "intro": "Nang Player {player_id} oiba Iterated Prisoner's Dilemma {num_rounds} round sagatpa.\n\nGame Structure:\n- Decision okchari koina {total_conversation_rounds} turns ta chat leibak oiradi.\n- Aduga, khara player na cooperate leiba defect leibada eikhoi thokpa.\n\nPayoff Matrix (prati round eikhoi):\n- Khara Cooperate ➜ prati {cooperate_reward}\n- Khara Defect ➜ prati {mutual_defect_reward}\n- Oka Defects, oka Cooperates ➜ Defector {defect_reward}, Cooperator {sucker_reward}\n\nKinba Paibi:\n- Chat hourak: nang chat leibak oiradi.\n- Decision hourak: '[Cooperate]' emba '[Defect]' (case-insensitive) shaoradi. Nang text shaorakpa adu thokpa."
   },
   "phases": {
-    "conversation_finished": "Conversation ṣārṅga round {round} ṭhāmna. Please reply with '[Cooperate]' or '[Defect]' within \\boxed{{}}.",
-    "starting_round": "--- হৌরকপা রাউন্দ {round} ---",
-    "round_summary": "Round {round} ṭhāmna:\n{outcome}\nPlayer 0 ṅākṣī ṭhāmna {r0} (total {score_0}), Player 1 ṅākṣī ṭhāmna {r1} (total {score_1})."
+    "conversation_finished": "Chat leibak oiradi round {round}. '[Cooperate]' emba '[Defect]' \\boxed{{}} shaoradi.",
+    "starting_round": "--- Round {round} Shuru ---",
+    "round_summary": "মুখ্যম মকুং {round} কীর্তি:\n{outcome}\nখেলোয়াড় ০ নুং লাভ করে {r0} (মোট {score_0}), খেলোয়াড় ১ নুং লাভ করে {r1} (মোট {score_1})."
   },
   "outcome": {
-    "winner": "Player {winner} wins {win_score} - {lose_score}.",
+    "winner": "Player {winner} {win_score} - {lose_score} jite.",
     "draw": "শান্নরোই অনিমক্না গোল চনখি {s0}।",
     "round_both_cooperate": "শান্নরোই অনিমক্না মতেং পাংনখি।",
     "round_both_defect": "শান্নরোই অনিমক্না দিজর্টেদ তৌখি।",

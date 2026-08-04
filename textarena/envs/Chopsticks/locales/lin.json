@@ -3,7 +3,7 @@
     "intro": "Oyo ozali Joueur {player_id} na Chopsticks. Na tango ya yo, chagua moja ya:\n  + Ekoka:  '[attack M O]'  where M=linya ya yo (0 or 1), O=linya ya mokonzi (0 or 1).\n    - Linya ya mokonzi ekomi na linya ya yo; iko >=5, ezali 0.\n  + Kabwaka:   '[split L R]'  kosila malamu linya ya yo na L na R (L+R = malamu ya yo).\nTika na moja ya batu oyo."
   },
   "board": {
-    "current_board": "Ebale ya Sika:\nJoueur 0: {hands_0}\nJoueur 1: {hands_1}"
+    "current_board": "Bodi ya sasa:\nMokili 0: {hands_0}\nMokili 1: {hands_1}"
   },
   "invalid_move": {
     "my_hand_dead": "Lobɔkɔ na yo {my_idx} ekufi.",
@@ -14,13 +14,13 @@
   },
   "game_action": {
     "attack": "P{player_id} ekoki P{opp_id}’s hand {opp_idx}: ezali kozua na {opp_val} to {new_val}.",
-    "split": "P{player_id} splits into [{L}, {R}]."
+    "split": "P{player_id} akata na [{L}, {R}]."
   },
   "history": {
     "entry": "P{player_id} {desc}"
   },
   "outcome": {
-    "win": "Both opponent hands dead.",
+    "win": "Maboko yote mawili ya mpinzani imekufa.",
     "draw": "Tokómi na ndelo ya esika oyo tokoki kobongwana."
   }
 }

@@ -11,7 +11,7 @@
     "not_legal": "Dole ne a yi aiki {legal_actions}."
   },
   "action": {
-    "submit_move": "Player {player_id}, submitted move: '[{move}]'.",
+    "submit_move": "Dan wasa {player_id}, ya gabatar da motsi: '[{move}]'.",
     "valid_actions": "Ayyukanku na samuwa sune: {legal_actions}.",
     "round_summary": "{reason} Sakamakon yanzu: Mai kunnawa 0: \"{player_0_chips}\"; Mai kunnawa 1: \"{player_1_chips}\""
   },

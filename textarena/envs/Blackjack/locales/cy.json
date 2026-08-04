@@ -9,7 +9,7 @@
     "wrong_format": "Gweithredu aflan. Defnyddiwch \"[Hit]\" neu \"[Stand]\"."
   },
   "game_message": {
-    "hand_result": "Hand {hand_number}: you {outcome}. Your final {player_score}, Dealer {dealer_score}.",
+    "hand_result": "Llaw {hand_number}: rydych chi {outcome}. Eich sgôr terfynol {player_score}, Deliwr {dealer_score}.",
     "all_complete": "=== Mae'r holl lawiau {num_hands} wedi'u cwblhau === Gwrthrychau: {wins}, Colledion: {losses}, Tynnwch: {draws} "
   },
   "outcome": {

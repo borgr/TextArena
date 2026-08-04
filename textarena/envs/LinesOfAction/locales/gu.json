@@ -10,7 +10,7 @@
     "{to}": "The destination coordinate of a move, such as b3"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in game of LinesOfAction.\nYour pieces are '{side}', opponent pieces are '{other}'.\nMove format: `[b1b3]` (from-coord to-coord). A legal move travels horizontally, vertically, or diagonally a number of squares equal to the total pieces (any colour) in that line. You may jump over your own pieces, but not opponent pieces; landing on an opponent captures it.  Win when all your pieces are 8-neighbour connected."
+    "intro": "તમે LinesOfAction ની રમતમાં ખેલાડી {player_id} છો.\nતમારા પીસ '{side}' છે, વિરોધીના પીસ '{other}' છે.\nમૂવ ફોર્મેટ: `[b1b3]` (સ્ત્રોત-કોઓર્ડિનેટ થી ગંતવ્ય-કોઓર્ડિનેટ). કાયદેસરનો મૂવ આડો, ઊભો, અથવા તિર્યક હોય છે અને તે લાઇનમાં રહેલા પીસની સંખ્યા જેટલા ચોરસ ખસે છે. તમે તમારા પોતાના પીસ પર કૂદી શકો છો, પરંતુ વિરોધીના પીસ પર નહીં; વિરોધીના પીસ પર ઉતરતાં તે કેપ્ચર થાય છે. જ્યારે તમારા બધા પીસ 8-પડોશી જોડાયેલા હોય ત્યારે જીતો."
   },
   "board": {
     "current_board": "બોર્ડઃ {board}"

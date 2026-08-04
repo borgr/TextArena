@@ -12,7 +12,7 @@
     "invalid_position": "Moviment invalid - no se pò movè a quella posizion."
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
+    "moved": "Te {pushed} te see mövuu [{action}].",
     "pushed_prefix": "spintava una scatola mentre che"
   },
   "outcome": {

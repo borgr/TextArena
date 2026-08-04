@@ -14,7 +14,7 @@
   },
   "game_action": {
     "attack": "P{player_id} i go long han bilong P{opp_id} {opp_idx}: em i lusim {opp_val} na i go kamap {new_val}.",
-    "split": "P{player_id} splits into [{L}, {R}]."
+    "split": "P{player_id} i kavim long [{L}, {R}]."
   },
   "history": {
     "entry": "P{player_id} {desc}"

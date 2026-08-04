@@ -16,7 +16,7 @@
   "invalid_move": {
     "wrong_format": "अवैध इनपुट प्रारूप। उपयोगः ए: 5, बी 10: 10, सी 5:",
     "invalid_field": "अवैध फ़ील्ड नाम ()) वैध क्षेत्र: {field_names}",
-    "wrong_allocation_value": "All allocations must be non-negative integers.",
+    "wrong_allocation_value": "सब आवंटन गैर-नकारात्मक पूर्णांक होना चाही",
     "incorrect_total_units": "आपको ठीक {num_total_units} यूनिट आवंटित करना होगा। वर्तमान योग: {current_sum}",
     "good_allocations": "आवंटन अच्छा हइ ।"
   },

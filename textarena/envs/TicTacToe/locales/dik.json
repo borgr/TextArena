@@ -7,10 +7,10 @@
     "{cell}": "A board cell number between 0 and 8"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Tic Tac Toe.\nYour goal is to win three in a row (horizontally, vertically, or diagonally) on the board.\nOn your turn, you should select the square number (0-8) you want to put your mark in next.\nFor example, '[4]' places your mark in the center cell of the board.\nAs Player {player_id}, you will be '{symbol}', while your opponent is '{opponent_symbol}'."
+    "intro": "Yïn akïïm {player_id} në Tic Tac Toe.\nTïïtdu aye tïmëtëm ëbɛ̈n (wëu, nhïïm ku dɛ̈ɛ̈r) në pɛ̈ɛ̈l.\nNë wëu yïn, yïn aye tïmëtëm akïïm de wël (0-8) yïn aye tïmëtëm yïn kuɔɔc në.\nTɛ̈ɛ̈ŋ, '[4]' aye tïmëtëm yïn kuɔɔc në akïïm de wël de pɛ̈ɛ̈l.\nNë akïïm {player_id}, yïn aye '{symbol}', wɛ̈ɛ̈l yïn pɛ̈ɛ̈l aye '{opponent_symbol}'."
   },
   "board": {
-    "current_board": "Current Board:\n\n{board}\n\nAvailable Moves: {moves}"
+    "current_board": "Pɛ̈ɛ̈l Tɛ̈ɛ̈ŋ:\n\n{board}\n\nWëu Kɔ̈ɔ̈c: {moves}"
   },
   "invalid_move": {
     "wrong_format": "Lɔ̈k ë cäth cï tuɔ̈c acie lɔ në të path.",

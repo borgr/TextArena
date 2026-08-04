@@ -1,6 +1,6 @@
 {
   "game_start": {
-    "intro": "The game begins. Trump suit: {trump_suit} (trump card: {trump_str}).",
+    "intro": "Tbda tuzzalt. Aɣrf n uzzal: {trump_suit} (takarḍa n uzzal: {trump_str}).",
     "no_trump_card": "ⵓⵔ ⵉⵍⵍⵉ ⴽⵔⴰ ⵢⴰⴹⵏ."
   },
   "player_prompt": {
@@ -17,7 +17,7 @@
   "invalid_move": {
     "wrong_format": "ⵜⴰⵍⵖⴰ ⵏ ⵓⵎⵓⵙⵙⵓ ⵓⵔ ⵜⵓⵙⵍⵉⴳ. ⵙⵎⵔⵙⵏ \"[play N]\" ⵃⵎⴰ ⴰⴷ ⵜⵙⵓⵔⴰⵔⴷ ⵜⵉⴽⵕⴹⵉ ⵜⵉⵙ ⴽⵔⴰⵜ ⴳ ⵓⴼⴰⵙⵉⵔ ⵏⵏⵓⵏ.",
     "bad_position": "Lḥal n tikt ur yeṭṭafar. Tekki {hand_size} tiktiwin.",
-    "must_follow_suit": "You must follow suit and play a {lead_suit} card.",
+    "must_follow_suit": "Khass tkemmel tiɣri d uẓeṭṭa {lead_suit}.",
     "invalid_play": "ⵓⵔ ⵜⵣⵎⵔⴷ ⴰⴷ ⵜⴰⵡⵙⴷ ⴳ ⵜⵡⵓⵔⵉ ⵢⴰⴷ."
   },
   "game_action": {
@@ -60,17 +60,17 @@
     "not_started": "ⵓⵔ ⵜⴱⴷⴰ ⵜⵎⵣⴳⵓⵏⵜ.",
     "header": "=== ⵜⴰⵡⴰⵍⵜ ⵏ ⵡⵉⵙⵉ ⴰⵍⵉⵎⴰⵏ===",
     "phase": "{observation}\nTaneṭṭa: {phase}",
-    "trump_suit": "{observation}\nTrump suit: {trump_suit}",
-    "trump_card": "{observation}\nTrump card: {card}",
-    "cards_left": "{observation}\nCards left in deck: {count}",
-    "next_card": "{observation}\nNext card for winner: {card}",
+    "trump_suit": "{observation}\nAɣrf n uzzal: {trump_suit}",
+    "trump_card": "{observation}\nTakarḍa n uzzal: {card}",
+    "cards_left": "{observation}\nTikerḍiwin zɣ ṣṣṛa: {count}",
+    "next_card": "{observation}\nTakarḍa n wajjajj n ussɣim: {card}",
     "blank": "{observation} ⵄⵉⵏⴰ ⵎⵔⵢⵎ",
     "current_trick": "{observation} ⵜⴰⵡⵓⵔⵉ ⵏⵉⵖ:",
     "trump_indicator": "(ⵜⵔⴰⵎⴱ)",
     "trick_line": "{observation}\n  Amseqdac {player_id}: {card}{trump_indicator}",
-    "player_line": "{observation}\nPlayer {player_id}: {scoring} scoring tricks ({tricks} total), {hand_size} cards in hand"
+    "player_line": "{observation}\nAmurar {player_id}: {scoring} tuzzaltin n ussɣim ({tricks} tinemhulin), {hand_size} n tikerḍiwin ɣer ṣṣṛa nns"
   },
   "outcome": {
-    "summary": "Learning phase - Player 0: {l0}, Player 1: {l1}. Playing phase - Player 0: {p0}, Player 1: {p1}. Player {winner_id} wins with {winner_tricks} scoring tricks!"
+    "summary": "Tazzla n ussɣim - Amurar 0: {l0}, Amurar 1: {l1}. Tazzla n uzzal - Amurar 0: {p0}, Amurar 1: {p1}. Amurar {winner_id} ittɣal s {winner_tricks} tuzzaltin n ussɣim!"
   }
 }

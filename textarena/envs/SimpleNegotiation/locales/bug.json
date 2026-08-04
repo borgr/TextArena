@@ -1,11 +1,11 @@
 {
   "player_prompt": {
-    "intro": "Anda adalah Pamain {player_id} dalam Permainan Negosiasi.\nAnda memiliki beberapa sumber daya, dan tugas Anda adalah untuk berdagang sehingga nilai total sumber daya Anda meningkat.\nSumber daya dan nilai yang terkait yang Anda miliki saat ini adalah:\n\t+ {resource_value_list}\nPada setiap giliran, Anda dapat berbicara dengan lawan Anda dan membuat penawaran perdagangan.\nGunakan token khusus berikut untuk tindakan:\n  - '[Tawaran: 3 Domba, 2 Bijih -> 5 Batu Bata, 2 Domba]': [Tawaran: Sumber Daya yang Ditawarkan -> Sumber Daya yang Diminta]\n  - '[Accept]': Untuk menerima penawaran masuk.\n  - '[Deny]': Untuk menolak penawaran masuk (default).\nPermainan berlangsung selama {max_turns} giliran secara total."
+    "intro": "Anda adalah Pamain {player_id} dalam Permainan Negosiasi.\nAnda memiliki beberapa sumber daya, dan tugas Anda adalah untuk berdagang sehingga nilai total sumber daya Anda meningkat.\nSumber daya dan nilai yang terkait yang Anda miliki saat ini adalah:\n\t+ {resource_value_list}\nPada setiap giliran, Anda dapat berbicara dengan lawan Anda dan membuat penawaran perdagangan.\nGunakan token khusus berikut untuk tindakan:\n  - '[Offer: 3 Sheep, 2 Ore -> 5 Brick, 2 Sheep]': [Offer: Offered Resources -> Requested Resources]\n  - '[Accept]': Untuk menerima penawaran masuk.\n  - '[Deny]': Untuk menolak penawaran masuk (default).\nPermainan berlangsung selama {max_turns} giliran secara total."
   },
   "invalid_move": {
     "receiving_with_no_resource": "Pelaennge nacoba natarima pergantiang de'na punnai sumber daya iyya parellu.",
-    "out_of_range": "Pamain {player_id}, Tindakan invalid. Kolom {col} di luar batas.",
-    "already_full": "Player {player_id}, Invalid action. Column {col} is full.",
+    "out_of_range": "Pamain {player_id}, Aksi tena' valid. Kolom {col} tena' berada ri batasan.",
+    "already_full": "Pamain {player_id}, Aksi tena' valid. Kolom {col} tena' penu.",
     "proposing_with_no_resource": "Player {player_id} nacoba'i mabbere tawaran perubahang de nappunnai sumber daya iya parellu.",
     "incorrect_offer_format": "Pelaen {player_id} nawarengi penawaran ri laleng format iya de'na coco.",
     "no_new_offer": "Player {player_id} de'na nabbere tawaran baru."
@@ -13,10 +13,10 @@
   "offers": {
     "reject": "Pelaen {player_id} nabali'i tawaran appinrangeng.",
     "accept": "Pamain {acceptor_id} menerima tawaran perdagangan dari Pamain {proposer_id}.",
-    "proposal": "Pamain {player_id} membuat penawaran berikut kepada Pamain {opponent_id}: Barang yang ditawarkan: {offered} -> Barang yang diminta: {requested}"
+    "proposal": "Pamain {player_id} mangajukan tawaran berikut ri Pamain {opponent_id}: Barang ditawarkan: {offered} -> Barang diminta: {requested}"
   },
   "outcome": {
-    "win": "Pemaen {winner_id} menang dengan memiliki keuntungan lebih besar dalam nilai persediaan.",
+    "win": "Player {winner_id} menang karena memiliki kenaikan nilai inventori yang lebih besar.",
     "draw": "Pappada tappasellena ri nilai inventori'e untu sininna tau maccule e. Draw."
   }
 }

@@ -8,7 +8,7 @@
   "invalid_move": {
     "wrong_format": "Қозғалыс пішімі жарамсыз. \"[X 4]\" немесе \"[O 2]\" пішімін пайдаланыңыз.",
     "invalid_cell": "Жарамсыз ұяшық нөмірі: {cell}. 0 мен 8-дің арасында болуы тиіс.",
-    "already_occupied": "Invalid move. Cell {cell} is already occupied."
+    "already_occupied": "Қате қадам. {cell} жасушасы бос емес."
   },
   "game_action": {
     "placed": "Ойыншы {player_id} өз белгісін ({mark}) ұяшыққа {cell} орналастырды"

@@ -13,8 +13,8 @@
     "already_matched": "अमान्य चाल। खिलाड़ी {player_id} एक या दुनों कार्ड के चयन करे हवय जेहर पहीली ले मेल खाए हवयं।"
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "प्लेयर {player_id} द्वारा चुने गए कार्ड स्थिति [{r1} {c1}] आ [{r2} {c2}] पर मिलाओ!",
+    "cards_no_match": "प्लेयर {player_id} द्वारा चुने गए कार्ड मिलाओ नहीं। कार्ड स्थिति [{r1} {c1}] आ [{r2} {c2}] पर {pos1} आ {pos2} हावे।"
   },
   "outcome": {
     "draw": "दुनो खिलाड़ीमन कार्ड के समान संख्या में जोड़े।",

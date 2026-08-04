@@ -1,18 +1,18 @@
 {
   "player_prompt": {
-    "intro": "You are playing Blackjack against the dealer.\nYour goal is to get as close to 21 as possible without going over.\nOn your turn, choose '[Hit]' to draw another card or '[Stand]' to hold.\nJ/Q/K = 10 points; A = 11 or 1, whichever is better.\n"
+    "intro": "Yaa ngone ci Blackjack kontar dealer.\nWaxad def ngone moo gën a jege 21 ba noppi, ndeysaanu ko ba wàññi.\nCi tàmbali gi, tànn '[Hit]' ngir natt benn kart ngir yeneen walla '[Stand]' ngir wàññi.\nJ/Q/K = 10 poin; A = 11 walla 1, la gën a rafet.\n"
   },
   "board": {
-    "current_state": "Hand {hand_number}/{num_hands}\nYour hand: {player_hand} (Score: {score})\nDealer shows: {dealer_card}"
+    "current_state": "Loxo {hand_number}/{num_hands}\nLoxo gi: {player_hand} (Ndekki: {score})\nDealer biir: {dealer_card}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action. Use '[Hit]' or '[Stand]'."
+    "wrong_format": "Ñàkk a joge. Jël '[Hit]' walla '[Stand]'."
   },
   "game_message": {
-    "hand_result": "Hand {hand_number}: you {outcome}. Your final {player_score}, Dealer {dealer_score}.",
-    "all_complete": "=== All {num_hands} hands complete ===\nWins: {wins}, Losses: {losses}, Draws: {draws}\n"
+    "hand_result": "Loxo {hand_number}: yaa {outcome}. Ndekki gi wot, {player_score}, Dealer {dealer_score}.",
+    "all_complete": "=== Loxo yi {num_hands} yi noppi ===\nJànge: {wins}, Dóme: {losses}, Yeneen: {draws}\n"
   },
   "outcome": {
-    "game_over": "The game has concluded. Final scores: Dealer: {losses}, You: {wins}, Draws: {draws}"
+    "game_over": "Daje gi noppi na. Ndekki yi wot: Dealer: {losses}, Yow: {wins}, Yeneen: {draws}"
   }
 }

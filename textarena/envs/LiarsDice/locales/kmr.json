@@ -26,7 +26,7 @@
   },
   "board": {
     "per_player": "\tYar {p}: {d}",
-    "new_round": "\nNew round - Remaining dice: {dice_summary}\nYour current Dice are: {your_dice}"
+    "new_round": "\nGera nû - Zarên mayî: {dice_summary}\nZarên te yên niha: {your_dice}"
   },
   "call": {
     "bidder_loses": "Yar {current_player_id} bang dike! Hejmarê rastîn ê rûyê {face_value} {count} e, ku kêm e ji {quantity}.\nYar {loser_id} (yê dawî yê pêşniyarkêr) diceyekî dizî.",

@@ -31,19 +31,16 @@
     "{share}": "Bahagian cip yang diterima setiap pemenang seri",
     "{ranking}": "Kedudukan akhir nombor pemain, rendah ke tinggi"
   },
-
   "player_prompt": {
     "intro": "Anda ialah Pemain {player_id} dalam permainan Texas Hold'em Poker {num_players} pemain.\nMaklumat Permainan:\n- {num_rounds} tangan kesemuanya\n- Timbunan permulaan: {starting_chips} cip\n- Blind: {small_blind}/{big_blind}\n\nTindakan tersedia (token tepat):\n  '[Check]'  - apabila tiada pertaruhan aktif\n  '[Call]'   - samai pertaruhan semasa\n  '[Fold]'   - buang tangan anda\n  '[Bet N]'  - buka untuk N cip\n  '[Raise N]'- naikkan sebanyak N cip\n"
   },
-
   "game": {
     "start": "Memulakan permainan Texas Hold'em {num_rounds} pusingan baharu dengan {num_players} pemain."
   },
-
   "board": {
     "panel": "===== Tangan {round} / {num_rounds} - {street} =====\nPot: {pot} | Pertaruhan semasa: {current_bet}\nPapan kelihatan: [{comm}]\n{lines}\nKad hole anda: {hole0}, {hole1}\n==============================================",
     "player_line": "P{pid}{role_txt}: {chips} cip | pertaruhan {bet} | {status}",
-    "street_preflop": "Pre‑flop",
+    "street_preflop": "Sebelum Flop",
     "street_flop": "Flop",
     "street_turn": "Turn",
     "street_river": "River",
@@ -54,34 +51,29 @@
     "status_folded": "melipat",
     "status_all_in": "all-in"
   },
-
   "invalid_move": {
-    "wrong_action":     "Tindakan poker tidak sah.",
+    "wrong_action": "Tindakan poker tidak sah.",
     "check_facing_bet": "Tidak boleh check apabila berhadapan pertaruhan.",
-    "raise_too_small":  "Kenaikan mesti melebihi pertaruhan semasa.",
-    "game_complete":    "Permainan sudah tamat."
+    "raise_too_small": "Kenaikan mesti melebihi pertaruhan semasa.",
+    "game_complete": "Permainan sudah tamat."
   },
-
   "message": {
     "eliminated_invalid": "Pemain {pid} telah disingkirkan kerana gerakan tidak sah."
   },
-
   "action": {
-    "fold":  "Pemain {pid} melipat.",
+    "fold": "Pemain {pid} melipat.",
     "check": "Pemain {pid} check.",
-    "call":  "Pemain {pid} menyamai {amount}.",
-    "bet":   "Pemain {pid} bertaruh sehingga {total}.",
+    "call": "Pemain {pid} menyamai {amount}.",
+    "bet": "Pemain {pid} bertaruh sehingga {total}.",
     "raise": "Pemain {pid} menaikkan sehingga {total}."
   },
-
   "showdown": {
-    "fold_win":    "Pemain {winner} memenangi pot {pot} cip (semua yang lain melipat).",
+    "fold_win": "Pemain {winner} memenangi pot {pot} cip (semua yang lain melipat).",
     "reveal_line": "Pemain {pid}: {c0} {c1}",
-    "reveal":      "Showdown pusingan {round}:\n{reveals}\nKad komuniti: {community}",
-    "win":         "Pemain {winner} memenangi pot {pot} cip.",
-    "tie":         "Seri antara pemain {winners}. Setiap seorang menerima {share} cip."
+    "reveal": "Showdown pusingan {round}:\n{reveals}\nKad komuniti: {community}",
+    "win": "Pemain {winner} memenangi pot {pot} cip.",
+    "tie": "Seri antara pemain {winners}. Setiap seorang menerima {share} cip."
   },
-
   "outcome": {
     "final": "Kedudukan akhir (rendah→tinggi): {ranking}. Pemenang: Pemain {winner}"
   }

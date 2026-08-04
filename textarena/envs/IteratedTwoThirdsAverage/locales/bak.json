@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a {num_rounds}-round of IteratedTwoThirdsAverage.\nEach round, guess a number between {min_guess} and {max_guess}.\nAfter both guesses, the target is (2/3)x(average of both guesses),\nand the player whose guess is closest to the target wins that round.\nReply with your guess in the format '[<number>]'."
+    "intro": "Һеҙ {player_id} уйынсыһыһығыҙ, {num_rounds} раундлы IteratedTwoThirdsAverage уйынында.\nҺәр раундта, {min_guess} һәм {max_guess} араһындағы һанды яһайһығыҙ.\nИке яһауҙан һуң, маҡсат (2/3)x(ике яһауҙың уртасаһы) була,\nһәм маҡсатҡа иң яҡын яһауҙы яһаған уйынсы раундты еңә.\nҺеҙҙең яһауығыҙҙы '[<number>]' форматында яҙығыҙ."
   },
   "invalid_move": {
     "wrong_format": "Формаһы дөрөҫ түгел; фаразығыҙҙы [<number>] тип яҙығыҙ.",

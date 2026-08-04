@@ -47,13 +47,13 @@
     "blind_lost_folded": " LOT ny filokana Jamba! -${blind} (mivalona)",
     "ante_won": "✅ ANTE nandresy ny filokana! +${amount}",
     "ante_pushed": " ANTE ny filokana PUSHED! ${ante} niverina",
-    "ante_lost": "❌ ANTE bet LOST! -${ante}",
+    "ante_lost": "❌ Haran'ny ANTE very! -${ante}",
     "blind_won": "✅ VOA ny filokana Jamba! +${amount}",
-    "blind_pushed": "🔄 BLIND bet PUSHED! ${blind} returned",
+    "blind_pushed": "🔄 Haran'ny BLIND nampindramina! ${blind} naverina",
     "blind_lost": " LOT ny filokana Jamba! -${blind}",
     "play_won": "✅ FANDRESENA ny filokana nandresy! +${amount}",
     "play_pushed": " PLAY bet PUSHED! ${play} niverina",
-    "play_lost": "❌ PLAY bet LOST! -${play}",
+    "play_lost": "❌ Haran'ny PLAY very! -${play}",
     "net_gain": " Vita ny fihodinana {round}! Fandresena madio: +${net}",
     "net_loss": " Tapitra ny fihodinana {round}! Fatiantoka nety: ${net}",
     "separator": "──────────────────────────────────────────────────"
@@ -66,9 +66,9 @@
     "reward_win_max": "Mpilalao nahavita {max_turns} fihodinana tamin'ny ${chips} chips"
   },
   "hand_names": {
-    "royal_flush": "Royal Flush",
+    "royal_flush": "Flush Mpanjaka",
     "straight_flush": "Fandatsahana mivantana",
-    "four_of_a_kind": "Four of a Kind",
+    "four_of_a_kind": "Efatra mitovy karazana",
     "full_house": "Feno ny trano",
     "flush": "Fandatsahana",
     "straight": "Milahatra",

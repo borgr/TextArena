@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a {num_rounds}-round Rock-Paper-Scissors game.\nYour goal is to win as many rounds as possible.\nIn each round, respond with one of: '[rock]', '[paper]', or '[scissors]'.\nYou may also use '[r]', '[p]', or '[s]' as shorthand.\n"
+    "intro": "Bu é jogador {player_id} nun djogu di {num_rounds} ronda di Pedra-Papel-Tesoura.\nBu objetivu é di ganha mas ronda ki possible.\nNa kada ronda, responde ku un di: '[rock]', '[paper]', ou '[scissors]'.\nBu pode usá '[r]', '[p]', ou '[s]' komo abreviatura.\n"
   },
   "invalid_move": {
     "wrong_format": "Movimentu no rekognisi. Usa [rock], [paper], o [scissors]."

@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({piece}). Opponent is ({opp}). Submit moves as '[b1 c3]' (from → to). All pieces move like chess knights.\nEach capture scores {score_per_capture} point. Game ends after {max_moves} moves or when a player has no legal move / no pieces. Higher score wins."
+    "intro": "Yin ee leek {player_id} ({piece}). Yin ee raan ({opp}). Cëët akïïn kuat yic '[b1 c3]' (nei → lo). Akïïn kuat wïïr thïïïn chess knights.\nKëër wïïr thïïïn {score_per_capture} alama. Tëëër akïïn kuat yök ëë {max_moves} kuat yök, ku wïïr leek acïïn raan tïïïnë kuat yök / acïïn akïïn kuat. Alama këër ee wïïn."
   },
   "board": {
     "current_board": "Cuöc #{move_count}\n\n{board}\n\nTiëngde ku bë mäc: {moves}"

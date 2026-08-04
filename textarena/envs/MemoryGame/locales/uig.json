@@ -13,8 +13,8 @@
     "already_matched": "ئىناۋەتسىز ھەركەت. {player_id} توپچى ئاللىقاچان بىر ياكى ئىككىلا كارتا تەڭشەلگەن ."
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "ئويۇنچى {player_id} تەرىپىدىن [{r1} {c1}] ۋە [{r2} {c2}] ئورۇنلىرىدىكى كارتلار بىر-بىرىگە لايىق كەلدى!",
+    "cards_no_match": "ئويۇنچى {player_id} تەرىپىدىن تاللانغان كارتلار بىر-بىرىگە لايىق كەلمىدى. [{r1} {c1}] ۋە [{r2} {c2}] ئورۇنلىرىدىكى كارتلار مۇۋاپىق تەرتىپتە {pos1} ۋە {pos2}."
   },
   "outcome": {
     "draw": "ئىككىلا توپچى ئوخشاش ساندا بىر جۈپ كارتا ئوينايدۇ.",

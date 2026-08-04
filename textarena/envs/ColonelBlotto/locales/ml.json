@@ -5,7 +5,7 @@
     "commander_beta": "കമാൻഡർ ബീറ്റ"
   },
   "game_state": {
-    "header_round": "=== COLONEL BLOTTO - Round {current_round}/{num_rounds} ===\nRounds Won - Commander Alpha: {alpha_score}, Commander Beta: {beta_score}"
+    "header_round": "=== കേണൽ ബ്ലോട്ടോ - റൗണ്ട് {current_round}/{num_rounds} ===\nജയിച്ച റൗണ്ടുകൾ - കമാൻഡർ ആൽഫ: {alpha_score}, കമാൻഡർ ബീറ്റ: {beta_score}"
   },
   "round_battle": {
     "field_result": "റൌണ്ട് {current_round} കമാൻഡർ ആൽഫ അനുവദിച്ചു: {p0_allocations} കമാൻഡർ ബീറ്റ അനുവദിച്ചു: {p1_allocations} ",

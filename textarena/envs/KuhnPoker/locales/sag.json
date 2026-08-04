@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a {max_rounds} round game of Kuhn Poker.\nGame Rules:\n- Kuhn Poker uses a 3-card deck with J, Q, K (J lowest, K highest)\n- Each player antes {ante} chip and receives 1 card each round (note that the cards are dealt without replacement, so you cannot have the same card as your opponent).\n- Game continues for {max_rounds} rounds\n- The player with the most chips after all rounds wins\nAction Rules:\n- '[check]': Pass without betting (only if no bet is on the table)\n- '[bet]': Add 1 chip to the pot (only if no bet is on the table)\n- '[call]': Match an opponent's bet by adding 1 chip to the pot\n- '[fold]': Surrender your hand and let your opponent win the pot"
+    "intro": "Mo ye Player {player_id} na lêê tî {max_rounds} tî jeu Kuhn Poker.\nKôdê tî jeu:\n- Kuhn Poker akpîa 3 kôdê tî J, Q, K (J ye kêtê, K ye kêtê tî ngbanga)\n- Kôlê tî ngbanga akpîa {ante} chip, kôlê tî ngbanga akpîa 1 kôdê tî sêse (kêtê tî kôdê tî ngbanga akpîa kôlê tî ngbanga tî gbê tî ngbanga)\n- Jeu akpîa {max_rounds} tî rounds\n- Player tî ngbanga tî sêse tî gbê tî ngbanga akpîa kôlê tî ngbanga\nKôdê tî action:\n- '[check]': Pasa bêla ngbanga tî sêse (gbê kôlê tî ngbanga tî gbê tî ngbanga)\n- '[bet]': Akpîa 1 chip tî pot (gbê kôlê tî ngbanga tî gbê tî ngbanga)\n- '[call]': Kôlê tî ngbanga tî gbê tî ngbanga tî sêse tî gbê tî ngbanga\n- '[fold]': Kôlê tî ngbanga tî gbê tî ngbanga tî sêse tî gbê tî ngbanga"
   },
   "init_round": {
     "round_start": "### Sîkô ti rounde {current_round} na {max_rounds} rounde. Kârtî na yo: '{player_card}'",
@@ -11,7 +11,7 @@
     "not_legal": "A lingbi a sala kusala na {legal_actions}."
   },
   "action": {
-    "submit_move": "Player {player_id}, submitted move: '[{move}]'.",
+    "submit_move": "Joueur {player_id}, a koté mouvement: '[{move}]'.",
     "valid_actions": "Aye so mo lingbi ti sara ayeke: {legal_actions}.",
     "round_summary": "{reason} Ngûnda nzî: Mokonzi 0: '{player_0_chips}'; Mokonzi 1: '{player_1_chips}'"
   },

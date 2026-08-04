@@ -22,7 +22,7 @@
     "final_ranking": "list of player indices from first eliminated to winner"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in an {num_players}-player Liar's Dice game.\nRules:\n- On your turn, you may either:\n  1) Make a new bid with a higher quantity or higher face (or both) than the current bid; i.e. '[Bid: 3, 4]',\n  2) Call the last bid by typing '[Call]'.\n\nIf you call:\n  - If the actual count of that face value among all dice is less than the bid, the last bidder loses one die.\n  - Otherwise, the caller loses one die.\nA player who reaches 0 dice is eliminated. The last remaining player wins."
+    "intro": "U muthengi {player_id} wa muthengi wa vatengi {num_players} wa Liar's Dice.\nMilawu:\n- Eka nkarhi wa wena, u nga:\n  1) Endla muthengi wa muthengi na nhlayo ya tsebe ya tsebe ya vatengi, kana '[Bid: 3, 4]',\n  2) Vitanisa muthengi wa muthengi wa muthengi wa vatengi, kana '[Call]'.\n\nLoko u vitanisa:\n  - Loko nhlayo ya tsebe ya tsebe ya vatengi i hlaya ku tlula muthengi wa muthengi, muthengi wa muthengi wa muthengi u hundzuka tsebe.\n  - Kana, muthengi wa muthengi wa muthengi u hundzuka tsebe.\nMuthengi loyi a fikele 0 tsebe a hundzulwa. Muthengi loyi a salela u vhotile."
   },
   "board": {
     "per_player": "\tMfiri {p}: {d}",

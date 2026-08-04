@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id}. You are playing the Battleship game.\nYour goal is to sink all of your opponent's ships before they sink yours.\nOn your turn, you can fire missiles at specific coordinates in teh following format: '[a4]'. If the missile hits a ship, it is marked with 'X'. If it misses, it is marked with 'O'. In either scenarios, the game environment will inform you of your hits. If you have sunk a boat, the game environment will tell you!\nThe game ends when all of one player's ships have been sunk.\nYour initial board will show all of your ships placed and your opponent's hits on you, and your hits and misses on your opponent's board without showing your opponent's ships.\nHere is the initial board:\n"
+    "intro": "سیز اویونچو {player_id} سیز. سیز دؤیوش گمیسی اویونون اویناییرسینیز.\nسیزین هدفینیز، قارشی طرفین بوتون گمیلرینی باتیرماقدان اؤنجه اونلارین گمیلرینی باتیرماقدیر.\nسیزین نؤوبتینیزده، ' [a4] ' فورماتیندا عینی مختصاتلاردا موشک آتماخ اولار. اگر موشک گمییه وورسا، 'X' ایله ایشاره اولونور. اگر یانلیشسا، 'O' ایله ایشاره اولونور. هر ایکی سناریودا، اویون محیطی سیزه ووروشلارینیزی بیلدیرجکدیر. اگر سیز بیر قایقی باتیرمیشسینیز، اویون محیطی سیزه بیلدیرجکدیر!\nاویون، بیر اویونچونون بوتون گمیلری باتیریلدیگی زامان سونا چاتیر.\nسیزین ایلکین تخته نیز، بوتون گمیلرینیزین یئرلشدیریلمیش و قارشی طرفین سیزه ووروشلارینی و سیزین ووروشلارینیزی و یانلیشلارینیزی گؤستره جکدیر.\nاینجا ایلکین تخته دیر:\n"
   },
   "invalid_move": {
     "wrong_format": "اویونچو، قوس قوللوقلارین ایچینده معتبر بیر کووردئناتلا جاواب وئرمه دی.",
@@ -12,7 +12,7 @@
     "opp_sunk": "رقیب کشتی شما را در {coord} غرق کرد! تخته به روز شده شما:\n{view}",
     "you_hit": "هدف را زدید! شما یک کشتی را در {coord} زدید! تخته به روز شده شما:\n{view}",
     "opp_hit": "رقیب شما را در {coord} زد! تخته به روز شده شما:\n{view}",
-    "you_miss": "Miss! You missed the ship at {coord}! Your updated board:\n{view}",
+    "you_miss": "یانلیش! سیز {coord} مختصاتیندا گمییه وورمادینیز! گونCELLENEN تخته نیز:\n{view}",
     "opp_miss": "رقیب شما را در {coord} از دست داد! تخته به روز شده شما:\n{view}"
   },
   "outcome": {

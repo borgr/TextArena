@@ -13,8 +13,8 @@
     "already_matched": "අවලංගු පියවරක්. ක් රීඩකයා {player_id} දැනටමත් ගැලපෙන කාඩ් එකක් හෝ දෙකම තෝරාගෙන ඇත."
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "ක්‍රීඩක {player_id} විසින් [{r1} {c1}] සහ [{r2} {c2}] ස්ථානවල තෝරා ගත් කාඩ් ගැලපේ!",
+    "cards_no_match": "ක්‍රීඩක {player_id} විසින් තෝරා ගත් කාඩ් ගැලපීම නැත. [{r1} {c1}] සහ [{r2} {c2}] ස්ථානවල කාඩ් පිළිවෙලින් {pos1} සහ {pos2} වේ."
   },
   "outcome": {
     "draw": "ක් රීඩකයන් දෙදෙනාම එකම කාඩ් යුගල ගණනක් ගැලපෙන පරිදි ගැලපේ.",

@@ -11,7 +11,7 @@
     "{ball_pos}": "The cup index the ball is under"
   },
   "player_prompt": {
-    "intro": "Track the hidden ball 'X' while the cups are shuffled.\nAfter shuffling, guess its location with `[k]`."
+    "intro": "કપ્સ શફલ થાય ત્યારે છુપાયેલા બોલ 'X' ને ટ્રેક કરો.\nશફલ કર્યા પછી, તેનું સ્થાન `[k]` સાથે અંદાજ લગાવો."
   },
   "game_message": {
     "ball_starts": "બોલ શરૂ થાય છેઃ {line}",
@@ -21,7 +21,7 @@
     "reveal": "(પ્રગટ કરોઃ {ball_pos} હેઠળ બોલ)"
   },
   "invalid_move": {
-    "wrong_format": "Bad action. Use `[k]`.",
+    "wrong_format": "ખોટી ક્રિયા. `[k]` વાપરો.",
     "out_of_range": "ઇન્ડેક્સ 0-{max_index}ની બહાર છે."
   },
   "outcome": {

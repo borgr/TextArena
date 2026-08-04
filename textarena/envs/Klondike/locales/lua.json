@@ -16,23 +16,23 @@
     "{cards}": "The cards in a pile as neutral labels, or '--' if empty (never translate)"
   },
   "player_prompt": {
-    "intro": "Unacheza Klondike Solitaire. Lengo lako ni kuhamisha kadi zote hadi foundation piles.\n\nSheria za Mchezo:\n- Foundation piles (F1-F4): Jenga juu kutoka Ace hadi King kwa rangi\n- Tableau piles (T1-T7): Jenga chini kwa rangi tofauti (nyekundu kwenye nyeusi, nyeusi kwenye nyekundu)\n- Stock: Chora kadi hadi waste pile\n- Waste (W): Kadi ya juu inapatikana kwa ajili ya kucheza\n\nAmri:\n- 'draw' - Chora kadi kutoka stock hadi waste\n- 'move <source> <destination> [count]' - Hamisha kadi kati ya mirundo\n  Mifano: 'move W T1', 'move T1 F2', 'move T3 T5 2'. idadi pia inaweza kuwa 'all', ambayo itajaribu kuhamisha kadi zote zinazoonekana.\n- 'forfeit' - Mwisho wa mchezo mara moja na kufunga alama yako ya sasa\n- Majina ya mirundo: W (waste), F1-F4 (foundation), T1-T7 (tableau)\n\nUnaweza kutekeleza vitendo vingi kwa mwendo mmoja kwa kuyatenganisha na viambishi:\n  Mfano: 'draw, move W T1, move T2 F1'\n\nWafalme pekee wanaweza kuwekwa kwenye mirundo ya tableau isiyo na kadi.\nVitendo vinatekelezwa kwa mpangilio - ikiwa moja itashindika, vitendo vingine vinavyofuata vitapuuzwa.\nTumia 'forfeit' ikiwa unafikiri mchezo hauwezi kushindwa."
+    "intro": "Ozali oyo otambwisa Klondike Solitaire. Molayi na yo kozwa biso zote epayi ya mibongo.\n\nMikano ya Jeu:\n- Mibongo ya mibongo (F1-F4): Kozwa juu kutoka Ace na King na suit\n- Mibongo ya tableau (T1-T7): Kozwa chini na kuweka rangi (rouge o noir, noir o rouge)\n- Stock: Kozwa cartes epayi ya déchets\n- Déchets (W): Carte du dessus disponibwe pour jouer\n\nCommandes:\n- 'draw' - Kozwa cartes epayi ya stock na déchets\n- 'move <source> <destination> [count]' - Deplace cartes entre mibongo\n  Exemples: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count pweut aussi être 'all', qui essaiera de deplacer toutes les cartes face visible.\n- 'forfeit' - Mettre fin au jeu immédiatement et verrouiller votre score actuel\n- Noms de mibongo: W (déchets), F1-F4 (mibongo ya mibongo), T1-T7 (tableau)\n\nOzali pweu exécuter plusieurs actions en un tour en les séparant avec des virgules:\n  Exemple: 'draw, move W T1, move T2 F1'\n\nSeulement les Rois pweuvent être placés sur les mibongo vides.\nActions exécutent dans l'ordre - si l'une échoue, les actions restantes sont sautées.\nUtilisez 'forfeit' si ozali convaincu que le jeu est impossible à gagner."
   },
   "format_error": {
     "no_brackets": "Dienza malu adi kaayi makane. Malu aa adi ne bua kuikala mu nkatshinkatshi ya miaku mikese (parentheses).",
     "no_closing_bracket": "Mpangilu mubi: kabena ne tshilamba tshia ndekelu to. ']'",
     "empty_command": "Mukenji wa tshianana. Tuala \"draw\" anyi 'move <source><destination> [count]'",
     "empty_action": "Tshienzedi tshianana",
-    "move_needs_args": "Mukenji wa kusungula udi ulomba muaba ne kuudi uya. 'kushiya <kudi> <kuya> [count]'",
-    "count_positive": "Badi ne bua kubadila bantu bonso anyi \"bonso\"",
-    "count_invalid": "Kubala kakuyi bualu: Tuakute bungi anyi 'buonso'",
-    "unknown_command": "Kipengele kisichojulikana '{cmd}'. Tumia 'draw', 'move <source> <destination> [count]', or 'forfeit'",
+    "move_needs_args": "Kamandi ya kusogeza inahitaji chanzo na mwisho. Matumizi: 'move <source> <destination> [count]'",
+    "count_positive": "Mfumo wa kuhesabu unapaswa kuwa chanya kana 'all'",
+    "count_invalid": "Mfumo wa kuhesabu sio sahihi. Tumina nambari kana 'all'",
+    "unknown_command": "Kamandi ya kutayuka '{cmd}'. Tumina 'draw', 'move <source> <destination> [count]', kana 'forfeit'",
     "wrapped": "Action {n}: {msg}"
   },
   "action_result": {
     "success": "Action {n}: {msg}",
     "before_failure": "Kuenza {n} malu kumpala kua dikosa dia mudimu.",
-    "failed": "Kazi {n} ikwama: {msg}"
+    "failed": "Kitendo {n} kufeli: {msg}"
   },
   "move_result": {
     "drew": "Kadiota ka dipatuisha (ka mu tshiena Ebelu) kadi katangila bintu bia ku tshiamu.",
@@ -41,15 +41,15 @@
     "foundation_one_card": "Udi mua kuambula karte kamue patupu mu tshishimikidi.",
     "waste_to_foundation_ok": "Kadi ka ku tshianana kadibu bateka mu tshishimikidi F{dst}",
     "waste_to_foundation_bad": "Kuena mua kuambula karte ka tshianana mu tshina tshia nshindamenu atshi to.",
-    "tableau_to_foundation_ok": "Imehamisha kadi kutoka tableau T{src} hadi foundation F{dst}",
+    "tableau_to_foundation_ok": "Kadi imesogezwa kuva mu T{src} kuwa F{dst}",
     "tableau_to_foundation_bad": "Kuena mua kuambula karte ka tableau mu mulongo wa bintu bia mushinga to. 🔍",
     "foundation_to_foundation": "Kabena mua kuya ku tshishimikidi ne tshionso to.",
     "waste_to_tableau_one_card": "Udi mua kuambula karte kamue patupu mu tshiamu tshia dibenga kukuata bua kuya kutshibuila pa tablo.",
     "waste_to_tableau_ok": "Kadi ka mu tshianana kadibu bateka ku tablo T{dst}",
     "waste_to_tableau_bad": "Kuena mua kuteka karte ka tshianana ku mulongo wa tablo eu to.",
-    "no_face_up": "No face-up cards to move",
-    "tableau_to_tableau_ok": "Imehamisha {count} kadi(s) kutoka tableau T{src} hadi T{dst}",
-    "tableau_to_tableau_bad": "Haiwezi kuhamisha {count} kadi(s) kutoka T{src} hadi T{dst}",
+    "no_face_up": "Kudi kuwa na kadi ya kuonakana",
+    "tableau_to_tableau_ok": "Kadi {count} imesogezwa kuva mu T{src} kuwa T{dst}",
+    "tableau_to_tableau_bad": "Kadi {count} haiwezi kusogezwa kuva T{src} kuwa T{dst}",
     "foundation_to_tableau_one_card": "Udi mua kuambula karte kamue patupu mu tshisanji tshia pa mutu bua kuya ne mu tshianza tshikuabu.",
     "foundation_empty": "Tshisumbu F{src} katshiena ne muntu to.",
     "foundation_to_tableau_ok": "Imehamisha kadi kutoka foundation F{src} hadi tableau T{dst}",
@@ -59,7 +59,7 @@
   "outcome": {
     "forfeit": "Tshimfuanyi tshia ndekelu: {score} karte mu bishimikidi.",
     "won": "Dianyisha, udi mupete mpeta wa mu manaya a Klondike!",
-    "turn_limit": "Game over! You reached the maximum of {max_turns} turns. Score: {score} cards in foundations."
+    "turn_limit": "Mambu mafwala! Wafikile ku ngudi ya {max_turns} mizungu. Mafwala: {score} kadi mu malondi."
   },
   "board": {
     "title": "=== KLONDIKE SOLITAIRE=== (Mufuma mu ditunga dia Japon)",

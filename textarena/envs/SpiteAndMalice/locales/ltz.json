@@ -15,7 +15,7 @@
     "empty": "Leer"
   },
   "game_message": {
-    "no_cards_left": "There are no more cards to draw from. Remember that you can play cards from these sources:\n  1. Your **hand**.\n  2. The **top card of your payoff pile**.\n  3. The **top card of any of your discard piles**.\n\n"
+    "no_cards_left": "Et gëtt keng weider Kaarten méi, déi Dir zeechnen kënnt. Denkt drun, datt Dir Kaarten aus follgenden Quellen spillen kënnt:\n  1. Äer **Hand**.\n  2. D'**iewescht Kaart vun Ärem Payoff-Stapel**.\n  3. D'**iewescht Kaart vun engem vun Ären Ofworfstapel**.\n\n"
   },
   "invalid_move": {
     "wrong_format": "Ongülteg Bewegung Format. De Spiller {player_id} huet net mat enger gültege Beweging an quadratesche Klammern geäntwert.",
@@ -36,6 +36,6 @@
     "payoff_cleared": "Spiller {current_player} huet seng Payoff-Pile ofgeschafft! Spiller {current_player} gewënnt!",
     "deadlock_player_0": "Doudeläich erreecht! Spiller 0 gewënnt mat {player_0_payoff} Kaarte réckständeg géint Spiller 1 seng {player_1_payoff} Kaarten.",
     "deadlock_player_1": "Doudeläich erreecht! Spiller 1 gewënnt mat {player_1_payoff} Kaarte réckständeg géint Spiller 0 seng {player_0_payoff} Kaarten.",
-    "deadlock_tie": "Deadlock reached with tie! Both players have {player_0_payoff} cards remaining. Player {current_player} wins by default."
+    "deadlock_tie": "Stalemate erreecht mat Gläichstand! Béid Spiller hunn {player_0_payoff} Kaarten, déi nach iwwereg sinn. Spiller {current_player} gewënnt vun Rechts wégen."
   }
 }

@@ -11,7 +11,7 @@
     "{groups}": "Neutral ranking data (a list of player-id groups, worst to best); do not translate"
   },
   "player_prompt": {
-    "intro": "{num_players}-Player Snake on a {width}×{height} grid.\nYou control snake {player_id}. Valid moves: '[up]'/'[down]'/'[left]'/'[right]' (or w/s/a/d).\nObjective: survive longest or be the longest and get the highest score (turn limit {max_turns} turns)."
+    "intro": "{num_players}-Moromu wa Snake holofelong ya {width}×{height}.\nO laola moromu {player_id}. Menyetla ya go tsamaya: '[up]'/'[down]'/'[left]'/'[right]' (goba w/s/a/d).\nSepheo: phela nako ye telele kudu goba eba moromu o mokgolo le o fihlelele nomoro ya godimo (moralo wa {max_turns} menyetla)."
   },
   "board": {
     "current": "Lekgotla la ga bjale: {board}",

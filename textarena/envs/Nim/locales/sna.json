@@ -13,7 +13,7 @@
     "exceeds_pile": "Hauwezi kubvisa {quantity} kubva kwenhambwe {pile_index} (kune {pile_count} riri kuwiririka)."
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "Mchezaji {player_id} akacheza [{pile_index} {quantity}], akabvisa {quantity} zvinhu kubva kwa murwi {pile_index}."
   },
   "outcome": {
     "win": "Mutambi {player_id} akatora chinhu chokupedzisira ((s)!"

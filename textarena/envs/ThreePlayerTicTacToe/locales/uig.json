@@ -26,7 +26,7 @@
     "placed": "ئويناشچى {player_id} ئۆزىنىڭ بەلگىسى ({symbol}) نى ({row}, {col}) مайдاندا قويىدۇ."
   },
   "outcome": {
-    "win": "Player {player_id} ({symbol}) wins!",
+    "win": "{player_id} نۇمۇرلۇق ئويۇنچى ({symbol}) غەلىبە قىلدى!",
     "draw": "ئۇيۇن تەڭلىشىپ قالدى!"
   }
 }

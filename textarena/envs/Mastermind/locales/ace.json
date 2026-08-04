@@ -13,10 +13,10 @@
     "repeated_guess": "Anda sudah menebak {guess}. Silahkan coba tebak yang laen lagi."
   },
   "game_action": {
-    "feedback": "Submitted [{guess}]. Feedback: {black_pegs} black peg(s), {white_pegs} white peg(s)."
+    "feedback": "Droe kirim [{guess}]. Umpan balik: {black_pegs} tongkat itam, {white_pegs} tongkat putih."
   },
   "outcome": {
-    "win": "You have cracked the code, solving {black_pegs} out of {code_length} pegs correctly",
+    "win": "Droe meu retak kode nyoe, meu pecahkan {black_pegs} nibak {code_length} tongkat ngon betul",
     "turn_limit": "batas giliran tercapai. awak menebak {percent} persen dari angka dengan benar."
   }
 }

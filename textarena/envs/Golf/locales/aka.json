@@ -21,17 +21,17 @@
     "{scores}": "The pre-rendered per-player list of final scores"
   },
   "player_prompt": {
-    "intro": "You are playing Golf (Card Game) - Player {player_id}.\nGoal: Get the lowest total score in this single round. If columns share the same value, they are summed as 0.\nCard Values: A=1, 2-10=face value, J/Q=10, K=0\n\nActions (use exact brackets):\n- '[draw]' - Draw from deck\n- '[take]' - Take from discard pile\n- '[swap X Y]' - Swap drawn card with position X (row) Y (column)\n- '[discard]' - Discard the drawn card\n"
+    "intro": "Wɔreko Golf (Akwaduro Kɛseɛ) - Akwaduro kɛseɛfoɔ {player_id}.\nBotaeɛ: Nyaa akontabuo ketewa wɔ round yi mu. Sɛ column biara wɔ kyerɛwdeɛ koro no ara a, wɔbɛtumi akɔntabuo no sɛ 0.\nAkwaduro Kɛseɛ Nhoma: A=1, 2-10=kyerɛwdeɛ ketewa, J/Q=10, K=0\n\nAdwuma (fa bracketed adwuma no pɛpɛɛpɛ):\n- '[draw]' - Draw fii deck\n- '[take]' - Fa fii discard pile\n- '[swap X Y]' - Swap drawn akwaduro kɛseɛ nhoma no ne position X (row) Y (column)\n- '[discard]' - Discard drawn akwaduro kɛseɛ nhoma no\n"
   },
   "board": {
-    "drew": "You drew: {card}\nNow you must [swap X Y] or [discard] it.",
-    "took": "You took: {card} from discard pile\nYou must [swap X Y] with it (cannot discard).",
+    "drew": "Wɔyii: {card}\nAfei wɔbɛtumi [swap X Y] anaa [discard] no.",
+    "took": "Wɔfaa: {card} fii discard pile\nWɔbɛtumi [swap X Y] no (mfa no nnyɛ discard).",
     "peeked": "Wohuu wɔ adansedi ({row},{col}): {card}",
     "turn_view": "Wɔn a wodi: \n{hand}\nDiscard pile: {discard}\n{options}",
     "none": "Ɛnni hɔ."
   },
   "options": {
-    "final_turns": "Final turns! Your options: [draw], [take], [peek X Y]",
+    "final_turns": "Awieeɛ turns! Wo nkyerɛwdeɛ: [draw], [take], [peek X Y]",
     "draw": "Wɔn a wɔwɔ hɔ ma wo: [draw], [take]",
     "must_swap": "Ɛsɛ sɛ: [swap X Y] (ntumi ntwe kaade mfi nneɛma a wɔtow gu mu)",
     "swap_or_discard": "Wopɛ sɛ wo: [swap X Y] anaa [discard]"
@@ -42,13 +42,13 @@
     "row": "Row {n}: {cards}"
   },
   "action_desc": {
-    "swapped": "Player {pid} swapped {new} with {old} at position ({row},{col})",
-    "discarded": "Player {pid} discarded {card}"
+    "swapped": "Akwaduro kɛseɛfoɔ {pid} swapped {new} ne {old} wɔ position ({row},{col})",
+    "discarded": "Akwaduro kɛseɛfoɔ {pid} discarded {card}"
   },
   "message": {
-    "deck_empty": "Deck is empty! Game ends immediately.",
+    "deck_empty": "Deck no awieeɛ! Awieeɛ no fii aseɛ.",
     "knocked": "Ɔbɔadeɛ {pid} no! Odiadefoɔ biara nya baako bio.",
-    "final_round": "Player {pid} {reason}! Each other player gets one more turn."
+    "final_round": "Akwaduro kɛseɛfoɔ {pid} {reason}! Akwaduro kɛseɛfoɔ biara bɛnya turn baako."
   },
   "reason": {
     "all_revealed": "So nkrataa nyinaa ada adi?"
@@ -67,13 +67,13 @@
     "already_revealed": "Wɔada saa krataa no adi dedaw!"
   },
   "summary": {
-    "full": "Game Over! Ɔdan {winner} di nkonimden a ne score yɛ {score} points!\n\nFinal Scores:\n{scores}",
+    "full": "Awieeɛ! Akwaduro kɛseɛfoɔ {winner} dii nkunim wɔ akontabuo ketewa {score}!\n\nAkontabuo a ɛfiri awieeɛ:\n{scores}",
     "line": "Ɔdan {pid}: {score} points\n"
   },
   "board_str": {
     "title": "=== GOLF AGAME===",
     "discard": "Ɔtow a wɔtwe gu: {card}",
     "knocked": "Ɔbɔadeɛ no {pid} abɔ ɔpon!",
-    "player_header": "Player {pid} (Score: {score}):"
+    "player_header": "Akwaduro kɛseɛfoɔ {pid} (Akontabuo: {score}):"
   }
 }

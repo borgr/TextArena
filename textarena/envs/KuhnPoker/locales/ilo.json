@@ -11,12 +11,12 @@
     "not_legal": "Ti tignay ket masapul a {legal_actions}."
   },
   "action": {
-    "submit_move": "Player {player_id}, submitted move: '[{move}]'.",
+    "submit_move": "Player {player_id}, naisumite ti aramid: '[{move}]'.",
     "valid_actions": "Dagiti mabalin nga aramidem ket: {legal_actions}.",
-    "round_summary": "{reason} Agdama a puntos: Player 0: '{player_0_chips}'; Player 1: '{player_1_chips}'"
+    "round_summary": "{reason} Dagiti agdama a puntos: Agay-ayam 0: '{player_0_chips}'; Agay-ayam 1: '{player_1_chips}'"
   },
   "showdown": {
-    "showdown_summary": "Showdown: {winner_card} iti Player {winner} ket pinagbetan iti {loser_card} iti Player {loser}. Player {winner} ket mangabak iti pot iti {pot_value} a chips."
+    "showdown_summary": "Showdown: Ti Player {winner}'s {winner_card} ket nangabak iti Player {loser}'s {loser_card}. Ti Player {winner} ket nangabak iti pot iti {pot_value} a chip."
   },
   "outcome": {
     "draw": "Iti ngudo ti {max_rounds} a rundo, agpada nga adu dagiti tsipsda.",

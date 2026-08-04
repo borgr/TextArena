@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in JoJoJoin, played on a 5x5 board with cells numbered 0-24.\nOn your turn, place your mark on any empty cell, e.g. '[12]'.\nYOU WIN by getting FOUR of your marks in a row — four consecutive cells horizontally, vertically, or diagonally.\nAs Player {player_id} you are '{symbol}'; your opponent is '{opponent_symbol}'."
+    "intro": "إنت اللاعب {player_id} في JoJoJoin، تلعب على لوحة 5x5 بخلايا مرقمة من 0 إلى 24.\nفي دورك، ضع علامتك على أي خلية فارغة، مثلا '[12]'.\nإنت رابح لو حصلت على أربع من علاماتك على التوالي — أربع خلايا متتالية أفقيًا أو عموديًا أو قطريًا.\nكلاعب {player_id} إنت '{symbol}'; خصمك هو '{opponent_symbol}'."
   },
   "board": {
     "current_board": "اللوحة الحالية:\n\n{board}\n\nالنقرات المتاحة: {moves}"

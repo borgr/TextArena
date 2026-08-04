@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in Quantum Tic Tac Toe.\nYour symbol is '{symbol}', and your move numbers are always {parity} (e.g., X1, X3 or O2, O4).\n\nGoal: Win by forming a line of three classical marks (solidified from superpositions).\n\nHow to Play:\n- On each turn, place a spooky mark in two different empty squares using the format '[a,b]'.\n- These marks are entangled, and labeled like 'X1 / X1' or 'O4 / O4'.\n- You cannot place spooky marks in a square that has already collapsed (solidified).\n\nCollapse Rule:\n- If your move creates a cycle in the entanglement graph, it collapses automatically.\n- Each spooky mark in the cycle turns into a classical mark in one of its two positions.\n- Any dependent spooky marks also collapse.\n\nVictory:\n- The game ends when a player has three classical marks in a row.\n- If both players get a line during the same collapse, the one with the lower max move number wins.\n\nExample move: '[0,4]' places a spooky mark in cells 0 and 4."
+    "intro": "Wo ne Player {player_id} wɔ Quantum Tic Tac Toe.\nWo symbol ne '{symbol}', na wo move numbers daa {parity} (e.g., X1, X3 or O2, O4).\n\nBotae: Di nkunim wɔ forming a line of three classical marks (solidified from superpositions).\n\nSɛnea Wo Bɛdi:\n- Wɔ kwaadaa biara, fa spooky mark si squares mmienu ahodoɔ wɔ format '[a,b]'.\n- Marks yi yɛ entangled, na labeled sɛ 'X1 / X1' or 'O4 / O4'.\n- Wo ntumi nfa spooky marks si square a wɔdeɛ collapse (solidified).\n\nCollapse Rule:\n- Sɛ wo move yɛ cycle wɔ entanglement graph, ɛ collapse automatically.\n- Spooky mark biara wɔ cycle no mu turns into classical mark wɔ ne mu mmienu no mu.\n- Any dependent spooky marks nso collapse.\n\nNkunim:\n- Game no bɛba awieɛ sɛ player bi wɔ classical marks mmiɛnsa wɔ kwan.\n- Sɛ players baanu nyaa line wɔ collapse koro no ara, ɔnoa ne max move number ketewa no di nkunim.\n\nExample move: '[0,4]' fa spooky mark si cells 0 ne 4."
   },
   "board": {
     "current_board": "Quantum Tic Tac Toe Board:\n\n{board}\n\nGyina w'adwuma sɛ '[a,b]' de bɛtɔ quantum mark wɔ nneɛma abien mu."
@@ -11,12 +11,12 @@
     "already_solidified": "Nkwammoaa no mu biako ayɛ den dedaw."
   },
   "game_action": {
-    "placed": "Player {player_id} placed their symbol in a superposition between cells {pos_a} and {pos_b}."
+    "placed": "Player {player_id} faa ne symbol si superposition kwan cells {pos_a} ne {pos_b}."
   },
   "game_message": {
-    "dependent_resolved": "Dependent superposition resolved. Cell ({r}, {c}) is now {symbol}.",
-    "last_cell_resolved": "Superposition for last cell resolved. Cell ({r}, {c}) is now {symbol}.",
-    "superposition_resolved": "Superposition resolved. Cell ({r}, {c}) is now {symbol}."
+    "dependent_resolved": "Superposition a ɛfa ho no bɛba awieɛ. Cell ({r}, {c}) yɛ {symbol} nnɛ.",
+    "last_cell_resolved": "Superposition a ɛfa cell a etwa no bɛba awieɛ. Cell ({r}, {c}) yɛ {symbol} nnɛ.",
+    "superposition_resolved": "Superposition no bɛba awieɛ. Cell ({r}, {c}) yɛ {symbol} nnɛ."
   },
   "outcome": {
     "win": "Ɔpanyin {player_id} a ɔwɔ nkrataa no bi wɔ hɔ na odi nkonim!",

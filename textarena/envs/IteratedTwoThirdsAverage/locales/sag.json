@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a {num_rounds}-round of IteratedTwoThirdsAverage.\nEach round, guess a number between {min_guess} and {max_guess}.\nAfter both guesses, the target is (2/3)x(average of both guesses),\nand the player whose guess is closest to the target wins that round.\nReply with your guess in the format '[<number>]'."
+    "intro": "Mo yeke na Joueur {player_id} na rondi {num_rounds} ya IteratedTwoThirdsAverage.\nNa rondi kô ô, mo gba kôngôsô na ndö {min_guess} na {max_guess}.\nKô ô gba kôngôsô ôla, cible ayeke (2/3) x (moyen ôla ya kôngôsô ôla),\nna joueur a yeke kôngôsô a ndö cible ayeke a gagne rondi ôla.\nKiri na kôngôsô ô na format '[<number>]'."
   },
   "invalid_move": {
     "wrong_format": "A yeke na lege ni ape; fa tënë ti mo tongana [<number>].",

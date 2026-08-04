@@ -21,10 +21,10 @@
     "{total}": "Each player's tied final total (a number)"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id}, playing {num_rounds} rounds of Iterated Ultimatum Game.\nYou have ${pool} to split this round between yourself and Player {other_id}.\n\nProposer:\n  - Make an offer: [Offer: $X] (0 <= X <= pool)\n  - If accepted → You get $(pool - X), other player gets $X\n  - If rejected → Both get $0\n  - Example: [Offer: $3]  or  'I think this is fair. [Offer: $5]'\n\nResponder:\n  - Decide on the offer with either [Accept] or [Reject]\n  - Example: 'That seems reasonable. [Accept]'\n            'Too unfair. [Reject]'\n"
+    "intro": "Yïnëë Manhëëm {player_id}, duɔ̈ɔ̈r {num_rounds} ke Iterated Ultimatum Game.\nYïnëë wëëu ${pool} ke piööc ke duɔ̈ɔ̈r ëëë kekëë yïnëë Manhëëm {other_id}.\n\nKekëë ke duɔ̈ɔ̈r:\n  - Cɔ̈ɔ̈t wëëu: [Offer: $X] (0 <= X <= pool)\n  - Na cɔ̈ɔ̈t → Yïnëë wëëu $(pool - X), manhëëm dïït wëëu $X\n  - Na cɔ̈ɔ̈t → Kekëë wëëu $0\n  - Tïmëë: [Offer: $3]  walla  'Aɣetɔ̈ɔ̈ kekëë ke duɔ̈ɔ̈r. [Offer: $5]'\n\nKekëë ke duɔ̈ɔ̈r:\n  - Yïï ke wëëu kekëë ke duɔ̈ɔ̈r [Accept] walla [Reject]\n  - Tïmëë: 'Aɣetɔ̈ɔ̈ kekëë ke duɔ̈ɔ̈r. [Accept]'\n            'Aɣetɔ̈ɔ̈ kekëë ke duɔ̈ɔ̈r. [Reject]'\n"
   },
   "round": {
-    "begins": "--- Round {round_number} begins! ---\nPlayer {proposer_id} is the proposer, Player {responder_id} is the responder.",
+    "begins": "--- Duɔ̈ɔ̈r {round_number} kekëë! ---\nManhëëm {proposer_id} kekëë ke duɔ̈ɔ̈r, Manhëëm {responder_id} kekëë ke duɔ̈ɔ̈r.",
     "offer": "Wär {round_number}: Kɛɛcök {proposer_id} wɛ̈t ${offer} ku Kɛɛcök {responder_id} (kɛn wɛ̈t ${keep}).",
     "accepted": "Kɛɛcök {responder_id} acë bɛ̈i! Wär {round_number} bɛ̈nyde: Kɛɛcök {proposer_id} +${proposer_gain}, Kɛɛcök {responder_id} +${responder_gain}. Wɛ̈t thïn: Kɛɛcök 0: ${total_0}, Kɛɛcök 1: ${total_1}.",
     "rejected": "Kɛɛcök {responder_id} acë bɛ̈i! Wär {round_number} bɛ̈nyde: Kɛɛcök lɔ̈ɔ̈k +$0. Wɛ̈t thïn: Kɛɛcök 0: ${total_0}, Kɛɛcök 1: ${total_1}."
@@ -37,7 +37,7 @@
     "accept_or_reject": "Kɛɛcök aŋic kuɛ̈ɛ̈r bë kekë [Accept] kɛn [Reject] tɛk."
   },
   "outcome": {
-    "win": "Player {winner} won with ${winner_total} total vs Player {loser}'s ${loser_total}.",
+    "win": "Manhëëm {winner} kekëë ke duɔ̈ɔ̈r kekëë ${winner_total} kekëë Manhëëm {loser} kekëë ${loser_total}.",
     "draw": "Cɔl kë ye cɔl \"draw\" në ${total} yic."
   }
 }

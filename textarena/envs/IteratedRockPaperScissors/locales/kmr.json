@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a {num_rounds}-round Rock-Paper-Scissors game.\nYour goal is to win as many rounds as possible.\nIn each round, respond with one of: '[rock]', '[paper]', or '[scissors]'.\nYou may also use '[r]', '[p]', or '[s]' as shorthand.\n"
+    "intro": "Tu Lêzer {player_id} î di lîstika Rock-Paper-Scissors a {num_rounds}-çerxî de.\nArmanca te ew e ku tu çerxên zêdetir bikî.\nDi her çerxî de, bi yek ji van bersiv bide: '[rock]', '[paper]', an '[scissors]'.\nTu dikarî '[r]', '[p]', an '[s]' jî wekî kurtî bikar bînî.\n"
   },
   "invalid_move": {
     "wrong_format": "Çalak nayê nasîn. Bi [rock], [paper], an [scissors] bikarbîne."

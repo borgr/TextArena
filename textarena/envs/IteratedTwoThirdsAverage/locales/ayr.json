@@ -1,13 +1,13 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a {num_rounds}-round of IteratedTwoThirdsAverage.\nEach round, guess a number between {min_guess} and {max_guess}.\nAfter both guesses, the target is (2/3)x(average of both guesses),\nand the player whose guess is closest to the target wins that round.\nReply with your guess in the format '[<number>]'."
+    "intro": "Jumaxa Player {player_id} uka {num_rounds}-round IteratedTwoThirdsAverage ukatxa.\nKila round ukatxa, uñjaña number {min_guess} ukatxa {max_guess} ukatxa.\nKunja uñjaña, target ukaxa (2/3)x(uñjaña pusi uñjaña),\nukatxa player uñjaña target ukaxa qhana ukatxa round ukatxa.\nJuk’ampi uñjaña format ukatxa '[<number>]'."
   },
   "invalid_move": {
     "wrong_format": "Jani wali suma qillqawi; amuyt'awimax [<number>] ukjamarjamawa.",
     "out_of_range": "Jupax sarxatawi {min_guess} utji {max_guess} khaya."
   },
   "message": {
-    "round_guesses": "Player 0 guessed {guess0}; Player 1 guessed {guess1}. Thus the Target is: {target}.",
+    "round_guesses": "Jugador 0 aruskitu {guess0}; Jugador 1 aruskitu {guess1}. Ukhamaraki, Utatäwi: {target}.",
     "round_draw": "Uka muytañax ch'usawja.",
     "round_win": "Juqiru {winner} atipt'iwa!"
   },

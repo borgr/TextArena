@@ -13,8 +13,8 @@
     "already_matched": "ਅਵੈਧ ਚਾਲ. ਖਿਡਾਰੀ {player_id} ਨੇ ਇੱਕ ਜਾਂ ਦੋਵੇਂ ਕਾਰਡ ਚੁਣੇ ਹਨ ਜੋ ਪਹਿਲਾਂ ਹੀ ਮੇਲ ਖਾਂਦੇ ਹਨ."
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "ਪਲੇਅਰ {player_id} ਦੁਆਰਾ ਚੁਣੇ ਗਏ ਕਾਰਡ ਸਥਿਤੀਆਂ [{r1} {c1}] ਅਤੇ [{r2} {c2}] 'ਤੇ ਮੇਲ ਖਾਂਦੇ ਹਨ!",
+    "cards_no_match": "ਪਲੇਅਰ {player_id} ਦੁਆਰਾ ਚੁਣੇ ਗਏ ਕਾਰਡ ਮੇਲ ਨਹੀਂ ਖਾਂਦੇ। ਸਥਿਤੀਆਂ [{r1} {c1}] ਅਤੇ [{r2} {c2}] 'ਤੇ ਕਾਰਡ ਕ੍ਰਮਵਾਰ {pos1} ਅਤੇ {pos2} ਹਨ।"
   },
   "outcome": {
     "draw": "ਦੋਵੇਂ ਖਿਡਾਰੀਆਂ ਨੇ ਕਾਰਡਾਂ ਦੇ ਇੱਕੋ ਜਿਹੇ ਜੋੜਿਆਂ ਦੀ ਗਿਣਤੀ ਕੀਤੀ।",

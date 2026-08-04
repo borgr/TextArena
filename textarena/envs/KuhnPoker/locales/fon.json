@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a {max_rounds} round game of Kuhn Poker.\nGame Rules:\n- Kuhn Poker uses a 3-card deck with J, Q, K (J lowest, K highest)\n- Each player antes {ante} chip and receives 1 card each round (note that the cards are dealt without replacement, so you cannot have the same card as your opponent).\n- Game continues for {max_rounds} rounds\n- The player with the most chips after all rounds wins\nAction Rules:\n- '[check]': Pass without betting (only if no bet is on the table)\n- '[bet]': Add 1 chip to the pot (only if no bet is on the table)\n- '[call]': Match an opponent's bet by adding 1 chip to the pot\n- '[fold]': Surrender your hand and let your opponent win the pot"
+    "intro": "A nyi wẹ Player {player_id} le a {max_rounds} round ahyọ̀n Kuhn Poker tọn.\nNuwànzọn ahyọ̀n tọn:\n- Kuhn Poker yi a 3-card deck po J, Q, K (J he klohugan, K he yọyọ hugan)\n- Edegbẹ lẹlo {ante} chip bọ yi 1 card kọ̀n na round kọ̀n (yẹdọ dọ kaadi lẹ yi wẹzẹtẹn wutu, a ma sọgan wẹ kaadi dopọ towe kọmẹtọ hẹ).\n- Ahyọ̀n tọn zindonukọn na {max_rounds} rounds\n- Edegbẹ he ka sọ yin pinpẹnhlan na chip hugan to round lẹpo godo wẹ ahyọ̀n lọ.\nNuwànzọn wazọ́n tọn:\n- '[check]': Yi do kọ̀n pọ́n (kanọ̀n wẹ a ma yi bet do tọ́n na tebu)\n- '[bet]': Yi 1 chip kún na pot (kanọ̀n wẹ a ma yi bet do tọ́n na tebu)\n- '[call]': Yi 1 chip kún na pot nado yi dopọ towe kọmẹtọ hẹ\n- '[fold]': Yi awhàn towe jo bọ yi kọmẹtọ towe wẹ pot lọ"
   },
   "init_round": {
     "round_start": "### Nɔkɔnɔ lɛ kɛ {current_round} gbɔn sɔnɔ {max_rounds} nɔkɔnɔ lɔ. Ka ɖɛ wɔ: '{player_card}'",
@@ -11,17 +11,17 @@
     "not_legal": "Nǔwiwa ɔ ɖó na nyí {legal_actions}."
   },
   "action": {
-    "submit_move": "Player {player_id}, submitted move: '[{move}]'.",
+    "submit_move": "Player {player_id}, yi wazọ́n: '[{move}]'.",
     "valid_actions": "Nǔ e a na wà lɛ́ɛ ɖíe: {legal_actions}.",
-    "round_summary": "{reason} Nɔkɔnɔ lɛ kɛ: Player 0: '{player_0_chips}'; Player 1: '{player_1_chips}'"
+    "round_summary": "{reason} Awọn akóntọ lẹ: Akanṣọ 0: '{player_0_chips}'; Akanṣọ 1: '{player_1_chips}'"
   },
   "showdown": {
-    "showdown_summary": "Showdown: Player {winner}'s {winner_card} beats Player {loser}'s {loser_card}. Player {winner} wins pot of {pot_value} chips."
+    "showdown_summary": "Gbọjẹ: Akanṣọ {winner} tọn {winner_card} hẹ̀ Akanṣọ {loser} tọn {loser_card}. Akanṣọ {winner} wẹ mọ ojú àṣẹ {pot_value} tọn."
   },
   "outcome": {
     "draw": "Ðò {max_rounds} lɛ gudo ɔ, mɛ e ɖò kplékplé enɛ é bǐ ɖó nǔ ɖokpo ɔ.",
     "round_win": "{player_id} ɔ́' é kó yí.",
-    "winner_player0": "Player 0 won by having more chips at the end of all {max_rounds} rounds.",
-    "winner_player1": "Player 1 won by having more chips at the end of all {max_rounds} rounds."
+    "winner_player0": "Player 0 wẹ ahyọ̀n lọ na yi chip hugan to round lẹpo vivọnu {max_rounds} tọn.",
+    "winner_player1": "Player 1 wẹ ahyọ̀n lọ na yi chip hugan to round lẹpo vivọnu {max_rounds} tọn."
   }
 }

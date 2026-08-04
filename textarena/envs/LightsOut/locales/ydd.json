@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "קאַמף מוזן זיין אין פֿאָרמאַט [row col] ווו רודערן און קאָל זענען ינטיידזשערז פון 0 צו {max_index}.",
-    "out_of_range": "Coordinates must be between 0 and {max_index}. You entered [{row},{col}]."
+    "out_of_range": "די קאארדינאטן מוזן זיין צווישן 0 און {max_index}. איר האט אריינגעגעבן [{row},{col}]."
   },
   "outcome": {
     "win": "מזל טוב! איר האָט געלייזט דעם רעטעניש אין {moves_used} באַוועגונגען!",

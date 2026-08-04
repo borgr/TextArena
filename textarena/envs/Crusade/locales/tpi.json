@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({piece}). Opponent is ({opp}). Submit moves as '[b1 c3]' (from → to). All pieces move like chess knights.\nEach capture scores {score_per_capture} point. Game ends after {max_moves} moves or when a player has no legal move / no pieces. Higher score wins."
+    "intro": "Yu Player {player_id} ({piece}). Opponent bilong yu i ({opp}). Salim move olsem '[b1 c3]' (long → go). Olgeta pisi i go olsem knight bilong chess.\nKiap kisim {score_per_capture} point long kisim wanpela pisi. Gem i pinis bihain {max_moves} move o taim wanpela player i no gat laik move / no pisi. Skor i win i go antap."
   },
   "board": {
     "current_board": "Muvim #{move_count}\n\n{board}\n\nMuvim we i stap: {moves}"

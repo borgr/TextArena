@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are solving the Sokoban puzzle. You are the player and you need to push all boxes to targets.\n        When you are right next to a box, you can push it by moving in the same direction.\n        You cannot push a box through a wall, and you cannot pull a box.\n        On the board, objects are represented as: \n        - The player (you) appears as 'P' \n        - Walls are represented with '#' \n        - Boxes are marked as 'X' \n        - Empty goals are shown with a 'O'\n        - Boxes on goals are visualized with '√'\n        You can also use [w] for up, [a] for left, [s] for down, and [d] for right.\n        "
+    "intro": "Ti stæ risolvendo o puzzle do Sokoban. Ti stæ o zugòu e ti devi spîn tûtte e casce a-i bersagî.\n        Quande ti stæ a-a fianco de 'na casca, a pêu spîn movendote in ta mæxima direçion.\n        No pêu spîn 'na casca attraverso 'n mûro, e no pêu tirâ 'na casca.\n        In sciâ tæula, i oggetti sôn rapprezentæ cómme:\n        - O zugòu (ti) o l'appâ cómme 'P'\n        - I mûri sôn rapprezentæ con '#'\n        - E casce sôn marcæ cómme 'X'\n        - I bersagî vôi sôn mostræ con 'O'\n        - E casce in sciâ bersagî sôn visualizzæ con '√'\n        Pêu dêuviâ [w] pe l'âto, [a] pe a scinistra, [s] pe o basso e [d] pe a drita.\n        "
   },
   "board": {
     "current_board": "Tavoliêre atoâle:\n\n{board}\nMôvi disponìbili: {moves}"
@@ -12,7 +12,7 @@
     "invalid_position": "Movi invalido - no se peu fâ quella poxiçion."
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
+    "moved": "Ti {pushed} te mòsso [{action}].",
     "pushed_prefix": "O l'à spinto unna scatola pe un pö."
   },
   "outcome": {

@@ -1,9 +1,9 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id}. You are playing the 15-Puzzle game.\nThe objective of the game is to arrange the numbered tiles in ascending order from 1 to 15, with the empty space located in the bottom-right corner.\nTo make a move, you can slide a tile into the empty space (represented by a double underscore, e.g. __) by using one of the following commands:\n- 'up': Move the tile below the empty space up.\n- 'down': Move the tile above the empty space down.\n- 'left': Move the tile to the right of the empty space left.\n- 'right': Move the tile to the left of the empty space right.\nTo submit your move, type the direction (e.g., 'up', 'down', 'left', or 'right') in square brackets, e.g. [up].\nThe current board layout is shown below. Use the information to solve the puzzle.\n"
+    "intro": "D kečč imaray {player_id}. D tira n 15-Puzzle i d-tiray.\nInagraw n urar d asuter n yeḍṛisen iberdan s azrar n wadda seg 1 ar 15, d akal ilemẓiyen yellan deffir tama tayeffust.\nI wakken ad teskecem tarmit, tzemreḍ ad tesruḥeḍ ṭayṭ i d-ilemẓi (yettembiwel s snat n tedwiltin, am __) s useqdec n yiwen n iseqdac igan d:\n- 'up': Sruḥ ṭayṭ deffir akal ilemẓiyen ɣer ufella.\n- 'down': Sruḥ ṭayṭ ufella n akal ilemẓiyen ɣer deffir.\n- 'left': Sruḥ ṭayṭ ɣer tama tayeffust n akal ilemẓiyen ɣer tama tazelmaṭ.\n- 'right': Sruḥ ṭayṭ ɣer tama tazelmaṭ n akal ilemẓiyen ɣer tama tayeffust.\nI wakken ad teskecem tarmit, arki tawṭiḍt (am 'up', 'down', 'left', neɣ 'right') deffir sin n tedwiltin, am [up].\nTasuta n yeḍṛisen n tura tettwabeyyen deffir. Seqdec isalan-a i wakken ad tesulṭuḍ tibuḍt.\n"
   },
   "board": {
-    "current_board": "Current Board:\n\n{board}\nAvailable Moves: {moves}",
+    "current_board": "Talɣa n yeḥricen tura:\n\n{board}\nTirɣa ttwafken: {moves}",
     "game_board": "Aɣbalu n wurar: {board}"
   },
   "invalid_move": {

@@ -31,15 +31,12 @@
     "{share}": "La porción de fichas que recibe cada ganador empatado",
     "{ranking}": "La clasificación final de números de jugadores, de menor a mayor"
   },
-
   "player_prompt": {
     "intro": "Eres el Jugador {player_id} en una partida de Texas Hold'em Poker de {num_players} jugadores.\nInformación de la partida:\n- {num_rounds} manos en total\n- Pila inicial: {starting_chips} fichas\n- Ciegas: {small_blind}/{big_blind}\n\nAcciones disponibles (tokens exactos):\n  '[Check]'  - cuando no hay apuesta activa\n  '[Call]'   - igualar la apuesta actual\n  '[Fold]'   - descartar tu mano\n  '[Bet N]'  - abrir por N fichas\n  '[Raise N]'- subir en N fichas\n"
   },
-
   "game": {
     "start": "Comenzando una nueva partida de Texas Hold'em de {num_rounds} rondas con {num_players} jugadores."
   },
-
   "board": {
     "panel": "===== Mano {round} / {num_rounds} - {street} =====\nBote: {pot} | Apuesta actual: {current_bet}\nMesa visible: [{comm}]\n{lines}\nTu mano: {hole0}, {hole1}\n==============================================",
     "player_line": "P{pid}{role_txt}: {chips} fichas | apuesta {bet} | {status}",
@@ -54,34 +51,29 @@
     "status_folded": "retirado",
     "status_all_in": "all-in"
   },
-
   "invalid_move": {
-    "wrong_action":     "Acción de póker inválida.",
+    "wrong_action": "Acción de póker inválida.",
     "check_facing_bet": "No se puede pasar frente a una apuesta.",
-    "raise_too_small":  "La subida debe superar la apuesta actual.",
-    "game_complete":    "La partida ya ha terminado."
+    "raise_too_small": "La subida debe superar la apuesta actual.",
+    "game_complete": "La partida ya ha terminado."
   },
-
   "message": {
     "eliminated_invalid": "El Jugador {pid} fue eliminado por un movimiento inválido."
   },
-
   "action": {
-    "fold":  "El Jugador {pid} se retira.",
+    "fold": "El Jugador {pid} se retira.",
     "check": "El Jugador {pid} pasa.",
-    "call":  "El Jugador {pid} iguala {amount}.",
-    "bet":   "El Jugador {pid} apuesta hasta {total}.",
+    "call": "El Jugador {pid} iguala {amount}.",
+    "bet": "El Jugador {pid} apuesta hasta {total}.",
     "raise": "El Jugador {pid} sube hasta {total}."
   },
-
   "showdown": {
-    "fold_win":    "El Jugador {winner} gana el bote de {pot} fichas (todos los demás se retiraron).",
+    "fold_win": "El Jugador {winner} gana el bote de {pot} fichas (todos los demás se retiraron).",
     "reveal_line": "Jugador {pid}: {c0} {c1}",
-    "reveal":      "Showdown ronda {round}:\n{reveals}\nCartas comunitarias: {community}",
-    "win":         "El Jugador {winner} gana el bote de {pot} fichas.",
-    "tie":         "Empate entre los jugadores {winners}. Cada uno recibe {share} fichas."
+    "reveal": "Showdown ronda {round}:\n{reveals}\nCartas comunitarias: {community}",
+    "win": "El Jugador {winner} gana el bote de {pot} fichas.",
+    "tie": "Empate entre los jugadores {winners}. Cada uno recibe {share} fichas."
   },
-
   "outcome": {
     "final": "Clasificación final (menor→mayor): {ranking}. Ganador: Jugador {winner}"
   }

@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "क्रिया [row col] स्वरूपात असावी जिथे पंक्ती आणि कॉलम 0 ते {max_index} पर्यंतचे पूर्णांक आहेत.",
-    "out_of_range": "Coordinates must be between 0 and {max_index}. You entered [{row},{col}]."
+    "out_of_range": "अक्षांश 0 आणि {max_index} दरम्यान असले पाहिजेत. तुम्ही [{row},{col}] प्रविष्ट केले."
   },
   "outcome": {
     "win": "अभिनंदन! तुम्ही {moves_used} चालीत कोडे सोडवले!",

@@ -9,10 +9,10 @@
     "{pct}": "Progress as a percentage string, e.g. 50%"
   },
   "player_prompt": {
-    "intro": "Map each letter to a unique digit so the arithmetic holds.\nAssign with `[A 5]`, re-assign anytime.\n"
+    "intro": "Sewwi askil yewwi-d isekkilen n tɣmert i yellan, i wakken ad tili tɣmert.\nSewwi s `[A 5]`, sewwi tikkelt nniḍen.\n"
   },
   "invalid_move": {
-    "wrong_format": "Bad action format. Use `[A 5]`.",
+    "wrong_format": "Tuffɣa n tɣmert ur yelli. Sewwi `[A 5]`.",
     "letter_not_in_puzzle": "ⵜⴰⵍⴻⵜⴻⵔ {letter} ⵓⴰⵔ ⵜ-ⵉⵍⵍⴰ ⴷⴰⵗ ⴱⴰⵣⴶⴻⵍ.",
     "digit_used": "Akala {digit} tettyaṣṣan s ṭṭafat {used_letter}.",
     "leading_zero": "ⵓⵔ ⵉⵣⴹⴰⵕ ⴰⴷ ⵉⴳ ⵓⵟⵟⵓⵏ ⴰⵎⵣⵡⴰⵔⵓ ⵏ ⵜⴳⵓⵔⵉ 0."

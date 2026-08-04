@@ -21,23 +21,23 @@
     "{total}": "Each player's tied final total (a number)"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id}, playing {num_rounds} rounds of Iterated Ultimatum Game.\nYou have ${pool} to split this round between yourself and Player {other_id}.\n\nProposer:\n  - Make an offer: [Offer: $X] (0 <= X <= pool)\n  - If accepted → You get $(pool - X), other player gets $X\n  - If rejected → Both get $0\n  - Example: [Offer: $3]  or  'I think this is fair. [Offer: $5]'\n\nResponder:\n  - Decide on the offer with either [Accept] or [Reject]\n  - Example: 'That seems reasonable. [Accept]'\n            'Too unfair. [Reject]'\n"
+    "intro": "Sampeyan Pemain {player_id}, dolanan {num_rounds} ronde Iterated Ultimatum Game.\nSampeyan duwe $ {pool} kanggo dibagi ronde iki antarane sampeyan lan Pemain {other_id}.\n\nPemain sing ngusul:\n  - Ngusulake tawaran: [Offer: $X] (0 <= X <= pool)\n  - Yen ditampa → Sampeyan entuk $(pool - X), pemain liyan entuk $X\n  - Yen ditolak → Kalorone entuk $0\n  - Tuladha: [Offer: $3]  utawa  'Aku rasa iki adil. [Offer: $5]'\n\nPemain sing nanggapi:\n  - Milih tawaran karo [Accept] utawa [Reject]\n  - Tuladha: 'Iki katon wajar. [Accept]'\n            'Terlalu ora adil. [Reject]'\n"
   },
   "round": {
-    "begins": "--- Round {round_number} begins! ---\nPlayer {proposer_id} is the proposer, Player {responder_id} is the responder.",
-    "offer": "Round {round_number}: Player {proposer_id} offers ${offer} to Player {responder_id} (keeping ${keep}).",
-    "accepted": "Player {responder_id} accepted! Round {round_number} gains: Player {proposer_id} +${proposer_gain}, Player {responder_id} +${responder_gain}. New totals: Player 0: ${total_0}, Player 1: ${total_1}.",
-    "rejected": "Player {responder_id} rejected the offer! Round {round_number} gains: Both players +$0. Totals remain: Player 0: ${total_0}, Player 1: ${total_1}."
+    "begins": "--- Ronde {round_number} diwiwiti! ---\nPemain {proposer_id} dadi pemain sing ngusul, Pemain {responder_id} dadi pemain sing nanggapi.",
+    "offer": "Ronde {round_number}: Pemain {proposer_id} nawakake ${offer} marang Pemain {responder_id} (nyimpen ${keep}).",
+    "accepted": "Pemain {responder_id} nampa! Ronde {round_number} entuk: Pemain {proposer_id} +${proposer_gain}, Pemain {responder_id} +${responder_gain}. Total anyar: Pemain 0: ${total_0}, Pemain 1: ${total_1}.",
+    "rejected": "Pemain {responder_id} nolak tawaran! Ronde {round_number} entuk: Kalorone pemain +$0. Total tetep: Pemain 0: ${total_0}, Pemain 1: ${total_1}."
   },
   "invalid_move": {
     "no_offer_format": "Sing ngusulake kudu nggawe tawaran nggunakake format [Offer: $X].",
     "bad_integer": "Jumlah tawaran kudu dadi wilangan bulat sing sah.",
     "out_of_range": "Penawaran kudu antara $ 0 lan $ {pool} .",
     "no_current_offer": "Ora ana tawaran saiki kanggo nanggapi.",
-    "accept_or_reject": "Responder must either [Accept] or [Reject] the offer."
+    "accept_or_reject": "Pemain sing nanggapi kudu milih [Accept] utawa [Reject] tawaran."
   },
   "outcome": {
-    "win": "Player {winner} won with ${winner_total} total vs Player {loser}'s ${loser_total}.",
+    "win": "Pemain {winner} menang karo total ${winner_total} vs Pemain {loser} total ${loser_total}.",
     "draw": "Narik! Loro-lorone pemain rampung kanthi total ${total} ."
   }
 }

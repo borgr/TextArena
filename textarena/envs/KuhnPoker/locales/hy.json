@@ -11,7 +11,7 @@
     "not_legal": "Գործողությունը պետք է լինի {legal_actions}:"
   },
   "action": {
-    "submit_move": "Player {player_id}, submitted move: '[{move}]'.",
+    "submit_move": "Խաղացող {player_id} ներկայացրեց իր քայլը՝ '[{move}]'.",
     "valid_actions": "Դուք ունեք հետևյալ գործողությունները. {legal_actions}.",
     "round_summary": "{reason} Ներկայիս միավորները. 0 խաղացող. \"{player_0_chips}\"; 1 խաղացող. \"{player_1_chips}\""
   },

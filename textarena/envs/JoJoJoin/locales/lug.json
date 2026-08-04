@@ -1,9 +1,9 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in JoJoJoin, played on a 5x5 board with cells numbered 0-24.\nOn your turn, place your mark on any empty cell, e.g. '[12]'.\nYOU WIN by getting FOUR of your marks in a row — four consecutive cells horizontally, vertically, or diagonally.\nAs Player {player_id} you are '{symbol}'; your opponent is '{opponent_symbol}'."
+    "intro": "Oli Mchezaji {player_id} mu JoJoJoin, omuzannyo ogw'omutala wa 5x5 ogw'obitabo ebibiri ebituumiddwa 0-24.\nKu kyaalo kyo, simba akabu kyo ku bitabo ebibiri ebikalu, e.g. '[12]'.\nOWANGULA ng'ofuna akabu kina mu mpangana — bitabo ebina ebirilana mu mpangana ya wansi, ya juu, oba ya diagonal.\nNg'oli Mchezaji {player_id} oli '{symbol}'; adui wo oli '{opponent_symbol}'."
   },
   "board": {
-    "current_board": "Current Board:\n\n{board}\n\nAvailable Moves: {moves}"
+    "current_board": "Tala ya Sasa:\n\n{board}\n\nKuva kw'Okusimba: {moves}"
   },
   "invalid_move": {
     "wrong_format": "Ekikolwa ekiragiddwa tekigoberera mpisa nnungi.",
@@ -15,6 +15,6 @@
   },
   "outcome": {
     "win": "Omuzannyi {player_id} awangudde!",
-    "draw": "The game is a draw!"
+    "draw": "Omuzannyo gwekuusa!"
   }
 }

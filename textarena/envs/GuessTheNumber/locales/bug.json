@@ -1,9 +1,9 @@
 {
   "player_prompt": {
-    "intro": "Anda adalah Pemain {player_id}. Anda sedang memainkan Guess The Number.\nAnda harus menebak angka antara {min_number} dan {max_number} dalam {max_turns} giliran.\nKetika Anda memasukkan tebakan, permainan akan memberikan Anda petunjuk seperti 'lebih tinggi' atau 'lebih rendah'.\nAnda dapat memberikan respons Anda dengan cara apa pun. Hanya angka yang dibungkus dengan tanda kurung siku yang akan dianggap sebagai tebakan Anda. Contohnya, [5].\nKetika Anda bermain, riwayat tebakan Anda akan dilampirkan di bawah. Gunakan informasi tersebut untuk menyelesaikan permainan sebelum Anda kehabisan tebakan.\nMasukkan tebakan Anda."
+    "intro": "Sida Player {player_id}. Sida manca'ita Guess The Number.\nSida harus mancari angka ri antara {min_number} sibawa {max_number} dalam {max_turns} giliran.\nSapamuwiwiwiwiwi manca'ita, permainan akan ma'beriwiwiwiwi petunjuk kaya 'lebih tinggi' atawa 'lebih rendah'.\nSida bisa ma'beriwiwiwiwi jawabanmu dalam cara apa pun. Hanya angka yang dibungkus dalam kurung siku yang akan dianggap sebagai tebakmu. Contohnya, [5].\nSapamuwiwiwiwiwi manca'ita, riwayat tebakanmu akan ditambahkan di bawah. Gunakan informasi itu untuk menyelesaikan permainan sebelum kamu kehabisan tebakan.\nMasukkan tebakanmu."
   },
   "invalid_move": {
-    "wrong_format": "Bentuk gerakan tidak sah. Pemain {player_id} tidak merespons dengan '[number]' yang valid.",
+    "wrong_format": "Format laleng kaju. Pemain {player_id} tena pasahani jawabanni '[number]' ri attong.",
     "out_of_range": "Laro de'na valid. Pemaen {player_id} na tebak nomoro diluar kisaran yang ditentukan.",
     "already_guessed": "Laro de'na valid. Pemaen {player_id} pura na tebak nomoro e."
   },
@@ -13,6 +13,6 @@
   },
   "outcome": {
     "win": "Sukkuru'ki! Mappikkiri nomoro iya coco'.",
-    "turn_limit": "Batasi giliran telah tercapai. Tebak: {guess}, Target: {target}"
+    "turn_limit": "Batas giliran telah tercapai. Tebakan: {guess}, Target: {target}"
   }
 }

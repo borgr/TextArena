@@ -11,7 +11,7 @@
     "{moves}": "The comma-separated list of available move tokens like '[4]' (do not translate)"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player Tic Tac Toe.\nYour symbol is '{symbol}'.\nYou take turns placing your symbol on a 5x5 board to form a line of four.\nLines can be horizontal, vertical, or diagonal.\nSubmit your move using the format '[4]' to mark cell 4."
+    "intro": "Nangdi Player {player_id} Three-Player Tic Tac Toe da khilgi.\nNanggi symbol '{symbol}'.\nNang turn toubirak-u nang symbol 5x5 board da line of four toubirak-u.\nLines horizontal, vertical, anisu diagonal toubirak-u.\nNang move submit toubirak-u '[4]' format da cell 4 mark toubirak-u."
   },
   "board": {
     "current_board": "বর্তমান বোর্ড:\n\n{board}\n\nউপলব্ধ চাল: {moves}"

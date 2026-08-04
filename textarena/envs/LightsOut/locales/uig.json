@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "ھەرەكەت [row col] فېرماتىدا بولۇشى كېرەك، بۇ يەردە سېپې ۋە سۇڭ 0 دىن {max_index} گىچە بولىدۇ.",
-    "out_of_range": "Coordinates must be between 0 and {max_index}. You entered [{row},{col}]."
+    "out_of_range": "كوردىناتلار 0 ۋە {max_index} ئارىلىقىدا بولۇشى كېرەك. سىز [{row},{col}] كىرگۈزدىڭىز."
   },
   "outcome": {
     "win": "مۇبارەك بولسۇن! سىز {moves_used} ھەرىكىتى بىلەن تېپىشماقنى ھەل قىلدىڭىز!",

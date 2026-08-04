@@ -5,11 +5,11 @@
   "board": {
     "header": "INHLAKO: {target}\n\nNambari zingakufikeli:\n{numbers}",
     "best": "{observation}\n\nElihle kakhulu mpela: {best_value} (lidistance: {distance})\nBest expression: {best_expression}",
-    "history": "{observation}\n\nMove history:\n{moves}",
-    "progress": "{observation}\nCurrent progress score: {progress}"
+    "history": "{observation}\n\nImbali yenkhetho:\n{moves}",
+    "progress": "{observation}\nIsikhala samanje: {progress}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use `[i j op]` where i,j are indices and op is +,-,*,/",
+    "wrong_format": "Ifomethi yenkhetho ayikho ngendlela. Usebenzise `[i j op]` lapho i,j yinombolo zesikhundla kanti op yinketho +,-,*,/",
     "invalid_indices": "Ema-indices langasebenti. Kumele ehluke futsi abe ngekhatsi kwebanga 0 -{max_index}",
     "invalid_operation": "Umsebenti longasebenti (kuhlukaniswa nge-zero nobe umphumela longaphili)"
   },

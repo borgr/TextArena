@@ -1,10 +1,10 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id}. You are playing the 15-Puzzle game.\nThe objective of the game is to arrange the numbered tiles in ascending order from 1 to 15, with the empty space located in the bottom-right corner.\nTo make a move, you can slide a tile into the empty space (represented by a double underscore, e.g. __) by using one of the following commands:\n- 'up': Move the tile below the empty space up.\n- 'down': Move the tile above the empty space down.\n- 'left': Move the tile to the right of the empty space left.\n- 'right': Move the tile to the left of the empty space right.\nTo submit your move, type the direction (e.g., 'up', 'down', 'left', or 'right') in square brackets, e.g. [up].\nThe current board layout is shown below. Use the information to solve the puzzle.\n"
+    "intro": "Bo ta Jugador {player_id}. Bo ta hunga e wega di 15-Puzzle.\nE objektivo di e wega ta pa aregla e tehelanan numerá den orden asendente di 1 pa 15, ku e espasio bashí lokalisá na e kantu abou-drechi.\nPa hasi un movimiento, bo por deslisa un tehel den e espasio bashí (representá pa un dobel subraya, p.e. __) dor di usa un di e siguiente komandunan:\n- 'up': Move e tehel abou di e espasio bashí ariba.\n- 'down': Move e tehel ariba di e espasio bashí abou.\n- 'left': Move e tehel na drechi di e espasio bashí abou.\n- 'right': Move e tehel na abou di e espasio bashí drechi.\nPa someti bo movimiento, skibi e direkshon (p.e., 'up', 'down', 'left', òf 'right') den brakètnan kuadrá, p.e. [up].\nE aktual layout di e bord ta mustra abou. Usa e informashon pa solushona e puzzle.\n"
   },
   "board": {
     "current_board": "Tablero Aktual:\n\n{board}\nMovimentonan Disponibel: {moves}",
-    "game_board": "Game Board: {board}"
+    "game_board": "Board di Wega:\n{board}"
   },
   "invalid_move": {
     "wrong_format": "E forma di move no ta válido. Jugador {player_id} a kontestá ku un direkshon valido den paréntesis kuadrátiko.",

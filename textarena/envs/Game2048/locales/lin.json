@@ -1,16 +1,16 @@
 {
   "player_prompt": {
-    "intro": "You are playing 2048 on a {board_size}x{board_size} board. Your goal is to reach a {target_tile} tile by sliding identical numbers together!\nValid moves: [Up], [Down], [Left], [Right]. Tiles combine when they collide, doubling their value.\n"
+    "intro": "Ozali kosakana 2048 na mbeta ya {board_size}x{board_size}. Molayi na yo ezali kofika tile ya {target_tile} na kozongisa nambari zingana pamo!\nMakabo ya kosala: [Up], [Down], [Left], [Right]. Ba-tiles bakosangana bango bakokutana, na kozongisa mbongo zao.\n"
   },
   "board": {
     "current_board": "Score: {score}\n{board}"
   },
   "invalid_move": {
-    "invalid_action": "Invalid action. Use '[Up]'/'[Down]'/'[Left]'/'[Right]'.",
+    "invalid_action": "Kosala mabe. Tika '[Up]'/'[Down]'/'[Left]'/'[Right]'.",
     "no_change": "Kasi, bato ya biro yango babongwanaki te. Baponaki nzela mosusu."
   },
   "outcome": {
-    "win": "Congratulations, you reached {target_tile}! Final score {score}.",
-    "lose": "No moves left. Max tile {max_tile} - final score {score}."
+    "win": "Imboti, ozwaki {target_tile}! Makabo ya mwisho {score}.",
+    "lose": "Makabo maleki te. Tile ya juu {max_tile} - makabo ya mwisho {score}."
   }
 }

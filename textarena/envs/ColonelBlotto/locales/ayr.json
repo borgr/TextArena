@@ -1,11 +1,11 @@
 {
   "player_prompt": {
-    "intro": "You are {role} in Colonel Blotto.\nYour goal is to win more rounds than your opponent.\nOn each round, allocate exactly {num_total_units} units across fields {field_names}.\nThe player who allocates more units to a field wins that field, and the player who wins more fields wins the round.\nFor example, '[A7 B7 C6]' allocates 7 units to A, 7 to B, and 6 to C.",
+    "intro": "Kamisar Blotto uksana {role} sas. \nQ'umachaña wakisiñkamawa wali p'unchaykama. \nKila p'unchay, {num_total_units} juk'ampi jayt'awi {field_names} pampakunana. \nJuk'ampi jayt'irix jach'a pampa, ukax juk'ampi jayt'irix wali p'unchay, ukax juk'ampi wali p'unchay jayt'irix wali p'unchay. \nKunjamasa, '[A7 B7 C6]' 7 juk'ampi A, 7 B, 6 C jayt'awi.",
     "commander_alpha": "Comandante Alfa. Ukax wali ch'amanwa.",
     "commander_beta": "Comandante Beta. Jumax wali ch'amanïtawa."
   },
   "game_state": {
-    "header_round": "=== COLONEL BLOTTO - Round {current_round}/{num_rounds} ===\nRounds Won - Commander Alpha: {alpha_score}, Commander Beta: {beta_score}"
+    "header_round": "=== KAMISAR BLOTTO - P'unchay {current_round}/{num_rounds} ===\nP'unchaykuna Wali - Kamisar Alfa: {alpha_score}, Kamisar Beta: {beta_score}"
   },
   "round_battle": {
     "field_result": "\nP'unchay {current_round}\nMallku Awki uta kamisiri: {p0_allocations}\nMallku Qulla uta kamisiri: {p1_allocations}\n",
@@ -17,7 +17,7 @@
     "wrong_format": "Jani chiqapa qillqaña. A:5, B:10, C:5 apnaqma",
     "invalid_field": "Jan wali aymaranaka. {field_names} Jani chiqapa:",
     "wrong_allocation_value": "Taqi kunanakas janiw jan wali jakhunakäkiti.",
-    "incorrect_total_units": "You have to allocate exactly {num_total_units} units. Current sum: {current_sum}",
+    "incorrect_total_units": "Kunasa, {num_total_units} juk'ampi jayt'ana. Juk'ampi suma: {current_sum}",
     "good_allocations": "Ukax wali askiwa."
   },
   "outcome": {

@@ -8,7 +8,7 @@
     "round_summary": "Ɓangal yuɓɓorɗe {round}:\n{outcome}\nƊan 0 ɗon hɛɓi {r0} (hakku {score_0}), Ɗan 1 ɗon hɛɓi {r1} (hakku {score_1})."
   },
   "outcome": {
-    "winner": "Player {winner} wins {win_score} - {lose_score}.",
+    "winner": "Player {winner} haɗii {win_score} - {lose_score}.",
     "draw": "Jaɓɓorgo! Ɗiɗo fuu ɓe waɗi {s0}.",
     "round_both_cooperate": "Yimɓe ɗiɗo fuu ɓe ɗo huuda.",
     "round_both_defect": "Yimɓe ɗiɗo fuu ɓe acci.",

@@ -22,7 +22,7 @@
   "outcome": {
     "survived_win": "O zugatô {player_id} o l'é rescivæu; tutti i atri se son schiantæ.",
     "all_crashed": "Tutti i zugadô an fæto a cascia insemme.",
-    "outlived": "Player outlived all others.",
+    "outlived": "O zugatô o l'à sopravivûo a tutti i âtri.",
     "all_dead": "Tutti i zugadôri son mòrti.",
     "turn_limit": "O limite de rotaçion o l'é arrivou: vinse chi ciù longhessa a vitta.",
     "ranking": "{reason} Classificazione finale di gruppi (mêgio→pêgo): {groups}"

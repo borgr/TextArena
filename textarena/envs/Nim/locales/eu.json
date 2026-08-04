@@ -7,13 +7,13 @@
   },
   "invalid_move": {
     "wrong_format": "Ez da mugimendu formatu baliorik aurkitu. Erabili \"[pile quantity]\".",
-    "correct_format_wrong_fields": "Player {player_id}, Invalid action. Column {col} is out of bounds.",
-    "out_of_range": "Pile index {pile_index} is out of range.",
+    "correct_format_wrong_fields": "Jokalari {player_id}, ekintza baliogabea. Zutabe {col} mugen kanpo dago.",
+    "out_of_range": "Piloaren indizea {pile_index} mugen kanpo dago.",
     "non_positive": "Objektu bat gutxienez.",
     "exceeds_pile": "Ezin da {quantity} kendu {pile_index} pilatik (ezkerrean {pile_count} bakarrik)."
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "Jokalari {player_id} jokatu du [{pile_index} {quantity}], {quantity} objektu(k) kenduz pilo {pile_index}-tik."
   },
   "outcome": {
     "win": "Jokalariak {player_id} hartu zuen azken objektua!"

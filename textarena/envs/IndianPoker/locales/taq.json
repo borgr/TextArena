@@ -1,9 +1,9 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a game of Indian Poker.\n- 52-card deck; you see only the opponent's card.\n- Ante {ante} chip(s) each round, {max_rounds} round(s) total.\n- Valid moves: '[check]'  |  '[bet X]'  |  '[call]'  |  '[raise X]'  |  '[fold]'  (X is a positive integer <= your chip count.)\n- Highest hidden card wins the pot at showdown.\n"
+    "intro": "Keddi Player {player_id} deg iman n Poker n Hind.\n- 52-kart tamawt; kattanfat adrar n imaslaɣ deg kart n imaslaɣ.\n- Ante {ante} chip(s) kul adrar, {max_rounds} adrar(s) aked.\n- Imyaten iman: '[check]'  |  '[bet X]'  |  '[call]'  |  '[raise X]'  |  '[fold]'  (X d azgen aɣelsan ≤ chip nnek.)\n- Kart n imaslaɣ n iman iɣelnawen tewhid iman n pot deg showdown.\n"
   },
   "round": {
-    "announce": "### Round {current_round}/{max_rounds}\nYour opponent's card is: {card}"
+    "announce": "### Adrar {current_round}/{max_rounds}\nKart n imaslaɣ n imaslaɣ nnek d: {card}"
   },
   "invalid_move": {
     "ambiguous": "Sukkël ikan adad amzay ayyi, si '[check]', '[bet 2]', '[call]', '[raise 3]', neɣ '[fold]'.",
@@ -25,8 +25,8 @@
   "message": {
     "round_result": "{reason}  Pot {pot} → Imudar {winner}. (Bankrolls P0:{p0}, P1:{p1})",
     "folded": "ⴰⵎⵓⵔⴰⵔ {player_id} ⵢⴻⵙⵙⴰⴷⴰⴱ.",
-    "showdown_win": "Showdown: {card_win} beats {card_lose}.",
-    "showdown_tie": "Showdown tie: both {card}. Pot split – each receives {split}."
+    "showdown_win": "Showdown: {card_win} iɣelnawen {card_lose}.",
+    "showdown_tie": "Showdown tie: kul {card}. Pot split – kul adrar {split}."
   },
   "outcome": {
     "p0_wins": "Imudar 0 yettɛedda ({bank0} > {bank1})",

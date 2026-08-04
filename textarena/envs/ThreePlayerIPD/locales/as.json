@@ -4,7 +4,7 @@
   },
   "round": {
     "start": "─── আৰম্ভণি ৰাউণ্ড {round} ─── পৰৱৰ্তী {conv_rounds} ৰাউণ্ডত আপুনি মুক্তভাৱে কথা পাতিব পাৰে।",
-    "chat_finished": "Chat finished for round {round}. Submit your decisions, one token per opponent: `[pid cooperate]` or `[pid defect]`."
+    "chat_finished": "বৃত্ত {round} এর জন্য আলোচনা শেষ হয়েছে। আপনার সিদ্ধান্ত জমা দিন, একটি টোকেন প্রতি প্রতিপক্ষের জন্য: `[pid cooperate]` বা `[pid defect]`।"
   },
   "results": {
     "header": "### ৰাউণ্ড {round} - ফলাফলঃ",

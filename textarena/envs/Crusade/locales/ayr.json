@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({piece}). Opponent is ({opp}). Submit moves as '[b1 c3]' (from → to). All pieces move like chess knights.\nEach capture scores {score_per_capture} point. Game ends after {max_moves} moves or when a player has no legal move / no pieces. Higher score wins."
+    "intro": "Jumaxa Player {player_id} ({piece})wa.  Opponentixa ({opp})wa.  Q'ara q'ara '[b1 c3]' (k'ara → tukha)jam sara.  Taqi q'ara q'ara ajedrez caballerosjam sara.\nKada q'ara q'ara {score_per_capture} punto.  P'ukha {max_moves} q'ara q'ara tukha uka pacha, jan ukaxa jumaxa q'ara q'arawa janiwa.\nJuk'ampi puntuwa jallaxa."
   },
   "board": {
     "current_board": "Chhuxu #{move_count}\n\n{board}\n\nJach'a chhuxu sarañani: {moves}"

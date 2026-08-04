@@ -6,10 +6,10 @@
     "announce": "### Raun {current_round}/{max_rounds}\nOpoten yu kard i: {card}"
   },
   "invalid_move": {
-    "ambiguous": "Supply exactly ONE bracketed action, e.g. '[check]', '[bet 2]', '[call]', '[raise 3]', or '[fold]'.",
+    "ambiguous": "Givim wanpela wok bilong yu, olsem '[check]', '[bet 2]', '[call]', '[raise 3]', o '[fold]'.",
     "cannot_check": "Yu no inap [check] - yu bai kisim pe.",
     "amount_min": "Bet / Raise i mas winim 1 o moa.",
-    "cannot_bet": "Cannot [bet] - must [call] / [raise] / [fold].",
+    "cannot_bet": "Noken [bet] - yu mas [call] / [raise] / [fold].",
     "nothing_to_call": "I no gat samting bilong ringim; yu ken [check] long dispela ples.",
     "no_bet_to_raise": "Yusim [bet X] long opim; i no gat bet bilong raisim.",
     "insufficient": "Ol i no gat planti mani bilong mekim dispela wok."

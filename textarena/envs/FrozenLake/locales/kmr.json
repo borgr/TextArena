@@ -6,7 +6,7 @@
     "current_board": "Taqeta Heyî\n\n{board}\n\nÇalakiyên Berfireh: {actions}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use [up], [down], [left], [right] or [w], [a], [s], [d].",
+    "wrong_format": "Formata hereketê ne rast e. Ji [up], [down], [left], [right] an jî [w], [a], [s], [d] bikar bîne.",
     "unknown_action": "Çalakiyê ne naskirî '{action}'. Bikaranîna jor, jêr, çepê, rastê an w, a, s, d.",
     "hit_wall": "Tu ceribanda ku {action} bikişî lê dijwar kir!"
   },

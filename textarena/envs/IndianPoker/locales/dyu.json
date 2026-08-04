@@ -1,12 +1,12 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a game of Indian Poker.\n- 52-card deck; you see only the opponent's card.\n- Ante {ante} chip(s) each round, {max_rounds} round(s) total.\n- Valid moves: '[check]'  |  '[bet X]'  |  '[call]'  |  '[raise X]'  |  '[fold]'  (X is a positive integer <= your chip count.)\n- Highest hidden card wins the pot at showdown.\n"
+    "intro": "I ye Player {player_id} ye kɛlɛ lajɛnɛ Indian Poker.\n- 52-kɛlɛ deck; i ye kɛlɛ kelen ye oponɛnɛ kɛlɛ.\n- Ante {ante} chip(s) kɔlɔn, {max_rounds} kɔlɔn(s) jumɛnɛ.\n- Kɛlɛ wɛlɛ: '[check]'  |  '[bet X]'  |  '[call]'  |  '[raise X]'  |  '[fold]'  (X ye pɔsitiɲɛnɛ integer <= i chip count.)\n- Kɛlɛ kɔnɔnɛ kɛlɛ ye pot lajɛnɛ showdown.\n"
   },
   "round": {
     "announce": "### Kɔnɔ {current_round}/{max_rounds}\nI dɔgɔtigɛ kɛlɛ ye: {card}"
   },
   "invalid_move": {
-    "ambiguous": "Supply exactly ONE bracketed action, e.g. '[check]', '[bet 2]', '[call]', '[raise 3]', or '[fold]'.",
+    "ambiguous": "Kɛlɛ kɛlɛ kɔlɔnɛ kɛlɛ, e.g. '[check]', '[bet 2]', '[call]', '[raise 3]', wa '[fold]'.",
     "cannot_check": "I tɛ se k'a kɛ [check] - i be jɔrɔla.",
     "amount_min": "Wari/kafo ka kan ka se 1 ma.",
     "cannot_bet": "I ka fɛ [bet] - min bɛ [call] / [raise] / [fold].",

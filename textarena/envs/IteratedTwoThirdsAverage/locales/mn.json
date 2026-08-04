@@ -1,15 +1,15 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a {num_rounds}-round of IteratedTwoThirdsAverage.\nEach round, guess a number between {min_guess} and {max_guess}.\nAfter both guesses, the target is (2/3)x(average of both guesses),\nand the player whose guess is closest to the target wins that round.\nReply with your guess in the format '[<number>]'."
+    "intro": "Та IteratedTwoThirdsAverage тоглоомын {num_rounds} үеийн {player_id} дугаар тоглогч юм.\n Тоглоомын үе бүрт {min_guess} болон {max_guess} хоорондох тоог тааж өгнө.\nХоёр тоглогчийн тоог таасны дундажийн 2/3 нь энэ үеийн тодорхойлсон тоо байна.\nХэн тодорхойлсон тоотой ойрхон тоог таасан бол тэр тоглогч уг үеийг хожно.\nТа '[<number>]' форматаар тооноо бичнэ."
   },
   "invalid_move": {
     "wrong_format": "Хуурамч формат; та өөрийн таамаглалыг [<number>] гэж илгээх болно.",
     "out_of_range": "{min_guess} ба {max_guess} хооронд байх ёстой."
   },
   "message": {
-    "round_guesses": "Player 0 guessed {guess0}; Player 1 guessed {guess1}. Thus the Target is: {target}.",
+    "round_guesses": "Тоглогч 0 {guess0} гэж таамаглав; Тоглогч 1 {guess1} гэж таамаглав. Тиймээс зорилго нь: {target}.",
     "round_draw": "Дугуй нь тэнцэхүйц.",
-    "round_win": "Player {winner} wins the round!"
+    "round_win": "Тоглогч {winner} үеийг хожлоо!"
   },
   "outcome": {
     "p0_wins": "0 тоглогч илүү олон тойрог авчээ.",

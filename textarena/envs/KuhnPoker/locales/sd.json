@@ -11,7 +11,7 @@
     "not_legal": "عمل لازمي طور تي {legal_actions} هجڻ گهرجي."
   },
   "action": {
-    "submit_move": "Player {player_id}, submitted move: '[{move}]'.",
+    "submit_move": "پليئر {player_id}، عمل ڪميت ڪيو: '[{move}]'.",
     "valid_actions": "توهان جا دستياب عمل آهن: {legal_actions}.",
     "round_summary": "{reason} موجوده اسڪور: پليئر 0: \"{player_0_chips}\"؛ پليئر 1: \"{player_1_chips}\""
   },

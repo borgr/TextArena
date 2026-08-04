@@ -1,9 +1,9 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in Connect Four.\nYour disc symbol: {symbol}.\nThe game board has {num_rows} rows and {num_cols} columns.\nPlayers take turns dropping their disc into one of the columns (0 to {end_col}).\nThe first to connect (their own) four discs vertically, horizontally, or diagonally wins.\nOn your turn, enter the column number in squared brackets to make your move.\nFor example: '[col 4]' or '[col 1]'."
+    "intro": "Nang Connect Four na Player {player_id} rai.\nNang disc symbol: {symbol}.\nGame board na {num_rows} shang na {num_cols} kaw rai.\nPlayer ni gawng shang shaloi kaw kasha (0 to {end_col}) na disc lut sai.\nMasha na mungdan (kasha) masum kawng shaloi, kachyi kawng shaloi, kaja kawng shaloi na four disc lut sai rai.\nNang shaloi, kaw kasha ma na squared brackets lut sai.\nChyeju: '[col 4]' kaw '[col 1]' rai."
   },
   "board": {
-    "board_visible_state": "Board state: {board_visual} board kaw na mungdaw ni hpe mu lu ai.",
+    "board_visible_state": "Board shang ah:\n{board_visual}",
     "board_notvisible_state": "Dai ginsup ai lam hpe, dai sumpan hta lawm ai ni n mu lu na re."
   },
   "invalid_move": {
@@ -12,7 +12,7 @@
     "already_full": "Player {player_id}, Hkang gaw na. Column {col} shan htung ga re."
   },
   "action": {
-    "dropped_disk": "Player {player_id} dropped their disk ({player_symbol}) into column {col}."
+    "dropped_disk": "Player {player_id} disk ({player_symbol}) column {col} shang ah hkan sa wa na."
   },
   "outcome": {
     "win": "{player_id} gaw 4 hpe matut mahkai nna dang ai.",

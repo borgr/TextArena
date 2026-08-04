@@ -4,7 +4,7 @@
   },
   "round": {
     "start": "─── {round}-رۇند باشلىنىدۇ ───\tسىز كېيىنكى {conv_rounds} رۇندلارغىچە ئەركىن گېپىlash ئېلىپ بېرىسىز.",
-    "chat_finished": "Chat finished for round {round}. Submit your decisions, one token per opponent: `[pid cooperate]` or `[pid defect]`."
+    "chat_finished": "بۇ ئەۋلادقا مۇزاكىرە تامام بولدى {round}. قارارىڭىزنى بىر بەلگە بىلەن تەقسىم قىلىڭ، بىر بەلگە ھەر بىر رەقىبكە: `[pid cooperate]` ياكى `[pid defect]`."
   },
   "results": {
     "header": "### ئايلانما {round} - نەتىجە:",

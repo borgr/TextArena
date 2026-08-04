@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing the Minesweeper game.\nThe objective of the game is to reveal all cells that do not contain mines.\nTo make a move, simply specify the row and column coordinates you want to reveal using the format:\n- `[row col]`: Reveal the cell at the specified row and column.\nFor example:\n- `[3 2]` to reveal the cell in Row 3, Column 2.\n- `[5 6]` to reveal the cell in Row 5, Column 6.\nOn your first move, you will reveal an area around the cell you choose to ensure a safe start.\nThe current board layout is shown below. Cells that are unrevealed are represented by a dot ('.'), revealed numbers show the count of adjacent mines.\nBe mindful not to choose already revealed cells.\nHere is the current board layout:\n"
+    "intro": "Oli muzzanya omuzanyo gw'ebimuli.\nEkigendererwa ky'omuzanyo kwe kufunula buli kisirikitu ekitalina bimuli.\nOkukola omulundi, tewandiika nombo z'omusirikitu ogw'oyagala okufunula nga otekamu:\n- `[row col]`: Funula ekisirikitu ekiri ku musirikitu ogwo.\nEkyokulabirako:\n- `[3 2]` okufunula ekisirikitu ekiri ku Safu ya 3, Safu wakati 2.\n- `[5 6]` okufunula ekisirikitu ekiri ku Safu ya 5, Safu wakati 6.\nKu mulundi gwo ogusooka, ofunula ekitundu ekirira ekisirikitu ky'otandise okukakasa enzija ey'okutandika.\nEkigendererwa kya borodi kya sasa kyalagiddwa wansi. Ebisirikitu ebitali bifunulebwa byalagiddwa na kitone ('.'), nambari ezifunulebwa zinaonyesha omuwendo gw'ebimuli ebirira.\nOmwonge okutandise ebisirikitu ebifunulebwa.\nKati kye kigendererwa kya borodi kya sasa:\n"
   },
   "board": {
     "game_board": "Ekipande ky'omuzannyo: {board}",
@@ -9,11 +9,11 @@
   "invalid_move": {
     "wrong_format": "Tozzeemu na bifo ebituufu mu buwangwa obwenjawulo.",
     "out_of_bounds": "Endagiriro z'olunyiriri n'empapula eziragiddwa teziyinza kukozesebwa.",
-    "already_revealed": "The cell at ({row}, {col}) has already been revealed.",
-    "hit_mine": "You hit a mine at ({row}, {col})."
+    "already_revealed": "Ekisirikitu ekiri ku ({row}, {col}) kikyalifunulwa.",
+    "hit_mine": "Otemagana n'emiino ku ({row}, {col})."
   },
   "game_action": {
-    "revealed": "You revealed the cell at ({row}, {col})."
+    "revealed": "Ofunula ekisirikitu ekiri ku ({row}, {col})."
   },
   "outcome": {
     "win": "Mwebale nnyo, mufunye obuwanguzi okuggya ekipande ku Minesweeper.",

@@ -1,15 +1,15 @@
 {
   "player_prompt": {
-    "intro": "آپ پلےئر {player_id} ہیں بھارتی پوکر کے کھیل میں.\n- 52-کارڈ ڈیک؛ آپ صرف مخالف کا کارڈ دیکھتے ہیں.\n- اینٹی {ante} چپ(s) ہر راؤنڈ، {max_rounds} راؤنڈ(s) کل.\n- درست مووز: '[check]'  |  '[bet X]'  |  '[call]'  |  '[raise X]'  |  '[fold]'  (X ایک پوزٹیو انٹیجر ہے <= آپ کے چپ کاؤنٹ.)\n- سب سے اوپر چھپا ہوا کارڈ جیتتا ہے پوٹ شоуڈاؤن پر.\n"
+    "intro": "توسے کھلاڑی {player_id} انڈین پوکر کھیل چھو.\n- 52 کارڈاں دا ڈیک؛ تسے صرف مخالف کھلاڑی کارڈ ویکھہ سکتا.\n- ہر راؤنڈ وچ {ante} چِپ (س) ہر راؤنڈ، {max_rounds} راؤنڈ (س) کل.\n- موزوں حرکتاں: '[check]'  |  '[bet X]'  |  '[call]'  |  '[raise X]'  |  '[fold]'  (X ایک مثبت انٹیجر <= تواڈا چِپ کاؤنٹ.)\n- سب توں زیادہ چھپا ہوا کارڈ شو ڈاؤن وچ پاٹ جیتتا ہے.\n"
   },
   "round": {
-    "announce": "### راؤنڈ {current_round}/{max_rounds}\nآپ کے مخالف کا کارڈ ہے: {card}"
+    "announce": "### راؤنڈ {current_round}/{max_rounds}\nتواڈے مخالف کھلاڑی کارڈ ہے: {card}"
   },
   "invalid_move": {
-    "ambiguous": "Supply exactly ONE bracketed action, e.g. '[check]', '[bet 2]', '[call]', '[raise 3]', or '[fold]'.",
+    "ambiguous": "اکہو ہی کوشش داں، مثلاً '[check]', '[bet 2]', '[call]', '[raise 3]', یا '[fold]'.",
     "cannot_check": "हक़ ने [check] -अस तुह्सीं रुद बेतुक मुखालिफ.",
     "amount_min": "बेत / राइज अमाउंट गसण ≥ 1 .",
-    "cannot_bet": "Cannot [bet] - must [call] / [raise] / [fold].",
+    "cannot_bet": "[bet] نہیں کر سکدہ - [call] / [raise] / [fold] کرنا ہے.",
     "nothing_to_call": "कॉल करुं छुं, तुवां ऐवजी [check] करु शक्यो.",
     "no_bet_to_raise": "[bet X] इस्तेमाल करिथ खोलि; छुन कान्ह बेत हावनह यिवान।",
     "insufficient": "अत छी ने काबिल चिप्स अथ अमलस खातर."
@@ -23,14 +23,14 @@
     "possible_actions": "तुह्य़ हेकिव कारः {legal}"
   },
   "message": {
-    "round_result": "{reason}  پوٹ {pot} → پلےئر {winner}. (بینکرولز P0:{p0}, P1:{p1})",
+    "round_result": "{reason}  پاٹ {pot} → کھلاڑی {winner}. (بینک رولز P0:{p0}, P1:{p1})",
     "folded": "प्लेयर {player_id} फ़ोल्ड छू.",
     "showdown_win": "शोडाउन: {card_win} बीट्स {card_lose}।",
     "showdown_tie": "शोडाउन टाई: दोनो {card}. पॉट स्प्लिट  प्रत्येक प्राप्त करता है {split}।"
   },
   "outcome": {
-    "p0_wins": "پلےئر 0 جیتتا ہے ({bank0} > {bank1})",
-    "p1_wins": "پلےئر 1 جیتتا ہے ({bank1} > {bank0})",
-    "draw": "बराबर चिप्स तमाम राउंड्स पत."
+    "p0_wins": "کھلاڑی 0 جیتتا ہے ({bank0} > {bank1})",
+    "p1_wins": "کھلاڑی 1 جیتتا ہے ({bank1} > {bank0})",
+    "draw": "سارے راؤنڈاں کے بعد برابر چِپ"
   }
 }

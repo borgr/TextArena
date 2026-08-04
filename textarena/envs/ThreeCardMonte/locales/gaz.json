@@ -11,7 +11,7 @@
     "{ball_pos}": "The cup index the ball is under"
   },
   "player_prompt": {
-    "intro": "Track the hidden ball 'X' while the cups are shuffled.\nAfter shuffling, guess its location with `[k]`."
+    "intro": "Kubbaan dhoksaan 'X' hordofaa kubbaan sirreeffamaa jiran.\nSirreeffamaa booda, bakka isaa [k] tiin hubadhu."
   },
   "game_message": {
     "ball_starts": "Tapha jalqabuu: {line}",
@@ -21,7 +21,7 @@
     "reveal": "(Mul'isa: kubbaa {ball_pos} jalatti)"
   },
   "invalid_move": {
-    "wrong_format": "Bad action. Use `[k]`.",
+    "wrong_format": "Sochiin badaa. [k] tiin fayyadami.",
     "out_of_range": "Indeksiin gosa 0-{max_index} keessaa ba'e."
   },
   "outcome": {

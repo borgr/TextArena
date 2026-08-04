@@ -16,16 +16,16 @@
     "{cards}": "The cards in a pile as neutral labels, or '--' if empty (never translate)"
   },
   "player_prompt": {
-    "intro": "You are playing Klondike Solitaire. Your goal is to move all cards to the foundation piles.\n\nGame Rules:\n- Foundation piles (F1-F4): Build up from Ace to King in suit\n- Tableau piles (T1-T7): Build down alternating colors (red on black, black on red)\n- Stock: Draw cards to waste pile\n- Waste (W): Top card available for play\n\nCommands:\n- 'draw' - Draw cards from stock to waste\n- 'move <source> <destination> [count]' - Move cards between piles\n  Examples: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count can also be 'all', which will try to move all face-up cards.\n- 'forfeit' - End the game immediately and lock in your current score\n- Pile names: W (waste), F1-F4 (foundations), T1-T7 (tableau)\n\nYou can execute multiple actions in one turn by separating them with commas:\n  Example: 'draw, move W T1, move T2 F1'\n\nOnly Kings can be placed on empty tableau piles.\nActions execute in order - if one fails, the remaining actions are skipped.\nUse 'forfeit' if you believe the game is impossible to win."
+    "intro": "Oli mukino Klondike Solitaire. Eriyo lyo ni kulongoose kaadi zonna ku foundation piles.\n\nEmirimu gy'Omukino:\n- Foundation piles (F1-F4): Zimba okuva Ace okutuuka King mu suit\n- Tableau piles (T1-T7): Zimba okuva wansi ng'erinnya ly'ekika kikiriranye (ekika ekyo ku kiragala, kiragala ku kyo)\n- Stock: Longoose kaadi ku waste pile\n- Waste (W): Kaadi ya juu esobole okukolera\n\nOkuyita:\n- 'draw' - Longoose kaadi okuva stock ku waste\n- 'move <source> <destination> [count]' - Longoose kaadi wakati wa piles\n  Amatenderezo: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count ayinza kuba 'all', ekitegeza kulongoose kaadi zonna eziri waggulu.\n- 'forfeit' - Komola omukino butereevu n'ekitandise ekyo kya sika\n- Amannya g'ebijanja: W (waste), F1-F4 (foundations), T1-T7 (tableau)\n\nOyinza kukola ebikolwa bingi mu kiseera kimo nga obikolera wakati wa commas:\n  Ekyokulabirako: 'draw, move W T1, move T2 F1'\n\nKings pekee ndizo zisobola kuwekwa ku bijanja ebiriko bya tableau.\nEbibikolwa bikolera mu mpangula - singa kimu kikyuka, ebibikolwa ebisigadde biyitibwa.\nYita 'forfeit' bwekiri okukkiriza nti omukino tegusobola kuguwangula."
   },
   "format_error": {
     "no_brackets": "Enkola ya kikolwa si nnungi. Ekikolwa kirina okubeera mu buwangwa (brackets).",
     "no_closing_bracket": "Enkola ya kikolwa etagasa. Okuggulawo kwa ']' tekuliiwo\"",
     "empty_command": "Ekiragiro ekitaliiko. Type 'draw' oba \"move <source><destination> [count]\"",
     "empty_action": "Ekikolwa ekitaliimu kintu kyonna.",
-    "move_needs_args": "Ekiragiro kya move kyetaaga ensibuko n'ekigendererwa. Okukozesa: 'move <source> <destination> [count]'",
-    "count_positive": "Okubala kulina okuba nga kusanyusa oba \"bonna\"",
-    "count_invalid": "Okubala tekuliiko makulu. Kozesa ennamba oba 'byonna'",
+    "move_needs_args": "Okuyita kwa move kyeetaaga source na destination. Enkozesa: 'move <source> <destination> [count]'",
+    "count_positive": "Count esabe kuba chanya oba 'all'",
+    "count_invalid": "Count si sahihi. Yita nambari oba 'all'",
     "unknown_command": "Kibuzo kisichojulikana '{cmd}'. Tumia 'draw', 'move <source> <destination> [count]', or 'forfeit'",
     "wrapped": "Ekintu {n}: {msg}"
   },

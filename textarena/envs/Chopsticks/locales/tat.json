@@ -14,7 +14,7 @@
   },
   "game_action": {
     "attack": "P{player_id} P{opp_id}ның кулына {opp_idx} хөжүм итә: ул {opp_val} дан {new_val} ка күчә.",
-    "split": "P{player_id} splits into [{L}, {R}]."
+    "split": "P{player_id} [{L}, {R}] итеп бүлә."
   },
   "history": {
     "entry": "P{player_id} {desc}"

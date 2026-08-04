@@ -10,7 +10,7 @@
     "{to}": "The destination coordinate of a move, such as b3"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in game of LinesOfAction.\nYour pieces are '{side}', opponent pieces are '{other}'.\nMove format: `[b1b3]` (from-coord to-coord). A legal move travels horizontally, vertically, or diagonally a number of squares equal to the total pieces (any colour) in that line. You may jump over your own pieces, but not opponent pieces; landing on an opponent captures it.  Win when all your pieces are 8-neighbour connected."
+    "intro": "Nekk d Umari {player_id} deg urar n LinsOfAction.\nIsiggen-ik d '{side}', isiggen n umarir nniḍen d '{other}'.\nTawala n uɛiwed: `[b1b3]` (akkat n tazwara - akkat n tazzwara). Aɛiwed amahaluz yetturar s uɣerbaz, neɣ s uɣerbaz nniḍen, neɣ s uɣerbaz nniḍen, s wuṭṭun n isiggen (nniḍen) deg wuṭṭun-ik. Tzemreḍ ad tɛiwdeḍ ɣef isiggen-ik, maca ur tzemreḍ ara ad tɛiwdeḍ ɣef isiggen n umarir nniḍen; ad tɛkkeḍ isiggen-nsen.  Ad irbeḥ wakken meṛṛa isiggen-ik d-qqnen ɣer 8 n imaslaḍen."
   },
   "board": {
     "current_board": "ⵜⴰⵖⵉⵎⵉⵜ: {board}"
@@ -25,8 +25,8 @@
     "destination_own": "ⴻⴷⴻⵙⵜⵉⵓⵏ ⴰⵂⴰⵏⴻⵏ ⵙⴰⵎⴰⵍⴰⵏ ⵏⴻⵜ."
   },
   "game_action": {
-    "moved": "Imudar {player_id} irzen {from} -> {to}",
-    "captured_suffix": "Player {player_id} moved {from} -> {to} capturing an enemy."
+    "moved": "Umarir {player_id} iɛiwed {from} -> {to}",
+    "captured_suffix": "Umarir {player_id} iɛiwed {from} -> {to} iɣdel asekkil n umarir nniḍen."
   },
   "outcome": {
     "win": "ⵜⵉⴱⵔⵉⵜⴻⵏ ⴼⵓⴾ ⴰⵂⴰⵏⴰⵜ.",

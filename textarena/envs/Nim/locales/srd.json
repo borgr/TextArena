@@ -13,7 +13,7 @@
     "exceeds_pile": "No est possibile bogare {quantity} dae su montigru {pile_index} (solo {pile_count} abarrat)."
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "Giogadore {player_id} at giogadu [{pile_index} {quantity}], bogande {quantity} ogetu(os) dae su montone {pile_index}."
   },
   "outcome": {
     "win": "Su giogadore {player_id} at pigadu s'ùrtimu ogetu ((s)!"

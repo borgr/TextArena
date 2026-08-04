@@ -11,7 +11,7 @@
     "not_legal": "Rhaid i weithred fod yn {legal_actions}."
   },
   "action": {
-    "submit_move": "Player {player_id}, submitted move: '[{move}]'.",
+    "submit_move": "Chwaraewr {player_id}, wedi cyflwyno symudiad: '[{move}]'.",
     "valid_actions": "Eich camau gweithredu sydd ar gael yw: {legal_actions}.",
     "round_summary": "{reason} Sgôr presennol: Chwaraewr 0: \"{player_0_chips}\"; Chwaraewr 1: \"{player_1_chips}\""
   },

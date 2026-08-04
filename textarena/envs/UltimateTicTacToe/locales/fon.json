@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in **Ultimate Tic Tac Toe**.\nSubmit your move as **[macro  micro]** (two numbers 0-8):\n• *macro*  = which mini-board you play in\n• *micro* = which square inside that mini-board\nExample `[7 8]` ➜ place your mark in mini-board 7, square 8, and\nforce your opponent to play in mini-board 8 next.\n\nYou are `{symbol}`.\n"
+    "intro": "A nyi azɔnwla {player_id} le **Ultimate Tic Tac Toe**.\nSɛ ɖo move ɖo **[macro  micro]** (numeri awe 0-8):\n• *macro*  = mini-board ɖeka a nyi xɔ le\n• *micro* = square ɖeka le mini-board ɖeka me\nApɔsɛ `[7 8]` ➜ do alɔ ɖo mark ɖo le mini-board 7, square 8, bɔ\nkɛ ɖo alɔ ɖo opponent ɖo xɔ le mini-board 8 ɖo.\n\nA nyi `{symbol}`.\n"
   },
   "board": {
     "current_board": "Akpákpá e ɖò azɔ̌ wà wɛ dìn é: {board}"
@@ -22,6 +22,6 @@
   },
   "outcome": {
     "win": "{player_id} ɔ ɖu Final Tic Tac Toe! jí.",
-    "draw": "The game is a draw!"
+    "draw": "Xɔxɔ ɖo le ɖo!"
   }
 }

@@ -71,6 +71,6 @@
     "player_line": "{observation}\nShpiler {player_id}: {scoring} scoring trikn ({tricks} in gantsn), {hand_size} karten in hant"
   },
   "outcome": {
-    "summary": "Learning phase - Player 0: {l0}, Player 1: {l1}. Playing phase - Player 0: {p0}, Player 1: {p1}. Player {winner_id} wins with {winner_tricks} scoring tricks!"
+    "summary": "לערנען-פאזע - שפילער 0: {l0}, שפילער 1: {l1}. שפיל-פאזע - שפילער 0: {p0}, שפילער 1: {p1}. שפילער {winner_id} געווינט מיט {winner_tricks} פונקט-טריקס!"
   }
 }

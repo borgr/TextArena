@@ -24,7 +24,7 @@
     "intro": "Tzes Player {player_id}, giogande {num_rounds} turnos de Iterated Ultimatum Game.\nTenes ${pool} a spartzire pro custu turnu tra tze e Player {other_id}.\n\nPropositore:\n  - Fae un'oferta: [Offer: $X] (0 <= X <= pool)\n  - Si est aceta → Tu otzienis $(pool - X), s'àteru giocadore otzienit $X\n  - Si est refudada → Ambos duos otzienint $0\n  - Esèmpiu: [Offer: $3]  o  'Penzu chi custa siat giusta. [Offer: $5]'\n\nResponder:\n  - Decida s'oferta cun [Accept] o [Reject]\n  - Esèmpiu: 'Custu parìt razu. [Accept]'\n            'Tropu inzustu. [Reject]'\n"
   },
   "round": {
-    "begins": "--- Turnu {round_number} cumintzat! ---\nGiocadore {proposer_id} est propositore, Giocadore {responder_id} est responder.",
+    "begins": "--- Su turno {round_number} incumentzat! ---\nSu jocadore {proposer_id} est su proposidore, su jocadore {responder_id} est su rispondidore.",
     "offer": "Turnu {round_number}: Giocadore {proposer_id} oferit ${offer} a Giocadore {responder_id} (teninde ${keep}).",
     "accepted": "Giocadore {responder_id} at aceta! Turnu {round_number} guadagnos: Giocadore {proposer_id} +${proposer_gain}, Giocadore {responder_id} +${responder_gain}. Noas totales: Giocadore 0: ${total_0}, Giocadore 1: ${total_1}.",
     "rejected": "Giocadore {responder_id} at refudadu s'oferta! Turnu {round_number} guadagnos: Ambos duos giogadores +$0. Totales abarrant: Giocadore 0: ${total_0}, Giocadore 1: ${total_1}."

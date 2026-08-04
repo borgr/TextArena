@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id}. You are playing the Memory Game.\nYour goal is to match more pairs of cards on the board, than your opponent.\nOn your turn, select two cards to flip by entering the row and column numbers of the first and second card respectively like '[0 1 1 0]', where the first card is in row 0 and column 1, and the second card is in row 1 and column 0.\nIf the two cards match, you get a point and the cards remain face up. If they do not match, the cards are flipped back face down, e.g. '.'.\nThe game ends when all pairs have been matched."
+    "intro": "ئەتۆ یاریزانی {player_id}ی. تۆ یاریی بیرەوەری دەکەیت.\nئامانجت ئەوەیە کە زۆرتر جووتەکارت لەسەر تەختە بەیەکەوە بگونجێنیت لەگەڵ بەرامبەرت.\nلە دەوری خۆتدا، دوو کارت بەناوەکانی ڕیز و ستوونی هەڵبژێرە بۆ وەچەرخاندن بە فۆرمی '[0 1 1 0]', کە کارتە یەکەم لە ڕیزی 0 و ستوونی 1 دایە، و کارتە دووەم لە ڕیزی 1 و ستوونی 0 دایە.\nئەگەر دوو کارتەکە بگونجێن، تۆ خاڵێک دەستەبەر دەکەیت و کارتەکان بە رووخسارەوە دەمێننەوە. ئەگەر نەگونجێن، کارتەکان بە رووخسارەوە دادەگیرێن، وەک '.'.\nyارییەکە کۆتایی دێت کاتێک هەموو جووتەکان بەیەکەوە بگونجێن."
   },
   "board": {
     "current_board": "دەستەی ئێستای: {board}",
@@ -13,8 +13,8 @@
     "already_matched": "جوڵەی ناڕاست. یاریزان {player_id} یەکێک یان هەردوو کارتی هەڵبژارد کە پێشتر یەکسان کراونەتەوە."
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "کارتەکان لەلایەن یاریزانی {player_id} لە شوێنەکانی [{r1} {c1}] و [{r2} {c2}] بگونجێن!",
+    "cards_no_match": "کارتەکان لەلایەن یاریزانی {player_id} ناگونجێن. کارتەکان لە شوێنەکانی [{r1} {c1}] و [{r2} {c2}] {pos1} و {pos2}ن."
   },
   "outcome": {
     "draw": "هەردوو یاریزان هەمان ژمارەی جووت کارتیان داناوە.",

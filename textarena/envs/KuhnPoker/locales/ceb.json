@@ -11,12 +11,12 @@
     "not_legal": "Ang aksyon kinahanglang {legal_actions}."
   },
   "action": {
-    "submit_move": "Player {player_id}, submitted move: '[{move}]'.",
+    "submit_move": "Player {player_id}, gisumite ang lihi: '[{move}]'.",
     "valid_actions": "Ang imong magamit nga mga lihok mao ang: {legal_actions}.",
-    "round_summary": "{reason} Kasalukuyang mga score: Player 0: '{player_0_chips}'; Player 1: '{player_1_chips}'"
+    "round_summary": "{reason} Kasamtangang mga iskor: Maniniyog 0: '{player_0_chips}'; Maniniyog 1: '{player_1_chips}'"
   },
   "showdown": {
-    "showdown_summary": "Showdown: Player {winner}'s {winner_card} beats Player {loser}'s {loser_card}. Player {winner} wins pot of {pot_value} chips."
+    "showdown_summary": "Showdown: Ang {winner_card} ni Player {winner} nakadaog sa {loser_card} ni Player {loser}. Ang Player {winner} nakadaog sa pot nga adunay {pot_value} ka mga chip."
   },
   "outcome": {
     "draw": "Sa katapusan sa {max_rounds} nga mga hugna, ang duha ka players adunay sama nga gidaghanon sa chips.",

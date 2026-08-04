@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a two-player game of Spite and Malice. Your goal is to be the first to empty your payoff pile.\n\n### Game Overview:\n- The objective is to clear your payoff pile by playing cards to the center piles.\n- You can play cards from three sources:\n  1. Your **hand** (you start each turn with up to 5 cards in hand).\n  2. The **top card of your payoff pile**.\n  3. The **top card of any of your discard piles**.\n\n### Playing Rules:\n- You may play a card to a center pile if it is **one rank higher** than the top card on that pile (center piles start with Ace and go up to Queen; Kings are wild - they can be played on any card but do not change the rank sequence. This means if a King is used after 4, then that King is ranked 5 and the next card must be a 6).\n- If you can't play any more cards, you must **discard a card** to one of your discard piles to end your turn.\n- If a center pile reaches Queen, it will be cleared automatically.\n- The rank order is: A=1, 2=2, ..., 9=9, J=10, Q=11, K as wild.\n\n### Actions:\n1. **Draw**: At the start of your turn, draw cards to fill your hand up to 5 cards. Enter **[draw]** to begin.\n2. **Play a Card**: To play a card, specify the card and the center pile like this: **[play A♠ 0]** (where 'A♠' is the card and '0' is the center pile index).\n3. **Discard**: If you can't play any more cards, discard a card from your hand to a discard pile to end your turn. Enter **[discard A♠ 1]** (where 'A♠' is the card and '1' is the discard pile index). Note that you cannot discard any card from the payoff pile. You may only discard the cards from your hand.\n\n"
+    "intro": "Ngeye Mwana {player_id} na kisadi ya bafuana babidi ya Spite na Malice. Kimwaka kiaku ni kuwa ntete kuwaka kisanduku kiaku cha kulipwa.\n\n### Kikwama kya Kisadi:\n- Kikwama kya kisadi ni kukwepa kisanduku kiaku cha kulipwa kwa kuteka kadi kwa misanduku ya kati.\n- Ngeye zingi kuteka kadi kutoka misanduku mitatu:\n  1. **Kwenu** (ngeye kuanza kila wakati na kadi tano moko).\n  2. **Kadi ya juu ya kisanduku kiaku cha kulipwa**.\n  3. **Kadi ya juu ya kisanduku chocho cha kuleka**.\n\n### Mifeko ya Kuteka:\n- Ngeye kuteka kadi kwa sanduku ya kati kama ni **mofeko moka juu** ya kadi ya juu kwa sanduku ile (misanduku ya kati kuanza na Ace na kwenda juu kwa Queen; Kings ni ya kuleka - zingi kutekwa kwa kadi chocho kama hazibadili mofeko wa mpangilio. Hii inamaanisha kama King inatumiwa baada ya 4, basi King ile ni ya mofeko 5 na kadi inayofuata lazima iwe 6).\n- Kama ngeye kuteka kadi chocho tena, ngeye lazima **kuleka kadi** kwa kisanduku chocho cha kuleka ili kumaliza wakati wako.\n- Kama sanduku ya kati ikafikia Queen, itakwepwa otomatiki.\n- Mpangilio wa mofeko ni: A=1, 2=2, ..., 9=9, J=10, Q=11, K kama ya kuleka.\n\n### Mikakati:\n1. **Kuteka**: Kwa kuanza kwa wakati wako, kuteka kadi ili kujaza kwenu kwa kadi tano. Ingiza **[draw]** ili kuanza.\n2. **Kuteka Kadi**: Ili kuteka kadi, onyesha kadi na sanduku ya kati kama hii: **[play A♠ 0]** (ambapo 'A♠' ni kadi na '0' ni index ya sanduku ya kati).\n3. **Kuleka**: Kama ngeye kuteka kadi chocho tena, kuleka kadi kutoka kwenu kwa kisanduku cha kuleka ili kumaliza wakati wako. Ingiza **[discard A♠ 1]** (ambapo 'A♠' ni kadi na '1' ni index ya kisanduku cha kuleka). Tambua kwamba ngeye kuleka kadi chocho kutoka kisanduku cha kulipwa. Ngeye kuleka kadi kutoka kwenu pekee.\n\n"
   },
   "board": {
     "current_board": "Tala ya Sasa:\n\n{board}\nMikono Inayopatikana: {moves}"
@@ -19,7 +19,7 @@
   },
   "invalid_move": {
     "wrong_format": "Mutindu ya mbote ve. Muntu yina kebula {player_id} mevutula ve na mpila nde yandi sala kitambi mosi ya mbote, mpi bo metinda yo na kati ya bisono zole-nsambwadi (paramètre).",
-    "invalid_play": "Cheza lisilo halali. Mchezaji {player_id} alijaribu kucheza {card} kwenye matundu ya kati {index}.",
+    "invalid_play": "Kuteka kwa kosa. Mwana {player_id} alijaribu kuteka {card} kwa sanduku ya kati {index}.",
     "discard_from_payoff": "Muntu yina ke bulaka na {player_id} mekaka kubula karte mosi ya kele ti mbongo mingi.",
     "discard_not_in_hand": "Muntu yina kebula {player_id} mekaka kulosa karte mosi ya yandi vandaka ve ti yo na maboko.",
     "wrong_move_type": "Muyimbi {player_id} me pesa ve mvutu na mutindu ya mbote."
@@ -27,15 +27,15 @@
   "game_action": {
     "you_drew": "Nge bulaka na bakarti.",
     "opponent_drew": "Muntu yina vandaka kubula {player_id} kubakaka bakarti.",
-    "you_played": "Umecheza {card} kwenye matundu ya kati {index}.",
-    "opponent_played": "Mchezaji {player_id} alicheza {card} kwenye matundu ya kati {index}.",
-    "you_discarded": "Umetupa {card} kwenye matundu ya kutupwa {index}, ambayo pia ina maana kwamba umeimaliza mchezo wako. Hatua zingine za yako hazizingatiwi kwa mchezo huu. Mchezaji {next_player_id} atacheza mchezo ujao.",
+    "you_played": "Ngeye kuteka {card} kwa sanduku ya kati {index}.",
+    "opponent_played": "Mwana {player_id} aliteka {card} kwa sanduku ya kati {index}.",
+    "you_discarded": "Ngeye kuleka {card} kwa kisanduku cha kuleka {index}, ambacho pia ina maana kwamba ngeye kumaliza wakati wako. Hakuna mikakati mingine ya ngeye inazingatiwa kwa wakati huu. Mwana {next_player_id} atafuata.",
     "opponent_discarded": "Player {player_id} discarded {card} to discard pile {index}, which also means they finished their turn. No further actions of Player {player_id} is considered for this turn. Player {next_player_id}, you will go next. Please enter your action in the format [action card center_index]."
   },
   "outcome": {
-    "payoff_cleared": "Mchezaji {current_player} amemaliza matundu ya malipo! Mchezaji {current_player} anashinda!",
-    "deadlock_player_0": "Kufikia kikomo! Mchezaji 0 anashinda na {player_0_payoff} kadi zimesalia dhidi ya Mchezaji 1's {player_1_payoff} kadi.",
-    "deadlock_player_1": "Kufikia kikomo! Mchezaji 1 anashinda na {player_1_payoff} kadi zimesalia dhidi ya Mchezaji 0's {player_0_payoff} kadi.",
-    "deadlock_tie": "Deadlock reached with tie! Both players have {player_0_payoff} cards remaining. Player {current_player} wins by default."
+    "payoff_cleared": "Mwana {current_player} amemaliza kisanduku chake cha kulipwa! Mwana {current_player} anashinda!",
+    "deadlock_player_0": "Kwama kwa kusawazisha! Mwana 0 anashinda na {player_0_payoff} kadi zilizobaki dhidi ya Mwana 1 {player_1_payoff} kadi.",
+    "deadlock_player_1": "Kwama kwa kusawazisha! Mwana 1 anashinda na {player_1_payoff} kadi zilizobaki dhidi ya Mwana 0 {player_0_payoff} kadi.",
+    "deadlock_tie": "Kwama kwa kusawazisha! Wana wote wawili wana {player_0_payoff} kadi zilizobaki. Mwana {current_player} anashinda kwa chaguo-msingi."
   }
 }

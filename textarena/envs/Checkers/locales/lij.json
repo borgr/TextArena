@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "Nen formato de movimento valido trovòu. Üze [a1b2], pe esempio [b2c3].",
-    "illegal": "Move [{move}] is illegal."
+    "illegal": "A mòssa [{move}] a l'è illegâle."
   },
   "game_action": {
     "moved": "O zugatô {player_id} o l'à fæto un movimento {move}."

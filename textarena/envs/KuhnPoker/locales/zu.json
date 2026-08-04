@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a {max_rounds} round game of Kuhn Poker.\nGame Rules:\n- Kuhn Poker uses a 3-card deck with J, Q, K (J lowest, K highest)\n- Each player antes {ante} chip and receives 1 card each round (note that the cards are dealt without replacement, so you cannot have the same card as your opponent).\n- Game continues for {max_rounds} rounds\n- The player with the most chips after all rounds wins\nAction Rules:\n- '[check]': Pass without betting (only if no bet is on the table)\n- '[bet]': Add 1 chip to the pot (only if no bet is on the table)\n- '[call]': Match an opponent's bet by adding 1 chip to the pot\n- '[fold]': Surrender your hand and let your opponent win the pot"
+    "intro": "Ungumdlali {player_id} emdlalweni we-Kuhn Poker wezikhathi {max_rounds}.\nImithetho ye-Game:\n- I-Kuhn Poker isebenzisa dekhi ye-3 kadhi J, Q, K (J iphansi, K phezulu)\n- Mdlali ngamunye angenisa {ante} chip futhi anikezwa kadhi 1 nsuku zonke (qaphela ukuthi amakadhi ayahluzwa ngaphandle kokubuyiselwa, kungakho awunakho ukuba nekadhi sawena na muntu osedlala nawe).\n- Ummdlalo uqhubeka izikhathi {max_rounds}\n- Mdlali onengi zikhathi emdlalweni uphumelela\nImithetho ye-Action:\n- '[check]': Dlula ngaphandle kokubheja (ngaphandle kokuba kunento ebhejiwe etafileni)\n- '[bet]': Ongeza chip 1 kwenye poti (ngaphandle kokuba kunento ebhejiwe etafileni)\n- '[call]': Lingana nebheji la muntu osedlala nawe ngokungeza chip 1 kwenye poti\n- '[fold]': Vuma ukuthi uyaphumelela mdlali muntu osedlala nawe"
   },
   "init_round": {
     "round_start": "### Ukuqala umjikelezo {current_round} ngaphandle {max_rounds} imijikelezo. Ikhadi lakho liyi: '{player_card}'",
@@ -11,7 +11,7 @@
     "not_legal": "Isenzo kufanele sibe {legal_actions}."
   },
   "action": {
-    "submit_move": "Player {player_id}, submitted move: '[{move}]'.",
+    "submit_move": "Mdlali {player_id}, isenzo esithunyelwe: '[{move}]'.",
     "valid_actions": "Izinyathelo zakho ezikhona yilezi: {legal_actions}.",
     "round_summary": "{reason} Amaphuzu amanje: Umdlali 0: \"{player_0_chips}\"; Umdlali 1: \"{player_1_chips}\""
   },

@@ -21,13 +21,13 @@
     "{scores}": "The pre-rendered per-player list of final scores"
   },
   "player_prompt": {
-    "intro": "You are playing Golf (Card Game) - Player {player_id}.\nGoal: Get the lowest total score in this single round. If columns share the same value, they are summed as 0.\nCard Values: A=1, 2-10=face value, J/Q=10, K=0\n\nActions (use exact brackets):\n- '[draw]' - Draw from deck\n- '[take]' - Take from discard pile\n- '[swap X Y]' - Swap drawn card with position X (row) Y (column)\n- '[discard]' - Discard the drawn card\n"
+    "intro": "Yin ee kɔc cɔl Dinka ciɛl (Kadiɛɛl) - Kɔc cɔl {player_id}.\nKɔ̈ɔ̈c: Gɔ̈ɔ̈c kɔ̈ɔ̈c aye kɔ̈ɔ̈c tɛ̈ɛ̈n kɔ̈ɔ̈c. Ka kɔ̈ɔ̈c ee kɔ̈ɔ̈c, aye kɔ̈ɔ̈c tɛ̈ɛ̈n 0.\nKadiɛɛl: A=1, 2-10=akɔ̈ɔ̈c, J/Q=10, K=0\n\nKɔ̈ɔ̈c (aye kɔ̈ɔ̈c):\n- '[draw]' - Gɔ̈ɔ̈c kadiɛɛl\n- '[take]' - Kɔ̈ɔ̈c kadiɛɛl\n- '[swap X Y]' - Kɔ̈ɔ̈c kadiɛɛl tɛ̈ɛ̈n X (kɔ̈ɔ̈c) Y (kɔ̈ɔ̈c)\n- '[discard]' - Kɔ̈ɔ̈c kadiɛɛl\n"
   },
   "board": {
-    "drew": "You drew: {card}\nNow you must [swap X Y] or [discard] it.",
-    "took": "You took: {card} from discard pile\nYou must [swap X Y] with it (cannot discard).",
+    "drew": "Yin ee gɔ̈ɔ̈c: {card}\nKɔ̈ɔ̈c aye kɔ̈ɔ̈c [swap X Y] walla [discard].",
+    "took": "Yin ee kɔ̈ɔ̈c: {card} kɔ̈ɔ̈c kadiɛɛl\nKɔ̈ɔ̈c aye kɔ̈ɔ̈c [swap X Y] (aye kɔ̈ɔ̈c kadiɛɛl).",
     "peeked": "Yin alɔk ku ɣɔn ({row},{col}): {card}",
-    "turn_view": "Your hand:\n{hand}\nDiscard pile: {discard}\n{options}",
+    "turn_view": "Kadiɛɛl yin:\n{hand}\nKadiɛɛl kɔ̈ɔ̈c: {discard}\n{options}",
     "none": "Acïn kë ye yök thïn."
   },
   "options": {
@@ -42,16 +42,16 @@
     "row": "Ku ɣɔn {n}: {cards}"
   },
   "action_desc": {
-    "swapped": "Player {pid} swapped {new} with {old} at position ({row},{col})",
-    "discarded": "Player {pid} discarded {card}"
+    "swapped": "Kɔc cɔl {pid} kɔ̈ɔ̈c {new} tɛ̈ɛ̈n {old} kɔ̈ɔ̈c ({row},{col})",
+    "discarded": "Kɔc cɔl {pid} kɔ̈ɔ̈c {card}"
   },
   "message": {
     "deck_empty": "Thɔ̈ŋ acï thök!",
     "knocked": "Raan ye gɔ̈ɔ̈r {pid} acï cuɛt piny! Raan dɛ̈t ëbën anɔŋ yic bë lɔ̈ŋ tök bɛn looi.",
-    "final_round": "Player {pid} {reason}! Each other player gets one more turn."
+    "final_round": "Kɔc cɔl {pid} {reason}! Kɔ̈ɔ̈c aye kɔ̈ɔ̈c tɛ̈ɛ̈n kɔ̈ɔ̈c."
   },
   "reason": {
-    "all_revealed": "has all cards revealed"
+    "all_revealed": "ee kɔ̈ɔ̈c kadiɛɛl aye kɔ̈ɔ̈c"
   },
   "invalid": {
     "wrong_action": "Yin ku ɣɔn ku ɣɔn ku ɣɔn ku ɣɔn: [draw], [take], [swap X Y], [discard], [knock], ɣɛn [peek X Y]",
@@ -68,7 +68,7 @@
   },
   "summary": {
     "full": "Ku ɣɔn ku ɣɔn! Wëër {winner} ku ɣɔn ku ɣɔn ku ɣɔn ku ɣɔn {score} ku ɣɔn!\n\nKu ɣɔn ku ɣɔn ku ɣɔn:\n{scores}",
-    "line": "Player {pid}: {score} points\n"
+    "line": "Kɔc cɔl {pid}: akɔ̈ɔ̈c {score}\n"
   },
   "board_str": {
     "title": "=== GOLF GAMING=== (në ye mɛn: \"Dɔ̈ŋ ë Dïŋ\")",

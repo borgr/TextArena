@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "Hereket [row col] formatinda bolmaly, gdzie row we col 0 dan {max_index} çenli integerdir.",
-    "out_of_range": "Coordinates must be between 0 and {max_index}. You entered [{row},{col}]."
+    "out_of_range": "Koordinatalar 0 we {max_index} aralygynda bolmaly. Siz [{row},{col}] ýazdyňyz."
   },
   "outcome": {
     "win": "Gural! Siz tapmaçany {moves_used} hereketlerde çözdüňiz!",

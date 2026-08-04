@@ -13,8 +13,8 @@
     "already_matched": "చెల్లని కదలిక. ఆటగాడు {player_id} ఇప్పటికే సరిపోలిన ఒకటి లేదా రెండు కార్డులను ఎంచుకున్నాడు."
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "ప్లేయర్ {player_id} ఎంచుకున్న కార్డులు [{r1} {c1}] మరియు [{r2} {c2}] స్థానాల వద్ద సరిపోలాయి!",
+    "cards_no_match": "ప్లేయర్ {player_id} ఎంచుకున్న కార్డులు సరిపోలలేదు. [{r1} {c1}] మరియు [{r2} {c2}] స్థానాల వద్ద కార్డులు వరుసగా {pos1} మరియు {pos2}."
   },
   "outcome": {
     "draw": "రెండు ఆటగాళ్ళు కార్డుల యొక్క అదే సంఖ్యను సరిపోల్చారు.",

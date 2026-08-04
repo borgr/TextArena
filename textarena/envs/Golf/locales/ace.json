@@ -21,20 +21,20 @@
     "{scores}": "The pre-rendered per-player list of final scores"
   },
   "player_prompt": {
-    "intro": "Anda sedang bermain Golf (Permainan Kartu) - Pemain {player_id}.\nTujuan: Dapatkan skor total terendah dalam ronde ini. Jika kolom memiliki nilai yang sama, mereka dijumlahkan sebagai 0.\nNilai Kartu: A=1, 2-10=nilai wajah, J/Q=10, K=0\n\nTindakan (gunakan kurung yang tepat):\n- '[draw]' - Mengambil dari dek\n- '[take]' - Mengambil dari tumpukan buangan\n- '[swap X Y]' - Menukar kartu yang diambil dengan posisi X (baris) Y (kolom)\n- '[discard]' - Membuang kartu yang diambil"
+    "intro": "Kamu lagèe Golf (Ureuëng Game) - Ureuëng {player_id}.\nTujuan: Dapeuta nilai poin paléng randah lam ronde tunggal nyoe. Meunyoë kolom na keuh nilai, banda nyang geusumah 0.\nNilai Ureuëng: A=1, 2-10=nilai muka, J/Q=10, K=0\n\nPeurintah (gunayana kurungan teupat):\n- '[draw]' - Kureuëng dari dek\n- '[take]' - Kureuëng dari tumpukan buwang\n- '[swap X Y]' - Geutukar ureuëng nyang kureuëng ngon posisi X (baré) Y (kolom)\n- '[discard]' - Buwang ureuëng nyang kureuëng\n"
   },
   "board": {
-    "drew": "Anda mengambil: {card}\nSekarang Anda harus [swap X Y] atau [discard]",
-    "took": "Anda mengambil: {card} dari tumpukan buangan\nAnda harus [swap X Y] dengannya (tidak bisa membuang)",
-    "peeked": "Anda melihat-lihat di posisi ({row},{col}): {card}",
-    "turn_view": "Tangan Anda:\n{hand}\nTumpukan buangan: {discard}\n{options}",
+    "drew": "Kamu kureuëng: {card}\nJinoe kamu wajéb [swap X Y] atawa [discard] banda.",
+    "took": "Kamu kureuëng: {card} nibak tumpukan buwang\nKamu wajéb [swap X Y] ngon banda (h'an buwang).",
+    "peeked": "Kamu kureuëng nibak posisi ({row},{col}): {card}",
+    "turn_view": "Ureuëng gata:\n{hand}\nTumpukan buwang: {discard}\n{options}",
     "none": "Hana meu saboh pih."
   },
   "options": {
-    "final_turns": "Giliran terakhir! Opsi Anda: [draw], [take], [peek X Y]",
-    "draw": "Opsi Anda: [draw], [take]",
+    "final_turns": "Giliran akhé! Peurintah droe: [draw], [take], [peek X Y]",
+    "draw": "Peurintah droe: [draw], [take]",
     "must_swap": "Awak harus: [swap X Y] (hana jeut tapeulaku kartu dari tumpukan peuleusu)",
-    "swap_or_discard": "You must: [swap X Y] or [discard]"
+    "swap_or_discard": "Kamu wajéb: [swap X Y] atawa [discard]"
   },
   "hand": {
     "no_cards": "Hana kartu.",
@@ -42,38 +42,38 @@
     "row": "Baris {n}: {cards}"
   },
   "action_desc": {
-    "swapped": "Pemain {pid} menukar {new} dengan {old} di posisi ({row},{col})",
-    "discarded": "Pemain {pid} membuang {card}"
+    "swapped": "Ureuëng {pid} geutukar {new} ngon {old} nibak posisi ({row},{col})",
+    "discarded": "Ureuëng {pid} buwang {card}"
   },
   "message": {
-    "deck_empty": "Dek kosong, permainan akhe seucara langsong.",
-    "knocked": "Pemain {pid} tergepok! Setiap pemain laen mendapat satu giliran lagi.",
-    "final_round": "Pemain {pid} {reason}! Setiap pemain lain mendapatkan satu giliran lagi"
+    "deck_empty": "Dek habé! Game tamat sigra.",
+    "knocked": "Ureuëng {pid} ketok! Ureuëng la'én na geubri satu giliran deui.",
+    "final_round": "Ureuëng {pid} {reason}! Ureuëng la'én na geubri satu giliran deui."
   },
   "reason": {
     "all_revealed": "ka mandum kartu jih diungkapkan?"
   },
   "invalid": {
-    "wrong_action": "Gunakan tindakan kurung yang tepat: [draw], [take], [swap X Y], [discard], [knock], atau [peek X Y]",
-    "discard_empty": "Bungkusan sampah kosong!",
-    "must_draw_first": "Anda harus terlebih dahulu [draw], [take], [knock], atau [peek X Y]",
+    "wrong_action": "Gunayana kurungan peurintah saboh: [draw], [take], [swap X Y], [discard], [knock], atawa [peek X Y]",
+    "discard_empty": "Tumpukan buwang habé!",
+    "must_draw_first": "Kamu wajéb kureuëng [draw], [take], [knock], atawa [peek X Y] phôn",
     "cannot_discard_taken": "Droeneuh hanjeut tapeulaku kartu nyang ka teucok nibak tumpukan. Droeneueh haroh neu gantoe jih.",
-    "have_drawn_card": "Anda memiliki kartu yang diambil. Anda harus [swap X Y] atau [discard]",
+    "have_drawn_card": "Kamu na ureuëng kureuëng. Kamu wajéb [swap X Y] atawa [discard] banda.",
     "need_drawn_swap": "Awak perle kartu nyang ka ditarik keu ji tukeran.",
     "need_drawn_discard": "Neukreuh kartu nyang ka teuek keu neutip.",
-    "out_of_bounds": "Posisi di luar batas. Gunakan baris 1-{max_row}, kolom 1-{max_col}",
+    "out_of_bounds": "Posisi luwa baté. Gunayana baré 1-{max_row}, kolom 1-{max_col}",
     "knock_with_card": "Droeneuh hanjeut neugrok ngon kartu nyang ka teuek. Peuseuleusoe kheueh giliran droeneuh leubeh ilée.",
     "already_knocked": "Na nyang ka ji peuglah.",
-    "already_revealed": "Kartu nyan ka geupeugah!"
+    "already_revealed": "Ureuëng nyan ka geubuka!"
   },
   "summary": {
-    "full": "Permainan Berakhir! Pemain {winner} menang dengan skor {score} poin!\n\nSkor Akhir:\n{scores}",
-    "line": "Pemain {pid}: {score} poin\n"
+    "full": "Game Tamat! Ureuëng {winner} meunang ngon nilai {score} poin!\n\nNilai Akhé:\n{scores}",
+    "line": "Ureuëng {pid}: {score} poin\n"
   },
   "board_str": {
-    "title": "=== GAME GOLF=== Geurae geureon geolkka nan moreuneun geouldo",
+    "title": "=== GAME GOLF ===",
     "discard": "Tumpukan nyang jeut keu barang bulee: {card}",
-    "knocked": "Player {pid} geugeon na!",
-    "player_header": "Pemain {pid} (Skor: {score}):"
+    "knocked": "Ureuëng {pid} ka ketok!",
+    "player_header": "Ureuëng {pid} (Nilai: {score}):"
   }
 }

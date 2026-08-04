@@ -13,7 +13,7 @@
     "repeated_guess": "Tu âs za indovinât {guess}. Par plasê provi une altre ipotesi."
   },
   "game_action": {
-    "feedback": "Submitted [{guess}]. Feedback: {black_pegs} black peg(s), {white_pegs} white peg(s)."
+    "feedback": "Presentade [{guess}]. Riscontri: {black_pegs} piç(s) neris, {white_pegs} piç(s) blancjis."
   },
   "outcome": {
     "win": "Tu âs scuviert il codiç, risolvint {black_pegs} su {code_length} pegjis in maniere juste",

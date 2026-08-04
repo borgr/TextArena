@@ -16,7 +16,7 @@
   },
   "game_action": {
     "skipped": "Onye na-egwu egwu {pid} ga-ahapụ usoro ha",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "Onye Egwuregwu {pid} ({piece}) gbara [{r}, {c}] na-agbanwe {flipped} ihe(ụ)"
   },
   "game_message": {
     "must_skip": "Onye na-egwu egwu {pid} ({piece}) enweghị ihe ọ bụla dị mma ma gafere."

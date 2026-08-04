@@ -11,21 +11,21 @@
     "player_view_header": "{observation}\n--- An View han Manggarana {player_id} ---\n",
     "payoff": "{observation}Payoff Pile (Ibabaw nga Baraha): {top_card}, Payoff Pile Length: {payoff_length}\n",
     "hand": "{observation}Kamot: {hand}\n",
-    "discard": "{observation}Discard Piles: {discard}\n",
+    "discard": "{observation}Mga Discard Pile: {discard}\n",
     "empty": "Waray sulod."
   },
   "game_message": {
     "no_cards_left": "Waray na mga kard nga puydi mo kuhaon. Hinumdumi nga mahimo ka mag-play hin cards tikang hini nga mga surok: 1. An imo kamot 2. An top card han imo payoff pile 3. An topcard ha bisan ano han imo discard piles "
   },
   "invalid_move": {
-    "wrong_format": "An player {player_id} in waray magbaton hin valid nga move ha mga square brackets.",
-    "invalid_play": "Invalid play. Player {player_id} tried to play {card} on center pile {index}.",
+    "wrong_format": "Sayop nga format han liwat. An Player {player_id} diri naghatag hin usa ka balido nga liwat ha kwadrado nga mga braket.",
+    "invalid_play": "Sayop nga pagmulay. An Player {player_id} nagtikang magmulay hin {card} ha butnga nga pile {index}.",
     "discard_from_payoff": "An player {player_id} in nag-ihahatag hin pagbulag han iya card tikang ha payback pile.",
     "discard_not_in_hand": "An player {player_id} in nag-ihahatag hin card nga diri aada ha iya kamot.",
-    "wrong_move_type": "Waray balido nga move type. An player {player_id} waray magbaton hin valid nga move types."
+    "wrong_move_type": "Sayop nga tipo han liwat. An Player {player_id} diri naghatag hin usa ka balido nga tipo han liwat."
   },
   "game_action": {
-    "you_drew": "Nag-draw ka hin mga card.",
+    "you_drew": "Nagkuhai ka hin mga karta.",
     "opponent_drew": "An manlalaro {player_id} nag-iibot hin mga kard.",
     "you_played": "Nagdudula ka {card} ha butnga nga pila {index}.",
     "opponent_played": "An manlalaro {player_id} nag-iirog hin {card} ha butnga nga pila {index}.",

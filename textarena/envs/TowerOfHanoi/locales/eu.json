@@ -8,8 +8,8 @@
   "invalid_move": {
     "wrong_format": "Ez duzu erantzun \"[source] [target]\" balekoarekin.",
     "invalid_tower": "Ez duzu iturri edo helburu zehatzik;",
-    "empty_tower": "You tried to move a disk from an empty tower.",
-    "same_tower": "You tried to move a disk to the same tower.",
+    "empty_tower": "Disko bat mugitu duzu dorre huts batetik.",
+    "same_tower": "Disko bat mugitu duzu dorre berera.",
     "larger_on_smaller": "Disko handi bat disko txikiago batean... ipini nahi zenuen."
   },
   "game_action": {
@@ -17,6 +17,6 @@
   },
   "outcome": {
     "win": "Zorionak, Hanoiko Dorrearen enigma ebatzi duzu.",
-    "turn_limit": "The turn limit has been reached. You correctly placed {pct}% of the disks on Tower C."
+    "turn_limit": "Txanda-muga iritsi da. {pct}% diskoak ondo jarri dituzu C dorrean."
   }
 }

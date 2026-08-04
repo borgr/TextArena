@@ -12,7 +12,7 @@
     "cannot_bet": "Ezin [bet] - behar [call] / [raise] / [fold].",
     "nothing_to_call": "Ez dago deitzeko ezer; egin dezakezu [check] ordez.",
     "no_bet_to_raise": "Irekitzeko [bet X] erabili; ez dago igoera-apusterik.",
-    "insufficient": "Insufficient chips for that action."
+    "insufficient": "Txipak nahikoak ez dira ekintza horretarako."
   },
   "game_action": {
     "action": "Player {player_id} -> [{token}]"

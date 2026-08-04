@@ -11,12 +11,12 @@
     "not_legal": "La azion e à di jessi {legal_actions}."
   },
   "action": {
-    "submit_move": "Player {player_id}, submitted move: '[{move}]'.",
+    "submit_move": "Zugadôr {player_id}, azion inviade: '[{move}]'.",
     "valid_actions": "Lis azions disponibilis a son: {legal_actions}.",
     "round_summary": "{reason} Punteggi atuals: Zogador 0: '{player_0_chips}'; Zogador 1: '{player_1_chips}'"
   },
   "showdown": {
-    "showdown_summary": "Showdown: Player {winner}'s {winner_card} beats Player {loser}'s {loser_card}. Player {winner} wins pot of {pot_value} chips."
+    "showdown_summary": "Sfide: La cjarte {winner_card} dal Zugadôr {winner} e bat la cjarte {loser_card} dal Zugadôr {loser}. Il Zugadôr {winner} al vinç un piat di {pot_value} fichis."
   },
   "outcome": {
     "draw": "Tal finâl dai turnis {max_rounds}, ducj i doi zuiadôrs a vevin il stes numar di fiestis.",

@@ -13,7 +13,7 @@
     "repeated_guess": "U se u ntse u nahanne {guess}. Ka kōpo leka ho nahana ka tsela e fapaneng."
   },
   "game_action": {
-    "feedback": "Submitted [{guess}]. Feedback: {black_pegs} black peg(s), {white_pegs} white peg(s)."
+    "feedback": "E rometsoe [{guess}]. Maikutlo: {black_pegs} pega e ntsho, {white_pegs} pega e tšoeu."
   },
   "outcome": {
     "win": "U ile wa qhekeha codi, u solofetse {black_pegs} ho tsoa {code_length} pegs ka molato",

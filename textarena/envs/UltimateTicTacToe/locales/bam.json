@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in **Ultimate Tic Tac Toe**.\nSubmit your move as **[macro  micro]** (two numbers 0-8):\n• *macro*  = which mini-board you play in\n• *micro* = which square inside that mini-board\nExample `[7 8]` ➜ place your mark in mini-board 7, square 8, and\nforce your opponent to play in mini-board 8 next.\n\nYou are `{symbol}`.\n"
+    "intro": "I ni jɛgɛ {player_id} ye **Ultimate Tic Tac Toe**.\nKalima bɔ kɛ **[macro  micro]** ( nambari fila 0-8):\n• *macro*  = mini-tablo kɔnɔ i bɛ jɛgɛ\n• *micro* = mini-tablo kɔnɔ ka kɔɔri i bɛ jɛgɛ\nSɛbɛnni `[7 8]` ➜ i ka marka bɔ mini-tablo 7, kɔɔri 8, nɔgɔ i ka jɛgɛfɛnw bɛ jɛgɛ mini-tablo 8 kɔnɔ.\n\nI ni `{symbol}`.\n"
   },
   "board": {
     "current_board": "Bi tile la: {board}"
@@ -14,7 +14,7 @@
     "micro_board_won": "An ye mikɔrɔgaramu sɔrɔ ka ban."
   },
   "next_board": {
-    "any": "mini-bordiyé",
+    "any": "kɔnɔ kɔnɔ bɔli kɛrɛnkɛrɛnnen",
     "specific": "mikɔrɔtabulari {nxt}"
   },
   "game_action": {

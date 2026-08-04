@@ -29,8 +29,8 @@
     "new_round": "\nTäze raund - Galan küpler: {dice_summary}\nŞu ýagdaýdaňyzdaň küpler: {your_dice}"
   },
   "call": {
-    "bidder_loses": "Player {current_player_id} calls! The actual count of face {face_value} is {count}, which is LESS than {quantity}.\nPlayer {loser_id} (the last bidder) loses one die.",
-    "caller_loses": "Player {current_player_id} calls! The actual count of face {face_value} is {count}, which is >= {quantity}.\nPlayer {loser_id} (the caller) loses one die."
+    "bidder_loses": "Oýunçy {current_player_id} çaýryjy! Zar ýüzü {face_value} sany ähli zarlar ýüzü bahasyndan {count} az, ýagny {quantity}-dan az.\nOýunçy {loser_id} (soňky bahany goýan) zar ýitirýär.",
+    "caller_loses": "Oýunçy {current_player_id} çaýryjy! Zar ýüzü {face_value} sany ähli zarlar ýüzü bahasyndan {count} ýa-da {quantity}-dan ýokary.\nOýunçy {loser_id} (çaýryjy) zar ýitirýär."
   },
   "action": {
     "bid_announce": "Oýnaýjy {player_id} {quantity} möçberinde {face_value} görnüşinde teklib ediýär."

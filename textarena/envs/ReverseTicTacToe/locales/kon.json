@@ -14,7 +14,7 @@
     "placed": "Mwana {player_id} alitumia ishara yake ({symbol}) kwenye seli {cell}."
   },
   "outcome": {
-    "loss": "Player {player_id} loses by completing a line!",
+    "loss": "Mwana nkenda {player_id} alongwi na kusala mstari!",
     "draw": "Ata muntu mosi ve me vidisaka."
   }
 }

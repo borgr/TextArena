@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a two-player game of Spite and Malice. Your goal is to be the first to empty your payoff pile.\n\n### Game Overview:\n- The objective is to clear your payoff pile by playing cards to the center piles.\n- You can play cards from three sources:\n  1. Your **hand** (you start each turn with up to 5 cards in hand).\n  2. The **top card of your payoff pile**.\n  3. The **top card of any of your discard piles**.\n\n### Playing Rules:\n- You may play a card to a center pile if it is **one rank higher** than the top card on that pile (center piles start with Ace and go up to Queen; Kings are wild - they can be played on any card but do not change the rank sequence. This means if a King is used after 4, then that King is ranked 5 and the next card must be a 6).\n- If you can't play any more cards, you must **discard a card** to one of your discard piles to end your turn.\n- If a center pile reaches Queen, it will be cleared automatically.\n- The rank order is: A=1, 2=2, ..., 9=9, J=10, Q=11, K as wild.\n\n### Actions:\n1. **Draw**: At the start of your turn, draw cards to fill your hand up to 5 cards. Enter **[draw]** to begin.\n2. **Play a Card**: To play a card, specify the card and the center pile like this: **[play A♠ 0]** (where 'A♠' is the card and '0' is the center pile index).\n3. **Discard**: If you can't play any more cards, discard a card from your hand to a discard pile to end your turn. Enter **[discard A♠ 1]** (where 'A♠' is the card and '1' is the discard pile index). Note that you cannot discard any card from the payoff pile. You may only discard the cards from your hand.\n\n"
+    "intro": "द्वौ खिलाडीभ्यां क्रीड्यमाने स्पाइट एण्ड मैलिस इति क्रीडायां त्वं खिलाडी {player_id} असि। तव लक्ष्यं स्वभोगप्राप्तिस्थानात् प्रथमं रिक्तं कर्तुं भवति।\n\n### क्रीडायोगः:\n- उद्देश्यं स्वभोगप्राप्तिस्थानं केन्द्रस्थानेषु पत्राणि क्रीडयित्वा रिक्तं कर्तुं भवति।\n- त्वं त्रिभ्यः स्रोतसः पत्राणि क्रीडयितुं शक्नोसि:\n  १. तव **हस्तात्** (प्रत्येकं वारं त्वं ५ पत्राणि हस्ते आरभसे)।\n  २. **तव भोगप्राप्तिस्थानस्य उपरितन पत्रात्**।\n  ३. **तव कस्यचिदपि त्यागप्राप्तिस्थानस्य उपरितन पत्रात्**।\n\n### क्रीडनियमाः:\n- केन्द्रस्थाने पत्रं क्रीडयितुं शक्नोसि यदि तत् **एकमेव वर्गं** तस्य स्थानस्य उपरितन पत्रात् अधिकं भवति (केन्द्रस्थानानि एकादशतः आरभ्य राज्ञीं यावद् गच्छन्ति; राजानः विविधाः सन्ति - ते कस्यचिदपि पत्रे क्रीडयितुं शक्यन्ते, किन्तु वर्गक्रमं न परिवर्तयन्ति। यदि राजा ४ अनन्तरं क्रीडयितः, तर्हि स राजा ५ वर्गः भवति, अनन्तरं पत्रं ६ भवितव्यम्)।\n- यदि त्वं कोऽपि पत्रं क्रीडयितुं न शक्नोसि, तर्हि त्वं **पत्रं त्यागयित्वा** स्वकीये त्यागप्राप्तिस्थाने वारं समाप्तं कर्तुं भवति।\n- यदि केन्द्रस्थानं राज्ञीं प्राप्नोति, तर्हि तत् स्वच्छं भविष्यति।\n- वर्गक्रमः एवं भवति: एकादशः=१, २=२, ..., ९=९, दशमः=१०, एकादशः=११, राजा विविधः।\n\n### क्रियाः:\n१. **आहरणं**: वारस्य आरम्भे, पत्राणि आहरणं कुरु येन तव हस्तः ५ पत्रैः परिपूर्णः भवति। **[draw]** इति प्रवेशय।\n२. **पत्रं क्रीडय**: पत्रं क्रीडयितुं, पत्रं केन्द्रस्थानं च एवं निर्देशय: **[play A♠ 0]** (यत्र 'A♠' पत्रं, '०' केन्द्रस्थानसूचकं भवति)।\n३. **त्यागः**: यदि त्वं कोऽपि पत्रं क्रीडयितुं न शक्नोसि, तर्हि हस्तात् पत्रं त्यागप्राप्तिस्थाने त्यागयित्वा वारं समाप्तं कर्तुं भवति। **[discard A♠ 1]** इति प्रवेशय (यत्र 'A♠' पत्रं, '१' त्यागप्राप्तिस्थानसूचकं भवति)। ध्यानं देहि यत् त्वं भोगप्राप्तिस्थानात् कोऽपि पत्रं त्यागयितुं न शक्नोसि। त्वं केवलं हस्तात् पत्राणि त्यागयितुं शक्नोसि।\n\n"
   },
   "board": {
     "current_board": "वर्तमानबोर्ड:\n\n{board}\nउपलब्धचालें: {moves}"
@@ -19,7 +19,7 @@
   },
   "invalid_move": {
     "wrong_format": "अमान्य गतिः प्रारूपम्। क्रीडाकरः {player_id} स्क्वायर ब्रैकेटस् मध्ये वैधं चालकं न कृतवान् ।",
-    "invalid_play": "Invalid play. Player {player_id} tried to play {card} on center pile {index}.",
+    "invalid_play": "अवैध क्रीडा। खिलाडी {player_id} ने {card} पत्रं केन्द्र पाइल् {index} उपरि क्रीडितुं प्रयासितवान्।",
     "discard_from_payoff": "अमान्यः प्रहारः। क्रीडाकरः {player_id} इष्टतमं कार्डम् अप्राप्य प्रयतते ।",
     "discard_not_in_hand": "अमान्यः प्रक्षिप्तः। क्रीडाकरः {player_id} हस्ते न विद्यमानं कार्डम् प्रक्षिप्य प्रयतते ।",
     "wrong_move_type": "अमान्य गतिः। {player_id} इति क्रीडाकरस्य प्रत्युत्तरं न भवति ।"
@@ -28,13 +28,13 @@
     "you_drew": "भवन्तः कार्डं अङ्गीकुर्वन् ।",
     "opponent_drew": "क्रीडाकरः {player_id} पत्तें अङ्कितवान् ।",
     "you_played": "आपने {card} को केंद्रीयकुंज {index} पर खेला।",
-    "opponent_played": "Player {player_id} played {card} on center pile {index}.",
-    "you_discarded": "You have discarded {card} to discard pile {index}, which also means you have finished their turn. No further actions of yours is considered for this turn. Player {next_player_id} will go next.",
-    "opponent_discarded": "Player {player_id} discarded {card} to discard pile {index}, which also means they finished their turn. No further actions of Player {player_id} is considered for this turn. Player {next_player_id}, you will go next. Please enter your action in the format [action card center_index]."
+    "opponent_played": "खिलाडी {player_id} ने {card} पत्रं केन्द्र पाइल् {index} उपरि क्रीडितवान्।",
+    "you_discarded": "त्वं {card} पत्रं डिस्कार्ड् पाइल् {index} उपरि डिस्कार्ड् कृतवान्, यत् तव वर्तं समाप्तं करोति। न आगामिनि क्रियायां तव वर्तं गण्यते। खिलाडी {next_player_id} अग्रे वर्तं करिष्यति।",
+    "opponent_discarded": "क्रीडकः {player_id} पत्रकम् {card} त्यागस्थाने {index} त्यागितवान्, यद् अनेन तस्य क्रीडकस्य वारः समाप्तः अभवत् । क्रीडकस्य {player_id} अन्यः कोऽपि कार्यः अस्मिन् वारे न परिगण्यते । क्रीडकः {next_player_id}, त्वं अग्रिमः कार्यकर्ता भविष्यसि । कृपया स्वकार्यम् [action card center_index] इति रूपेण प्रवेशय ।"
   },
   "outcome": {
     "payoff_cleared": "खिलाड़ी {current_player} ने अपने भुगतानकुंज को साफ़ कर दिया! खिलाड़ी {current_player} जीतता है!",
-    "deadlock_player_0": "Deadlock reached! Player 0 wins with {player_0_payoff} cards remaining vs Player 1's {player_1_payoff} cards.",
+    "deadlock_player_0": "डेडलॉक् प्राप्त! खिलाडी ० जितवान् {player_0_payoff} पत्राणि अवशिष्टानि खिलाडी १ के {player_1_payoff} पत्राणि विरुद्धे।",
     "deadlock_player_1": "मृतबिंदु पहुंच गया! खिलाड़ी 1 ने {player_1_payoff} कार्ड शेष के साथ जीत हासिल की बनाम खिलाड़ी 0 के {player_0_payoff} कार्ड।",
     "deadlock_tie": "मृतबिंदु पहुंच गया với टाई! दोनों खिलाड़ियों के पास {player_0_payoff} कार्ड शेष हैं। खिलाड़ी {current_player} डिफ़ॉल्ट रूप से जीतता है।"
   }

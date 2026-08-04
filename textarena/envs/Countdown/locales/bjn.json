@@ -9,7 +9,7 @@
     "progress": "{observation}\nSkor kemajuan saat ini: {progress}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use `[i j op]` where i,j are indices and op is +,-,*,/",
+    "wrong_format": "Format aksi salah. Pakai `[i j op]` di mana i,j adalah indeks dan op adalah +,-,*,/",
     "invalid_indices": "Indeks kada sah. harus berbeda wan dalam kisaran 0-{max_index}",
     "invalid_operation": "Operasi kada sah (pembagian dengan nol atau hasil non-integer)"
   },

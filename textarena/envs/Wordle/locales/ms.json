@@ -10,7 +10,7 @@
     "{secret}": "Perkataan rahsia"
   },
   "prompt": {
-    "intro": "Anda sedang Bermain Wordle.\nSebuah perkataan rahsia {word_length} huruf telah dipilih. Anda mempunyai {num_guesses} percubaan untuk menekanya.\nUntuk setiap tekaan, balut perkataan anda dalam kurungan siku (cth., '[epalx]').\nMaklum balas untuk setiap huruf akan diberikan seperti berikut:\n  - G (hijau): huruf betul pada kedudukan yang betul\n  - Y (kuning): huruf wujud dalam perkataan tetapi pada kedudukan yang salah\n  - X (salah): huruf tiada dalam perkataan\nMasukkan tekaan anda untuk bermula.\n"
+    "intro": "Anda sedang bermain Wordle.\nSebuah kata rahsia {word_length}-huruf telah dipilih. Anda mempunyai {num_guesses} cubaan untuk meneka kata itu.\nUntuk setiap cubaan, masukkan kata anda dalam kurungan siku (contohnya, '[apple]').\nMaklum balas untuk setiap huruf akan diberikan seperti berikut:\n  - G (hijau): huruf yang betul di kedudukan yang betul\n  - Y (kuning): huruf wujud dalam kata tetapi di kedudukan yang salah\n  - X (salah): huruf tidak ada dalam kata\nMasukkan cubaan anda untuk memulakan.\n"
   },
   "invalid": {
     "wrong_format": "Anda cuba menghantar perkataan dalam format yang salah. Sila pastikan anda menggunakan kurungan siku.",

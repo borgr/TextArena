@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "Igikorwa gitegerezwa kuba mu buryo [row col] aho umurongo n'igihimba ari ibitigiri vy'intango kuva kuri 0 gushika ku {max_index}.",
-    "out_of_range": "Coordinates must be between 0 and {max_index}. You entered [{row},{col}]."
+    "out_of_range": "Viwianishi lazima viwe kati ya 0 na {max_index}. Umeingiza [{row},{col}]."
   },
   "outcome": {
     "win": "Urakoze! Waratoreye umuti ikibazo mu ntambwe {moves_used} !",

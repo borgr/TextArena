@@ -14,14 +14,14 @@
     "{scores}": "The final scores as a raw player-number to score mapping - do not translate"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player GOPS.\n- You hold the 13 cards A-K (each exactly once).\n- Each round a prize is revealed. Submit ONE card like `[Q]`, `[10]`, `[2]` …\n- Highest card wins the prize (+ any carry-over pot). Ties roll the prize into the next round.\n- After 13 rounds, highest total wins. Invalid moves = elimination."
+    "intro": "Ko koe te Kaitākaro {player_id} i Three-Player GOPS.\n- Kei a koe ngā kāri 13, A-K (kotahi noa i te kāri).\n- I ia raundi, ka whakapuakina he paraiha. Tukua KOTahi kāri pērā i te `[Q]`, `[10]`, `[2]` …\n- Ko te kāri teitei rawa ka wini i te paraiha (+ ngā pūtea kua mauria). Ngā tīeke ka rereke te paraiha ki te raundi e whai ake.\n- Whai muri i ngā raundi 13, ko te uara katoa teitei rawa ka wini. Ngā nekeneke koremana = whakakorehanga."
   },
   "round": {
     "header": "### Rauniga {round}/13 - Taonga: {prize} (utua {worth})",
     "hand": "Ko tō ringa e toe ana: {hand}"
   },
   "reveal": {
-    "win": "Bids » {bids} - Player {winner} wins {pot}.",
+    "win": "Ngā tāpae » {bids} - Kaitākaro {winner} ka wini {pot}.",
     "tie": "Ka tukuna  {bids} - tie, pot inaianei {pot}.",
     "scores": "Ngā tohu → {scoreline}"
   },

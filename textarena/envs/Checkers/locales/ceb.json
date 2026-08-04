@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "Wala nay matagbalang format sa move. Gamita ang [a1b2], ingon man sa [b2c3].",
-    "illegal": "Move [{move}] is illegal."
+    "illegal": "Ang lihok [{move}] kay ilegal."
   },
   "game_action": {
     "moved": "Player {player_id} mibalhin sa {move}."

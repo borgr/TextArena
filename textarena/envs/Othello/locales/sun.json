@@ -16,7 +16,7 @@
   },
   "game_action": {
     "skipped": "Pamaén {pid} kudu skip giliran maranéhanana",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "Pamaén {pid} ({piece}) maén [{r}, {c}] ngabalikkeun {flipped} potongan"
   },
   "game_message": {
     "must_skip": "Pamaen {pid} ({piece}) teu boga langkah langkah nu bisa sarta kudu lewih."

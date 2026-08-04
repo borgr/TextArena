@@ -22,15 +22,15 @@
     "final_ranking": "list of player indices from first eliminated to winner"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in an {num_players}-player Liar's Dice game.\nRules:\n- On your turn, you may either:\n  1) Make a new bid with a higher quantity or higher face (or both) than the current bid; i.e. '[Bid: 3, 4]',\n  2) Call the last bid by typing '[Call]'.\n\nIf you call:\n  - If the actual count of that face value among all dice is less than the bid, the last bidder loses one die.\n  - Otherwise, the caller loses one die.\nA player who reaches 0 dice is eliminated. The last remaining player wins."
+    "intro": "D umyar {player_id} deg usqamu n Liar's Dice s {num_players} n yimyaraten.\nTisfiltin:\n- Deg wassiw-ik, tzemreḍ ad tegreḍ :\n  1) Aḍfer tefsut tamaynut s kwanṭit meqqren neɣ ujumlen meqqren (neɣ snat) n tefsut yellan sakin, am '[Bid: 3, 4]',\n  2) Ssefreḍ tefsut taneggarut s useqquf '[Call]'.\n\nMa ssefreḍ :\n  - Ma amḍan n yidisen yellan sakin n ujumlen agi deg yidisen meṛṛa d amecṭuḥ n tefsut, umyar aneggaru i d-yefka ad yexser yidisen.\n  - Ma ɛlaḥ, umyar i d-yefka ad yexser yidisen.\nUmyar i wḍen 0 n yidisen ad yettwaxser. Umyar aneggaru i yellan sakin ad yernu."
   },
   "board": {
     "per_player": "\tPlayer {p}: {d}",
     "new_round": "\nTura tamaynut - Ṭebɛaṛ: {dice_summary}\nṬebɛaṛ inu niḍen d aɛfuṛ: {your_dice}"
   },
   "call": {
-    "bidder_loses": "Player {current_player_id} calls! The actual count of face {face_value} is {count}, which is LESS than {quantity}.\nPlayer {loser_id} (the last bidder) loses one die.",
-    "caller_loses": "Player {current_player_id} calls! The actual count of face {face_value} is {count}, which is >= {quantity}.\nPlayer {loser_id} (the caller) loses one die."
+    "bidder_loses": "Umyar {current_player_id} issefra! Amḍan n yidisen yellan sakin n ujumlen {face_value} d {count}, i d-amecṭuḥ n {quantity}.\nUmyar {loser_id} (umyar aneggaru i d-yefka) ad yexser yidisen.",
+    "caller_loses": "Amaylal {current_player_id} iseqdac! Amḍan n tama {face_value} d {count}, i yellan >= {quantity}.\nAmaylal {loser_id} (wi iseqdac) aten-itt-id yiwen n wemḍan."
   },
   "action": {
     "bid_announce": "Player {player_id} tekcem {quantity} n uẓel n wajah {face_value}."
@@ -50,6 +50,6 @@
     "eliminated_invalid": "Amur {player_id} yettwaḥeq s ubrid ur nelli ara d win n umussu."
   },
   "outcome": {
-    "win": "Player {winner} wins! Final ranking: {final_ranking}"
+    "win": "Umyar {winner} yernu! Tazwara taneggarut: {final_ranking}"
   }
 }

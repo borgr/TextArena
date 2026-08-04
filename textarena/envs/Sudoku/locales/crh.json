@@ -8,7 +8,7 @@
   },
   "invalid_move": {
     "wrong_format": "Uquq bozulğan areket formatı. {player_id} oyuncısı \"sıra sütun nomeri\" ile cevap bermedi.",
-    "out_of_bounds": "Invalid move. Player {player_id} attempted to place {num} at ({row}, {col}), which is out of bounds.",
+    "out_of_bounds": "Geçersiz hamle. Oyuncu {player_id} {num} rakamını ({row}, {col}) koordinatına qoymağa çalıştı, lakin bu koordinat şebekeden dışarıda.",
     "overwrite": "Ğayrı resmi hereket. Oyuncu {player_id} ({row}, {col}) ön tarafdan doldurulğan hücreniñ üstüne yazmağa telaş etti.",
     "violates_rules": "Ğayrı resmi hereket. Oyuncu {player_id} {num} ni ({row}, {col}) koordinatalarına qoymağa telaş etti, bu ise Sudoku qaidelerine qarşı."
   },

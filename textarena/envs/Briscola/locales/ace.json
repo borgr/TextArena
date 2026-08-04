@@ -19,10 +19,10 @@
     "{deck_count}": "Number of cards left in the deck"
   },
   "game": {
-    "start": "Permainan Briscola dimulai! Jenis trump: {trump_suit} (Kartu trump: {trump_card})"
+    "start": "Game Briscola ka mulai! Suit teumpa: {trump_suit} (Kartu teumpa: {trump_card})"
   },
   "prompt": {
-    "intro": "Anda sedang bermain Briscola - Pemain {player_id}.\nTujuan: Menang trik dan mengumpulkan poin terbanyak (120 poin total di dek).\nPoin Kartu: A=11, 3=10, K=4, Q=3, J=2, lainnya=0\nKekuatan Kartu: A > 3 > K > Q > J > 7 > 6 > 5 > 4 > 2\nKartu trump mengalahkan kartu non-trump terlepas dari kekuatan.\n\nAksi: '[play X]' di mana X adalah posisi (1-{max_pos}) kartu di tangan Anda\n"
+    "intro": "Droe neume main Briscola - Pemain {player_id}.\nTujuan: Meunang trik ngon kumpul poin paleng leubeh (120 poin di dalam dek).\nPoin Kartu: A=11, 3=10, K=4, Q=3, J=2, la'en-la'en=0\nKekuatan Kartu: A > 3 > K > Q > J > 7 > 6 > 5 > 4 > 2\nKartu trik mengalahkan kartu non-trik meunang kekuatan.\n\nAksi: '[play X]' di mana X nakeuh posisi (1-{max_pos}) kartu di tangan droe\n"
   },
   "hand": {
     "none": "Hana kartu.",
@@ -37,21 +37,21 @@
     "line": "  Pemain {player_id}: {card}{trump_mark}"
   },
   "turn": {
-    "score_entry": "Pemain {player_id}: {points} pts",
+    "score_entry": "Pemain {player_id}: {points} poin",
     "trump_info": "Trump suit: {trump_suit} (peusaneut)",
-    "trump_info_deck": "Trump suit: {trump_suit} | Cards left in deck: {deck_count}",
-    "board": "{hand}\n\n{trick}\n\nSkor: {scores}\n{trump_info}\n\nMainkan kartu menggunakan [play X]"
+    "trump_info_deck": "Suit teumpa: {trump_suit} | Kartu nyang na tinggai lam dek: {deck_count}",
+    "board": "{hand}\n\n{trick}\n\nPoin: {scores}\n{trump_info}\n\nMainkan kartu ngon [play X]"
   },
   "invalid_move": {
-    "wrong_format": "Pakek [play X] di pat X adalah posisi kartu (1, 2, 3, dll.)",
-    "out_of_range": "Posisi kartu tidak valid. Anda memiliki {count} kartu (1-{count})"
+    "wrong_format": "Gunakan [play X] di mana X nakeuh posisi kartu (1, 2, 3, ngon la'en-la'en)",
+    "out_of_range": "Posisi kartu salah. Droe na {count} kartu (1-{count})"
   },
   "action": {
     "played": "Pemain {player_id} main {card}",
-    "trick_win": "Pemain {winner} menang trik dengan {card} dan mendapatkan {points} poin!"
+    "trick_win": "Pemain {winner} meunang trik ngon {card} ngon na {points} poin!"
   },
   "outcome": {
-    "head": "Permainan Berakhir! Pemain {winner} menang dengan {points} poin!\n\nSkor Akhir:\n{scores}",
+    "head": "Game Tamat! Pemain {winner} meunang ngon {points} poin!\n\nPoin Akhir:\n{scores}",
     "player_line": "Pemain {player_id}: {points} poin ({tricks} trik)\n"
   }
 }

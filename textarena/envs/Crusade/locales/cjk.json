@@ -1,25 +1,25 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({piece}). Opponent is ({opp}). Submit moves as '[b1 c3]' (from → to). All pieces move like chess knights.\nEach capture scores {score_per_capture} point. Game ends after {max_moves} moves or when a player has no legal move / no pieces. Higher score wins."
+    "intro": "Wi ule Muthu {player_id} ({piece}). Muthu wakwenu ni ({opp}). Pondele miviringo kama '[b1 c3]' (kutoka → kwenye). Miviringo yote inasogea kama farasi wa chess.\nKila kupata kipimo {score_per_capture} alama. Mchezo unamalizika baada ya {max_moves} miviringo au wakati muthu hana miviringo halali / hakuna vipande. Alama ya juu inashinda."
   },
   "board": {
-    "current_board": "Move #{move_count}\n\n{board}\n\nAvailable Moves: {moves}"
+    "current_board": "Miviringo #{move_count}\n\n{board}\n\nMiviringo Inapatikana: {moves}"
   },
   "invalid_move": {
-    "bad_format": "Bad format. Use '[b1 c3]'.",
+    "bad_format": "Mbuni mbaya. Tumia '[b1 c3]'.",
     "unknown_square": "Cjk.",
-    "not_your_piece": "Cjk si kipande chako.",
+    "not_your_piece": "Chanzo si kipande chako.",
     "own_piece": "Ngayi b'a nga yi kyanga.",
     "not_knight": "N'a nga knight."
   },
   "game_action": {
-    "moved": "Player {player_id} moved their piece from {frm} to {to}.",
-    "capture": "{observation} Capturing a piece! (+{score_per_capture})"
+    "moved": "Muthu {player_id} alisogeza kipande chake kutoka {frm} hadi {to}.",
+    "capture": "{observation} Kupata kipande! (+{score_per_capture})"
   },
   "outcome": {
-    "no_pieces": "Player {player_id} has no pieces.",
-    "cannot_move": "Player {player_id} cannot move.",
+    "no_pieces": "Muthu {player_id} hana vipande.",
+    "cannot_move": "Muthu {player_id} hawezi kusogea.",
     "higher_score": "Cjk. ",
-    "move_limit": "Kengele ya kucitika."
+    "move_limit": "Kikomo cha miviringo kimefikia."
   }
 }

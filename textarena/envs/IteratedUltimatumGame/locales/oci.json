@@ -34,10 +34,10 @@
     "bad_integer": "Lo montant de l'ofèrta deu èsser un entièr valid.",
     "out_of_range": "L'ofèrta deu èsser entre $0 e ${pool}.",
     "no_current_offer": "Pas cap d'ofèrta per respondre.",
-    "accept_or_reject": "Responder must either [Accept] or [Reject] the offer."
+    "accept_or_reject": "Lo jogaire que respond deu o [Accept] o [Reject] l'ofèrta."
   },
   "outcome": {
-    "win": "Jogador {winner} a ganhat amb ${winner_total} total vs Jogador {loser} amb ${loser_total}.",
+    "win": "Lo jogaire {winner} a ganhat amb ${winner_total} total contra ${loser_total} del jogaire {loser}.",
     "draw": "Ambedos jogaires acabèron amb ${total} total."
   }
 }

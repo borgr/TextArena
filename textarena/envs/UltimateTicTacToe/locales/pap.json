@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in **Ultimate Tic Tac Toe**.\nSubmit your move as **[macro  micro]** (two numbers 0-8):\n• *macro*  = which mini-board you play in\n• *micro* = which square inside that mini-board\nExample `[7 8]` ➜ place your mark in mini-board 7, square 8, and\nforce your opponent to play in mini-board 8 next.\n\nYou are `{symbol}`.\n"
+    "intro": "Bo ta hungadó {player_id} den **Ultimate Tic Tac Toe**.\nManda bo movimiento manera **[macro  micro]** (dos número 0-8):\n• *macro*  = kuál mini-tablero bo ta hunga aden\n• *micro* = kuál kuadrado aden e mini-tablero\nEhèmpel `[7 8]` ➜ pone bo marka den mini-tablero 7, kuadrado 8, i\nforza bo oponente pa hunga den mini-tablero 8 próksimo.\n\nBo ta `{symbol}`.\n"
   },
   "board": {
     "current_board": "E tawata aktual: {board}"
@@ -15,7 +15,7 @@
   },
   "next_board": {
     "any": "kualke micro board",
-    "specific": "micro board {nxt}"
+    "specific": "mini-tablero {nxt}"
   },
   "game_action": {
     "played": "Player {player_id} a hunga den micro tablero {macro_idx}, sel {micro_idx} (fila {row}, kolona {col}). Player {opponent_id} mester hunga awor den {nxt_txt}."

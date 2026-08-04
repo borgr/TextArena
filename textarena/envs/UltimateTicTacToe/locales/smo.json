@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in **Ultimate Tic Tac Toe**.\nSubmit your move as **[macro  micro]** (two numbers 0-8):\n• *macro*  = which mini-board you play in\n• *micro* = which square inside that mini-board\nExample `[7 8]` ➜ place your mark in mini-board 7, square 8, and\nforce your opponent to play in mini-board 8 next.\n\nYou are `{symbol}`.\n"
+    "intro": "Oe o le Taaloga {player_id} i le **Ultimate Tic Tac Toe**.\nFaaulufale mai lau gaoioiga e pei o **[macro  micro]** (lua numera 0-8):\n• *macro*  = le laupapa laiti e te taalo ai\n• *micro* = le faamalu o le laupapa laiti lena\nFaataitaiga `[7 8]` ➜ tuu lau faailoga i le laupapa laiti 7, faamalu 8, ma\nfaamalosi lou fili e taalo i le laupapa laiti 8 e sosoo ai.\n\nOe o `{symbol}`.\n"
   },
   "board": {
     "current_board": "Komiti Faatino o loʻo iai nei: {board}"

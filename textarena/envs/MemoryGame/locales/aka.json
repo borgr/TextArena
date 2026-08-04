@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id}. You are playing the Memory Game.\nYour goal is to match more pairs of cards on the board, than your opponent.\nOn your turn, select two cards to flip by entering the row and column numbers of the first and second card respectively like '[0 1 1 0]', where the first card is in row 0 and column 1, and the second card is in row 1 and column 0.\nIf the two cards match, you get a point and the cards remain face up. If they do not match, the cards are flipped back face down, e.g. '.'.\nThe game ends when all pairs have been matched."
+    "intro": "Wo ne Player {player_id}. Wo reko Memory Game.\nWo botae ne sɛ wo bɛma pairs of cards pii wɔ board no so sen wo opponent.\nWɔ wo turn mu, wo bɛhwehwɛ cards mmienu a wo bɛ flip denam row ne column numbers a edi kan ne nea ɛto so mmienu te sɛ '[0 1 1 0]', baako a edi kan no wɔ row 0 ne column 1, na nea ɛto so mmienu no wɔ row 1 ne column 0.\nSɛ cards mmienu no match, wo bɛnya point mmienu na cards no bɛtena wɔ anim. Sɛ wɔnnyɛ match, cards no bɛdan wɔ ase, e.g. '.'.\nGame no bɛba awie bere a pairs nyinaa aba matched."
   },
   "board": {
     "current_board": "Mprenpren boɔ: {board}",
@@ -13,8 +13,8 @@
     "already_matched": "Nkɔsoɔ a enni mu. Agoroma {player_id} paw krataa baako anaa mmienu no nyinaa a wɔadi kan aka abom dedaw."
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "Koko a Player {player_id} ahyɛ wɔ positions [{r1} {c1}] ne [{r2} {c2}] no match!",
+    "cards_no_match": "Koko a Player {player_id} ahyɛ no nnyɛ match. Koko wɔ positions [{r1} {c1}] ne [{r2} {c2}] yɛ {pos1} ne {pos2} sɛnea ɛteɛ."
   },
   "outcome": {
     "draw": "Ná agumadifo no nyinaa kura nkrataa abien a edi nsɛ.",

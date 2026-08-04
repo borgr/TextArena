@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in JoJoJoin, played on a 5x5 board with cells numbered 0-24.\nOn your turn, place your mark on any empty cell, e.g. '[12]'.\nYOU WIN by getting FOUR of your marks in a row — four consecutive cells horizontally, vertically, or diagonally.\nAs Player {player_id} you are '{symbol}'; your opponent is '{opponent_symbol}'."
+    "intro": "Keddi Player {player_id} di JoJoJoin, yedwal ɣef tebṛat 5x5 s yizeggiwen yettwanumaren 0-24.\nDi tedbelt-ik, ṛeẓ mark-ik ɣef yizeggiw ameɣtu, amedya '[12]'.\nKEDDI T-RARAT ad tesɛu kṛad mark-ik di tedbelt — kṛad yizeggiwen id-yettnernan s waḍu, s azɣar, neɣ s aɣeṛṛab.\nAkeddi Player {player_id} kedi '{symbol}'; amedyan-ik '{opponent_symbol}'."
   },
   "board": {
     "current_board": "Asaḍen n wengam:\n\n{board}\n\nIswi yenẓan: {moves}"

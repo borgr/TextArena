@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({piece}). Opponent is ({opp}). Submit moves as '[b1 c3]' (from → to). All pieces move like chess knights.\nEach capture scores {score_per_capture} point. Game ends after {max_moves} moves or when a player has no legal move / no pieces. Higher score wins."
+    "intro": "Ati pilaayiiti {player_id} ({piece}). Diraamaa isaa ({opp}). Gidduu galmaa '[b1 c3]' (irraa → gara). Miiltoo hundi sochiin waraanaa kaabineeti.\nWalitti qabaa {score_per_capture} alamaa. Tapha darbe {max_moves} sochii ykn yoom pilaayiitiin sochii seeraa hin qabu / miiltoo hin qabu. Alamaa ol'aanaa mo'ata."
   },
   "board": {
     "current_board": "Galti #{move_count}\n\n{board}\n\nGaltii Dhaban: {moves}"

@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a {num_rounds}-round Rock-Paper-Scissors game.\nYour goal is to win as many rounds as possible.\nIn each round, respond with one of: '[rock]', '[paper]', or '[scissors]'.\nYou may also use '[r]', '[p]', or '[s]' as shorthand.\n"
+    "intro": "Ni wewe Mugenzi {player_id} muri mchezo wa {num_rounds}-mizunguko wa Rock-Paper-Scissors.\nIntego yawe ni kugombyeza mizunguko mingi iwezekanavyo.\nMuri kila mzunguko, subiza mo kuri: '[rock]', '[paper]', cyangwa '[scissors]'.\nUshobora kandi gukoresha '[r]', '[p]', cyangwa '[s]' nk'ifupi.\n"
   },
   "invalid_move": {
     "wrong_format": "Hari utangazwa si uruturanye. Urabikorereza [rock], [paper], au [scissors]."

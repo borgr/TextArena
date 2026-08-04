@@ -9,10 +9,10 @@
     "{pct}": "Progress as a percentage string, e.g. 50%"
   },
   "player_prompt": {
-    "intro": "Map each letter to a unique digit so the arithmetic holds.\nAssign with `[A 5]`, re-assign anytime.\n"
+    "intro": "Sanya kowane wasika zuwa lamba ta daban don riƙe lissafin.\nSanya da `[A 5]`, sake sanya a kowane lokaci.\n"
   },
   "invalid_move": {
-    "wrong_format": "Bad action format. Use `[A 5]`.",
+    "wrong_format": "Sauran tsarin aiki. Yi amfani da `[A 5]`.",
     "letter_not_in_puzzle": "Harafin {letter} ba a cikin wuyar warwarewa ba.",
     "digit_used": "Lambar {digit} da aka riga aka yi amfani da ita ta {used_letter}.",
     "leading_zero": "Lambar farko ta kalma ba za ta iya zama 0 ba."

@@ -1,16 +1,16 @@
 {
   "player_prompt": {
-    "intro": "Bienvenue dans Lights Out ! Vous avez une grille de lumière {size}x{size}.\nVotre objectif est de mettre TOUTES les lumières ÉTEINTES (représentées par '.')</nLorsque vous appuyez sur une lumière, elle bascule elle-même ET ses voisins adjacents (haut/bas/gauche/droite).</nTapez [row col] pour appuyer sur une lumière (indexé à 0, la plage valide est 0-{max_index}).</nVous avez jusqu'à {max_turns} coups pour résoudre le puzzle.</nLégende : 'O' = lumière ALLUMÉE, '.' = lumière ÉTEINTE"
+    "intro": "I ni kanu kɛmɛ Lights Out! I bɛ {size}x{size} lajɛ kɔnɔ.\nI bɛɛ nɛnɛ kɛmɛ ka dugu kɔnɔ kɛmɛnɛ dugu wɛrɛwɛrɛ ('.').\nI si tɛmɛnɛ dugu kɔnɔ, a tɛmɛnɛ a yɛrɛ ma a bɛɛ tɛmɛnɛ a kɔnɔniwɛrɛwɛrɛ (kɔrɔnɛ/kɔrɔnɛ/kɔɲɛ/kɔɲɛ).\nI kɛmɛ [row col] ka tɛmɛnɛ dugu kɔnɔ (0-kɔnɔsɛbɛnɛ, kɔrɔ 0-{max_index}).\nI bɛɛ {max_turns} kɛmɛ ka wuli pɛrɛpɛrɛ.\nKɛmɛ: 'O' = dugu kɔnɔ, '.' = dugu wɛrɛ"
   },
   "board": {
-    "current_state": "Etat actuel de la grille (Coup {moves_made}, {moves_left} coups restants, {completion}% complet) :\n{grid}"
+    "current_state": "Dɔkɔnɔn jɛɲɛ (Kɛlɛ {moves_made}, {moves_left} kɛlɛ sɔrɔ, {completion}% kɛlɛ):\n{grid}"
   },
   "invalid_move": {
     "wrong_format": "A be kɛ cogo la [row col] ni kɔri ani kolon ye nimero dafalenw ye ka bɔ 0 na fɔɔ ka taga se {max_index} ma.",
-    "out_of_range": "Coordinates must be between 0 and {max_index}. You entered [{row},{col}]."
+    "out_of_range": "Kɔɔrdɔnɛ bɛɛ kɛna 0 ɲɛ {max_index} kɔnɔ. I kɛlɛ [{row},{col}]."
   },
   "outcome": {
     "win": "I ye jigitigi jaabi ni {moves_used}fɔli ye!",
-    "loss": "Game over! You used all {max_turns} moves without solving the puzzle. Final completion: {completion}%\nFinal state:\n{grid}"
+    "loss": "Kɛlɛ kɔnɔ! I kɛlɛ {max_turns} kɛlɛ ɲɛ i ka lakɔliya kɛ. Kɛlɛ kɔnɔ: {completion}%\nDɔkɔnɔn jɛɲɛ:\n{grid}"
   }
 }

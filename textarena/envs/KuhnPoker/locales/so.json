@@ -11,7 +11,7 @@
     "not_legal": "Waxqabadka waa inuu ahaadaa {legal_actions}."
   },
   "action": {
-    "submit_move": "Player {player_id}, submitted move: '[{move}]'.",
+    "submit_move": "Cayaarta {player_id}, soo gudbiyay falcelin: '[{move}]'.",
     "valid_actions": "Waxqabadkaaga la heli karo waa: {legal_actions}.",
     "round_summary": "{reason} Dhibcaha hadda jira: Ciyaaryahanka 0: \"{player_0_chips}\"; Ciyaaryahanka 1: \"{player_1_chips}\""
   },

@@ -9,7 +9,7 @@
     "progress": "{observation} বৰ্তমানৰ অগ্ৰগতি স্ক'ৰঃ {progress}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use `[i j op]` where i,j are indices and op is +,-,*,/",
+    "wrong_format": "অবৈধ কাৰ্য ফৰ্মেট। [i j op] ব্যৱহাৰ কৰক যেতিয়া i,j হল সূচী আৰু op হল +,-,*,/",
     "invalid_indices": "অবৈধ সূচকসমূহ 0-{max_index}ৰ ভিতৰত থাকিব লাগিব",
     "invalid_operation": "অবৈধ কাৰ্য্য (শূন্যৰ দ্বাৰা বিভাজন বা অ-সমাপ্ত সংখ্যাৰ ফলাফল)"
   },

@@ -1,10 +1,10 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id}. You are playing the Memory Game.\nYour goal is to match more pairs of cards on the board, than your opponent.\nOn your turn, select two cards to flip by entering the row and column numbers of the first and second card respectively like '[0 1 1 0]', where the first card is in row 0 and column 1, and the second card is in row 1 and column 0.\nIf the two cards match, you get a point and the cards remain face up. If they do not match, the cards are flipped back face down, e.g. '.'.\nThe game ends when all pairs have been matched."
+    "intro": "Ko oonaa Player {player_id}. Ko oonaa tafaa Memory Game.\nKo golle maa ko oonaa yiɓɓinaa kadii ɓurɓe nder taabal, ko aduna e ɓesngu maa.\nCaggal ma oonaa, ɓeydaa kadii ɗiɗi ɓamtare e noddire row e column ɓamtaare ɗum '[0 1 1 0]', ɗum kadii ɓurɗo ɗo nder row 0 e column 1, e kadii ɗiɗaɓo ɗo nder row 1 e column 0.\nSo kadii ɗiɗi yiɓɓe, a yiɓɓa e kadii ɗum ɓamtare. So ɓe yiɓataa, kadii ɗum ɓamtare ɓe ndaara, e.g. '.'.\nTafaa ɗum naatetee so kadii ɓurɓe ɗum yiɓɓe."
   },
   "board": {
     "current_board": "Kuje je ɗon nder: {board}",
-    "current_game_board": "Game Board je ɗon jooni: {board}"
+    "current_game_board": "Taabal Tafaa ɓamtare:\n{board}"
   },
   "invalid_move": {
     "wrong_format": "Na'ura je wala nafoore. {player_id} jaabake be laawol feere nder dabareji kareeji.",
@@ -13,13 +13,13 @@
     "already_matched": "Jaɓɓorgo Daande Baɗal. {player_id} moodiɗo suɓii go'o malla kala kaarji ɗi ɗon hawti."
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "Kadii ɓeydaa e Player {player_id} nder position [{r1} {c1}] e [{r2} {c2}] yiɓɓe!",
+    "cards_no_match": "Kadii ɓeydaa e Player {player_id} ɓuri yiɓɓe. Kadii nder position [{r1} {c1}] e [{r2} {c2}] ɓuri {pos1} e {pos2} ɓuri."
   },
   "outcome": {
     "draw": "Ɓiɓɓe ɗiɗi fuu ɓe hawti limgal kaarji je ɗon fotta.",
     "win": "Jaawal {winner_id} heɓi!",
-    "turn_limit": "Turnom turnake ɓe wiɗi. Ɓe ngalaa game. Player 0 yahi {score_0} pointu, Player 1 yahi {score_1} pointu.",
-    "turn_limit_win": "{reason} Player {winner_id} has won!"
+    "turn_limit": "Ko wakkati ɓuri naatetee. Tafaa ɗum naatetee. Player 0 yiɓɓa {score_0} ɓuri, Player 1 yiɓɓa {score_1} ɓuri.",
+    "turn_limit_win": "{reason} Player {winner_id} oonaa yiɓɓa!"
   }
 }

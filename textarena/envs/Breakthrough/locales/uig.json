@@ -5,7 +5,7 @@
   "invalid_move": {
     "wrong_format": "ئىنگلىزچىدىكى [a2a3]دەك بىر تەرەپ قىلىنغان ئالگېبرا بەلگىنى ئىشلىتىڭ.",
     "out_of_bounds": "ھەرىكەت چەكلىمىسىگە خىلاپ.",
-    "illegal": "That move does not follow the Breakthrough rules or is not your piece."
+    "illegal": "قىزىق يۈرۈش Breakthrough قائىدىسىگە ئەمەل قىلمايدۇ ياكى سىزنىڭ قىزىقىڭىز ئەمەس."
   },
   "game_action": {
     "moved": "ئوينچى {player_id} {move_str} ({piece}) ھەرىكىتىنى بajarىدۇ."
@@ -14,7 +14,7 @@
     "white_reached": "ئاق رەڭلەر قارالارنىڭ باش سەپىگە يەتتى.",
     "black_reached": "قارا رەڭ ئاقلارنىڭ باش سەپىگە يەتتى.",
     "white_captured": "ئاقلارنىڭ ھەممىسى ئۆلىدۇ.",
-    "black_captured": "All Black pieces captured.",
+    "black_captured": "قارا رەڭنىڭ پۈتۈن قىزىقلىرى تۇتۇۋېلىندى.",
     "no_moves": "{player_id}چىگرا توپچىسىنىڭ باشقا ھەرىكىتى يوق."
   }
 }

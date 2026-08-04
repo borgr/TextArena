@@ -21,7 +21,7 @@
     "{scores}": "The pre-rendered per-player list of final scores"
   },
   "player_prompt": {
-    "intro": "You are playing Golf (Card Game) - Player {player_id}.\nGoal: Get the lowest total score in this single round. If columns share the same value, they are summed as 0.\nCard Values: A=1, 2-10=face value, J/Q=10, K=0\n\nActions (use exact brackets):\n- '[draw]' - Draw from deck\n- '[take]' - Take from discard pile\n- '[swap X Y]' - Swap drawn card with position X (row) Y (column)\n- '[discard]' - Discard the drawn card\n"
+    "intro": "O tshameka Golf (Papadi ya Kadi) - Mmoledi {player_id}.\nTlhagiso: Fumana palo ya kwa tlase mo raundi e. Fa dikgolo di na tlhago e le nngwe, di akgolwa e le 0.\nTlhago ya Dikadi: A=1, 2-10=tlhago e e bonwang, J/Q=10, K=0\n\nDitiro (dirisa mabala a tsela e e tshwanang):\n- '[draw]' - Tswa mo deck\n- '[take]' - Tswa mo thokwaneng ya tlositswe\n- '[swap X Y]' - Tlhophana kadi e e tswang mo deck le maemo X (safu) Y (lekgolo)\n- '[discard]' - Tlosa kadi e e tswang mo deck\n"
   },
   "board": {
     "drew": "O di ile wa tsaya: {card}\nJaanong o tlhoka go [swap X Y] or [discard]",
@@ -32,7 +32,7 @@
   },
   "options": {
     "final_turns": "Mafelo a bofelo! Dikamano tsa gago: [draw], [take], [peek X Y]",
-    "draw": "Your options: [draw], [take]",
+    "draw": "Ditiro tsa gago: [draw], [take]",
     "must_swap": "O tshwanetse go: [swap X Y] (o ka se kgone go latlha dikarata mo mokgokoloseng wa ditlatlana)",
     "swap_or_discard": "O tlhoka go: [swap X Y] or [discard]"
   },
@@ -58,7 +58,7 @@
     "discard_empty": "Thoto ya matlakala e setse e le lolea!",
     "must_draw_first": "O tlhoka go tsaya pele, [draw], [take], [knock], or [peek X Y]",
     "cannot_discard_taken": "Ga o ka ke wa latlha karata e e tserweng mo mokgokoloseng ono. O tshwanetse go a ananya.",
-    "have_drawn_card": "You have a drawn card. You must [swap X Y] or [discard] it.",
+    "have_drawn_card": "O na le kadi e e tswang mo deck. O tlhoka go [swap X Y] kgotsa go [discard] yone.",
     "need_drawn_swap": "O tlhoka karata e o tsereng mo go yone gore o kgone go ananya.",
     "need_drawn_discard": "O tlhoka karata e o ka kgonang go latlha.",
     "out_of_bounds": "Poso ke ntle. Tsaya lori 1-{max_row}, kolom 1-{max_col}",
@@ -71,7 +71,7 @@
     "line": "Player {pid}: {score} dipointi\n"
   },
   "board_str": {
-    "title": "=== GOLF GAME ===",
+    "title": "=== PAPADI YA GOLF ===",
     "discard": "Go latlha mokoa: {card}",
     "knocked": "Motshameki {pid} o kokota!",
     "player_header": "Player {pid} (Sko: {score}):"

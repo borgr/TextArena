@@ -13,8 +13,8 @@
     "already_matched": "Umdlali {player_id} ukhethe ikhadi elinye okanye omabini sele ethelekiswa."
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "Amaqaqabazi akhethiwe nguMdlali {player_id} kwenye izikhundla [{r1} {c1}] neye [{r2} {c2}] akhuphisana!",
+    "cards_no_match": "Amaqaqabazi akhethiwe nguMdlali {player_id} awakhuphisani. Amaqaqabazi kwenye izikhundla [{r1} {c1}] neye [{r2} {c2}] ngama {pos1} ne {pos2} mtawana."
   },
   "outcome": {
     "draw": "Bobabini abadlali bafumana inani elifanayo lamakhadi.",

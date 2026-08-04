@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a two-player game of Spite and Malice. Your goal is to be the first to empty your payoff pile.\n\n### Game Overview:\n- The objective is to clear your payoff pile by playing cards to the center piles.\n- You can play cards from three sources:\n  1. Your **hand** (you start each turn with up to 5 cards in hand).\n  2. The **top card of your payoff pile**.\n  3. The **top card of any of your discard piles**.\n\n### Playing Rules:\n- You may play a card to a center pile if it is **one rank higher** than the top card on that pile (center piles start with Ace and go up to Queen; Kings are wild - they can be played on any card but do not change the rank sequence. This means if a King is used after 4, then that King is ranked 5 and the next card must be a 6).\n- If you can't play any more cards, you must **discard a card** to one of your discard piles to end your turn.\n- If a center pile reaches Queen, it will be cleared automatically.\n- The rank order is: A=1, 2=2, ..., 9=9, J=10, Q=11, K as wild.\n\n### Actions:\n1. **Draw**: At the start of your turn, draw cards to fill your hand up to 5 cards. Enter **[draw]** to begin.\n2. **Play a Card**: To play a card, specify the card and the center pile like this: **[play A♠ 0]** (where 'A♠' is the card and '0' is the center pile index).\n3. **Discard**: If you can't play any more cards, discard a card from your hand to a discard pile to end your turn. Enter **[discard A♠ 1]** (where 'A♠' is the card and '1' is the discard pile index). Note that you cannot discard any card from the payoff pile. You may only discard the cards from your hand.\n\n"
+    "intro": "Oyo wewe Mokili {player_id} na mokili mibale ya michezo ya Spite na Malice. Lingala lya liso wewe, kufuta libaku ya malamu ya malamu.\n\n### Mokili Mokonzi:\n- Lingala lya liso ni kufuta libaku ya malamu kwa kucheza michezo kwa michezo ya kati.\n- Oyo wewe akoki kucheza michezo kutoka misombo mitatu:\n  1. **Libaku lya maboko** (oyo wewe atangisi na michezo mitano kwa maboko).\n  2. **Michezo ya libaku lya malamu**.\n  3. **Michezo ya libaku lya michezo ya kusukama**.\n\n### Michezo ya Michezo:\n- Oyo wewe akoki kucheza michezo kwa michezo ya kati soki eza **moko moko ya juu** kuliko michezo ya juu kwa michezo ya kati (michezo ya kati ebandi na As na kwenda juu kwa Queen; michezo ya K eza michezo ya moko yonso - eza akoki kucheza kwa michezo yonso lakini eza akoki kubadilisha michezo ya moko. Oyo wewe ekoki kucheza michezo ya K baada ya 4, kisha michezo ya K eza moko 5 na michezo ya kuleka ekoki kuba 6).\n- Soki oyo wewe akoki kucheza michezo yonso, wewe akoki **kusukama michezo** kwa michezo ya kusukama mwa kuleka michezo yako.\n- Soki michezo ya kati ekwendi na Queen, ekobaluka na otomatiki.\n- Moko ya michezo eza: A=1, 2=2, ..., 9=9, J=10, Q=11, K eza michezo ya moko yonso.\n\n### Michezo:\n1. **Kupakula**: Na ntangisi ya michezo yako, pakula michezo kwa kujaza maboko yako na michezo mitano. Suka **[draw]** kwa kuanza.\n2. **Kucheza michezo**: Kucheza michezo, sukama michezo na michezo ya kati kama hii: **[play A♠ 0]** (kwa michezo 'A♠' na '0' eza index ya michezo ya kati).\n3. **Kusukama**: Soki oyo wewe akoki kucheza michezo yonso, kusukama michezo kutoka maboko yako kwa michezo ya kusukama kwa kuleka michezo yako. Suka **[discard A♠ 1]** (kwa michezo 'A♠' na '1' eza index ya michezo ya kusukama). Kumbuka kwamba oyo wewe akoki kusukama michezo yonso kutoka libaku lya malamu. Oyo wewe akoki kusukama michezo kutoka maboko yako pekee.\n\n"
   },
   "board": {
     "current_board": "Tata ya Sasa:\n\n{board}\nMikono Inayopatikana: {moves}"
@@ -19,8 +19,8 @@
   },
   "invalid_move": {
     "wrong_format": "Molɔngɔ́ ya mobémbo oyo ebongi te. Mosani {player_id} ayanolaki na kobénga libóngó moko malamu kati na bilembo bitangoli-makolo (parenthèse carrée).",
-    "invalid_play": "Cheza lisilo halali. Mchezaji {player_id} alijaribu kucheza {card} kwenye kifurushi cha kituo {index}.",
-    "discard_from_payoff": "Invalid discard. Player {player_id} tried to discard a card from the payoff pile.",
+    "invalid_play": "Kucheza kisicho sahihi. Player {player_id} alijaribu kucheza {card} kwenye safu ya kati {index}.",
+    "discard_from_payoff": "Kutupa kisicho sahihi. Player {player_id} alijaribu kutupa kadi kutoka kwenye safu ya malipo.",
     "discard_not_in_hand": "Moto oyo azali na lisano {player_id} alukaki kobwaka karte moko oyo azalaki na yango te.",
     "wrong_move_type": "Moyembi {player_id} ayanolaki na lolenge ya lisungi te."
   },
@@ -28,14 +28,14 @@
     "you_drew": "Ozalaki kobɛta na bakarte.",
     "opponent_drew": "Mosani {player_id} abimisaki bakarte.",
     "you_played": "Ozalaki kobɛta {card} na liboke ya katikati {index}.",
-    "opponent_played": "Mchezaji {player_id} amecheza {card} kwenye kifurushi cha kituo {index}.",
-    "you_discarded": "Umeifuta {card} kwenye kifurushi cha kufuta {index}, ambacho kinamaanisha pia kwamba umeimaliza mchezo wako. Hatua zaidi za yako hazizingatiwi kwa mchezo huu. Mchezaji {next_player_id} atacheza mchezo ujao.",
-    "opponent_discarded": "Mchezaji {player_id} amefuta {card} kwenye kifurushi cha kufuta {index}, ambacho kinamaanisha pia kwamba amemaliza mchezo wake. Hatua zaidi za Mchezaji {player_id} hazizingatiwi kwa mchezo huu. Mchezaji {next_player_id}, utacheza mchezo ujao. Tafadhali ingiza hatua yako kwa muundo [action card center_index]."
+    "opponent_played": "Player {player_id} alicheza {card} kwenye safu ya kati {index}.",
+    "you_discarded": "Umetupa {card} kwenye safu ya kadi zilizotupwa {index}, ambayo pia ina maana umemaliza wakati wako. Hakuna hatua zaidi ya kwako inazingatiwa kwa wakati huu. Player {next_player_id} atakwenda kisha.",
+    "opponent_discarded": "Mokili {player_id} asukamaki {card} kwa libaku lya kusukama {index}, eza pia ekoma michezo yake. Mokili {player_id} akoki kuzingatiwa kwa michezo yake. Mokili {next_player_id}, oyo wewe akoki kuleka. Suka michezo yako kwa fomu [action card center_index]."
   },
   "outcome": {
-    "payoff_cleared": "Mchezaji {current_player} amemaliza kifurushi cha malipo! Mchezaji {current_player} anashinda!",
-    "deadlock_player_0": "Kufikia kikomo! Mchezaji 0 anashinda na {player_0_payoff} kadi zimesalia dhidi ya Mchezaji 1's {player_1_payoff} kadi.",
-    "deadlock_player_1": "Kufikia kikomo! Mchezaji 1 anashinda na {player_1_payoff} kadi zimesalia dhidi ya Mchezaji 0's {player_0_payoff} kadi.",
-    "deadlock_tie": "Kufikia kikomo kwa usawa! Wachezaji wote wana {player_0_payoff} kadi zimesalia. Mchezaji {current_player} anashinda kwa kawaida."
+    "payoff_cleared": "Mokili {current_player} amalaki libaku lya malamu! Mokili {current_player} abeti!",
+    "deadlock_player_0": "Kufikia kizuizi! Player 0 anashinda na {player_0_payoff} kadi zilizosalia dhidi ya {player_1_payoff} kadi za Player 1.",
+    "deadlock_player_1": "Kufikia kizuizi! Player 1 anashinda na {player_1_payoff} kadi zilizosalia dhidi ya {player_0_payoff} kadi za Player 0.",
+    "deadlock_tie": "Kufikia kizuizi kwa usawa! Wachezaji wote wawili wana {player_0_payoff} kadi zilizosalia. Player {current_player} anashinda kwa chaguo-msingi."
   }
 }

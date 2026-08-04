@@ -1,9 +1,9 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in JoJoJoin, played on a 5x5 board with cells numbered 0-24.\nOn your turn, place your mark on any empty cell, e.g. '[12]'.\nYOU WIN by getting FOUR of your marks in a row — four consecutive cells horizontally, vertically, or diagonally.\nAs Player {player_id} you are '{symbol}'; your opponent is '{opponent_symbol}'."
+    "intro": "I JoJoJoin-ah Player {player_id} i ni, 5x5 board-ah khelh a ni a, cell 0-24 thleng number a ni.\nI turn-ah, cell khaw khat i duh berah i mark dah rawh, entirnan '[12]'.\nI CHAMPION ni thei tur a ni, i mark 4 zawn a row-ah dah tur a ni — cell 4 zawn a horizontal, vertical, emaw diagonal a dah tur a ni.\nPlayer {player_id} i nih chuan '{symbol}' i ni; i khingpui chu '{opponent_symbol}' a ni."
   },
   "board": {
-    "current_board": "Current Board:\n\n{board}\n\nAvailable Moves: {moves}"
+    "current_board": "Board tunlai:\n\n{board}\n\nKal theih tur: {moves}"
   },
   "invalid_move": {
     "wrong_format": "A thawn chhuah chu a format dik lo.",
@@ -11,7 +11,7 @@
     "already_occupied": "Cell {cell} chu a luah tawh."
   },
   "game_action": {
-    "placed": "Player {player_id} placed their mark ({symbol}) in cell {cell}."
+    "placed": "Player {player_id} chuan an mark ({symbol}) cell {cell}-ah a dah."
   },
   "outcome": {
     "win": "Player {player_id} chuan a hneh ta!",

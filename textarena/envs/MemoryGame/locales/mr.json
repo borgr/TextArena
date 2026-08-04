@@ -13,8 +13,8 @@
     "already_matched": "अवैध चाल. खेळाडू {player_id}ने आधीच जुळलेल्या एक किंवा दोन्ही कार्ड निवडले आहेत."
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "खेळाडू {player_id} ने [{r1} {c1}] आणि [{r2} {c2}] स्थानांवर निवडलेली कार्ड जुळतात!",
+    "cards_no_match": "खेळाडू {player_id} ने निवडलेली कार्ड जुळत नाहीत. [{r1} {c1}] आणि [{r2} {c2}] स्थानांवरील कार्ड अनुक्रमे {pos1} आणि {pos2} आहेत."
   },
   "outcome": {
     "draw": "दोन्ही खेळाडूंनी कार्डच्या समान जोड्या जुळवल्या.",

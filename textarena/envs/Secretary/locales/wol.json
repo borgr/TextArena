@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You will observe {N} hidden values sequentially.\nAt each step type [accept] to pick the *current* value, or [continue] to skip it and see the next one.\nIf you never accept, you are forced to take the final value.\nYou win (reward = 1) **only** if the value you ultimately pick is the highest of all."
+    "intro": "Ngone moo xélit {N} màndarga yu ñuul ci benn ci benn.\nCi beneen màm xélit, taf [accept] ngir tànn màndarga gii *dikk*, mbaa taf [continue] ngir bàyyi ko te xélit lii ci topp.\nSoo bàyyi tànn, danga wara jël màndarga mujj.\nNgone moo jànge (sànne = 1) **rekk** bu màndarga ngaa tànn ci mujj mooy màndarga gëñ wi ci ñépp."
   },
   "game_action": {
     "current_value": "Ndaw li am léegi mooy {value}."

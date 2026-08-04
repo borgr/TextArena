@@ -16,53 +16,53 @@
     "{cards}": "The cards in a pile as neutral labels, or '--' if empty (never translate)"
   },
   "player_prompt": {
-    "intro": "Dangaa di xeex Klondike Solitaire. Sa bëre mooy nga dugal bépp kaar-dëkk ci ndab yi ñu tëral. Jëf yu jëfandikoo: - Ndab yi ñuy tànne (F1-F4): Yékkati sa bopp ba ca Ace, jëm King bu ànd ak suit bi; Tableau piles (T1-T7): Yekkati say tur yu wuute (maroom ci weñ, sew ci suux) - Stock: Dajale ay kaarte ngir yàq pile gi; Waste (W): Kaart mu kawe mi nekk fi kanam ji ngay jokkoo Koondig \"déggal\" - Dajale xar-dëkki yii jóge stock dem waste - 'defar <source><destination> [count]' - Defal ay kaarts diggante pilaay yi Example: 'mooy W T1', 'doxal T1 F2', 'dooxe T3 T5 2'. Man na it a lim \"all\", muy jéem a yeggël lépp li am solo ciy kaart yu jàll si yoon wi. - Doole ko - Jeexal game bi te jàpp ne man ngaa soppalu leen yépp ci seeni turu teytuwaayam - Pilew gu jamonoy w-."
+    "intro": "Yaa taa ñu jàngal Klondike Solitaire. Sa xélit réew laa jéegooy xélit yii yépp ci pili fondasyon yi.\n\nNguur gi:\n- Pili fondasyon yi (F1-F4): Dóotu ci Ass bi ba Kaamil ci wéeru\n- Pili tablo yi (T1-T7): Dóotu wàcci ci bépp wéeru, xóot xóot (xóot bu xonk ci xóot bu ñuul, xóot bu ñuul ci xóot bu xonk)\n- Stok: Yóotu kaart yi ci pili gañséen\n- Gañséen (W): Kaart bu njëkk bi muy fésse ci jëf\n\nNguur jëf yi:\n- 'draw' - Yóotu kaart yi ci stok jëm ci gañséen\n- 'move <source> <destination> [count]' - Jéegooy kaart yi ci diggante pili yi\n  Seetu: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count itam man naa nekk 'all', bu ko defee ñu tóortóor a jéegooy kaart yi yépp yu néew.\n- 'forfeit' - Jóotu njàngum bés bi ci sa tànnéef ci sa màndarga yu jëf\n- Turu pili yi: W (gañséen), F1-F4 (fondasyon), T1-T7 (tablo)\n\nMan ngaa jëf lu bari ci benn tur ci séparé ak virgul:\n  Seetu: 'draw, move W T1, move T2 F1'\n\nRéew laa Kaamil yi rekk man naa nekk ci pili tablo yu gàcc.\nJëf yi jëf ci ngóora - bu fekkee benn bi dañ, jëf yi ci des dal.\nJëf 'forfeit' bu la ko xélit nekkul dara xélit."
   },
   "format_error": {
     "no_brackets": "Jëfandikoo jëf ju amul solo. Doole na nekk ci ay kuréel.",
     "no_closing_bracket": "Jëfandikoo jëf ju amul solo. \"]\" buñ tënk ci lañuy jeexal",
-    "empty_command": "Njiital bu amul benn baat. Jëfandikoo \"draw\" walla \"move <source> <destination> [count]\".",
+    "empty_command": "Komand bu wékk. Bind 'draw' walla 'move <source> <destination> [count]'",
     "empty_action": "Jëfandikoo bu amul benn jëf",
     "move_needs_args": "Njiitu jëmale soxla na fu mu jóge ak fa muy jëm. Jëfandikoo: 'move <source> <destination> [count]'",
     "count_positive": "Jëfandikoo nañ ko ci \"all\" walla lu am solo.",
-    "count_invalid": "Jëfandikoo lim bu amul solo walla \" ñépp \".",
-    "unknown_command": "Unknown command '{cmd}'. Use 'draw', 'move <source> <destination> [count]', or 'forfeit'",
+    "count_invalid": "Décompte moyoot. Jël benn lim ngoneem mbaa 'all'",
+    "unknown_command": "Komand bu xélit '{cmd}'. Jëf 'draw', 'move <source> <destination> [count]', walla 'forfeit'",
     "wrapped": "Action {n}: {msg}"
   },
   "action_result": {
     "success": "Action {n}: {msg}",
     "before_failure": "Jëfandikoo na {n} jëf ((s) laata mu ñàkk.",
-    "failed": "Action {n} failed: {msg}"
+    "failed": "Ñakka {n} ñakka: {msg}"
   },
   "move_result": {
-    "drew": "Drew card(s) from stock to waste.",
+    "drew": "Jël kaart ci stock ba waste.",
     "cannot_draw": "Mënuñu ko jël, te lépp a leer.",
     "invalid_pile": "Tur wu amul solo. Jëfandikoo W, F1-F4, walla T1-T7",
     "foundation_one_card": "Man na dawal benn kaar-dëkk rekk ci fondasiyoŋ bi.",
     "waste_to_foundation_ok": "Carte bi ñu génne ci sànku yi, yóbbu ko ca fondasiyoŋ ba F{dst}",
     "waste_to_foundation_bad": "Manul a dugal ab kaar-dëgg ci suufu fondation bi. 🔍",
-    "tableau_to_foundation_ok": "Moved card from tableau T{src} to foundation F{dst}",
+    "tableau_to_foundation_ok": "Sànne kaart ci tableau T{src} ba foundation F{dst}",
     "tableau_to_foundation_bad": "Manul a dugal xar-kanamu tablo bi ci suufu fondation boobu. 🔍",
     "foundation_to_foundation": "Du mën a dem ci fondation ba fondation.",
     "waste_to_tableau_one_card": "Man na dawal benn kaar-dëgg rekk ci wàllug rëdd ak tablo bi.",
     "waste_to_tableau_ok": "Jëkk-jëlgukaay bi ci wàllug T{dst}",
     "waste_to_tableau_bad": "Manul a teg ab kaar-dëgg ci ndab li.",
     "no_face_up": "Duñ mën a yékkati ay kaar-dëkk.",
-    "tableau_to_tableau_ok": "Moved {count} card(s) from tableau T{src} to T{dst}",
-    "tableau_to_tableau_bad": "Cannot move {count} card(s) from T{src} to T{dst}",
+    "tableau_to_tableau_ok": "Sànne {count} kaart ci tableau T{src} ba T{dst}",
+    "tableau_to_tableau_bad": "Mënul sànne {count} kaart ci T{src} ba T{dst}",
     "foundation_to_tableau_one_card": "Man na dawal benn kaar-dëgg rekk ci fondation bi ba tableau bi.",
     "foundation_empty": "Fondation F{src} dafa neen.",
-    "foundation_to_tableau_ok": "Moved card from foundation F{src} to tableau T{dst}",
+    "foundation_to_tableau_ok": "Sànne kaart ci foundation F{src} ba tableau T{dst}",
     "foundation_to_tableau_bad": "Manul a teg kaarange bu ñu sos ci table T{dst}",
     "to_waste_or_stock": "Du mën a dem ci wàllug mbëj mbaa denc."
   },
   "outcome": {
-    "forfeit": "Game forfeited. Final score: {score} cards in foundations.",
+    "forfeit": "Jëf ci game. Njëlbeen: {score} kaart ci foundations.",
     "won": "Ngir dimbali leen, ngeen jël Klondike Solitaire!",
-    "turn_limit": "Game over! You reached the maximum of {max_turns} turns. Score: {score} cards in foundations."
+    "turn_limit": "Jëf ci game! Nga jàll maximum {max_turns} tours. Njëlbeen: {score} kaart ci foundations."
   },
   "board": {
-    "title": "=== KLONDIKE SOLITAIRE ===",
+    "title": "=== SOLITAIRE BU KLONDIKE ===",
     "turn": "Turn: {turn}/{max_turns}",
     "stock": "Jëfandikukat: {stock} kaarteefi internet",
     "waste": "Jëfandikukat: {waste}",

@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id}. You are playing the Memory Game.\nYour goal is to match more pairs of cards on the board, than your opponent.\nOn your turn, select two cards to flip by entering the row and column numbers of the first and second card respectively like '[0 1 1 0]', where the first card is in row 0 and column 1, and the second card is in row 1 and column 0.\nIf the two cards match, you get a point and the cards remain face up. If they do not match, the cards are flipped back face down, e.g. '.'.\nThe game ends when all pairs have been matched."
+    "intro": "တႃႇသူၼ်းပဵၼ် Player {player_id}။ သူၼ်းၵၢၼ်ႇတူင်ႉတိုၼ်ႇ Memory Game ၼႆႉ။\nသူၼ်းၶဝ်ႈပဵၼ်တႃႇတူၺ်းၶႅပ်းၼိူဝ်ၽိူၼ်ၼႆႉ လိူဝ်သေၽူႈၶႄႉၶဵင်ႇ။\nတီႈၸူဝ်ႈသူၼ်းၼၼ်ႉ ၸႂ်ႉႁႂ်ႈၶဝ်ႈၼႂ်းၶႅပ်းႁႃႈၼိူဝ်ၽိူၼ်ၼႆႉ သွင်ၶႅပ်း ဢဝ်ႁူဝ်ၶႅပ်းၼိူဝ်ၽိူၼ် လႄႈ ၶႅပ်းၼိူဝ်ၽိူၼ်ၼႆႉ တီႈၼႂ်း '[0 1 1 0]'ၼႆႉ။\nၶႅပ်းၼိူဝ်ၽိူၼ်ၼႆႉ သွင်ၶႅပ်းၼႆႉ မိူၼ်ၵၼ်ၸိုင် သူၼ်းလႆႈၵုသူဝ်ႁႃႈ လႄႈ ၶႅပ်းၼိူဝ်ၽိူၼ်ၼႆႉ တိုၵ်ႉၶဝ်ႈႁႂ်ႈၶဝ်ႈၼႂ်းၶႅပ်းၼိူဝ်ၽိူၼ်ၼႆႉ။ သူၼ်းၶဝ်ႈၼႂ်းၶႅပ်းၼိူဝ်ၽိူၼ်ၼႆႉ ဢမ်ႇမိူၼ်ၵၼ်ၸိုင် ၶႅပ်းၼိူဝ်ၽိူၼ်ၼႆႉ တေၶိုၼ်းႁႂ်ႈၶဝ်ႈၼႂ်းၶႅပ်းၼိူဝ်ၽိူၼ်ၼႆႉ တီႈၼႂ်း '.'ၼႆႉ။\nၵၢၼ်ႇတူင်ႉတိုၼ်ႇၼႆႉ တေသဵင်ႈသေ ၶႅပ်းၼိူဝ်ၽိူၼ်ၼႆႉ တီႈၼႂ်းၶႅပ်းၼိူဝ်ၽိူၼ်ၼႆႉ တီႈၼႂ်းၶႅပ်းၼိူဝ်ၽိူၼ်ၼႆႉ။"
   },
   "board": {
     "current_board": "ၶွမ်ႇမတီႇဢၼ်ႁဵတ်းသၢင်ႈယူႇယၢမ်းလဵဝ်: {board}",
@@ -13,13 +13,13 @@
     "already_matched": "လွင်ႈတူင်ႉၼိုင်ဢမ်ႇမီးလွင်ႈတၢင်း ၽူႈလဵၼ်ႈ {player_id} လိူၵ်ႈဝႆႉ ဝႂ်ဢၼ်လဵဝ် ဢမ်ႇၼၼ် တင်းသွင် ဢၼ်လႆႈထုၵ်ႇမႅၼ်ႈၵၼ်မႃးၼၼ်ႉယဝ်ႉ။"
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "ၶႅပ်းၼိူဝ်ၽိူၼ်ၼႆႉ ဢၼ် Player {player_id} ၸႂ်ႉႁႂ်ႈၶဝ်ႈၼႂ်းၶႅပ်းၼိူဝ်ၽိူၼ်ၼႆႉ တီႈၼႂ်း [{r1} {c1}] လႄႈ [{r2} {c2}] ၼႆႉ မိူၼ်ၵၼ်!",
+    "cards_no_match": "ၶႅပ်းၼိူဝ်ၽိူၼ်ၼႆႉ ဢၼ် Player {player_id} ၸႂ်ႉႁႂ်ႈၶဝ်ႈၼႂ်းၶႅပ်းၼိူဝ်ၽိူၼ်ၼႆႉ ဢမ်ႇမိူၼ်ၵၼ်ၸိုင် တီႈၼႂ်း [{r1} {c1}] လႄႈ [{r2} {c2}] ၼႆႉ {pos1} လႄႈ {pos2} ၼႆႉ။"
   },
   "outcome": {
     "draw": "ၽူႈလဵၼ်ႈၶဝ်တင်းသွင်ၵေႃႉၼႆႉ ဢဝ်ၸၢၵ်ႈၽႄမဵတ်ႉဢၼ်လဵဝ်ၵၼ်သေ လိူၵ်ႈဢဝ်ယဝ်ႉ။",
     "win": "ၽူႈလဵၼ်ႈ {winner_id} လႆႈဢွင်ႇပေႉ!",
-    "turn_limit": "The turn limit has been reached. The game is over. Player 0 scored {score_0} points, Player 1 scored {score_1} points.",
+    "turn_limit": "ၶပ်ႉၶိုင်ၶႅပ်းၼိူဝ်ၽိူၼ်ၼႆႉ တီႈၼႂ်းၶႅပ်းၼိူဝ်ၽိူၼ်ၼႆႉ။ ၵၢၼ်ႇတူင်ႉတိုၼ်ႇၼႆႉ သဵင်ႈသေ။ Player 0 လႆႈၵုသူဝ်ႁႃႈ {score_0} လႄႈ Player 1 လႆႈၵုသူဝ်ႁႃႈ {score_1}။",
     "turn_limit_win": "{reason} ၸဝ်ႈၽူႈလႅၼ်ႇ {winner_id} လႆႈၶုၼ်ႉ!"
   }
 }

@@ -9,12 +9,12 @@
     "wrong_format": "Format de azion no valid. Giugador {player_id} no l'ha inserii on moviment in del format [A0 B0].",
     "invalid_coordinates": "Format d'azion invalid. El giugador {player_id} l'ha minga inserì i coordinad valid.",
     "not_own_piece": "Invalid action format. Player {player_id} must move one of their own pieces. (Azion invalida: el giugador 〔0) l'ha de movè ona di sò pèss).",
-    "scout_through_pieces": "Invalid action format. Player {player_id} can't move a scout through other pieces.",
-    "scout_diagonal": "Invalid action format. Player {player_id} cannot move a scout diagonally.",
+    "scout_through_pieces": "Format de azion invalid. El Giugador {player_id} el pò minga muvè un Esplorador travers alter tocch.",
+    "scout_diagonal": "Format de azion invalid. El Giugador {player_id} el pò minga muvè un Esplorador in diagonal.",
     "non_scout_multi_square": "La forma de azion l'è invalida. I pezz, oltra i scout, poden spostà domà ona cassa per volta.",
-    "move_into_lake": "Invalid action format. Player {player_id} cannot move into the lake. ([0]) n'è minga pusìbil spostàss in del lagh, e 'l giugador l'ha de fàa la manéra giusta per andà a càsa!",
+    "move_into_lake": "Format de azion invalid. El Giugador {player_id} el pò minga muvè in del lagh.",
     "move_onto_own_piece": "Invalid action format. Player {player_id} cannot move on their own piece. (Azion invalida: el giugador 〔0) l'è minga pussee bon de spostà la sò piassa).",
-    "move_bomb_or_flag": "Invalid action format. Player {player_id} can't move a bomb or flag."
+    "move_bomb_or_flag": "Format de azion invalid. El Giugador {player_id} el pò minga muvè una Bomba o una Bandiera."
   },
   "game_action": {
     "you_moved": "Ti te sé spostaa el to pezz da {source} a {dest}.",
@@ -33,7 +33,7 @@
     "opponent_lower_won": "Giugador {player_id} l'ha spostaa on pezz da {source} a {dest}. El pezz atacant l'era {attacking_rank} e 'l pezz de destin l'era {target_rank}. Desgià che l'atacant a l'è on grad pussee bass de quel de destin, ti hé vingiù la battalia."
   },
   "outcome": {
-    "flag_captured": "Giocatore {player_id} ha catturato la bandiera dell'avversario!",
+    "flag_captured": "El Giugador {player_id} l'ha ciapaa la Bandiera del tò avversari!",
     "no_movable_pieces": "Giugador {winner_id} el venc! Giugador {loser_id} el gh'ha pu nissun pezz mobil."
   }
 }

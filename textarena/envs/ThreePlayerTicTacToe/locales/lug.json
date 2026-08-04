@@ -14,7 +14,7 @@
     "intro": "Oli omuzannyi {player_id} mu Tic Tac Toe ya bazannyi batatu.\nEkitebezo kyo kye '{symbol}'.\nOzina okukola kuza kuwanga ekitebezo kyo ku bodi ya 5x5 okuzza ekifo ekimu.\nEkifo kino kizza kuva ku mulyango, waggulu, oba ku kisulo.\nTuma kuza kwo usinga mu ngeri '[4]' okwawula kifo cha 4."
   },
   "board": {
-    "current_board": "Current Board:\n\n{board}\n\nAvailable Moves: {moves}"
+    "current_board": "Ubao wa sasa:\n\n{board}\n\nVitendo Vinavyopatikana: {moves}"
   },
   "invalid_move": {
     "wrong_format": "Enkola y'okutambula si nnungi. Kozesa \"[cell]\" nga cell 0-{max_cell}.",

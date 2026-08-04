@@ -11,7 +11,7 @@
     "{ball_pos}": "The cup index the ball is under"
   },
   "player_prompt": {
-    "intro": "Track the hidden ball 'X' while the cups are shuffled.\nAfter shuffling, guess its location with `[k]`."
+    "intro": "Bantayan ti nakaabongan a bola 'X' bayat a maibaliktad dagiti tasa.\nKalpasan ti panagbaliktad, agtaray iti lokasionna iti `[k]`."
   },
   "game_message": {
     "ball_starts": "Mangrugi ti bola: {line}",
@@ -21,7 +21,7 @@
     "reveal": "(Ipalgak: bola iti baba ti {ball_pos})"
   },
   "invalid_move": {
-    "wrong_format": "Bad action. Use `[k]`.",
+    "wrong_format": "Madi a galaw. Usaren ti `[k]`.",
     "out_of_range": "Index iti ruar ti ranggo 0-{max_index}."
   },
   "outcome": {

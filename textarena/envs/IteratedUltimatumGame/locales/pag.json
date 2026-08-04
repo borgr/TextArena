@@ -21,13 +21,13 @@
     "{total}": "Each player's tied final total (a number)"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id}, playing {num_rounds} rounds of Iterated Ultimatum Game.\nYou have ${pool} to split this round between yourself and Player {other_id}.\n\nProposer:\n  - Make an offer: [Offer: $X] (0 <= X <= pool)\n  - If accepted → You get $(pool - X), other player gets $X\n  - If rejected → Both get $0\n  - Example: [Offer: $3]  or  'I think this is fair. [Offer: $5]'\n\nResponder:\n  - Decide on the offer with either [Accept] or [Reject]\n  - Example: 'That seems reasonable. [Accept]'\n            'Too unfair. [Reject]'\n"
+    "intro": "Sika'y Managpapat {player_id}, magpapat {num_rounds} rounds na Iterated Ultimatum Game.\nWala'y $ {pool} aro tan pisi'y sakey tan sakey Player {other_id}.\n\nMangiproposa:\n  - Gumawa'y sakey offer: [Offer: $X] (0 <= X <= pool)\n  - No tinanggap → Sikay makarekta $(pool - X), sakey player makarekta $X\n  - No tinolak → Duway makarekta $0\n  - Halimbawa: [Offer: $3]  o  'Kapigsa'y sakey ini. [Offer: $5]'\n\nMangiresponde:\n  - Gumawa'y desisyon ed sakey offer na [Accept] o [Reject]\n  - Halimbawa: 'Say sakey makatuor. [Accept]'\n            'Napakaunfair. [Reject]'\n"
   },
   "round": {
-    "begins": "--- Round {round_number} begins! ---\nPlayer {proposer_id} so proposer, Player {responder_id} so responder.",
-    "offer": "Round {round_number}: Player {proposer_id} mangioffer ${offer} ed Player {responder_id} (nankakaliket ${keep}).",
-    "accepted": "Player {responder_id} diad aket! Round {round_number} gains: Player {proposer_id} +${proposer_gain}, Player {responder_id} +${responder_gain}. New totals: Player 0: ${total_0}, Player 1: ${total_1}.",
-    "rejected": "Player {responder_id} diad reject so offer! Round {round_number} gains: Say both players +$0. Totals agya: Player 0: ${total_0}, Player 1: ${total_1}."
+    "begins": "--- Say round {round_number} et natan! ---\nManagay {proposer_id} so proposer, Managay {responder_id} so responder.",
+    "offer": "Say round {round_number}: Managay {proposer_id} mangi-offer ${offer} ed Managay {responder_id} (agtago ${keep}).",
+    "accepted": "Inawat na Managay {responder_id}! Say round {round_number} ganansia: Managay {proposer_id} +${proposer_gain}, Managay {responder_id} +${responder_gain}. Say baleg ya total: Managay 0: ${total_0}, Managay 1: ${total_1}.",
+    "rejected": "Inibak na Managay {responder_id} so offer! Say round {round_number} ganansia: Saray duwa ya managay +$0. Say total et nanatili: Managay 0: ${total_0}, Managay 1: ${total_1}."
   },
   "invalid_move": {
     "no_offer_format": "Say proponent so nepeg ya mangiter na offer diad panamegley na format [Offer: $X].",
@@ -37,7 +37,7 @@
     "accept_or_reject": "Say responder diad aket ya [Accept] o [Reject] so offer."
   },
   "outcome": {
-    "win": "Player {winner} won na ${winner_total} total vs Player {loser}'s ${loser_total}.",
-    "draw": "Draw! Both players finished with ${total} total."
+    "win": "Nanalo si Managay {winner} ed ${winner_total} total kontra Managay {loser} ya ${loser_total}.",
+    "draw": "Tabla! Duway player tinapos na may ${total} total."
   }
 }

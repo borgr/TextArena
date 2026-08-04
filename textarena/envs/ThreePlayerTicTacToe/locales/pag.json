@@ -17,7 +17,7 @@
     "current_board": "Kasalanan a Papan:\n\n{board}\n\nDakel a Mangusisa: {moves}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid move format. Use \"[cell]\" where cell is 0-{max_cell} Say say say say so, say say it's a notion!",
+    "wrong_format": "Mali a pormat na galaw. Usaren yo so '[cell]' no sika cell et 0-{max_cell}.",
     "out_of_range": "Sala a numero na cell: {cell}. Kinmapo la between 0 and {max_cell}.",
     "already_occupied": "Say selula {cell} et wala la.",
     "made_invalid": "Say manlalaban {player_id} et nanggawa na aliwan valid a galaw."
@@ -26,7 +26,7 @@
     "placed": "Say Player {player_id} natangtan na saray simbolo ({symbol}) ed field ({row}, {col})."
   },
   "outcome": {
-    "win": "Player {player_id} ({symbol}) wins!",
+    "win": "Say Player {player_id} ({symbol}) et nanalo!",
     "draw": "Anggapoy analo ed sayan dula!"
   }
 }

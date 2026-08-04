@@ -29,8 +29,8 @@
     "showdown_tie": "Showdown tie: tutti dui {card}. Pot split  ognunu riceve {split}."
   },
   "outcome": {
-    "p0_wins": "Player 0 wins ({bank0} > {bank1})",
-    "p1_wins": "Player 1 wins ({bank1} > {bank0})",
+    "p0_wins": "Giucaturi 0 vinci ({bank0} > {bank1})",
+    "p1_wins": "Giucaturi 1 vinci ({bank1} > {bank0})",
     "draw": "Chips uguali doppu tutti li giri."
   }
 }

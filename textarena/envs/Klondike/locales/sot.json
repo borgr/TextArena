@@ -16,16 +16,16 @@
     "{cards}": "The cards in a pile as neutral labels, or '--' if empty (never translate)"
   },
   "player_prompt": {
-    "intro": "You are playing Klondike Solitaire. Your goal is to move all cards to the foundation piles.\n\nGame Rules:\n- Foundation piles (F1-F4): Build up from Ace to King in suit\n- Tableau piles (T1-T7): Build down alternating colors (red on black, black on red)\n- Stock: Draw cards to waste pile\n- Waste (W): Top card available for play\n\nCommands:\n- 'draw' - Draw cards from stock to waste\n- 'move <source> <destination> [count]' - Move cards between piles\n  Examples: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count can also be 'all', which will try to move all face-up cards.\n- 'forfeit' - End the game immediately and lock in your current score\n- Pile names: W (waste), F1-F4 (foundations), T1-T7 (tableau)\n\nYou can execute multiple actions in one turn by separating them with commas:\n  Example: 'draw, move W T1, move T2 F1'\n\nOnly Kings can be placed on empty tableau piles.\nActions execute in order - if one fails, the remaining actions are skipped.\nUse 'forfeit' if you believe the game is impossible to win."
+    "intro": "U tsa raloka Klondike Solitaire. Sepheo sa hao ke ho suthisa karete tsohle ho ya kwenye matlole a thekiso.\n\nMelao ya Mokhatlo:\n- Matlole a thekiso (F1-F4): Ahlolela ho tloha Ace ho ya ho Koning ya letsopa\n- Matlole a tafoleng (T1-T7): Ahlolela ho theoha ka mebala e fapaneng (kgubedu hodima kgubedu e ntsho, kgubedu e ntsho hodima kgubedu)\n- Senthimithara: Tosa karete ho ya kwenye matlole a makgubedu\n- Matlole a makgubedu (W): Karete ya hodimo e fumaneha bakeng sa mokhatlo\n\nDikgang tsa Mokhatlo:\n- 'draw' - Tosa karete ho tloha senthimithareng ho ya kwenye matlole a makgubedu\n- 'move <source> <destination> [count]' - Suthisa karete kwenye matlole\n  Mehlala: 'move W T1', 'move T1 F2', 'move T3 T5 2'. palo e ka ba le 'all', e tla leka ho suthisa karete tsohle tse kgubedu.\n- 'forfeit' - Fetoha mokhatlo ka nako e kgutshwane le ho kgutshwanya sephetho sa hao sa jale\n- Maina a matlole: W (matlole a makgubedu), F1-F4 (matlole a thekiso), T1-T7 (matlole a tafoleng)\n\nU ka phetha mesebetsi e mengata ka nako e le nngwe ka ho a arola ka matlhaku:\n  Mokhatlo: 'draw, move W T1, move T2 F1'\n\nMakgubedu a Koning a ka bea hodima matlole a tafoleng a sa kgubedu.\nMesebetsi e phethwa ka tatellano - ha e le hore e mong a hloleha, mesebetsi e setseng e tla hloleha.\nSebedisa 'forfeit' ha u dumela hore mokhatlo o sa kgoneha ho hloleha."
   },
   "format_error": {
     "no_brackets": "Sebopeho sa ketso se fosahetseng. Ketso e lokela ho ba ka har'a li-brackets.",
     "no_closing_bracket": "Sebopeho sa ketso se fosahetseng. Ho haella kholomo ea ho koala ']'",
     "empty_command": "Taelo e se nang letho. Tlanya 'draw' kapa 'move <source> <destination> [count]'",
     "empty_action": "Ketso e se nang letho",
-    "move_needs_args": "Taelo ea ho tsamaisa e hloka mohloli le sebaka seo u eang ho sona. Tšebeliso: 'seta <mohloli> <sebaka sa phomolo> [count]'",
-    "count_positive": "Palo e tlameha ho ba ntle kapa 'bohle'",
-    "count_invalid": "Palo e sa nepahalang. Sebelisa nomoro kapa 'bohle'",
+    "move_needs_args": "Kgang ya mokhatlo ya ho suthisa e hloka tse kgutshwane le sebaka sa ho ya. Tshebediso: 'move <source> <destination> [count]'",
+    "count_positive": "Nomoro e tlameha ba e kgolo kapa 'all'",
+    "count_invalid": "Nomoro e sa tsejweng. Tumella nomoro kapa 'all'",
     "unknown_command": "Halofo e senyehang ka '{cmd}'. Sebelisa 'draw', 'move <source> <destination> [count]', kapa 'forfeit'",
     "wrapped": "Setsebi {n}: {msg}"
   },
@@ -59,7 +59,7 @@
   "outcome": {
     "forfeit": "Papali e lahlehetsoe. Sephetho sa ho qetela: {score} likarete metheong ea motheo.",
     "won": "Kea le leboha, le hlōtse papali ea Klondike Solitaire!",
-    "turn_limit": "Game over! You reached the maximum of {max_turns} turns. Score: {score} cards in foundations."
+    "turn_limit": "Mosebetsi o felile! U fihlile nomoro e kgolo ya {max_turns} ditiriso. Nomoro: {score} karete ka hare ho mokwabo wa motheo."
   },
   "board": {
     "title": "=== KLONDIKE SOLITAIRE=== Ho tloha ka la 1 Pherekhong ho ea pele, ke tla be ke le teng.",

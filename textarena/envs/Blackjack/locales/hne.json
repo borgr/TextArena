@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing Blackjack against the dealer.\nYour goal is to get as close to 21 as possible without going over.\nOn your turn, choose '[Hit]' to draw another card or '[Stand]' to hold.\nJ/Q/K = 10 points; A = 11 or 1, whichever is better.\n"
+    "intro": "तुम डीलर के विरुद्ध Blackjack खेलत हाव।\nतुम्हार लक्ष्य २१ के जेतना निकटतम होय बिना अधिक होय।\nतुम्हार पाली मा, '[Hit]' चुनव तुम्हार एक और कार्ड ड्रॉ करे या '[Stand]' चुनव रोके राखव।\nJ/Q/K = १० पॉइंट; A = ११ या १, जेना चंगा होय।\n"
   },
   "board": {
     "current_state": "हाथ {hand_number}/{num_hands}\nतुहार हाथ: {player_hand} (स्कोर: {score})\nडीलर दिखात है: {dealer_card}"

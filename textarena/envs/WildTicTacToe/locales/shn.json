@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in Wild Tic Tac Toe.\nOn your turn, you can place either an 'X' or an 'O' in an empty square.\nYou win by aligning three of the same mark (X or O) in a row.\nYou can win with either symbol.\nChoose your move using the format '[X 4]' to place X in the center.\n"
+    "intro": "တို့သည် ကစားသမား {player_id} ဖြစ်ပါ၏။ သင်သည် သင်၏ အလှည့်တွင် 'X' သို့မဟုတ် 'O' ကို အလွတ်နေသော စတုရန်းတွင် ထားနိုင်ပါ၏။ သင် အမှတ် သုံးခု (X သို့မဟုတ် O) တစ်တန်းတည်း ထားနိုင်ပါက အနိုင်ရပါ၏။ သင် သင်၏ အမှတ် နှစ်မျိုးလုံးဖြင့် အနိုင်ရနိုင်ပါ၏။ သင်၏ လှုပ်ရှားမှုကို '[X 4]' ပုံစံဖြင့် ရွေးချယ်ပါ။\n"
   },
   "board": {
     "current_board": "လၢမ်းပူးမိုင်းတြင်း:\n\n{board}\n\nလၢမ်းပူးမိုင်းတြင်း အလိုက်အလျောက်: {moves}"
@@ -11,7 +11,7 @@
     "already_occupied": "လွင်ႈၶၢႆႉဢၼ်ဢမ်ႇမႅၼ်ႈၼၼ်ႉ ၸေႈ {cell} ၼႆႉလႆႈထုၵ်ႇဢဝ်ဝႆႉယဝ်ႉ။"
   },
   "game_action": {
-    "placed": "Player {player_id} placed their symbol ({mark}) in cell {cell}"
+    "placed": "ကစားသမား {player_id} သည် သင်၏ အမှတ် ({mark}) ကို ဆဲလ် {cell} တွင် ထားပါ၏"
   },
   "outcome": {
     "win": "ၽူႈလဵၼ်ႈ {player_id} လႆႈဢွင်ႇပေႉ လူၺ်ႈတၢင်းၼမ်ၶွင် {mark}s!",

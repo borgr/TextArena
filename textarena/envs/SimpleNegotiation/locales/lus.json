@@ -13,7 +13,7 @@
   "offers": {
     "reject": "Player {player_id} chuan trade offer chu a hnawl ta.",
     "accept": "Player {acceptor_id} chuan Player {proposer_id} aṭangin trade offer a lo dawngsawng.",
-    "proposal": "Player {player_id} chuan Player {opponent_id} hnenah offer a siam: Thil pe: {offered} -> Thil duh: {requested}"
+    "proposal": "Player {player_id} chuan Player {opponent_id} hnenah offer a siam a, a pe tur item-te: {offered} -> A duh item-te: {requested}"
   },
   "outcome": {
     "win": "Player {winner_id} chuan inventory value a neih tamna hmangin a hneh.",

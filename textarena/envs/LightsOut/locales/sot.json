@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "Ketso e tlameha ho ba ka sebopeho sa [row col] moo mola le kholomo li leng linomoro tse felletseng tsa 0 ho isa ho {max_index}.",
-    "out_of_range": "Coordinates must be between 0 and {max_index}. You entered [{row},{col}]."
+    "out_of_range": "Likhothane li lokela ho ba lipakeng tsa 0 le {max_index}. U ngotse [{row},{col}]."
   },
   "outcome": {
     "win": "Kea le leboha! Le rarolotse selotho ka mehato ea {moves_used}!",

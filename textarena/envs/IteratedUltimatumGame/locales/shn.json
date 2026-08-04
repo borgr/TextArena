@@ -21,12 +21,12 @@
     "{total}": "Each player's tied final total (a number)"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id}, playing {num_rounds} rounds of Iterated Ultimatum Game.\nYou have ${pool} to split this round between yourself and Player {other_id}.\n\nProposer:\n  - Make an offer: [Offer: $X] (0 <= X <= pool)\n  - If accepted → You get $(pool - X), other player gets $X\n  - If rejected → Both get $0\n  - Example: [Offer: $3]  or  'I think this is fair. [Offer: $5]'\n\nResponder:\n  - Decide on the offer with either [Accept] or [Reject]\n  - Example: 'That seems reasonable. [Accept]'\n            'Too unfair. [Reject]'\n"
+    "intro": "သင်သည် ကစားသမား {player_id} ဖြစ်ပြီး {num_rounds} အချီတွေ ကစားမည်။\nသင်တွေအတွက် အချီတိုင်းတွင် ${pool} ရှိပြီး သင်နှင့် ကစားသမား {other_id} တို့ ခွဲဝေကြမည်။\n\nအဆိုပြုသူအနေနဲ့၊\n  - အဆိုပြုမှုတစ်ခု ပြုလုပ်ပါ: [Offer: $X] (0 <= X <= pool)\n  - အဆိုပြုမှု လက်ခံလျှင် → သင် $(pool - X) ရရှိပြီး အခြားကစားသမား $X ရရှိမည်။\n  - အဆိုပြုမှု ငြင်းပယ်လျှင် → နှစ်ဦးစလုံး $0 ရရှိမည်။\n  - ဥပမာ: [Offer: $3]  သို့မဟုတ်  'ဒီလို သင့်တယ်ထင်တယ်။ [Offer: $5]'\n\nတုံ့ပြန်သူအနေနဲ့၊\n  - အဆိုပြုမှုကို [Accept] သို့မဟုတ် [Reject] နှင့် ဆုံးဖြတ်ပါ။\n  - ဥပမာ: 'ဒီလို သင့်တယ်ထင်တယ်။ [Accept]'\n            'အလွန် မသင့်တယ်။ [Reject]'\n"
   },
   "round": {
     "begins": "--- ၶၢဝ်းၽွင်း {round_number} တႄႇၸွတ်ႇ! ---\nၽူႈလႄႇ {proposer_id} ပဵၼ် ၽူႈမႃးၸွႆႈ, ၽူႈလႄႇ {responder_id} ပဵၼ် ၽူႈၸႂ်ႈၸၢမ်ႇ။",
     "offer": "ၶၢဝ်းၽွင်း {round_number}: ၽူႈလႄႇ {proposer_id} လႆႈႁဵတ်း လၢႆးမိုဝ်း ${offer} တႃႇ ၽူႈလႄႇ {responder_id} (ဢၼ်ၸဝ်ႈႁပ်ႉ ${keep})။",
-    "accepted": "Player {responder_id} accepted! Round {round_number} gains: Player {proposer_id} +${proposer_gain}, Player {responder_id} +${responder_gain}. New totals: Player 0: ${total_0}, Player 1: ${total_1}.",
+    "accepted": "ကစားသမား {responder_id} လက်ခံသည်! အချီ {round_number} ရရှိသည်: ကစားသမား {proposer_id} +${proposer_gain}၊ ကစားသမား {responder_id} +${responder_gain}။ စုစုပေါင်း ငွေပမာဏ: ကစားသမား ၀: ${total_0}၊ ကစားသမား ၁: ${total_1}။",
     "rejected": "ၽူႈလႄႇ {responder_id} ၸႂ်ႈၸၢမ်ႇ! ၶၢဝ်းၽွင်း {round_number} လႆႈ: ၸဝ်ႈႁပ်ႉ $0။ တၢင်းၶတ်းၸႂ် တိုၵ်ႉမီး: ၽူႈလႄႇ 0: ${total_0}, ၽူႈလႄႇ 1: ${total_1}။"
   },
   "invalid_move": {
@@ -37,7 +37,7 @@
     "accept_or_reject": "တုံ့ပၼ်းတင်းလိူၼ်ႇ လႆႈၸႂ်ႉ [Accept] ဢမ်ႇၼၼ် [Reject] လၢႆးမိုဝ်း။"
   },
   "outcome": {
-    "win": "Player {winner} won with ${winner_total} total vs Player {loser}'s ${loser_total}.",
+    "win": "ကစားသမား {winner} အနိုင်ရသည်။ စုစုပေါင်း ငွေပမာဏ ${winner_total} ဖြစ်ပြီး ကစားသမား {loser} ၏ စုစုပေါင်း ငွေပမာဏ ${loser_total} ဖြစ်သည်။",
     "draw": "လွင်ႈၸၼ်ဢဝ်! ၽူႈလဵၼ်ႈၶဝ်တင်းသွင်ၵေႃႉ လႆႈငိုၼ်း ${total} တင်းမူတ်းယဝ်ႉ။"
   }
 }

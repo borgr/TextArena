@@ -22,7 +22,7 @@
     "final_ranking": "list of player indices from first eliminated to winner"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in an {num_players}-player Liar's Dice game.\nRules:\n- On your turn, you may either:\n  1) Make a new bid with a higher quantity or higher face (or both) than the current bid; i.e. '[Bid: 3, 4]',\n  2) Call the last bid by typing '[Call]'.\n\nIf you call:\n  - If the actual count of that face value among all dice is less than the bid, the last bidder loses one die.\n  - Otherwise, the caller loses one die.\nA player who reaches 0 dice is eliminated. The last remaining player wins."
+    "intro": "Anjeun pamaké {player_id} dina kaulinan Liar's Dice nu diuluan ku {num_players} pamaké.\nAturan:\n- Dina giliran anjeun, anjeun bisa milih:\n  1) Nyieun tawaran anyar kalayan kuantitas nu leuwih luhur atawa nilai beungeut nu leuwih luhur (atawa duanana) batan tawaran ayeuna; contona '[Bid: 3, 4]',\n  2) Ngero tawaran panungtung ku ngetik '[Call]'.\n\nLamun anjeun ngero:\n  - Lamun itungan sabenerna tina nilai beungeut éta di antara kabéh dadu kurang ti tawaran, pamaké nu panungtung ngaléngit hiji dadu.\n  - Séjénna, pamaké nu ngero ngaléngit hiji dadu.\nPamaké nu nepi ka 0 dadu kaéléminasi. Pamaké nu nyésa panungtung meunang."
   },
   "board": {
     "per_player": "\tPamaén {p}: {d}",
@@ -47,7 +47,7 @@
     "face_range": "Nilai nominal kudu antara 1 jeung 6."
   },
   "message": {
-    "eliminated_invalid": "Pamaén {player_id} dihapus ku move anu teu valid."
+    "eliminated_invalid": "Pamaké {player_id} kaéléminasi ku lantaran gerakan salah."
   },
   "outcome": {
     "win": "Pamaén {winner} meunang! Peringkat ahir: {final_ranking}"

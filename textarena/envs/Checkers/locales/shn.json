@@ -3,18 +3,18 @@
     "current_board": "ၶွမ်ႇမတီႇဢၼ်ႁဵတ်းသၢင်ႈယူႇယၢမ်းလဵဝ်: {board}"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} playing a game of Checkers as {color}.\nMake your move in chess-style notation [fileRank fileRank], e.g. '[b2c3]' (column letter a–h, row digit 0–7).\nBasic rules:\n  • Move diagonally forward by 1 if empty.\n  • Capture by jumping over an opponent piece.\n  • A piece is Kinged if it reaches the opposite end.\n"
+    "intro": "မႂ်ႇပဵၼ်ၸဝ်ႈလဵၼ်ႈ {player_id} လဵၼ်ႈၵဵမ် Checkers ၸွမ်း {color}။\nႁဵတ်းၵၢၼ်ႁႂ်ႈၸဝ်ႈၵဝ်ႇ ပဵၼ်တီႈပွင်ႇၶိုၵ်ႉၶႅမ်ႉ [fileRank fileRank], တူဝ်ယၢင်ႇ '[b2c3]' (ၶေႃႈလိၵ်ႈ a–h, ႁူဝ်ၶေႃႈ 0–7)။\nၵႂၢမ်းၶိုၵ်ႉၶႅမ်ႉၸိုဝ်ႈၸႂ်ႈ:\n  • ၶၢႆႉၵႂႃႇၼႃႈၽၢႆႇၶိုၼ်ႈ 1 ပေႃးႁၢမ်ႈၶႅမ်ႉ။\n  • ၸုမ်းၶိုၵ်ႉၶႅမ်ႉၼင်ႇၶိုၼ်ႈၶဵမ်။\n  • ၶိူင်ႈၶိုၵ်ႉၶႅမ်ႉၼင်ႇၸုမ်းၶိုၵ်ႉၶႅမ်ႉ။\n"
   },
   "invalid_move": {
     "wrong_format": "ဢမ်ႇၸၢင်ႈႁၼ် လွင်ႈၼၢႆး လႆႈလၢႆး။ သုပ်း [a1b2]၊ ဥပမႃႈ [b2c3]။",
-    "illegal": "Move [{move}] is illegal."
+    "illegal": "ၶၢႆႉၵႂႃႇ [{move}] ဢမ်ႇၸိုဝ်ႈၸႂ်ႈ။"
   },
   "game_action": {
     "moved": "ၽူႈလဵၼ်ႈ {player_id} ၶၢႆႉၵႂႃႇတီႈ {move}။"
   },
   "outcome": {
     "red_no_pieces": "ၶဵဝ်ဢမ်ႇမီးမၢၵ်ႇၵွင်ႈ ၵိုတ်းဝႆႉ၊ သီလႅင်ပေႉ!",
-    "black_no_pieces": "Black has no pieces left. Red wins!",
+    "black_no_pieces": "မီးခိုးရောင်အုပ်များ မရှိတော့ပါ။ နီရောင်အောင်ပွဲဆွတ်ခူးသည်။",
     "no_moves": "ၽူႈလဵၼ်ႈ {player_id} ဢမ်ႇမီးလွင်ႈၶၢႆႉဢၼ်ၵိုတ်းဝႆႉ။",
     "draw": "လွင်ႈၶၢႆႉလႅၼ်ႊၼႆႉ ႁွတ်ႈထိုင်ဝႆႉယဝ်ႉ။"
   }

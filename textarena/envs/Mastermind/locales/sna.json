@@ -13,7 +13,7 @@
     "repeated_guess": "Watofungidzira {guess}. Ndapota edza imwe fungidziro yakasiyana."
   },
   "game_action": {
-    "feedback": "Submitted [{guess}]. Feedback: {black_pegs} black peg(s), {white_pegs} white peg(s)."
+    "feedback": "Wakaisa [{guess}]. Maererano: {black_pegs} piki nhema, {white_pegs} piki nyeupe."
   },
   "outcome": {
     "win": "Wakandamara code, kuchinja {black_pegs} kubva ku{code_length} pegs kwausiku",

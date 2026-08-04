@@ -16,16 +16,16 @@
     "{cards}": "The cards in a pile as neutral labels, or '--' if empty (never translate)"
   },
   "player_prompt": {
-    "intro": "You are playing Klondike Solitaire. Your goal is to move all cards to the foundation piles.\n\nGame Rules:\n- Foundation piles (F1-F4): Build up from Ace to King in suit\n- Tableau piles (T1-T7): Build down alternating colors (red on black, black on red)\n- Stock: Draw cards to waste pile\n- Waste (W): Top card available for play\n\nCommands:\n- 'draw' - Draw cards from stock to waste\n- 'move <source> <destination> [count]' - Move cards between piles\n  Examples: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count can also be 'all', which will try to move all face-up cards.\n- 'forfeit' - End the game immediately and lock in your current score\n- Pile names: W (waste), F1-F4 (foundations), T1-T7 (tableau)\n\nYou can execute multiple actions in one turn by separating them with commas:\n  Example: 'draw, move W T1, move T2 F1'\n\nOnly Kings can be placed on empty tableau piles.\nActions execute in order - if one fails, the remaining actions are skipped.\nUse 'forfeit' if you believe the game is impossible to win."
+    "intro": "O keba Klondike Solitaire. Kimbisa kiaku i kuweka bileti zote ku makumbi ya ntete.\n\nMakano ya Kizungu:\n- Makumbi ya ntete (F1-F4): Sunga ku mfunu ku Kala ku mvula ya bileti\n- Makumbi ya meza (T1-T7): Sunga ku nsi ku mvula ya bileti ya ku mpemba (mvula nyama ku mvula ndombe, mvula ndombe ku mvula nyama)\n- Stock: Weka bileti ku makumbi ya kupwa\n- Kupwa (W): Bileti ya juu ya kuweka ku meza\n\nMakano:\n- 'draw' - Weka bileti ku makumbi ya kupwa\n- 'move <source> <destination> [count]' - Weka bileti ku makumbi\n  Mifano: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count inaweza kuwa 'all', ambayo itakusanya kuweka bileti zote za kuonekana.\n- 'forfeit' - Mwisha kizungu mbala na kuweka alama ya sasa\n- Majina ya makumbi: W (kupwa), F1-F4 (ntete), T1-T7 (meza)\n\nO keba makano mengi ku mpindi mmoja kuweka virama:\n  Mfano: 'draw, move W T1, move T2 F1'\n\nBileti ya Kala pekee inaweza kuwekwa ku makumbi ya meza ya kuwa tupu.\nMakano ya mpindi yanatenda ku mpangilio - iwapo moja inashindwa, makano yaliyosalia yanapuuzwa.\nTumia 'forfeit' iwapo o kudhani kizungu hakina ushindi."
   },
   "format_error": {
     "no_brackets": "Kisalu ya mbote kele ve. Yo fwete vanda na kati ya bibaka (parentes).",
     "no_closing_bracket": "Kisalu ya mbote ve. Kimpwanza yina kele na nsuka ']' ke konda yo\"",
     "empty_command": "Komanda ya mpamba. Sonika \"draw\" to \"move <source> <destination> [count]\".",
     "empty_action": "Kisalu ya mpamba-mpamba",
-    "move_needs_args": "Ntuma ya kukwenda ke lombaka kisika mpi ntangu yina bo ta kwenda. Kusadila: 'kwenda <kisika> <ntangu yina nge ta kwenda> [count]'",
-    "count_positive": "Ntalu fwete vanda ya mbote to \"yonso\"",
-    "count_invalid": "Ntalu ya mbote ve. Sadila ntalu to \"yonso\" (to 'bansosa yonso')",
+    "move_needs_args": "Makano ya kuweka yanahitaji chanzo na lengo. Matumizi: 'move <source> <destination> [count]'",
+    "count_positive": "Kuhesabu lazima liwe chanya au 'all'",
+    "count_invalid": "Kuhesabu kibaya. Tumia nambari au 'all'",
     "unknown_command": "Kieleka kisukulu '{cmd}'. Utuma 'draw', 'move <source> <destination> [count]', or 'forfeit'",
     "wrapped": "Kieseza {n}: {msg}"
   },
@@ -49,7 +49,7 @@
     "waste_to_tableau_bad": "Mono lenda tula ve karte ya mono me zola na zulu ya kisika yina beto ke tulaka tablo.",
     "no_face_up": "Bo ta katula ve bakarti yina kele ya kukangula.",
     "tableau_to_tableau_ok": "Sambilisanga {count} kadi(s) ku tableau T{src} ku T{dst}",
-    "tableau_to_tableau_bad": "Cannot move {count} card(s) from T{src} to T{dst}",
+    "tableau_to_tableau_bad": "Kibeni kuweka {count} bileti ku T{src} ku T{dst}",
     "foundation_to_tableau_one_card": "Yandi lenda katula kaka karte mosi na fondasio sambu yo kuma na tableau.",
     "foundation_empty": "Fondasio F{src} kele mpamba.",
     "foundation_to_tableau_ok": "Sambilisanga kadi ku foundation F{src} ku tableau T{dst}",
@@ -59,7 +59,7 @@
   "outcome": {
     "forfeit": "Nsuka ya nsaka: {score} bakarti na kati ya fondasio.",
     "won": "Beno me nunga na nsaka ya Klondike Solitaire!",
-    "turn_limit": "Game over! You reached the maximum of {max_turns} turns. Score: {score} cards in foundations."
+    "turn_limit": "Kizungu kimesha! O kufikia kiwango cha juu cha {max_turns} mpindi. Alama: {score} bileti ku ntete."
   },
   "board": {
     "title": "=== KLONDIKE SOLITAIRE=== Bo me balula yo na Kikongo:",

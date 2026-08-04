@@ -11,7 +11,7 @@
     "already_occupied": "ھۈجەيرە {cell} ئاللىقاچان ئىشلەندى."
   },
   "game_action": {
-    "placed": "Player {player_id} placed their mark ({symbol}) in cell {cell}."
+    "placed": "{player_id} نومۇرلۇق ئويۇنچى ھۈجەي {cell} غا بەلگە ({symbol}) قويغان."
   },
   "outcome": {
     "win": "ئويۇنچى {player_id} غەلىبە قىلدى!",

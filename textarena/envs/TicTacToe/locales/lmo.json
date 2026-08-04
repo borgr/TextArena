@@ -14,7 +14,7 @@
   },
   "invalid_move": {
     "wrong_format": "La mossa presentada la seguiss minga el format giust.",
-    "out_of_range": "{cell} is not a valid cell. Must be between 0 and 8.",
+    "out_of_range": "{cell} l'è no una cella valida. La gh'ha de vess tra 0 e 8.",
     "already_occupied": "La cellula {cell} l'è già ocupada."
   },
   "game_action": {

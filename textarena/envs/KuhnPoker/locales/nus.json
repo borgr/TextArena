@@ -11,17 +11,17 @@
     "not_legal": "Lät ba dhil la̱t ɛ {legal_actions}."
   },
   "action": {
-    "submit_move": "Player {player_id}, submitted move: '[{move}]'.",
+    "submit_move": "Tɛ̈ɛ̈ cwɛ̈ɛ̈ {player_id}, aɣɔ̈ɔ̈ kɛ̈ɛ̈: '[{move}]'.",
     "valid_actions": "Lät tin deri la̱t ɛ ti: {legal_actions}.",
-    "round_summary": "{reason} Kɛm kuɔny thok: Player 0: '{player_0_chips}'; Player 1: '{player_1_chips}'"
+    "round_summary": "{reason} Kɛ̈ɛ̈ kɔ̈ɔ̈ tɛ̈ɛ̈: Tɛ̈ɛ̈ cwɛ̈ɛ̈ 0: '{player_0_chips}'; Tɛ̈ɛ̈ cwɛ̈ɛ̈ 1: '{player_1_chips}'"
   },
   "showdown": {
-    "showdown_summary": "Showdown: Player {winner}'s {winner_card} beats Player {loser}'s {loser_card}. Player {winner} wins pot of {pot_value} chips."
+    "showdown_summary": "Kɛ̈ɛ̈ kɔ̈ɔ̈: Tɛ̈ɛ̈ cwɛ̈ɛ̈ {winner} aɣɔ̈ɔ̈ kɛ̈ɛ̈ {winner_card} aɣɔ̈ɔ̈ tɛ̈ɛ̈ cwɛ̈ɛ̈ {loser} aɣɔ̈ɔ̈ kɛ̈ɛ̈ {loser_card}. Tɛ̈ɛ̈ cwɛ̈ɛ̈ {winner} aɣɔ̈ɔ̈ kɛ̈ɛ̈ tɛ̈ɛ̈ kɛ̈ɛ̈ {pot_value} kɛ̈ɛ̈."
   },
   "outcome": {
     "draw": "Kɛ thuɔ̱k kä runi {max_rounds}, kɛn ji̱ ŋarä da̱ŋ rɛw tekɛ kɛ pek mi päär.",
     "round_win": "Player {player_id} cɛ tɛ̱̈ɛ̱̈.",
-    "winner_player0": "Player 0 won by having more chips at the end of all {max_rounds} rounds.",
+    "winner_player0": "Tɛ̈ɛ̈ cwɛ̈ɛ̈ 0 aɣɔ̈ɔ̈ kɛ̈ɛ̈ neɛ̈ɛ̈ kɛ̈ɛ̈ tɛ̈ɛ̈ {max_rounds} kɛ̈ɛ̈.",
     "winner_player1": "Player 1 won kɛ ɣöö cɛ chips ti̱ ŋuan naŋ kä guut runi̱ diaal {max_rounds}."
   }
 }

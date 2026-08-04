@@ -7,7 +7,7 @@
     "board_state": "Hurumende yebhodhi: {board}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid move format. Player {player_id} haana kupindura ne 'row column number' inoshanda.",
+    "wrong_format": "Tsarukano isina mitemo ya pinduro. Mutambi {player_id} haakupindura na tsarukano inobvumirwa 'rwizi kolumu nambari'.",
     "out_of_bounds": "Mviro wekutengesa. Mwari {player_id} akatarisa kuweka {num} pa ({row}, {col}), ambayo iri kunze kwenyu.",
     "overwrite": "Mviro wekutengesa. Mwari {player_id} akatarisa kubvisa seli iliyowekwa hapo awali ({row}, {col}).",
     "violates_rules": "Mviro wekutengesa. Mwari {player_id} akatarisa kuweka {num} pa ({row}, {col}), ambayo inokanda sheria za Sudoku."

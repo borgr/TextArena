@@ -21,13 +21,13 @@
     "{total}": "Each player's tied final total (a number)"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id}, playing {num_rounds} rounds of Iterated Ultimatum Game.\nYou have ${pool} to split this round between yourself and Player {other_id}.\n\nProposer:\n  - Make an offer: [Offer: $X] (0 <= X <= pool)\n  - If accepted → You get $(pool - X), other player gets $X\n  - If rejected → Both get $0\n  - Example: [Offer: $3]  or  'I think this is fair. [Offer: $5]'\n\nResponder:\n  - Decide on the offer with either [Accept] or [Reject]\n  - Example: 'That seems reasonable. [Accept]'\n            'Too unfair. [Reject]'\n"
+    "intro": "Kai ne Dan wasa {player_id}, ka taka {num_rounds} zagaye na wasa na Iterated Ultimatum.\nKa riƙe $ {pool} don raba a zagaye na yanzu tsakanin kai da Dan wasa {other_id}.\n\nMai gabatar da shawara:\n  - Yi shawara: [Offer: $X] (0 <= X <= pool)\n  - Idan aka karɓa → Ka samu $(pool - X), dan wasan wani ya samu $X\n  - Idan aka ƙi → Dukkan su samu $0\n  - Misali: [Offer: $3]  ko  'Ina ganin haka ne adalci. [Offer: $5]'\n\nMai amsa:\n  - Kada shawara da [Accept] ko [Reject]\n  - Misali: 'Haka ya dace. [Accept]'\n            'Bai dace ba. [Reject]'\n"
   },
   "round": {
-    "begins": "--- Round {round_number} begins! ---\nPlayer {proposer_id} kadi proposer, Player {responder_id} kadi responder.",
-    "offer": "Round {round_number}: Player {proposer_id} offers ${offer} to Player {responder_id} (keeping ${keep}).",
-    "accepted": "Player {responder_id} accepted! Round {round_number} gains: Player {proposer_id} +${proposer_gain}, Player {responder_id} +${responder_gain}. New totals: Player 0: ${total_0}, Player 1: ${total_1}.",
-    "rejected": "Player {responder_id} rejected the offer! Round {round_number} gains: Both players +$0. Totals remain: Player 0: ${total_0}, Player 1: ${total_1}."
+    "begins": "--- Zagaye {round_number} ya fara! ---\nDan wasa {proposer_id} ne mai gabatar da shawara, Dan wasa {responder_id} ne mai amsa.",
+    "offer": "Zagaye {round_number}: Dan wasa {proposer_id} ya bayar $ {offer} ga Dan wasa {responder_id} (yana riƙe $ {keep}).",
+    "accepted": "Dan wasa {responder_id} ya karɓa! Zagaye {round_number} nasara: Dan wasa {proposer_id} +$ {proposer_gain}, Dan wasa {responder_id} +$ {responder_gain}. Jimlar sabo: Dan wasa 0: $ {total_0}, Dan wasa 1: $ {total_1}.",
+    "rejected": "Dan wasa {responder_id} ya ƙi shawara! Zagaye {round_number} nasara: Dukkan dan wasa +$0. Jimlar ya tsaya: Dan wasa 0: $ {total_0}, Dan wasa 1: $ {total_1}."
   },
   "invalid_move": {
     "no_offer_format": "Am do lamar shima dǝga fǝlezǝna ma so dәye awowa sǝdinma sodǝn faidatǝro format [Offer: $X] lan.",
@@ -37,7 +37,7 @@
     "accept_or_reject": "Responder kuli [Accept] ko [Reject] kadi offer."
   },
   "outcome": {
-    "win": "Player {winner} won with ${winner_total} total vs Player {loser}'s ${loser_total}.",
+    "win": "Dan wasa {winner} ya yi nasara da $ {winner_total} jimlar vs Dan wasa {loser} $ {loser_total}.",
     "draw": "Kәla nduma indisoye ${total} samma so'a kәrmaza."
   }
 }

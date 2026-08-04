@@ -8,7 +8,7 @@
   "invalid_move": {
     "wrong_format": "ଅବୈଧ ଘୁଞ୍ଚାଇବା ଶୈଳୀ. '[cell]' ବ୍ୟବହାର କରନ୍ତୁ.",
     "invalid_cell": "ଅବୈଧ ସେଲ ସୂଚୀ",
-    "already_occupied": "Cell {cell} is already occupied."
+    "already_occupied": "ସେଲ {cell} ଇତିମଧ୍ୟ ଅଧିକୃତ ।"
   },
   "game_action": {
     "placed": "ଖେଳାଳି {player_id} ନିଜ ଚିହ୍ନ ({symbol}) କୁ ସେଲ୍ {cell} ରେ ରଖିଥିଲେ ।"

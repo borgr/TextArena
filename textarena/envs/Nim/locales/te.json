@@ -13,7 +13,7 @@
     "exceeds_pile": "{quantity} లను {pile_index} కుప్ప నుండి తొలగించలేము (మాత్రమే {pile_count} మిగిలి ఉంది)."
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "ప్లేయర్ {player_id} [{pile_index} {quantity}] ఆడాడు, కుప్ప {pile_index} నుండి {quantity} వస్తువు(లు)ను తీసివేశాడు."
   },
   "outcome": {
     "win": "ఆటగాడు {player_id} చివరి వస్తువును తీసుకున్నాడు!"

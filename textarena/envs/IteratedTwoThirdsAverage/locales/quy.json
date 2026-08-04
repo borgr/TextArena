@@ -1,13 +1,13 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a {num_rounds}-round of IteratedTwoThirdsAverage.\nEach round, guess a number between {min_guess} and {max_guess}.\nAfter both guesses, the target is (2/3)x(average of both guesses),\nand the player whose guess is closest to the target wins that round.\nReply with your guess in the format '[<number>]'."
+    "intro": "Q'umirlla Player {player_id} kanki {num_rounds}-manta rundapa IteratedTwoThirdsAverage nisqapi.\nSapa rundapi, {min_guess}wan {max_guess}pacha numberuta ujuy.\nIskay ujuykunamanta q'ipirinapaq, (2/3) rina (iskay ujuykunap q'ipirinankupi),\nchay rundataqa q'umir q'ipirinanku qhipaqninpaqmi kan.\n'[<number>]' rikch'ayninpi ujuykita kutichiy."
   },
   "invalid_move": {
     "wrong_format": "Mana allinchu; tapukuytaqa kay hinata churay: [<number>].",
-    "out_of_range": "Guess must be between {min_guess} and {max_guess}."
+    "out_of_range": "Shutiqa {min_guess}wan {max_guess}pacha kananmi."
   },
   "message": {
-    "round_guesses": "Player 0 guessed {guess0}; Player 1 guessed {guess1}. Thus the Target is: {target}.",
+    "round_guesses": "Player 0 {guess0} kimsa yupayta ch'utaykurqa; Player 1 {guess1} kimsa yupayta ch'utaykurqa. Chaymanta chawpipi kuskanqa kaymi: {target}.",
     "round_draw": "Runasqa tʼaqashanku.",
     "round_win": "¡Pilutaqa {winner} atipan!"
   },

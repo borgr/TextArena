@@ -13,8 +13,8 @@
     "already_matched": "अमान्य चाल. खेलाडी {player_id}ले एक वा दुबै कार्डहरू चयन गरेको छ जुन पहिले नै मेल खाइसकेको छ।"
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "खेलाडी {player_id} द्वारा चयन गरिएका कार्डहरू स्थानहरूमा [{r1} {c1}] र [{r2} {c2}] मिल्छन्!",
+    "cards_no_match": "खेलाडी {player_id} द्वारा चयन गरिएका कार्डहरू मिल्दैनन्। कार्डहरू स्थानहरूमा [{r1} {c1}] र [{r2} {c2}] क्रमशः {pos1} र {pos2} हुन्छन्।"
   },
   "outcome": {
     "draw": "दुवै खेलाडीले कार्डको समान संख्यामा जोडीहरू मिलाए।",

@@ -9,10 +9,10 @@
     "{pct}": "Progress as a percentage string, e.g. 50%"
   },
   "player_prompt": {
-    "intro": "Map each letter to a unique digit so the arithmetic holds.\nAssign with `[A 5]`, re-assign anytime.\n"
+    "intro": "Fa'amaonia le tusi ta'itasi i le digit ta'itasi ina ia tumau le arithmetic.\nFa'amaonia ma le `[A 5]`, fa'aleleia so'o se taimi.\n"
   },
   "invalid_move": {
-    "wrong_format": "Bad action format. Use `[A 5]`.",
+    "wrong_format": "Leaga le fa'atinoga. Fa'aoga le `[A 5]`.",
     "letter_not_in_puzzle": "O le mataʻitusi {letter} e lē o iai i se paso.",
     "digit_used": "Digit {digit} ua uma ona faʻaaogaina e le {used_letter}.",
     "leading_zero": "E lē mafai ona avea le numera muamua o se upu ma 0."

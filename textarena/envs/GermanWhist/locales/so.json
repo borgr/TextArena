@@ -65,7 +65,7 @@
     "cards_left": "{observation}\nKaarka ka haray: {count}",
     "next_card": "{observation}\nKaarka soo socda ee gacanta ku guuleysan: {card}",
     "blank": "{observation} ",
-    "current_trick": "{observation}\nCurrent trick:",
+    "current_trick": "{observation}\nTrick-ka hadda:",
     "trump_indicator": "(Qosol)",
     "trick_line": "{observation} Ciyaaryahan {player_id}: {card}{trump_indicator}",
     "player_line": "{observation} Ciyaaryahan {player_id}: {scoring} dhibcaha dhibcaha ({tricks} wadarta), {hand_size} kaararka gacanta"

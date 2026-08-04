@@ -32,7 +32,7 @@
   "invalid_move": {
     "no_offer_format": "Proposatzaileak [Offer: $X] formatuan eskaintza egin beharko du.",
     "bad_integer": "Eskaintzaren zenbatekoak zenbaki oso bat izan behar du.",
-    "out_of_range": "Offer must be between $0 and ${pool}.",
+    "out_of_range": "Eskaintza $0 eta ${pool} artean izan behar da.",
     "no_current_offer": "Ez dago eskaintzarik oraindik.",
     "accept_or_reject": "Erantzunak [Accept] edo [Reject] eskaintza izan behar du."
   },

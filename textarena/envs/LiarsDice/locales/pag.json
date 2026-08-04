@@ -29,7 +29,7 @@
     "new_round": "\nBagong round - Natitira nga dice: {dice_summary}\nSay tocdo yan dice mo et: {your_dice}"
   },
   "call": {
-    "bidder_loses": "Player {current_player_id} calls! The actual count of face {face_value} is {count}, which is LESS than {quantity}.\nPlayer {loser_id} (the last bidder) loses one die.",
+    "bidder_loses": "Player {current_player_id} tawag! Say aktwal ya count ya face {face_value} so {count}, ya mas baba kesa {quantity}.\nPlayer {loser_id} (ed last bidder) so nalugi ed die.",
     "caller_loses": "Player {current_player_id} agcall! Say actual a count na face {face_value} et {count}, a balet >= {quantity}.\nPlayer {loser_id} (say caller) matalo met one die."
   },
   "action": {
@@ -37,8 +37,8 @@
   },
   "invalid_move": {
     "call_no_bid": "Say tawag et ginawa ya anggapoy akauna a bid.",
-    "invalid_bid": "Invalid bid: {reason}",
-    "not_recognized": "Action not recognized as either a valid '[Bid: X, Y]' or '[Call]'. Submitted action: {action}"
+    "invalid_bid": "Mali a bid: {reason}",
+    "not_recognized": "Say awan a kilala a gawa a kaswal ya '[Bid: X, Y]' o '[Call]'. Inyap a gawa: {action}"
   },
   "bid_reason": {
     "quantity_lower": "Say balon kantidad {new_quantity} et mas abeba nen say walad natan ya bilang na {current_quantity}.",
@@ -50,6 +50,6 @@
     "eliminated_invalid": "Say manlalaban {player_id} so naekal lapud ag-agawa."
   },
   "outcome": {
-    "win": "Player {winner} win! Final ranking: {final_ranking}"
+    "win": "Player {winner} so manalo! Final ranking: {final_ranking}"
   }
 }

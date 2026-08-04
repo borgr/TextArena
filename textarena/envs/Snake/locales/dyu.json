@@ -11,7 +11,7 @@
     "{groups}": "Neutral ranking data (a list of player-id groups, worst to best); do not translate"
   },
   "player_prompt": {
-    "intro": "{num_players}-Player Snake on a {width}×{height} grid.\nYou control snake {player_id}. Valid moves: '[up]'/'[down]'/'[left]'/'[right]' (or w/s/a/d).\nObjective: survive longest or be the longest and get the highest score (turn limit {max_turns} turns)."
+    "intro": "{num_players}-Jɛnɛba Sɔgɔmasɛnɛ kɔnɔ {width}×{height} kɛlɛ.\nI ka sɔgɔmasɛnɛ {player_id} kɔnɔtɔ. Kɛlɛbɔ sɛbɛnw: '[up]'/'[down]'/'[left]'/'[right]' (walima w/s/a/d).\nKɛlɛkɛ: ɲini sɔgɔma ɲuman pa kɔrɔtɔ, walima kɛlɛ kɛlɛkɛ ɲuman fɛ, kɔrɔtɔ kɔnɔtɔ sɔrɔdasiɲɛ (kɔrɔ {max_turns} sɛgɛ)."
   },
   "board": {
     "current": "Jamanakuntigi: {board}",
@@ -26,6 +26,6 @@
     "outlived": "O tigi ye ɲɛnamaya kɛ fɔɔ ka taga se saya ma.",
     "all_dead": "U bɛɛ sara.",
     "turn_limit": "A laban, a ka nɛgɛso ɲɔndi. O la do, u bɛɛ be se k'u seen don kɛlɛkɛyɔrɔ dɔ kɔnɔ ani o yɔrɔ mɔgɔw tɛ yen tugun.",
-    "ranking": "{reason} Final ranking groups (worst→best): {groups}"
+    "ranking": "{reason} Kɔnɔtɔw sɛgɛsɛgɛ (kɛlɛfɛla → kɛlɛkɛla): {groups}"
   }
 }

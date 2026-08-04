@@ -13,7 +13,7 @@
   "outcome": {
     "white_reached": "Ràinig na geal sreath dachaigh nan Dubh.",
     "black_reached": "Ràinig dubh sreath dachaigh nan geal.",
-    "white_captured": "All White pieces captured.",
+    "white_captured": "Pìosan uile Geal air an gabhail.",
     "black_captured": "Chaidh na pìosan dubha uile a ghlacadh.",
     "no_moves": "Chan eil tuilleadh gluasadan aig cluicheadair {player_id}."
   }

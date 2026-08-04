@@ -13,8 +13,8 @@
     "already_matched": "Ba daidai ba ne. Mai kunnawa {player_id} ya zaɓi ɗaya ko duka katunan da aka riga aka daidaita."
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "Katunan da Dan wasa {player_id} ya zabi a wuraren [{r1} {c1}] da [{r2} {c2}] sun dace!",
+    "cards_no_match": "Katunan da Dan wasa {player_id} ya zabi ba su dace ba. Katunan a wuraren [{r1} {c1}] da [{r2} {c2}] sune {pos1} da {pos2} bi da bi."
   },
   "outcome": {
     "draw": "Dukkanin 'yan wasan sun dace da adadin nau'i-nau'i na katunan.",

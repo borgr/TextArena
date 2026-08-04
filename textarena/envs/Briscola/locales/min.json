@@ -52,6 +52,6 @@
   },
   "outcome": {
     "head": "Pamainan alah usai! Pamain {winner} manang jo {points} poin!\n\nSkor Akhir:\n{scores}",
-    "player_line": "Player {player_id}: {points} points ({tricks} tricks)\n"
+    "player_line": "Pemain {player_id}: {points} poin ({tricks} trik)\n"
   }
 }

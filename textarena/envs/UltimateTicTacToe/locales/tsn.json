@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in **Ultimate Tic Tac Toe**.\nSubmit your move as **[macro  micro]** (two numbers 0-8):\n• *macro*  = which mini-board you play in\n• *micro* = which square inside that mini-board\nExample `[7 8]` ➜ place your mark in mini-board 7, square 8, and\nforce your opponent to play in mini-board 8 next.\n\nYou are `{symbol}`.\n"
+    "intro": "O wena ke Mosepedi {player_id} mo **Ultimate Tic Tac Toe**.\nRomela tsela ya gago jaaka **[macro  micro]** (dinomoro tse pedi 0-8):\n• *macro*  = ke bode ya mini o tshameka ka yone\n• *micro* = ke sekare sa ka fa gare ga bode ya mini\nSekao `[7 8]` ➜ beile saeno sa gago mo bode ya mini 7, sekare 8, mme\nkganela mmamogedi wa gago gore a tshameke mo bode ya mini 8 e tlang.\n\nO wena ke `{symbol}`.\n"
   },
   "board": {
     "current_board": "Boto ya ga jaana: {board}"

@@ -4,19 +4,19 @@
   },
   "invalid_move": {
     "receiving_with_no_resource": "Mupira wa miguu akajaribu kukubali biashara bila kuwa na rasilimali muhimu.",
-    "out_of_range": "Player {player_id}, Invalid action. Column {col} is out of bounds.",
-    "already_full": "Player {player_id}, Invalid action. Column {col} is full.",
-    "proposing_with_no_resource": "Player {player_id} tried to make a trade offer without having the necessary resources.",
-    "incorrect_offer_format": "Player {player_id} made a trade offer in an incorrect format.",
-    "no_new_offer": "Player {player_id} made no new trade offer."
+    "out_of_range": "Muthu {player_id}, Kitendo kisichowezekana. Safu {col} iko nje ya mipaka.",
+    "already_full": "Muthu {player_id}, Kitendo kisichowezekana. Safu {col} imejaa.",
+    "proposing_with_no_resource": "Muthu {player_id} anakusanya kufanya ofa ya biashara bila kuwa na zilombo zinazohitajika.",
+    "incorrect_offer_format": "Muthu {player_id} anakusanya ofa ya biashara katika muundo usio sahihi.",
+    "no_new_offer": "Muthu {player_id} hakufanya ofa mpya ya biashara."
   },
   "offers": {
-    "reject": "Player {player_id} rejected the trade offer.",
-    "accept": "Player {acceptor_id} accepted the trade offer from Player {proposer_id}.",
-    "proposal": "Player {player_id} made the following offer to Player {opponent_id}: Offered items: {offered} -> Requested items: {requested}"
+    "reject": "Muthu {player_id} alikataa ofa ya biashara.",
+    "accept": "Muthu {acceptor_id} alikubali ofa ya biashara kutoka kwa Muthu {proposer_id}.",
+    "proposal": "Muthu {player_id} alifanya ofa ifuatayo kwa Muthu {opponent_id}: Zilombo zinazotolewa: {offered} -> Zilombo zinazoulizwa: {requested}"
   },
   "outcome": {
-    "win": "Player {winner_id} won by having a larger gain in inventory value.",
-    "draw": "Cjk, ck. "
+    "win": "Muthu {winner_id} alishinda kwa kuwa na ongezeko kubwa la thamani ya zilombo.",
+    "draw": "Mabadiliko sawa ya thamani ya zilombo kwa wachezaji wote. Sawa."
   }
 }

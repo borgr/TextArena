@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in **Ultimate Tic Tac Toe**.\nSubmit your move as **[macro  micro]** (two numbers 0-8):\n• *macro*  = which mini-board you play in\n• *micro* = which square inside that mini-board\nExample `[7 8]` ➜ place your mark in mini-board 7, square 8, and\nforce your opponent to play in mini-board 8 next.\n\nYou are `{symbol}`.\n"
+    "intro": "Ndinu Player {player_id} mu **Ultimate Tic Tac Toe**.\nTumizani chaguo chanu monga **[macro  micro]** (nambari mbili 0-8):\n• *macro*  = mini-bodi iliyo m'mene mumapikisana\n• *micro* = malo aliyo ndani mwa mini-bodi\nMfano `[7 8]` ➜ weka chenjezo chanu mu mini-bodi 7, malo 8, ndipo\nmkakati wako adzikhazikitse m'mini-bodi 8 yatsopano.\n\nNdinu `{symbol}`.\n"
   },
   "board": {
     "current_board": "Bodi laposachedwa: {board}"
@@ -8,7 +8,7 @@
   "invalid_move": {
     "wrong_format": "Kusuntha kuyenera kukhala mu mawonekedwe [macro micro] ndi manambala 0-8.",
     "out_of_range": "Mndandanda uliwonse uyenera kukhala pakati pa 0 ndi 8.",
-    "index_out_of_range": "The micro_board, mzere kapena ndime ali kunja kwa uthunthu.",
+    "index_out_of_range": "Mini-bodi, safu, kapena malo ali pachulu.",
     "cell_occupied": "M'chipinda cha ndende muli kale anthu ena.",
     "wrong_micro_board": "Wosewerayo ayenera kuseŵera mu bolodi laling'ono lotsatira.",
     "micro_board_won": "Bokosi la micro lapambana kale."

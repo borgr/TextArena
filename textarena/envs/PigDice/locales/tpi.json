@@ -11,7 +11,7 @@
   },
   "board": {
     "player": "Pleya 0: '{score_0}'; Pleya 1: '{score_1}'",
-    "current_total_scores": "Current Total Scores: {scores}\nYour current turn total is {turn_total}.",
+    "current_total_scores": "Skor Bilong Olgeta Nau: {scores}\nTurn total bilong yu nau i {turn_total}.",
     "roll_history": "{observation}\nHistri bilong yu rol olsem: {roll_history}",
     "first_roll": "{observation} Dispela em namba wan taim bilong yu long tromoi.",
     "available_actions": "{observation}\nAction i stap: '[roll]' o '[hold]'"

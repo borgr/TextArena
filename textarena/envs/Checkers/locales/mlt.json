@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "L-ebda format validu ta' mozzjoni ma nstab. Uża [a1b2], pereżempju [b2c3].",
-    "illegal": "Move [{move}] is illegal."
+    "illegal": "Il-mossa [{move}] hija illegali."
   },
   "game_action": {
     "moved": "Plejers {player_id} imxew {move}."

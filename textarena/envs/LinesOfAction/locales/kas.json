@@ -10,23 +10,23 @@
     "{to}": "The destination coordinate of a move, such as b3"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in game of LinesOfAction.\nYour pieces are '{side}', opponent pieces are '{other}'.\nMove format: `[b1b3]` (from-coord to-coord). A legal move travels horizontally, vertically, or diagonally a number of squares equal to the total pieces (any colour) in that line. You may jump over your own pieces, but not opponent pieces; landing on an opponent captures it.  Win when all your pieces are 8-neighbour connected."
+    "intro": "توسِ کھلاڑی {player_id} LinesOfAction گیمس مَنز۔\nتوہندے ٹکڑے '{side}' نیں، مخالف کھلاڑی ٹکڑے '{other}' نیں۔\nموو فارمیٹ: `[b1b3]` (ماخذ-کوآرڈینیٹ توں منزل-کوآرڈینیٹ)۔ ایک قانونی موو اُفق، عمودی، یا ترچھے طور پر اس لائن وچ ٹکڑوں (کسی بھی رنگ) دے برابر مربعوں دا سفر کرتا ہے۔ تسی اپنے ٹکڑوں اُتے چھلانگ لاگتے ہو، لیکن مخالف ٹکڑوں اُتے نہیں؛ مخالف ٹکڑے اُتے اُترنا اسنوں قبضہ کرلیتا ہے۔ جتھے توہندے سارے ٹکڑے 8-پڑوسی کنیکٹ ہوجان۔"
   },
   "board": {
     "current_board": "बोर्डः {board}"
   },
   "invalid_move": {
-    "wrong_format": "फॉर्मेट गछि e2e4 (कोआर्डिनटस पेठ,ताम) ।",
+    "wrong_format": "فارمیٹ e2e4 (ماخذ، منزل کوآرڈینیٹ) ہونا چاہئے۔",
     "no_piece": "{side} पिक्चर नो ऑन {coord}.",
-    "identical": "सोर्स ते डेस्टिनेशन हिंज पहचान.",
-    "not_straight_or_diagonal": "युस मूवमेंट छी इ गैसीय सरिथ या डायग्नोनल आसान",
-    "wrong_distance": "पज़्स्न छु बराबर दूरी ताम रटन यिवान।",
-    "enemy_blocks": "दुश्मन टुकड़े पथ ब्लॉक.",
-    "destination_own": "डेस्टिनेशन ओक्कुपेटेड आस पाणिं टुक."
+    "identical": "ماخذ تے منزل ایک ہی ہیں۔",
+    "not_straight_or_diagonal": "موو سدھا یا ترچھا ہونا چاہئے۔",
+    "wrong_distance": "لائن وچ ٹکڑوں دے برابر فاصلے اُتے حرکت کرنا چاہئے۔",
+    "enemy_blocks": "مخالف ٹکڑا راہ روک رہا ہے۔",
+    "destination_own": "منزل اپنے ٹکڑے نال مقبوضہ ہے۔"
   },
   "game_action": {
-    "moved": "खिलाड़ी {player_id} ने {from} -> {to} पर जाकर कदम बढ़ाया।",
-    "captured_suffix": "खिलाड़ी {player_id} ने {from} -> {to} पर जाकर एक दुश्मन को पकड़ लिया।"
+    "moved": "کھلاڑی {player_id} نے {from} -> {to} موو کیتا",
+    "captured_suffix": "کھلاڑی {player_id} نے {from} -> {to} موو کیتا تے ایک مخالف ٹکڑا قبضہ کیتا۔"
   },
   "outcome": {
     "win": "सरे छी कनेक्टेड.",

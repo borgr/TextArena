@@ -16,7 +16,7 @@
   },
   "game_action": {
     "skipped": "მოთამაშეს {pid} მოუწია თავის რიგის გამოტოვება",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "მოთამაშე {pid} ({piece}) ითამაშა [{r}, {c}] და შემოტრიალა {flipped} ფიგურა(ები)"
   },
   "game_message": {
     "must_skip": "მოთამაშეს {pid} ({piece}) არ აქვს არანაირი სავალდებულო ნაბიჯი და უნდა გადააჭარბოს."

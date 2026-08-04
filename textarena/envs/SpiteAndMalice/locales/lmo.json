@@ -18,11 +18,11 @@
     "no_cards_left": "I cart i è gnüda da tirè. Ricordé che ti pöl giugà di carte de chèste sorse: 1. la tò man 2. La carta in sù del tucc i to pagnòtt 3. La carta en sü dei to cascòtti 4. El card in su d'i to cargott 5. L'altra carta in giù, e l'alter chì a gh'ha 'na part inscì bèla..."
   },
   "invalid_move": {
-    "wrong_format": "Invalid move format. Player {player_id} didn't respond with a valid move in square brackets.",
+    "wrong_format": "Format de la mossa minga valid. El Giugador {player_id} l'ha minga respondüü con una mossa valida in parentesi quadre.",
     "invalid_play": "Zogada no valida. Giugador {player_id} ha provà de zogà {card} in su la pila central {index}.",
-    "discard_from_payoff": "Invalid discard. Player {player_id} tried to discard a card from the payoff pile.",
-    "discard_not_in_hand": "Discard invalid. Player {player_id} tried to discard a card that isn't in hand.",
-    "wrong_move_type": "Invalid move type. Player {player_id} didn't respond with a valid move type (Player 0) = \"Lè minga un giògn de mossa vàlid\"."
+    "discard_from_payoff": "Scart minga valid. El Giugador {player_id} l'ha provaa a scartà una carta de la pila de pagament.",
+    "discard_not_in_hand": "Scart minga valid. El Giugador {player_id} l'ha provaa a scartà una carta che l'è minga in man.",
+    "wrong_move_type": "Tip de mossa minga valid. El Giugador {player_id} l'ha minga respondüü con un tip de mossa valid."
   },
   "game_action": {
     "you_drew": "T'hai tirà i carte.",

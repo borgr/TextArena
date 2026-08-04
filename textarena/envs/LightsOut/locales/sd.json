@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "ايڪشن فارميٽ ۾ هئڻ گهرجي [row col] جتي قطار ۽ ڪالمن ۾ 0 کان {max_index} تائين انٽيگرز هجن.",
-    "out_of_range": "Coordinates must be between 0 and {max_index}. You entered [{row},{col}]."
+    "out_of_range": "ڪو آرڊينيٽس 0 ۽ {max_index} جي وچ ۾ هئڻ گهرجي. توهان [{row},{col}] داخل ڪيو آهي."
   },
   "outcome": {
     "win": "مبارڪون هجن! توهان کي {moves_used} حرڪتن ۾ پزل حل ڪيو!",

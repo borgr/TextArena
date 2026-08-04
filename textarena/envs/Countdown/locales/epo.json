@@ -9,7 +9,7 @@
     "progress": "{observation}\nNuna progresoskoro: {progress}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use `[i j op]` where i,j are indices and op is +,-,*,/",
+    "wrong_format": "Nevalida formato de ago. Uzu `[i j op]` kie i, j estas indeksoj kaj op estas +,-,*,/",
     "invalid_indices": "Malvalidaj indeksoj. Devas esti malsamaj kaj en intervalo 0-{max_index}",
     "invalid_operation": "Malvalida operacio (divido per nulo aŭ ne-nula rezulto)"
   },

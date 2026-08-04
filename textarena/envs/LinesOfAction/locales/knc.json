@@ -10,7 +10,7 @@
     "{to}": "The destination coordinate of a move, such as b3"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in game of LinesOfAction.\nYour pieces are '{side}', opponent pieces are '{other}'.\nMove format: `[b1b3]` (from-coord to-coord). A legal move travels horizontally, vertically, or diagonally a number of squares equal to the total pieces (any colour) in that line. You may jump over your own pieces, but not opponent pieces; landing on an opponent captures it.  Win when all your pieces are 8-neighbour connected."
+    "intro": "Kana ndo Player {player_id} kyeri ndu LinesOfAction.\nKyeri ndu ci '{side}', kyeri ndu kul '{other}'.\nFormat ndu bol: `[b1b3]` (kisa-kisa). Bol ndu tada kyeri ndu wodi, kul wodi, ko diagonally kisa ndu wodi kwana cikwana kyeri ndu kul ndu wodi. Kana ndo bol ndu kyeri ndu ci, amma ba kul ndu ci; kisa ndu kul ndu ci kana ndo kyeri ndu ci.  Kana ndo win ndu kyeri ndu ci 8-kul ndu ci."
   },
   "board": {
     "current_board": "Board: {board}"
@@ -26,7 +26,7 @@
   },
   "game_action": {
     "moved": "Ɗaaŋa {player_id} ɓe {from} -> {to}",
-    "captured_suffix": "Player {player_id} moved {from} -> {to} capturing an enemy."
+    "captured_suffix": "Player {player_id} bol {from} -> {to} kul ndu ci ndu kul."
   },
   "outcome": {
     "win": "Kәla sammaso soye kəlta.",

@@ -8,7 +8,7 @@
   "invalid_move": {
     "bad_format": "Uburyo bubi. Koresha '[b1 c3]'.",
     "unknown_square": "Ikibanza kitazwi.",
-    "not_your_piece": "Source is not your piece.",
+    "not_your_piece": "Ihanga si igikorwa caawe.",
     "own_piece": "Ntidushobora kugwa ku kirwanisho cacu.",
     "not_knight": "Si igikorwa c'ubunyenkomezi."
   },

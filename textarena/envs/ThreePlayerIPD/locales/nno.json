@@ -15,6 +15,6 @@
     "finalize": "{observation} "
   },
   "outcome": {
-    "final": "Final scores: {scores}.  Ranking groups (worst→best): {groups}"
+    "final": "Sluttpoengsummar: {scores}.  Rangeringsgrupper (dårlegast→best): {groups}"
   }
 }

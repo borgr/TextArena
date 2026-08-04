@@ -16,16 +16,16 @@
     "{cards}": "The cards in a pile as neutral labels, or '--' if empty (never translate)"
   },
   "player_prompt": {
-    "intro": "You are playing Klondike Solitaire. Your goal is to move all cards to the foundation piles.\n\nGame Rules:\n- Foundation piles (F1-F4): Build up from Ace to King in suit\n- Tableau piles (T1-T7): Build down alternating colors (red on black, black on red)\n- Stock: Draw cards to waste pile\n- Waste (W): Top card available for play\n\nCommands:\n- 'draw' - Draw cards from stock to waste\n- 'move <source> <destination> [count]' - Move cards between piles\n  Examples: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count can also be 'all', which will try to move all face-up cards.\n- 'forfeit' - End the game immediately and lock in your current score\n- Pile names: W (waste), F1-F4 (foundations), T1-T7 (tableau)\n\nYou can execute multiple actions in one turn by separating them with commas:\n  Example: 'draw, move W T1, move T2 F1'\n\nOnly Kings can be placed on empty tableau piles.\nActions execute in order - if one fails, the remaining actions are skipped.\nUse 'forfeit' if you believe the game is impossible to win."
+    "intro": "Вы гуляеце ў Клондайк Салітаір. Вашая мэта — перамясціць усе карты ў фундаментныя калоды.\n\nПравілы гульні:\n- Фундаментныя калоды (F1-F4): пабудаваць ад Туза да Караля ў адной масці\n- Калоды табло (T1-T7): пабудаваць уніз, чаргуючы колеры (чырвоны на чорны, чорны на чырвоны)\n- Сток: выцягваць карты ў калоду адходаў\n- Адходы (W): верхняя карта даступная для гульні\n\nКаманды:\n- 'draw' — выцягнуць карты з стока ў калоду адходаў\n- 'move <source> <destination> [count]' — перамясціць карты паміж калодамі\n  Прыклады: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count таксама можа быць 'all', які паспрабуе перамясціць усе карты тварам угору.\n- 'forfeit' — адразу скончыць гульню і замацаваць цяперашні рахунак\n- Назвы калод: W (адходы), F1-F4 (фундаментныя), T1-T7 (табло)\n\nВы можаце выконваць некалькі дзеянняў за адзін ход, падзяляючы іх коскамі:\n  Прыклад: 'draw, move W T1, move T2 F1'\n\nТолькі Каралі могуць быць пакладзены на пустыя калоды табло.\nДзеянні выконваюцца па парадку — калі адно правальваецца, астатнія дзеянні прапускаюцца.\nВыкарыстоўвайце 'forfeit', калі лічыце, што гульня немагчыма выйграць."
   },
   "format_error": {
     "no_brackets": "Несапраўдны формат дзеяння. Дзеянне павінна быць у дужках.",
     "no_closing_bracket": "Несапраўдны фармат дзеяння. Адсутнічае закрыццё дужкі \"]\"",
     "empty_command": "Пустая каманда. Тып \"draw\" або \"move <source> <destination> [count]\"",
     "empty_action": "Пустыя дзеянні",
-    "move_needs_args": "Каманда перамяшчэння патрабуе крыніцы і прызначэння. Выкарыстанне: \" перамяшчэнне <крыніца> <прызначэнне> [count] \"",
-    "count_positive": "Колькасць павінна быць станоўчай або \"усе\"",
-    "count_invalid": "Несапраўдны лік. Выкарыстоўвайце лік або \"усе\"",
+    "move_needs_args": "Каманда перамяшчэння патрабуе крыніцы і прызначэння. Выкарыстанне: 'move <source> <destination> [count]'",
+    "count_positive": "Колькасць павінна быць станоўчай ці 'all'",
+    "count_invalid": "Няправільная колькасць. Выкарыстоўвайце лік ці 'all'",
     "unknown_command": "Невядомая каманда \"{cmd}\". Выкарыстоўвайце \"draw\", \"move <source> <destination> [count]\", або \"forfeit\"",
     "wrapped": "Дзеянне {n}: {msg}"
   },

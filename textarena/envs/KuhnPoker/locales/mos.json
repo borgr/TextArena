@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a {max_rounds} round game of Kuhn Poker.\nGame Rules:\n- Kuhn Poker uses a 3-card deck with J, Q, K (J lowest, K highest)\n- Each player antes {ante} chip and receives 1 card each round (note that the cards are dealt without replacement, so you cannot have the same card as your opponent).\n- Game continues for {max_rounds} rounds\n- The player with the most chips after all rounds wins\nAction Rules:\n- '[check]': Pass without betting (only if no bet is on the table)\n- '[bet]': Add 1 chip to the pot (only if no bet is on the table)\n- '[call]': Match an opponent's bet by adding 1 chip to the pot\n- '[fold]': Surrender your hand and let your opponent win the pot"
+    "intro": "Yaa Player {player_id} kɛɛrɛ kɛɛrɛ {max_rounds} wɛɛrɛ Kuhn Poker.\nKaalɛ wɛɛrɛ:\n- Kuhn Poker tɔɔrɔmɛ 3-kɛɛrɛ dɛɛkɛ nɛ J, Q, K (J kɔm, K kɔɔrɔ)\n- Ɔɔɔnɛ player kɔɔrɔ {ante} chip nɛ rɛɛsɛɛ 1 kɛɛrɛ kɛɛrɛ wɛɛrɛ (kɔɔsɛ kɛɛrɛ wɛɛrɛ dɛɛmɛ tɔɔnɛ, sɔ yɛnɛ kɛɛnɛ kɛɛrɛ wɛɛrɛ ɔɔnɛ ɔɔpɔnɛntɛ).\n- Kaalɛ wɛɛrɛ {max_rounds} wɛɛrɛ\n- Player wɛɛrɛ mɔɔsɛ chip wɛɛrɛ wɛɛrɛ wɛɛnɛ wɛɛnɛ\nKaalɛ wɛɛrɛ:\n- '[check]': Pɔɔsɛ wɛɛnɛ bɛɛtɛ (sɔlɛ kɛɛ bɛɛtɛ tɔɔnɛ tɛɛbɛlɛ)\n- '[bet]': Ɔɔɔnɛ chip kɔɔ pɔɔtɛ (sɔlɛ kɛɛ bɛɛtɛ tɔɔnɛ tɛɛbɛlɛ)\n- '[call]': Mɛɛtɛ ɔɔpɔnɛntɛ bɛɛtɛ nɛ ɔɔnɛ chip kɔɔ pɔɔtɛ\n- '[fold]': Sɔrɛndɛrɛ yɛnɛ hɛɛndɛ nɛ lɛɛtɛ ɔɔpɔnɛntɛ wɛɛnɛ pɔɔtɛ"
   },
   "init_round": {
     "round_start": "### Zaɛŋa ŋmaasim {current_round} ni {max_rounds} zaɛŋa. Kaarta ŋma yɛ: '{player_card}'",
@@ -11,17 +11,17 @@
     "not_legal": "Tʋʋmdã segd n yɩɩ {legal_actions}."
   },
   "action": {
-    "submit_move": "Player {player_id}, submitted move: '[{move}]'.",
+    "submit_move": "Player {player_id}, kaalɛ wɛɛrɛ: '[{move}]'.",
     "valid_actions": "Y sẽn tõe n maan bũmb ning yaa: {legal_actions}.",
-    "round_summary": "{reason} Yɛm zaɛŋa: Player 0: '{player_0_chips}'; Player 1: '{player_1_chips}'"
+    "round_summary": "{reason} To'ga zaa: Jɛnse 0: '{player_0_chips}'; Jɛnse 1: '{player_1_chips}'"
   },
   "showdown": {
-    "showdown_summary": "Showdown: Player {winner}'s {winner_card} beats Player {loser}'s {loser_card}. Player {winner} wins pot of {pot_value} chips."
+    "showdown_summary": "Kaalga: Jɛnse {winner} ka {winner_card} ka kaɣa Jɛnse {loser} ka {loser_card}. Jɛnse {winner} ka to'ga {pot_value} tiɛnu."
   },
   "outcome": {
     "draw": "{max_rounds} wã baasgẽ, b fãa ra tara teed sẽn zem taaba.",
     "round_win": "Bõn-naandã {player_id} basa b tʋʋmdã.",
     "winner_player0": "B sẽn paam n naaga 0 wã yaa b sãn tar chips wʋsg {max_rounds} lɛɛr fãa baasgẽ.",
-    "winner_player1": "Player 1 won by having more chips at the end of all {max_rounds} rounds."
+    "winner_player1": "Player 1 wɛɛnɛ kɔɔrɔ mɔɔsɛ chip kɛɛ {max_rounds} wɛɛrɛ wɛɛnɛ."
   }
 }

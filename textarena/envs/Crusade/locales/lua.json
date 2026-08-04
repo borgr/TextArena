@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({piece}). Opponent is ({opp}). Submit moves as '[b1 c3]' (from → to). All pieces move like chess knights.\nEach capture scores {score_per_capture} point. Game ends after {max_moves} moves or when a player has no legal move / no pieces. Higher score wins."
+    "intro": "Owe udi Mwana {player_id} ({piece}). Mwana wa kumpala ni ({opp}). Pesa mawendo kama '[b1 c3]' (kutoka → kuenda). Mawendo yote ni ya kama kimpala wa chess.\nKukwata kila kimpala kufua {score_per_capture} ponto. Mchezo ukoma baada ya {max_moves} mawendo au wakati Mwana umefikwa na kuto kuwa na mawendo ya sheria / kuto kuwa na mawendo. Ponto ya juu inashinda."
   },
   "board": {
     "current_board": "Lungululua #{move_count}\n\n{board}\n\nMabisi Avantajele: {moves}"
@@ -19,7 +19,7 @@
   "outcome": {
     "no_pieces": "Muena manaya {player_id} kena ne biamu to.",
     "cannot_move": "Muena manaya {player_id} kena mua kuya to.",
-    "higher_score": "Higher capture score.",
+    "higher_score": "Pointi ya juu ya kugwiza.",
     "move_limit": "Bungi bua bintu bidibu mua kuenza bukadi bufike."
   }
 }

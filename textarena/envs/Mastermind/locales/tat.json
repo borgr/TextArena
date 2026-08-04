@@ -13,7 +13,7 @@
     "repeated_guess": "Сез инде {guess} дип уйладыгыз. Зинһар өчен башка төрле фикерне әйтегез."
   },
   "game_action": {
-    "feedback": "Submitted [{guess}]. Feedback: {black_pegs} black peg(s), {white_pegs} white peg(s)."
+    "feedback": "Җибәрелде [{guess}]. Кире бәя: {black_pegs} кара таяк(лар), {white_pegs} ак таяк(лар)."
   },
   "outcome": {
     "win": "Сез кодны җәбештердез, {black_pegs} дан {code_length} чәчәкләрне дөрес рәвештә чишеп булдыз",

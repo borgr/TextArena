@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in Connect Four.\nYour disc symbol: {symbol}.\nThe game board has {num_rows} rows and {num_cols} columns.\nPlayers take turns dropping their disc into one of the columns (0 to {end_col}).\nThe first to connect (their own) four discs vertically, horizontally, or diagonally wins.\nOn your turn, enter the column number in squared brackets to make your move.\nFor example: '[col 4]' or '[col 1]'."
+    "intro": "တို့သည် ကစားသမား {player_id} ဖြစ်ပါ။\nတို့၏ ပြား သင်္ကေတ: {symbol}။\nကစားပွဲ ပလာတ်တွင် {num_rows} တန်းနှင့် {num_cols} ကော်လံ ရှိပါ။\nကစားသမားများ ကော်လံ (0 မှ {end_col}) တွင် တစ်ခု ခုန်ပေး၍ ပြား ချပါ။\nကစားသမား ပထမ မိမိ၏ ပြား လေး ခု ဆက်စပ် ထားလျှင် အောင်ပွဲ ရပါ။\nတို့၏ အလှည့် တွင် ကော်လံ နံပါတ် ကို အကွက် ထဲ ထည့်၍ ခုန် ပေး ပါ။\nဥပမာ: '[col 4]' သို့ '[col 1]'။"
   },
   "board": {
     "board_visible_state": "ၸိုင်ႈမိူင်း Board: {board_visual}",
@@ -8,7 +8,7 @@
   },
   "invalid_move": {
     "wrong_format": "ၽၵ်းၸုမ်ႈ {player_id}၊ လုၵ်ႉၽိုၼ်ႉ ဢမ်ႇၸိုဝ်ႈၸႂ်ႈ။ လွင်ႈလႆႈၸႂ်ႉ တႃႇလုၵ်ႉၽိုၼ်ႉ: '[col x]'။",
-    "out_of_range": "Player {player_id}, Invalid action. Column {col} is out of bounds.",
+    "out_of_range": "ကစားသမား {player_id}, မှားနေ သော အလှည့်။ ကော်လံ {col} သည် နယ် နှင့် မညီ။",
     "already_full": "ၽၵ်းၸုမ်ႈ {player_id}၊ လုၵ်ႉၽိုၼ်ႉ ဢမ်ႇၸိုဝ်ႈၸႂ်ႈ။ ၸွမ်းၼႃႈၵၢၼ် {col} ပဵၼ်တီႈတူဝ်ထုၵ်ႇယဝ်ႉ။"
   },
   "action": {

@@ -11,7 +11,7 @@
     "{ball_pos}": "The cup index the ball is under"
   },
   "player_prompt": {
-    "intro": "Track the hidden ball 'X' while the cups are shuffled.\nAfter shuffling, guess its location with `[k]`."
+    "intro": "Ɛqel tikkukt tinigin 'X' ma tikkukin ttunɣalen.\nSakin tɣalt, kkes azwel-is s `[k]`."
   },
   "game_message": {
     "ball_starts": "ⵜⴰⴱⵓⵔⵜ ⵜⵙⵙⵏⵜⴰ: {line}",
@@ -21,11 +21,11 @@
     "reveal": "(ⴰⵙⵙⵓⴼⵖ: ⵜⴰⴱⵓⵔⵜ ⴷⴷⴰⵡ {ball_pos})"
   },
   "invalid_move": {
-    "wrong_format": "Bad action. Use `[k]`.",
+    "wrong_format": "Aɣawas ur yelli. Seqdec `[k]`.",
     "out_of_range": "ⴰⵏⵎⴰⵍ ⵏ ⵓⴱⵔⵉⴷ ⴳ ⴱⵕⵕⴰ ⵏ ⵓⵙⵏⵡⴰⵏ 0-{max_index}."
   },
   "outcome": {
     "win": "ⴰⵃⴽⴰⵎ! ⵜⵢⴰⴼⴰⵜ ⵜⴰⴱⵓⵔⵜ.",
-    "lose": "Wrong — ball was under cup {ball_pos}."
+    "lose": "Ur d-yelli — tikkukt n 'X' tella deg tikkukt {ball_pos}."
   }
 }

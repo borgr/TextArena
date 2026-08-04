@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing the Minesweeper game.\nThe objective of the game is to reveal all cells that do not contain mines.\nTo make a move, simply specify the row and column coordinates you want to reveal using the format:\n- `[row col]`: Reveal the cell at the specified row and column.\nFor example:\n- `[3 2]` to reveal the cell in Row 3, Column 2.\n- `[5 6]` to reveal the cell in Row 5, Column 6.\nOn your first move, you will reveal an area around the cell you choose to ensure a safe start.\nThe current board layout is shown below. Cells that are unrevealed are represented by a dot ('.'), revealed numbers show the count of adjacent mines.\nBe mindful not to choose already revealed cells.\nHere is the current board layout:\n"
+    "intro": "Ou ap jwe jwèt Minesweeper la.\nObjektif jwèt la se dekouvri tout selil ki pa gen min.\nPou fè yon mouvman, senpleman espesifye kòdonnè wotè ak kòlonn ou vle dekouvri nan fòma sa a:\n- `[row col]`: Dekouvri selil nan wotè ak kòlonn espesifik sa yo.\nPa egzanp:\n- `[3 2]` pou dekouvri selil nan Wotè 3, Kòlonn 2.\n- `[5 6]` pou dekouvri selil nan Wotè 5, Kòlonn 6.\nNan premye mouvman ou, ou pral dekouvri yon zòn alantou selil ou chwazi pou asire yon kòmanse an sekirite.\nDizayn tablo aktuel la montre pi ba. Selil ki pa dekouvri ankò reprezante pa yon pwen ('.'), nonm ki dekouvri montre konte min ki tou pre.\nPran prekosyon pou pa chwazi selil ki deja dekouvri.\nMen dizayn tablo aktuel la:\n"
   },
   "board": {
     "game_board": "Jwèt tab: {board}",

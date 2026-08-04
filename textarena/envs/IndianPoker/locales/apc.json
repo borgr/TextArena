@@ -9,7 +9,7 @@
     "ambiguous": "إمداد بالضبط عمل إحدى الإجراءات بين قوسين، على سبيل المثال '[check]', '[bet 2]', '[call]', '[raise 3]', أو '[fold]'.",
     "cannot_check": "ما فيك [check]، إنت بتواجه رهان.",
     "amount_min": "مبلغ الرهان / الرفع لازم يكون 1 أو أكتر.",
-    "cannot_bet": "Cannot [bet] - must [call] / [raise] / [fold].",
+    "cannot_bet": "لا يمكنك [bet] - يجب أن [call] / [raise] / [fold].",
     "nothing_to_call": "ما في شي لازم تتصل به؛ فيك [check] بدلًا.",
     "no_bet_to_raise": "استعمل [bet X] علشان تفتح، ما في رهان لترفع.",
     "insufficient": "ما في شييبات كفاية لهاد الإجراء."

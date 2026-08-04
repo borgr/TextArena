@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "Neniu valida movformato trovita. Uzadu [a1b2], ekz. [b2c3].",
-    "illegal": "Move [{move}] is illegal."
+    "illegal": "Movo [{move}] estas kontraŭleĝa."
   },
   "game_action": {
     "moved": "Ludanto {player_id} movis {move}."

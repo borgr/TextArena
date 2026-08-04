@@ -1,11 +1,11 @@
 {
   "player_prompt": {
-    "intro": "You are playing a {difficulty} RushHour puzzle. Slide cars to free the red car [X] and drive it out the right edge.\nActions: [A+], [B-], etc.  (+ = forward, - = backward)."
+    "intro": "شما داها {difficulty} راش ساعتی پازل اویناییرسینیز. ماشینلاری سوروشدورون قیرمیزی ماشین [X] آزاد ائدین و اوْنو ساغ طرفه سوروشدورون.\nعمللر: [A+], [B-] و س.  (+ = ایلری، - = گری)."
   },
   "invalid_move": {
     "wrong_format": "ئیله‌لی حرکت. فورمت [A+] / [B-] ایستیفاده ائدین.",
     "no_car": "تابلو اوستونده \"{car_id}\" آوتوموبیلی یوخدور.",
-    "blocked": "Move blocked."
+    "blocked": "حرکت بلوک اولوب."
   },
   "game_message": {
     "solved": "قيرميزي ماشين اوزاقلاشير! تاپماجاني آچدين."

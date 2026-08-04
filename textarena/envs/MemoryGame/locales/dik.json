@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id}. You are playing the Memory Game.\nYour goal is to match more pairs of cards on the board, than your opponent.\nOn your turn, select two cards to flip by entering the row and column numbers of the first and second card respectively like '[0 1 1 0]', where the first card is in row 0 and column 1, and the second card is in row 1 and column 0.\nIf the two cards match, you get a point and the cards remain face up. If they do not match, the cards are flipped back face down, e.g. '.'.\nThe game ends when all pairs have been matched."
+    "intro": "Yin ee Player {player_id}. Yin ee tiiŋ Memory Game.\nYin ee lɔ̈ɔ̈r tɛ̈ɛ̈n ke ye kɔ̈ɔ̈r kɔ̈ɔ̈r kɔ̈ɔ̈r tɛ̈ɛ̈n, ku ye kɔ̈ɔ̈r kɔ̈ɔ̈r kɔ̈ɔ̈r tɛ̈ɛ̈n ee opponent.\nYin ee tɛ̈ɛ̈n, yɔ̈ɔ̈r kɔ̈ɔ̈r kɔ̈ɔ̈r rou ku ye column ee kɔ̈ɔ̈r kɔ̈ɔ̈r kɔ̈ɔ̈r rou ee '[0 1 1 0]', ee kɔ̈ɔ̈r kɔ̈ɔ̈r kɔ̈ɔ̈r rou ee 0 ku ye column ee 1, ku ye kɔ̈ɔ̈r kɔ̈ɔ̈r kɔ̈ɔ̈r rou ee 1 ku ye column ee 0.\nYin ee kɔ̈ɔ̈r kɔ̈ɔ̈r kɔ̈ɔ̈r ee match, yin ee kɔ̈ɔ̈r kɔ̈ɔ̈r kɔ̈ɔ̈r ku ye kɔ̈ɔ̈r kɔ̈ɔ̈r kɔ̈ɔ̈r ee face up. Yin ee kɔ̈ɔ̈r kɔ̈ɔ̈r kɔ̈ɔ̈r ee match, ye kɔ̈ɔ̈r kɔ̈ɔ̈r kɔ̈ɔ̈r ee flipped ee face down, e.g. '.'.\nTɛ̈ɛ̈n ee kɔ̈ɔ̈r kɔ̈ɔ̈r kɔ̈ɔ̈r ee matched, tɛ̈ɛ̈n ee game ee kɔ̈ɔ̈r."
   },
   "board": {
     "current_board": "Akut ye kɔc mac: {board}",
@@ -13,8 +13,8 @@
     "already_matched": "Cɔ̈t ë path. Raan ye wɛ̈ɛ̈r {player_id} acï kaar tök kuany ka rou cï mat wënthɛɛr."
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "Kɔ̈ɔ̈r kɔ̈ɔ̈r kɔ̈ɔ̈r ee Player {player_id} ee positions [{r1} {c1}] ku [{r2} {c2}] ee match!",
+    "cards_no_match": "Kɔ̈ɔ̈r kɔ̈ɔ̈r kɔ̈ɔ̈r ee Player {player_id} ee kɔ̈ɔ̈r kɔ̈ɔ̈r kɔ̈ɔ̈r ee match. Kɔ̈ɔ̈r kɔ̈ɔ̈r kɔ̈ɔ̈r ee positions [{r1} {c1}] ku [{r2} {c2}] ee {pos1} ku {pos2} ee rou."
   },
   "outcome": {
     "draw": "Kɔc ye kek mat në kaar kaa rou kedhiɛ aye thöŋ.",

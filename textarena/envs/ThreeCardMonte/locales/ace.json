@@ -11,18 +11,18 @@
     "{ball_pos}": "The cup index the ball is under"
   },
   "player_prompt": {
-    "intro": "Track the hidden ball 'X' while the cups are shuffled.\nAfter shuffling, guess its location with `[k]`."
+    "intro": "Ieujeuë kup 'X' nyang alheueh bak peuneugöt göp.\nLheuëh göp, teuka lokasinyö ngön `[k]`."
   },
   "game_message": {
-    "ball_starts": "Bola mulai: {line}",
-    "shuffle": "Acak {step}/{steps}: cawan {i} dan {j} ditukar.",
+    "ball_starts": "Bola phôn: {line}",
+    "shuffle": "Göp {step}/{steps}: kup {i} ngön {j} geupeusalin.",
     "cups": "Cawan: {line}  {prompt}",
     "guess_now": "(Teuntée bak saátnyoe!)",
     "reveal": "(Peuleumah: bola di yup {ball_pos})"
   },
   "invalid_move": {
-    "wrong_format": "Bad action. Use `[k]`.",
-    "out_of_range": "Indeks jih diluar kisaran 0-{max_index}."
+    "wrong_format": "Peuneugöt salah. Gunö `[k]`.",
+    "out_of_range": "Indeks luwa 0-{max_index}."
   },
   "outcome": {
     "win": "Betoi! Awak jumpa bola.",

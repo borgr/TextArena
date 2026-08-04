@@ -13,7 +13,7 @@
     "repeated_guess": "သင် ခန့်မှန်းပြီးပါပြီ {guess} ကျေးဇူးပြုပြီး အခြားတစ်ခု စမ်းကြည့်ပါ။"
   },
   "game_action": {
-    "feedback": "Submitted [{guess}]. Feedback: {black_pegs} black peg(s), {white_pegs} white peg(s)."
+    "feedback": "[{guess}] တင်သွင်းပြီး။ တုန့်ပြန်မှု: {black_pegs} အနက် ပဲ့(များ)၊ {white_pegs} အဖြူ ပဲ့(များ)"
   },
   "outcome": {
     "win": "ကုဒ်ကို သင် ဖြုတ်နိုင်ပြီ။ {code_length} ကွင်းထဲက {black_pegs} ကွင်းကို မှန်ကန်စွာ ဖြုတ်နိုင်ပြီ။",

@@ -11,7 +11,7 @@
     "not_legal": "Iṣe gbọdọ jẹ {legal_actions}."
   },
   "action": {
-    "submit_move": "Player {player_id}, submitted move: '[{move}]'.",
+    "submit_move": "Player {player_id}, fi iṣẹ rẹ han: '[{move}]'.",
     "valid_actions": "Àwọn ìgbésẹ̀ tí o lè gbé ni: {legal_actions}.",
     "round_summary": "{reason} Ìpín ìpele: Ẹ̀yin òṣèré 0: \"{player_0_chips}\"; Ẹ̀yin òṣèré 1: \"{player_1_chips}\""
   },

@@ -13,7 +13,7 @@
     "card_not_held": "Bo no tin e karchi di sèn ei mas."
   },
   "message": {
-    "tie": "Tie - bids returned. Rebid!",
+    "tie": "Empate - ofresimentu debolbi. Ofrese atrobe!",
     "auction_result": "P0 a pone {bid0}, P1 a pone {bid1}. Jugador {winner} gana prestigio {prize} (total {total})."
   },
   "outcome": {

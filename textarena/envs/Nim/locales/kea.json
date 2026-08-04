@@ -13,7 +13,7 @@
     "exceeds_pile": "Impossivel retire {quantity} di pilha {pile_index} (so {pile_count} sobra)."
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "Jogador {player_id} djoga [{pile_index} {quantity}], tirá {quantity} objetu(s) di pilha {pile_index}."
   },
   "outcome": {
     "win": "Jogu {player_id} toma kel últimu kuza (s)!"

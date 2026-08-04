@@ -3,12 +3,12 @@
     "intro": "Se speule {color} in 'n sjoal sjake.\n Maak uw zètte in UCI-formaat ingesjlaote in haukhaake (b.v., [e2e4])."
   },
   "board": {
-    "current_board": "Huidig bestuur: {board}",
+    "current_board": "Aktueel bord:\n{board}",
     "valid_moves": "{observation}\nGeldige zètte: {moves}"
   },
   "invalid_move": {
-    "wrong_format": "Verkeerde bewegingsformaat.",
-    "illegal": "Illegaal verhuizing."
+    "wrong_format": "Verkeerd formaat veur de zèt.",
+    "illegal": "Ongeldige zèt."
   },
   "game_action": {
     "moved": "Speler {player_id} haet de volgende zet gemaak: {move_uci}"

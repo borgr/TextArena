@@ -14,7 +14,7 @@
   },
   "game_action": {
     "attack": "P{player_id} P{opp_id}-ren eskuari erasotzen dio {opp_idx}: {opp_val}-tik {new_val}-ra doa.",
-    "split": "P{player_id} splits into [{L}, {R}]."
+    "split": "P{player_id} [{L}, {R}] banatzen da."
   },
   "history": {
     "entry": "P{player_id} {desc}"

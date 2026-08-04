@@ -13,7 +13,7 @@
     "repeated_guess": "تۆ پێشتر {guess}ت زانیوە، تکایە هەوڵبدە بە گریمانەیەکی تر."
   },
   "game_action": {
-    "feedback": "Submitted [{guess}]. Feedback: {black_pegs} black peg(s), {white_pegs} white peg(s)."
+    "feedback": "نێردراوە [{guess}]. فیدباک: {black_pegs} پێگی ڕەش، {white_pegs} پێگی سپی."
   },
   "outcome": {
     "win": "تۆ کۆدی کراک کردووی، {black_pegs} لە {code_length} پێگ بە دروست چارەسەر کرد",

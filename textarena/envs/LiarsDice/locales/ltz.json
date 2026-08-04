@@ -29,7 +29,7 @@
     "new_round": "\nNei Ronn - Reschtéierend Wierfel: {dice_summary}\nÄr aktuell Wierfel sinn: {your_dice}"
   },
   "call": {
-    "bidder_loses": "Player {current_player_id} calls! The actual count of face {face_value} is {count}, which is LESS than {quantity}.\nPlayer {loser_id} (the last bidder) loses one die.",
+    "bidder_loses": "Spiller {current_player_id} ruft! D'tatsächlech Zuel vu Wierfelen mat Gesichtswäert {face_value} ass {count}, wat manner ass wéi {quantity}.\nSpiller {loser_id} (de leschte Bieder) verléiert e Wierfel.",
     "caller_loses": "Spiller {current_player_id} ruff! D'aktuell Zuel vun der Uewerfläch {face_value} ass {count}, wat >= {quantity} ass.\nSpiller {loser_id} (de Ruffer) verléiert een Wierfel."
   },
   "action": {

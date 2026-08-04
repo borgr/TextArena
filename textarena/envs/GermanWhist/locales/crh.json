@@ -68,7 +68,7 @@
     "current_trick": "{observation} Şimdiki hileli:",
     "trump_indicator": " (TRUMP)",
     "trick_line": "{observation}\n  Oyuncu {player_id}: {card}{trump_indicator}",
-    "player_line": "{observation}\nPlayer {player_id}: {scoring} scoring tricks ({tricks} total), {hand_size} cards in hand"
+    "player_line": "{observation}\n{player_id} oyuncusı: {scoring} qazanılğan turlar ({tricks} cemi), {hand_size} kart elde"
   },
   "outcome": {
     "summary": "Ögrenci faza - Oyuncu 0: {l0}, Oyuncu 1: {l1}. Oynama faza - Oyuncu 0: {p0}, Oyuncu 1: {p1}. Oyuncu {winner_id} {winner_tricks} hesablanan trickler ile yeñiy!"

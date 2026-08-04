@@ -38,7 +38,7 @@
   "turn": {
     "board": "{phase}\n{scores}\n{next_card}\n\n{trick}\n\n{hand}",
     "scores_learning": "Dikgetho tse di fitileng - Pelenyana 0: {tricks0}, Pelenyana 1: {tricks1}",
-    "scores_playing": "Scoring tricks - Player 0: {tricks0}, Player 1: {tricks1}",
+    "scores_playing": "Go tswa dikgaisano - Mmathapelo 0: {tricks0}, Mmathapelo 1: {tricks1}",
     "phase": "Kgato: {phase}",
     "phase_learning": "Pego: {phase} ({remaining_cards} dikadi di sala mo deck)"
   },
@@ -68,9 +68,9 @@
     "current_trick": "{observation} Maano a ga jaana:",
     "trump_indicator": "(TRUMP) Ke ne ke batla go bua ka kgang eno.",
     "trick_line": "{observation}\n  Pelenyana {player_id}: {card}{trump_indicator}",
-    "player_line": "{observation}\nPlayer {player_id}: {scoring} scoring tricks ({tricks} total), {hand_size} cards in hand"
+    "player_line": "{observation}\nPlayer {player_id}: {scoring} dikgwa tse di balwang ({tricks} ka palo), {hand_size} karete mo seatleng"
   },
   "outcome": {
-    "summary": "Learning phase - Player 0: {l0}, Player 1: {l1}. Playing phase - Player 0: {p0}, Player 1: {p1}. Player {winner_id} wins with {winner_tricks} scoring tricks!"
+    "summary": "Thuto - Mmathapelo 0: {l0}, Mmathapelo 1: {l1}. Tshameka - Mmathapelo 0: {p0}, Mmathapelo 1: {p1}. Mmathapelo {winner_id} o thabile ka dikgaisano tsa {winner_tricks} tse di nang le madi!"
   }
 }

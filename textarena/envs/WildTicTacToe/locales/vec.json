@@ -6,7 +6,7 @@
     "current_board": "Tavolo corente:\n\n{board}\n\nMossi disponibiłi: {moves}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid move format. Use '[X 4]' or '[O 2]' format.",
+    "wrong_format": "Formato de mossa sbaglià. Usa el formato '[X 4]' o '[O 2]'.",
     "invalid_cell": "Numero de cellula invàlido: {cell}. El ga da esar tra 0 e 8.",
     "already_occupied": "Movimento invàlido. La cella {cell} la xe za ocupada."
   },

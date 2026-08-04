@@ -1,13 +1,13 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id}. You are playing the 15-Puzzle game.\nThe objective of the game is to arrange the numbered tiles in ascending order from 1 to 15, with the empty space located in the bottom-right corner.\nTo make a move, you can slide a tile into the empty space (represented by a double underscore, e.g. __) by using one of the following commands:\n- 'up': Move the tile below the empty space up.\n- 'down': Move the tile above the empty space down.\n- 'left': Move the tile to the right of the empty space left.\n- 'right': Move the tile to the left of the empty space right.\nTo submit your move, type the direction (e.g., 'up', 'down', 'left', or 'right') in square brackets, e.g. [up].\nThe current board layout is shown below. Use the information to solve the puzzle.\n"
+    "intro": "A nyi Akan {player_id}. A le FifteenPuzzle tọn.\nNuhe gando ovi lẹ go wẹ yin nado de ovi lẹ sọn vivọ basi yi 15, podọ ofiagbe ma wẹ tin to aga to otọ̀n.\nNado wleawu de, a sọgan de ovi de do ofiagbe mẹ (he yin nọvisunnu awe, apajlẹ: __) gbọn azọn he tọn mẹ:\n- 'up': De ovi he to godo na ofiagbe lọ yi aga.\n- 'down': De ovi he to aga na ofiagbe lọ yi godo.\n- 'left': De ovi he to otọ̀n na ofiagbe lọ yi adà.\n- 'right': De ovi he to adà na ofiagbe lọ yi otọ̀n.\nNado na wleawu towe, kan azọn lọ (apajlẹ: 'up', 'down', 'left', kavi 'right') to ogantẹn mẹ, apajlẹ: [up].\nAliho ovi lẹ tọn he wa to e godo wẹ e yin apajlẹ to godo.\n"
   },
   "board": {
     "current_board": "Tɔn Atɔn:\n\n{board}\nAṣeblɔ: {moves}",
-    "game_board": "Game Board:\n{board}"
+    "game_board": "Azɔnwà ɖo tɔn sɛ̀ wɛ̀n ɖo:\n{board}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid move format. Player {player_id} did not respond with a valid direction in square brackets.",
+    "wrong_format": "Aliho wleawu tọn ma yọ́. Akan {player_id} ma kàn azọn he yọ́ to ogantẹn mẹ.",
     "illegal_move": "Hɔn ɖ'ayi mɛ̀ ă. Akɔ́n ɔ́ sixu yì fí è ɖè é ǎ."
   },
   "outcome": {

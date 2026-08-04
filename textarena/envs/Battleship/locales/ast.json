@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id}. You are playing the Battleship game.\nYour goal is to sink all of your opponent's ships before they sink yours.\nOn your turn, you can fire missiles at specific coordinates in teh following format: '[a4]'. If the missile hits a ship, it is marked with 'X'. If it misses, it is marked with 'O'. In either scenarios, the game environment will inform you of your hits. If you have sunk a boat, the game environment will tell you!\nThe game ends when all of one player's ships have been sunk.\nYour initial board will show all of your ships placed and your opponent's hits on you, and your hits and misses on your opponent's board without showing your opponent's ships.\nHere is the initial board:\n"
+    "intro": "Yes el xugador {player_id}. Tas xugando al xuegu de Batalla Naval.\nEl to oxetivu ye fundir tolos barcos del to oponente enantes de que él funda los tuyos.\nNa to vez, pue despidir misiles a coordenaes específiques nel siguiente formatu: '[a4]'. Si'l misil algama un barcu, marcar con 'X'. Si falla, marcar con 'O'. En dambos escenarios, l'entornu del xuegu informaráte de los tos aciertos. Si fundisti un barcu, l'entornu del xuegu te lo dirá!\nEl xuegu acaba cuando tolos barcos d'un xugador fueron fundíos.\nLa to tabla inicial amosará tolos tos barcos asitiaos y los aciertos del to oponente sobre ti, y los tos aciertos y fallos sobre la tabla del to oponente ensin amosar los barcos del to oponente.\nEquí ta la tabla inicial:\n"
   },
   "invalid_move": {
     "wrong_format": "El xugador nun respondió con una coordenada válida en paréntesis rectes.",
@@ -8,11 +8,11 @@
     "already_fired": "La coordenada {coord} yá foi disparada."
   },
   "game_action": {
-    "you_sunk": "Sunk! You sunk a ship at {coord}! Your updated board:\n{view}",
+    "you_sunk": "¡Fundíu! Fundisti un barcu en {coord}! La to tabla actualizada:\n{view}",
     "opp_sunk": "Oponente fundió el so barcu en {coord}. La to board actualizada:\n{view}",
-    "you_hit": "Hit! You hit a ship at {coord}! Your updated board:\n{view}",
+    "you_hit": "¡Aciertu! Algamasti un barcu en {coord}! La to tabla actualizada:\n{view}",
     "opp_hit": "Oponente golpeó el so barcu en {coord}. La to board actualizada:\n{view}",
-    "you_miss": "Miss! You missed the ship at {coord}! Your updated board:\n{view}",
+    "you_miss": "¡Fallu! Fallasti'l barcu en {coord}! La to tabla actualizada:\n{view}",
     "opp_miss": "Oponente falló el so barcu en {coord}. La to board actualizada:\n{view}"
   },
   "outcome": {

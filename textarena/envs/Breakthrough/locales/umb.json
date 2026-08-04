@@ -1,20 +1,20 @@
 {
   "player_prompt": {
-    "intro": "You are playing {color} in a game of Breakthrough. You move {direction} on an {board_size}x{board_size} board.\nIn your turn you can move a single piece one step forward or diagonally forward.\nA piece may only move diagonally if an opponent piece is there, and only move into such a preoccupied square in a diagonal step.\nWhen stepping into a square with an opponent piece, you capture it and the opponent's piece is removed permanently from the board.\nUse UCI-like notation in brackets, e.g. [a2a3] to move from a2 to a3.\n* 'a' corresponds to the leftmost column, '1' is the bottom row (from White's perspective).\n* Blacks's home row is the top row (row 8 for an 8x8). White's home row is the bottom row (row 1 for an 8x8).\nThe first player whose piece reaches the opponent's home row wins. If your pieces are all captured, you lose."
+    "intro": "Ove ukuvala {color} mu joga ya Breakthrough. Ove enda {direction} ku taula ya {board_size}x{board_size}.\nMu ngeyi yove, ove uweza kuhemba kipande kimoja kisoka kinyume n'ondjelo kinyume n'ondjelo.\nKipande kikele ka uweza kuhemba n'ondjelo yele, kape na kipande kya mukwetu kina kuwamo, na kape uweza kuhemba ku taula ya mukwetu kisoka kinyume n'ondjelo.\nKape uweza kuhemba ku taula ya mukwetu kipande, ove uweza kukwata kipande kya mukwetu, na kipande kya mukwetu kina kuvaliwa ku taula.\nTumia ulemba wa UCI mu mabano, e.g. [a2a3] uhembe kipande ku a2 ku a3.\n* 'a' kina kulingana na kolumu ya kushoto kabisa, '1' ni mstari wa chini (kutoka kwa mtazamo wa Mweupe).\n* Mstari wa nyumba ya Mweusi ni mstari wa juu (mstari wa 8 kwa taula ya 8x8). Mstari wa nyumba ya Mweupe ni mstari wa chini (mstari wa 1 kwa taula ya 8x8).\nJogadori ya kwanza ambaye kipande chake kina fika kwenye mstari wa nyumba ya mukwetu, ove ushinda. Kape vipande vyako vyote vikamatwa, ove ulusha."
   },
   "invalid_move": {
-    "wrong_format": "Please use bracketed algebraic notation like [a2a3].",
+    "wrong_format": "Tchova tchapa UCI-like notation mu mabano, e.g. [a2a3].",
     "out_of_bounds": "Oku li senga senga ka ku taviwa lombiali yofeka.",
     "illegal": "Pole, nda wa ci linga o lueya ocihandeleko coku imba ombunje. Kuenda ka ca sungulukile oku imba ocisungo caco."
   },
   "game_action": {
-    "moved": "Player {player_id} moves {move_str} ({piece})."
+    "moved": "Mwanajoga {player_id} kupita {move_str} ({piece})."
   },
   "outcome": {
-    "white_reached": "White reached Black's home row.",
-    "black_reached": "Black reached White's home row.",
-    "white_captured": "All White pieces captured.",
-    "black_captured": "All Black pieces captured.",
+    "white_reached": "Mweupe ikwashi ku mstari wa nyumba ya Mweusi.",
+    "black_reached": "Mweusi ikwashi ku mstari wa nyumba ya Mweupe.",
+    "white_captured": "Vipande vyote vya Mweupe vikamatwa.",
+    "black_captured": "Vipande vyote vya Mweusi vikamatwa.",
     "no_moves": "Mwene {player_id} hana milalo yiilongo."
   }
 }

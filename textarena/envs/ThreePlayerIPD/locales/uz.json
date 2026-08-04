@@ -4,11 +4,11 @@
   },
   "round": {
     "start": "─── Boshlash davri {round} ─── Keyingi {conv_rounds} turlarda erkin suhbatlashishingiz mumkin.",
-    "chat_finished": "Chat finished for round {round}. Submit your decisions, one token per opponent: `[pid cooperate]` or `[pid defect]`."
+    "chat_finished": "Raund {round} uchun suhbat tugadi. O'zingizning qarorlaringizni, har bir raqib uchun bitta token bilan kiritib yuboring: `[pid cooperate]` yoki `[pid defect]`."
   },
   "results": {
     "header": "### Raund {round} - Natijalar:",
-    "pair_line": "{observation}\n\t Player {i} vs Player {j} chose to {choice_i} and {choice_j} respectively (Player {i} gained {gain_i}, Player {j} gained {gain_j})",
+    "pair_line": "{observation}\n\t {i}-o'yinchi {j}-o'yinchiga qarshi {choice_i} va {choice_j} tanladi (mos ravishda {i}-o'yinchi {gain_i} ball, {j}-o'yinchi {gain_j} ball oldi)",
     "scores_open": "{observation} -> Joriy natijalar: ",
     "score_first": "{observation}O'yinchi {player_id} ({score})",
     "score_next": "{observation}; O'yinchi {player_id} ({score})",

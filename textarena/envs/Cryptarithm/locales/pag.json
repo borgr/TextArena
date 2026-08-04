@@ -9,10 +9,10 @@
     "{pct}": "Progress as a percentage string, e.g. 50%"
   },
   "player_prompt": {
-    "intro": "Map each letter to a unique digit so the arithmetic holds.\nAssign with `[A 5]`, re-assign anytime.\n"
+    "intro": "I-map la kada letra ed sakey a unikong digit para say arithmetic so tumwak.\nI-assign la gamit so `[A 5]`, i-reassign la ninuman.\n"
   },
   "invalid_move": {
-    "wrong_format": "Bad action format. Use `[A 5]`.",
+    "wrong_format": "Mali so format na aksyon. Gamit la so `[A 5]`.",
     "letter_not_in_puzzle": "Say letra ya {letter} et ag-aknaan.",
     "digit_used": "Say digit {digit} et inusar la na {used_letter}.",
     "leading_zero": "Say manunan digit na salita et agnayarin 0."

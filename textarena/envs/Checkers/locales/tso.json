@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "Hakuna muako wa nkayelo lowu vekiwile. Usa [a1b2], k.g. [b2c3].",
-    "illegal": "Move [{move}] is illegal."
+    "illegal": "Ku hluvuka [{move}] ku ilegal."
   },
   "game_action": {
     "moved": "Mutlangi {player_id} u rhurhile {move}."

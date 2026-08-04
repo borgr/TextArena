@@ -9,12 +9,12 @@
     "{pct}": "Progress as a percentage string, e.g. 50%"
   },
   "player_prompt": {
-    "intro": "Map each letter to a unique digit so the arithmetic holds.\nAssign with `[A 5]`, re-assign anytime.\n"
+    "intro": "Ordnet jidde Buschtaf enger eenzeger Ziffer zou, soudatt d'Rechnung stëmmt.\nZouweisen mat `[A 5]`, ëmweisen zu all Moment.\n"
   },
   "invalid_move": {
-    "wrong_format": "Bad action format. Use `[A 5]`.",
+    "wrong_format": "Falsch Aktiounsformat. Benotzt `[A 5]`.",
     "letter_not_in_puzzle": "Bréif {letter} net am Puzzle.",
-    "digit_used": "Digit {digit} already used by {used_letter}.",
+    "digit_used": "Ziffer {digit} schonn vum Buschtaf {used_letter} benotzt.",
     "leading_zero": "D'Haaptziffer vun engem Wuert kann net 0 sinn."
   },
   "outcome": {

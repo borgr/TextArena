@@ -14,26 +14,26 @@
     "{scores}": "The final scores as a raw player-number to score mapping - do not translate"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player GOPS.\n- You hold the 13 cards A-K (each exactly once).\n- Each round a prize is revealed. Submit ONE card like `[Q]`, `[10]`, `[2]` …\n- Highest card wins the prize (+ any carry-over pot). Ties roll the prize into the next round.\n- After 13 rounds, highest total wins. Invalid moves = elimination."
+    "intro": "We u Player {player_id} mu Three-Player GOPS.\n- We kuunga kamba 13 kamba A-K (kila muswelo kamwe).\n- Kila zuba kamba ya luzu iwezwa. Pemba kamba moja waka `[Q]`, `[10]`, `[2]` …\n- Kamba ya juu ina luzu (+ luzu yoye ya kuwezwa). Kamba zilizo sawa zinakuwa luzu ya kuwezwa kwa zuba inayofuata.\n- Baada ya mizuba 13, kamba ya juu inashinda. Mipembo isiyowezwa = kuondolewa."
   },
   "round": {
-    "header": "### Round {round}/13 - Prize: {prize} (worth {worth})",
-    "hand": "Your remaining hand: {hand}"
+    "header": "### Zuba {round}/13 - Luzu: {prize} (luzu {worth})",
+    "hand": "Kamba yako iliyobaki: {hand}"
   },
   "reveal": {
-    "win": "Bids » {bids} - Player {winner} wins {pot}.",
-    "tie": "Bids » {bids} - tie, pot now {pot}.",
+    "win": "Mipembo » {bids} - Player {winner} anashinda {pot}.",
+    "tie": "Mipembo » {bids} - kamba sawa, luzu sasa {pot}.",
     "scores": "Scores → {scoreline}"
   },
   "invalid_move": {
-    "no_token": "action needs a bracketed card like '[Q]'",
-    "bad_card": "cjk card already used or invalid"
+    "no_token": "kitendo kinahitaji kamba iliyo na mabano waka '[Q]'",
+    "bad_card": "kamba tayari imetumika au haifanyi kazi"
   },
   "elimination": {
-    "player": "Player {pid} eliminated after repeated invalid moves."
+    "player": "Player {pid} ameondolewa baada ya mipembo isiyowezwa mara kwa mara."
   },
   "outcome": {
     "auto_win": "Kkkk, avitani vaviri vavuliwe - kudrawa mupira.",
-    "final": "Final scores: {scores}"
+    "final": "Alama za mwisho: {scores}"
   }
 }

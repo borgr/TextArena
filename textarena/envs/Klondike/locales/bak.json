@@ -16,7 +16,7 @@
     "{cards}": "The cards in a pile as neutral labels, or '--' if empty (never translate)"
   },
   "player_prompt": {
-    "intro": "You are playing Klondike Solitaire. Your goal is to move all cards to the foundation piles.\n\nGame Rules:\n- Foundation piles (F1-F4): Build up from Ace to King in suit\n- Tableau piles (T1-T7): Build down alternating colors (red on black, black on red)\n- Stock: Draw cards to waste pile\n- Waste (W): Top card available for play\n\nCommands:\n- 'draw' - Draw cards from stock to waste\n- 'move <source> <destination> [count]' - Move cards between piles\n  Examples: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count can also be 'all', which will try to move all face-up cards.\n- 'forfeit' - End the game immediately and lock in your current score\n- Pile names: W (waste), F1-F4 (foundations), T1-T7 (tableau)\n\nYou can execute multiple actions in one turn by separating them with commas:\n  Example: 'draw, move W T1, move T2 F1'\n\nOnly Kings can be placed on empty tableau piles.\nActions execute in order - if one fails, the remaining actions are skipped.\nUse 'forfeit' if you believe the game is impossible to win."
+    "intro": "Һеҙ Klondike Solitaire уйынын уйнайһығыҙ. Һеҙҙең маҡсаты - бөтә карталарҙы нигеҙ өйөмдәренә күсереү.\n\nУйын ҡағиҙәләре:\n- Нигеҙ өйөмдәре (F1-F4): Масть буйынса Ace-тан King-ға тиклем төҙөлә\n- Өйөмдәр (T1-T7): Төҫтәрҙе алмаштырып, түбәнәйә (ҡыҙыл ҡара өҫтөнә, ҡара ҡыҙыл өҫтөнә)\n- Өйөм: Ҡалдыҡ өйөмөнә карталарҙы тарта\n- Ҡалдыҡ (W): Өҫкө карта уйын өсөн ҡулланыла\n\nКомандалар:\n- 'draw' - Өйөмдән ҡалдыҡ өйөмөнә карталарҙы тарта\n- 'move <source> <destination> [count]' - Өйөмдәр араһында карталарҙы күсерә\n  Миҫалдар: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count шулай уҡ 'all' булырға мөмкин, ул бөтә асыҡ карталарҙы күсереүгә тырышыр.\n- 'forfeit' - Уйынды шунда уҡ тамамла һәм хәҙерге иҫәпте нығыта\n- Өйөмдәрҙең исемдәре: W (ҡалдыҡ), F1-F4 (нигеҙҙәр), T1-T7 (өйөмдәр)\n\nҺеҙ бер йөрөүҙә күп ғәмәлдәрҙе өткәрергә мөмкин, уларҙы апострофтар менән айырып:\n  Миҫал: 'draw, move W T1, move T2 F1'\n\nТик корольдар буш өйөмдәргә ҡуйыла.\nҒәмәлдәр тәртип буйынса башҡарыла - береһе уңышһыҙ булһа, ҡалған ғәмәлдәр ҡалдырыла.\nУйынды еңеп булмаҫ тип иҫәпләһәгеҙ, 'forfeit' ҡулланығыҙ."
   },
   "format_error": {
     "no_brackets": "Эш форматы дөрөҫ түгел. Эштәр икәүләшеп яҙылырға тейеш.",
@@ -24,8 +24,8 @@
     "empty_command": "Буш команда. \"draw\" йәки \"move <source><destination> [count]\" тип яҙығыҙ",
     "empty_action": "Буш эш итеү",
     "move_needs_args": "Күсер командаһы сығанаҡ һәм тәғәйенләнеште талап итә. Ҡулланыу: \"move <source> <destination> [count]\"",
-    "count_positive": "Һан ыңғай йәки \"бөтәһе лә\" булырға тейеш.",
-    "count_invalid": "Һандар дөрөҫ түгел. һан йәки \"бөтә\" ҡулланығыҙ",
+    "count_positive": "Һан положител йәки 'all' булырға тейеш",
+    "count_invalid": "Һан дөрөҫ түгел. Һан йәки 'all' ҡулланығыҙ",
     "unknown_command": "Билдәһеҙ команда '{cmd}'. 'draw', 'move <source> <destination> [count]', йәки 'forfeit' командаларын ҡулланығыҙ",
     "wrapped": "Хәрәкәт {n}: {msg}"
   },

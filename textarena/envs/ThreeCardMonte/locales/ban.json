@@ -11,7 +11,7 @@
     "{ball_pos}": "The cup index the ball is under"
   },
   "player_prompt": {
-    "intro": "Track the hidden ball 'X' while the cups are shuffled.\nAfter shuffling, guess its location with `[k]`."
+    "intro": "Tutugang bola 'X' ane mabalih di tengah cup-cup ane kecampuhan.\nSasubané kecampuhan, kira genah ipuné nganggén `[k]`."
   },
   "game_message": {
     "ball_starts": "Bola ngawit: {line}",
@@ -21,7 +21,7 @@
     "reveal": "(Nyarengin: bola ring sor {ball_pos})"
   },
   "invalid_move": {
-    "wrong_format": "Bad action. Use `[k]`.",
+    "wrong_format": "Pilaksanaan salah. Anggén `[k]`.",
     "out_of_range": "Indeks medal saking kisaran 0-{max_index}."
   },
   "outcome": {

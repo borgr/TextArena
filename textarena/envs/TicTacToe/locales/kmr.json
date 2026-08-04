@@ -7,7 +7,7 @@
     "{cell}": "A board cell number between 0 and 8"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Tic Tac Toe.\nYour goal is to win three in a row (horizontally, vertically, or diagonally) on the board.\nOn your turn, you should select the square number (0-8) you want to put your mark in next.\nFor example, '[4]' places your mark in the center cell of the board.\nAs Player {player_id}, you will be '{symbol}', while your opponent is '{opponent_symbol}'."
+    "intro": "Tu Lîstikvan {player_id} î di Tic Tac Toe de.\nArmanca te ew e ku sê caran li pey hev (li alî, stûn an jî xweriskî) li ser textê bi dest bixe.\nDi gavê xwe de, divê tu hejmara çargoşeyê (0-8) hilbijêrî ku dixwazî nîşana xwe li wir bixe.\nWek mînak, '[4]' nîşana te di xaneya navîn a textê de dixe.\nWek Lîstikvan {player_id}, tu wê '{symbol}' bî, wê dijberê te jî '{opponent_symbol}' be."
   },
   "board": {
     "current_board": "Taqeta Heyî\n\n{board}\n\nBirînên Berfireh: {moves}"

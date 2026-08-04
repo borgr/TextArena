@@ -15,7 +15,7 @@
   "invalid_move": {
     "wrong_format": "Likambo oyo batindi elandi lolenge ya malamu te.",
     "out_of_range": "{cell} ezali cellule ya malamu te. Esengeli kozala kati na 0 mpe 8.",
-    "already_occupied": "Cell {cell} is already occupied."
+    "already_occupied": "Cellule {cell} ezali deja occupée."
   },
   "game_action": {
     "placed": "Mokeli {player_id} akeli symbole na ye ({symbol}) na cell {cell}."

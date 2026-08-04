@@ -16,7 +16,7 @@
   },
   "game_action": {
     "skipped": "Ciyaaryahanka {pid} waa inuu ka gudbaa wareegiisa",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "Cayaarta {pid} ({piece}) ciyaartay [{r}, {c}] oo rogrogay {flipped} qayb (oo)"
   },
   "game_message": {
     "must_skip": "Ciyaaryahanka {pid} ({piece}) ma laha dhaqaaqyo sax ah waana inuu ka boodo."

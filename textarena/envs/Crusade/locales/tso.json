@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({piece}). Opponent is ({opp}). Submit moves as '[b1 c3]' (from → to). All pieces move like chess knights.\nEach capture scores {score_per_capture} point. Game ends after {max_moves} moves or when a player has no legal move / no pieces. Higher score wins."
+    "intro": "U wena Mpira {player_id} ({piece}). Mphikisi wena i ({opp}). Nyika mihlangano ya '[b1 c3]' (ku huma → ku ya). Mihlangano yote ya mpira yi famba njhani ya mabutha ya chess.\nKu teka mpira kunike {score_per_capture} ponti. Mpira wu herile endzhaku ka {max_moves} mihlangano kumbe loko mpira a nga na mihlangano ya nawini / a nga na mpira. Ponti leyinene yi wina."
   },
   "board": {
     "current_board": "Khomela #{move_count}\n\n{board}\n\nTivhulamuleri Letolodi: {moves}"
@@ -14,7 +14,7 @@
   },
   "game_action": {
     "moved": "Muteri {player_id} u humelerile nyongwate wake ku sukela {frm} ku ya emahlweni {to}.",
-    "capture": "{observation} Capturing a piece! (+{score_per_capture})"
+    "capture": "{observation} Ku teka mpira! (+{score_per_capture})"
   },
   "outcome": {
     "no_pieces": "Mutlangi {player_id} a nga na swiphemu.",

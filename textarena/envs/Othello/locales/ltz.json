@@ -16,7 +16,7 @@
   },
   "game_action": {
     "skipped": "De Spiller {pid} huet hiren Tour misste sprangen.",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "Spiller {pid} ({piece}) huet [{r}, {c}] gespillt an {flipped} Steng(ën) ëmgedréit"
   },
   "game_message": {
     "must_skip": "Spiller {pid} ({piece}) huet keng gëllteg Zich a muss überspréngen."

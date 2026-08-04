@@ -13,7 +13,7 @@
     "illegal": "Em i no stret long gavman."
   },
   "game_action": {
-    "captured": "Player {player_id} captured a piece! (+{score_per_capture})"
+    "captured": "Player {player_id} i kisim wanpela piece! (+{score_per_capture})"
   },
   "outcome": {
     "no_pieces": "Man {player_id} i no gat wanpela pilai.",

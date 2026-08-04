@@ -48,7 +48,7 @@
   "message": {
     "deck_empty": "E palu ta bashí! Wegua ta kaba mesora.",
     "knocked": "E hungadó {pid} a keda knock! Kada otro hungadó ta haña un turno mas.",
-    "final_round": "Player {pid} {reason}! Cada otro player ta haya un turno mas."
+    "final_round": "Hungadó {pid} {reason}! Kada otro hungadó ta haña un rònt mas."
   },
   "reason": {
     "all_revealed": "tur carta a keda revela?"
@@ -71,7 +71,7 @@
     "line": "Player {pid}: {score} punto\n"
   },
   "board_str": {
-    "title": "=== GOLF GAME ===",
+    "title": "=== WEGA DI GOLF ===",
     "discard": "E kantidat di karga ku ta wòrdu kita: {card}",
     "knocked": "E hungadó {pid} a bati!",
     "player_header": "Player {pid} (Puntuacion: {score}):"

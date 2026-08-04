@@ -13,6 +13,6 @@
   },
   "outcome": {
     "win": "बधाई हो! आप सही नंबर पर पहुंचे।",
-    "turn_limit": "The turn limit has been reached. Guess: {guess}, Target: {target}"
+    "turn_limit": "टर्न सीमा समाप्त हो गई है। अनुमान: {guess}, लक्ष्य: {target}"
   }
 }

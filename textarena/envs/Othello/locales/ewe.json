@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} playing {colour} ({piece}) in a game of Othello.\nYour goal is to have more pieces of your color on the board by the end of the game.\nOn your turn, place a piece such that it flanks one or more of your opponent's pieces-in any direction (horizontal, vertical, or diagonal)-between your new piece and another of your existing pieces. All flanked opponent pieces will be flipped to your color.\nProvide your move in the format '[row, col]'."
+    "intro": "Ame {player_id} nye xɔxɔtɔ {colour} ({piece}) le Othello ƒe eme ŋu.\nDɔ wòaxɔ nye be na wòazu xɔxɔtɔ siwo tɔ ŋgɔ na mɔ le tɛtɛ ŋu le eme ƒe nuvɔ̃lia me.\nLe wòaxɔ me, tsɔ xɔxɔtɔ sia eye wòado xɔxɔtɔ bubu siwo nye mɔtɔwo le ƒe mɔɖeɖe (gbɔgbɔ, yɔyɔ, alo gɔgɔme) le wòaxɔ xɔxɔtɔ ƒe kɔkɔme.\nXɔxɔtɔ siwo wòado ƒe mɔtɔwo ƒe xɔxɔtɔ siwo tɔ ŋgɔ na mɔ le wòaxɔ xɔxɔtɔ ƒe kɔkɔme.\nDɔ wòaxɔ wòasrɔ ƒe mɔɖeɖe le '[row, col]' ƒe ŋkɔme."
   },
   "board": {
     "game_board": "Fefewɔƒea: {board}",
@@ -16,10 +16,10 @@
   },
   "game_action": {
     "skipped": "Ele na fefewɔla {pid} be wòada eƒe gamea dzi.",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "Aɖa {pid} ({piece}) wɔ dɔ le [{r}, {c}] ku {flipped} dzidzi(wo)"
   },
   "game_message": {
-    "must_skip": "Player {pid} ({piece}) has no valid moves and must skip."
+    "must_skip": "Xɔxɔtɔ {pid} ({piece}) mɛnye mɔɖeɖe siwo wòaxɔ wòasrɔ eye wòado nɔnɔ."
   },
   "outcome": {
     "black_wins": "Ametsuwo ɖu dzi {black_count}-{white_count}.",

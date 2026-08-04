@@ -7,8 +7,8 @@
     "out_of_range": "Ìmọ̀ràn gbọdọ̀ wà láàrin {min_guess} àti {max_guess}."
   },
   "message": {
-    "round_guesses": "Player 0 ti ṣe aṣẹ {guess0}; Player 1 ti ṣe aṣẹ {guess1}. Nitorina, Target ni: {target}.",
-    "round_draw": "Round is a draw.",
+    "round_guesses": "Oṣẹ 0 ṣe atẹjade {guess0}; Oṣẹ 1 ṣe atẹjade {guess1}. Nitorinaa Ọla naa ni: {target}.",
+    "round_draw": "Igba naa je ide.",
     "round_win": "Ẹnìkan tí ó jẹ {winner} ló borí nínú ìyí náà!"
   },
   "outcome": {

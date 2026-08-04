@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "Дөрес күч форматы табылмады. [a1b2] кулланыгыз, мисал өчен [b2c3].",
-    "illegal": "Move [{move}] is illegal."
+    "illegal": "Күченү [{move}] рөхсәт ителми."
   },
   "game_action": {
     "moved": "Уенчы {player_id} {move} күчте."

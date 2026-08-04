@@ -9,12 +9,12 @@
     "{pct}": "Progress as a percentage string, e.g. 50%"
   },
   "player_prompt": {
-    "intro": "Map each letter to a unique digit so the arithmetic holds.\nAssign with `[A 5]`, re-assign anytime.\n"
+    "intro": "Map each letter to digit koro sɛnea arithmetic no bɛyɛ.\nAssign with `[A 5]`, re-assign bere biara.\n"
   },
   "invalid_move": {
-    "wrong_format": "Bad action format. Use `[A 5]`.",
+    "wrong_format": "Action format bɔne. Use `[A 5]`.",
     "letter_not_in_puzzle": "Krataafa {letter} nni asumasɛm mu.",
-    "digit_used": "Digit {digit} already used by {used_letter}.",
+    "digit_used": "Digit {digit} a {used_letter} de claim no.",
     "leading_zero": "Asɛmfua bi mu kan nkyerɛwde ntumi nyɛ 0."
   },
   "outcome": {

@@ -14,7 +14,7 @@
     "{scores}": "The final scores as a raw player-number to score mapping - do not translate"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player GOPS.\n- You hold the 13 cards A-K (each exactly once).\n- Each round a prize is revealed. Submit ONE card like `[Q]`, `[10]`, `[2]` …\n- Highest card wins the prize (+ any carry-over pot). Ties roll the prize into the next round.\n- After 13 rounds, highest total wins. Invalid moves = elimination."
+    "intro": "UnguPlayer {player_id} kwiThree-Player GOPS.\n- Uyawina amakhadi 13 A-K (ngamanye amaxesha).\n- Kwi-round nganye iprize iyavelwa. Ngenisa khadi enye njengo `[Q]`, `[10]`, `[2]` …\n- Ikhadi ephakamileyo inqoba iprize (+ neyiphi na pot). I-Tie isongela iprize kwi-round elandelayo.\n- Emva kwee-round 13, ixabiso eliphezulu linqoba. Iinqobo ezibhityileyo = ukupheliswa."
   },
   "round": {
     "header": "### Mzuzu {round}/13 - Iphondo: {prize} (iphathelele {worth})",

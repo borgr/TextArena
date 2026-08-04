@@ -9,17 +9,17 @@
     "{pct}": "Progress as a percentage string, e.g. 50%"
   },
   "player_prompt": {
-    "intro": "Map each letter to a unique digit so the arithmetic holds.\nAssign with `[A 5]`, re-assign anytime.\n"
+    "intro": "Panga kila herufi kwenye tarakimu ya kipekee ili hesabu iendelee.\nWekea `[A 5]`, badilisha wakati wowote.\n"
   },
   "invalid_move": {
-    "wrong_format": "Bad action format. Use `[A 5]`.",
+    "wrong_format": "Muundo mbaya wa hatua. Tumia `[A 5]`.",
     "letter_not_in_puzzle": "Nthoo {letter} ndĩtũkwataa.",
     "digit_used": "Nambari {digit} tayari inatumiwa na {used_letter}.",
     "leading_zero": "Nthoo ĩla yĩ mbee wa ndeto ndĩsa kwĩthĩwa 0"
   },
   "outcome": {
     "correct": "Vate nzika, ũsu nĩ ũndũ ũtonyeka.",
-    "incorrect": "Mapping complete but equation incorrect.",
+    "incorrect": "Uwekaji umekamilika lakini mlinganyo si sahihi.",
     "limit": "Wĩa witũ ũminĩte kũthelelwa."
   },
   "board": {

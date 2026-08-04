@@ -25,7 +25,7 @@
   "message": {
     "round_result": "{reason}  Pot {pot} → Lîstikvan {winner}. (Bankroll P0:{p0}, P1:{p1})",
     "folded": "Lîstikvan {player_id} têk çû.",
-    "showdown_win": "Showdown: {card_win} beats {card_lose}.",
+    "showdown_win": "Dawî: {card_win} {card_lose} têkbir dike.",
     "showdown_tie": "Showdown tie: herdu {card}. Pot split  her yek distîne {split} ."
   },
   "outcome": {

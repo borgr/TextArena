@@ -9,18 +9,18 @@
     "{pct}": "Progress as a percentage string, e.g. 50%"
   },
   "player_prompt": {
-    "intro": "Map each letter to a unique digit so the arithmetic holds.\nAssign with `[A 5]`, re-assign anytime.\n"
+    "intro": "प्रत्येक अक्षर के साथ एक अनोख अंक जोड़े जिससे गणित ठीक रहे।\n `[A 5]` साथ नियुक्त करें, कभी भी फेरबदल कर सकथे।\n"
   },
   "invalid_move": {
-    "wrong_format": "Bad action format. Use `[A 5]`.",
+    "wrong_format": "खराब कार्य फॉर्मेट। `[A 5]` का उपयोग करें।",
     "letter_not_in_puzzle": "पत्र {letter} पहेली म नी हवय।",
-    "digit_used": "अंक {digit} पहले से {used_letter} द्वारा उपयोग किया जा चुका है।",
+    "digit_used": "{digit} अंक पहिले से {used_letter} द्वारा उपयोग किया जा रहे हे।",
     "leading_zero": "एक शब्द का अग्रणी अंक 0 नी हो सकत हवय।"
   },
   "outcome": {
     "correct": "सही! समीकरण संतुष्ट हवय।",
     "incorrect": "मानचित्रण पूरा लेकिन समीकरण गलत हवय।",
-    "limit": "गति सीमा तक पहुंच गए।"
+    "limit": "चाल सीमा पूरा हो गई हे।"
   },
   "board": {
     "mapping_header": "मानचित्रण:",

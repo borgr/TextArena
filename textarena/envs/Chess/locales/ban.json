@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing {color} in a game of Chess.\n Make your moves in UCI format enclosed in square brackets (e.g., [e2e4])."
+    "intro": "Cai ngmain {color} ring permainan Sekak.\n Gelisang gerakan caine ring format UCI kabungkus ring kurung siku (cont., [e2e4])."
   },
   "board": {
     "current_board": "Papan sané mangkin: {board}",

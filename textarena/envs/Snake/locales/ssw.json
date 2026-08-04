@@ -11,7 +11,7 @@
     "{groups}": "Neutral ranking data (a list of player-id groups, worst to best); do not translate"
   },
   "player_prompt": {
-    "intro": "{num_players}-Player Snake on a {width}×{height} grid.\nYou control snake {player_id}. Valid moves: '[up]'/'[down]'/'[left]'/'[right]' (or w/s/a/d).\nObjective: survive longest or be the longest and get the highest score (turn limit {max_turns} turns)."
+    "intro": "{num_players}-Bafana be-Snake ku-gridi ye-{width}×{height}.\nUngumcondzisi wesikhokho {player_id}. Imikhankaso lemisebenti: '[up]'/'[down]'/'[left]'/'[right]' (noma w/s/a/d).\nInjongo: phila isikhathi lesidala noma uwe osikhokho omlande futsi ube nomklomelo ophakeme (ingemuva yemi {max_turns} yemikhankaso)."
   },
   "board": {
     "current": "Likomidi lelisebentako: {board}",

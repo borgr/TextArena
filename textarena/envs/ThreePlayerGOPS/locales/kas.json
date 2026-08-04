@@ -14,15 +14,15 @@
     "{scores}": "The final scores as a raw player-number to score mapping - do not translate"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player GOPS.\n- You hold the 13 cards A-K (each exactly once).\n- Each round a prize is revealed. Submit ONE card like `[Q]`, `[10]`, `[2]` …\n- Highest card wins the prize (+ any carry-over pot). Ties roll the prize into the next round.\n- After 13 rounds, highest total wins. Invalid moves = elimination."
+    "intro": "آپ تھری پلیئر GOPS میں کھلاڑی {player_id} ہیں۔\n- آپ کے پاس 13 کارڈز A-K (ہر ایک بالکل ایک بار) ہیں۔\n- ہر راؤنڈ میں ایک انعام ظاہر ہوتا ہے۔ ایک کارڈ جیسے `[Q]`، `[10]`، `[2]` جمع کریں …\n- سب سے زیادہ کارڈ انعام جیتتا ہے (+ کسی بھی کیری اوور پوٹ)۔ ٹائی راؤنڈ کو اگلے راؤنڈ میں رول کرتی ہے۔\n- 13 راؤنڈز کے بعد، سب سے زیادہ کل جیتتا ہے۔ غلط حرکت = خاتمہ۔"
   },
   "round": {
-    "header": "### राउंड {round}/१३ - इनाम: {prize} (मूल्य {worth})",
-    "hand": "तेरे रेस्टिंग हेंडः {hand}"
+    "header": "### راؤنڈ {round}/13 - انعام: {prize} (قیمت {worth})",
+    "hand": "آپ کی باقی ہاتھ: {hand}"
   },
   "reveal": {
-    "win": "बोली » {bids} - खिलाड़ी {winner} {pot} जीतता है।",
-    "tie": "बिड्स  {bids} - टाई, पॉट नाउ {pot}.",
+    "win": "بولیں » {bids} - کھلاڑی {winner} {pot} جیتتا ہے۔",
+    "tie": "بولیں » {bids} - ٹائی، پوٹ اب {pot} ہے۔",
     "scores": "स्कोर → {scoreline}"
   },
   "invalid_move": {
@@ -30,10 +30,10 @@
     "bad_card": "कार्ड छी आमुत इस्तिमाल गस्सा या छान वैलिड"
   },
   "elimination": {
-    "player": "प्लेयर {pid} छूटे बार-बार अमान्य चाल के बाद."
+    "player": "کھلاڑی {pid} بار بار غلط حرکتوں کے بعد ختم ہو گیا ہے۔"
   },
   "outcome": {
-    "auto_win": "ज़े प्लेयर एलिमिनेट - ऑटोमेटिक विन.",
-    "final": "आखरी स्कोर: {scores}"
+    "auto_win": "دو کھلاڑی ختم ہو گئے ہیں - خودکار جیت۔",
+    "final": "حتمی اسکورز: {scores}"
   }
 }

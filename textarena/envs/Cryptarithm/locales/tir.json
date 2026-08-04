@@ -9,10 +9,10 @@
     "{pct}": "Progress as a percentage string, e.g. 50%"
   },
   "player_prompt": {
-    "intro": "Map each letter to a unique digit so the arithmetic holds.\nAssign with `[A 5]`, re-assign anytime.\n"
+    "intro": "ከምዚ እንተ ኣሎ ፊደል ኣንቀጻ ኣልቦ እንተ ኣሎ ማውጫ ኣረጐ።\nማውጫ ከምዚ `[A 5]`፣ ከምዚ እንተ ኣሎ ኣረጐ።\n"
   },
   "invalid_move": {
-    "wrong_format": "Bad action format. Use `[A 5]`.",
+    "wrong_format": "ኣይኮነን እንተ ኣሎ ማውጫ. ከምዚ `[A 5]` ኣረጐ።",
     "letter_not_in_puzzle": "ፊደል {letter} ኣብ እንኮላይ ኣይርከብን እዩ።",
     "digit_used": "ቁጽረት {digit} ብእንተኢ {used_letter} ብምኽንያት ይጠቕም.",
     "leading_zero": "ናይ ሓንቲ ቃል መእተዊ ዲጂት 0 ክኸውን ኣይክእልን እዩ።"

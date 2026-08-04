@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing Mastermind.\nYou need to find the code that is {code_length} digits long, each digit from 1 to {num_numbers}, {repeats}.\nIn your response, you can submit your guess in the following format: '[2 1 4 5]'.\nAfter each guess, you will receive feedback in the form of black and white pegs.\nA black peg indicates a correct digit in the correct position, while a white peg indicates a correct digit in the wrong position.\nYou have {max_turns} turns to guess the code.\n",
+    "intro": "Mwena ukubomba Mastermind.\nUkutaka kupata code elo {code_length} tarakimu ndefu, kila tarakimu kutoka 1 hadi {num_numbers}, {repeats}.\nMu mbali yenu, mungasubmita makani yenu mu fomu ifi: '[2 1 4 5]'.\nBaada ya kila makani, mungatasha maoni mu fomu ya vigwagwa vyakwe na vyakwe vya mpemba.\nGwagwa lya kwe linaonyesha tarakimu iliyo sahihi mu nafasi iliyo sahihi, wakati gwagwa lya mpemba linaonyesha tarakimu iliyo sahihi mu nafasi isiyosahihi.\nMwena {max_turns} zuba za kukani code.\n",
     "with_repeats": "kuti cacitika ukubwekeshapo.",
     "no_duplicates": "ukwabula ukubwekeshapo na kabili"
   },
@@ -13,7 +13,7 @@
     "repeated_guess": "Mwalitala mwishiba {guess}. Mukwai esheni ukulolesha fimbi."
   },
   "game_action": {
-    "feedback": "Submitted [{guess}]. Feedback: {black_pegs} black peg(s), {white_pegs} white peg(s)."
+    "feedback": "Mwasubmita [{guess}]. Maoni: {black_pegs} vigwagwa vyakwe, {white_pegs} vigwagwa vya mpemba."
   },
   "outcome": {
     "win": "Wacita uluse ku Mastermind, wapitiliza {black_pegs} kati ya {code_length} pegs kuwama.",

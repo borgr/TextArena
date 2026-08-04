@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "Onki giltig føringsformæta fannst. Nýta [a1b2], t.d. [b2c3].",
-    "illegal": "Move [{move}] is illegal."
+    "illegal": "Flyting [{move}] er ólóglig."
   },
   "game_action": {
     "moved": "Leikarin {player_id} hevur flutt seg {move}."

@@ -10,7 +10,7 @@
   },
   "game_message": {
     "hand_result": "Man {hand_number}: bo {outcome}. Bo puntuashon final {player_score}, Dealer {dealer_score}.",
-    "all_complete": "=== All {num_hands} hands complete ===\nWins: {wins}, Losses: {losses}, Draws: {draws}\n"
+    "all_complete": "=== Tur {num_hands} man kompleto ===\nGanan: {wins}, Perdeshon: {losses}, Empate: {draws}\n"
   },
   "outcome": {
     "game_over": "E juego a termina. Puntuashon final: Dealer: {losses}, Bo: {wins}, Empate: {draws}"

@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are in a room with {num_buttons} buttons: {buttons}. Each button is associated with a Bernoulli distribution with a fixed but unknown mean; the means for the buttons could be different.\nFor each button, when you press it, you will get a reward that is sampled from associated distribution.\nYou have {num_turns} time steps and, on each time step, you can choose any button and receive the reward.\nYour goal is to strategically choose buttons at each time step to collect information about their reward distribution, that will let you choose the button with the highest mean reward correctly at the end of {num_turns} turns."
+    "intro": "तुम एक कमरे में {num_buttons} बटन संग हो: {buttons}। प्रत्येक बटन एक बर्नौली वितरण संग जुड़ेल हे, जेकर माध्य निश्चित बाकी अज्ञात हे; बटन ला माध्य अलग-अलग हो सकथे।\nप्रत्येक बटन ला, जब तुम ओकरा दबाही, तुमको एक इनाम मिलथे जे संबंधित वितरण संग नमुना लिहल जाथे।\nतुमर {num_turns} समय कदम हे, आ प्रत्येक समय कदम में, तुम कोनो बटन चुन सकथो आ इनाम प्राप्त कर सकथो।\nतुमर लक्ष्य हे प्रत्येक समय कदम में रणनीतिक रूप संग बटन चुनना, जे तुमको ओकर इनाम वितरण के बारे में जानकारी संग्रह कर देथे, जे तुमको {num_turns} मोड़ा के अंत में सबसे ज्यादा माध्य इनाम वाला बटन चुनन देथे।"
   },
   "board": {
     "stat_line": "{button}: {reward} ({count} वार खेलल बा)",

@@ -13,8 +13,8 @@
     "already_matched": "אומגילטיקע שריט. שפּילער {player_id} האָט אויסגעקליבן איין אָדער ביידע קאַרדס וואָס זענען שוין געווען גלייַכן."
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "די קאַרטן וואָס שפּילער {player_id} האָט אויסגעוועלט ביי פּאָזיציעס [{r1} {c1}] און [{r2} {c2}] שטימען!",
+    "cards_no_match": "די קאַרטן וואָס שפּילער {player_id} האָט אויסגעוועלט שטימען נישט. קאַרטן ביי פּאָזיציעס [{r1} {c1}] און [{r2} {c2}] זענען {pos1} און {pos2} רעספּעקטיוו."
   },
   "outcome": {
     "draw": "ביידע שפּילער האָבן געמאַכט די זעלבע צאָל פּערז קאַרדס.",

@@ -1,9 +1,9 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a game of HighSociety (2-player version).\nGame flow:  Ten prestige cards are auctioned one after another.\nBidding:    Each auction, secretly choose a money card 1-11 and reveal.\n            • Higher bid wins the prestige card and discards that money card.\n            • Lower bid keeps their money card.\n            • Tie -> both bids are returned and the same prestige card is re-auctioned.\nScoring:    After all ten auctions, add **remaining cash + prestige points**.\n            Higher *net-worth* wins (exact tie -> draw).\n\n**Action syntax**  →  bid a single card like '[7]' or '[11]'."
+    "intro": "Aweyi kɩlaɣ {player_id} kɛ HighSociety tʋmɩyɛ taa (kɩlaɣ 2 mba tʋmɩyɛ).\nTʋmɩyɛ tɔm:  Prestige takaya 10 ɖɔɖɔ kʋyɩ kʋyɩ.\nKʋyɩ:    Kʋyɩ kʋyɩ, tɩlɩ kʋyɩ pɛ pɛ pɛ pɛ pɛ pɛ pɛ pɛ pɛ pɛ.\n            • Kʋyɩ kɩlaɣ kʋyɩ kʋyɩ takaya nɛ kʋyɩ pɛ.\n            • Kʋyɩ kɩlaɣ kʋyɩ kʋyɩ pɛ.\n            • Tie -> kʋyɩ kʋyɩ kʋyɩ pɛ nɛ kʋyɩ kʋyɩ takaya kʋyɩ kʋyɩ.\nMʋʋ:    Kʋyɩ kʋyɩ 10 kʋyɩ, ɖɔɖɔ **pɛ pɛ + prestige mʋʋ**.\n            Mʋʋ kʋyɩ kʋyɩ *net-worth* kʋyɩ (tie kʋyɩ kʋyɩ -> kʋyɩ kʋyɩ).\n\n**Tʋmɩyɛ tɔm**  →  kʋyɩ pɛ pɛ pɛ pɛ '[7]' pɛ '[11]'."
   },
   "auction": {
-    "announce": "\n### Auction {round}/10  |  Prestige card: {prize}"
+    "announce": "\n### Kʋyɩ {round}/10  |  Prestige takaya: {prize}"
   },
   "board": {
     "money_cards": "Ŋwɛna liidiye nɛ ŋtɛŋ lɛ, ña-taa woki: {money}"
@@ -14,11 +14,11 @@
   },
   "message": {
     "tie": "Paɖaɣnɩɣ-ɖʋ haʋ waɖɛ se ɖɩtasɩ labʋ tʋmɩyɛ nɖɩ.",
-    "auction_result": "P0 bid {bid0}, P1 bid {bid1}. Player {winner} wins prestige {prize} (total {total})."
+    "auction_result": "P0 kʋyɩ {bid0}, P1 kʋyɩ {bid1}. Kɩlaɣ {winner} kʋyɩ prestige {prize} (mʋʋ {total})."
   },
   "outcome": {
-    "p0_wins": "Net-worth {nw0} > {nw1}",
-    "p1_wins": "Net-worth {nw1} > {nw0}",
+    "p0_wins": "Kɩfam kɩ-tɛm {nw0} > {nw1}",
+    "p1_wins": "Kɩfam kɩ-tɛm {nw1} > {nw0}",
     "draw": "Pa-naalɛ paawɛ kɩmaŋ {nw0}  pɛkpɛndɩ ɖeyi ɖeyi."
   }
 }

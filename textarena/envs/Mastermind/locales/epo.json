@@ -13,7 +13,7 @@
     "repeated_guess": "Vi jam divenis {guess}. Bonvolu provi alian supozon."
   },
   "game_action": {
-    "feedback": "Submitted [{guess}]. Feedback: {black_pegs} black peg(s), {white_pegs} white peg(s)."
+    "feedback": "Sendita [{guess}]. Reago: {black_pegs} nigraj stango(j), {white_pegs} blankaj stango(j)."
   },
   "outcome": {
     "win": "Vi rompis la kodon, solvante {black_pegs} el {code_length} pegojn ĝuste",

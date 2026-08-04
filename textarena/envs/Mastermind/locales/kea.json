@@ -13,7 +13,7 @@
     "repeated_guess": "Bu dja adivinha {guess}. Pur favor, tenta un otu varianti."
   },
   "game_action": {
-    "feedback": "Submitted [{guess}]. Feedback: {black_pegs} black peg(s), {white_pegs} white peg(s)."
+    "feedback": "Submetidu [{guess}]. Feedback: {black_pegs} pega(s) preta(s), {white_pegs} pega(s) branka(s)."
   },
   "outcome": {
     "win": "Bo kazé kodí, solushonando {black_pegs} di {code_length} pinus korretamente",

@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "Iṣe gbọdọ jẹ ni ọna kika [row col] nibiti ila ati ọwọn jẹ awọn nọmba odidi lati 0 si {max_index}.",
-    "out_of_range": "Coordinates must be between 0 and {max_index}. You entered [{row},{col}]."
+    "out_of_range": "Awọn kọọdinẹti gbọdọ jẹ laarin 0 ati {max_index}. O tẹ [{row},{col}]."
   },
   "outcome": {
     "win": "Mo kí yín o! Ẹ yanjú àdììtú náà ní {moves_used} ìgbésẹ̀!",

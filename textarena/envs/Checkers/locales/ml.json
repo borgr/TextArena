@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "സാധുവായ ഒരു നീക്ക ഫോർമാറ്റ് കണ്ടെത്തിയില്ല. [a1b2] ഉപയോഗിക്കുക, ഉദാ. [b2c3].",
-    "illegal": "Move [{move}] is illegal."
+    "illegal": "നീക്കം [{move}] നിയമവിരുദ്ധമാണ്."
   },
   "game_action": {
     "moved": "കളിക്കാരൻ {player_id} നീക്കി {move}."

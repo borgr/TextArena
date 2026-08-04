@@ -14,7 +14,7 @@
     "{scores}": "The final scores as a raw player-number to score mapping - do not translate"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player GOPS.\n- You hold the 13 cards A-K (each exactly once).\n- Each round a prize is revealed. Submit ONE card like `[Q]`, `[10]`, `[2]` …\n- Highest card wins the prize (+ any carry-over pot). Ties roll the prize into the next round.\n- After 13 rounds, highest total wins. Invalid moves = elimination."
+    "intro": "Uri Mukwasha {player_id} mu Three-Player GOPS.\n- Uri kubata makadi 13 A-K (kila kamwe kazhinji).\n- Kila mzunguko mubayiro unoburwa. Nyora KADI moja kama `[Q]`, `[10]`, `[2]` …\n- Kadi yepamhidzai inohwina mubayiro (+ nemari yose inayobebwa). Kutofautana kunorutsa mubayiro kuenda kumzunguko unaotevera.\n- Mushure me mizunguko 13, mukwasha ane matokeo ekwana anohwina. Zvinyorwa zvisizvo = kubvisa."
   },
   "round": {
     "header": "### Round {round}/13 - Raia: {prize} (nenhauzo {worth})",

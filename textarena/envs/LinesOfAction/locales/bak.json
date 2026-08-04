@@ -10,7 +10,7 @@
     "{to}": "The destination coordinate of a move, such as b3"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in game of LinesOfAction.\nYour pieces are '{side}', opponent pieces are '{other}'.\nMove format: `[b1b3]` (from-coord to-coord). A legal move travels horizontally, vertically, or diagonally a number of squares equal to the total pieces (any colour) in that line. You may jump over your own pieces, but not opponent pieces; landing on an opponent captures it.  Win when all your pieces are 8-neighbour connected."
+    "intro": "Һеҙ LinesOfAction уйынында {player_id} уйынсыһыһығыҙ.\nҺеҙҙең фигураларығыҙ '{side}', ҡаршы уйынсының фигуралары '{other}'.\nЙөрөш форматы: `[b1b3]` (сығанаҡ координатаһынан төҙөлөшөнөң координатаһына тиклем). Йөрөш горизонталь, вертикаль йәки диагональ рәүештә бара, һәм уның оҙонлоғо шул юлдағы бөтә фигураларҙың (төҫкә ҡарамай) һанына тигеҙ. Һеҙ үҙ фигураларығыҙ өҫтөнән һикерергә мөмкин, ләкин ҡаршы уйынсының фигуралары өҫтөнән түгел; ҡаршы уйынсының фигураһын баҫып алыу өсөн уның өҫтөнә төшөргә кәрәк. Барлыҡ фигураларығыҙҙың 8-күрше тоташҡан булғанда еңеү яулайһығыҙ."
   },
   "board": {
     "current_board": "Совет: {board}"

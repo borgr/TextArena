@@ -59,7 +59,7 @@
     "must_draw_first": "تاسو باید لومړی [draw]، [take]، [knock]، یا [peek X Y]",
     "cannot_discard_taken": "تاسو نه شئ کولای چې د ردولو له ډلې څخه اخیستل شوی کارت له منځه یوسي. تاسو باید دا بدل کړئ.",
     "have_drawn_card": "تاسو یو کارت لرئ. تاسو باید [swap X Y] یا [discard] دا.",
-    "need_drawn_swap": "You need a drawn card to swap.",
+    "need_drawn_swap": "تاسو ته يوه راغلې کارډ په بدل کولو کې اړتيا لري.",
     "need_drawn_discard": "تاسو د دې لپاره چې له منځه یې یوسي، یو کارت ته اړتیا لرئ.",
     "out_of_bounds": "د حد څخه بهر موقعیت. د قطار 1-{max_row} ، کالم 1-{max_col} وکاروئ",
     "knock_with_card": "تاسو نشئ کولی د یو کارت سره ټک ټک کړئ. لومړی خپل وار بشپړ کړئ.",

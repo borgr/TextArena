@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in Connect Four.\nYour disc symbol: {symbol}.\nThe game board has {num_rows} rows and {num_cols} columns.\nPlayers take turns dropping their disc into one of the columns (0 to {end_col}).\nThe first to connect (their own) four discs vertically, horizontally, or diagonally wins.\nOn your turn, enter the column number in squared brackets to make your move.\nFor example: '[col 4]' or '[col 1]'."
+    "intro": "ཁྱེད་ཀྱི་མིང་འབྲུ་དེ་ Connect Four གྱི་མི་སྣ་ {player_id} ཡིན།\nཁྱེད་ཀྱི་རྟགས་མ་ {symbol} ཡིན།\nརྩེད་སྟེགས་ལ་ {num_rows} ཐིག་རིས་དང་ {num_cols} གུ་དུམ་ཡོད།\nམི་སྣ་རྣམས་ཀྱིས་གུ་དུམ་གཅིག་ནང་དུ་ཁོ་ཚོའི་རྟགས་མ་བསྐུར་ཏེ་རེས་མོས་བྱེད།\nཐིག་རིས་ {end_col} ནས་ 0 བར་གྱི་གུ་དུམ་གཅིག་ནང་དུ་ཁྱེད་ཀྱི་རྟགས་མ་བསྐུར་ཏེ་རྒྱལ་ཁ་ཐོབ་པའི་ཐབས་ལམ་གཅིག་ཡིན།\nཁྱེད་ཀྱི་རེས་མོས་སྐབས་སུ་གུ་དུམ་གྱི་ཨང་རྟགས་ཀྱི་བྱང་ཀུན་ནང་དུ་བྲིས་ཏེ་ཁྱེད་ཀྱི་གོམ་པ་བསྒྱུར།\nདཔེར་ན་: '[col 4]' ཡང་ན་ '[col 1]' ཡིན།"
   },
   "board": {
     "board_visible_state": "ཝཱཌ་གི་གནས་རིམ་: {board_visual}",

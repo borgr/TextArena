@@ -11,12 +11,12 @@
     "not_legal": "D'Aktioun muss {legal_actions} sinn."
   },
   "action": {
-    "submit_move": "Player {player_id}, submitted move: '[{move}]'.",
+    "submit_move": "Spiller {player_id}, huet d'Aktioun '[{move}]' agereecht.",
     "valid_actions": "Är verfügbare Aktiounen sinn: {legal_actions}.",
     "round_summary": "{reason} Aktuell Punkte: Spiller 0: '{player_0_chips}'; Spiller 1: '{player_1_chips}'"
   },
   "showdown": {
-    "showdown_summary": "Showdown: Player {winner}'s {winner_card} beats Player {loser}'s {loser_card}. Player {winner} wins pot of {pot_value} chips."
+    "showdown_summary": "Showdown: Spiller {winner} seng {winner_card} schloot Spiller {loser} seng {loser_card}. Spiller {winner} gewënnt de Pot vu {pot_value} Chips."
   },
   "outcome": {
     "draw": "Um Enn vun {max_rounds} Ronn haten déi zwee Spiller déiselwecht Zuel vu Chips.",

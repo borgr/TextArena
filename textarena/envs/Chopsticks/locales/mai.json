@@ -14,7 +14,7 @@
   },
   "game_action": {
     "attack": "प{player_id} प{opp_id} के हाथ {opp_idx} पर हमला करता है: यह {opp_val} से {new_val} तक जाता है।",
-    "split": "P{player_id} splits into [{L}, {R}]."
+    "split": "P{player_id} [{L}, {R}] मा विभाजित हुन्छ।"
   },
   "history": {
     "entry": "प{player_id} {desc}"

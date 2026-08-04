@@ -16,7 +16,7 @@
   },
   "game_action": {
     "skipped": "ખેલાડી {pid} ને તેમની ટર્ન છોડી દેવી પડી",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "પ્લેયર {pid} ({piece})એ [{r}, {c}] પર રમ્યો અને {flipped} પીસને ફ્લિપ કર્યો"
   },
   "game_message": {
     "must_skip": "ખેલાડી {pid} ({piece}) પાસે કોઈ માન્ય ચાલ નથી અને તેને અવગણવું જોઈએ."

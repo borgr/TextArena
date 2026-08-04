@@ -1,15 +1,15 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a game of Indian Poker.\n- 52-card deck; you see only the opponent's card.\n- Ante {ante} chip(s) each round, {max_rounds} round(s) total.\n- Valid moves: '[check]'  |  '[bet X]'  |  '[call]'  |  '[raise X]'  |  '[fold]'  (X is a positive integer <= your chip count.)\n- Highest hidden card wins the pot at showdown.\n"
+    "intro": "Bu é Player {player_id} nun djogu di Indian Poker.\n- Baralha di 52 karta; bu ta odja so karta di adversáriu.\n- Ante {ante} ficha(s) kada ronda, {max_rounds} ronda(s) total.\n- Djogadas válidas: '[check]'  |  '[bet X]'  |  '[call]'  |  '[raise X]'  |  '[fold]'  (X é un înteru pozitivu <= konta di ficha di bu.)\n- Karta skondida mais alta ganha o pot na final.\n"
   },
   "round": {
-    "announce": "### Round {current_round}/{max_rounds}\nYour opponent's card is: {card}"
+    "announce": "### Ronda {current_round}/{max_rounds}\nKarta di adversáriu é: {card}"
   },
   "invalid_move": {
-    "ambiguous": "Supply exactly ONE bracketed action, e.g. '[check]', '[bet 2]', '[call]', '[raise 3]', or '[fold]'.",
+    "ambiguous": "Furnesi só un aksaun entre parêntesis, p.eks. '[check]', '[bet 2]', '[call]', '[raise 3]', ou '[fold]'.",
     "cannot_check": "N ka pode [check] - bu sta ta faze un aposta.",
     "amount_min": "Suma di aposta / levantamentu ten ki ser ≥ 1.",
-    "cannot_bet": "Cannot [bet] - must [call] / [raise] / [fold].",
+    "cannot_bet": "Nun pudi [bet] - débi [call] / [raise] / [fold].",
     "nothing_to_call": "Nada pa txoma; bu pode [check] envês.",
     "no_bet_to_raise": "Uza [bet X] pa abri; ka ten aposta ki bu pode poi.",
     "insufficient": "Ka ten chips sufisienti pa kel-li."
@@ -29,8 +29,8 @@
     "showdown_tie": "Na showdown, tudu dôs ta ganha {card}. Pot é divididu y kada un di es ta resebe {split}."
   },
   "outcome": {
-    "p0_wins": "Player 0 wins ({bank0} > {bank1})",
-    "p1_wins": "Player 1 wins ({bank1} > {bank0})",
+    "p0_wins": "Player 0 ganha ({bank0} > {bank1})",
+    "p1_wins": "Player 1 ganha ({bank1} > {bank0})",
     "draw": "Txeu fijon sima tudu runhu."
   }
 }

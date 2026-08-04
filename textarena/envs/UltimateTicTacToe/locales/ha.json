@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in **Ultimate Tic Tac Toe**.\nSubmit your move as **[macro  micro]** (two numbers 0-8):\n• *macro*  = which mini-board you play in\n• *micro* = which square inside that mini-board\nExample `[7 8]` ➜ place your mark in mini-board 7, square 8, and\nforce your opponent to play in mini-board 8 next.\n\nYou are `{symbol}`.\n"
+    "intro": "Kai dan wasa {player_id} ne a cikin **Ultimate Tic Tac Toe**.\nKaddamar da motsa jiki kamar **[macro  micro]** (lambobi biyu 0-8):\n• *macro*  = wanne mini-allon kake wasa\n• *micro* = wanne muraba'a cikin wancan mini-allon\nMisali `[7 8]` ➜ saita alamarka a mini-allon 7, muraba'a 8, kuma\n tilasta abokin wasanka ya wasa a mini-allon 8 gaba.\n\nKai `{symbol}` ne.\n"
   },
   "board": {
     "current_board": "Kwamitin yanzu: {board}"
@@ -15,7 +15,7 @@
   },
   "next_board": {
     "any": "kowane allon ƙaramin kwamiti",
-    "specific": "micro board {nxt}"
+    "specific": "mini-allon {nxt}"
   },
   "game_action": {
     "played": "Mai kunnawa {player_id} ya buga a cikin micro board {macro_idx}, cell {micro_idx} ( jere {row}, col {col}). Dole ne mai kunnawa {opponent_id} yanzu ya yi wasa a {nxt_txt}."

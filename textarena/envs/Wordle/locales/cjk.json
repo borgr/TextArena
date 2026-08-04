@@ -10,19 +10,19 @@
     "{secret}": "The secret word"
   },
   "prompt": {
-    "intro": "You are Playing Wordle.\nA secret {word_length}-letter word has been chosen. You have {num_guesses} attempts to guess it.\nFor each guess, wrap your word in square brackets (e.g., '[apple]').\nFeedback for each letter will be given as follows:\n  - G (green): correct letter in the correct position\n  - Y (yellow): letter exists in the word but in the wrong position\n  - X (wrong): letter is not in the word\nEnter your guess to begin.\n"
+    "intro": "Uli na ku tchova Wordle.\nKazima ya {word_length}-litandi kazima kawililiwa. Uli na {num_guesses} matiyo ya ku kazima.\nKwa kazima kila, ku binda kazima kuwa na maboko ya miraba (k.mf., '[apple]').\nKulungwana kwa kila litandi kuti pwelekedwa kama ifuatavyo:\n  - G (ndimba): litandi lili sahihi pa nafasi sahihi\n  - Y (njano): litandi lili mu kazima lakini pa nafasi yasiyo sahihi\n  - X (siyo): litandi siyo mu kazima\nLeka kazima yako ianze.\n"
   },
   "invalid": {
-    "wrong_format": "You tried submitting a word in the wrong format. Please make sure to use squared brackets.",
-    "wrong_length": "Your word must be exactly {word_length} letters.",
-    "already_guessed": "You have already guessed '{word}' before. Please try a different word.",
-    "not_a_word": "'{word}' is not an English word."
+    "wrong_format": "Uli jaribu ku tuma kazima mu fomu yasiyo sahihi. Leka uwe na uhakika wa kutumia maboko ya miraba.",
+    "wrong_length": "Kazima yako lazima iwe na {word_length} litandi haswa.",
+    "already_guessed": "Uli tayari kubahatisha '{word}' hapo awali. Leka ujaribu kazima nyingine.",
+    "not_a_word": "'{word}' siyo kazima halali."
   },
   "feedback": {
-    "submitted": "You submitted [{word}].\nFeedback:\n{view}\nYou have {guesses_left} guesses left."
+    "submitted": "Uli tuma [{word}].\nKulungwana:\n{view}\nUli na {guesses_left} matiyo yaliyosalia."
   },
   "outcome": {
-    "win": "Congratulations! You guessed the word correctly!",
-    "turn_limit": "The turn limit has been reached. You didn't guess the word, but your best guess matched {pct}% of the letters in the correct positions.\nThe secret word was: **{secret}**."
+    "win": "Hongera! Uli bahatisha kazima kwa usahihi!",
+    "turn_limit": "Mwisho wa zamu umefikiwa. Uli kushindwa kubahatisha kazima, lakini bahatisho lako bora liliendana na {pct}% ya litandi mu nafasi sahihi.\nKazima ya siri ilikuwa: **{secret}**."
   }
 }

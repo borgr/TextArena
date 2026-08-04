@@ -11,7 +11,7 @@
     "{ball_pos}": "The cup index the ball is under"
   },
   "player_prompt": {
-    "intro": "Track the hidden ball 'X' while the cups are shuffled.\nAfter shuffling, guess its location with `[k]`."
+    "intro": "Mulimuli i le polo 'X' ua natia a'o su'ega le ipu.\nA mae'a le su'ega, fa'ailoa le nofoaga o le polo i `[k]`."
   },
   "game_message": {
     "ball_starts": "Amata le polo: {line}",
@@ -21,7 +21,7 @@
     "reveal": "(Faʻaalia: polo i lalo {ball_pos})"
   },
   "invalid_move": {
-    "wrong_format": "Bad action. Use `[k]`.",
+    "wrong_format": "Gaioiga leaga. Fa'aoga `[k]`.",
     "out_of_range": "Faʻasino i fafo atu o le 0-{max_index}."
   },
   "outcome": {

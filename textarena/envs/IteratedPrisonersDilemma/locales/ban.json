@@ -5,7 +5,7 @@
   "phases": {
     "conversation_finished": "Pembicaraan selesai untuk putaran {round}. Silakan balas dengan '[Cooperate]' atau '[Defect]' dalam \\boxed{{}}.",
     "starting_round": "--- Ngawitin babak {round} ---",
-    "round_summary": "Hasil putaran {round}:\n{outcome}\nPlayer 0 memperoleh {r0} (total {score_0}), Player 1 memperoleh {r1} (total {score_1})."
+    "round_summary": "Hasil ronde {round}:\n{outcome}\nPemain 0 ngelah {r0} (total {score_0}), Pemain 1 ngelah {r1} (total {score_1})."
   },
   "outcome": {
     "winner": "Player {winner} menang {win_score} - {lose_score}.",

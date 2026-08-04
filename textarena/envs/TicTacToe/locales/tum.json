@@ -7,10 +7,10 @@
     "{cell}": "A board cell number between 0 and 8"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Tic Tac Toe.\nYour goal is to win three in a row (horizontally, vertically, or diagonally) on the board.\nOn your turn, you should select the square number (0-8) you want to put your mark in next.\nFor example, '[4]' places your mark in the center cell of the board.\nAs Player {player_id}, you will be '{symbol}', while your opponent is '{opponent_symbol}'."
+    "intro": "Ndiwe Mchezaji {player_id} mu Tic Tac Toe.\nLengo lako ni kupata mchezo mitatu mfululizo (wima, mlalo, au ulalo) pa bodo.\nPa zamu yako, unapaswa kusankha nambari ya mraba (0-8) umene ufuna kuweka alama yako.\nMfano, '[4]' kuweka alama yako pa katikati ya bodo.\nNdi Mchezaji {player_id}, utakuwa '{symbol}', wakati mphinzitsi wako ni '{opponent_symbol}'."
   },
   "board": {
-    "current_board": "Current Board:\n\n{board}\n\nAvailable Moves: {moves}"
+    "current_board": "Bodo la Sasa:\n\n{board}\n\nMichezo Inayopatikana: {moves}"
   },
   "invalid_move": {
     "wrong_format": "Nkhani iyo yalembeka pa webusayiti iyi njambura kwenelera.",

@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing the Minesweeper game.\nThe objective of the game is to reveal all cells that do not contain mines.\nTo make a move, simply specify the row and column coordinates you want to reveal using the format:\n- `[row col]`: Reveal the cell at the specified row and column.\nFor example:\n- `[3 2]` to reveal the cell in Row 3, Column 2.\n- `[5 6]` to reveal the cell in Row 5, Column 6.\nOn your first move, you will reveal an area around the cell you choose to ensure a safe start.\nThe current board layout is shown below. Cells that are unrevealed are represented by a dot ('.'), revealed numbers show the count of adjacent mines.\nBe mindful not to choose already revealed cells.\nHere is the current board layout:\n"
+    "intro": "أنت تلعب لعبة كاشف الألغام.\nالهدف من اللعبة هو كشف جميع الخلايا التي لا تحتوي على ألغام.\nللتحرك، فقط حدد إحداثيات الصف والعمود الذي تريد كشفه باستخدام التنسيق:\n- `[row col]`: كشف الخلية في الصف والعمود المحددين.\nعلى سبيل المثال:\n- `[3 2]` لكشف الخلية في الصف 3، العمود 2.\n- `[5 6]` لكشف الخلية في الصف 5، العمود 6.\nفي تحركك الأول، ستكشف منطقة حول الخلية التي تختارها لضمان بداية آمنة.\nيظهر تخطيط اللوحة الحالي أدناه. الخلايا التي لم يتم كشفها يتم تمثيلها بنقطة ('.')، الأرقام المكشوفة تظهر عدد الألغام المجاورة.\nكن حذراً ألا تختار خلايا مكشوفة بالفعل.\nإليك تخطيط اللوحة الحالي:\n"
   },
   "board": {
     "game_board": "لوحة اللعبة: {board}",

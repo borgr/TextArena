@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "ڪوبه صحيح حرڪت وارو فارميٽ نه مليو. استعمال ڪريو [a1b2]، مثال طور [b2c3].",
-    "illegal": "Move [{move}] is illegal."
+    "illegal": "چال [{move}] غير قانوني آهي."
   },
   "game_action": {
     "moved": "پليئر {player_id} منتقل ڪيو {move}."

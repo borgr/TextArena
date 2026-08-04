@@ -27,7 +27,7 @@
     "begins": "--- Wareega {round_number} ayaa bilaabmaya! --- Ciyaaryahanka {proposer_id} waa soo jeediyaha, Ciyaaryahanka {responder_id} waa jawaabiyaha.",
     "offer": "Wareega {round_number}: Ciyaaryahanka {proposer_id} wuxuu ${offer} u soo bandhigayaa Ciyaaryahanka {responder_id} (wuxuu hayaa ${keep}).",
     "accepted": "Ciyaaryahanka {responder_id} waa la aqbalay! Wareega {round_number} guulaha: Ciyaaryahanka {proposer_id} + ${proposer_gain}, Ciyaaryahanka {responder_id} + ${responder_gain}. Guud ahaan cusub: Ciyaaryahanka 0: ${total_0}, Ciyaaryahanka 1: ${total_1}.",
-    "rejected": "Player {responder_id} ka diidey casuumka! Round {round_number} hesho: Laba player oo +$0. Jumlayada ayaa noqon: Player 0: ${total_0}, Player 1: ${total_1}."
+    "rejected": "Ciyaartoyga {responder_id} diiday soo jeedin! Raundi {round_number} kasbo: Labaduba +$0. Jumla weli: Ciyaartoyga 0: $ {total_0}, ciyaartoyga 1: $ {total_1}."
   },
   "invalid_move": {
     "no_offer_format": "Codsaduhu waa inuu soo gudbiyaa dalabka isagoo isticmaalaya foomka [Offer: $X].",

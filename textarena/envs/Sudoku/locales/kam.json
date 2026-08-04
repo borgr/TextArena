@@ -8,12 +8,12 @@
   },
   "invalid_move": {
     "wrong_format": "Ĩtambya ĩte ĩvĩtyo: Mũthaũki {player_id} ndaasũngĩa na namba yake ya mũsolo.",
-    "out_of_bounds": "Kuhamia kisichowezekana. Mchezaji {player_id} alijaribu kuweka {num} kwa ({row}, {col}), ambayo iko nje ya mipaka.",
-    "overwrite": "Kuhamia kisichowezekana. Mchezaji {player_id} alijaribu kuandikia tena seli iliyoandikwa mapema ({row}, {col}).",
-    "violates_rules": "Kuhamia kisichowezekana. Mchezaji {player_id} alijaribu kuweka {num} kwa ({row}, {col}), ambayo inakiuka kanuni za Sudoku."
+    "out_of_bounds": "Hatua isiyofaa. Mchezaji {player_id} alijaribu kuweka {num} katika ({row}, {col}), ambayo iko nje ya mipaka.",
+    "overwrite": "Hatua isiyofaa. Mchezaji {player_id} alijaribu kubadilisha selu iliyojazwa tayari ({row}, {col}).",
+    "violates_rules": "Hatua isiyofaa. Mchezaji {player_id} alijaribu kuweka {num} katika ({row}, {col}), ambayo inakiuka sheria za Sudoku."
   },
   "outcome": {
     "win": "Mũthaũki {player_id} nũminĩte kũvanga Sudoku.",
-    "turn_limit": "The turn limit has been reached. You correctly filled {percent}% of the empty cells."
+    "turn_limit": "Kikomo cha mizunguko kimefikia. Ulijaza kwa usahihi {percent}% ya selu tupu."
   }
 }

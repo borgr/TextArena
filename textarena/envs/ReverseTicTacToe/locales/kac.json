@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a game of Reverse Tic Tac Toe. Your symbol is '{symbol}'.\nThe goal is to avoid getting three in a row (horizontally, vertically, or diagonally).\nIf you make three in a row, you LOSE.\nSubmit your move using the format '[4]' to place your symbol in cell 4.\nAs Player {player_id}, you are '{symbol}' and your opponent is '{opponent_symbol}'."
+    "intro": "Nang tsaw ra Player {player_id} Reverse Tic Tac Toe ah sha hkawng ai majaw. Nang kawp ai gaw '{symbol}' re.\nHpung a lam nang tsaw ra hkawng ai gaw, masum lang hte masum lang kawp ai (hkang hku, wa hku, hte kaba hku) hpe shakut shaja ai.\nNang masum lang kawp ai gaw, nang hkam sha ai.\nNang kawp ai lam hpe '[4]' hku format hte sha hkawng ai (cell 4 hte nang kawp ai gaw).\nPlayer {player_id} nang tsaw ra, nang kawp ai gaw '{symbol}' re, nang kawp ai hpang ja ai gaw '{opponent_symbol}' re."
   },
   "board": {
     "current_board": "Hkum Hta Bra: \n\n{board}\n\nShingrai Hta: {moves}"

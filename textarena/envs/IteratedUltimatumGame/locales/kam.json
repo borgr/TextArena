@@ -21,23 +21,23 @@
     "{total}": "Each player's tied final total (a number)"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id}, playing {num_rounds} rounds of Iterated Ultimatum Game.\nYou have ${pool} to split this round between yourself and Player {other_id}.\n\nProposer:\n  - Make an offer: [Offer: $X] (0 <= X <= pool)\n  - If accepted → You get $(pool - X), other player gets $X\n  - If rejected → Both get $0\n  - Example: [Offer: $3]  or  'I think this is fair. [Offer: $5]'\n\nResponder:\n  - Decide on the offer with either [Accept] or [Reject]\n  - Example: 'That seems reasonable. [Accept]'\n            'Too unfair. [Reject]'\n"
+    "intro": "Wewe ni Mchezaji {player_id}, ukicheza {num_rounds} raundi za Mchezo wa Iterated Ultimatum.\nUna $ {pool} kugawanya raundi hii kati ya wewe na Mchezaji {other_id}.\n\nMchezaji anayetoa mapendekezo:\n  - Fanya mapendekezo: [Offer: $X] (0 <= X <= pool)\n  - Ikiwa imekubaliwa → Unapata $(pool - X), mchezaji mwingine anapata $X\n  - Ikiwa imekataliwa → Wote wanapata $0\n  - Mfano: [Offer: $3]  au  'Nadhani hii ni haki. [Offer: $5]'\n\nMchezaji anayejibu:\n  - Amua kuhusu mapendekezo kwa kutumia ama [Accept] au [Reject]\n  - Mfano: 'Hii inaonekana kuwa ya haki. [Accept]'\n            'Hii si haki. [Reject]'\n"
   },
   "round": {
     "begins": "--- Raundi {round_number} inaanza! ---\nMchezaji {proposer_id} ni mtoa ofa, Mchezaji {responder_id} ni mjibu.",
-    "offer": "Round {round_number}: Player {proposer_id} offers ${offer} to Player {responder_id} (keeping ${keep}).",
-    "accepted": "Player {responder_id} accepted! Round {round_number} gains: Player {proposer_id} +${proposer_gain}, Player {responder_id} +${responder_gain}. New totals: Player 0: ${total_0}, Player 1: ${total_1}.",
+    "offer": "Raundi {round_number}: Mchezaji {proposer_id} anatoa mapendekezo ya ${offer} kwa Mchezaji {responder_id} (akikaa na ${keep}).",
+    "accepted": "Mchezaji {responder_id} alikubali! Raundi {round_number} faida: Mchezaji {proposer_id} +${proposer_gain}, Mchezaji {responder_id} +${responder_gain}. Jumla mpya: Mchezaji 0: ${total_0}, Mchezaji 1: ${total_1}.",
     "rejected": "Mchezaji {responder_id} amekataa ofa! Raundi {round_number} faida: Wachezaji wote +$0. Jumla huwa: Mchezaji 0: ${total_0}, Mchezaji 1: ${total_1}."
   },
   "invalid_move": {
     "no_offer_format": "Mũndũ ũla ũkũnengane mũthĩnzĩo no aũandĩke aitũmĩa nzĩa ĩno: [Offer: $X].",
     "bad_integer": "No nginya kĩla kĩandĩkĩtwe vau ĩũlũ kyosanwe na namba ila syĩthĩawa syĩkĩanĩw'e.",
-    "out_of_range": "Offer must be between $0 and ${pool}.",
+    "out_of_range": "Mapendekezo lazima yawe kati ya $0 na ${pool}.",
     "no_current_offer": "Vaiĩ mũndũ wĩsĩ nũũ ũkamũtũngĩa mũvea.",
-    "accept_or_reject": "Responder must either [Accept] or [Reject] the offer."
+    "accept_or_reject": "Mchezaji anayejibu lazima atumie ama [Accept] au [Reject] kwa mapendekezo."
   },
   "outcome": {
-    "win": "Player {winner} won with ${winner_total} total vs Player {loser}'s ${loser_total}.",
-    "draw": "Draw! Both players finished with ${total} total."
+    "win": "Mchezaji {winner} alishinda kwa ${winner_total} jumla dhidi ya Mchezaji {loser} aliyekuwa na ${loser_total}.",
+    "draw": "Suluhisho! Wote wawili walimaliza kwa ${total} jumla."
   }
 }

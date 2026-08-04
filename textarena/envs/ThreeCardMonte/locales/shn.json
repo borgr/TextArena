@@ -11,7 +11,7 @@
     "{ball_pos}": "The cup index the ball is under"
   },
   "player_prompt": {
-    "intro": "Track the hidden ball 'X' while the cups are shuffled.\nAfter shuffling, guess its location with `[k]`."
+    "intro": "ဖန်ချိုင့်များ ရောနှောခြင်း အတွင်း ဘော 'X' ကို လိုက်ပါရန်။\nရောနှောပြီးနောက် ဘော တည်ရှိနေသော နေရာကို `[k]` ဖြင့် ခန့်မှန်းပါ။"
   },
   "game_message": {
     "ball_starts": "မၢၵ်ႇၼင်တႄႇ: {line}",
@@ -21,11 +21,11 @@
     "reveal": "(ပိုတ်ႇၼႄ: မၢၵ်ႇၼင်တႂ်ႈ {ball_pos})"
   },
   "invalid_move": {
-    "wrong_format": "Bad action. Use `[k]`.",
+    "wrong_format": "မှားသော အမိန့်။ `[k]` ကို အသုံးပြုပါ။",
     "out_of_range": "Index ဢွၵ်ႇတီႈ 0-{max_index}။"
   },
   "outcome": {
-    "win": "Correct! You found the ball.",
+    "win": "မှန်ပါသည်! ဘော တည်ရှိနေသော နေရာ ကို သင် တွေ့ခဲ့သည်။",
     "lose": "ဢမ်ႇၸိုဝ်ႈ — ပလွႆၶဵဝ် လႆႈၼုင်ႈဝႆႉ တီႈၼႃႈလွႆၶဵဝ် {ball_pos}။"
   }
 }

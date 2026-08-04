@@ -4,7 +4,7 @@
   },
   "round": {
     "start": "─── Tús Babhta {round} ───\tTá tú in ann comhrá a dhéanamh go saor in aisce don {conv_rounds} babhtaí atá le teacht.",
-    "chat_finished": "Chat finished for round {round}. Submit your decisions, one token per opponent: `[pid cooperate]` or `[pid defect]`."
+    "chat_finished": "Críochnaithe an comhrá don bhabhta {round}. Cuir isteach do chinniúintí, ticéad amháin in aghaidh an chéile comhraic: `[pid cooperate]` nó `[pid defect]`."
   },
   "results": {
     "header": "### Round {round} - Torthaí:",

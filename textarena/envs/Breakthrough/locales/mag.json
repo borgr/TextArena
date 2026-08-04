@@ -4,7 +4,7 @@
   },
   "invalid_move": {
     "wrong_format": "कृपया [a2a3] जैसन कोष्ठक में बीजगणितीय संकेतन के उपयोग करैं।",
-    "out_of_bounds": "Move is out of board bounds.",
+    "out_of_bounds": "चाल बोर्ड की सीमा से बाहर है।",
     "illegal": "ई चाल या त ब्रेकथ्रू नियम के पालन न करई छई चाहे एकरा लेल आपके हथियार ना हई।"
   },
   "game_action": {

@@ -1,20 +1,20 @@
 {
   "player_prompt": {
-    "intro": "Wewe ni Mchezaji {player_id} katika Prisoner's Dilemma iliyopimwa mara 3. Mchezo huu utadumu {num_rounds} raundi.\nMuundo wa Raundi:\n• {conv_rounds} mizunguko ya mazungumzo huru\n• 1 mzunguko wa uamuzi - wasilisha token moja kwa kila mpinzani: '[<opp-id> cooperate]' au '[<opp-id> defect]' (kwa mfano '[1 defect] [2 cooperate]'; kwa kawaida ni 'ushirikiano'). \nMatrixi ya malipo kwa jozi (inayotumika kwa kila jozi isiyo na mpangilio):\n  - Wote wanaushirikiana  ->  {reward}\n  - Wote wanakataa     ->  {punishment}\n  - Wewe unakataa, wao wanaushirikiana -> {temptation}\n  - Wewe unashirikiana, wao wanakataa -> {sucker}\nMchezaji(mchezaji) aliye na alama ya juu zaidi mwishoni mwa raundi zote anashinda."
+    "intro": "Inu ni Jatelo {player_id} e kare Iterated Prisoner's Dilemma a jatelo 3. Mipira ina dhi {num_rounds} kare.\nKare ni kama ifuatavyo:\n• {conv_rounds} muda wa lokwalo\n• 1 muda wa kelo - yiero mbele moja kwa kila jatelo: '[<opp-id> cooperate]' kana '[<opp-id> defect]' (yaani '[1 defect] [2 cooperate]'; kibali cha msingi ni 'cooperate'). \nMatriki ya mapato ya jo-uro (inatumika kwa kila jo uro):\n  - Wote wawili wakati  ->  {reward}\n  - Wote wawili wakosa     ->  {punishment}\n  - Inu ukose, wao wakati -> {temptation}\n  - Inu ukati, wao wakose -> {sucker}\nJatelo ase adhi mbele zaidi e mwisho wa kare wote ndiye atakayeshinda."
   },
   "round": {
-    "start": "─── Starting Round {round} ───\tYou can converse freely for the next {conv_rounds} rounds.",
-    "chat_finished": "Chat finished for round {round}. Submit your decisions, one token per opponent: `[pid cooperate]` or `[pid defect]`."
+    "start": "─── Kuanza Mzunguko {round} ───\tUnaweza kujadiliana kwa uhuru kwa mizunguko {conv_rounds} ijayo.",
+    "chat_finished": "Lokwalo timore e kare {round}. Yiero wach kelo, mbele moja kwa kila jatelo: `[pid cooperate]` kana `[pid defect]`."
   },
   "results": {
     "header": "### Round {round} - Gik ma ne otimore:",
-    "pair_line": "{observation}\n\t Mchezaji {i} vs Mchezaji {j} aliamua {choice_i} na {choice_j} kwa mtiririko huo (Mchezaji {i} alipata {gain_i}, Mchezaji {j} alipata {gain_j})",
+    "pair_line": "{observation}\n\t Mchezaji {i} dhidi ya Mchezaji {j} walichagua {choice_i} na {choice_j} mtawalia (Mchezaji {i} alipata {gain_i}, Mchezaji {j} alipata {gain_j})",
     "scores_open": "{observation} -> Kwan mar joma osetieko somo: ",
     "score_first": "{observation}Mchezaji {player_id} ({score})",
     "score_next": "{observation}; Player {player_id} ({score})",
     "finalize": "{observation}  kendo"
   },
   "outcome": {
-    "final": "Mabango mafupi: {scores}.  Makundi ya uwekaji alama (mbaya→bora): {groups}"
+    "final": "Alama za mwisho: {scores}.  Vikundi vya utaratibu (mbaya→nzuri): {groups}"
   }
 }

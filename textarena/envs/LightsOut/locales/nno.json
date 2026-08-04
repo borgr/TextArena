@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "Aksion må ha formatet [row col] der rekkje og kol er heiltal frå 0 til {max_index}.",
-    "out_of_range": "Coordinates must be between 0 and {max_index}. You entered [{row},{col}]."
+    "out_of_range": "Koordinatane må vera mellom 0 og {max_index}. Du skreiv inn [{row},{col}]."
   },
   "outcome": {
     "win": "Gratulasjon! Du løyste puslespillet i {moves_used} rørsler!",

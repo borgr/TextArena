@@ -9,7 +9,7 @@
     "wrong_format": "Feumaidh an gnìomh a bhith na [accept] no [continue]."
   },
   "outcome": {
-    "summary": "You accepted value {value} at draw {draw_num}/{N}. The best overall was {best}. {result}",
+    "summary": "Ghabh thu an luach {value} aig tarraing {draw_num}/{N}. B' e {best} an t-àrd luach a bha anns a h-uile. {result}",
     "perfect": "Roghainn foirfe! ",
     "not_max": "Chan e an ìre as àirde."
   }

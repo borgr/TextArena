@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "Kamu adalah Pemain {player_id} di JoJoJoin, dimainkan di papan 5x5 dengan sel bernomor 0-24.\nPada giliranmu, letakkan tanda di sel kosong, misalnya '[12]'.\nKAMU MENANG dengan mendapatkan EMPAT tanda berturut-turut — empat sel berurutan secara horizontal, vertikal, atau diagonal.\nSebagai Pemain {player_id} kamu adalah '{symbol}'; lawanmu adalah '{opponent_symbol}'."
+    "intro": "Droeureuh Player {player_id} lam JoJoJoin, meu'en pada papan 5x5 ngon sél nan di nomor 0-24.\nBak watee giliran, tamah tanda droeureuh bak sél nan kosong, misa '[12]'.\nKA MEUNANG uléh meurumpok peuet tanda droeureuh bak saboh baréh — peuet sél nan turut-turut horizontal, vertikal, atawa diagonal.\nSeubagoe Player {player_id} droeureuh '{symbol}'; lawan droeureuh '{opponent_symbol}'."
   },
   "board": {
     "current_board": "Papan Saang:\n\n{board}\n\nGerakan yang Tersedia: {moves}"
@@ -11,10 +11,10 @@
     "already_occupied": "Sel {cell} kaleuh ditempok."
   },
   "game_action": {
-    "placed": "Pemain {player_id} meletakkan tanda mereka ({symbol}) di sel {cell}."
+    "placed": "Player {player_id} tamah tanda droeureuh ({symbol}) bak sél {cell}."
   },
   "outcome": {
     "win": "Peunemu {player_id} ka meunang!",
-    "draw": "Nyan game nyan draw!"
+    "draw": "Peu'en hana seimbang!"
   }
 }

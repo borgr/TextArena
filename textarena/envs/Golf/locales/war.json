@@ -21,10 +21,10 @@
     "{scores}": "The pre-rendered per-player list of final scores"
   },
   "player_prompt": {
-    "intro": "You are playing Golf (Card Game) - Player {player_id}.\nGoal: Get the lowest total score in this single round. If columns share the same value, they are summed as 0.\nCard Values: A=1, 2-10=face value, J/Q=10, K=0\n\nActions (use exact brackets):\n- '[draw]' - Draw from deck\n- '[take]' - Take from discard pile\n- '[swap X Y]' - Swap drawn card with position X (row) Y (column)\n- '[discard]' - Discard the drawn card\n"
+    "intro": "Naglalar ka hin Golf (Card Game) - Player {player_id}.\nTuyo: Makakuha han pinakabababa nga total nga iskor ha ini nga usa ka round. Kon an mga column may pareho nga bili, ginsumahan hira komo 0.\nMga Bili han Kard: A=1, 2-10=face value, J/Q=10, K=0\n\nMga Aksyon (gamita an eksakto nga mga bracket):\n- '[draw]' - Draw tikang ha deck\n- '[take]' - Kuhai tikang ha discard pile\n- '[swap X Y]' - Ipalit an drawn kard ha posisyon X (row) Y (column)\n- '[discard]' - Iwaksi an drawn kard\n"
   },
   "board": {
-    "drew": "You drew: {card}\nNow you must [swap X Y] or [discard] it.",
+    "drew": "Nag-draw ka: {card}\nKinahanglan ka [swap X Y] o [discard] it.",
     "took": "Nakakuha ka: {card} tikang ha discard pile\nKinahanglan ka mag [swap X Y] ini (diri pwede magdiskartha).",
     "peeked": "Nakita mo an posisyon ({row},{col}): {card}",
     "turn_view": "Imo kamot:\n{hand}\nDiscard pile: {discard}\n{options}",
@@ -47,8 +47,8 @@
   },
   "message": {
     "deck_empty": "An deck waray na! Natatapos an dula dayon.",
-    "knocked": "Player {pid} knocked! Each other player gets one more turn.",
-    "final_round": "Player {pid} {reason}! An iba nga mga player mayda usa pa nga turn."
+    "knocked": "Player {pid} nag-knock! Kada iba nga player may usa pa ka turno.",
+    "final_round": "Ang manugdula nga {pid} {reason}! Kada iba nga manugdula may usa pa ka turno."
   },
   "reason": {
     "all_revealed": "ginpakita na ba an ngatanan nga kard?"
@@ -67,7 +67,7 @@
     "already_revealed": "Iginpakita na ito nga kard!"
   },
   "summary": {
-    "full": "Game Over! Player {winner} nagdaog ha scoring nga {score} puntos!\n\nMga Final Scoring:\n{scores}",
+    "full": "Kataposan! Player {winner} nagdaog ha iskor nga {score} puntos!\n\nKataposan nga mga Iskor:\n{scores}",
     "line": "Player {pid}: {score} puntos\n"
   },
   "board_str": {

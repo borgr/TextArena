@@ -16,10 +16,10 @@
   },
   "game_action": {
     "skipped": "རྩེད་འགྲན་པ་ {pid} གིས་ ཁོང་རའི་གོ་རིམ་འདི་ བཏོན་དགོཔ་བྱུང་ནུག",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "མི་སྟེ {pid} ({piece}) གོམ་པ་ [{r}, {c}] བསྒྱུར་བ་ {flipped} རིགས་པ།"
   },
   "game_message": {
-    "must_skip": "Player {pid} ({piece}) has no valid moves and must skip."
+    "must_skip": "མི་སྟེ {pid} ({piece}) གོམ་པ་འགྲུབ་མི་བཏུབ་པས་དུས་ཚོད་འཇགས་དགོས།"
   },
   "outcome": {
     "black_wins": "ནག་པོ་གིས་ཕམ་{black_count}-{white_count}",

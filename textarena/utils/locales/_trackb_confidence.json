@@ -1,1433 +1,1581 @@
 {
-  "_comment": "Track B (open-model MT) per-language confidence. Not a runtime file. tier: CERTIFIED|CERTIFIED_FLAGGED|EXPERIMENTAL.",
+  "_comment": "Track B (open-model MT) per-language confidence. Not a runtime file. tier: CERTIFIED|CERTIFIED_FLAGGED|EXPERIMENTAL. Verified by a SINGLE Llama-3.1-405B judge (langid-gate + meaning fidelity). careful_fidelity_pct = post-fan-out judge-clean fraction over re-verified leaves (>=20 leaves); langs with tiny re-samples retain prior value. Re-tier bar = 85%. hat/awa/kea retained despite sub-85 (langid/close-relative false-positives, 0 confirmed meaning bugs). A FULL two-model (llama405+qwen72) improvement pass is planned next.",
   "kn": {
     "name": "Kannada",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
     "confirmed_bugs": 0,
-    "english_fallback_leaves": 38,
-    "target_coverage_pct": 95,
+    "english_fallback_leaves": 4,
+    "target_coverage_pct": 100,
     "flagged_games": [],
-    "careful_fidelity_pct": 100
+    "careful_fidelity_pct": 91
   },
   "be": {
     "name": "Belarusian",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 3,
-    "english_fallback_leaves": 33,
-    "target_coverage_pct": 96,
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 2,
+    "target_coverage_pct": 100,
     "flagged_games": [],
-    "careful_fidelity_pct": 98
+    "careful_fidelity_pct": 91
   },
   "gu": {
     "name": "Gujarati",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
     "confirmed_bugs": 0,
-    "english_fallback_leaves": 31,
-    "target_coverage_pct": 96,
+    "english_fallback_leaves": 6,
+    "target_coverage_pct": 99,
     "flagged_games": [],
-    "careful_fidelity_pct": 100
+    "careful_fidelity_pct": 93
   },
   "pa": {
     "name": "Punjabi",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
     "confirmed_bugs": 0,
-    "english_fallback_leaves": 27,
-    "target_coverage_pct": 97,
+    "english_fallback_leaves": 4,
+    "target_coverage_pct": 100,
     "flagged_games": [],
-    "careful_fidelity_pct": 100
+    "careful_fidelity_pct": 89
   },
   "mr": {
     "name": "Marathi",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
     "confirmed_bugs": 0,
-    "english_fallback_leaves": 24,
-    "target_coverage_pct": 97,
+    "english_fallback_leaves": 1,
+    "target_coverage_pct": 100,
     "flagged_games": [],
-    "careful_fidelity_pct": 100
+    "careful_fidelity_pct": 93
   },
   "ps": {
     "name": "Pashto",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 8,
-    "english_fallback_leaves": 44,
-    "target_coverage_pct": 95,
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 3,
+    "target_coverage_pct": 100,
     "flagged_games": [],
-    "careful_fidelity_pct": 98
+    "careful_fidelity_pct": 95
   },
   "te": {
     "name": "Telugu",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 6,
-    "english_fallback_leaves": 42,
-    "target_coverage_pct": 95,
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 6,
+    "target_coverage_pct": 99,
     "flagged_games": [],
-    "careful_fidelity_pct": 98
+    "careful_fidelity_pct": 92
   },
   "sd": {
     "name": "Sindhi",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 1,
-    "english_fallback_leaves": 32,
-    "target_coverage_pct": 96,
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 4,
+    "target_coverage_pct": 100,
     "flagged_games": [],
-    "careful_fidelity_pct": 100
+    "careful_fidelity_pct": 94
   },
   "ne": {
     "name": "Nepali",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 1,
-    "english_fallback_leaves": 39,
-    "target_coverage_pct": 95,
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 1,
+    "target_coverage_pct": 100,
     "flagged_games": [],
-    "careful_fidelity_pct": 95
+    "careful_fidelity_pct": 98
   },
   "lo": {
     "name": "Lao",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
     "confirmed_bugs": 0,
-    "english_fallback_leaves": 37,
-    "target_coverage_pct": 95,
+    "english_fallback_leaves": 2,
+    "target_coverage_pct": 100,
     "flagged_games": [],
-    "careful_fidelity_pct": 100
+    "careful_fidelity_pct": 95
   },
   "uz": {
     "name": "Uzbek",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 3,
-    "english_fallback_leaves": 39,
-    "target_coverage_pct": 95,
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 3,
+    "target_coverage_pct": 100,
     "flagged_games": [],
-    "careful_fidelity_pct": 100
+    "careful_fidelity_pct": 90
   },
   "ml": {
     "name": "Malayalam",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 3,
-    "english_fallback_leaves": 42,
-    "target_coverage_pct": 95,
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 9,
+    "target_coverage_pct": 99,
     "flagged_games": [],
-    "careful_fidelity_pct": 100
+    "careful_fidelity_pct": 91
   },
   "zu": {
     "name": "Zulu",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 8,
-    "english_fallback_leaves": 42,
-    "target_coverage_pct": 95,
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 3,
+    "target_coverage_pct": 100,
     "flagged_games": [],
-    "careful_fidelity_pct": 98
+    "careful_fidelity_pct": 97
   },
   "as": {
     "name": "Assamese",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 8,
-    "english_fallback_leaves": 42,
-    "target_coverage_pct": 95,
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 2,
+    "target_coverage_pct": 100,
     "flagged_games": [],
-    "careful_fidelity_pct": 100
+    "careful_fidelity_pct": 93
   },
   "km": {
     "name": "Khmer",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 9,
-    "english_fallback_leaves": 47,
-    "target_coverage_pct": 94,
-    "flagged_games": [],
-    "careful_fidelity_pct": 95
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 1,
+    "english_fallback_leaves": 6,
+    "target_coverage_pct": 99,
+    "flagged_games": [
+      "Othello"
+    ],
+    "careful_fidelity_pct": 92
   },
   "hy": {
     "name": "Armenian",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 4,
-    "english_fallback_leaves": 39,
-    "target_coverage_pct": 95,
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 3,
+    "target_coverage_pct": 100,
     "flagged_games": [],
-    "careful_fidelity_pct": 95
+    "careful_fidelity_pct": 94
   },
   "cy": {
     "name": "Welsh",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 3,
-    "english_fallback_leaves": 54,
-    "target_coverage_pct": 93,
-    "flagged_games": [],
-    "careful_fidelity_pct": 95
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 1,
+    "english_fallback_leaves": 1,
+    "target_coverage_pct": 100,
+    "flagged_games": [
+      "LightsOut"
+    ],
+    "careful_fidelity_pct": 94
   },
   "si": {
     "name": "Sinhala",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 6,
-    "english_fallback_leaves": 47,
-    "target_coverage_pct": 94,
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 8,
+    "target_coverage_pct": 99,
     "flagged_games": [],
-    "careful_fidelity_pct": 95
+    "careful_fidelity_pct": 100
   },
   "kk": {
     "name": "Kazakh",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 16,
-    "english_fallback_leaves": 58,
-    "target_coverage_pct": 93,
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 10,
+    "target_coverage_pct": 99,
     "flagged_games": [],
-    "careful_fidelity_pct": 98
+    "careful_fidelity_pct": 94
   },
   "or": {
     "name": "Odia",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 10,
-    "english_fallback_leaves": 51,
-    "target_coverage_pct": 94,
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 8,
+    "target_coverage_pct": 99,
     "flagged_games": [],
-    "careful_fidelity_pct": 100
+    "careful_fidelity_pct": 98
   },
   "my": {
     "name": "Burmese",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 3,
-    "english_fallback_leaves": 50,
-    "target_coverage_pct": 94,
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 12,
+    "target_coverage_pct": 99,
     "flagged_games": [],
-    "careful_fidelity_pct": 95
+    "careful_fidelity_pct": 97
   },
   "so": {
     "name": "Somali",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 3,
-    "english_fallback_leaves": 41,
-    "target_coverage_pct": 95,
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 4,
+    "target_coverage_pct": 100,
     "flagged_games": [],
-    "careful_fidelity_pct": 92
+    "careful_fidelity_pct": 95
   },
   "mg": {
     "name": "Malagasy",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 8,
-    "english_fallback_leaves": 45,
-    "target_coverage_pct": 94,
-    "flagged_games": [],
-    "careful_fidelity_pct": 95
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 1,
+    "english_fallback_leaves": 3,
+    "target_coverage_pct": 100,
+    "flagged_games": [
+      "Othello"
+    ],
+    "careful_fidelity_pct": 91
   },
   "ky": {
     "name": "Kyrgyz",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 11,
-    "english_fallback_leaves": 51,
-    "target_coverage_pct": 94,
-    "flagged_games": [],
-    "careful_fidelity_pct": 98
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 1,
+    "english_fallback_leaves": 1,
+    "target_coverage_pct": 100,
+    "flagged_games": [
+      "SpiteAndMalice"
+    ],
+    "careful_fidelity_pct": 94
   },
   "ka": {
     "name": "Georgian",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 33,
-    "english_fallback_leaves": 72,
-    "target_coverage_pct": 91,
-    "flagged_games": [],
-    "careful_fidelity_pct": 95
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 1,
+    "english_fallback_leaves": 10,
+    "target_coverage_pct": 99,
+    "flagged_games": [
+      "Sokoban"
+    ],
+    "careful_fidelity_pct": 93
   },
   "ha": {
     "name": "Hausa",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 3,
-    "english_fallback_leaves": 37,
-    "target_coverage_pct": 95,
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 2,
+    "target_coverage_pct": 100,
     "flagged_games": [],
-    "careful_fidelity_pct": 98
+    "careful_fidelity_pct": 97
   },
   "ig": {
     "name": "Igbo",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 4,
-    "english_fallback_leaves": 36,
-    "target_coverage_pct": 96,
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 2,
+    "target_coverage_pct": 100,
     "flagged_games": [],
-    "careful_fidelity_pct": 98
+    "careful_fidelity_pct": 95
   },
   "mn": {
     "name": "Mongolian",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 11,
-    "english_fallback_leaves": 83,
-    "target_coverage_pct": 90,
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 2,
+    "target_coverage_pct": 100,
     "flagged_games": [],
-    "careful_fidelity_pct": 98
+    "careful_fidelity_pct": 96
   },
   "eu": {
     "name": "Basque",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 35,
-    "english_fallback_leaves": 113,
-    "target_coverage_pct": 86,
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 2,
+    "target_coverage_pct": 100,
     "flagged_games": [],
-    "careful_fidelity_pct": 90
+    "careful_fidelity_pct": 97
   },
   "yo": {
     "name": "Yoruba",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 10,
-    "english_fallback_leaves": 55,
-    "target_coverage_pct": 93,
-    "flagged_games": [],
-    "careful_fidelity_pct": 100
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 2,
+    "english_fallback_leaves": 0,
+    "target_coverage_pct": 100,
+    "flagged_games": [
+      "Mastermind",
+      "Stratego"
+    ],
+    "careful_fidelity_pct": 95
   },
   "am": {
     "name": "Amharic",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 1,
-    "english_fallback_leaves": 122,
-    "target_coverage_pct": 85,
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 16,
+    "target_coverage_pct": 98,
     "flagged_games": [],
-    "careful_fidelity_pct": 98
+    "careful_fidelity_pct": 93
   },
   "ceb": {
     "name": "ceb",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 2,
-    "english_fallback_leaves": 72,
-    "target_coverage_pct": 91,
-    "flagged_games": [],
-    "careful_fidelity_pct": 98
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 1,
+    "english_fallback_leaves": 2,
+    "target_coverage_pct": 100,
+    "flagged_games": [
+      "HighSociety"
+    ],
+    "careful_fidelity_pct": 97
   },
   "bjn": {
     "name": "Banjar",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 2,
-    "english_fallback_leaves": 63,
-    "target_coverage_pct": 92,
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 3,
+    "target_coverage_pct": 100,
     "flagged_games": [],
-    "careful_fidelity_pct": 100
+    "careful_fidelity_pct": 91
   },
   "ars": {
     "name": "Najdi Arabic",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 2,
-    "english_fallback_leaves": 59,
-    "target_coverage_pct": 93,
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 9,
+    "target_coverage_pct": 99,
     "flagged_games": [],
-    "careful_fidelity_pct": 98
+    "careful_fidelity_pct": 93
   },
   "arz": {
     "name": "Egyptian Arabic",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 2,
-    "english_fallback_leaves": 69,
-    "target_coverage_pct": 92,
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 1,
+    "target_coverage_pct": 100,
     "flagged_games": [],
-    "careful_fidelity_pct": 100
+    "careful_fidelity_pct": 97
   },
   "acq": {
     "name": "Taizzi-Adeni Arabic",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 3,
-    "english_fallback_leaves": 68,
-    "target_coverage_pct": 92,
-    "flagged_games": [],
-    "careful_fidelity_pct": 95
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 1,
+    "english_fallback_leaves": 6,
+    "target_coverage_pct": 99,
+    "flagged_games": [
+      "PigDice"
+    ],
+    "careful_fidelity_pct": 92
   },
   "crh": {
     "name": "Crimean Tatar",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 5,
-    "english_fallback_leaves": 83,
-    "target_coverage_pct": 90,
-    "flagged_games": [],
-    "careful_fidelity_pct": 100
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 1,
+    "english_fallback_leaves": 3,
+    "target_coverage_pct": 100,
+    "flagged_games": [
+      "IteratedRockPaperScissors"
+    ],
+    "careful_fidelity_pct": 94
   },
   "apc": {
     "name": "North Levantine Arabic",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 9,
-    "english_fallback_leaves": 73,
-    "target_coverage_pct": 91,
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 4,
+    "target_coverage_pct": 100,
     "flagged_games": [],
-    "careful_fidelity_pct": 98
+    "careful_fidelity_pct": 95
   },
   "ajp": {
     "name": "South Levantine Arabic",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 5,
-    "english_fallback_leaves": 64,
-    "target_coverage_pct": 92,
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 3,
+    "target_coverage_pct": 100,
     "flagged_games": [],
-    "careful_fidelity_pct": 98
+    "careful_fidelity_pct": 94
   },
   "bho": {
     "name": "Bhojpuri",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 14,
-    "english_fallback_leaves": 101,
-    "target_coverage_pct": 88,
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 6,
+    "target_coverage_pct": 99,
     "flagged_games": [],
-    "careful_fidelity_pct": 98
+    "careful_fidelity_pct": 94
   },
   "ace": {
     "name": "Acehnese",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 3,
-    "english_fallback_leaves": 67,
-    "target_coverage_pct": 92,
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 7,
+    "target_coverage_pct": 99,
     "flagged_games": [],
-    "careful_fidelity_pct": 100
+    "careful_fidelity_pct": 98
   },
   "acm": {
     "name": "Mesopotamian Arabic",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 6,
-    "english_fallback_leaves": 69,
-    "target_coverage_pct": 92,
-    "flagged_games": [],
-    "careful_fidelity_pct": 95
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 1,
+    "english_fallback_leaves": 7,
+    "target_coverage_pct": 99,
+    "flagged_games": [
+      "Stratego"
+    ],
+    "careful_fidelity_pct": 92
   },
   "ary": {
     "name": "Moroccan Arabic",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 5,
-    "english_fallback_leaves": 74,
-    "target_coverage_pct": 91,
-    "flagged_games": [],
-    "careful_fidelity_pct": 100
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 1,
+    "english_fallback_leaves": 8,
+    "target_coverage_pct": 99,
+    "flagged_games": [
+      "Stratego"
+    ],
+    "careful_fidelity_pct": 94
   },
   "ckb": {
     "name": "Central Kurdish",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
     "confirmed_bugs": 0,
-    "english_fallback_leaves": 117,
-    "target_coverage_pct": 86,
+    "english_fallback_leaves": 13,
+    "target_coverage_pct": 99,
     "flagged_games": [],
-    "careful_fidelity_pct": 100
+    "careful_fidelity_pct": 96
   },
   "aeb": {
     "name": "Tunisian Arabic",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 11,
-    "english_fallback_leaves": 81,
-    "target_coverage_pct": 90,
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 2,
+    "target_coverage_pct": 100,
     "flagged_games": [],
-    "careful_fidelity_pct": 90
+    "careful_fidelity_pct": 97
   },
   "ast": {
     "name": "Asturian",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 10,
-    "english_fallback_leaves": 132,
-    "target_coverage_pct": 84,
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 7,
+    "target_coverage_pct": 99,
     "flagged_games": [],
-    "careful_fidelity_pct": 98
+    "careful_fidelity_pct": 95
   },
   "bug": {
     "name": "Buginese",
-    "tier": "EXPERIMENTAL",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 6,
-    "english_fallback_leaves": 111,
-    "target_coverage_pct": 86,
-    "flagged_games": [],
-    "careful_fidelity_pct": 80
+    "tier": "CERTIFIED_FLAGGED",
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 1,
+    "english_fallback_leaves": 9,
+    "target_coverage_pct": 99,
+    "flagged_games": [
+      "Secretary"
+    ],
+    "careful_fidelity_pct": 87
   },
   "ayr": {
     "name": "Central Aymara",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 7,
-    "english_fallback_leaves": 173,
-    "target_coverage_pct": 79,
-    "flagged_games": [],
-    "careful_fidelity_pct": 92
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 2,
+    "english_fallback_leaves": 9,
+    "target_coverage_pct": 99,
+    "flagged_games": [
+      "IteratedTwoThirdsAverage",
+      "Stratego"
+    ],
+    "careful_fidelity_pct": 95
   },
   "bam": {
     "name": "Bambara",
-    "tier": "EXPERIMENTAL",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 6,
-    "english_fallback_leaves": 172,
-    "target_coverage_pct": 79,
-    "flagged_games": [],
-    "careful_fidelity_pct": 80
+    "tier": "CERTIFIED_FLAGGED",
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 1,
+    "english_fallback_leaves": 9,
+    "target_coverage_pct": 99,
+    "flagged_games": [
+      "IteratedPrisonersDilemma"
+    ],
+    "careful_fidelity_pct": 96
   },
   "bem": {
     "name": "Bemba",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 14,
-    "english_fallback_leaves": 180,
-    "target_coverage_pct": 78,
-    "flagged_games": [],
-    "careful_fidelity_pct": 85
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 4,
+    "english_fallback_leaves": 7,
+    "target_coverage_pct": 99,
+    "flagged_games": [
+      "Cryptarithm",
+      "IteratedMatchingPennies"
+    ],
+    "careful_fidelity_pct": 94
   },
   "cjk": {
     "name": "Chokwe",
     "tier": "EXPERIMENTAL",
-    "method": "Toucan (UBC-NLP African specialist) + careful two-model fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 112,
-    "english_fallback_leaves": 300,
-    "target_coverage_pct": 63,
+    "method": "Toucan (UBC-NLP African specialist) forward MT + single Llama-3.1-405B fidelity verification (Track B). LLM-verified, not native. Two-model improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 231,
+    "target_coverage_pct": 78,
     "flagged_games": [],
-    "careful_fidelity_pct": 63
+    "careful_fidelity_pct": 72
   },
   "ban": {
     "name": "Balinese",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 7,
-    "english_fallback_leaves": 74,
-    "target_coverage_pct": 91,
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 4,
+    "target_coverage_pct": 100,
     "flagged_games": [],
     "careful_fidelity_pct": 98
   },
   "awa": {
     "name": "Awadhi",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 24,
-    "english_fallback_leaves": 92,
-    "target_coverage_pct": 89,
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 14,
+    "target_coverage_pct": 99,
     "flagged_games": [],
-    "careful_fidelity_pct": 98
+    "careful_fidelity_pct": 84,
+    "note": "retained CERTIFIED_FLAGGED despite sub-85 fidelity: langid false-positives, 0 confirmed meaning bugs"
   },
   "bak": {
     "name": "Bashkir",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 5,
-    "english_fallback_leaves": 148,
-    "target_coverage_pct": 82,
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 6,
+    "target_coverage_pct": 99,
     "flagged_games": [],
-    "careful_fidelity_pct": 100
+    "careful_fidelity_pct": 95
   },
   "azb": {
     "name": "South Azerbaijani",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 4,
-    "english_fallback_leaves": 148,
-    "target_coverage_pct": 82,
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 30,
+    "target_coverage_pct": 97,
     "flagged_games": [],
-    "careful_fidelity_pct": 95
+    "careful_fidelity_pct": 96
   },
   "bod": {
     "name": "Standard Tibetan",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 13,
-    "english_fallback_leaves": 203,
-    "target_coverage_pct": 75,
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 38,
+    "target_coverage_pct": 96,
     "flagged_games": [],
-    "careful_fidelity_pct": 95
+    "careful_fidelity_pct": 92
   },
   "aka": {
     "name": "Akan",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 6,
-    "english_fallback_leaves": 210,
-    "target_coverage_pct": 74,
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 4,
+    "target_coverage_pct": 100,
     "flagged_games": [],
-    "careful_fidelity_pct": 98
+    "careful_fidelity_pct": 99
   },
   "epo": {
     "name": "Esperanto",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 2,
-    "english_fallback_leaves": 51,
-    "target_coverage_pct": 94,
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 1,
+    "target_coverage_pct": 100,
     "flagged_games": [],
-    "careful_fidelity_pct": 100
+    "careful_fidelity_pct": 95
   },
   "gla": {
     "name": "Scottish Gaelic",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 2,
-    "english_fallback_leaves": 96,
-    "target_coverage_pct": 88,
-    "flagged_games": [],
-    "careful_fidelity_pct": 98
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 1,
+    "english_fallback_leaves": 4,
+    "target_coverage_pct": 100,
+    "flagged_games": [
+      "ReverseTicTacToe"
+    ],
+    "careful_fidelity_pct": 93
   },
   "fur": {
     "name": "Friulian",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 10,
-    "english_fallback_leaves": 97,
-    "target_coverage_pct": 88,
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 3,
+    "target_coverage_pct": 100,
     "flagged_games": [],
-    "careful_fidelity_pct": 98
+    "careful_fidelity_pct": 94
   },
   "gle": {
     "name": "Irish",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
     "confirmed_bugs": 2,
-    "english_fallback_leaves": 86,
-    "target_coverage_pct": 89,
-    "flagged_games": [],
-    "careful_fidelity_pct": 100
+    "english_fallback_leaves": 3,
+    "target_coverage_pct": 100,
+    "flagged_games": [
+      "IteratedMatchingPennies",
+      "KuhnPoker"
+    ],
+    "careful_fidelity_pct": 92
   },
   "fao": {
     "name": "Faroese",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 7,
-    "english_fallback_leaves": 74,
-    "target_coverage_pct": 91,
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 6,
+    "target_coverage_pct": 99,
     "flagged_games": [],
-    "careful_fidelity_pct": 98
+    "careful_fidelity_pct": 90
   },
   "fij": {
     "name": "Fijian",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 8,
-    "english_fallback_leaves": 131,
-    "target_coverage_pct": 84,
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 5,
+    "target_coverage_pct": 100,
     "flagged_games": [],
-    "careful_fidelity_pct": 90
+    "careful_fidelity_pct": 97
   },
   "grn": {
     "name": "Guarani",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 5,
-    "english_fallback_leaves": 128,
-    "target_coverage_pct": 84,
-    "flagged_games": [],
-    "careful_fidelity_pct": 90
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 2,
+    "english_fallback_leaves": 6,
+    "target_coverage_pct": 99,
+    "flagged_games": [
+      "IteratedTwoThirdsAverage",
+      "ThreePlayerTicTacToe"
+    ],
+    "careful_fidelity_pct": 95
   },
   "gaz": {
     "name": "West Central Oromo",
-    "tier": "EXPERIMENTAL",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 3,
-    "english_fallback_leaves": 170,
-    "target_coverage_pct": 79,
+    "tier": "CERTIFIED_FLAGGED",
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 10,
+    "target_coverage_pct": 99,
     "flagged_games": [],
-    "careful_fidelity_pct": 75
+    "careful_fidelity_pct": 96
   },
   "ewe": {
     "name": "Ewe",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 9,
-    "english_fallback_leaves": 172,
-    "target_coverage_pct": 79,
-    "flagged_games": [],
-    "careful_fidelity_pct": 90
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 1,
+    "english_fallback_leaves": 8,
+    "target_coverage_pct": 99,
+    "flagged_games": [
+      "Checkers"
+    ],
+    "careful_fidelity_pct": 97
   },
   "fuv": {
     "name": "Nigerian Fulfulde",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 3,
-    "english_fallback_leaves": 152,
-    "target_coverage_pct": 81,
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 1,
+    "target_coverage_pct": 100,
     "flagged_games": [],
-    "careful_fidelity_pct": 92
+    "careful_fidelity_pct": 99
   },
   "dzo": {
     "name": "Dzongkha",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 12,
-    "english_fallback_leaves": 205,
-    "target_coverage_pct": 75,
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 18,
+    "target_coverage_pct": 98,
     "flagged_games": [],
-    "careful_fidelity_pct": 98
+    "careful_fidelity_pct": 95
   },
   "dik": {
     "name": "Southwestern Dinka",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 5,
-    "english_fallback_leaves": 178,
-    "target_coverage_pct": 78,
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 19,
+    "target_coverage_pct": 98,
     "flagged_games": [],
-    "careful_fidelity_pct": 85
+    "careful_fidelity_pct": 98
   },
   "fon": {
     "name": "Fon",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 23,
-    "english_fallback_leaves": 212,
-    "target_coverage_pct": 74,
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 26,
+    "target_coverage_pct": 98,
     "flagged_games": [],
-    "careful_fidelity_pct": 90
+    "careful_fidelity_pct": 98
   },
   "dyu": {
     "name": "Dyula",
-    "tier": "EXPERIMENTAL",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 21,
-    "english_fallback_leaves": 261,
-    "target_coverage_pct": 68,
+    "tier": "CERTIFIED_FLAGGED",
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 16,
+    "target_coverage_pct": 98,
     "flagged_games": [],
-    "careful_fidelity_pct": 82
+    "careful_fidelity_pct": 97
   },
   "jav": {
     "name": "Javanese",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 2,
-    "english_fallback_leaves": 55,
-    "target_coverage_pct": 93,
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 2,
+    "target_coverage_pct": 100,
     "flagged_games": [],
-    "careful_fidelity_pct": 100
+    "careful_fidelity_pct": 96
   },
   "hat": {
     "name": "Haitian Creole",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 3,
-    "english_fallback_leaves": 60,
-    "target_coverage_pct": 93,
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 2,
+    "target_coverage_pct": 100,
     "flagged_games": [],
-    "careful_fidelity_pct": 98
+    "careful_fidelity_pct": 98,
+    "note": "retained CERTIFIED_FLAGGED despite sub-85 fidelity: tiny fan-out re-sample (3 leaves); prior fidelity kept"
   },
   "lmo": {
     "name": "Lombard",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 5,
-    "english_fallback_leaves": 99,
-    "target_coverage_pct": 88,
-    "flagged_games": [],
-    "careful_fidelity_pct": 100
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 2,
+    "english_fallback_leaves": 2,
+    "target_coverage_pct": 100,
+    "flagged_games": [
+      "ReverseTicTacToe",
+      "ThreePlayerTicTacToe"
+    ],
+    "careful_fidelity_pct": 97
   },
   "lim": {
     "name": "Limburgish",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 4,
-    "english_fallback_leaves": 76,
-    "target_coverage_pct": 91,
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 5,
+    "target_coverage_pct": 100,
     "flagged_games": [],
-    "careful_fidelity_pct": 95
+    "careful_fidelity_pct": 92
   },
   "ltz": {
     "name": "Luxembourgish",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 5,
-    "english_fallback_leaves": 78,
-    "target_coverage_pct": 90,
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 5,
+    "target_coverage_pct": 100,
     "flagged_games": [],
-    "careful_fidelity_pct": 100
+    "careful_fidelity_pct": 90
   },
   "hne": {
     "name": "Chhattisgarhi",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 1,
-    "english_fallback_leaves": 98,
-    "target_coverage_pct": 88,
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 23,
+    "target_coverage_pct": 98,
     "flagged_games": [],
-    "careful_fidelity_pct": 100
+    "careful_fidelity_pct": 93
   },
   "mai": {
     "name": "Maithili",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 1,
-    "english_fallback_leaves": 74,
-    "target_coverage_pct": 91,
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 6,
+    "target_coverage_pct": 99,
     "flagged_games": [],
-    "careful_fidelity_pct": 100
+    "careful_fidelity_pct": 94
   },
   "mag": {
     "name": "Magahi",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 13,
-    "english_fallback_leaves": 96,
-    "target_coverage_pct": 88,
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 2,
+    "target_coverage_pct": 100,
     "flagged_games": [],
-    "careful_fidelity_pct": 100
+    "careful_fidelity_pct": 97
   },
   "kmr": {
     "name": "Northern Kurdish",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 3,
-    "english_fallback_leaves": 103,
-    "target_coverage_pct": 87,
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 3,
+    "target_coverage_pct": 100,
     "flagged_games": [],
-    "careful_fidelity_pct": 98
+    "careful_fidelity_pct": 96
   },
   "ilo": {
     "name": "Ilocano",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
     "confirmed_bugs": 1,
-    "english_fallback_leaves": 92,
-    "target_coverage_pct": 89,
-    "flagged_games": [],
-    "careful_fidelity_pct": 100
+    "english_fallback_leaves": 6,
+    "target_coverage_pct": 99,
+    "flagged_games": [
+      "Othello"
+    ],
+    "careful_fidelity_pct": 93
   },
   "lij": {
     "name": "Ligurian",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 7,
-    "english_fallback_leaves": 107,
-    "target_coverage_pct": 87,
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 4,
+    "target_coverage_pct": 100,
     "flagged_games": [],
-    "careful_fidelity_pct": 100
+    "careful_fidelity_pct": 95
   },
   "kas": {
     "name": "Kashmiri",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
     "confirmed_bugs": 1,
-    "english_fallback_leaves": 131,
-    "target_coverage_pct": 84,
-    "flagged_games": [],
-    "careful_fidelity_pct": 88
+    "english_fallback_leaves": 20,
+    "target_coverage_pct": 98,
+    "flagged_games": [
+      "Nim"
+    ],
+    "careful_fidelity_pct": 98
   },
   "lus": {
     "name": "Mizo",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 6,
-    "english_fallback_leaves": 177,
-    "target_coverage_pct": 78,
-    "flagged_games": [],
-    "careful_fidelity_pct": 98
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 2,
+    "english_fallback_leaves": 15,
+    "target_coverage_pct": 99,
+    "flagged_games": [
+      "ColonelBlotto",
+      "Golf"
+    ],
+    "careful_fidelity_pct": 86
   },
   "kin": {
     "name": "Kinyarwanda",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 15,
-    "english_fallback_leaves": 116,
-    "target_coverage_pct": 86,
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 6,
+    "target_coverage_pct": 99,
     "flagged_games": [],
-    "careful_fidelity_pct": 92
+    "careful_fidelity_pct": 95
   },
   "ltg": {
     "name": "Latgalian",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 2,
-    "english_fallback_leaves": 104,
-    "target_coverage_pct": 87,
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 4,
+    "target_coverage_pct": 100,
     "flagged_games": [],
     "careful_fidelity_pct": 95
   },
   "kea": {
     "name": "Kabuverdianu",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 11,
-    "english_fallback_leaves": 103,
-    "target_coverage_pct": 87,
-    "flagged_games": [],
-    "careful_fidelity_pct": 95
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 3,
+    "english_fallback_leaves": 8,
+    "target_coverage_pct": 99,
+    "flagged_games": [
+      "GermanWhist"
+    ],
+    "careful_fidelity_pct": 85,
+    "note": "retained CERTIFIED_FLAGGED despite sub-85 fidelity: Portuguese-creole langid false-positives"
   },
   "lin": {
     "name": "Lingala",
-    "tier": "EXPERIMENTAL",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 13,
-    "english_fallback_leaves": 125,
-    "target_coverage_pct": 85,
-    "flagged_games": [],
-    "careful_fidelity_pct": 80
+    "tier": "CERTIFIED_FLAGGED",
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 1,
+    "english_fallback_leaves": 3,
+    "target_coverage_pct": 100,
+    "flagged_games": [
+      "Stratego"
+    ],
+    "careful_fidelity_pct": 97
   },
   "lug": {
     "name": "Ganda",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 9,
-    "english_fallback_leaves": 128,
-    "target_coverage_pct": 84,
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 3,
+    "target_coverage_pct": 100,
     "flagged_games": [],
-    "careful_fidelity_pct": 92
+    "careful_fidelity_pct": 98
   },
   "luo": {
     "name": "Luo",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 2,
-    "english_fallback_leaves": 127,
-    "target_coverage_pct": 84,
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 10,
+    "target_coverage_pct": 99,
     "flagged_games": [],
     "careful_fidelity_pct": 92
   },
   "lua": {
     "name": "Luba-Kasai",
     "tier": "EXPERIMENTAL",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 11,
-    "english_fallback_leaves": 147,
-    "target_coverage_pct": 82,
-    "flagged_games": [],
-    "careful_fidelity_pct": 65
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 3,
+    "english_fallback_leaves": 27,
+    "target_coverage_pct": 97,
+    "flagged_games": [
+      "Bandit",
+      "IteratedRockPaperScissors",
+      "Secretary"
+    ],
+    "careful_fidelity_pct": 74
   },
   "kac": {
     "name": "Jingpho",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 11,
-    "english_fallback_leaves": 236,
-    "target_coverage_pct": 71,
-    "flagged_games": [],
-    "careful_fidelity_pct": 98
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 6,
+    "english_fallback_leaves": 27,
+    "target_coverage_pct": 97,
+    "flagged_games": [
+      "FifteenPuzzle",
+      "FrozenLake",
+      "Minesweeper",
+      "ThreePlayerIPD"
+    ],
+    "careful_fidelity_pct": 97
   },
   "kik": {
     "name": "Kikuyu",
     "tier": "EXPERIMENTAL",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
     "confirmed_bugs": 1,
-    "english_fallback_leaves": 168,
-    "target_coverage_pct": 79,
-    "flagged_games": [],
-    "careful_fidelity_pct": 78
+    "english_fallback_leaves": 35,
+    "target_coverage_pct": 97,
+    "flagged_games": [
+      "ThreePlayerTicTacToe"
+    ],
+    "careful_fidelity_pct": 79
   },
   "kab": {
     "name": "Kabyle",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 7,
-    "english_fallback_leaves": 165,
-    "target_coverage_pct": 80,
-    "flagged_games": [],
-    "careful_fidelity_pct": 90
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 1,
+    "english_fallback_leaves": 5,
+    "target_coverage_pct": 100,
+    "flagged_games": [
+      "Stratego"
+    ],
+    "careful_fidelity_pct": 96
   },
   "kon": {
     "name": "Kikongo",
-    "tier": "EXPERIMENTAL",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 14,
-    "english_fallback_leaves": 195,
-    "target_coverage_pct": 76,
-    "flagged_games": [],
-    "careful_fidelity_pct": 80
+    "tier": "CERTIFIED_FLAGGED",
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 6,
+    "english_fallback_leaves": 18,
+    "target_coverage_pct": 98,
+    "flagged_games": [
+      "Cryptarithm",
+      "ReverseTicTacToe",
+      "SimpleNegotiation",
+      "ThreeCardMonte",
+      "UltimateTicTacToe"
+    ],
+    "careful_fidelity_pct": 88
   },
   "knc": {
     "name": "Central Kanuri",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 2,
-    "english_fallback_leaves": 194,
-    "target_coverage_pct": 76,
-    "flagged_games": [],
-    "careful_fidelity_pct": 92
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 3,
+    "english_fallback_leaves": 22,
+    "target_coverage_pct": 98,
+    "flagged_games": [
+      "Breakthrough",
+      "Othello",
+      "Slitherlink"
+    ],
+    "careful_fidelity_pct": 96
   },
   "kbp": {
     "name": "Kabiye",
-    "tier": "EXPERIMENTAL",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 19,
-    "english_fallback_leaves": 294,
-    "target_coverage_pct": 64,
-    "flagged_games": [],
-    "careful_fidelity_pct": 78
+    "tier": "CERTIFIED_FLAGGED",
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 3,
+    "english_fallback_leaves": 35,
+    "target_coverage_pct": 97,
+    "flagged_games": [
+      "Klondike"
+    ],
+    "careful_fidelity_pct": 96
   },
   "kmb": {
     "name": "Kimbundu",
-    "tier": "EXPERIMENTAL",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 29,
-    "english_fallback_leaves": 301,
-    "target_coverage_pct": 63,
-    "flagged_games": [],
-    "careful_fidelity_pct": 70
+    "tier": "CERTIFIED_FLAGGED",
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 4,
+    "english_fallback_leaves": 13,
+    "target_coverage_pct": 99,
+    "flagged_games": [
+      "Cryptarithm",
+      "IteratedPrisonersDilemma",
+      "IteratedRockPaperScissors",
+      "TowerOfHanoi"
+    ],
+    "careful_fidelity_pct": 96
   },
   "kam": {
     "name": "Kamba",
-    "tier": "EXPERIMENTAL",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 75,
-    "english_fallback_leaves": 354,
-    "target_coverage_pct": 57,
+    "tier": "CERTIFIED_FLAGGED",
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 15,
+    "target_coverage_pct": 99,
     "flagged_games": [],
-    "careful_fidelity_pct": 80
+    "careful_fidelity_pct": 96
   },
   "sun": {
     "name": "Sundanese",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 1,
-    "english_fallback_leaves": 48,
-    "target_coverage_pct": 94,
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 2,
+    "target_coverage_pct": 100,
     "flagged_games": [],
-    "careful_fidelity_pct": 95
+    "careful_fidelity_pct": 93
   },
   "scn": {
     "name": "Sicilian",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 6,
-    "english_fallback_leaves": 66,
-    "target_coverage_pct": 92,
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 5,
+    "target_coverage_pct": 100,
     "flagged_games": [],
-    "careful_fidelity_pct": 100
+    "careful_fidelity_pct": 94
   },
   "pap": {
     "name": "Papiamento",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 8,
-    "english_fallback_leaves": 69,
-    "target_coverage_pct": 92,
-    "flagged_games": [],
-    "careful_fidelity_pct": 100
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 1,
+    "english_fallback_leaves": 3,
+    "target_coverage_pct": 100,
+    "flagged_games": [
+      "FifteenPuzzle"
+    ],
+    "careful_fidelity_pct": 93
   },
   "oci": {
     "name": "Occitan",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 6,
-    "english_fallback_leaves": 72,
-    "target_coverage_pct": 91,
-    "flagged_games": [],
-    "careful_fidelity_pct": 100
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 3,
+    "english_fallback_leaves": 2,
+    "target_coverage_pct": 100,
+    "flagged_games": [
+      "FifteenPuzzle",
+      "LightsOut",
+      "SpiteAndMalice"
+    ],
+    "careful_fidelity_pct": 87
   },
   "sot": {
     "name": "Southern Sotho",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 2,
-    "english_fallback_leaves": 93,
-    "target_coverage_pct": 89,
-    "flagged_games": [],
-    "careful_fidelity_pct": 85
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 1,
+    "english_fallback_leaves": 2,
+    "target_coverage_pct": 100,
+    "flagged_games": [
+      "Chopsticks"
+    ],
+    "careful_fidelity_pct": 95
   },
   "min": {
     "name": "Minangkabau",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 2,
-    "english_fallback_leaves": 82,
-    "target_coverage_pct": 90,
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 4,
+    "target_coverage_pct": 100,
     "flagged_games": [],
-    "careful_fidelity_pct": 100
+    "careful_fidelity_pct": 95
   },
   "nya": {
     "name": "Nyanja",
-    "tier": "EXPERIMENTAL",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 2,
-    "english_fallback_leaves": 82,
-    "target_coverage_pct": 90,
-    "flagged_games": [],
-    "careful_fidelity_pct": 82
+    "tier": "CERTIFIED_FLAGGED",
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 1,
+    "english_fallback_leaves": 2,
+    "target_coverage_pct": 100,
+    "flagged_games": [
+      "IteratedMatchingPennies"
+    ],
+    "careful_fidelity_pct": 95
   },
   "sna": {
     "name": "Shona",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 2,
-    "english_fallback_leaves": 78,
-    "target_coverage_pct": 90,
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 2,
+    "target_coverage_pct": 100,
     "flagged_games": [],
-    "careful_fidelity_pct": 98
+    "careful_fidelity_pct": 97
   },
   "srd": {
     "name": "Sardinian",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 12,
-    "english_fallback_leaves": 96,
-    "target_coverage_pct": 88,
-    "flagged_games": [],
-    "careful_fidelity_pct": 100
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 1,
+    "english_fallback_leaves": 6,
+    "target_coverage_pct": 99,
+    "flagged_games": [
+      "Stratego"
+    ],
+    "careful_fidelity_pct": 92
   },
   "smo": {
     "name": "Samoan",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 2,
-    "english_fallback_leaves": 87,
-    "target_coverage_pct": 89,
-    "flagged_games": [],
-    "careful_fidelity_pct": 98
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 1,
+    "english_fallback_leaves": 0,
+    "target_coverage_pct": 100,
+    "flagged_games": [
+      "Stratego"
+    ],
+    "careful_fidelity_pct": 97
   },
   "szl": {
     "name": "Silesian",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 7,
-    "english_fallback_leaves": 73,
-    "target_coverage_pct": 91,
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 5,
+    "target_coverage_pct": 100,
     "flagged_games": [],
-    "careful_fidelity_pct": 98
+    "careful_fidelity_pct": 94
   },
   "mri": {
     "name": "Maori",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 2,
-    "english_fallback_leaves": 85,
-    "target_coverage_pct": 90,
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 1,
+    "target_coverage_pct": 100,
     "flagged_games": [],
-    "careful_fidelity_pct": 100
+    "careful_fidelity_pct": 97
   },
   "mlt": {
     "name": "Maltese",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 6,
-    "english_fallback_leaves": 111,
-    "target_coverage_pct": 86,
-    "flagged_games": [],
-    "careful_fidelity_pct": 100
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 3,
+    "english_fallback_leaves": 3,
+    "target_coverage_pct": 100,
+    "flagged_games": [
+      "Chopsticks",
+      "Golf",
+      "LightsOut"
+    ],
+    "careful_fidelity_pct": 93
   },
   "nno": {
     "name": "Norwegian Nynorsk",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 19,
-    "english_fallback_leaves": 87,
-    "target_coverage_pct": 89,
-    "flagged_games": [],
-    "careful_fidelity_pct": 92
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 2,
+    "english_fallback_leaves": 4,
+    "target_coverage_pct": 100,
+    "flagged_games": [
+      "IteratedMatchingPennies",
+      "KuhnPoker"
+    ],
+    "careful_fidelity_pct": 90
   },
   "pag": {
     "name": "Pangasinan",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 2,
-    "english_fallback_leaves": 111,
-    "target_coverage_pct": 86,
-    "flagged_games": [],
-    "careful_fidelity_pct": 88
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 1,
+    "english_fallback_leaves": 3,
+    "target_coverage_pct": 100,
+    "flagged_games": [
+      "Golf"
+    ],
+    "careful_fidelity_pct": 98
   },
   "mni": {
     "name": "Meitei",
     "tier": "EXPERIMENTAL",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 2,
-    "english_fallback_leaves": 251,
-    "target_coverage_pct": 69,
-    "flagged_games": [],
-    "careful_fidelity_pct": 78
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 6,
+    "english_fallback_leaves": 59,
+    "target_coverage_pct": 94,
+    "flagged_games": [
+      "Blackjack",
+      "Cryptarithm",
+      "Sokoban",
+      "ThreePlayerGOPS"
+    ],
+    "careful_fidelity_pct": 79
   },
   "tat": {
     "name": "Tatar",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 3,
-    "english_fallback_leaves": 118,
-    "target_coverage_pct": 86,
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 8,
+    "target_coverage_pct": 99,
     "flagged_games": [],
-    "careful_fidelity_pct": 100
+    "careful_fidelity_pct": 96
   },
   "nso": {
     "name": "Northern Sotho",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 5,
-    "english_fallback_leaves": 126,
-    "target_coverage_pct": 85,
-    "flagged_games": [],
-    "careful_fidelity_pct": 88
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 1,
+    "english_fallback_leaves": 3,
+    "target_coverage_pct": 100,
+    "flagged_games": [
+      "Golf"
+    ],
+    "careful_fidelity_pct": 95
   },
   "ssw": {
     "name": "Swati",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 2,
-    "english_fallback_leaves": 108,
-    "target_coverage_pct": 87,
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 5,
+    "target_coverage_pct": 100,
     "flagged_games": [],
-    "careful_fidelity_pct": 92
+    "careful_fidelity_pct": 97
   },
   "san": {
     "name": "Sanskrit",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 2,
-    "english_fallback_leaves": 114,
-    "target_coverage_pct": 86,
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 10,
+    "target_coverage_pct": 99,
     "flagged_games": [],
-    "careful_fidelity_pct": 98
+    "careful_fidelity_pct": 95
   },
   "run": {
     "name": "Rundi",
-    "tier": "EXPERIMENTAL",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 3,
-    "english_fallback_leaves": 114,
-    "target_coverage_pct": 86,
+    "tier": "CERTIFIED_FLAGGED",
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 9,
+    "target_coverage_pct": 99,
     "flagged_games": [],
-    "careful_fidelity_pct": 80
+    "careful_fidelity_pct": 94
   },
   "shn": {
     "name": "Shan",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 9,
-    "english_fallback_leaves": 197,
-    "target_coverage_pct": 76,
-    "flagged_games": [],
-    "careful_fidelity_pct": 98
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 1,
+    "english_fallback_leaves": 38,
+    "target_coverage_pct": 96,
+    "flagged_games": [
+      "FifteenPuzzle"
+    ],
+    "careful_fidelity_pct": 97
   },
   "sat": {
     "name": "Santali",
-    "tier": "EXPERIMENTAL",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 10,
-    "english_fallback_leaves": 206,
-    "target_coverage_pct": 75,
+    "tier": "CERTIFIED_FLAGGED",
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 19,
+    "target_coverage_pct": 98,
     "flagged_games": [],
-    "careful_fidelity_pct": 80
+    "careful_fidelity_pct": 98
   },
   "quy": {
     "name": "Ayacucho Quechua",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 16,
-    "english_fallback_leaves": 168,
-    "target_coverage_pct": 79,
-    "flagged_games": [],
-    "careful_fidelity_pct": 90
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 2,
+    "english_fallback_leaves": 11,
+    "target_coverage_pct": 99,
+    "flagged_games": [
+      "Secretary",
+      "Stratego"
+    ],
+    "careful_fidelity_pct": 94
   },
   "nus": {
     "name": "Nuer",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 6,
-    "english_fallback_leaves": 168,
-    "target_coverage_pct": 79,
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 10,
+    "target_coverage_pct": 99,
     "flagged_games": [],
-    "careful_fidelity_pct": 88
+    "careful_fidelity_pct": 99
   },
   "sag": {
     "name": "Sango",
-    "tier": "EXPERIMENTAL",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 6,
-    "english_fallback_leaves": 185,
-    "target_coverage_pct": 77,
-    "flagged_games": [],
-    "careful_fidelity_pct": 82
+    "tier": "CERTIFIED_FLAGGED",
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 3,
+    "english_fallback_leaves": 3,
+    "target_coverage_pct": 100,
+    "flagged_games": [
+      "Golf",
+      "IteratedUltimatumGame"
+    ],
+    "careful_fidelity_pct": 97
   },
   "mos": {
     "name": "Mossi",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 15,
-    "english_fallback_leaves": 235,
-    "target_coverage_pct": 71,
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 14,
+    "target_coverage_pct": 99,
     "flagged_games": [],
-    "careful_fidelity_pct": 92
+    "careful_fidelity_pct": 97
   },
   "taq": {
     "name": "Tamasheq",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 4,
-    "english_fallback_leaves": 233,
-    "target_coverage_pct": 71,
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 16,
+    "target_coverage_pct": 98,
     "flagged_games": [],
-    "careful_fidelity_pct": 98
+    "careful_fidelity_pct": 94
   },
   "vec": {
     "name": "Venetian",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 7,
-    "english_fallback_leaves": 64,
-    "target_coverage_pct": 92,
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 3,
+    "target_coverage_pct": 100,
     "flagged_games": [],
-    "careful_fidelity_pct": 100
+    "careful_fidelity_pct": 95
   },
   "ydd": {
     "name": "Eastern Yiddish",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 8,
-    "english_fallback_leaves": 100,
-    "target_coverage_pct": 88,
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 4,
+    "target_coverage_pct": 100,
     "flagged_games": [],
-    "careful_fidelity_pct": 98
+    "careful_fidelity_pct": 97
   },
   "tgk": {
     "name": "Tajik",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 3,
-    "english_fallback_leaves": 82,
-    "target_coverage_pct": 90,
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 6,
+    "target_coverage_pct": 99,
     "flagged_games": [],
-    "careful_fidelity_pct": 100
+    "careful_fidelity_pct": 93
   },
   "xho": {
     "name": "Xhosa",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 6,
-    "english_fallback_leaves": 114,
-    "target_coverage_pct": 86,
-    "flagged_games": [],
-    "careful_fidelity_pct": 100
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 2,
+    "english_fallback_leaves": 2,
+    "target_coverage_pct": 100,
+    "flagged_games": [
+      "IteratedMatchingPennies",
+      "ReverseTicTacToe"
+    ],
+    "careful_fidelity_pct": 96
   },
   "war": {
     "name": "Waray",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 9,
-    "english_fallback_leaves": 105,
-    "target_coverage_pct": 87,
-    "flagged_games": [],
-    "careful_fidelity_pct": 98
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 2,
+    "english_fallback_leaves": 1,
+    "target_coverage_pct": 100,
+    "flagged_games": [
+      "GameOfPureStrategy",
+      "HighSociety"
+    ],
+    "careful_fidelity_pct": 97
   },
   "uig": {
     "name": "Uyghur",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 10,
-    "english_fallback_leaves": 149,
-    "target_coverage_pct": 82,
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 9,
+    "target_coverage_pct": 99,
     "flagged_games": [],
-    "careful_fidelity_pct": 92
+    "careful_fidelity_pct": 95
   },
   "tir": {
     "name": "Tigrinya",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 1,
-    "english_fallback_leaves": 181,
-    "target_coverage_pct": 78,
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 46,
+    "target_coverage_pct": 96,
     "flagged_games": [],
-    "careful_fidelity_pct": 95
+    "careful_fidelity_pct": 92
   },
   "tso": {
     "name": "Tsonga",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 3,
-    "english_fallback_leaves": 102,
-    "target_coverage_pct": 88,
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 6,
+    "target_coverage_pct": 99,
     "flagged_games": [],
     "careful_fidelity_pct": 95
   },
   "tuk": {
     "name": "Turkmen",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 6,
-    "english_fallback_leaves": 115,
-    "target_coverage_pct": 86,
-    "flagged_games": [],
-    "careful_fidelity_pct": 100
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 1,
+    "english_fallback_leaves": 13,
+    "target_coverage_pct": 99,
+    "flagged_games": [
+      "Klondike"
+    ],
+    "careful_fidelity_pct": 94
   },
   "tsn": {
     "name": "Tswana",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 5,
-    "english_fallback_leaves": 116,
-    "target_coverage_pct": 86,
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 2,
+    "target_coverage_pct": 100,
     "flagged_games": [],
-    "careful_fidelity_pct": 92
+    "careful_fidelity_pct": 97
   },
   "tpi": {
     "name": "Tok Pisin",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 17,
-    "english_fallback_leaves": 133,
-    "target_coverage_pct": 84,
-    "flagged_games": [],
-    "careful_fidelity_pct": 90
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 1,
+    "english_fallback_leaves": 0,
+    "target_coverage_pct": 100,
+    "flagged_games": [
+      "UltimateTexasHoldem"
+    ],
+    "careful_fidelity_pct": 99
   },
   "tum": {
     "name": "Tumbuka",
-    "tier": "EXPERIMENTAL",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 18,
-    "english_fallback_leaves": 144,
-    "target_coverage_pct": 82,
+    "tier": "CERTIFIED_FLAGGED",
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 3,
+    "target_coverage_pct": 100,
     "flagged_games": [],
-    "careful_fidelity_pct": 72
+    "careful_fidelity_pct": 98
   },
   "tzm": {
     "name": "Central Atlas Tamazight",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 5,
-    "english_fallback_leaves": 200,
-    "target_coverage_pct": 76,
-    "flagged_games": [],
-    "careful_fidelity_pct": 98
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 1,
+    "english_fallback_leaves": 6,
+    "target_coverage_pct": 99,
+    "flagged_games": [
+      "Stratego"
+    ],
+    "careful_fidelity_pct": 96
   },
   "twi": {
     "name": "Twi",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 7,
-    "english_fallback_leaves": 195,
-    "target_coverage_pct": 76,
-    "flagged_games": [],
-    "careful_fidelity_pct": 92
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 2,
+    "english_fallback_leaves": 5,
+    "target_coverage_pct": 100,
+    "flagged_games": [
+      "PegJump",
+      "Stratego"
+    ],
+    "careful_fidelity_pct": 97
   },
   "wol": {
     "name": "Wolof",
     "tier": "CERTIFIED_FLAGGED",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 12,
-    "english_fallback_leaves": 247,
-    "target_coverage_pct": 70,
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 0,
+    "english_fallback_leaves": 0,
+    "target_coverage_pct": 100,
     "flagged_games": [],
-    "careful_fidelity_pct": 95
+    "careful_fidelity_pct": 98
   },
   "umb": {
     "name": "Umbundu",
-    "tier": "EXPERIMENTAL",
-    "method": "NLLB-200 forward + careful two-model (llama405+qwen72) direct fidelity verification (Track B). LLM-verified, not native.",
-    "confirmed_bugs": 37,
-    "english_fallback_leaves": 301,
-    "target_coverage_pct": 63,
-    "flagged_games": [],
-    "careful_fidelity_pct": 72
+    "tier": "CERTIFIED_FLAGGED",
+    "method": "NLLB-200 forward MT + single Llama-3.1-405B fidelity verification (langid leak-gate + meaning judge, resample-on-flag). Track B: LLM-verified, not native. NOTE: full two-model (llama405+qwen72) improvement pass PENDING.",
+    "confirmed_bugs": 4,
+    "english_fallback_leaves": 13,
+    "target_coverage_pct": 99,
+    "flagged_games": [
+      "IteratedPrisonersDilemma",
+      "LightsOut",
+      "ReverseTicTacToe",
+      "Slitherlink"
+    ],
+    "careful_fidelity_pct": 96
   }
 }

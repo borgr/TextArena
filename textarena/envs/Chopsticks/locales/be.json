@@ -14,7 +14,7 @@
   },
   "game_action": {
     "attack": "P{player_id} атакуе руку P{opp_id} {opp_idx}: ён пераходзіць з {opp_val} да {new_val}.",
-    "split": "P{player_id} splits into [{L}, {R}]."
+    "split": "Г{player_id} разбівае на [{L}, {R}]."
   },
   "history": {
     "entry": "П{player_id} {desc}"

@@ -3,7 +3,7 @@
     "intro": "Juma jaqi {player_id} sapa {num_rounds}-p'unchay Uñt'aya-P'iqi-Q'illay jach'a t'aqi.\nJumax puckaraki aka p'unchayatx sarañani.\nSapa p'unchaypi, jani ukham: '[rock]', '[paper]', '[scissors]'.\nJupax aka '[r]', '[p]', '[s]' sarnaqapï."
   },
   "invalid_move": {
-    "wrong_format": "Move not recognized. Use [rock], [paper], or [scissors]."
+    "wrong_format": "Pukllayxäwi ukax jan uñt'ayäti. '[rock]', '[paper]', ukax '[scissors]' sapxtaña."
   },
   "game_action": {
     "selects": "Jaqi {player_id} akhamata move {move}."

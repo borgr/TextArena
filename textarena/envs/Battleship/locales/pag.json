@@ -11,7 +11,7 @@
     "you_sunk": "Nalunec! Nalunec yo ed saray ship diad {coord}! Say inyong naupdate a board:\n{view}",
     "opp_sunk": "Nalunec so kalaban yo ed ship yo diad {coord}! Say inyong naupdate a board:\n{view}",
     "you_hit": "Nakagat! Nakagat yo ed saray ship diad {coord}! Say inyong naupdate a board:\n{view}",
-    "opp_hit": "Opponent hit your ship at {coord}! Your updated board:\n{view}",
+    "opp_hit": "Kinabgan na kapigilan so barko mo ed {coord}! Say panibagong tabla mo:\n{view}",
     "you_miss": "Napaltak! Napaltak yo ed ship diad {coord}! Say inyong naupdate a board:\n{view}",
     "opp_miss": "Napaltak so kalaban yo ed ship yo diad {coord}! Say inyong naupdate a board:\n{view}"
   },

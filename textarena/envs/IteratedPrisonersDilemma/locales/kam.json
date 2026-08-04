@@ -1,18 +1,18 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in an Iterated Prisoner's Dilemma spanning {num_rounds} rounds.\n\nGame Structure:\n- Before each decision you have {total_conversation_rounds} turns to communicate freely.\n- After that, both players simultaneously choose to cooperate or defect.\n\nPayoff Matrix (fixed each round):\n- Both Cooperate ➜ each {cooperate_reward}\n- Both Defect ➜ each {mutual_defect_reward}\n- One Defects, one Cooperates ➜ Defector {defect_reward}, Cooperator {sucker_reward}\n\nHow to Play:\n- During conversation: type any text you wish.\n- During decision phase: include '[Cooperate]' or '[Defect]' (case-insensitive). You may add extra text before/after the token."
+    "intro": "Wee ni Mchezaji {player_id} katika Mchezo wa Kifungo cha Wafungwa uliorudiwa unaodumu kwa mizunguko {num_rounds}.\n\nMuundo wa Mchezo:\n- Kabla ya kila uamuzi una mizunguko {total_conversation_rounds} ya kujadiliana kwa uhuru.\n- Baada ya hapo, wachezaji wote wawili huchagua kushirikiana au kukataa kwa wakati mmoja.\n\nMatrix ya Matokeo (imehifadhiwa kila mzunguko):\n- Wote wawili Washirikiane ➜ kila mmoja {cooperate_reward}\n- Wote wawili Wakate ➜ kila mmoja {mutual_defect_reward}\n- Mmoja Akate, mmoja Ashirikiane ➜ Mkatili {defect_reward}, Mshirikishi {sucker_reward}\n\nJinsi ya Kucheza:\n- Wakati wa mazungumzo: andika maandishi yoyote unayotaka.\n- Wakati wa uamuzi: jumuisha '[Cooperate]' au '[Defect]' (bila kujali herufi kubwa au ndogo). Unaweza kuongeza maandishi ya ziada kabla/ baada ya kiashiria."
   },
   "phases": {
-    "conversation_finished": "Conversation finished for round {round}. Please reply with '[Cooperate]' or '[Defect]' within \\boxed{{}}.",
+    "conversation_finished": "Mazungumzo yamekwisha kwa mzunguko {round}. Tafadhali jibu kwa '[Cooperate]' au '[Defect]' ndani ya \\boxed{{}}.",
     "starting_round": "--- Kyongo kya mbee {round} ---",
-    "round_summary": "Round {round} results:\n{outcome}\nPlayer 0 earned {r0} (total {score_0}), Player 1 earned {r1} (total {score_1})."
+    "round_summary": "Matokeo ya mzunguko {round}:\n{outcome}\nMchezaji 0 alipata {r0} (jumla {score_0}), Mchezaji 1 alipata {r1} (jumla {score_1})."
   },
   "outcome": {
     "winner": "Mchezaji {winner} anashinda {win_score} - {lose_score}.",
     "draw": "Athaũki ma kĩla kĩvĩla manengiwe namba {s0} na onthe matia.",
-    "round_both_cooperate": "Both players cooperated.",
-    "round_both_defect": "Both players defected.",
+    "round_both_cooperate": "Wachezaji wote wawili walishirikiana.",
+    "round_both_defect": "Wachezaji wote wawili walikataa.",
     "round_p0_cooperates_p1_defects": "Mũndũ ũla wa mbee aĩ mũthaũki ũtelikĩtye ngusanĩsyonĩ.",
-    "round_p0_defects_p1_cooperates": "Player 0 defected, Player 1 cooperated."
+    "round_p0_defects_p1_cooperates": "Mchezaji 0 alikataa, Mchezaji 1 alishirikiana."
   }
 }

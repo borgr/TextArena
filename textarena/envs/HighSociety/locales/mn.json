@@ -10,7 +10,7 @@
   },
   "invalid_move": {
     "wrong_format": "Зөвхөн нэг [X] мөнгөний карт байх ёстой.",
-    "card_not_held": "You no longer have that money card."
+    "card_not_held": "Та тэр мөнгөний картыг алдажээ."
   },
   "message": {
     "tie": "Тэмцээний санал буцаагдсан.",

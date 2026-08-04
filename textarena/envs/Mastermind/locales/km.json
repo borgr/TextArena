@@ -13,7 +13,7 @@
     "repeated_guess": "អ្នកបានសន្និដ្ឋានរួចហើយ {guess} សូមសាកល្បងសន្និដ្ឋានផ្សេង។"
   },
   "game_action": {
-    "feedback": "Submitted [{guess}]. Feedback: {black_pegs} black peg(s), {white_pegs} white peg(s)."
+    "feedback": "បានដាក់សំណួរ [{guess}]។ ការឆ្លើយតប: {black_pegs} ប៉េកខ្មៅ និង {white_pegs} ប៉េកស។"
   },
   "outcome": {
     "win": "អ្នកបានបំបែកកូដ, ដោះស្រាយ {black_pegs} ចេញពី {code_length} កាំបិតបានត្រឹមត្រូវ",

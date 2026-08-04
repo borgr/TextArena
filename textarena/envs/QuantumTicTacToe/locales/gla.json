@@ -14,9 +14,9 @@
     "placed": "Chuir Cluicheadair {player_id} a shiomball ann an suipearadh eadar ceilidhean {pos_a} agus {pos_b}."
   },
   "game_message": {
-    "dependent_resolved": "Dependent superposition resolved. Cell ({r}, {c}) is now {symbol}.",
+    "dependent_resolved": "Suicheantas eisimeile air a' fuasgladh. Tha Ceall ({r}, {c}) a-nis {symbol}.",
     "last_cell_resolved": "Suipearadh mu dheireadh cèll air a shuipearadh. Tha cèll ({r}, {c}) a-nis {symbol}.",
-    "superposition_resolved": "Superposition resolved. Cell ({r}, {c}) is now {symbol}."
+    "superposition_resolved": "Suicheantas air a' fuasgladh. Tha Ceall ({r}, {c}) a-nis {symbol}."
   },
   "outcome": {
     "win": "Bidh cluicheadair {player_id} a 'buannachadh le comharran daingnichte!",

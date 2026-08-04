@@ -13,7 +13,7 @@
     "exceeds_pile": "Siyeni {quantity} kuchoka ngolo {pile_index} (koma {pile_count} yaliyobaki)."
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "Player {player_id} anamenya [{pile_index} {quantity}], kuchotsa {quantity} chinthu (kapena zinthu) kuchoka kwa mphika {pile_index}."
   },
   "outcome": {
     "win": "Wosewera {player_id} anatenga chinthu chomaliza ((s)!"

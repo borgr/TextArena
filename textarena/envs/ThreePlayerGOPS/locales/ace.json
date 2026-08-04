@@ -14,15 +14,15 @@
     "{scores}": "The final scores as a raw player-number to score mapping - do not translate"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player GOPS.\n- You hold the 13 cards A-K (each exactly once).\n- Each round a prize is revealed. Submit ONE card like `[Q]`, `[10]`, `[2]` …\n- Highest card wins the prize (+ any carry-over pot). Ties roll the prize into the next round.\n- After 13 rounds, highest total wins. Invalid moves = elimination."
+    "intro": "Droe neuh Pemain {player_id} lam Drei-Player GOPS.\n- Droe geuploh 13 boh kartu A-K (tiep-tiep si droe).\n- Tiep putaran hadiah geupeuleumah. Kirimkan SA boh kartu lagèe `[Q]`, `[10]`, `[2]` …\n- Kartu paléng manyang meuang hadiah (+ deng pot geubawa). Tiep-tiep geupeusong hadiah u putaran lheueh.\n- Lheueh 13 putaran, jeuëm paléng manyang meuang. Geupeuhancô lé gerak salah = teungöh."
   },
   "round": {
     "header": "### Ronde {round}/13 - Hadiah: {prize} (meunye seupanyo {worth})",
     "hand": "Jaroe gata nyang tinggai: {hand}"
   },
   "reveal": {
-    "win": "Bids » {bids} - Player {winner} wins {pot}.",
-    "tie": "Bids  {bids} - tie, pot now {pot}.",
+    "win": "Tawaran » {bids} - Pemain {winner} meuang {pot}.",
+    "tie": "Tawaran » {bids} - tiep, pot jinoe {pot}.",
     "scores": "Skor-skor jih → {scoreline}"
   },
   "invalid_move": {

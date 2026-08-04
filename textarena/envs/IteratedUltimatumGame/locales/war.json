@@ -24,10 +24,10 @@
     "intro": "Ikaw an Player {player_id}, naglalara hin {num_rounds} rounds han Iterated Ultimatum Game.\nMayda ka hin ${pool} nga ibabahin para han rundang ini tungod han imo ngan han Player {other_id}.\n\nProposer:\n  - Buhaton hin offer: [Offer: $X] (0 <= X <= pool)\n  - Kon gindawat → Ikaw makakakuha hin $(pool - X), an iba nga player makakakuha hin $X\n  - Kon gindamdam → An duha makakakuha hin $0\n  - Halimbawa: [Offer: $3]  o  'Nakikita ko ini nga patas. [Offer: $5]'\n\nResponder:\n  - Magdesisyon han offer pinaagi han [Accept] o [Reject]\n  - Halimbawa: 'Nagpapakita ini nga makatarungan. [Accept]'\n            'Barato kaau. [Reject]'\n"
   },
   "round": {
-    "begins": "--- Rundang {round_number} nagsasanga! ---\nPlayer {proposer_id} an nagproposar, Player {responder_id} an nagresponder.",
-    "offer": "Rundang {round_number}: Igin-offer han Player {proposer_id} hin ${offer} kan Player {responder_id} (nagpapabilin hin ${keep}).",
-    "accepted": "Gindawat han Player {responder_id}! Rundang {round_number} nga benepisyo: Player {proposer_id} +${proposer_gain}, Player {responder_id} +${responder_gain}. Bag-o nga mga totales: Player 0: ${total_0}, Player 1: ${total_1}.",
-    "rejected": "Player {responder_id} rejected the offer! Round {round_number} gains: Both players +$0. Totals remain: Player 0: ${total_0}, Player 1: ${total_1}."
+    "begins": "--- Nagtikang an Round {round_number}! ---\nAn Manuod {proposer_id} an nagpopropose, an Manuod {responder_id} an nagreresponde.",
+    "offer": "Round {round_number}: An Manuod {proposer_id} nag-offer ${offer} ha Manuod {responder_id} (gin-keep ${keep}).",
+    "accepted": "An Manuod {responder_id} ginkakarawat! Round {round_number} gains: Manuod {proposer_id} +${proposer_gain}, Manuod {responder_id} +${responder_gain}. Bag-o nga total: Manuod 0: ${total_0}, Manuod 1: ${total_1}.",
+    "rejected": "An Manuod {responder_id} gin-reject an offer! Round {round_number} gains: Pareho nga manuod +$0. Pareho la an total: Manuod 0: ${total_0}, Manuod 1: ${total_1}."
   },
   "invalid_move": {
     "no_offer_format": "An nagpropose kinahanglan maghimo hin offer gamit an format [Offer: $X].",
@@ -37,7 +37,7 @@
     "accept_or_reject": "An responder kinahanglan mag-[Accept] o [Reject] han offer."
   },
   "outcome": {
-    "win": "Nadaog han Player {winner} nga may ${winner_total} nga total kontra han ${loser_total} ni Player {loser}.",
+    "win": "An Manuod {winner} nagdaog ha ${winner_total} total kontra ha Manuod {loser} nga ${loser_total}.",
     "draw": "An duha nga magdudula nahuman hin ${total} total."
   }
 }

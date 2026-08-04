@@ -1,9 +1,9 @@
 {
   "player_prompt": {
-    "intro": "Usted es Jugador {player_id} en un juego de Alta Sociedad (versión de 2 jugadores).\nFlujo del juego:  Diez tarjetas de prestigio son subastadas una después de otra.\nOferta:    Cada subasta, elija secretamente una tarjeta de dinero del 1 al 11 y revele.\n            • La oferta más alta gana la tarjeta de prestigio y descarta esa tarjeta de dinero.\n            • La oferta más baja mantiene su tarjeta de dinero.\n            • Empate -> ambas ofertas son devueltas y la misma tarjeta de prestigio es subastada nuevamente.\nPuntuación:    Después de las diez subastas, sume **efectivo restante + puntos de prestigio**.\n            El *patrimonio neto* más alto gana (empate exacto -> empate).\n\n**Sintaxis de acción**  →  ofrezca una sola tarjeta como '[7]' o '[11]'."
+    "intro": "Nde Player {player_id} peteĩ HighSociety ñembosarái (versión 2-jugadores).\nÑembosarái reko:  Prestigio kárta 10 ojehepyme'ẽ peteĩ rire ambue.\nJepyme'ẽ:    Ñembosarái ñe'ẽme, eiporavo kárta viru 1-11 ehechauka.\n            • Jepyme'ẽ tuichavéva opyta kárta prestigio ha okañy kárta viru.\n            • Jepyme'ẽ michĩvéva okakuaa kárta viru.\n            • Tie -> jepyme'ẽ mokõivéva ojehepyme'ẽjey ha kárta prestigio ojehepyme'ẽjey.\nPuntuación:    Ñembosarái paha rire, ojoajú **viru rekosãsõ + puntuación prestigio**.\n            *Net-worth* tuichavéva opyta (tie exacto -> empate).\n\n**Sintaxis acción**  →  jepyme'ẽ kárta peteĩ '[7]' térã '[11]'."
   },
   "auction": {
-    "announce": "\n### Subasta {round}/10  |  Tarjeta de prestigio: {prize}"
+    "announce": "\n### Subasta {round}/10  |  Kárta prestigio: {prize}"
   },
   "board": {
     "money_cards": "Nde tarjeta de dinero rembyre: {money}"
@@ -14,11 +14,11 @@
   },
   "message": {
     "tie": "Oñeha'ã jey ojepaga. ¡Oñembojevy!",
-    "auction_result": "P0 ofrendó {bid0}, P1 ofrendó {bid1}. Jugador {winner} gana prestigio {prize} (total {total})."
+    "auction_result": "P0 jepyme'ẽ {bid0}, P1 jepyme'ẽ {bid1}. Jugador {winner} opyta kárta prestigio {prize} (total {total})."
   },
   "outcome": {
-    "p0_wins": "Patrimonio neto {nw0} > {nw1}",
-    "p1_wins": "Patrimonio neto {nw1} > {nw0}",
+    "p0_wins": "Mba'eheta {nw0} > {nw1}",
+    "p1_wins": "Mba'eheta {nw1} > {nw0}",
     "draw": "Mokõive patrimonio neto {nw0}  ojoaju porã."
   }
 }

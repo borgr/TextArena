@@ -1,10 +1,10 @@
 {
   "game_start": {
-    "intro": "The game begins. Trump suit: {trump_suit} (trump card: {trump_str}).",
+    "intro": "ၵိုၵ်းပွႆႇၶႄႉၶဵင်ႇ။ ၸႂ်ႉတိုဝ်းသိူဝ်ႈၶူဝ်ႇ: {trump_suit} (ၶႅပ်ႉၶူဝ်ႇ: {trump_str})။",
     "no_trump_card": "ဢမ်ႇမီးသင်။"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in German Whist.\n{phase_info}\nYou hold {hand_size} cards.\nPlay a card with '[play N]', where N is its position in your hand (for example '[play 3]').",
+    "intro": "တႆးပိူင်း {player_id} မီးၼႂ်းပွႆးလဵၼ်ႈ သိုင်ႇမၼ်း။\n{phase_info}\nတႆးႁဝ်းၼဵတ်ႈ {hand_size} ၶႅပ်း။\nၶိုၼ်ႈၶႅပ်းဢွၼ်ႇ '[play N]', တီႈ N ၼႆႉၶႅပ်းႁဝ်းၼဵတ်ႈ (ၼင်ႇၼႆ '[play 3]')။",
     "phase_learning": "လွင်ႈလဵပ်ႈႁဵၼ်းၸၼ်ႉထၢၼ်ႈ: ၽူႈဢွင်ႇပႄႉ ၼႂ်းၸိူင်းၵူႈဢၼ်ၼၼ်ႉ လႆႈဢဝ်ဝႂ်ၽႃႈၼႃႈသေ ၵေႃႉလႆႈသုမ်း သမ်ႉတေယိပ်း ဝႂ်ထႅင်ႈၵမ်းၼိုင်ႈ။ ၸိူင်းၸိူဝ်းဢၼ်ပေႉဝႆႉၼႂ်းတွၼ်ႈၼႆႉ ဢမ်ႇၼပ်ႉသွၼ်ႇၸွမ်း တႃႇလွင်ႈဢွင်ႇမၢၼ်ၼၼ်ႉယဝ်ႉ။",
     "phase_playing": "ၸၼ်ႉလဵၼ်ႈ: ၶႅပ်းၸိူင်းဢၼ်မီးဝႆႉၼၼ်ႉ လႆႈဢိုတ်းပႅတ်ႈယဝ်ႉသေတႃႉ လွၵ်းလၢႆးၵူႈလွင်ႈ ဢၼ်တေဢဝ်မႃးတီႈၼႆႈၼႆႉ မၼ်းပဵၼ်တွၼ်ႈတႃႇ တေပေႉလႆႈၼၼ်ႉယဝ်ႉ။"
   },
@@ -24,8 +24,8 @@
     "played": "ၽူႈလဵၼ်ႈ {player_id} လဵၼ်ႈဝႆႉ {card}။"
   },
   "trick": {
-    "won": "Player {winner_id} wins the trick with {card}.",
-    "won_learning": "Player {winner_id} wins the trick with {card} and takes the face-up card."
+    "won": "တႆးပိူင်း {winner_id} ပႄႉၶႅပ်း {card} ၼၼ်ႉ။",
+    "won_learning": "တႆးပိူင်း {winner_id} ပႄႉၶႅပ်း {card} သေ ဢဝ်ၶႅပ်းၸိုဝ်ႈ။"
   },
   "phase": {
     "learning_complete": "ၸူမ်းဢၼ်လႆႈႁဵၼ်းၼၼ်ႉ သုတ်းသဵင်ႈယဝ်ႉ - လွၵ်းလၢႆးတၢင်းလဵၼ်ႈ ဢၼ်ၵိုတ်းဝႆႉၵူႈဢၼ်ၼႆႉ မၼ်းၶဝ်ႈပႃးၸွမ်း လွင်ႈဢွင်ႇပေႉၼၼ်ႉယဝ်ႉ။"
@@ -40,7 +40,7 @@
     "scores_learning": "တေႃႇလႆႈ တႄႇဢဝ် - ၸဝ်ႈၶွင်ႇ 0: {tricks0}, ၸဝ်ႈၶွင်ႇ 1: {tricks1}",
     "scores_playing": "တေႃႇလႆႈ တႄႇဢဝ် - ၸဝ်ႈၶွင်ႇ 0: {tricks0}, ၸဝ်ႈၶွင်ႇ 1: {tricks1}",
     "phase": "ၸၼ်ႉ: {phase}",
-    "phase_learning": "Phase: {phase} ({remaining_cards} cards left in the deck)"
+    "phase_learning": "ၸုပ်ႈ: {phase} ({remaining_cards} ၶႅပ်းၵိုတ်းၼႂ်းၸိူၵ်ႈ)"
   },
   "hand": {
     "no_cards": "ဢမ်ႇမီးဝႂ်ၵပ်းတူဝ်။",
@@ -60,17 +60,17 @@
     "not_started": "လွင်ႈလဵၼ်ႈဢၼ်ဢမ်ႇတႄႇလႆႈ",
     "header": "=== လွင်ႈလဵၼ်ႈမၢၵ်ႇၼင် GERMAN WHIST Game===",
     "phase": "{observation}\nပွၵ်ႈ: {phase}",
-    "trump_suit": "{observation}\nTrump suit: {trump_suit}",
-    "trump_card": "{observation}\nTrump card: {card}",
-    "cards_left": "{observation}\nCards left in deck: {count}",
+    "trump_suit": "{observation}\nၶႅပ်းၸုမ်ႈ: {trump_suit}",
+    "trump_card": "{observation}\nၶႅပ်းၸုမ်ႈ: {card}",
+    "cards_left": "{observation}\nၶႅပ်းၵိုတ်းၼႂ်းၸိူၵ်ႈ: {count}",
     "next_card": "{observation}\nၶမ်းလႆႈ တေႃႇလႆႈ: {card}",
     "blank": "{observation} ၼ်ႂးၵႄႈ ၶၢဝ်းတၢင်းဢၼ်ၼိူင်ႈ လႄႈ သွင်ပွၵ်ႈၼၼ်ႉယဝ်ႉ။",
     "current_trick": "{observation} လွၵ်းလၢႆးဢၼ်ၸႂ်ႉတိုဝ်းမိူဝ်ႈလဵဝ်ၼႆႉ:",
     "trump_indicator": "(ထရမ်ႉ) ။",
     "trick_line": "{observation}\n  ၸဝ်ႈၶွင်ႇ {player_id}: {card}{trump_indicator}",
-    "player_line": "{observation}\nPlayer {player_id}: {scoring} scoring tricks ({tricks} total), {hand_size} cards in hand"
+    "player_line": "{observation}\nတႆးပိူင်း {player_id}: {scoring} ၶႅပ်းၸုမ်ႈ ({tricks} ႁူဝ်ႁႅၵ်ႈ), {hand_size} ၶႅပ်းၼႂ်းမိုဝ်း"
   },
   "outcome": {
-    "summary": "Learning phase - Player 0: {l0}, Player 1: {l1}. Playing phase - Player 0: {p0}, Player 1: {p1}. Player {winner_id} wins with {winner_tricks} scoring tricks!"
+    "summary": "ၸုပ်ႈၸိုဝ်ႈ - တႆးပိူင်း 0: {l0}, တႆးပိူင်း 1: {l1}။ ၸုပ်ႈလဵၼ်ႈ - တႆးပိူင်း 0: {p0}, တႆးပိူင်း 1: {p1}။ တႆးပိူင်း {winner_id} ပႄႉၶႅပ်း {winner_tricks} ၶႅပ်းၸုမ်ႈ!"
   }
 }

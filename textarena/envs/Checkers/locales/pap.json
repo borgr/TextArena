@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "No ta haya format di moveshon valioso. Usa [a1b2], p.ej. [b2c3].",
-    "illegal": "Move [{move}] is illegal."
+    "illegal": "Move [{move}] ta ilegal."
   },
   "game_action": {
     "moved": "E hungadó {player_id} a move e wega di {move}."

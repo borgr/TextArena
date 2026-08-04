@@ -16,16 +16,16 @@
     "{cards}": "The cards in a pile as neutral labels, or '--' if empty (never translate)"
   },
   "player_prompt": {
-    "intro": "You are playing Klondike Solitaire. Your goal is to move all cards to the foundation piles.\n\nGame Rules:\n- Foundation piles (F1-F4): Build up from Ace to King in suit\n- Tableau piles (T1-T7): Build down alternating colors (red on black, black on red)\n- Stock: Draw cards to waste pile\n- Waste (W): Top card available for play\n\nCommands:\n- 'draw' - Draw cards from stock to waste\n- 'move <source> <destination> [count]' - Move cards between piles\n  Examples: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count can also be 'all', which will try to move all face-up cards.\n- 'forfeit' - End the game immediately and lock in your current score\n- Pile names: W (waste), F1-F4 (foundations), T1-T7 (tableau)\n\nYou can execute multiple actions in one turn by separating them with commas:\n  Example: 'draw, move W T1, move T2 F1'\n\nOnly Kings can be placed on empty tableau piles.\nActions execute in order - if one fails, the remaining actions are skipped.\nUse 'forfeit' if you believe the game is impossible to win."
+    "intro": "I ka jwe Klondike Solitaire. I ka kan ka kɛnɛ kɔnɔ ka ta foundation piles.\n\nJɛnw ka ɲɛfɛnw:\n- Foundation piles (F1-F4): Kɛnɛ ka bɔnɔ Ace fo ka tiɲɛ King ka ɲɛfɛ\n- Tableau piles (T1-T7): Kɛnɛ ka bɔnɔ fo ka tiɲɛ colors ka wɛrɛ (red kɔnɔ black, black kɔnɔ red)\n- Stock: Draw kɔnɔ ka cards fo waste pile\n- Waste (W): Top card ka bon kosɛbɛ play\n\nCommands:\n- 'draw' - Draw kɔnɔ ka cards fo stock ka waste\n- 'move <source> <destination> [count]' - Kɛnɛ ka cards kosɛbɛ piles\n  Examples: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count ka bon kosɛbɛ 'all', ka tiɲɛ ka kɛnɛ ka face-up cards.\n- 'forfeit' - Jɛnw ka taga ka sɔrɔ i ka score\n- Pile names: W (waste), F1-F4 (foundations), T1-T7 (tableau)\n\nI ka execute kɔnɔ actions ka one turn ka sɔrɔ ka commas:\n  Example: 'draw, move W T1, move T2 F1'\n\nKings kɛrɛ ka bon kosɛbɛ empty tableau piles.\nActions ka execute ka ɲɛfɛ - ka one fails, ka remaining actions ka skipped.\nKɔnɔ 'forfeit' ka i ka jɛnw ka impossible ka taga."
   },
   "format_error": {
     "no_brackets": "Baara kɛcogo man ɲi. Baara ka kan ka don dakun na.",
     "no_closing_bracket": "Baara kɛcogo man ɲi. Daɲɛ laban fan bɛ yen ']'",
     "empty_command": "Kumandɔn lakika. I bɛ 'draw' sɛbɛn walima i b'a fɔ 'move <source><destination> [count]'.",
     "empty_action": "Baara lakolonw",
-    "move_needs_args": "Move command mako bɛ source ni destination la. Usage: 'move <source> <destination> [count]'",
-    "count_positive": "Jateminɛ ka kan ka kɛ ɲuman ye walima \" bɛɛ\"",
-    "count_invalid": "Jateminɛ balilen. I bɛ jatiden kɛ walima 'bɛɛ'",
+    "move_needs_args": "Kɛlɛkɛlɛ kɔmɛndi 'move' bɛ kɛnɛ ka bɔ dɔn o dɔn. Kɛlɛkɛlɛ bɛɛ: 'move <source> <destination> [count]'",
+    "count_positive": "Kɔntɛ bɛɛ kɔrɛktɛ pɔzitif aw 'all'",
+    "count_invalid": "Kɔntɛ bɛɛ kɔrɛktɛ. Kɔmandi bɛɛ kɔrɛktɛ: kɔntɛ aw 'all'",
     "unknown_command": "Kɛma '{cmd}' ye misali. Ka 'draw', 'move <source> <destination> [count]', ani 'forfeit'",
     "wrapped": "Action {n}: {msg}"
   },
@@ -53,13 +53,13 @@
     "foundation_to_tableau_one_card": "I bɛ se ka karti 1 dɔrɔn ta bɔli la ka taa tableau kan.",
     "foundation_empty": "F{src} siginiden lakika tɛ yen.",
     "foundation_to_tableau_ok": "Kaati kɛma ye foundation F{src} cɛ tableau T{dst}",
-    "foundation_to_tableau_bad": "Cannot place foundation card on tableau T{dst}",
+    "foundation_to_tableau_bad": "Tɛ ka foundation card ka bon kosɛbɛ tableau T{dst}",
     "to_waste_or_stock": "A tɛ se ka taa foroko la walima fɛn dɔ wɛrɛ kɔnɔ."
   },
   "outcome": {
     "forfeit": "Ɲɔnbɛn bɛ ban. laban jabi: {score} karitiw sɔrɔli jɔyɔrɔ la.",
     "won": "I ye Klondike Solitaire sɔrɔ!",
-    "turn_limit": "Dasɛ! I ye turn {max_turns} jamana. Score: {score} kɛma foundation dɛmɛna."
+    "turn_limit": "Jɛnw ka taga! I ka tiɲɛ ka maximum {max_turns} turns. Score: {score} cards ka foundations."
   },
   "board": {
     "title": "=== KLONDIKE SOLITAIRE=== (Kolondiye kelenna)",

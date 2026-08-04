@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "Kamu sedang memainkan Mastermind.\nKamu perlu menemukan kode yang {code_length} digit panjang, setiap digit dari 1 sampai {num_numbers}, {repeats}.\nDalam tanggapanmu, kamu dapat mengirim tebakanmu dalam format berikut: '[2 1 4 5]'.\nSetelah setiap tebakan, kamu akan menerima umpan balik dalam bentuk kunci hitam dan putih.\nKunci hitam menunjukkan digit yang benar pada posisi yang benar, sedangkan kunci putih menunjukkan digit yang benar pada posisi yang salah.\nKamu memiliki {max_turns} giliran untuk menebak kode.\n",
+    "intro": "Anda sadang bamain Mastermind.\nAnda paralu manamuan kode nan panjang {code_length} digit, satiok digit dari 1 sampai {num_numbers}, {repeats}.\nDalam tanggapan Anda, Anda dapek mangirimkan takaan Anda dalam format barikut: '[2 1 4 5]'.\nSasudah satiok takaan, Anda akan mandapekan umpan balik dalam bantuak paku hitam jo putiah.\nPaku hitam manunjukkan digit nan bana dalam posisi nan bana, sadangkan paku putiah manunjukkan digit nan bana dalam posisi nan salah.\nAnda punyo {max_turns} giliran untuak menebak kode.\n",
     "with_repeats": "jo kamungkinan ulangnyo",
     "no_duplicates": "indak ado duplikatnyo"
   },
@@ -13,10 +13,10 @@
     "repeated_guess": "Sanak alah maneka {guess}. Silakan cubolah lain pulo."
   },
   "game_action": {
-    "feedback": "Submitted [{guess}]. Feedback: {black_pegs} black peg(s), {white_pegs} white peg(s)."
+    "feedback": "Dikirim [{guess}]. Umpan balik: {black_pegs} paku hitam, {white_pegs} paku putiah."
   },
   "outcome": {
-    "win": "Kamu sudah memecahkan kode, memecahkan {black_pegs} dari {code_length} kunci dengan benar",
+    "win": "Anda alah mamacahkan kode, manyalasaikan {black_pegs} dari {code_length} paku dengan bana",
     "turn_limit": "Bateh putaran alah digunoan. Sanak maneka {percent} persen dari angko nan tapek."
   }
 }

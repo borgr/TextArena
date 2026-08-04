@@ -13,7 +13,7 @@
     "illegal": "حركة غير قانونية."
   },
   "game_action": {
-    "captured": "Player {player_id} captured a piece! (+{score_per_capture})"
+    "captured": "اللعّاب {player_id} أسر قطعة! (+{score_per_capture})"
   },
   "outcome": {
     "no_pieces": "لاعب {player_id} ماعندهش قطعة.",

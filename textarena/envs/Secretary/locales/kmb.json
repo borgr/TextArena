@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You will observe {N} hidden values sequentially.\nAt each step type [accept] to pick the *current* value, or [continue] to skip it and see the next one.\nIf you never accept, you are forced to take the final value.\nYou win (reward = 1) **only** if the value you ultimately pick is the highest of all."
+    "intro": "Ovanga uakulonda {N} milonga ya uakulu usambulwa.\nKu kila kutatuka, ukwale [accept] kuchukua uakulu wa lunda, ka [continue] kukwata kuenda kuleka.\nUka kala ka chukua, ukalundwa kuchukua uakulu wa kuleka.\nUkaka (imbiru = 1) **kaka** uka uakulu waku chukua ndio wa uakulu wa yote."
   },
   "game_action": {
     "current_value": "Ua diambu dialelo {value}."
@@ -9,7 +9,7 @@
     "wrong_format": "O kijimbuete kia tokala o ku ki soneka mu mukanda iú, [accept] mba [continue]."
   },
   "outcome": {
-    "summary": "You accepted value {value} at draw {draw_num}/{N}. The best overall was {best}. {result}",
+    "summary": "Uakugwiza valosi {value} kwa kuomba {draw_num}/{N}. Ya juu zaidi ilikuwa {best}. {result}",
     "perfect": "Ua solo kiambote! ",
     "not_max": "Ki kiene ngó."
   }

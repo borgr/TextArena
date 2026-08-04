@@ -16,23 +16,23 @@
     "{cards}": "The cards in a pile as neutral labels, or '--' if empty (never translate)"
   },
   "player_prompt": {
-    "intro": "Nde re'upa Klondike Solitaire. Ne rembiapo ha'e embohasa opaite kuatia umi pila fundación-pe. Reglas del juego: - Pila Fundaciones (F1-F4): Ejapo peteĩ as rey reheguáva - Pila Tablero (T1-T7): Emboja'o sa'i sa'ivéva (poyvi pytã ári, hũ ro'ýpe) - Stock: Emboguete tarjeta hetave itaju rovái - Waste (W): Tarjeta yvatevéva ojepurúva ñembosarái hag̃ua Ohechauka \"empue\" - Emboguejy ta'anga oĩva stock guive waste peve - 'emohenda <fuente><destino> [count]'-Emboguete mbogua aty apytépe Ejemplo: emboguete W T1', embogueta T1 F2', embogate T3 T5 2'. Ikatu avei eipapa 'opavave', oñeha'ãva omýi pya'eterei opaichagua carta ojereva hendápe. - 'ñemboyke' - Emohu'ã joko ha emoinge ne mba'epuruvicha ko'ágägua nde réra rupive - Pile: W pileta (was), remboguata F4-F1-T1, tembiapokuña morotĩrã (t7 tablero) - Mba'apo ikatúke ikatu ejaporavo ñembohasa ambue póso ndive peguáicha remomombyaty A table de la mesa oĩhápe Techapyrã: Rehechauka pu'ỹre añoiténte reguerekuaa papapykuera opyta reipota oñemohẽramo pe távape; tesa'a tapykuére: Esquema ohasávo w-1 = 'Ñemoambuesãmbyhýva f-1, ombohape'erãgui guahẽta raitypa rire upe tenda opytávaramo' ('forfe') - Rei kuéra iñambue añónte': Embogueraha tape omboguerahami jeiko' techa ndikatuichýnte ohecháme."
+    "intro": "Reĩmimi Klondike Solitaire. Ne remiñemi oĩva apañuãi ñanduti karta kuéra foundation piles-pe.\n\nJuego Kuéra:\n- Foundation piles (F1-F4): Ojejapo haguã Ace-gui King-peve sa'y\n- Tableau piles (T1-T7): Ojejapo haguã sa'y opaichagua (pytã haguã hũ, hũ haguã pytã)\n- Stock: Ojejapo karta kuéra ohasa waste pile-pe\n- Waste (W): Karta oĩva ári oike haguã ñanduti\n\nKomandos:\n- 'draw' - Ojejapo karta kuéra ohasa stock-gui waste-pe\n- 'move <source> <destination> [count]' - Ojejapo karta kuéra ohasa piles ñande\n  Ejemplos: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count avei ikatu oĩ 'all', oikotevẽva ojejapó mayma karta oĩva ári.\n- 'forfeit' - Ojejapo juego ohasa inmediatamente ha oike haguã puntuación reko\n- Pile réra: W (waste), F1-F4 (foundations), T1-T7 (tableau)\n\nEikatu eejapó acción kuéra hetãve jehasa peteĩ turn-pe oñemboja'o haguã komas:\n  Ejemplo: 'draw, move W T1, move T2 F1'\n\nRei Rei ikatu oike tableau piles vasia-pe.\nAcción kuéra ojejapó orden-pe - ohasa ñembyasy peteĩva, acción kuéra ohasa ñande ojejapó."
   },
   "format_error": {
-    "no_brackets": "Formato de acción no válido. Umi mba'e ojejapóva oñemoĩva paréntesis-pe.",
+    "no_brackets": "Formato de acción iválido. Acción oikotevẽva oñeñongatu.",
     "no_closing_bracket": "Formato de acción noĩporãva. Oime'ỹva paréntesis omohu'ãva ']\"",
     "empty_command": "Ojekuaauka \"draw\" térã \"move <source> <destination> [count]\".",
-    "empty_action": "Acción oï'ÿva rehe",
+    "empty_action": "Acción vasia",
     "move_needs_args": "Movimiento-pe tekotevẽ peteĩ mo'ãha ha tenda. Jeiporu: 'move <source> <destination> [count]'.",
-    "count_positive": "Ko conteo ha'eva'erã positivo térã \"opavave\"",
-    "count_invalid": "Ojeiporu papapy térã \"opa\"",
-    "unknown_command": "Unknown command '{cmd}'. Use 'draw', 'move <source> <destination> [count]', or 'forfeit'",
+    "count_positive": "Conteo oikotevẽva oĩ positivo térã 'all'",
+    "count_invalid": "Conteo iválido. Eipuru número térã 'all'",
+    "unknown_command": "Ñandei komando '{cmd}'. Eipuru 'draw', 'move <source> <destination> [count]', térã 'forfeit'",
     "wrapped": "Acción {n}: {msg}"
   },
   "action_result": {
     "success": "Acción {n}: {msg}",
-    "before_failure": "Executed {n} action(s) before failure.",
-    "failed": "Acción {n} fracasó: {msg}"
+    "before_failure": "Ojejapó {n} acción ohasa ñembyasy.",
+    "failed": "Acción {n} ohasa ñembyasy: {msg}"
   },
   "move_result": {
     "drew": "Ogueraha tarjeta de crédito umi mba'e oîva guive ha ojeitypa.",
@@ -41,25 +41,25 @@
     "foundation_one_card": "Ikatu omomýi 1 kuatia añónte fundación-pe.",
     "waste_to_foundation_ok": "Tarjeta oñemomýiva ytyguágui fundación-pe F{dst}",
     "waste_to_foundation_bad": "Ndaikatúi omomýi tarjeta de desecho upe pila fundación-pe g̃uarã",
-    "tableau_to_foundation_ok": "Movió carta de tableau T{src} a fundación F{dst}",
+    "tableau_to_foundation_ok": "Ojejapó karta ohasa tableau T{src} peve foundation F{dst}",
     "tableau_to_foundation_bad": "Ndaikatúi oñemomýi tarjeta de tablero upe pila fundación-pe g̃uarã",
     "foundation_to_foundation": "Ndaikatúi oñemomýi fundación guive ambue fundamento-pe.",
     "waste_to_tableau_one_card": "Ikatu omomýi 1 tarjeta añónte tembiporu'ỹgui tablilla-pe.",
     "waste_to_tableau_ok": "Ogueraha tarjeta deshecho guive ta'anga T{dst}-pe.",
     "waste_to_tableau_bad": "Ndaikatúi oñemoĩ tarjeta de desecho upe tablero ári",
     "no_face_up": "Ndaipóri tarjeta ojehecha'ỹva oñemomýi hag̃ua.",
-    "tableau_to_tableau_ok": "Movió {count} carta(s) de tableau T{src} a T{dst}",
-    "tableau_to_tableau_bad": "No se puede mover {count} carta(s) de T{src} a T{dst}",
+    "tableau_to_tableau_ok": "Ojejapó {count} karta ohasa tableau T{src} peve T{dst}",
+    "tableau_to_tableau_bad": "Ndaikatúi ojejapó {count} karta ohasa T{src} peve T{dst}",
     "foundation_to_tableau_one_card": "Ikatu omomýi 1 tarjeta añónte fundación guive ta'anga peve.",
     "foundation_empty": "Fundación F{src} ndoguerekói mba'eve.",
-    "foundation_to_tableau_ok": "Movió carta de fundación F{src} a tableau T{dst}",
+    "foundation_to_tableau_ok": "Ojejapó karta ohasa foundation F{src} peve tableau T{dst}",
     "foundation_to_tableau_bad": "Ndaikatúi oñemoĩ tarjeta fundación tabla T{dst}-pe.",
     "to_waste_or_stock": "Ndaikatúi oñemomýi mba'e ñehundi térã stock-pe."
   },
   "outcome": {
     "forfeit": "Ojejapo peteĩ ñembosarái ha ojehupyty resultado final: {score} tarjeta fundación-pe.",
     "won": "Vy'apavẽ, rehupyty pe Klondike Solitario!",
-    "turn_limit": "Juego terminado. Alcanzaste el máximo de {max_turns} turnos. Puntuación: {score} cartas en fundaciones"
+    "turn_limit": "Juego ohasa! Oike {max_turns} jehasa. Puntuación: {score} kartas oĩva foundations."
   },
   "board": {
     "title": "=== KLONDIKE SOLITAIRE === Oikovejeyva'ekue ary 1999-pe.",

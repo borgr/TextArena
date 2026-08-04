@@ -1,9 +1,9 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({piece}). Opponent is ({opp}). Submit moves as '[b1 c3]' (from → to). All pieces move like chess knights.\nEach capture scores {score_per_capture} point. Game ends after {max_moves} moves or when a player has no legal move / no pieces. Higher score wins."
+    "intro": "Jius esat Spēlētājs {player_id} ({piece}). Pretinieks ir ({opp}). Iesniedz gājienus kā '[b1 c3]' (no → uz). Visi figūri gāj kā šaha zirdziņi.\nKatrs sagrābšanas punkts ir {score_per_capture} punkts. Spēle beidzas pēc {max_moves} gājienu vai kad spēlētājam nav legālu gājienu / nav figūru. Augstāks punktu skaits uzvar."
   },
   "board": {
-    "current_board": "Move #{move_count}\n\n{board}\n\nAvailable Moves: {moves}"
+    "current_board": "Gājiens #{move_count}\n\n{board}\n\nPieejamie gājieni: {moves}"
   },
   "invalid_move": {
     "bad_format": "Napareizs formats. Izmontoj \"[b1 c3]\".",
@@ -14,7 +14,7 @@
   },
   "game_action": {
     "moved": "Spēletājs {player_id} pārvietoja savu daliņu no {frm} uz {to}.",
-    "capture": "{observation} Capturing a piece! (+{score_per_capture})"
+    "capture": "{observation} Sagrābjot figūru! (+{score_per_capture})"
   },
   "outcome": {
     "no_pieces": "Spālātuojam {player_id} nav kūku.",

@@ -14,7 +14,7 @@
   },
   "game_action": {
     "attack": "P{player_id} i attaka lerato la P{opp_id} {opp_idx}: leri tlhela eka {opp_val} ku ya eka {new_val}.",
-    "split": "P{player_id} splits into [{L}, {R}]."
+    "split": "P{player_id} a hluvukisa kuva [{L}, {R}]."
   },
   "history": {
     "entry": "P{player_id} {desc}"

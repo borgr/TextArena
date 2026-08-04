@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing Slitherlink on a {R}x{C} grid!\nDraw a single continuous loop so each numbered cell has that many bordering edges.\nToggle edges with:\n  [h r c] - toggle horizontal edge above dots at row r, column c\n  [v r c] - toggle vertical edge left of dots at row r, column c\nNumbers show required edge count, '.' means no constraint.\nYou have up to {max_turns} moves to solve the puzzle."
+    "intro": "O keba ko sala Slitherlink na reso {R}x{C}!\nTanga mizungu mya nsinga moko mpe kila seli ina nambari ina mizungu mingi ya mipaka.\nBuka mizungu na:\n  [h r c] - buka mizungu ya horizontali juu ya vidoti na ligi r, safu c\n  [v r c] - buka mizungu ya wima kushoto ya vidoti na ligi r, safu c\nNambari zinaonyesha idadi ya mizungu inayohitajika, '.' inamaanisha hakuna vikwazo.\nUna hadi {max_turns} zamu za kutatua puzzle."
   },
   "board": {
     "current_board": "{board}\nNkisi zinafikiwa: {progress}"

@@ -1,9 +1,9 @@
 {
   "player_prompt": {
-    "intro": "You are in a room with {num_buttons} buttons: {buttons}. Each button is associated with a Bernoulli distribution with a fixed but unknown mean; the means for the buttons could be different.\nFor each button, when you press it, you will get a reward that is sampled from associated distribution.\nYou have {num_turns} time steps and, on each time step, you can choose any button and receive the reward.\nYour goal is to strategically choose buttons at each time step to collect information about their reward distribution, that will let you choose the button with the highest mean reward correctly at the end of {num_turns} turns."
+    "intro": "I ye kono dɛ ka sɛnɛ {num_buttons} sɛnɛw: {buttons}. Kono sɛnɛ kɛcogo Bernoulli lakodɔnɛ lajɛlen ye, nka a jɛlen fɔlɔ don o fɛ; sɛnɛw jɛlenw ye to kelen ye.\nKono sɛnɛ kɔ, ni i bɔra, i bɛna sɔrɔdɔn ye ka na sɛnɛ lakodɔnɛ la.\nI bɛ {num_turns} wakati dɔw la, ni kɔnɔ wakati dɔ kɔ, i bɛ se ka sɛnɛ wɛɛ kɛ i jɛ ka sɔrɔdɔn ye.\nI lakɔli ye ka sɛnɛw jɛ ka wakati kɔ kɛɛ kɔ sɔrɔ ka kɛɲɛ ni sɛnɛ jɛlen ye ka bɔ sɛnɛ wɛɛ kɛ i nɔfɛ {num_turns} wakati dɔw la."
   },
   "board": {
-    "stat_line": "{button}: {reward} (played {count} times)",
+    "stat_line": "{button}: {reward} (jɛyɔrɔ {count} fɔ)",
     "summary": "Kunnafoni: {stats}"
   },
   "invalid_move": {
@@ -11,7 +11,7 @@
     "invalid_button": "Buton kɔrɔman dɔ sugandi la."
   },
   "game_action": {
-    "pressed": "You pressed the {button} button and received a reward of {reward}."
+    "pressed": "I bɔra {button} sɛnɛ ka sɔrɔdɔn ye ka na {reward} sɔrɔdɔn."
   },
   "game_message": {
     "final_decision": "I ka wari bena kɛ min o min ye, wagati ta ka miiri koɲuman k'a filɛ fɛɛn minw be se ka fisaya."

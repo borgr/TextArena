@@ -8,7 +8,7 @@
     "cell_already_occupied": "خانەی {cell_num} پێشتر داگیرکراوە. خانەیەکی بەتاڵ هەڵبژێرە."
   },
   "board": {
-    "current_state": "Current Board:\n\n{rendered_board}\nAvailable Moves: {available_moves}"
+    "current_state": "حاڵەتی ئێستای تەختە:\n\n{rendered_board}\nجووڵەکان بەردەست: {available_moves}"
   },
   "action": {
     "placement": "یاریکەر {current_player_id} نیشانەکەی ({symbol}) لە خانە {cell_num} دانا."

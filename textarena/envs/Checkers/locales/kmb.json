@@ -6,15 +6,15 @@
     "intro": "You are Player {player_id} playing a game of Checkers as {color}.\nMake your move in chess-style notation [fileRank fileRank], e.g. '[b2c3]' (column letter a–h, row digit 0–7).\nBasic rules:\n  • Move diagonally forward by 1 if empty.\n  • Capture by jumping over an opponent piece.\n  • A piece is Kinged if it reaches the opposite end.\n"
   },
   "invalid_move": {
-    "wrong_format": "No valid move format found. Use [a1b2], e.g. [b2c3].",
-    "illegal": "Move [{move}] is illegal."
+    "wrong_format": "Nga formatu ya movi validu. Usa [a1b2], e.g. [b2c3].",
+    "illegal": "Movi [{move}] i ilegal."
   },
   "game_action": {
-    "moved": "Player {player_id} moved {move}."
+    "moved": "Mwana {player_id} endeu {move}."
   },
   "outcome": {
-    "red_no_pieces": "Red has no pieces left. Black wins!",
-    "black_no_pieces": "Black has no pieces left. Red wins!",
+    "red_no_pieces": "Vermelho kena pecas nze. Preto vence!",
+    "black_no_pieces": "Preto kena pecas nze. Vermelho vence!",
     "no_moves": "O jokala {player_id} ka tena dingi ku bhanga kima.",
     "draw": "O jimbambe ja ku bhixila bhu kididi kiki, a ji tolola kiá."
   }

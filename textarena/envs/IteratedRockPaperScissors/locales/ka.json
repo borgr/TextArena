@@ -13,8 +13,8 @@
     "round_win": "რაუნდის შედეგი: მოთამაშე {winner} იგებს!"
   },
   "outcome": {
-    "p0_wins": "Player 0 won the most rounds!",
-    "p1_wins": "Player 1 won the most rounds!",
+    "p0_wins": "მოთამაშე 0 მოიგო ყველაზე მეტი რაუნდი!",
+    "p1_wins": "მოთამაშე 1 მოიგო ყველაზე მეტი რაუნდი!",
     "draw": "მატჩი ფრედ დასრულდა!"
   }
 }

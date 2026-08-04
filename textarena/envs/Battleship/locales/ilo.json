@@ -12,8 +12,8 @@
     "opp_sunk": "Nakagalis ti karibal an ti bangka mo idiay {coord}! Daytoy ti naupdate a board mo:\n{view}",
     "you_hit": "Nakalpas! Nakalpas ka ti bangka idiay {coord}! Daytoy ti naupdate a board mo:\n{view}",
     "opp_hit": "Nakalpas ti karibal an ti bangka mo idiay {coord}! Daytoy ti naupdate a board mo:\n{view}",
-    "you_miss": "Miss! You missed the ship at {coord}! Your updated board:\n{view}",
-    "opp_miss": "Opponent missed your ship at {coord}! Your updated board:\n{view}"
+    "you_miss": "Malaktawan! Malaktawanmo ti barko iti {coord}! Ti napabaro a boardmo:\n{view}",
+    "opp_miss": "Malaktawan ti kalaban ti barkom iti {coord}! Ti napabaro a boardmo:\n{view}"
   },
   "outcome": {
     "win": "Ti agay-ayam {player_id} ket nangipalned kadagiti amin a barko ti kalabanda!"

@@ -22,7 +22,7 @@
     "final_ranking": "list of player indices from first eliminated to winner"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in an {num_players}-player Liar's Dice game.\nRules:\n- On your turn, you may either:\n  1) Make a new bid with a higher quantity or higher face (or both) than the current bid; i.e. '[Bid: 3, 4]',\n  2) Call the last bid by typing '[Call]'.\n\nIf you call:\n  - If the actual count of that face value among all dice is less than the bid, the last bidder loses one die.\n  - Otherwise, the caller loses one die.\nA player who reaches 0 dice is eliminated. The last remaining player wins."
+    "intro": "أنت لاعب {player_id} في لعبة Liar's Dice ل {num_players} لاعب.\nالقواعد:\n- في دورك، يمكنك إما:\n  1) تقديم عرض جديد بكمية أعلى أو قيمة وجه أعلى (أو كليهما) من العرض الحالي؛ أي '[Bid: 3, 4]'\n  2) استدعاء العرض الأخير عن طريق كتابة '[Call]'.\n\nإذا قمت بالاستدعاء:\n  - إذا كان العدد الفعلي لقيمة الوجه بين جميع النرد أقل من العرض، يخسر العارض الأخير نردًا واحدًا.\n  - وإلا، يخسر المتصل نردًا واحدًا.\nيتم إقصاء اللاعب الذي يصل إلى 0 نرد. يفوز آخر لاعب متبقٍ."
   },
   "board": {
     "per_player": "\tاللاعب {p}: {d}",

@@ -1,18 +1,18 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id}. You are playing Guess The Number.\nYou have to guess the number between {min_number} and {max_number} within {max_turns} turns.\nAs you enter your guess, the game will provide you with hints such as 'higher' or 'lower'.\nYou may provide your response in any manner. Only the number that is wrapped in square brackets will be considered as your guess. For example, [5].\nAs you play, the history of your guesses will be appended below. Use the information to complete the game before you run out of guesses.\nEnter your guess."
+    "intro": "Wo ne Player {player_id}. Wo reko Guess The Number.\nWo hiaa wo nsaanoa koko no mu {min_number} ne {max_number} mu {max_turns} nsaanoa mu.\nSe wo de wo nsaanoa koko no mu, agoro no beboa wo nkyerɛkyerɛmu te sɛ 'kɔ soro' anaa 'kɔ fam'.\nWo betumi de wo mmuaeɛ biara. Nsaanoa koko no a wɔde ato square brackets mu no na wɔbɛgye no sɛ wo nsaanoa. Sɛ nhwɛso, [5].\nSe wo reko no, wo nsaanoa abakɔsɛm no beboa wo ase. Fa mfonyini no so wo nsaanoa no ansa na wo nsaanoa no ayɛ pɛ.\nDe wo nsaanoa koko no mu."
   },
   "invalid_move": {
-    "wrong_format": "Invalid move format. Player {player_id} did not respond with valid '[number]'.",
+    "wrong_format": "Nkyerɛwdeɛ a ɛyɛ mũ a wɔde yɛɛ mu nsɛm no nnyɛ papa. Ogyefo {player_id} antumi ankyerɛ '[number]' a ɛyɛ papa.",
     "out_of_range": "Nkyerεmu a enni mu. Agorɔfoɔ {player_id} kaa nɔma bi wɔ baabi foforo wͻ beae no so.",
     "already_guessed": "Akwan a enni mu. Agorɔfoɔ {player_id} adi kan aka nɔma no dedaw."
   },
   "game_message": {
     "target_higher": "Adwene a wɔde sii wɔn ani so no dɔɔso.",
-    "target_lower": "The target number is lower."
+    "target_lower": "Nsaanoa a wɔpɛ no kɔ fam."
   },
   "outcome": {
     "win": "W'ani agye! Woaka akontaabu no yiye.",
-    "turn_limit": "The turn limit has been reached. Guess: {guess}, Target: {target}"
+    "turn_limit": "Nsaanoa koko no awieeɛ. Nsaanoa: {guess}, Botaeɛ: {target}"
   }
 }

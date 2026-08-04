@@ -22,7 +22,7 @@
     "final_ranking": "list of player indices from first eliminated to winner"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in an {num_players}-player Liar's Dice game.\nRules:\n- On your turn, you may either:\n  1) Make a new bid with a higher quantity or higher face (or both) than the current bid; i.e. '[Bid: 3, 4]',\n  2) Call the last bid by typing '[Call]'.\n\nIf you call:\n  - If the actual count of that face value among all dice is less than the bid, the last bidder loses one die.\n  - Otherwise, the caller loses one die.\nA player who reaches 0 dice is eliminated. The last remaining player wins."
+    "intro": "Ti ê o Giocatô {player_id} in un zêugo de Liar's Dice con {num_players} giocatoî.\nRegole:\n- Into tò turno, ti pêu:\n  1) Fâ un'oferta nêua con una quantitæ ciù âta o un valô de faccia ciù âto (o tùtti e dôe) de l'oferta corrente; es. '[Bid: 3, 4]',\n  2) Ciamâ l'ùrtima oferta scrivendo '[Call]'.\n\nSe ti ciammi:\n  - Se o conteggio reâle de quel valô de faccia tra tùtti i dadi o l'é meno de l'oferta, l'ùrtimo ofertante o pèrde un dado.\n  - Scinn-a, o ciamatô o pèrde un dado.\nUn giocatô ch'o riva a 0 dadi o l'é eliminòu. L'ùrtimo giocatô rimanente o vince."
   },
   "board": {
     "per_player": "\tGiugioue {p}: {d}",

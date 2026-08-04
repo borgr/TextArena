@@ -1,14 +1,14 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in an Iterated Prisoner's Dilemma spanning {num_rounds} rounds.\n\nGame Structure:\n- Before each decision you have {total_conversation_rounds} turns to communicate freely.\n- After that, both players simultaneously choose to cooperate or defect.\n\nPayoff Matrix (fixed each round):\n- Both Cooperate ➜ each {cooperate_reward}\n- Both Defect ➜ each {mutual_defect_reward}\n- One Defects, one Cooperates ➜ Defector {defect_reward}, Cooperator {sucker_reward}\n\nHow to Play:\n- During conversation: type any text you wish.\n- During decision phase: include '[Cooperate]' or '[Defect]' (case-insensitive). You may add extra text before/after the token."
+    "intro": "Aweyiɣaɣa Player {player_id} leɣaɣ Iterated Prisoner's Dilemma we ɛyaa {num_rounds} tuuɖe.\n\nKpɛlɛɛyɔɔ:\n- Pɩnzɩ pɩnzɩ ɛyaa {total_conversation_rounds} tuuɖe nɩɩyɛ tɔm kpɛlɛɛyɔɔ.\n- Pʋwayɩ, pɩnzɩ pɩnzɩ pawɩɣaɣ nɛ pawɩɣaɣ se paɖʋʋ nɛ paɖʋʋ.\n\nPayoff Matrix (kpɛlɛɛyɔɔ pɩnzɩ pɩnzɩ):\n- Pɩnzɩ pɩnzɩ paɖʋʋ ➜ ɛyaa {cooperate_reward}\n- Pɩnzɩ pɩnzɩ paɖʋʋ ➜ ɛyaa {mutual_defect_reward}\n- Ɛyʋʋ ɖʋʋ, ɛyʋʋ paɖʋʋ ➜ Ɛyʋʋ ɖʋʋ {defect_reward}, Ɛyʋʋ paɖʋʋ {sucker_reward}\n\nKpɛlɛɛyɔɔ:\n- Kpɛlɛɛyɔɔ taa: tɔm tɔm tɔm tɔm.\n- Kpɛlɛɛyɔɔ taa: '[Cooperate]' nɛ '[Defect]' (kpɛlɛɛyɔɔ taa). Aweyiɣaɣ tɔm tɔm tɔm pɩnzɩ pɩnzɩ."
   },
   "phases": {
     "conversation_finished": "Kɔvɛrɩsɩ kɩlɩ wayɩ mbʊ yɔ round {round}. Pɩlɩna '[Cooperate]' mbʊ yɔ '[Defect]' ɖɔnɛ ɛzɩma \\boxed{{}}.",
     "starting_round": "--- Kpaɣtʋ kpɩtaʋ {round} ---",
-    "round_summary": "Round {round} results:\n{outcome}\nPlayer 0 earned {r0} (total {score_0}), Player 1 earned {r1} (total {score_1})."
+    "round_summary": "Kɩyɛɛ {round} tɛ tɔm:\n{outcome}\nƉoɖo 0 hɛwa {r0} (kɩtɛ {score_0}), Ɖoɖo 1 hɛwa {r1} (kɩtɛ {score_1})."
   },
   "outcome": {
-    "winner": "Player {winner} wins {win_score} - {lose_score}.",
+    "winner": "Player {winner} tɔm {win_score} - {lose_score}.",
     "draw": "Pa-naalɛ pakpaɣ kɩmaŋ {s0}.",
     "round_both_cooperate": "Pa-naalɛ palabɩ nɔɔ kʋɖʋmaɣ.",
     "round_both_defect": "Pa-naalɛ pɛlɛɣzɩ pa-lɩmaɣza.",

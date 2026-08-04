@@ -11,7 +11,7 @@
     "{ball_pos}": "The cup index the ball is under"
   },
   "player_prompt": {
-    "intro": "Track the hidden ball 'X' while the cups are shuffled.\nAfter shuffling, guess its location with `[k]`."
+    "intro": "Subaybayan ang tagong bola 'X' habang ang mga tasa ay inihahalo.\nPagkatapos sa paghalo, hulaan ang lokasyon nito sa pamamagitan ng `[k]`."
   },
   "game_message": {
     "ball_starts": "Ang bola magsugod: {line}",
@@ -21,7 +21,7 @@
     "reveal": "(Ipadayag: bola sa ilalom {ball_pos})"
   },
   "invalid_move": {
-    "wrong_format": "Bad action. Use `[k]`.",
+    "wrong_format": "Maling aksyon. Gamitin ang `[k]`.",
     "out_of_range": "Index sa gawas sa sakup 0-{max_index}."
   },
   "outcome": {

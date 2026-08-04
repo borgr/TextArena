@@ -7,7 +7,7 @@
     "board_notvisible_state": "རྩེད་པའི་སྒྲོམ་དེ་རྩེ ་ མང་ཚོ ག ས་ལ་མཐོང་བ་མེ ད །"
   },
   "invalid_move": {
-    "wrong_format": "Player {player_id}, Invalid action format. Expected format: '[col x]'.",
+    "wrong_format": "མིང་འབྲུ་བཟུང་མཁན་ {player_id} ཁྱེད་ཀྱི་འགུལ་བསྐྱོད་ཀྱི་རྣམ་པ་ནོར་འཛོལ་ཡིན། རྣམ་པ་འདི་འདྲ་ཞིག་དགོས། '[col x]' ཡིན།",
     "out_of_range": "མི་སྣ་{player_id}，རྩེད་འགོ་མི་འཇོག་པ། རྩེད་འགོ་{col} ས་མཚམས་འདས་སོང་།",
     "already_full": "མི་སྣ་{player_id}，རྩེད་འགོ་མི་འཇོག་པ། རྩེད་འགོ་{col} མཇུག་སླེབས་སོང་།"
   },

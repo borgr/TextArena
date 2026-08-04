@@ -9,10 +9,10 @@
     "{pct}": "Progress as a percentage string, e.g. 50%"
   },
   "player_prompt": {
-    "intro": "Map each letter to a unique digit so the arithmetic holds.\nAssign with `[A 5]`, re-assign anytime.\n"
+    "intro": "Dawo kowane wasikkar nambari daban-daban don lissafin ya riike.\nDawo da `[A 5]`, dawo kowane lokaci.\n"
   },
   "invalid_move": {
-    "wrong_format": "Bad action format. Use `[A 5]`.",
+    "wrong_format": "Sai aikin dawo. Amfani da `[A 5]`.",
     "letter_not_in_puzzle": "Lamba {letter} suro puzzleben ba.",
     "digit_used": "Lamba {digit} dǝga faidatǝma kǝla {used_letter} lan.",
     "leading_zero": "Lamba buroye kalmabe dә 0 ro waljin."

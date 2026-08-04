@@ -1,10 +1,10 @@
 {
   "player_prompt": {
-    "intro": "You are playing the Minesweeper game.\nThe objective of the game is to reveal all cells that do not contain mines.\nTo make a move, simply specify the row and column coordinates you want to reveal using the format:\n- `[row col]`: Reveal the cell at the specified row and column.\nFor example:\n- `[3 2]` to reveal the cell in Row 3, Column 2.\n- `[5 6]` to reveal the cell in Row 5, Column 6.\nOn your first move, you will reveal an area around the cell you choose to ensure a safe start.\nThe current board layout is shown below. Cells that are unrevealed are represented by a dot ('.'), revealed numbers show the count of adjacent mines.\nBe mindful not to choose already revealed cells.\nHere is the current board layout:\n"
+    "intro": "Ti xe drio zugar al zugo de Minesweeper.\nL'obietivo del zugo xe de revelar tute łe celule che no łe contien mine.\nPar far na mossa, basta specificar łe coordenae de rigo e colona che ti vol revelar usando el formato:\n- `[row col]`: Revela ła celula a łe coordenae de rigo e colona specificae.\nPar exenpio:\n- `[3 2]` par revelar ła celula inte el Rigo 3, Colona 2.\n- `[5 6]` par revelar ła celula inte el Rigo 5, Colona 6.\nCo ła to prima mossa, ti revelarà na area intorno a ła celula che ti gà sielto par asegurar un inizio seguro.\nEl layout atuale de ła tabeła xe mostrà soto. Łe celule no revelae xe rapresentae da un ponto ('.'), i numari revelai mostra el conto de łe mine adiacenti.\nSta atento de no sieliar celule za revelae.\nEcco el layout atuale de ła tabeła:\n"
   },
   "board": {
     "game_board": "Tavola del gioco: {board}",
-    "current_board": "Consejo atual: {board}"
+    "current_board": "Tabłiero atuale:\n\n{board}"
   },
   "invalid_move": {
     "wrong_format": "No te ghe risposto co le coordinade valide in parentesi quadrate.",

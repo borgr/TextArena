@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({piece}). Opponent is ({opp}).\nSubmit moves as '[a2 a3]' (from → to).\n- A normal move is one forward step to an adjacent empty vertex.\n- A capture is a jump over an adjacent enemy piece landing on the empty node beyond.\nEach capture yields {score_per_capture} points.\nGame ends after {max_moves} moves or when a player has no legal move."
+    "intro": "أنت اللاعب {player_id} ({piece}). الخصم هو ({opp}).\nأدخل الحركات على شكل '[a2 a3]' (من → إلى).\n- الحركة العادية هي خطوة واحدة إلى الأمام إلى عقدة فارغة مجاورة.\n- الالتقاط هو قفزة فوق قطعة عدو مجاورة وهبوط على العقدة الفارغة ما بعد.\nكل التقاط يمنح {score_per_capture} نقطة.\nتنتهي اللعبة بعد {max_moves} حركات أو عندما لا يملك اللاعب أي حركة قانونية."
   },
   "board": {
     "current_board": "الخطوة #{move_count}\n\n{board}"

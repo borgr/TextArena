@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in an Iterated Prisoner's Dilemma spanning {num_rounds} rounds.\n\nGame Structure:\n- Before each decision you have {total_conversation_rounds} turns to communicate freely.\n- After that, both players simultaneously choose to cooperate or defect.\n\nPayoff Matrix (fixed each round):\n- Both Cooperate ➜ each {cooperate_reward}\n- Both Defect ➜ each {mutual_defect_reward}\n- One Defects, one Cooperates ➜ Defector {defect_reward}, Cooperator {sucker_reward}\n\nHow to Play:\n- During conversation: type any text you wish.\n- During decision phase: include '[Cooperate]' or '[Defect]' (case-insensitive). You may add extra text before/after the token."
+    "intro": "አንተ ተጫዋች {player_id} እስር ውስጥ የተጣበቀ ተደጋጋሚ እስር ውስጥ የተጣበቀ ተደጋጋሚ የስምምነት ትርኢት ላይ አለህ። ይህ ትርኢት {num_rounds} አካላት ይዟል።\n\nየትርኢት አሰራር፦\n- ከየትኛውም ውሳኔ በፊት ለ {total_conversation_rounds} ጊዜ አግባብ አለህ እንድትወያይ።\n- በኋላ ሁለቱ ተጫዋቾች አንድ ላይ እንደ ስምምነት ወይም እንደ እስር ሊወስኑ ይገባል።\n\nየሽልማት ማጥፊያ (በየአካል የተደረገ)፦\n- ሁለቱ እንደ ስምምነት ➜ እንደ {cooperate_reward}\n- ሁለቱ እንደ እስር ➜ እንደ {mutual_defect_reward}\n- አንዱ እንደ እስር፣ አንዱ እንደ ስምምነት ➜ እስረኛ {defect_reward}፣ እንደ ስምምነት {sucker_reward}\n\nእንዴት እንደ ትጫወት፦\n- በወያይት ወቅት፦ እንደሚፈልግህ አንድ ጽሑፍ ጻፍ።\n- በውሳኔ ወቅት፦ '[Cooperate]' ወይም '[Defect]' (አንድ ላይ ለውጥ የለም) አካት። ከስምምነት በፊት/ከስምምነት በኋላ ተጨማሪ ጽሑፍ ማካተት ትችላለህ።"
   },
   "phases": {
     "conversation_finished": "ውይ ውይን ተዛረበት ለማዕረ ሮንድ {round}. እቲ ምስራዕ ቃልስን '[Cooperate]' ወይ '[Defect]' ኣብ ቦክስድ{{}}.",
@@ -8,7 +8,7 @@
     "round_summary": "ሮንድ {round} ውጽኢት:\n{outcome}\nሰራዊት 0 {r0} ኣሰበ (ብዙሕ ሓላ {score_0}), ሰራዊት 1 {r1} ኣሰበ (ብዙሕ ሓላ {score_1})."
   },
   "outcome": {
-    "winner": "Player {winner} wins {win_score} - {lose_score}.",
+    "winner": "ተጫዋች {winner} {win_score} - {lose_score} አሸነፈ።",
     "draw": "ክልቲኦም ተጻወትቲ ሸቶ ኣመዝጊቦም {s0}።",
     "round_both_cooperate": "ክልቲኦም ተጻወትቲ ተሓባበርቲ እዮም።",
     "round_both_defect": "ክልቲኦም ተጻወትቲ ወሪሮም እዮም።",

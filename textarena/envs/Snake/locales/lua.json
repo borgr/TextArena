@@ -11,7 +11,7 @@
     "{groups}": "Neutral ranking data (a list of player-id groups, worst to best); do not translate"
   },
   "player_prompt": {
-    "intro": "{num_players}-Mchezaji Snake kwenye {width}×{height} grid.\nUnadhibiti nyoka {player_id}. Harakati halali: '[up]'/'[down]'/'[left]'/'[right]' (au w/s/a/d).\nLengo: kuishi mrefu zaidi au kuwa mrefu zaidi na kupata alama ya juu zaidi (kikomo cha {max_turns} mizunguko)."
+    "intro": "{num_players}-Muntu wa kubwata kwenye {width}×{height} gridi.\nMwana kubwata {player_id} ndiye mukonzi. Miamvugo ya bwino : '[up]'/'[down]'/'[left]'/'[right]' (ou w/s/a/d).\nKazi : kubwata muda mrefu zaidi au kuwa mrefu zaidi na kupata alama ya juu zaidi (kikomo cha {max_turns} mizunguko)."
   },
   "board": {
     "current": "Kabadi ka mpindieu: {board}",

@@ -33,7 +33,7 @@
   },
   "trick": {
     "empty": "Obiara nni hɔ a wadi nkrataa yi ho dwuma.",
-    "header": "Current trick:",
+    "header": "Adeɛ a ɛrekɔ so:",
     "line": "  Ɔdan {player_id}: {card}{trump_mark}"
   },
   "turn": {
@@ -44,14 +44,14 @@
   },
   "invalid_move": {
     "wrong_format": "Fa [play X] fa a X yɛ kaade no gyinabea (1, 2, 3, ne nea ɛkeka ho)",
-    "out_of_range": "Invalid card position. You have {count} cards (1-{count})"
+    "out_of_range": "Kaad gyinabea a ɛyɛ. Wɔwɔ {count} kaad (1-{count})"
   },
   "action": {
     "played": "Ɔdan {player_id} ayɛ {card}",
-    "trick_win": "Player {winner} wins the trick with {card} and gains {points} points!"
+    "trick_win": "Agodifoɔ {winner} dii nkonim wɔ trick mu wɔ kaad {card} so na ɔnya {points} nkɔmɔ!"
   },
   "outcome": {
     "head": "Agɔrɔ ba! Ɔdan {winner} di agɔrɔ no deɛ ɔnyaa {points} points!\n\nAgɔrɔ akɔnsi:\n{scores}",
-    "player_line": "Player {player_id}: {points} points ({tricks} tricks)\n"
+    "player_line": "Agodifoɔ {player_id}: {points} nkɔmɔ ({tricks} tricks)\n"
   }
 }

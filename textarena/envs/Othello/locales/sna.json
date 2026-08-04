@@ -16,7 +16,7 @@
   },
   "game_action": {
     "skipped": "Mutambi {pid} aifanira kusvetuka nguva yake",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "Mutambo {pid} ({piece}) akatamba [{r}, {c}] achipindura {flipped} giro (re)"
   },
   "game_message": {
     "must_skip": "Mwari {pid} ({piece}) haana mikorobo inopotsa na anobva atenge."

@@ -1,6 +1,6 @@
 {
   "game_start": {
-    "intro": "Game tan a ni. Trump suit: {trump_suit} (trump card: {trump_str}).",
+    "intro": "Inkhel tan a ni. Trump suit: {trump_suit} (trump card: {trump_str}).",
     "no_trump_card": "awm lo"
   },
   "player_prompt": {
@@ -44,7 +44,7 @@
   },
   "hand": {
     "no_cards": "Card a awm lo.",
-    "no_cards_in_hand": "No cards in hand",
+    "no_cards_in_hand": "Kutah card a awm lo",
     "header": "I kut:",
     "trump_indicator": "(TRUMP) A ni e.",
     "suit_line": "{observation}\n  {suit}{trump_indicator}:",
@@ -60,8 +60,8 @@
     "not_started": "Game a la ṭan lo va.",
     "header": "=== German Whist Game=== A ṭang a ni.",
     "phase": "{observation}\nPhase: {phase}",
-    "trump_suit": "{observation}\nTrump suit: {trump_suit}",
-    "trump_card": "{observation}\nTrump card: {card}",
+    "trump_suit": "{observation}\nRangkachak suit: {trump_suit}",
+    "trump_card": "{observation}\nRangkachak card: {card}",
     "cards_left": "{observation}\nDeck-a card tam lem: {count}",
     "next_card": "{observation}\nWinner tan card dawng: {card}",
     "blank": "{observation} ",

@@ -13,10 +13,10 @@
     "repeated_guess": "Wamaze gutora {guess}. Gerageza utore ikindi gitekerezo."
   },
   "game_action": {
-    "feedback": "Submitted [{guess}]. Feedback: {black_pegs} black peg(s), {white_pegs} white peg(s)."
+    "feedback": "Washatse [{guess}]. Umugiranezo: {black_pegs} pego nyeusi, {white_pegs} pego nyezerwa."
   },
   "outcome": {
     "win": "Uzanye kodi, wakuyehoje {black_pegs} kuri {code_length} pegs nguhu",
-    "turn_limit": "Turn limit reached. You guessed {percent} percent of the numbers correctly."
+    "turn_limit": "Ugupisho rwa zimpinduka rwagezweho. Washatse {percent} asilimia ya nambari kwa usahihi."
   }
 }

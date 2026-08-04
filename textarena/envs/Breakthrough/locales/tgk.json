@@ -1,9 +1,9 @@
 {
   "player_prompt": {
-    "intro": "You are playing {color} in a game of Breakthrough. You move {direction} on an {board_size}x{board_size} board.\nIn your turn you can move a single piece one step forward or diagonally forward.\nA piece may only move diagonally if an opponent piece is there, and only move into such a preoccupied square in a diagonal step.\nWhen stepping into a square with an opponent piece, you capture it and the opponent's piece is removed permanently from the board.\nUse UCI-like notation in brackets, e.g. [a2a3] to move from a2 to a3.\n* 'a' corresponds to the leftmost column, '1' is the bottom row (from White's perspective).\n* Blacks's home row is the top row (row 8 for an 8x8). White's home row is the bottom row (row 1 for an 8x8).\nThe first player whose piece reaches the opponent's home row wins. If your pieces are all captured, you lose."
+    "intro": "Шумо дар бозии Breakthrough бо ранги {color} бозӣ мекунед. Шумо дар самти {direction} дар тактаи {board_size}x{board_size} ҳаракат мекунед.\nДар навбати худ шумо метавонед як қисматро як қадам пеш ё пеш-диагоналӣ ҳаракат кунед.\nЯк қисмат танҳо метавонад диагоналӣ ҳаракат кунад, агар қисмати ҳариф дар он ҷо бошад, ва танҳо ба квадрати пешгирӣшуда дар қадами диагоналӣ ҳаракат кунад.\nВақте ки шумо ба квадрате бо қисмати ҳариф ворид мешавед, шумо онро гирифта, қисмати ҳарифро барои ҳамеша аз такта хориҷ мекунед.\nИстифодаи нотатсияи UCI-монанд дар квадратҳо, масалан, [a2a3] барои ҳаракат аз a2 ба a3.\n* 'а' мувофиқи сутуни чаптарин, '1' сафҳаи поёнӣ (аз диди Сафед).\n* Сафҳаи хонаи Сиёҳ сафҳаи болоӣ (сафҳаи 8 барои 8x8) аст. Сафҳаи хонаи Сафед сафҳаи поёнӣ (сафҳаи 1 барои 8x8) аст.\nБозигари аввал, ки қисмати ӯ ба сафҳаи хонаи ҳариф мерасад, ғолиб мешавад. Агар қисматҳои шумо ҳама гирифта шаванд, шумо мағлуб мешавед."
   },
   "invalid_move": {
-    "wrong_format": "Please use bracketed algebraic notation like [a2a3].",
+    "wrong_format": "Лутфан нотатсияи алгебраии дар квадратҳо, монанди [a2a3], истифода кунед.",
     "out_of_bounds": "Ин аз ҳудуди тахта берун аст.",
     "illegal": "Ин ҳаракат ба қоидаҳои пешрафт мувофиқат намекунад ё ин нақши шумо нест."
   },

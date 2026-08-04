@@ -9,7 +9,7 @@
     "progress": "{observation} ຄະແນນຄວາມຄືບຫນ້າໃນປະຈຸບັນ: {progress}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use `[i j op]` where i,j are indices and op is +,-,*,/",
+    "wrong_format": "ຮູບແບບການກະທຳບໍ່ຖືກຕ້ອງ. ໃຊ້ `[i j op]` ເຊິ່ງ i,j ແມ່ນດັດຊະນີ ແລະ op ແມ່ນ +,-,*,/",
     "invalid_indices": "ດັດຊະນີທີ່ບໍ່ຖືກຕ້ອງ ຕ້ອງແຕກຕ່າງກັນ ແລະຢູ່ໃນລະດັບ 0-{max_index}",
     "invalid_operation": "ການປະຕິບັດທີ່ບໍ່ຖືກຕ້ອງ (ການແບ່ງດ້ວຍຜົນທີ່ບໍ່ແມ່ນເລກເຕັມຫຼືເລກເຕັມ)"
   },

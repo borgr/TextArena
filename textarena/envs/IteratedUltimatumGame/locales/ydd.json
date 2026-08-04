@@ -24,7 +24,7 @@
     "intro": "דו ביסט שפילער {player_id}, שפילנדיג {num_rounds} רונדן פון Iterated Ultimatum Game.\nדו האסט ${pool} צו טיילן דעם רונד צווישן זיך און שפילער {other_id}.\n\nProposer:\n  - מאכן אן אנביט: [Offer: $X] (0 <= X <= pool)\n  - אויב אנגענומען → דו באקומסט $(pool - X), דער אנדערער שפילער באקומט $X\n  - אויב פארווארפן → ביידע באקומען $0\n  - ביישפיל: [Offer: $3]  אדער  'איך טראכט אז דאס איז גערעכט. [Offer: $5]'\n\nResponder:\n  - ענטפערן אויף דעם אנביט מיט איינער פון [Accept] אדער [Reject]\n  - ביישפיל: 'דאס דינקט זיך רעדלעך. [Accept]'\n            'צו אומגערעכט. [Reject]'\n"
   },
   "round": {
-    "begins": "--- Round {round_number} begins! ---\nPlayer {proposer_id} is the proposer, Player {responder_id} is the responder.",
+    "begins": "--- רונדע {round_number} הײַבט אָן! ---\nשפּילער {proposer_id} איז דער פּראָפּאָזירער, שפּילער {responder_id} איז דער רעספּאָנדער.",
     "offer": "רונד {round_number}: שפילער {proposer_id} ביט ${offer} צו שפילער {responder_id} (האלטנדיג ${keep}).",
     "accepted": "שפילער {responder_id} האט אנגענומען! רונד {round_number} געווינס: שפילער {proposer_id} +${proposer_gain}, שפילער {responder_id} +${responder_gain}. נייע סך הכל: שפילער 0: ${total_0}, שפילער 1: ${total_1}.",
     "rejected": "שפילער {responder_id} האט פארווארפן דעם אנביט! רונד {round_number} געווינס: ביידע שפילער +$0. סך הכל בלייבן: שפילער 0: ${total_0}, שפילער 1: ${total_1}."

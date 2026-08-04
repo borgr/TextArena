@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing Slitherlink on a {R}x{C} grid!\nDraw a single continuous loop so each numbered cell has that many bordering edges.\nToggle edges with:\n  [h r c] - toggle horizontal edge above dots at row r, column c\n  [v r c] - toggle vertical edge left of dots at row r, column c\nNumbers show required edge count, '.' means no constraint.\nYou have up to {max_turns} moves to solve the puzzle."
+    "intro": "Grajysz we Slitherlink na {R}x{C} siatce!\nNarysuj pojedynczy ciągły łuk, coby kożdo numerowane pole mioło tyle krawędzi.\nPrzełącz krawędzie za pomoćą:\n  [h r c] - przełącz poziomą krawędź nad kropkami we rzedzie r, kolumnie c\n  [v r c] - przełącz pionową krawędź na lewo od kropkek we rzedzie r, kolumnie c\nNumery pokazujům wymagany licznik krawędzi, '.' oznaczo brak ograniczeń.\nMasz do {max_turns} ruchůw, coby rozwiązać zagadkę."
   },
   "board": {
     "current_board": "{board}\nPodane wskazōwiki: {progress}"

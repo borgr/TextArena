@@ -1,9 +1,9 @@
 {
   "player_prompt": {
-    "intro": "You are playing Slitherlink on a {R}x{C} grid!\nDraw a single continuous loop so each numbered cell has that many bordering edges.\nToggle edges with:\n  [h r c] - toggle horizontal edge above dots at row r, column c\n  [v r c] - toggle vertical edge left of dots at row r, column c\nNumbers show required edge count, '.' means no constraint.\nYou have up to {max_turns} moves to solve the puzzle."
+    "intro": "O kerekere qori, o na qito Slitherlink ena grid {R}x{C}!\nVola e dua na ivakarau veiqati me rawa ni kunea e dua na kenada levu ni edges e cake na kena cell numbered.\nVosa edges kei:\n  [h r c] - vosota na horizontal edge e cake na dots ena qanibulu r, colo c\n  [v r c] - vosota na vertical edge e mawi ni dots ena qanibulu r, colo c\nNa naba e rairai kerekere ni edges, '.' e kaya ni sega ni constraint.\nO sa na rawata me {max_turns} moves me vosota na puzzle."
   },
   "board": {
-    "current_board": "{board}\nClues satisfied: {progress}"
+    "current_board": "{board}\nNa ivakadinadina makawa: {progress}"
   },
   "invalid_move": {
     "wrong_format": "Kena ibalebale ca. Vakayagata [h row col] se [v row col].",

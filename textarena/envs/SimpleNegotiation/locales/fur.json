@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "Tu sê Zogador {player_id} tal Zûc di Negoziazion.\nTu âs alcuns risorsis e il to compit e je chel di negociâ in maniere che il valôr totâl dai risorsis che tu âs al cresi.\nI risorsis e i valôrs associâts che tu âs in cheste minute a son:\n\t+ {resource_value_list}\nA ogni vuelte, tu puedis fevelâ cul to aversari e fâ une proposte di scambi.\nDopre i seguitîs tokens specîi pe azions:\n  - '[Oferte: 3 Pecoris, 2 Minarai -> 5 Matons, 2 Pecoris]': [Oferte: Risorsis oferts -> Risorsis domandâts]\n  - '[Accept]': Par acetâ une proposte di scambi in vignite.\n  - '[Deny]': Par rifudâ une proposte di scambi in vignite (predefinît).\nIl zûc al dure par {max_turns} vueltes in dut."
+    "intro": "Tu sê Zogador {player_id} tal Zûc di Negoziazion.\nTu âs alcuns risorsis e il to compit e je chel di negociâ in maniere che il valôr totâl dai risorsis che tu âs al cresi.\nI risorsis e i valôrs associâts che tu âs in cheste minute a son:\n\t+ {resource_value_list}\nA ogni vuelte, tu puedis fevelâ cul to aversari e fâ une proposte di scambi.\nDopre i seguitîs tokens specîi pe azions:\n  - '[Offer: 3 Sheep, 2 Ore -> 5 Brick, 2 Sheep]': [Offer: Offered Resources -> Requested Resources]\n  - '[Accept]': Par acetâ une proposte di scambi in vignite.\n  - '[Deny]': Par rifudâ une proposte di scambi in vignite (predefinît).\nIl zûc al dure par {max_turns} vueltes in dut."
   },
   "invalid_move": {
     "receiving_with_no_resource": "Il zuiadôr al à cirût di acetâ un scambi cence vê lis risorsis necessaris.",

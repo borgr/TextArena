@@ -7,7 +7,7 @@
     "out_of_range": "Yindula nde yo fwete vanda na kati ya {min_guess} mpi {max_guess}."
   },
   "message": {
-    "round_guesses": "Player 0 guessed {guess0}; Player 1 guessed {guess1}. Thus the Target is: {target}.",
+    "round_guesses": "Mwana nkenda 0 akamba {guess0}; Mwana nkenda 1 akamba {guess1}. Kwa hiyo Kimwiso ni: {target}.",
     "round_draw": "Nsuka-nsuka, bo me sala nsaka ya kubula nkweso.",
     "round_win": "Muntu yina kebula {winner} muntu mebaka nsaka!"
   },

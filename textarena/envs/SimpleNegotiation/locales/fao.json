@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "Tú ert Leikari {player_id} í Samtalinum Leiki.\nTú hevur nøkur útbúgvingar, og tínn uppgáva er at handla soleiðis, at heildarvirði av tínni útbúgving gevst.\nÚtbúgvingarnir og sambond við virði, tú átt í løtuni, eru:\n\t+ {resource_value_list}\nÁ hvørjum váli, kann tú tosa við mótpart og gjøra ein handils tilbúð.\nNýta hesi serstaku tokeni til handlingar:\n  - '[Tilbúgving: 3 Sauð, 2 Málmar -> 5 Leir, 2 Sauð]': [Tilbúgving: Tilbúin Útbúgvingar -> Kravd Útbúgvingar]\n  - '[Accept]': At samtykkja innkomin tilbúgving.\n  - '[Deny]': At neiða innkomin tilbúgving (frágreiðing).\nLeikurin varar í {max_turns} válar í alt."
+    "intro": "Tú ert Leikari {player_id} í Samtalinum Leiki.\nTú hevur nøkur útbúgvingar, og tínn uppgáva er at handla soleiðis, at heildarvirði av tínni útbúgving gevst.\nÚtbúgvingarnir og sambond við virði, tú átt í løtuni, eru:\n\t+ {resource_value_list}\nÁ hvørjum váli, kann tú tosa við mótpart og gjøra ein handils tilbúð.\nNýta hesi serstaku tokeni til handlingar:\n  - '[Offer: 3 Sheep, 2 Ore -> 5 Brick, 2 Sheep]': [Offer: Offered Resources -> Requested Resources]\n  - '[Accept]': At samtykkja innkomin tilbúgving.\n  - '[Deny]': At neiða innkomin tilbúgving (frágreiðing).\nLeikurin varar í {max_turns} válar í alt."
   },
   "invalid_move": {
     "receiving_with_no_resource": "Leikarurin royndi at taka ímóti einum handli uttan at hava neyðugu tilfeingið.",

@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a game of Reverse Tic Tac Toe. Your symbol is '{symbol}'.\nThe goal is to avoid getting three in a row (horizontally, vertically, or diagonally).\nIf you make three in a row, you LOSE.\nSubmit your move using the format '[4]' to place your symbol in cell 4.\nAs Player {player_id}, you are '{symbol}' and your opponent is '{opponent_symbol}'."
+    "intro": "Du bass Spiller {player_id} an engem Spill vu Reverse Tic Tac Toe. Däi Symbol ass '{symbol}'.\nD'Zil ass et, dräi an enger Rei ze vermeiden (horizontal, vertikal oder diagonal).\nWanns du dräi an enger Rei méchs, verléiers du.\nGitt Äre Zuch an deem Format '[4]' an, fir Äert Symbol an Zell 4 ze platzéieren.\nAls Spiller {player_id} bass du '{symbol}' an Ären Géigner ass '{opponent_symbol}'."
   },
   "board": {
     "current_board": "Aktuell Schachbriet:\n\n{board}\n\nVerfëgbar Zich: {moves}"

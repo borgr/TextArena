@@ -14,15 +14,15 @@
     "{scores}": "The final scores as a raw player-number to score mapping - do not translate"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player GOPS.\n- You hold the 13 cards A-K (each exactly once).\n- Each round a prize is revealed. Submit ONE card like `[Q]`, `[10]`, `[2]` …\n- Highest card wins the prize (+ any carry-over pot). Ties roll the prize into the next round.\n- After 13 rounds, highest total wins. Invalid moves = elimination."
+    "intro": "Nyɛ kɩlaŋ {player_id} kɛ GOPS tɛɛ kɩlaŋ tɛɛ tɩŋga.\n- Nyɛ wɛna kɔɔ kɛɛ kɛɛ 13 tɛɛ A-K (kɛɛ kɛɛ kɛɛ kɔɔ).\n- Kɩlaŋ kɛɛ kɛɛ kɛɛ tɩŋga, kɛɛ kɛɛ kɛɛ kɔɔ kɛɛ kɛɛ kɛɛ kɛɛ kɔɔ kɛɛ `[Q]`, `[10]`, `[2]` …\n- Kɔɔ kɛɛ kɛɛ kɛɛ kɛɛ kɛɛ kɛɛ kɔɔ kɛɛ kɛɛ kɛɛ kɔɔ kɛɛ kɛɛ kɛɛ kɔɔ kɛɛ kɛɛ kɔɔ kɛɛ kɛɛ kɔɔ.\n- Kɩlaŋ 13 kɛɛ kɛɛ kɛɛ, kɛɛ kɛɛ kɛɛ kɔɔ kɛɛ kɛɛ kɛɛ kɔɔ kɛɛ kɛɛ kɛɛ."
   },
   "round": {
-    "header": "### Round {round}/13 - Prize: {prize} (worth {worth})",
+    "header": "### Kɩlaŋ {round}/13 - Kɔɔ kɛɛ: {prize} (kɛɛ kɛɛ {worth})",
     "hand": "Ŋŋwɛɣ nesi naalɛ yɔɔ lɛ, ŋnaɣ: {hand}."
   },
   "reveal": {
-    "win": "Bids » {bids} - Player {winner} wins {pot}.",
-    "tie": "Bids » {bids} - tie, pot now {pot}.",
+    "win": "Kɔɔ kɛɛ » {bids} - Kɩlaŋ {winner} wɛna kɔɔ kɛɛ {pot}.",
+    "tie": "Kɔɔ kɛɛ » {bids} - kɛɛ kɛɛ, kɔɔ kɛɛ kɛɛ {pot}.",
     "scores": "Takayɩsɩ kɩkalasɩ → {scoreline}"
   },
   "invalid_move": {
@@ -30,7 +30,7 @@
     "bad_card": "patasɩ-ɩ yaʋ yaa ɛfɛyɩ wazaɣ nakɛyɛ yɔ, pɩwɩlɩɣ se:"
   },
   "elimination": {
-    "player": "Player {pid} eliminated after repeated invalid moves."
+    "player": "Kɩlaŋ {pid} wɛɛ kɛɛ kɔɔ kɛɛ kɛɛ kɛɛ kɛɛ kɛɛ kɛɛ kɛɛ kɔɔ kɛɛ."
   },
   "outcome": {
     "auto_win": "Ye palɩzɩ ɛyaa naalɛ yɔ, pɩwɩlɩɣ se pɛhɛyɩɣ-ɩ.",

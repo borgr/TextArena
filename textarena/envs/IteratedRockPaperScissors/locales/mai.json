@@ -1,9 +1,9 @@
 {
   "player_prompt": {
-    "intro": "आप खिलाड़ी {player_id} एक {num_rounds}-राउंड रॉक-पेपर-सिजर्स खेल में हैं.\nआपका लक्ष्य जितने अधिक राउंड जीतना संभव हो.\nप्रत्येक राउंड में, '[rock]', '[paper]', या '[scissors]' में से एक के साथ प्रतिक्रिया दें.\nआप '[r]', '[p]', या '[s]' का भी संक्षिप्त रूप के रूप में उपयोग कर सकते हैं.\n"
+    "intro": "तहँ Player {player_id} अछि एक {num_rounds}-राउन्ड रॉक-पेपर-सिजर्स गेम मे।\nतहँक लक्ष्य छेकै जतना राउन्ड जीतना सम्भव होए।\nप्रत्येक राउन्ड मे, एकटा उत्तर दी: '[rock]', '[paper]', या '[scissors]'।\nतहँ '[r]', '[p]', या '[s]' क संक्षिप्त रूप मे सेहो उपयोग कर सकैत छी।\n"
   },
   "invalid_move": {
-    "wrong_format": "Move not recognized. Use [rock], [paper], or [scissors]."
+    "wrong_format": "चाल पहिचानल नाइत अछि। [rock], [paper], या [scissors] क उपयोग करू।"
   },
   "game_action": {
     "selects": "खेलाडी {player_id} चल चुनैत अछि {move}।"

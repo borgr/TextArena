@@ -22,7 +22,7 @@
     "start": "Briscola agorɔ! Trump suit: {trump_suit} (Trump card: {trump_card})"
   },
   "prompt": {
-    "intro": "You are playing Briscola - Player {player_id}.\nGoal: Win tricks and collect the most points (120 total points in the deck).\nCard Points: A=11, 3=10, K=4, Q=3, J=2, others=0\nCard Power: A > 3 > K > Q > J > 7 > 6 > 5 > 4 > 2\nTrump cards beat non-trump cards regardless of power.\n\nAction: '[play X]' where X is the position (1-{max_pos}) of the card in your hand\n"
+    "intro": "Wɔre agodie Briscola - Agodifoɔ {player_id}.\nBotaeɛ: Di nkonim wɔ tricks mu na fa nkonta dodow (120 nkonta dodow wɔ deck mu).\nKaad Nkonta: A=11, 3=10, K=4, Q=3, J=2, afoforɔ=0\nKaad tumi: A > 3 > K > Q > J > 7 > 6 > 5 > 4 > 2\nTrump kaad di non-trump kaad so tumi.\n\nAction: '[play X]' baako X yɛ kaad gyinabea (1-{max_pos}) wɔ w'nsa mu\n"
   },
   "hand": {
     "none": "Kaade biara nni hɔ.",
@@ -44,11 +44,11 @@
   },
   "invalid_move": {
     "wrong_format": "Fa [play X] di dwuma, faako a X yɛ kaade no gyinabea (1, 2, 3, ne nea ɛkeka ho)",
-    "out_of_range": "Invalid card position. You have {count} cards (1-{count})"
+    "out_of_range": "Kaad gyinabea a ɛyɛ. Wɔwɔ {count} kaad (1-{count})"
   },
   "action": {
     "played": "Ɔdan {player_id} ayɛ {card}",
-    "trick_win": "Player {winner} wins the trick with {card} and gains {points} points!"
+    "trick_win": "Agodifoɔ {winner} dii nkonim wɔ trick yi mu {card} na ɔnya {points} nkonta!"
   },
   "outcome": {
     "head": "Agɔrɔ ba! Ɔdan {winner} di agɔrɔ no deɛ ɔwɔ {points} points!\n\nAgɔrɔ akɔnsi:\n{scores}",

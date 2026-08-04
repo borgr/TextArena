@@ -1,15 +1,15 @@
 {
   "player_prompt": {
-    "intro": "You are playing Countdown numbers game!\nGoal: Combine numbers using +, -, *, / to reach the target.\nAction format: [i j op] where i,j are indices and op is the operation.\nExample: [0 2 *] multiplies number at index 0 with number at index 2.\nDivision must result in whole numbers only."
+    "intro": "Jugando kuna pukllay Countdown!\nObjetivo: Junt'aya numeronaka +, -, *, /-wan kuti target-man q'ara.\nFormato acción: [i j op] ukapi i,j índice-naka ukapi op operación-nawa.\nEjemplo: [0 2 *] número 0 ukapi número 2 ukapi multiplicación.\nDivisión q'ara número puro-naka ukhama."
   },
   "board": {
     "header": "Q'AWANA: {target}\n\nJaqiña akatiti:\n{numbers}",
     "best": "{observation}\n\nJupax q'ala: {best_value} (jaqi: {distance})\nJupax sutipa: {best_expression}",
-    "history": "{observation}\n\nMove history:\n{moves}",
+    "history": "{observation}\n\nKamay mayacht'awi:\n{moves}",
     "progress": "{observation}\nQ'ala p'iqi: {progress}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use `[i j op]` where i,j are indices and op is +,-,*,/",
+    "wrong_format": "Jan ukax mayacht'aña. `[i j op]` ukat jaqi, i,j ukaxa wakichäwi, op ukax +,-,*,/",
     "invalid_indices": "Indices inválidos. Jani kikipakiñapawa, 0-{max_index} ukch'anawa.",
     "invalid_operation": "Jani chiqapa lurawi (jach'a jakhu, jani phuqachiri)"
   },

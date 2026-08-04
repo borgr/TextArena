@@ -10,7 +10,7 @@
     "{to}": "The destination coordinate of a move, such as b3"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in game of LinesOfAction.\nYour pieces are '{side}', opponent pieces are '{other}'.\nMove format: `[b1b3]` (from-coord to-coord). A legal move travels horizontally, vertically, or diagonally a number of squares equal to the total pieces (any colour) in that line. You may jump over your own pieces, but not opponent pieces; landing on an opponent captures it.  Win when all your pieces are 8-neighbour connected."
+    "intro": "Wo ne Player {player_id} wɔ LinesOfAction agorɔ mu.\nWo pieces ne '{side}', ɔpono pieces ne '{other}'.\nNkrɔfoɔ format: `[b1b3]` (firi-coord kɔ-coord). Nkrɔfoɔ a ɛfata ɛkɔ ho kɔ ho, akyirikyiri, anaa ɔkɔtɔ kɔkɔmɛ ɛsɛ ɛyɛ squares dodoɔ a ɛyɛ pieces dodoɔ (kɔla biara) wɔ saa line no mu. Wo betumi akɔtɔ wo pieces ankasa, nanso ɔpono pieces nni; ɛba wo ɔpono so a, wo kyere no.  Wo di nkunim wɔ bere a wo pieces nyinaa ɛne wo pieces foforɔ bɛn wɔ 8-neighbour connected."
   },
   "board": {
     "current_board": "Boayikuw: {board}"

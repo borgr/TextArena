@@ -13,7 +13,7 @@
     "repeated_guess": "Та аль хэдийн {guess} гэж таамаглаж байсан."
   },
   "game_action": {
-    "feedback": "Submitted [{guess}]. Feedback: {black_pegs} black peg(s), {white_pegs} white peg(s)."
+    "feedback": "Илгээсэн [{guess}]. Санал: {black_pegs} хар цохиур(нууд), {white_pegs} цагаан цохиур(нууд)."
   },
   "outcome": {
     "win": "Та код нь шидэж, {black_pegs} нь {code_length} нь зөв шийдсэн",

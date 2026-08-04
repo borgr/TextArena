@@ -7,13 +7,13 @@
   },
   "invalid_move": {
     "wrong_format": "Ulac anagraw n usiweḍ ay yettwafen. Seqdec \"[pile quantity]\".",
-    "correct_format_wrong_fields": "Player {player_id}, Invalid action. Column {col} is out of bounds.",
+    "correct_format_wrong_fields": "Imiraz {player_id}, Tukksa ur d-tettaɣ ara. Aswir {col} ur d-yella ara di tɣzi.",
     "out_of_range": "Asekles n tneqqit {pile_index} yeffeɣ-d seg teɣzi.",
     "non_positive": "Ilaq ad d-tekkseḍ ma drus 1 n usentel.",
     "exceeds_pile": "Ur tzemreḍ ad tferreḍ {quantity} seg tiɣilt {pile_index} (kan ṭṭaf {pile_count} kan)."
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "Imiraz {player_id} yekka [{pile_index} {quantity}], yekkes {quantity} uferdis (n uferdisen) seg wedrar {pile_index}."
   },
   "outcome": {
     "win": "Amyurar {player_id} yewwi-d agemmay aneggaru ((s)!"

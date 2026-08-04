@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are in a room with {num_buttons} buttons: {buttons}. Each button is associated with a Bernoulli distribution with a fixed but unknown mean; the means for the buttons could be different.\nFor each button, when you press it, you will get a reward that is sampled from associated distribution.\nYou have {num_turns} time steps and, on each time step, you can choose any button and receive the reward.\nYour goal is to strategically choose buttons at each time step to collect information about their reward distribution, that will let you choose the button with the highest mean reward correctly at the end of {num_turns} turns."
+    "intro": "Huk wasipi {num_buttons} botonkunawan kachkanki: {buttons}. Sapa boton Bernoulli taripakuywan maynitin tiksi ukhupi churasqa, botonkunapaq tiksi ukhu manan hukkaychu kanman.\nSapa boton ñit'iykuptiyki, chay botonpa taripakuywan aknachasqa qullqi chaskiykita.\n{num_turns} pacha tiksiyukiyki, sapa pacha tiksipi sapa boton aknayta atinki qullqita chaskiykita.\nQ'umiraykitaqa sapa pacha tiksipi botonkunata aknayta strategikamanta, wakinku taripakuykunamanta willaykita ch'uyanchay, {num_turns} tiksi tukukuptin aswan hatun qullqi q'umiraykita ch'uyanchay."
   },
   "board": {
     "stat_line": "{button}: {reward} ({count} p'unchaykunatam playarqanki)",
@@ -14,7 +14,7 @@
     "pressed": "{button} buttontam pusharqanki, {reward} premiuwan rikukarqanki."
   },
   "game_message": {
-    "final_decision": "You have exhausted your budget for trying out different choices and observe their rewards. Now make a deduction about what the best choice is."
+    "final_decision": "K'umirayninkunata yachaqaykita q'umirayta tukukurqanki, kunanqa imatam aswan allin aknay k'umiraykita ch'uyanchay."
   },
   "outcome": {
     "win": "Kusikuy, allin botonpi akllakurqanki.",

@@ -3,18 +3,18 @@
     "intro": "You are Player {player_id} in a 3-player Iterated Prisoner's Dilemma. The match lasts {num_rounds} rounds.\nRound structure:\n• {conv_rounds} free-chat turns\n• 1 decision turn - submit one token per opponent: '[<opp-id> cooperate]' or '[<opp-id> defect]' (i.e. '[1 defect] [2 cooperate]'; the default is 'cooperate'). \nPair-wise payoff matrix (applied to each unordered pair):\n  - Both cooperate  ->  {reward}\n  - Both defect     ->  {punishment}\n  - You defect, they cooperate -> {temptation}\n  - You cooperate, they defect -> {sucker}\nThe player(s) with the highest score at the end of all rounds wins."
   },
   "round": {
-    "start": "─── রাউন্ড {round} শুরু করা হচ্ছে ───\tআপনি পরবর্তী {conv_rounds} রাউন্ডের জন্য স্বেচ্ছায় কথোপকথন করতে পারেন.",
+    "start": "─── ဗဂေတ် {round} စလုပ်ကၠုင် ───\tခွေ ကောံဓရီု ဗၠး၍ ပ္ဍဲ {conv_rounds} ဗဂေတ်။",
     "chat_finished": "Chat finished for round {round}. Submit your decisions, one token per opponent: `[pid cooperate]` or `[pid defect]`."
   },
   "results": {
-    "header": "### রাউন্দ {round} - ফলশিং:",
-    "pair_line": "{observation}\n\t Player {i} vs Player {j} chose to {choice_i} and {choice_j} respectively (Player {i} gained {gain_i}, Player {j} gained {gain_j})",
-    "scores_open": "{observation} -> হৌজিক্কী স্কোরশিং: ",
+    "header": "### ဗဂေတ် {round} - သွဟ်ဂမၠိုင်:",
+    "pair_line": "{observation}\n\t ပူဂဵု {i} ကဵု ပူဂဵု {j} ရုဲစှ် ပံင်တောဲ ကဵု {choice_i} ကဵု {choice_j} ပြောမ် (ပူဂဵု {i} ကလိဂွံ {gain_i}၊ ပူဂဵု {j} ကလိဂွံ {gain_j})",
+    "scores_open": "{observation}\n-> ဂရိုင် လၟုဟ်: ",
     "score_first": "{observation}প্লেয়ার {player_id} ({score})",
     "score_next": "{observation}; প্লেয়ার {player_id} ({score})",
     "finalize": "{observation}\n"
   },
   "outcome": {
-    "final": "ফাইনাল স্কোর: {scores}.  র‍্যাঙ্কিং গ্রুপ (খারাপ→ভাল): {groups}"
+    "final": "ဂရိုင် အိုတ်အာ: {scores}။ ဂကောံ အဆက် (အဝဲ ဂှ် ခိုဟ်အိုတ်): {groups}"
   }
 }

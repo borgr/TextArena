@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "ਕੋਈ ਵੈਧ ਮੂਵ ਫਾਰਮੈਟ ਨਹੀਂ ਮਿਲਿਆ। [a1b2], ਉਦਾਹਰਨ ਲਈ [b2c3] ਵਰਤੋ।",
-    "illegal": "Move [{move}] is illegal."
+    "illegal": "ਚਾਲ [{move}] ਗੈਰ-ਕਾਨੂੰਨੀ ਹੈ।"
   },
   "game_action": {
     "moved": "ਖਿਡਾਰੀ {player_id} ਨੇ {move} ਨੂੰ ਹਿਲਾਇਆ।"

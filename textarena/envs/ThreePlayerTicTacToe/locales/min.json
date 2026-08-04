@@ -14,7 +14,7 @@
     "intro": "Kamu adolah Pamain {player_id} dalam Tic Tac Toe Tigo Pamain.\nSimbol kamulah '{symbol}'.\nKamu bagiliran maletakkan simbol kamulah pado papan 5x5 untuak mambantuak garisan ampek.\nGaris-garis dapek horizontal, vertical, atau diagonal.\nSampaikan gerakan kamulah manggunoan format '[4]' untuak maletakkan sel 4."
   },
   "board": {
-    "current_board": "Current Board:\n\n{board}\n\nAvailable Moves: {moves}"
+    "current_board": "Papan Saat Ini:\n\n{board}\n\nGerakan Tersedia: {moves}"
   },
   "invalid_move": {
     "wrong_format": "Format pamindahan indak sah. Gunakannyo \"[cell]\" di mano sel adolah 0-{max_cell}.",

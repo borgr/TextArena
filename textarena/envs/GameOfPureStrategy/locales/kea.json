@@ -9,7 +9,7 @@
     "hand": "Bu pó ki resta: {hand}"
   },
   "invalid_move": {
-    "wrong_format": "Action must contain exactly ONE bracketed card token.",
+    "wrong_format": "Aksaun debe konter exatamenti UN token di karta entre parêntesis.",
     "card_not_held": "Bu ka ten más kel karta."
   },
   "message": {

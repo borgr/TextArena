@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "Формати ҳаракат дуруст нест. Аз [a1b2], масалан [b2c3] истифода баред.",
-    "illegal": "Move [{move}] is illegal."
+    "illegal": "Ҳаракати [{move}] ғайриқонунӣ аст."
   },
   "game_action": {
     "moved": "Бозингар {player_id} ҳаракат кард {move}."

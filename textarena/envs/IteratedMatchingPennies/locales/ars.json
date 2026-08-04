@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({role}) in a {num_rounds}-round Matching Pennies game.\n- Each round, submit [heads] or [tails] (or [h], [t]).\n- If your choice matches your opponent’s, Player 0 wins the round; otherwise Player 1 wins.\nReply with your choice in the format '[heads]' or '[tails]'.\n"
+    "intro": "أنت اللاعب {player_id} ({role}) في لعبة بنسات متطابقة من {num_rounds} جولة.\n- في كل جولة، قدم [heads] أو [tails] (أو [h]، [t]).\n- إذا كان اختيارك مطابقًا للاعب الآخر، يفوز اللاعب 0 بالجولة؛ وإلا يفوز اللاعب 1.\nأجِب بخيارك في صيغة '[heads]' أو '[tails]'.\n"
   },
   "invalid_move": {
     "wrong_format": "صيغة غير صالحة؛ يرجى تقديم '[heads]' أو '[tails]'."

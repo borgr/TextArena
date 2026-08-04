@@ -8,9 +8,9 @@
   },
   "invalid_move": {
     "wrong_format": "ልክ ያልሆነ እንቅስቃሴ ቅርጸት ተጫዋቹ {player_id} ትክክለኛ 'የጥራዝ አምድ ቁጥር' አልሰጠም።",
-    "out_of_bounds": "Invalid move. Player {player_id} attempted to place {num} at ({row}, {col}), which is out of bounds.",
+    "out_of_bounds": "የተሳሳተ እንቅስቃሴ። ተጫዋች {player_id} {num} ቁጥር ረድ {row}፣ አምድ {col} ላይ ለጣለማ እንቅስቃሴ አደረገ። ይህ እንቅስቃሴ ግሪድ ውስጥ የለም።",
     "overwrite": "እባክዎ ስራ ያለፈው ሂደት አይቻልም. ተጫዋች {player_id} በ ({row}, {col}) ላይ ባለው ተሞላ ሴል ላይ መጻፍ ሞክረው ነበረ.",
-    "violates_rules": "Invalid move. Player {player_id} attempted to place {num} at ({row}, {col}), which violates Sudoku rules."
+    "violates_rules": "የተሳሳተ እንቅስቃሴ። ተጫዋች {player_id} {num} ቁጥር ረድ {row}፣ አምድ {col} ላይ ለጣለማ እንቅስቃሴ አደረገ። ይህ እንቅስቃሴ ሱዶኩ ስርዓት ተረስቷል።"
   },
   "outcome": {
     "win": "እንኳን ደስ አላችሁ! ተጫዋቹ {player_id} የሱዶኩ እንቆቅልሹን አጠናቋል።",

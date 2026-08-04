@@ -1,17 +1,17 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a two-player game of Spite and Malice. Your goal is to be the first to empty your payoff pile.\n\n### Game Overview:\n- The objective is to clear your payoff pile by playing cards to the center piles.\n- You can play cards from three sources:\n  1. Your **hand** (you start each turn with up to 5 cards in hand).\n  2. The **top card of your payoff pile**.\n  3. The **top card of any of your discard piles**.\n\n### Playing Rules:\n- You may play a card to a center pile if it is **one rank higher** than the top card on that pile (center piles start with Ace and go up to Queen; Kings are wild - they can be played on any card but do not change the rank sequence. This means if a King is used after 4, then that King is ranked 5 and the next card must be a 6).\n- If you can't play any more cards, you must **discard a card** to one of your discard piles to end your turn.\n- If a center pile reaches Queen, it will be cleared automatically.\n- The rank order is: A=1, 2=2, ..., 9=9, J=10, Q=11, K as wild.\n\n### Actions:\n1. **Draw**: At the start of your turn, draw cards to fill your hand up to 5 cards. Enter **[draw]** to begin.\n2. **Play a Card**: To play a card, specify the card and the center pile like this: **[play A♠ 0]** (where 'A♠' is the card and '0' is the center pile index).\n3. **Discard**: If you can't play any more cards, discard a card from your hand to a discard pile to end your turn. Enter **[discard A♠ 1]** (where 'A♠' is the card and '1' is the discard pile index). Note that you cannot discard any card from the payoff pile. You may only discard the cards from your hand.\n\n"
+    "intro": "တော်ဝင်ကစားသမား {player_id} ဖြစ်ပါတယ်။ သင်၏ရည်မှန်းချက်မှာ သင်၏အကျိုးပြုပုံကို ပထမဆုံးဖြုတ်ချရန် ဖြစ်ပါတယ်။\n\n### ကစားနည်းအကျဉ်း:\n- ရည်မှန်းချက်မှာ သင်၏အကျိုးပြုပုံကို ဗဟိုပုံများပေါ် ကစားရန် ဖြစ်ပါတယ်။\n- သင် ကစားနိုင်သည် ကစားတုံး သုံးမျိုး:\n  1. သင်၏ **လက်** (သင် တစ်ပတ်လည်မှာ ၅ ကစားတုံး လက်ထဲ ရှိပါတယ်)။\n  2. သင်၏ **အကျိုးပြုပုံ၏ ထိပ်ကကစားတုံး**။\n  3. သင်၏ **စွန့်ပစ်ပုံ၏ ထိပ်ကကစားတုံး**။\n\n### ကစားနည်းများ:\n- သင် ဗဟိုပုံပေါ် ကစားနိုင်သည် ကစားတုံး တစ်ခု အကယ်၍ ထိပ်က ကစားတုံး ထက် တစ်ဆင့် မြင့်သည် (ဗဟိုပုံများ အေစ် နှင့် စတင် ကွီးင် အထိ တက်သည်; ကင်း များ လွတ်လပ် - မည်သည့် ကစားတုံး ပေါ် ကစားနိုင်သည် သို့သော် အဆင့် စဉ် မပြောင်း)။\n- သင် မကစားနိုင် ကစားတုံး များ အကယ်၍, သင် စွန့်ပစ် ကစားတုံး တစ်ခု သင်၏ စွန့်ပစ် ပုံ တစ်ခု ပေါ် သင်၏ ပတ် အဆုံး အတွက်။\n- ဗဟို ပုံ တစ်ခု ကွီးင် အထိ ရောက် အကယ်၍, အလိုအလျောက် ဖြုတ်ချ ပါမည်။\n- အဆင့် စဉ် မှာ: A=1, 2=2, ..., 9=9, J=10, Q=11, K လွတ်လပ်။\n\n### လှုပ်ရှားမှုများ:\n1. **ဆွဲယူ**: သင်၏ ပတ် စတင် အခါ, ကစားတုံး များ ဆွဲယူ သင်၏ လက် ၅ ကစားတုံး အထိ ဖြည့်။ **[draw]** စတင် အတွက် ရိုက်ထည့်။\n2. **ကစားတုံး ကစား**: ကစားတုံး တစ်ခု ကစား အတွက်, ကစားတုံး နှင့် ဗဟို ပုံ ကို ဤသို့ ရိုက်ထည့်: **[play A♠ 0]** (အကယ်၍ 'A♠' ကစားတုံး ဖြစ် နှင့် '0' ဗဟို ပုံ အညွှန်း ဖြစ်)။\n3. **စွန့်ပစ်**: သင် မကစားနိုင် ကစားတုံး များ အကယ်၍, ကစားတုံး တစ်ခု သင်၏ လက် မှ စွန့်ပစ် ပုံ တစ်ခု ပေါ် သင်၏ ပတ် အဆုံး အတွက်။ **[discard A♠ 1]** ရိုက်ထည့် (အကယ်၍ 'A♠' ကစားတုံး ဖြစ် နှင့် '1' စွန့်ပစ် ပုံ အညွှန်း ဖြစ်)။ သင် စွန့်ပစ် မနိုင် ကစားတုံး များ အကျိုးပြု ပုံ မှ။ သင် စွန့်ပစ် နိုင် ကစားတုံး များ သင်၏ လက် မှ။\n\n"
   },
   "board": {
-    "current_board": "Current Board:\n\n{board}\nAvailable Moves: {moves}"
+    "current_board": "လက်ရှိ ကစားပွဲ:\n\n{board}\nရရှိနိုင် လှုပ်ရှားမှုများ: {moves}"
   },
   "render": {
     "center_piles_header": "--- ၵုင်ႇၵၢင်ၵွင်းမူးၶိုၵ်ႉတွၼ်း -- ",
     "pile": "{observation}Pile {i}: {pile}\n",
-    "player_view_header": "{observation}\n--- Player {player_id}'s View ---\n",
-    "payoff": "{observation}Payoff Pile (Top Card): {top_card}, Payoff Pile Length: {payoff_length}\n",
+    "player_view_header": "{observation}\n--- ကစားသမား {player_id} ၏ မြင်ကွင်း ---\n",
+    "payoff": "{observation}အကျိုးပြု ပုံ (ထိပ်က ကစားတုံး): {top_card}, အကျိုးပြု ပုံ အရှည်: {payoff_length}\n",
     "hand": "{observation}မိုဝ်း: {hand}",
-    "discard": "{observation}Discard Piles: {discard}\n",
+    "discard": "{observation}စွန့်ပစ် ပုံများ: {discard}\n",
     "empty": "ဢမ်ႇမီးၶိူင်ႈသင်။"
   },
   "game_message": {
@@ -19,7 +19,7 @@
   },
   "invalid_move": {
     "wrong_format": "လွင်ႈတူင်ႉၼိုင်ဢၼ်ဢမ်ႇမႅၼ်ႈၸွမ်းပိူင်ၼၼ်ႉ ၽူႈလဵၼ်ႈ {player_id} ဢမ်ႇလႆႈတွပ်ႇၶိုၼ်းလူၺ်ႈလွင်ႈ တူင်ႉၼိုင်၊ ဢၼ်ၼႄဝႆႉတီႈၼႂ်းၶွၵ်းသီႇၸဵင်ႇၼၼ်ႉယဝ်ႉ။",
-    "invalid_play": "Invalid play. Player {player_id} tried to play {card} on center pile {index}.",
+    "invalid_play": "မှားနေ ကစား။ ကစားသမား {player_id} ကစား {card} ဗဟို ပုံ {index} ပေါ်။",
     "discard_from_payoff": "လွင်ႈပႅတ်ႈဢၼ်ဢမ်ႇမႅၼ်ႈၼၼ်ႉ ၽူႈလဵၼ်ႈ {player_id} ၶတ်းၸႂ်တႃႇ ပႅတ်ႈၵၢတ်ႉ ဢၼ်လုၵ်ႉတီႈ ထုပ်ႉသူးလႆႈၼၼ်ႉယဝ်ႉ။",
     "discard_not_in_hand": "လွင်ႈပႅတ်ႈဢၼ်ဢမ်ႇမႅၼ်ႈၼၼ်ႉ ၽူႈလဵၼ်ႈ {player_id} ၶတ်းၸႂ်တႃႇ ပႅတ်ႈၵၢတ်ႉ ဢၼ်မၼ်း ဢမ်ႇမီးဝႆႉၼႂ်းမိုဝ်းၼၼ်ႉယဝ်ႉ။",
     "wrong_move_type": "လွင်ႈတူင်ႉၼိုင်ဢမ်ႇထုၵ်ႇမႅၼ်ႈ ၽူႈလဵၼ်ႈ {player_id} ဢမ်ႇလႆႈတွပ်ႇၶိုၼ်းလူၺ်ႈလွင်ႈ တူင်ႉၼိုင်၊ ဢၼ်ၸိုဝ်ႈၸႂ်ႈ။"
@@ -27,15 +27,15 @@
   "game_action": {
     "you_drew": "သူၸၼ်ဢဝ်ဝႂ်။",
     "opponent_drew": "ၽူႈလဵၼ်ႈ {player_id} ၸၼ်မၢၵ်ႇၽႃႈ။",
-    "you_played": "You played {card} on center pile {index}.",
-    "opponent_played": "Player {player_id} played {card} on center pile {index}.",
-    "you_discarded": "You have discarded {card} to discard pile {index}, which also means you have finished their turn. No further actions of yours is considered for this turn. Player {next_player_id} will go next.",
+    "you_played": "သင် ကစား {card} ဗဟို ပုံ {index} ပေါ်။",
+    "opponent_played": "ကစားသမား {player_id} ကစား {card} ဗဟို ပုံ {index} ပေါ်။",
+    "you_discarded": "သင် စွန့်ပစ် {card} စွန့်ပစ် ပုံ {index} ပေါ်, သင်၏ ပတ် အဆုံး အတွက် ပါ။ ကစားသမား {next_player_id} လာမည်။",
     "opponent_discarded": "Player {player_id} discarded {card} to discard pile {index}, which also means they finished their turn. No further actions of Player {player_id} is considered for this turn. Player {next_player_id}, you will go next. Please enter your action in the format [action card center_index]."
   },
   "outcome": {
-    "payoff_cleared": "Player {current_player} has finished their payoff pile! Player {current_player} wins!",
-    "deadlock_player_0": "Deadlock reached! Player 0 wins with {player_0_payoff} cards remaining vs Player 1's {player_1_payoff} cards.",
-    "deadlock_player_1": "Deadlock reached! Player 1 wins with {player_1_payoff} cards remaining vs Player 0's {player_0_payoff} cards.",
-    "deadlock_tie": "Deadlock reached with tie! Both players have {player_0_payoff} cards remaining. Player {current_player} wins by default."
+    "payoff_cleared": "ကစားသမား {current_player} အကျိုးပြု ပုံ ဖြုတ်ချ ပါပြီ! ကစားသမား {current_player} အနိုင် ရပါပြီ!",
+    "deadlock_player_0": "အဆုံး သတ် အနိုင် ရပါပြီ! ကစားသမား 0 အနိုင် ရပါပြီ {player_0_payoff} ကစားတုံး များ ကျန် နှင့် ကစားသမား 1 ၏ {player_1_payoff} ကစားတုံး များ။",
+    "deadlock_player_1": "အဆုံး သတ် အနိုင် ရပါပြီ! ကစားသမား 1 အနိုင် ရပါပြီ {player_1_payoff} ကစားတုံး များ ကျန် နှင့် ကစားသမား 0 ၏ {player_0_payoff} ကစားတုံး များ။",
+    "deadlock_tie": "အဆုံး သတ် တန်း ရပါပြီ! ကစားသမား နှစ်ဦး {player_0_payoff} ကစားတုံး များ ကျန် နှင့် တန်း ရပါပြီ။ ကစားသမား {current_player} အနိုင် ရပါပြီ အလိုအလျောက်။"
   }
 }

@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "د حرکت لپاره کوم معتبر بڼه نه ده موندل شوې. [a1b2] وکاروئ، د بیلګې په توګه [b2c3].",
-    "illegal": "Move [{move}] is illegal."
+    "illegal": "حرکت [{move}] غیر قانوني دی."
   },
   "game_action": {
     "moved": "لوبغاړی {player_id} حرکت وکړ {move}."

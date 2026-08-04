@@ -11,12 +11,12 @@
     "not_legal": "कार्रवाई {legal_actions} होवे के चाही।"
   },
   "action": {
-    "submit_move": "Player {player_id}, submitted move: '[{move}]'.",
+    "submit_move": "प्लेयर {player_id}, एक्शन सबमिट किया: '[{move}]'.",
     "valid_actions": "तोहर उपलब्ध क्रिया ई हइ: {legal_actions}।",
     "round_summary": "{reason} वर्तमान स्कोर: प्लेयर 0: '{player_0_chips}'; प्लेयर 1: '{player_1_chips}'"
   },
   "showdown": {
-    "showdown_summary": "Showdown: Player {winner}'s {winner_card} beats Player {loser}'s {loser_card}. Player {winner} wins pot of {pot_value} chips."
+    "showdown_summary": "शोडाउन: प्लेयर {winner} का {winner_card} प्लेयर {loser} के {loser_card} को हरा देता है। प्लेयर {winner} {pot_value} चिप्स का पॉट जीतता है।"
   },
   "outcome": {
     "draw": "{max_rounds} राउंड के अंत में, दुनहु खिलाड़ी के पास समान संख्या में चिप्स रहई।",

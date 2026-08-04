@@ -14,7 +14,7 @@
     "{scores}": "The final scores as a raw player-number to score mapping - do not translate"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player GOPS.\n- You hold the 13 cards A-K (each exactly once).\n- Each round a prize is revealed. Submit ONE card like `[Q]`, `[10]`, `[2]` …\n- Highest card wins the prize (+ any carry-over pot). Ties roll the prize into the next round.\n- After 13 rounds, highest total wins. Invalid moves = elimination."
+    "intro": "Kai ne Dan wasa {player_id} a Three-Player GOPS.\n- Kai ke riƙe katin 13 A-K (kowanne sau ɗaya).\n- A kowanne wasa, ana bayyana katin. Mika katin ɗaya kamar `[Q]`, `[10]`, `[2]` …\n- Katin mafi girma ya lashe katin ( + kowanne kuɗi da aka ajiye). Ties na tura katin zuwa wasa na gaba.\n- Bayan wasa 13, mafi girma ya lashe. Zagi mara = kawar."
   },
   "round": {
     "header": "### Goɗɗo {round}/13 - Jaggi: {prize} (ngam {worth})",
@@ -22,7 +22,7 @@
   },
   "reveal": {
     "win": "Ɓeɗɗe » {bids} - Nyiɓe {winner} jaggi {pot}.",
-    "tie": "Bids  {bids} - tie, pot now {pot}.",
+    "tie": "Taka » {bids} - tie, kuɗi yanzu {pot}.",
     "scores": "Limgalji → {scoreline}"
   },
   "invalid_move": {

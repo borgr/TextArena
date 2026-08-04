@@ -8,8 +8,8 @@
     "already_fired": "Chaidh losgadh a dhèanamh air an co-chomharran {coord} mu thràth."
   },
   "game_action": {
-    "you_sunk": "Sunk! You sunk a ship at {coord}! Your updated board:\n{view}",
-    "opp_sunk": "Opponent sunk your ship at {coord}! Your updated board:\n{view}",
+    "you_sunk": "Air a chur fodha! Chuir thu bàta fodha aig {coord}! Bòrd ùr agad:\n{view}",
+    "opp_sunk": "Chuir nàimhde bàta agad fodha aig {coord}! Bòrd ùr agad:\n{view}",
     "you_hit": "Loch! Tha thu air loch aig {coord}! Am bord ùr agad:\n{view}",
     "opp_hit": "Dùin an t-eòinach do loch aig {coord}! Am bord ùr agad:\n{view}",
     "you_miss": "Masg! Cha do loch thu an loch aig {coord}! Am bord ùr agad:\n{view}",

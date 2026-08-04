@@ -9,10 +9,10 @@
     "{pct}": "Progress as a percentage string, e.g. 50%"
   },
   "player_prompt": {
-    "intro": "Map each letter to a unique digit so the arithmetic holds.\nAssign with `[A 5]`, re-assign anytime.\n"
+    "intro": "Ар бир тамганы уникалдуу санга картаға түшүрүңүз, ошентип арифметикалык амалдарды сактагыла.\n[A 5] менен бөлөңүз, кайра бөлөсүңүз.\n"
   },
   "invalid_move": {
-    "wrong_format": "Bad action format. Use `[A 5]`.",
+    "wrong_format": "Негизги аракеттин форматы туура эмес. [A 5] колдонгула.",
     "letter_not_in_puzzle": "Кат {letter} табышмак эмес.",
     "digit_used": "Цифр {digit} буга чейин {used_letter} тарабынан колдонулган.",
     "leading_zero": "Сөздүн башкы цифрасы 0 болушу мүмкүн эмес."

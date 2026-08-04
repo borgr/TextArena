@@ -16,8 +16,8 @@
   },
   "invalid_move": {
     "wrong_format": "မမှန်သောရွှေ့ပြောင်းပုံစံ၊ သင့်လက်ထဲက Nth ကဒ်ကို ကစားဖို့ '[play N]' ကိုသုံးပါ။",
-    "bad_position": "That card position does not exist. You hold {hand_size} cards.",
-    "must_follow_suit": "You must follow suit and play a {lead_suit} card.",
+    "bad_position": "ကဒ်၏ နေရာ မရှိပါ။ သင်သည် {hand_size} ကဒ်များကို ကိုင်ထားပါသည်။",
+    "must_follow_suit": "သင်သည် အရောင်ကို လိုက်ပါရပါမည်။ {lead_suit} အရောင် ကဒ်တစ်ခုကို ကစားပါ။",
     "invalid_play": "ဒီကဒ်ကို မကစားနိုင်ဘူး။"
   },
   "game_action": {

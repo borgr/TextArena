@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are {role} in Colonel Blotto.\nYour goal is to win more rounds than your opponent.\nOn each round, allocate exactly {num_total_units} units across fields {field_names}.\nThe player who allocates more units to a field wins that field, and the player who wins more fields wins the round.\nFor example, '[A7 B7 C6]' allocates 7 units to A, 7 to B, and 6 to C.",
+    "intro": "तुम्हार {role} के रूप में कोलोनेल ब्लोटो में हो।\nतुम्हार लक्ष्य तुम्हार विरोधी के तुलना में अधिक राउंड जीतना है।\nहर राउंड में, {field_names} फील्ड में {num_total_units} यूनिट आवंटित करो।\nजो खिलाड़ी एक फील्ड में अधिक यूनिट आवंटित करता है वह फील्ड जीतता है, और जो खिलाड़ी अधिक फील्ड जीतता है वह राउंड जीतता है।\nउदाहरण के लिए, '[A7 B7 C6]' A में 7 यूनिट, B में 7 और C में 6 आवंटित करता है।",
     "commander_alpha": "कमांडर अल्फा, हे एलएफए!",
     "commander_beta": "कमांडर बीटा, हे पीटर!"
   },

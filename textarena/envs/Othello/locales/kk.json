@@ -16,7 +16,7 @@
   },
   "game_action": {
     "skipped": "Ойыншы {pid} кезегін өткізіп жіберді",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "{pid} ойыншысы ({piece}) [{r}, {c}] ойнап, {flipped} пішін(дер)ді айналдырды"
   },
   "game_message": {
     "must_skip": "Ойыншы {pid} ({piece}) жарамды қимыл жасай алмайды және өткізіп жіберуі керек."

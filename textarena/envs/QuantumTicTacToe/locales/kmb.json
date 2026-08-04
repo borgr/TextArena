@@ -1,25 +1,25 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in Quantum Tic Tac Toe.\nYour symbol is '{symbol}', and your move numbers are always {parity} (e.g., X1, X3 or O2, O4).\n\nGoal: Win by forming a line of three classical marks (solidified from superpositions).\n\nHow to Play:\n- On each turn, place a spooky mark in two different empty squares using the format '[a,b]'.\n- These marks are entangled, and labeled like 'X1 / X1' or 'O4 / O4'.\n- You cannot place spooky marks in a square that has already collapsed (solidified).\n\nCollapse Rule:\n- If your move creates a cycle in the entanglement graph, it collapses automatically.\n- Each spooky mark in the cycle turns into a classical mark in one of its two positions.\n- Any dependent spooky marks also collapse.\n\nVictory:\n- The game ends when a player has three classical marks in a row.\n- If both players get a line during the same collapse, the one with the lower max move number wins.\n\nExample move: '[0,4]' places a spooky mark in cells 0 and 4."
+    "intro": "Nge ujile ujile {player_id} mu Tic Tac Toe ya Quantum.\nSímbolo iá nge ni '{symbol}', iá númeru za kuenda nge zikuwa zile {parity} (e.g., X1, X3 or O2, O4).\n\nObjetivo: Uje vitória kuunda uma linha ya tatu ya marcas clássicas (solidificadas a partir de superposições).\n\nKamba nge kuenda:\n- Kuenda kila vez, ponde uma marca assustadora em dois quadrados vazios diferentes usando o formato '[a,b]'.\n- Marcas assustadoras zikuwa entrelaçadas, iá zikuwa zile 'X1 / X1' ou 'O4 / O4'.\n- Nge kuweza ponde marcas assustadoras em um quadrado que já kuwa solidificado.\n\nRegra ya kuweka:\n- Se kuenda nge cria um ciclo no gráfico de entrelaçamento, kuweka automaticamente.\n- Cada marca assustadora no ciclo kuwa uma marca clássica em uma das suas duas posições.\n- Marcas assustadoras dependentes também kuweka.\n\nVitória:\n- Jogo kuweka quando um jogador tiver três marcas clássicas em uma linha.\n- Se ambos jogadores obtenham uma linha durante o mesmo kuweka, aquele com o número máximo de kuenda mais baixo vence.\n\nExemplo de kuenda: '[0,4]' ponde uma marca assustadora em células 0 e 4."
   },
   "board": {
-    "current_board": "Quantum Tic Tac Toe Board:\n\n{board}\n\nSubmit your move as '[a,b]' to place a quantum mark in two locations."
+    "current_board": "Tábua ya Tic Tac Toe ya Quantum:\n\n{board}\n\nSubmeta kuenda nge como '[a,b]' para ponde uma marca quântica em dois locais."
   },
   "invalid_move": {
-    "wrong_format": "Invalid format. Use '[a,b]'.",
+    "wrong_format": "Mbunge ya nginga. Usa '[a,b]'.",
     "invalid_cells": "O kijimbuete kia ku katula o kidimbu kiki, a tena ku ki lungulula.",
     "already_solidified": "Sai kibamba kia disanze kiá."
   },
   "game_action": {
-    "placed": "Player {player_id} placed their symbol in a superposition between cells {pos_a} and {pos_b}."
+    "placed": "Mwana {player_id} wakudisha simbolo yake mu kubunguluka kati ya malwenge {pos_a} na {pos_b}."
   },
   "game_message": {
-    "dependent_resolved": "Dependent superposition resolved. Cell ({r}, {c}) is now {symbol}.",
-    "last_cell_resolved": "Superposition for last cell resolved. Cell ({r}, {c}) is now {symbol}.",
-    "superposition_resolved": "Superposition resolved. Cell ({r}, {c}) is now {symbol}."
+    "dependent_resolved": "Kubunguluka kwa kubunguluka kwakulunguluka. Malwenge ({r}, {c}) yena {symbol}.",
+    "last_cell_resolved": "Kubunguluka kwa malwenge ya mwisho kwakulunguluka. Malwenge ({r}, {c}) yena {symbol}.",
+    "superposition_resolved": "Kubunguluka kwakulunguluka. Malwenge ({r}, {c}) yena {symbol}."
   },
   "outcome": {
-    "win": "Mchezaji {player_id} anashinda na alama zilizojaa!",
+    "win": "Mwana {player_id} unanguka na makundi ya kisima!",
     "draw": "O ita ia bhu!"
   }
 }

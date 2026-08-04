@@ -11,16 +11,16 @@
     "intro": "You are Player {player_id} in the Word Chains Game.\nPlayers take turns to provide valid English words that:\n1. Start with the last letter of the previous word\n2. Must be longer than the previous word\n3. Cannot be a word that was previously used\n\nIf you provide an invalid word, repeat a word, or fail to follow the rules, you lose.\nPlease wrap your word in square brackets, e.g., '[apple]', '[monkey]', etc.\nThe starting word is [{word}]."
   },
   "board": {
-    "next_word": "Next word must:\n1. Start with '{start_letter}'\n2. Be exactly {length} letters long"
+    "next_word": "Muvu inayofuata i fanela:\n1. Kutandika na herufi '{start_letter}'\n2. Kuwa na urefu wa {length} herufi"
   },
   "message": {
-    "played": "Player {player_id} played: [{word}]"
+    "played": "Muthandeni {player_id} akatandika: [{word}]"
   },
   "invalid": {
-    "wrong_format": "Player {player_id} did not provide a word in the valid format.",
-    "wrong_length": "The word must be exactly {length} letters long. '{word}' has {count} characters.",
-    "wrong_start": "The word must start with '{start_letter}'.",
-    "not_a_word": "'{word}' is not a valid English word.",
-    "already_used": "The word '{word}' has already been used."
+    "wrong_format": "Muthandeni {player_id} hakutandika muvu mu fomu ya kwendiso.",
+    "wrong_length": "Muvu i fanela kuwa na urefu wa {length} herufi. '{word}' ina {count} herufi.",
+    "wrong_start": "Muvu i fanela kutandika na herufi '{start_letter}'.",
+    "not_a_word": "'{word}' si muvu ya kwendiso ya Kingelezi.",
+    "already_used": "Muvu '{word}' yakwata wakutandikwa."
   }
 }

@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in JoJoJoin, played on a 5x5 board with cells numbered 0-24.\nOn your turn, place your mark on any empty cell, e.g. '[12]'.\nYOU WIN by getting FOUR of your marks in a row — four consecutive cells horizontally, vertically, or diagonally.\nAs Player {player_id} you are '{symbol}'; your opponent is '{opponent_symbol}'."
+    "intro": "U ena le Player {player_id} ho JoJoJoin, e tsebahalang ka boradeng ya 5x5 e nang le masae a nang le dinomoro tse 0-24.\nHa e le nako ya hao, bea letshwao la hao ho sae lefe kapa lefe le se nang letho, mohlala '[12]'.\nU WINA ka ho fumana letshwao la hao la bone mafateng — masae a mane a latelana ka tatellano, ka godimo kapa tlase, kapa ka mokgwa wa diagonal.\nE le Player {player_id} u ena le '{symbol}'; mohlankana wa hao ena le '{opponent_symbol}'."
   },
   "board": {
     "current_board": "Boro ya tšohle:\n\n{board}\n\nDitshepele tse kgonegang: {moves}"

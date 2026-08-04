@@ -5,11 +5,11 @@
   "board": {
     "header": "ZIL: {target}\n\nVerfëgbare Zuelen:\n{numbers}",
     "best": "{observation}\n\nBescht bis elo: {best_value} (Distanz: {distance})\nBescht Ausdréck: {best_expression}",
-    "history": "{observation}\n\nMove history:\n{moves}",
+    "history": "{observation}\n\nZuch-Geschicht:\n{moves}",
     "progress": "{observation}\nAktuelle Fortschrittspunktzahl: {progress}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use `[i j op]` where i,j are indices and op is +,-,*,/",
+    "wrong_format": "Ongülteg Aktiounsformat. Benotzt `[i j op]` wou i,j Indizes sinn an op +,-,*,/ ass",
     "invalid_indices": "Ongëlteg Indizes: mussen ënnerschiddlech sinn an am Beräich 0-{max_index}",
     "invalid_operation": "Ongülteg Operatioun (Divisioun duerch Null oder net-Integer Resultat)"
   },

@@ -6,7 +6,7 @@
     "invalid_action": "Salon aiki maraɓɓa. Amfani da '[roll]' ko '[hold]'."
   },
   "actions": {
-    "player_busted": "Player {player_id} busted, losing {turn_total} points!",
+    "player_busted": "Player {player_id} dokkaa, kuuri {turn_total} pointi!",
     "player_hold": "Ɗan {player_id} ya kulle, kuma ya banki {turn_total} pointi."
   },
   "board": {

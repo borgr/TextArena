@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} playing {colour} ({piece}) in a game of Othello.\nYour goal is to have more pieces of your color on the board by the end of the game.\nOn your turn, place a piece such that it flanks one or more of your opponent's pieces-in any direction (horizontal, vertical, or diagonal)-between your new piece and another of your existing pieces. All flanked opponent pieces will be flipped to your color.\nProvide your move in the format '[row, col]'."
+    "intro": "Oli Mchezaji {player_id} akicheza {colour} ({piece}) mu mupiira wa Othello.\nGgwanga lyo ni kulaba nguli nyingi za rangi yo ku board ku nkomerero ya mupiira.\nKu kyaawe, simba nguli etyakulekeza nguli za mchezaji wa pili - mu mpangilio wowote (wansi, waggulu, oba diagonal) - wakatiyo nguli yo empya n'enguli endala yo etyaliwo.  Nguli zonna za mchezaji wa pili zitakubwa ku rangi yo.\nLaba mu kifoortani ya '[row, col]'."
   },
   "board": {
     "game_board": "Ekipande ky'omuzannyo: {board}",
@@ -16,10 +16,10 @@
   },
   "game_action": {
     "skipped": "Omuzannyi {pid} yalina okubuukawo.",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "Muzannyi {pid} ({piece}) yazannya [{r}, {c}] akwata {flipped} ekitone(ebis)"
   },
   "game_message": {
-    "must_skip": "Player {pid} ({piece}) has no valid moves and must skip."
+    "must_skip": "Muzannyi {pid} ({piece}) tewali malamwa malungi naye asigale."
   },
   "outcome": {
     "black_wins": "Black awangula {black_count}-{white_count}.",

@@ -1,13 +1,13 @@
 {
   "player_prompt": {
-    "intro": "Uko kama Mchezaji {player_id} ({role}) katika mchezo wa Matching Pennies unaorudiwa {num_rounds} mara.\n- Kila raundi, wasilisha [heads] au [tails] (au [h], [t]).\n- Ikiwa chaguo lako linapatana na la mpinzani wako, Mchezaji 0 anashinda raundi; vinginevyo Mchezaji 1 anashinda.\nJibu na chaguo lako kwa fomu '[heads]' au '[tails]'.\n"
+    "intro": "Ni wewe Mugenzi {player_id} ({role}) muri muzo wa {num_rounds} wa michezo ya Matching Pennies.\n- Muri kila mzunguko, tanga [heads] cyangwa [tails] (cyangwa [h], [t]).\n- Ikiwa hitimisho yawe yahuye n'iryaweho ry'umugenzi wawe, Mugenzi 0 atatsinda mzunguko; kandi Mugenzi 1 atatsinda.\nSubiza hitimisho yawe mu buryo '[heads]' cyangwa '[tails]'.\n"
   },
   "invalid_move": {
-    "wrong_format": "Invalid format; please submit '[heads]' or '[tails]'."
+    "wrong_format": "Iburyo si sahihi; tanga '[heads]' cyangwa '[tails]'."
   },
   "message": {
-    "round_match": "Mchezaji 0 alichagua {choice0}; Mchezaji 1 alichagua {choice1}. Match -> Mchezaji 0 anashinda",
-    "round_mismatch": "Mchezaji 0 alichagua {choice0}; Mchezaji 1 alichagua {choice1}. Mismatch -> Mchezaji 1 anashinda."
+    "round_match": "Mugenzi 0 yahisemo {choice0}; Mugenzi 1 yahisemo {choice1}. Yahuye -> Mugenzi 0 atsinde",
+    "round_mismatch": "Mugenzi 0 yahisemo {choice0}; Mugenzi 1 yahisemo {choice1}. Ntiyahuye -> Mugenzi 1 atsinde."
   },
   "outcome": {
     "p0_wins": "Umukinnyi 0 yatsinze imikino myinshi.",

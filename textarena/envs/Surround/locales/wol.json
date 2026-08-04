@@ -10,11 +10,11 @@
     "{groups}": "Neutral ranking data (a list of player-id groups, best to worst); do not translate"
   },
   "player_prompt": {
-    "intro": "{num_players}-Player Surround on a {width}x{height} grid.\nYou are player {player_id}. Valid moves: '[up]' '[down]' '[left]' '[right]' or w/s/a/d.\nObjective: outlive everyone else. Trails are deadly; wall hits kill; head-on crashes kill both."
+    "intro": "{num_players}-Xarekatu Surround ciy taflu {width}x{height}.\nYaa ngone xarekatu {player_id} la. Ciyaay yu bàyyikoo: '[up]' '[down]' '[left]' '[right]' wala w/s/a/d.\nObjektif: bàyyi ciy xarekatu yu léen. Bandu yu màggal; gàcce yu màggal; xarekatu yu màggal ciy kaw."
   },
   "board": {
-    "current": "Current Board:\n{board}",
-    "after_moves": "Board after simultaneous moves:\n{board}"
+    "current": "Taflu biy màndarga:\n{board}",
+    "after_moves": "Taflu biy màndarga ciy ciyaay yu bàyyikoo:\n{board}"
   },
   "game_action": {
     "invalid_death": "Jëfandikukat {player_id} faatu na ndax ag doxalin bu amul solo."
@@ -24,7 +24,7 @@
     "all_crashed": "Ñépp dañu daan tàmbli ci benn saa.",
     "outlived": "Njiit bi moo gën a dund ñi ci des.",
     "all_dead": "Ñépp ñi doon xeex dee nañu.",
-    "turn_limit": "Turn limit reached - longest survivor wins.",
+    "turn_limit": "Limiteerukaayu démée - gaañiy u guddi ku amoon ngóne.",
     "ranking": "{reason} Jëfandikukat bu njëkk bu njëkk (sa bari→sa ndaw): {groups}"
   }
 }

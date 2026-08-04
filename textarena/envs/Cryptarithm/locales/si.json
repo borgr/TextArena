@@ -9,10 +9,10 @@
     "{pct}": "Progress as a percentage string, e.g. 50%"
   },
   "player_prompt": {
-    "intro": "Map each letter to a unique digit so the arithmetic holds.\nAssign with `[A 5]`, re-assign anytime.\n"
+    "intro": "අංකගණිතය රඳවා තබා ගැනීම සඳහා එක් එක් අකුර සඳහා අනන්‍ය අංකය සිතියම් කරන්න.\n`[A 5]` සමඟ අනුයුක්ත කරන්න, ඕනෑම වේලාවක නැවත අනුයුක්ත කරන්න.\n"
   },
   "invalid_move": {
-    "wrong_format": "Bad action format. Use `[A 5]`.",
+    "wrong_format": "නරක ක්‍රියා ආකෘතිය. `[A 5]` භාවිතා කරන්න.",
     "letter_not_in_puzzle": "අකුර {letter} ප් රහේලිකාවක නැහැ.",
     "digit_used": "{digit} අංකය දැනටමත් {used_letter} විසින් භාවිතා කර ඇත.",
     "leading_zero": "වචනයක මුල අංකය 0 වෙන්න බෑ."

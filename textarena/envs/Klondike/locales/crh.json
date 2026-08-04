@@ -16,17 +16,17 @@
     "{cards}": "The cards in a pile as neutral labels, or '--' if empty (never translate)"
   },
   "player_prompt": {
-    "intro": "You are playing Klondike Solitaire. Your goal is to move all cards to the foundation piles.\n\nGame Rules:\n- Foundation piles (F1-F4): Build up from Ace to King in suit\n- Tableau piles (T1-T7): Build down alternating colors (red on black, black on red)\n- Stock: Draw cards to waste pile\n- Waste (W): Top card available for play\n\nCommands:\n- 'draw' - Draw cards from stock to waste\n- 'move <source> <destination> [count]' - Move cards between piles\n  Examples: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count can also be 'all', which will try to move all face-up cards.\n- 'forfeit' - End the game immediately and lock in your current score\n- Pile names: W (waste), F1-F4 (foundations), T1-T7 (tableau)\n\nYou can execute multiple actions in one turn by separating them with commas:\n  Example: 'draw, move W T1, move T2 F1'\n\nOnly Kings can be placed on empty tableau piles.\nActions execute in order - if one fails, the remaining actions are skipped.\nUse 'forfeit' if you believe the game is impossible to win."
+    "intro": "Siz Klondike Pasians oynaymız. Maqsadınız bütün kartlarnı fond pilesine köçürmek.\n\nOyun Qaydaları:\n- Fond pilesi (F1-F4): Ace'den King'ge qadar aynı renkten qurulmaq\n- Tableau pilesi (T1-T7): Renkleri değişerek aşağı qurulmaq (qırmızı qarada, qara qırmızıda)\n- Stok: Kartlarnı waste pile'ge çeker\n- Waste (W): Üst kart oynanabilir\n\nKomandalar:\n- 'draw' - Stok'tan waste'ge kart çeker\n- 'move <source> <destination> [count]' - Kartlarnı pile'ler arasında köçür\n  Misallar: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count 'all' da olabilir, bütün yüzleri açık kartlarnı köçürmek.\n- 'forfeit' - Oyunu derhal bitir ve şuanki hesabını kilitle\n- Pile adları: W (waste), F1-F4 (fond), T1-T7 (tableau)\n\nBir turda birden fazla areket yapabilirsin, virgül ile ayırarak:\n  Misal: 'draw, move W T1, move T2 F1'\n\nBoş tableau pile'lerine sadece King'ler qoyula bilir.\nAreketsiz tertip etilir - biri başarısız olsa, qalan areketler atlanılır.\nOyunu qazanmaq imkansızsa 'forfeit' kullan."
   },
   "format_error": {
     "no_brackets": "Uquqiy olmağan areket şekli. Areket qavğalarda olmalı.",
     "no_closing_bracket": "Uquqsız areket formatı. Keteyatqan qapatma qavası ']'",
     "empty_command": "Boş emir. 'draw' ya da 'move <source> <destination> [count] yazıñız",
     "empty_action": "Boş areketler",
-    "move_needs_args": "Köç emirine menba ve maqsat kerek. qullanuv: 'kökni <menba><maqset yerini> [count] taşıy'",
-    "count_positive": "Sayuv müsbet ya da \"er kes\" olmalı.",
-    "count_invalid": "Saqlanmağan say. Bir raqam ya da \"er kesni\" qullanıñız",
-    "unknown_command": "Unknown command '{cmd}'. Use 'draw', 'move <source> <destination> [count]', or 'forfeit'",
+    "move_needs_args": "Köçürme komandası source ve destination talap ete. Qullanma: 'move <source> <destination> [count]'",
+    "count_positive": "Sayı pozitif veya 'all' olmalı",
+    "count_invalid": "Geçersiz sayı. Bir sayı veya 'all' kullan.",
+    "unknown_command": "Bilinmeyen komanda '{cmd}'. 'draw', 'move <source> <destination> [count]', veya 'forfeit' kullan.",
     "wrapped": "Amal {n}: {msg}"
   },
   "action_result": {

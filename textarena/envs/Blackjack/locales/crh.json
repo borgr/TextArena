@@ -9,7 +9,7 @@
     "wrong_format": "Qanunsız hareket. '[Hit]' yaki '[Stand]' qullanıñız."
   },
   "game_message": {
-    "hand_result": "Hand {hand_number}: you {outcome}. Your final {player_score}, Dealer {dealer_score}.",
+    "hand_result": "El {hand_number}: siz {outcome}. Sizim soñki {player_score}, Dealer {dealer_score}.",
     "all_complete": "=== Barlı {num_hands} qollar tamamlanğan ===\nÜtileler: {wins}, Yoğunluqlar: {losses}, Çekeleler: {draws}\n"
   },
   "outcome": {

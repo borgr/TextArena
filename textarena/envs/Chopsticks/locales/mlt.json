@@ -3,7 +3,7 @@
     "intro": "Inti Player {player_id} fi Chopsticks. F'turn tiegħek, agħżel wieħed minn:\n  + Attakka:  '[attack M O]'  fejn M=idek (0 jew 1), O=idek tal-avversarju (0 jew 1).\n    - Il-kont tal-idek tal-avversarju jiżdied bil-kont tal-idek tiegħek; jekk >=5, isir 0.\n  + Qsim:   '[split L R]'  biex terdistribwixxi total ta' subgħajk f'L u R (L+R = total tiegħek).\nIrgħab b'komand wieħed minn dawk."
   },
   "board": {
-    "current_board": "Bord Kurrenti:\nPlayer 0: {hands_0}\nPlayer 1: {hands_1}"
+    "current_board": "Bord Attwali:\nĠoueur 0: {hands_0}\nĠoueur 1: {hands_1}"
   },
   "invalid_move": {
     "my_hand_dead": "Idek {my_idx} hija mejta.",
@@ -13,8 +13,8 @@
     "invalid_command": "Mossa invalida. Uża “[attack M O]” jew “[split L R]”."
   },
   "game_action": {
-    "attack": "P{player_id} attacks P{opp_id}’s hand {opp_idx}: it goes from {opp_val} to {new_val}.",
-    "split": "P{player_id} splits into [{L}, {R}]."
+    "attack": "P{player_id} jattakka l-id {opp_idx} ta' P{opp_id}: tmur minn {opp_val} għal {new_val}.",
+    "split": "P{player_id} jaqsam f'[{L}, {R}]."
   },
   "history": {
     "entry": "P{player_id} {desc}"

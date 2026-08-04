@@ -9,7 +9,7 @@
     "progress": "{observation}\nPuntegi de progress atual: {progress}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use `[i j op]` where i,j are indices and op is +,-,*,/",
+    "wrong_format": "Format de l'azion minga bon. Doperà `[i j op]` indova i,j hinn i indegs e op l'è +,-,*,/",
     "invalid_indices": "Indici invalidi, devono essere diversi e nell'intervallo 0-{max_index}",
     "invalid_operation": "Operazion invalida (dividend per zeru o risultad no-entger)"
   },

@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in JoJoJoin, played on a 5x5 board with cells numbered 0-24.\nOn your turn, place your mark on any empty cell, e.g. '[12]'.\nYOU WIN by getting FOUR of your marks in a row — four consecutive cells horizontally, vertically, or diagonally.\nAs Player {player_id} you are '{symbol}'; your opponent is '{opponent_symbol}'."
+    "intro": "Oe o le Ta'aloga {player_id} i le JoJoJoin, ta'alo i luga o le laupapa 5x5 ma sela numera mai 0-24.\nI lou taimi, tu'u lou fa'ailoga i so'o se sela tuufaatasi, e.g. '[12]'.\nOE MANUMALO pe a e maua e fa o lou fa'ailoga i se laina — e fa sela tutusa i le fa'asologa i le itu, i luga poo i lalo.\nO le Ta'aloga {player_id} oe o le '{symbol}'; o lou fili o le '{opponent_symbol}'."
   },
   "board": {
     "current_board": "Papa Faʻaleleia:\n\n{board}\n\nMouve E Mafai Ona Faia: {moves}"

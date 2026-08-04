@@ -3,7 +3,7 @@
     "intro": "Efe Player {player_id} le Indian Poker gome la.\n- 52-kɔnta kɔnta; mi wɔ na kuɖe dɔ la.\n- Ante {ante} chip(s) etɔ̃, {max_rounds} etɔ̃ la.\n- Valid moves: '[check]'  |  '[bet X]'  |  '[call]'  |  '[raise X]'  |  '[fold]'  (X nyɛ positive integer <= kuɖe chip count)\n- Highest hidden card diɖi pot le showdown la.\n"
   },
   "round": {
-    "announce": "### Round {current_round}/{max_rounds}\nYour opponent's card is: {card}"
+    "announce": "### Eme {current_round}/{max_rounds}\nAka ƒe ŋku ɖe eme ƒe kaɖi nye: {card}"
   },
   "invalid_move": {
     "ambiguous": "Nyaa kuɖe akɔnta gbɛgbɛɖeɖe, e.g. '[check]', '[bet 2]', '[call]', '[raise 3]', kple '[fold]'.",
@@ -23,7 +23,7 @@
     "possible_actions": "Wò afɔɖeɖe siwo nàte ŋu aɖe: {legal}"
   },
   "message": {
-    "round_result": "{reason}  Pot {pot} → Player {winner}. (Bankrolls P0:{p0}, P1:{p1})",
+    "round_result": "{reason}  Pot {pot} → Aka {winner}. (Bankrolls P0:{p0}, P1:{p1})",
     "folded": "Fefewɔla {player_id} dze.",
     "showdown_win": "Ŋutifafa: {card_win} wu {card_lose}.",
     "showdown_tie": "Showdown tie: wo ame eve {card}. Pot split  each receives {split} ."

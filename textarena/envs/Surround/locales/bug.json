@@ -10,11 +10,11 @@
     "{groups}": "Neutral ranking data (a list of player-id groups, best to worst); do not translate"
   },
   "player_prompt": {
-    "intro": "{num_players}-Player Surround pada grid {width}x{height}.\nAnda adalah pemain {player_id}. Gerakan yang valid: '[up]' '[down]' '[left]' '[right]' atau w/s/a/d.\nTujuan: bertahan hidup lebih lama dari yang lain. Jejak-jejak berbahaya; tabrakan dinding mematikan; tabrakan kepala-ke-kepala membunuh keduanya."
+    "intro": "{num_players}-Pemain Surround ri papan {width}x{height}.\nKau pamain {player_id}. Gerakan valid: '[up]' '[down]' '[left]' '[right]' atau w/s/a/d.\nTujuan: hidup lebih lama dari yang lain. Jejak mematikan; benturan tembok membunuh; benturan kepala membunuh keduanya."
   },
   "board": {
     "current": "Akkatuong makkokkoe: {board}",
-    "after_moves": "Papan purana gerakan simultan: {board}"
+    "after_moves": "Papan setelah gerakan bersamaan:\n{board}"
   },
   "game_action": {
     "invalid_death": "Pelainang {player_id} mate nasaba' de nacooco."
@@ -25,6 +25,6 @@
     "outlived": "Pelaenng e lebbi tuo pole ri laingnge.",
     "all_dead": "Sininna tau maccule'e mate.",
     "turn_limit": "Watang giliranna lettu - tau kaminang malampe'e tuwo naalai.",
-    "ranking": "{reason} Klasemen akhir kelompok (terbaik→terburuk): {groups}"
+    "ranking": "{reason} Kelompok peringkat akhir (terbaik→terburuk): {groups}"
   }
 }

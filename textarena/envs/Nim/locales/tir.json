@@ -10,10 +10,10 @@
     "correct_format_wrong_fields": "ርኢት ሽሕ መስለም፡ ርኢት {player_id}፡ ሽሕ ኣሳልት፡ ኮሎም {col} ኣብ ዙሪያ ኢያ።",
     "out_of_range": "ናይ {pile_index} ጠቕላሊ ካብ ክምዝገብ ወፃኢ እዩ።",
     "non_positive": "እንተወሓደ ሓደ ነገር ክውሰድ ኣለዎ።",
-    "exceeds_pile": "Cannot remove {quantity} from pile {pile_index} (only {pile_count} left)."
+    "exceeds_pile": "ኣካል {quantity} ካብ ክሊ {pile_index} ምውጻእ ኣይክእልን (ኣካል {pile_count} ብቕዓል ኢዩ)።"
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "ተጫዋች {player_id} አጫወተ፣ [{pile_index} {quantity}]፣ ከድንገት {pile_index} {quantity} ነገር(ነገሮች) አስወግዷል።"
   },
   "outcome": {
     "win": "ተጻዋታይ {player_id} ነቲ ናይ መወዳእታ ነገር ወሰደ!"

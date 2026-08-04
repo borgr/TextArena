@@ -13,7 +13,7 @@
     "exceeds_pile": "{quantity} യിൽ നിന്നും {pile_index} നീക്കം ചെയ്യാനാവില്ല (മാത്രം {pile_count} മാത്രം അവശേഷിക്കുന്നു)."
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "കളിക്കാരൻ {player_id} [{pile_index} {quantity}] കളിച്ചു, കൂമ്പാരം {pile_index} ൽ നിന്ന് {quantity} വസ്തു(കൾ) നീക്കം ചെയ്തു."
   },
   "outcome": {
     "win": "കളിക്കാരൻ {player_id} അവസാന വസ്തു(കൾ) എടുത്തു!"

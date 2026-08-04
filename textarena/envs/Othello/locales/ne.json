@@ -16,7 +16,7 @@
   },
   "game_action": {
     "skipped": "खेलाडी {pid} ले आफ्नो पालो छोड्नुपर्यो",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "खेलाडी {pid} ({piece}) ले [{r}, {c}] खेलेर {flipped} टुक्रा(हरू) फ्लिप गर्यो"
   },
   "game_message": {
     "must_skip": "Player {pid} ({piece}) को कुनै वैध चाल नभएको र स्किप गर्नु पर्ने छ."

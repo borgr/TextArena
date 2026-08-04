@@ -10,7 +10,7 @@
   "round_battle": {
     "field_result": "Umjikelezo {current_round} Umkhuzi we-Alpha wabelwa: {p0_allocations} Umkhuzi we-Beta wabelwa: {p1_allocations} ",
     "winner_alpha": "{message}Owinile: Umkhuzi u-Alpha",
-    "winner_beta": "{message}Winner: Commander Beta",
+    "winner_beta": "{message}Oqoshile: Komanda Beta",
     "tie": "{message}Yibani nobudlelwane!"
   },
   "invalid_move": {

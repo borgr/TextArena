@@ -9,13 +9,13 @@
     "progress": "{observation}\nPuntatge de progrès actual: {progress}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use `[i j op]` where i,j are indices and op is +,-,*,/",
+    "wrong_format": "Format d'accion invalid. Utilizatz `[i j op]` ont i, j son d'indícis e op es +,-,*,/",
     "invalid_indices": "Indicis invalids. Devon èsser diferents e dins la gama 0-{max_index}",
     "invalid_operation": "Operacion invalid (division per zèro o resultat non entièr)"
   },
   "outcome": {
     "win": "Perfecte! Trobèt la cibla exacta: {target}",
-    "no_moves": "No more moves. Best result: {best_value} (target: {target})",
+    "no_moves": "Pas mai de movements. Melhor resultat : {best_value} (objectiu : {target})",
     "turn_limit": "Limit de torns atench. Melhor resultat: {best_value} (objectiu: {target})"
   }
 }

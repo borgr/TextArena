@@ -6,7 +6,7 @@
     "current_board": "مجلس الحاضر: {board}."
   },
   "invalid_move": {
-    "wrong_format": "You did not respond with valid '[source] [target]'.",
+    "wrong_format": "أنت لم ترد ب ' [source] [target] ' صحيحة.",
     "invalid_tower": "انت حددت مصدر مش صالح أو برج هدف.",
     "empty_tower": "حاولت تحرك قرص من برج فارغ.",
     "same_tower": "حاولت تحرك قرص إلى نفس البرج.",

@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing a {difficulty} RushHour puzzle. Slide cars to free the red car [X] and drive it out the right edge.\nActions: [A+], [B-], etc.  (+ = forward, - = backward)."
+    "intro": "Uri kucheza puzzle ya {difficulty} RushHour. Sunungura maguta kuti musunungure motokari nyekwa [X] uichimbise nayo kubuda kumusoro kwakunze.\nMaitiro: [A+], [B-], n.k.  (+ = mberi, - = shure)."
   },
   "invalid_move": {
     "wrong_format": "Chiito chisina kukodzera. Shandisa fomati [A+] / [B-] .",

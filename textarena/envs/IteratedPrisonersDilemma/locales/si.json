@@ -9,7 +9,7 @@
   },
   "outcome": {
     "winner": "ක් රීඩකයා {winner} දිනයි {win_score} - {lose_score}.",
-    "draw": "Draw! Both players scored {s0}.",
+    "draw": "සම තත්ත්වය! දෙදෙනා {s0} ලකුණු ලබා ගත්හ.",
     "round_both_cooperate": "ක් රීඩකයන් දෙදෙනාම සහයෝගයෙන් කටයුතු කළා.",
     "round_both_defect": "ක් රීඩකයන් දෙදෙනාම පලා ගියා.",
     "round_p0_cooperates_p1_defects": "ක් රීඩකයා 0 සහයෝගය දැක්වූවා, ක් රීඩකයා 1 පලා ගියා.",

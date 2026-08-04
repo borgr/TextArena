@@ -11,7 +11,7 @@
     "{groups}": "Neutral ranking data (a list of player-id groups, worst to best); do not translate"
   },
   "player_prompt": {
-    "intro": "{num_players}-Player Snake on a {width}×{height} grid.\nYou control snake {player_id}. Valid moves: '[up]'/'[down]'/'[left]'/'[right]' (or w/s/a/d).\nObjective: survive longest or be the longest and get the highest score (turn limit {max_turns} turns)."
+    "intro": "{num_players}-Agyeman Snake wɔ {width}×{height} grid so.\nWo na wo hwɛ snake {player_id}. Nkrɔfoɔ a wɔfata: '[up]'/'[down]'/'[left]'/'[right]' (anaa w/s/a/d).\nBotaeɛ: di akyɛdeɛ kɔsi pɛ anaasɛ di akyɛdeɛ kɔsi pɛ na woanya akontabuo a ɛkorɔn sen biara (turns {max_turns} dodoɔ)."
   },
   "board": {
     "current": "Adwumayɛfoɔ a wɔwɔ hɔ nnɛ: {board}",

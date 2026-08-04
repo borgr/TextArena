@@ -6,7 +6,7 @@
     "current_board": "Mipiko iliyobaki: {count}\n{board}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid syntax. Use [i->j]. Ukubomfya insoselo ya bufi, ukulemba amashiwi ayabipa.",
+    "wrong_format": "Mfumo usio sahihi. Tumia [i->j].",
     "illegal_move": "Ukucita ifyabipa."
   },
   "outcome": {

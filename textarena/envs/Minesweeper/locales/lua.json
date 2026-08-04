@@ -7,13 +7,13 @@
     "current_board": "Kabadi ka mpindieu: {board}"
   },
   "invalid_move": {
-    "wrong_format": "You did not respond with valid coordinates in square brackets.",
+    "wrong_format": "Haupangi kodi halali ndani ya mabano ya mraba.",
     "out_of_bounds": "Mulongo ne mulongolongo bidibu baleje muinshi mua mikalu.",
-    "already_revealed": "Seli iliyo ({row}, {col}) imetajwa tayari.",
-    "hit_mine": "Umeingia kwenye mabomu kwenye ({row}, {col})."
+    "already_revealed": "Mwingilanga pa ({row}, {col}) tayari umefwatwa.",
+    "hit_mine": "Umenya kodi ya kubenye pa ({row}, {col})."
   },
   "game_action": {
-    "revealed": "Uaipeleka maboko kwenye seli ({row}, {col})."
+    "revealed": "Umeonekanya mwingilanga pa ({row}, {col})."
   },
   "outcome": {
     "win": "Tuasakidilayi, nudi bapatule mukanda wa Minesweeper.",

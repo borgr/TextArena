@@ -14,7 +14,7 @@
     "{scores}": "The final scores as a raw player-number to score mapping - do not translate"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player GOPS.\n- You hold the 13 cards A-K (each exactly once).\n- Each round a prize is revealed. Submit ONE card like `[Q]`, `[10]`, `[2]` …\n- Highest card wins the prize (+ any carry-over pot). Ties roll the prize into the next round.\n- After 13 rounds, highest total wins. Invalid moves = elimination."
+    "intro": "Abou ta Hungadó {player_id} den Three-Player GOPS.\n- Abou tin e 13 kartanan A-K (kada unu eksaktamente un biaha).\n- Kada rònd un premio ta revelá. Someté UN karta manera `[Q]`, `[10]`, `[2]` …\n- E karta mas haltu ta gana e premio (+ kualke pot ku a keda). Empate ta keda e premio pa e próksimo rònd.\n- Después di 13 rònd, e total mas haltu ta gana. Moveshon inválido = eliminashon."
   },
   "round": {
     "header": "### Rondo {round}/13 - Premio: {prize} (worth {worth})",

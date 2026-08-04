@@ -10,7 +10,7 @@
     "{to}": "The destination coordinate of a move, such as b3"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in game of LinesOfAction.\nYour pieces are '{side}', opponent pieces are '{other}'.\nMove format: `[b1b3]` (from-coord to-coord). A legal move travels horizontally, vertically, or diagonally a number of squares equal to the total pieces (any colour) in that line. You may jump over your own pieces, but not opponent pieces; landing on an opponent captures it.  Win when all your pieces are 8-neighbour connected."
+    "intro": "ئەتۆ یاریزان {player_id}ی یارییەکەی LinesOfAction.\nپارچەکانت '{side}'ن، پارچەکانی بەرامبەر '{other}'ن.\nفۆرماتی جوڵە: `[b1b3]` (کۆردیناتی سەرچاوە بۆ کۆردیناتی گەیشتن). جوڵەیەکی یاسایی بە شێوەی ئاسۆیی، ستوونی، یان لار بە ژمارەیەک لە چوارگۆشەکان دەڕوات کە یەکسانە بە کۆی گشتی پارچەکان (بە هەر ڕەنگێک) لەو ڕیزەدا. ئەتۆ دەتوانی بەسەر پارچەکانی خۆتدا بپەڕیتەوە، بەڵام ناتوانی بەسەر پارچەکانی بەرامبەردا بپەڕیتەوە؛ گەیشتن بە پارچەیەکی بەرامبەر دەیگرێتەوە.  سەرکەوتن کاتێکە کە گشتی پارچەکانت پێکەوە بەستراون بە 8 هاوسێ."
   },
   "board": {
     "current_board": "ئەنجومەنی: {board}"

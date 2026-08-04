@@ -6,7 +6,7 @@
   "player_prompt": {
     "intro": "Yin a Wɛr ëbɛn {player_id} ë German Whist.\n{phase_info}\nYin rɔ kɛt {hand_size}.\nTɛk kɛt ë '[play N]', hɛre N aye kɛn de yin cɔl (hɛre '[play 3]').",
     "phase_learning": "Kë ye cɔlë 'learning phase' ee kë yenë raan cï tɔŋ bɛ̈n tiaam në kaam de waragɛɛk yiic, ku ka bï kɔc kɔ̈ɔ̈c kek ya dɔm. Ku kä ke cë kaŋ looi thɛɛr këc kënë thök aacïï benëke yök ëke yen wëu ëbɛ̈n lëu bïk keek nyaai.",
-    "phase_playing": "PLAYING PHASE: the deck is exhausted. Every trick from now on counts towards victory."
+    "phase_playing": "KEK PIɔ̈ɔ̈C Kɔ̈ɔ̈C: kek ee kɔ̈ɔ̈c akec. Kek piɔ̈ɔ̈c ee dɔ̈ɔ̈c kek aye kek kɔ̈ɔ̈c."
   },
   "next_card": {
     "playing_phase": "Acïn kaar ye ke gäm - kë cï bɛ̈n jɔɔk.",
@@ -61,7 +61,7 @@
     "header": "=== GERMAN WHIST Game=== Kuen de kɔc ke German ye cɔl \"German Whist\" në thoŋde yic.",
     "phase": "{observation}\nPhase: {phase}",
     "trump_suit": "{observation}\nCɔl de trump: {trump_suit}",
-    "trump_card": "{observation}\nTrump card: {card}",
+    "trump_card": "{observation}\nKek piɔ̈ɔ̈c: {card}",
     "cards_left": "{observation}\nKɛt cɔl aye: {count}",
     "next_card": "{observation}\nKɛt de ŋɔŋ ëbɛn: {card}",
     "blank": "{observation}  ye kɔc cï gam ke puɔ̈th miɛt.",
@@ -71,6 +71,6 @@
     "player_line": "{observation}\nWɛr ëbɛn {player_id}: {scoring} tɛk ë cɔl ({tricks} kɛ ye), {hand_size} kɛt aye"
   },
   "outcome": {
-    "summary": "Learning phase - Player 0: {l0}, Player 1: {l1}. Playing phase - Player 0: {p0}, Player 1: {p1}. Player {winner_id} wins with {winner_tricks} scoring tricks!"
+    "summary": "Kek piɔ̈ɔ̈c ken - Raan 0: {l0}, Raan 1: {l1}. Kek kɔ̈ɔ̈c - Raan 0: {p0}, Raan 1: {p1}. Raan {winner_id} ee kɔ̈ɔ̈c kek {winner_tricks} kek kɔ̈ɔ̈c!"
   }
 }

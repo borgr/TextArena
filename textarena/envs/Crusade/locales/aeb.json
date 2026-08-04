@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({piece}). Opponent is ({opp}). Submit moves as '[b1 c3]' (from → to). All pieces move like chess knights.\nEach capture scores {score_per_capture} point. Game ends after {max_moves} moves or when a player has no legal move / no pieces. Higher score wins."
+    "intro": "إنت اللاعب {player_id} ({piece}). الخصم هو ({opp}). قدم تحركاتك على شكل '[b1 c3]' (من → إلى). كل القطع تتحرك مثل فرسان الشطرنج.\nكل قبضه تسجل {score_per_capture} نقطة. اللعبة تنتهي بعد {max_moves} تحركات أو عندما لا يكون اللاعب لديه تحرك قانوني / لا قطع. أعلى نتيجة تربح."
   },
   "board": {
     "current_board": "النقلة #{move_count}\n\n{board}\n\nالنقلات المتاحة: {moves}"

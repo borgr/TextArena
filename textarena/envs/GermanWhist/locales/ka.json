@@ -17,7 +17,7 @@
   "invalid_move": {
     "wrong_format": "მოძრაობის ფორმატი არასწორია. გამოიყენეთ \"[play N]\" თქვენი ხელის N-ე ბარათის გასაშვებად.",
     "bad_position": "ეს ბარათის პოზიცია არ არსებობს. თქვენ ფლობთ {hand_size} ბარათებს.",
-    "must_follow_suit": "You must follow suit and play a {lead_suit} card.",
+    "must_follow_suit": "თქვენ უნდა მიყვეთ მასტს და ითამაშოთ {lead_suit} ბანქო.",
     "invalid_play": "ნვ მჲზვ ეა ჟვ თჱდლვეა."
   },
   "game_action": {
@@ -58,7 +58,7 @@
   },
   "board_str": {
     "not_started": "თამაში არ დაწყებულა",
-    "header": "=== GERMAN WHIST GAME ===",
+    "header": "=== გერმანული ვისტის თამაში ===",
     "phase": "{observation} ფაზა: {phase}",
     "trump_suit": "{observation} ტრამპის კოსტიუმი: {trump_suit}",
     "trump_card": "{observation} ტრამპის ბარათი: {card}",

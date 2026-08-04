@@ -7,13 +7,13 @@
   },
   "invalid_move": {
     "wrong_format": "Acïn kë cï yök ke ye dhöl path. Loi '[pile quantity]'.",
-    "correct_format_wrong_fields": "Player {player_id}, Invalid action. Column {col} is out of bounds.",
+    "correct_format_wrong_fields": "Leek {player_id}, kɔ̈ɔ̈u ku aye kɔ̈ɔ̈u. Kɔlɔ̈m {col} ee ciɛɛm ku.",
     "out_of_range": "Pile index {pile_index} ee tɔ̈u aɣeer.",
     "non_positive": "Aŋuɛ̈n ba käkë nyaai.",
-    "exceeds_pile": "Cannot remove {quantity} from pile {pile_index} (only {pile_count} left)."
+    "exceeds_pile": "Aye kɔ̈ɔ̈u ku {quantity} ku thɔ̈ɔ̈ŋ {pile_index} (ku {pile_count} ciɛɛm ku)."
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "Leek {player_id} kɔ̈ɔ̈u ku [{pile_index} {quantity}], kɔ̈ɔ̈u ku {quantity} dhiɛ̈ɛ̈l ku thɔ̈ɔ̈ŋ {pile_index}."
   },
   "outcome": {
     "win": "Raan ye gɔ̈ɔ̈r {player_id} acï kë cï döŋ nyaai!"

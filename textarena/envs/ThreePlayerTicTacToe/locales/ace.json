@@ -14,7 +14,7 @@
     "intro": "Kamoe pemain {player_id} dalam Tic Tac Toe tiga pemain.\nSimbol kamoe ialah '{symbol}'.\nKamoe bergiliran meletakkan simbol kamoe pada papan 5x5 untuk membentuk garis empat.\nGaris bisa horizontal, vertikal, atau diagonal.\nKirimkan gerakan kamoe menggunakan format '[4]' untuk menandai sel 4."
   },
   "board": {
-    "current_board": "Current Board:\n\n{board}\n\nAvailable Moves: {moves}"
+    "current_board": "Papan Sajak Jinoe:\n\n{board}\n\nGeurupakeun Meukajeuët: {moves}"
   },
   "invalid_move": {
     "wrong_format": "Format langkah hana sah. Guna \"[cell]\" di pat sel 0-{max_cell}.",
@@ -27,6 +27,6 @@
   },
   "outcome": {
     "win": "Pemain {player_id} ({symbol}) menang!",
-    "draw": "Nyan game nyan draw!"
+    "draw": "Meukajeuët nyan saban-saban!"
   }
 }

@@ -6,7 +6,7 @@
     "current_board": "اللوحة الحالية:\n\n{board}\n\nالإجراءات المتاحة: {actions}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use [up], [down], [left], [right] or [w], [a], [s], [d].",
+    "wrong_format": "صيغة الفعل غير صحيحة. استخدم [up]، [down]، [left]، [right] أو [w]، [a]، [s]، [d].",
     "unknown_action": "عمل غير معروف \"{action}\". استخدم فوق، تحت، يسار، يمين أو w, a, s, d.",
     "hit_wall": "حاولت ان تتحرك {action} لكن اصبت في حائط!"
   },

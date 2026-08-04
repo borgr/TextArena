@@ -73,7 +73,7 @@
   "board_str": {
     "title": "=== ಗಾಲ್ಫ್ ಆಟ ===",
     "discard": "{card}",
-    "knocked": "Player {pid} has knocked!",
+    "knocked": "ಆಟಗಾರ {pid} ಕ್ನಾಕ್ ಮಾಡಿದ್ದಾರೆ!",
     "player_header": "ಆಟಗಾರ {pid} (ಪಾಯಿಂಟ್ಃ {score}):"
   }
 }

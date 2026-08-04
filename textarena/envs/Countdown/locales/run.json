@@ -9,13 +9,13 @@
     "progress": "{observation}\nAlama ya mafanikio ya sasa: {progress}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use `[i j op]` where i,j are indices and op is +,-,*,/",
+    "wrong_format": "Mfumo wa gukora siyo. Koresheje `[i j op]` aho i,j ni ibihari na op ni +,-,*,/",
     "invalid_indices": "Ibiharuro bidafise agaciro.Bitegerezwa kuba bitandukanye kandi biri hagati ya 0-{max_index}",
     "invalid_operation": "Igikorwa kitemewe (kugabura n'ubusa canke ku gitigiri c'inyongera)"
   },
   "outcome": {
     "win": "Biratunganye! Nasanze ico bashaka: {target}",
-    "no_moves": "No more moves. Best result: {best_value} (target: {target})",
-    "turn_limit": "Turn limit reached. Best result: {best_value} (target: {target})"
+    "no_moves": "Nta mikoro imesigaye. Ibyiza kugeza: {best_value} (igahunda: {target})",
+    "turn_limit": "Umuhana wa mikoro wabashijwe. Ibyiza kugeza: {best_value} (igahunda: {target})"
   }
 }

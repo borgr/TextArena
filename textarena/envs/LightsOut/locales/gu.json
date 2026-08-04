@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "ક્રિયા ફોર્મેટમાં હોવી જોઈએ [row col] જ્યાં પંક્તિ અને કોલ 0 થી {max_index} સુધીના પૂર્ણાંક છે.",
-    "out_of_range": "Coordinates must be between 0 and {max_index}. You entered [{row},{col}]."
+    "out_of_range": "અક્ષાંશો 0 અને {max_index} વચ્ચે હોવા જોઈએ. તમે [{row},{col}] દાખલ કર્યું છે."
   },
   "outcome": {
     "win": "અભિનંદન! તમે {moves_used} ચાલમાં પઝલ હલ કર્યું!",

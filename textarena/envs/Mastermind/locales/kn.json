@@ -13,7 +13,7 @@
     "repeated_guess": "ನೀವು ಈಗಾಗಲೇ {guess} ಅನ್ನು ಊಹಿಸಿದ್ದೀರಿ. ದಯವಿಟ್ಟು ಬೇರೆ ಊಹೆಯನ್ನು ಪ್ರಯತ್ನಿಸಿ."
   },
   "game_action": {
-    "feedback": "Submitted [{guess}]. Feedback: {black_pegs} black peg(s), {white_pegs} white peg(s)."
+    "feedback": "ಸಲ್ಲಿಸಿದ [{guess}]. ಪ್ರತಿಕ್ರಿಯೆ: {black_pegs} ಕಪ್ಪು ಮೊಳೆ(ಗಳು), {white_pegs} ಬಿಳಿ ಮೊಳೆ(ಗಳು)."
   },
   "outcome": {
     "win": "ನೀವು ಕೋಡ್ ಅನ್ನು ಬಿರುಕುಗೊಳಿಸಿದ್ದೀರಿ, {black_pegs} ಅನ್ನು {code_length} ಪೇಗ್ಗಳಿಂದ ಸರಿಯಾಗಿ ಪರಿಹರಿಸಿದ್ದೀರಿ",

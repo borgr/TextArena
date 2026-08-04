@@ -19,10 +19,10 @@
     "{deck_count}": "Number of cards left in the deck"
   },
   "game": {
-    "start": "Briscola game started! Trump suit: {trump_suit} (Trump card: {trump_card})"
+    "start": "Uwanek n Briscola yebda! Tɣawsa n trump: {trump_suit} (Tkeṛḍiṭ n trump: {trump_card})"
   },
   "prompt": {
-    "intro": "You are playing Briscola - Player {player_id}.\nGoal: Win tricks and collect the most points (120 total points in the deck).\nCard Points: A=11, 3=10, K=4, Q=3, J=2, others=0\nCard Power: A > 3 > K > Q > J > 7 > 6 > 5 > 4 > 2\nTrump cards beat non-trump cards regardless of power.\n\nAction: '[play X]' where X is the position (1-{max_pos}) of the card in your hand\n"
+    "intro": "Tqelleḍ uwanek n Briscola - Uwanek {player_id}.\nAɣedṛuṛ: Rnu tɣawsa d aqedṛuṛ n iɣmamen (120 iɣmamen deg uɣewwaṛ).\nIɣmamen n tkeṛḍiṭ: A=11, 3=10, K=4, Q=3, J=2, wiyaḍ=0\nAqedṛuṛ n tkeṛḍiṭ: A > 3 > K > Q > J > 7 > 6 > 5 > 4 > 2\nTkeṛḍiṭin n trump rnan tkeṛḍiṭin n non-trump s wudem n uqedṛuṛ.\n\nTawriqt: '[play X]' anda X d wadeg (1-{max_pos}) n tkeṛḍiṭ deg ufus\n"
   },
   "hand": {
     "none": "ⵓⵔ ⵉⵍⵍⵉ ⴽⵔⴰ ⵏ ⵜⴽⴰⵔⴹⴰ.",
@@ -44,14 +44,14 @@
   },
   "invalid_move": {
     "wrong_format": "ⵙⵎⵔⴰⵙ [play X] ⴳ ⵉⴳⴰⵏ X ⴰⵏⵙⴰ ⵏ ⵜⴽⴰⵕⴹⴰ (1, 2, 3, ⴰⵜⴳ.)",
-    "out_of_range": "Invalid card position. You have {count} cards (1-{count})"
+    "out_of_range": "Wadeg n tkeṛḍiṭ ur yezmir. ɣur-ik {count} tkeṛḍiṭin (1-{count})"
   },
   "action": {
-    "played": "Player {player_id} played {card}",
-    "trick_win": "Player {winner} wins the trick with {card} and gains {points} points!"
+    "played": "Uwanek {player_id} yernan tkeṛḍiṭ {card}",
+    "trick_win": "Uwanek {winner} yernan tɣawsa s tkeṛḍiṭ {card} d yernan {points} iɣmamen!"
   },
   "outcome": {
-    "head": "Game Over! Player {winner} wins with {points} points!\n\nFinal Scores:\n{scores}",
-    "player_line": "Player {player_id}: {points} points ({tricks} tricks)\n"
+    "head": "Uwanek yekfa! Uwanek {winner} yernan s {points} iɣmamen!\n\nTenqalin n tagara:\n{scores}",
+    "player_line": "Uwanek {player_id}: {points} iɣmamen ({tricks} tɣawsa)\n"
   }
 }

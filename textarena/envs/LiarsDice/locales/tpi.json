@@ -22,7 +22,7 @@
     "final_ranking": "list of player indices from first eliminated to winner"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in an {num_players}-player Liar's Dice game.\nRules:\n- On your turn, you may either:\n  1) Make a new bid with a higher quantity or higher face (or both) than the current bid; i.e. '[Bid: 3, 4]',\n  2) Call the last bid by typing '[Call]'.\n\nIf you call:\n  - If the actual count of that face value among all dice is less than the bid, the last bidder loses one die.\n  - Otherwise, the caller loses one die.\nA player who reaches 0 dice is eliminated. The last remaining player wins."
+    "intro": "Yu stap Player {player_id} long wanpela gem Liar's Dice long {num_players} manmeri.\nRul:\n- Long turn bilong yu, yu ken mekim:\n  1) Wanpela bid nupela long namba moa o pes moa (o tupela) long bid i stap nau; olsem '[Bid: 3, 4]',\n  2) Kolim bid i go pinis long taipim '[Call]'.\n\nSapos yu kolim:\n  - Sapos namba bilong pes i stap long ol dice i liklik long bid, manmeri i mekim bid i lusim wanpela dice.\n  - Nogat, manmeri i kolim i lusim wanpela dice.\nManmeri i stap nating long 0 dice i aut. Manmeri i stap yet i win."
   },
   "board": {
     "per_player": "\tPleya {p}: {d}",
@@ -33,11 +33,11 @@
     "caller_loses": "Pleya {current_player_id} kolim! Namba tru bilong pes {face_value} em i {count}, ol i >= {quantity}.\nPleya {loser_id} (kola) lusim wan dic."
   },
   "action": {
-    "bid_announce": "Player {player_id} bids {quantity} of face {face_value}."
+    "bid_announce": "Manmeri {player_id} i mekim bid long {quantity} pes {face_value}."
   },
   "invalid_move": {
     "call_no_bid": "Ol i bin singautim em na ol i no toksave long pe bilong en.",
-    "invalid_bid": "Invalid bid: {reason}",
+    "invalid_bid": "Bid i nogut: {reason}",
     "not_recognized": "Action i no ina rekognais olsem '[Bid: X, Y]' o '[Call]'. Action yu givim: {action}"
   },
   "bid_reason": {

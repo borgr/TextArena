@@ -6,7 +6,7 @@
     "announce": "### Zugou {current_round}/{max_rounds}\nA carta de l'avversaio a l'è: {card}"
   },
   "invalid_move": {
-    "ambiguous": "Supply exactly ONE bracketed action, e.g. '[check]', '[bet 2]', '[call]', '[raise 3]', or '[fold]'.",
+    "ambiguous": "Specìfica esattamente UN'A açión tra parentexi, p.e. '[check]', '[bet 2]', '[call]', '[raise 3]', o '[fold]'.",
     "cannot_check": "No se peu [check] - ti t'æ da fâ con unna scommessa.",
     "amount_min": "O quantitæ de scommessa/raise o deve ëse ≥ 1.",
     "cannot_bet": "No se pò [bet] - se deve [call] / [raise] / [fold].",
@@ -29,7 +29,7 @@
     "showdown_tie": "Showdown de pari: tutti e doi {card}. Pot spartio – ógni un o riceve {split}."
   },
   "outcome": {
-    "p0_wins": "Player 0 wins ({bank0} > {bank1})",
+    "p0_wins": "O Zugador 0 o goâgna ({bank0} > {bank1})",
     "p1_wins": "Giugou 1 o vinse ({bank1} > {bank0})",
     "draw": "E ciande son pæge dòppo tutti i tour."
   }

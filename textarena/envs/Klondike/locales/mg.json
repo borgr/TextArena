@@ -16,17 +16,17 @@
     "{cards}": "The cards in a pile as neutral labels, or '--' if empty (never translate)"
   },
   "player_prompt": {
-    "intro": "You are playing Klondike Solitaire. Your goal is to move all cards to the foundation piles.\n\nGame Rules:\n- Foundation piles (F1-F4): Build up from Ace to King in suit\n- Tableau piles (T1-T7): Build down alternating colors (red on black, black on red)\n- Stock: Draw cards to waste pile\n- Waste (W): Top card available for play\n\nCommands:\n- 'draw' - Draw cards from stock to waste\n- 'move <source> <destination> [count]' - Move cards between piles\n  Examples: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count can also be 'all', which will try to move all face-up cards.\n- 'forfeit' - End the game immediately and lock in your current score\n- Pile names: W (waste), F1-F4 (foundations), T1-T7 (tableau)\n\nYou can execute multiple actions in one turn by separating them with commas:\n  Example: 'draw, move W T1, move T2 F1'\n\nOnly Kings can be placed on empty tableau piles.\nActions execute in order - if one fails, the remaining actions are skipped.\nUse 'forfeit' if you believe the game is impossible to win."
+    "intro": "Ianao no milalao Klondike Solitaire. Tanjona dia hanohy ny cartes rehetra ao amin'ny pile fondation.\n\nTantara ny lalao:\n- Pile fondation (F1-F4): Miroso avy amin'ny Ace hatramin'ny King amin'ny suit\n- Pile tableau (T1-T7): Miroso midina amin'ny loko mifanohitra (mena amin'ny mainty, mainty amin'ny mena)\n- Stock: Ora ny cartes ao amin'ny waste pile\n- Waste (W): Carte ambony azo atao\n\nKomandy:\n- 'draw' - Ora ny cartes avy amin'ny stock ao amin'ny waste\n- 'move <source> <destination> [count]' - Hanohy ny cartes amin'ny pile\n  Ohatra: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count azo atao ihany koa 'all', izay hanohy ny cartes rehetra ambony.\n- 'forfeit' - Tapitra ny lalao ary azo atao ny alahelo ankehitriny\n- Anaran'ny pile: W (waste), F1-F4 (fondation), T1-T7 (tableau)\n\nAfaka atao ny komandy maro amin'ny tour iray amin'ny fanasarana virgule:\n  Ohatra: 'draw, move W T1, move T2 F1'\n\nKings ihany no azo apetraka ao amin'ny pile tableau foana.\nAsa dia manaja ny filaharana - raha misy ny iray tsy fety, dia tsy atao ny asa sisa.\nAmpy 'forfeit' raha inoana fa tsy azo atao ny lalao."
   },
   "format_error": {
     "no_brackets": "Tsy mety ny endrika fihetsika. Tokony ho ao anaty fononteny ny fihetsika.",
     "no_closing_bracket": "Tsy mety ny endrika hetsika. Tsy hita ny bracket famaranana ']'",
-    "empty_command": "Baiko tsy misy dikany. Soraty ny \"mikatso\" na \"miala <loharanom-baovao> <laham-pahatongavana> [count]\"",
+    "empty_command": "Komandy foana. Soraty 'draw' na 'move <source> <destination> [count]'",
     "empty_action": "Hetsika tsy misy dikany",
     "move_needs_args": "Mila loharano sy toerana itodiana ny baiko mihetsika. Fampiasana: 'move <source> <destination> [count]'",
-    "count_positive": "Tsy maintsy ho tsara ny isa na \"ny rehetra\"",
-    "count_invalid": "Tsy mety ny fanisana. Mampiasà isa na \"ny rehetra\"",
-    "unknown_command": "Baiko tsy fantatra '{cmd}'. Ampiasao ny 'mikatso', 'miala <loharanom-baovao> <lahatahiry> [count]', na 'mandiso'",
+    "count_positive": "Isan dia tsy maintsy ho pozitiva na 'all'",
+    "count_invalid": "Isan tsy mety. Ampy isa na 'all'",
+    "unknown_command": "Komandy tsy fantatra '{cmd}'. Ampy 'draw', 'move <source> <destination> [count]', na 'forfeit'",
     "wrapped": "Hetsika {n}: {msg}"
   },
   "action_result": {

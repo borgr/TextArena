@@ -17,6 +17,6 @@
   },
   "outcome": {
     "win": "Manyani kuti muli na mwaŵi wa kumazga suzgo la Tower of Hanoi.",
-    "turn_limit": "The turn limit has been reached. You correctly placed {pct}% of the disks on Tower C."
+    "turn_limit": "Mpaka wa mpigo umafikwa. Mwaweka {pct}% ya ma-disiki pa Tower C kwa njia ifaayo."
   }
 }

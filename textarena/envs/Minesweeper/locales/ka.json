@@ -7,7 +7,7 @@
     "current_board": "ამჟამინდელი საბჭო: {board}"
   },
   "invalid_move": {
-    "wrong_format": "You did not respond with valid coordinates in square brackets.",
+    "wrong_format": "თქვენ არ უპასუხეთ კვადრატულ ფრჩხილებში ვალიდური კოორდინატებით.",
     "out_of_bounds": "მითითებული რიგისა და სვეტის კოორდინატები არ არის საზღვრებში.",
     "already_revealed": "უჯრედი ({row}, {col}) უკვე გამოავლინეს.",
     "hit_mine": "შენ მიხვალ შახტში ({row}, {col})."
@@ -16,7 +16,7 @@
     "revealed": "თქვენ გამოავლინეთ უჯრედი ({row}, {col})."
   },
   "outcome": {
-    "win": "Congratulations! You have successfully cleared the Minesweeper board.",
+    "win": "გილოცავთ! თქვენ წარმატებით გაწმინდეთ ნაღმების მძებნელის დაფა.",
     "turn_limit": "ტურნირის ლიმიტი მიღწეულია. თქვენ წარმატებით გახსნეთ {percent}%-იანი უსაფრთხო უჯრები."
   }
 }

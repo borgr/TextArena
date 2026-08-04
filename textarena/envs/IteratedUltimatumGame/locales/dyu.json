@@ -21,23 +21,23 @@
     "{total}": "Each player's tied final total (a number)"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id}, playing {num_rounds} rounds of Iterated Ultimatum Game.\nYou have ${pool} to split this round between yourself and Player {other_id}.\n\nProposer:\n  - Make an offer: [Offer: $X] (0 <= X <= pool)\n  - If accepted → You get $(pool - X), other player gets $X\n  - If rejected → Both get $0\n  - Example: [Offer: $3]  or  'I think this is fair. [Offer: $5]'\n\nResponder:\n  - Decide on the offer with either [Accept] or [Reject]\n  - Example: 'That seems reasonable. [Accept]'\n            'Too unfair. [Reject]'\n"
+    "intro": "I ye Player {player_id}, ka taa {num_rounds} kɛlɛkɛla lajɛnɛnɛ Iterated Ultimatum Game.\nI ye ${pool} ka kɛnɛ fɔɔ ka bɔnɔ kɔrɔnɔ kɔnɔ Player {other_id}.\n\nProposer:\n  - Kɛlɛ ka ɲɛ: [Offer: $X] (0 <= X <= pool)\n  - Ni a y'a ka gɛlɛ → I ye $(pool - X), Player kɔrɔnɔ ye $X\n  - Ni a taa ka gɛlɛ → I ye $0, Player kɔrɔnɔ ye $0\n  - Sɛbɛn: [Offer: $3]  wa  'N ye fɔɔ ka di. [Offer: $5]'\n\nResponder:\n  - Kɛlɛ ka ɲɛ ka gɛlɛ ni [Accept] wa [Reject]\n  - Sɛbɛn: 'O ye ka di. [Accept]'\n            'A taa ka di. [Reject]'\n"
   },
   "round": {
     "begins": "--- Jɛkulu {round_number} kɛ! ---\nJɛkulu {proposer_id} yɛ Proposer, Jɛkulu {responder_id} yɛ Responder.",
     "offer": "Jɛkulu {round_number}: Jɛkulu {proposer_id} faama ${offer} kɛ Jɛkulu {responder_id} (a na ${keep}).",
-    "accepted": "Player {responder_id} accepted! Round {round_number} gains: Player {proposer_id} +${proposer_gain}, Player {responder_id} +${responder_gain}. New totals: Player 0: ${total_0}, Player 1: ${total_1}.",
+    "accepted": "Jɛnkɛla {responder_id} ta ɲɛ! Kalo {round_number} ka fafara: Jɛnkɛla {proposer_id} +${proposer_gain}, Jɛnkɛla {responder_id} +${responder_gain}. Kalo bɛɛ kɔkan: Jɛnkɛla 0: ${total_0}, Jɛnkɛla 1: ${total_1}.",
     "rejected": "Jɛkulu {responder_id} rɔ kɔnɔnɔ a la! Jɛkulu {round_number} kɛ: Jɛkulu ya don ni $0. Kɛ kɛ: Jɛkulu 0: ${total_0}, Jɛkulu 1: ${total_1}."
   },
   "invalid_move": {
-    "no_offer_format": "Proposer must make an offer using the format [Offer: $X].",
+    "no_offer_format": "Proposer ye kɛlɛ ka ɲɛ ni format [Offer: $X].",
     "bad_integer": "Sariya b'a yira ko sara hakɛ ka kan ka kɛ nimɔrɔ ye.",
     "out_of_range": "O wari ka kan ka kɛ dolar 0 ani ${pool} cɛ.",
     "no_current_offer": "Nka, an ma se k'a lɔn u tun bena min kɛ.",
-    "accept_or_reject": "Responder must either [Accept] or [Reject] the offer."
+    "accept_or_reject": "Responder ye kɛlɛ ka gɛlɛ ni [Accept] wa [Reject] ka ɲɛ."
   },
   "outcome": {
-    "win": "Player {winner} won with ${winner_total} total vs Player {loser}'s ${loser_total}.",
+    "win": "Jɛnkɛla {winner} sera ka ${winner_total} kɔkan vs Jɛnkɛla {loser} ka ${loser_total} kɔkan.",
     "draw": "Draw! Jɛkulu ya don ni {total} kɛ."
   }
 }

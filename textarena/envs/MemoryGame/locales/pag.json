@@ -4,22 +4,22 @@
   },
   "board": {
     "current_board": "Natan ya board: {board}",
-    "current_game_board": "Say presenton Game Board: {board}"
+    "current_game_board": "Kasalukuyan a Tapa na Palaro:\n{board}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid move format. Player {player_id} did not respond with a valid direction in square brackets. Say sakey ya manlalaban et say player na [0] tan ag-inmabuloy ed samay manepeg ya idirection to diad saray kuadrado iran parentehes.",
-    "out_of_bounds": "Invalid move. Player {player_id} pinili to so out-of-bounds position.",
+    "wrong_format": "Mali'y pormat na panagpapaneknek. Managpapat {player_id} agi'y nanagpapaneknek na direksyon a balido ed kuadrado a brakets.",
+    "out_of_bounds": "Mali'y panagpapaneknek. Managpapat {player_id} piliyin an posisyon a labas na sakop.",
     "same_card_twice": "Aliwan dugan galaw. Say manlalaban {player_id} so amili na parehon kard a mamidua.",
     "already_matched": "Aliwan dugan galaw. Say manlalaban {player_id} so angipilin sakey odino duaran kard ya apantongtongan la."
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "Say kartas a piliyin na Managpapat {player_id} ed posisyon [{r1} {c1}] at [{r2} {c2}] a pareho!",
+    "cards_no_match": "Say karta pinili na Manlalaro {player_id} agnay match. Say karta ed posisyon [{r1} {c1}] tan [{r2} {c2}] et {pos1} tan {pos2} balet."
   },
   "outcome": {
     "draw": "Parehon karakel so kaaruman a card ya inusar na duaran manlalaban.",
     "win": "Tinalo na {winner_id} a manlalako!",
-    "turn_limit": "Naabotan na so limita na turn. Say juego ay tapos. Player 0 naiskor {score_0} punto, Player 1 naiskor {score_1} punto.",
+    "turn_limit": "Say limitasyon na oras a naabot. Say palaro'y matapos. Managpapat 0 a nakakuwa {score_0} puntos, Managpapat 1 a nakakuwa {score_1} puntos.",
     "turn_limit_win": "{reason} Player {winner_id} so nanalo!"
   }
 }

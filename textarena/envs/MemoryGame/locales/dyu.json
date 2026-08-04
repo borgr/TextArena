@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id}. You are playing the Memory Game.\nYour goal is to match more pairs of cards on the board, than your opponent.\nOn your turn, select two cards to flip by entering the row and column numbers of the first and second card respectively like '[0 1 1 0]', where the first card is in row 0 and column 1, and the second card is in row 1 and column 0.\nIf the two cards match, you get a point and the cards remain face up. If they do not match, the cards are flipped back face down, e.g. '.'.\nThe game ends when all pairs have been matched."
+    "intro": "I ye jɛgɛ {player_id}. I ye Memory Game ka jɛgɛ.\nI ka kan ye ka kɛɛ kɔɔri caman ka tɔɔ kɛɛ kɔɔri lajɛn fɛ, o lajɛn ka kan.\nI ka tɔɔ bɛɛ, kɛɛ kɔɔri fila ka tɔɔ kɛɛ kɔɔri fila lajɛn fila ma, kɔɔri kelen bɛɛ kɔɔri kelen bɛɛ, fila ma '[0 1 1 0]', kɔɔri kelen bɛɛ kɔɔri kelen bɛɛ lajɛn fila ma.\nNi kɔɔri fila ye ɲɔgɔn, i bɛɛ kɔɔri fila lajɛn fila ma, kɔɔri fila bɛɛ kɔɔri fila lajɛn fila ma. Ni a lajɛn, kɔɔri fila bɛɛ kɔɔri fila lajɛn fila ma, kɔɔri fila bɛɛ kɔɔri fila lajɛn fila ma, e.g. '.'.\nJɛgɛ bɛɛ ka kɔɔri fila ye ɲɔgɔn."
   },
   "board": {
     "current_board": "Jamanakuntigi: {board}",
@@ -13,13 +13,13 @@
     "already_matched": "Jurusarabali.Jurutigi {player_id} ye kariti kelen wala fila sugandi ka sɔrɔ u bɛɛ bɛnna ɲɔgɔn ma fɔlɔ."
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "Kɔɔri fila lajɛn fila ma ye ɲɔgɔn! Jɛgɛ {player_id} ma kɛɛ kɔɔri fila lajɛn fila ma ka kan [{r1} {c1}] ni [{r2} {c2}].",
+    "cards_no_match": "Kɔɔri fila lajɛn fila ma lajɛn fila ma. Jɛgɛ {player_id} ma kɛɛ kɔɔri fila lajɛn fila ma ka kan [{r1} {c1}] ni [{r2} {c2}] ye {pos1} ni {pos2} ye."
   },
   "outcome": {
     "draw": "U fila bɛɛ ye kariti kelenw di.",
     "win": "Ɲininkɛla {winner_id} ye see sɔrɔ!",
-    "turn_limit": "The turn limit has been reached. The game is over. Player 0 scored {score_0} points, Player 1 scored {score_1} points.",
+    "turn_limit": "Tɔɔ kɛɛ kɔɔri fila lajɛn fila ma ka kan ye kɔɔri. Jɛgɛ bɛɛ kɔɔri fila lajɛn fila ma. Jɛgɛ 0 ma kɛɛ {score_0} kɔɔri, jɛgɛ 1 ma kɛɛ {score_1} kɔɔri.",
     "turn_limit_win": "{reason} Player {winner_id} ye daŋsi!"
   }
 }

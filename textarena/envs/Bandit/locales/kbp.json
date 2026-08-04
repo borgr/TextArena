@@ -1,20 +1,20 @@
 {
   "player_prompt": {
-    "intro": "You are in a room with {num_buttons} buttons: {buttons}. Each button is associated with a Bernoulli distribution with a fixed but unknown mean; the means for the buttons could be different.\nFor each button, when you press it, you will get a reward that is sampled from associated distribution.\nYou have {num_turns} time steps and, on each time step, you can choose any button and receive the reward.\nYour goal is to strategically choose buttons at each time step to collect information about their reward distribution, that will let you choose the button with the highest mean reward correctly at the end of {num_turns} turns."
+    "intro": "Mɩŋ kɛɛ kɔɔnaa pɩnaɣ {num_buttons} pɩnaɣ: {buttons}. Pɩnaɣ ɩwɛɛ pɩ-taa ɛzɩ Bernoulli tɔm wɛɛ pɩ-taa, pɩ-taa wɛɛ ɛzɩ pɩ-taa maɣmaɣ; pɩnaɣ tɔm wɛɛ pɩ-taa maɣmaɣ kaɖɛ kaɖɛ.\nPɩnaɣ ɩwɛɛ, ɛsɩɣ pɩ-taa, ɛpɩzɩɣ pɩ-taa ɛwɛɛ ɛzɩ pɩ-taa tɔm wɛɛ pɩ-taa.\nƐwɛɛ {num_turns} wɛɛ tɔm, pɩ-taa wɛɛ, ɛpɩzɩɣ pɩ-taa pɩnaɣ nɩɩyɛ ɛzɩ pɩ-taa tɔm wɛɛ pɩ-taa.\nƐ-tɔm wɛɛ pɩ-taa, pɩ-taa wɛɛ ɛzɩ pɩ-taa tɔm wɛɛ pɩ-taa, pɩ-taa wɛɛ ɛzɩ pɩ-taa tɔm wɛɛ pɩ-taa maɣmaɣ {num_turns} wɛɛ tɔm."
   },
   "board": {
     "stat_line": "{button}: {reward} (ɖɛɛ lɩmaɣza {count} times)",
     "summary": "Pɩsɩ takayɩhayʋʋ: {stats} ñɩŋgʋ yɔɔ."
   },
   "invalid_move": {
-    "wrong_format": "The player did not respond with a valid action format.",
+    "wrong_format": "Kɛɛlaa ɛɛ tɛɛ ɛ-tɔm wɛɛ ɛzɩ ɛ-tɔm tɔm.",
     "invalid_button": "Pɩtɛ kɩcɛlɛŋ ñɩɣyʋʋ nakʋyʋ lɩzaa."
   },
   "game_action": {
     "pressed": "A ŋɔɔɖɛ {button} kɩtɛɖɩɣ nɛ ɛlɛ ñɔtɔŋ se ɖɩpɩzɩɣ {reward}."
   },
   "game_message": {
-    "final_decision": "You have exhausted your budget for trying out different choices and observe their rewards. Now make a deduction about what the best choice is."
+    "final_decision": "Ɛwɛɛ ɛ-tɔm wɛɛ ɛzɩ ɛ-tɔm tɔm, ɛpɩzɩɣ ɛ-tɔm wɛɛ ɛzɩ ɛ-tɔm tɔm wɛɛ pɩ-taa, ɛ-tɔm wɛɛ ɛzɩ ɛ-tɔm tɔm maɣmaɣ."
   },
   "outcome": {
     "win": "Pɩlabɩ ɖeu, ŋlɩzɩ tɔm ndʋ tɩmʋnaa yɔ.",

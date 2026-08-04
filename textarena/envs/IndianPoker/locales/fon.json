@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a game of Indian Poker.\n- 52-card deck; you see only the opponent's card.\n- Ante {ante} chip(s) each round, {max_rounds} round(s) total.\n- Valid moves: '[check]'  |  '[bet X]'  |  '[call]'  |  '[raise X]'  |  '[fold]'  (X is a positive integer <= your chip count.)\n- Highest hidden card wins the pot at showdown.\n"
+    "intro": "A nyi Player {player_id} to nu Indian Poker.\n- 52-card deck; a we kpɔnɔnɔ do a ɔmɔnɔnɔ kpa.\n- Ante {ante} chip(s) ɖeɖe round, {max_rounds} round(s) ɖeɖe.\n- Nu gbɛtɛ lɛ: '[check]'  |  '[bet X]'  |  '[call]'  |  '[raise X]'  |  '[fold]'  (X nyi integer ɖokpo ɖe a chip a we tɔn.)\n- Ɔmɔnɔnɔ kpa ɖeɖe wu pot to showdown.\n"
   },
   "round": {
     "announce": "### Rɔnd {current_round}/{max_rounds}\nɖi ɔponɛnti kɑt ɖɔ: {card}"
@@ -25,8 +25,8 @@
   "message": {
     "round_result": "{reason}  Pot {pot} → Plɛyɛ {winner}. (Bɛnkɛrɔl P0:{p0}, P1:{p1})",
     "folded": "{player_id} ɔ́' è sɔ̀n é.",
-    "showdown_win": "Showdown: {card_win} beats {card_lose}.",
-    "showdown_tie": "Showdown tie: both {card}. Pot split – each receives {split}."
+    "showdown_win": "Gbọjẹ: {card_win} dọ {card_lose} lẹ.",
+    "showdown_tie": "Gbọjẹ kàkà: mẹlẹpo {card}. Akọnta ṣẹja – eyin mẹlẹpo gba {split}."
   },
   "outcome": {
     "p0_wins": "Plɛyɛ 0 wɪnz ({bank0} > {bank1})",

@@ -1,9 +1,9 @@
 {
   "player_prompt": {
-    "intro": "You are playing a {difficulty} RushHour puzzle. Slide cars to free the red car [X] and drive it out the right edge.\nActions: [A+], [B-], etc.  (+ = forward, - = backward)."
+    "intro": "Nagmu-mulay ka hin {difficulty} RushHour puzzle. Igos la pag-iskor hin mga awto para makagawas an pulang awto [X] ngan idrive ini pakadto ha tuo nga dapit.\nMga buhaton: [A+], [B-], etc.  (+ = abante, - = atras)."
   },
   "invalid_move": {
-    "wrong_format": "Invalid action. Use format [A+] / [B-].",
+    "wrong_format": "Diri wasto an imo buhat. Gamita an format [A+] / [B-].",
     "no_car": "Waray awto nga \"{car_id}\" ha lamesa.",
     "blocked": "An pag-agi ginbabag."
   },

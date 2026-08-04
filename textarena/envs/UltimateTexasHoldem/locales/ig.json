@@ -53,7 +53,7 @@
     "blind_lost": " Bịaruo nzọ ahụ n'isi! -${blind}",
     "play_won": "✅ PLAY nzọ merie! + ${amount}",
     "play_pushed": " PLAY nzọ PUSHED! ${play} laghachiri",
-    "play_lost": "❌ PLAY bet LOST! -${play}",
+    "play_lost": "❌ EGWUREGWU bet EFU! -${play}",
     "net_gain": " Gburugburu {round} emechara! Net uru: + ${net}",
     "net_loss": " Gburugburu {round} emechara! Net Loss: ${net}",
     "separator": "                                                                                                                                                                                           "
@@ -66,7 +66,7 @@
     "reward_win_max": "Onye ọkpụkpọ ahụ mezue {max_turns} agba na ${chips} ibe"
   },
   "hand_names": {
-    "royal_flush": "Royal Flush",
+    "royal_flush": "Flush Eze",
     "straight_flush": "Na-agba ọsọ",
     "four_of_a_kind": "Anọ Dị n'Ụdị Ha",
     "full_house": "Ụlọ juru",

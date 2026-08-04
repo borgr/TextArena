@@ -9,13 +9,13 @@
     "progress": "{observation}\nPuntegg tal-progress attwali: {progress}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use `[i j op]` where i,j are indices and op is +,-,*,/",
+    "wrong_format": "Format ta' azzjoni invalidu. Uża `[i j op]` fejn i,j huma indiċi u op hija +,-,*,/",
     "invalid_indices": "Indiċijiet invalidi. Irid ikun differenti u fil-medda 0 -{max_index}",
     "invalid_operation": "Operazzjoni invalida (diviżjoni b'żero jew riżultat mhux ta' numru sħiħ)"
   },
   "outcome": {
     "win": "Perfetta! Sib mira eżatta: {target}",
-    "no_moves": "No more moves. Best result: {best_value} (target: {target})",
-    "turn_limit": "Turn limit reached. Best result: {best_value} (target: {target})"
+    "no_moves": "L-ebda mossa oħra. Riżultat l-aħjar: {best_value} (target: {target})",
+    "turn_limit": "Limitu tal-mossi ntlaħaq. Riżultat l-aħjar: {best_value} (target: {target})"
   }
 }

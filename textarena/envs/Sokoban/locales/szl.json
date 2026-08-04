@@ -12,7 +12,7 @@
     "invalid_position": "Niyważny ruch - niy idzie sie ruszyć do tyj pozycyje."
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
+    "moved": "Ty {pushed} przesunůłeś [{action}].",
     "pushed_prefix": "szturchoł skrzynke, w czasie kej"
   },
   "outcome": {

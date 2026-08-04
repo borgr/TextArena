@@ -6,7 +6,7 @@
     "current_board": "स्कोर: {score}\n{board}"
   },
   "invalid_move": {
-    "invalid_action": "Invalid action. Use '[Up]'/'[Down]'/'[Left]'/'[Right]'.",
+    "invalid_action": "अमान्य कारवाई। '[Up]'/'[Down]'/'[Left]'/'[Right]' का उपयोग करीं।",
     "no_change": "बोर्ड ना बदलल - एगो अलग दिशा चुनलन."
   },
   "outcome": {

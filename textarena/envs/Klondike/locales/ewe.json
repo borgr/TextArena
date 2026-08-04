@@ -16,23 +16,23 @@
     "{cards}": "The cards in a pile as neutral labels, or '--' if empty (never translate)"
   },
   "player_prompt": {
-    "intro": "You are playing Klondike Solitaire. Your goal is to move all cards to the foundation piles.\n\nGame Rules:\n- Foundation piles (F1-F4): Build up from Ace to King in suit\n- Tableau piles (T1-T7): Build down alternating colors (red on black, black on red)\n- Stock: Draw cards to waste pile\n- Waste (W): Top card available for play\n\nCommands:\n- 'draw' - Draw cards from stock to waste\n- 'move <source> <destination> [count]' - Move cards between piles\n  Examples: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count can also be 'all', which will try to move all face-up cards.\n- 'forfeit' - End the game immediately and lock in your current score\n- Pile names: W (waste), F1-F4 (foundations), T1-T7 (tableau)\n\nYou can execute multiple actions in one turn by separating them with commas:\n  Example: 'draw, move W T1, move T2 F1'\n\nOnly Kings can be placed on empty tableau piles.\nActions execute in order - if one fails, the remaining actions are skipped.\nUse 'forfeit' if you believe the game is impossible to win."
+    "intro": "A le afi Klondike Solitaire. Ɖo kple nuwo kata ƒe nukpɔsɔ kple dzidziŋu siwo le foundation piles me.\n\nƉo ƒe Seɖo:\n- Foundation piles (F1-F4): Dzi kpɔ dzidziŋu tso Ace va ɖo King ƒe dzidziŋu me\n- Tableau piles (T1-T7): Dzi kpɔ dzidziŋu tso dzidziŋu gãwo dome ƒe dzidziŋu me (dzidziŋu ƒomevi le dzidziŋu ƒomewo dzi)\n- Stock: Dzo dzidziŋu siwo le waste pile me\n- Waste (W): Dzidziŋu si kplɔe le dzidziŋu siwo le waste pile me\n\nƉo ƒe Ɖɔɖɔɖo:\n- 'draw' - Dzo dzidziŋu siwo le stock ƒe dzidziŋu me\n- 'move <source> <destination> [count]' - Dzi dzidziŋu siwo le dzidziŋu siwo ƒe dome\n  Nya sia: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count hã sɔ kple 'all', si ƒe wɔwɔ dzidziŋu siwo kplɔe le dzidziŋu siwo ƒe dome.\n- 'forfeit' - Ɖo ƒe ŋgɔ kpɔkpɔ kple dzidziŋu siwo hã\n- Dzidziŋu siwo ƒe ŋkɔ: W (waste), F1-F4 (foundations), T1-T7 (tableau)\n\nAƒeme a le afi dzidziŋu siwo kple dzidziŋu siwo dome ƒe dzidziŋu siwo ƒe dzidziŋu siwo hã.\nƉo ƒe dzidziŋu siwo hã dzidziŋu siwo ƒe dzidziŋu siwo ƒe dzidziŋu siwo hã - aƒeme a ƒe dzidziŋu siwo ƒe dzidziŋu siwo hã, dzidziŋu siwo hã dzidziŋu siwo ƒe dzidziŋu siwo ƒe dzidziŋu siwo hã.\nAƒeme a le afi 'forfeit' aƒe dzidziŋu siwo hã dzidziŋu siwo ƒe dzidziŋu siwo hã."
   },
   "format_error": {
     "no_brackets": "Dɔwɔɖui si mesɔ o. Ele be woawɔ dɔ le akplo me.",
     "no_closing_bracket": "Dɔwɔŋutise si mesɔ o. Nuwuƒokpe mele eme ']'",
     "empty_command": "Se ƒuƒlu. Ŋlɔ 'draw' alo 'move <source><destination> [count].'",
     "empty_action": "Dɔwɔɖui si me womezã naneke le o",
-    "move_needs_args": "Move command bia source kple destination. Usage: 'move <source> <destination> [count]'",
-    "count_positive": "Ele be xexlẽdzesi nanye nyu alo \"wo katã\"",
-    "count_invalid": "Xlẽme si mele eteƒe o. Zã xexlẽdzesi alo 'wo katã'",
-    "unknown_command": "Unknown command '{cmd}'. Use 'draw', 'move <source> <destination> [count]', or 'forfeit'",
+    "move_needs_args": "Move ɖoɖo ƒe xexlẽ si source alo destination. Usage: 'move <source> <destination> [count]'",
+    "count_positive": "Count ƒe xexlẽ si positive alo 'all'",
+    "count_invalid": "Ɖo ƒe dzidziŋu siwo hã mekpɔe o. Aƒeme a le afi dzidziŋu siwo hã alo 'all'",
+    "unknown_command": "Ɖɔɖɔɖo si mekpɔe o '{cmd}'. Aƒeme a le afi 'draw', 'move <source> <destination> [count]', alo 'forfeit'",
     "wrapped": "Action {n}: {msg}"
   },
   "action_result": {
     "success": "Action {n}: {msg}",
     "before_failure": "Wowɔ {n} dɔ siwo wowɔ hafi nu gblẽ.",
-    "failed": "Action {n} ɖu: {msg}"
+    "failed": "Ɖoɖo {n} failed: {msg}"
   },
   "move_result": {
     "drew": "Woɖe agbalẽvi si nye \"Draw card\" (le Eʋegbe me) la tso nudzraɖoƒe va zu gbeɖuɖɔ.",

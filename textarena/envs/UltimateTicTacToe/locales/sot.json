@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in **Ultimate Tic Tac Toe**.\nSubmit your move as **[macro  micro]** (two numbers 0-8):\n• *macro*  = which mini-board you play in\n• *micro* = which square inside that mini-board\nExample `[7 8]` ➜ place your mark in mini-board 7, square 8, and\nforce your opponent to play in mini-board 8 next.\n\nYou are `{symbol}`.\n"
+    "intro": "U ena le Player {player_id} ka **Ultimate Tic Tac Toe**.\nRomella kopo ya hao e le **[macro  micro]** (dinomoro tse pedi 0-8):\n• *macro*  = u rata mini-bodi u tlo bapala ka yona\n• *micro* = u rata sekwere e ka hare ho mini-bodi eo\nMohlahla `[7 8]` ➜ bea lebollo la hao mini-bodi 7, sekwere 8, mme\nkganela motjha wa hao hore a bapale mini-bodi 8 e tlang.\n\nU ena le `{symbol}`.\n"
   },
   "board": {
     "current_board": "Boto ea hona joale: {board}"
@@ -18,7 +18,7 @@
     "specific": "boto e nyane {nxt}"
   },
   "game_action": {
-    "played": "Player {player_id} e tšweletse ka micro board {macro_idx}, seli {micro_idx} (lera {row}, kholo {col}). Player {opponent_id} a tšwanetse hantle go tšweletsa ka {nxt_txt}."
+    "played": "Player {player_id} o ile a bapala mini-bodi {macro_idx}, sekwere {micro_idx} (rara {row}, kolone {col}). Player {opponent_id} o tlameha ho bapala {nxt_txt} hona joale."
   },
   "outcome": {
     "win": "Sebapali {player_id} se hapa Ultimate Tic Tac Toe!",

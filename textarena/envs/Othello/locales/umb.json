@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} playing {colour} ({piece}) in a game of Othello.\nYour goal is to have more pieces of your color on the board by the end of the game.\nOn your turn, place a piece such that it flanks one or more of your opponent's pieces-in any direction (horizontal, vertical, or diagonal)-between your new piece and another of your existing pieces. All flanked opponent pieces will be flipped to your color.\nProvide your move in the format '[row, col]'."
+    "intro": "Ove ule ndi Muthandi {player_id} ukina {colour} ({piece}) mu kambundi ya Othello.\nOthithi yove ni kuwa na vipande vingi vya langa lako pa mbao kufika ku mwisho kwa kambundi.\nPa nthanda yove, vika kipande kile kikwame kipande kimo au zaidi cha muthandi wako-we kwa njia yoyi (ya mpito, ya kusimama au ya diagonal)-kati ya kipande kipya chako na kipande kingine chako kile kilipo. Vipande vyote vya muthandi wako vilivyojikwama vitapinduliwa ku langa lako.\nVeka nthanda yove mu fomu ya '[row, col]'."
   },
   "board": {
     "game_board": "Talha Olongi:\n{board}",
@@ -11,12 +11,12 @@
     "scores_step": "{observation}\nMakasi - Black: {black_count}, White: {white_count}\n"
   },
   "invalid_move": {
-    "wrong_format": "Move must be of the form [row, col].",
+    "wrong_format": "Nthanda inafweta kuwa mu fomu ya [row, col].",
     "illegal": "Oku imba ocela cosande: {valid}"
   },
   "game_action": {
     "skipped": "Mwene {pid} alikwata kukwata mukanda",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "Player {pid} ({piece}) akina [{r}, {c}] afunguka {flipped} kipande (s)"
   },
   "game_message": {
     "must_skip": "Mwene {pid} ({piece}) alikwala mikanda ikala na akwate kukwata mukanda."

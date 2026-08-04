@@ -11,21 +11,21 @@
     "{ball_pos}": "The cup index the ball is under"
   },
   "player_prompt": {
-    "intro": "Track the hidden ball 'X' while the cups are shuffled.\nAfter shuffling, guess its location with `[k]`."
+    "intro": "قاپقاقلار ئارىلاشقاندا توپنىڭ يوشۇرۇنغان 'X'نى ئىزلىگەڭ.\nئارىلاشقاندىن كېيىن، ئورنىنى `[k]` بىلەن تەخمىن قىلىڭ."
   },
   "game_message": {
     "ball_starts": "توپ باشلىنىدۇ: {line}",
-    "shuffle": "Shuffle {step}/{steps}: swapped cups {i} and {j}.",
+    "shuffle": "ئارىلاش {step}/{steps}: قاپقاق {i} بىلەن {j} ئالماشتۇرۇلدى.",
     "cups": "چىشلار: {line}  {prompt}",
     "guess_now": "(كۈلكە ئاۋازى بىلەن) ھازىرلا!",
     "reveal": "(ئاشكارە: توپنىڭ ئاستىدىكى {ball_pos})"
   },
   "invalid_move": {
-    "wrong_format": "Bad action. Use `[k]`.",
+    "wrong_format": "يامان ھەرىكەت. `[k]`نى ئىشلىتىڭ.",
     "out_of_range": "كۆرسەتكۈچ 0-{max_index} دائىرىسىدىن سىرتقا چىققان."
   },
   "outcome": {
     "win": "توغرا! توپنى تاپتىڭىز.",
-    "lose": "Wrong — ball was under cup {ball_pos}."
+    "lose": "خاتا — توپ {ball_pos} قاپقاقنىڭ ئاستىدا ئىدى."
   }
 }

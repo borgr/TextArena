@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You will observe {N} hidden values sequentially.\nAt each step type [accept] to pick the *current* value, or [continue] to skip it and see the next one.\nIf you never accept, you are forced to take the final value.\nYou win (reward = 1) **only** if the value you ultimately pick is the highest of all."
+    "intro": "Muwiwiwiwiwiwi {N} nila'i tersembunyi sirékat.\nRi olonaéro tikki [accept] untu' mamiliki nila'i *saat ini*, atau [continue] untu' loloskannya sibawa nété nila'i salanjutnya.\nJika muwiwiwiwiwiwiwiwiwiwi dé' accépt, muwiwiwiwiwiwiwi dé' nété nila'i pamungkas.\nMuwiwiwiwiwiwiwi menang (imbalan = 1) **tolu** jika nila'i muwiwiwiwiwiwiwi pili' uwiwiwiwiwiwi nila'i pamungkas."
   },
   "game_action": {
     "current_value": "Nilai makkokkoe iyanaritu {value}."
@@ -9,7 +9,7 @@
     "wrong_format": "Aksi waji'i mancaji [accept] iyarega [continue]."
   },
   "outcome": {
-    "summary": "You accepted value {value} at draw {draw_num}/{N}. The best overall was {best}. {result}",
+    "summary": "Muwiwiwiwiwiwiwi menerima nila'i {value} ri olonaéro {draw_num}/{N}. Nila'i pamungkas uwiwiwiwiwiwi {best}. {result}",
     "perfect": "Pile'na iya kaminang makessingnge! ",
     "not_max": "Tenniya kaminang maega."
   }

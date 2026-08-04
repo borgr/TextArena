@@ -14,7 +14,7 @@
     "placed": "खिलाड़ी {player_id} ने अपना प्रतीक ({mark}) कोठा {cell} में रखा"
   },
   "outcome": {
-    "win": "Player {player_id} wins with {mark}s!",
+    "win": "खिलाड़ी {player_id} {mark}s के साथ जीतला!",
     "draw": "खेल का अंत भी होवे है !"
   }
 }

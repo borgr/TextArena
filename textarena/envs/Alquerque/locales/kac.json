@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({piece}). Opponent is ({opp}).\nSubmit moves as '[a2 a3]' (from → to).\n- A normal move is one forward step to an adjacent empty vertex.\n- A capture is a jump over an adjacent enemy piece landing on the empty node beyond.\nEach capture yields {score_per_capture} points.\nGame ends after {max_moves} moves or when a player has no legal move."
+    "intro": "Nanhte Player {player_id} ({piece}) rai sai. Hpang de ahte Opponent ({opp}) rai sai.\nNanhte galaw ya '[a2 a3]' (kaw na → kaw hting) hku shang.\n- Galaw kaba wa gaw kaw shing rai kaw hting hpang de du hkra kaw shing rai.\n- Dap hku gaw kaw shing rai hkum tsap dap re hting hpang de sa wa kaw shing rai.\nDap hku re {score_per_capture} shayi shang hkra.\nMali gaw {max_moves} galaw kaba wa hku shang rai sai, rai kaw na galaw kaba wa n re hku shang rai sai."
   },
   "board": {
     "current_board": "Shamu shamawt u #{move_count} {board}"

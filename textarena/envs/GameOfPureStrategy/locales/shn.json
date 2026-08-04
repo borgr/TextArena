@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a match of GameOfPureStrategy.\n- You hold the 13 cards A-K; each can be used once.\n- Each round a prize card is revealed. Play exactly ONE card by writing something that contains a bracketed token like '[Q]', '[10]', '[2]' ...\n- Higher card wins the prize (plus carry-over). Ties roll prize into the pot for next round.\n- Highest total after 13 rounds wins."
+    "intro": "တႄးလ်ပလေးယဵဝႃႈ {player_id} တီႈၼႂ်းပွႆး GameOfPureStrategy ၼႆႉ။\n- တႄးလ်ၸဝ်ႈၵဝ်ႇဢဝ်ၶႅပ်းတေႃႇ 13 ဢၼ် A-K ၸိူဝ်းၼႆႉ၊ ၶႅပ်းၼိုင်ႈၼိုင်ႈတႄးၸႂ်ႉလႆႈၼိုင်ႈပွၵ်ႈၵူၺ်း။\n- ၶႅပ်းလူႇၸိူဝ်းၼႆႉ လႆႈႁၼ်ၼိုင်ႈၶၢဝ်း၊ ၸဝ်ႈၵဝ်ႇတေလႆႈၸႂ်ႉၶႅပ်းၼိုင်ႈၼိုင်ႈဢၼ် ဢၼ်မီးတူဝ်ယၢင်ၼႂ်းမေႃႇၼင်ႇ '[Q]', '[10]', '[2]' ၸိူဝ်းၼႆႉ။\n- ၶႅပ်းဢၼ်သုင်သုတ်း လႆႈၶႅပ်းလူႇ (သိုပ်ႇၶိုၼ်း)။ သဵင်ႈၵၼ်ၵေႃႈ လူႇၸိူဝ်းၼႆႉ တေသိုပ်ႇၶိုၼ်းၶႅပ်းတႃႇၶၢဝ်းၼႃႈ။\n- ၸဝ်ႈၵဝ်ႇၶဝ်ႈၸႂ်ႉၶႅပ်း 13 ၶၢဝ်း၊ ၸဝ်ႈၵဝ်ႇၸိူဝ်းၼႆႉ ဢၼ်မီးၼမ်ႉၼၵ်းသုတ်း တေပၼ်ႇမႆႈ။"
   },
   "round": {
     "announce": "### ရာသီ {round}/၁၃ - ဆု: {prize}  (တန်ဖိုး {worth})"

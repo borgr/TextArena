@@ -1,11 +1,11 @@
 {
   "player_prompt": {
-    "intro": "You are {role} in Colonel Blotto.\nYour goal is to win more rounds than your opponent.\nOn each round, allocate exactly {num_total_units} units across fields {field_names}.\nThe player who allocates more units to a field wins that field, and the player who wins more fields wins the round.\nFor example, '[A7 B7 C6]' allocates 7 units to A, 7 to B, and 6 to C.",
+    "intro": "Yu Commander {role} long Colonel Blotto.\nMipela i laik winim moa raun long yu.\nLong kila raun, yu mas putim {num_total_units} unit long ol fild {field_names}.\nMan husat i putim moa unit long wanpela fild bai winim dispela fild, na man husat i winim moa fild bai winim raun.\nOlsem, '[A7 B7 C6]' i putim 7 unit long A, 7 long B, na 6 long C.",
     "commander_alpha": "Komanda Alfa.",
     "commander_beta": "Komanda Beta."
   },
   "game_state": {
-    "header_round": "=== COLONEL BLOTTO - Round {current_round}/{num_rounds} ===\nRounds Won - Commander Alpha: {alpha_score}, Commander Beta: {beta_score}"
+    "header_round": "=== KOLONEL BLOTTO - Raun {current_round}/{num_rounds} ===\nRaun Win - Komanda Alfa: {alpha_score}, Komanda Beta: {beta_score}"
   },
   "round_battle": {
     "field_result": "\nRaun {current_round}\nCommander Alpha putim: {p0_allocations}\nCommander Beta putim: {p1_allocations}\n",
@@ -18,7 +18,7 @@
     "invalid_field": "Nem bilong fold i no valid (namba ol) Gutpela folds: {field_names}",
     "wrong_allocation_value": "Olgeta hap em ol i makim bilong mekim wok, ol i mas stap olsem namba tru.",
     "incorrect_total_units": "Yu mas putim eksaklek {num_total_units} yunit. Nambawan samting nau: {current_sum}",
-    "good_allocations": "Allocation is good."
+    "good_allocations": "Alokesen i stret."
   },
   "outcome": {
     "winner_alpha": "Commander Alpha winim {score_0}-{score_1} bihain long {num_rounds} raun!",

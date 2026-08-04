@@ -10,13 +10,13 @@
     "wrong_format": "Eie ku bhingi kulondekesa o ijimbuete ia kididi.",
     "out_of_bounds": "O jipondo ja ku tala ji londekesa kuila, o kididi kiki ka kijiia.",
     "already_revealed": "Kuna celli ku ({row}, {col}) kale ukimbiyi.",
-    "hit_mine": "You hit a mine at ({row}, {col})."
+    "hit_mine": "Wewe kala ku pega mina na ({row}, {col})."
   },
   "game_action": {
     "revealed": "O ukimbiyi kuna celli ku ({row}, {col})."
   },
   "outcome": {
     "win": "Nga mi sakidila, mua tena ku bhaka o kididi kiki.",
-    "turn_limit": "The turn limit has been reached. You successfully uncovered {percent}% of the safe cells."
+    "turn_limit": "O limite dia jogadas i ja chegado. Wewe zola desvendar {percent}% dos makasini seguros."
   }
 }

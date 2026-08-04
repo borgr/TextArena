@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in JoJoJoin, played on a 5x5 board with cells numbered 0-24.\nOn your turn, place your mark on any empty cell, e.g. '[12]'.\nYOU WIN by getting FOUR of your marks in a row — four consecutive cells horizontally, vertically, or diagonally.\nAs Player {player_id} you are '{symbol}'; your opponent is '{opponent_symbol}'."
+    "intro": "Sika ti Player {player_id} iti JoJoJoin, ay-ayamen iti maysa a tabla a 5x5 a kadakkelan a naibilang manipud 0-24.\nIti tukad mo, ikitam ti marka mo iti aniaman a bakante a selula, kasla '[12]'.\nMAKABALO ka no agkamayet ka iti UPAT a marka mo iti maysa a linia — upat a konsikusibo a selula iti agpapada, pababa, wenno diagonal.\nA kas Player {player_id} sika ti '{symbol}'; ti kalaban mo ket '{opponent_symbol}'."
   },
   "board": {
     "current_board": "Takder a Talaan:\n\n{board}\n\nDagiti Magarigan a Mapaspas: {moves}"

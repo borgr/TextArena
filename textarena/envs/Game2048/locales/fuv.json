@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing 2048 on a {board_size}x{board_size} board. Your goal is to reach a {target_tile} tile by sliding identical numbers together!\nValid moves: [Up], [Down], [Left], [Right]. Tiles combine when they collide, doubling their value.\n"
+    "intro": "A yi walla 2048 caggal {board_size}x{board_size} caggal. Makko wadii mawɗo maa e wuudu {target_tile} tile caggal ɓoggol ɗuuɗe ɓurɗe e kooɓe!\nKoɗe ɓoggol: [Up], [Down], [Left], [Right]. Tile'en ɓoggol so aɓɓe ɓaawo aɓɓe, ɓoggol maɓɓe ɓurɗe.\n"
   },
   "board": {
     "current_board": "Score: {score}\n{board}"
@@ -10,7 +10,7 @@
     "no_change": "Board waylitaayi - suɓi laawol feere."
   },
   "outcome": {
-    "win": "Congratulations, you reached {target_tile}! Final score {score}.",
+    "win": "Mubarak, a yi wuudu {target_tile}! Ciŋkoo koli {score}.",
     "lose": "Babu sauye-sauye da aka rage. Tile mafi girma {max_tile} - mafi ƙarshe cifka {score}."
   }
 }

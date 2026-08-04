@@ -48,7 +48,7 @@
   "message": {
     "deck_empty": "Il-gverta hija vojta! Logħba tispiċċa immedjatament.",
     "knocked": "Il-plejer {pid} jitklikkjat! Kull plejer ieħor ikollu turna oħra.",
-    "final_round": "Player {pid} {reason}! Each other player gets one more turn."
+    "final_round": "Plejer {pid} {reason}! Kull plejer ieħor jikseb dritt ieħor."
   },
   "reason": {
     "all_revealed": "l- karti kollha ġew żvelati?"

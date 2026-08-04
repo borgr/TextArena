@@ -1,10 +1,10 @@
 {
   "game_start": {
-    "intro": "ဂိမ်း စတင္တယ္. တရာ အမျိုးအစား: {trump_suit} (တရာ ကတ်: {trump_str}).",
+    "intro": "Matsan a kaja ai. Trump hpun: {trump_suit} (trump laika: {trump_str}).",
     "no_trump_card": "n nga ai"
   },
   "player_prompt": {
-    "intro": "သင္ ကစားသမား {player_id} က ဂျာမန္ ဝစ္ ဂိမ္းမ်ားမ်ား. \n{phase_info}\nသင္ လက္ထဲ ကတ် {hand_size} ပဲ ရိုက္တယ္. \n'[play N]' နဲ့ ကတ် ကစားလိုက္ (ဥပမာ '[play 3]').",
+    "intro": "Nang Player {player_id} ai German Whist re.\n{phase_info}\nNang {hand_size} laika hkan.\nLaika hpe [play N] nang hkan hta, N gaw nang hkan hta na laika hpun ai (ga shawng [play 3] nang hkan).",
     "phase_learning": "Learning Phase: Trick langai hpra hta awng ai wa gaw, myiman yawng da ai card hpe lu la nna sum mat sai wa gaw hpang na deck kaw na card bai shaw la nga ai. Ndai phase hta dang kau dat ai trick ni gaw padang dip ai lam a matu n sawn ya ma ai.",
     "phase_playing": "GAMCHYEN LANG: Sumla gaw htum sai. Ya kaw nna, hkalem hkalau ai lam shagu gaw awng padang lu hkra karum ya na re."
   },
@@ -21,11 +21,11 @@
     "invalid_play": "Dai gaw n mai galaw ai."
   },
   "game_action": {
-    "played": "ကစားသမား {player_id} က {card} ကတ် ကစားလိုက္တယ္."
+    "played": "Player {player_id} laika hkan ai: {card}."
   },
   "trick": {
-    "won": "ကစားသမား {winner_id} {card} နဲ့ တရာ အနိုင္ရတယ္.",
-    "won_learning": "ကစားသမား {winner_id} {card} နဲ့ တရာ အနိုင္ရတယ္ နဲ့ မျက်နှာ ဖွင့္ ကတ် ယူလိုက္တယ္."
+    "won": "Player {winner_id} hpun shawng na laika hpe yu ai: {card}.",
+    "won_learning": "Player {winner_id} hpun shawng na laika hpe yu ai: {card} hpe sha ai."
   },
   "phase": {
     "learning_complete": "Hkumhkrang gaw htum sai. Sharin la ai lam ngut mat wa nna, ngam nga ai hkalem hkalau ga ni yawng hpe awng dang na matu jai lang ra ai."
@@ -37,10 +37,10 @@
   },
   "turn": {
     "board": "{phase}\n{scores}\n{next_card}\n\n{trick}\n\n{hand}",
-    "scores_learning": "တရာ အနိုင္ရတဲ့ အရည် - ကစားသမား 0: {tricks0}, ကစားသမား 1: {tricks1}",
-    "scores_playing": "ရမည့္ တရာ - ကစားသမား 0: {tricks0}, ကစားသမား 1: {tricks1}",
+    "scores_learning": "Nan sha e shangai hkying sai - Wuhpung 0: {tricks0}, Wuhpung 1: {tricks1}",
+    "scores_playing": "Hkying sai shangai hpung - Wuhpung 0: {tricks0}, Wuhpung 1: {tricks1}",
     "phase": "Daw: {phase}",
-    "phase_learning": "Phase: {phase} ({remaining_cards} deck hta ngam nga ai card ni)"
+    "phase_learning": "Hpung shawng: {phase} ({remaining_cards} laika hpe hpun shawng)"
   },
   "hand": {
     "no_cards": "Hkaw tsun ladat ni n nga ai.",
@@ -71,6 +71,6 @@
     "player_line": "{observation}\nကစားသမား {player_id}: {scoring} ရမည့္ တရာ ({tricks} စုစုေပါင္း), {hand_size} လက္ထဲ ကတ်"
   },
   "outcome": {
-    "summary": "Learning phase - Player 0: {l0}, Player 1: {l1}. Playing phase - Player 0: {p0}, Player 1: {p1}. Player {winner_id} wins with {winner_tricks} scoring tricks!"
+    "summary": "Hpung shawng na laika hpe yu ai - Player 0: {l0}, Player 1: {l1}. Hpung shawng na laika hpe sha ai - Player 0: {p0}, Player 1: {p1}. Player {winner_id} hpung shawng na laika hpe yu ai: {winner_tricks} hpung shawng na laika hpe sha ai!"
   }
 }

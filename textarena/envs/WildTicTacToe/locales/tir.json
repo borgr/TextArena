@@ -11,7 +11,7 @@
     "already_occupied": "ዘይቅኑዕ ስጉምቲ። ዋህዮ {cell} ድሮ ተጨውዩ ኣሎ።"
   },
   "game_action": {
-    "placed": "Player {player_id} placed their symbol ({mark}) in cell {cell}"
+    "placed": "ተጫዋች {player_id} ምልክትኻ ({mark}) በካብ {cell} አስተክለኻ"
   },
   "outcome": {
     "win": "ተጻዋት {player_id} ድምብልቦ ከም ምስል {mark}ስ!",

@@ -1,24 +1,24 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} playing a game of Pig Dice.\n\nRules:\n- On your turn, you can either '[roll]' or '[hold]'\n- Roll a 2-6: Add to your turn total\n- Roll a 1: Lose turn total and end turn\n- Hold: Add turn total to your score and end turn\n- First to {winning_score} points wins\n\nWhen it's your turn, you'll see the current scores and turn total.\nRespond with '[roll]' to roll the die or '[hold]' to bank your points."
+    "intro": "অনুমতি নহক নং খেলোইদি প্লেয়ার {player_id} পিগ ডাইস খেলগা অনি।\n\nনিয়ম:\n- নংগী চাওবা তুরুকক, '[roll]' অথবা '[hold]' চাইরবা অনি\n- ২-৬ চালক: নংগী চাওবা মোট যোগ করবা\n- ১ চালক: নংগী চাওবা মোট হারাবা অমসুং তুরুক শেষ করবা\n- হোল্ড: নংগী চাওবা মোট নংগী স্কোরে যোগ করবা অমসুং তুরুক শেষ করবা\n- {winning_score} পয়েন্ট প্রথম পানবা জিতবা\n\nনংগী তুরুক অনি, বর্তমান স্কোর অমসুং চাওবা মোট চাওবা। '[roll]' চাইরবা অথবা '[hold]' চাইরবা মতম জানাবা।"
   },
   "invalid_move": {
-    "invalid_action": "Invalid action format. '[roll]' or '[hold]' hai use touro"
+    "invalid_action": "অবৈধ চালনা ফরম্যাট। '[roll]' অথবা '[hold]' চাইরবা।"
   },
   "actions": {
-    "player_busted": "Player {player_id} busted, {turn_total} points sungrei",
-    "player_hold": "Player {player_id} hold touba, {turn_total} points bank touba"
+    "player_busted": "খেলমগী {player_id} বাস্ট হয়েছে, {turn_total} পয়েন্ট হারিয়েছে!",
+    "player_hold": "খেলমগী {player_id} হোল্ড করেছে এবং {turn_total} পয়েন্ট ব্যাংক করেছে।"
   },
   "board": {
-    "player": "Player 0: '{score_0}'; Player 1: '{score_1}'",
-    "current_total_scores": "Current Total Scores: {scores}\nNingba turn total: {turn_total}",
+    "player": "খেলমগী ০: '{score_0}'; খেলমগী ১: '{score_1}'",
+    "current_total_scores": "বর্তমান মোট স্কোরসমূহ: {scores}\nআপনার বর্তমান পালা মোট হল {turn_total}।",
     "roll_history": "{observation}\nNingba roll history: {roll_history}",
     "first_roll": "{observation} মসি অদোমগী অহানবা রোল্নি।",
-    "available_actions": "{observation}\nAvailable actions: '[roll]' or '[hold]'"
+    "available_actions": "{observation}\nচালনা অনুমতি: '[roll]' অথবা '[hold]'"
   },
   "outcome": {
-    "winner_by_turn_limit": "Player {winner_id} turn limit ({scores}) khutpa, score sangna, won ta",
-    "winner_by_score": "Player {winner_id} {winning_score} points khutpa, won ta",
+    "winner_by_turn_limit": "খেলমগী {winner_id} টার্ন লিমিট ({scores}) এ উচ্চ স্কোর দিয়ে জয়ী হয়েছে",
+    "winner_by_score": "খেলমগী {winner_id} {winning_score} পয়েন্ট লক্ষ্য স্কোর পৌঁছে জয়ী হয়েছে!",
     "draw": "{scores} হন্দোকপগী লিমিৎ অদু য়ৌরে অমসুং শান্নরোয় পুম্নমক্না মান্নবা স্কোর লৈরি:"
   }
 }

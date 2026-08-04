@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} playing a game of Pig Dice.\n\nRules:\n- On your turn, you can either '[roll]' or '[hold]'\n- Roll a 2-6: Add to your turn total\n- Roll a 1: Lose turn total and end turn\n- Hold: Add turn total to your score and end turn\n- First to {winning_score} points wins\n\nWhen it's your turn, you'll see the current scores and turn total.\nRespond with '[roll]' to roll the die or '[hold]' to bank your points."
+    "intro": "איר זײַט שפּילער {player_id} וואָס שפּילט אַ שפּיל פֿון פּיג טײַס.\n\nרעגולן:\n- ווען ס'איז אײַער ריי, קענט איר ענטוועדער '[roll]' אָדער '[hold]'\n- וואַלט אַ 2-6: לייגט צו אײַער ריי-סומע\n- וואַלט אַ 1: פֿאַרלירט ריי-סומע און ענדיגט ריי\n- האָלד: לייגט ריי-סומע צו אײַער רעזולטאַט און ענדיגט ריי\n- דער ערשטער וואָס דערגרייכט {winning_score} פּונקטן געווינט\n\nווען ס'איז אײַער ריי, וועט איר זען די אַקטועלע רעזולטאַטן און ריי-סומע.\nענטפֿערט מיט '[roll]' אויף צו וואַלטן די טײַס אָדער '[hold]' אויף צו באַנקירן אײַערע פּונקטן."
   },
   "invalid_move": {
     "invalid_action": "אומגילטיקע אַקציע פֿאָרמאַט. ניצן '[roll]' אָדער '[hold]'."

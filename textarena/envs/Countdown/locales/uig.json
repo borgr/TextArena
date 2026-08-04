@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing Countdown numbers game!\nGoal: Combine numbers using +, -, *, / to reach the target.\nAction format: [i j op] where i,j are indices and op is the operation.\nExample: [0 2 *] multiplies number at index 0 with number at index 2.\nDivision must result in whole numbers only."
+    "intro": "سىز سانلارنى قوشۇش ئويۇنىنى ئويناپ تۇرۇپسىز!\nمەقسەت: سانلارنى +, -, *, / بىلەن بىرىكىتىپ نىشانغا يېتىش.\nھەرىكەت فورماتى: [i j op] بۇ يەردە i,j سانلارنىڭ تەرتىپ نومۇرى ۋە op ئۇسۇل.\nمىسال: [0 2 *] 0-تەرتىپ نومۇرىدىكى ساننى 2-تەرتىپ نومۇرىدىكى سان بىلەن كۆپەيتىدۇ.\nبۆلۈش پەقەت پۈتۈن سانلارنىلا كەلتۈرۈپ چىقىرىشى كېرەك."
   },
   "board": {
     "header": "ماكسات: {target}\n\nقوللىنىشقا بولىدىغان سانلار:\n{numbers}",
@@ -9,7 +9,7 @@
     "progress": "{observation}\nھازىرقى پىروگىرەسس نۇمۇرلىق نەتىجە: {progress}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use `[i j op]` where i,j are indices and op is +,-,*,/",
+    "wrong_format": "ھەرىكەت فورماتى خاتا. [i j op] فورماتىنى ئىشلىتىڭ، بۇ يەردە i,j سانلارنىڭ تەرتىپ نومۇرى ۋە op +,-,*,/ ئۇسۇللىرى.",
     "invalid_indices": "ئىناۋەتسىز كۆرسەتكۈچلەر. ئوخشىمىغان بولۇشى ۋە 0-{max_index} ئارىلىقىدا بولىشى كېرەك.",
     "invalid_operation": "ناتوغرا مەشغۇلات (نۆلگە بۆلۈش ياكى پۈتۈن ساندىن باشقا نەتىجە)"
   },

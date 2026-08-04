@@ -16,7 +16,7 @@
     "{cards}": "The cards in a pile as neutral labels, or '--' if empty (never translate)"
   },
   "player_prompt": {
-    "intro": "You are playing Klondike Solitaire. Your goal is to move all cards to the foundation piles.\n\nGame Rules:\n- Foundation piles (F1-F4): Build up from Ace to King in suit\n- Tableau piles (T1-T7): Build down alternating colors (red on black, black on red)\n- Stock: Draw cards to waste pile\n- Waste (W): Top card available for play\n\nCommands:\n- 'draw' - Draw cards from stock to waste\n- 'move <source> <destination> [count]' - Move cards between piles\n  Examples: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count can also be 'all', which will try to move all face-up cards.\n- 'forfeit' - End the game immediately and lock in your current score\n- Pile names: W (waste), F1-F4 (foundations), T1-T7 (tableau)\n\nYou can execute multiple actions in one turn by separating them with commas:\n  Example: 'draw, move W T1, move T2 F1'\n\nOnly Kings can be placed on empty tableau piles.\nActions execute in order - if one fails, the remaining actions are skipped.\nUse 'forfeit' if you believe the game is impossible to win."
+    "intro": "Ti stæ xugando a-o Klondike Solitaire. O teu obiettivo o l'é quello de spostâ tutte e carte inte fondamenta.\n\nRegole do xêugo:\n- Fondamenta (F1-F4): Costruisci in sciâ da l'asso a-o re into mæximo cô\n- Tavolo (T1-T7): Costruisci a-a bassa alternando i cô (rosso in sciô nero, nero in sciô rosso)\n- Rifornimento: Tîa e carte into mazzo de scarto\n- Scarto (W): A carta in cima a dispoxiçion pe-o xêugo\n\nComandi:\n- 'draw' - Tîa e carte da-o rifornimento into scarto\n- 'move <source> <destination> [count]' - Sposta e carte tra e pile\n  Exenpi: 'move W T1', 'move T1 F2', 'move T3 T5 2'. O conteggio o pêu êse ascì 'all', che cercherâ de spostâ tutte e carte co-a faccia in sciâ.\n- 'forfeit' - Finisci o xêugo subito e blocca o teu punteggio attuale\n- Nomme de pile: W (scarto), F1-F4 (fondamenta), T1-T7 (tavolo)\n\nTi pêu eseguî multiple açioin inte 'n'un gîo, separandole con di virgole:\n  Exenpio: 'draw, move W T1, move T2 F1'\n\nSolo i re pêuan êse messi in sciê pile vêue do tavolo.\nE açioin s'eseguian in ordine - se unn-a a fallisce, e açioin rimanenti sôn saltæ.\nDeuvia 'forfeit' se ti credi che o xêugo o segge inposcibile da vince."
   },
   "format_error": {
     "no_brackets": "Formato de l'açion invalido. L'açión a dovieiva êse tra parentexi.",
@@ -24,8 +24,8 @@
     "empty_command": "Comando sciortio. Tipo \"draw\" ò \"move <source> <destination> [count]\".",
     "empty_action": "Açion de no-n'acento",
     "move_needs_args": "O comando move o domanda de origine e destinaçion. Uzo: \"move <source> <destination> [count]\"",
-    "count_positive": "O conteggio o deve ëse positivo ò \"tutti\"",
-    "count_invalid": "Conto invalido. Deuvia un numero ò \"tutti\"",
+    "count_positive": "O conteggio o deuvia êse positivo o 'all'",
+    "count_invalid": "Conteggio no valido. Deuvia dêuviâ un numero o 'all'",
     "unknown_command": "Comando sconosciuto '{cmd}'. Dêuvi 'draw', 'move <source> <destination> [count]', o 'forfeit'",
     "wrapped": "Açion {n}: {msg}"
   },

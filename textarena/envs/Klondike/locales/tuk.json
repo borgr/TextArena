@@ -16,17 +16,17 @@
     "{cards}": "The cards in a pile as neutral labels, or '--' if empty (never translate)"
   },
   "player_prompt": {
-    "intro": "Sen Klondike Solitaire oýnaýarsyň. Siziň maksadyňyz ähli kartalary esas depesine geçirmekdir. Oduň düzgünleri: - Döwlet depeleri (F1-F4): Esden Patyşa çenli sazlaşykly gurmak; Tablo toparalary (T1-T7): Režimi üýtgedip, reñkde düzeltmek (gyzyl bilen gara), Gara bilen gyr) - Sütek kartlaryny ýele sowurmak üçin daşarymda sakla we köp harplar döküp taşla- Ýele salma (W): Topardaky iň ýokarda ýerleşýän karta Oyun Komandasy: \"çak\" - Kartany sütünden çöpe atmak - <başgalama> [count] göçürmek . Kartalaryň arasyna köçürme mysallary: W T1 geçiriş , F2 geçirişi , T3 geçiriši , T5 2\". hemmesini sanap bilmegi mümkin\",bu hemme ýüzli kartoçkalary derrew aýyrmaga çalyşan bolar\"- Bu işi gutarar ýaly oýny tamamlap, häzirki netijesiňize getirmeli.- Pilesiňizde surat çekilmelidir: W (jasyzdan çykarylanýan), F4-F1, tapylanmalar (T1) ençemeharpaşa çykarmak (Gülgiden red.) Siz olary boş ýere goýbermelisinden sowran edip bilersiz bir toparlara goşarysyňyz. A tarapyndan hereket etmek üçin ulgamynda sen olaryň birini ulansa siz diňe ýekeje edinip bilersiňiz Mysal: Atalan bu işleri ýerine ýetirip, eger galan kaart teklip tablosu bosluklarda galmasaz edilmez bolsa, üstine goşullar)."
+    "intro": "Siz Klondike Solitär oýnuňyz. Siz ýeňijilik üçin ähli kartlary fondasiýa hökmünde ýerleşdirmeli.\n\nOýun düzgünleri:\n- Fondasiýa hökmünde (F1-F4): Ace-den Koroľa ýetmek\n- Tablo hökmünde (T1-T7): Reňkleriň ýerine-yerine ýerleşdirilmegi\n- Stok: Kartlaryň Ýok ýerine ýerleşdirilmegi\n- Ýok (W): Ýok ýerine ýerleşdirilen kart\n\nKomandalar:\n- 'draw' - Stokdan Ýok ýerine kart ýerleşdirmek\n- 'move <source> <destination> [count]' - Kartlaryň ýerine-yerine ýerleşdirilmegi\n  Mysallar: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count hem 'all' bolup biler, ähli ýüzüni açyk kartlaryň ýerine ýerleşdirmäge synanyşýar.\n- 'forfeit' - Oýnuň ýeňijiligini ýitirmek\n- Hökmüň ady: W (Ýok), F1-F4 (fondasiýa), T1-T7 (tablo)\n\nSiz ýeke ýa-da köp komandalaryň ýerine ýerleşdirmek bilen ýeňijilik ýetdine bilersiňiz:\n  Mysal: 'draw, move W T1, move T2 F1'\n\nÝalňyz Koroľlar boş tablo hökmünde ýerleşdirilýär.\nKomandalar ýerine ýerleşdirilýär - ýeke ýalňyş bolsa, galan komandalar ýerine ýerleşdirilmeýär.\n'forfeit' ýeňijilik ýitirjek bolsaňyz."
   },
   "format_error": {
     "no_brackets": "Nädogry hereket formati. Edilmeli işlemiň nusgasy çynjaga girmelidir.",
     "no_closing_bracket": "Ýaramaz hereket formati. Galan gutaryş çakyrasy \"]\"",
     "empty_command": "Boş buýruk. \"draw\" ýa-da \"move <source> <destination> [count]'i ýaz",
     "empty_action": "Boş hereketler",
-    "move_needs_args": "Göçür buýrugy çeşme we maksady talap edýär. Uýlanyş: 'gider <çoň> <mekan> [count]'",
-    "count_positive": "Sayy gowy bolmaly ýa-da \"bütün\"",
-    "count_invalid": "Saýlanan sözi näçe gezek ýazsaň-da bo'lmasyn. Bir sany ýa \"bärini\" ullan",
-    "unknown_command": "Belliki komanda '{cmd}'. 'çykaryş', 'hereket <başlangyç> <ugur> [count]', ýa-da 'ýeňilmez'",
+    "move_needs_args": "Ýerine ýerleşdirmek komandasy çeşme we ýerleşdirilýän ýeri talap edýär. Ulanyş: 'move <source> <destination> [count]'",
+    "count_positive": "Sany ýalyň ýerinde ýerleşýär ýa-da 'all' ýalyň ýerinde ýerleşýär",
+    "count_invalid": "Ýalňyz sany. Ýerine ýetirilýär ýa-da 'all' ýalyň ýerinde ýerleşýär",
+    "unknown_command": "Näbelli komanda '{cmd}'. Ulanyň 'draw', 'move <source> <destination> [count]', ýa-da 'forfeit'",
     "wrapped": "Amal {n}: {msg}"
   },
   "action_result": {
@@ -59,10 +59,10 @@
   "outcome": {
     "forfeit": "Oýun gutarnykly netije: {score} kartlar esasda.",
     "won": "Siz Klondike Solitaire-i ýeňdiňiz!",
-    "turn_limit": "Game over! You reached the maximum of {max_turns} turns. Score: {score} cards in foundations."
+    "turn_limit": "Oýun gutardy! Siz {max_turns} ýyl ýetdiniz. Hasap: {score} kart fondasiýasynda."
   },
   "board": {
-    "title": "=== KLONDIKE SOLITAIRE ===",
+    "title": "=== KLONDIKE SOLITERI ===",
     "turn": "Döwür: {turn}/{max_turns}",
     "stock": "Kartlar: {stock} kartlar",
     "waste": "Çöp (W): {waste}",

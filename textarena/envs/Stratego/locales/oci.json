@@ -34,6 +34,6 @@
   },
   "outcome": {
     "flag_captured": "Lo jogaire {player_id} a capturat la bandièra de l'adversari!",
-    "no_movable_pieces": "Jogador {winner_id} ganha! Jogador {loser_id} a pas mai de pèças mobils."
+    "no_movable_pieces": "Lo jogaire {winner_id} ganha! Lo jogaire {loser_id} a pas mai de pèças de movement."
   }
 }

@@ -3,11 +3,11 @@
     "current_board": "Kuje je ɗon nder: {board}"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} playing a game of Checkers as {color}.\nMake your move in chess-style notation [fileRank fileRank], e.g. '[b2c3]' (column letter a–h, row digit 0–7).\nBasic rules:\n  • Move diagonally forward by 1 if empty.\n  • Capture by jumping over an opponent piece.\n  • A piece is Kinged if it reaches the opposite end.\n"
+    "intro": "Kai dan wasa {player_id} ka na wasa da wasan Dambe a matsayin {color}.\nYi motsi ka a salon wasan Chess [fileRank fileRank], misali '[b2c3]' (harafin safu a–h, adadin safu 0–7).\nKa'idoji na asali:\n  • Yi motsi a diagonal zuwa gaba da 1 idan kowa.\n  • Kama ta hawa kan abokin wasa.\n  • Dan wasa ya zama Sarki idan ya kai karshen gefe guda.\n"
   },
   "invalid_move": {
-    "wrong_format": "No valid move format found. Use [a1b2], e.g. [b2c3].",
-    "illegal": "Move [{move}] is illegal."
+    "wrong_format": "Babu salon motsi da aka yarda da shi. Yi amfani da [a1b2], misali [b2c3].",
+    "illegal": "Motsi [{move}] ba ya doka."
   },
   "game_action": {
     "moved": "Jaawal {player_id} yahri {move}."

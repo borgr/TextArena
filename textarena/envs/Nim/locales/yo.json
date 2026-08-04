@@ -13,7 +13,7 @@
     "exceeds_pile": "Kò lè yọ {quantity} kúrò nínú ìdìpọ̀ {pile_index} (kìkì {pile_count} kù)."
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "Player {player_id} ṣe [{pile_index} {quantity}], yọ kuro {quantity} ohun(s) lati inu ọpọ {pile_index}."
   },
   "outcome": {
     "win": "Ẹ̀yin òṣèré {player_id} gba ohun tó kẹ́yìn ((s)!"

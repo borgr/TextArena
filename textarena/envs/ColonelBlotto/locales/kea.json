@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "Bo eis {role} em Colonel Blotto.\nO seu objetivo é ganhar mais rodadas do que o seu oponente.\nEm cada rodada, allocar exatamente {num_total_units} unidades através de campos {field_names}.\nO jogador que allocar mais unidades a um campo ganha esse campo, e o jogador que ganha mais campos ganha a rodada.\nPor exemplo, '[A7 B7 C6]' allocar 7 unidades a A, 7 a B, e 6 a C.",
+    "intro": "Bu é {role} na Colonel Blotto.\nBu objetivu é ganhá mais rondas ki bu oponenti.\nNa kada ronda, atribuí exatamenti {num_total_units} unidades pa os campos {field_names}.\nJu ki atribuí mais unidades pa un kampu ganhá es kampu, i ju ki ganhá mais kampus ganhá a ronda.\nPorexemplu, '[A7 B7 C6]' atribuí 7 unidades pa A, 7 pa B, i 6 pa C.",
     "commander_alpha": "Kumandanti Alfa, N ta bai.",
     "commander_beta": "Kumandanti Beta, N ta bai."
   },

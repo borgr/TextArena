@@ -29,7 +29,7 @@
     "round_start": "🎮 {round}. erronda hasi da! Eskakizunak: ANTE ${ante}, BLIND ${blind}. {chips} fichak geratzen zaizkizu.",
     "your_hand": "🎴 Zure eskua: {hand}",
     "flop_revealed": " FLOP agerian geratu da: {cards}",
-    "river_revealed": "🃏 RIVER revealed: {cards}"
+    "river_revealed": "🃏 RIVER agerian jarri da: {cards}"
   },
   "invalid_move": {
     "reason": "Ekintza baliogabea fase honetan. Ekintza eskuragarriak: {available}",
@@ -43,24 +43,24 @@
     "community_cards": " Batasuneko txartelak: {cards}",
     "player_best": " Jokalariaren esku onena: {name} ({cards})",
     "dealer_best": " Banatzailearen esku onena: {name} ({cards})",
-    "ante_lost_folded": "❌ ANTE bet LOST! -${ante} (folded)",
-    "blind_lost_folded": "❌ BLIND bet LOST! -${blind} (folded)",
+    "ante_lost_folded": "❌ ANTE apustua GALDU DA! -${ante} (eskua utzita)",
+    "blind_lost_folded": "❌ BLIND apustua GALDU DA! -${blind} (eskua utzita)",
     "ante_won": "✅ ANTE apustua IRABAZI DA! +${amount}",
     "ante_pushed": " ANTE apustua Bultzatu! ${ante} itzuli",
-    "ante_lost": "❌ ANTE bet LOST! -${ante}",
+    "ante_lost": "❌ ANTE apustua GALDU DA! -${ante}",
     "blind_won": "✅ Apustua irabazi duzu! +${amount}",
     "blind_pushed": "🔄 BLIND apustua BERRIZ DA! ${blind} itzultzen da",
-    "blind_lost": "❌ BLIND bet LOST! -${blind}",
+    "blind_lost": "❌ BLIND apustua GALDU DA! -${blind}",
     "play_won": "✅ JOKOaren apustua irabazi duzu! +${amount}",
     "play_pushed": " JOKOAREN apustua Bultzatu! ${play} itzuli",
-    "play_lost": "❌ PLAY bet LOST! -${play}",
-    "net_gain": "🎉 Round {round} completed! Net gain: +${net}",
+    "play_lost": "❌ PLAY apustua GALDU DA! -${play}",
+    "net_gain": "🎉 Txanda {round} osatu da! Irabazi garbia: +${net}",
     "net_loss": "💸 {round}. erronda amaitu da! Galera netoa: ${net}",
     "separator": "──────────────────────────────────────────────────"
   },
   "outcome": {
     "game_over_win": " JOKOA BATAL! {max_turns} roundak bukatuta. ${chips} fitxak dituzu - GANBA!",
-    "game_over_lose": "🏁 GAME OVER! You're out of chips. Dealer wins!",
+    "game_over_lose": "🏁 JOKOA AMAITU DA! Chipak agortu dira. Etxeak irabazi du!",
     "reward_win": "Jokalariak {winner_rounds} errondak osatu zituen ${chips} ficharekin",
     "reward_lose": "Jokalariak fichak amaitu zituen {round}. errondan",
     "reward_win_max": "Jokalariak {max_turns} errondak osatu zituen ${chips} ficharekin"

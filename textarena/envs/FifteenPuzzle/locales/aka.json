@@ -1,9 +1,9 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id}. You are playing the 15-Puzzle game.\nThe objective of the game is to arrange the numbered tiles in ascending order from 1 to 15, with the empty space located in the bottom-right corner.\nTo make a move, you can slide a tile into the empty space (represented by a double underscore, e.g. __) by using one of the following commands:\n- 'up': Move the tile below the empty space up.\n- 'down': Move the tile above the empty space down.\n- 'left': Move the tile to the right of the empty space left.\n- 'right': Move the tile to the left of the empty space right.\nTo submit your move, type the direction (e.g., 'up', 'down', 'left', or 'right') in square brackets, e.g. [up].\nThe current board layout is shown below. Use the information to solve the puzzle.\n"
+    "intro": "Wo ne Agodifo {player_id}. Wo reko FifteenPuzzle agoro no.\nAgoro no botae ne sɛ wobɛtumi ayɛ nkrataa no mu nsɛm no wɔ kɔla du-baako mu fi baako kosi du-baako, na faako a ɛhɔ tɔe no nso wɔ ase nifa so.\nSɛ wopɛ sɛ woyɛ biribi, wobɛtumi asorɔ nkrataa baako wɔ faako a ɛhɔ tɔe no mu (a wɔakyerɛ no sɛ nkrataa mmienu a ɛda adi, e.g. __) denam saa nsɛm yi so:\n- 'up': Fa nkrataa a ɛda faako a ɛhɔ tɔe no ase sɔ kɔ soro.\n- 'down': Fa nkrataa a ɛda faako a ɛhɔ tɔe no soro sɔ kɔ ase.\n- 'left': Fa nkrataa a ɛda faako a ɛhɔ tɔe no nifa so sɔ kɔ benkum.\n- 'right': Fa nkrataa a ɛda faako a ɛhɔ tɔe no benkum sɔ kɔ nifa.\nSɛ wopɛ sɛ woma wo biribi no, ketewa kwan no (e.g., 'up', 'down', 'left', anaa 'right') wɔ akwanside, e.g. [up].\nMprempren agoro no tebea ne sɛdeɛ eda adi ase ha. Fa saa nsɛm yi so na ɛbɛboa wo asan agoro no.\n"
   },
   "board": {
-    "current_board": "Current Board:\n\n{board}\nAvailable Moves: {moves}",
+    "current_board": "Mprempren Board:\n\n{board}\nKwan a Wɔtumi Fa: {moves}",
     "game_board": "Agorɔ a wɔde di agoru: {board}"
   },
   "invalid_move": {

@@ -14,7 +14,7 @@
   },
   "message": {
     "tie": "समन्ततः निवेदने पुनः प्राप्ताः। पुनर्वचनम्!",
-    "auction_result": "प० बोली {bid0}, प१ बोली {bid1}। खिलाड़ी {winner} प्रतिष्ठा {prize} जीतता है (कुल {total})।"
+    "auction_result": "P० बोली {bid0}, P१ बोली {bid1} । खिलाडी {winner} प्रतिष्ठां {prize} (मूल्य {total}) जित्वा ।"
   },
   "outcome": {
     "p0_wins": "नेट-मूल्य {nw0} > {nw1}",

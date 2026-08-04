@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing a {difficulty} RushHour puzzle. Slide cars to free the red car [X] and drive it out the right edge.\nActions: [A+], [B-], etc.  (+ = forward, - = backward)."
+    "intro": "Wo reko {difficulty} RushHour puzzle. Fa ka kaa no sɛe kaa kɔkɔɔ [X] na fa no kɔ nifa. \nNnwuma: [A+], [B-], ne ne. (+ = anim, - = akyi)."
   },
   "invalid_move": {
     "wrong_format": "Ɔyɛ ɔkɔmfo. Fa format [A+] / [B-].",

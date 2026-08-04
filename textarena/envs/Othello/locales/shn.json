@@ -16,7 +16,7 @@
   },
   "game_action": {
     "skipped": "ၽူႈလဵၼ်ႈ {pid} လႆႈၶၢမ်ႈပူၼ်ႉတီႈမၼ်းယဝ်ႉ။",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "ၵူၼ်းလဵၼ်ႈ {pid} ({piece}) လဵၼ်ႈ [{r}, {c}] သေ လႅၵ်ႈ {flipped} ၶိူင်ႈ။"
   },
   "game_message": {
     "must_skip": "ကစားသူ {pid} ({piece}) တွင် လုပ်နိုင်သော လှုပ်ရှားများ မရှိပါ။ ထို့ကြောင့် လှုပ်ရှားမှု မပြုလုပ်ရန် လိုအပ်ပါသည်။"

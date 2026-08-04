@@ -1,9 +1,9 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id}. You are playing the 15-Puzzle game.\nThe objective of the game is to arrange the numbered tiles in ascending order from 1 to 15, with the empty space located in the bottom-right corner.\nTo make a move, you can slide a tile into the empty space (represented by a double underscore, e.g. __) by using one of the following commands:\n- 'up': Move the tile below the empty space up.\n- 'down': Move the tile above the empty space down.\n- 'left': Move the tile to the right of the empty space left.\n- 'right': Move the tile to the left of the empty space right.\nTo submit your move, type the direction (e.g., 'up', 'down', 'left', or 'right') in square brackets, e.g. [up].\nThe current board layout is shown below. Use the information to solve the puzzle.\n"
+    "intro": "Nang Player {player_id} ni. Nang 15-Puzzle khel gi khelang.\nKhel gi mopung ahanba kaya namba tile ho ascending order a 1 to 15 chei, khongthang khulgi bottom-right corner ta thokpa.\nKhel gi paojel cheirakpa, nang khulgi thokpa (double underscore, e.g. __) ta thokpaga um tile chei 'up', 'down', 'left', 'right' ahanba command ho amata cheirakpa:\n- 'up': Khulgi thokpa alhengpa tile chei up cheirakpa.\n- 'down': Khulgi thokpa aphaba tile chei down cheirakpa.\n- 'left': Khulgi thokpa akhulgi tile chei left cheirakpa.\n- 'right': Khulgi thokpa akhomgi tile chei right cheirakpa.\nPaojel cheirakpa submit cheirakpa, direction (e.g., 'up', 'down', 'left', 'right') square bracket ta cheirakpa, e.g. [up].\nKhel gi board layout khulgi hanthokpa ahanba thokpaga um, khel gi paojel cheirakpa.\n"
   },
   "board": {
-    "current_board": "Current Board:\n\n{board}\nAvailable Moves: {moves}",
+    "current_board": "Laina Board:\n\n{board}\nKhel gi Paojel: {moves}",
     "game_board": "গেম বোর্দ: {board}"
   },
   "invalid_move": {

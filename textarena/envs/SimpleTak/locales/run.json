@@ -14,7 +14,7 @@
     "placement": "Umukino {current_player_id} wavuye ibaro ryawe ({symbol}) mu kigo {cell_num}."
   },
   "outcome": {
-    "winner": "Player {current_player_id} ('{symbol}') connected two opposite edges!",
+    "winner": "Umukinnyi {current_player_id} ('{symbol}') yashinze makali mawili yambuka!",
     "draw": "Urutonde rwuzuye. Ni ubusa ku bundi!"
   }
 }

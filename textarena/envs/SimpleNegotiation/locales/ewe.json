@@ -4,8 +4,8 @@
   },
   "invalid_move": {
     "receiving_with_no_resource": "Ðelawo dze agbagba be yewoawɔ asitsatsa aɖe evɔ ga mele wo si o.",
-    "out_of_range": "Player {player_id}, Invalid action. Column {col} is out of bounds.",
-    "already_full": "Player {player_id}, Invalid action. Column {col} is full.",
+    "out_of_range": "Aʋa {player_id}, Ɖɔ si wò wɔ le dɔme. Ɖɔ {col} le dɔme ƒe go.",
+    "already_full": "Aʋa {player_id}, Ɖɔ si wò wɔ le dɔme. Ɖɔ {col} bɔ.",
     "proposing_with_no_resource": "Fefewɔla {player_id} dze agbagba be yeawɔ asitsatsa ƒe ɖoɖo evɔ ga si hiã la mele esi o.",
     "incorrect_offer_format": "Fefewɔla {player_id} tsɔ mɔnu si mesɔ o do fefea.",
     "no_new_offer": "Fefewɔla {player_id} mena asi yeye aɖeke o."
@@ -13,7 +13,7 @@
   "offers": {
     "reject": "Fefewɔla {player_id} gbe asitsatsa ƒe nudidia.",
     "accept": "Dɔdzikpɔla {acceptor_id} gblɔe tso ɖe Dɔdzikpɔla {proposer_id} ɖe nuwɔwɔ.",
-    "proposal": "Player {player_id} made the following offer to Player {opponent_id}: Offered items: {offered} -> Requested items: {requested}"
+    "proposal": "Aʋa {player_id} ɖe asiɖeɖe si tso Aʋa {opponent_id} gbɔ: Nuwo si wò ɖe: {offered} -> Nuwo si wò xɔ: {requested}"
   },
   "outcome": {
     "win": "Fefewɔla {winner_id} ɖu dzi le esi eƒe adzɔnuwo ƒe asixɔxɔ de ŋgɔ wu ta.",

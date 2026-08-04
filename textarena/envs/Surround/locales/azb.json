@@ -21,7 +21,7 @@
   },
   "outcome": {
     "survived_win": "اویونچو {player_id} جانینی قورتاردی؛ باشقالاری دا هلاک اولدو.",
-    "all_crashed": "All players crashed simultaneously.",
+    "all_crashed": "بوتون بازیچیلار همزامان توخونوب اؤلدولر.",
     "outlived": "اویونچو هامیسیندان داها چوخ یاشادی.",
     "all_dead": "بوتون اویونچولار اؤلوب.",
     "turn_limit": "دؤنوش حدینه چاتدی - ان چوخ یاشایان قازانیر.",

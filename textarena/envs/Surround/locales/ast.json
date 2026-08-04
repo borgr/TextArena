@@ -10,7 +10,7 @@
     "{groups}": "Neutral ranking data (a list of player-id groups, best to worst); do not translate"
   },
   "player_prompt": {
-    "intro": "{num_players}-Player Surround on a {width}x{height} grid.\nYou are player {player_id}. Valid moves: '[up]' '[down]' '[left]' '[right]' or w/s/a/d.\nObjective: outlive everyone else. Trails are deadly; wall hits kill; head-on crashes kill both."
+    "intro": "{num_players}-Xugador Surround nun tableru de {width}x{height}.\nTu yes el xugador {player_id}. Movimientos válidos: '[up]' '[down]' '[left]' '[right]' o w/s/a/d.\nOxetivu: sobrevivir a tolos demás. Los rastru son mortales; los golpes na paré maten; los choques frontales maten a dambos."
   },
   "board": {
     "current": "El Conseyu actual: {board}",

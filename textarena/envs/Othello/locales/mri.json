@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} playing {colour} ({piece}) in a game of Othello.\nYour goal is to have more pieces of your color on the board by the end of the game.\nOn your turn, place a piece such that it flanks one or more of your opponent's pieces-in any direction (horizontal, vertical, or diagonal)-between your new piece and another of your existing pieces. All flanked opponent pieces will be flipped to your color.\nProvide your move in the format '[row, col]'."
+    "intro": "Ko koe te Kaiwhakatākaro {player_id} e tākaro ana i te {colour} ({piece}) i te kēmu o Othello.\nKo tō whāinga kia nui ake ō papa ki runga i te papa i te mutunga o te kēmu.\nI tō wā, whakatakotoria he papa kia rārangi ki tētahi, ki ētahi rānei o ngā papa a tō hoa-whawhai i ngā ahunga katoa (whakaroto, poutū, whakapiko rānei) - i waenganui i tō papa hou me tētahi atu o āu papa kua noho. Ka hurihia ngā papa katoa a tō hoa-whawhai ki tō tae.\nTukua tō neke i te tauira '[row, col]'."
   },
   "board": {
     "game_board": "Poari kēmu: {board}",
@@ -16,7 +16,7 @@
   },
   "game_action": {
     "skipped": "Me peke te kaitākaro {pid} i tōna tūranga.",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "Kaitākaro {pid} ({piece}) i tākaro [{r}, {c}] whakaputa {flipped} papa"
   },
   "game_message": {
     "must_skip": "Kaitakaro {pid} ({piece}) kahore he neke maamaa, me whakarere atu."

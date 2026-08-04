@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in JoJoJoin, played on a 5x5 board with cells numbered 0-24.\nOn your turn, place your mark on any empty cell, e.g. '[12]'.\nYOU WIN by getting FOUR of your marks in a row — four consecutive cells horizontally, vertically, or diagonally.\nAs Player {player_id} you are '{symbol}'; your opponent is '{opponent_symbol}'."
+    "intro": "Ikaw amo an Player {player_id} ha JoJoJoin, ginmumulayan ha 5x5 nga board nga may mga cell nga gin-numberan 0-24.\nHa imo turno, butang imo marka ha bisan ano nga bakante nga cell, pananglitan '[12]'.\nIKAW AN NADAOG tungod han pagkuha hin UPAT han imo mga marka ha usa ka laray — upat ka sunod-sunod nga mga cell ha pahalang, patindog, o diagonal.\nBilang Player {player_id} ikaw amo an '{symbol}'; imo kalaban amo an '{opponent_symbol}'."
   },
   "board": {
     "current_board": "Karuhaan nga Bangga:\n\n{board}\n\nMga Baraan nga Mugna: {moves}"

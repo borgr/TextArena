@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing the Minesweeper game.\nThe objective of the game is to reveal all cells that do not contain mines.\nTo make a move, simply specify the row and column coordinates you want to reveal using the format:\n- `[row col]`: Reveal the cell at the specified row and column.\nFor example:\n- `[3 2]` to reveal the cell in Row 3, Column 2.\n- `[5 6]` to reveal the cell in Row 5, Column 6.\nOn your first move, you will reveal an area around the cell you choose to ensure a safe start.\nThe current board layout is shown below. Cells that are unrevealed are represented by a dot ('.'), revealed numbers show the count of adjacent mines.\nBe mindful not to choose already revealed cells.\nHere is the current board layout:\n"
+    "intro": "Ozali kobɛta Minesweeper.\nKombo ya mokili ezali ko libela bilembo zote bisika mines te.\nMpo na kosala mouvement, kaka poni ligne na colonne olingi libela na formati:\n- `[row col]`: Libela bilembo na ligne na colonne oponi.\nKotia ndenge:\n- `[3 2]` libela bilembo na Ligne 3, Colonne 2.\n- `[5 6]` libela bilembo na Ligne 5, Colonne 6.\nNa mouvement ya liboso, ozali libela esika o kati ya bilembo oponi mpo na kombo ya malamu.\nDisposition actuelle ya planche ezali na se.\nBilembo bisika bazali na point ('.'), bilembo ya nambari ezali kombo ya mines pili-pili.\nKanisa tika kosala bilembo bazali libela.\nEzali disposition actuelle ya planche:\n"
   },
   "board": {
     "game_board": "Lisano ya lisano: {board}",

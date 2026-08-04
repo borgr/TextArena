@@ -8,7 +8,7 @@
     "round_summary": "Hasil ronde {round}:\n{outcome}\nPemain 0 dapatkan {r0} (jumlah {score_0}), Pemain 1 dapatkan {r1} (jumlah {score_1})."
   },
   "outcome": {
-    "winner": "Player {winner} wins {win_score} - {lose_score}.",
+    "winner": "Pemain {winner} manang {win_score} - {lose_score}.",
     "draw": "Draw! Kadua pamain mancetak {s0}.",
     "round_both_cooperate": "Kadua pamain itu bagawi basamaan.",
     "round_both_defect": "Kadua pamain maninggal.",

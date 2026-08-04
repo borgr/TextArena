@@ -25,7 +25,7 @@
   "message": {
     "round_result": "{reason}  ポット {pot} → لاعب {winner}. (ميزانيات البنك P0:{p0}، P1:{p1})",
     "folded": "لاعب {player_id} طيح.",
-    "showdown_win": "Showdown: {card_win} beats {card_lose}.",
+    "showdown_win": "النهاية: {card_win} يفوز على {card_lose}.",
     "showdown_tie": "تعادل في مواجهة: كلا {card}. تقسيم ポット - كل منهما يحصل على {split}."
   },
   "outcome": {

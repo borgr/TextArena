@@ -12,7 +12,7 @@
     "invalid_position": "جوڵەی هەڵە - ناتوانرێت بچێتە ئەو پۆستە."
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
+    "moved": "ئەتۆ {pushed} جوڵاند [{action}].",
     "pushed_prefix": "لە کاتێکدا کە بۆکسێک پاڵاندبووم."
   },
   "outcome": {

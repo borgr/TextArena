@@ -22,7 +22,7 @@
   "outcome": {
     "survived_win": "Umulayi {player_id} alipuswike; bambi bonse balifwile.",
     "all_crashed": "Bonse abaleteya ifyangalo balifwile pa nshita imo ine.",
-    "outlived": "Player outlived all others.",
+    "outlived": "Umweni wamwenye ukayele ukucilamo bonse.",
     "all_dead": "Bonse abaleteya ifyangalo balifwile.",
     "turn_limit": "Nga mwafika pa cipimo ca kuputulako, uupuswike sana e uncimfya.",
     "ranking": "{reason} Malango ya mwisho ya magulu (yabaji→mazui): {groups}"

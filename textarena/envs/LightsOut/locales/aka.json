@@ -1,13 +1,13 @@
 {
   "player_prompt": {
-    "intro": "Welcome to Lights Out! You have a {size}x{size} grid of lights.\nYour goal is to turn ALL lights OFF (represented by '.')\nWhen you press a light, it toggles itself AND its adjacent neighbors (up/down/left/right).\nType [row col] to press a light (0-indexed, so valid range is 0-{max_index}).\nYou have up to {max_turns} moves to solve the puzzle.\nLegend: 'O' = light ON, '.' = light OFF"
+    "intro": "Akwaaba Lights Out! Wɔde {size}x{size} grid of lights ama wo.\nWo botae ne sɛ wo bɛmaa dɔnko no nyinaa OFF (a wɔgye di sɛ '.')\nBerɛ a wo bɛpɛ dɔnko bi, ɛno bɛsesa ne ho ne ne nɔma a ɛbɛn no (soro/ase/benkum/nifa).\nTo [row col] sɛ wo pɛ dɔnko bi (0-indexed, enti range a ɛfata ne 0-{max_index}).\nWo wɔ {max_turns} moves sɛ wo bɛtumi asesa puzzle no.\nNsɛm a wɔka: 'O' = dɔnko no wɔ ON, '.' = dɔnko no wɔ OFF"
   },
   "board": {
     "current_state": "Hɔnkyɛn bɔ hyɛn mu (Tɔ {moves_made}, {moves_left} tɔ nkae, {completion}% hyɛn mu):\n{grid}"
   },
   "invalid_move": {
     "wrong_format": "Ɛwɔ sɛ wɔde ɔfã a wɔato din [row col] ma no, na ɛhwɛ mu no nkyekyɛmu ne nsensan yɛ akontabuo firi 0 kɔsi {max_index}.",
-    "out_of_range": "Coordinates must be between 0 and {max_index}. You entered [{row},{col}]."
+    "out_of_range": "Coordinates no bɛyɛ fi 0 kɔsi {max_index}. Wo deɛ wo bɔɔ [{row},{col}]."
   },
   "outcome": {
     "win": "Anigyesɛm! Woadi nsɛnnennen no ho dwuma wɔ {moves_used} akwan mu!",

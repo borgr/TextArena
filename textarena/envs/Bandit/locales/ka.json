@@ -18,6 +18,6 @@
   },
   "outcome": {
     "win": "გილოცავ! სწორ ღილაკს აირჩიე.",
-    "lose": "You chose an incorrect button."
+    "lose": "თქვენ აირჩიეთ არასწორი ღილაკი."
   }
 }

@@ -5,7 +5,7 @@
     "commander_beta": "Comandant Beta."
   },
   "game_state": {
-    "header_round": "=== COLONEL BLOTTO - Turn {current_round}/{num_rounds} ===\nTurn vengiui - Commander Alpha: {alpha_score}, Commander Beta: {beta_score}"
+    "header_round": "=== COLONEL BLOTTO - Gir {current_round}/{num_rounds} ===\nGir vengiüü - Comandant Alfa: {alpha_score}, Comandant Beta: {beta_score}"
   },
   "round_battle": {
     "field_result": "\nTurn {current_round}\nCommander Alpha l'ha allocà: {p0_allocations}\nCommander Beta l'ha allocà: {p1_allocations}\n",
@@ -14,8 +14,8 @@
     "tie": "{message}Tie! (Sì, sì)"
   },
   "invalid_move": {
-    "wrong_format": "Invalid input format. Use: A:5 , B:10 , C: 5 .",
-    "invalid_field": "Invalid field name(s). Valid fields: {field_names}",
+    "wrong_format": "Format de ingress invàlid. Düpra: A:5, B:10, C:5",
+    "invalid_field": "Nòm del camp invàlid. Camp vàlid: {field_names}",
     "wrong_allocation_value": "Tutt i assegnament han de vess di intger minga negatif.",
     "incorrect_total_units": "Te seet a dovraa allocà esattament {num_total_units} unitaa. Somma atual: {current_sum}",
     "good_allocations": "La distribuzion l'è bona."

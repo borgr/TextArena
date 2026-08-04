@@ -39,7 +39,7 @@
   "turn": {
     "score_entry": "Lokuta {player_id}: {points} pt",
     "trump_info": "Kode ti Trump: {trump_suit}",
-    "trump_info_deck": "Trump suit: {trump_suit} | Cards left in deck: {deck_count}",
+    "trump_info_deck": "Mbëtï sô {trump_suit} | Kâti ôko tî dekä: {deck_count}",
     "board": "{hand}\n\n{trick}\n\nSko: {scores}\n{trump_info}\n\nKoze karte na [play X]"
   },
   "invalid_move": {

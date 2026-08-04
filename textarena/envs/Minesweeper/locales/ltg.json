@@ -17,6 +17,6 @@
   },
   "outcome": {
     "win": "Apsveicu, tu veiksmeigi izdzīduoji miniskuos plošys.",
-    "turn_limit": "The turn limit has been reached. You successfully uncovered {percent}% of the safe cells."
+    "turn_limit": "Gājienu limits ir sasniegts. Jūs veiksmīgi atkļāvāt {percent}% no drošajām šūnām."
   }
 }

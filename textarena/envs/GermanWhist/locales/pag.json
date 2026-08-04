@@ -15,7 +15,7 @@
     "available_trump": "Say card ya in-offer: {card} (TRUMP)"
   },
   "invalid_move": {
-    "wrong_format": "Invalid move format. Usaren so '[play N]' pian i-play so Nth a kard ed lima yo.",
+    "wrong_format": "Mali so format na galaw. Usaren '[play N]' pian galawen so Nth karta ed sika'y lima.",
     "bad_position": "Ag-itan nagagawa. Kawalaan na {hand_size} a kard mo.",
     "must_follow_suit": "Nepeg mon tumboken so alimbawa ra tan i-play moy {lead_suit} a kard.",
     "invalid_play": "Agnayarin usaren itan a kard."
@@ -25,7 +25,7 @@
   },
   "trick": {
     "won": "Say manlalaban a {winner_id} so analo ed trick ya walay {card}.",
-    "won_learning": "Player {winner_id} winna so trick na{card} tan takes so face-up card."
+    "won_learning": "Player {winner_id} so napanalo ed trick na {card} tan agala ed karta na nengneng ed bokig."
   },
   "phase": {
     "learning_complete": "Asumpal lay panaon na panaral - amin a nakekeraan ya galaw so makanepegan parad pananalo."
@@ -37,8 +37,8 @@
   },
   "turn": {
     "board": "{phase}\n{scores}\n{next_card}\n\n{trick}\n\n{hand}",
-    "scores_learning": "Tricks won so far - Player 0: {tricks0}, Player 1: {tricks1}",
-    "scores_playing": "Scoring tricks - Player 0: {tricks0}, Player 1: {tricks1}",
+    "scores_learning": "Pakamalan so anggano - Aguman 0: {tricks0}, Aguman 1: {tricks1}",
+    "scores_playing": "Pakamalan ya manalo - Aguman 0: {tricks0}, Aguman 1: {tricks1}",
     "phase": "Panaon: {phase}",
     "phase_learning": "Phase: {phase} ({remaining_cards} kardas a nasisilbi diad deck)"
   },
@@ -60,8 +60,8 @@
     "not_started": "Agni ginapo so laro.",
     "header": "=== GERMAN WHIST GAMING=== Ag-ira manpapaliis ed saray totoo.",
     "phase": "{observation}\nPhase: {phase}",
-    "trump_suit": "{observation}\nTrump suit: {trump_suit}",
-    "trump_card": "{observation}\nTrump card: {card}",
+    "trump_suit": "{observation}\nSuit na trump: {trump_suit}",
+    "trump_card": "{observation}\nKarta na trump: {card}",
     "cards_left": "{observation}\nKardas a nasisilbi diad deck: {count}",
     "next_card": "{observation}\nSikato a karda para ken winner: {card}",
     "blank": "{observation}  saray",
@@ -71,6 +71,6 @@
     "player_line": "{observation}\nPlayer {player_id}: {scoring} scoring tricks ({tricks} anggad), {hand_size} kardas diad kamot"
   },
   "outcome": {
-    "summary": "Learning phase - Player 0: {l0}, Player 1: {l1}. Playing phase - Player 0: {p0}, Player 1: {p1}. Player {winner_id} wins with {winner_tricks} scoring tricks!"
+    "summary": "Paseg ya anapan - Aguman 0: {l0}, Aguman 1: {l1}. Paseg ya palaro - Aguman 0: {p0}, Aguman 1: {p1}. Say Aguman {winner_id} so nangabak ed {winner_tricks} pakamalan ya manalo!"
   }
 }

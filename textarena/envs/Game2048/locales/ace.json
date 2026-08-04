@@ -1,16 +1,16 @@
 {
   "player_prompt": {
-    "intro": "Kamu sedang bermain 2048 di papan {board_size}x{board_size}. Tujuanmu adalah mencapai tile {target_tile} dengan menggeser angka identik bersama!\nGerakan sah: [Up], [Down], [Left], [Right]. Tile bergabung ketika mereka bertabrakan, menggandakan nilainya.\n"
+    "intro": "Droe jeu 2048 bak papan {board_size}x{board_size}. Tujuan droe nyan keuh bak tile {target_tile} ngon cara meusabông nomor-nomor nyang sama!\nGeurakan sah: [Up], [Down], [Left], [Right]. Tile-tile meusabông bak watèe jiteumeung, ngon nilai jiduek.\n"
   },
   "board": {
     "current_board": "Skor: {score}\n{board}"
   },
   "invalid_move": {
-    "invalid_action": "Tindakan tidak sah. Gunakan '[Up]'/'[Down]'/'[Left]'/'[Right]'.",
+    "invalid_action": "Geurakan salah. Gunakan '[Up]'/'[Down]'/'[Left]'/'[Right]'.",
     "no_change": "Dewan hana meu ubah - pileh arah yang berbeda."
   },
   "outcome": {
-    "win": "Selamat, kamu mencapai {target_tile}! Skor akhir {score}.",
-    "lose": "Tidak ada gerakan lagi. Tile maksimum {max_tile} - skor akhir {score}."
+    "win": "Selamat, droe jeu raseuki {target_tile}! Poin akhir {score}.",
+    "lose": "Hana geurakan laén. Tile maksimal {max_tile} - poin akhir {score}."
   }
 }

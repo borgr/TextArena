@@ -36,7 +36,7 @@
     "message": " Ugyldig handling! Tilgjengelege handlingar: {available}"
   },
   "action": {
-    "folded": "🃏 You folded."
+    "folded": "🃏 Du foldet."
   },
   "showdown": {
     "dealer_hand": " SHOWDOWN! Hånden til seljaren: {cards}",

@@ -10,7 +10,7 @@
     "{to}": "The destination coordinate of a move, such as b3"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in game of LinesOfAction.\nYour pieces are '{side}', opponent pieces are '{other}'.\nMove format: `[b1b3]` (from-coord to-coord). A legal move travels horizontally, vertically, or diagonally a number of squares equal to the total pieces (any colour) in that line. You may jump over your own pieces, but not opponent pieces; landing on an opponent captures it.  Win when all your pieces are 8-neighbour connected."
+    "intro": "Inwe Player {player_id} katika mchezo wa LinesOfAction.\nGoli yako ni '{side}', goli la piny owacho ni '{other}'.\nMfumo wa kusonga: `[b1b3]` (kutoka-eneo hadi-eneo). Sunga mweri huruka kando, juu-mbali, au diagonally nambari ya miraba sawa na jumla ya goli (rangi yoyote) katika mstari ule. Inaweza kuruka juu ya goli yako mwenyewe, lakini si goli la piny owacho; kudhi kwa piny owacho kunaikamata.  Winwe wakati goli zako zote zimeunganishwa na jirani 8."
   },
   "board": {
     "current_board": "Board: {board} mar ariyo e wi weche mag siasa."
@@ -26,7 +26,7 @@
   },
   "game_action": {
     "moved": "Player {player_id} ochung' {from} -> {to}",
-    "captured_suffix": "Player {player_id} moved {from} -> {to} capturing an enemy."
+    "captured_suffix": "Player {player_id} osonga {from} -> {to} akakamata adui."
   },
   "outcome": {
     "win": "Gik moko duto te oriwore.",

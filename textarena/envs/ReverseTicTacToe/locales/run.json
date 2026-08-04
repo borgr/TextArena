@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a game of Reverse Tic Tac Toe. Your symbol is '{symbol}'.\nThe goal is to avoid getting three in a row (horizontally, vertically, or diagonally).\nIf you make three in a row, you LOSE.\nSubmit your move using the format '[4]' to place your symbol in cell 4.\nAs Player {player_id}, you are '{symbol}' and your opponent is '{opponent_symbol}'."
+    "intro": "Uri mugenzi {player_id} muri muziki wa Reverse Tic Tac Toe. Ikimenyetso cyawe ni '{symbol}'.\nIngenzi ni kugira utaziwe imenyetso itatu muri umurongo (kw'isagara, kw'inzira, cyangwa kw'umukondo).\nIkiwa ukora imenyetso itatu muri umurongo, utakaza.\nOhereze ingendo yawe ukoresheje muundo '[4]' ugashe ikimenyetso cyawe muri seli 4.\nNk'umugenzi {player_id}, uri '{symbol}' na mugenzi wawe ni '{opponent_symbol}'."
   },
   "board": {
     "current_board": "Kibao cha sasa:\n\n{board}\n\nIndorero zinazopatikana: {moves}"

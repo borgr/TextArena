@@ -22,18 +22,18 @@
     "final_ranking": "list of player indices from first eliminated to winner"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in an {num_players}-player Liar's Dice game.\nRules:\n- On your turn, you may either:\n  1) Make a new bid with a higher quantity or higher face (or both) than the current bid; i.e. '[Bid: 3, 4]',\n  2) Call the last bid by typing '[Call]'.\n\nIf you call:\n  - If the actual count of that face value among all dice is less than the bid, the last bidder loses one die.\n  - Otherwise, the caller loses one die.\nA player who reaches 0 dice is eliminated. The last remaining player wins."
+    "intro": "Yin ee Player {player_id} ee game Liar's Dice ee kɔc {num_players}.\nKäŋɛɛk:\n- Yin ee wɛ̈ɛ̈r, yin ee kuɔny:\n  1) Cɔ̈ɔ̈l bid tɛ̈ɛ̈m ee kɔ̈k ë kɔ̈k kuɔ̈ɔ̈p, ku bïïd ee kɔ̈k ë kɔ̈k ë kuɔ̈ɔ̈p (ku bɛ̈ɛ̈i) ë bïïd yam; ee '[Bid: 3, 4]',\n  2) Yɛ̈ɛ̈l bïïd yam ee kuɔ̈ɔ̈p '[Call]'.\n\nYin ee yɛ̈ɛ̈l:\n  - Yɛ̈ɛ̈ ee kɔ̈k ë kuɔ̈ɔ̈p ee dɛ̈ɛ̈ ee kɔ̈k ë bïïd, kuɔ̈ɔ̈p ee kɔ̈k ë bïïd ee dɛ̈ɛ̈ ee yɛ̈ɛ̈ ee dɛ̈ɛ̈.\n  - Ku bɛ̈ɛ̈i, yɛ̈ɛ̈ ee dɛ̈ɛ̈ ee dɛ̈ɛ̈.\nRäɛ̈ɛ̈ ee kɔ̈k ë dɛ̈ɛ̈ ee 0, ee kɔ̈k ë yɛ̈ɛ̈ ee wɛ̈ɛ̈ɛ̈. Räɛ̈ɛ̈ ee kɔ̈k ë yɛ̈ɛ̈ ee wɛ̈ɛ̈ɛ̈ ee kɔ̈k."
   },
   "board": {
     "per_player": "\tRaam {p}: {d}",
     "new_round": "\nCiɛŋ riɛl - Kɛm de wäär: {dice_summary}\nWäär aye cɛɛl kuɔny: {your_dice}"
   },
   "call": {
-    "bidder_loses": "Player {current_player_id} calls! The actual count of face {face_value} is {count}, which is LESS than {quantity}.\nPlayer {loser_id} (the last bidder) loses one die.",
-    "caller_loses": "Player {current_player_id} calls! The actual count of face {face_value} is {count}, which is >= {quantity}.\nPlayer {loser_id} (the caller) loses one die."
+    "bidder_loses": "Akɛ̈ɛ̈th nhïïm raan {current_player_id} kɔ̈ɔ̈c nhïïm! Kuɛ̈të nhïïm kɔ̈ɔ̈c nhïïm raan {face_value} aye {count}, aye LESS kuɛ̈të {quantity}.\nAkɛ̈ɛ̈th nhïïm raan {loser_id} (akɛ̈ɛ̈th nhïïm kɔ̈ɔ̈c nhïïm) aye tɛ̈ɛ̈ŋë nhïïm kɔ̈ɔ̈c nhïïm.",
+    "caller_loses": "Akɛ̈ɛ̈th nhïïm raan {current_player_id} kɔ̈ɔ̈c nhïïm! Kuɛ̈të nhïïm kɔ̈ɔ̈c nhïïm raan {face_value} aye {count}, aye >= kuɛ̈të {quantity}.\nAkɛ̈ɛ̈th nhïïm raan {loser_id} (akɛ̈ɛ̈th nhïïm kɔ̈ɔ̈c nhïïm) aye tɛ̈ɛ̈ŋë nhïïm kɔ̈ɔ̈c nhïïm."
   },
   "action": {
-    "bid_announce": "Player {player_id} bids {quantity} of face {face_value}."
+    "bid_announce": "Akɛ̈ɛ̈th nhïïm raan {player_id} kɔ̈ɔ̈c nhïïm {quantity} kɔ̈ɔ̈c nhïïm raan {face_value}."
   },
   "invalid_move": {
     "call_no_bid": "Luɔ̈i cï looi ke cïn kë cë kɔn lueel.",

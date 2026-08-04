@@ -12,7 +12,7 @@
     "invalid_position": "ಅಮಾನ್ಯ ಚಲನೆ - ಆ ಸ್ಥಾನಕ್ಕೆ ಚಲಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ."
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
+    "moved": "ನೀವು {pushed} [{action}] ಚಲಿಸಿದ್ದೀರಿ.",
     "pushed_prefix": "ಒಂದು ಬಾಕ್ಸ್ ತಳ್ಳಿತು"
   },
   "outcome": {

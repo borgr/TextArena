@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a {num_rounds}-round of IteratedTwoThirdsAverage.\nEach round, guess a number between {min_guess} and {max_guess}.\nAfter both guesses, the target is (2/3)x(average of both guesses),\nand the player whose guess is closest to the target wins that round.\nReply with your guess in the format '[<number>]'."
+    "intro": "Kedda d-iklan {player_id} deg wawal {num_rounds} n IteratedTwoThirdsAverage.\nKul waṭṭa, ṣawwur iḍan s wakal n {min_guess} d {max_guess}.\nDeffir nnuḍa n wakalen, anḍa iḍan (2/3)x(taṣwir n wakalen wudan),\nd uɣaleɣ d ikal wu iḍan iqqaraben ɣer anḍa iṛummen waṭṭa-nni.\nIrrac ɣer wakal-ik deg wawal '[<number>]'."
   },
   "invalid_move": {
     "wrong_format": "ⵜⴰⵍⵖⴰ ⵓⵔ ⵜⵓⵙⵍⵉⴳ; ⵙⵔⵙⵏ ⴰⵙⵏⵎⴽⵜⵉ ⵏⵏⵓⵏ [<number>].",

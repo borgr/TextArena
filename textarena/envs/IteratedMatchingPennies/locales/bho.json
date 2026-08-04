@@ -6,7 +6,7 @@
     "wrong_format": "अमान्य फॉरमेट; कृपया '[heads]' या '[tails]' जमा करें।"
   },
   "message": {
-    "round_match": "Player 0 picked {choice0}; Player 1 picked {choice1}. Match -> Player 0 wins",
+    "round_match": "खिलाड़ी 0 ने {choice0} चुना; खिलाड़ी 1 ने {choice1} चुना। मेल -> खिलाड़ी 0 जीतता है",
     "round_mismatch": "प्लेयर 0 ने {choice0} चुना; प्लेयर 1 ने {choice1} चुना। मिसमैच -> प्लेयर 1 जीतता है।"
   },
   "outcome": {

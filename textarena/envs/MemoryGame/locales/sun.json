@@ -13,13 +13,13 @@
     "already_matched": "Gerak anu teu sah. Pamaén {player_id} milih salah sahiji atawa duanana kartu nu geus disaluyukeun."
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "Kartu anu dipilih ku Player {player_id} di posisi [{r1} {c1}] jeung [{r2} {c2}] cocog!",
+    "cards_no_match": "Kartu anu dipilih ku Player {player_id} henteu cocog. Kartu di posisi [{r1} {c1}] jeung [{r2} {c2}] nyaéta {pos1} jeung {pos2} patut-patutna."
   },
   "outcome": {
     "draw": "Kadua pamaén cocog jumlah anu sarua tina pasangan kartu.",
     "win": "Pamaén {winner_id} geus meunang!",
-    "turn_limit": "Wates giliran geus kabéh. Game geus rampung. Player 0 meunang {score_0} poin, Player 1 meunang {score_1} poin.",
+    "turn_limit": "Wates giliran geus kabiruk. Permainan geus réngsé. Pamaén 0 meunang {score_0} poin, Pamaén 1 meunang {score_1} poin.",
     "turn_limit_win": "{reason} Player {winner_id} meunang!"
   }
 }

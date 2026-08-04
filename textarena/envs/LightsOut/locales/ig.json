@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "Ihe omume ga-adị na usoro [row col] ebe ahịrị na col bụ integers si 0 ruo {max_index}.",
-    "out_of_range": "Coordinates must be between 0 and {max_index}. You entered [{row},{col}]."
+    "out_of_range": "Nkọwa ga-abụ n'etiti 0 na {max_index}. Ị tinyere [{row},{col}]."
   },
   "outcome": {
     "win": "Ekele! Ị doziri mgbaghoju anya na {moves_used} na-agagharị!",

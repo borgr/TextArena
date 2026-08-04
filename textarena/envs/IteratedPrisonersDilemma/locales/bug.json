@@ -1,18 +1,18 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in an Iterated Prisoner's Dilemma spanning {num_rounds} rounds.\n\nGame Structure:\n- Before each decision you have {total_conversation_rounds} turns to communicate freely.\n- After that, both players simultaneously choose to cooperate or defect.\n\nPayoff Matrix (fixed each round):\n- Both Cooperate ➜ each {cooperate_reward}\n- Both Defect ➜ each {mutual_defect_reward}\n- One Defects, one Cooperates ➜ Defector {defect_reward}, Cooperator {sucker_reward}\n\nHow to Play:\n- During conversation: type any text you wish.\n- During decision phase: include '[Cooperate]' or '[Defect]' (case-insensitive). You may add extra text before/after the token."
+    "intro": "Sida Player {player_id} ri Iterated Prisoner's Dilemma makkalu {num_rounds} ronde.\n\nStruktur Permainan:\n- Sibalunna kada pammulang, kau punna {total_conversation_rounds} giliran mappasangka.\n- Sibalunna pammulang, kadua player pasimultanna pilih makkalucoop atau makkaludefek.\n\nMatriks Payoff (tetap saban ronde):\n- Kadua Coop ➜ kada {cooperate_reward}\n- Kadua Defek ➜ kada {mutual_defect_reward}\n- Sese Defek, sese Coop ➜ Defektor {defect_reward}, Kooperator {sucker_reward}\n\nCara Bermain:\n- Ri pappasangka: kau ketikna teks sibawa.\n- Ri pammulang: masukkan '[Cooperate]' atau '[Defect]' (tidak peka huruf besar). Kau bisa nambah teks sabalunna/sapammulang token."
   },
   "phases": {
-    "conversation_finished": "Conversation finished for round {round}. Please reply with '[Cooperate]' or '[Defect]' within \\boxed{{}}.",
+    "conversation_finished": "Pappasangka tamat ri ronde {round}. Tolong balasna '[Cooperate]' atau '[Defect]' ri \\boxed{{}}.",
     "starting_round": "--- Mappammulai Bulatna {round} ---",
-    "round_summary": "Hasil putaran {round}:\n{outcome}\nPamain 0 memperoleh {r0} (total {score_0}), Pamain 1 memperoleh {r1} (total {score_1})."
+    "round_summary": "Hasili ripakale {round}:\n{outcome}\nTau 0 makkalu {r0} (tolu {score_0}), Tau 1 makkalu {r1} (tolu {score_1})."
   },
   "outcome": {
-    "winner": "Pamain {winner} menang {win_score} - {lose_score}.",
+    "winner": "Player {winner} menang {win_score} - {lose_score}.",
     "draw": "Draw! Duanna tau maccule naccue {s0}.",
     "round_both_cooperate": "Ri duwae tau maccule majjama.",
     "round_both_defect": "Ri duwae tau maccule' e nalai.",
-    "round_p0_cooperates_p1_defects": "Pemaen 0 bekerja sama, pemaen 1 berdeser.",
-    "round_p0_defects_p1_cooperates": "Pemaen 0 nalai, pemaen 1 majjama."
+    "round_p0_cooperates_p1_defects": "Tau 0 mappakkita, Tau 1 makkatolak.",
+    "round_p0_defects_p1_cooperates": "Tau 0 makkatolak, Tau 1 mappakkita."
   }
 }

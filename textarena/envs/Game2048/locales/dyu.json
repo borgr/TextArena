@@ -11,6 +11,6 @@
   },
   "outcome": {
     "win": "Aw ka kɛlɛ, i ye {target_tile}! Siri kɛnɛ {score}.",
-    "lose": "No moves left. Max tile {max_tile} - final score {score}."
+    "lose": "Kɛlɛ si tɛ sɔrɔ. Bɔli kɛlɛ {max_tile} - mɛri kɔnɔ {score}."
   }
 }

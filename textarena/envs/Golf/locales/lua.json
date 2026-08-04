@@ -21,17 +21,17 @@
     "{scores}": "The pre-rendered per-player list of final scores"
   },
   "player_prompt": {
-    "intro": "You are playing Golf (Card Game) - Player {player_id}.\nGoal: Get the lowest total score in this single round. If columns share the same value, they are summed as 0.\nCard Values: A=1, 2-10=face value, J/Q=10, K=0\n\nActions (use exact brackets):\n- '[draw]' - Draw from deck\n- '[take]' - Take from discard pile\n- '[swap X Y]' - Swap drawn card with position X (row) Y (column)\n- '[discard]' - Discard the drawn card\n"
+    "intro": "Owe udi mu kopo Golf (Kopo ka Kadhi) - Muntu {player_id}.\nMukono: Fwena kopo dhi ya chini kabisa mu kopo kiaka. Ikiwa bambidi bafwana kwa thombe mothe, bafwanwa na 0.\nThombe za Kadhi: A=1, 2-10=thombe ya kadhi, J/Q=10, K=0\n\nMikopo (tumina mabano ya kupe):\n- '[draw]' - Kopa ku kadhikopo\n- '[take]' - Kopa ku kadhikopo kwa kufwena\n- '[swap X Y]' - Kukopa kadhi ya ku kadhikopo na kuika kwa X (melo) Y (bambidi)\n- '[discard]' - Ku kadhikopo kadhi ya ku kadhikopo\n"
   },
   "board": {
-    "drew": "You drew: {card}\nNow you must [swap X Y] or [discard] it.",
+    "drew": "Wakopa: {card}\nMukulo mwa ku [swap X Y] au [discard] yai.",
     "took": "Udi wangata: {card} mu tshivuadi tshia bintu bia kushipa. Udi ne bua kufila (kaudi mua kubipata) mukanda wa [swap X Y] kudiwu to.",
     "peeked": "Ukakumbuka kwa nafasi ({row},{col}): {card}",
     "turn_view": "Lukulu lako:\n{hand}\nTundu la kubwaka: {discard}\n{options}",
     "none": "Kakuena nansha umue."
   },
   "options": {
-    "final_turns": "Final turns! Your options: [draw], [take], [peek X Y]",
+    "final_turns": "Mikopo ya mwisho! Mikopo yenu: [draw], [take], [peek X Y]",
     "draw": "Chaguo lako: [draw], [take]",
     "must_swap": "Udi ne bua: [swap X Y] (kuena mua kuimansha karte mu mulongo wa maleta)",
     "swap_or_discard": "Unalazima: [swap X Y] au [discard]"
@@ -51,14 +51,14 @@
     "final_round": "Mwadi {pid} {reason}! Kila mwadi mwingine anapata mzunguko mmoja zaidi"
   },
   "reason": {
-    "all_revealed": "has all cards revealed"
+    "all_revealed": "ana kadhi zote za kuonwa"
   },
   "invalid": {
-    "wrong_action": "Use exactly ONE bracketed action: [draw], [take], [swap X Y], [discard], [knock], or [peek X Y]",
+    "wrong_action": "Tumina mabano ya kupe moja tu: [draw], [take], [swap X Y], [discard], [knock], au [peek X Y]",
     "discard_empty": "Tshintu tshia kuimansha natshi bintu katshiena kabidi ne tshintu to!",
     "must_draw_first": "Unalazima kwanza [draw], [take], [knock], au [peek X Y]",
     "cannot_discard_taken": "Kuena mua kulekela karte ka mu tshibungi tshia mikanda ya dibenga to, kadi udi ne bua kukupingaja.",
-    "have_drawn_card": "You have a drawn card. You must [swap X Y] or [discard] it.",
+    "have_drawn_card": "Una kadhi ya ku kadhikopo. Mukulo mwa ku [swap X Y] au [discard] yai.",
     "need_drawn_swap": "Udi ne bua kuikala muangate karte aka.",
     "need_drawn_discard": "Udi ne bua kuikala mupete karte kadi kakusokoka.",
     "out_of_bounds": "Nafasi imepita mipaka. Utumie mwamba 1-{max_row}, safu 1-{max_col}",

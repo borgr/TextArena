@@ -6,8 +6,8 @@
     "wrong_format": "Bali ang format; palihug isubmit '[heads]' o '[tails]'."
   },
   "message": {
-    "round_match": "Player 0 picked {choice0}; Player 1 picked {choice1}. Match -> Player 0 wins",
-    "round_mismatch": "Ang Player 0 nakapili {choice0}; Ang Player 1 nakapili {choice1}. Mismatch -> Ang Player 1 ang nanagpungko."
+    "round_match": "Ang Manlalaro 0 mipili og {choice0}; Ang Manlalaro 1 mipili og {choice1}. Tugma -> Ang Manlalaro 0 ang nagdaog",
+    "round_mismatch": "Ang Manlalaro 0 mipili og {choice0}; Ang Manlalaro 1 mipili og {choice1}. Dili tugma -> Ang Manlalaro 1 ang nagdaog"
   },
   "outcome": {
     "p0_wins": "Ang Player 0 nakadaog ug dugang nga mga round.",

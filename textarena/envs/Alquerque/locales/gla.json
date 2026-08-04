@@ -13,7 +13,7 @@
     "illegal": "Gluasad mì-laghail."
   },
   "game_action": {
-    "captured": "Player {player_id} captured a piece! (+{score_per_capture})"
+    "captured": "Ghlac cluicheadair {player_id} pìos! (+{score_per_capture})"
   },
   "outcome": {
     "no_pieces": "Chan eil pìosan aig cluicheadair {player_id}.",

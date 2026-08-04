@@ -14,7 +14,7 @@
     "placement": "Jogadó {current_player_id} meti símbolu del ({symbol}) na célula {cell_num}."
   },
   "outcome": {
-    "winner": "Player {current_player_id} ('{symbol}') connected two opposite edges!",
+    "winner": "Jogador {current_player_id} ('{symbol}') koneta dois kantu opostu!",
     "draw": "Ta da pa konta ma tudu algen sta na ta kanba."
   }
 }

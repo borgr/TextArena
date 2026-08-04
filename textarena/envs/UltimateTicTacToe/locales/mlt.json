@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in **Ultimate Tic Tac Toe**.\nSubmit your move as **[macro  micro]** (two numbers 0-8):\n• *macro*  = which mini-board you play in\n• *micro* = which square inside that mini-board\nExample `[7 8]` ➜ place your mark in mini-board 7, square 8, and\nforce your opponent to play in mini-board 8 next.\n\nYou are `{symbol}`.\n"
+    "intro": "Int qed ikun Player {player_id} f'**Ultimate Tic Tac Toe**.\nIbgħat il-mossa tiegħek bħala **[macro  micro]** (żewġ numri 0-8):\n• *macro*  = f'liema mini-bord qed tilgħab\n• *micro* = f'liema kwadru ġewwa dak il-mini-bord\nEżempju `[7 8]` ➜ qiegħed il-marka tiegħek fil-mini-bord 7, kwadru 8, u\nġiegħel l-avversarju tiegħek jilgħab fil-mini-bord 8 li jmiss.\n\nInt qed ikun `{symbol}`.\n"
   },
   "board": {
     "current_board": "Bord kurrenti: {board}"
@@ -18,7 +18,7 @@
     "specific": "mikrobord {nxt}"
   },
   "game_action": {
-    "played": "Player {player_id} lagħab fuq micro board {macro_idx}, ċellula {micro_idx} (saf {row}, kolonna {col}). Player {opponent_id} irid issa jilgħab fuq {nxt_txt}."
+    "played": "Il-player {player_id} lagħab fil-mini-bord {macro_idx}, ċellula {micro_idx} (ġenb {row}, kolonna {col}). Il-player {opponent_id} issa irid jilgħab f'{nxt_txt}."
   },
   "outcome": {
     "win": "Il-plejer {player_id} jirbaħ l-Ultimate Tic Tac Toe!",

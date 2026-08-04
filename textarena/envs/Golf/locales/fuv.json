@@ -24,8 +24,8 @@
     "intro": "Kana taka leda Golf (Wasannin Kati) - Ɗan {player_id}.\nManufa: Sami maki mafi ƙaranci a karon daya. Idan safai suna da ɗaya iri, suna ƙara a matsayin 0.\nKadatu: A=1, 2-10=maƙallin daraja, J/Q=10, K=0\n\nAyyuka (amfani da brackets mai tsari):\n- '[draw]' - Ja daga tsaƙa\n- '[take]' - ɗauka daga tarin yin yi\n- '[swap X Y]' - Canza katin da aka ja da matsayin X (jerin) Y (safai)\n- '[discard]' - Yi yin yi da katin da aka ja"
   },
   "board": {
-    "drew": "You drew: {card}\nNow you must [swap X Y] or [discard] it.",
-    "took": "You took: {card} from discard pile\nYou must [swap X Y] with it (cannot discard).",
+    "drew": "Ka jawo: {card}\nYanzu ka ɗauka [swap X Y] ko [discard] shi.",
+    "took": "A yiɓa: {card} daga puɗɗirɗe ɓaawo\nA ɗo ɓeyda [swap X Y] bee (a ɗo ɗaɓɓa ɓaawo).",
     "peeked": "Ka taɓa wuri ({row},{col}): {card}",
     "turn_view": "Haninka:\n{hand}\nTarin yin yi: {discard}\n{options}",
     "none": "Walaa ko ɗon"
@@ -58,7 +58,7 @@
     "discard_empty": "Wuro wurtinol wala kujeji!",
     "must_draw_first": "Ka gana fara [draw], [take], [knock], ko [peek X Y]",
     "cannot_discard_taken": "A waawataa ittuki kaar je a jaɓɓa diga ko hauti be kujeji.",
-    "have_drawn_card": "You have a drawn card. You must [swap X Y] or [discard] it.",
+    "have_drawn_card": "A woodi karta a yiɓa. A ɗo ɓeyda [swap X Y] bee a ɗo ɓeyda [discard] karta.",
     "need_drawn_swap": "A yiɗi kaarol je ɓe ɓesdi ngam sendugo.",
     "need_drawn_discard": "A yiɗi kaarol je ɗum wurtini ngam ittuki.",
     "out_of_bounds": "Wuri ba a cikin iyaka. Amfani da jerin 1-{max_row}, safai 1-{max_col}",

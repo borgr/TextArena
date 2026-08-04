@@ -9,11 +9,11 @@
     "{pct}": "Progress as a percentage string, e.g. 50%"
   },
   "player_prompt": {
-    "intro": "Map each letter to a unique digit so the arithmetic holds.\nAssign with `[A 5]`, re-assign anytime.\n"
+    "intro": "Her tîpekê bi hejmarekî yekta re girêde ta ku hesabê çiwbike.\nBi `[A 5]` ve tayîn bike, dîsa jî dibe tayîn bike.\n"
   },
   "invalid_move": {
-    "wrong_format": "Bad action format. Use `[A 5]`.",
-    "letter_not_in_puzzle": "Letter {letter} not in puzzle.",
+    "wrong_format": "Formatê xebata xirab. `[A 5]` bi kar bîne.",
+    "letter_not_in_puzzle": "Tîpa {letter} di puzelê de nîn e.",
     "digit_used": "Jimara {digit} berê hatiye bikaranîn ji aliyê {used_letter}.",
     "leading_zero": "Hûmara pêşîn a peyvekê nikare 0 be."
   },

@@ -19,7 +19,7 @@
   "invalid_move": {
     "wrong_format": "Қозғалыс пішімі жарамсыз. Ұяшықтың 0-{max_cell} болғанда \"[cell]\" дегенді пайдаланыңыз.",
     "out_of_range": "Жарамсыз ұяшық нөмірі: {cell}. 0 мен {max_cell} аралығында болуы тиіс.",
-    "already_occupied": "Cell {cell} is already occupied.",
+    "already_occupied": "{cell} жасушасы бос емес.",
     "made_invalid": "Ойыншы {player_id} жарамсыз ойын жасады"
   },
   "game_action": {

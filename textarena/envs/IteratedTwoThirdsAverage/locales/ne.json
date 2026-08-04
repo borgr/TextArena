@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a {num_rounds}-round of IteratedTwoThirdsAverage.\nEach round, guess a number between {min_guess} and {max_guess}.\nAfter both guesses, the target is (2/3)x(average of both guesses),\nand the player whose guess is closest to the target wins that round.\nReply with your guess in the format '[<number>]'."
+    "intro": "तपाईं खेलाडी {player_id} IteratedTwoThirdsAverage को {num_rounds}-राउन्डमा हुनुहुन्छ।\nप्रत्येक राउन्डमा, {min_guess} र {max_guess} बीचको संख्या अनुमान गर्नुहोस्।\nदुवै अनुमान पछि, लक्ष्य दुवै अनुमानको औसतको (2/3) गुण हुन्छ,\nर जसको अनुमान लक्ष्य नजिक हुन्छ, उही खेलाडी त्यो राउन्ड जित्छ।\nआफ्नो अनुमान '[<number>]' प्रारूपमा दिनुहोस्।"
   },
   "invalid_move": {
     "wrong_format": "अवैध ढाँचा; कृपया [<number>] को रूपमा आफ्नो अनुमान पेश गर्नुहोस्।",

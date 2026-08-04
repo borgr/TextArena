@@ -10,7 +10,7 @@
     "intro": "Jūs esat spēlētājs {player_id} Tic Tac Toe.\nJūsu mērķis ir uzvarēt trīs sekundēs (horizontāli, vertikāli vai diagonāli) tabulā.\nJūsu kārtā jūs vēlaties izvēlēties kvadrāta numuru (0-8), kurā jūs vēlaties ievietot savu zīmi nākamajā.\nPiemēram, '[4]' ievieto jūsu zīmi tabulas centrālajā šūnā.\nKā spēlētājs {player_id}, jūs būsiet '{symbol}', bet jūsu pretinieks būs '{opponent_symbol}'."
   },
   "board": {
-    "current_board": "Current Board:\n\n{board}\n\nAvailable Moves: {moves}"
+    "current_board": "Pašreizējais galdiņš:\n\n{board}\n\nPieejamie gājieni: {moves}"
   },
   "invalid_move": {
     "wrong_format": "Pīduovotais maisejums napateik pareizam formatam.",

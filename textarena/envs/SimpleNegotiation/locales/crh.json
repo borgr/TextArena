@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "Siz Oyuncu {player_id}'sınız Müzakere Oyununda.\nBazı kaynaklara sahipsiniz ve göreviniz, kaynaklarınızı öyle bir şekilde ticaret yaparak toplam değerini artırmaktır.\nŞu an sahip olduğunuz kaynaklar ve bunlarla ilgili değerler:\n\t+ {resource_value_list}\nHer turda, rakibinizle konuşabilir ve bir ticaret teklifi yapabilirsiniz.\nAşağıdaki özel tokenları hareketler için kullanın:\n  - '[Teklif: 3 Koyun, 2 Demir -> 5 Tuğla, 2 Koyun]': [Teklif: Teklif Edilen Kaynaklar -> İstenen Kaynaklar]\n  - '[Accept]': Gelen teklifi kabul etmek için.\n  - '[Deny]': Gelen teklifi reddetmek için (varsayılan).\nOyun toplam {max_turns} tur sürer."
+    "intro": "Siz Oyuncu {player_id}'sınız Müzakere Oyununda.\nBazı kaynaklara sahipsiniz ve göreviniz, kaynaklarınızı öyle bir şekilde ticaret yaparak toplam değerini artırmaktır.\nŞu an sahip olduğunuz kaynaklar ve bunlarla ilgili değerler:\n\t+ {resource_value_list}\nHer turda, rakibinizle konuşabilir ve bir ticaret teklifi yapabilirsiniz.\nAşağıdaki özel tokenları hareketler için kullanın:\n  - '[Offer: 3 Sheep, 2 Ore -> 5 Brick, 2 Sheep]': [Offer: Offered Resources -> Requested Resources]\n  - '[Accept]': Gelen teklifi kabul etmek için.\n  - '[Deny]': Gelen teklifi reddetmek için (varsayılan).\nOyun toplam {max_turns} tur sürer."
   },
   "invalid_move": {
     "receiving_with_no_resource": "Oyuncı, kerekli resursları olmağan bir ticaretni qabul etmege tırıştı.",

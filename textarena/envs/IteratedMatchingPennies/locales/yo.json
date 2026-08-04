@@ -6,7 +6,7 @@
     "wrong_format": "Àkọlé tí kò bágbà mu; jọ̀wọ́ fi \"[heads]\" tàbí \"[tails]\" kún un."
   },
   "message": {
-    "round_match": "Player 0 mú {choice0}; Player 1 mú {choice1}. Ìjàpá -> Player 0 gba",
+    "round_match": "Oṣẹ 0 yan {choice0}; Oṣẹ 1 yan {choice1}. Ifẹsẹ -> Oṣẹ 0 gbẹ",
     "round_mismatch": "Ẹlẹ́dàá 0 mú {choice0}; Ẹlẹ́dàá 1 mú {choice1}. Àìgbawọ́ra -> Ẹlẹ́dàá 1 borí."
   },
   "outcome": {

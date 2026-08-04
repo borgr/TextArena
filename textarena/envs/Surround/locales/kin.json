@@ -10,7 +10,7 @@
     "{groups}": "Neutral ranking data (a list of player-id groups, best to worst); do not translate"
   },
   "player_prompt": {
-    "intro": "{num_players}-Player Surround on a {width}x{height} grid.\nYou are player {player_id}. Valid moves: '[up]' '[down]' '[left]' '[right]' or w/s/a/d.\nObjective: outlive everyone else. Trails are deadly; wall hits kill; head-on crashes kill both."
+    "intro": "{num_players}-Wachezaji wa Surround kwenye gridi ya {width}x{height}.\nWewe ni mchezaji {player_id}. Mwendo halali: '[up]' '[down]' '[left]' '[right]' au w/s/a/d.\nLengo: kuishi zaidi ya wengine wote. Njia zinaweza kuua; kugonga kuta kunaweza kuua; makosa ya kichwa kwa kichwa yanaweza kuua wote wawili."
   },
   "board": {
     "current": "Ubuyobozi bw'ikigo: {board}",
@@ -25,6 +25,6 @@
     "outlived": "Uwo mukinnyi yarokotse abandi bose.",
     "all_dead": "Abakinnyi bose bapfuye.",
     "turn_limit": "Iyo ugeze ku mupaka w'aho ushobora guhindukira, uwarokotse igihe kirekire kurusha abandi ni we utsinda.",
-    "ranking": "{reason} Final ranking groups (best→worst): {groups}"
+    "ranking": "{reason} Vikundi vya mwisho vya utaratibu (bora→mbaya): {groups}"
   }
 }

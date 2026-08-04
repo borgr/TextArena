@@ -19,26 +19,26 @@
     "{deck_count}": "Number of cards left in the deck"
   },
   "game": {
-    "start": "Briscola game tan a ni! Trump suit: {trump_suit} (Trump card: {trump_card})"
+    "start": "Briscola khelh tan a ni! Trump suit: {trump_suit} (Trump card: {trump_card})"
   },
   "prompt": {
-    "intro": "Briscola khel a, Player {player_id} ni e.\nGoal: Trick win rawh leh points tam ber ngah e (120 total points in the deck).\nCard Points: A=11, 3=10, K=4, Q=3, J=2, dangte=0\nCard Power: A > 3 > K > Q > J > 7 > 6 > 5 > 4 > 2\nTrump cards hian non-trump cards an khing e, power an neih ang ang.\n\nAction: '[play X]' where X is the position (1-{max_pos}) of the card in your hand\n"
+    "intro": "I chuan Briscola khelh dawn - Player {player_id}.\nChanchin: Trick hneh a, point tam ber hmuh te a ni (Deck-ah point 120 a awm).\nCard Point: A=11, 3=10, K=4, Q=3, J=2, dang=0\nCard Power: A > 3 > K > Q > J > 7 > 6 > 5 > 4 > 2\nTrump card chuan non-trump card a hneh zawk a ni.\n\nAction: '[play X]' where X hi i kutah card um dan (1-{max_pos}) a ni\n"
   },
   "hand": {
     "none": "Card a awm lo.",
-    "empty": "No cards in hand",
+    "empty": "Kutah card a awm lo",
     "header": "I kut:",
     "card_line": "  {pos}. {card} [{points} pts]{trump_mark}",
     "trump_mark": "(TRUMP) A ni e."
   },
   "trick": {
     "empty": "He trick hi card khelh a la ni lo.",
-    "header": "Current trick:",
+    "header": "Tunlai trick:",
     "line": "  Player {player_id}: {card}{trump_mark}"
   },
   "turn": {
-    "score_entry": "Player {player_id}: {points} pts",
-    "trump_info": "Trump suit: {trump_suit}",
+    "score_entry": "Player {player_id}: {points} point",
+    "trump_info": "Trump suit: {trump_suit} chu a ni",
     "trump_info_deck": "Trump suit: {trump_suit} | Deck a card dang ṭhen: {deck_count}",
     "board": "{hand}\n\n{trick}\n\nScores: {scores}\n{trump_info}\n\nCard khelh '[play X]' hmang"
   },
@@ -48,10 +48,10 @@
   },
   "action": {
     "played": "Player {player_id} {card} a khel",
-    "trick_win": "Player {winner} hian trick a win a, {card} a hmangin leh {points} points a hmu!"
+    "trick_win": "Player {winner} in trick hmu a, {card} in {points} point a hmu!"
   },
   "outcome": {
-    "head": "Game Over! Player {winner} hian {points} points a hmangin a win!\n\nFinal Scores:\n{scores}",
-    "player_line": "Player {player_id}: {points} points ({tricks} tricks)\n"
+    "head": "Khelh zawh a ni! Player {winner} chuan point {points} hmu in a chak!\n\nPoint hmuh chungchang:\n{scores}",
+    "player_line": "Player {player_id}: {points} point ({tricks} trick)\n"
   }
 }

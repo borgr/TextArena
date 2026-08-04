@@ -1,13 +1,13 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} playing a game of Pig Dice.\n\nRules:\n- On your turn, you can either '[roll]' or '[hold]'\n- Roll a 2-6: Add to your turn total\n- Roll a 1: Lose turn total and end turn\n- Hold: Add turn total to your score and end turn\n- First to {winning_score} points wins\n\nWhen it's your turn, you'll see the current scores and turn total.\nRespond with '[roll]' to roll the die or '[hold]' to bank your points."
+    "intro": "ཁྱེད་ཀྱི་མིང་འབྲུ་ཁྱེད་རང་{player_id} ཡིན་པ་ Pig Dice འཁྲུག་སྟེགས་འཁྲུག་གི་སྐབས་སུ་ཡིན།\n\nསྲོལ་བཏོད།\n- ཁྱེད་ཀྱི་སྐབས་སུ་ཁྱེད་རང་'[roll]' ཡང་ན་ '[hold]'\n- 2-6 འཁྲུག་པ་ཡིན་ན་ཁྱེད་ཀྱི་སྐབས་ཀྱི་གྲངས་སུ་བསྣན།\n- 1 འཁྲུག་པ་ཡིན་ན་ཁྱེད་ཀྱི་སྐབས་ཀྱི་གྲངས་ཤོར་བ་དང་སྐབས་མཇུག་བསྒྱུར།\n- འཛིན་པ་ཡིན་ན་ཁྱེད་ཀྱི་སྐབས་ཀྱི་གྲངས་ཁྱེད་ཀྱི་གྲངས་སུ་བསྣན་པ་དང་སྐབས་མཇུག་བསྒྱུར།\n- {winning_score} གྲངས་ཐོག་མར་རྒྱལ་ཁ་ཐོབ།\n\nཁྱེད་ཀྱི་སྐབས་སུ་ཁྱེད་རང་ད་ལྟའི་གྲངས་དང་སྐབས་ཀྱི་གྲངས་མཐོང་བ་ཡིན།\n'[roll]' འཁྲུག་པ་ཡིན་ན་ཁྱེད་རང་ཁྱེད་ཀྱི་གྲངས་བསྣན་པའི་ཆེད་དུ་'[hold]' འཛིན་པ་ཡིན་ན་ཁྱེད་རང་ཁྱེད་ཀྱི་གྲངས་བསྣན་པའི་ཆེད་དུ་ལན་འདེབས།"
   },
   "invalid_move": {
     "invalid_action": "བྱ་ངན་ཚིག་སྒྲིག་མི་འདུག སྟེང་'[roll]' ཡང་ན '[hold]' ཞུགས་ཤིག"
   },
   "actions": {
-    "player_busted": "Player {player_id} busted, losing {turn_total} points!",
-    "player_hold": "Player {player_id} holds and banks {turn_total} points."
+    "player_busted": "མིང་འབྲུ་{player_id} བུས་སྟེ་{turn_total} གྲངས་ཤོར་བ་ཡིན།",
+    "player_hold": "མིང་འབྲུ་{player_id} འཛིན་པ་ཡིན་ནས་{turn_total} གྲངས་བསྣན་པ་ཡིན།"
   },
   "board": {
     "player": "མི་སྣ་0: '{score_0}'; མི་སྣ་1: '{score_1}'",
@@ -19,6 +19,6 @@
   "outcome": {
     "winner_by_turn_limit": "མི་སྣ་{winner_id} འཁོར་ལོ་མཚམས་{scores} ཡིན་པའི་ཁེ་ཕལ་མཐོ་བས་རྒྱལ་ཁ་ཐོབ།",
     "winner_by_score": "མི་སྣ་{winner_id} ཁེ་ཕལ་{winning_score} ཐོབ་པས་རྒྱལ་ཁ་ཐོབ།",
-    "draw": "The turn limit has been reached and all players have the same score: {scores}"
+    "draw": "སྐབས་ཀྱི་ཚད་གཞི་མཇུག་བསྒྱུར་བ་ཡིན་ནས་མིང་འབྲུ་ཐམས་ཅད་གྲངས་འདྲ་བ་ཡིན། {scores}"
   }
 }

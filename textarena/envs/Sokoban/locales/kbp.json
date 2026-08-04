@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are solving the Sokoban puzzle. You are the player and you need to push all boxes to targets.\n        When you are right next to a box, you can push it by moving in the same direction.\n        You cannot push a box through a wall, and you cannot pull a box.\n        On the board, objects are represented as: \n        - The player (you) appears as 'P' \n        - Walls are represented with '#' \n        - Boxes are marked as 'X' \n        - Empty goals are shown with a 'O'\n        - Boxes on goals are visualized with '√'\n        You can also use [w] for up, [a] for left, [s] for down, and [d] for right.\n        "
+    "intro": "Kɩyɛɛʊ Sokoban kʊɖɔɔɖɛ. Kɩyɛɛʊ kɩɖɔɖɛ nɛ kɩ-haɖɛ kɩ-tɔm se kɩ-tɩŋga kɩ-kɛɖɛɛ pɛɖɛɖɛ.\n        Kɩ-tɔm kɩ-tɩŋga kɩ-kɛɖɛɛ lɛ, pɩ-tɛɛ kɩ-haɖɛ kɩ-tɔm se kɩ-tɩŋga kɩ-kɛɖɛɛ kʊɖɔɔɖɛ.\n        Kɩ-tɔm kɩ-tɩŋga kɩ-kɛɖɛɛ kɩ-tɛɛ kɩ-haɖɛ kɩ-tɔm se kɩ-tɩŋga kɩ-kɛɖɛɛ kʊɖɔɔɖɛ kɩ-tɩŋga.\n        Kɩ-tɔm kɩ-tɩŋga kɩ-kɛɖɛɛ kɩ-tɛɛ kɩ-haɖɛ kɩ-tɔm se kɩ-tɩŋga kɩ-kɛɖɛɛ kʊɖɔɔɖɛ kɩ-tɩŋga kɩ-tɛɛ.\n        Pɔɔɖɛɖɛ yɔɔ, tʊmɩyɛɛ wɛɛ ɛzɩ: \n        - Kɩyɛɛʊ kɩɖɔɖɛ (kɩyɛɛʊ) ɛɖɩɣɖɛ 'P' \n        - Kɩ-tɩŋga kɩ-kɛɖɛɛ wɛɛ '#' \n        - Kɩ-kɛɖɛɛ pɛɖɛɖɛ wɛɛ 'X' \n        - Kɩ-kɛɖɛɛ kɩ-tɩŋga wɛɛ 'O'\n        - Kɩ-kɛɖɛɛ kɩ-tɩŋga kɩ-tɩŋga wɛɛ '√'\n        Kɩ-tɔm kɩ-tɩŋga kɩ-kɛɖɛɛ kɩ-tɛɛ kɩ-haɖɛ kɩ-tɔm se [w] kɩ-tɔm kɩ-tɩŋga, [a] kɩ-tɔm kɩ-tɩŋga kɩ-tɛɛ, [s] kɩ-tɔm kɩ-tɩŋga kɩ-tɛɛ, nɛ [d] kɩ-tɔm kɩ-tɩŋga kɩ-tɛɛ.\n        "
   },
   "board": {
     "current_board": "Tablo Hɛnɛ:\n\n{board}\nLɛŋasɩ Kɛlɛŋ: {moves}"
@@ -12,7 +12,7 @@
     "invalid_position": "Pɩfɛyɩ ɖeu se ɛyʋ ɛɖɛɣ, pɩ-yɔɔ lɛ ɛɛpɩzɩɣ nɛ ewolo lone nɖɩ ɖɩ-taa."
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
+    "moved": "Awɛ {pushed} kɔyɔɔrɩɩ [{action}].",
     "pushed_prefix": "Ɛñakaɣ pana nɛ ɛɖɔɔnɩ-ɩ."
   },
   "outcome": {

@@ -1,9 +1,9 @@
 {
   "player_prompt": {
-    "intro": "You are playing a {difficulty} RushHour puzzle. Slide cars to free the red car [X] and drive it out the right edge.\nActions: [A+], [B-], etc.  (+ = forward, - = backward)."
+    "intro": "Mo kpëtï {difficulty} RushHour. Gbâ gbâa ôko tî gbâa rouge [X] na lïngbï tî kpëtï tî ndö. \nActions: [A+], [B-], etc. (+ = gbâa na pé, - = gbâa na mbë)."
   },
   "invalid_move": {
-    "wrong_format": "Invalid action. Use format [A+] / [B-].",
+    "wrong_format": "Ködörö tî päpï. Fa [A+] / [B-].",
     "no_car": "A yeke wara pëpe \"{car_id}\" na lê ti tableau ni.",
     "blocked": "A kanga lege na ala ti hon."
   },

@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in **Ultimate Tic Tac Toe**.\nSubmit your move as **[macro  micro]** (two numbers 0-8):\n• *macro*  = which mini-board you play in\n• *micro* = which square inside that mini-board\nExample `[7 8]` ➜ place your mark in mini-board 7, square 8, and\nforce your opponent to play in mini-board 8 next.\n\nYou are `{symbol}`.\n"
+    "intro": "Nge ujile Mubadi {player_id} mu **Ultimate Tic Tac Toe**.\nTuma kubadiaku kama **[macro  micro]** (nomero zole 0-8):\n• *macro*  = ku kubadi nini mini-tabuleiro ujile\n• *micro* = ku kubadi nini quadradu ndani ya mini-tabuleiro\nExemplo `[7 8]` ➜ bota simboloaku mu mini-tabuleiro 7, quadradu 8, e\nforça oponenteaku kubadilaku mu mini-tabuleiro 8 kubwamu.\n\nNge ujile `{symbol}`.\n"
   },
   "board": {
     "current_board": "Kibuka kia utuminu: {board}"
@@ -18,7 +18,7 @@
     "specific": "kaxa ionene {nxt}"
   },
   "game_action": {
-    "played": "Player {player_id} played in micro board {macro_idx}, cell {micro_idx} (row {row}, col {col}). Player {opponent_id} must now play in {nxt_txt}."
+    "played": "Mubadi {player_id} kubadilaku mu mini-tabuleiro {macro_idx}, kasadu {micro_idx} (linha {row}, koluna {col}). Mubadi {opponent_id} kufwete kubadilaku mu {nxt_txt}."
   },
   "outcome": {
     "win": "O mukua jisanzala {player_id} u nganhala o \"Final Tic Tac Toe!\" (O Finale de Tick-Tac-Toes!)",

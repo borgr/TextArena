@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a {num_rounds}-round Rock-Paper-Scissors game.\nYour goal is to win as many rounds as possible.\nIn each round, respond with one of: '[rock]', '[paper]', or '[scissors]'.\nYou may also use '[r]', '[p]', or '[s]' as shorthand.\n"
+    "intro": "Siz {num_rounds} raundlı Qaya-Qağıt-Qayçı oyınında {player_id} oyuncusısınız.\nMaqsadınız mümkün qadar çoq raund qazanmaqtır.\nHer raundta '[rock]', '[paper]', yada '[scissors]' ile cevap berebilirsiniz.\nSiz '[r]', '[p]', yada '[s]' qısqartmalarını da qullanabiliriz.\n"
   },
   "invalid_move": {
     "wrong_format": "Hereket tanınlmadı. [rock], [paper], yaki [scissors] kullan."

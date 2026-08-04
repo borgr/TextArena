@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "Wena ungumdlali {player_id} udlala umdlalo wePig Dice. Imithetho: - Ngesikhathi sakho, ungakwazi '[roll]' noma '[hold]' - Roll a 2-6: Engeza ku-turn yakho ephelele - Roll a 1: Lose turn total and end turn - Hold: Engeza turn total to your score and end turn - First to {winning_score} points wins When it's your turn, you'll see the current scores and turn total. Phendula nge '[roll]' ukugoqa idayisi noma '[hold]' ukubhuka amaphuzu akho."
+    "intro": "UnguMdlali {player_id} odlala umdlalo we-Pig Dice.\n\nImithetho:\n- Ngokwezikhathi zakho, unaweza ukuthi '[roll]' noma '[hold]'\n- Gwinya i-2-6: Ongeza ku-tally yakho yezikhathi\n- Gwinya i-1: Ulahlekelwa yitally yakho yezikhathi futhi uphela isikhathi\n- Hold: Ongeza itally yakho yezikhathi ku-score yakho futhi uphela isikhathi\n- Oqala ukufikia {winning_score} amapoyinti uphumelele\n\nLapho kusezikhathi zakho, uzobona amascore ajwayelekile ne-tally yezikhathi.\nPhendula ngokuthi '[roll]' ukurolla idice noma '[hold]' ukuweka amapoyinti akho."
   },
   "invalid_move": {
     "invalid_action": "Ifomethi yesenzo engekho emthethweni. Sebenzisa u-\"[roll]\" noma u-\"[hold]\"."

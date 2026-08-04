@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "Ğayrı bir qadam formatı tapılmadı. [a1b2], mesela [b2c3] kullan.",
-    "illegal": "Move [{move}] is illegal."
+    "illegal": "[{move}] hereketi yasaktır."
   },
   "game_action": {
     "moved": "Oyuncı {player_id} areket etti {move}."

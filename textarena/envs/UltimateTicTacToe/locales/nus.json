@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in **Ultimate Tic Tac Toe**.\nSubmit your move as **[macro  micro]** (two numbers 0-8):\n• *macro*  = which mini-board you play in\n• *micro* = which square inside that mini-board\nExample `[7 8]` ➜ place your mark in mini-board 7, square 8, and\nforce your opponent to play in mini-board 8 next.\n\nYou are `{symbol}`.\n"
+    "intro": "Yin e Player {player_id} ee **Ultimate Tic Tac Toe**.\nCɔk yin wëu ee **[macro  micro]** (kɔɔr arak 0-8):\n• *macro*  = kɔɔr mini-board yin wëu ee\n• *micro* = kɔɔr yïïn ee mini-board kɔɔr\nYikëë [7 8] ➜ bɛ̈ɛ̈n yin wëu ee mini-board 7, yïïn 8, ku\nkɔɔr yin dɔ̈ɔ̈r ee wëu ee mini-board 8 nɛ̈ɛ̈n.\n\nYin e `{symbol}`.\n"
   },
   "board": {
     "current_board": "Käp kɛ jɛ ɛntäämɛ: {board}"
@@ -11,7 +11,7 @@
     "index_out_of_range": "Kä mikrö_bo̱r, ri̱i̱wni̱ kiɛ kɔlciɛri̱ tekɛ raar kä römdiɛn.",
     "cell_occupied": "Kä thëll cɛ ku thuŋ thi̱ak.",
     "wrong_micro_board": "Ɛn gua̱n ŋarä bɛ dhil te rɛy boor in dɔ̱ŋ.",
-    "micro_board_won": "The micro board is already won."
+    "micro_board_won": "Mini-board ee wɔn."
   },
   "next_board": {
     "any": "ɛni̱ mi̱krö paablɛt",
@@ -21,7 +21,7 @@
     "played": "Riäŋ {player_id} cäthië në thök micro {macro_idx}, thök {micro_idx} (thök {row}, kuɛr {col}). Riäŋ {opponent_id} kä ye jam në {nxt_txt}."
   },
   "outcome": {
-    "win": "Player {player_id} wins Ultimate Tic Tac Toe! (kɛl kɛ̈ɛ̈)",
+    "win": "Player {player_id} ee wɔn Ultimate Tic Tac Toe!",
     "draw": "Ɛn duel ɛ mi̱ caa kuɛn!"
   }
 }

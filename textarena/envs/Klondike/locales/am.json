@@ -16,7 +16,7 @@
     "{cards}": "The cards in a pile as neutral labels, or '--' if empty (never translate)"
   },
   "player_prompt": {
-    "intro": "You are playing Klondike Solitaire. Your goal is to move all cards to the foundation piles.\n\nGame Rules:\n- Foundation piles (F1-F4): Build up from Ace to King in suit\n- Tableau piles (T1-T7): Build down alternating colors (red on black, black on red)\n- Stock: Draw cards to waste pile\n- Waste (W): Top card available for play\n\nCommands:\n- 'draw' - Draw cards from stock to waste\n- 'move <source> <destination> [count]' - Move cards between piles\n  Examples: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count can also be 'all', which will try to move all face-up cards.\n- 'forfeit' - End the game immediately and lock in your current score\n- Pile names: W (waste), F1-F4 (foundations), T1-T7 (tableau)\n\nYou can execute multiple actions in one turn by separating them with commas:\n  Example: 'draw, move W T1, move T2 F1'\n\nOnly Kings can be placed on empty tableau piles.\nActions execute in order - if one fails, the remaining actions are skipped.\nUse 'forfeit' if you believe the game is impossible to win."
+    "intro": "ክለንዳይክ ሶሊቴር አሰራር እየሰራሁ ነው. አሰራር እየሰራሁ ነው ካርዶችን ወደ መሠረት ካርዶች ለማዛወር.\n\nአሰራር ደንቦች:\n- መሠረት ካርዶች (F1-F4): ከአሴ እስከ ኪንግ በስውት\n- ተብለው ካርዶች (T1-T7): ከላይ ወደ ታች በተብለው ካርዶች (ቀይ በጥቁር, ጥቁር በቀይ)\n- ስቶክ: ካርዶችን ወደ ወስቴ ለማዛወር\n- ወስቴ (W): ካርድ ለማዛወር\n\nአሰራሮች:\n- 'draw' - ካርዶችን ወደ ወስቴ ለማዛወር\n- 'move <source> <destination> [count]' - ካርዶችን ወደ ላይ ለማዛወር\n  ምሳሌዎች: 'move W T1', 'move T1 F2', 'move T3 T5 2'. ቁጥር ደግሞ 'all' ሊሆን ይችላል, አሰራር ካርዶችን ወደ ላይ ለማዛወር.\n- 'forfeit' - አሰራር ማቆም\n- ካርዶች ስሞች: W (ወስቴ), F1-F4 (መሠረት), T1-T7 (ተብለው)\n\nአሰራሮችን በተከታታይ ለማድረግ አሰራሮችን በኮማ ለይተው ማድረግ ይቻላል:\n  ምሳሌ: 'draw, move W T1, move T2 F1'\n\nካርዶች በተብለው ካርዶች ላይ ከላይ ወደ ታች ለማዛወር ካርዶች በተብለው ካርዶች ላይ ከላይ ወደ ታች ለማዛወር.\nአሰራሮች በተከታታይ ለማድረግ - አንድ አሰራር የማይሳካ ከሆነ, ቀሪ አሰራሮች ይቀራሉ.\n'forfeit' አሰራር ከማይሳካ ከሆነ አሰራር ማቆም."
   },
   "format_error": {
     "no_brackets": "ልክ ያልሆነ የድርጊት ቅርጸት። ድርጊቱ በአጠገብ መሆን አለበት።",
@@ -24,9 +24,9 @@
     "empty_command": "ባዶ ትዕዛዝ \"draw\" ወይም \"move <source><destination> [count]\" የሚለውን ይተይቡ ።",
     "empty_action": "ባዶ እርምጃ",
     "move_needs_args": "የዝውውር ትዕዛዙ ምንጭ እና መድረሻ ይጠይቃል. አጠቃቀም: 'move <source> <destination> [count]'",
-    "count_positive": "ቆጠራው አዎንታዊ መሆን አለበት ወይም \"ሁሉም\" ነው ።",
+    "count_positive": "ቁጥር አይጎድል ወይም 'all' ይሁን.",
     "count_invalid": "ልክ ያልሆነ ቆጠራ። ቁጥር ወይም 'all' ይጠቀሙ",
-    "unknown_command": "Unknown command '{cmd}'. Use 'draw', 'move <source> <destination> [count]', or 'forfeit'",
+    "unknown_command": "አልታወቀ አሰራር '{cmd}'. 'draw', 'move <source> <destination> [count]', ወይም 'forfeit' ይጻፉ.",
     "wrapped": "እቅድ {n}: {msg}"
   },
   "action_result": {

@@ -13,8 +13,8 @@
     "already_matched": "Aḥeddad ur nlaq ara. Amyurar {player_id} yefren yiwet neɣ snat tikerḍiwin i yettwaqablen yakan."
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "Tkṛḍiḍin yefṛan imiraz {player_id} di ṭṛaḍṛa [{r1} {c1}] d [{r2} {c2}] ṭṭfen!",
+    "cards_no_match": "Tkṛḍiḍin yefṛan imiraz {player_id} ur ṭṭfin ara. Tkṛḍiḍin di ṭṛaḍṛa [{r1} {c1}] d [{r2} {c2}] d {pos1} d {pos2} s wakka."
   },
   "outcome": {
     "draw": "Sin imurar-nni rnan yiwen n uṭṭun i d-yettakken tikarḍiwin.",

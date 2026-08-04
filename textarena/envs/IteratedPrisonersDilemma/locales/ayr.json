@@ -1,18 +1,18 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in an Iterated Prisoner's Dilemma spanning {num_rounds} rounds.\n\nGame Structure:\n- Before each decision you have {total_conversation_rounds} turns to communicate freely.\n- After that, both players simultaneously choose to cooperate or defect.\n\nPayoff Matrix (fixed each round):\n- Both Cooperate ➜ each {cooperate_reward}\n- Both Defect ➜ each {mutual_defect_reward}\n- One Defects, one Cooperates ➜ Defector {defect_reward}, Cooperator {sucker_reward}\n\nHow to Play:\n- During conversation: type any text you wish.\n- During decision phase: include '[Cooperate]' or '[Defect]' (case-insensitive). You may add extra text before/after the token."
+    "intro": "Jumaxa Player {player_id} sara Iterated Prisoner's Dilemma ukax {num_rounds} p'unchaykunapi.\n\nP'unchay Kamay:\n- Kada decision q'awaraykamaxa {total_conversation_rounds} turnukunapi q'umachasi.\n- Ukax qhipha, khaya playerkunaxa simuláneamente apnaqasi ukhama cooperar ukhama defectar.\n\nPayoff Matrix (fijo kada p'unchay):\n- Khaya Cooperan ➜ kada {cooperate_reward}\n- Khaya Defectan ➜ kada {mutual_defect_reward}\n- Maya Defecta, maya Cooperan ➜ Defector {defect_reward}, Cooperator {sucker_reward}\n\nKunjamasa Playa:\n- Conversación ukhama: yati q'illq'i.\n- Decision p'unchay ukhama: '[Cooperate]' ukhama '[Defect]' (case-insensitive) q'umachasi. Yati q'illq'i q'awaraykamaxa token q'iphanpi."
   },
   "phases": {
     "conversation_finished": "Jupaxa p'iqiwa finishiwa ruwa {round}. Janiw utjiwa '[Cooperate]' utjiwa '[Defect]' akaxa \\boxed{{}}.",
     "starting_round": "--- Qalltaña T'aqa {round} -----",
-    "round_summary": "Ruwa {round} resultasaxa:\n{outcome}\nPlayer 0 janiwa {r0} (jupaxa {score_0}), Player 1 janiwa {r1} (jupaxa {score_1})."
+    "round_summary": "P'unchay {round} tukuy:\n{outcome}\nJugador 0 {r0} q'ullqi ch'askirqi (tukuy {score_0}), Jugador 1 {r1} q'ullqi ch'askirqi (tukuy {score_1})."
   },
   "outcome": {
     "winner": "Player {winner} katariwi {win_score} - {lose_score}.",
     "draw": "Pusi t'aqa! Paypach anatirix {s0} punkunakaniwa.",
     "round_both_cooperate": "Paypach anatirix yanapt'asipxänwa.",
     "round_both_defect": "Paypach anatirix jaltawayxapxiwa.",
-    "round_p0_cooperates_p1_defects": "Player 0 cooperated, Player 1 defected.",
+    "round_p0_cooperates_p1_defects": "Jugador 0 aka q'uma, Jugador 1 aka q'ara.",
     "round_p0_defects_p1_cooperates": "Janipuniw khitis uka jan wali luräwinakxa lurkaspati."
   }
 }

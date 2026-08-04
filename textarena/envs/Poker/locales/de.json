@@ -31,17 +31,14 @@
     "{share}": "Der Chip-Anteil, den jeder gleichrangige Gewinner erhält",
     "{ranking}": "Die finale Rangliste der Spielernummern, niedrig bis hoch"
   },
-
   "player_prompt": {
     "intro": "Du bist Spieler {player_id} in einem Texas-Hold'em-Poker-Spiel mit {num_players} Spielern.\nSpielinformationen:\n- {num_rounds} Hände insgesamt\n- Start-Stack: {starting_chips} Chips\n- Blinds: {small_blind}/{big_blind}\n\nVerfügbare Aktionen (exakte Tokens):\n  '[Check]'  - wenn kein Einsatz aktiv ist\n  '[Call]'   - den aktuellen Einsatz mitgehen\n  '[Fold]'   - deine Hand abwerfen\n  '[Bet N]'  - für N Chips eröffnen\n  '[Raise N]'- um N Chips erhöhen\n"
   },
-
   "game": {
     "start": "Ein neues Texas-Hold'em-Spiel über {num_rounds} Runden mit {num_players} Spielern wird gestartet."
   },
-
   "board": {
-    "panel": "===== Hand {round} / {num_rounds} - {street} =====\nPot: {pot} | Aktueller Einsatz: {current_bet}\nSichtbares Board: [{comm}]\n{lines}\nDeine Startkarten: {hole0}, {hole1}\n==============================================",
+    "panel": "===== Hand {round} / {num_rounds} - {street} =====\nPot: {pot} | Aktuelle Wette: {current_bet}\nSichtbare Karten: [{comm}]\n{lines}\nIhre Lochkarten: {hole0}, {hole1}\n==============================================",
     "player_line": "P{pid}{role_txt}: {chips} Chips | Einsatz {bet} | {status}",
     "street_preflop": "Pre‑flop",
     "street_flop": "Flop",
@@ -54,34 +51,29 @@
     "status_folded": "gefoldet",
     "status_all_in": "all-in"
   },
-
   "invalid_move": {
-    "wrong_action":     "Ungültige Poker-Aktion.",
+    "wrong_action": "Ungültige Poker-Aktion.",
     "check_facing_bet": "Kann bei einem Einsatz nicht checken.",
-    "raise_too_small":  "Erhöhung muss den aktuellen Einsatz übersteigen.",
-    "game_complete":    "Das Spiel ist bereits beendet."
+    "raise_too_small": "Erhöhung muss den aktuellen Einsatz übersteigen.",
+    "game_complete": "Das Spiel ist bereits beendet."
   },
-
   "message": {
     "eliminated_invalid": "Spieler {pid} wurde durch einen ungültigen Zug eliminiert."
   },
-
   "action": {
-    "fold":  "Spieler {pid} foldet.",
+    "fold": "Spieler {pid} foldet.",
     "check": "Spieler {pid} checkt.",
-    "call":  "Spieler {pid} geht mit {amount} mit.",
-    "bet":   "Spieler {pid} setzt auf {total}.",
+    "call": "Spieler {pid} geht mit {amount} mit.",
+    "bet": "Spieler {pid} setzt auf {total}.",
     "raise": "Spieler {pid} erhöht auf {total}."
   },
-
   "showdown": {
-    "fold_win":    "Spieler {winner} gewinnt den Pot von {pot} Chips (alle anderen haben gefoldet).",
+    "fold_win": "Spieler {winner} gewinnt den Pot von {pot} Chips (alle anderen haben gefoldet).",
     "reveal_line": "Spieler {pid}: {c0} {c1}",
-    "reveal":      "Showdown Runde {round}:\n{reveals}\nGemeinschaftskarten: {community}",
-    "win":         "Spieler {winner} gewinnt den Pot von {pot} Chips.",
-    "tie":         "Gleichstand zwischen Spielern {winners}. Jeder erhält {share} Chips."
+    "reveal": "Showdown Runde {round}:\n{reveals}\nGemeinschaftskarten: {community}",
+    "win": "Spieler {winner} gewinnt den Pot von {pot} Chips.",
+    "tie": "Gleichstand zwischen Spielern {winners}. Jeder erhält {share} Chips."
   },
-
   "outcome": {
     "final": "Endplatzierung (niedrig→hoch): {ranking}. Gewinner: Spieler {winner}"
   }

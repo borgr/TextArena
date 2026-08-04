@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a game of HighSociety (2-player version).\nGame flow:  Ten prestige cards are auctioned one after another.\nBidding:    Each auction, secretly choose a money card 1-11 and reveal.\n            • Higher bid wins the prestige card and discards that money card.\n            • Lower bid keeps their money card.\n            • Tie -> both bids are returned and the same prestige card is re-auctioned.\nScoring:    After all ten auctions, add **remaining cash + prestige points**.\n            Higher *net-worth* wins (exact tie -> draw).\n\n**Action syntax**  →  bid a single card like '[7]' or '[11]'."
+    "intro": "سىز HighSociety (2-ئويۇنچىلىق نۇسخىسى) ئويۇنىدىكى {player_id} نومۇرلۇق ئويۇنچى. \nئويۇن جەريانى: ئون دانە ئابروي كارتىسى بىر-بىردىن ئېلىپ سېتىلىدۇ. \nباھا بېرىش: ھەر قېتىملىق دوكلاتتا، مەخپىي ھالدا 1-11 پۇل كارتىسىنى تاللاڭ ۋە ئاشكارىلاڭ. \n            • يۇقىرى باھا بەرگۈچى ئابروي كارتىسىنى يېڭىپ چىقىدۇ ۋە شۇ پۇل كارتىسىنى تاشلايدۇ. \n            • تۆۋەن باھا بەرگۈچى پۇل كارتىسىنى ساقلايدۇ. \n            • تەڭ بولغاندا -> ھەر ئىككى باھا قايتۇرۇلىدۇ ۋە شۇ ئابروي كارتىسى قايتا سېتىلىدۇ. \nنەتىجە:    ئون قېتىملىق دوكلاتتىن كېيىن، **قالغان پۇل + ئابروي نومۇرى** قوشۇلىدۇ. \n            يۇقىرى *ساپما-قىممەت* يېڭىپ چىقىدۇ (تەڭ بولغاندا -> تەڭلىك). \n\n**ھەرىكەت سىنتاكسىسى**  →  بىر دانە كارتىنى '[7]' ياكى '[11]' شەكلىدە باھا بېرىڭ."
   },
   "auction": {
     "announce": "\n### Auksion {round}/10  |  Prestige kartasi: {prize}"
@@ -14,7 +14,7 @@
   },
   "message": {
     "tie": "تەڭلىشىپ قالغان باھالار قايتۇرۇلدى. قايتا سېتىلىدۇ!",
-    "auction_result": "P0 bid {bid0}, P1 bid {bid1}. Player {winner} wins prestige {prize} (total {total})."
+    "auction_result": "P0 {bid0} باھا بەردى، P1 {bid1} باھا بەردى. {winner} نومۇرلۇق ئويۇنچى {prize} ئابرويىنى يېڭىپ چىقتى (جەمئىي {total})."
   },
   "outcome": {
     "p0_wins": "Net-qimmet {nw0} > {nw1}",

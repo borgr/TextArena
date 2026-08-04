@@ -6,8 +6,8 @@
     "wrong_format": "Format invalid; si us plaç, submit '[heads]' o '[tails]'."
   },
   "message": {
-    "round_match": "Jogador 0 a causit '{choice0}'; Jogador 1 a causit '{choice1}'. Partida -> Jogador 0 ganha",
-    "round_mismatch": "Jogador 0 a causit '{choice0}'; Jogador 1 a causit '{choice1}'. Desacòrd -> Jogador 1 ganha."
+    "round_match": "Jogaire 0 a causit {choice0} ; Jogaire 1 a causit {choice1}. Correspondéncia -> Jogaire 0 ganha",
+    "round_mismatch": "Jogaire 0 a causit {choice0} ; Jogaire 1 a causit {choice1}. Diferéncia -> Jogaire 1 ganha."
   },
   "outcome": {
     "p0_wins": "Lo jogaire 0 ganhèt mai de rondas.",

@@ -8,7 +8,7 @@
   },
   "results": {
     "header": "### Tazzla {round} - Tiɣri:",
-    "pair_line": "{observation}\n\t Player {i} vs Player {j} chose to {choice_i} and {choice_j} respectively (Player {i} gained {gain_i}, Player {j} gained {gain_j})",
+    "pair_line": "{observation}\n\t Aɣerbaz {i} mgal Aɣerbaz {j} yexdem {choice_i} d {choice_j} (Aɣerbaz {i} yewwi {gain_i}, Aɣerbaz {j} yewwi {gain_j})",
     "scores_open": "{observation} -> Tiqeddicin n tura: ",
     "score_first": "{observation}Amseqdac {player_id} ({score})",
     "score_next": "{observation}; Amseqdac {player_id} ({score})",

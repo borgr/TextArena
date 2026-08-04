@@ -11,7 +11,7 @@
     "{groups}": "Neutral ranking data (a list of player-id groups, worst to best); do not translate"
   },
   "player_prompt": {
-    "intro": "{num_players}-Player Snake on a {width}×{height} grid.\nYou control snake {player_id}. Valid moves: '[up]'/'[down]'/'[left]'/'[right]' (or w/s/a/d).\nObjective: survive longest or be the longest and get the highest score (turn limit {max_turns} turns)."
+    "intro": "{num_players}-Dauqitoqito Snake ena {width}×{height} grid.\nO ni daukontrola na ngata {player_id}. Veiliyali vinaka: '[up]'/'[down]'/'[left]'/'[right]' (se w/s/a/d).\nNodra: bula tiko vakalevu se o na ngata lelevu duadua ka rawata na isau levu duadua (na ika na veiliyali {max_turns} veiliyali)."
   },
   "board": {
     "current": "Tabana ni veiqaravi ena gauna oqo: {board}",

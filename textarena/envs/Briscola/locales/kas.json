@@ -26,29 +26,29 @@
   },
   "hand": {
     "none": "नो कार्ड्स अस",
-    "empty": "नो कार्ड्स इन हेंड,",
-    "header": "तेरे हाथः छू , छू, छू. . .",
+    "empty": "ہتھہ کھالئ",
+    "header": "توہند ہتھہ:",
     "card_line": "  {pos}. {card} [{points} pts]{trump_mark}",
     "trump_mark": "(ट्रम्प) - ये क्या?"
   },
   "trick": {
-    "empty": "नो कार्ड्स प्लेड अवे अस थिस ट्रिक.",
-    "header": "करंट ट्रिक:",
+    "empty": "اس ٹرکہ کئی کارڈ نہیں کھیلئ",
+    "header": "موجودہ ٹرکہ:",
     "line": "  Player {player_id}: {card}{trump_mark}"
   },
   "turn": {
     "score_entry": "Player {player_id}: {points} پٹس",
-    "trump_info": "ट्रंप सूट: {trump_suit}",
+    "trump_info": "ٹرمپ سوٹ: {trump_suit}",
     "trump_info_deck": "ٹرمپ سوٹ: {trump_suit} | ڈیکس مَنٛز بَچےٚ ہوئے کارڈز: {deck_count}",
     "board": "{hand}\n\n{trick}\n\nاسکورز: {scores}\n{trump_info}\n\nایک کارڈ کھیلُے [play X] استِمال کَرِتھ"
   },
   "invalid_move": {
-    "wrong_format": "[play X] इस्तेमाल करन येलि X कार्ड पोज़ीशन (1, 2, 3, वगैरह) छु।",
+    "wrong_format": "[play X] استعمال کرو جتھے X کارڈ پوزیشن ہے (1, 2, 3, وغیرہ)",
     "out_of_range": "اوہِ کارڈ پوزیشن غلط اے۔ تہٕ  {count} کارڈز چھِ (1-{count})"
   },
   "action": {
-    "played": "प्लेयर {player_id} छू लिया {card}",
-    "trick_win": "Player {winner} wins the trick with {card} and gains {points} points!"
+    "played": "{player_id} کھلاڑی {card} کھیلئ",
+    "trick_win": "{winner} کھلاڑی {card} سٲتھی ٹرک جیتھ گے ہنہ تہ {points} پوائنٹس کمایا!"
   },
   "outcome": {
     "head": "گیم اوور! Player {winner} جِتیو تہٕ {points} پوائنٹس سٟتِ!\n\nفائنل اسکورز:\n{scores}",

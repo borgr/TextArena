@@ -19,7 +19,7 @@
     "{deck_count}": "Number of cards left in the deck"
   },
   "game": {
-    "start": "Briscola game started! Trump suit: {trump_suit} (Trump card: {trump_card})"
+    "start": "བྲིས་ཀོ་ལ་གནས་སྐབས་འགོ་བཙུགས་པ་རེད། གཏོར་མའི་རིགས་ནི། {trump_suit} (གཏོར་མའི་ཁ་བྱང་། {trump_card})"
   },
   "prompt": {
     "intro": "ཁྱེད་ཀྱིས་བྲི་སི་ཀོ་ལ་རྩེད་མོ་འགྲོ་བཞིན་ཡོད། Player {player_id}.\nདམིགས་པ།: རྒྱལ་ཁ་ཐོབ་པ་དང་གྲངས་འཛིན་མང་པོ་འགྲུབ་པ་(120 གྲངས་འཛིན་ཡོད་པ།)\nCard གྲངས་འཛིན།: A=11, 3=10, K=4, Q=3, J=2, གཞན་པ།=0\nCard ཤུགས་རྩལ།: A > 3 > K > Q > J > 7 > 6 > 5 > 4 > 2\nTrump འཕྲིན་རྣམས་ནི་ཤུགས་རྩལ་མེད་པའི་རྣམ་པ་ཡིན།\n\nའགྲོ་སྟངས།: '[play X]' འདི་ནི་ཁྱེད་ཀྱི་ལག་ཏུ་ཡོད་པའི་རྩེད་མོ་གྱི་གཏང་བ་(1-{max_pos})"
@@ -39,19 +39,19 @@
   "turn": {
     "score_entry": "Player {player_id}: {points} གཏང་བ",
     "trump_info": "ཊཱམ་པི་གི་ཁ་བྱང་: {trump_suit}",
-    "trump_info_deck": "Trump suit: {trump_suit} | Cards left in deck: {deck_count}",
+    "trump_info_deck": "གཏོར་མའི་རིགས། {trump_suit} | ཁ་བྱང་གི་གྲངས་ཀྱི་ཐོ་གཞུང་། {deck_count}",
     "board": "{hand}\n\n{trick}\n\nགྲངས་འཛིན།: {scores}\n{trump_info}\n\n[play X] སྤྱོད་བཞིན་པའི་རྩེད་མོ་ཞིག་འགྲོ"
   },
   "invalid_move": {
     "wrong_format": "ཀེར་ཐིག་ [play X] འདི་ནང་ X དེ་ལག་ཁྲམ་གི་ས་སྒོ་ (1, 2, 3, དེ་ལས་གཞན་ཚུ་) ཨིན་པས།",
-    "out_of_range": "Invalid card position. You have {count} cards (1-{count})"
+    "out_of_range": "ཁ་བྱང་གི་གནས་སྐབས་ཀྱི་ཨང་རྟགས་ནོར་འདུག ཁྱེད་ཀྱི་ལག་ཏུ་ཁ་བྱང་ {count} ཡོད་པ། (༡-{count})"
   },
   "action": {
-    "played": "Player {player_id} played {card}",
+    "played": "མི་གཅིག་ {player_id} ཁ་བྱང་ {card} བཀོད་པ།",
     "trick_win": "Player {winner} ནས་{card} དང་{points} གཏང་བས་རྒྱལ་ཁ་ཐོབ་པ།"
   },
   "outcome": {
-    "head": "Game Over! Player {winner} wins with {points} points!\n\nFinal Scores:\n{scores}",
-    "player_line": "Player {player_id}: {points} points ({tricks} tricks)\n"
+    "head": "འགུལ་སྐྱོད་འདི་མཇུག་སྒྲིལ་པ། མི་གཅིག་ {winner} {points} རིན་ཐང་ཐོབ་པ།\n\nརིན་ཐང་གི་ཐོ་གཞུང་མཇུག་སྒྲིལ་པ།\n{scores}",
+    "player_line": "མི་གཅིག་ {player_id}། {points} རིན་ཐང་ ({tricks} འགུལ་སྐྱོད་ཐོབ་པ།)\n"
   }
 }

@@ -4,7 +4,7 @@
   },
   "board": {
     "current_board": "agdama a board: {board}",
-    "current_game_board": "agdama a Game Board: {board}"
+    "current_game_board": "Agdama a Tabla ti Pagsasao:\n{board}"
   },
   "invalid_move": {
     "wrong_format": "Saan a maitutop nga agpang. Ti agay-ayam {player_id} ket saan a simmungbat babaen ti napudno a direksion kadagiti kuadrado a kurtina.",
@@ -13,13 +13,13 @@
     "already_matched": "Saan a maitutop nga addang. Ti agay-ayam {player_id} ket nangpili iti maysa wenno agpada kadagiti kard a naigupen idin."
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "Dagiti kartas a napili ti Player {player_id} iti posisyon [{r1} {c1}] ken [{r2} {c2}] agpada!",
+    "cards_no_match": "Dagiti kartas a napili ti Player {player_id} saan a agpada. Dagiti kartas iti posisyon [{r1} {c1}] ken [{r2} {c2}] ket {pos1} ken {pos2} respektibo."
   },
   "outcome": {
     "draw": "Agpada ti bilang dagiti paris a kard nga inusarda.",
     "win": "Nangabak ti agay-ayam {winner_id}!",
-    "turn_limit": "Naabotan ti limit ti turn. Ti game ket naungaw. Player 0 ket nakagun-od iti {score_0} puntos, Player 1 ket nakagun-od iti {score_1} puntos.",
+    "turn_limit": "Naabot ti limit ti tukad. Ti ay-ayam ket agpatingga. Ti Player 0 ket nakapuntos {score_0} puntos, ti Player 1 ket nakapuntos {score_1} puntos.",
     "turn_limit_win": "{reason} Player {winner_id} ket nanagbida!"
   }
 }

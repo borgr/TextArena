@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({piece}). Opponent is ({opp}). Submit moves as '[b1 c3]' (from → to). All pieces move like chess knights.\nEach capture scores {score_per_capture} point. Game ends after {max_moves} moves or when a player has no legal move / no pieces. Higher score wins."
+    "intro": "Qam kawakim {player_id} ({piece}). Yanapaqmi ({opp}). Lliwiykuta '[b1 c3]' hinamanta qillqamuy (qhipamanta → ñawpaqman). Lliwiy kawakikuna kawallu phistarayku hinam kuyuchin.\nLliwiy hap'iy {score_per_capture} puntuta q'umirin. Pukllayqa {max_moves} kuyuchiykunamanta p'unchaw tukukun, mana kawakiyuq kaptin / mana kuyuchiy atiyuq kaptin. Aswan hatun puntuyuqmi atipan."
   },
   "board": {
     "current_board": "Rurayku #{move_count}\n\n{board}\n\nP'unchaykuna: {moves}"

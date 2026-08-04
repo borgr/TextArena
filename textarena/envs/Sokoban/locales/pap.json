@@ -12,7 +12,7 @@
     "invalid_position": "Un move invalido - no por bai e posishon ei."
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
+    "moved": "Bo {pushed} move [{action}].",
     "pushed_prefix": "a empuhá un kuadro mientras e tabata"
   },
   "outcome": {

@@ -19,10 +19,10 @@
     "{deck_count}": "Number of cards left in the deck"
   },
   "game": {
-    "start": "Briscola game started! Trump suit: {trump_suit} (Trump card: {trump_card})"
+    "start": "Kraygat n Briskula yebda! Yixef n trump: {trump_suit} (Wudmawen n trump: {trump_card})"
   },
   "prompt": {
-    "intro": "You are playing Briscola - Player {player_id}.\nGoal: Win tricks and collect the most points (120 total points in the deck).\nCard Points: A=11, 3=10, K=4, Q=3, J=2, others=0\nCard Power: A > 3 > K > Q > J > 7 > 6 > 5 > 4 > 2\nTrump cards beat non-trump cards regardless of power.\n\nAction: '[play X]' where X is the position (1-{max_pos}) of the card in your hand\n"
+    "intro": "Tirir Briskula - Umarir {player_id}.\nAɣalas: Rnu tricks d-awi aqemmuḍ n points (120 points deg uḍebsi).\nPoints n wudmawen: A=11, 3=10, K=4, Q=3, J=2, wiyaḍ=0\nAẓayer n wudmawen: A > 3 > K > Q > J > 7 > 6 > 5 > 4 > 2\nWudmawen n trump rnu wudmawen wiyaḍ s aẓayer.\n\nTigawt: '[play X]' anda X d-awadeg (1-{max_pos}) n wudmawen deg ufus\n"
   },
   "hand": {
     "none": "ⵓⴰⵔ ⵉⵍⵉⵏ ⵜⵉⴽⴰⵕⴹⵉⵡⵉⵏ.",
@@ -39,16 +39,16 @@
   "turn": {
     "score_entry": "Imellyan {player_id}: {points} n yefkan",
     "trump_info": "ⵜⴰⵣⵓⵍⵉ ⵏ ⵜⵔⴰⴱⴱⵓⵜ: {trump_suit}",
-    "trump_info_deck": "Trump suit: {trump_suit} | Cards left in deck: {deck_count}",
-    "board": "{hand}\n\n{trick}\n\nScores: {scores}\n{trump_info}\n\nPlay a card using [play X]"
+    "trump_info_deck": "Yixef n trump: {trump_suit} | Wudmawen yelhan deg uḍebsi: {deck_count}",
+    "board": "{hand}\n\n{trick}\n\nTuqqi: {scores}\n{trump_info}\n\nRnu wudmawen s [play X]"
   },
   "invalid_move": {
     "wrong_format": "ⵙⵎⵔⵙ [play X] ⴳ ⵉⴳⴰ X ⴰⵏⵙⴰ ⵏ ⵜⴽⴰⵕⴹⴰ (1, 2, 3, ⴷ ⴰⵢⴰⴷ)",
-    "out_of_range": "Invalid card position. You have {count} cards (1-{count})"
+    "out_of_range": "Awadeg n wudmawen ur yezmir. Iɣalas {count} wudmawen (1-{count})"
   },
   "action": {
     "played": "Imellyan {player_id} inna {card}",
-    "trick_win": "Player {winner} wins the trick with {card} and gains {points} points!"
+    "trick_win": "Umarir {winner} yernan trick s wudmawen {card} d-yawi {points} points!"
   },
   "outcome": {
     "head": "Tallit yekfa! Imellyan {winner} ikkes d {points} n yefkan!\n\nIɣawasen n uhid: \n{scores}",

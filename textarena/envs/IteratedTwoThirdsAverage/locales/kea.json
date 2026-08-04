@@ -7,7 +7,7 @@
     "out_of_range": "Adivinha debe sta entri {min_guess} i {max_guess}."
   },
   "message": {
-    "round_guesses": "Player 0 guessed {guess0}; Player 1 guessed {guess1}. Thus the Target is: {target}.",
+    "round_guesses": "Xuugador 0 djita {guess0}; Xuugador 1 djita {guess1}. Así alvo é: {target}.",
     "round_draw": "Kel ronda é un empatia.",
     "round_win": "Jogu {winner} ta ganha es ronda!"
   },

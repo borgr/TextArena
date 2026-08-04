@@ -7,13 +7,13 @@
   },
   "invalid_move": {
     "wrong_format": "Nta buryo bwo kwimura bwemewe bwabonetse. Koresha '[pile quantity]'.",
-    "correct_format_wrong_fields": "Player {player_id}, Invalid action. Column {col} is out of bounds.",
+    "correct_format_wrong_fields": "Mugenzi {player_id}, Igikorwa si sahihi. Koloni {col} iri hanze y'ipimo.",
     "out_of_range": "Ikigereranyo cy'umurundo {pile_index} kiri hanze y'intera.",
     "non_positive": "Ugomba gukuraho nibura ikintu kimwe.",
     "exceeds_pile": "Oya kurema {quantity} kuva kwa pile {pile_index} (imara {pile_count} pekee)."
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "Umukinnyi {player_id} yakinnye [{pile_index} {quantity}], akimura {quantity} ibintu kuva mu rwombo {pile_index}."
   },
   "outcome": {
     "win": "Umukinnyi {player_id} yafashe igikoresho cya nyuma ((s)!"

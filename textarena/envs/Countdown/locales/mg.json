@@ -9,13 +9,13 @@
     "progress": "{observation} Fampisehoana ny fandrosoana ankehitriny: {progress}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use `[i j op]` where i,j are indices and op is +,-,*,/",
+    "wrong_format": "Formatin'ny hetsika diso. Ampiasao `[i j op]` izay i,j dia indise ary op dia +,-,*,/",
     "invalid_indices": "Tsy manan-kery ny index. Tsy maintsy hafa izy ireo ary eo amin'ny 0-{max_index}",
     "invalid_operation": "Fandidiana tsy mety (fizarana amin'ny isa zero na valiny tsy isa)"
   },
   "outcome": {
     "win": "Tonga lafatra! Nahita ny tena tanjona: {target}",
     "no_moves": "Tsy misy hetsika intsony. Vokatra tsara indrindra: {best_value} (tanjona: {target})",
-    "turn_limit": "Turn limit reached. Best result: {best_value} (target: {target})"
+    "turn_limit": "Efa tonga ny fetra andrana. Vokatra tsara indrindra: {best_value} (tanjona: {target})"
   }
 }

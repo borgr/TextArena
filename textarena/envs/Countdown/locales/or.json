@@ -9,13 +9,13 @@
     "progress": "{observation} ବର୍ତ୍ତମାନର ଅଗ୍ରଗତି ସ୍କୋର: {progress}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use `[i j op]` where i,j are indices and op is +,-,*,/",
+    "wrong_format": "ଅବୈଧ କାର୍ଯ ଫର୍ମାଟ। [i j op] ବ୍ୟବହାର କରନ୍ତୁ ଯେଉଁଠି i,j ସୂଚୀ ଏବଂ op ହେଉଛି +,-,*,/",
     "invalid_indices": "ଅବୈଧ ସୂଚକାଙ୍କ. ଭିନ୍ନ ହେବା ଉଚିତ ଏବଂ 0-{max_index} ପରିସର ମଧ୍ୟରେ ରହିବା ଉଚିତ",
     "invalid_operation": "ଅବୈଧ କାର୍ଯ୍ୟ (ଶୂନ ଦ୍ବାରା ବିଭାଜନ କିମ୍ବା ଅସଂଖ୍ୟ ଫଳାଫଳ)"
   },
   "outcome": {
     "win": "ଚମତ୍କାର! ସଠିକ ଲକ୍ଷ୍ୟ ପାଇଲି: {target}",
     "no_moves": "ଆଉ କୌଣସି ଚାଲ ନାହିଁ. ଶ୍ରେଷ୍ଠ ଫଳାଫଳ: {best_value} (ଲକ୍ଷ୍ୟ: {target})",
-    "turn_limit": "Turn limit reached. Best result: {best_value} (target: {target})"
+    "turn_limit": "ଚାଲ ସୀମା ପହଞ୍ଚି ଗଲା। ସର୍ବୋତ୍ତମ ଫଳାଫଳ: {best_value} (ଲକ୍ଷ୍ୟ: {target})"
   }
 }

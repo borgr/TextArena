@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "Welcome to Frozen Lake!\n\nYou are represented by 'P' on the grid.\nGrid symbols:\n  ' ' = Frozen surface (safe to walk on)\n  'H' = Hole (fall in and lose!)\n  'G' = Goal (reach this to win!)\n  'P' = Your current position\n\nAvailable actions: up, down, left, right (or w, a, s, d)\nType your action as: [up], [down], [left], [right] or [w], [a], [s], [d]\n\nObjective: Navigate from the start (top-left) to the goal (bottom-right) without falling into any holes!\n"
+    "intro": "As-salamu alaykum i Tilleɣa n Yefren!\n\nA kewey teddaɣ 'P' ɣef tedwalt.\nTidwal:\n  ' ' = Tajjalt (iɣewwaɣ aɣewwad)\n  'H' = Ahay (t-ɛeqqel ḍart aɣreɣ)\n  'G' = Azɣar (aweḍ ɣer daɣ aɣewwad)\n  'P' = Iɣewwaɣ n wakud nnek\n\nAɣewwaɣ inaɣlanen: sufell, wadda, ayfus, ayfru (neɣ w, a, s, d)\nTira aɣewwaɣ-nnek am: [up], [down], [left], [right] neɣ [w], [a], [s], [d]\n\nAzɣar: Ssufɣed seg tazwara (deg ufella-ayfus) ɣer azɣar (deg wadda-ayfru) war t-ɛeqqel ɣer kullu ahay!\n"
   },
   "board": {
     "current_board": "Alabɣa n ussan:\n\n{board}\n\nIɣawasen irwasen: {actions}"
@@ -15,7 +15,7 @@
   },
   "outcome": {
     "win": "ⴰⵙⵂⴰⵗⴰⵜ, ⴰⴶⵔⴰⵓⵉⴷ ⵜⴰⴱⴰⵔⴰⵜ.",
-    "fell_in_hole": "You fell into a hole! Game over. You completed {pct}% of the journey to the goal.",
-    "turn_limit": "You reached the turn limit! Game over. You completed {pct}% of the journey to the goal."
+    "fell_in_hole": "Tɣliɣ daɣ aɣbalu! Tagara n urar. Tɣliɣ daɣ {pct}% n tazwara ɣer targa.",
+    "turn_limit": "Tawed-ten daɣ talast n y-imetten! Tagara n urar. Tɣliɣ daɣ {pct}% n tazwara ɣer targa."
   }
 }

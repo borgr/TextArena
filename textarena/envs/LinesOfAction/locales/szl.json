@@ -10,7 +10,7 @@
     "{to}": "The destination coordinate of a move, such as b3"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in game of LinesOfAction.\nYour pieces are '{side}', opponent pieces are '{other}'.\nMove format: `[b1b3]` (from-coord to-coord). A legal move travels horizontally, vertically, or diagonally a number of squares equal to the total pieces (any colour) in that line. You may jump over your own pieces, but not opponent pieces; landing on an opponent captures it.  Win when all your pieces are 8-neighbour connected."
+    "intro": "Jeśśe Gracz {player_id} we grze LinesOfAction.\nTwoje pionki to '{side}', pionki przeciwnika to '{other}'.\nFormat ruchu: `[b1b3]` (od-koordynata do-koordynata). Legalny ruch idźe w poźomie, w pionie abo po diagonali o tyle pól, ile je pionków (dowolnyj farby) w tej liniji. Możesz skoczyć przez swoje własne pionki, ale nie przez pionki przeciwnika; lądowanie na pionku przeciwnika je zajmuje. Wygra, kej wšyjstkie twoje pionki są połůnczůne po 8-nůszydlńyjch."
   },
   "board": {
     "current_board": "Rada: {board}"
@@ -22,7 +22,7 @@
     "not_straight_or_diagonal": "Ruch musi być prosto abo na przekątnyj.",
     "wrong_distance": "Muszōm ôsiōngnōńć ôdległość rōwno sztukom we liniji.",
     "enemy_blocks": "Wrōg blokuje drōga.",
-    "destination_own": "Destination occupied by own piece."
+    "destination_own": "Cel zajynty uod własnygo pionka."
   },
   "game_action": {
     "moved": "Gracza {player_id} przesunōł {from} -> {to}",

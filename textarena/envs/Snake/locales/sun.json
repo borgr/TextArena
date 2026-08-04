@@ -18,7 +18,7 @@
     "after_moves": "Nagara Déwan Ayeuna: {board}"
   },
   "game_action": {
-    "invalid_death": "Ular {player_id} maot alatan move teu valid."
+    "invalid_death": "Oray {player_id} paéh alatan gerakan anu teu valid."
   },
   "outcome": {
     "survived_win": "Pamaén {player_id} salamet; sadaya anu sanésna tiwas.",

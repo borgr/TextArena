@@ -7,7 +7,7 @@
     "out_of_range": "Tokony ho eo anelanelan'ny {min_guess} sy {max_guess} ny vinavina."
   },
   "message": {
-    "round_guesses": "Player 0 guessed {guess0}; Player 1 guessed {guess1}. Koa ilay Target dia: {target}.",
+    "round_guesses": "Mpilalao 0 nanao fanodinana {guess0}; Mpilalao 1 nanao fanodinana {guess1}. Koa ny Tanjona dia: {target}.",
     "round_draw": "Tsy misy na inona na inona ny fihodinana.",
     "round_win": "Mandresy ny lalao ny mpilalao {winner}!"
   },

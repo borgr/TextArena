@@ -1,20 +1,20 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in Wild Tic Tac Toe.\nOn your turn, you can place either an 'X' or an 'O' in an empty square.\nYou win by aligning three of the same mark (X or O) in a row.\nYou can win with either symbol.\nChoose your move using the format '[X 4]' to place X in the center.\n"
+    "intro": "Nde Player {player_id} Wild Tic Tac Toe-pe.\nNde ñe'ẽme, ikatu reike 'X' térã 'O' peteĩ casilla vacía-pe.\nReipota ojuehegui mbohapy marandu peteĩcha (X térã O) peteĩ renondépe.\nIkatu reipota mokõi símbolo ndive.\nEiporavo ne ñe'ẽme ojepuruva'erã formato '[X 4]' oike X mbytepe.\n"
   },
   "board": {
-    "current_board": "Tablero Actual:\n\n{board}\n\nMovimientos Disponibles: {moves}"
+    "current_board": "Tablero Ag̃agua:\n\n{board}\n\nÑe'ẽme Ku'ekuaa: {moves}"
   },
   "invalid_move": {
-    "wrong_format": "Formato de movimiento inválido. Use el formato '[X 4]' o '[O 2]'.",
+    "wrong_format": "Ñe'ẽme formato ivai. Puru '[X 4]' térã '[O 2]' formato.",
     "invalid_cell": "Número de celda inválido: {cell}. Oimeva'erã 0 ha 8 apytépe.",
     "already_occupied": "Movimiento invalido. Celdilla {cell} oĩma ocupada-pe."
   },
   "game_action": {
-    "placed": "Player {player_id} placed their symbol ({mark}) in cell {cell}"
+    "placed": "Player {player_id} oike símbolo ( {mark} ) casilla {cell}-pe"
   },
   "outcome": {
-    "win": "Player {player_id} wins with {mark}s!",
+    "win": "Player {player_id} oipota {mark}s ndive!",
     "draw": "Pe juego ha'e peteî empate!"
   }
 }

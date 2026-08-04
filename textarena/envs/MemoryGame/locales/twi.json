@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id}. You are playing the Memory Game.\nYour goal is to match more pairs of cards on the board, than your opponent.\nOn your turn, select two cards to flip by entering the row and column numbers of the first and second card respectively like '[0 1 1 0]', where the first card is in row 0 and column 1, and the second card is in row 1 and column 0.\nIf the two cards match, you get a point and the cards remain face up. If they do not match, the cards are flipped back face down, e.g. '.'.\nThe game ends when all pairs have been matched."
+    "intro": "Wo ne Player {player_id}. Wo reko Memory Game.\nWo botae ne sɛ wo bɛtumi akɔ so ama wo ho dɔ nkrataa pii sen wo pɛpɛfo.\nWo berɛ mu no, wo bɛhwehwɛ nkrataa mmienu na wo bɛkyerɛw wo nkrataa no mu nsɛm ne nkrataa no kwan ne nkrataa no nkyɛn dodow no sɛ '[0 1 1 0]', baako a ɛwɔ nkrataa no mu wɔ nkyɛn 0 ne dodow 1, na nkrataa no mu wɔ nkyɛn 1 ne dodow 0.\nSɛ nkrataa no mmienu no yɛ pɛ, wo bɛnya akontabuo baako na nkrataa no bɛda adi. Sɛ wɔnnyɛ pɛ, nkrataa no bɛdan akyi adi, e.g. '.'.\nAgɔ no bɛba awiee bere a nkrataa pii no nyinaa aba pɛ."
   },
   "board": {
     "current_board": "Mprenpren bo: {board}",
@@ -13,13 +13,13 @@
     "already_matched": "Nkɔso a enni mu. Ɔbɔadeɛ {player_id} paw krataa biako anaa mmienu no nyinaa a wɔadi kan aka ho asɛm dedaw."
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "Nkrataa a Player {player_id} hwehwɛɛ no wɔ nkyɛn [{r1} {c1}] ne [{r2} {c2}] no yɛ pɛ!",
+    "cards_no_match": "Nkrataa a Player {player_id} hwehwɛɛ no nyɛ pɛ. Nkrataa a ɛwɔ nkyɛn [{r1} {c1}] ne [{r2} {c2}] no yɛ {pos1} ne {pos2} sɛnea ɛte biara."
   },
   "outcome": {
     "draw": "Ná agumadifo no nyinaa wɔ nkrataa abien a edi nsɛ.",
     "win": "Ɔpanyin {winner_id} adi nkonim!",
-    "turn_limit": "The turn limit has been reached. The game is over. Player 0 scored {score_0} points, Player 1 scored {score_1} points.",
-    "turn_limit_win": "{reason} Player {winner_id} has won!"
+    "turn_limit": "Bere a wɔbɛhwɛ nkrataa no aba awiee. Agɔ no aba awiee. Player 0 nyaa akontabuo {score_0}, Player 1 nyaa akontabuo {score_1}.",
+    "turn_limit_win": "{reason} Player {winner_id} awie n'agɔ!"
   }
 }

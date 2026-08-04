@@ -33,12 +33,12 @@
     "caller_loses": "Тоглогч {current_player_id} дууддаг! Бодит тооны тоо {face_value} бол {count} бөгөөд энэ нь >= {quantity} юм. Тоглогч {loser_id} (цаг дууддагч) нэг талыг алдаж байна."
   },
   "action": {
-    "bid_announce": "Player {player_id} bids {quantity} of face {face_value}."
+    "bid_announce": "Тоглогч {player_id} {quantity} тоо хэмжээний шооны нүүрийн утга {face_value} залгана."
   },
   "invalid_move": {
     "call_no_bid": "Урьдчилсан саналгүйгээр дуудлага хийсэн.",
     "invalid_bid": "Хууль бус санал: {reason}",
-    "not_recognized": "Action not recognized as either a valid '[Bid: X, Y]' or '[Call]'. Submitted action: {action}"
+    "not_recognized": "Үйлдлийг '[Bid: X, Y]' эсвэл '[Call]' гэж хүлээн зөвшөөрөхгүй. Оруулсан үйлдэл: {action}"
   },
   "bid_reason": {
     "quantity_lower": "Шинэ тоо {new_quantity} нь одоогийн {current_quantity}-аас бага байна.",

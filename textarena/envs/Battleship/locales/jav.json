@@ -9,7 +9,7 @@
   },
   "game_action": {
     "you_sunk": "Tenggel! Sampeyan kasil tenggel kapal ing {coord}! Papan kamuwangmu saiki:\n{view}",
-    "opp_sunk": "Opponent sunk your ship at {coord}! Your updated board:\n{view}",
+    "opp_sunk": "Lawan nenggelamake kapal sampeyan ing {coord}! Papan sampeyan sing anyar:\n{view}",
     "you_hit": "Kasil ndadak! Sampeyan ndadak kapal ing {coord}! Papan kamuwangmu saiki:\n{view}",
     "opp_hit": "Mungsuh ndadak kapalmu ing {coord}! Papan kamuwangmu saiki:\n{view}",
     "you_miss": "Kasil ndadak! Sampeyan kasil ndadak kapal ing {coord}! Papan kamuwangmu saiki:\n{view}",

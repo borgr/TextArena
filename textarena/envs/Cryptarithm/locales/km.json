@@ -9,10 +9,10 @@
     "{pct}": "Progress as a percentage string, e.g. 50%"
   },
   "player_prompt": {
-    "intro": "Map each letter to a unique digit so the arithmetic holds.\nAssign with `[A 5]`, re-assign anytime.\n"
+    "intro": "ចូរកំណត់អក្សរនីមួយៗទៅលេខដែលមានតែមួយគត់ ដើម្បីឱ្យគណនាបានត្រឹមត្រូវ។ កំណត់ដោយ `[A 5]`, អាចកំណត់ឡើងវិញនៅពេលណាក៏បាន។\n"
   },
   "invalid_move": {
-    "wrong_format": "Bad action format. Use `[A 5]`.",
+    "wrong_format": "ទម្រង់សកម្មភាពមិនត្រឹមត្រូវ។ សូមប្រើ `[A 5]`។",
     "letter_not_in_puzzle": "អក្សរ {letter} មិននៅក្នុងចលនា។",
     "digit_used": "ឌីជីថល {digit} ត្រូវបានប្រើរួចហើយដោយ {used_letter} ។",
     "leading_zero": "តួដើមនៃពាក្យមួយមិនអាចជា 0 បានទេ។"

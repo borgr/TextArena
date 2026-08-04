@@ -23,9 +23,9 @@
     "no_closing_bracket": "រូបមន្តសកម្មភាពមិនត្រឹមត្រូវ. ខ្វះខាតក្របខ័ណ្ឌបិទ ']'",
     "empty_command": "បញ្ជាគ្មានអ្វី។ Type \"draw\" ឬ \"move <source> <destination> [count]\"",
     "empty_action": "សកម្មភាពគ្មានអ្វី",
-    "move_needs_args": "បញ្ជាចល័តតម្រូវឱ្យមានប្រភពនិងគោលដៅ ការប្រើប្រាស់: 'ចល័ត <ប្រភព> <គោលដៅ> [count]'",
-    "count_positive": "ការរាប់ត្រូវមានសុពលភាព ឬ \"ទាំងអស់\"",
-    "count_invalid": "ការរាប់មិនត្រឹមត្រូវ ប្រើចំនួនឬ 'ទាំងអស់'",
+    "move_needs_args": "បញ្ជាផ្លាស់ទីត្រូវការប្រភព និងគោលដៅ។ ប្រើប្រាស់: 'move <source> <destination> [count]'",
+    "count_positive": "ចំនួនត្រូវតែជាវិជ្ជមាន ឬ 'all'",
+    "count_invalid": "ចំនួនមិនត្រឹមត្រូវ។ ប្រើប្រាស់លេខ ឬ 'all'",
     "unknown_command": "បញ្ជាមិនស្គាល់ '{cmd}'. ប្រើ 'draw', 'move <source> <destination> [count]', ឬ 'forfeit'",
     "wrapped": "សកម្មភាព {n}: {msg}"
   },

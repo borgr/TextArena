@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You will observe {N} hidden values sequentially.\nAt each step type [accept] to pick the *current* value, or [continue] to skip it and see the next one.\nIf you never accept, you are forced to take the final value.\nYou win (reward = 1) **only** if the value you ultimately pick is the highest of all."
+    "intro": "तपाईं {N} लुकेका मानहरूलाई क्रमशः अवलोकन गर्नुहुनेछ।\nप्रत्येक चरणमा [accept] टाइप गरी *वर्तमान* मान चयन गर्नुहोस्, वा [continue] टाइप गरी यसलाई छोडी अर्को मान हेर्नुहोस्।\nयदि तपाईं कहिल्यै स्वीकार गर्नुहुन्न, तपाईं अन्तिम मान लिन बाध्य हुनुहुनेछ।\nतपाईं जित्नुहुन्छ (पुरस्कार = १) **मात्र** यदि तपाईं अन्ततः चयन गरेको मान सबैभन्दा उच्च हो।"
   },
   "game_action": {
     "current_value": "वर्तमान मान {value} हो।"

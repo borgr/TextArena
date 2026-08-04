@@ -12,7 +12,7 @@
     "invalid_position": "غلط حرڪت - ان پوزيشن تي منتقل نه ٿي ڪري سگھجي."
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
+    "moved": "توهان {pushed} [{action}] تي حرڪت ڪئي.",
     "pushed_prefix": "هڪ دٻي کي ڌڪايو جڏهن ته"
   },
   "outcome": {

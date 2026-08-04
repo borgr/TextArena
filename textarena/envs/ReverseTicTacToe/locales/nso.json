@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a game of Reverse Tic Tac Toe. Your symbol is '{symbol}'.\nThe goal is to avoid getting three in a row (horizontally, vertically, or diagonally).\nIf you make three in a row, you LOSE.\nSubmit your move using the format '[4]' to place your symbol in cell 4.\nAs Player {player_id}, you are '{symbol}' and your opponent is '{opponent_symbol}'."
+    "intro": "O kile wa Bapadi {player_id} mo papading ya Reverse Tic Tac Toe. Senthara ya gago ke '{symbol}'.\nSepheo ke go epa go hwetša tše tharo ka lerata (godimo, tlase, goba ka diagonal).\nGe o dira tše tharo ka lerata, o LEFELE.\nRomela tsela ya gago ka go šomiša mofuta '[4]' go bea senthara ya gago mo seleng sa 4.\nE le Bapadi {player_id}, o kile '{symbol}' mme mmathopodiša wa gago ke '{opponent_symbol}'."
   },
   "board": {
     "current_board": "Boro ya kgwedi:\n\n{board}\n\nDitshelelo tse di kgonegang: {moves}"

@@ -39,7 +39,7 @@
   "turn": {
     "score_entry": "Ɗononki {player_id}: {points} pts",
     "trump_info": "Trumpye kazәyi: {trump_suit}",
-    "trump_info_deck": "Trump suit: {trump_suit} | Cards left in deck: {deck_count}",
+    "trump_info_deck": "Kàmàntí {trump_suit} | Kàrtí kulàwú ndì {deck_count}",
     "board": "{hand}\n\n{trick}\n\nPointi: {scores}\n{trump_info}\n\nWoni kadi using [play X]"
   },
   "invalid_move": {
@@ -47,8 +47,8 @@
     "out_of_range": "Kadi position ɓataki. Ki woni {count} kadi (1-{count})"
   },
   "action": {
-    "played": "Player {player_id} played {card}",
-    "trick_win": "Player {winner} wins the trick with {card} and gains {points} points!"
+    "played": "Kàsá {player_id} àtì {card}",
+    "trick_win": "Kàsá {winner} àshí kàmàntí {card} ndè àzí {points} pòintí!"
   },
   "outcome": {
     "head": "Kadi woni kesi! Ɗononki {winner} ɓataki ɓe {points} pointi!\n\nPointi ɓataki:\n{scores}",

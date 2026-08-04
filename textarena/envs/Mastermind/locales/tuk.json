@@ -13,7 +13,7 @@
     "repeated_guess": "Siz eýýäm {guess} diýip pikir etdiňiz. Lütfen başga bir zady tapjak boluň."
   },
   "game_action": {
-    "feedback": "Submitted [{guess}]. Feedback: {black_pegs} black peg(s), {white_pegs} white peg(s)."
+    "feedback": "Ýöne [{guess}] ýazyp ýördüňiz. Jogap: {black_pegs} gara ýylgyr(lar), {white_pegs} ak ýylgyr(lar)."
   },
   "outcome": {
     "win": "Siz kod ýykdysyňyz, {black_pegs} sany {code_length} pegs dogry tapdy.",

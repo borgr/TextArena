@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({piece}). Opponent is ({opp}).\nSubmit moves as '[a2 a3]' (from → to).\n- A normal move is one forward step to an adjacent empty vertex.\n- A capture is a jump over an adjacent enemy piece landing on the empty node beyond.\nEach capture yields {score_per_capture} points.\nGame ends after {max_moves} moves or when a player has no legal move."
+    "intro": "Yin e jiäk {player_id} ({piece}). Jiäk dwirä e ({opp}).\nGɛɛr miɛl ke '[a2 a3]' (kä ɛɛ → kä ɛɛ).\n- Miɛl kä kɛɛ wä e miɛl kä kä pɛɛl wä kä pɛɛl tɛɛr.\n- Kä pɛɛl jiäk e jiäk kä kä wä kä pɛɛl tɛɛr e jiäk kä pɛɛl.\nKä pɛɛl jiäk e {score_per_capture} pɔɔy.\nMiɛl kä kɛɛ e {max_moves} miɛl kä kä wä kä jiäk kä kä pɛɛl miɛl."
   },
   "board": {
     "current_board": "Ciɛl #{move_count}\n\n{board}"

@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({piece}). Opponent is ({opp}).\nSubmit moves as '[a2 a3]' (from → to).\n- A normal move is one forward step to an adjacent empty vertex.\n- A capture is a jump over an adjacent enemy piece landing on the empty node beyond.\nEach capture yields {score_per_capture} points.\nGame ends after {max_moves} moves or when a player has no legal move."
+    "intro": "Ati pilaayari {player_id} ({piece}). Diraamaa isaa ({opp}).\nGumaacha dirqamaa akka '[a2 a3]' (irraa → gara).\n- Sochiin dirqamaa tokko dhaabbata fuulduraa gara vertex xiqqaa dhaabbatuu.\n- Kuufamaa dirqamaa waliin dhaabbatuu diinaa gara node xiqqaa dhaabbatuu.\nKuufamaan dirqamaa tokko {score_per_capture} alamaa kennaa.\nTaphataa xumuramaa {max_moves} dirqamaa booda ykn yoom pilaayari dirqamaa seera-qabeessa hin qabu."
   },
   "board": {
     "current_board": "Galti #{move_count}\n\n{board}"

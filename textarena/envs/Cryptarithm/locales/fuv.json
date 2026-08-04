@@ -9,10 +9,10 @@
     "{pct}": "Progress as a percentage string, e.g. 50%"
   },
   "player_prompt": {
-    "intro": "Map each letter to a unique digit so the arithmetic holds.\nAssign with `[A 5]`, re-assign anytime.\n"
+    "intro": "Tsara koo wasiƙa zuwa manɗa ta musamman don lissafi ya riƙe.\nƊauka da `[A 5]`, sake ɗauka a wani lokaci.\n"
   },
   "invalid_move": {
-    "wrong_format": "Bad action format. Use `[A 5]`.",
+    "wrong_format": "Matsayin aikin baya daidai ba. Yi amfani da `[A 5]`.",
     "letter_not_in_puzzle": "Bindi {letter} wala nder jigga.",
     "digit_used": "Digit {digit} ina anfani a hannun {used_letter}.",
     "leading_zero": "Limngal arandewol wolde footay laato 0."

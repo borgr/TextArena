@@ -13,8 +13,8 @@
     "already_matched": "Pindhah ora sah. Pemain {player_id} milih siji utawa kalorone kertu sing wis cocog."
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "Kertu sing dipilih Pemain {player_id} ing posisi [{r1} {c1}] lan [{r2} {c2}] cocok!",
+    "cards_no_match": "Kertu sing dipilih Pemain {player_id} ora cocok. Kertu ing posisi [{r1} {c1}] lan [{r2} {c2}] yaiku {pos1} lan {pos2} miturut."
   },
   "outcome": {
     "draw": "Loro-lorone pemain cocog karo nomer pasangan kartu sing padha.",

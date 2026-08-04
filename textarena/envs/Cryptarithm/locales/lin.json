@@ -9,10 +9,10 @@
     "{pct}": "Progress as a percentage string, e.g. 50%"
   },
   "player_prompt": {
-    "intro": "Map each letter to a unique digit so the arithmetic holds.\nAssign with `[A 5]`, re-assign anytime.\n"
+    "intro": "Pesa lokota na nambari ya kipekee po na kotanga mbano ya kubala.\nTanga na `[A 5]`, tanga lisusu nini na nini.\n"
   },
   "invalid_move": {
-    "wrong_format": "Bad action format. Use `[A 5]`.",
+    "wrong_format": "Mbotama mabe ya kolakisa. Tanga na `[A 5]`.",
     "letter_not_in_puzzle": "Mokanda {letter} ezali na puzzle te.",
     "digit_used": "Motángo {digit} esalemi na {used_letter}.",
     "leading_zero": "Motángo ya liboso na liloba moko ekoki kozala 0."

@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "Waxqabadka waa in uu ahaadaa qaabka [row col] halka safka iyo safka ay yihiin tirooyin dhan laga bilaabo 0 ilaa {max_index}.",
-    "out_of_range": "Coordinates must be between 0 and {max_index}. You entered [{row},{col}]."
+    "out_of_range": "Koordineetada waa inay noqdaan u dhexeeya 0 iyo {max_index}. Waxaad galisay [{row},{col}]."
   },
   "outcome": {
     "win": "Gacanta ku guulaysa! Waxaad xalliyeysay puzzle-ka {moves_used} ku guulaysto!",

@@ -7,13 +7,13 @@
   },
   "invalid_move": {
     "wrong_format": "চৎনবা য়াবা খোঙথাং ফোর্মেত অমত্তা ফংদ্রে. '[pile quantity]' শিজিন্নৌ.",
-    "correct_format_wrong_fields": "Player {player_id}, Invalid action. Column {col} out of bounds ama.",
+    "correct_format_wrong_fields": "Player {player_id}, Thouram asidi. Column {col} khongjang louba.",
     "out_of_range": "পাইল ইন্দেক্স {pile_index} অসি রেঞ্জগী মপান্দা লৈ।",
     "non_positive": "য়ামদ্রবদা পোৎশক অমা লৌথোক্কদবনি।",
-    "exceeds_pile": "Cannot remove {quantity} from pile {pile_index} (only {pile_count} left)."
+    "exceeds_pile": "{quantity} khut taanba pile {pile_index} taanba matang ahallu ( {pile_count} pou ollommi)."
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "Khelgi {player_id} [{pile_index} {quantity}] khelgi, {quantity} leirang (leirang) pile {pile_index} gi koida thokpa."
   },
   "outcome": {
     "win": "শান্নরোই {player_id}না অরোয়বা পোৎলম লৌখি!"

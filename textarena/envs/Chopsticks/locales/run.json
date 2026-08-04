@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in Chopsticks. On your turn, choose one of:\n  + Attack:  '[attack M O]'  where M=your hand (0 or 1), O=opponent hand (0 or 1).\n    - Opponent's hand count increases by your hand; if >=5, it becomes 0.\n  + Split:   '[split L R]'  to redistribute your total fingers into L and R (L+R = your total).\nReply with exactly one of those commands."
+    "intro": "Uri umukinnyi {player_id} muri Chopsticks. Ku ngiro yawe, hita moja ya:\n  + Kugonga:  '[attack M O]'  aho M=ikiganza cye (0 cyangwa 1), O=ikiganza cya mpanzi (0 cyangwa 1).\n    - Amatwi ya mpanzi yanongezeka na ikiganza cye; niba >=5, ikiganza kisigara.\n  + Kugabanya:   '[split L R]'  kugabanya amatwi yawe yose muri L na R (L+R = amatwi yawe yose).\nSobanura na kimwe kimwe muri iyo komandi."
   },
   "board": {
     "current_board": "Kibao cha sasa:\nMwari 0: {hands_0}\nMwari 1: {hands_1}"
@@ -14,7 +14,7 @@
   },
   "game_action": {
     "attack": "P{player_id} atumbera ukuboko kwa P{opp_id} {opp_idx}: kuva kuri {opp_val} gushika ku {new_val}.",
-    "split": "P{player_id} splits into [{L}, {R}]."
+    "split": "P{player_id} anagabanya muri [{L}, {R}]."
   },
   "history": {
     "entry": "P{player_id} {desc}"

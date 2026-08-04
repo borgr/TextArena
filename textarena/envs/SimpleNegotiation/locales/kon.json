@@ -4,16 +4,16 @@
   },
   "invalid_move": {
     "receiving_with_no_resource": "Muntu yina vandaka kusala bansaka yango ndimaka na kusoba, kansi yandi kondaka mbongo ya kufwana.",
-    "out_of_range": "Player {player_id}, Invalid action. Column {col} is out of bounds.",
-    "already_full": "Player {player_id}, Invalid action. Column {col} is full.",
+    "out_of_range": "Mwana {player_id}, Misala ya kipekipe. Koloni {col} i kati ya mipaka.",
+    "already_full": "Mwana {player_id}, Misala ya kipekipe. Koloni {col} i kati ya mipaka, i kizidi.",
     "proposing_with_no_resource": "Muntu yina kebula {player_id} sosaka kusala mumbongo kukonda kuzwa mbongo ya kufwana.",
     "incorrect_offer_format": "Muntu yina kebula {player_id} pesaka mbongo na yandi ya kusumba sambu bo soba yo, kansi mutindu ya kupesa kele mbote ve.",
     "no_new_offer": "Muntu yina kebula {player_id} pesaka ve mbongo ya nkaka."
   },
   "offers": {
     "reject": "Muntu yina kebula {player_id} buyaka kusoba.",
-    "accept": "Player {acceptor_id} accepted the trade offer from Player {proposer_id}.",
-    "proposal": "Player {player_id} made the following offer to Player {opponent_id}: Offered items: {offered} -> Requested items: {requested}"
+    "accept": "Mwana {acceptor_id} akoyoka makopo ya bandika ya Mwana {proposer_id}.",
+    "proposal": "Mwana {player_id} akoyoka makopo ya koyokela Mwana {opponent_id}: Makopo ya koyoka: {offered} -> Makopo ya koyokela: {requested}"
   },
   "outcome": {
     "win": "Muntu yina ke bulaka na {winner_id} me nunga sambu yandi kele ti bima mingi ya ntalu.",

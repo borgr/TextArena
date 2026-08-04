@@ -10,7 +10,7 @@
     "{to}": "The destination coordinate of a move, such as b3"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in game of LinesOfAction.\nYour pieces are '{side}', opponent pieces are '{other}'.\nMove format: `[b1b3]` (from-coord to-coord). A legal move travels horizontally, vertically, or diagonally a number of squares equal to the total pieces (any colour) in that line. You may jump over your own pieces, but not opponent pieces; landing on an opponent captures it.  Win when all your pieces are 8-neighbour connected."
+    "intro": "Nang masha {player_id} hpe LinesOfAction shangai gawng kasa hta na matu.\nNang hte masha '{side}' hpe, hpang jahtu masha '{other}' hpe.\nLam hku hte seng ai hku na matu: `[b1b3]` (hku hte seng ai hku na matu). Lam hku hte seng ai hku na matu hta kaw nna, masha hte maren sha ai lam hku hte seng ai lam hpe yu ai hku na matu. Nang masha hte maren sha ai lam hku hte seng ai lam hpe yu ai hku na matu, hpang jahtu masha hpe n yu ai; hpang jahtu masha hpe yu ai hku na matu hta kaw nna, nang masha hpe jaw ai.  Nang masha hte maren sha ai lam hku hte seng ai lam hpe 8-hku na matu hta kaw nna, jaw ai."
   },
   "board": {
     "current_board": "Hpungtau: {board}"
@@ -26,7 +26,7 @@
   },
   "game_action": {
     "moved": "Player {player_id} hkrang {from} -> {to}",
-    "captured_suffix": "Player {player_id} moved {from} -> {to} capturing an enemy."
+    "captured_suffix": "Masha {player_id} hpe {from} -> {to} hku hte seng ai lam, hpang jahtu masha hpe jaw ai."
   },
   "outcome": {
     "win": "Yawng gaw matut mahkai nga ai.",

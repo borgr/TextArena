@@ -9,10 +9,10 @@
     "{pct}": "Progress as a percentage string, e.g. 50%"
   },
   "player_prompt": {
-    "intro": "Map each letter to a unique digit so the arithmetic holds.\nAssign with `[A 5]`, re-assign anytime.\n"
+    "intro": "Peuta setiap haraih keu angka nyang unik supaya aritmetika beutah.\nTetap ngon `[A 5]`, re-tetap le beuleh wate.\n"
   },
   "invalid_move": {
-    "wrong_format": "Bad action format. Use `[A 5]`.",
+    "wrong_format": "Format tindakan salah. Gunaka `[A 5]`.",
     "letter_not_in_puzzle": "Huruf {letter} hana lam puzzle.",
     "digit_used": "Digit {digit} kaleuh ji pakek le {used_letter}.",
     "leading_zero": "Digit awai saboh kata hanjeut 0 ."

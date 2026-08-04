@@ -10,7 +10,7 @@
     "{groups}": "Neutral ranking data (a list of player-id groups, best to worst); do not translate"
   },
   "player_prompt": {
-    "intro": "{num_players}-Player Surround on a {width}x{height} grid.\nYou are player {player_id}. Valid moves: '[up]' '[down]' '[left]' '[right]' or w/s/a/d.\nObjective: outlive everyone else. Trails are deadly; wall hits kill; head-on crashes kill both."
+    "intro": "{num_players}-Уйынсы Уратып алыусы {width}x{height} селтәрҙә.\nҺеҙ уйынсы {player_id}. Ғәмәлдәге хәрәкәттәр: '[up]' '[down]' '[left]' '[right]' йәки w/s/a/d.\nМаҡсат: бөтә башҡаларҙы үтергә. Һыҙаттар үлемесле; стенаға бәрелү үлтерә; баш-һөйәк бәрелеше икеһен дә үлтерә."
   },
   "board": {
     "current": "Хәҙерге идара: {board}",
@@ -25,6 +25,6 @@
     "outlived": "Уйынсы башҡаларҙан оҙағыраҡ йәшәй.",
     "all_dead": "Бөтә уйынсылар ҙа һәләк була.",
     "turn_limit": "Тәртип сиктәре үтәлгән - иң оҙон ғүмерле еңеүсе.",
-    "ranking": "{reason} Final ranking groups (best→worst): {groups}"
+    "ranking": "{reason} Ахырғы рейтинг төркөмдәре (иң яҡшыһынан иң насарына): {groups}"
   }
 }

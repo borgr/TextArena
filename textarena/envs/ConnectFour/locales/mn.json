@@ -15,7 +15,7 @@
     "dropped_disk": "Тоглогч {player_id} дискийг нь ({player_symbol}) {col} суудалд хаясан."
   },
   "outcome": {
-    "win": "Player {player_id} wins by connecting four!",
+    "win": "Тоглогч {player_id} дөрвөн дискээ холбож хожлоо!",
     "draw": "Тоглолт тэнцвэртэй төгссөн."
   }
 }

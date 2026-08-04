@@ -1,13 +1,13 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a {num_rounds}-round of IteratedTwoThirdsAverage.\nEach round, guess a number between {min_guess} and {max_guess}.\nAfter both guesses, the target is (2/3)x(average of both guesses),\nand the player whose guess is closest to the target wins that round.\nReply with your guess in the format '[<number>]'."
+    "intro": "Yaa ngone jàngoro {player_id} ci ñaareelu {num_rounds} bu IteratedTwoThirdsAverage.\nCi beneen weer, takk ndawte bu digaale ak {min_guess} ak {max_guess}.\nCi ñaar ñaar takk, kilifaay bi mooy (2/3)x(ndawte bu ñaar ñaar takk),\nba jàngoro ji takk ji gën a jege kilifaay bi moo ko ñangul ci weer woowa.\nDónde ci sa takk ci mbindiin '[<number>]'."
   },
   "invalid_move": {
     "wrong_format": "Wàll bu baaxul; nga jébbal sa xalaat ni [<number>].",
     "out_of_range": "Xam ne dafa war a nekk diggante {min_guess} ak {max_guess}."
   },
   "message": {
-    "round_guesses": "Player 0 guessed {guess0}; Player 1 guessed {guess1}. Thus the Target is: {target}.",
+    "round_guesses": "Jàngoro 0 takk na {guess0}; Jàngoro 1 takk na {guess1}. Kon kilifaay bi mooy: {target}.",
     "round_draw": "Ronde bi dafa am.",
     "round_win": "Jëfandikukat {winner} moo ci jël xeew bi!"
   },

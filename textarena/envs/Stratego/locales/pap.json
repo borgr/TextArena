@@ -6,8 +6,8 @@
     "current_board": "Tablero Aktual:\n\n{board}\nMovimentu Disponibel: {moves}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Player {player_id} did not input a move in the format [A0 B0].",
-    "invalid_coordinates": "Invalid action format. Player {player_id} did not input valid coordinates.",
+    "wrong_format": "Formato di aksion inválido. Hungador {player_id} no a input un move den e formato [A0 B0].",
+    "invalid_coordinates": "Formato di aksion inválido. Hungador {player_id} no a input koordinatanan válido.",
     "not_own_piece": "E forma di akshon no ta válido. Hòmber {player_id} mester move un di su propio piezanan.",
     "scout_through_pieces": "E forma di akshon no ta válido. Hòmber {player_id} no por move un scout pa otro pieza.",
     "scout_diagonal": "E forma di akshon no ta válido. Jugador {player_id} no por move un scout diagonalmente.",
@@ -34,6 +34,6 @@
   },
   "outcome": {
     "flag_captured": "E hungadó {player_id} a kapta e bandera di su oponente!",
-    "no_movable_pieces": "Player {winner_id} wins! Player {loser_id} has no more movable pieces."
+    "no_movable_pieces": "Hungador {winner_id} ta gana! Hungador {loser_id} no tin mas pidanan movibel."
   }
 }

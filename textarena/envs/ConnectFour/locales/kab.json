@@ -1,15 +1,15 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in Connect Four.\nYour disc symbol: {symbol}.\nThe game board has {num_rows} rows and {num_cols} columns.\nPlayers take turns dropping their disc into one of the columns (0 to {end_col}).\nThe first to connect (their own) four discs vertically, horizontally, or diagonally wins.\nOn your turn, enter the column number in squared brackets to make your move.\nFor example: '[col 4]' or '[col 1]'."
+    "intro": "D akken d Player {player_id} di Connect Four.\nAsekkil-ik n teskert: {symbol}.\nTablatt n uqeddis tesɛa {num_rows} tisragen d {num_cols} tislegen.\nImuren ttekkin turin timsuḍaf-nsen di yiwet n tislegen (0 ar {end_col}).\nWi yezmer ad yeqqen (timsuḍaf-ines) rebɛa n teskert s azɣar, s usfaylu, neɣ s tmuɣli itteɣ.\nDi tur-ik, sekkel numru n tislekt di tiswiyin n murzeɛ ɣef wamek ad tekkiḍ.\nUla d asekkil: '[col 4]' neɣ '[col 1]'."
   },
   "board": {
     "board_visible_state": "Tagduda n usqamu: {board_visual}",
     "board_notvisible_state": "Ur ttwalint ara imurar i usebter n wurar."
   },
   "invalid_move": {
-    "wrong_format": "Player {player_id}, Invalid action format. Expected format: '[col x]'.",
-    "out_of_range": "Player {player_id}, Invalid action. Column {col} is out of bounds.",
-    "already_full": "Player {player_id}, Invalid action. Column {col} is full."
+    "wrong_format": "Player {player_id}, Tafyirt n tihri n tɣawsa. Tafyirt ittwattun: '[col x]'.",
+    "out_of_range": "Player {player_id}, Tafyirt n tɣawsa. Tislekt {col} ur tili ara di tɣzi.",
+    "already_full": "Amcaz {player_id}, Tugna yemma. Amḍiq {col} yeqqimen."
   },
   "action": {
     "dropped_disk": "Player {player_id} ilaq adisk {player_symbol} ɣef tiɣilt {col}."

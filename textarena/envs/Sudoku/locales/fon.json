@@ -7,7 +7,7 @@
     "board_state": "Akɔnta ɔ: {board}"
   },
   "invalid_move": {
-    "wrong_format": "Ðåæèññåð {player_id} íå âîçâðàùàëñÿ ê íåìó è óêàçûâàåò ïðàâèëüíûé \"ñìåëûé ñïèñîê\".",
+    "wrong_format": "Ìgbésẹ̀ ti kò bọ̀ọ̀lù. Player {player_id} kò dáhùn pẹ̀lú ipo ti 'ẹ̀yà akọ nọmba'.",
     "out_of_bounds": "Azo me nu wɛ̀ zɛ̀. Viɖetoɖo {player_id} ko ku wɛ̀ {num} to ({row}, {col}), si wɛ̀ na ɖokui.",
     "overwrite": "Azo me nu wɛ̀ zɛ̀. Viɖetoɖo {player_id} ko ku wɛ̀ lɔ viɖe ({row}, {col}).",
     "violates_rules": "Azo me nu wɛ̀ zɛ̀. Viɖetoɖo {player_id} ko ku wɛ̀ {num} to ({row}, {col}), si wɛ̀ na ɖokui Sudoku ɖɛ."

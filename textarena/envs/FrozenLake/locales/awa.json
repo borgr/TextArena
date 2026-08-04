@@ -8,7 +8,7 @@
   "invalid_move": {
     "wrong_format": "अमान्य क्रिया प्रारूप। [up], [down], [left], [right] या [w], [a], [s], [d] का उपयोग करें।",
     "unknown_action": "अज्ञात क्रिया '{action}'. ऊपर, नीचे, बाएं, दाएं या w, a, s, d का प्रयोग करें.",
-    "hit_wall": "You tried to move {action} but hit a wall!"
+    "hit_wall": "आपने {action} की ओर बढ़ने की कोशिश की लेकिन दीवार से टकरा गए!"
   },
   "game_action": {
     "moved": "आपने {action} को स्थिति ({row}, {col}) में ले जाया।"

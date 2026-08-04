@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a game of HighSociety (2-player version).\nGame flow:  Ten prestige cards are auctioned one after another.\nBidding:    Each auction, secretly choose a money card 1-11 and reveal.\n            • Higher bid wins the prestige card and discards that money card.\n            • Lower bid keeps their money card.\n            • Tie -> both bids are returned and the same prestige card is re-auctioned.\nScoring:    After all ten auctions, add **remaining cash + prestige points**.\n            Higher *net-worth* wins (exact tie -> draw).\n\n**Action syntax**  →  bid a single card like '[7]' or '[11]'."
+    "intro": "Mo yeke Player {player_id} na lînga ti HighSociety (lînga ti zo awiri).\nKolênga ti lînga:  Kâri ti prestiji kumi ti kôzê na ndö ti moko.\nKolênga ti kôzê:    Na kôzê kôzê, chagua kârî ti mbongo 1-11 na pîka.\n            • Kôzê ti ndö ti mbongo zo awiri a gba kâri ti prestiji na kûka kârî ti mbongo.\n            • Kôzê ti ndö ti mbongo ti mo ikôzo a kûka kârî ti mbongo.\n            • Tie -> kôzê zô a gba na kâri ti prestiji ti moko a kôzê na ndö.\nKolênga ti poini:    Na ndö ti kôzê kumi, ônônô **mbongo ti kûka + poini ti prestiji**.\n            Net-worth ti ndö ti awiri a gba (tie ti ndö -> draw).\n\n**Kolênga ti lînga**  →  kôzê kâri ti moko ti '[7]' ou '[11]'."
   },
   "auction": {
     "announce": "\n### Lɛkɛ̈ {round}/10  |  Kɔc kuɔɔc: {prize}"
@@ -14,11 +14,11 @@
   },
   "message": {
     "tie": "Ala kiri na peko ti ala, a lingbi ye ni ague legeoko.",
-    "auction_result": "P0 bid {bid0}, P1 bid {bid1}. Player {winner} wins prestige {prize} (total {total})."
+    "auction_result": "P0 kôzê {bid0}, P1 kôzê {bid1}. Player {winner} a gba prestiji {prize} (total {total})."
   },
   "outcome": {
-    "p0_wins": "Net-worth {nw0} > {nw1}",
-    "p1_wins": "Net-worth {nw1} > {nw0}",
+    "p0_wins": "Kötä tî {nw0} sï {nw1}",
+    "p1_wins": "Kötä tî {nw1} sï {nw0}",
     "draw": "Ala use kue ayeke na nginza mingi {nw0}  même ye."
   }
 }

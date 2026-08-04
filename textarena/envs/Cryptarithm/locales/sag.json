@@ -9,12 +9,12 @@
     "{pct}": "Progress as a percentage string, e.g. 50%"
   },
   "player_prompt": {
-    "intro": "Map each letter to a unique digit so the arithmetic holds.\nAssign with `[A 5]`, re-assign anytime.\n"
+    "intro": "Bê mbûni kôko ôko na môni yê kêtê kêtê.\nKîri na `[A 5]`, bîri kwa sô kô."
   },
   "invalid_move": {
-    "wrong_format": "Bad action format. Use `[A 5]`.",
+    "wrong_format": "Mbûni ya kôko âpôso. Îri `[A 5]`.",
     "letter_not_in_puzzle": "Tënë {letter} ayeke na yâ ti puzzle ni pëpe.",
-    "digit_used": "Digit {digit} already used by {used_letter}.",
+    "digit_used": "Môni {digit} âmônî na {used_letter} kô.",
     "leading_zero": "Kozo chiffre ti mbeni tënë alingbi pëpe ti duti 0."
   },
   "outcome": {

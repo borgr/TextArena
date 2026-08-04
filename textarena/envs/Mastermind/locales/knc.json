@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing Mastermind.\nYou need to find the code that is {code_length} digits long, each digit from 1 to {num_numbers}, {repeats}.\nIn your response, you can submit your guess in the following format: '[2 1 4 5]'.\nAfter each guess, you will receive feedback in the form of black and white pegs.\nA black peg indicates a correct digit in the correct position, while a white peg indicates a correct digit in the wrong position.\nYou have {max_turns} turns to guess the code.\n",
+    "intro": "Káwa nde súrú Mastermind.\nKáwa nde wáɗí kódi nde {code_length} lambobi, kóló lamba 1 ya zu {num_numbers}, {repeats}.\nNde njíri wúɗí, káwa nde súrú njíri wúɗí ɗómbi: '[2 1 4 5]'.\nMbéri njíri wúɗí, káwa nde njíri wúɗí njíri ɗómbi ɗíɓí ɓále ɗén ɓílé.\nKáwa ɓále ɗén njíri ɗómbi lamba ɓílé ɗén kóló wúɗí, ɓílé ɗén njíri ɗómbi lamba ɓílé ɗén kóló ɓáre.\nKáwa {max_turns} njíri wúɗí ɗómbi kódi.\n",
     "with_repeats": "awowa gade-gade wajin.",
     "no_duplicates": "awowa gade-gade ba'a mbeji."
   },
@@ -13,10 +13,10 @@
     "repeated_guess": "Nyiye tǝmazǝna {guess}. Lamarra gade gozǝyin."
   },
   "game_action": {
-    "feedback": "Submitted [{guess}]. Feedback: {black_pegs} black peg(s), {white_pegs} white peg(s)."
+    "feedback": "Njíri wúɗí [{guess}]. Njíri ɗómbi: {black_pegs} ɓále ɗén ɓílé, {white_pegs} ɓílé ɗén ɓáre."
   },
   "outcome": {
-    "win": "You have cracked the code, solving {black_pegs} out of {code_length} pegs correctly",
+    "win": "Káwa nde ɓílé kódi, njíri {black_pegs} ɗí {code_length} ɓále ɗén ɓílé ɓáre",
     "turn_limit": "Shiye sǝkǝna. Nyiye kashi {percent} lamba dǝga kalkal ro tǝmzǝna."
   }
 }

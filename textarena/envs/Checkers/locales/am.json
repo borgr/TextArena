@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "ስራ አስተጫማሪ መስጫ አልተገኘም. [a1b2]ን ይጠቀሙ, ምሳሌ [b2c3].",
-    "illegal": "Move [{move}] is illegal."
+    "illegal": "ንቅስቃሴ [{move}] አልፈቀደም።"
   },
   "game_action": {
     "moved": "ተጫዋች {player_id} ተንቀሳቀሰ {move}."

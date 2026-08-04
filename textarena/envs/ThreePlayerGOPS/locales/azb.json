@@ -14,11 +14,11 @@
     "{scores}": "The final scores as a raw player-number to score mapping - do not translate"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player GOPS.\n- You hold the 13 cards A-K (each exactly once).\n- Each round a prize is revealed. Submit ONE card like `[Q]`, `[10]`, `[2]` …\n- Highest card wins the prize (+ any carry-over pot). Ties roll the prize into the next round.\n- After 13 rounds, highest total wins. Invalid moves = elimination."
+    "intro": "سن Three-Player GOPS ده اوْیونچو {player_id} سن.\n- سن 13 کارت آ-کا (هر بیری دقیقاً بیر دفعه) ساخلاییرسان.\n- هر دوردا بیر جایزه آچیلیب. تکجه بیر کارت '[Q]'، '[10]'، '[2]' کیمی وئرین.\n- ان یوخاری کارت جایزه نی قازانیر (+ هر هانسی دا قالیب پوتو). برابریلر جایزه نی سونراکی دورا کئچیریرلر.\n- 13 دوردان سوْنرا، ان یوخاری جمعی قازانیر. یانلیش حرکتلر = حذف."
   },
   "round": {
     "header": "### Tur {round}/13 - Mükafat: {prize} ({worth} dəyərində)",
-    "hand": "الین قالان: {hand}"
+    "hand": "قالان کارت لارین: {hand}"
   },
   "reveal": {
     "win": "Təkliflər » {bids} - Oyuncu {winner} {pot} qazanır.",

@@ -9,7 +9,7 @@
     "wrong_format": "Tindakan ora sah. Gunakaké '[Hit]' utawa '[Stand]'."
   },
   "game_message": {
-    "hand_result": "Hand {hand_number}: you {outcome}. Your final {player_score}, Dealer {dealer_score}.",
+    "hand_result": "Tangan {hand_number}: sampeyan {outcome}. Skor pungkasan sampeyan {player_score}, Dealer {dealer_score}.",
     "all_complete": "=== Kabeh {num_hands} tangan rampung ===\nMenang: {wins}, Kalah: {losses}, Seri: {draws}\n"
   },
   "outcome": {

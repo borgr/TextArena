@@ -1,19 +1,19 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in Nim.\nYour goal is to take the last remaining object.\nOn each turn, choose exactly one pile and remove one or more objects from it.\nUse the format '[pile quantity]', where pile is the pile index and quantity is the number of objects to remove.\nFor example, '[0 3]' removes 3 objects from pile 0."
+    "intro": "Wo ne Player {player_id} wɔ Nim.\nWo botae ne sɛ wo bɛfa ade a aka no.\nWɔ kɔla biara mu no, fa pile baako pɛ na yi ade baako anaa pii afi mu.\nFa nsɛm format yi '[pile quantity]', baako pile yɛ pile index na quantity yɛ ade dodo a wobɛyi afi mu.\nSɛ nhwɛso, '[0 3]' yi ade 3 afi pile 0 mu."
   },
   "state": {
     "current_pile": "Mprenpren Ntow: {piles}"
   },
   "invalid_move": {
     "wrong_format": "Wannya ntutu akwan a ɛfata. Fa '[pile quantity]' di dwuma.",
-    "correct_format_wrong_fields": "Player {player_id}, Invalid action. Column {col} is out of bounds.",
+    "correct_format_wrong_fields": "Player {player_id}, Adwuma a woyɛ no mfa. Kɔla {col} no wɔ asɛmti.",
     "out_of_range": "Ɔbo a wɔato no {pile_index} nni mu.",
     "non_positive": "Ɛsɛ sɛ woyi ade biako a anyɛ yiye koraa no fi hɔ.",
-    "exceeds_pile": "Cannot remove {quantity} from pile {pile_index} (only {pile_count} left)."
+    "exceeds_pile": "Wo ntumi nfi {quantity} fi kɔla {pile_index} mu (ɛwɔ {pile_count} nko ara)."
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "Player {player_id} dii adwuma [{pile_index} {quantity}], fi {quantity} biribi(abi) fi kɔla {pile_index} mu."
   },
   "outcome": {
     "win": "Ɔbɔfo {player_id} na ɔfaa ade a etwa to no!"

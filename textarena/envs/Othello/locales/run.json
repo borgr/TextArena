@@ -16,7 +16,7 @@
   },
   "game_action": {
     "skipped": "Umukinyi {pid} yabwirijwe gusimba ku mwanya wiwe.",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "Mugenzi {pid} ({piece}) yakiniye [{r}, {c}] ikizungusha {flipped} kipira(zi)"
   },
   "game_message": {
     "must_skip": "Mwandishi {pid} ({piece}) hana indiliro halali na lazima achukue nafasi."

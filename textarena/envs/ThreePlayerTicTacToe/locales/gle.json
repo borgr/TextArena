@@ -26,7 +26,7 @@
     "placed": "Cuireann Imreoir {player_id} a shiombail ({symbol}) i gcéim ({row}, {col})."
   },
   "outcome": {
-    "win": "Player {player_id} ({symbol}) wins!",
+    "win": "Bhuaigh Imreoir {player_id} ({symbol})!",
     "draw": "Tá an cluiche a tharraingt!"
   }
 }

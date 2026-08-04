@@ -1,16 +1,16 @@
 {
   "player_prompt": {
-    "intro": "Welcome to Lights Out! You have a {size}x{size} grid of lights.\nYour goal is to turn ALL lights OFF (represented by '.')\nWhen you press a light, it toggles itself AND its adjacent neighbors (up/down/left/right).\nType [row col] to press a light (0-indexed, so valid range is 0-{max_index}).\nYou have up to {max_turns} moves to solve the puzzle.\nLegend: 'O' = light ON, '.' = light OFF"
+    "intro": "Marhaba ku Lights Out! Yïn aŋïc {size}x{size} kïïr ku tiɛ̈ɛ̈ŋ.\nYïn wïc ku kïïr ku tiɛ̈ɛ̈ŋ dɛ̈ɛ̈m aŋök (ku aŋök 'O' ku '.')\nNa yïn ciɛ̈ɛ̈ŋ tiɛ̈ɛ̈ŋ, ka ciɛ̈ɛ̈ŋ tiɛ̈ɛ̈ŋ dɛ̈ɛ̈m ku tiɛ̈ɛ̈ŋ ciɛ̈ɛ̈ŋ (nhɔ̈ɔ̈m/nhɔ̈ɔ̈m/lɛ̈ɛ̈/lɛ̈ɛ̈).\nKitɛ̈ɛ̈ŋ [row col] ciɛ̈ɛ̈ŋ tiɛ̈ɛ̈ŋ (0-kuat, ka kuat ku 0-{max_index}).\nYïn aŋïc ku {max_turns} kïïr ku wïc kïïr ku tiɛ̈ɛ̈ŋ.\nLegend: 'O' = tiɛ̈ɛ̈ŋ dɛ̈ɛ̈m, '.' = tiɛ̈ɛ̈ŋ aŋök"
   },
   "board": {
     "current_state": "Tiŋ kekë thïn (Cäthke {moves_made}, {moves_left} cäthke lɛɛu, {completion}% bë kɛmɛ):\n{grid}"
   },
   "invalid_move": {
-    "wrong_format": "Action must be in format [row col] where row and col are integers from 0 to {max_index}.",
-    "out_of_range": "Coordinates must be between 0 and {max_index}. You entered [{row},{col}]."
+    "wrong_format": "Kitɛ̈ɛ̈ŋ aŋïc ku ciɛ̈ɛ̈ŋ [row col] ka row ku col aŋïc ku kuat ku 0 ku {max_index}.",
+    "out_of_range": "Kɔ̈ɔ̈r aŋïc bïn riɛm ë 0 ku {max_index}. Yïn kɛ̈t [{row},{col}]."
   },
   "outcome": {
     "win": "Congratulations! Yïn acï kä cï gɔ̈ɔ̈r bɛ̈n yök në {moves_used} lɔ tueŋ.",
-    "loss": "Game over! You used all {max_turns} moves without solving the puzzle. Final completion: {completion}%\nFinal state:\n{grid}"
+    "loss": "Lëu aŋïc riɛm! Yïn lëu {max_turns} lëu ku kɔ̈ɔ̈r riɛm ëmɛn. Dɛ̈t ëmɛn: {completion}%\nKɔ̈ɔ̈r ëmɛn:\n{grid}"
   }
 }

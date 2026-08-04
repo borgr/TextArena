@@ -5,13 +5,13 @@
   "phases": {
     "conversation_finished": "Axavtina qediya bo dor {round}. Ji kerema xwe bi '[Cooperate]' an '[Defect]' dikeve nav berhevoka {{}} bersiv bidin.",
     "starting_round": "--- Qonaxa Destpêkê {round} ---",
-    "round_summary": "Round {round} results:\n{outcome}\nPlayer 0 earned {r0} (total {score_0}), Player 1 earned {r1} (total {score_1})."
+    "round_summary": "Encamên Çerxa {round}:\n{outcome}\nLîzer 0 {r0} qezenc kir (tevahî {score_0}), Lîzer 1 {r1} qezenc kir (tevahî {score_1})."
   },
   "outcome": {
     "winner": "Player {winner} bijîhê {win_score} - {lose_score}.",
     "draw": "Hemû lîstikvanan gol avêt {s0}.",
     "round_both_cooperate": "Her du lîstikvanan hevkarî kirin.",
-    "round_both_defect": "Both players defected.",
+    "round_both_defect": "Her du lîzer xayînî kirin.",
     "round_p0_cooperates_p1_defects": "Lîstikvan 0 hevkarî kir, lîstikvana 1 jî serket.",
     "round_p0_defects_p1_cooperates": "Lîstikvan 0 serket, lîstikvana 1 hevkarî kir."
   }

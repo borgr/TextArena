@@ -9,17 +9,17 @@
     "{pct}": "Progress as a percentage string, e.g. 50%"
   },
   "player_prompt": {
-    "intro": "Map each letter to a unique digit so the arithmetic holds.\nAssign with `[A 5]`, re-assign anytime.\n"
+    "intro": "Mappa cada lìtera a unu digitu ùnicu affinché s'aritmètica siat vàlida.\nAssigna cun `[A 5]`, re-assigna in ogni momentu.\n"
   },
   "invalid_move": {
-    "wrong_format": "Bad action format. Use `[A 5]`.",
+    "wrong_format": "Formatu de azione erradu. Usa `[A 5]`.",
     "letter_not_in_puzzle": "Sa lìtera {letter} no est in su puzzle.",
     "digit_used": "Sa tzifra {digit} giai impreada dae {used_letter}.",
     "leading_zero": "Sa tzifra de cumintzu de una paràula non podet èssere 0."
   },
   "outcome": {
     "correct": "Correttu, s'ecuatzione est satisfatta.",
-    "incorrect": "Sa cartografia est cumpleta ma s'ecuatzione no est curreta.",
+    "incorrect": "Mappatura cumpleta ma equatzione errada.",
     "limit": "Limite de movimentu at a èssere toccadu."
   },
   "board": {

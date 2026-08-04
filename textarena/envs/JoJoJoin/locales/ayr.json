@@ -11,7 +11,7 @@
     "already_occupied": "{cell} uka celdax jichhaxa phuqt'atawa."
   },
   "game_action": {
-    "placed": "Player {player_id} placed their mark ({symbol}) in cell {cell}."
+    "placed": "Jumajamasa Player {player_id} q'umirasi markanx ({symbol}) q'uwasi {cell} ukatxa."
   },
   "outcome": {
     "win": "¡Jugador {player_id} atipt'iwa!",

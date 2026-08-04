@@ -21,7 +21,7 @@
     "{total}": "Each player's tied final total (a number)"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id}, playing {num_rounds} rounds of Iterated Ultimatum Game.\nYou have ${pool} to split this round between yourself and Player {other_id}.\n\nProposer:\n  - Make an offer: [Offer: $X] (0 <= X <= pool)\n  - If accepted → You get $(pool - X), other player gets $X\n  - If rejected → Both get $0\n  - Example: [Offer: $3]  or  'I think this is fair. [Offer: $5]'\n\nResponder:\n  - Decide on the offer with either [Accept] or [Reject]\n  - Example: 'That seems reasonable. [Accept]'\n            'Too unfair. [Reject]'\n"
+    "intro": "U mosebetši {player_id}, u tšoantšetse {num_rounds} makhopho a Iterated Ultimatum Game.\nU na le $ {pool} ho arolelana mokhophong o jang lipakeng tsa hao le mosebetši {other_id}.\n\nProposer:\n  - Etsa ofele: [Offer: $X] (0 <= X <= pool)\n  - Ha e amohelwe → U fumana $ (pool - X), mosebetši e mong fumana $X\n  - Ha e hanwe → Bobeli ba fumana $0\n  - Mohlala: [Offer: $3]  kapa  'Ke nahana hore sena se lokile. [Offer: $5]'\n\nResponder:\n  - Tšoantšetsa ofele ka [Accept] kapa [Reject]\n  - Mohlala: 'Hona kea utloahala. [Accept]'\n            'Hona ha le lokile. [Reject]'\n"
   },
   "round": {
     "begins": "--- Dibeto {round_number} li qala! ---\nMotsamaisi {proposer_id} ke motsamaisi, Motsamaisi {responder_id} ke wa bobedi.",

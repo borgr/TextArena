@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "Welcome to Frozen Lake!\n\nYou are represented by 'P' on the grid.\nGrid symbols:\n  ' ' = Frozen surface (safe to walk on)\n  'H' = Hole (fall in and lose!)\n  'G' = Goal (reach this to win!)\n  'P' = Your current position\n\nAvailable actions: up, down, left, right (or w, a, s, d)\nType your action as: [up], [down], [left], [right] or [w], [a], [s], [d]\n\nObjective: Navigate from the start (top-left) to the goal (bottom-right) without falling into any holes!\n"
+    "intro": "Benvenguts al Lac Gelat !\n\nSètz representats per 'P' sus la grilha.\nSimbòls de la grilha:\n  ' ' = Superfícia gelada (segura per caminar)\n  'H' = Trauc (caissetz e perdètz !)\n  'G' = Objectiu (arribatz aicí per ganhar !)\n  'P' = Vòstra posicion actuala\n\nAccions disponiblas: amont, avall, esquèrra, dreita (o w, a, s, d)\nTipejatz vòstra accion coma: [up], [down], [left], [right] o [w], [a], [s], [d]\n\nObjectiu: Navegatz dempuèi lo començament (naut-esquèrra) fins a l'objectiu (bas-dreita) sensa caire dins cap de trauc !\n"
   },
   "board": {
     "current_board": "Taula actual:\n\n{board}\n\nAccions disponiblas: {actions}"

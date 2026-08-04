@@ -14,7 +14,7 @@
   },
   "game_action": {
     "attack": "P{player_id} álops P{opp_id}’s hendur {opp_idx}: tað fer frá {opp_val} til {new_val}.",
-    "split": "P{player_id} splits into [{L}, {R}]."
+    "split": "P{player_id} kloyvir í [{L}, {R}]."
   },
   "history": {
     "entry": "P{player_id} {desc}"

@@ -26,8 +26,8 @@
   "board": {
     "drew": "O sa droinitaka: {card} E dodonu mo qai [swap X Y] se [discard] kina.",
     "took": "O taura: {card} mai na iwiliwili ni biu laivi E dodonu mo [swap X Y] vata kei koya (sega ni rawa me biuta tani).",
-    "peeked": "You peeked at position ({row},{col}): {card}",
-    "turn_view": "Your hand:\n{hand}\nDiscard pile: {discard}\n{options}",
+    "peeked": "O ni raici kina na position ({row},{col}): {card}",
+    "turn_view": "Nomu hand:\n{hand}\nPile ni discard: {discard}\n{options}",
     "none": "Sega ni dua na kena itukutuku."
   },
   "options": {
@@ -54,7 +54,7 @@
     "all_revealed": "Sa laurai kece na tikidua?"
   },
   "invalid": {
-    "wrong_action": "Use exactly ONE bracketed action: [draw], [take], [swap X Y], [discard], [knock], or [peek X Y]",
+    "wrong_action": "Kerekere, vakayagataka na veika e dua ga na ivalavala vakabeka: [draw], [take], [swap X Y], [discard], [knock], se [peek X Y]",
     "discard_empty": "Sa lala na iqaqi ni iyaya!",
     "must_draw_first": "O sa na qai [draw], [take], [knock], se [peek X Y]",
     "cannot_discard_taken": "E sega ni rawa mo biuta laivi e dua na tikinivolatabu mai na iwiliwili levu, ia me veisau ga.",

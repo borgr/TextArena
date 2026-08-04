@@ -21,7 +21,7 @@
     "{total}": "Each player's tied final total (a number)"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id}, playing {num_rounds} rounds of Iterated Ultimatum Game.\nYou have ${pool} to split this round between yourself and Player {other_id}.\n\nProposer:\n  - Make an offer: [Offer: $X] (0 <= X <= pool)\n  - If accepted → You get $(pool - X), other player gets $X\n  - If rejected → Both get $0\n  - Example: [Offer: $3]  or  'I think this is fair. [Offer: $5]'\n\nResponder:\n  - Decide on the offer with either [Accept] or [Reject]\n  - Example: 'That seems reasonable. [Accept]'\n            'Too unfair. [Reject]'\n"
+    "intro": "Yes el xugador {player_id}, xugando {num_rounds} rondes d'Iterated Ultimatum Game.\nTienes ${pool} pa partir nesta ronda ente ti y el xugador {other_id}.\n\nPropositor:\n  - Fai una ufierta: [Offer: $X] (0 <= X <= pool)\n  - Si s'acepta → Consigues $(pool - X), l'otru xugador consigue $X\n  - Si se refuga → Dambos consiguen $0\n  - Exemplu: [Offer: $3]  o  'Creo que ye xustu. [Offer: $5]'\n\nRespondedor:\n  - Decide sobre la ufierta con [Accept] o [Reject]\n  - Exemplu: 'Paezme razonable. [Accept]'\n            'Demasiáu inxustu. [Reject]'\n"
   },
   "round": {
     "begins": "--- Ronda {round_number} empecipia! ---\nXugador {proposer_id} ye'l proponente, Xugador {responder_id} ye'l respondedor.",

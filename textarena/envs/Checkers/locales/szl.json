@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "Ńy ma słuszny format rucha. Używaj [a1b2], np. [b2c3].",
-    "illegal": "Move [{move}] is illegal."
+    "illegal": "Ruch [{move}] je niygodny."
   },
   "game_action": {
     "moved": "Gracz {player_id} przeniōsł sie {move}."

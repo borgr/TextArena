@@ -39,7 +39,7 @@
   "turn": {
     "score_entry": "Pemain {player_id}: {points} pts",
     "trump_info": "Pakaian Trump: {trump_suit}",
-    "trump_info_deck": "Trump suit: {trump_suit} | Cards left in deck: {deck_count}",
+    "trump_info_deck": "Setelan as: {trump_suit} | Kartu tersisa di dek: {deck_count}",
     "board": "{hand}\n\n{trick}\n\nSkor: {scores}\n{trump_info}\n\nMainkan kartu menggunakan [play X]"
   },
   "invalid_move": {
@@ -52,6 +52,6 @@
   },
   "outcome": {
     "head": "Permainan Berakhir! Pemain {winner} memenangkan dengan {points} poin!\n\nSkor Akhir:\n{scores}",
-    "player_line": "Player {player_id}: {points} points ({tricks} tricks)\n"
+    "player_line": "Pemain {player_id}: {points} poin ({tricks} trik)\n"
   }
 }

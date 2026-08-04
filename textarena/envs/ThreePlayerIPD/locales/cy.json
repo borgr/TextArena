@@ -4,7 +4,7 @@
   },
   "round": {
     "start": "─── Cyfnod Cychwyn {round} ─── Gallwch sgwrsio'n rhydd ar gyfer y rowndiau {conv_rounds} nesaf.",
-    "chat_finished": "Chat finished for round {round}. Submit your decisions, one token per opponent: `[pid cooperate]` or `[pid defect]`."
+    "chat_finished": "Wedi gorffen sgwrs ar gyfer rownd {round}. Cyflwynwch eich penderfyniadau, un tocyn fesul gwrthwynebydd: `[pid cooperate]` neu `[pid defect]`."
   },
   "results": {
     "header": "### Cyfnod {round} - canlyniadau:",

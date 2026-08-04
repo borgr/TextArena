@@ -7,13 +7,13 @@
     "board_state": "Icilye ca ba mu buteko: {board}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid move format. Player {player_id} did not respond with valid 'row column number' (Uwalembele inambala ya mutande wa cikope)",
+    "wrong_format": "Fomu ya hatua batili. Player {player_id} hakujibu kwa fomu halali ya 'safu safu wima nambari'.",
     "out_of_bounds": "Lisu lilali. Mwina {player_id} alitaka kuweka {num} kwenye ({row}, {col}), ambalo liko nje ya mipaka.",
     "overwrite": "Lisu lilali. Mwina {player_id} alitaka kuandika tena kitengo kilichojazwa ({row}, {col}).",
     "violates_rules": "Lisu lilali. Mwina {player_id} alitaka kuweka {num} kwenye ({row}, {col}), ambalo linakiuka kanuni za Sudoku."
   },
   "outcome": {
-    "win": "Congratulations! Umwangali {player_id} apwishishe ukulemba Sudoku.",
+    "win": "Hongera! Player {player_id} alikamilisha tatizo la Sudoku.",
     "turn_limit": "Ifya kutantika fyafikilishiwa. Mwaisula bwino {percent}% ya nsandesande ishakubulwa incende."
   }
 }

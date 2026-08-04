@@ -1,8 +1,8 @@
 {
   "player_prompt": {
-    "intro": "You are playing Mastermind.\nYou need to find the code that is {code_length} digits long, each digit from 1 to {num_numbers}, {repeats}.\nIn your response, you can submit your guess in the following format: '[2 1 4 5]'.\nAfter each guess, you will receive feedback in the form of black and white pegs.\nA black peg indicates a correct digit in the correct position, while a white peg indicates a correct digit in the wrong position.\nYou have {max_turns} turns to guess the code.\n",
-    "with_repeats": "मुमकिन रिपीट्स सेत.",
-    "no_duplicates": "ड्युप्लिकेटस न' साथ।"
+    "intro": "تہوہ ماسٹرمائنڈ کھیل رہے ہو۔\nتہوہ کوڈ تلاش کرنے کی ضرورت ہے جو {code_length} ہندسوں لمبا ہے، ہر ہندسہ 1 سے {num_numbers} تک، {repeats}۔\nاپنے جواب میں، تہوہ اپنا اندازہ مندرجہ ذیل فارمیٹ میں جمع کر سکتے ہو: '[2 1 4 5]'۔\nہر اندازے کے بعد، تہوہ کو سیاہ اور سفید پےگوں کی شکل میں فیڈ بیک ملیں گے۔\nسیاہ پےگ ایک درست ہندسہ کو درست پوزیشن میں ظاہر کرتا ہے، جبکہ سفید پےگ ایک درست ہندسہ کو غلط پوزیشن میں ظاہر کرتا ہے۔\nتہوہ کے پاس کوڈ کا اندازہ لگانے کے لیے {max_turns} موڑ ہیں۔\n",
+    "with_repeats": "دہراؤ کے ساتھ",
+    "no_duplicates": "دہراؤ کے بغیر"
   },
   "invalid_move": {
     "wrong_format": "तुहुं ने जवाब दीच स्पेस सेपरेड लिस्ट साथ युस नंबर छी एम् आय लपेट कारण स्क्वायर ब्रैकेट मंज़",
@@ -13,10 +13,10 @@
     "repeated_guess": "तुह्य़ छि गोड॒य खॊतरॆ {guess}. प्लीज अकि मुखतलिफ़ कशिश कर।"
   },
   "game_action": {
-    "feedback": "Submitted [{guess}]. Feedback: {black_pegs} black peg(s), {white_pegs} white peg(s)."
+    "feedback": "جمع کیا گیا [{guess}]۔ فیڈ بیک: {black_pegs} سیاہ پےگ، {white_pegs} سفید پےگ۔"
   },
   "outcome": {
-    "win": "You have cracked the code, solving {black_pegs} out of {code_length} pegs correctly",
-    "turn_limit": "Turn limit reached. You guessed {percent} percent of the numbers correctly."
+    "win": "تہوہ نے کوڈ توڑ دیا ہے، {black_pegs} میں سے {code_length} پےگوں کو درست طریقے سے حل کیا ہے",
+    "turn_limit": "موڑ کی حد پہنچ گئی ہے۔ تہوہ نے {percent} فیصد نمبروں کا درست اندازہ لگایا ہے۔"
   }
 }

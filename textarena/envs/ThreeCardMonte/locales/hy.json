@@ -11,7 +11,7 @@
     "{ball_pos}": "The cup index the ball is under"
   },
   "player_prompt": {
-    "intro": "Track the hidden ball 'X' while the cups are shuffled.\nAfter shuffling, guess its location with `[k]`."
+    "intro": "Հետևեք 'X' գնդակի տեղաշարժին, երբ բաժակները խառնվում են։\nԽառնումից հետո կռահեք դրա դիրքը `[k]` հրամանով։"
   },
   "game_message": {
     "ball_starts": "Բոլը սկսվում է: {line}",
@@ -21,7 +21,7 @@
     "reveal": "(Հայտնաբերել. գնդակը {ball_pos}-ի տակ)"
   },
   "invalid_move": {
-    "wrong_format": "Bad action. Use `[k]`.",
+    "wrong_format": "Սխալ հրաման։ Օգտագործեք `[k]` ձևաչափը։",
     "out_of_range": "Ցուցանիշը դուրս է 0-{max_index} տիրույթից:"
   },
   "outcome": {

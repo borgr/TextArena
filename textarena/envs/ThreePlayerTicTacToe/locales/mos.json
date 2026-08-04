@@ -11,7 +11,7 @@
     "{moves}": "The comma-separated list of available move tokens like '[4]' (do not translate)"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player Tic Tac Toe.\nYour symbol is '{symbol}'.\nYou take turns placing your symbol on a 5x5 board to form a line of four.\nLines can be horizontal, vertical, or diagonal.\nSubmit your move using the format '[4]' to mark cell 4."
+    "intro": "I kɛ́ yɛ́ Mogɛnɛ {player_id} nɛ̀ Tɩ-tɩ-tɔ̀ɔ̀ Tɩkɩ Tɩkɔ̀.\nMɔgɔ wɛ́ɛ́ wɛ́ɛ́ '{symbol}'.\nI kɛ́ tɩ-tɔ̀ɔ̀ɔ̀ kɛ́ tɩ-tɔ̀ɔ̀ɔ̀ wɛ́ɛ́ tɩ-tɔ̀ɔ̀ɔ̀ wɛ́ɛ́ tɩ-tɔ̀ɔ̀ɔ̀ tɩ-tɔ̀ɔ̀ɔ̀ nɛ̀ 5x5 tɩbɩlɩ wɛ́ɛ́ tɩ-tɔ̀ɔ̀ɔ̀ tɩ-tɔ̀ɔ̀ɔ̀ sɔ̀ɔ̀ɔ̀ nɛ̀ nɛ̀ɛ̀.\nSɔ̀ɔ̀ɔ̀ kɛ́ pɛ̀ɛ̀ɛ̀, wɛ́ɛ́ɛ̀, ɔ̀ɔ̀ɔ̀.\nKɔ̀ɔ̀ɔ̀ mɔgɔ wɛ́ɛ́ɛ̀ wɛ́ɛ́ '[4]' nɛ̀ wɛ́ɛ́ tɩbɩlɩ 4."
   },
   "board": {
     "current_board": "Bɛɛri la yɛla:\n\n{board}\n\nZɛɛri la yɛn daam: {moves}"

@@ -14,7 +14,7 @@
     "{scores}": "The final scores as a raw player-number to score mapping - do not translate"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player GOPS.\n- You hold the 13 cards A-K (each exactly once).\n- Each round a prize is revealed. Submit ONE card like `[Q]`, `[10]`, `[2]` …\n- Highest card wins the prize (+ any carry-over pot). Ties roll the prize into the next round.\n- After 13 rounds, highest total wins. Invalid moves = elimination."
+    "intro": "I Player {player_id} ni Three-Player GOPS-ah.\n- Card 13 A-K (each exactly once) i nei.\n- Round tinah prize reveal a ni. Card pakhat submit angin `[Q]`, `[10]`, `[2]` …\n- Card sang chak prize (+ pot carry-over) a ni. Tie-ah prize next round-ah roll a ni.\n- Round 13 hnuah total sang chak a ni. Invalid move = elimination."
   },
   "round": {
     "header": "### Round {round}/13 - Prize: {prize} (man {worth})",
@@ -22,7 +22,7 @@
   },
   "reveal": {
     "win": "Bids  {bids} - Player {winner} chuan a hneh ta {pot}.",
-    "tie": "Bid  {bids} - tie, pot now {pot}.",
+    "tie": "Bids » {bids} - tie, pot tunah {pot}.",
     "scores": "Scores → {scoreline}"
   },
   "invalid_move": {
@@ -34,6 +34,6 @@
   },
   "outcome": {
     "auto_win": "Player pahnih an tlân bo chuan a hneh ngei mai.",
-    "final": "Final score: {scores}"
+    "final": "Point tawp: {scores}"
   }
 }

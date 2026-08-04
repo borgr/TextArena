@@ -27,12 +27,12 @@
   "hand": {
     "none": "No cards",
     "empty": "კარტები არ არის ხელში.",
-    "header": "Your hand:",
+    "header": "თქვენი ხელი:",
     "card_line": "  {pos}. {card} [{points} pts]{trump_mark}",
     "trump_mark": "(ტრამპი)"
   },
   "trick": {
-    "empty": "No cards played yet this trick.",
+    "empty": "ამ ტრიუკში ჯერ არცერთი ბანქო არ თამაშულა.",
     "header": "ჟლვევნ თთრიკ:",
     "line": "მოთამაშე {player_id}: {card}{trump_mark}"
   },

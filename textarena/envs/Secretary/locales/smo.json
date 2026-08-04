@@ -9,7 +9,7 @@
     "wrong_format": "O le gaioiga e tatau ona avea ma [accept] poʻo [continue]."
   },
   "outcome": {
-    "summary": "You accepted value {value} at draw {draw_num}/{N}. The best overall was {best}. {result}",
+    "summary": "Na e filifili le tau {value} i le faʻasologa {draw_num}/{N}. O le sili ona lelei o le aofaʻi o {best}. {result}",
     "perfect": "Filifiliga lelei! ",
     "not_max": "E lē o le mea e sili ona lelei."
   }

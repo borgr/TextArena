@@ -26,7 +26,7 @@
     "placed": "Hkum {player_id} shi htu ai ({symbol}) htung ga ai ({row}, {col}) na."
   },
   "outcome": {
-    "win": "Player {player_id} ({symbol}) wins!",
+    "win": "Masha {player_id} ({symbol}) shanhte shaga ai!",
     "draw": "Dai gaw dang ai hku byin wa sai."
   }
 }

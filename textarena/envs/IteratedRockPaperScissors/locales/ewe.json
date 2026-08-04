@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a {num_rounds}-round Rock-Paper-Scissors game.\nYour goal is to win as many rounds as possible.\nIn each round, respond with one of: '[rock]', '[paper]', or '[scissors]'.\nYou may also use '[r]', '[p]', or '[s]' as shorthand.\n"
+    "intro": "Ame wò {player_id} le aƒe {num_rounds}-ƒe ƒuƒoƒo Rock-Paper-Scissors me.\nDɔwɔƒe wò wu ƒe si wòaxɔ ƒe ƒuƒoƒo sia wu.\nLe ƒe ƒuƒoƒo ƒe ƒe, dɔ wò kple: '[rock]', '[paper]', alo '[scissors]'.\nAme aƒe wò sɔ kple '[r]', '[p]', alo '[s]' ƒe kɔkɔe.\n"
   },
   "invalid_move": {
     "wrong_format": "Nududu si wɔ dɔ. Tsɔna [rock], [paper], kple [scissors]."

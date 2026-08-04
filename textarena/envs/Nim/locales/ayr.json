@@ -7,13 +7,13 @@
   },
   "invalid_move": {
     "wrong_format": "Janiw kuna wakichäwisa jikxatatäkiti. \"[pile quantity]\" ukampi lurma.",
-    "correct_format_wrong_fields": "Player {player_id}, Invalid action. Column {col} is out of bounds.",
+    "correct_format_wrong_fields": "Player {player_id}, Jan wali k'anxa. Q'ara {col} ukaxa jan wali ñiq'it.",
     "out_of_range": "Indice de pila {pile_index} ukax janiw ukjamäkiti.",
     "non_positive": "Mä jisk'a yänaksa apaqaskakim.",
-    "exceeds_pile": "Cannot remove {quantity} from pile {pile_index} (only {pile_count} left)."
+    "exceeds_pile": "Janiraki {quantity} q'umach'a q'ara {pile_index} ñiq'it (ukaxa {pile_count} q'umach'a q'ara)."
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "Player {player_id} xaxwa [{pile_index} {quantity}], {quantity} q'umach'a q'ara {pile_index} ñiq'it q'umach'añaraki."
   },
   "outcome": {
     "win": "{player_id} anatirix qhipa objetoruw katuskäna! ¡¡ (s)!"

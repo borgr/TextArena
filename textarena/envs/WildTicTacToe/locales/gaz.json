@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in Wild Tic Tac Toe.\nOn your turn, you can place either an 'X' or an 'O' in an empty square.\nYou win by aligning three of the same mark (X or O) in a row.\nYou can win with either symbol.\nChoose your move using the format '[X 4]' to place X in the center.\n"
+    "intro": "Ati pilaayari {player_id} Wild Tic Tac Toe keessa.\nGochi kee irratti, 'X' ykn 'O' bakka banamaa irratti dhiheessuu dandeessa.\nSaddeetta saddeetta waliin qabuu (X ykn O) irratti walitti qabuu dandeessa.\nAla lamaanuu waliin moo'achu dandeessa.\nGochi kee filadhu foormaatiin '[X 4]' X bakka giddugaleessa galchuu dandeessa.\n"
   },
   "board": {
     "current_board": "Burdhaa Ammaa:\n\n{board}\n\nGolee Dheerina: {moves}"
@@ -14,7 +14,7 @@
     "placed": "Player {player_id} maqaa isaa ({mark}) cell {cell} keessatti maxxanse"
   },
   "outcome": {
-    "win": "Player {player_id} wins with {mark}s!",
+    "win": "Pilaayari {player_id} {mark}s waliin moo'ate!",
     "draw": "Taphachi wal hin qixxaatu!"
   }
 }

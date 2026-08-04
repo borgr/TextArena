@@ -9,10 +9,10 @@
     "{pct}": "Progress as a percentage string, e.g. 50%"
   },
   "player_prompt": {
-    "intro": "Map each letter to a unique digit so the arithmetic holds.\nAssign with `[A 5]`, re-assign anytime.\n"
+    "intro": "Assignatz a cada letra un digit unic per que l'aritmetica siá valida.\nAssignatz amb `[A 5]`, reassignatz quand volètz.\n"
   },
   "invalid_move": {
-    "wrong_format": "Bad action format. Use `[A 5]`.",
+    "wrong_format": "Format d'accion incorrècte. Utilizatz `[A 5]`.",
     "letter_not_in_puzzle": "La letra {letter} es pas dins lo puzzle.",
     "digit_used": "Digit {digit} ja utilizat per {used_letter}.",
     "leading_zero": "La chifra principala d'un mot pòt pas èsser 0."

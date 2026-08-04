@@ -1,14 +1,14 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in an Iterated Prisoner's Dilemma spanning {num_rounds} rounds.\n\nGame Structure:\n- Before each decision you have {total_conversation_rounds} turns to communicate freely.\n- After that, both players simultaneously choose to cooperate or defect.\n\nPayoff Matrix (fixed each round):\n- Both Cooperate ➜ each {cooperate_reward}\n- Both Defect ➜ each {mutual_defect_reward}\n- One Defects, one Cooperates ➜ Defector {defect_reward}, Cooperator {sucker_reward}\n\nHow to Play:\n- During conversation: type any text you wish.\n- During decision phase: include '[Cooperate]' or '[Defect]' (case-insensitive). You may add extra text before/after the token."
+    "intro": "Сез Iterated Prisoner's Dilemma уенында {player_id} уенчысы, ул {num_rounds} раундка сузылган.\n\nУенның төзелеше:\n- Һәр карар алдыннан сезгә {total_conversation_rounds} әйләнеш бирелә ирекле аралашырга.\n- Шуннан соң, ике уенчы да бер үк вакытта хезмәттәшлек итү яки баш тарту турында карар кабул итә.\n\nБүләкләр матрицасы (һәр раундта даими):\n- Икесе дә хезмәттәшлек итә ➜ һәркемгә {cooperate_reward}\n- Икесе дә баш тарта ➜ һәркемгә {mutual_defect_reward}\n- Берсе баш тарта, берсе хезмәттәшлек итә ➜ баш тартучыга {defect_reward}, хезмәттәшлек итүчегә {sucker_reward}\n\nУенны ничек уйнарга:\n- Сөйләшү вакытында: теләгән текстны кертегез.\n- Карар фазасында: '[Cooperate]' яки '[Defect]' (хәрефләр зурлыгына карамастан) кертегез. Сез карар алдыннан яки соңыннан өстәмә текст кертә аласыз."
   },
   "phases": {
     "conversation_finished": "Әңгәмә {round} чират өчен тәмамланды. Зинһар, '[Cooperate]' яки '[Defect]' белән \\boxed{{}} эчендә җавап бирегез.",
     "starting_round": "--- Башлану раунды {round} ---",
-    "round_summary": "Round {round} results:\n{outcome}\nPlayer 0 earned {r0} (total {score_0}), Player 1 earned {r1} (total {score_1})."
+    "round_summary": "{round} раунды нәтиҗәләре:\n{outcome}\n0 уенчысы {r0} (барлыгы {score_0}) казанды, 1 уенчысы {r1} (барлыгы {score_1}) казанды."
   },
   "outcome": {
-    "winner": "Player {winner} wins {win_score} - {lose_score}.",
+    "winner": "{winner} уенчысы {win_score} - {lose_score} исәбе белән җиңде.",
     "draw": "Ике уенчы да исәпкә керде {s0}.",
     "round_both_cooperate": "Ике уенчы да хезмәттәшлек иткән.",
     "round_both_defect": "Икесе дә качкан.",

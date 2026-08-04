@@ -22,14 +22,14 @@
     "final_ranking": "list of player indices from first eliminated to winner"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in an {num_players}-player Liar's Dice game.\nRules:\n- On your turn, you may either:\n  1) Make a new bid with a higher quantity or higher face (or both) than the current bid; i.e. '[Bid: 3, 4]',\n  2) Call the last bid by typing '[Call]'.\n\nIf you call:\n  - If the actual count of that face value among all dice is less than the bid, the last bidder loses one die.\n  - Otherwise, the caller loses one die.\nA player who reaches 0 dice is eliminated. The last remaining player wins."
+    "intro": "Uri Mchezaji {player_id} mu mchezo wa Liar's Dice wa bacheza {num_players}.\nMajwi:\n- Kuwa wewe urahishe, urashobora:\n  1) Kugura igihagararo kipya kikubwa mu kubwa zaidi y'igitangaza cyangwa kikubwa mu kubwa zaidi y'uruhusho (cyangwa zote mbili) kuruta igihagararo kigikwiriye; ikwa ' [Bid: 3, 4]',\n  2) Kugayira igihagararo kigikwiriye ukwandika '[Call]'.\n\nUkikwiriye:\n  - Ikiwa igiharuro kigikwiriye cy'agaciro k'uruhusho muri yose ya dice ni kidogo kuruta igihagararo, umugurishije igihagararo kigikwiriye atakosa die imwe.\n  - Kandi, ukwiriye atakosa die imwe.\nUmchezaji akagera kuri 0 za dice aratsindwa. Umusimbura wacu azokwepa."
   },
   "board": {
     "per_player": "\tUmukino {p}: {d}",
     "new_round": "\nMzunguko mpya - Faa za kuendelea: {dice_summary}\nFaa zako za sasa ni: {your_dice}"
   },
   "call": {
-    "bidder_loses": "Player {current_player_id} calls! The actual count of face {face_value} is {count}, which is LESS than {quantity}.\nPlayer {loser_id} (the last bidder) loses one die.",
+    "bidder_loses": "Mchezaji {current_player_id} aragayirwa! Nambari y'ukweli ya nambari {face_value} ni {count}, ikima ni chini ya {quantity}.\nMchezaji {loser_id} (uziyemezwa wa nyuma) atakosa die imwe.",
     "caller_loses": "Umukino {current_player_id} akatiza! Idadi halisi ya uso {face_value} ni {count}, ambayo ni >= {quantity}.\nUmukino {loser_id} (mzidishaji) anapoteza faa moja."
   },
   "action": {

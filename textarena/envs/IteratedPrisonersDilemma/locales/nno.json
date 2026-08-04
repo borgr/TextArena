@@ -1,14 +1,14 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in an Iterated Prisoner's Dilemma spanning {num_rounds} rounds.\n\nGame Structure:\n- Before each decision you have {total_conversation_rounds} turns to communicate freely.\n- After that, both players simultaneously choose to cooperate or defect.\n\nPayoff Matrix (fixed each round):\n- Both Cooperate ➜ each {cooperate_reward}\n- Both Defect ➜ each {mutual_defect_reward}\n- One Defects, one Cooperates ➜ Defector {defect_reward}, Cooperator {sucker_reward}\n\nHow to Play:\n- During conversation: type any text you wish.\n- During decision phase: include '[Cooperate]' or '[Defect]' (case-insensitive). You may add extra text before/after the token."
+    "intro": "Du er Spelar {player_id} i eit gjentakande Fangens Dilemma som varer {num_rounds} rundar.\n\nSpelstruktur:\n- Før kvart val har du {total_conversation_rounds} tøymingar til å kommunisera fritt.\n- Etter det vel begge spelarar samstundes å samarbeida eller svika.\n\nLønnsmatrise (fastsett kvar runde):\n- Begge Samarbeider ➜ kvar {cooperate_reward}\n- Begge Sviker ➜ kvar {mutual_defect_reward}\n- Ein Sviker, ein Samarbeider ➜ Sviker {defect_reward}, Samarbeider {sucker_reward}\n\nKorleis Spela:\n- Under samtale: skriv tekst du ønskjer.\n- Under avgjeringsfasen: inkluder '[Cooperate]' eller '[Defect]' (storleik på bokstavane spelar ingen rolle). Du kan leggja til ekstra tekst før eller etter token."
   },
   "phases": {
     "conversation_finished": "Samtale avslutta for runde {round}. Vennlegst svar med '[Cooperate]' eller '[Defect]' innan \\boxed{{}}.",
     "starting_round": "--- Startrunda {round} --",
-    "round_summary": "Round {round} results:\n{outcome}\nPlayer 0 earned {r0} (total {score_0}), Player 1 earned {r1} (total {score_1})."
+    "round_summary": "Resultat for runde {round}:\n{outcome}\nSpelar 0 tente {r0} (totalt {score_0}), Spelar 1 tente {r1} (totalt {score_1})."
   },
   "outcome": {
-    "winner": "Player {winner} wins {win_score} - {lose_score}.",
+    "winner": "Spelar {winner} vinn {win_score} - {lose_score}.",
     "draw": "Dei to spelara gjorde mål. {s0}",
     "round_both_cooperate": "Begge spelarane samarbeidde.",
     "round_both_defect": "Begge spelarane hoppa over.",

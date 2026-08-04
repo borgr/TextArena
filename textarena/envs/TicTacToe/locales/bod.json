@@ -7,18 +7,18 @@
     "{cell}": "A board cell number between 0 and 8"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Tic Tac Toe.\nYour goal is to win three in a row (horizontally, vertically, or diagonally) on the board.\nOn your turn, you should select the square number (0-8) you want to put your mark in next.\nFor example, '[4]' places your mark in the center cell of the board.\nAs Player {player_id}, you will be '{symbol}', while your opponent is '{opponent_symbol}'."
+    "intro": "ཁྱེད་ནི་ Tic Tac Toe འདིའི་མི་སྟེགས་པ་ {player_id} ཡིན།\nཁྱེད་ཀྱི་འགན་དེ་ལྡོག་རྩེད་སྒོའི་ནང་ཐད་ཀར་ཡང་ན་གནམ་རུའི་ཐད་ཀར་ཡང་ན་གཞུ་རྟའི་ཐད་ཀར་གསུམ་རྒྱུགས་པ་བྱེད་པ་ཡིན།\nཁྱེད་ཀྱི་འགྲུལ་སྐབས་སུ། ཁྱེད་ཀྱི་རྟགས་གཏོད་འདོད་པའི་གྲངས་ཀ (0-8) འདེམས་པ་ཡིན།\nདཔེར་ན། '[4]' ནི་ལྡོག་རྩེད་སྒོའི་དབུས་ཀྱི་གྲངས་ཀའི་ནང་ཁྱེད་ཀྱི་རྟགས་གཏོད་པ་ཡིན།\nམི་སྟེགས་པ་ {player_id} ཡིན་པའི་ཁྱེད་ཀྱི་རྟགས་'{symbol}' ཡིན་པའི་དུས་སུ། ཁྱེད་ཀྱི་ཕྲོགས་པའི་རྟགས་'{opponent_symbol}' ཡིན།"
   },
   "board": {
-    "current_board": "Current Board:\n\n{board}\n\nAvailable Moves: {moves}"
+    "current_board": "ད་ལྟའི་ལྡེབས།\n\n{board}\n\nཐོབ་ཐང་གི་གོམ་པ། {moves}"
   },
   "invalid_move": {
     "wrong_format": "བཏང་བའི་འགྲེལ་བཤད་ནི་རྣམ་པ་མི་མཐུན་པ། །",
     "out_of_range": "{cell} འདི་ valid cell ཡིན་པ་མིན་ཏེ། 0 དང་ 8 བར་གྱི་གྲངས་ཀ་ཡིན་དགོས།",
-    "already_occupied": "Cell {cell} is already occupied."
+    "already_occupied": "ལྡེབས་ {cell} ནི་གཞན་གྱིས་བཟུང་ཡོད།"
   },
   "game_action": {
-    "placed": "Player {player_id} placed their symbol ({symbol}) in cell {cell}."
+    "placed": "རྩེད་མཁན་ {player_id} ཡིས་རྟགས་ ({symbol}) ལྡེབས་ {cell} ནང་དུ་བཞག་གོ"
   },
   "outcome": {
     "win": "རྩེད་འགྲན་པ་ {player_id} རྒྱལ་ཁ་ཐོབ་འདུག!",

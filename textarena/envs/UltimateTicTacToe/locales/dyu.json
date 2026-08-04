@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in **Ultimate Tic Tac Toe**.\nSubmit your move as **[macro  micro]** (two numbers 0-8):\n• *macro*  = which mini-board you play in\n• *micro* = which square inside that mini-board\nExample `[7 8]` ➜ place your mark in mini-board 7, square 8, and\nforce your opponent to play in mini-board 8 next.\n\nYou are `{symbol}`.\n"
+    "intro": "I ye Player {player_id} ye **Ultimate Tic Tac Toe**.\nKɛlɛ ka taa **[macro  micro]** (kɔnɔnɛ fila 0-8):\n• *macro*  = mini-tablo kɔnɔnɛ i ye taa\n• *micro* = mini-tablo kɔnɔnɛ i ye taa, kɔnɔnɛ i ye\nExample `[7 8]` ➜ a ye i ka taa mini-tablo 7, kɔnɔnɛ 8, ka\nkɛlɛ ka taa mini-tablo 8 kɔnɔ.\n\nI ye `{symbol}`.\n"
   },
   "board": {
     "current_board": "Jamanakuntigi: {board}"
@@ -10,7 +10,7 @@
     "out_of_range": "O jatiminɛ be se ka kɛ 0 ani 8 cɛ.",
     "index_out_of_range": "O ye a yɛrɛ ka baara kɛcogo dɔ ye. A tɛ se k'a yɛrɛ labɛn koɲuman, o la a be tɛmɛ ni sira wɛrɛ ye.",
     "cell_occupied": "Mɔgɔ si tɛ kaso la yan.",
-    "wrong_micro_board": "The player must play in the next micro board.",
+    "wrong_micro_board": "Jɔgɔ la ka taa kɛnɛ kɔnɔ kɔrɔ si dɔw la.",
     "micro_board_won": "An ye mikro-kibaru labɛn ka ban."
   },
   "next_board": {
@@ -18,7 +18,7 @@
     "specific": "mikɔrɔgaramu {nxt}"
   },
   "game_action": {
-    "played": "Player {player_id} played in micro board {macro_idx}, cell {micro_idx} (row {row}, col {col}). Player {opponent_id} must now play in {nxt_txt}."
+    "played": "Jɔgɔ {player_id} taa kɛnɛ kɔrɔ si {macro_idx} la, kɔɔrɔ si {micro_idx} (sɔrɔ {row}, kɔlɔn {col}). Jɔgɔ {opponent_id} bɛna taa kɛnɛ kɔnɔ {nxt_txt} la sisan."
   },
   "outcome": {
     "win": "Jurusarabaga {player_id} ye Tikeli Senjanba sɔrɔ!",

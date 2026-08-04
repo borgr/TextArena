@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are {role} in Colonel Blotto.\nYour goal is to win more rounds than your opponent.\nOn each round, allocate exactly {num_total_units} units across fields {field_names}.\nThe player who allocates more units to a field wins that field, and the player who wins more fields wins the round.\nFor example, '[A7 B7 C6]' allocates 7 units to A, 7 to B, and 6 to C.",
+    "intro": "Hûn di Colonel Blotto de {role} in.\nArmanca we ew e ku zêdetir serdeman ji dijberê xwe qezenc bikin.\nDi her serdemê de, li ser qadên {field_names} de yekûnî {num_total_units} yekîneyan belav bikin.\nLêkerê ku zêdetir yekîne li ser qadekê belav dike, ew qadê qezenc dike, û lêkerê ku zêdetir qadên qezenc dike, serdema qezenc dike.\nWekî mînak, '[A7 B7 C6]' 7 yekîneyan li ser A, 7 li ser B, û 6 li ser C belav dike.",
     "commander_alpha": "Fermandarê Alfa.",
     "commander_beta": "Fermandarê Beta"
   },
@@ -17,13 +17,13 @@
     "wrong_format": "Format input ne rast e. Bikaranîna: A: 5, B 10: C 5:",
     "invalid_field": "Navê qadên neheq ((s)). Cihên rast: {field_names}",
     "wrong_allocation_value": "Hemû belavkirin divê ne-negatîf integer be.",
-    "incorrect_total_units": "You have to allocate exactly {num_total_units} units. Current sum: {current_sum}",
+    "incorrect_total_units": "Divê hûn yekûnî {num_total_units} yekîneyan belav bikin. Hejmara niha: {current_sum}",
     "good_allocations": "Dabeşkirina baş e."
   },
   "outcome": {
-    "winner_alpha": "Commander Alpha wins {score_0}-{score_1} after {num_rounds} rounds!",
-    "winner_beta": "Commander Beta wins {score_1}-{score_0} after {num_rounds} rounds!",
-    "draw": "Game ends in a {score_0}-{score_1} tie after {num_rounds} rounds!",
+    "winner_alpha": "Fermandar Alfa bi {score_0}-{score_1} re qezenc dike piştî {num_rounds} serdeman!",
+    "winner_beta": "Fermandar Beta bi {score_1}-{score_0} re qezenc dike piştî {num_rounds} serdeman!",
+    "draw": "Lîstik bi {score_0}-{score_1} re diqede piştî {num_rounds} serdeman!",
     "early_winner_alpha": "Fermankar Alpha bi ser ket û {scores_0}-{scores_1} (piraniya desthilatdarî)!",
     "early_winner_beta": "Fermankar Beta bi ser ket û {scores_1}-{scores_0} (piraniya desthilatdarî)!"
   }

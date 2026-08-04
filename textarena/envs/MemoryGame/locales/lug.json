@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id}. You are playing the Memory Game.\nYour goal is to match more pairs of cards on the board, than your opponent.\nOn your turn, select two cards to flip by entering the row and column numbers of the first and second card respectively like '[0 1 1 0]', where the first card is in row 0 and column 1, and the second card is in row 1 and column 0.\nIf the two cards match, you get a point and the cards remain face up. If they do not match, the cards are flipped back face down, e.g. '.'.\nThe game ends when all pairs have been matched."
+    "intro": "Oli mchezaji {player_id}. Oli mchezaji omuzannyo gwa Memory.\nEriyo lyo lyo kukubwa kuwandiika jozi nyingi za karata ku board, okusinga owagwa lyo.\nKu kaseera lyo, chagua karata mbili okuzikuba kwa kutumia nambari za safu na safu wamu ku karata ya kwanza na ya pili kama '[0 1 1 0]', mwe karata ya kwanza iko mu safu 0 na safu 1, na karata ya pili iko mu safu 1 na safu 0.\nBwoba karata zombi zikwata, oliweza kipimo na karata zisigale zikuzibwa. Bwoba zitakwata, karata zikuzibwa tena, e.g. '.'.\nOmuzannyo guwedde bwoba jozi zote zikwata."
   },
   "board": {
     "current_board": "Ekitongole ekiriko kati: {board}",
@@ -13,8 +13,8 @@
     "already_matched": "Omupiira tegulina mugaso. Omuzannyo {player_id} gw'asazeewo gumu oba kaadi zombi ezaabadde zikwatagana dda."
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "Karata zilizo chaguliwa na Mchezaji {player_id} ku nafasi [{r1} {c1}] na [{r2} {c2}] zikwata!",
+    "cards_no_match": "Kadeti zilondebwa omuzanyi {player_id} tezitambulana. Kadeti ku misingi [{r1} {c1}] ne [{r2} {c2}] ni {pos1} ne {pos2} muwendo."
   },
   "outcome": {
     "draw": "Abazannyi bombi baakubye ennamba y'akaadi ze zimu.",

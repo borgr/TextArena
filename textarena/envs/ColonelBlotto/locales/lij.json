@@ -1,11 +1,11 @@
 {
   "player_prompt": {
-    "intro": "You are {role} in Colonel Blotto.\nYour goal is to win more rounds than your opponent.\nOn each round, allocate exactly {num_total_units} units across fields {field_names}.\nThe player who allocates more units to a field wins that field, and the player who wins more fields wins the round.\nFor example, '[A7 B7 C6]' allocates 7 units to A, 7 to B, and 6 to C.",
+    "intro": "Ti ê {role} into Colonel Blotto.\nO teu obiettivo o l'é quello de vincere ciù turni do che o teu avversaio.\nIn ogni turno, assegna esattamente {num_total_units} unitæ a traverso i campi {field_names}.\nO zugao ch'o assegna ciù unitæ a un campo o vince quello campo, e o zugao ch'o vince ciù campi o vince o turno.\nPer esempio, '[A7 B7 C6]' assegna 7 unitæ a A, 7 a B e 6 a C.",
     "commander_alpha": "Comandante Alpha. - A l'é stæta...",
     "commander_beta": "Comandante Beta. - A l'é stæta?"
   },
   "game_state": {
-    "header_round": "=== COLONEL BLOTTO - Round {current_round}/{num_rounds} ===\nRounds Won - Commander Alpha: {alpha_score}, Commander Beta: {beta_score}"
+    "header_round": "=== COLONEL BLOTTO - Turno {current_round}/{num_rounds} ===\nTurni Vinti - Comandante Alfa: {alpha_score}, Comandante Beta: {beta_score}"
   },
   "round_battle": {
     "field_result": "\nRondo {current_round}\nComandante Alpha o l'ha allocâ: {p0_allocations}\nComandante Beta o l'ha allocâ: {p1_allocations}\n",

@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a {num_rounds}-round of IteratedTwoThirdsAverage.\nEach round, guess a number between {min_guess} and {max_guess}.\nAfter both guesses, the target is (2/3)x(average of both guesses),\nand the player whose guess is closest to the target wins that round.\nReply with your guess in the format '[<number>]'."
+    "intro": "أنت اللاعب {player_id} في جولة من {num_rounds} جولة من IteratedTwoThirdsAverage.\nفي كل جولة، اختر رقمًا بين {min_guess} و {max_guess}.\nبعد كلا التخمينين، الهدف هو (2/3)×(متوسط كلا التخمينين)،\nواللاعب الذي يكون تخمينه الأقرب إلى الهدف يفوز بتلك الجولة.\nأجِب بتخمينك في الصيغة '[<number>]'."
   },
   "invalid_move": {
     "wrong_format": "شكل غير صالح؛ لو سمحت سجل التخمين بتاعك على أنه [<number>].",

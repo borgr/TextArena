@@ -14,23 +14,23 @@
     "{scores}": "The final scores as a raw player-number to score mapping - do not translate"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player GOPS.\n- You hold the 13 cards A-K (each exactly once).\n- Each round a prize is revealed. Submit ONE card like `[Q]`, `[10]`, `[2]` …\n- Highest card wins the prize (+ any carry-over pot). Ties roll the prize into the next round.\n- After 13 rounds, highest total wins. Invalid moves = elimination."
+    "intro": "Wewe ni Mchezaji {player_id} katika GOPS ya Wachezaji Watatu.\n- Una kadi 13 za A-K (kila moja mara moja).\n- Kila raundi zawadi inafichuliwa. Wasilisha kadi MOJA kama `[Q]`, `[10]`, `[2]` …\n- Kadi ya juu inashinda zawadi (+ zawadi yoyote iliyobebwa). Usawa unazungusha zawadi hadi raundi inayofuata.\n- Baada ya raundi 13, jumla ya juu inashinda. Hatua batili = kufukuzwa."
   },
   "round": {
     "header": "### Raundi {round}/13 - Zawadi: {prize} (inayofikia {worth})",
     "hand": "Kwosana na ũndũ maũndũ mailyĩ, namba yaku ya mũthya nĩ {hand}."
   },
   "reveal": {
-    "win": "Bids » {bids} - Player {winner} wins {pot}.",
+    "win": "Bids » {bids} - Mchezaji {winner} anashinda {pot}.",
     "tie": "Ĩĩ nĩ ĩthaũ  {bids} - tie, pot now {pot}.",
     "scores": "Scores → {scoreline}"
   },
   "invalid_move": {
-    "no_token": "action needs a bracketed card like '[Q]'",
+    "no_token": "hatua inahitaji kadi iliyo na mabano kama '[Q]'",
     "bad_card": "kaati ĩno ndĩandĩkĩthw'e kana yĩthĩawa ya ũvũngũ"
   },
   "elimination": {
-    "player": "Player {pid} eliminated after repeated invalid moves."
+    "player": "Mchezaji {pid} amefukuzwa baada ya hatua batili mara kwa mara."
   },
   "outcome": {
     "auto_win": "Mũndũ amina kũsinda aasya kana nĩ w'o mũsili ũsu nĩwakwatie mũthĩnzĩo wake.",

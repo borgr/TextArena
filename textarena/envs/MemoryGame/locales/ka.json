@@ -13,8 +13,8 @@
     "already_matched": "არასწორი ნაბიჯი. მოთამაშემ {player_id} აირჩია ერთი ან ორივე ბარათი, რომელიც უკვე შეესაბამება."
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "მოთამაშე {player_id} მიერ არჩეული ბანქოები პოზიციებზე [{r1} {c1}] და [{r2} {c2}] ემთხვევა!",
+    "cards_no_match": "მოთამაშე {player_id} მიერ არჩეული ბანქოები არ ემთხვევა. ბანქოები პოზიციებზე [{r1} {c1}] და [{r2} {c2}] არიან {pos1} და {pos2} შესაბამისად."
   },
   "outcome": {
     "draw": "ორივე მოთამაშემ გაათანაბრა ერთნაირი რაოდენობის კარტები.",

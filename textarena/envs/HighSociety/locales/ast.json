@@ -13,7 +13,7 @@
     "card_not_held": "Nun tienes esa tarxeta de dineru."
   },
   "message": {
-    "tie": "Tie - bids returned. Rebid!",
+    "tie": "Empate - puyes devueltes. ¡Puya de nuevu!",
     "auction_result": "P0 ufiertó {bid0}, P1 ufiertó {bid1}. Xugador {winner} gana prestixu {prize} (total {total})."
   },
   "outcome": {

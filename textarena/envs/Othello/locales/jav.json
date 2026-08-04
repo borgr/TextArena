@@ -16,7 +16,7 @@
   },
   "game_action": {
     "skipped": "Pemain {pid} kudu skip gilirané.",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "Pemain {pid} ({piece}) dolanan [{r}, {c}] mbalik {flipped} biji"
   },
   "game_message": {
     "must_skip": "Pemain {pid} ({piece}) ora duwé langkah-langkah kang valid lan kudu ngléwati."

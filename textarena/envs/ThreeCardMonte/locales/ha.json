@@ -11,7 +11,7 @@
     "{ball_pos}": "The cup index the ball is under"
   },
   "player_prompt": {
-    "intro": "Track the hidden ball 'X' while the cups are shuffled.\nAfter shuffling, guess its location with `[k]`."
+    "intro": "Bi ƙwallon da aka boye 'X' yayin da kofuna suke juyawa.\nBayan juyawa, ka yi hasashen wajen yake da `[k]`."
   },
   "game_message": {
     "ball_starts": "Ball yana farawa: {line}",
@@ -21,7 +21,7 @@
     "reveal": "(Bayyana: ƙwallon ƙafa a ƙarƙashin {ball_pos})"
   },
   "invalid_move": {
-    "wrong_format": "Bad action. Use `[k]`.",
+    "wrong_format": "Aikin bai dace ba. Yi amfani da `[k]`.",
     "out_of_range": "Index daga cikin kewayon 0-{max_index}."
   },
   "outcome": {

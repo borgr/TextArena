@@ -14,7 +14,7 @@
   },
   "message": {
     "tie": "An dawo da tayin da aka yi daidai.",
-    "auction_result": "P0 bid {bid0}, P1 bid {bid1}. Player {winner} wins prestige {prize} (total {total})."
+    "auction_result": "P0 ya biddin {bid0}, P1 ya biddin {bid1}. Dan wasa {winner} ya lashe daraja {prize} (jumla {total})."
   },
   "outcome": {
     "p0_wins": "Ƙimar kuɗi {nw0} > {nw1}",

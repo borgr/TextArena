@@ -1,13 +1,13 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({role}) in a {num_rounds}-round Matching Pennies game.\n- Each round, submit [heads] or [tails] (or [h], [t]).\n- If your choice matches your opponent’s, Player 0 wins the round; otherwise Player 1 wins.\nReply with your choice in the format '[heads]' or '[tails]'.\n"
+    "intro": "Ove iwe Muthandi {player_id} ({role}) mu muthemba wa Matching Pennies wa {num_rounds} mizungu.\n- Kila mizungu, tuma [heads] kana [tails] (kana [h], [t]).\n- Iha ove vese vya muthandi wako, Muthandi 0 unganisa mizungu; vya kudya Muthandi 1 unganisa.\nVeselela vya kuweka mu ndaula ya '[heads]' kana '[tails]'.\n"
   },
   "invalid_move": {
-    "wrong_format": "Invalid format; please submit '[heads]' or '[tails]'."
+    "wrong_format": "Ndaula ishili; tuma '[heads]' kana '[tails]'."
   },
   "message": {
-    "round_match": "Player 0 picked {choice0}; Player 1 picked {choice1}. Match -> Player 0 wins",
-    "round_mismatch": "Player 0 picked {choice0}; Player 1 picked {choice1}. Mismatch -> Player 1 wins."
+    "round_match": "Muthandi 0 apana {choice0}; Muthandi 1 apana {choice1}. Kuveleleka -> Muthandi 0 unganisa",
+    "round_mismatch": "Omutu wa 0 aakolile {choice0}; omotu wa 1 aakolile {choice1}. Kukolisa kwavali -> Omutu wa 1 uahwele."
   },
   "outcome": {
     "p0_wins": "Omunu wa yulula, eye o kuete vali epondolo lioku yula.",

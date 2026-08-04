@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id}. You are playing the 15-Puzzle game.\nThe objective of the game is to arrange the numbered tiles in ascending order from 1 to 15, with the empty space located in the bottom-right corner.\nTo make a move, you can slide a tile into the empty space (represented by a double underscore, e.g. __) by using one of the following commands:\n- 'up': Move the tile below the empty space up.\n- 'down': Move the tile above the empty space down.\n- 'left': Move the tile to the right of the empty space left.\n- 'right': Move the tile to the left of the empty space right.\nTo submit your move, type the direction (e.g., 'up', 'down', 'left', or 'right') in square brackets, e.g. [up].\nThe current board layout is shown below. Use the information to solve the puzzle.\n"
+    "intro": "Yin ee Player {player_id}. Yin ee tɔ̈ 15-Puzzle tɛ̈ɛ̈ŋ.\nTɛ̈ɛ̈ŋ ee tɔ̈ këër ee tɔ̈ 1 ne 15, lääk ëë kuɔ̈ɔ̈r ëë tɛ̈ɛ̈ŋ thɛ̈ɛ̈r kuɔ̈ɔ̈r.\nKëër ee tɔ̈ këër, yin ee kuɔ̈ɔ̈r ëë kuɔ̈ɔ̈r ëë tɛ̈ɛ̈ŋ ee kaŋ ee kuɔ̈ɔ̈r ëë tɛ̈ɛ̈ŋ ee kaŋ ee kaŋ ee 'up', 'down', 'left', kuɔ̈ɔ̈r 'right'.\n- 'up': Kuɔ̈ɔ̈r ëë kuɔ̈ɔ̈r ëë tɛ̈ɛ̈ŋ ee kaŋ ee kuɔ̈ɔ̈r ëë tɛ̈ɛ̈ŋ.\n- 'down': Kuɔ̈ɔ̈r ëë kuɔ̈ɔ̈r ëë tɛ̈ɛ̈ŋ ee kaŋ ee kuɔ̈ɔ̈r ëë tɛ̈ɛ̈ŋ ee kaŋ ee kuɔ̈ɔ̈r.\n- 'left': Kuɔ̈ɔ̈r ëë kuɔ̈ɔ̈r ëë tɛ̈ɛ̈ŋ ee kaŋ ee kuɔ̈ɔ̈r ëë tɛ̈ɛ̈ŋ ee kaŋ ee kaŋ.\n- 'right': Kuɔ̈ɔ̈r ëë kuɔ̈ɔ̈r ëë tɛ̈ɛ̈ŋ ee kaŋ ee kuɔ̈ɔ̈r ëë tɛ̈ɛ̈ŋ ee kaŋ ee kuɔ̈ɔ̈r ee kaŋ.\nKëër ee tɔ̈ këër ee tɔ̈, yin ee tɛ̈ɛ̈ŋ ee kuɔ̈ɔ̈r ee kaŋ ee kuɔ̈ɔ̈r ee kaŋ ee [up].\nTɛ̈ɛ̈ŋ ee tɔ̈ këër ee tɔ̈ ee tɔ̈ kuɔ̈ɔ̈r ee kaŋ ee kuɔ̈ɔ̈r ee kaŋ.\n"
   },
   "board": {
     "current_board": "Piny de Board:\n\n{board}\nCin nyiɛ̈ɛ̈k: {moves}",
@@ -11,7 +11,7 @@
     "illegal_move": "Cɔ̈t ë yic. Kä ye ke cuat acie lëu bï kek ya lɔ në baŋ cï lueel thïn."
   },
   "outcome": {
-    "win": "Congratulations! Player {player_id} have successfully solved the 15-Puzzle. (Yïïn acï kë cï yök ë 15 bɛ̈n lëu.)",
+    "win": "Aciëël! Leekuënde {player_id} aye tɔ̈ kɔ̈ɔ̈c wei ciɛ̈ɛ̈n 15-Puzzle.",
     "turn_limit": "Kë cï looi acï bɛ̈n thök. Ku kë ye nyuɔɔth ë lɔn raan kënë acë {percent} buɔtic de käkë thöl ëbën"
   }
 }

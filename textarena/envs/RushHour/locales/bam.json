@@ -1,9 +1,9 @@
 {
   "player_prompt": {
-    "intro": "You are playing a {difficulty} RushHour puzzle. Slide cars to free the red car [X] and drive it out the right edge.\nActions: [A+], [B-], etc.  (+ = forward, - = backward)."
+    "intro": "I ka jwe {difficulty} RushHour puzzle. Sɔrɔ baa wɛrɛw ka sɔrɔ bilen [X] ka taa kɔrɔnɛnɛ fɛ. \nKɛlɛw: [A+], [B-], wɛrɛw. (+ = ɲɛ, - = kɔ)."
   },
   "invalid_move": {
-    "wrong_format": "Invalid action. Use format [A+] / [B-].",
+    "wrong_format": "Kɛlɛ caman. Kɛlɛ [A+] / [B-] fɔrmɛ.",
     "no_car": "Kɔnɔ ma {car_id} ' sɔrɔ.",
     "blocked": "Koli balilen."
   },

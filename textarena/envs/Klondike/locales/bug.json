@@ -16,7 +16,7 @@
     "{cards}": "The cards in a pile as neutral labels, or '--' if empty (never translate)"
   },
   "player_prompt": {
-    "intro": "You are playing Klondike Solitaire. Your goal is to move all cards to the foundation piles.\n\nGame Rules:\n- Foundation piles (F1-F4): Build up from Ace to King in suit\n- Tableau piles (T1-T7): Build down alternating colors (red on black, black on red)\n- Stock: Draw cards to waste pile\n- Waste (W): Top card available for play\n\nCommands:\n- 'draw' - Draw cards from stock to waste\n- 'move <source> <destination> [count]' - Move cards between piles\n  Examples: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count can also be 'all', which will try to move all face-up cards.\n- 'forfeit' - End the game immediately and lock in your current score\n- Pile names: W (waste), F1-F4 (foundations), T1-T7 (tableau)\n\nYou can execute multiple actions in one turn by separating them with commas:\n  Example: 'draw, move W T1, move T2 F1'\n\nOnly Kings can be placed on empty tableau piles.\nActions execute in order - if one fails, the remaining actions are skipped.\nUse 'forfeit' if you believe the game is impossible to win."
+    "intro": "Miu ri laleng Klondike Solitaire. Tujuanmu iya ri menggeserang kartu-kartu ngaseng ri tumpukan fondasi.\n\nPaturu Game:\n- Tumpukan fondasi (F1-F4): Bangun ngaseng ri As ngaseng ri Raja ri warna\n- Tumpukan tableau (T1-T7): Bangun turun selang-seling warna (mera ri itang, itang ri mera)\n- Stok: Menggambar kartu-kartu ri tumpukan limbah\n- Limbah (W): Kartu paling atas riada ri main\n\nPerintah:\n- 'draw' - Menggambar kartu-kartu ri stok ri limbah\n- 'move <source> <destination> [count]' - Menggeserang kartu-kartu ri antara tumpukan\n  Contoh: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count bisa juga 'all', iya ri coba menggeserang kartu-kartu ngaseng ri muka.\n- 'forfeit' - Mengakhiri game langsung ri mengunci skor muatang\n- Nama tumpukan: W (limbah), F1-F4 (fondasi), T1-T7 (tableau)\n\nMiu bisa melaksanakan aksi-aksi banyak ri satu giliran ri memisahkan ri koma:\n  Contoh: 'draw, move W T1, move T2 F1'\n\nRaja-raja bisa ditempatkan ri tumpukan tableau kosong.\nAksi-aksi melaksanakan ri urutan - jika satu gagal, aksi-aksi lainnya dilewati.\nGunakan 'forfeit' jika muatang percaya game iya ri mustahil ri menang."
   },
   "format_error": {
     "no_brackets": "Format aksi de'na ulle. Aksi waji engka ri laleng kurung-kurung.",
@@ -24,8 +24,8 @@
     "empty_command": "Komando kosong. tipe 'draw' iyarega 'move <source><destination> [count]'.",
     "empty_action": "Aksi kosongnge",
     "move_needs_args": "Parenta palecce'e parellu assaleng sibawa pattujung. Pakkeguna: 'move <source> <destination> [count]'",
-    "count_positive": "Bilangenna waji'i positif iyarega 'sininnawa'.",
-    "count_invalid": "Bilangeng de'na ullei. Pakkegunai nomoro iyarega 'iyamanenna'.",
+    "count_positive": "Jumlah harus ri positif atau 'all'",
+    "count_invalid": "Jumlah tidak sah. Gunakan angka atau 'all'",
     "unknown_command": "Perintah tidak dikenal '{cmd}'. Gunakan 'draw', 'move <source> <destination> [count]', atau 'forfeit'",
     "wrapped": "Action {n}: {msg}"
   },

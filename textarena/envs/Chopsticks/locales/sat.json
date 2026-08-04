@@ -6,7 +6,7 @@
     "current_board": "ᱱᱤᱛᱟᱜ ᱵᱳᱨᱰ:\nᱯᱞᱮᱭᱟᱨ 0: {hands_0}\nᱯᱞᱮᱭᱟᱨ 1: {hands_1}"
   },
   "invalid_move": {
-    "my_hand_dead": "Your hand {my_idx} is dead.",
+    "my_hand_dead": "Tora hat {my_idx} morechhe.",
     "opp_hand_dead": "ᱮᱴᱟᱜ ᱦᱟᱛ {opp_idx} ᱫᱚ ᱢᱟᱨᱮ ᱜᱮᱭᱟ᱾",
     "split_sum": "ᱥᱯᱤᱞᱴ ᱫᱚ {total} ᱨᱮ ᱦᱟᱛᱟᱣ ᱦᱩᱭᱩᱜᱼᱟ ᱾",
     "split_no_change": "ᱥᱯᱞᱤᱴ ᱫᱚ ᱟᱢᱟᱜ ᱦᱟᱛᱟᱣ ᱨᱮᱱᱟᱜ ᱵᱷᱮᱜᱟᱨ ᱦᱩᱭᱩᱜᱼᱟ ᱾",
@@ -14,7 +14,7 @@
   },
   "game_action": {
     "attack": "P{player_id} ᱮ ᱯᱞᱮᱭᱟᱨ P{opp_id} ᱟᱜ ᱛᱤ {opp_idx} ᱮ ᱟᱠᱨᱚᱢᱚᱬ ᱠᱟᱱᱟ: ᱚᱱᱟ ᱫᱚ {opp_val} ᱠᱷᱚᱱ {new_val} ᱨᱮ ᱥᱮᱱ ᱮᱱᱟ.",
-    "split": "P{player_id} splits into [{L}, {R}]."
+    "split": "P{player_id} phant kore [{L}, {R}]."
   },
   "history": {
     "entry": "P{player_id} {desc}"

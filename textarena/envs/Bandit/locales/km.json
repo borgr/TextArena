@@ -14,7 +14,7 @@
     "pressed": "អ្នកបានចុចលើប៊ូតុង {button} ហើយទទួលបានរង្វាន់ {reward} ។"
   },
   "game_message": {
-    "final_decision": "You have exhausted your budget for trying out different choices and observe their rewards. Now make a deduction about what the best choice is."
+    "final_decision": "អ្នកបានប្រើប្រាស់ថវិការបស់អ្នកសម្រាប់ព្យាយាមជម្រើសផ្សេងៗ ហើយសង្កេតពីរង្វាន់របស់ពួកគេ។ ឥឡូវនេះ ធ្វើការសន្និដ្ឋានអំពីជម្រើសដ៏ល្អបំផុត។"
   },
   "outcome": {
     "win": "សូមអបអរសាទរ! អ្នកបានជ្រើសរើសប៊ូតុងត្រឹមត្រូវ។",

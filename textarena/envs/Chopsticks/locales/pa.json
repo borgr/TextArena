@@ -14,7 +14,7 @@
   },
   "game_action": {
     "attack": "ਪੀ {player_id} ਪੀ {opp_id} ਦੇ ਹੱਥ {opp_idx} 'ਤੇ ਹਮਲਾ ਕਰਦਾ ਹੈਃ ਇਹ {opp_val} ਤੋਂ {new_val} ਤੱਕ ਜਾਂਦਾ ਹੈ।",
-    "split": "P{player_id} splits into [{L}, {R}]."
+    "split": "P{player_id} [{L}, {R}] ਵਿੱਚ ਵੰਡਦਾ ਹੈ।"
   },
   "history": {
     "entry": "ਪੀ{player_id} {desc}"

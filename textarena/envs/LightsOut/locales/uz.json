@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "Harakatlar [row col] formatda boʻlishi kerak, bu yerda satr va ustun 0 dan {max_index} gacha boʻlgan butun sonlardir.",
-    "out_of_range": "Coordinates must be between 0 and {max_index}. You entered [{row},{col}]."
+    "out_of_range": "Koordinatalar 0 va {max_index} orasida bo'lishi kerak. Siz [{row},{col}] kiritdingiz."
   },
   "outcome": {
     "win": "Tabriklayman! Siz jumboqni {moves_used} harakatlarda hal qildingiz!",

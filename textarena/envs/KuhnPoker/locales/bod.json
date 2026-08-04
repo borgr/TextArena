@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a {max_rounds} round game of Kuhn Poker.\nGame Rules:\n- Kuhn Poker uses a 3-card deck with J, Q, K (J lowest, K highest)\n- Each player antes {ante} chip and receives 1 card each round (note that the cards are dealt without replacement, so you cannot have the same card as your opponent).\n- Game continues for {max_rounds} rounds\n- The player with the most chips after all rounds wins\nAction Rules:\n- '[check]': Pass without betting (only if no bet is on the table)\n- '[bet]': Add 1 chip to the pot (only if no bet is on the table)\n- '[call]': Match an opponent's bet by adding 1 chip to the pot\n- '[fold]': Surrender your hand and let your opponent win the pot"
+    "intro": "ཁྱེད་ཀྱི་མིང་འབྲུ་ཁག་ {player_id} སྟེ་ཁུན་པོ་ཀེར་གྱི་རེའུ་མི་ {max_rounds} རེའུ་གི་རྩེད་མོ་ཞིག་ནང་ཡོད།\nརྩེད་མོའི་སྒྲིག་གཞི།\n- ཁུན་པོ་ཀེར་གྱི་པར་མ་ 3 གྲས་ཀྱི་ J, Q, K (J མཐའ་མ་དམའ་བ་དང་ K མཐོ་ཤོས་) སྤྱོད་ཀྱི་ཡོད།\n- རྩེད་མོ་འཁྲབ་མཁན་རེ་རེར་ {ante} ཆེད་སྒོར་སྤྲོད་དགོས་པ་དང་རེའུ་རེར་པར་མ་ 1 རེ་སྤྲོད་པ་ཡོད། (པར་མ་དེ་ཚར་མེད་པར་བྱིན་པ་ཡིན་པས་ཁྱེད་ཀྱི་འགྲམ་པའི་པར་མ་དང་འདྲ་བ་མི་ཡོད།)\n- རྩེད་མོ་ {max_rounds} རེའུ་རྒྱབ་པ་ཡོད།\n- རྩེད་མོ་ཐམས་ཅད་རྫོགས་རྗེས་ཆེད་སྒོར་མང་ཤོས་ཡོད་པའི་རྩེད་མོ་འཁྲབ་མཁན་གྱིས་རྒྱལ་ཁ་ཐོབ་པ་ཡོད།\nའགུལ་བསྐྱོད་སྒྲིག་གཞི།\n- '[check]': རྒྱག་པ་མེད་པར་འགྲམ་པར་སྤྲོད་པ། (རྒྱག་པ་སྟོང་པའི་ཤོག་སྒོར་མ་གཏོགས།)\n- '[bet]': སྒོར་ 1 རྒྱག་པར་སྤྲོད་པ། (རྒྱག་པ་སྟོང་པའི་ཤོག་སྒོར་མ་གཏོགས།)\n- '[call]': འགྲམ་པའི་རྒྱག་པ་སྒོར་ 1 སྤྲོད་པས་མཉམ་པ་བྱེད་པ།\n- '[fold]': ཁྱེད་ཀྱི་ལག་པ་གཏོང་བ་དང་འགྲམ་པར་རྒྱལ་ཁ་ཐོབ་པར་འགྲོ་བ།"
   },
   "init_round": {
     "round_start": "### རྒྱུག་འགྲོ་ཚགས་{current_round} དང་པོ་ནས་{max_rounds} ཚགས་ཀྱི་ འགོ་བཟུང་ཡོད་. ཁྱོད་ཀྱི་པགས་ཤོག་ནི་: '{player_card}'",
@@ -11,12 +11,12 @@
     "not_legal": "ལས་དོན་འདི་ {legal_actions}དགོས་པ་ཡིན།"
   },
   "action": {
-    "submit_move": "Player {player_id}, submitted move: '[{move}]'.",
+    "submit_move": "རྩེད་མོ་འཁྲབ་མཁན་ {player_id} གྱིས་འགུལ་བསྐྱོད་སྒྲིག་བཞིན་པ་ནི། '[{move}]' ཡིན།",
     "valid_actions": "ཁྱེད་ཀྱི་བྱེད་ནུས་ནི་: {legal_actions}།",
-    "round_summary": "{reason} ད་ལྟའི་ གཏན་འབེབས་ཚགས་: Player 0: '{player_0_chips}'; Player 1: '{player_1_chips}'"
+    "round_summary": "{reason} ད་ལྟའི་སྒོར་གྲལ་ནི། རྩེད་མོ་འཁྲབ་མཁན་ 0 གྱིས་ '{player_0_chips}' དང་རྩེད་མོ་འཁྲབ་མཁན་ 1 གྱིས་ '{player_1_chips}'"
   },
   "showdown": {
-    "showdown_summary": "Showdown: Player {winner}'s {winner_card} beats Player {loser}'s {loser_card}. Player {winner} wins pot of {pot_value} chips."
+    "showdown_summary": "མཇུག་འབྲས་བསྟན་པ། རྩེད་མོ་འཁྲབ་མཁན་ {winner} གྱི་ {winner_card} གྱིས་རྩེད་མོ་འཁྲབ་མཁན་ {loser} གྱི་ {loser_card} ལས་རྒྱལ་ཁ་ཐོབ་པ་ཡོད། རྩེད་མོ་འཁྲབ་མཁན་ {winner} གྱིས་སྒོར་ {pot_value} ཐོབ་པ་ཡོད།"
   },
   "outcome": {
     "draw": "{max_rounds}རེའུ་མིག་མཇུག་ཏུ་རྩེད་པ་གཉིས་ཀའི་ལག་རྟགས་གྲངས་འདྲ་མཉམ་ཡོད།",

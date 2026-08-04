@@ -14,15 +14,15 @@
     "{scores}": "The final scores as a raw player-number to score mapping - do not translate"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player GOPS.\n- You hold the 13 cards A-K (each exactly once).\n- Each round a prize is revealed. Submit ONE card like `[Q]`, `[10]`, `[2]` …\n- Highest card wins the prize (+ any carry-over pot). Ties roll the prize into the next round.\n- After 13 rounds, highest total wins. Invalid moves = elimination."
+    "intro": "သင်သည် ကစားသမား {player_id} ဖြစ်ပါသည်။\n- သင် ၁၃ ကစားတုံး A-K (တစ်ခုစီ တစ်ကြိမ်) ကို ကိုင်ထားပါသည်။\n- ဆုကြေးတစ်ခု အချီတိုင်း ဖွင့်ပြသပါသည်။ တစ်ကစားတုံးကို ဤသို့ပေးပို့ပါ `[Q]`, `[10]`, `[2]` …\n- အမြင့်ဆုံး ကစားတုံး ဆုကြေး (ဆုကြေးစု ပါဝင်) ကို အနိုင်ရပါသည်။ တန်းတူမှု ဆုကြေးကို နောက်အချီသို့ လည်ပတ်ပါသည်။\n- ၁၃ အချီ ပြီးနောက်၊ အမြင့်ဆုံး စုစုပေါင်း အနိုင်ရပါသည်။ မှားယွင်းသော လှုပ်ရှားမှု = ထုတ်ပယ်ခံရသည်။"
   },
   "round": {
-    "header": "### Round {round}/13 - Prize: {prize} (worth {worth})",
+    "header": "### အချီ {round}/13 - ဆုကြေး: {prize} (တန်ဖိုး {worth})",
     "hand": "Naw ngam ai lata: {hand}"
   },
   "reveal": {
-    "win": "Bids » {bids} - Player {winner} wins {pot}.",
-    "tie": "Bid  {bids} - tie, pot now {pot}. (Jaw ai ni hpe jaw na matu)",
+    "win": "အရောင်းများ » {bids} - ကစားသမား {winner} ဆုကြေး {pot} ကို အနိုင်ရပါသည်။",
+    "tie": "အရောင်းများ » {bids} - တန်းတူ၊ ဆုကြေးစု ယခု {pot}။",
     "scores": "Sumla ni → {scoreline}"
   },
   "invalid_move": {

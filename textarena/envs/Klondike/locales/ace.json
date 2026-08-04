@@ -16,16 +16,16 @@
     "{cards}": "The cards in a pile as neutral labels, or '--' if empty (never translate)"
   },
   "player_prompt": {
-    "intro": "Anda sedang bermain Klondike Solitaire. Tujuan Anda adalah memindahkan semua kartu ke tumpukan fondasi.\n\nAturan Permainan:\n- Tumpukan fondasi (F1-F4): Bangun dari Ace ke King dalam suit\n- Tumpukan tableau (T1-T7): Bangun turun warna bergantian (merah di atas hitam, hitam di atas merah)\n- Stock: Tarik kartu ke tumpukan limbah\n- Limbah (W): Kartu teratas tersedia untuk dimainkan\n\nPerintah:\n- 'draw' - Tarik kartu dari stock ke limbah\n- 'move <source> <destination> [count]' - Pindahkan kartu antar tumpukan\n  Contoh: 'move W T1', 'move T1 F2', 'move T3 T5 2'. Jumlah juga bisa 'all', yang akan mencoba memindahkan semua kartu yang terbuka.\n- 'forfeit' - Akhiri permainan segera dan kunci skor Anda saat ini\n- Nama tumpukan: W (limbah), F1-F4 (fondasi), T1-T7 (tableau)\n\nAnda dapat menjalankan beberapa aksi dalam satu giliran dengan memisahkannya dengan koma:\n  Contoh: 'draw, move W T1, move T2 F1'\n\nHanya Raja yang bisa ditempatkan di tumpukan tableau yang kosong.\nAksi dilakukan berurutan - jika satu gagal, aksi yang tersisa akan diabaikan.\nGunakan 'forfeit' jika Anda percaya permainan tidak mungkin dimenangkan."
+    "intro": "Kamoe ta lhee game Solitaire Klondike. Tujuan kamoe nyan keu peubloe kartu mandum u foundation piles.\n\nPeuraton Game:\n- Foundation piles (F1-F4): Peubloe naek nibak Ace keu Raja lam suit\n- Tableau piles (T1-T7): Peubloe turun ngon warna selang-seling (mirah atawa itam, itam atawa mirah)\n- Stock: Tarik kartu u waste pile\n- Waste (W): Kartu paling aseh keu dimainkan\n\nPeuraton:\n- 'draw' - Tarik kartu nibak stock u waste\n- 'move <source> <destination> [count]' - Pindah kartu antara piles\n  Contoh: 'move W T1', 'move T1 F2', 'move T3 T5 2'. Count juga jeuët 'all', nyang jeuët meupindah kartu mandum nyang ka tupeue.\n- 'forfeit' - Akhiri game langsung ngon kunci skor kamoe jinoe\n- Nan pile: W (waste), F1-F4 (foundations), T1-T7 (tableau)\n\nKamoe jeuët jalan saboh peuraton leubeh nibak sa'at ngon meukirajih ngon koma:\n  Contoh: 'draw, move W T1, move T2 F1'\n\nRaja jeuët teupeue lam tableau piles nyang kosong.\nPeuraton jeuët jalan ngon tertib - meu'én saboh gagal, peuraton la'én jeuët dileupah.\nPeuguna 'forfeit' meu'én kamoe yakin game nyan han jeuet keumeunang."
   },
   "format_error": {
     "no_brackets": "Format tindakan hana sah. Aksi haroh dalam kurung-kurung.",
     "no_closing_bracket": "Format tindakan hana sah. Kurung peugöt nyang kureueng ']'",
     "empty_command": "Pesen kosong. Ketik \"draw\" atau \"move <source> <destination> [count]\".",
     "empty_action": "tindakan kosong (empty action)",
-    "move_needs_args": "Pesan pindahan meupeurle sumber ngon tujuan. Penggunaan: 'pindah <sumber> <tujuan> [count]'",
-    "count_positive": "Itungan harus positif atau 'semua'",
-    "count_invalid": "Itungan hana sah. Gunak angka atawa 'semua'",
+    "move_needs_args": "Perintah aleu pindah meukeusudkan asai ngon tujuan. Cara ngui: 'move <source> <destination> [count]'",
+    "count_positive": "Count meu'én positip atawa 'all'",
+    "count_invalid": "Count salah. Peuguna angka atawa 'all'",
     "unknown_command": "Perintah tidak dikenal '{cmd}'. Gunakan 'draw', 'move <source> <destination> [count]', atau 'forfeit'",
     "wrapped": "Aksi {n}: {msg}"
   },
@@ -57,7 +57,7 @@
     "to_waste_or_stock": "Hanjeut dipinah keu limbah atawa stok."
   },
   "outcome": {
-    "forfeit": "Game forfeited. Score akhir: {score} kartu bak pondasi.",
+    "forfeit": "Game ka akhiri. Skor akhir: {score} kartu lam foundations.",
     "won": "Selamat, awak meunang Solitaire Klondike!",
     "turn_limit": "Permainan berakhir! Anda mencapai batas maksimum {max_turns} giliran. Skor: {score} kartu di fondasi."
   },

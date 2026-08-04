@@ -24,10 +24,10 @@
     "intro": "You are Player {player_id}, playing {num_rounds} rounds of Iterated Ultimatum Game.\nYou have ${pool} to split this round between yourself and Player {other_id}.\n\nProposer:\n  - Make an offer: [Offer: $X] (0 <= X <= pool)\n  - If accepted → You get $(pool - X), other player gets $X\n  - If rejected → Both get $0\n  - Example: [Offer: $3]  or  'I think this is fair. [Offer: $5]'\n\nResponder:\n  - Decide on the offer with either [Accept] or [Reject]\n  - Example: 'That seems reasonable. [Accept]'\n            'Too unfair. [Reject]'\n"
   },
   "round": {
-    "begins": "--- Round {round_number} begins! ---\nPlayer {proposer_id} is the proposer, Player {responder_id} is the responder.",
-    "offer": "Round {round_number}: Player {proposer_id} offers ${offer} to Player {responder_id} (keeping ${keep}).",
-    "accepted": "Player {responder_id} accepted! Round {round_number} gains: Player {proposer_id} +${proposer_gain}, Player {responder_id} +${responder_gain}. New totals: Player 0: ${total_0}, Player 1: ${total_1}.",
-    "rejected": "Player {responder_id} rejected the offer! Round {round_number} gains: Both players +$0. Totals remain: Player 0: ${total_0}, Player 1: ${total_1}."
+    "begins": "--- Kɩlaŋɩɣ {round_number} kɩlaŋɩɣ! ---\nKɩlaŋ {proposer_id} kɩlaŋɩɣ tɔm, kɩlaŋ {responder_id} kɩlaŋɩɣ tɔm.",
+    "offer": "Kɩlaŋɩɣ {round_number}: Kɩlaŋ {proposer_id} kɩlaŋɩɣ ${offer} kɩlaŋ {responder_id} (naa ${keep}).",
+    "accepted": "Kɩlaŋ {responder_id} kɩlaŋɩɣ! Kɩlaŋɩɣ {round_number} naa: Kɩlaŋ {proposer_id} +${proposer_gain}, kɩlaŋ {responder_id} +${responder_gain}. Naa kɩlaŋɩɣ: Kɩlaŋ 0: ${total_0}, kɩlaŋ 1: ${total_1}.",
+    "rejected": "Kɩlaŋ {responder_id} pɩɣa kɩlaŋɩɣ! Kɩlaŋɩɣ {round_number} naa: Kɩlaŋɩɣ naa $0. Naa kɩlaŋɩɣ: Kɩlaŋ 0: ${total_0}, kɩlaŋ 1: ${total_1}."
   },
   "invalid_move": {
     "no_offer_format": "Pɩwɛɛ se weyi ɛcɔŋna tɔm ndʋ tɩ-yɔɔ yɔ, ɛtɩŋnɩ [Offer: $X] yɔɔ nɛ ɛla.",
@@ -37,7 +37,7 @@
     "accept_or_reject": "Responder ɛɛkpa kpɛɛ ma ɛtɩŋɛ [Accept] pee ɛtɩŋɛ [Reject] kɔcɔna"
   },
   "outcome": {
-    "win": "Player {winner} won with ${winner_total} total vs Player {loser}'s ${loser_total}.",
+    "win": "Kɩlaŋ {winner} kɩlaŋɩɣ naa ${winner_total} kɩlaŋ kɩlaŋ {loser} naa ${loser_total}.",
     "draw": "Pa-naalɛ pɛtɛzɩ paɣzʋʋ nɛ ${total}."
   }
 }

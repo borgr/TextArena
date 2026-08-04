@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "Chiito chinofanira kuva mu fomati [row col] apo mutsara nekoramu nhamba dzese kubva pa 0 kusvika ku {max_index}.",
-    "out_of_range": "Coordinates must be between 0 and {max_index}. You entered [{row},{col}]."
+    "out_of_range": "Viwianishi vinabidi viwe kati ya 0 na {max_index}. Wakaandika [{row},{col}]."
   },
   "outcome": {
     "win": "Makorokoto! Makapedza dambanemazwi riri mukufamba kwe {moves_used}!",

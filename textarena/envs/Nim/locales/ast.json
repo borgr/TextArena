@@ -13,7 +13,7 @@
     "exceeds_pile": "Nun se pueden retirar {quantity} de la pila {pile_index} (namái {pile_count} queden)."
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "El xugador {player_id} xugó [{pile_index} {quantity}], retirando {quantity} oxetu(s) de la pila {pile_index}."
   },
   "outcome": {
     "win": "El xugador {player_id} tomó l'últimu oxetu (s)!"

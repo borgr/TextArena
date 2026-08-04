@@ -8,7 +8,7 @@
   },
   "invalid_move": {
     "wrong_format": "An magdudula waray tumugon hin balido nga pormat han aksyon.",
-    "invalid_button": "An invalid button has been selected."
+    "invalid_button": "Mayda ginpinili nga botones nga diri balido."
   },
   "game_action": {
     "pressed": "Gin-ihap mo an {button} nga buton ngan nakakarawat hin balos han {reward}."

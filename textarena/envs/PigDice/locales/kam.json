@@ -1,24 +1,24 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} playing a game of Pig Dice.\n\nRules:\n- On your turn, you can either '[roll]' or '[hold]'\n- Roll a 2-6: Add to your turn total\n- Roll a 1: Lose turn total and end turn\n- Hold: Add turn total to your score and end turn\n- First to {winning_score} points wins\n\nWhen it's your turn, you'll see the current scores and turn total.\nRespond with '[roll]' to roll the die or '[hold]' to bank your points."
+    "intro": "Wee ni Mchezaji {player_id} akicheza mchezo wa Pig Dice.\n\nSheria:\n- Wakati wa zamu yako, unaweza ama '[roll]' au '[hold]'\n- Safu 2-6: Ongeza kwenye jumla ya zamu yako\n- Safu 1: Poteza jumla ya zamu yako na mwisho zamu\n- Shikilia: Ongeza jumla ya zamu yako kwenye alama zako na mwisho zamu\n- Wa kwanza kufikia {winning_score} pointi atashinda\n\nWakati wa zamu yako, utaona alama za sasa na jumla ya zamu.\nJibu kwa '[roll]' ili kukunja kufa au '[hold]' ili kuweka alama zako."
   },
   "invalid_move": {
-    "invalid_action": "Invalid action format. Use '[roll]' or '[hold]'."
+    "invalid_action": "Muundo wa hatua batili. Tumia '[roll]' au '[hold]'."
   },
   "actions": {
-    "player_busted": "Player {player_id} busted, losing {turn_total} points!",
-    "player_hold": "Player {player_id} holds and banks {turn_total} points."
+    "player_busted": "Mchezaji {player_id} amevunjika, akipoteza pointi {turn_total}!",
+    "player_hold": "Mchezaji {player_id} anashikilia na kuweka pointi {turn_total}."
   },
   "board": {
     "player": "Mchezaji 0: '{score_0}'; Mchezaji 1: '{score_1}'",
-    "current_total_scores": "Current Total Scores: {scores}\nYour current turn total is {turn_total}.",
+    "current_total_scores": "Alama za Jumla za Sasa: {scores}\nJumla ya zamu yako ya sasa ni {turn_total}.",
     "roll_history": "{observation}\nHistoria ya kukunja kwako kwa mzunguko huu: {roll_history}",
     "first_roll": "{observation} Kyalo kyaku kya mbee nĩ kũsemba.",
     "available_actions": "{observation}\nHatua zinazopatikana: '[roll]' au '[hold]'"
   },
   "outcome": {
-    "winner_by_turn_limit": "Player {winner_id} won by having a higher score at the turn limit ({scores})",
-    "winner_by_score": "Player {winner_id} won by reaching the target score of {winning_score}!",
-    "draw": "The turn limit has been reached and all players have the same score: {scores}"
+    "winner_by_turn_limit": "Mchezaji {winner_id} alishinda kwa kuwa na alama ya juu zaidi kwenye kikomo cha zamu ({scores})",
+    "winner_by_score": "Mchezaji {winner_id} alishinda kwa kufikia alama lengwa ya {winning_score}!",
+    "draw": "Kikomo cha zamu kimefikia na wachezaji wote wana alama sawa: {scores}"
   }
 }

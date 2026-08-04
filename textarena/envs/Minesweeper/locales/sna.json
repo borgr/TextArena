@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing the Minesweeper game.\nThe objective of the game is to reveal all cells that do not contain mines.\nTo make a move, simply specify the row and column coordinates you want to reveal using the format:\n- `[row col]`: Reveal the cell at the specified row and column.\nFor example:\n- `[3 2]` to reveal the cell in Row 3, Column 2.\n- `[5 6]` to reveal the cell in Row 5, Column 6.\nOn your first move, you will reveal an area around the cell you choose to ensure a safe start.\nThe current board layout is shown below. Cells that are unrevealed are represented by a dot ('.'), revealed numbers show the count of adjacent mines.\nBe mindful not to choose already revealed cells.\nHere is the current board layout:\n"
+    "intro": "Uri kucheza game ya Minesweeper.\nChinangwa che game ndicho kubuditsa maselo yose asina mimeya.\nKuita zviito, taura tu nhamba dze safu na safu wauri kubuditsa, wakapanga kwa njira iyi:\n- `[row col]`: Buditsa cela kune safu na safu wakapanga.\nSomhi:\n- `[3 2]` kubuditsa cela kune Safu 3, Safu 2.\n- `[5 6]` kubuditsa cela kune Safu 5, Safu 6.\nPakutanga, uchabuditsa nzvimbo yakapoterera cela uchague, kudzingira kutanga kwako kubayiwa.\nMhando yebhodhi iripo pazasi. Maselo asanabuditswa anowanikwa na doti ('.'), nhamba dzabuditswa dzononyanya mimeya iri pedyo.\nTsvaga kutenge kuisa maselo akabuditswa.\nMhando yebhodhi iripo pazasi:\n"
   },
   "board": {
     "game_board": "Bhodhi remitambo: {board}",
@@ -9,11 +9,11 @@
   "invalid_move": {
     "wrong_format": "Hauna kupindura nemakona anobvumirwa ari muzvibatanidzi zvakapetwa.",
     "out_of_bounds": "Mirayiridzo yemitsara nemakoramu yakatarwa haishande.",
-    "already_revealed": "The cell at ({row}, {col}) has already been revealed.",
-    "hit_mine": "You hit a mine at ({row}, {col})."
+    "already_revealed": "Chelo pa ({row}, {col}) chapinda chabuditswa.",
+    "hit_mine": "Wakakanda mimeya pa ({row}, {col})."
   },
   "game_action": {
-    "revealed": "You revealed the cell at ({row}, {col})."
+    "revealed": "Wabuditsa chelo pa ({row}, {col})."
   },
   "outcome": {
     "win": "Makorokoto! Makabudirira kubvisa bhodhi reMineweeper.",

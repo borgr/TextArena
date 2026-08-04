@@ -1,26 +1,26 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a {max_rounds} round game of Kuhn Poker.\nGame Rules:\n- Kuhn Poker uses a 3-card deck with J, Q, K (J lowest, K highest)\n- Each player antes {ante} chip and receives 1 card each round (note that the cards are dealt without replacement, so you cannot have the same card as your opponent).\n- Game continues for {max_rounds} rounds\n- The player with the most chips after all rounds wins\nAction Rules:\n- '[check]': Pass without betting (only if no bet is on the table)\n- '[bet]': Add 1 chip to the pot (only if no bet is on the table)\n- '[call]': Match an opponent's bet by adding 1 chip to the pot\n- '[fold]': Surrender your hand and let your opponent win the pot"
+    "intro": "Ove iwe ogwanta {player_id} mu joga ya Kuhn Poker ya {max_rounds} joga.\nMilinga ya Joga:\n- Kuhn Poker ushaka deck ya kadi 3 na J, Q, K (J ndogo, K nnene)\n- Ogwanta omohe {ante} chip na kupokelela kadi 1 kila joga (nota kadi zinatolewa bila kubadilishwa, kwa hivyo huwezi kuwa na kadi ile ile na mpinzani wako).\n- Joga inaendelea kwa {max_rounds} joga\n- Ogwanta aliye na chipi nyingi zaidi baada ya joga zote anashinda\nMilinga ya Vitendo:\n- '[check]': Pita bila kubeti (tu ikiwa hakuna beti kwenye meza)\n- '[bet]': Ongeza chip 1 kwenye poti (tu ikiwa hakuna beti kwenye meza)\n- '[call]': Linganisha beti ya mpinzani kwa kuongeza chip 1 kwenye poti\n- '[fold]': Achilia mkono wako na acha mpinzani wako ashinde poti"
   },
   "init_round": {
-    "round_start": "### Kuanza kwa raundi {current_round} kati ya {max_rounds} raundi. Kadi yako ni: '{player_card}'",
+    "round_start": "### Kuanza joga {current_round} kati ya {max_rounds} joga. Kadi yako ni: '{player_card}'",
     "available_actions": "Ovina o sukila oku linga vievi: {available_actions}"
   },
   "invalid_move": {
-    "wrong_format": "Hatua inabidi iwe [Check], [Bet], [Call], au [Fold].",
-    "not_legal": "Hatua inabidi iwe {legal_actions}."
+    "wrong_format": "Kitendo lazima kiwe [Check], [Bet], [Call], au [Fold].",
+    "not_legal": "Kitendo lazima kiwe {legal_actions}."
   },
   "action": {
-    "submit_move": "Player {player_id}, submitted move: '[{move}]'.",
+    "submit_move": "Ogwanta {player_id}, alitoa kitendo: '[{move}]'.",
     "valid_actions": "Ovina o sukila oku linga vievi: {legal_actions}.",
-    "round_summary": "{reason} Viwa vya sasa: Mwari 0: '{player_0_chips}'; Mwari 1: '{player_1_chips}'"
+    "round_summary": "{reason} Alama za sasa: Ogwanta 0: '{player_0_chips}'; Ogwanta 1: '{player_1_chips}'"
   },
   "showdown": {
-    "showdown_summary": "Mgongano: {winner_card} ya Mwari {winner} inashinda {loser_card} ya Mwari {loser}. Mwari {winner} anashinda poti ya {pot_value} chip."
+    "showdown_summary": "Ushindani: Kadi ya Ogwanta {winner} {winner_card} inashinda kadi ya Ogwanta {loser} {loser_card}. Ogwanta {winner} anashinda poti ya {pot_value} chipi."
   },
   "outcome": {
     "draw": "Kesulilo lio {max_rounds} liotembo, omunu lomunu pokati kavo o kuata olongalamafone vialua.",
-    "round_win": "Mwari {player_id} amekata tamaa.",
+    "round_win": "Ogwanta {player_id} ameacha.",
     "winner_player0": "Ocimunga 0 ci yula omo lioku kuata olonjeke vialua kesulilo lio {max_rounds} liotembo.",
     "winner_player1": "Ocimunga 1 ci yula omo okuti eye o kuete vali olo chip kesulilo lio {max_rounds} volonepa viosi."
   }

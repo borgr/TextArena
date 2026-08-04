@@ -16,7 +16,7 @@
     "{cards}": "The cards in a pile as neutral labels, or '--' if empty (never translate)"
   },
   "player_prompt": {
-    "intro": "You are playing Klondike Solitaire. Your goal is to move all cards to the foundation piles.\n\nGame Rules:\n- Foundation piles (F1-F4): Build up from Ace to King in suit\n- Tableau piles (T1-T7): Build down alternating colors (red on black, black on red)\n- Stock: Draw cards to waste pile\n- Waste (W): Top card available for play\n\nCommands:\n- 'draw' - Draw cards from stock to waste\n- 'move <source> <destination> [count]' - Move cards between piles\n  Examples: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count can also be 'all', which will try to move all face-up cards.\n- 'forfeit' - End the game immediately and lock in your current score\n- Pile names: W (waste), F1-F4 (foundations), T1-T7 (tableau)\n\nYou can execute multiple actions in one turn by separating them with commas:\n  Example: 'draw, move W T1, move T2 F1'\n\nOnly Kings can be placed on empty tableau piles.\nActions execute in order - if one fails, the remaining actions are skipped.\nUse 'forfeit' if you believe the game is impossible to win."
+    "intro": "Cai ngmainang Klondike Solitaire. Tujuan cainé punika ngindang kartu makejang ka tumpukan dasar.\n\nTetanduran Permainan:\n- Tumpukan dasar (F1-F4): Wangun saking As ngantos Raja ring soroh\n- Tumpukan meja (T1-T7): Wangun mudun antuk warna selang-seling (barak ring ireng, ireng ring barak)\n- Stok: Nedunang kartu ka tumpukan limbah\n- Limbah (W): Kartu duur sayaga antuk mainang\n\nPitutur:\n- 'draw' - Nedunang kartu saking stok ka limbah\n- 'move <source> <destination> [count]' - Ngindang kartu riantara tumpukan\n  Conto: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count taler dados 'all', sané pacang nyobiang ngindang kartu makejang sané madué muka.\n- 'forfeit' - Puputang permainan sakadi mawinan tur ngunci skor cainé sané mangkin\n- Aran tumpukan: W (limbah), F1-F4 (dasar), T1-T7 (meja)\n\nCai sida ngindang aksi akéh ring siki-siki antuk misahang aksi-aksi punika antuk tanda baca:\n  Conto: 'draw, move W T1, move T2 F1'\n\nWantah Raja sané dados kagenahang ring tumpukan meja kosong.\nAksi ngindang ring urutan - yén asiki gagal, aksi-aksi sanésipun pacang kagilir.\nAnggén 'forfeit' yén cai precaya permainan puniki tan dados menang."
   },
   "format_error": {
     "no_brackets": "Format tindakan nénten valid. Aksi patut ring kurung-kurungan.",
@@ -24,8 +24,8 @@
     "empty_command": "Paréntah kosong. Ketik \"draw\" utawi \"move <source> <destination> [count]\".",
     "empty_action": "Pamargin sané nénten madaging",
     "move_needs_args": "Pangiring mindah ngabutuhang sumber miwah genah. Guna: 'move <source> <destination> [count]'",
-    "count_positive": "Count patut positif utawi ' makasami'",
-    "count_invalid": "Nénten valid. Anggén angka utawi 'makasami'",
+    "count_positive": "Jumlah patut dados positif utawi 'all'",
+    "count_invalid": "Jumlah tan sah. Anggén angka utawi 'all'",
     "unknown_command": "Perintah tidak dikenal '{cmd}'. Gunakan 'draw', 'move <source> <destination> [count]', atau 'forfeit'",
     "wrapped": "Action {n}: {msg}"
   },

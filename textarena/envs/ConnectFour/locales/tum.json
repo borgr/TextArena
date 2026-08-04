@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in Connect Four.\nYour disc symbol: {symbol}.\nThe game board has {num_rows} rows and {num_cols} columns.\nPlayers take turns dropping their disc into one of the columns (0 to {end_col}).\nThe first to connect (their own) four discs vertically, horizontally, or diagonally wins.\nOn your turn, enter the column number in squared brackets to make your move.\nFor example: '[col 4]' or '[col 1]'."
+    "intro": "Ndiwe Mchezaji {player_id} mu Connect Four.\nChenjezo cha diski yako: {symbol}.\nBodi ya mchezo ina {num_rows} safu na {num_cols} safu wima.\nWachezaji huchukua zamu kuweka diski yao kwenye safu wima moja (0 hadi {end_col}).\nMchezaji wa kwanza kuunganisha (disiki zake mwenyewe) nne kwa wima, mlalo, au diagonal anashinda.\nKatika zamu yako, ingiza nambari ya safu wima kwenye mabano ya mraba ili kufanya zamu yako.\nKwa mfano: '[col 4]' au '[col 1]'."
   },
   "board": {
     "board_visible_state": "Boma la Board: {board_visual}",

@@ -12,7 +12,7 @@
     "invalid_position": "Pindah teu sah - moal bisa pindah ka posisi eta."
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
+    "moved": "Anjeun {pushed} gerak [{action}].",
     "pushed_prefix": "nyorong kotak bari"
   },
   "outcome": {

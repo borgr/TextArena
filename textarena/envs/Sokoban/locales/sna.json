@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are solving the Sokoban puzzle. You are the player and you need to push all boxes to targets.\n        When you are right next to a box, you can push it by moving in the same direction.\n        You cannot push a box through a wall, and you cannot pull a box.\n        On the board, objects are represented as: \n        - The player (you) appears as 'P' \n        - Walls are represented with '#' \n        - Boxes are marked as 'X' \n        - Empty goals are shown with a 'O'\n        - Boxes on goals are visualized with '√'\n        You can also use [w] for up, [a] for left, [s] for down, and [d] for right.\n        "
+    "intro": "Uri kutsaura mutambo weSokoban. Uri mukunda wacho, unofanira kusunda masanduku ose kuenda kune dziri.\n        Kana uri pedyo nekasanduku, unogona kusandudza kwa kusogea mweya wacho.\n        Haungasundi kasanduku kupfuura bedzi, haungabata kasanduku.\n        Pabodhi, zvinhu zvinowakilishwa kunge: \n        - Mukunda (iwe) anowonekwa sa 'P' \n        - Bedzi dzinowakilishwa nge '#'\n        - Masanduku anowonekwa sa 'X' \n        - Dziri dzisina kasanduku dzinowonekwa na 'O'\n        - Masanduku adziri anowonekwa na '√'\n        Unogona kutumisa [w] kwa kupanda, [a] kwa kubva kurudyi, [s] kwa kudzika, na [d] kwa kubva kuruboshwe.\n        "
   },
   "board": {
     "current_board": "Bhoja Raunobhena:\n\n{board}\nMikanzvi Yenyu: {moves}"
@@ -12,7 +12,7 @@
     "invalid_position": "Kufamba kusina kukodzera - hakugoni kufamba kunzvimbo iyoyo."
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
+    "moved": "Uri {pushed} safiri [{action}].",
     "pushed_prefix": "akamanikidza bhokisi apo"
   },
   "outcome": {

@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "Igikorwa kigomba kuba muburyo [row col] aho umurongo na col ni imibare yose kuva kuri 0 kugeza ku {max_index}.",
-    "out_of_range": "Coordinates must be between 0 and {max_index}. You entered [{row},{col}]."
+    "out_of_range": "Koordineti zigomba kuba hagati ya 0 na {max_index}. Wacuze [{row},{col}]."
   },
   "outcome": {
     "win": "Urakoze cyane! Wakemuye ikibazo mu ntambwe {moves_used}!",

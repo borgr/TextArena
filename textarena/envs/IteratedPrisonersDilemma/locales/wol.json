@@ -1,11 +1,11 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in an Iterated Prisoner's Dilemma spanning {num_rounds} rounds.\n\nGame Structure:\n- Before each decision you have {total_conversation_rounds} turns to communicate freely.\n- After that, both players simultaneously choose to cooperate or defect.\n\nPayoff Matrix (fixed each round):\n- Both Cooperate ➜ each {cooperate_reward}\n- Both Defect ➜ each {mutual_defect_reward}\n- One Defects, one Cooperates ➜ Defector {defect_reward}, Cooperator {sucker_reward}\n\nHow to Play:\n- During conversation: type any text you wish.\n- During decision phase: include '[Cooperate]' or '[Defect]' (case-insensitive). You may add extra text before/after the token."
+    "intro": "Yaa ngone Player {player_id} ci Prisoner's Dilemma bu ànd ak {num_rounds} round.\n\nStruktur gi:\n- Ci kanamu kër gi, ngone {total_conversation_rounds} tour ngone waxtaan lékker.\n- Ci des, ñaar ñi dëkkarloo ñu doxande kojugate walla defekte.\n\nPayoff Matrix (fixe ci kër gi):\n- Ñaar ñi Jugante ➜ kër {cooperate_reward}\n- Ñaar ñi Defekte ➜ kër {mutual_defect_reward}\n- Benna Defekte, benna Jugante ➜ Defektor {defect_reward}, Kojugator {sucker_reward}\n\nNan la:\n- Ci waxtaan gi: bindal wax ju ñu bëgg.\n- Ci fase gi des: sampale '[Cooperate]' walla '[Defect]' (baatu case). Ngone mën a ñëw wax ci kanamu/sampe gi token."
   },
   "phases": {
     "conversation_finished": "Conversation tamambul na bu round {round}. Nga def si leen '[Cooperate]' walla '[Defect]' ci \\boxed{{}}.",
     "starting_round": "--- Jëfandikukat bu njëkk bi {round} ---",
-    "round_summary": "Round {round} results:\n{outcome}\nPlayer 0 earned {r0} (total {score_0}), Player 1 earned {r1} (total {score_1})."
+    "round_summary": "Réewu {round} yi:\n{outcome}\nJëfandikukat 0 am {r0} (tolu {score_0}), Jëfandikukat 1 am {r1} (tolu {score_1})."
   },
   "outcome": {
     "winner": "Jigeen {winner} gën na {win_score} - {lose_score}.",

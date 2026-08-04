@@ -8,13 +8,13 @@
     "cell_already_occupied": "Iselo {cell_num} lili kale na bambi. Saleni isele ili fye libili."
   },
   "board": {
-    "current_state": "Current Board:\n\n{rendered_board}\nAvailable Moves: {available_moves}"
+    "current_state": "Bode ya Sasa:\n\n{rendered_board}\nZamu Zilizoze: {available_moves}"
   },
   "action": {
     "placement": "Mwana {current_player_id} wapanga symbol yawe ({symbol}) mu celli {cell_num}."
   },
   "outcome": {
-    "winner": "Player {current_player_id} ('{symbol}') connected two opposite edges!",
+    "winner": "Player {current_player_id} ('{symbol}') alikwatiisha mbali zibili za bode!",
     "draw": "Icitabo caisulamo, kabili bonse balilingana!"
   }
 }

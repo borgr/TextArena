@@ -1,13 +1,13 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({role}) in a {num_rounds}-round Matching Pennies game.\n- Each round, submit [heads] or [tails] (or [h], [t]).\n- If your choice matches your opponent’s, Player 0 wins the round; otherwise Player 1 wins.\nReply with your choice in the format '[heads]' or '[tails]'.\n"
+    "intro": "Nga ni Player {player_id} ({role}) mu mupila wa Matching Pennies wa mipindi {num_rounds}.\n- Mupindi uliwonse, sambaza [heads] kapena [tails] (kapena [h], [t]).\n- Ukapokwana na mwenzi wako, Player 0 akatwala mupindi; ukapopishana, Player 1 akatwala.\nDokeza uluse lako mu mulinganyo wa '[heads]' kapena '[tails]'.\n"
   },
   "invalid_move": {
-    "wrong_format": "Invalid format; please submit '[heads]' or '[tails]'."
+    "wrong_format": "Mulinganyo usio sahihi; sambaza '[heads]' kapena '[tails]'."
   },
   "message": {
-    "round_match": "Player 0 picked {choice0}; Player 1 picked {choice1}. Match -> Player 0 wins",
-    "round_mismatch": "Player 0 picked {choice0}; Player 1 picked {choice1}. Mismatch -> Player 1 wins."
+    "round_match": "Mchezaji 0 alichagua {choice0}; Mchezaji 1 alichagua {choice1}. Kulingana -> Mchezaji 0 atiwe",
+    "round_mismatch": "Mchezaji 0 alichagua {choice0}; Mchezaji 1 alichagua {choice1}. Kutoendana -> Mchezaji 1 atiwe"
   },
   "outcome": {
     "p0_wins": "Uuleteya 0 alicimfishe imilalo iingi.",

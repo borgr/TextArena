@@ -13,7 +13,7 @@
     "card_not_held": "អ្នកគ្មានកាតប្រាក់នោះទៀតទេ។"
   },
   "message": {
-    "tie": "Tie - bids returned. Rebid!",
+    "tie": "ស្មើគ្នា - ថ្លៃដេញត្រឡប់មកវិញ។ ដេញថ្លៃឡើងវិញ!",
     "auction_result": "P0 bid {bid0}, P1 bid {bid1}. កីឡាករ {winner} ទទួលបានកិត្តិយស {prize} (សរុប {total})."
   },
   "outcome": {

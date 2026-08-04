@@ -8,8 +8,8 @@
     "already_fired": "Il-koordinata {coord} diġà ġiet maqtula."
   },
   "game_action": {
-    "you_sunk": "Sunk! You sunk a ship at {coord}! Your updated board:\n{view}",
-    "opp_sunk": "Opponent sunk your ship at {coord}! Your updated board:\n{view}",
+    "you_sunk": "Għerreq! Għerreqt bastiment f'{coord}! Il-bord aġġornat tiegħek:\n{view}",
+    "opp_sunk": "L-avversarju għerreq il-bastiment tiegħek f'{coord}! Il-bord aġġornat tiegħek:\n{view}",
     "you_hit": "Laqat! Int laqat vapur fi {coord}! Il-bord tiegħek aġġornat:\n{view}",
     "opp_hit": "L-avversarju laqat il-vapur tiegħek fi {coord}! Il-bord tiegħek aġġornat:\n{view}",
     "you_miss": "Miss! Int ma laqatx il-vapur fi {coord}! Il-bord tiegħek aġġornat:\n{view}",

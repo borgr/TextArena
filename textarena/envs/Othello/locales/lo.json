@@ -16,7 +16,7 @@
   },
   "game_action": {
     "skipped": "ຜູ້ນ {pid} ຕ້ອງຂ້າມເວລາຂອງພວກເຂົາ",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "ຜູ້ຫຼິ້ນ {pid} ({piece}) ເປີດ [{r}, {c}] ປ່ຽນ {flipped} ເມນ"
   },
   "game_message": {
     "must_skip": "ຜູ້ນ {pid} ({piece}) ບໍ່ມີການເຄື່ອນໄຫວທີ່ຖືກຕ້ອງແລະຕ້ອງຂ້າມ."

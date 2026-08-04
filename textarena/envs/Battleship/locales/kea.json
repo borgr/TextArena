@@ -9,11 +9,11 @@
   },
   "game_action": {
     "you_sunk": "Afundóu! Bo afundóu um ship na {coord}! Ti tabuleiro atualizá:\n{view}",
-    "opp_sunk": "Opponent sunk your ship at {coord}! Your updated board:\n{view}",
+    "opp_sunk": "Adversáriu sinka bu navio na {coord}! Bu tabuleiru atualizadu:\n{view}",
     "you_hit": "Batíu! Bo hitá um ship na {coord}! Ti tabuleiro atualizá:\n{view}",
-    "opp_hit": "Opponent hit your ship at {coord}! Your updated board:\n{view}",
+    "opp_hit": "Adversáriu da ku bu navio na {coord}! Bu tabuleiru atualizadu:\n{view}",
     "you_miss": "Perdiu! Bo perdiu o ship na {coord}! Ti tabuleiro atualizá:\n{view}",
-    "opp_miss": "Opponent missed your ship at {coord}! Your updated board:\n{view}"
+    "opp_miss": "Adversáriu faiha bu navio na {coord}! Bu tabuleiru atualizadu:\n{view}"
   },
   "outcome": {
     "win": "Jogu {player_id} dja afunda tudu naviu di ses oponenti!"

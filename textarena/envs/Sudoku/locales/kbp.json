@@ -8,12 +8,12 @@
   },
   "invalid_move": {
     "wrong_format": "Pɩfɛyɩ ɖeu se pala tʊmɩyɛ nɖɩ. Aleɣya laɖʋ {player_id} tatasɩ cosuu nɛ ɛ-nɔɔ mayaɣ kɔyɔ 'row column number'.",
-    "out_of_bounds": "Invalid move. Player {player_id} attempted to place {num} at ({row}, {col}), which is out of bounds.",
+    "out_of_bounds": "Yɔɔdʋʋ pɩtɩɩfɛɛ. Nyɛ {player_id} pɩzɩɩ pɩzɩɩ tɛɛ kɩlaŋga {num} tɛɛ ({row}, {col}), tɛɛ pɩtɩɩfɛɛ tɛɛ.",
     "overwrite": "Kɛtɛɛ kɩɖɛɖɛ. Player {player_id} tɩŋɩna kɔcɔna cellule pre-filled ({row}, {col}).",
     "violates_rules": "Kɛtɛɛ kɩɖɛɖɛ. Player {player_id} tɩŋɩna {num} kɛlɛɛ ({row}, {col}), pɩkɛ ɖoŋ ñɩŋʊ Sudoku kʊnʊŋ."
   },
   "outcome": {
-    "win": "Congratulations! Player {player_id} completed the Sudoku puzzle.",
+    "win": "Kɛ kɛ kɛ! Nyɛ {player_id} tɛɛmɛ tɛɛ Sudoku tɛɛ.",
     "turn_limit": "Pɩtɛŋ lɛ, ŋpɩzɩ nɛ ŋkpaɣ {percent}% hɔɔlɩŋ weyi ɩ-taa pɩfɛyɩ pʋyʋ yɔ."
   }
 }

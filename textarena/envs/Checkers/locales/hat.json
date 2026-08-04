@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "Pa gen okenn fòmat deplasman valab toujou. Itilize [a1b2], pa egzanp [b2c3].",
-    "illegal": "Move [{move}] is illegal."
+    "illegal": "Mouvman [{move}] ilegal."
   },
   "game_action": {
     "moved": "Jwè {player_id} deplase {move}."

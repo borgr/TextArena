@@ -8,9 +8,9 @@
   },
   "invalid_move": {
     "wrong_format": "Muena manaya {player_id} kavua muandamune ne 'nambala wa mulongo' muimpe to.",
-    "out_of_bounds": "Invalid move. Player {player_id} attempted to place {num} at ({row}, {col}), which is out of bounds.",
+    "out_of_bounds": "Hatua isiyosahihi. Mwana {player_id} alijaribu kuweka {num} katika ({row}, {col}), ambayo iko nje ya mipaka.",
     "overwrite": "Lisolo lya makasi. Mwadi {player_id} alitaka kuandikiza tena seli iliyoandikwa mapema ({row}, {col}).",
-    "violates_rules": "Invalid move. Player {player_id} attempted to place {num} at ({row}, {col}), which violates Sudoku rules."
+    "violates_rules": "Hatua isiyosahihi. Mwana {player_id} alijaribu kuweka {num} katika ({row}, {col}), ambayo inakiuka miongozo ya Sudoku."
   },
   "outcome": {
     "win": "Tuasakidilayi! Muena manaya {player_id} wakalua kujikija Sudoku.",

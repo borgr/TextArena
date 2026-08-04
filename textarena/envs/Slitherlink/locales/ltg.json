@@ -1,9 +1,9 @@
 {
   "player_prompt": {
-    "intro": "You are playing Slitherlink on a {R}x{C} grid!\nDraw a single continuous loop so each numbered cell has that many bordering edges.\nToggle edges with:\n  [h r c] - toggle horizontal edge above dots at row r, column c\n  [v r c] - toggle vertical edge left of dots at row r, column c\nNumbers show required edge count, '.' means no constraint.\nYou have up to {max_turns} moves to solve the puzzle."
+    "intro": "Tū spēle Slitherlink iz {R}x{C} režģī!\nZīmē vīnu nepārtrauktu cilpu, lai katrā numurētā šūnā beiguos tik daudz robežmalu.\nMainīši malas ar:\n  [h r c] - mainīt horizontālu malu virs punktiņu rindā r, kolonnā c\n  [v r c] - mainīt vertikālu malu kreisā punktiņu rindā r, kolonnā c\nSkaitļi rāda nepieciešamo malu skaitu, '.' nozīmē, ka nav ierobežojumu.\nTev ir līdz {max_turns} gājieniem, lai atrisinātu mīklu."
   },
   "board": {
-    "current_board": "{board}\nClues satisfied: {progress}"
+    "current_board": "{board}\nViesnīcās izpildīti: {progress}"
   },
   "invalid_move": {
     "wrong_format": "Kļūdains darbības formāts. Lietojiet [h row col] vai [v row col].",

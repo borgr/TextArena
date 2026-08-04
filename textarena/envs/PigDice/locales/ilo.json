@@ -6,11 +6,11 @@
     "invalid_action": "Saanket a pormat ti pannakition. Usaren '[roll]' wenno '[hold]'."
   },
   "actions": {
-    "player_busted": "Player {player_id} busted, losing {turn_total} points!",
-    "player_hold": "Player {player_id} holds and banks {turn_total} points."
+    "player_busted": "Nabust ti Player {player_id}, nawalaan iti {turn_total} puntos!",
+    "player_hold": "Naghold ti Player {player_id} ken nai-deposito {turn_total} puntos."
   },
   "board": {
-    "player": "Player 0: '{score_0}'; Player 1: '{score_1}'",
+    "player": "Agay-ayam 0: '{score_0}'; Agay-ayam 1: '{score_1}'",
     "current_total_scores": "Agdama a Dagup a Puntos: {scores}\nTi agdama a puntos a turnom ket {turn_total}.",
     "roll_history": "{observation}\nTi historia ti rollmo iti daytoy a turnom: {roll_history}",
     "first_roll": "{observation} Daytoy ti umuna a panagibellengmo.",

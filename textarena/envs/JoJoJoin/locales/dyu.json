@@ -1,9 +1,9 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in JoJoJoin, played on a 5x5 board with cells numbered 0-24.\nOn your turn, place your mark on any empty cell, e.g. '[12]'.\nYOU WIN by getting FOUR of your marks in a row — four consecutive cells horizontally, vertically, or diagonally.\nAs Player {player_id} you are '{symbol}'; your opponent is '{opponent_symbol}'."
+    "intro": "I ye Jɛgɛ {player_id} ye JoJoJoin, ka tɛmɛn dɛmɛn 5x5 la, ka sɛri 0-24.\nKɔnɔ kɔ, a ye a ma ka kɛmɛ sɔrɔ dɛmɛn kɔnɔ, nɔgɔ ' [12] '.\nI NA GASE by getting sɔrɔ si naani sɔrɔ, — sɔrɔ si naani fila tɛmɛn kɔnɔ, tɛmɛn ɲɛ, walima kɔnɛ.\nKɔmɔ Jɛgɛ {player_id} i ye '{symbol}'; a ka jɛgɛ kɛlɛ ye '{opponent_symbol}'."
   },
   "board": {
-    "current_board": "Current Board:\n\n{board}\n\nAvailable Moves: {moves}"
+    "current_board": "Tablɛ kɔnɔ:\n\n{board}\n\nKɛmɛw ye: {moves}"
   },
   "invalid_move": {
     "wrong_format": "O yɛlɛmani ma kɛ ka kɛɲɛ ni Bibulu ka fɔta ye.",

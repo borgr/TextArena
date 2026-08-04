@@ -51,7 +51,7 @@
     "trick_win": "{winner} оюнчусу {card} менен оюнда утуп {points} упай алат!"
   },
   "outcome": {
-    "head": "Game Over! Player {winner} wins with {points} points!\n\nFinal Scores:\n{scores}",
+    "head": "Оюн бүттү! Оюнчу {winner} {points} упай менен утту!\n\nАкыркы упайлар:\n{scores}",
     "player_line": "Оюнчу {player_id}: {points} упай ({tricks} трюк) "
   }
 }

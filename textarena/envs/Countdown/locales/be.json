@@ -9,7 +9,7 @@
     "progress": "{observation} Сённяшні бал прагрэсу: {progress}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use `[i j op]` where i,j are indices and op is +,-,*,/",
+    "wrong_format": "Няслушны фармат дзеяння. Выкарыстоўвайце `[i j op]`, дзе i, j — індэксы, а op — +, -, *, /",
     "invalid_indices": "Несапраўдныя індэксы. Павінны быць рознымі і ў дыяпазоне 0-{max_index}",
     "invalid_operation": "Несапраўдная аперацыя (падзяленне на нуль або не цэлы вынік)"
   },

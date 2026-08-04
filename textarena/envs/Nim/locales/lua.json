@@ -13,7 +13,7 @@
     "exceeds_pile": "Otaweza kusambaza {quantity} kwenye lumbu {pile_index} (niko na {pile_count} pekee)."
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "Mwana {player_id} akakola [{pile_index} {quantity}], akapeja {quantity} bisadi ku kisadi {pile_index}."
   },
   "outcome": {
     "win": "Muena manaya {player_id} uvua muangate tshintu tshia ndekelu!"

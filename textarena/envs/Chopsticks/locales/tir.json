@@ -1,20 +1,20 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in Chopsticks. On your turn, choose one of:\n  + Attack:  '[attack M O]'  where M=your hand (0 or 1), O=opponent hand (0 or 1).\n    - Opponent's hand count increases by your hand; if >=5, it becomes 0.\n  + Split:   '[split L R]'  to redistribute your total fingers into L and R (L+R = your total).\nReply with exactly one of those commands."
+    "intro": "አንተ ተጫዋች {player_id} ኮምስቲክስ ኣት. በወረድሽ ንእሽቶ፡ ኣንድ ካብዚ ምረጹ፡\n  + ሓጥፈት፡ '[attack M O]'  ኣብ ምሕረፍ፡ M=እጅሽ (0 ወይ 1)፡ O=እጅ ተተኪኽ (0 ወይ 1)።\n    - እጅ ተተኪኽ ብእጅሽ ይምለስ፤ እስኪ 5 ወልድሽ እንደሎ፡ 0 ይኸውን።\n  + ምብራቕ፡ '[split L R]'  ንምስራሕ እግረኪ ኣብ L ከምኡውን R (L+R = እግረኪ)።\nንእሽቶ ንክእለስ፡ ኣንድ ካብዚ ትእዛዛት ንምልእ።"
   },
   "board": {
-    "current_board": "Current Board:\nPlayer 0: {hands_0}\nPlayer 1: {hands_1}"
+    "current_board": "ኣብ ኣሁን ዘሎ ሰንጠረያ፡\nተጫዋች 0፡ {hands_0}\nተጫዋች 1፡ {hands_1}"
   },
   "invalid_move": {
     "my_hand_dead": "ኢድካ {my_idx} ሞይታ ኣላ።",
     "opp_hand_dead": "ናይ ተጻባኢ ኢድ {opp_idx} ድሮ ሞይቱ እዩ።",
     "split_sum": "እቲ ዝተኸፋፈለ ክምዝገብ ዘለዎ {total} እዩ።",
     "split_no_change": "ስፕሊት ነቲ ናይ ኢድ ኣወሃህባኻ ክቕይሮ ኣለዎ።",
-    "invalid_command": "Invalid move. Use “[attack M O]” or “[split L R]”."
+    "invalid_command": "ኣልትእዛዛ። '[attack M O]' ወይ '[split L R]' ንክእለስ።"
   },
   "game_action": {
-    "attack": "P{player_id} attacks P{opp_id}’s hand {opp_idx}: it goes from {opp_val} to {new_val}.",
-    "split": "P{player_id} splits into [{L}, {R}]."
+    "attack": "P{player_id} ንP{opp_id} እጅ {opp_idx} ሓጥፈት፡ ካብ {opp_val} ናበይ {new_val} ይኸውን።",
+    "split": "P{player_id} ን[{L}, {R}] ምብራቕ።"
   },
   "history": {
     "entry": "P{player_id} {desc}"

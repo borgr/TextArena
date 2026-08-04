@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({piece}). Opponent is ({opp}).\nSubmit moves as '[a2 a3]' (from → to).\n- A normal move is one forward step to an adjacent empty vertex.\n- A capture is a jump over an adjacent enemy piece landing on the empty node beyond.\nEach capture yields {score_per_capture} points.\nGame ends after {max_moves} moves or when a player has no legal move."
+    "intro": "Ove uge u Player {player_id} ({piece}). Oponente u ({opp}).\nTunga movimentos como '[a2 a3]' (ku → ko).\n- Movimento normal ni kufokota kinyume kwa vertex ya pembeni isikali.\n- Kukwata ni kufokota pembeni kwa kinyume cha inimigo, ukafika kwenye nodu ya pembeni isikali.\nKila kukwata kunazalisha {score_per_capture} pontu.\nJogo inaisha pindi {max_moves} movimentos au wakati jokalari hana movimento ya kisheria."
   },
   "board": {
     "current_board": "Kuluka #{move_count}\n\n{board}"

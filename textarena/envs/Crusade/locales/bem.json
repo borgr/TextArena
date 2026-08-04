@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({piece}). Opponent is ({opp}). Submit moves as '[b1 c3]' (from → to). All pieces move like chess knights.\nEach capture scores {score_per_capture} point. Game ends after {max_moves} moves or when a player has no legal move / no pieces. Higher score wins."
+    "intro": "Nga ni Player {player_id} ({piece}). Ompetitor ni ({opp}). Someteni mizila kwa njia ya '[b1 c3]' (kutoka → kwa). Zonse zikazunguka zikazunguka kama maknight aya chess.\nKila ukamata ulipata {score_per_capture} alama. Game ikamana pambali {max_moves} mizila au inshita umwina ati ashitina mizila ya munda / ati ashitina ma pieces. Alama ya juu ikatwala."
   },
   "board": {
     "current_board": "Lesa #{move_count}\n\n{board}\n\nMikelo Iyanganeka: {moves}"
@@ -8,9 +8,9 @@
   "invalid_move": {
     "bad_format": "Ifyakupilibula fyabipa. Ulebomfya '[b1 c3]'.",
     "unknown_square": "Ibala lyashili.",
-    "not_your_piece": "Source is not your piece.",
+    "not_your_piece": "Chanzo si piece yako.",
     "own_piece": "Te kuti mubwike pa cintu ico mwingacimfya.",
-    "not_knight": "Not a knight move."
+    "not_knight": "Si mizila ya knight."
   },
   "game_action": {
     "moved": "Umulashi {player_id} aalwile icipande cakwe ukufuma ku {frm} ukuya kuli {to}.",
@@ -19,7 +19,7 @@
   "outcome": {
     "no_pieces": "Uuleteya {player_id} takwata ifimpashanya.",
     "cannot_move": "Umulashi {player_id} tekuti afumepo.",
-    "higher_score": "Higher capture score.",
+    "higher_score": "Alama ya juu ya ukamata.",
     "move_limit": "Ukuposa kwafika."
   }
 }

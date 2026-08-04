@@ -71,6 +71,6 @@
     "player_line": "{observation}\nHungador {player_id}: {scoring} skor di trik ({tricks} total), {hand_size} karta den man"
   },
   "outcome": {
-    "summary": "Learning phase - Player 0: {l0}, Player 1: {l1}. Playing phase - Player 0: {p0}, Player 1: {p1}. Player {winner_id} wins with {winner_tricks} scoring tricks!"
+    "summary": "Fase di aprendisaje - Hungador 0: {l0}, Hungador 1: {l1}. Fase di hunga - Hungador 0: {p0}, Hungador 1: {p1}. Hungador {winner_id} ta gana ku {winner_tricks} tricknan di puntuashon!"
   }
 }

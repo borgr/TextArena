@@ -13,10 +13,10 @@
     "repeated_guess": "Mwayesa kale {guess}. Chonde yesani kuyesa kwina."
   },
   "game_action": {
-    "feedback": "Submitted [{guess}]. Feedback: {black_pegs} black peg(s), {white_pegs} white peg(s)."
+    "feedback": "Tadutsa [{guess}]. Maoni: {black_pegs} mipini myeusi, {white_pegs} mipini moyera."
   },
   "outcome": {
-    "win": "You have cracked the code, solving {black_pegs} out of {code_length} pegs correctly",
+    "win": "Mwathetsa khodi, kupanga {black_pegs} kati ya {code_length} mipini yolondola",
     "turn_limit": "Mlingo wa kutembenuka unafika. Munaganiza {percent} peresenti ya manambala molondola."
   }
 }

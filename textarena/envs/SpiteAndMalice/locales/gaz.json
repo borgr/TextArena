@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a two-player game of Spite and Malice. Your goal is to be the first to empty your payoff pile.\n\n### Game Overview:\n- The objective is to clear your payoff pile by playing cards to the center piles.\n- You can play cards from three sources:\n  1. Your **hand** (you start each turn with up to 5 cards in hand).\n  2. The **top card of your payoff pile**.\n  3. The **top card of any of your discard piles**.\n\n### Playing Rules:\n- You may play a card to a center pile if it is **one rank higher** than the top card on that pile (center piles start with Ace and go up to Queen; Kings are wild - they can be played on any card but do not change the rank sequence. This means if a King is used after 4, then that King is ranked 5 and the next card must be a 6).\n- If you can't play any more cards, you must **discard a card** to one of your discard piles to end your turn.\n- If a center pile reaches Queen, it will be cleared automatically.\n- The rank order is: A=1, 2=2, ..., 9=9, J=10, Q=11, K as wild.\n\n### Actions:\n1. **Draw**: At the start of your turn, draw cards to fill your hand up to 5 cards. Enter **[draw]** to begin.\n2. **Play a Card**: To play a card, specify the card and the center pile like this: **[play A♠ 0]** (where 'A♠' is the card and '0' is the center pile index).\n3. **Discard**: If you can't play any more cards, discard a card from your hand to a discard pile to end your turn. Enter **[discard A♠ 1]** (where 'A♠' is the card and '1' is the discard pile index). Note that you cannot discard any card from the payoff pile. You may only discard the cards from your hand.\n\n"
+    "intro": "Ati leenca {player_id} kessatti tapha lamaan Spite fi Malice. Galii kee qabduu dhuunfaa keessan baasuudha.\n\n### Hubachiisa Tapha:\n- Galii qabduu dhuunfaa keessan baasuun tapha kessatti ka'uu dha.\n- Kaartii saddeet irraa ka'uu dandeessa:\n  1. **Harka kee** (yeroo hundaa kaartii 5 ol ta'a).\n  2. **Kaartii olaanaa dhuunfaa kee**.\n  3. **Kaartii olaanaa dhuunfaa ala kee**.\n\n### Seera Tapha:\n- Kaartii tokko kessatti ka'uu dandeessa yoo **sadarkaa tokko olaanaa** kaartii olaanaa kessatti ta'e (kessawwan eegalanii Ace fi gara Queen; Kings ni wilde - kaartii kamuu irratti ka'uu dandeessa, garuu sadarkaa hin jijjiiru. Kana jechuun yoo King ka'uu ba'e 4, King sun sadarkaa 5 ta'a, kaartii dhufu sadarkaa 6 ta'a).\n- Yoo kaartii ka'uu hin dandeenye, kaartii **ala kee** tokko kessatti ala kee dhuunfaa irratti ka'uu qabda.\n- Yoo kessawwan Queen ga'e, qulqulleeffama automaata.\n- Sadarkaa kaartii: A=1, 2=2, ..., 9=9, J=10, Q=11, K ni wilde.\n\n### Sochiin:\n1. **Soora**: Yeroo hundaa kaartii sooruu qabduu harka kee 5 kaartii guutuu. **[draw]** jedhuun jalqaba.\n2. **Kaartii Ka'uu**: Kaartii ka'uu, kaartii fi kessawwan akka kana: **[play A♠ 0]** (akka 'A♠' kaartii fi '0' kessawwan index).\n3. **Ala kee**: Yoo kaartii ka'uu hin dandeenye, kaartii harka kee ala kee dhuunfaa irratti ka'uu qabda. **[discard A♠ 1]** jedhuun (akka 'A♠' kaartii fi '1' kessawwan index). Kaartii dhuunfaa kee ala kee hin ka'uu, kaartii harka kee qofa ka'uu dandeessa."
   },
   "board": {
     "current_board": "Booradii kuusaa:\n\n{board}\nMiidiileen ala dhaabuu: {moves}"
@@ -9,9 +9,9 @@
     "center_piles_header": "--- Giddugalaa Gurguddoo (Center Piles) -- ",
     "pile": "{observation}Pile {i}: {pile}\n",
     "player_view_header": "{observation}\n--- Pleyer {player_id}'s View ---\n",
-    "payoff": "{observation}Payoff Pile (Top Card): {top_card}, Payoff Pile Length: {payoff_length}\n",
+    "payoff": "{observation}Qabsoo (Kaarta Olaanaa): {top_card}, Dheerina Qabsoo: {payoff_length}\n",
     "hand": "{observation}Hand: {hand}\n",
-    "discard": "{observation}Discard Piles: {discard}\n",
+    "discard": "{observation}Harqoota: {discard}\n",
     "empty": "Gatii hin qabu."
   },
   "game_message": {
@@ -34,8 +34,8 @@
   },
   "outcome": {
     "payoff_cleared": "Pleyer {current_player} payoff pile isaa xiqqaachee! Pleyer {current_player} waliigaltee dhufuun barbaachisa!",
-    "deadlock_player_0": "Deadlock reached! Player 0 wins with {player_0_payoff} cards remaining vs Player 1's {player_1_payoff} cards.",
-    "deadlock_player_1": "Deadlock reached! Player 1 wins with {player_1_payoff} cards remaining vs Player 0's {player_0_payoff} cards.",
+    "deadlock_player_0": "Tapha dhumate! Pilaayari 0 kaartota {player_0_payoff} qabatee moo'ate, Pilaayari 1 kaartota {player_1_payoff} qabatee.",
+    "deadlock_player_1": "Tapha dhumate! Pilaayari 1 kaartota {player_1_payoff} qabatee moo'ate, Pilaayari 0 kaartota {player_0_payoff} qabatee.",
     "deadlock_tie": "Deadlock dhufee waliigaltee! Pleyeroota {player_0_payoff} kaartii irraa eegalan. Pleyer {current_player} waliigaltee dhufuun barbaachisa."
   }
 }

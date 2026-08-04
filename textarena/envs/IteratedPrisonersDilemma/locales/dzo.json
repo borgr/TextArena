@@ -12,7 +12,7 @@
     "draw": "རྩེད་འགྲན་པ་གཉིས་ཆ་ར་གིས་ {s0}ཐོ་བཀོད་འབད་ཡོདཔ་ཨིན།",
     "round_both_cooperate": "རྩེད་འགྲན་པ་གཉིས་ཆ་ར་གིས་ མཉམ་འབྲེལ་འབད་ཡོདཔ་ཨིན།",
     "round_both_defect": "རྩེད་འགྲན་པ་གཉིས་ཆ་ར་གིས་ རྒྱང་བསྒྲགས་འབད་ཡོདཔ་ཨིན།",
-    "round_p0_cooperates_p1_defects": "Player 0 cooperated, Player 1 defected.",
-    "round_p0_defects_p1_cooperates": "Player 0 defected, Player 1 cooperated."
+    "round_p0_cooperates_p1_defects": "སྒྲིག་པ་པོ་ 0 གིས་མཐུན་སྦྱོར་བྱེད་པ་དང་སྒྲིག་པ་པོ་ 1 གིས་བཀག་ཉེས་པ་བྱེད་པ།",
+    "round_p0_defects_p1_cooperates": "སྒྲིག་པ་པོ་ 0 གིས་བཀག་ཉེས་པ་བྱེད་པ་དང་སྒྲིག་པ་པོ་ 1 གིས་མཐུན་སྦྱོར་བྱེད་པ།"
   }
 }

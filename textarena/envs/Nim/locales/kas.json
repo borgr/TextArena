@@ -3,19 +3,19 @@
     "intro": "تُسی Player {player_id} ہو Nim وچ۔\nتہاڈا مقصد آخری بچیا वसتا لینا ہے۔\nہر واری، سِر्फ اک پائل چنیں تے اس توں اک یا اک توں زیادہ वसتاں ہٹاؤ۔\nفارمیٹ '[pile quantity]' ورتیں، جتھے پائل پائل انڈیکس ہے تے مقدار ہٹائی گئی वसتوں دی گنتی ہے۔\nउदाहरण دے لئی، '[0 3]' پائل 0 توں 3 वसتاں ہٹا دیندی ہے۔"
   },
   "state": {
-    "current_pile": "करंट पाइल: {piles}"
+    "current_pile": "ہُنٛز ڈھیر:\n{piles}"
   },
   "invalid_move": {
-    "wrong_format": "No valid move format found. Use '[pile quantity]'. कुनि वैलिड मोव फॉर्मेट वुछुन न आमुत। \"[[1]]\" इस्तेमाल करिथ।",
+    "wrong_format": "کوئی وازن موو فارمیٹ نہ ملیو۔ '[pile quantity]' استعمال کرو۔",
     "correct_format_wrong_fields": "Player {player_id}, اہل نہیں۔ سٹونب {col} حدوں سے باہر ہے۔",
-    "out_of_range": "पाइल इंडेक्स {pile_index} छू रेंज नेबर.",
-    "non_positive": "कम से कम 1 ऑब्जेक्ट छू त्रावन.",
+    "out_of_range": "{pile_index} ڈھیر انڈیکس حد سے باہر چھُ۔",
+    "non_positive": "کم از کم ۱ شیئ ہٹاوُن۔",
     "exceeds_pile": "پائل {pile_index} توں {quantity} ہٹایا نہیں جاسکدا (فقط {pile_count} بچے ہوئے ہن)۔"
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "{player_id} खिलाड़ीनے [{pile_index} {quantity}] کھیل کیتا، {pile_index} ڈھیر سے {quantity} شیئنے ہٹاے۔"
   },
   "outcome": {
-    "win": "प्लेयर {player_id} ने आखरी ऑब्जेक्ट ले लिया!"
+    "win": "{player_id} खिलाड़ीنے آخری شیئ(ن) لیہِ!"
   }
 }

@@ -7,7 +7,7 @@
     "out_of_range": "דער געמײן מוז זײַן צווישן {min_guess} און {max_guess}."
   },
   "message": {
-    "round_guesses": "Player 0 guessed {guess0}; Player 1 guessed {guess1}. Thus the Target is: {target}.",
+    "round_guesses": "שפילער 0 האט געראטן {guess0}; שפילער 1 האט געראטן {guess1}. דערפאר איז דער ציל: {target}.",
     "round_draw": "ראָונד איז אַ ציען.",
     "round_win": "דער שפּילער {winner} געווינט דעם ראָונד!"
   },

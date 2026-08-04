@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing Mastermind.\nYou need to find the code that is {code_length} digits long, each digit from 1 to {num_numbers}, {repeats}.\nIn your response, you can submit your guess in the following format: '[2 1 4 5]'.\nAfter each guess, you will receive feedback in the form of black and white pegs.\nA black peg indicates a correct digit in the correct position, while a white peg indicates a correct digit in the wrong position.\nYou have {max_turns} turns to guess the code.\n",
+    "intro": "တႆးတီႈၶႄႉသဵင်ႈ Mastermind ။\nတႆးတေလူဝ်ႇႁႃတူဝ်ယမႄးဢၼ်ပဵၼ် {code_length} လိၵ်ႈ၊ ၵူႈလိၵ်ႈ 1 တေႃႇ {num_numbers}၊ {repeats} ။\nၼႂ်းတွပ်ႇတႆးၸဝ်ႈၵဝ်ႇ၊ ၸဝ်ႈၵဝ်ႇၸၢင်ႈသူင်ႇတၢင်းၶႆႈၸဝ်ႈၵဝ်ႇ ၼႂ်းႁွႆးတီႈ ' [2 1 4 5] ' ။\nဝၢႆးသေၼိုင်ႈၶႆႈ၊ ၸဝ်ႈၵဝ်ႇတေလႆႈတွပ်ႇၶိုၼ်း ၼႂ်းႁွႆးတီႈမၢၵ်ႇလမ်းလႅင်း။\nမၢၵ်ႇလမ်း ပဵၼ်တီႈၼႄလိၵ်ႈၸဵတ်း ၼႂ်းတီႈၸဵတ်း၊ သမ်ႉမၢၵ်ႇလမ်းလႅင်း ပဵၼ်တီႈၼႄလိၵ်ႈၸဵတ်း ၼႂ်းတီႈၸဵတ်း ဢမ်ႇၸဵတ်း။\nၸဝ်ႈၵဝ်ႇမီး {max_turns} ပွၵ်ႈ ၶႆႈတူဝ်ယမႄး။\n",
     "with_repeats": "ဢၼ်ၸၢင်ႈႁဵတ်းႁႂ်ႈပဵၼ်မႃးထႅင်ႈၵမ်းၼိုင်ႈ။",
     "no_duplicates": "ဢမ်ႇမီးလွင်ႈၽိတ်းပိူင်ႈၵၼ်။"
   },
@@ -13,10 +13,10 @@
     "repeated_guess": "သူၸင်ႇတွပ်ႇဝႃႈ {guess} ယဝ်ႉ၊ ၶတ်းၸႂ် ထဵင်ၶိုၼ်း ဢၼ်ဢမ်ႇမိူၼ်ၵၼ်လႄႈ။"
   },
   "game_action": {
-    "feedback": "Submitted [{guess}]. Feedback: {black_pegs} black peg(s), {white_pegs} white peg(s)."
+    "feedback": "ၸဝ်ႈၵဝ်ႇသူင်ႇယဝ်ႉ [{guess}] ။ တွပ်ႇၶိုၼ်း: {black_pegs} မၢၵ်ႇလမ်း၊ {white_pegs} မၢၵ်ႇလမ်းလႅင်း။"
   },
   "outcome": {
-    "win": "You have cracked the code, solving {black_pegs} out of {code_length} pegs correctly",
+    "win": "ၸဝ်ႈၵဝ်ႇၶႆႈပေႃးတူဝ်ယမႄး၊ ၶႆႈၸဵတ်း {black_pegs} ၼႂ်း {code_length} မၢၵ်ႇလမ်း။",
     "turn_limit": "လွင်ႈၶၢႆႉတီႈသုတ်းၼႆႉ ႁွတ်ႈထိုင်ဝႆႉယဝ်ႉ။ သူၸၢင်ႊထၢင်ႇဝႃႈ မၢႆၼပ်ႉဢၼ်ထုၵ်ႇမႅၼ်ႈၼၼ်ႉ ပဵၼ် {percent} ႁူဝ်ပၢၵ်ႇၼၼ်ႉယဝ်ႉ။"
   }
 }

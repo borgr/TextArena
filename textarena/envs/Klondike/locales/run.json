@@ -16,7 +16,7 @@
     "{cards}": "The cards in a pile as neutral labels, or '--' if empty (never translate)"
   },
   "player_prompt": {
-    "intro": "You are playing Klondike Solitaire. Your goal is to move all cards to the foundation piles.\n\nGame Rules:\n- Foundation piles (F1-F4): Build up from Ace to King in suit\n- Tableau piles (T1-T7): Build down alternating colors (red on black, black on red)\n- Stock: Draw cards to waste pile\n- Waste (W): Top card available for play\n\nCommands:\n- 'draw' - Draw cards from stock to waste\n- 'move <source> <destination> [count]' - Move cards between piles\n  Examples: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count can also be 'all', which will try to move all face-up cards.\n- 'forfeit' - End the game immediately and lock in your current score\n- Pile names: W (waste), F1-F4 (foundations), T1-T7 (tableau)\n\nYou can execute multiple actions in one turn by separating them with commas:\n  Example: 'draw, move W T1, move T2 F1'\n\nOnly Kings can be placed on empty tableau piles.\nActions execute in order - if one fails, the remaining actions are skipped.\nUse 'forfeit' if you believe the game is impossible to win."
+    "intro": "Uri kuri kina Klondike Solitaire. Inshingano yawe ni kuhama ibikarata vyote ku ya mirongo ya msingi.\n\nMizani ya Mchezo:\n- Mirongo ya msingi (F1-F4): Jenga ukwezi kwa majina kutoka Ace hadi Mfalume kulingana na rangi\n- Mirongo ya meza (T1-T7): Jenga ukwezi kwa rangi zinazopishana (nyekundu juu ya nyeusi, nyeusi juu ya nyekundu)\n- Hisa: Chora ibikarata ku ya mirongo ya taka\n- Taka (W): Bikarata ya juu inapatikana kwa kucheza\n\nMaagizo:\n- 'draw' - Chora ibikarata kutoka hisa hadi taka\n- 'move <source> <destination> [count]' - Hama ibikarata kati ya mirongo\n  Mifano: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count inaweza kuwa 'all', ambayo itajaribu kuhama ibikarata vyote vilivyo wazi.\n- 'forfeit' - Maliza mchezo mara moja na uweke alama yako ya sasa\n- Majina ya mirongo: W (taka), F1-F4 (mirongo ya msingi), T1-T7 (mirongo ya meza)\n\nUnaweza kutekeleza vitendo vingi katika zamu moja kwa kuzitenganisha na virambo:\n  Mfano: 'draw, move W T1, move T2 F1'\n\nNi Mfalume pekee anaweza kuwekwa kwenye mirongo ya meza tupu.\nVitendo vinafanywa kwa mpangilio - ikiwa kimoja kimekosekana, vitendo vilivyosalia vitapuuzwa.\nTumia 'forfeit' ikiwa unaamini mchezo hauwezekani kushinda."
   },
   "format_error": {
     "no_brackets": "Uburyo bwo gukora budafise agaciro. Gukora bikwiye kuba mu nkingi (parentès).",
@@ -24,8 +24,8 @@
     "empty_command": "Igisata c'ubutumwa kitagira ico kivuga. Andika \"draw\" canke 'move <source><destination> [count]'.",
     "empty_action": "Igikorwa kitagira ico kivuze",
     "move_needs_args": "Igisata co kwimura gisaba isoko n'ahantu. Gukoresha: 'move <source> <destination> [count]'",
-    "count_positive": "Igitigiri gitegerezwa kuba ciza canke \"vyose\"",
-    "count_invalid": "Guharura kutagira akamaro. Koresha igitigiri canke 'vyose'",
+    "count_positive": "Idadi lazima iwe chanya au 'all'",
+    "count_invalid": "Idadi batili. Tumia nambari au 'all'",
     "unknown_command": "Komandi isiyojulikana '{cmd}'. Tumia 'draw', 'move <source> <destination> [count]', or 'forfeit'",
     "wrapped": "Action {n}: {msg}"
   },

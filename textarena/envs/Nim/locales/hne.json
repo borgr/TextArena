@@ -10,10 +10,10 @@
     "correct_format_wrong_fields": "प्लेयर {player_id}, अमान्य कार्यवाही. कॉलम {col} सीमा से बाहर ह.",
     "out_of_range": "पाइल इंडेक्स {pile_index} सीमा के बाहर हवय।",
     "non_positive": "कम ले कम 1 वस्तु ल हटाए बर होही।",
-    "exceeds_pile": "Cannot remove {quantity} from pile {pile_index} (only {pile_count} left)."
+    "exceeds_pile": "पाइल {pile_index} से {quantity} वस्तु निकालना संभव नहीं है (केवल {pile_count} बचा हुआ है)।"
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "प्लेयर {player_id} ने [{pile_index} {quantity}] खेला, पाइल {pile_index} से {quantity} वस्तु(ओं) निकाला।"
   },
   "outcome": {
     "win": "खिलाड़ी {player_id} हर आखिरी वस्तु ल लिया!"

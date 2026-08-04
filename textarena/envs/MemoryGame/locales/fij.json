@@ -13,8 +13,8 @@
     "already_matched": "Na misini e sega ni dodonu. na dauqito {player_id} digitaka dua se ruarua na kadi ka sa veisemati oti tu."
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "Na katini e digitaka tiko na Player {player_id} ena vanua [{r1} {c1}] kei [{r2} {c2}] e match tiko!",
+    "cards_no_match": "Na katini e digitaka tiko na Player {player_id} e sega ni match tiko. Katini ena vanua [{r1} {c1}] kei [{r2} {c2}] e {pos1} kei {pos2} kerekere."
   },
   "outcome": {
     "draw": "Erau tautauvata na iwiliwili ni tikiniqele rau vakayagataka ruarua.",

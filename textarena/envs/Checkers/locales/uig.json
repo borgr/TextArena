@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "ھېچقانداق دەلىللىك ھەركەت فېرماتى تېپىلمىدى. [a1b2] نى ئىشلىتىڭ، مەسىلەن [b2c3].",
-    "illegal": "Move [{move}] is illegal."
+    "illegal": "[{move}] ھەرىكىتى قانۇنسىز."
   },
   "game_action": {
     "moved": "Oyunchi {player_id} {move} يۆسۈپ كەتتى."

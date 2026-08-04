@@ -1,12 +1,12 @@
 {
   "player_prompt": {
-    "intro": "You are playing Slitherlink on a {R}x{C} grid!\nDraw a single continuous loop so each numbered cell has that many bordering edges.\nToggle edges with:\n  [h r c] - toggle horizontal edge above dots at row r, column c\n  [v r c] - toggle vertical edge left of dots at row r, column c\nNumbers show required edge count, '.' means no constraint.\nYou have up to {max_turns} moves to solve the puzzle."
+    "intro": "Ocikile kuxuta Slitherlink ku {R}x{C} reta!\nTenga ombango omozimba ozongoloka, kamba kila selula ina nambari ina omugongo ozongoloka.\nKamba omugongo na:\n  [h r c] - kamba omugongo wa mpwizi wapita kuna r, kuna c\n  [v r c] - kamba omugongo wa mpwizi wapita kushoto kuna r, kuna c\nNambari ina ongeleka ya omugongo, '.' ina maana kamba hakuna ongeleka.\nOcikile na {max_turns} ombango ku tatika ombwizo."
   },
   "board": {
-    "current_board": "{board}\nClues satisfied: {progress}"
+    "current_board": "{board}\nOmbwizo zinakidhiwa: {progress}"
   },
   "invalid_move": {
-    "wrong_format": "Bad action format. Use [h row col] or [v row col].",
+    "wrong_format": "Fómata ya kutenda nge ikuata. Isha [h row col] kana [v row col].",
     "out_of_bounds": "Ocimano cocimbaka ca kala konele yepĩli."
   },
   "outcome": {

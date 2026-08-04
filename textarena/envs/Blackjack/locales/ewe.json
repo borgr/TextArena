@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing Blackjack against the dealer.\nYour goal is to get as close to 21 as possible without going over.\nOn your turn, choose '[Hit]' to draw another card or '[Stand]' to hold.\nJ/Q/K = 10 points; A = 11 or 1, whichever is better.\n"
+    "intro": "Aʋa ʋu Blackjack le dealer ɖe.\nAʋa ɖɔɖɔ wu ɖe 21 hafi la aʋa ɖɔɖɔ wu ɖe.\nLe aʋa ɖɔɖɔ, tso '[Hit]' ɖe kple kaba ɖe aʋa ɖɔɖɔ kple '[Stand]' ɖe kple kaba ɖe aʋa ɖɔɖɔ.\nJ/Q/K = 10 akpe; A = 11 alo 1, si ɖe wu ɖe.\n"
   },
   "board": {
     "current_state": "Nkɔnkɔ {hand_number}/{num_hands}\nNkɔnkɔ la me: {player_hand} (Agɔnɔ: {score})\nDealer xɔ: {dealer_card}"
@@ -9,10 +9,10 @@
     "wrong_format": "Ɖeke me nyɔnu. Tsɔ '[Hit]' kple '[Stand]'."
   },
   "game_message": {
-    "hand_result": "Hand {hand_number}: you {outcome}. Your final {player_score}, Dealer {dealer_score}.",
-    "all_complete": "=== All {num_hands} hands complete ===\nWins: {wins}, Losses: {losses}, Draws: {draws}\n"
+    "hand_result": "Alɔ {hand_number}: aʋa {outcome}. Aʋa ɖɔɖɔ {player_score}, Dealer {dealer_score}.",
+    "all_complete": "=== Alɔ {num_hands} zaa ɖe ===\nƉɔɖɔ: {wins}, Ɖɔɖɔ si: {losses}, Xɔxɔ: {draws}\n"
   },
   "outcome": {
-    "game_over": "The game has concluded. Final scores: Dealer: {losses}, You: {wins}, Draws: {draws}"
+    "game_over": "Ɖɔɖɔ si ɖe. Akpe zaa: Dealer: {losses}, Aʋa: {wins}, Xɔxɔ: {draws}"
   }
 }

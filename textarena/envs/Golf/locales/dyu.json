@@ -21,17 +21,17 @@
     "{scores}": "The pre-rendered per-player list of final scores"
   },
   "player_prompt": {
-    "intro": "You are playing Golf (Card Game) - Player {player_id}.\nGoal: Get the lowest total score in this single round. If columns share the same value, they are summed as 0.\nCard Values: A=1, 2-10=face value, J/Q=10, K=0\n\nActions (use exact brackets):\n- '[draw]' - Draw from deck\n- '[take]' - Take from discard pile\n- '[swap X Y]' - Swap drawn card with position X (row) Y (column)\n- '[discard]' - Discard the drawn card\n"
+    "intro": "I ka kɛlɛ Golf (Kaadi Jɛɛ) - Jɛɛ {player_id}.\nKɔɔri: Kɛɛ sɔrɔ kɔɔri kɔɔri kɛɛ. Ni kolɔn tɛ kelen, u bɛ kɛɛ kɔɔri 0.\nKaadi Sɔrɔ: A=1, 2-10=sɔrɔ, J/Q=10, K=0\n\nKɛɛw (kɔɔri kɔɔri):\n- '[draw]' - Kɛɛ kaadi\n- '[take]' - Kɛɛ kaadi kɔɔri\n- '[swap X Y]' - Kɛɛ kaadi kɔɔri X (sɔrɔ) Y (kolɔn)\n- '[discard]' - Kɛɛ kaadi kɔɔri\n"
   },
   "board": {
-    "drew": "You drew: {card}\nNow you must [swap X Y] or [discard] it.",
-    "took": "You took: {card} from discard pile\nYou must [swap X Y] with it (cannot discard).",
+    "drew": "I kɛɛ: {card}\nKɔɔri, i ka [swap X Y] wala [discard] a.",
+    "took": "I kɛɛ: {card} kɔɔri kɔɔri\nI ka [swap X Y] a (tɛ kɛɛ kaadi kɔɔri).",
     "peeked": "I ka tɛmɛnɛ kɔnɔ ({row}, {col}): {card}",
     "turn_view": "N ka tɛ: \n{hand}\nJɛkulu: {discard}\n{options}",
     "none": "Foyi tɛ yen."
   },
   "options": {
-    "final_turns": "Final turns! Your options: [draw], [take], [peek X Y]",
+    "final_turns": "Kɔɔri kɔɔri! I kɛɛw: [draw], [take], [peek X Y]",
     "draw": "N ka tɛ: [draw], [take]",
     "must_swap": "I ka kan: [swap X Y] (i tɛ se ka karitiw bɔ i yɛrɛ la)",
     "swap_or_discard": "Nka fɛ: [swap X Y] wa [discard]"
@@ -42,26 +42,26 @@
     "row": "Dɔn {n}: {cards}"
   },
   "action_desc": {
-    "swapped": "Player {pid} swapped {new} with {old} at position ({row},{col})",
-    "discarded": "Player {pid} discarded {card}"
+    "swapped": "Jɛɛ {pid} kɛɛ {new} kɔɔri {old} kɔɔri sɔrɔ ({row},{col})",
+    "discarded": "Jɛɛ {pid} kɛɛ kaadi {card}"
   },
   "message": {
     "deck_empty": "Ɲiningali laban be se sisan!",
     "knocked": "Ɲininkɛla {pid} ka ɲε! Jigininkɛ tɔ kelen bɛɛ ye jɔsi dɔ wɛrɛ ta.",
-    "final_round": "Player {pid} {reason}! Each other player gets one more turn."
+    "final_round": "Jɛɛ {pid} {reason}! Jɛɛ kelen bɛ kɛɛ kɔɔri kɔɔri."
   },
   "reason": {
     "all_revealed": "yala a ye karitiw bɛɛ yira wa?"
   },
   "invalid": {
-    "wrong_action": "Use exactly ONE bracketed action: [draw], [take], [swap X Y], [discard], [knock], or [peek X Y]",
+    "wrong_action": "Kɔɔri kɔɔri kɔɔri! Kɔɔri kɔɔri: [draw], [take], [swap X Y], [discard], [knock], wala [peek X Y]",
     "discard_empty": "Fɛɛn minw tɛ foyi ɲɛ, olu bɛɛ lakolon lo!",
-    "must_draw_first": "You must first [draw], [take], [knock], or [peek X Y]",
-    "cannot_discard_taken": "You cannot discard a card taken from the discard pile. You must swap it.",
-    "have_drawn_card": "You have a drawn card. You must [swap X Y] or [discard] it.",
+    "must_draw_first": "I ka kɛɛ kaadi kɔɔri. I ka [draw], [take], [knock], wala [peek X Y]",
+    "cannot_discard_taken": "I tɛ kɛɛ kaadi kɔɔri kɔɔri. I ka kɛɛ a.",
+    "have_drawn_card": "I kɛɛ kaadi. I ka [swap X Y] wala [discard] a.",
     "need_drawn_swap": "I mako be sɛbɛri la walisa k'a yira ko i ye jurumukɛla ye.",
     "need_drawn_discard": "I mako be fɛɛn dɔ la walisa ka se k'o fili.",
-    "out_of_bounds": "Position out of bounds. Use row 1-{max_row}, column 1-{max_col}",
+    "out_of_bounds": "Sɔrɔ tɛ kɛɛ. Kɔɔri sɔrɔ 1-{max_row}, kolɔn 1-{max_col}",
     "knock_with_card": "I tɛ se ka dɔ bɔ i bolo n'i ma juru don.",
     "already_knocked": "Mɔgɔ dɔ ye ɲinan ta ban.",
     "already_revealed": "A yirala ka gwɛ ko an ye Ala sagokɛla kantigimanw lo ye."

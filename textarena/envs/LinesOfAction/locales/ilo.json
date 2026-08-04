@@ -10,7 +10,7 @@
     "{to}": "The destination coordinate of a move, such as b3"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in game of LinesOfAction.\nYour pieces are '{side}', opponent pieces are '{other}'.\nMove format: `[b1b3]` (from-coord to-coord). A legal move travels horizontally, vertically, or diagonally a number of squares equal to the total pieces (any colour) in that line. You may jump over your own pieces, but not opponent pieces; landing on an opponent captures it.  Win when all your pieces are 8-neighbour connected."
+    "intro": "Sika ti Player {player_id} iti ay-ayam ti LinesOfAction.\nDagiti pirasom ket '{side}', dagiti piraso ti kalaban ket '{other}'.\nFormat ti move: `[b1b3]` (manipud-coordinate agingga-coordinate). Maysa a legal a move agbaniaga horizontal, vertical, wenno diagonal ti maysa a bilang ti squares a kapada ti dagup a piraso (anumanna a kolor) iti dayta a linia. Mabalin a tumalon iti bukod a pirasom, ngem saan a piraso ti kalaban; aglading iti kalaban ket makapkapanna.  Mangabak no amin a pirasom ket 8-kapitna a konektado."
   },
   "board": {
     "current_board": "Board: {board}"
@@ -25,7 +25,7 @@
     "destination_own": "Destinasion a sakupen ti bukodmo nga armas."
   },
   "game_action": {
-    "moved": "Player {player_id} imoves {from} -> {to}",
+    "moved": "Player {player_id} inyalis {from} -> {to}",
     "captured_suffix": "Player {player_id} imoves {from} -> {to} nga agkakaptar iti maysa a kaaway."
   },
   "outcome": {

@@ -9,10 +9,10 @@
     "wrong_format": "Kɛn ë jam. Ŋɛn '[Hit]' kɛn '[Stand]'."
   },
   "game_message": {
-    "hand_result": "Hand {hand_number}: you {outcome}. Your final {player_score}, Dealer {dealer_score}.",
+    "hand_result": "Kɛɛc {hand_number}: yin {outcome}. Yin ciɛɛ̈ɛ̈t {player_score}, Dealer {dealer_score}.",
     "all_complete": "=== Ciɛl {num_hands} riɛl complete ===\nWiɛl: {wins}, Luɛl: {losses}, Cuɛl: {draws}\n"
   },
   "outcome": {
-    "game_over": "The game has concluded. Final scores: Dealer: {losses}, You: {wins}, Draws: {draws}"
+    "game_over": "Kɛɛc ee ciɛɛ̈ɛ̈t. Ciɛɛ̈ɛ̈t äɛ̈ɛ̈t: Dealer: {losses}, Yin: {wins}, Yin kuɔɔr: {draws}"
   }
 }

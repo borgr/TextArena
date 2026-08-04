@@ -9,10 +9,10 @@
     "{pct}": "Progress as a percentage string, e.g. 50%"
   },
   "player_prompt": {
-    "intro": "Map each letter to a unique digit so the arithmetic holds.\nAssign with `[A 5]`, re-assign anytime.\n"
+    "intro": "እያንዳንዱን ፊደል ለተለየ ቁጥር ያዋሃድ. ከ `[A 5]` ጋር ያዋሃድ, ማንኛውም ጊዜ እንደገና ያዋሃድ.\n"
   },
   "invalid_move": {
-    "wrong_format": "Bad action format. Use `[A 5]`.",
+    "wrong_format": "የተሳሳተ እርምጃ ቅርጽ. `[A 5]` ይጠቀሙ.",
     "letter_not_in_puzzle": "ፊደል {letter} በመሳሪያ ውስጥ የለም ።",
     "digit_used": "ቁጥር {digit} በ {used_letter} አስተማረ።",
     "leading_zero": "የአንድ ቃል ቀዳሚ አሃዝ 0 ሊሆን አይችልም።"

@@ -14,7 +14,7 @@
     "intro": "E te Tagata Ta'aloga {player_id} i Tic Tac Toe a tolu Tagata Ta'aloga.\nO lau faailoga o '{symbol}'.\nE te faia aai lau faailoga i luga o se papa 5x5 e fai ma se laina o fa.\nLaina e mafai ona i luga, i lalo, po o le pito i luga.\nFaaulu lau mouve i le faiga '[4]' e faailoga ai le selo 4."
   },
   "board": {
-    "current_board": "Current Board:\n\n{board}\n\nAvailable Moves: {moves}"
+    "current_board": "Laupapa o le taimi nei:\n\n{board}\n\nGaioiga Fa'atagaina: {moves}"
   },
   "invalid_move": {
     "wrong_format": "Faʻasologa o le siitia e le aoga. Faaaoga \"[cell]\" pe afai o le sela 0-{max_cell} .",

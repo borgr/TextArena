@@ -24,8 +24,8 @@
     "intro": "तुम गोल्फ (कार्ड गेम) खेलत बा - प्लेयर {player_id}.\nलक्ष्य: एकल राउंड में सबसे कम टोटल स्कोर प्राप्त करे। अगर कॉलम एक ही वैल्यू साझा करेला, तो उहे 0 के रूप में जोड़ल जाला।\nकार्ड वैल्यू: ए=1, 2-10=फेस वैल्यू, जे/क्यू=10, के=0\n\nएक्शन (एकदम ब्रैकेट्स के उपयोग करे):\n- '[draw]' - डेक से ड्रा करे\n- '[take]' - डिस्कार्ड पाइल से ले\n- '[swap X Y]' - ड्रा कइले कार्ड के पोजीशन एक्स (रो) वाई (कॉलम) के साथ स्वैप करे\n- '[discard]' - ड्रा कइले कार्ड के डिस्कार्ड करे\n"
   },
   "board": {
-    "drew": "You drew: {card}\nNow you must [swap X Y] or [discard] it.",
-    "took": "You took: {card} from discard pile\nYou must [swap X Y] with it (cannot discard).",
+    "drew": "आपने ड्रॉ किया: {card}\nअब आपको [swap X Y] या [discard] करना होगा।",
+    "took": "आपने लिया: {card} डिस्कार्ड पाइल से\nआपको इसके साथ [swap X Y] करना होगा (त्याग नहीं कर सकते)।",
     "peeked": "तुम पोजीशन ({row},{col}) पे झाँक लेले बा: {card}",
     "turn_view": "तुम्हार हाथ:\n{hand}\nडिस्कार्ड पाइल: {discard}\n{options}",
     "none": "कौनो नाहीं"
@@ -43,7 +43,7 @@
   },
   "action_desc": {
     "swapped": "प्लेयर {pid} {new} के {old} के साथ पोजीशन ({row},{col}) पे स्वैप कइले",
-    "discarded": "Player {pid} discarded {card}"
+    "discarded": "खिलाड़ी {pid} ने {card} त्याग दिया"
   },
   "message": {
     "deck_empty": "डेक खाली बा! खेल तुरंत समाप्त होला.",
@@ -60,7 +60,7 @@
     "cannot_discard_taken": "आप के बर्दाश्त ना कइल गइल कार्ड से हटावे नइखे पड़त. आपके एकरा बदल देबे के चाहीं.",
     "have_drawn_card": "तुम्हार पास ड्रा कइले कार्ड बा। तुम [swap X Y] या [discard] करे के चाहिए.",
     "need_drawn_swap": "तहरा बदले खातिर एगो कार्ड के जरूरत बा.",
-    "need_drawn_discard": "You need a drawn card to discard.",
+    "need_drawn_discard": "आपको एक ड्रॉ किए गए कार्ड को त्यागने की आवश्यकता है।",
     "out_of_bounds": "पोजीशन बाउंड्स से बाहर बा। रो 1-{max_row}, कॉलम 1-{max_col} के उपयोग करे",
     "knock_with_card": "आप आपन पट्टे के साथ दस्तक नहीं दे सकते. पहिले अपनी बारी पूरा करें.",
     "already_knocked": "केहू पहिलहीं से एह दौर के जीत चुकल बा.",

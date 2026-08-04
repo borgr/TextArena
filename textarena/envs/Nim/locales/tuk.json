@@ -13,7 +13,7 @@
     "exceeds_pile": "Pile {pile_index}-den {quantity} aýyrmak bolmaýar (diňe {pile_count} galýar)."
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "Oýunçy {player_id} [{pile_index} {quantity}] oýnady, {quantity} zat(lar) {pile_index} böleginden aýyrdy."
   },
   "outcome": {
     "win": "Oýunçy {player_id} soňky zady aldy (((s)!"

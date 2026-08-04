@@ -21,17 +21,17 @@
     "{scores}": "The pre-rendered per-player list of final scores"
   },
   "player_prompt": {
-    "intro": "You are playing Golf (Card Game) - Player {player_id}.\nGoal: Get the lowest total score in this single round. If columns share the same value, they are summed as 0.\nCard Values: A=1, 2-10=face value, J/Q=10, K=0\n\nActions (use exact brackets):\n- '[draw]' - Draw from deck\n- '[take]' - Take from discard pile\n- '[swap X Y]' - Swap drawn card with position X (row) Y (column)\n- '[discard]' - Discard the drawn card\n"
+    "intro": "Tqelleḍ Golf (Krida n Takarḍa) - Umenfaṛ {player_id}.\nAɣilif: Ṛuḥ aṭṭan n ujumla n yimḍanen deg uḍḍun-agi. Ma yella yimsen ṣḍifen aṭṭan amezwaru, ad ttusḍifen d 0.\nIɣmisen n takarḍa: A=1, 2-10=ujumla, J/Q=10, K=0\n\nTɣawsa (seqdec kan i yilalen n tɣawsa):\n- '[draw]' - Ṣṣifet seg uḍḍun\n- '[take]' - Ṣṣifet seg uḍḍun n usenfaṛ\n- '[swap X Y]' - Ṣṣifet takarḍa i ṣṣifet deg ussigen X (ussigen) Y (amezruy)\n- '[discard]' - Ṣṣifet takarḍa i ṣṣifet"
   },
   "board": {
     "drew": "Tefkem: {card}\nTura d ṭṭafem [swap X Y] neɣ [discard]",
     "took": "Tefkem: {card} si tɣessa n tnekzemt\nTura d ṭṭafem [swap X Y] (ur tzemmer tnekzem)",
     "peeked": "Tefkem ẓṛet deg ṭaqṣit ({row},{col}): {card}",
-    "turn_view": "Your hand:\n{hand}\nDiscard pile: {discard}\n{options}",
+    "turn_view": "Aḍḍun-ik:\n{hand}\nUḍḍun n usenfaṛ: {discard}\n{options}",
     "none": "Ulac."
   },
   "options": {
-    "final_turns": "Final turns! Your options: [draw], [take], [peek X Y]",
+    "final_turns": "Uḍḍunen n uqerru! Isebtar-ik: [draw], [take], [peek X Y]",
     "draw": "Iṭṭaf-ik: [draw], [take]",
     "must_swap": "Ilaq ad: [swap X Y] (ur tezmir ara tkerḍiwin seg uḥric n yigerdan)",
     "swap_or_discard": "Tura d ṭṭafem: [swap X Y] neɣ [discard]"
@@ -51,7 +51,7 @@
     "final_round": "Player {pid} {reason}! Maḍi kan yiman-nsen iḍerru yiwet n ṭṭaf"
   },
   "reason": {
-    "all_revealed": "has all cards revealed"
+    "all_revealed": "yesɛa takarḍa meṛṛa"
   },
   "invalid": {
     "wrong_action": "Sken yiwen uṭṭun n ṭṭaf: [draw], [take], [swap X Y], [discard], [knock], neɣ [peek X Y]",
@@ -67,7 +67,7 @@
     "already_revealed": "Tacarḍa-nni teffeɣ yakan!"
   },
   "summary": {
-    "full": "Game Over! Player {winner} wins with a score of {score} points!\n\nFinal Scores:\n{scores}",
+    "full": "Uḍḍun ad yeqqim! Umenfaṛ {winner} i rebḥa yid uṭṭan n {score} n yimḍanen!\n\nUṭṭunen n ujumla:\n{scores}",
     "line": "Player {pid}: {score} n point\n"
   },
   "board_str": {

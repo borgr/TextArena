@@ -6,8 +6,8 @@
     "wrong_format": "Dɔwɔta ɖɛ ɖi; miɖɛ na '[heads]' kple '[tails]'."
   },
   "message": {
-    "round_match": "Player 0 xɔ {choice0}; Player 1 xɔ {choice1}. Match -> Player 0 wɔ.",
-    "round_mismatch": "Player 0 picked {choice0}; Player 1 picked {choice1}. Mismatch -> Player 1 wins."
+    "round_match": "Azɔnwla 0 xɔ {choice0}; Azɔnwla 1 xɔ {choice1}. Xɔ wɛɖɛɛ -> Azɔnwla 0 wɛɖɛɛ",
+    "round_mismatch": "Azɔnwla 0 xɔ {choice0}; Azɔnwla 1 xɔ {choice1}. Xɔ ma wɛɖɛɛ -> Azɔnwla 1 wɛɖɛɛ."
   },
   "outcome": {
     "p0_wins": "Azɔwatɔ 0 ɖu akɔ́n gègě.",

@@ -1,9 +1,9 @@
 {
   "player_prompt": {
-    "intro": "Welcome to Frozen Lake!\n\nYou are represented by 'P' on the grid.\nGrid symbols:\n  ' ' = Frozen surface (safe to walk on)\n  'H' = Hole (fall in and lose!)\n  'G' = Goal (reach this to win!)\n  'P' = Your current position\n\nAvailable actions: up, down, left, right (or w, a, s, d)\nType your action as: [up], [down], [left], [right] or [w], [a], [s], [d]\n\nObjective: Navigate from the start (top-left) to the goal (bottom-right) without falling into any holes!\n"
+    "intro": "Mbï tî Frozen Lake!\n\nMo kë 'P' na gbätä.\nGbätä tî:\n  ' ' = Ngâ tî kûku (gbâ tî mo zî)\n  'H' = Döngö (gbâ tî mo bâ wälä)\n  'G' = Pöpö (gbâ tî mo yökô)\n  'P' = Sängö tî mo\n\nGbë-kötä zo: gbâ tî kûku, gbâ tî sï, gbâ tî ndö, gbâ tî ngbâ (tî w, a, s, d)\nGbë-kötä tî mo: [up], [down], [left], [right] tî [w], [a], [s], [d]\n\nGbë-yângâ: Gbâ tî mo tî kûku tî sängbä (gbâ tî kûku) tî pöpö (gbâ tî sï) tî mô bâ döngö!"
   },
   "board": {
-    "current_board": "Current Board:\n\n{board}\n\nAvailable Actions: {actions}"
+    "current_board": "Gride tî sô:\n\n{board}\n\nKëbëtë tî mo: {actions}"
   },
   "invalid_move": {
     "wrong_format": "Lɛkɛ mbɛngɛ pɛ̈̈nɛ. Sɛ̈̈bɛ̈̈ na [up], [down], [left], [right] pe [w], [a], [s], [d].",

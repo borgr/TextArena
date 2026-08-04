@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You will observe {N} hidden values sequentially.\nAt each step type [accept] to pick the *current* value, or [continue] to skip it and see the next one.\nIf you never accept, you are forced to take the final value.\nYou win (reward = 1) **only** if the value you ultimately pick is the highest of all."
+    "intro": "ንስኹም ተኸታታሊ {N} ዝተዓዘሩ ዋጋታት ክትረኣዩ ኢኹም።\nኣብ ክሊ ገይር ወቕቲ [accept] ክትጽበዩ ንድሕሪ ዋጋ ኣብዚ እዋን ይኹን፣ ወይ [continue] ክትቀልጹዎ ንድሕሪ ክሳብ ንዝሓለፈ ዋጋ ክትረኣዩ።\nኣብ ክሊ ገይር ወቕቲ ኣይተጽበዩ እንተሎ፣ ንድሕሪ ዋጋ ክትወስዱ ኢኹም።\nንድሕሪ ዋጋ ኣብዚ እዋን ይኹን ክትወስዱ ኢኹም እንተሎ፣ ንዝሓለፈ ዋጋታት ክትዕወቱ ኢኹም (ሽልማት = 1)።"
   },
   "game_action": {
     "current_value": "እቲ እዋናዊ ዋጋ {value} እዩ።"

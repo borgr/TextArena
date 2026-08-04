@@ -11,21 +11,21 @@
     "{ball_pos}": "The cup index the ball is under"
   },
   "player_prompt": {
-    "intro": "Track the hidden ball 'X' while the cups are shuffled.\nAfter shuffling, guess its location with `[k]`."
+    "intro": "प्यालों के फेरबदल के दौरान छुपी हुई गेंद 'X' का अनुसरण करें।\nफेरबदल के बाद, इसके स्थान का अनुमान `[k]` से लगाएं।"
   },
   "game_message": {
     "ball_starts": "गोलं प्रारभ्यते: {line}",
-    "shuffle": "Shuffle {step}/{steps}: swapped cups {i} and {j}.",
+    "shuffle": "फेरबदल {step}/{steps}: प्याले {i} और {j} अदला-बदली किए गए।",
     "cups": "प्याला: {line}  {prompt}",
     "guess_now": "(अधुना अनुमानं कुरुत!",
     "reveal": "(अभिनिवेशः {ball_pos} इत्यस्य अधो बलं)"
   },
   "invalid_move": {
-    "wrong_format": "Bad action. Use `[k]`.",
+    "wrong_format": "खराब कार्रवाई। `[k]` का उपयोग करें।",
     "out_of_range": "सूचकः ०-{max_index} इत्यनेन भिन्नः।"
   },
   "outcome": {
     "win": "उचितम्! भवता गुडः प्राप् तः।",
-    "lose": "मिथ्या — गेंद प्याले {ball_pos} के नीचे थी।"
+    "lose": "गलत — गेंद {ball_pos} प्याले के नीचे थी।"
   }
 }

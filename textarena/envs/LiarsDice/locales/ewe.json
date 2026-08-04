@@ -22,18 +22,18 @@
     "final_ranking": "list of player indices from first eliminated to winner"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in an {num_players}-player Liar's Dice game.\nRules:\n- On your turn, you may either:\n  1) Make a new bid with a higher quantity or higher face (or both) than the current bid; i.e. '[Bid: 3, 4]',\n  2) Call the last bid by typing '[Call]'.\n\nIf you call:\n  - If the actual count of that face value among all dice is less than the bid, the last bidder loses one die.\n  - Otherwise, the caller loses one die.\nA player who reaches 0 dice is eliminated. The last remaining player wins."
+    "intro": "Nyewe {player_id} le asɔɖe Liar's Dice si wɔ {num_players} me.\n\nDzɔdzɔwo:\n- Le wo ŋkeke me, awoe nye be:\n  1) Dɔ bid yeye si sɔgbɔ ɖe dzɔdzɔ sia, alo dzɔdzɔ si sɔgbɔ ɖe dzɔdzɔ sia (alo hɔe wɔawo), abe '[Bid: 3, 4]',\n  2) Yɔ bid si detɔ gbɔ '[Call]'.\n\nEyi wɔ yɔ bid la:\n  - Eyi dzɔdzɔ sia wɔ mɔ si wɔ dɔ la ɖe dzɔdzɔ sia, dzɔdzɔ sia si dɔ la gblɔe la kɔe.\n  - Ela, yɔɖɔƒe la kɔe.\nAme si wɔ kɔe 0 wɔawo la, woa dzo. Ame si wɔ megbe la, woa ɖo."
   },
   "board": {
     "per_player": "\tDɔdzikpɔla {p}: {d}",
     "new_round": "\nNuxɔxɔ si round - Dɔ si dice he: {dice_summary}\nDɔ si dice si he na wɔ: {your_dice}"
   },
   "call": {
-    "bidder_loses": "Player {current_player_id} calls! The actual count of face {face_value} is {count}, which is LESS than {quantity}.\nPlayer {loser_id} (the last bidder) loses one die.",
+    "bidder_loses": "Nyewe {current_player_id} yɔ bid! Dzɔdzɔ sia wɔ mɔ si {face_value} nye {count}, si nye kɛ {quantity}.\nNyewe {loser_id} (dzɔdzɔ sia si dɔ la) gblɔe la kɔe.",
     "caller_loses": "Dɔdzikpɔla {current_player_id} ɖe call! Nuxɔxɔ kɔkɔ si face {face_value} wɔ na ɖi {count}, si wɔ >= {quantity}.\nDɔdzikpɔla {loser_id} (he si ɖe call na ɖo) yi na dɔ si die."
   },
   "action": {
-    "bid_announce": "Player {player_id} bids {quantity} of face {face_value}."
+    "bid_announce": "Player {player_id} dɔ bid {quantity} kple face {face_value}."
   },
   "invalid_move": {
     "call_no_bid": "Womeƒle nu le esi womele asi kpem ɖe eŋu do ŋgɔ o ta.",
@@ -42,7 +42,7 @@
   },
   "bid_reason": {
     "quantity_lower": "Ne agbɔsɔsɔ yeye {new_quantity} la le sue wu esi li fifia si nye {current_quantity}.",
-    "face_lower": "New face value {new_face_value} is lower than current {current_face_value}.",
+    "face_lower": "Face value yeye {new_face_value} nye lower kple current {current_face_value}.",
     "identical": "Nu si wotsɔna ƒlea nui la sɔ kple esi wozãna fifia.",
     "face_range": "Ele be eƒe xexlẽdzesi nanɔ 1 kple 6 dome."
   },

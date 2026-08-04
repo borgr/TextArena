@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "Jesteś Graczu {player_id} w Grze Negocjacyje.\nMająś jakieś surowce, a twoim zadaniem je handlować tak, coby łątna wartość twojich surowców wzrosła.\nSurowce i przypisane wartości, które teraz mająś, to:\n\t+ {resource_value_list}\nPrzy każdej turze, możesz pogwodzić śe ze swojim przeciwnikem i złożyć propozycję handlu.\nUżywaj następujących specjalnych tokenów do działań:\n  - '[Oferta: 3 Owce, 2 Rudy -> 5 Cegły, 2 Owce]': [Oferta: Zaoferowane Surowce -> Żądane Surowce]\n  - '[Accept]': Coby przyjąć nadchodzącą ofertę.\n  - '[Deny]': Coby odrzucić nadchodzącą ofertę (domyślnie).\nGra trwa {max_turns} tury w sumie."
+    "intro": "Jesteś Graczu {player_id} w Grze Negocjacyje.\nMająś jakieś surowce, a twoim zadaniem je handlować tak, coby łątna wartość twojich surowców wzrosła.\nSurowce i przypisane wartości, które teraz mająś, to:\n\t+ {resource_value_list}\nPrzy każdej turze, możesz pogwodzić śe ze swojim przeciwnikem i złożyć propozycję handlu.\nUżywaj następujących specjalnych tokenów do działań:\n  - '[Offer: 3 Sheep, 2 Ore -> 5 Brick, 2 Sheep]': [Offer: Offered Resources -> Requested Resources]\n  - '[Accept]': Coby przyjąć nadchodzącą ofertę.\n  - '[Deny]': Coby odrzucić nadchodzącą ofertę (domyślnie).\nGra trwa {max_turns} tury w sumie."
   },
   "invalid_move": {
     "receiving_with_no_resource": "Gracz prōbowoł zaakceptować wymiana bez posiadanie potrzebnych zasobōw.",

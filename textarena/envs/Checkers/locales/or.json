@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "କୌଣସି ବୈଧ ଚାଲିବା ଶୈଳୀ ମିଳିଲା ନାହିଁ. [a1b2] ବ୍ୟବହାର କରନ୍ତୁ, ଉଦାହରଣ ସ୍ୱରୂପ [b2c3] ।",
-    "illegal": "Move [{move}] is illegal."
+    "illegal": "ଚାଳ [{move}] ବୈଧ ନୁହେଁ।"
   },
   "game_action": {
     "moved": "ଖେଳାଳି {player_id} {move} କୁ ଘୁଞ୍ଚାଇଲା ।"

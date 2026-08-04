@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing the Minesweeper game.\nThe objective of the game is to reveal all cells that do not contain mines.\nTo make a move, simply specify the row and column coordinates you want to reveal using the format:\n- `[row col]`: Reveal the cell at the specified row and column.\nFor example:\n- `[3 2]` to reveal the cell in Row 3, Column 2.\n- `[5 6]` to reveal the cell in Row 5, Column 6.\nOn your first move, you will reveal an area around the cell you choose to ensure a safe start.\nThe current board layout is shown below. Cells that are unrevealed are represented by a dot ('.'), revealed numbers show the count of adjacent mines.\nBe mindful not to choose already revealed cells.\nHere is the current board layout:\n"
+    "intro": "Wo reko Minesweeper agoro no.\nAgoro no botae ne sɛ wo bɛ kyerɛ cells nyinaa a na mino nni mu.\nSɛ wo pɛ sɛ wo yɛ kwan, kyerɛ row ne column nkyekyɛmu a wo pɛ sɛ wo kyerɛ no ase, fa mfoni:\n- `[row col]`: Kye cell a ɛwɔ row ne column a wo kyerɛe no.\nSɛ nhwɛso:\n- `[3 2]` kye cell a ɛwɔ Row 3, Column 2.\n- `[5 6]` kye cell a ɛwɔ Row 5, Column 6.\nWo kwan a edi kan no, wo bɛ kyerɛ asaase a atwa cell a wo ayɛ no ho ahyia sɛnea ɛbɛ yɛ daakye awo.\nMprempren board layout a ɛwɔ ha yi:\n"
   },
   "board": {
     "game_board": "Agodi Akwankyerɛ: {board}",

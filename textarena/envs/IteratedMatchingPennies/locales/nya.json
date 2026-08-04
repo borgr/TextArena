@@ -6,7 +6,7 @@
     "wrong_format": "Fomu lisalowe; tuma '[heads]' kapena '[tails]'."
   },
   "message": {
-    "round_match": "Player 0 picked {choice0}; Player 1 picked {choice1}. Match -> Player 0 wins",
+    "round_match": "Mchezaji 0 anasankha {choice0}; Mchezaji 1 anasankha {choice1}. Mpira -> Mchezaji 0 apambana",
     "round_mismatch": "Mchezaji 0 anachagua {choice0}; Mchezaji 1 anachagua {choice1}. Mismatch -> Mchezaji 1 anashinda."
   },
   "outcome": {

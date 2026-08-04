@@ -1,13 +1,13 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in Connect Four.\nYour disc symbol: {symbol}.\nThe game board has {num_rows} rows and {num_cols} columns.\nPlayers take turns dropping their disc into one of the columns (0 to {end_col}).\nThe first to connect (their own) four discs vertically, horizontally, or diagonally wins.\nOn your turn, enter the column number in squared brackets to make your move.\nFor example: '[col 4]' or '[col 1]'."
+    "intro": "Jumaxa Player {player_id} uka Connect Four ukaxa.\nQ'ara t'iwana: {symbol}.\nK'ala p'iqi {num_rows} sarnaqawinaka {num_cols} wakich'asawinaka apnaqawina.\nJumaxanakaxa wakich'asawinaka ukanxa (0 kama {end_col}) q'araxa irnaqasipxi.\nNayra t'aqa t'aqanakaxa (jupanakaxa) pusi q'araxa chiqpachaxa, p'iqpachaxa, ukatxa q'ar q'arawinakaxa jikxatasinxa.\nJumaxa t'aqanxa, wakich'asawinxa numeronxa q'iwq'awinxa irnaqasipxi.\nKunjamasa: '[col 4]' ukatxa '[col 1]'."
   },
   "board": {
-    "board_visible_state": "Estado de la Junta: {board_visual}",
+    "board_visible_state": "K'ala p'iqi kamach'i:\n{board_visual}",
     "board_notvisible_state": "Jisk'a anatirinakax janiw anatañ tarjeta uñxapkiti."
   },
   "invalid_move": {
-    "wrong_format": "Player {player_id}, Invalid action format. Expected format: '[col x]'.",
+    "wrong_format": "Jumaxa {player_id}, Janiw irnaqasirixiti. Imdxirinxa format: '[col x]'.",
     "out_of_range": "Jichha {player_id}, Aktion invalida. Columna {col} manq'asixa.",
     "already_full": "Jichha {player_id}, Aktion invalida. Columna {col} janiw uñtasixa."
   },

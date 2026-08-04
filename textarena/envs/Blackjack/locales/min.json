@@ -9,8 +9,8 @@
     "wrong_format": "Tindakan salah. Gunakan '[Hit]' atau '[Stand]'."
   },
   "game_message": {
-    "hand_result": "Hand {hand_number}: you {outcome}. Your final {player_score}, Dealer {dealer_score}.",
-    "all_complete": "=== All {num_hands} hands complete ===\nWins: {wins}, Losses: {losses}, Draws: {draws}\n"
+    "hand_result": "Tangan {hand_number}: Anda {outcome}. Skor akhir Anda {player_score}, Dealer {dealer_score}.",
+    "all_complete": "=== Sadonyo {num_hands} tangan salasai ===\nKamanangan: {wins}, Kakalahan: {losses}, Sori: {draws}\n"
   },
   "outcome": {
     "game_over": "Pamainan alah salasai. Skor akhia: Dealer: {losses}, Awak: {wins}, Seri: {draws}"

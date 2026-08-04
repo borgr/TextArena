@@ -10,7 +10,7 @@
     "out_of_bounds": "Qatorning tashqarisidagi qirq."
   },
   "outcome": {
-    "win": "🎉 You formed a single loop! Puzzle solved!",
+    "win": "🎉 Siz bitta halqa hosil qildingiz! Pazl hal qilindi!",
     "turn_limit": "Harakatlar chegarasi yetildi."
   }
 }

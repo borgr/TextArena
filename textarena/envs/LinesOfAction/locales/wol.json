@@ -10,7 +10,7 @@
     "{to}": "The destination coordinate of a move, such as b3"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in game of LinesOfAction.\nYour pieces are '{side}', opponent pieces are '{other}'.\nMove format: `[b1b3]` (from-coord to-coord). A legal move travels horizontally, vertically, or diagonally a number of squares equal to the total pieces (any colour) in that line. You may jump over your own pieces, but not opponent pieces; landing on an opponent captures it.  Win when all your pieces are 8-neighbour connected."
+    "intro": "Yaa ngone Player {player_id} ci geemu LinesOfAction.\nYaa ay pièces '{side}', ay piècesu adversary '{other}'.\nFormatu déplacement : `[b1b3]` (coord-from coord-to). Déplacement légal doomu ci kanamu horizontal, vertical, mbaa diagonal doomu ay carrés yépp, doomu ay pièces (yépp couleur) ci ligne. Mën nga tappi ci ay piècesu ngone, waaye mënul tappi ci ay piècesu adversary ; dalal doomu ci ay piècesu adversary, mën nga ko capture.  Nga gagné su ay piècesu ngone yépp 8-voisin connecté."
   },
   "board": {
     "current_board": "Jëfandikukat: {board}"

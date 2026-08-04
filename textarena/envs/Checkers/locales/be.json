@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "Не знойдзены дапушчальны фармат ходу. Выкарыстайце [a1b2], напр. [b2c3].",
-    "illegal": "Move [{move}] is illegal."
+    "illegal": "Ход [{move}] незаконны."
   },
   "game_action": {
     "moved": "Гулец {player_id} перамясціўся {move}."

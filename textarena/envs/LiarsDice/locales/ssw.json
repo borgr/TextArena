@@ -29,16 +29,16 @@
     "new_round": "\nMzulo wetshele - Ti-dice tingalawuli: {dice_summary}\nTi-dice sakho sikhona: {your_dice}"
   },
   "call": {
-    "bidder_loses": "Player {current_player_id} calls! The actual count of face {face_value} is {count}, which is LESS than {quantity}.\nPlayer {loser_id} (the last bidder) loses one die.",
+    "bidder_loses": "Mpela {current_player_id} ubiza! Kubalwa kwe-dice kwe-minwe {face_value} kungu {count}, okungaphansi kwe {quantity}.\nMpela {loser_id} (mpela owayenza bid yekugcina) ulahlekelwa yedice.",
     "caller_loses": "Player {current_player_id} ikhuluma! Inomboro yalombowo ye-face {face_value} ni {count}, leyo ingaphezulu kwaleyo {quantity}.\nPlayer {loser_id} (umkhubi) uphume induku."
   },
   "action": {
-    "bid_announce": "Player {player_id} bids {quantity} of face {face_value}."
+    "bid_announce": "Mpela {player_id} enza bid {quantity} yeminwe {face_value}."
   },
   "invalid_move": {
     "call_no_bid": "Kukhokhwa ngaphandle kwekwetfula sicelo.",
     "invalid_bid": "Umnikelo longasebenti: {reason}",
-    "not_recognized": "Action not recognized as either a valid '[Bid: X, Y]' or '[Call]'. Submitted action: {action}"
+    "not_recognized": "Imisho yebhodi yenzo ingakhululeki njenge '[Bid: X, Y]' noma '[Call]'. Imisho yebhodi yenzo: {action}"
   },
   "bid_reason": {
     "quantity_lower": "Linani lelisha {new_quantity} lincane kunaleli lelisebentako {current_quantity}.",

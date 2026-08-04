@@ -16,16 +16,16 @@
     "{cards}": "The cards in a pile as neutral labels, or '--' if empty (never translate)"
   },
   "player_prompt": {
-    "intro": "You are playing Klondike Solitaire. Your goal is to move all cards to the foundation piles.\n\nGame Rules:\n- Foundation piles (F1-F4): Build up from Ace to King in suit\n- Tableau piles (T1-T7): Build down alternating colors (red on black, black on red)\n- Stock: Draw cards to waste pile\n- Waste (W): Top card available for play\n\nCommands:\n- 'draw' - Draw cards from stock to waste\n- 'move <source> <destination> [count]' - Move cards between piles\n  Examples: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count can also be 'all', which will try to move all face-up cards.\n- 'forfeit' - End the game immediately and lock in your current score\n- Pile names: W (waste), F1-F4 (foundations), T1-T7 (tableau)\n\nYou can execute multiple actions in one turn by separating them with commas:\n  Example: 'draw, move W T1, move T2 F1'\n\nOnly Kings can be placed on empty tableau piles.\nActions execute in order - if one fails, the remaining actions are skipped.\nUse 'forfeit' if you believe the game is impossible to win."
+    "intro": "Ozali komona Klondike Solitaire. Molimo na yo ezali kobongisa bileti zote na piles ya libongo.\n\nMikano ya Komona:\n- Piles ya libongo (F1-F4): Kozongisa na Ace kino King na suti\n- Piles ya mokili (T1-T7): Kozongisa na kuleta ndeke ya mokili (mokili na moindo, moindo na mokili)\n- Stock: Kozwa bileti na pile ya makasi\n- Makasi (W): Bileti ya liboso ezali ya komona\n\nMikano:\n- 'draw' - Kozwa bileti na stock kino makasi\n- 'move <source> <destination> [count]' - Kobongisa bileti kati ya piles\n  Bileti ya komona: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count ekoki kozala 'all', mpo na kobongisa bileti zote za liboso.\n- 'forfeit' - Komona ekoki kobongwama na ozali na pointi ya sasa\n- Nkombo ya piles: W (makasi), F1-F4 (libongo), T1-T7 (mokili)\n\nOzali komona mikano mingi na moko ya tour en separe na virgules:\n  Bileti ya komona: 'draw, move W T1, move T2 F1'\n\nKings pe boso ekoki kozwa na piles ya mokili ya libanda.\nMikano ekoki kobongwama na mpangwema - soki moko ekoki kobongwama, mikano iliyobaki ekoki kobongwama.\nTia 'forfeit' soki ozali komona ekoki kobongwama."
   },
   "format_error": {
     "no_brackets": "Lolenge ya misala oyo ezali na ntina te. Misala esengeli ezala kati na bilembo (parenthèse).",
     "no_closing_bracket": "Formate ya action eza na valeur te. Brakeli ya suka ezangi ']'",
-    "empty_command": "Etinda ya pamba. Komá 'kobenda' to 'kokende <liziba> <esika oyo ezali kokende> [count].'",
+    "empty_command": "Komona ya libanda. Tia 'draw' to 'move <source> <destination> [count]'",
     "empty_action": "Likambo oyo ezangi ntina",
     "move_needs_args": "Komanda ya kobalusa esengi esika mpe suka. Kosalela: 'move <source> <destination> [count]'",
-    "count_positive": "Motángo esengeli kozala ya malamu to \"nyonso\"",
-    "count_invalid": "Motango ya motuya oyo ezali na ntina te. Salela motángo to 'nyonso'",
+    "count_positive": "Komona ya bileti ekoki kozala chanya to 'all'",
+    "count_invalid": "Komona ya bileti ya libanda. Tia numero to 'all'",
     "unknown_command": "Komanda ya makasi '{cmd}'. Sonda 'draw', 'move <source> <destination> [count]', or 'forfeit'",
     "wrapped": "Action {n}: {msg}"
   },

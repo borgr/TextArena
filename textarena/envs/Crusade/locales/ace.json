@@ -13,8 +13,8 @@
     "not_knight": "Hana langkah ksatria."
   },
   "game_action": {
-    "moved": "Player {player_id} moved their piece from {frm} to {to}.",
-    "capture": "{observation} Capturing a piece! (+{score_per_capture})"
+    "moved": "Player {player_id} tamah buet jih dari {frm} u {to}.",
+    "capture": "{observation} Jireupiëng buet! (+{score_per_capture})"
   },
   "outcome": {
     "no_pieces": "Pemain {player_id} hana meu saboh pih.",

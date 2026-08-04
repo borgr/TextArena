@@ -11,7 +11,7 @@
     "{ball_pos}": "The cup index the ball is under"
   },
   "player_prompt": {
-    "intro": "Track the hidden ball 'X' while the cups are shuffled.\nAfter shuffling, guess its location with `[k]`."
+    "intro": "شوێنی تۆپی شاردراوی 'X' بکەوە لە کاتی ھەڵوەشاندنەوەی کەپەکان.\nپاش ھەڵوەشاندنەوە، شوێنەکەی بە `[k]` خەمڵە بکە."
   },
   "game_message": {
     "ball_starts": "دەستپێکردنی تۆپ: {line}",
@@ -21,11 +21,11 @@
     "reveal": "(خەڵک: تۆپەکە لە ژێر {ball_pos})"
   },
   "invalid_move": {
-    "wrong_format": "Bad action. Use `[k]`.",
+    "wrong_format": "کردارێکی خراپە. `[k]` بەکار بھێنە.",
     "out_of_range": "ڕێژەکە لە دەرەوەی مەودای 0-{max_index}."
   },
   "outcome": {
     "win": "ڕاست دەکەیت تۆپەکەت دۆزیوەتەوە.",
-    "lose": "Wrong — ball was under cup {ball_pos}."
+    "lose": "خراپە — تۆپ لە ژێر کەپەی {ball_pos} دا بوو."
   }
 }

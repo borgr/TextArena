@@ -19,10 +19,10 @@
     "{deck_count}": "Number of cards left in the deck"
   },
   "game": {
-    "start": "Partie de Briscola commencée ! Atout : {trump_suit} (Carte atout : {trump_card})"
+    "start": "Daje bi Briscola dañu ko! Kaartu buuru bi: {trump_suit} (Kaartu buuru bi ndaw: {trump_card})"
   },
   "prompt": {
-    "intro": "Vous jouez à la Briscola - Joueur {player_id}.\nBut : Gagner des plis et collecter le plus de points (120 points au total dans le deck).\nPoints des cartes : As=11, 3=10, Roi=4, Dame=3, Valet=2, autres=0\nPuissance des cartes : As > 3 > Roi > Dame > Valet > 7 > 6 > 5 > 4 > 2\nLes cartes atout battent les cartes non-atout quel que soit leur puissance.\n\nAction : '[play X]' où X est la position (1-{max_pos}) de la carte dans votre main\n"
+    "intro": "Yaa taa Briscola di - Kaawu {player_id}.\nJëf: Sam xelit ak kàttan tuuti i ñuul (120 i ñuul ci dek).\nÑuuli xelit: A=11, 3=10, K=4, Q=3, J=2, yu bëri=0\nDómi ñuuli: A > 3 > K > Q > J > 7 > 6 > 5 > 4 > 2\nKàrti trump yii kàttan kàrti yu dul trump ci sañ-sañu dómi.\n\nJëf: '[play X]' ndax X mooy pósi (1-{max_pos}) ñuuli ci loxo"
   },
   "hand": {
     "none": "Du ay kaarêe.",
@@ -37,21 +37,21 @@
     "line": "  Joueur {player_id} : {card}{trump_mark}"
   },
   "turn": {
-    "score_entry": "Joueur {player_id} : {points} pts",
+    "score_entry": "Jëfandikukat {player_id}: {points} poy",
     "trump_info": "Trump suit: {trump_suit} (ñëwël)",
-    "trump_info_deck": "Atout : {trump_suit} | Cartes restantes dans le deck : {deck_count}",
-    "board": "{hand}\n\n{trick}\n\nScores : {scores}\n{trump_info}\n\nJouez une carte en utilisant [play X]"
+    "trump_info_deck": "Pónte ñaaw: {trump_suit} | Kaart ci dek: {deck_count}",
+    "board": "{hand}\n\n{trick}\n\nÑuuli: {scores}\n{trump_info}\n\nJëf kaart benn [play X]"
   },
   "invalid_move": {
     "wrong_format": "Jëfandikoo [play X] fu X nekk taxawaayu kaar (1, 2, 3, ak yeneeni)",
-    "out_of_range": "Position de carte invalide. Vous avez {count} cartes (1-{count})"
+    "out_of_range": "Posiso kaart bu baaxul. Yaa am {count} kaart (1-{count})"
   },
   "action": {
-    "played": "Joueur {player_id} a joué {card}",
-    "trick_win": "Joueur {winner} gagne le pli avec {card} et gagne {points} points !"
+    "played": "Jëfandikukat {player_id} jëfandikoo kaartu {card}",
+    "trick_win": "Tiji {winner} jël ndawu ci {card} ak kàttan {points} pónte!"
   },
   "outcome": {
-    "head": "Partie terminée ! Joueur {winner} gagne avec {points} points !\n\nScores finals :\n{scores}",
-    "player_line": "Joueur {player_id} : {points} points ({tricks} plis)\n"
+    "head": "Jëf ak! Tiji {winner} jël ci {points} pónte!\n\nNjël yu mujj:\n{scores}",
+    "player_line": "Jëfandikukat {player_id}: {points} poy ({tricks} tànk)\n"
   }
 }

@@ -13,6 +13,6 @@
   },
   "outcome": {
     "win": "دەست خۆش، ژمارەکەت ڕاست بوو.",
-    "turn_limit": "The turn limit has been reached. Guess: {guess}, Target: {target}"
+    "turn_limit": "مەودای ھەوڵەکان تەواو بووە. خەمڵاندن: {guess}, ئامانج: {target}"
   }
 }

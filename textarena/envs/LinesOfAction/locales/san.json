@@ -10,7 +10,7 @@
     "{to}": "The destination coordinate of a move, such as b3"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in game of LinesOfAction.\nYour pieces are '{side}', opponent pieces are '{other}'.\nMove format: `[b1b3]` (from-coord to-coord). A legal move travels horizontally, vertically, or diagonally a number of squares equal to the total pieces (any colour) in that line. You may jump over your own pieces, but not opponent pieces; landing on an opponent captures it.  Win when all your pieces are 8-neighbour connected."
+    "intro": "त्वम् लाइन्सऑफ़एक्शन इति क्रीडायां खिलाडी {player_id} असि।\nतव गणाः '{side}' सन्ति, प्रतिद्वन्द्विनः गणाः '{other}' सन्ति।\nगति-प्रारूपं: `[b1b3]` (प्रारम्भिक-स्थानात् लक्ष्य-स्थानम्)। विधिसम्मतगतिः क्षैतिजतः, ऊर्ध्वतः, वा तिर्यक् वर्गानां संख्यया समाना भवति, यत्र सर्वे गणाः (यः कोऽपि वर्णः) तिष्ठन्ति। स्वगणान् अतिक्रम्य गन्तुं शक्नोषि, परन्तु प्रतिद्वन्द्विगणान् न अतिक्रम्य; प्रतिद्वन्द्विगणे अवतीर्णः सन् तं गृह्णासि। जयः तदा भवति यदा तव सर्वे गणाः अष्ट-संलग्नाः भवन्ति।"
   },
   "board": {
     "current_board": "बोर्डः {board}"
@@ -26,7 +26,7 @@
   },
   "game_action": {
     "moved": "खिलाडी {player_id} गतः {from} -> {to}",
-    "captured_suffix": "Player {player_id} moved {from} -> {to} capturing an enemy."
+    "captured_suffix": "खिलाडी {player_id} {from} -> {to} गत्वा शत्रुं गृहीतवान्।"
   },
   "outcome": {
     "win": "सर्वेषां खण्डानां सम्बन्धः अस्ति।",

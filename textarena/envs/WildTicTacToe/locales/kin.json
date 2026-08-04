@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in Wild Tic Tac Toe.\nOn your turn, you can place either an 'X' or an 'O' in an empty square.\nYou win by aligning three of the same mark (X or O) in a row.\nYou can win with either symbol.\nChoose your move using the format '[X 4]' to place X in the center.\n"
+    "intro": "Ni wewe Mugenzi {player_id} muri Wild Tic Tac Toe.\nKu wakati wawe, urashobora kugira 'X' cyangwa 'O' muri mraba utarijemo.\nUratsinda unapanga ibendera zitatu zifanana (X cyangwa O) muri umurongo.\nUrashobora gutsinda na ibendera yoyote.\nHitamo ingendo yawe ukitumia muundo '[X 4]' kugira X hagati.\n"
   },
   "board": {
     "current_board": "Buhalarwe bw'iyi manda:\n\n{board}\n\nImyitozo Irakwiye: {moves}"
@@ -14,7 +14,7 @@
     "placed": "Umukino {player_id} waje kw'ikirango cye ({mark}) mu kigo {cell}"
   },
   "outcome": {
-    "win": "Player {player_id} wins with {mark}s!",
+    "win": "Mugenzi {player_id} atsinda na {mark}s!",
     "draw": "Umukino warangiye ari ubusa ku busa!"
   }
 }

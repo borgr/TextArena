@@ -14,7 +14,7 @@
   },
   "game_action": {
     "attack": "P{player_id} P{opp_id} қолына {opp_idx} шабуыл жасайды: ол {opp_val}-тен {new_val}-ке дейін өтеді.",
-    "split": "P{player_id} splits into [{L}, {R}]."
+    "split": "P{player_id} [{L}, {R}] болып бөлінеді."
   },
   "history": {
     "entry": "P{player_id} {desc}"

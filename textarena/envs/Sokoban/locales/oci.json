@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are solving the Sokoban puzzle. You are the player and you need to push all boxes to targets.\n        When you are right next to a box, you can push it by moving in the same direction.\n        You cannot push a box through a wall, and you cannot pull a box.\n        On the board, objects are represented as: \n        - The player (you) appears as 'P' \n        - Walls are represented with '#' \n        - Boxes are marked as 'X' \n        - Empty goals are shown with a 'O'\n        - Boxes on goals are visualized with '√'\n        You can also use [w] for up, [a] for left, [s] for down, and [d] for right.\n        "
+    "intro": "Resolvetz lo puzzle Sokoban. Sètz lo jogaire e cal que botatz totas las bòstias cap als objectius.\n        Quand sètz just al costat d'una bòstia, la podètz botar en vos desplaçant dins la meteissa direccion.\n        Podètz pas botar una bòstia a travèrs d'un mur, e podètz pas tirar una bòstia.\n        Sul tablèu, los objèctes son representats coma: \n        - Lo jogaire (vos) apareis coma 'P' \n        - Los murs son representats amb '#' \n        - Las bòstias son marcadas coma 'X' \n        - Los objectius voides son mostrats amb un 'O'\n        - Las bòstias sus los objectius son visualizadas amb '√'\n        Podètz tanben utilizar [w] per amont, [a] per esquèrra, [s] per aval, e [d] per drecha.\n        "
   },
   "board": {
     "current_board": "Taula actual:\n\n{board}\nMovements disponibles: {moves}"
@@ -12,7 +12,7 @@
     "invalid_position": "Movement invalid - pòdi pas se desplaçar cap a aquela posicion."
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
+    "moved": "Avètz {pushed} desplaçat [{action}].",
     "pushed_prefix": "empachèt una boita mentre que"
   },
   "outcome": {

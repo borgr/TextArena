@@ -14,7 +14,7 @@
     "{scores}": "The final scores as a raw player-number to score mapping - do not translate"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player GOPS.\n- You hold the 13 cards A-K (each exactly once).\n- Each round a prize is revealed. Submit ONE card like `[Q]`, `[10]`, `[2]` …\n- Highest card wins the prize (+ any carry-over pot). Ties roll the prize into the next round.\n- After 13 rounds, highest total wins. Invalid moves = elimination."
+    "intro": "Ati Leensa {player_id} Three-Player GOPS keessa.\n- Kartii 13 qabdu A-K (tokkoon tokkoo).\n- Raundii tokkoo badhaasa ifa ta'a. Kartii TOKKO akkasuma `[Q]`, `[10]`, `[2]` …\n- Kartii olaanaan badhaasa moo'ata (+ pirootoo gula'aa). Walitti qabamuun badhaasa gula'aa raundii dhufu.\n- Raundii 13 booda, rirekii olaanaan moo'ata. Sochiin dogoggora = haqama."
   },
   "round": {
     "header": "### Round {round}/13 - Dhaabbata: {prize} (worth {worth})",

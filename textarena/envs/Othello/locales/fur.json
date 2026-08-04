@@ -16,7 +16,7 @@
   },
   "game_action": {
     "skipped": "Il zuiadôr {pid} al à di saltâ il so turni.",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "Il Zugadôr {pid} ({piece}) al à zugât [{r}, {c}] voltant {flipped} pedinis"
   },
   "game_message": {
     "must_skip": "Zogadôr {pid} ({piece}) nol à mozions validis e al à di saltâ."

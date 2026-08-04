@@ -21,17 +21,17 @@
     "{scores}": "The pre-rendered per-player list of final scores"
   },
   "player_prompt": {
-    "intro": "You are playing Golf (Card Game) - Player {player_id}.\nGoal: Get the lowest total score in this single round. If columns share the same value, they are summed as 0.\nCard Values: A=1, 2-10=face value, J/Q=10, K=0\n\nActions (use exact brackets):\n- '[draw]' - Draw from deck\n- '[take]' - Take from discard pile\n- '[swap X Y]' - Swap drawn card with position X (row) Y (column)\n- '[discard]' - Discard the drawn card\n"
+    "intro": "Tas xugando al Golf (Xuegu de Cartes) - Xugador {player_id}.\nOxetivu: Llograr la puntuación total más baxa nesta ronda única. Si les columnes comparten el mesmu valor, sumirán como 0.\nValores de les cartes: A=1, 2-10=valor nominal, J/Q=10, K=0\n\nAiciones (usa corchetes esautamente):\n- '[draw]' - Robar de la baraxa\n- '[take]' - Tomar de la pila de descartes\n- '[swap X Y]' - Intercambiar la carta robada cola posición X (fila) Y (columna)\n- '[discard]' - Descartar la carta robada\n"
   },
   "board": {
-    "drew": "You drew: {card}\nNow you must [swap X Y] or [discard] it.",
-    "took": "You took: {card} from discard pile\nYou must [swap X Y] with it (cannot discard).",
-    "peeked": "You peeked at position ({row},{col}): {card}",
-    "turn_view": "Your hand:\n{hand}\nDiscard pile: {discard}\n{options}",
+    "drew": "Robasti: {card}\nAgora debes [swap X Y] o [discard] la.",
+    "took": "Tomasti: {card} de la pila de descartes\nDebes [swap X Y] con ella (nun puedes descartala).",
+    "peeked": "Echasti un güeyu a la posición ({row},{col}): {card}",
+    "turn_view": "La to mano:\n{hand}\nPila de descartes: {discard}\n{options}",
     "none": "Ningún."
   },
   "options": {
-    "final_turns": "Final turns! Your options: [draw], [take], [peek X Y]",
+    "final_turns": "Tornes finales! Les tos opciones: [draw], [take], [peek X Y]",
     "draw": "Les tos opciones: [draw], [take]",
     "must_swap": "Ye necesariu: [swap X Y] (non puede descarte cartes de la pila desechar)",
     "swap_or_discard": "Ye necesariu: [swap X Y] o [discard]"
@@ -42,7 +42,7 @@
     "row": "Row {n}: {cards}"
   },
   "action_desc": {
-    "swapped": "Player {pid} swapped {new} with {old} at position ({row},{col})",
+    "swapped": "El xugador {pid} intercambió {new} con {old} na posición ({row},{col})",
     "discarded": "Xugador {pid} refugó {card}"
   },
   "message": {
@@ -51,17 +51,17 @@
     "final_round": "Xugador {pid} {reason}! Cada otru xugador tien un turnu más"
   },
   "reason": {
-    "all_revealed": "has all cards revealed"
+    "all_revealed": "tien toles cartes revelaes"
   },
   "invalid": {
-    "wrong_action": "Use exactly ONE bracketed action: [draw], [take], [swap X Y], [discard], [knock], or [peek X Y]",
+    "wrong_action": "Usa esautamente UNA aición ente corchetes: [draw], [take], [swap X Y], [discard], [knock], o [peek X Y]",
     "discard_empty": "La pila de desechos ta vacía.",
     "must_draw_first": "Debes primero [draw], [take], [knock], o [peek X Y]",
     "cannot_discard_taken": "Nun puedes descartar una carta tomada de la pila d'escartes, tienes que cambiala.",
-    "have_drawn_card": "You have a drawn card. You must [swap X Y] or [discard] it.",
+    "have_drawn_card": "Tienes una carta robada. Debes [swap X Y] o [discard] la.",
     "need_drawn_swap": "Ye necesariu un dibuxu de tarxeta pa intercambiar.",
     "need_drawn_discard": "Ye necesariu una carta dibuxada pa descartalo.",
-    "out_of_bounds": "Position out of bounds. Use row 1-{max_row}, column 1-{max_col}",
+    "out_of_bounds": "Posición fora de los llímites. Usa fila 1-{max_row}, columna 1-{max_col}",
     "knock_with_card": "Nun se puede tocar con una carta tirada.",
     "already_knocked": "Alguien ya ganó esta ronda.",
     "already_revealed": "Esa carta yá ta revelada."
@@ -72,7 +72,7 @@
   },
   "board_str": {
     "title": "=== XUEGO DE GOLF=== (El xugador de golf)",
-    "discard": "Discard pile: {card}",
+    "discard": "Pila de descartes: {card}",
     "knocked": "El xugador {pid} llamó.",
     "player_header": "Xugador {pid} (Puntuación: {score}):"
   }

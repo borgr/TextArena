@@ -10,7 +10,7 @@
     "{to}": "The destination coordinate of a move, such as b3"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in game of LinesOfAction.\nYour pieces are '{side}', opponent pieces are '{other}'.\nMove format: `[b1b3]` (from-coord to-coord). A legal move travels horizontally, vertically, or diagonally a number of squares equal to the total pieces (any colour) in that line. You may jump over your own pieces, but not opponent pieces; landing on an opponent captures it.  Win when all your pieces are 8-neighbour connected."
+    "intro": "మీరు LinesOfAction గేమ్‌లో ప్లేయర్ {player_id}. \nమీ ముక్కలు '{side}', ప్రత్యర్థి ముక్కలు '{other}'. \nమూవ్ ఫార్మాట్: `[b1b3]` (నుండి-కోఆర్డినేట్ నుండి-కోఆర్డినేట్). చట్టబద్ధమైన మూవ్ అడ్డంగా, నిలువుగా లేదా వికర్ణంగా ఆ పంక్తిలోని మొత్తం ముక్కల (ఏదైనా రంగు) సంఖ్యకు సమానమైన చతురస్రాల సంఖ్యను ప్రయాణిస్తుంది. మీ స్వంత ముక్కల మీద దూకవచ్చు, కానీ ప్రత్యర్థి ముక్కల మీద కాదు; ప్రత్యర్థిపై ల్యాండింగ్ దానిని స్వాధీనం చేసుకుంటుంది. మీ అన్ని ముక్కలు 8-పొరుగువారితో కనెక్ట్ అయినప్పుడు గెలవండి."
   },
   "board": {
     "current_board": "బోర్డు: {board}"
@@ -30,7 +30,7 @@
   },
   "outcome": {
     "win": "అన్ని ముక్కలు కనెక్ట్.",
-    "draw_no_capture": "60 moves without capture.",
+    "draw_no_capture": "స్వాధీనం చేసుకోకుండా 60 మూవ్‌లు.",
     "draw_repetition": "స్థానం మూడు సార్లు పునరావృతం."
   }
 }

@@ -10,10 +10,10 @@
     "correct_format_wrong_fields": "खिलाड़ी {player_id}, अमान्य क्रिया। स्तंभ {col} सीमा से बाहर है।",
     "out_of_range": "पिल्-सूचकः {pile_index} इत्यस्य दायरे बहिः अस्ति ।",
     "non_positive": "कतमपि एकं वस्तु नश्यति।",
-    "exceeds_pile": "Cannot remove {quantity} from pile {pile_index} (only {pile_count} left)."
+    "exceeds_pile": "राशि {pile_index} तः {quantity} वस्तूनि निष्कासयितुं न शक्यं, केवलं {pile_count} वस्तूनि अवशिष्टानि सन्ति।"
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "खिलाडी {player_id} '[{pile_index} {quantity}]' इत्यनेन क्रीडितवान्, राशि {pile_index} तः {quantity} वस्तूनि निष्कासितवान्।"
   },
   "outcome": {
     "win": "{player_id} इति क्रीडाकारः अन्तिमं वस्तु गृहीतः!"

@@ -6,7 +6,7 @@
     "current_board": "მიმდინარე ბორდი: მოთამაშე 0: {hands_0} მოთამაშე 1: {hands_1}"
   },
   "invalid_move": {
-    "my_hand_dead": "Your hand {my_idx} is dead.",
+    "my_hand_dead": "თქვენი ხელი {my_idx} მკვდარია.",
     "opp_hand_dead": "ოპონენტის ხელი {opp_idx} უკვე მკვდარია.",
     "split_sum": "გაყოფილი უნდა იყოს {total}.",
     "split_no_change": "სპლთტ რპწბგა ეა ოპჲმვნთ დთრპჲბჟრგარა ნა რწლჲრჲ.",
@@ -14,7 +14,7 @@
   },
   "game_action": {
     "attack": "P{player_id} თავს ესხმის P{opp_id}-ის ხელს {opp_idx}: იგი გადადის {opp_val}-დან {new_val}-მდე.",
-    "split": "P{player_id} splits into [{L}, {R}]."
+    "split": "P{player_id} იყოფა [{L}, {R}]."
   },
   "history": {
     "entry": "P{player_id} {desc}"

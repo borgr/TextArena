@@ -55,7 +55,7 @@
   },
   "invalid": {
     "wrong_action": "Impieze une azion cun brachete: [draw], [take], [swap X Y], [discard], [knock], o [peek X Y]",
-    "discard_empty": "The discard pile is empty!",
+    "discard_empty": "La pile descartade e je vueide!",
     "must_draw_first": "Tu âs di [draw], [take], [knock], o [peek X Y] prime",
     "cannot_discard_taken": "No tu puedis butâ vie une schede cjapade de pile di discjariis. Tu âs di cambiâlu.",
     "have_drawn_card": "Tu âs un carton tirât fûr. Tu âs di [swap X Y] o [discard]",
@@ -74,6 +74,6 @@
     "title": "=== GJUE DI GOLF === Al è rivât il moment di lâ a scuele.",
     "discard": "Piel di scart: {card}",
     "knocked": "Il zuiadôr {pid} al à bussât!",
-    "player_header": "Player {pid} (Score: {score}):"
+    "player_header": "Zugador {pid} (Puntazion: {score}):"
   }
 }

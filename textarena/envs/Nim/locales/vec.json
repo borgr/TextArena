@@ -13,7 +13,7 @@
     "exceeds_pile": "No se pol cavà {quantity} da el mucio {pile_index} (ghè solo {pile_count} restanti)."
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "El Zugador {player_id} ga zugà [{pile_index} {quantity}], rimuovendo {quantity} ogeto/i da ła pila {pile_index}."
   },
   "outcome": {
     "win": "El xugador {player_id} ga ciapà l'ultimo ogeto (s)!"

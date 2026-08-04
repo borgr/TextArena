@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "La agado devas esti en formato [row col] kie vico kaj kolumno estas entjeroj de 0 ĝis {max_index}.",
-    "out_of_range": "Coordinates must be between 0 and {max_index}. You entered [{row},{col}]."
+    "out_of_range": "Koordinatoj devas esti inter 0 kaj {max_index}. Vi enmetis [{row},{col}]."
   },
   "outcome": {
     "win": "Gratulon! Vi solvis la puzlon en {moves_used} movoj!",

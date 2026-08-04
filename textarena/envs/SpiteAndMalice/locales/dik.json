@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a two-player game of Spite and Malice. Your goal is to be the first to empty your payoff pile.\n\n### Game Overview:\n- The objective is to clear your payoff pile by playing cards to the center piles.\n- You can play cards from three sources:\n  1. Your **hand** (you start each turn with up to 5 cards in hand).\n  2. The **top card of your payoff pile**.\n  3. The **top card of any of your discard piles**.\n\n### Playing Rules:\n- You may play a card to a center pile if it is **one rank higher** than the top card on that pile (center piles start with Ace and go up to Queen; Kings are wild - they can be played on any card but do not change the rank sequence. This means if a King is used after 4, then that King is ranked 5 and the next card must be a 6).\n- If you can't play any more cards, you must **discard a card** to one of your discard piles to end your turn.\n- If a center pile reaches Queen, it will be cleared automatically.\n- The rank order is: A=1, 2=2, ..., 9=9, J=10, Q=11, K as wild.\n\n### Actions:\n1. **Draw**: At the start of your turn, draw cards to fill your hand up to 5 cards. Enter **[draw]** to begin.\n2. **Play a Card**: To play a card, specify the card and the center pile like this: **[play A♠ 0]** (where 'A♠' is the card and '0' is the center pile index).\n3. **Discard**: If you can't play any more cards, discard a card from your hand to a discard pile to end your turn. Enter **[discard A♠ 1]** (where 'A♠' is the card and '1' is the discard pile index). Note that you cannot discard any card from the payoff pile. You may only discard the cards from your hand.\n\n"
+    "intro": "Yin ee Player {player_id} ee game Spite and Malice ee raan dhiec. Yin ee lac gool kuɔny ba yin payoff pile.\n\n### Nhialic Game:\n- Kuɔny ee lac yin payoff pile ne yin dhiaac cards ne center piles.\n- Yin ee dhiaac cards ne kɛɛc:\n  1. Yin **hand** (yin ciɛɛŋ lac turn ne kɛɛc 5 cards ee hand).\n  2. **Top card ee yin payoff pile**.\n  3. **Top card ee yin discard piles**.\n\n### Nhialic Dhiaac:\n- Yin ee dhiaac card ne center pile ee yin ee **rok tok** ee top card ee pile (center piles ciɛɛŋ ne Ace ee go up ee Queen; Kings ee wild - ee dhiaac ee card ee tok ee change ee rok tok. Ee mean ee King ee dhiaac ee 4, ee King ee rok ee 5 ee next card ee lac ee 6).\n- Ee yin ciɛɛŋ dhiaac cards, yin ee **discard card** ee yin discard piles ee end turn.\n- Ee center pile ee gool Queen, ee ciɛɛŋ ee cleared tok.\n- Ee rok tok ee: A=1, 2=2, ..., 9=9, J=10, Q=11, K ee wild.\n\n### Nhialic Action:\n1. **Draw**: Ee start ee yin turn, draw cards ee fill yin hand ee kɛɛc 5 cards. Enter **[draw]** ee begin.\n2. **Dhiaac Card**: Ee dhiaac card, specify ee card ee center pile ee kɛɛc: **[play A♠ 0]** (ee 'A♠' ee card ee '0' ee center pile index).\n3. **Discard**: Ee yin ciɛɛŋ dhiaac cards, discard card ee yin hand ee discard pile ee end turn. Enter **[discard A♠ 1]** (ee 'A♠' ee card ee '1' ee discard pile index). Note ee yin ee discard card ee payoff pile. Yin ee discard cards ee hand.\n\n"
   },
   "board": {
     "current_board": "Piny de Board:\n\n{board}\nWët de Kuɛr: {moves}"
@@ -29,13 +29,13 @@
     "opponent_drew": "Raan ye gɔ̈ɔ̈r {player_id} acï kaar bɛ̈n cuɛt.",
     "you_played": "Yïn acï {card} gɔ̈ɔ̈r në piiny ciɛl yic {index}.",
     "opponent_played": "Wët {player_id} acë kuɛr {card} kɛnë piny de bë piny de kuɛr {index}.",
-    "you_discarded": "You have discarded {card} to discard pile {index}, which also means you have finished their turn. No further actions of yours is considered for this turn. Player {next_player_id} will go next.",
+    "you_discarded": "Yin discard {card} ee discard pile {index}, ee mean ee yin finish turn. Player {next_player_id} ee go next.",
     "opponent_discarded": "Wët {player_id} acë kuɛr {card} kɛnë bë piny de kuɛr {index}, ke ye cɔl yic. Wëtde kuɛr kɛnë bë wët {player_id} acɔl yic kɛnë bë piny de wëtde. Wët {next_player_id}, yin acë kuɛr wëtde. Yin ë wët kuɛr yin bë fɔrmät [action card center_index]."
   },
   "outcome": {
-    "payoff_cleared": "Player {current_player} has finished their payoff pile! Player {current_player} wins!",
+    "payoff_cleared": "Raandit {current_player} aci yök ci wäär thiëk! Raandit {current_player} a ciɛ̈ɛ̈n!",
     "deadlock_player_0": "Cök apei! Wët 0 acë kuɛr {player_0_payoff} kɛnë bë wëtde kuɛr vs Wët 1 kɛnë bë kuɛr {player_1_payoff}.",
     "deadlock_player_1": "Cök apei! Wët 1 acë kuɛr {player_1_payoff} kɛnë bë wëtde kuɛr vs Wët 0 kɛnë bë kuɛr {player_0_payoff}.",
-    "deadlock_tie": "Deadlock reached with tie! Both players have {player_0_payoff} cards remaining. Player {current_player} wins by default."
+    "deadlock_tie": "Kɔc awääc wäär thiëk kek yök! Raandit käŋ aɣet {player_0_payoff} tiɔ̈ɔ̈ŋ ci wäär thiëk. Raandit {current_player} a ciɛ̈ɛ̈n kek yök."
   }
 }

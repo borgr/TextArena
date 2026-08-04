@@ -9,7 +9,7 @@
     "progress": "{observation} Gaur egungo aurrerapen puntuazioa: {progress}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use `[i j op]` where i,j are indices and op is +,-,*,/",
+    "wrong_format": "Ekintza formatua baliogabea. Erabili `[i j op]` non i,j indizeak diren eta op +,-,*,/",
     "invalid_indices": "Indize baliogabeak. desberdinak izan behar dira eta 0-{max_index} arteko tartean egon behar dute",
     "invalid_operation": "Eragiketa ezegokia (zero bidez zatitzea edo emaitza ez-zenbaki oso bat)"
   },

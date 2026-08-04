@@ -23,7 +23,7 @@
   "outcome": {
     "survived_win": "Pamain {player_id} batahan; sadonyo nan lainnyo mati.",
     "all_dead_simul": "Kasadonyo ula mati sakaligus.",
-    "outlived": "Player outlived all others.",
+    "outlived": "Pemain bertahan hidup lebih lama dari yang lain.",
     "all_dead": "Sadonyo ula mati.",
     "turn_limit": "Bateh giliran alah digunoan - skor paliang baiak manang tie-break.",
     "ranking": "{reason} Peringkat akhir grup (terburuk→terbaik): {groups}"

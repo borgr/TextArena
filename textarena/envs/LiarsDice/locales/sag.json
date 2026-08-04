@@ -22,18 +22,18 @@
     "final_ranking": "list of player indices from first eliminated to winner"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in an {num_players}-player Liar's Dice game.\nRules:\n- On your turn, you may either:\n  1) Make a new bid with a higher quantity or higher face (or both) than the current bid; i.e. '[Bid: 3, 4]',\n  2) Call the last bid by typing '[Call]'.\n\nIf you call:\n  - If the actual count of that face value among all dice is less than the bid, the last bidder loses one die.\n  - Otherwise, the caller loses one die.\nA player who reaches 0 dice is eliminated. The last remaining player wins."
+    "intro": "Mo ye Player {player_id} tî gbätä Liar's Dice tî {num_players} zo gbätä.\nKötä gbätä:\n- Tî kotä, mo pendere:\n  1) Fä gbätä bid tî kotä quantity tî kotä face (tî kotä) tî current bid; ö [Bid: 3, 4],\n  2) Kôzo gbätä tî last bid tî '[Call]'.\n\nTî mo kôzo gbätä:\n  - Tî kotä count tî face value tî kotä dice ayeke less tî bid, last bidder ayeke lose one die.\n  - Tî kotä, caller ayeke lose one die.\nPlayer tî 0 dice ayeke eliminated. Last remaining player ayeke win."
   },
   "board": {
     "per_player": "\tLokuta {p}: {d}",
     "new_round": "\nSûri mâbâko - Kozala maboko: {dice_summary}\nMaboko ma sûri oyo ezîko: {your_dice}"
   },
   "call": {
-    "bidder_loses": "Player {current_player_id} calls! The actual count of face {face_value} is {count}, which is LESS than {quantity}.\nPlayer {loser_id} (the last bidder) loses one die.",
-    "caller_loses": "Player {current_player_id} calls! The actual count of face {face_value} is {count}, which is >= {quantity}.\nPlayer {loser_id} (the caller) loses one die."
+    "bidder_loses": "Player {current_player_id} kôzo gbätä! Kotä count tî face {face_value} ayeke {count}, tî LESS tî {quantity}.\nPlayer {loser_id} (last bidder) ayeke lose one die.",
+    "caller_loses": "Mbeni {current_player_id} awïï! Kotä gbätä {face_value} ä {count}, sï {quantity}.\nMbeni {loser_id} (mbeni awïï) awïï mbëkë."
   },
   "action": {
-    "bid_announce": "Player {player_id} bids {quantity} of face {face_value}."
+    "bid_announce": "Player {player_id} fä gbätä {quantity} tî face {face_value}."
   },
   "invalid_move": {
     "call_no_bid": "A hunda ti tene a mû nginza ni sân ti fa tënë.",
@@ -50,6 +50,6 @@
     "eliminated_invalid": "A zi {player_id} na lege ti mbeni ye so ayeke nzoni pëpe."
   },
   "outcome": {
-    "win": "Player {winner} wins! Final ranking: {final_ranking}"
+    "win": "Mbeni {winner} ayeke! Kötä kôro: {final_ranking}"
   }
 }

@@ -3,7 +3,7 @@
     "intro": "Unotamba Blackjack dhidi ya dealer.\nLengo lyako ni kuwa karibu na 21 bila kuzwara.\nPaunoturn, chagua '[Hit]' kudzora kadi nyingine kana '[Stand]' kuzima.\nJ/Q/K = pointi 10; A = 11 kana 1, icho chinozvinakira.\n"
   },
   "board": {
-    "current_state": "Hand {hand_number}/{num_hands}\nYour hand: {player_hand} (Score: {score})\nDealer shows: {dealer_card}"
+    "current_state": "Mawoko {hand_number}/{num_hands}\nMawoko ako: {player_hand} (Makundi: {score})\nMutengi anonyatso: {dealer_card}"
   },
   "invalid_move": {
     "wrong_format": "Shirudo lisiri. Tumia '[Hit]' kana '[Stand]'."

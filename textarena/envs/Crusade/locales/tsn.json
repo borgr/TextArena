@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({piece}). Opponent is ({opp}). Submit moves as '[b1 c3]' (from → to). All pieces move like chess knights.\nEach capture scores {score_per_capture} point. Game ends after {max_moves} moves or when a player has no legal move / no pieces. Higher score wins."
+    "intro": "O wena Moshadisi {player_id} ({piece}). Moshadisi wa kganetsano ke ({opp}). Romela dikgato ka go dirisa '[b1 c3]' (go tswa → go ya). Diphetogo tsotlhe di tsamaya jaaka ditshwene tsa tshesanyo.\nDitlhopho tsotlhe di lekana le {score_per_capture} tlhopho. Tshimo e fedile morago ga {max_moves} dikgato kana fa moshadisi a se na kgato e e letlelelang / a se na diphetogo. Tlhopho e kgolo e wetsa."
   },
   "board": {
     "current_board": "Tsheka #{move_count}\n\n{board}\n\nDitsheko tse di Aviwele: {moves}"
@@ -14,7 +14,7 @@
   },
   "game_action": {
     "moved": "Modiri {player_id} o tsenye sepele sa gagwe go tswa {frm} go ya {to}.",
-    "capture": "{observation} Capturing a piece! (+{score_per_capture})"
+    "capture": "{observation} O thuntse phetogo! (+{score_per_capture})"
   },
   "outcome": {
     "no_pieces": "Motshameki {player_id} ga a na dikarolwana.",

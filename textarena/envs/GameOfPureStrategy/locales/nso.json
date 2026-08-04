@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a match of GameOfPureStrategy.\n- You hold the 13 cards A-K; each can be used once.\n- Each round a prize card is revealed. Play exactly ONE card by writing something that contains a bracketed token like '[Q]', '[10]', '[2]' ...\n- Higher card wins the prize (plus carry-over). Ties roll prize into the pot for next round.\n- Highest total after 13 rounds wins."
+    "intro": "O kile wa Player {player_id} mo mokgwa wa GameOfPureStrategy.\n- O swara dikari tse 13 tsa A-K; nngwe le nngwe e ka sebediswa gangwe.\n- Mokgweng o mongwe le o mongwe karete ya mpho e bonwa. Bapala karete e tee fela ka go ngwala sengwe se se nang le token e e kgothwane e bjalo ka '[Q]', '[10]', '[2]' ...\n- Karete e kgolo e wina mpho (le tse di kgobilweng). Dikgwebo di kgola mpho kwa mokgweng o latelang.\n- Palo e kgolo ka ho fetisisa kamora dikgweng tse 13 e wina."
   },
   "round": {
     "announce": "### Labollo {round}/13 - Prize: {prize}  (e e kile {worth})"

@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} playing {colour} ({piece}) in a game of Othello.\nYour goal is to have more pieces of your color on the board by the end of the game.\nOn your turn, place a piece such that it flanks one or more of your opponent's pieces-in any direction (horizontal, vertical, or diagonal)-between your new piece and another of your existing pieces. All flanked opponent pieces will be flipped to your color.\nProvide your move in the format '[row, col]'."
+    "intro": "O wena ke Modimoša {player_id} yo a bapalago ka {colour} ({piece}) mo papading ya Othello.\nSepheo sa gago ke go ba le dipapadi tše dintši tša mmala wa gago mo papading ka tšhupetšo ya papadi.\nKa tšhupetšo ya gago, bea papadi gore e kgomare papadi ya kganetšo e tee goba e fetša ka gare ga papadi ya gago e mpsha le papadi e nngwe ya gago e kgolo. Dipapadi tša kganetšo tša gago di tla fetolwa go ya mmala wa gago.\nNeela tšhupetšo ya gago ka mokgwa wa '[row, col]'."
   },
   "board": {
     "game_board": "Boto ya Papadi: {board}",
@@ -16,7 +16,7 @@
   },
   "game_action": {
     "skipped": "Sebapadi {pid} se ile sa swanelwa ke go foša nako ya sona.",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "Player {pid} ({piece}) o ile a bapala [{r}, {c}] a fetola {flipped} phehente(e)"
   },
   "game_message": {
     "must_skip": "Mmoki {pid} ({piece}) ga na ditshepetso tse di lokilego mme a tlile go sala."

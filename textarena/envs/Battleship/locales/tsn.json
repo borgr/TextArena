@@ -10,9 +10,9 @@
   "game_action": {
     "you_sunk": "O tshwara thata! Wa tshwara sethebe sa ḓimothobo ka {coord}! Pasi ya gago e e tsweleditsweng:\n{view}",
     "opp_sunk": "Mmoloki o ne a o tshwara thata ka {coord}! Pasi ya gago e e tsweleditsweng:\n{view}",
-    "you_hit": "Hit! You hit a ship at {coord}! Your updated board:\n{view}",
+    "you_hit": "Hit! O utlwa papadi kwa {coord}! Bodulo bwa gago bwa papadi bo lokilwe:\n{view}",
     "opp_hit": "Mmoloki o ne a o tshwara ka {coord}! Pasi ya gago e e tsweleditsweng:\n{view}",
-    "you_miss": "Miss! You missed the ship at {coord}! Your updated board:\n{view}",
+    "you_miss": "Miss! O palelwa papadi kwa {coord}! Bodulo bwa gago bwa papadi bo lokilwe:\n{view}",
     "opp_miss": "Mmoloki o ne a se ka wa o tshwara ka {coord}! Pasi ya gago e e tsweleditsweng:\n{view}"
   },
   "outcome": {

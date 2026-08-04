@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in **Ultimate Tic Tac Toe**.\nSubmit your move as **[macro  micro]** (two numbers 0-8):\n• *macro*  = which mini-board you play in\n• *micro* = which square inside that mini-board\nExample `[7 8]` ➜ place your mark in mini-board 7, square 8, and\nforce your opponent to play in mini-board 8 next.\n\nYou are `{symbol}`.\n"
+    "intro": "Siz **Ultimate Tic Tac Toe** oyunda {player_id} oyuncusısınız.\nYürüşünüzü **[macro  micro]** (eki 0-8 arasındaraqam) olaraq bildirin:\n• *macro*  = qaçraq oynaycaq mini-taqhta\n• *micro* = qaçraq mini-taqhtadaki kvadrat\nMisal `[7 8]` ➜ mini-taqhta 7-de, kvadrat 8-de belgi qoyun, ve\nqaçraq qarşı tarafqa mini-taqhta 8-de oynatın.\n\nSiz `{symbol}` siz.\n"
   },
   "board": {
     "current_board": "Şimdiki tahta: {board}"
@@ -18,7 +18,7 @@
     "specific": "mikro levha {nxt}"
   },
   "game_action": {
-    "played": "Player {player_id} played in micro board {macro_idx}, cell {micro_idx} (row {row}, col {col}). Player {opponent_id} must now play in {nxt_txt}."
+    "played": "Oyuncu {player_id} mini-taqhta {macro_idx}-de, kvadrat {micro_idx}-de (satır {row}, sütun {col}) oynadı. Oyuncu {opponent_id} şimdi {nxt_txt}-de oynatmalıdır."
   },
   "outcome": {
     "win": "Oyuncı {player_id} Ultimate Tic Tac Toe qazandı!",

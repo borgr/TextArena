@@ -11,7 +11,7 @@
     "{ball_pos}": "The cup index the ball is under"
   },
   "player_prompt": {
-    "intro": "Track the hidden ball 'X' while the cups are shuffled.\nAfter shuffling, guess its location with `[k]`."
+    "intro": "Шынықтар араластырылғанда 'X' жасырын допты бақылаңыз.\nАраластырудан кейін оның орналасқан жерін `[k]` арқылы табыңыз."
   },
   "game_message": {
     "ball_starts": "Топ басталады: {line}",
@@ -21,7 +21,7 @@
     "reveal": "(Ақпаратты көрсету: {ball_pos} астындағы шар)"
   },
   "invalid_move": {
-    "wrong_format": "Bad action. Use `[k]`.",
+    "wrong_format": "Қате әрекет. `[k]` пайдаланыңыз.",
     "out_of_range": "Индекс 0-{max_index} аралығынан тыс."
   },
   "outcome": {

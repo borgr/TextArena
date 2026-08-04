@@ -11,21 +11,21 @@
     "{groups}": "Neutral ranking data (a list of player-id groups, worst to best); do not translate"
   },
   "player_prompt": {
-    "intro": "{num_players}-Player Snake on a {width}×{height} grid.\nYou control snake {player_id}. Valid moves: '[up]'/'[down]'/'[left]'/'[right]' (or w/s/a/d).\nObjective: survive longest or be the longest and get the highest score (turn limit {max_turns} turns)."
+    "intro": "{num_players}-Muntu akulwana Snake pa {width}×{height} gridi.\nUkongola nyoka {player_id}. Mipango ilowele: '[up]'/'[down]'/'[left]'/'[right]' (kapena w/s/a/d).\nLengo: kukula muda mrefu zaidi au uwe mrefu zaidi na kupata alama ya juu (kikomo cha zamu {max_turns} zamu)."
   },
   "board": {
-    "current": "Current Board:\n{board}",
-    "after_moves": "Current Board State:\n{board}"
+    "current": "Gridi ya Sasa:\n{board}",
+    "after_moves": "Hali ya Gridi ya Sasa:\n{board}"
   },
   "game_action": {
-    "invalid_death": "Snake {player_id} died due to invalid move."
+    "invalid_death": "Nyoka {player_id} afa kwa sababu ya mpango usio halali."
   },
   "outcome": {
-    "survived_win": "Player {player_id} survived; all others perished.",
+    "survived_win": "Mchezaji {player_id} akakula; wengine wote wafa.",
     "all_dead_simul": "Kwena wote wakafa pamo.",
     "outlived": "Wuye mupira wa nderi ye dǝ gǝna.",
     "all_dead": "Kwena wote walikufa.",
-    "turn_limit": "Kkkk, cjk-png reached - best score wins tie break.",
-    "ranking": "{reason} Final ranking groups (worst→best): {groups}"
+    "turn_limit": "Kikomo cha zamu kimefikia - alama bora hushinda kipindi cha usawa.",
+    "ranking": "{reason} Vikundi vya mwisho vya uwekaji wa nafasi (mbaya→bora): {groups}"
   }
 }

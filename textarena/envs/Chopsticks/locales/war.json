@@ -3,7 +3,7 @@
     "intro": "Ikaw an Player {player_id} ha Chopsticks. Ha imo turno, pili hin usa ha:\n  + Atake:  '[attack M O]'  kun diin M=imo kamot (0 o 1), O=kaatbang kamot (0 o 1).\n    - An kaatbang kamot nga bilang tinataas han imo kamot; kun >=5, ini nagiging 0.\n  + Bulag:   '[split L R]'  ngadto ha pagbalik ha imo total nga tudlo ha L ngan R (L+R = imo total).\nSumulong ha usa la nga han mga komando."
   },
   "board": {
-    "current_board": "Karuhaan nga Bangga:\nPlayer 0: {hands_0}\nPlayer 1: {hands_1}"
+    "current_board": "Kasalukuyan nga Board:\nParagmudang 0: {hands_0}\nParagmudang 1: {hands_1}"
   },
   "invalid_move": {
     "my_hand_dead": "An imo kamot {my_idx} patay na.",
@@ -14,7 +14,7 @@
   },
   "game_action": {
     "attack": "P{player_id} ginatawag an P{opp_id}’s kamot {opp_idx}: ini nagtikang ha {opp_val} ngadto ha {new_val}.",
-    "split": "P{player_id} splits into [{L}, {R}]."
+    "split": "Si P{player_id} nagbulag ngadto ha [{L}, {R}]."
   },
   "history": {
     "entry": "P{player_id} {desc}"

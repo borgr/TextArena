@@ -22,7 +22,7 @@
     "start": "Briscola dzɔ ɖo! Trump suit: {trump_suit} (Trump card: {trump_card})"
   },
   "prompt": {
-    "intro": "Eɖo Briscola - Player {player_id}.\nGoal: Xɔ eɖokui boe tɔ nuwɔnɔ ɖe (120 nuwɔnɔ gbɔgbɔ ɖo deck).\nCard Points: A=11, 3=10, K=4, Q=3, J=2, others=0\nCard Power: A > 3 > K > Q > J > 7 > 6 > 5 > 4 > 2\nTrump cards beat non-trump cards regardless of power.\n\nAction: '[play X]' where X is the position (1-{max_pos}) of the card in your hand\n"
+    "intro": "A xɔ ɖɔɖɔ Briscola - Akpɛvi {player_id}.\nWɛzɔ: Wɛn ɖɔɖɔ kpo bo kpɛnɛ ɖɔ akpɛntɔ (120 akpɛntɔ le kaadi ɖɔɖɔ tɔmɛ).\nKaadi Akpɛntɔ: A=11, 3=10, K=4, Q=3, J=2, mɛɖɛɖɛ=0\nKaadi Wɛzɔ: A > 3 > K > Q > J > 7 > 6 > 5 > 4 > 2\nKaadi Trump tɛn ɖɔ wɛm kaadi mɛɖɛɖɛ tɛn.\n\nWɛzɔ: '[play X]' to X wɛ ɖɔ kaadi tɛn ɖɔ wɛm ɖɔ (1-{max_pos}) ɖɔ a ɖɔ\n"
   },
   "hand": {
     "none": "Akpá ɖé kún ɖò fí ó.",
@@ -37,21 +37,21 @@
     "line": "  Player {player_id}: {card}{trump_mark}"
   },
   "turn": {
-    "score_entry": "Player {player_id}: {points} pts",
+    "score_entry": "Akpɛvi {player_id}: {points} akpɛntɔ",
     "trump_info": "Trump tɔn: {trump_suit}",
     "trump_info_deck": "Trump suit: {trump_suit} | Ka gbɔ ɖo deck: {deck_count}",
     "board": "{hand}\n\n{trick}\n\nScores: {scores}\n{trump_info}\n\nDzo ka gbɔ na [play X]"
   },
   "invalid_move": {
     "wrong_format": "Zɔ [play X] fí e X nyí tɛnkpɔn kpá (1, 2, 3, et cetera) é.",
-    "out_of_range": "Invalid card position. You have {count} cards (1-{count})"
+    "out_of_range": "Kaadi tɛn ɖɔ wɛm. A xɔ {count} kaadi (1-{count})"
   },
   "action": {
     "played": "Player {player_id} wɔ dzo {card}",
-    "trick_win": "Player {winner} wins the trick with {card} and gains {points} points!"
+    "trick_win": "Akpɛvi {winner} wɛn ɖɔ kaadi {card} bo dɔ {points} akpɛntɔ!"
   },
   "outcome": {
-    "head": "Game ɖo! Player {winner} xɔ na {points} nuwɔnɔ!\n\nFinal Scores:\n{scores}",
-    "player_line": "Player {player_id}: {points} points ({tricks} tricks)\n"
+    "head": "Ɖɔɖɔ Wɛɖɛ! Akpɛvi {winner} wɛn ɖɔ {points} akpɛntɔ!\n\nAkpɛntɔ Wɛɖɛ:\n{scores}",
+    "player_line": "Akpɛvi {player_id}: {points} akpɛntɔ ({tricks} ɖɔɖɔ)\n"
   }
 }

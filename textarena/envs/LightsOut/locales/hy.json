@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "Գործողությունը պետք է լինի [row col] ձեւաչափով, որտեղ տողերն ու սյունակները ամբողջական թվեր են 0-ից {max_index}:",
-    "out_of_range": "Coordinates must be between 0 and {max_index}. You entered [{row},{col}]."
+    "out_of_range": "Կոորդինատները պետք է լինեն 0-ից {max_index} միջակայքում: Դուք մուտքագրել եք [{row},{col}]:"
   },
   "outcome": {
     "win": "Շնորհավորում եմ: Դուք լուծել եք հանելուկը {moves_used} քայլերով:",

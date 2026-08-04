@@ -11,7 +11,7 @@
     "you_sunk": "Imezamishwa! Umezamisha ship kwa {coord}! Board ya yo iliyosahihishwa:\n{view}",
     "opp_sunk": "Mwana mpaya akazamisha ship ya yo kwa {coord}! Board ya yo iliyosahihishwa:\n{view}",
     "you_hit": "Umevunja! Umevunja ship kwa {coord}! Board ya yo iliyosahihishwa:\n{view}",
-    "opp_hit": "Opponent hit your ship at {coord}! Your updated board:\n{view}",
+    "opp_hit": "Moko moko akokoma bateau na ozali na {coord}! Bolenge ya ozali ya sika:\n{view}",
     "you_miss": "Kupuuzwa! Umevunja kupuuzwa kwa {coord}! Board ya yo iliyosahihishwa:\n{view}",
     "opp_miss": "Mwana mpaya akakosa ship ya yo kwa {coord}! Board ya yo iliyosahihishwa:\n{view}"
   },

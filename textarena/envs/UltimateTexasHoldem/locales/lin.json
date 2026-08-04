@@ -26,7 +26,7 @@
     "state": "🎯 MWAKA {round}\n💰 Chips: {chips}\n🎴 Mkono wako: {hand}\n📊 Bets za sasa: Ante ${ante}, Blind ${blind}, Play ${play}\n📋 Hatua: {phase}\n🎯 Vitendo vinavyopatikana: {actions}\n\n"
   },
   "board": {
-    "round_start": "🎮 Round {round} started! Bets: ANTE ${ante}, BLIND ${blind}. You have {chips} chips remaining.",
+    "round_start": "🎮 Mpi {round} ekosaka! Makopo: ANTE ${ante}, BLIND ${blind}. Oza na {chips} makopo masili.",
     "your_hand": " Lobɔkɔ na yo: {hand}",
     "flop_revealed": " FLOP emonisami: {cards}",
     "river_revealed": " RIVER abimisi: {cards}"
@@ -54,16 +54,16 @@
     "play_won": "✅ BOLONGO YA KOSALA ELOKO! +${amount}",
     "play_pushed": " PLAY bet PUSHED! ${play} ezongisami",
     "play_lost": " BÓTALA masano ya mbongo ebungaki! -${play}",
-    "net_gain": "🎉 Round {round} completed! Net gain: +${net}",
-    "net_loss": "💸 Round {round} completed! Net loss: ${net}",
+    "net_gain": "🎉 Mpi {round} ekosili! Nyoko ya mbongo: +${net}",
+    "net_loss": "💸 Mpi {round} ekosili! Hasara ya mbongo: ${net}",
     "separator": "──────────────────────────────────────────────────"
   },
   "outcome": {
-    "game_over_win": "🏁 GAME OVER! {max_turns} rounds completed. You have ${chips} chips - YOU WIN!",
+    "game_over_win": "🏁 JEUX EKOSILI! {max_turns} mpi ekosili. Oza na ${chips} makopo - OWINI!",
     "game_over_lose": " MOSALA EKOKI! Ozali lisusu na ba fiches te. Monyokoli alongi!",
     "reward_win": "Mokeli akomaki {winner_rounds} mikolo na ${chips} chips",
     "reward_lose": "Mosani asilisaki ba fiches na round {round}",
-    "reward_win_max": "Player completed {max_turns} rounds with ${chips} chips"
+    "reward_win_max": "Mchezaji akosili {max_turns} mpi na ${chips} makopo"
   },
   "hand_names": {
     "royal_flush": "Mbongo ya mokonzi (Royal Flush)",

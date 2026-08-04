@@ -14,7 +14,7 @@
     "placed": "കളിക്കാരൻ {player_id} അവരുടെ ചിഹ്നം ({mark}) സെല്ലിൽ {cell}"
   },
   "outcome": {
-    "win": "Player {player_id} wins with {mark}s!",
+    "win": "കളിക്കാരൻ {player_id} {mark}കളുമായി വിജയിക്കുന്നു!",
     "draw": "കളി സമനിലയിലാണ്!"
   }
 }

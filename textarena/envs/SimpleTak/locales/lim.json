@@ -4,7 +4,7 @@
   },
   "invalid_move": {
     "invalid_move_format": "Ongeldige verplaatsingsformaat: % s",
-    "cell_out_of_range": "Invalid cell number {cell_num}. Must be between 0 and {max_board_num}.",
+    "cell_out_of_range": "Ongeldig veldjnummer {cell_num}. Moet tösse 0 en {max_board_num} ligke.",
     "cell_already_occupied": "Cel {cell_num} is al bezet. Kies 'n lege cel."
   },
   "board": {

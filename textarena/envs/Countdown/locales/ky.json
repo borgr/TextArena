@@ -9,7 +9,7 @@
     "progress": "{observation} Учурдагы прогресс баллы: {progress}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use `[i j op]` where i,j are indices and op is +,-,*,/",
+    "wrong_format": "Туура эмес амал форматы. `[i j op]` форматын колдонуңуз, мында i,j - индекстер, op - +,-,*,/",
     "invalid_indices": "Жарамсыз индекстер. 0-{max_index} аралыгында ар кандай болушу керек",
     "invalid_operation": "Жарамсыз операция (нөлгө бөлүү же бүтүн эмес натыйжа)"
   },

@@ -1,22 +1,22 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a {max_rounds} round game of Kuhn Poker.\nGame Rules:\n- Kuhn Poker uses a 3-card deck with J, Q, K (J lowest, K highest)\n- Each player antes {ante} chip and receives 1 card each round (note that the cards are dealt without replacement, so you cannot have the same card as your opponent).\n- Game continues for {max_rounds} rounds\n- The player with the most chips after all rounds wins\nAction Rules:\n- '[check]': Pass without betting (only if no bet is on the table)\n- '[bet]': Add 1 chip to the pot (only if no bet is on the table)\n- '[call]': Match an opponent's bet by adding 1 chip to the pot\n- '[fold]': Surrender your hand and let your opponent win the pot"
+    "intro": "Ati Player {player_id} ta'uun tapha Kuhn Poker {max_rounds} raundiin. \nSeerota Taphaa:\n- Kuhn Poker kaardii 3 qabu J, Q, K (J xiqqaa, K guddaadhaan) fayyadama\n- Taphaatu hundi {ante} chip gumaacha, kaardi 1 ta'uun raundi tokkoo argata (hubachiisa kaardii irraa hin citin, kanaafuu kaardii waliin wal fakkaatu hin qabdu).\n- Tapha {max_rounds} raundii itti fufa\n- Taphaatu chip guddaa qabuun raundii hundumaa bohaarsa\nSeerota Sochi:\n- '[check]': Gumaachuu osoo hin betin (yoo betiin hin jirin)\n- '[bet]': Chip 1 potiin dabaluu (yoo betiin hin jirin)\n- '[call]': Beti doofeeraa waliin wal fakkaachisuun chip 1 potiin dabaluu\n- '[fold]': Hundee kee gadhiisi, doofeeraa potiin bohaarsu"
   },
   "init_round": {
     "round_start": "### Sa'aa {current_round} keessa jirtu {max_rounds} sa'aa. Kaartii kee: '{player_card}'",
     "available_actions": "Tarkaanfiiwwan ati fudhachuu dandeessu: {available_actions}"
   },
   "invalid_move": {
-    "wrong_format": "Action must be [Check], [Bet], [Call], or [Fold].",
+    "wrong_format": "Sochiin [Check], [Bet], [Call], ykn [Fold] ta'u qaba.",
     "not_legal": "Tarkaanfiin {legal_actions} ta'uu qaba."
   },
   "action": {
-    "submit_move": "Player {player_id}, submitted move: '[{move}]'.",
+    "submit_move": "Player {player_id}, sochiin '[{move}]' dhiheesse.",
     "valid_actions": "Tarkaanfiiwwan ati fudhachuu dandeessu: {legal_actions}.",
     "round_summary": "{reason} Sa'aa Koree: Plaayer 0: '{player_0_chips}'; Plaayer 1: '{player_1_chips}'"
   },
   "showdown": {
-    "showdown_summary": "Showdown: Player {winner}'s {winner_card} beats Player {loser}'s {loser_card}. Player {winner} wins pot of {pot_value} chips."
+    "showdown_summary": "Walitti dabarsa: Taphattuu {winner} kaartii {winner_card} isaa Taphattuu {loser} kaartii {loser_card} isaa caalaa cimaa dha. Taphattuu {winner} chippii {pot_value} qabata."
   },
   "outcome": {
     "draw": "Dhuma marsaa {max_rounds} irratti, taphattoonni lamaanuu lakkoofsa chiipsi walfakkaatu qabu.",

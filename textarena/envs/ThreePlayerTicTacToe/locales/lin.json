@@ -11,7 +11,7 @@
     "{moves}": "The comma-separated list of available move tokens like '[4]' (do not translate)"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player Tic Tac Toe.\nYour symbol is '{symbol}'.\nYou take turns placing your symbol on a 5x5 board to form a line of four.\nLines can be horizontal, vertical, or diagonal.\nSubmit your move using the format '[4]' to mark cell 4."
+    "intro": "Oyo nde Ozali Joueur {player_id} na Tic Tac Toe ya Batu Bato.\nElembo na yo ezali '{symbol}'.\nOzali komima na kutambola elembo na yo kati ya planche ya 5 kwa 5 mpo na kotonga ngumba ya minei.\nNgumba ikoki kozala ya mbala-mbala, ya kati, to ya diagonal.\nTambola kimia na formati '[4]' mpo na kombo cellule 4."
   },
   "board": {
     "current_board": "Ebale ya Sika:\n\n{board}\n\nLisolo lya Mikono: {moves}"
@@ -19,7 +19,7 @@
   "invalid_move": {
     "wrong_format": "Na lolenge ya kobaluka ezali na ntina te. Salela \"[cell]\" esika oyo cellule eza 0-{max_cell} .",
     "out_of_range": "Motango ya cellule oyo ezali na ntina te: {cell}. Esengeli kozala kati 0 mpe {max_cell} .",
-    "already_occupied": "Cell {cell} is already occupied.",
+    "already_occupied": "Cellule {cell} ezali deja occupée.",
     "made_invalid": "Mosani {player_id} asali lisano ya mabe."
   },
   "game_action": {

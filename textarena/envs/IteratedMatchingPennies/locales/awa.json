@@ -10,8 +10,8 @@
     "round_mismatch": "प्लेयर 0 ने {choice0} चुना; प्लेयर 1 ने {choice1} चुना। मिसमैच -> प्लेयर 1 जीतता है."
   },
   "outcome": {
-    "p0_wins": "Player 0 won more rounds.",
+    "p0_wins": "खिलाड़ी ० जीतलस अधिक राउंड।",
     "p1_wins": "खिलाड़ी 1 अधिक राउंड जीतकर रही हैं।",
-    "draw": "Overall game is a draw."
+    "draw": "सब खेल बराबरी पे समाप्त भइल।"
   }
 }

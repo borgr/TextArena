@@ -13,8 +13,8 @@
     "already_matched": "Glé neamhbhailí. Roghnaigh imreoir {player_id} cárta amháin nó an dá chárta a bhí comhoiriúnaithe cheana féin."
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "Tá na cártaí a roghnaigh Imreoir {player_id} ag suíomhanna [{r1} {c1}] agus [{r2} {c2}] ag teacht le chéile!",
+    "cards_no_match": "Níl na cártaí a roghnaigh Imreoir {player_id} ag teacht le chéile. Tá cártaí ag suíomhanna [{r1} {c1}] agus [{r2} {c2}] {pos1} agus {pos2} faoi seach."
   },
   "outcome": {
     "draw": "Rinne an dá imreoir comhionannas ar líon na bpáirtí cártaí.",

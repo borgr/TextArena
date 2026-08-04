@@ -9,7 +9,7 @@
     "progress": "{observation} موجوده ترقي جو اسڪور: {progress}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use `[i j op]` where i,j are indices and op is +,-,*,/",
+    "wrong_format": "غلط عمل فارميٽ. `[i j op]` استعمال ڪريو جتي i,j انڊيسز آهن ۽ op +,-,*,/ آهي",
     "invalid_indices": "غلط انڊيڪس. مختلف هجڻ گھرجي ۽ حد ۾ 0-{max_index}",
     "invalid_operation": "غلط آپريشن (صفر يا غير انٽيگر نتيجو جي ذريعي ورهائڻ)"
   },

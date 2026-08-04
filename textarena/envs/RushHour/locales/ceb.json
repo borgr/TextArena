@@ -1,9 +1,9 @@
 {
   "player_prompt": {
-    "intro": "You are playing a {difficulty} RushHour puzzle. Slide cars to free the red car [X] and drive it out the right edge.\nActions: [A+], [B-], etc.  (+ = forward, - = backward)."
+    "intro": "Nagdula ka og {difficulty} RushHour puzzle. Iasdus ang mga sakyanan aron mabuhi ang pulang sakyanan [X] ug idagan kini ngadto sa tuo nga sidsid.\nMga lihok: [A+], [B-], ug uban pa. (+ = pasulong, - = paatras)."
   },
   "invalid_move": {
-    "wrong_format": "Invalid action. Use format [A+] / [B-].",
+    "wrong_format": "Dili tinuod ang lihok. Gamita ang format [A+] / [B-].",
     "no_car": "Walay sakyanan nga \"{car_id}\" sa board.",
     "blocked": "Paglihok nga gibabagan."
   },

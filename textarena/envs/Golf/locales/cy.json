@@ -71,7 +71,7 @@
     "line": "Chwaraewr {pid}: {score} pwyntiau "
   },
   "board_str": {
-    "title": "=== GOLF GAME ===",
+    "title": "=== GÊM GÔLFF ===",
     "discard": "Pyl gwastraff: {card}",
     "knocked": "Mae chwaraewr {pid} wedi curo!",
     "player_header": "Chwaraewr {pid} (Score: {score}):"

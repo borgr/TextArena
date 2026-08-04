@@ -24,15 +24,15 @@
     "intro": "Jūs spēlējat Golfu (Kārtīgu spēli) - Spēletajs {player_id}.\nMērķis: Iegūt zemāko kopējo rezultātu šajā vienīgajā kārtā. Ja kolonnām ir vienādi vērtības, tās tiek sumētas kā 0.\nKārtīgu vērtības: A=1, 2-10=pakāpes vērtība, J/Q=10, K=0\n\nDarbības (lietojiet precīzas iekavas):\n- '[draw]' - Izvilkt no kārtīgu kaudzes\n- '[take]' - Aizņemt no norādīšanas kaudzes\n- '[swap X Y]' - Aizmainīt izvilkto kārti ar pozīciju X (rinda) Y (kolonna)\n- '[discard]' - Norādīt izvilkto kārti\n"
   },
   "board": {
-    "drew": "You drew: {card}\nNow you must [swap X Y] or [discard] it.",
-    "took": "You took: {card} from discard pile\nYou must [swap X Y] with it (cannot discard).",
+    "drew": "Jūs izņēmāt: {card}\nTagad jums ir jāsamainā [swap X Y] vai jāatmet [discard] tā.",
+    "took": "Jūs paņēmāt: {card} no atkritumu kaudzes\nJums ir jāsamainā [swap X Y] ar to (nevar atmest).",
     "peeked": "Jūs pārskatījāt pozīciju ({row},{col}): {card}",
     "turn_view": "Jūsu roka:\n{hand}\nNorādīšanas kaudze: {discard}\n{options}",
     "none": "Nivīns"
   },
   "options": {
     "final_turns": "Pēdējie gājieni! Jūsu iespējas: [draw], [take], [peek X Y]",
-    "draw": "Your options: [draw], [take]",
+    "draw": "Jūsu iespējas: [draw], [take]",
     "must_swap": "Tev ir juobyut: [swap X Y] (nav īspiejams izlītuot kartis nu atlaižamūs kuortu krūga)",
     "swap_or_discard": "Jums jā[swap X Y] vai jā[discard]"
   },
@@ -43,7 +43,7 @@
   },
   "action_desc": {
     "swapped": "Spēletajs {pid} aizmainīja {new} ar {old} pozīcijā ({row},{col})",
-    "discarded": "Player {pid} discarded {card}"
+    "discarded": "Spēlētājs {pid} atmeta {card}"
   },
   "message": {
     "deck_empty": "Spēle beidzās tuoļuok.",
@@ -58,7 +58,7 @@
     "discard_empty": "Atmetņu kūpa ir tukša!",
     "must_draw_first": "Jūs pirmā kārtā jā[draw], [take], [knock], vai [peek X Y]",
     "cannot_discard_taken": "Navar iznycynuot kartis, kas ir atjimtys nu aizlīgšonys krūga. Tev juosamaina tuos.",
-    "have_drawn_card": "You have a drawn card. You must [swap X Y] or [discard] it.",
+    "have_drawn_card": "Jums ir izņemta kārts. Jums ir jāsamainā [swap X Y] vai jāatmet [discard] tā.",
     "need_drawn_swap": "Kab izmaineitu, tev vajag kartis.",
     "need_drawn_discard": "Lai izdzīduotu, tev vajag īsuoktū karteņu.",
     "out_of_bounds": "Pozīcija ārpus robežām. Lietojiet rindu 1-{max_row}, kolonnu 1-{max_col}",

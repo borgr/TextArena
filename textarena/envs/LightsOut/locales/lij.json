@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "L'açion a deve ëse in formato [row col] donde riga e colònna son intreghi da 0 à {max_index}.",
-    "out_of_range": "Coordinates must be between 0 and {max_index}. You entered [{row},{col}]."
+    "out_of_range": "E coordinæ a devan ese tra 0 e {max_index}. Ti gh'è mìsso [{row},{col}]."
   },
   "outcome": {
     "win": "Congratulaçioin! Ti l'æ risòlto o puzzle inte {moves_used} mosse.",

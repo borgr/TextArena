@@ -13,7 +13,7 @@
     "you_hit": "Gir! Te li şûna {coord} keştî girt! Pêşkeftina te ya nû: \n{view}",
     "opp_hit": "Rêveber li şûna te ya{coord} da te girt! Pêşkeftina te ya nû: \n{view}",
     "you_miss": "Xis! Te li şûna {coord} xis! Pêşkeftina te ya nû: \n{view}",
-    "opp_miss": "Opponent missed your ship at {coord}! Your updated board:\n{view}"
+    "opp_miss": "Dijber keştîya te li {coord} derbas bû! Tabloya te ya nû:\n{view}"
   },
   "outcome": {
     "win": "Lîstikvan {player_id} hemû gemîyên dijberên xwe xistine!"

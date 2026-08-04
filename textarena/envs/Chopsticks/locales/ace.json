@@ -14,7 +14,7 @@
   },
   "game_action": {
     "attack": "P{player_id} menyerang genggam P{opp_id} {opp_idx}: ia berubah dari {opp_val} ke {new_val}.",
-    "split": "P{player_id} splits into [{L}, {R}]."
+    "split": "P{player_id} bagi u [{L}, {R}]."
   },
   "history": {
     "entry": "P{player_id} {desc}"

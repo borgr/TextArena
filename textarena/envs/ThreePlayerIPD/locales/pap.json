@@ -15,6 +15,6 @@
     "finalize": "{observation}  di e persona aki."
   },
   "outcome": {
-    "final": "Final scores: {scores}.  Ranking groups (worst→best): {groups}"
+    "final": "Skornan final: {scores}.  Gruponan di ranking (peor→mihó): {groups}"
   }
 }

@@ -12,8 +12,8 @@
     "opp_sunk": "Lawan nyebrak kapal anjeun di {coord}! Papan anjeun yang diperbarui:\n{view}",
     "you_hit": "Kenéh! Anjeun ngahaja kapal di {coord}! Papan anjeun yang diperbarui:\n{view}",
     "opp_hit": "Lawan ngahaja kapal anjeun di {coord}! Papan anjeun yang diperbarui:\n{view}",
-    "you_miss": "Miss! You missed the ship at {coord}! Your updated board:\n{view}",
-    "opp_miss": "Opponent missed your ship at {coord}! Your updated board:\n{view}"
+    "you_miss": "Teu kena! Anjeun teu kena kapal di {coord}! Papan anjeun nu geus diropéa:\n{view}",
+    "opp_miss": "Lawan teu kena kapal anjeun di {coord}! Papan anjeun nu geus diropéa:\n{view}"
   },
   "outcome": {
     "win": "Pamaén {player_id} geus neuleumkeun sakabéh kapal lawanna!"

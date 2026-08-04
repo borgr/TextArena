@@ -13,7 +13,7 @@
     "repeated_guess": "Usuvele uqagele {guess}. Sicela uzame ukuqagela okuhlukile."
   },
   "game_action": {
-    "feedback": "Submitted [{guess}]. Feedback: {black_pegs} black peg(s), {white_pegs} white peg(s)."
+    "feedback": "Kutholwe [{guess}]. Impendulo: {black_pegs} intambo emnyama, {white_pegs} intambo enhle."
   },
   "outcome": {
     "win": "Uyixazulule ikhodi, uxazulule {black_pegs} ngaphandle {code_length} izimbambo kahle",

@@ -13,7 +13,7 @@
     "exceeds_pile": "ვერ ამოიღებს {quantity}-ს {pile_index}-ის ურდულიდან (მხოლოდ {pile_count}-ის დარჩენა)."
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "მოთამაშე {player_id} ითამაშა [{pile_index} {quantity}], ამოიღო {quantity} ობიექტი(ები) გროვა {pile_index}-დან."
   },
   "outcome": {
     "win": "მოთამაშემ {player_id} უკანასკნელი ობიექტი აიღო!"

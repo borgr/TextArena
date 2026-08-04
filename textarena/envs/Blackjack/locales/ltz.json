@@ -9,7 +9,7 @@
     "wrong_format": "Ongültege Aktioun. Benotz '[Hit]' oder '[Stand]'."
   },
   "game_message": {
-    "hand_result": "Hand {hand_number}: you {outcome}. Your final {player_score}, Dealer {dealer_score}.",
+    "hand_result": "Hand {hand_number}: dir {outcome}. Äer lescht {player_score}, Dealer {dealer_score}.",
     "all_complete": "=== All {num_hands} Hänn complett ===\nGewënner: {wins}, Verléier: {losses}, Gläichspiller: {draws}\n"
   },
   "outcome": {

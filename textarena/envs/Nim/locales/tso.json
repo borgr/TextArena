@@ -13,7 +13,7 @@
     "exceeds_pile": "A ku na ku tshika {quantity} eka pile {pile_index} (niku ve na {pile_count} pele)."
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "N'wi {player_id} u hlawule [{pile_index} {quantity}], a susa {quantity} xitolo (xitolo) eka ndzilo {pile_index}."
   },
   "outcome": {
     "win": "Mutlangi {player_id} u teke nchumu wo hetelela (s)!"

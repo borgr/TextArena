@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "Nuddu formatu di mossa validu trovatu. Usa [a1b2], p.es. [b2c3].",
-    "illegal": "Move [{move}] is illegal."
+    "illegal": "La mossa [{move}] è illegali."
   },
   "game_action": {
     "moved": "Lu jucaturi {player_id} si spustò {move}."

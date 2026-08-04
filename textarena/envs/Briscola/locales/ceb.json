@@ -19,7 +19,7 @@
     "{deck_count}": "Number of cards left in the deck"
   },
   "game": {
-    "start": "Ang Briscola game nagsugod! Trump suit: {trump_suit} (Trump card: {trump_card})"
+    "start": "Nagsugod ang dula sa Briscola! Trump suit: {trump_suit} (Trump card: {trump_card})"
   },
   "prompt": {
     "intro": "Ikaw nagdula sa Briscola - Player {player_id}.\nTungon: Manalo sa mga trick ug kuhaa ang labing daghan nga puntos (120 total puntos sa deck).\nMga Puntos sa Card: A=11, 3=10, K=4, Q=3, J=2, laing=0\nGahom sa Card: A > 3 > K > Q > J > 7 > 6 > 5 > 4 > 2\nAng mga Trump cards modaug sa mga non-trump cards bisan asa sa gahom.\n\nAksyon: '[play X]' diin X mao ang posisyon (1-{max_pos}) sa card sa imong kamot\n"
@@ -38,13 +38,13 @@
   },
   "turn": {
     "score_entry": "Ang Player {player_id}: {points} pts",
-    "trump_info": "Trump suit: {trump_suit}",
+    "trump_info": "Pangunahan nga suit: {trump_suit}",
     "trump_info_deck": "Trump suit: {trump_suit} | Mga cards nga nabilin sa deck: {deck_count}",
     "board": "{hand}\n\n{trick}\n\nMga Scores: {scores}\n{trump_info}\n\nPatalawa ang usa ka card gamit ang [play X]"
   },
   "invalid_move": {
     "wrong_format": "Gamita ang [play X] diin X mao ang posisyon sa kard (1, 2, 3, ug uban pa)",
-    "out_of_range": "Baliwala ang posisyon sa card. Ikaw adunay {count} ka cards (1-{count})"
+    "out_of_range": "Dili tinuod nga posisyon sa karta. May {count} ka mga karta (1-{count})"
   },
   "action": {
     "played": "Ang Player {player_id} naglaro {card}",

@@ -6,12 +6,12 @@
     "invalid_action": "Formatu d'aición non válidu. Usa '[roll]' o '[hold]'"
   },
   "actions": {
-    "player_busted": "Player {player_id} busted, losing {turn_total} points!",
+    "player_busted": "El xugador {player_id} foi elimináu, perdiendo {turn_total} puntos!",
     "player_hold": "Xugador {player_id} caltién y aforra {turn_total} puntos"
   },
   "board": {
     "player": "Xugador 0: '{score_0}'; Xugador 1: '{score_1}'",
-    "current_total_scores": "Current Total Scores: {scores}\nYour current turn total is {turn_total}.",
+    "current_total_scores": "Puntuaciones totales actuales: {scores}\nEl to total del tornu actual ye {turn_total}.",
     "roll_history": "{observation}\nLa to historia de tiradas pa esti tornu: {roll_history}",
     "first_roll": "{observation} Ésta ye la primer tirada del to tiempu.",
     "available_actions": "{observation}\nAiciones disponibles: '[roll]' o '[hold]'"

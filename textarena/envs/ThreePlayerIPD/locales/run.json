@@ -15,6 +15,6 @@
     "finalize": "{observation} "
   },
   "outcome": {
-    "final": "Final scores: {scores}.  Ranking groups (worst→best): {groups}"
+    "final": "Alama za mwisho: {scores}.  Vikundi vya utawala (mbi→mzuri): {groups}"
   }
 }

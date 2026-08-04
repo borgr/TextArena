@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in **Ultimate Tic Tac Toe**.\nSubmit your move as **[macro  micro]** (two numbers 0-8):\n• *macro*  = which mini-board you play in\n• *micro* = which square inside that mini-board\nExample `[7 8]` ➜ place your mark in mini-board 7, square 8, and\nforce your opponent to play in mini-board 8 next.\n\nYou are `{symbol}`.\n"
+    "intro": "تاسو د **Ultimate Tic Tac Toe** په لوبه کې د {player_id} لوبغاړی یاست.\nخپل حرکت د **[macro  micro]** په توګه وړاندې کړئ (دوه عددونه 0-8):\n• *macro*  = په کوم مینی بورډ کې لوبه کوئ\n• *micro* = په هغه مینی بورډ کې کوم مربع\nبیلګه `[7 8]` ➜ په مینی بورډ 7 کې خپل نښان کېږدئ، مربع 8 کې، او\nپه مینی بورډ 8 کې بل لوبغاړی د لوبې لپاره مجبور کړئ.\n\nتاسو `{symbol}` یاست.\n"
   },
   "board": {
     "current_board": "اوسنی بورډ: {board}"
@@ -9,7 +9,7 @@
     "wrong_format": "حرکت باید د [macro micro] په شکل کې وي چې شمیرې یې له ۰ څخه تر ۸ پورې وي.",
     "out_of_range": "هر شاخص باید د 0 او 8 ترمنځ وي.",
     "index_out_of_range": "د مایکرو بورډ، قطار، یا کالم له حد څخه بهر دی.",
-    "cell_occupied": "The cell is already occupied.",
+    "cell_occupied": "دغه حجره مخکې له مخکې ډکه شوې ده.",
     "wrong_micro_board": "لوبغاړی باید په راتلونکي مایکرو بورډ کې لوبې وکړي.",
     "micro_board_won": "د مایکرو بورډ لا دمخه ګټل شوی دی."
   },

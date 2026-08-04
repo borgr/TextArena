@@ -16,7 +16,7 @@
     "{cards}": "The cards in a pile as neutral labels, or '--' if empty (never translate)"
   },
   "player_prompt": {
-    "intro": "You are playing Klondike Solitaire. Your goal is to move all cards to the foundation piles.\n\nGame Rules:\n- Foundation piles (F1-F4): Build up from Ace to King in suit\n- Tableau piles (T1-T7): Build down alternating colors (red on black, black on red)\n- Stock: Draw cards to waste pile\n- Waste (W): Top card available for play\n\nCommands:\n- 'draw' - Draw cards from stock to waste\n- 'move <source> <destination> [count]' - Move cards between piles\n  Examples: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count can also be 'all', which will try to move all face-up cards.\n- 'forfeit' - End the game immediately and lock in your current score\n- Pile names: W (waste), F1-F4 (foundations), T1-T7 (tableau)\n\nYou can execute multiple actions in one turn by separating them with commas:\n  Example: 'draw, move W T1, move T2 F1'\n\nOnly Kings can be placed on empty tableau piles.\nActions execute in order - if one fails, the remaining actions are skipped.\nUse 'forfeit' if you believe the game is impossible to win."
+    "intro": "သင် Klondike Solitaire ကစားနေပါသည်။ သင်၏ ရည်မှန်းချက်မှာ အခြေခံအစုများသို့ ကစားပွဲအားလုံး ရွှေ့ရန် ဖြစ်သည်။\n\nကစားပွဲ စည်းမျဉ်းများ။\n- အခြေခံအစုများ (F1-F4): အေမှ ကေ အထိ တိုးမြှင့်ရန်\n- ကစားပွဲအစုများ (T1-T7): အရောင်များ တစ်ခုနှင့် တစ်ခု အလှည့်ကျ တိုးမြှင့်ရန်\n- ကစားပွဲအစု: ကစားပွဲအစုများ အပေါ် ကစားပွဲအစု ရွှေ့ရန်\n- အပေါ်ကစားပွဲအစု (W): အပေါ်ကစားပွဲအစု ကစားရန် ရရှိသည်\n\nအမိန့်များ။\n- 'draw' - ကစားပွဲအစုများ အပေါ် ကစားပွဲအစု ရွှေ့ရန်\n- 'move <source> <destination> [count]' - ကစားပွဲအစုများ အချင်းချင်း ရွှေ့ရန်\n ဥပမာ: 'move W T1', 'move T1 F2', 'move T3 T5 2'။ count သည် 'all' လည်း ဖြစ်နိုင်သည်၊ အားလုံး ကစားပွဲအစုများ ရွှေ့ရန် ကြိုးစားမည်။\n- 'forfeit' - ကစားပွဲ အဆုံးသတ်ရန် နှင့် လက်ရှိ အမှတ် ချိတ်ရန်\n- ကစားပွဲအစု အမှတ်များ: W (အပေါ်ကစားပွဲအစု), F1-F4 (အခြေခံအစု), T1-T7 (ကစားပွဲအစု)\n\nသင် အမိန့်များ အချိန်တစ်ခု အတွင်း အများဆုံး ကစားနိုင်သည်။ အမိန့်များ ကြားတွင် ကော်မာများ ခြားထားရန်။\n ဥပမာ: 'draw, move W T1, move T2 F1'\n\nကစားပွဲအစု အလျား မရှိ ကစားပွဲအစု အပေါ် ကစားပွဲအစု တစ်ခုသာ ရွှေ့နိုင်သည်။\nအမိန့်များ အစီအစဉ် အတိုင်း ကစားရန် - အကယ်၍ တစ်ခု ကစားမရပါက၊ ကျန်အမိန့်များ ကျော်လွန်ရန်။\nကစားပွဲ မကြိုက်နိုင် အကယ်၍ ယုံကြည်ပါက 'forfeit' အသုံးပြုရန်။"
   },
   "format_error": {
     "no_brackets": "ပိူင်ႁဵတ်းသၢင်ႈ ဢၼ်ဢမ်ႇမႅၼ်ႈ။ လွင်ႈႁဵတ်းသၢင်ႈၼႆႉ ထုၵ်ႇလီမီးဝႆႉၼႂ်းၵႄႈ သဵၼ်ႈမၢႆဢၼ်ၶွတ်ႇၽွတ်ႈဝႆႉၼၼ်ႉယဝ်ႉ။",
@@ -24,7 +24,7 @@
     "empty_command": "လွင်ႈသင်ႇဢၼ်ဢမ်ႇမီးတီႈပွင်ႇ။ တႅမ်ႈ 'draw' ဢမ်ႇၼၼ် 'move <source> <destination> [count]'",
     "empty_action": "လွင်ႈႁဵတ်းသၢင်ႈ ဢၼ်ဢမ်ႇမီးလွင်ႈတၢင်း။",
     "move_needs_args": "လွင်ႈၶၢႆႉၼႆႉ မၼ်းလူဝ်ႇလႆႈမီးတီႈငဝ်ႈ လႄႈ တီႈဢွင်ႈ။ ၸႂ်ႉတိုဝ်း: 'move <source> <destination> [count]'",
-    "count_positive": "လွင်ႈၼပ်ႉဢၢၼ်ႇၼႆႉ တေလႆႈပဵၼ် ဢၼ်တဵမ်ထူၼ်ႈ ဢမ်ႇၼၼ် \"တင်းမူတ်း\"။",
+    "count_positive": "Count သည် အပေါင်း သို့မဟုတ် 'all' ဖြစ်ရန်",
     "count_invalid": "လွင်ႈၼပ်ႉဢၢၼ်ႇဢမ်ႇမႅၼ်ႈ ၸႂ်ႉတူဝ်ၼပ်ႉ ဢမ်ႇၼၼ် 'all' (တၢင်းမူတ်း)",
     "unknown_command": "ကူးသန်းမှု '{cmd}' ကို မသိပါ။ 'draw', 'move <source> <destination> [count]', သို့ 'forfeit' ကို အသုံးပြုပါ",
     "wrapped": "Action {n}: {msg}"
@@ -52,14 +52,14 @@
     "tableau_to_tableau_bad": "T{src} မှ T{dst} သို့ {count} ကတ်(များ) ကို ပြောင်းရွှေ့၍ မရပါ",
     "foundation_to_tableau_one_card": "ၸၢင်ႈၶၢႆႉလႆႈ 1 ၶႅပ်းၵူၺ်း လုၵ်ႉတီႈငဝ်ႈငုၼ်းသေ ၵႂႃႇၸူးၽိူၼ်။",
     "foundation_empty": "ငဝ်ႈငုၼ်း F{src} ၼႆႉ လင်ၶႃးဝႆႉ။",
-    "foundation_to_tableau_ok": "Moved card from foundation F{src} to tableau T{dst}",
+    "foundation_to_tableau_ok": "အခြေခံအစု F{src} ကစားပွဲအစု T{dst} သို့ ရွှေ့လိုက်သည်။",
     "foundation_to_tableau_bad": "ဢမ်ႇၸၢင်ႈဢဝ် card တီႈၼိူဝ်ၽႅၼ်ႇလိၼ် T{dst}",
     "to_waste_or_stock": "ဢမ်ႇၸၢင်ႈၶၢႆႉၵႂႃႇတီႈ ဢၼ်ဢမ်ႇထုၵ်ႇလီၸႂ်ႉ ဢမ်ႇၼၼ် ၶူဝ်းၶွင်ၵမ်ႉထႅမ်။"
   },
   "outcome": {
     "forfeit": "လွင်ႈလဵၼ်ႈဢၼ်လႆႈထုၵ်ႇထွၼ်ဢွၵ်ႇ။ ၶေႃႈတွပ်ႇလိုၼ်းသုတ်း: {score} ၽႅၼ်ႇတီႈငဝ်ႈႁၢၵ်ႈၼၼ်ႉယဝ်ႉ။",
     "won": "မႂ်ႇသုင်ၶႃႈ၊ သူင်ႇသူးဢၼ်လႆႈတီႈ Klondike Solitaire ယဝ်ႉဢေႃႈ။",
-    "turn_limit": "Game over! You reached the maximum of {max_turns} turns. Score: {score} cards in foundations."
+    "turn_limit": "ကစားပွဲ အဆုံးသတ်! သင် {max_turns} အချိန် အများဆုံး ရောက်ရှိပါသည်။ အမှတ်: {score} ကစားပွဲအစု အခြေခံအစုများ။"
   },
   "board": {
     "title": "=== KLONDIKE SOLITAIRE=== ၶႅပ်းႁၢင်ႈဢၼ်ၼႆႉ ပဵၼ်ၶႅပ်းႁၢင်ႊ ၵမ်ႇၽႃႇ မိူဝ်ႈပီႊ 1960 ၼၼ်ႉယဝ်ႉ။",

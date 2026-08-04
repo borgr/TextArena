@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You will observe {N} hidden values sequentially.\nAt each step type [accept] to pick the *current* value, or [continue] to skip it and see the next one.\nIf you never accept, you are forced to take the final value.\nYou win (reward = 1) **only** if the value you ultimately pick is the highest of all."
+    "intro": "Bu ta bai observa {N} valor skondí sequencialmente.\nNa kada passu, skrebi [accept] pa pega valor aktual, ou [continue] pa skipa el i odja próssimu.\nSi bu nunka aceita, bu é forsadu pa pega valor final.\nBu ganha (rekompenso = 1) **só** si valor ki bu pega na fin é di mas altu di tudu."
   },
   "game_action": {
     "current_value": "Valór atuál é {value}."

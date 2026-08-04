@@ -14,10 +14,10 @@
     "{scores}": "The final scores as a raw player-number to score mapping - do not translate"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player GOPS.\n- You hold the 13 cards A-K (each exactly once).\n- Each round a prize is revealed. Submit ONE card like `[Q]`, `[10]`, `[2]` …\n- Highest card wins the prize (+ any carry-over pot). Ties roll the prize into the next round.\n- After 13 rounds, highest total wins. Invalid moves = elimination."
+    "intro": "ئەتۆ یاریزانی {player_id}ی لە Three-Player GOPS.\n- تۆ ١٣ کارتەکانی A-K (ھەریەکە تەنیا جارێک) دەھێڵیتەوە.\n- لە ھەر قۆناغێکدا براوەیەک ئاشکرا دەکرێت. کارتێک وەک `[Q]`، `[10]`، `[2]` … بنێرە\n- کارتە بەرزتر براوەیەکە (+ ھەناردەکراوی پۆت). یەکسانبوونەکان براوەکە دەڕۆژنە قۆناغی داھاتوو.\n- دوای ١٣ قۆناغ، نرخی گشتی براوە دەبێت. جووڵە نادروستەکان = لە یاری دەرکردن."
   },
   "round": {
-    "header": "### Round {round}/13 - Prize: {prize} (worth {worth})",
+    "header": "### قۆناغی {round}/١٣ - براوە: {prize} (بە نرخی {worth})",
     "hand": "دەستی تۆی ماوە: {hand}"
   },
   "reveal": {

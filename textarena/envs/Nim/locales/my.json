@@ -13,7 +13,7 @@
     "exceeds_pile": "{quantity} ကို {pile_index} အပုံမှ ဖယ်ရှား၍မရ (၂ {pile_count} သာ ကျန်ရစ်သည်။)"
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "ကစားသမား {player_id} က [{pile_index} {quantity}] ကစားပြီး တောင် {pile_index} မှ {quantity} အရာ ဖယ်ရှားပါသည်။"
   },
   "outcome": {
     "win": "ကစားသမား {player_id} က နောက်ဆုံးအရာဝတ္ထုကို ယူသွားတယ်။"

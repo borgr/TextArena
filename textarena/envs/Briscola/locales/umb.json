@@ -19,10 +19,10 @@
     "{deck_count}": "Number of cards left in the deck"
   },
   "game": {
-    "start": "Briscola game started! Trump suit: {trump_suit} (Trump card: {trump_card})"
+    "start": "Ombandi ya Briscola yayiwa! Ombala ya kufuka: {trump_suit} (Kadi ya kufuka: {trump_card})"
   },
   "prompt": {
-    "intro": "You are playing Briscola - Player {player_id}.\nGoal: Win tricks and collect the most points (120 total points in the deck).\nCard Points: A=11, 3=10, K=4, Q=3, J=2, others=0\nCard Power: A > 3 > K > Q > J > 7 > 6 > 5 > 4 > 2\nTrump cards beat non-trump cards regardless of power.\n\nAction: '[play X]' where X is the position (1-{max_pos}) of the card in your hand\n"
+    "intro": "Ove wu taka Briscola - Mutaka {player_id}.\nOmbandi: Ungula ombala na kupata pointi zaidi (pointi 120 kwa jumla mu kamba).\nPointi za kadi: A=11, 3=10, K=4, Q=3, J=2, zingine=0\nNga ya kadi: A > 3 > K > Q > J > 7 > 6 > 5 > 4 > 2\nKadi za kufuka zinakwata kadi zisizo za kufuka bila kujali nga.\n\nKitendo: '[play X]' ambapo X ni nafasi (1-{max_pos}) ya kadi mu koko yove\n"
   },
   "hand": {
     "none": "Ka tu kuete okokanda koku eca olombanjaile.",
@@ -44,7 +44,7 @@
   },
   "invalid_move": {
     "wrong_format": "Tala [play X] pi X yi lomboloka ocitumãlo ku sangiwa o mapa (1, 2, 3, kuenda ovina vikuavo)",
-    "out_of_range": "Invalid card position. You have {count} cards (1-{count})"
+    "out_of_range": "Nafasi ya kadi si sahihi. Ove na kadi {count} (1-{count})"
   },
   "action": {
     "played": "Mukwata {player_id} akwata {card}",
@@ -52,6 +52,6 @@
   },
   "outcome": {
     "head": "Ndumbo iliisa! Mukwata {winner} unga na {points} pointi!\n\nMafuko ya mwisho:\n{scores}",
-    "player_line": "Player {player_id}: {points} points ({tricks} tricks)\n"
+    "player_line": "Mutaka {player_id}: {points} pointi ({tricks} ombala)\n"
   }
 }

@@ -12,8 +12,8 @@
     "invalid_position": "حركة مش صالحة، ما تقدرش تتحرك للوضع هذا."
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
-    "pushed_prefix": "pushed a box while"
+    "moved": "إنتا {pushed} تحرك [{action}].",
+    "pushed_prefix": "دفع صندوق أثناء"
   },
   "outcome": {
     "win": "مبروك، حلت لغز سوكوبان.",

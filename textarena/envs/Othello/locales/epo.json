@@ -16,7 +16,7 @@
   },
   "game_action": {
     "skipped": "Ludanto {pid} devis preterlasi sian vicon.",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "Ludanto {pid} ({piece}) ludis [{r}, {c}] turnante {flipped} pecon(j)"
   },
   "game_message": {
     "must_skip": "Ludanto {pid} ({piece}) havas neniujn validajn movojn kaj devas preteriri."

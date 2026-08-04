@@ -9,14 +9,14 @@
   "invalid_move": {
     "wrong_format": "Mukalembapo yayi malo agho mukukhumba.",
     "out_of_bounds": "Mzere na mzati wa malo agha ngwakuti palije.",
-    "already_revealed": "Seli iliyo kwenye ({row}, {col}) imetajwa tayari.",
-    "hit_mine": "Umegonga mine kwenye ({row}, {col})."
+    "already_revealed": "Malo pa ({row}, {col}) tayari limefichuliwa.",
+    "hit_mine": "Umegonga miina pa ({row}, {col})."
   },
   "game_action": {
-    "revealed": "Wakutoleza seli iliyo kwenye ({row}, {col})."
+    "revealed": "Umeonyesha malo pa ({row}, {col})."
   },
   "outcome": {
     "win": "Manyani kuti muli kufumiskapo pa bolodi la Minesweeper.",
-    "turn_limit": "The turn limit has been reached. You successfully uncovered {percent}% of the safe cells."
+    "turn_limit": "Mipaka ya zamu imefikia. Umeonyesha kwa mafanikio {percent}% ya malo salama."
   }
 }

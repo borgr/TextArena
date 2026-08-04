@@ -25,7 +25,7 @@
   },
   "board": {
     "drew": "تو {card}ی کێشایەوە:\nئێستا تو [swap X Y] یان [discard] دەبێت",
-    "took": "You took: {card} from discard pile\nYou must [swap X Y] with it (cannot discard).",
+    "took": "ئێوە کارتێکیان گرت: {card} لە پاشەڕۆی لابردن\nئێوە دەبێت [swap X Y] لەگەڵی بکەن (ناتوانن لابردن).",
     "peeked": "تو لە جێگەی ({row},{col}) چاوەڕێی کەوت: {card}",
     "turn_view": "دەستی تو:\n{hand}\nکۆمەڵە ڕەت کراوەکان: {discard}\n{options}",
     "none": "هیچ نییە."

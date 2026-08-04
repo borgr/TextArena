@@ -13,22 +13,22 @@
     "{pct}": "Percentage of letters shared with the target (integer)"
   },
   "prompt": {
-    "intro": "You are Player {player_id}.  Your goal is to reach the target word by changing **one letter at a time**.\n- Start word:  **{start_word}**\n- Target word: **{target_word}**\nSubmit each move in square brackets, e.g.  `[word]`.\nHistory appears below as you play.  Good luck!\n"
+    "intro": "Wena u Muthu {player_id}.  Kulondanga kwako ni kufikila kamba yotaka kwa kubadilisha **kamba moja pamo**.\n- Kamba ya kuanza:  **{start_word}**\n- Kamba yotaka: **{target_word}**\nTumishe kila mwendelezo mwa kamba mwenye mabano ya mraba, kwa mfano  `[word]`.\nLondanga ya nyuma inaonekana pansi wakati wa kutha.  Nzelenga!\n"
   },
   "invalid": {
-    "wrong_format": "Invalid format. Wrap your word in square brackets, e.g. `[word]`.",
-    "wrong_length": "`{word}` has wrong length; target is {target_len} letters.",
-    "not_a_word": "`{word}` is not a recognised English word.",
-    "not_one_different": "`{word}` is not exactly one letter different from `{current}`."
+    "wrong_format": "Mbano usiofaa. Fungila kamba yako mwenye mabano ya mraba, kwa mfano `[word]`.",
+    "wrong_length": "`{word}` ina urefu usiofaa; kamba yotaka ni {target_len} kamba.",
+    "not_a_word": "`{word}` si kamba iliyotambuliwa.",
+    "not_one_different": "`{word}` si kamba moja tofauti na `{current}`."
   },
   "board": {
-    "history": "Word Ladder History: {ladder}.  Target Word: {target}\n"
+    "history": "Londanga ya Kamba: {ladder}.  Kamba Yotaka: {target}\n"
   },
   "feedback": {
-    "progress": "Nice! Keep going.\n{history}"
+    "progress": "Wena u mwana! Tha kuendelea.\n{history}"
   },
   "outcome": {
-    "win": "Congratulations! You reached the target word.",
-    "turn_limit": "The turn limit has been reached. You reached `{current}` which shares {pct}% of its letters with the target `{target}`."
+    "win": "Hongera! Wena u fiki kamba yotaka.",
+    "turn_limit": "Mwisho wa mwendelezo umefikiwa. Wena u fiki `{current}` ambayo inashiriki {pct}% ya kamba zake na kamba yotaka `{target}`."
   }
 }

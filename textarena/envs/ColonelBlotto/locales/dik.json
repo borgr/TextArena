@@ -1,11 +1,11 @@
 {
   "player_prompt": {
-    "intro": "You are {role} in Colonel Blotto.\nYour goal is to win more rounds than your opponent.\nOn each round, allocate exactly {num_total_units} units across fields {field_names}.\nThe player who allocates more units to a field wins that field, and the player who wins more fields wins the round.\nFor example, '[A7 B7 C6]' allocates 7 units to A, 7 to B, and 6 to C.",
-    "commander_alpha": "Commander Alpha, ye aye!",
+    "intro": "Yin ee {role} ee Colonel Blotto.\nYin adhiɛɛr ee menh këcëbɛ̈ɛ̈i pinyë nhïïm kuɔɔth nhïïm.\nKëcëbɛ̈ɛ̈i pinyë nhïïm, yin abëëkë këcë {num_total_units} këcë kuɔɔth {field_names}.\nRaankë yin abëëkë këcë nhïïm kuɔɔth ee këcë, kuɔɔth ee këcë yin ee këcë.\nTɛ̈ɛ̈ŋ, '[A7 B7 C6]' abëëkë 7 këcë A, 7 B, kuɔɔth 6 C.",
+    "commander_alpha": "Bënyë-Alpha",
     "commander_beta": "Bɛ̈ny Beta."
   },
   "game_state": {
-    "header_round": "=== COLONEL BLOTTO - Round {current_round}/{num_rounds} ===\nRounds Won - Commander Alpha: {alpha_score}, Commander Beta: {beta_score}"
+    "header_round": "=== COLONEL BLOTTO - Këcë {current_round}/{num_rounds} ===\nKëcë Nhïïm - Bënyë-Alpha: {alpha_score}, Bënyë-Beta: {beta_score}"
   },
   "round_battle": {
     "field_result": "\nRiɛl {current_round}\nCommander Alpha cɔl: {p0_allocations}\nCommander Beta cɔl: {p1_allocations}\n",
@@ -21,10 +21,10 @@
     "good_allocations": "Aŋuɛ̈ɛ̈n ba ke tek yiic."
   },
   "outcome": {
-    "winner_alpha": "Commander Alpha wins {score_0}-{score_1} after {num_rounds} rounds!",
-    "winner_beta": "Commander Beta wins {score_1}-{score_0} after {num_rounds} rounds!",
+    "winner_alpha": "Bënyë-Alpha ee nhïïm {score_0}-{score_1} ee këcë {num_rounds}!",
+    "winner_beta": "Bënyë-Beta ee nhïïm {score_1}-{score_0} ee këcë {num_rounds}!",
     "draw": "Lɔɔk aŋic bë nyuɔɔth ë {score_0}-{score_1} kɛkɛ ë riɛl {num_rounds}!",
-    "early_winner_alpha": "Commander Alpha wins {scores_0}-{scores_1} (majority achieved)!",
-    "early_winner_beta": "Commander Beta wins {scores_1}-{scores_0} (majority achieved)!"
+    "early_winner_alpha": "Bënyë-Alpha ee nhïïm {scores_0}-{scores_1} (nhïïm ee këcë)!",
+    "early_winner_beta": "Bënyë-Beta ee nhïïm {scores_1}-{scores_0} (nhïïm ee këcë)!"
   }
 }

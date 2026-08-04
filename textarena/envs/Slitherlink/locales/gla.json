@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing Slitherlink on a {R}x{C} grid!\nDraw a single continuous loop so each numbered cell has that many bordering edges.\nToggle edges with:\n  [h r c] - toggle horizontal edge above dots at row r, column c\n  [v r c] - toggle vertical edge left of dots at row r, column c\nNumbers show required edge count, '.' means no constraint.\nYou have up to {max_turns} moves to solve the puzzle."
+    "intro": "Tha thu a' cluich Slitherlink air griod {R}x{C}!\nTarraing lùb shìngilte leantainneach gus am bi àireamh cheart de oirlich aig gach cealla àireamhichte.\nCuir an comas oirlich le:\n  [h r c] - cuir an comas oirlich chothromach os cionn nan dotan aig ràmh r, colbh c\n  [v r c] - cuir an comas oirlich dìreach air clì nan dotan aig ràmh r, colbh c\nTha àireamhan a' sealltainn àireamh iomchaidh oirlich, '.' a' ciallachadh gun eadar-mhàil.\nTha suas ri {max_turns} gluasadan agad gus an tòimhseachan a rèiteachadh."
   },
   "board": {
     "current_board": "{board}\nComharraichean airidh: {progress}"

@@ -9,10 +9,10 @@
     "{pct}": "Progress as a percentage string, e.g. 50%"
   },
   "player_prompt": {
-    "intro": "Map each letter to a unique digit so the arithmetic holds.\nAssign with `[A 5]`, re-assign anytime.\n"
+    "intro": "დამატებით თითოეულ ასოს უნიკალური ციფრი, რომ არითმეტიკა შენარჩუნდეს.\nმინიჭება გააკეთეთ `[A 5]`-ით, ხელახლა მინიჭება ნებისმიერ დროს.\n"
   },
   "invalid_move": {
-    "wrong_format": "Bad action format. Use `[A 5]`.",
+    "wrong_format": "მოქმედების ფორმატი არასწორია. გამოიყენეთ `[A 5]`.",
     "letter_not_in_puzzle": "ასო {letter} არ არის თავსატეხი.",
     "digit_used": "ციფრი {digit} უკვე გამოიყენება {used_letter}-ის მიერ.",
     "leading_zero": "სიტყვის სათავე ციფრი არ შეიძლება იყოს 0."
@@ -20,7 +20,7 @@
   "outcome": {
     "correct": "ოპაგჲ, ჲბჲპვნთვ ვ ჟოპაგვნ.",
     "incorrect": "რუკამატება დასრულებულია, მაგრამ განტოლება არასწორია.",
-    "limit": "Move limit reached."
+    "limit": "სვლების ლიმიტი მიღწეულია."
   },
   "board": {
     "mapping_header": "რუკების შექმნა:",

@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing PegJump. Jump one peg over another into an empty hole, removing the jumped peg.\nGoal: finish with exactly **one** peg left. Action format: e.g. '[4 1]'."
+    "intro": "ئەتۆ دەی لێی PegJump. لەسەر پێگی تر بە پێگێکەوە بە قەڵەمێکی چۆڵدا، پێگی قەپۆشکراو لادەبرێت.\nئامانج: بە تەنھا **یەک** پێگێکەوە تەواو ببە. فۆرماتی کار: بۆ نموونە '[4 1]'."
   },
   "board": {
     "current_board": "پێگەکان مابوونەوە: {count}\n{board}"

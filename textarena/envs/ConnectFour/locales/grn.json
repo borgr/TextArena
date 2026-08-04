@@ -1,14 +1,14 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in Connect Four.\nYour disc symbol: {symbol}.\nThe game board has {num_rows} rows and {num_cols} columns.\nPlayers take turns dropping their disc into one of the columns (0 to {end_col}).\nThe first to connect (their own) four discs vertically, horizontally, or diagonally wins.\nOn your turn, enter the column number in squared brackets to make your move.\nFor example: '[col 4]' or '[col 1]'."
+    "intro": "Nde Player {player_id} Connect Four-pe.\nNde disco símbolo: {symbol}.\nJuego tablero oguereko {num_rows} fila ha {num_cols} columna.\nJugadores ojapo turno oikytĩ hikuái i disco peteĩ columna-pe (0 guive {end_col} peve).\nOĩva'ekue oikytĩ irundy disco ijojaha'ỹre, yvatére térã diagonalmente, oipota.\nNde turno-pe, ehai columna papapy squared brackets-pe eikytĩ ñande reko.\nTechapyrã: '[col 4]' térã '[col 1]'."
   },
   "board": {
     "board_visible_state": "Estado junta: {board_visual} Oñe'êta hikuái peteî ñe'ême.",
-    "board_notvisible_state": "Pe tablero de juego ndojehechai umi jugador-pe."
+    "board_notvisible_state": "Tablero ñeha'ã no ojehecha jehaípe."
   },
   "invalid_move": {
     "wrong_format": "Jogador {player_id}, Hecha katu ñe´ẽme. Ehecha format: '[col x]'.",
-    "out_of_range": "Player {player_id}, Invalid action. Column {col} is out of bounds.",
+    "out_of_range": "Jugador {player_id}, Tembiapo no ikatu. Sãso {col} ndaipóri jerére.",
     "already_full": "Jogador {player_id}, Hecha katu. Column {col} imba´e."
   },
   "action": {

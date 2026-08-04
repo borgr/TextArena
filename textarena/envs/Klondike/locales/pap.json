@@ -16,7 +16,7 @@
     "{cards}": "The cards in a pile as neutral labels, or '--' if empty (never translate)"
   },
   "player_prompt": {
-    "intro": "You are playing Klondike Solitaire. Your goal is to move all cards to the foundation piles.\n\nGame Rules:\n- Foundation piles (F1-F4): Build up from Ace to King in suit\n- Tableau piles (T1-T7): Build down alternating colors (red on black, black on red)\n- Stock: Draw cards to waste pile\n- Waste (W): Top card available for play\n\nCommands:\n- 'draw' - Draw cards from stock to waste\n- 'move <source> <destination> [count]' - Move cards between piles\n  Examples: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count can also be 'all', which will try to move all face-up cards.\n- 'forfeit' - End the game immediately and lock in your current score\n- Pile names: W (waste), F1-F4 (foundations), T1-T7 (tableau)\n\nYou can execute multiple actions in one turn by separating them with commas:\n  Example: 'draw, move W T1, move T2 F1'\n\nOnly Kings can be placed on empty tableau piles.\nActions execute in order - if one fails, the remaining actions are skipped.\nUse 'forfeit' if you believe the game is impossible to win."
+    "intro": "Bo ta hunga Klondike Solitaire. Bo meta ta pa move tur kart pa e pila di fundashon.\n\nReglanan di Wega:\n- Pila di fundashon (F1-F4): Konstruí desde As te Rei den suit\n- Pila di tablero (T1-T7): Konstruí abou ku koló alterna (koru riba preto, preto riba koru)\n- Stock: Tira kart pa e pila di waste\n- Waste (W): E kart di ariba disponibel pa hunga\n\nKomandonan:\n- 'draw' - Tira kart for di stock pa waste\n- 'move <source> <destination> [count]' - Move kart entre pila\n  Ehempel: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count tambe por ta 'all', ku lo intenta move tur kart ku ta wak.\n- 'forfeit' - Kaba e wega inmediatamente i sera bo skor aktual\n- Nòmber di pila: W (waste), F1-F4 (fundashon), T1-T7 (tablero)\n\nBo por ehekutá aksiononan múltiplo den un turno pa separá nan ku komma:\n  Ehempel: 'draw, move W T1, move T2 F1'\n\nSolamente Rei por ta poní riba pila di tablero bashí.\nAksiononan ta ehekutá den órdu - si un faya, e aksiononan restante ta saltá.\nUsa 'forfeit' si bo kere ku e wega ta imposibel pa gana."
   },
   "format_error": {
     "no_brackets": "E forma di e akshon ta invalido. Akshon mester keda den paréntesis.",
@@ -24,9 +24,9 @@
     "empty_command": "Komando sin nada. Tipo 'draw' òf 'move <source><destination> [count]'.",
     "empty_action": "Akshon ku no tin nada di hasi",
     "move_needs_args": "E komando move ta rekerí fuente i destinashon. Uso: 'move <source> <destination> [count]'",
-    "count_positive": "E kantidat di hende ku ta wòrdu kontá mester ta positivo òf \"tur\"",
-    "count_invalid": "Invalid count. Use a number or 'all' (Konta ku no ta válido)",
-    "unknown_command": "Komando no konosí '{cmd}'. Usá 'saña', 'muda <fuente> <destino> [count]', o 'renunsia'",
+    "count_positive": "Kantidat mester ta positivo of 'all'",
+    "count_invalid": "Kantidat inválido. Usa un número of 'all'",
+    "unknown_command": "Komando desconosí '{cmd}'. Usa 'draw', 'move <source> <destination> [count]', of 'forfeit'",
     "wrapped": "Aksion {n}: {msg}"
   },
   "action_result": {
@@ -45,7 +45,7 @@
     "tableau_to_foundation_bad": "No por move e karta di tabèl na e pila fundashon.",
     "foundation_to_foundation": "No por move di fundeshi pa otro fundacion.",
     "waste_to_tableau_one_card": "Por move solamente 1 karta for di e waste pa tableau.",
-    "waste_to_tableau_ok": "Moved card from waste to tableau T{dst}",
+    "waste_to_tableau_ok": "Move kart for di waste pa tablero T{dst}",
     "waste_to_tableau_bad": "No por pone karchi di despilfarro riba e pila di tablero ei.",
     "no_face_up": "No tin karchi ku ta habri pa move.",
     "tableau_to_tableau_ok": "A mové {count} karton(nan) for di tableau T{src} pa T{dst}",

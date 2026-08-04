@@ -24,10 +24,10 @@
     "intro": "You are Player {player_id}, playing {num_rounds} rounds of Iterated Ultimatum Game.\nYou have ${pool} to split this round between yourself and Player {other_id}.\n\nProposer:\n  - Make an offer: [Offer: $X] (0 <= X <= pool)\n  - If accepted → You get $(pool - X), other player gets $X\n  - If rejected → Both get $0\n  - Example: [Offer: $3]  or  'I think this is fair. [Offer: $5]'\n\nResponder:\n  - Decide on the offer with either [Accept] or [Reject]\n  - Example: 'That seems reasonable. [Accept]'\n            'Too unfair. [Reject]'\n"
   },
   "round": {
-    "begins": "--- Round {round_number} begins! ---\nPlayer {proposer_id} is the proposer, Player {responder_id} is the responder.",
-    "offer": "Round {round_number}: Player {proposer_id} offers ${offer} to Player {responder_id} (keeping ${keep}).",
+    "begins": "--- Kalo {round_number} bilibila! ---\nKɛlɛmɛ {proposer_id} ye kɛlɛmɛ tɛmɛ, Kɛlɛmɛ {responder_id} ye kɛlɛmɛ pɔɔrɛ.",
+    "offer": "Kalo {round_number}: Kɛlɛmɛ {proposer_id} fɔ {offer} dɔla Kɛlɛmɛ {responder_id} (kɛlɛmɛ kɛndɛ ${keep}).",
     "accepted": "Pɩyɛ {responder_id} accepted! Round {round_number} gains: Pɩyɛ {proposer_id} +${proposer_gain}, Pɩyɛ {responder_id} +${responder_gain}. New totals: Pɩyɛ 0: ${total_0}, Pɩyɛ 1: ${total_1}.",
-    "rejected": "Player {responder_id} rejected the offer! Round {round_number} gains: Both players +$0. Totals remain: Player 0: ${total_0}, Player 1: ${total_1}."
+    "rejected": "Kɛlɛmɛ {responder_id} pɔɔrɛ tɛmɛ lɛmɛ kɛlɛmɛ fɔɔ! Kalo {round_number} mɛrɛ: Kɛlɛmɛ wɛɛla +$0. Kɛlɛmɛ tɔpɛɛla wɛɛla: Kɛlɛmɛ 0: ${total_0}, Kɛlɛmɛ 1: ${total_1}."
   },
   "invalid_move": {
     "no_offer_format": "Sẽn dat n maan b tʋʋma segdame tɩ b kõ-a noor ne [Offer: $X].",
@@ -37,7 +37,7 @@
     "accept_or_reject": "Responder bɛ [Accept] bee [Reject] kɛ offer ŋɔ."
   },
   "outcome": {
-    "win": "Player {winner} won with ${winner_total} total vs Player {loser}'s ${loser_total}.",
-    "draw": "Draw! Pɩyɛ two finished with ${total} total."
+    "win": "Kɛlɛmɛ {winner} pɛɛra kɛlɛmɛ ${winner_total} tɔpɛɛla Kɛlɛmɛ {loser} tɔpɛɛla ${loser_total}.",
+    "draw": "Kɔlɛmɛ! Yɛrɛ ka tɔtɔ: ${total} tɔtɔ."
   }
 }

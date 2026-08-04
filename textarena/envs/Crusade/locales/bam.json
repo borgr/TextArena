@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({piece}). Opponent is ({opp}). Submit moves as '[b1 c3]' (from → to). All pieces move like chess knights.\nEach capture scores {score_per_capture} point. Game ends after {max_moves} moves or when a player has no legal move / no pieces. Higher score wins."
+    "intro": "I ye Jwé {player_id} ({piece}). Jwé mèkè ({opp}). Sèbèli kèlèw ka '[b1 c3]' (tè → ka). Kèlèw bèè kèlèw ye chess knights.\nKèlèw kèlèw bèè {score_per_capture} poin. Jwé bèè kèlèw ka {max_moves} kèlèw wala jwé mèkè tè sèbèli kèlèw / kèlèw tè. Poin caman bèè sèbè."
   },
   "board": {
     "current_board": "Sɛbɛn #{move_count}\n\n{board}\n\nSɛbɛn in kɔnɔnw: {moves}"

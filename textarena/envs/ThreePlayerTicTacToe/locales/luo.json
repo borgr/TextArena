@@ -11,22 +11,22 @@
     "{moves}": "The comma-separated list of available move tokens like '[4]' (do not translate)"
   },
   "player_prompt": {
-    "intro": "Wewe ni Mchezaji {player_id} katika Tic Tac Toe ya wachezaji watatu.\nIshara yako ni '{symbol}'.\nWewe huchukua mizunguko kuweka ishara yako kwenye bodi ya 5x5 kuunda mstari wa nne.\nMistari inaweza kuwa ya usawa, wima, au diagonal.\nWasilisha kuhamia kwa kutumia muundo '[4]' ili kuchora seli 4."
+    "intro": "Inwe Player {player_id} katika Tic Tac Toe ya wachezi watatu.\nKigawanyo chako ni '{symbol}'.\nInawechi zamu kuweka kigawanyo chako kwenye ubao wa 5x5 ili kuunda mstari wa vinne.\nMistari inaweza kuwa ya mlalo, wima, au diagonal.\nTuma zamu yako kwa kutumia mfumo wa '[4]' ili kuashiria seli ya 4."
   },
   "board": {
-    "current_board": "Bodi ya sasa:\n\n{board}\n\nMicuaro iliyopatikana: {moves}"
+    "current_board": "Ubao wa Sasa:\n\n{board}\n\nZamu Zinazopatikana: {moves}"
   },
   "invalid_move": {
     "wrong_format": "Ok en yo mowinjore mar dar. Ti kod \"[cell]\" kama cell en 0-{max_cell}.",
-    "out_of_range": "Nambari ya seli isiyo halali: {cell}. Inabidi iwe kati ya 0 na {max_cell}.",
+    "out_of_range": "Nambari ya seli isiyo sahihi: {cell}. Lazima iwe kati ya 0 na {max_cell}.",
     "already_occupied": "Cell {cell} en gima osebed ka itiyo godo.",
     "made_invalid": "Jalo {player_id} ne otimo tugo maok owinjore."
   },
   "game_action": {
-    "placed": "Mchezaji {player_id} huweka ishara yake ({symbol}) kwenye uwanja ({row}, {col})."
+    "placed": "Player {player_id} ateka kigawanyo chake ({symbol}) kwenye uwanja ({row}, {col})."
   },
   "outcome": {
-    "win": "Mchezaji {player_id} ({symbol}) anashinda!",
+    "win": "Player {player_id} ({symbol}) ashinda!",
     "draw": "Tugo dhi maber!"
   }
 }

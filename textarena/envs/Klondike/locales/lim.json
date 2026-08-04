@@ -16,23 +16,23 @@
     "{cards}": "The cards in a pile as neutral labels, or '--' if empty (never translate)"
   },
   "player_prompt": {
-    "intro": "You are playing Klondike Solitaire. Your goal is to move all cards to the foundation piles.\n\nGame Rules:\n- Foundation piles (F1-F4): Build up from Ace to King in suit\n- Tableau piles (T1-T7): Build down alternating colors (red on black, black on red)\n- Stock: Draw cards to waste pile\n- Waste (W): Top card available for play\n\nCommands:\n- 'draw' - Draw cards from stock to waste\n- 'move <source> <destination> [count]' - Move cards between piles\n  Examples: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count can also be 'all', which will try to move all face-up cards.\n- 'forfeit' - End the game immediately and lock in your current score\n- Pile names: W (waste), F1-F4 (foundations), T1-T7 (tableau)\n\nYou can execute multiple actions in one turn by separating them with commas:\n  Example: 'draw, move W T1, move T2 F1'\n\nOnly Kings can be placed on empty tableau piles.\nActions execute in order - if one fails, the remaining actions are skipped.\nUse 'forfeit' if you believe the game is impossible to win."
+    "intro": "Doe speuls Klondike Solitaire. Diene doel is óm alle kaarte nao de fundamènt-pile te verplaatsen.\n\nSpelregele:\n- Fundamènt-pile (F1-F4): Opboewe van Aas tot Keuning in kleur\n- Tableau-pile (T1-T7): Aafboewe in aafwisselende kleure (roed op zwart, zwart op roed)\n- Veurraod: Tèk kaarte nao aafval-pile\n- Aafval (W): Boveste kaart besjikbaar veur 't speul\n\nCommando's:\n- 'draw' - Tèk kaarte van veurraod nao aafval\n- 'move <source> <destination> [count]' - Verplaats kaarte tösse pile\n  Veurbiljer: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count kin ouch 'all' zien, wat perbeert alle kaarte nao baove te verplaatsen.\n- 'forfeit' - Beëindig 't speul metein en bevestig diene huidige score\n- Pile-name: W (aafval), F1-F4 (fundamènt), T1-T7 (tableau)\n\nDoe kins meerdere acties in ein beurt oetveure door ze mèt komma's te sjeije:\n  Veurbild: 'draw, move W T1, move T2 F1'\n\nAllein Keuninge kinne op laeg tableau-pile geplaats waere.\nActies waere in volgorde oetgeveurd - es ein faalt, waere de euvergebleve acties euvergeslage.\nGebruuk 'forfeit' es doe geluifs dat 't speul ónmeugelek is te winne."
   },
   "format_error": {
     "no_brackets": "Ongeldige actieformaat. 't Aktieformulier moet in haakjes zien.",
-    "no_closing_bracket": "Foarútgeande aksjeformaat: ûntbrekende slotbeugel ']'",
+    "no_closing_bracket": "Ongeljige actie-formaat. Óntbrekende aafsluutende haksklauwe ']'",
     "empty_command": "Leeg commando. Typ 'draw' of 'move <source> <destination> [count]'.",
     "empty_action": "Leeg actie",
-    "move_needs_args": "'t Bevel verplaats vereist bron en bestemming. Gebroek: \"verplaats <bron> <bestemming> [count]\"",
-    "count_positive": "tèl moet positief of \"alle\" weure.",
-    "count_invalid": "Onwaordige tel. Gebroek 'n getal of \"alle\"",
+    "move_needs_args": "Verplaats-commando haet brón en bestemming nuuedig. Gebruuk: 'move <source> <destination> [count]'",
+    "count_positive": "Aantal mót posetief of 'all' zien",
+    "count_invalid": "Ongeljig aantal. Gebruuk e getal of 'all'",
     "unknown_command": "Onbekind commando '{cmd}'. Gebruuk 'draw', 'move <source> <destination> [count]', of 'forfeit'",
     "wrapped": "Actie {n}: {msg}"
   },
   "action_result": {
     "success": "Actie {n}: {msg}",
     "before_failure": "Exekutie {n} actie (s) veur mislukking.",
-    "failed": "Action {n} failed: {msg}"
+    "failed": "Actie {n} gefaald: {msg}"
   },
   "move_result": {
     "drew": "De kaart is van de stook nao 't afval gehaold.",

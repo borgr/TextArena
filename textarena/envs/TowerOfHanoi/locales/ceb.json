@@ -16,7 +16,7 @@
     "moved": "Gihawa ang disk {disk} gikan sa {source} ngadto sa {target}."
   },
   "outcome": {
-    "win": "Congratulations! Nakahimo ka sa pag-solve sa puzzle nga Tower of Hanoi.",
+    "win": "Mabuhay! Nalutas nimo ang puzzle sa Tower of Hanoi.",
     "turn_limit": "Ang limitasyon sa pag-ikot naabot. Husto ka nga gibutang {pct}% sa mga disk diha sa Tower C."
   }
 }

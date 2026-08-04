@@ -14,7 +14,7 @@
   },
   "game_action": {
     "attack": "P{player_id} ataca la mano de P{opp_id} {opp_idx}: va da {opp_val} a {new_val}.",
-    "split": "P{player_id} splits into [{L}, {R}]."
+    "split": "P{player_id} spacamento in [{L}, {R}]."
   },
   "history": {
     "entry": "P{player_id} {desc}"

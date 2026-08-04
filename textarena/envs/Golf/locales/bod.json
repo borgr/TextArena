@@ -21,17 +21,17 @@
     "{scores}": "The pre-rendered per-player list of final scores"
   },
   "player_prompt": {
-    "intro": "You are playing Golf (Card Game) - Player {player_id}.\nGoal: Get the lowest total score in this single round. If columns share the same value, they are summed as 0.\nCard Values: A=1, 2-10=face value, J/Q=10, K=0\n\nActions (use exact brackets):\n- '[draw]' - Draw from deck\n- '[take]' - Take from discard pile\n- '[swap X Y]' - Swap drawn card with position X (row) Y (column)\n- '[discard]' - Discard the drawn card\n"
+    "intro": "ཁྱེད་གོལཕ (ཁ་རྩེད) རྩེད་མཁན་ཨང་ {player_id} ཡིན།\nདམིགས་ཡུལ། རྩེད་མཁན་གྱི་བུད་རྩིས་ཆུང་ཤོས་གང་ལ་རྩིས་པ། གྲིམ་གྱི་སྒྲིག་ཨང་གཅིག་པ་ཡིན་ན། ཁ་རྩེད་གི་བུད་རྩིས་གཙོ་བོ་གཅིག་པ་ཡིན།\nཁ་རྩེད་གི་བུད་རྩིས། A=༡, ༢-༡༠=ཁ་རྩེད་གི་བུད་རྩིས་གཙོ་བོ། J/Q=༡༠, K=༠\n\nལས་ཀ་གང་ལ་བྱེད་པ། (ལས་ཀ་གི་གཟུགས་བརྙན་རྟགས་བཀོལ་བ།)\n- '[draw]' - ཁ་རྩེད་གསར་པ་བླངས་པ།\n- '[take]' - ཁ་རྩེད་བསལ་བའི་གྲིམ་ནས་བླངས་པ།\n- '[swap X Y]' - ཁ་རྩེད་གསར་པ་གྲིམ་གྱི་ཐིག་ཨང་ X སྒྲིག་ཨང་ Y ནང་བཞག་པ།\n- '[discard]' - ཁ་རྩེད་གསར་པ་བསལ་བ།"
   },
   "board": {
     "drew": "ཁྱེད་ཀྱིས་བླངས་པ།: {card}\nད་ནི་ཁྱེད་[swap X Y] ཡང་ན་[discard]",
     "took": "ཁྱོད་ཀྱིས་ {card}ལས་ཕྱིར་འབུད་བྱེད་པེ་ཅིན་ནས་བཏོན་ཏེ། དེ་དང་མཉམ་དུ་ (མ་བཏུབ་པར་) [swap X Y]བཞག་དགོས།",
-    "peeked": "You peeked at position ({row},{col}): {card}",
-    "turn_view": "Your hand:\n{hand}\nDiscard pile: {discard}\n{options}",
+    "peeked": "ཁྱེད་གྲིམ་གྱི་ཐིག་ཨང་ ({row},{col}) ནང་བལྟས་པ། {card}",
+    "turn_view": "ཁྱེད་ཀྱི་ཁ་རྩེད་གྲིམ།\n{hand}\nཁ་རྩེད་བསལ་བའི་གྲིམ། {discard}\n{options}",
     "none": "མེད་པ།"
   },
   "options": {
-    "final_turns": "Final turns! Your options: [draw], [take], [peek X Y]",
+    "final_turns": "རྩེད་མཇུག་གི་རེའུ་ལས། ཁྱེད་ཀྱི་ལས་ཀ་གང་ལ་བྱེད་པ། [draw], [take], [peek X Y]",
     "draw": "ཁྱེད་ཀྱི་གཞུང་ལམ།: [draw]、[take]",
     "must_swap": "[swap X Y] (ཕྱིར་འབུད་མ་ཐུབ་པའི་ལག་འཁྱེར་)",
     "swap_or_discard": "ཁྱེད་ཀྱིས་[swap X Y] ཡང་ན་[discard]"
@@ -42,13 +42,13 @@
     "row": "Row {n}: {cards}"
   },
   "action_desc": {
-    "swapped": "Player {pid} swapped {new} with {old} at position ({row},{col})",
-    "discarded": "Player {pid} discarded {card}"
+    "swapped": "{pid} མི་སྣས་ ({row},{col}) འདི་རུ་ཡོད་པའི་ {old} དང་ {new} བརྗེ་བརྗེ་བྱས་པ་རེད།",
+    "discarded": "རྩེད་མཁན་ཨང་ {pid} གྱིས་ཁ་རྩེད་ {card} བསལ་བ།"
   },
   "message": {
     "deck_empty": "དུམ་བུ་སྟོང་པ་འདུག རྩེད་མོ་དེ་དུས་མིན་མཇུག་བསྡུ་གི་རེད།",
     "knocked": "རྩེད་འགྲན་པ་ {pid} ཕུང་པོ། གཞན་རྩེད་མིར་ཐེངས་གཅིག་ཆོད་ཐུབ།",
-    "final_round": "Player {pid} {reason}! Each other player gets one more turn."
+    "final_round": "རྩེད་མཁན་ཨང་ {pid} {reason}། རྩེད་མཁན་གཞན་གྱིས་རེའུ་ལས་གཅིག་བྱེད་པ།"
   },
   "reason": {
     "all_revealed": "ཤོག་བྱང་ཚང་མ་མངོན་པར་བྱས་ཡོད་ན།"
@@ -74,6 +74,6 @@
     "title": "=== གཱོལ་ཕའི་རྩེད་འགྲན།===",
     "discard": "ཕྱིར་འབུད་བྱེད་སྒམ་: {card}",
     "knocked": "རྩེད་འགྲན་པ་ {pid} གིས་ཐོ་བརྡུང་འདུག!",
-    "player_header": "Player {pid} (Score: {score}):"
+    "player_header": "རྩེད་མཁན་ཨང་ {pid} (བུད་རྩིས་ {score})།"
   }
 }

@@ -16,16 +16,16 @@
     "{cards}": "The cards in a pile as neutral labels, or '--' if empty (never translate)"
   },
   "player_prompt": {
-    "intro": "You are playing Klondike Solitaire. Your goal is to move all cards to the foundation piles.\n\nGame Rules:\n- Foundation piles (F1-F4): Build up from Ace to King in suit\n- Tableau piles (T1-T7): Build down alternating colors (red on black, black on red)\n- Stock: Draw cards to waste pile\n- Waste (W): Top card available for play\n\nCommands:\n- 'draw' - Draw cards from stock to waste\n- 'move <source> <destination> [count]' - Move cards between piles\n  Examples: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count can also be 'all', which will try to move all face-up cards.\n- 'forfeit' - End the game immediately and lock in your current score\n- Pile names: W (waste), F1-F4 (foundations), T1-T7 (tableau)\n\nYou can execute multiple actions in one turn by separating them with commas:\n  Example: 'draw, move W T1, move T2 F1'\n\nOnly Kings can be placed on empty tableau piles.\nActions execute in order - if one fails, the remaining actions are skipped.\nUse 'forfeit' if you believe the game is impossible to win."
+    "intro": "Tas xugando al Solitariu Klondike. El to oxetivu ye mover toles cartes a les piles de fundamentu.\n\nRegles del xuegu:\n- Piles de fundamentu (F1-F4): Constrúi dende l'As hasta'l Rei del mesmu palu\n- Piles de tableru (T1-T7): Constrúi escontra baxo alternando colores (colloráu sobre prietu, prietu sobre colloráu)\n- Stock: Roba cartes pa la pila de refugaya\n- Refugaya (W): La carta cimera ta disponible pa xugar\n\nComandos:\n- 'draw' - Roba cartes del stock a la refugaya\n- 'move <source> <destination> [count]' - Mueve cartes ente piles\n  Exemplos: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count tamién pue ser 'all', que va intentar mover toles cartes boca arriba.\n- 'forfeit' - Acaba'l xuegu darréu y bloquia la to puntuación actual\n- Nomes de piles: W (refugaya), F1-F4 (fundamentos), T1-T7 (tableru)\n\nPues executar delles aiciones nuna sola vez separándoles con comes:\n  Exemplu: 'draw, move W T1, move T2 F1'\n\nNamái los Reis puen ser asitiaos en piles vacíes de tableru.\nLes aiciones execútense n'orde - si una falla, les aiciones restantes saltense.\nUsa 'forfeit' si crees que'l xuegu ye imposible de ganar."
   },
   "format_error": {
     "no_brackets": "Esti formatu ye inválidu. La acción tien de tar ente paréntesis.",
     "no_closing_bracket": "Formatu d'acción inválidu. Falta un paréntesis de cierre \"]\"",
     "empty_command": "Comandu vacíu. Escribe \"draw\" o \"move <source><destination> [count]\".",
     "empty_action": "Acción vacía.",
-    "move_needs_args": "El so usu ye pa mover <fuente> <destín> [count].",
-    "count_positive": "El recuentu tien de ser positivu o \"todos\"",
-    "count_invalid": "Contu inválidu. Usa un númberu o \"todos\"",
+    "move_needs_args": "El comandu move rique fonte y destín. Usu: 'move <source> <destination> [count]'",
+    "count_positive": "El conteo tien de ser positivu o 'all'",
+    "count_invalid": "Conteo inválidu. Usa un númberu o 'all'",
     "unknown_command": "Comandu desconocíu '{cmd}'. Usa 'draw', 'move <source> <destination> [count]', o 'forfeit'",
     "wrapped": "Aición {n}: {msg}"
   },

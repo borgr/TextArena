@@ -12,7 +12,7 @@
     "invalid_position": "Gerakan ora sah - ora bisa pindhah menyang posisi kasebut."
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
+    "moved": "Sampeyan {pushed} obah [{action}].",
     "pushed_prefix": "nyurung kothak nalika"
   },
   "outcome": {

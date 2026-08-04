@@ -11,7 +11,7 @@
     "not_legal": "ਕਾਰਵਾਈ {legal_actions} ਹੋਣੀ ਚਾਹੀਦੀ ਹੈ।"
   },
   "action": {
-    "submit_move": "Player {player_id}, submitted move: '[{move}]'.",
+    "submit_move": "ਖਿਡਾਰੀ {player_id}, ਕਾਰਵਾਈ ਜਮ੍ਹਾਂ ਕੀਤੀ: '[{move}]'.",
     "valid_actions": "ਤੁਹਾਡੇ ਉਪਲਬਧ ਕਾਰਜ ਇਹ ਹਨਃ {legal_actions}.",
     "round_summary": "{reason} ਮੌਜੂਦਾ ਸਕੋਰਃ ਖਿਡਾਰੀ 0: \"{player_0_chips}\"; ਖਿਡਾਰੀ 1: \"{player_1_chips}\""
   },

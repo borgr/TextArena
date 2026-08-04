@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in **Ultimate Tic Tac Toe**.\nSubmit your move as **[macro  micro]** (two numbers 0-8):\n• *macro*  = which mini-board you play in\n• *micro* = which square inside that mini-board\nExample `[7 8]` ➜ place your mark in mini-board 7, square 8, and\nforce your opponent to play in mini-board 8 next.\n\nYou are `{symbol}`.\n"
+    "intro": "Kamu adalah Pemain {player_id} di **Ultimate Tic Tac Toe**.\nKirimkan langkahmu sebagai **[macro  micro]** (dua angka 0-8):\n• *macro*  = mini-papan mana yang kamu mainkan\n• *micro* = kotak mana di dalam mini-papan itu\nContoh `[7 8]` ➜ taruh tanda di mini-papan 7, kotak 8, dan\npaksa lawanmu untuk bermain di mini-papan 8 selanjutnya.\n\nKamu adalah `{symbol}`.\n"
   },
   "board": {
     "current_board": "Papan nang wahini: {board}"

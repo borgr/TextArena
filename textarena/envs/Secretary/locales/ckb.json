@@ -9,7 +9,7 @@
     "wrong_format": "کارەکە دەبێت یان [accept] بێت یاخود [continue] ."
   },
   "outcome": {
-    "summary": "You accepted value {value} at draw {draw_num}/{N}. The best overall was {best}. {result}",
+    "summary": "ئەتە بەھای {value}ی لە بەھەڵبژاردنی {draw_num}/{N} قبوڵ کرد. بەھای باشترین لە گشتی {best} بوو. {result}",
     "perfect": "هەڵبژاردنی تەواو! ",
     "not_max": "زۆرترین نییە."
   }

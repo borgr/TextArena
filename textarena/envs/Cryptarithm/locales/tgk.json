@@ -9,10 +9,10 @@
     "{pct}": "Progress as a percentage string, e.g. 50%"
   },
   "player_prompt": {
-    "intro": "Map each letter to a unique digit so the arithmetic holds.\nAssign with `[A 5]`, re-assign anytime.\n"
+    "intro": "Ҳар ҳарфро ба рақами ягона харита кунед, то арифметика нигоҳ дошта шавад.\nТасниф бо `[A 5]`, дубора тасниф кардан ҳар вақт.\n"
   },
   "invalid_move": {
-    "wrong_format": "Bad action format. Use `[A 5]`.",
+    "wrong_format": "Формати амали нодуруст. `[A 5]`-ро истифода баред.",
     "letter_not_in_puzzle": "Ҳарфи {letter} дар ҳалқа нест.",
     "digit_used": "Рақам {digit} пештаз истифода шудааст аз ҷониби {used_letter}.",
     "leading_zero": "Рақами аввали калима наметавонад 0 бошад."

@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id}. You are playing the Battleship game.\nYour goal is to sink all of your opponent's ships before they sink yours.\nOn your turn, you can fire missiles at specific coordinates in teh following format: '[a4]'. If the missile hits a ship, it is marked with 'X'. If it misses, it is marked with 'O'. In either scenarios, the game environment will inform you of your hits. If you have sunk a boat, the game environment will tell you!\nThe game ends when all of one player's ships have been sunk.\nYour initial board will show all of your ships placed and your opponent's hits on you, and your hits and misses on your opponent's board without showing your opponent's ships.\nHere is the initial board:\n"
+    "intro": "Wo ne Player {player_id}. Wo reko Battleship game.\nWo botae ne sɛ wo bɛsɛn wo pɛnii nyinaa ɛberɛ a wɔn bɛsɛn wo deɛ.\nWo berɛ mu no, wo tumi bɔ missiles wɔ coordinates ahodoɔ aseɛ a wɔde format yi '[a4]'. Sɛ missile no kɔtra ship bi a, wɔde 'X' akyerɛ. Sɛ ɛkɔtra a, wɔde 'O' akyerɛ. Wɔdeɛ scenario biara mu no, game no bɛka wo hit ahodoɔ. Sɛ wo asɛn prɛko bi a, game no bɛka wo!\nGame no bɛba awieɛ sɛ wo pɛnii nyinaa asɛn.\nWo board a edi kan no bɛkyerɛ wo pɛnii nyinaa a wo de guu mu ne wo pɛnii a wɔn kɔtra wo so, ne wo hit ahodoɔ ne wo miss ahodoɔ wɔ wo pɛnii so a wɔn deɛ wɔn pɛnii nkyerɛ.\nBoard a edi kan no ni:\n"
   },
   "invalid_move": {
     "wrong_format": "Ɔpanyin no amfa ne mpapahwekwa a ɛwɔ ntweaso mu ho asɛm amma.",

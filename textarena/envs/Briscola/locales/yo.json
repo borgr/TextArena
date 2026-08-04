@@ -39,7 +39,7 @@
   "turn": {
     "score_entry": "Ẹ̀yà orin {player_id}: {points} pts",
     "trump_info": "Àwòrán Trump: {trump_suit}",
-    "trump_info_deck": "Trump suit: {trump_suit} | Cards left in deck: {deck_count}",
+    "trump_info_deck": "Suit trump: {trump_suit} | Kárí tí ó ku nínú pọ̀kì: {deck_count}",
     "board": "{hand} {trick} Ìṣirò: {scores} {trump_info} Ṣẹ́ kaadi kan nípa lílo [play X]"
   },
   "invalid_move": {

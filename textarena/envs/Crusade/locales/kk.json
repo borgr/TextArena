@@ -10,7 +10,7 @@
     "unknown_square": "Бейтаныс алаң.",
     "not_your_piece": "Бұл сіздің жұмысыңыз емес.",
     "own_piece": "Өз бетінше жерге түсе алмайды.",
-    "not_knight": "Not a knight move."
+    "not_knight": "Ат жүрісі емес."
   },
   "game_action": {
     "moved": "Ойыншы {player_id} өз фигурасын {frm}-тен {to}-ке жылжытты.",

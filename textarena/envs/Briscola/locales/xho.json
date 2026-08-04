@@ -19,10 +19,10 @@
     "{deck_count}": "Number of cards left in the deck"
   },
   "game": {
-    "start": "Briscola game started! Trump suit: {trump_suit} (Trump card: {trump_card})"
+    "start": "Ummdlalo we-Briscola uqalile! Matyala ahlabanayo: {trump_suit} (Khadi ye matyala ahlabanayo: {trump_card})"
   },
   "prompt": {
-    "intro": "You are playing Briscola - Player {player_id}.\nGoal: Win tricks and collect the most points (120 total points in the deck).\nCard Points: A=11, 3=10, K=4, Q=3, J=2, others=0\nCard Power: A > 3 > K > Q > J > 7 > 6 > 5 > 4 > 2\nTrump cards beat non-trump cards regardless of power.\n\nAction: '[play X]' where X is the position (1-{max_pos}) of the card in your hand\n"
+    "intro": "Udlala umdlalo we-Briscola - Mdlali {player_id}.\nInjongo: Win itiki nezinkomba ezinengi (120 zinkomba zikwi deck).\nInkomba ze Khadi: A=11, 3=10, K=4, Q=3, J=2, ezinye=0\nAmandla a Khadi: A > 3 > K > Q > J > 7 > 6 > 5 > 4 > 2\nKhadi ze matyala ahlabanayo zitshintsha khadi ezingekho matyala ahlabanayo kungekho mandla.\n\nZenzo: '[play X]' apho X yi indawo (1-{max_pos}) ye khadi kwindawo yakho\n"
   },
   "hand": {
     "none": "Akukho makhadi.",
@@ -37,21 +37,21 @@
     "line": "  Player {player_id}: {card}{trump_mark}"
   },
   "turn": {
-    "score_entry": "Player {player_id}: {points} pts",
+    "score_entry": "Mdlali {player_id}: {points} inkomba",
     "trump_info": "Isinxibo sikaTrump: {trump_suit}",
-    "trump_info_deck": "Trump suit: {trump_suit} | Cards left in deck: {deck_count}",
-    "board": "{hand}\n\n{trick}\n\nScores: {scores}\n{trump_info}\n\nPlay a card using [play X]"
+    "trump_info_deck": "Matyala ahlabanayo: {trump_suit} | Inani le khadi kudeki: {deck_count}",
+    "board": "{hand}\n\n{trick}\n\nIzinga: {scores}\n{trump_info}\n\nDlala khadi usebenzisa [play X]"
   },
   "invalid_move": {
     "wrong_format": "Sebenzisa [play X] apho u-X yindawo ekhoyo ikhadi (1, 2, 3, njl.)",
-    "out_of_range": "Invalid card position. You have {count} cards (1-{count})"
+    "out_of_range": "Indawo ye khadi ayiphumeleli. Una {count} khadi (1-{count})"
   },
   "action": {
-    "played": "Player {player_id} played {card}",
-    "trick_win": "Player {winner} wins the trick with {card} and gains {points} points!"
+    "played": "Mdlali {player_id} udlale khadi {card}",
+    "trick_win": "Mdlali {winner} uphumelele itiki nge khadi {card} waza wathatha {points} inkomba!"
   },
   "outcome": {
-    "head": "Game Over! Player {winner} wins with {points} points!\n\nFinal Scores:\n{scores}",
-    "player_line": "Player {player_id}: {points} points ({tricks} tricks)\n"
+    "head": "Ummdlalo Ugqityiwe! Mdlali {winner} uphumelele nge {points} inkomba!\n\nIzinga Zokugqibela:\n{scores}",
+    "player_line": "Mdlali {player_id}: {points} inkomba ({tricks} itiki)\n"
   }
 }

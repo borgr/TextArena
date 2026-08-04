@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "ການປະຕິບັດຕ້ອງຢູ່ໃນຮູບແບບ [row col] ບ່ອນທີ່ແຖວແລະ col ແມ່ນຕົວເລກເຕັມຈາກ 0 ເຖິງ {max_index}.",
-    "out_of_range": "Coordinates must be between 0 and {max_index}. You entered [{row},{col}]."
+    "out_of_range": "ພື້ນທີ່ຕ້ອງເປັນລະຫວ່າງ 0 ຫາ {max_index}. ທ່ານເຂົ້າ [{row},{col}]."
   },
   "outcome": {
     "win": "ສະບາຽ! ທ່ານໄດ້ສືບທອງປັດສະຈາກັນໃນ {moves_used} ການຫາຍ!",

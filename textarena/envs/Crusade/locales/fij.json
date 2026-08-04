@@ -1,16 +1,16 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({piece}). Opponent is ({opp}). Submit moves as '[b1 c3]' (from → to). All pieces move like chess knights.\nEach capture scores {score_per_capture} point. Game ends after {max_moves} moves or when a player has no legal move / no pieces. Higher score wins."
+    "intro": "O kerekere mo Player {player_id} ({piece}). O kerekere tani mo ({opp}). Vakauta na nomu iko me '[b1 c3]' (mai → ki). Kece na iko e veitauvakilai me na koro ni chess.\nKila kerekere e tara {score_per_capture} poi. Na qito e sa oti e {max_moves} iko se ni sa sega na kerekere / sega na iko. Na poi e cake e qai qele."
   },
   "board": {
-    "current_board": "Move #{move_count}\n\n{board}\n\nAvailable Moves: {moves}"
+    "current_board": "Iko #{move_count}\n\n{board}\n\nIko Vakaloloma: {moves}"
   },
   "invalid_move": {
     "bad_format": "E sega ni vinaka na kena ituvatuva. Vakayagataka '[b1 c3]'.",
     "unknown_square": "Na lomanibai e sega ni kilai.",
     "not_your_piece": "E sega ni nomu itavi na ivurevure.",
     "own_piece": "Sega ni rawa nira cegu ena nodra vanua.",
-    "not_knight": "Not a knight move."
+    "not_knight": "Sega na keli ni knight."
   },
   "game_action": {
     "moved": "Player {player_id} e dabe e dua na nona piece mai {frm} ki {to}.",

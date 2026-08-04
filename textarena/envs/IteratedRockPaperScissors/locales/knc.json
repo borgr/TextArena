@@ -6,7 +6,7 @@
     "wrong_format": "Kadi kadii kooni. Wonɗaa [rock], [paper], bee [scissors]."
   },
   "game_action": {
-    "selects": "Player {player_id} selects move {move}."
+    "selects": "Káma káwú {player_id} sàwúrú káwú {move}."
   },
   "message": {
     "round_draw": "Jaza bǝlin: Kәla-kәlanzәna.",

@@ -25,7 +25,7 @@
   },
   "trick": {
     "won": "Woodere {winner_id} wondi heewde ngal {card}.",
-    "won_learning": "Player {winner_id} wins the trick with {card} and takes the face-up card."
+    "won_learning": "Player {winner_id} ya ci trick da karta {card} e ya ɗauka karta e wuri."
   },
   "phase": {
     "learning_complete": "Ko'e maɓɓe fuu ɗon nafo. Wakkere ekkitol timmi - kala dabare je lutti hauti ngam heɓa jaalorgal."
@@ -61,8 +61,8 @@
     "header": "=== GARMAN WHIST Game=== Ɗi ɗon ɓaditoo nder lesdi Germany.",
     "phase": "{observation}\nPhase: {phase}",
     "trump_suit": "{observation}\nSuit trump: {trump_suit}",
-    "trump_card": "{observation}\nTrump card: {card}",
-    "cards_left": "{observation}\nCards left in deck: {count}",
+    "trump_card": "{observation}\nKarta trump: {card}",
+    "cards_left": "{observation}\nKarta e deck: {count}",
     "next_card": "{observation}\nKaatu ngal fonnde e woodere: {card}",
     "blank": "{observation}  ha nder ko'e maɓɓe.",
     "current_trick": "{observation} Dabare jonta:",
@@ -71,6 +71,6 @@
     "player_line": "{observation}\nWoodere {player_id}: {scoring} koore heewde ({tricks} ngal), {hand_size} kaatu e janngde"
   },
   "outcome": {
-    "summary": "Learning phase - Player 0: {l0}, Player 1: {l1}. Playing phase - Player 0: {p0}, Player 1: {p1}. Player {winner_id} wins with {winner_tricks} scoring tricks!"
+    "summary": "Diga faaɗe - Toɓɓere 0: {l0}, Toɓɓere 1: {l1}. Diga ɓesngu - Toɓɓere 0: {p0}, Toɓɓere 1: {p1}. Toɓɓere {winner_id} mooɓi e {winner_tricks} tontine ɓesngu ɓurnde!"
   }
 }

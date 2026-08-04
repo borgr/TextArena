@@ -1,19 +1,19 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in Nim.\nYour goal is to take the last remaining object.\nOn each turn, choose exactly one pile and remove one or more objects from it.\nUse the format '[pile quantity]', where pile is the pile index and quantity is the number of objects to remove.\nFor example, '[0 3]' removes 3 objects from pile 0."
+    "intro": "A nyi azɔnwla {player_id} le Nim.\nA wɛzɔn wɛ nyi azɔn wɛ xwɛ mɛ gbe.\nLe kɔ ɖi ɖi, ɖɔ xwɛ kɔ kan ɖɔ kɔ pile, bɔ kɔ kan ɖɔ kɔ kɔ sɔ kɔ kɔ.\nXɔ se format '[pile quantity]', pile wɛ pile tɔn ɖɔ kɔ quantity wɛ sɔ kɔ kɔ.\nA nyi azɔn wɛ xwɛ, '[0 3]' bɔ 3 sɔ kɔ kɔ pile 0."
   },
   "state": {
     "current_pile": "Hɔn ɖ'ayi ɔ: {piles}"
   },
   "invalid_move": {
     "wrong_format": "E mɔ̀ nùɖé e è na yí ɔ́ ǎ. Zɔ '[pile quantity]' bo sɔ́ dó wlan nǔ é ɖé ná.",
-    "correct_format_wrong_fields": "Player {player_id}, Invalid action. Column {col} is out of bounds.",
+    "correct_format_wrong_fields": "Akpɛvi {player_id}, Wàxlɛ̀ nu mɛ gblɛ. Kolɔnnu {col} do hɛn ɖo tɛn mɛ.",
     "out_of_range": "Akɔ́nkpá {pile_index} ɖò fí e è nɔ sɔ́ ɛ dó lɛ é ǎ.",
     "non_positive": "E na nɔ ɖe nǔ ɖokpo ɖò hweɖelɛnu.",
     "exceeds_pile": "Eɖi mɛ na yi {quantity} sɔn pile {pile_index} (mɛna sɔnna {pile_count} blae)."
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "A nyi azɔnwla {player_id} xwɛ [{pile_index} {quantity}], bɔ {quantity} sɔ kɔ kɔ pile {pile_index}."
   },
   "outcome": {
     "win": "{player_id} ɔ́ yí nǔ e ɖò gudo é (s)!"

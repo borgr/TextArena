@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "نحوي غير صالح. استعمل [i->j] .",
-    "illegal_move": "Illegal move."
+    "illegal_move": "حركة ممنوعة."
   },
   "outcome": {
     "win": "حل مع بقيت عقدة واحدة!",

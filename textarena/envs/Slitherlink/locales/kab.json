@@ -1,9 +1,9 @@
 {
   "player_prompt": {
-    "intro": "You are playing Slitherlink on a {R}x{C} grid!\nDraw a single continuous loop so each numbered cell has that many bordering edges.\nToggle edges with:\n  [h r c] - toggle horizontal edge above dots at row r, column c\n  [v r c] - toggle vertical edge left of dots at row r, column c\nNumbers show required edge count, '.' means no constraint.\nYou have up to {max_turns} moves to solve the puzzle."
+    "intro": "Tirid taɛebbut n Slitherlink ɣef {R}x{C} grid!\nAẓreg taɛebbut tameɣtut i yal tikli s yimiḍanen igdanen.\nBeddel igdanen s:\n  [h r c] - beddel aɣawas aɣezzafan afellay n tikeṛṛust ɣef uɣiwel r, tawla c\n  [v r c] - beddel aɣawas abedday azelmaṭ n tikeṛṛust ɣef uɣiwel r, tawla c\nInumiren ssekcem-d ugar n yigdanen ilaqen, '.' anamek ulac ccekk.\nYes ɣarek alamma {max_turns} imussenen i tsebbi n tɛebbut."
   },
   "board": {
-    "current_board": "{board}\nClues satisfied: {progress}"
+    "current_board": "{board}\nTilɣa tinumiren: {progress}"
   },
   "invalid_move": {
     "wrong_format": "Taqsi n uṭṭunḍaṭ ur igenni. Sken [h row col] neɣ [v row col].",

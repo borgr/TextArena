@@ -6,7 +6,7 @@
     "current_board": "Moguru #{move_count}\n\n{board}\n\nMogurus Disponibiles: {moves}"
   },
   "invalid_move": {
-    "bad_format": "Bad format. Use \"[b1 c3]\". [S'iscadèntzia de sa pàgina est istada cambiada]",
+    "bad_format": "Formatu erradu. Impreade '[b1 c3]'.",
     "unknown_square": "Tzìrriu disconnotu.",
     "not_your_piece": "Sa fonte no est sa cosa tua.",
     "own_piece": "Non si podet aterrare in su pròpiu pratu.",

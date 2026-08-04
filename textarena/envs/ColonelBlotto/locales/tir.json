@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are {role} in Colonel Blotto.\nYour goal is to win more rounds than your opponent.\nOn each round, allocate exactly {num_total_units} units across fields {field_names}.\nThe player who allocates more units to a field wins that field, and the player who wins more fields wins the round.\nFor example, '[A7 B7 C6]' allocates 7 units to A, 7 to B, and 6 to C.",
+    "intro": "አንተ ኣብ ኮሎኔል ብሎቶ ከም {role} ኢኻ።\nእትን ክትረክብ ዘለኻ እዋን ከምኡ ኣብ እዋን ካልእ ከም ተወዳኺ ክትከውን ኢኻ።\nኣብ ካልእ እዋን ከም {num_total_units} ኩናት ኣብ ሜዳታት {field_names} ክትውደን ኢኻ።\nኩናት ክትውደን ዘለኻ ሜዳ ክትረክብ ኢኻ፣ ከምኡ ኣብ እዋን ካልእ ከም ተወዳኺ ክትከውን ኢኻ።\nከም ኣብነት፣ '[A7 B7 C6]' ኣብ A 7 ኩናት፣ ኣብ B 7 ኩናት፣ ከምኡ ኣብ C 6 ኩናት ክትውደን ኢኻ።",
     "commander_alpha": "ኣዛዚ ኣልፋ፡",
     "commander_beta": "ኮማንደር ቤታ፡"
   },

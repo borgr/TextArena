@@ -1,9 +1,9 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({role}) in a {num_rounds}-round Matching Pennies game.\n- Each round, submit [heads] or [tails] (or [h], [t]).\n- If your choice matches your opponent’s, Player 0 wins the round; otherwise Player 1 wins.\nReply with your choice in the format '[heads]' or '[tails]'.\n"
+    "intro": "Siz Oýunçy {player_id} ({role}) {num_rounds}-raundlyk Matching Pennies oýunundadyňyz.\n- Her raundda, [heads] ýa-da [tails] (ýa-da [h], [t]) ýollaryň.\n- Eger saýlawyňyz garşydaşyňky bilen gabat gelýän bolsa, Oýunçy 0 raundy ýeňýär; ýogsa Oýunçy 1 ýeňýär.\nSaýlawyňyzy '[heads]' ýa-da '[tails]' formatynda ýollaň.\n"
   },
   "invalid_move": {
-    "wrong_format": "Invalid format; please submit '[heads]' or '[tails]'."
+    "wrong_format": "Ýalňyş format; '[heads]' ýa-da '[tails]' ýollaň."
   },
   "message": {
     "round_match": "Oýunçy 0 {choice0} saýlady; Oýunçy 1 {choice1} saýlady. Match -> Oýunçy 0 ýeňdi",

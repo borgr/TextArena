@@ -11,22 +11,22 @@
     "{moves}": "The comma-separated list of available move tokens like '[4]' (do not translate)"
   },
   "player_prompt": {
-    "intro": "آپ کھلاڑی {player_id} ہیں تین کھلاڑیوں کے ٹک ٹیک ٹو میں۔\nآپ کا نشان '{symbol}' ہے۔\nآپ اپنا نشان 5x5 بورڈ پر رکھ کر ایک لائن بناتے ہیں۔\nلائنیں افقی، عمودی، یا диагонаل ہو سکتی ہیں۔\nاپنی چال کو فارمیٹ '[4]' کا استعمال کرتے ہوئے جمع کریں تاکہ سیل 4 کو نشان دہی کریں۔"
+    "intro": "تُہم چھو {player_id} کھلاڑی ٹھری کھلاڑی ٹِک ٹیک ٹو وِچ.\nتُہمندی نشانی چھُ '{symbol}'.\nتُہم واری پِٹھ واری 5x5 بورڈس پُتھ اَکھ لائن آف چار بَناوُن.\nلائنز ہوریزنٹل، ورٹیکل یا ڈایاگونل ہو سکتے ہیں.\nاپنے موو کو '[4]' فارمیٹ وِچ سُبمِٹ کرو تاکہ 4 نمبر سیل کو نشان زد کرو."
   },
   "board": {
-    "current_board": "موجودہ بورڈ:\n\n{board}\n\nموجودہ چالیں: {moves}"
+    "current_board": "موجودہ بورڈ:\n\n{board}\n\nموجودہ موو: {moves}"
   },
   "invalid_move": {
-    "wrong_format": "अवैध मूव फॉर्मेट. यूज़ \"[cell]\" येत सेल 0-{max_cell} छू.",
-    "out_of_range": "غیر معتبر سیل نمبر: {cell}۔ 0 اور {max_cell} کے درمیان ہونا چاہیے۔",
-    "already_occupied": "सेल {cell} छू गुडनिक फिर ताम ओक्क्यूपेद.",
-    "made_invalid": "प्लेयर {player_id} ने अमान्य चाल बनाये"
+    "wrong_format": "غلط موو فارمیٹ. '[cell]' فارمیٹ استعمال کرو جتھے cell چھُ 0-{max_cell}.",
+    "out_of_range": "غلط سیل نمبر: {cell}. 0 تے {max_cell} کے درمیان ہونا چاہیے.",
+    "already_occupied": "{cell} سیل پہلے ہی قبضہ کر لیا گیا ہے.",
+    "made_invalid": "{player_id} کھلاڑی نے غلط موو کیا"
   },
   "game_action": {
-    "placed": "Player {player_id} places their symbol ({symbol}) in field ({row}, {col})."
+    "placed": "{player_id} کھلاڑی چھُ اَکھ {symbol} نشانی ({row}, {col}) پِٹھ پُزِتھ کَرَن."
   },
   "outcome": {
-    "win": "کھلاڑی {player_id} ({symbol}) جیتتا ہے!",
-    "draw": "ये खेल छू ड्राई!"
+    "win": "{player_id} کھلاڑی ({symbol}) جیت گیا!",
+    "draw": "کھیل ڈرا ہو گیا!"
   }
 }

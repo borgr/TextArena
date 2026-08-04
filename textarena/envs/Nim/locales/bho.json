@@ -13,7 +13,7 @@
     "exceeds_pile": "ढेर {pile_index} से {quantity} के हटावल ना जा सके (सिर्फ {pile_count} बाम) ।"
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "प्लेयर {player_id} ने [{pile_index} {quantity}] खेलल, ढेर {pile_index} से {quantity} सामग्री निकालल।"
   },
   "outcome": {
     "win": "खिलाड़ी {player_id} आखिरी चीज ले गईल!"

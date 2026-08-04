@@ -16,16 +16,16 @@
     "{cards}": "The cards in a pile as neutral labels, or '--' if empty (never translate)"
   },
   "player_prompt": {
-    "intro": "You are playing Klondike Solitaire. Your goal is to move all cards to the foundation piles.\n\nGame Rules:\n- Foundation piles (F1-F4): Build up from Ace to King in suit\n- Tableau piles (T1-T7): Build down alternating colors (red on black, black on red)\n- Stock: Draw cards to waste pile\n- Waste (W): Top card available for play\n\nCommands:\n- 'draw' - Draw cards from stock to waste\n- 'move <source> <destination> [count]' - Move cards between piles\n  Examples: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count can also be 'all', which will try to move all face-up cards.\n- 'forfeit' - End the game immediately and lock in your current score\n- Pile names: W (waste), F1-F4 (foundations), T1-T7 (tableau)\n\nYou can execute multiple actions in one turn by separating them with commas:\n  Example: 'draw, move W T1, move T2 F1'\n\nOnly Kings can be placed on empty tableau piles.\nActions execute in order - if one fails, the remaining actions are skipped.\nUse 'forfeit' if you believe the game is impossible to win."
+    "intro": "تاسو د کلونډایک سولیټر لوبه کوی. ستاسو موخه دا ده چې ټول کارتونه د بنسټ ټیبلونو ته ولېږدوي.\n\nد لوبې قواعد:\n- بنسټ ټیبلونه (F1-F4): د ایس څخه پاچا پورې په سوټ کې جوړ کړئ\n- ټیبل ټیبلونه (T1-T7): د رنګونو په بدلولو سره ښکته جوړ کړئ (سور پر تور، تور پر سور)\n- سټاک: د کارتونه د ویست ټیبل ته راښکته کړئ\n- ویست (W): د لوبې لپاره د ویست ټاپ کارټ\n\nکړنې:\n- 'draw' - د کارتونه د سټاک څخه ویست ټیبل ته راښکته کړئ\n- 'move <source> <destination> [count]' - د کارتونه د ټیبلونو تر مینځ ولېږدوي\n  بیلګې: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count کیدای شي 'all' هم وي، چې به ټول مخکې شوی کارتونه ولېږدوي.\n- 'forfeit' - د لوبې په ځانګړي ډول پای ته ورکړئ او ستاسو اوسنی سکور تثبیت کړئ\n- ټیبل نومونه: W (ویست)، F1-F4 (بنسټونه)، T1-T7 (ټیبلونه)\n\nتاسو کولی شئ په یوه ټرن کې څو کړنې ترسره کړئ په دې ډول چې دوی د کوما په واسطه جلا کړئ:\n  بیلګه: 'draw, move W T1, move T2 F1'\n\nیوازې پاچایان کولی شي په خالي ټیبل ټیبلونو کې ځای په ځای شي.\nکړنې په ترتیب سره ترسره کیږي - که یوه پاتې شي، پاتې کړنې څخه تیریږي.\n'draw' کړنه که تاسو باور لری چې لوبه د ګټلو وړ نه ده."
   },
   "format_error": {
     "no_brackets": "د عمل غیرقانوني بڼه. عمل باید په قوسونو کې وي.",
     "no_closing_bracket": "د عمل ناسم بڼه. د تړلو قوس ورک دی ']'",
     "empty_command": "خالي کمانډ. ټایپ کړئ \"draw\" یا \"move <source> <destination> [count]\"",
     "empty_action": "خالي عمل",
-    "move_needs_args": "د حرکت امر سرچینه او منزل ته اړتیا لري. کارول: 'مخکښ <سرچینه> <موقع> [count]'",
-    "count_positive": "شمېرې باید مثبتې وي یا \"ټول\"",
-    "count_invalid": "د شمېرنې غلطي. یو شمېره وکاروئ یا 'ټول'",
+    "move_needs_args": "د 'move' کړنې لپاره سرچینه او مقصد اړین دي. کارونه: 'move <source> <destination> [count]'",
+    "count_positive": "شمیره باید مثبته یا 'all' وي",
+    "count_invalid": "ناسم شمیره. یو شمیره یا 'all' کاروئ",
     "unknown_command": "نامعلوم کمانډ \"{cmd}\". د \"draw\" ، \"move <source> <destination> [count]\" ، یا \"forfeit\" کارولو څخه کار واخلئ",
     "wrapped": "د عمل {n}: {msg}"
   },

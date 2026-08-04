@@ -1,15 +1,15 @@
 {
   "player_prompt": {
-    "intro": "Você é o Munene {player_id} em um jogo de Pôquer Indiano.\n- Baralho de 52 cartas; você vê apenas a carta do oponente.\n- Ante {ante} ficha(s) cada rodada, {max_rounds} rodada(s) no total.\n- Movimentos válidos: '[check]'  |  '[bet X]'  |  '[call]'  |  '[raise X]'  |  '[fold]'  (X é um inteiro positivo <= seu número de fichas.)\n- A carta oculta mais alta vence o pote no showdown.\n"
+    "intro": "Ngeye Mukishi {player_id} mu kijogo cha Indian Poker.\n- Kikasha cha makadi 52; ngeye kuwana kadi ya mukwenu.\n- Kukolaya malonda {ante} kwa kila kipindi, {max_rounds} kipindi kwa jumla.\n- Mijogo ya kufwete: '[check]'  |  '[bet X]'  |  '[call]'  |  '[raise X]'  |  '[fold]'  (X ni nambari nzuri <= kiwango chako cha malonda.)\n- Kadi ya kufichika inayofwete kubeta kipindi cha kuzemba.\n"
   },
   "round": {
-    "announce": "### Rodada {current_round}/{max_rounds}\nA carta do seu oponente é: {card}"
+    "announce": "### Kipindi {current_round}/{max_rounds}\nKadi ya mukwenu ni: {card}"
   },
   "invalid_move": {
-    "ambiguous": "Supply exactly ONE bracketed action, e.g. '[check]', '[bet 2]', '[call]', '[raise 3]', or '[fold]'.",
-    "cannot_check": "Não pode [check] - você está enfrentando uma aposta.",
+    "ambiguous": "Pese kiakulu kimosi kya kuakisa, kima ki: '[check]', '[bet 2]', '[call]', '[raise 3]', kana '[fold]'.",
+    "cannot_check": "Kikulayi ku [check] - ngeye kuwana kipindi cha malonda.",
     "amount_min": "O kitadi kia tokala ku ki bandekesa, a tokala ku i ta mu 1.",
-    "cannot_bet": "Cannot [bet] - must [call] / [raise] / [fold].",
+    "cannot_bet": "Kikulayi ku [bet] - kufwete [call] / [raise] / [fold].",
     "nothing_to_call": "Se ki bhuala kima, u tena ku [check] sota mu kididi kiki.",
     "no_bet_to_raise": "Bhanga [bet X] phala ku jikula o kijimbuete; kana kuta dingi kitadi.",
     "insufficient": "O athu ka kexile ni kitadi kiavulu phala ku sumba o ima íii."
@@ -23,14 +23,14 @@
     "possible_actions": "O ima i u tena kubhanga: {legal}"
   },
   "message": {
-    "round_result": "{reason}  Pote {pot} → Munene {winner}. (Bancos P0:{p0}, P1:{p1})",
+    "round_result": "{reason}  Kipindi cha malonda {pot} → Mukishi {winner}. (Kukolaya kwa P0:{p0}, P1:{p1})",
     "folded": "O muadikime {player_id} uexana o mutelembe.",
-    "showdown_win": "Showdown: {card_win} beats {card_lose}.",
-    "showdown_tie": "Showdown tie: both {card}. Pot split – each receives {split}."
+    "showdown_win": "Kipindi cha kuzemba: {card_win} kubeta {card_lose}.",
+    "showdown_tie": "Kipindi cha kusokana: zote mbili {card}. Kipindi kya malonda – kila muntu akwata {split}."
   },
   "outcome": {
-    "p0_wins": "Munene 0 vence ({bank0} > {bank1})",
-    "p1_wins": "Player 1 wins ({bank1} > {bank0})",
+    "p0_wins": "Mukishi wa 0 ufwa ( {bank0} > {bank1} )",
+    "p1_wins": "Mukishi wa 1 ufwa ( {bank1} > {bank0} )",
     "draw": "O jimbandu joso ja jokala, ki ji lunguluka."
   }
 }

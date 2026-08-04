@@ -16,7 +16,7 @@
     "{cards}": "The cards in a pile as neutral labels, or '--' if empty (never translate)"
   },
   "player_prompt": {
-    "intro": "You are playing Klondike Solitaire. Your goal is to move all cards to the foundation piles.\n\nGame Rules:\n- Foundation piles (F1-F4): Build up from Ace to King in suit\n- Tableau piles (T1-T7): Build down alternating colors (red on black, black on red)\n- Stock: Draw cards to waste pile\n- Waste (W): Top card available for play\n\nCommands:\n- 'draw' - Draw cards from stock to waste\n- 'move <source> <destination> [count]' - Move cards between piles\n  Examples: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count can also be 'all', which will try to move all face-up cards.\n- 'forfeit' - End the game immediately and lock in your current score\n- Pile names: W (waste), F1-F4 (foundations), T1-T7 (tableau)\n\nYou can execute multiple actions in one turn by separating them with commas:\n  Example: 'draw, move W T1, move T2 F1'\n\nOnly Kings can be placed on empty tableau piles.\nActions execute in order - if one fails, the remaining actions are skipped.\nUse 'forfeit' if you believe the game is impossible to win."
+    "intro": "Vi ludas Klondike Solitaire. Via celo estas movi ĉiujn kartojn al la fondaj stakoj.\n\nLudreguloj:\n- Fondaj stakoj (F1-F4): Konstruu supren de As ĝis Reĝo laŭ emblemo\n- Tablaj stakoj (T1-T7): Konstruu malsupren alternante kolorojn (ruĝa sur nigra, nigra sur ruĝa)\n- Stoko: Tiru kartojn al ruba stako\n- Ruba stako (W): Supra karto disponebla por ludo\n\nKomandoj:\n- 'draw' - Tiru kartojn de stoko al ruba stako\n- 'move <source> <destination> [count]' - Movu kartojn inter stakoj\n  Ekzemploj: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count ankaŭ povas esti 'all', kiu provos movi ĉiujn kartojn kun vizaĝo supren.\n- 'forfeit' - Finu la ludon tuj kaj fiksu vian nunan poentaron\n- Nomoj de stakoj: W (ruba stako), F1-F4 (fondaj stakoj), T1-T7 (tablaj stakoj)\n\nVi povas plenumi plurajn agojn en unu vico apartigante ilin per komoj:\n  Ekzemplo: 'draw, move W T1, move T2 F1'\n\nNur Reĝoj povas esti metitaj sur malplenajn tablajn stakojn.\nAgoj plenumiĝas laŭorde - se unu malsukcesas, la restantaj agoj estas preterlasitaj.\nUzu 'forfeit' se vi kredas, ke la ludo estas neebla por gajni."
   },
   "format_error": {
     "no_brackets": "Malvalida agformato. Agado devus esti en parentezo.",
@@ -24,18 +24,18 @@
     "empty_command": "Malplena komando. Tajpu \"draw\" aŭ \"move <source> <destination> [count]\".",
     "empty_action": "Malplena ago.",
     "move_needs_args": "Movi komandon postulas fonton kaj celon. Uzo: \"move <source> <destination> [count]\"",
-    "count_positive": "La nombro devas esti pozitiva aŭ \"ĉiuj\"",
-    "count_invalid": "Nevalida kalkulo. Uzu nombron aŭ \"ĉiuj\"",
-    "unknown_command": "Nekonata komando '{cmd}'. Uz'u 'draw', 'move <source> <destination> [count]', aŭ 'forfeit'",
+    "count_positive": "Nombro devas esti pozitiva aŭ 'all'",
+    "count_invalid": "Nevalida nombro. Uzu nombron aŭ 'all'",
+    "unknown_command": "Nekonata komando '{cmd}'. Uzu 'draw', 'move <source> <destination> [count]', aŭ 'forfeit'",
     "wrapped": "Action {n}: {msg}"
   },
   "action_result": {
     "success": "Action {n}: {msg}",
-    "before_failure": "Executed {n} action(s) before failure.",
+    "before_failure": "Plenumis {n} agon(jn) antaŭ malsukceso.",
     "failed": "Ago {n} malsukcesis: {msg}"
   },
   "move_result": {
-    "drew": "Drew card(s) from stock to waste.",
+    "drew": "Tiris karton(jn) de stoko al rubujo.",
     "cannot_draw": "Ne eblas tiri. Kaj la stoko kaj rubo estas malplenaj.",
     "invalid_pile": "Malvalida stako nomo. Uzu W, F1-F4, aŭ T1-T7",
     "foundation_one_card": "Povas movi nur unu karton al la bazo.",

@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in Nim.\nYour goal is to take the last remaining object.\nOn each turn, choose exactly one pile and remove one or more objects from it.\nUse the format '[pile quantity]', where pile is the pile index and quantity is the number of objects to remove.\nFor example, '[0 3]' removes 3 objects from pile 0."
+    "intro": "Nekk d Amurar {player_id} di Nim.\nTigzi-k a d-awi tigzi taneggarut.\nDi krayat kray, fayn iyi pile yiwen, d kkes kra n tɣawsiwin-is.\nSeqdec asekkil '[pile quantity]', anda pile d aswir n upile, d quantity d uṭṭun n tɣawsiwin ad-ten-kkes.\nAmṭag, '[0 3]' ad-ten-kkes 3 n tɣawsiwin seg upile 0."
   },
   "state": {
     "current_pile": "ⴰⵖⵔⵔⴰⴱⵓ ⵏ ⵡⴰⵙⵙⴰ: {piles}"
@@ -13,7 +13,7 @@
     "exceeds_pile": "Ur izmir ad yenɣer {quantity} seg tiɣect {pile_index} (kan ṭṭaf {pile_count} icudden)."
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "Amarir {player_id} yurar [{pile_index} {quantity}], ad yekkes {quantity} n tiɣawsiwin seg uɣrab {pile_index}."
   },
   "outcome": {
     "win": "ⵢⵓⵎⵥ ⵓⵎⵓⵔⴰⵔ {player_id} ⴰⵙⴽⴽⵉⵏ ⴰⵎⴳⴳⴰⵔⵓ (((ⵙ)!"

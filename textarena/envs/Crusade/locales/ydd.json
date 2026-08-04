@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({piece}). Opponent is ({opp}). Submit moves as '[b1 c3]' (from → to). All pieces move like chess knights.\nEach capture scores {score_per_capture} point. Game ends after {max_moves} moves or when a player has no legal move / no pieces. Higher score wins."
+    "intro": "איר זענט שפילער {player_id} ({piece}). דער קעגנער איז ({opp}). שיקט אריין באוועגונגען ווי '[b1 c3]' (פון → צו). אלע שטיקלעך באוועגן זיך ווי שאך-ריטער.\nיעדער כאפ ווערט {score_per_capture} פונקט. שפיל ענדיגט נאך {max_moves} באוועגונגען אדער ווען א שפילער האט קיין לעגאלן באוועגונג / קיין שטיקלעך. העכערער פונקט געווינט."
   },
   "board": {
     "current_board": "באַוועגונג #{move_count}\n\n{board}\n\nבאַרהאַטיקע באַוועגונגען: {moves}"

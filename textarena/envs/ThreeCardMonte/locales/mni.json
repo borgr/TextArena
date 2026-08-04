@@ -11,21 +11,21 @@
     "{ball_pos}": "The cup index the ball is under"
   },
   "player_prompt": {
-    "intro": "Track the hidden ball 'X' while the cups are shuffled.\nAfter shuffling, guess its location with `[k]`."
+    "intro": "Cup khuding khudingda 'X' ball asumna track touba. \nShuffle khuding khudingda, `[k]` na location guess touba."
   },
   "game_message": {
     "ball_starts": "বোল হৌরকই: {line}",
-    "shuffle": "Shuffle {step}/{steps}: swapped cups {i} and {j}.",
+    "shuffle": "Shuffle {step}/{steps}: cup {i} amasung {j} swap touba.",
     "cups": "Cups: {line}  {prompt}",
     "guess_now": "(ঙসি খঙবিয়ু!)",
     "reveal": "(মখাগী বোল অদু {ball_pos}দা উৎলু)"
   },
   "invalid_move": {
-    "wrong_format": "Bad action. Use `[k]`.",
+    "wrong_format": "Action asum oina. `[k]` na use touba.",
     "out_of_range": "ইন্দেক্স অসি রেঞ্জ 0-{max_index}দগী হেঙ্গৎলে।"
   },
   "outcome": {
     "win": "চুম্মি, অদোম্না বোল অদু ফংলে।",
-    "lose": "Wrong — ball was under cup {ball_pos}."
+    "lose": "Oina — ball asumna cup {ball_pos}."
   }
 }

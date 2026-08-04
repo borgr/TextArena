@@ -9,7 +9,7 @@
     "progress": "{observation} हालको प्रगति स्कोर: {progress}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use `[i j op]` where i,j are indices and op is +,-,*,/",
+    "wrong_format": "अमान्य कार्य ढाँचा। `[i j op]` प्रयोग गर्नुहोस् जहाँ i,j सूचकांक हुन् र op +,-,*,/ हो।",
     "invalid_indices": "अमान्य सूचकांकहरू. भिन्न हुनुपर्छ र दायरा ०-{max_index} भित्र",
     "invalid_operation": "अवैध परिचालन (शून्य वा गैर-पूर्णांक परिणाम द्वारा भाग)"
   },

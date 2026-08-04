@@ -1,10 +1,10 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a 3-player Iterated Prisoner's Dilemma. The match lasts {num_rounds} rounds.\nRound structure:\n• {conv_rounds} free-chat turns\n• 1 decision turn - submit one token per opponent: '[<opp-id> cooperate]' or '[<opp-id> defect]' (i.e. '[1 defect] [2 cooperate]'; the default is 'cooperate'). \nPair-wise payoff matrix (applied to each unordered pair):\n  - Both cooperate  ->  {reward}\n  - Both defect     ->  {punishment}\n  - You defect, they cooperate -> {temptation}\n  - You cooperate, they defect -> {sucker}\nThe player(s) with the highest score at the end of all rounds wins."
+    "intro": "Nanhte Player {player_id} shani 3-player Iterated Prisoner's Dilemma na ahkying. Ahkying {num_rounds} round shani.\nRound masing:\n• {conv_rounds} free-chat turns\n• 1 decision turn - submit one token per opponent: '[<opp-id> cooperate]' shani '[<opp-id> defect]' (i.e. '[1 defect] [2 cooperate]'; default na 'cooperate'). \nPair-wise payoff matrix (applied to each unordered pair):\n  - Anhte cooperate  ->  {reward}\n  - Anhte defect     ->  {punishment}\n  - Nanhte defect, anhte cooperate -> {temptation}\n  - Nanhte cooperate, anhte defect -> {sucker}\nAhkying taw shani player(s) highest score na ahkying taw shani masat."
   },
   "round": {
-    "start": "─── Starting Round {round} ───\tNang conversation freely for the next {conv_rounds} rounds.",
-    "chat_finished": "Chat finished for round {round}. Submit your decisions, one token per opponent: `[pid cooperate]` or `[pid defect]`."
+    "start": "─── Ahkying Round {round} ───\tNanhte converse freely for the next {conv_rounds} rounds.",
+    "chat_finished": "Chat finished for round {round}. Submit nanhte decisions, one token per opponent: `[pid cooperate]` shani `[pid defect]`."
   },
   "results": {
     "header": "### Round {round} - Jaw ai lam:",
@@ -15,6 +15,6 @@
     "finalize": "{observation}  hpe mu lu ai."
   },
   "outcome": {
-    "final": "Final scores: {scores}.  Ranking groups (worst→best): {groups}"
+    "final": "Kawp shang na hpunau shang: {scores}.  Kawp shang na mi kaba wa shang shaga ai hpunau shang (worst→best): {groups}"
   }
 }

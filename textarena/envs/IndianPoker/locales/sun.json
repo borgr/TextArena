@@ -9,7 +9,7 @@
     "ambiguous": "Sadiakeun tepat SATU aksi anu dibeungeut, contona '[check]', '[bet 2]', '[call]', '[raise 3]', atawa '[fold]'.",
     "cannot_check": "Teu bisa [check] - Anjeun nyanghareupan hiji alungan.",
     "amount_min": "Jumlah bet / ngangkat kudu ≥ 1.",
-    "cannot_bet": "Cannot [bet] - must [call] / [raise] / [fold].",
+    "cannot_bet": "Teu bisa [bet] - kudu [call] / [raise] / [fold].",
     "nothing_to_call": "Euweuh nu kudu dihubungi; anjeun bisa [check] gantina.",
     "no_bet_to_raise": "Paké [bet X] pikeun muka; teu aya bet kanggo naékkeun.",
     "insufficient": "Chip anu teu cukup pikeun aksi éta."

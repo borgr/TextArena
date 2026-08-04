@@ -22,7 +22,7 @@
     "start": "Briscola ၸုဲင်းတီႈတႄႇဢဝ်! Trump suit: {trump_suit} (Trump card: {trump_card})"
   },
   "prompt": {
-    "intro": "You are playing Briscola - Player {player_id}.\nGoal: Win tricks and collect the most points (120 total points in the deck).\nCard Points: A=11, 3=10, K=4, Q=3, J=2, others=0\nCard Power: A > 3 > K > Q > J > 7 > 6 > 5 > 4 > 2\nTrump cards beat non-trump cards regardless of power.\n\nAction: '[play X]' where X is the position (1-{max_pos}) of the card in your hand\n"
+    "intro": "သင် Briscola ကစားနေပါသည် - ကစားသမား {player_id}။\nရည်မှန်းချက်: လှည့် အနိုင်ရပါ နှင့် အမှတ် အများဆုံး စုစည်းပါ (ကစားပွဲလက်မှတ် အစုတွင် စုစုပေါင်း 120 အမှတ်)။\nကစားပွဲလက်မှတ် အမှတ်: A=11, 3=10, K=4, Q=3, J=2, အခြား=0\nကစားပွဲလက်မှတ် အား: A > 3 > K > Q > J > 7 > 6 > 5 > 4 > 2\nအမှတ် ကစားပွဲလက်မှတ် များ အမှတ် မဟုတ်သည့် ကစားပွဲလက်မှတ် များ ကို အား ညီမျှမရှိ အနိုင်ရပါသည်။\n\nလှုပ်ရှားမှု: '[play X]' မှာ X သည် လက်တွင် ကစားပွဲလက်မှတ် နေရာ (1-{max_pos}) ဖြစ်ပါသည်\n"
   },
   "hand": {
     "none": "ဢမ်ႇမီးဝႂ်ၵပ်းတူဝ်။",
@@ -37,9 +37,9 @@
     "line": "  Player {player_id}: {card}{trump_mark}"
   },
   "turn": {
-    "score_entry": "Player {player_id}: {points} pts",
+    "score_entry": "ကစားသမား {player_id}: {points} အမှတ်",
     "trump_info": "ၶူဝ်းၼုင်ႈသၢင်ႇၶႃႇ Trump: {trump_suit}",
-    "trump_info_deck": "Trump suit: {trump_suit} | Cards left in deck: {deck_count}",
+    "trump_info_deck": "အမှတ် အမှတ်: {trump_suit} | ကစားပွဲလက်မှတ် အစုတွင် ကျန်သည့် အရေအတွက်: {deck_count}",
     "board": "{hand}\n\n{trick}\n\nပိုၼ်းတႄႇတီႈ: {scores}\n{trump_info}\n\nၸွမ်းၶၢဝ်းလႅၵ်ႈ ၶႃႈ တီႈတွင်ႇ [play X]"
   },
   "invalid_move": {
@@ -48,10 +48,10 @@
   },
   "action": {
     "played": "Player {player_id} တစ် {card}",
-    "trick_win": "Player {winner} wins the trick with {card} and gains {points} points!"
+    "trick_win": "ကစားသမား {winner} က {card} ဖြင့် လှည့် အနိုင်ရပါသည် နှင့် {points} အမှတ် ရရှိပါသည်!"
   },
   "outcome": {
-    "head": "Game Over! Player {winner} wins with {points} points!\n\nFinal Scores:\n{scores}",
-    "player_line": "Player {player_id}: {points} points ({tricks} tricks)\n"
+    "head": "ကစားပွဲ ပြီးပါပြီ! ကစားသမား {winner} က {points} အမှတ် ဖြင့် အနိုင်ရပါသည်!\n\nနောက်ဆုံး အချက် များ:\n{scores}",
+    "player_line": "ကစားသမား {player_id}: {points} အမှတ် ({tricks} လှည့်)\n"
   }
 }

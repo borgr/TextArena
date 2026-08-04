@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({piece}). Opponent is ({opp}).\nSubmit moves as '[a2 a3]' (from → to).\n- A normal move is one forward step to an adjacent empty vertex.\n- A capture is a jump over an adjacent enemy piece landing on the empty node beyond.\nEach capture yields {score_per_capture} points.\nGame ends after {max_moves} moves or when a player has no legal move."
+    "intro": "Jius esat Spēlētājs {player_id} ({piece}). Pretinieks ir ({opp}).\nIesniedz gājienus kā '[a2 a3]' (no → uz).\n- Parasts gājiens ir viens priekšējais solis uz blakus esošu tukšu virsotni.\n- Sagrābšana ir lēciens pāri blakus esošai pretinieka figūrai, nosēžoties uz tukšā mezgla aiz tās.\nKatrs sagrābšanas gājiens dod {score_per_capture} punktus.\nSpēle beidzas pēc {max_moves} gājieniem vai kad spēlētājam nav legāla gājiena."
   },
   "board": {
     "current_board": "Move #{move_count}\n\n{board}"
@@ -13,7 +13,7 @@
     "illegal": "Ilegalys kusteibys."
   },
   "game_action": {
-    "captured": "Player {player_id} captured a piece! (+{score_per_capture})"
+    "captured": "Spēlētājs {player_id} sagrāba figūru! (+{score_per_capture})"
   },
   "outcome": {
     "no_pieces": "Spālātuojam {player_id} nav kūku.",

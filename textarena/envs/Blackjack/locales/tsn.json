@@ -13,6 +13,6 @@
     "all_complete": "=== Diatla {num_hands} tse di feletswe ===\nTshwenyego: {wins}, Dikgetho: {losses}, Ditsala: {draws}\n"
   },
   "outcome": {
-    "game_over": "The game has concluded. Final scores: Dealer: {losses}, You: {wins}, Draws: {draws}"
+    "game_over": "Tshameko e weditswe. Dikgatiso tsa bofelo: Moabi: {losses}, Wena: {wins}, Dikgatiso tse di lekana: {draws}"
   }
 }

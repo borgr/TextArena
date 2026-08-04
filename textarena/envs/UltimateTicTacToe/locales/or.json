@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in **Ultimate Tic Tac Toe**.\nSubmit your move as **[macro  micro]** (two numbers 0-8):\n• *macro*  = which mini-board you play in\n• *micro* = which square inside that mini-board\nExample `[7 8]` ➜ place your mark in mini-board 7, square 8, and\nforce your opponent to play in mini-board 8 next.\n\nYou are `{symbol}`.\n"
+    "intro": "ଆପଣ ଖେଳାଳୀ {player_id} **Ultimate Tic Tac Toe** ରେ।\nଆପଣଙ୍କ ଚାଳ ଦିଅନ୍ତୁ **[macro  micro]** (ଦୁଇ ସଂଖ୍ୟା 0-8):\n• *macro*  = କେଉଁ ଛୋଟ ବୋର୍ଡରେ ଆପଣ ଖେଳିବେ\n• *micro* = ସେ ଛୋଟ ବୋର୍ଡ ଭିତରେ କେଉଁ ବର୍ଗ\nଉଦାହରଣ `[7 8]` ➜ ଆପଣ ଛୋଟ ବୋର୍ଡ 7, ବର୍ଗ 8 ରେ ଆପଣ ଚିହ୍ନ ରଖନ୍ତୁ, ଏବଂ\nଆପଣ ପ୍ରତିଦ୍ୱନ୍ଦୀ ଛୋଟ ବୋର୍ଡ 8 ରେ ଖେଳିବେ।\n\nଆପଣ `{symbol}`।\n"
   },
   "board": {
     "current_board": "ବର୍ତ୍ତମାନର ବୋର୍ଡ: {board}"
@@ -9,7 +9,7 @@
     "wrong_format": "0-8 ସଂଖ୍ୟା ସହିତ [macro micro] ଫର୍ମରେ ଚାଲିବା ଉଚିତ ।",
     "out_of_range": "ପ୍ରତ୍ୟେକ ସୂଚକାଙ୍କ ୦ରୁ ୮ ମଧ୍ୟରେ ହେବା ଆବଶ୍ୟକ ।",
     "index_out_of_range": "ମାଇକ୍ରୋ_ବୋର୍ଡ, ଧାଡ଼ି, କିମ୍ବା କଲମ ରେଞ୍ଜ ବାହାରେ ଅଛି.",
-    "cell_occupied": "The cell is already occupied.",
+    "cell_occupied": "କୋଷ ପୂର୍ବ ରୁ ଅଧିକୃତ।",
     "wrong_micro_board": "ଖେଳାଳିଙ୍କୁ ପରବର୍ତ୍ତୀ ମାଇକ୍ରୋ ବୋର୍ଡରେ ଖେଳିବାକୁ ହେବ ।",
     "micro_board_won": "ମାଇକ୍ରୋ ବୋର୍ଡ ଜିତି ସାରିଛି ।"
   },

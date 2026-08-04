@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "invalid_action": "Жарамсыз иш-аракет. \"[Up]\"/\"[Down]\"/\"[Left]\"/\"[Right]\" колдонуңуз.",
-    "no_change": "Board did not change - choose a different direction."
+    "no_change": "Такта өзгөрүү жок - башка багытты тандаңыз."
   },
   "outcome": {
     "win": "Куттуктайм, сиз {target_tile} жеттиңиз! Акыркы упай {score}.",

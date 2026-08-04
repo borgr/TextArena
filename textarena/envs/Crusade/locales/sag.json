@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({piece}). Opponent is ({opp}). Submit moves as '[b1 c3]' (from → to). All pieces move like chess knights.\nEach capture scores {score_per_capture} point. Game ends after {max_moves} moves or when a player has no legal move / no pieces. Higher score wins."
+    "intro": "Mo ye zo {player_id} ({piece}). Zo akü ({opp}) ayeke. Kötä zo na '[b1 c3]' (tï, ndo). Wälä zo kä zo gbäi na gbäi kä ndö gbäi.\nKötä gbäi zo ndo {score_per_capture} poin. Löndï zo sü na {max_moves} kötä zo gbäi zo na ndo gbäi zo / zo gbäi zo ndo. Poin zo ndo gbäi zo ayeke."
   },
   "board": {
     "current_board": "Soki #{move_count}\n\n{board}\n\nMouvman disponib': {moves}"
@@ -13,7 +13,7 @@
     "not_knight": "A yeke mbeni ye so zo ayeke sara ni pëpe."
   },
   "game_action": {
-    "moved": "Player {player_id} moved their piece from {frm} to {to}.",
+    "moved": "Zo {player_id} kötä zo gbäi zo na {frm} ndo {to}.",
     "capture": "{observation} Kaptir yon pyès ! (+{score_per_capture})"
   },
   "outcome": {

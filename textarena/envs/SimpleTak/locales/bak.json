@@ -4,7 +4,7 @@
   },
   "invalid_move": {
     "invalid_move_format": "Күсереү форматы дөрөҫ түгел",
-    "cell_out_of_range": "Invalid cell number {cell_num}. Must be between 0 and {max_board_num}.",
+    "cell_out_of_range": "{cell_num} ячейкаһының номеры дөрөҫ түгел. 0 һәм {max_board_num} араһында булырға тейеш.",
     "cell_already_occupied": "{cell_num} күҙәнәкте биләйҙәр. Буш бер кеҫә һайлағыҙ."
   },
   "board": {

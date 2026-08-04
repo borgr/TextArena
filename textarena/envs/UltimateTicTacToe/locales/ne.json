@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in **Ultimate Tic Tac Toe**.\nSubmit your move as **[macro  micro]** (two numbers 0-8):\n• *macro*  = which mini-board you play in\n• *micro* = which square inside that mini-board\nExample `[7 8]` ➜ place your mark in mini-board 7, square 8, and\nforce your opponent to play in mini-board 8 next.\n\nYou are `{symbol}`.\n"
+    "intro": "तपाईं **अल्टिमेट टिक ट्याक टो** मा प्लेयर {player_id} हुनुहुन्छ।\nआफ्नो चाल **[macro  micro]** (दुई संख्या ०-८) को रूपमा प्रस्तुत गर्नुहोस्:\n• *macro* = तपाईं कुन मिनी-बोर्डमा खेल्नुहुन्छ\n• *micro* = त्यो मिनी-बोर्ड भित्रको कुन वर्गमा खेल्नुहुन्छ\nउदाहरण `[7 8]` ➜ आफ्नो चिन्ह मिनी-बोर्ड ७, वर्ग ८ मा राख्नुहोस्, र\nआफ्नो प्रतिद्वन्द्वीलाई अर्को मिनी-बोर्ड ८ मा खेल्न बाध्य गर्नुहोस्।\n\nतपाईं `{symbol}` हुनुहुन्छ।\n"
   },
   "board": {
     "current_board": "वर्तमान बोर्ड: {board}"

@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "S'atzione depet èssere in formadu [row col] ue fila e colunna sunt intreos dae 0 a {max_index}.",
-    "out_of_range": "Coordinates must be between 0 and {max_index}. You entered [{row},{col}]."
+    "out_of_range": "Sas coordenadas depent èssere intre 0 e {max_index}. As intradu [{row},{col}]."
   },
   "outcome": {
     "win": "Congratulatziones! As risòlvidu su puzzle in movimentos {moves_used}!",

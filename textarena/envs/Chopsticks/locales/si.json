@@ -6,7 +6,7 @@
     "current_board": "වර්තමාන මණ්ඩලය: ක් රීඩකයා 0: {hands_0} ක් රීඩකයා 1: {hands_1}"
   },
   "invalid_move": {
-    "my_hand_dead": "Your hand {my_idx} is dead.",
+    "my_hand_dead": "ඔබේ අත {my_idx} මිය ගොස් ඇත.",
     "opp_hand_dead": "විරුද්ධවාදී අත {opp_idx} දැනටමත් මිය ගොස් ඇත.",
     "split_sum": "බෙදන ලද මුදල {total} විය යුතුයි.",
     "split_no_change": "ස්ප්ලිට් ඔයාගේ අතේ බෙදාහැරීම වෙනස් කරන්න ඕනේ.",
@@ -14,7 +14,7 @@
   },
   "game_action": {
     "attack": "P{player_id} පී{opp_id}ගේ අතට පහර දෙයි {opp_idx}: එය {opp_val} සිට {new_val} දක්වා ගමන් කරයි.",
-    "split": "P{player_id} splits into [{L}, {R}]."
+    "split": "P{player_id} [{L}, {R}] ට බෙදීම කරයි."
   },
   "history": {
     "entry": "පී {player_id} {desc}"

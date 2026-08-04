@@ -9,7 +9,7 @@
     "progress": "{observation} Sakamakon ci gaba na yanzu: {progress}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use `[i j op]` where i,j are indices and op is +,-,*,/",
+    "wrong_format": "Tsarin aiki ba daidai ba. Amfani da `[i j op]` inda i,j su ne masu alama da op shine +,-,*,/",
     "invalid_indices": "Bayanan da ba daidai ba. Dole ne ya zama daban kuma a cikin kewayon 0-{max_index}",
     "invalid_operation": "Ayyukan da ba daidai ba (raba ta hanyar sifili ko sakamakon da ba lamba ba)"
   },

@@ -7,13 +7,13 @@
   },
   "invalid_move": {
     "wrong_format": "Ma nstab l-ebda format validu ta' mċaqliq. Uża '[pile quantity]'.",
-    "correct_format_wrong_fields": "Player {player_id}, Invalid action. Column {col} is out of bounds.",
+    "correct_format_wrong_fields": "Plejer {player_id}, Azzjoni invalida. Kolonna {col} hija barra mill-limiti.",
     "out_of_range": "L-indiċi tal-pil {pile_index} huwa barra mill-medda.",
     "non_positive": "Għandu jitneħħa mill-inqas oġġett wieħed.",
-    "exceeds_pile": "Cannot remove {quantity} from pile {pile_index} (only {pile_count} left)."
+    "exceeds_pile": "Ma jistax jitneħħew {quantity} minn ħafna {pile_index} (biss {pile_count} fadal)."
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "Plejer {player_id} lagħab [{pile_index} {quantity}], jitneħħew {quantity} oġġett(i) minn ħafna {pile_index}."
   },
   "outcome": {
     "win": "L-aħħar oġġett ġie meħud mill-plejer {player_id}!"

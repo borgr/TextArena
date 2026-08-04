@@ -7,10 +7,10 @@
     "{cell}": "A board cell number between 0 and 8"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Tic Tac Toe.\nYour goal is to win three in a row (horizontally, vertically, or diagonally) on the board.\nOn your turn, you should select the square number (0-8) you want to put your mark in next.\nFor example, '[4]' places your mark in the center cell of the board.\nAs Player {player_id}, you will be '{symbol}', while your opponent is '{opponent_symbol}'."
+    "intro": "သင်သည် Tic Tac Toe ကစားပွဲတွင် ကစားသမား {player_id} ဖြစ်ပါသည်။\nသင်၏ ရည်မှန်းချက်သည် ပလာတာပေါ်တွင် သုံးခုဆက်တိုက် (အလျား၊ ဒေါင်လိုက်၊ သို့မဟုတ် ထောင်လိုက်) အောင်ပွဲရရှိရန် ဖြစ်ပါသည်။\nသင်၏ အလှည့်တွင်၊ သင်သည် သင်၏ သင်္ကေတကို နောက်တစ်နေရာတွင် ထားလိုသည့် အကွက် နံပါတ် (၀-၈) ကို ရွေးချယ်ရမည်။\nဥပမာအားဖြင့်၊ '[4]' သည် သင်၏ သင်္ကေတကို ပလာတာ၏ အလယ်တွင် ထားပါသည်။\nကစားသမား {player_id} အနေဖြင့်၊ သင်သည် '{symbol}' ဖြစ်ပါသည်၊ သင်၏ ပြိုင်ဘက်သည် '{opponent_symbol}' ဖြစ်ပါသည်။"
   },
   "board": {
-    "current_board": "Current Board:\n\n{board}\n\nAvailable Moves: {moves}"
+    "current_board": "လက်ရှိ ပလာတာ။\n\n{board}\n\nရရှိနိုင်သည့် လှုပ်ရှားမှုများ။ {moves}"
   },
   "invalid_move": {
     "wrong_format": "လွင်ႈၶၢႆႉဢၼ်တၢင်ႇဝႆႉၼၼ်ႉ ဢမ်ႇၸွမ်းပိူင်ၾၢင် ဢၼ်ထုၵ်ႇမႅၼ်ႈ။",
@@ -18,7 +18,7 @@
     "already_occupied": "ၶႅပ်း {cell} ၼႆႉ မၼ်းလႆႈထုၵ်ႇဢဝ်ဝႆႉယဝ်ႉ။"
   },
   "game_action": {
-    "placed": "Player {player_id} placed their symbol ({symbol}) in cell {cell}."
+    "placed": "ကစားသမား {player_id} သည် သင်္ကေတ ({symbol}) ကို {cell} အကွက်တွင် ထားပါသည်။"
   },
   "outcome": {
     "win": "ၽူႈလဵၼ်ႈ {player_id} လႆႈဢွင်ႇပေႉ!",

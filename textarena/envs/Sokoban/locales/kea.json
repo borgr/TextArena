@@ -6,13 +6,13 @@
     "current_board": "Tabuleiru Atual:\n\n{board}\nMudansas Disponiveis: {moves}"
   },
   "invalid_move": {
-    "wrong_format": "The submitted move does not follow the correct format. Use [up], [down], [left], [right] or [w], [a], [s], [d].",
+    "wrong_format": "Movimento submetido ka segue formato koreto. Usá [up], [down], [left], [right] ou [w], [a], [s], [d].",
     "not_valid_action": "Kel mudansa ki bu manda ka é un asons válidu.",
     "wall_collision": "Bu ka pode entra na paredi!",
     "invalid_position": "mudansa inválidu - ka pode muda pa kel pozison."
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
+    "moved": "Bu {pushed} movê [{action}].",
     "pushed_prefix": "N poi un kaxa na txon."
   },
   "outcome": {

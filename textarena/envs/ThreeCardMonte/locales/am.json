@@ -11,7 +11,7 @@
     "{ball_pos}": "The cup index the ball is under"
   },
   "player_prompt": {
-    "intro": "Track the hidden ball 'X' while the cups are shuffled.\nAfter shuffling, guess its location with `[k]`."
+    "intro": "ኳስ 'X' ሳለ ጡፋንዎች እየተደባለቁ አንቺለን።\nከማደባለቂያ በኋላ አንቺለን ከሚገኘው አካባቢ `[k]` ጋር አስታውቁ።"
   },
   "game_message": {
     "ball_starts": "ኳስ ይጀምራል: {line}",
@@ -21,7 +21,7 @@
     "reveal": "(የተገለጠ: ኳስ ከ {ball_pos} በታች)"
   },
   "invalid_move": {
-    "wrong_format": "Bad action. Use `[k]`.",
+    "wrong_format": "አስታውቅ ትክክል አይደለም። `[k]` ይጠቀሙ።",
     "out_of_range": "ኢንዴክስ ከ 0-{max_index} ክልል ውጭ ነው ።"
   },
   "outcome": {

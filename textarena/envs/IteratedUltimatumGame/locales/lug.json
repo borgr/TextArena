@@ -24,9 +24,9 @@
     "intro": "Oli Mujjawulo {player_id}, olukola {num_rounds} mizungo ya Iterated Ultimatum Game.\nOliina ${pool} kusambaza mzungu uno kati yowe na Mujjawulo {other_id}.\n\nMujjawulo wa ofa:\n  - Fanya ofa: [Offer: $X] (0 <= X <= pool)\n  - Ikiwa ikikubaliwa → Oli mpaka $(pool - X), omulala apata $X\n  - Ikiwa ikikanwa → Abantu bonna babate $0\n  - Kifaano: [Offer: $3]  oba  'Nakiri ku munafair. [Offer: $5]'\n\nMujjawulo wa kukubali:\n  - Leta uamuzi kwenye ofa na [Accept] oba [Reject]\n  - Kifaano: 'Inaonekana kuwa na busu. [Accept]'\n            'Ni isiyofaa sana. [Reject]'\n"
   },
   "round": {
-    "begins": "--- Round {round_number} begins! ---\nPlayer {proposer_id} is the proposer, Player {responder_id} is the responder.",
-    "offer": "Round {round_number}: Player {proposer_id} offers ${offer} to Player {responder_id} (keeping ${keep}).",
-    "accepted": "Player {responder_id} accepted! Round {round_number} gains: Player {proposer_id} +${proposer_gain}, Player {responder_id} +${responder_gain}. New totals: Player 0: ${total_0}, Player 1: ${total_1}.",
+    "begins": "--- Mzunguko {round_number} unaanza! ---\nMchezaji {proposer_id} ndiye anayetoa pendekezo, Mchezaji {responder_id} ndiye anayejibu.",
+    "offer": "Mzunguko {round_number}: Mchezaji {proposer_id} anatoa pendekezo la ${offer} kwa Mchezaji {responder_id} (akihifadhi ${keep}).",
+    "accepted": "Mchezaji {responder_id} alikubali! Mzunguko {round_number} faida: Mchezaji {proposer_id} +${proposer_gain}, Mchezaji {responder_id} +${responder_gain}. Jumla mpya: Mchezaji 0: ${total_0}, Mchezaji 1: ${total_1}.",
     "rejected": "Mujjawulo {responder_id} yakakanwa ofa! Mzungu {round_number} unapata: Abantu bonna +$0. Jumla huwa: Mujjawulo 0: ${total_0}, Mujjawulo 1: ${total_1}."
   },
   "invalid_move": {

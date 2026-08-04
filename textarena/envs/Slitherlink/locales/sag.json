@@ -1,12 +1,12 @@
 {
   "player_prompt": {
-    "intro": "You are playing Slitherlink on a {R}x{C} grid!\nDraw a single continuous loop so each numbered cell has that many bordering edges.\nToggle edges with:\n  [h r c] - toggle horizontal edge above dots at row r, column c\n  [v r c] - toggle vertical edge left of dots at row r, column c\nNumbers show required edge count, '.' means no constraint.\nYou have up to {max_turns} moves to solve the puzzle."
+    "intro": "Mo kpɛlɛ Slitherlink na gril {R}x{C}!\nGbɛnɛ kpɔlɔ sɔ kɔɔ lɔŋɔ tɛnɛ tɛnɛ sɔ kɛlɛ na lɔŋɔ bɛɛ tɛnɛ ndɛkɛ.\nGbɛnɛ kpɔlɔ na:\n  [h r c] - gbɛnɛ kpɔlɔ lɔŋɔ tɛnɛ tɛnɛ sɔ kɛlɛ na lɔŋɔ r, kɔlɔm c\n  [v r c] - gbɛnɛ kpɔlɔ lɔŋɔ tɛnɛ tɛnɛ sɔ kɛlɛ na lɔŋɔ r, kɔlɔm c\nNɔmbɛrɛ tɔŋɔ lɔŋɔ tɛnɛ tɛnɛ sɔ kɛlɛ, '.' mɛnɛ kɔɔ tɛnɛ ndɛkɛ.\nMo kpɛlɛ tɛnɛ {max_turns} lɔŋɔ tɛnɛ tɛnɛ sɔ kɛlɛ puzɔ."
   },
   "board": {
-    "current_board": "{board}\nClues satisfied: {progress}"
+    "current_board": "{board}\nKôzo a gbâ: {progress}"
   },
   "invalid_move": {
-    "wrong_format": "Bad action format. Use [h row col] or [v row col].",
+    "wrong_format": "Mbëti ti format ti action. Utilisa [h row col] ou [v row col].",
     "out_of_bounds": "A yeke na gigi ti tableau."
   },
   "outcome": {

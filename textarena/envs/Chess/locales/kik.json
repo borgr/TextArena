@@ -11,7 +11,7 @@
     "illegal": "Kũthama gũtarĩ gwa kĩwatho."
   },
   "game_action": {
-    "moved": "Player {player_id} made the following move: {move_uci}"
+    "moved": "Mchezaji {player_id} aĩkĩrĩ mũgogo ũyũ: {move_uci}"
   },
   "outcome": {
     "draw": "Gĩkundi kĩu gĩgĩkira kĩhaanaine.",

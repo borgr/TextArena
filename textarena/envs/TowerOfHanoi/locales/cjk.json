@@ -1,22 +1,22 @@
 {
   "player_prompt": {
-    "intro": "You are playing Tower of Hanoi with {num_disks} disks.\nYou have to move the disks from tower A to tower C.\nTo move a disk, type the source tower and the target tower (e.g., '[A C]').\nNote that you can only move the top disk of a tower, and that a bigger disk cannot be placed on a smaller disk.\nAt each turn, submit one move."
+    "intro": "Mwina uli na kuzwela Tower of Hanoi na {num_disks} vipande.\nMwina uli na kusokota vipande kuwa kwenye nguzo A kwenda nguzo C.\nKusokota kipande, lemba nguzo ya kwanza na nguzo ya kufika (kwa mfano, '[A C]').\nKumbuka kuwa mwina uliweza kusokota tu kipande cha juu cha nguzo, na kwamba kipande kikubwa hakikwezi kuwekwa pa kipande kidogo.\nPa kila zamu, pasha mbinu moja."
   },
   "board": {
-    "current_board": "Current Board: \n{board}."
+    "current_board": "Nguzo ya Sasa: \n{board}."
   },
   "invalid_move": {
-    "wrong_format": "You did not respond with valid '[source] [target]'.",
+    "wrong_format": "Kutamba kuweka mawasiliano ya mpangilio wa kuhamisha kisichowezekana '[source] [target]'.",
     "invalid_tower": "Ulandik'a kongolo ya ndundu eyi nga si na bombo.",
     "empty_tower": "Ulijaribu ku sende disk kutoka tower empty.",
     "same_tower": "Ulijaribu ku sende dishi mu tower nderi.",
     "larger_on_smaller": "Ulijaribu kuweka disk kubwa kwenye diski ndogo."
   },
   "game_action": {
-    "moved": "You moved disk {disk} from {source} to {target}."
+    "moved": "Mwina ulisokota kipande {disk} kutoka {source} kwenda {target}."
   },
   "outcome": {
-    "win": "Congratulations! Wa solve the bridge of Hanoi.",
-    "turn_limit": "Cjk ck, limite d'un chemin est atteint. You have correctly placed {pct}% of the disks on Tower C."
+    "win": "Hongera! Mwina ulitatua kipande cha Tower of Hanoi.",
+    "turn_limit": "Muda wa zamu umefikiwa. Mwina uliweka kwa usahihi {pct}% ya vipande pa Nguzo C."
   }
 }

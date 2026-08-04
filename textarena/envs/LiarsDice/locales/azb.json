@@ -22,15 +22,15 @@
     "final_ranking": "list of player indices from first eliminated to winner"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in an {num_players}-player Liar's Dice game.\nRules:\n- On your turn, you may either:\n  1) Make a new bid with a higher quantity or higher face (or both) than the current bid; i.e. '[Bid: 3, 4]',\n  2) Call the last bid by typing '[Call]'.\n\nIf you call:\n  - If the actual count of that face value among all dice is less than the bid, the last bidder loses one die.\n  - Otherwise, the caller loses one die.\nA player who reaches 0 dice is eliminated. The last remaining player wins."
+    "intro": "سز اویونچو {player_id} اویونوندا لیارز دایس کی {num_players} اویونچو وار.\nقایدالار:\n- سزین نؤبتی‌نینده، سز یا:\n  1) یئنی بیر تیکمه وئرین کی میقداری یا اوزونده‌کی دَیری (یا هر ایکیسی) ایندیکی تیکمه‌دن یوخاری اولسون؛ یعنی '[Bid: 3, 4]',\n  2) سون تیکمه‌نی چاغیرین '[Call]' یازماقلا.\n\nاگر سز چاغیرسین:\n  - اگر اوزونده‌کی دَیرین سایی زارلار آراسیندا ایندیکی تیکمه‌دن آشاغی اولسا، سون تیکمه‌چی بیر زار ایتیریر.\n  - یوخسا، چاغیران اویونچو بیر زار ایتیریر.\nاویونچو کی 0 زارا چاتیر حذف اولور. سون قالان اویونچو قازانیر."
   },
   "board": {
     "per_player": "\tOyuncu {p}: {d}",
     "new_round": "\nYeni tur - Kalan zarlar: {dice_summary}\nŞu anki zarlarınız: {your_dice}"
   },
   "call": {
-    "bidder_loses": "Player {current_player_id} calls! The actual count of face {face_value} is {count}, which is LESS than {quantity}.\nPlayer {loser_id} (the last bidder) loses one die.",
-    "caller_loses": "Player {current_player_id} calls! The actual count of face {face_value} is {count}, which is >= {quantity}.\nPlayer {loser_id} (the caller) loses one die."
+    "bidder_loses": "بازیچی {current_player_id} چاغیریر! {face_value} اۆزونون حقیقی سایی‌سی {count} دیر، کی {quantity} دن آز دیر.\nبازیچی {loser_id} (سون تکلیفچی) بیر تاس ایتیریر.",
+    "caller_loses": "بازیچی {current_player_id} چاغیریر! {face_value} اۆزونون حقیقی سایی‌سی {count} دیر، کی {quantity} دن چوخ یا برابر دیر.\nبازیچی {loser_id} (چاغیران) بیر تاس ایتیریر."
   },
   "action": {
     "bid_announce": "Oyuncu {player_id} {quantity} yüz {face_value} teklif eder."

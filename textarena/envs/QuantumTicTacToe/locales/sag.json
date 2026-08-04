@@ -1,9 +1,9 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in Quantum Tic Tac Toe.\nYour symbol is '{symbol}', and your move numbers are always {parity} (e.g., X1, X3 or O2, O4).\n\nGoal: Win by forming a line of three classical marks (solidified from superpositions).\n\nHow to Play:\n- On each turn, place a spooky mark in two different empty squares using the format '[a,b]'.\n- These marks are entangled, and labeled like 'X1 / X1' or 'O4 / O4'.\n- You cannot place spooky marks in a square that has already collapsed (solidified).\n\nCollapse Rule:\n- If your move creates a cycle in the entanglement graph, it collapses automatically.\n- Each spooky mark in the cycle turns into a classical mark in one of its two positions.\n- Any dependent spooky marks also collapse.\n\nVictory:\n- The game ends when a player has three classical marks in a row.\n- If both players get a line during the same collapse, the one with the lower max move number wins.\n\nExample move: '[0,4]' places a spooky mark in cells 0 and 4."
+    "intro": "Mo yeke Player {player_id} na Quantum Tic Tac Toe.\nKötä tî {symbol} a zo, na nimëro tî zo kûê {parity} (e.g., X1, X3 or O2, O4).\n\nGbätä: Gba kôo na gbätä tî miti tî ndö (kûê na süperpozisyon).\n\nKodi tî zo:\n- Na kûêrû kôo, bûa gbätä na ndö söö tî mbâri ôko na format '[a,b]'.\n- Gbätä sô a zo kûêrû, na süperpozisyon na ndö söö tî 'X1 / X1' or 'O4 / O4'.\n- Mo yeke bûa gbätä na ndö sô a zo kûêrû.\n\nKodi tî süperpozisyon:\n- Si zo a zo kûêrû süperpozisyon na ndö söö, a süperpozisyon gbätä kûêrû.\n- Kûêrû gbätä na süperpozisyon a süperpozisyon na ndö söö tî mbâri ôko.\n- Süperpozisyon sô a süperpozisyon gbätä kûêrû.\n\nGbätä:\n- Kôo a gbätä si mo yeke a zo kûêrû ndö tî miti tî ndö.\n- Si mo yeke a zo kûêrû ndö tî miti tî ndö, mo yeke a süperpozisyon na ndö söö tî mbâri ôko gbätä.\n\nKodi tî zo: '[0,4]' bûa gbätä na ndö 0 na 4."
   },
   "board": {
-    "current_board": "Quantum Tic Tac Toe Board:\n\n{board}\n\nSubmit your move as '[a,b]' to place a quantum mark in two locations."
+    "current_board": "Kötä tî Quantum Tic Tac Toe:\n\n{board}\n\nBûa zo a '[a,b]' na bûa gbätä na mbâri ôko."
   },
   "invalid_move": {
     "wrong_format": "A yeke na lege ni ape. Sala kua na \"[a,b]\".",
@@ -14,9 +14,9 @@
     "placed": "Möngö {player_id} âkûî ngà symbol na yé superposition ndima ndima {pos_a} na {pos_b}."
   },
   "game_message": {
-    "dependent_resolved": "Dependent superposition âkûî résolu. Cell ({r}, {c}) âzî {symbol}.",
+    "dependent_resolved": "Süperpozisyon sô a süperpozisyon gbätä kûêrû. Mbâri ôko ({r}, {c}) a zo kûêrû {symbol}.",
     "last_cell_resolved": "Superposition ndima ndima mbênî résolu. Cell ({r}, {c}) âzî {symbol}.",
-    "superposition_resolved": "Superposition résolu. Cell ({r}, {c}) âzî {symbol}."
+    "superposition_resolved": "Süperpozisyon gbätä kûêrû. Mbâri ôko ({r}, {c}) a zo kûêrû {symbol}."
   },
   "outcome": {
     "win": "Zo ti pikango ye {player_id} awara na peko ti so lo wara gbâ ti acouleur!",

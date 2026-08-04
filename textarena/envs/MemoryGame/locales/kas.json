@@ -1,25 +1,25 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id}. You are playing the Memory Game.\nYour goal is to match more pairs of cards on the board, than your opponent.\nOn your turn, select two cards to flip by entering the row and column numbers of the first and second card respectively like '[0 1 1 0]', where the first card is in row 0 and column 1, and the second card is in row 1 and column 0.\nIf the two cards match, you get a point and the cards remain face up. If they do not match, the cards are flipped back face down, e.g. '.'.\nThe game ends when all pairs have been matched."
+    "intro": "توہی کھلاڑی {player_id} ہو۔ توہی میموری گیم کھیل رہے ہو۔\nتوہی مقصد چھ کہ بورڈ پہ زیادہ جوڑے کھلاڑیوں کے مقابلے میں بناؤ۔\nاپنے دور میں، دو کارڈز کو سلیکٹ کرنے کے لیے پہلے اور دوسرے کارڈ کے قطار اور کالم نمبرز داخل کرو جیسے '[0 1 1 0]'، جہاں پہلا کارڈ قطار 0 اور کالم 1 میں ہے، اور دوسرا کارڈ قطار 1 اور کالم 0 میں ہے۔\nاگر دو کارڈز میچ ہو جائیں، توہی ایک پوائنٹ حاصل کرتے ہو اور کارڈز اوپر رہتے ہیں۔ اگر وہ میچ نہیں ہوتے، تو کارڈز واپس نیچے ہو جاتے ہیں، جیسے '.'۔\nکھیل اس وقت ختم ہوتا ہے جب تمام جوڑے میچ ہو جاتے ہیں۔"
   },
   "board": {
-    "current_board": "करंट बोर्ड: {board}",
-    "current_game_board": "करंट गेम बोर्ड: {board}"
+    "current_board": "موجودہ بورڈ:\n{board}",
+    "current_game_board": "موجودہ گیم بورڈ:\n{board}"
   },
   "invalid_move": {
-    "wrong_format": "अवैध चाल प्रारूप. प्लेयर {player_id} स्क्वायर ब्रैकेट मंज़ वैलिड डायरेक्शन सेत जवाब नी दें.",
-    "out_of_bounds": "अमान्य चाल. प्लेयर {player_id} छू आउट ऑफ़ बाउंड पोजीशन चुनें.",
-    "same_card_twice": "अमान्य चाल. प्लेयर {player_id} छू दोन वारी अख कार्ड सिलेकश्न करमस.",
-    "already_matched": "अमान्य चाल. प्लेयर {player_id} चुन आँख या दुनवई कार्ड युस अस तेम सेथ मिलान छू अमृत करने."
+    "wrong_format": "غلط حرکت فارمیٹ۔ کھلاڑی {player_id} نے مربع بریکٹس میں ایک درست سمت کے ساتھ جواب نہیں دیا۔",
+    "out_of_bounds": "غلط حرکت۔ کھلاڑی {player_id} نے ایک آؤٹ آف باؤنڈز پوزیشن سلیکٹ کی ہے۔",
+    "same_card_twice": "غلط حرکت۔ کھلاڑی {player_id} نے ایک ہی کارڈ دو بار سلیکٹ کیا ہے۔",
+    "already_matched": "غلط حرکت۔ کھلاڑی {player_id} نے ایک یا دونوں کارڈز سلیکٹ کیے ہیں جو پہلے ہی میچ ہو چکے ہیں۔"
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "کھلاڑی {player_id} کے ذریعہ سلیکٹ کیے گئے کارڈز پوزیشنوں [{r1} {c1}] اور [{r2} {c2}] پر میچ ہوتے ہیں!",
+    "cards_no_match": "کھلاڑی {player_id} کے ذریعہ سلیکٹ کیے گئے کارڈز میچ نہیں ہوتے۔ کارڈز پوزیشنوں [{r1} {c1}] اور [{r2} {c2}] پر بالترتیب {pos1} اور {pos2} ہیں۔"
   },
   "outcome": {
-    "draw": "दुनवई प्लेयर क्र कार्डक एवा नंबर मैच.",
-    "win": "प्लेयर {winner_id} छी जीतनी !",
-    "turn_limit": "टर्न सीमा प्राप्त हो गई है। खेल समाप्त हो गया है। प्लेयर 0 ने {score_0} अंक प्राप्त किए, प्लेयर 1 ने {score_1} अंक प्राप्त किए।",
-    "turn_limit_win": "{reason} प्लेयर {winner_id} ने जीत हासिल की है!"
+    "draw": "دونوں کھلاڑیوں نے ایک ہی تعداد میں جوڑے میچ کیے ہیں۔",
+    "win": "کھلاڑی {winner_id} جیت گیا ہے!",
+    "turn_limit": "ٹرن کی حد پہنچ گئی ہے۔ کھیل ختم ہو گیا ہے۔ کھلاڑی 0 نے {score_0} پوائنٹس سکور کیے ہیں، کھلاڑی 1 نے {score_1} پوائنٹس سکور کیے ہیں۔",
+    "turn_limit_win": "{reason} کھلاڑی {winner_id} جیت گیا ہے!"
   }
 }

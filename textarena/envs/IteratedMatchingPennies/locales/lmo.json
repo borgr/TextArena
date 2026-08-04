@@ -1,13 +1,13 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({role}) in a {num_rounds}-round Matching Pennies game.\n- Each round, submit [heads] or [tails] (or [h], [t]).\n- If your choice matches your opponent’s, Player 0 wins the round; otherwise Player 1 wins.\nReply with your choice in the format '[heads]' or '[tails]'.\n"
+    "intro": "Ti seet Giugador {player_id} ({role}) in d'on gioeugh de Matching Pennies de {num_rounds} turni.\n- Ogni tornada, manda [heads] o [tails] (o [h], [t]).\n- Se la tua scerna la corespond a quella del to avversari, Giugador 0 el vincc el torn; sennò Giugador 1 el vincc.\nRispond con la tua scelta in del format '[heads]' o '[tails]'.\n"
   },
   "invalid_move": {
-    "wrong_format": "Invalid format; please submit '[heads]' or '[tails]'."
+    "wrong_format": "Format sbagliad; per piasè, manda '[heads]' o '[tails]'."
   },
   "message": {
-    "round_match": "Player 0 picked {choice0}; Player 1 picked {choice1}. Match -> Player 0 wins",
-    "round_mismatch": "Player 0 picked {choice0}; Player 1 picked {choice1}. Mismatch -> Player 1 wins."
+    "round_match": "Giugador 0 l'ha scernid {choice0}; Giugador 1 l'ha scernid {choice1}. Corispondenza -> Giugador 0 el vincc",
+    "round_mismatch": "Giugador 0 l'ha scernid {choice0}; Giugador 1 l'ha scernid {choice1}. Descorispondenza -> Giugador 1 el vincc."
   },
   "outcome": {
     "p0_wins": "Al giugador 0 al gh'à vinciù pù gir.",

@@ -13,7 +13,7 @@
     "hit_mine": "Kamu mengenai ranjau di ({row}, {col})."
   },
   "game_action": {
-    "revealed": "You revealed the cell at ({row}, {col})."
+    "revealed": "Kamu buka sel di ({row}, {col})."
   },
   "outcome": {
     "win": "Selamat! Pian sudah berhasil mahapus papan Minesweeper.",

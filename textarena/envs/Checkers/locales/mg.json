@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "Tsy hita ny endrika mihetsika. Ampiasao ny [a1b2], ohatra [b2c3].",
-    "illegal": "Move [{move}] is illegal."
+    "illegal": "Hetsika [{move}] tsy mahazo lalana."
   },
   "game_action": {
     "moved": "Mpilalao {player_id} nifindra {move}."

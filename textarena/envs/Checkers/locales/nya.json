@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "Sintaksi ya njovu ilipotea. Tumia [a1b2], koma kwa mfano [b2c3].",
-    "illegal": "Move [{move}] is illegal."
+    "illegal": "Gawo [{move}] si la kisheria."
   },
   "game_action": {
     "moved": "Wosewera {player_id} anasamukira ku {move}."

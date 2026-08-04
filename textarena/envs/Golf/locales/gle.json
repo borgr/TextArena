@@ -31,8 +31,8 @@
     "none": "Gan aon cheann acu."
   },
   "options": {
-    "final_turns": "Final turns! Your options: [draw], [take], [peek X Y]",
-    "draw": "Your options: [draw], [take]",
+    "final_turns": "Babhtaí deiridh! Na roghanna atá agat: [draw], [take], [peek X Y]",
+    "draw": "Na roghanna atá agat: [draw], [take]",
     "must_swap": "Ní mór duit: [swap X Y] (ní féidir cártaí a dhiúscairt ó charnadh diúscaireachta)",
     "swap_or_discard": "Ní mór duit: [swap X Y] nó [discard] a dhéanamh"
   },

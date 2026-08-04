@@ -5,8 +5,8 @@
   },
   "player_prompt": {
     "intro": "Сіз неміс Уистіндегі ойыншы {player_id}сіз. {phase_info} Сізде {hand_size} карталары бар. \"[play N]\" бар картаны ойнаңыз, мұнда N - сіздің қолыңыздағы орны (мысалы \"[play 3]\").",
-    "phase_learning": "LEARNING PHASE: the winner of each trick takes the face-up card and the loser draws the next card from the deck. Tricks won in this phase do not count towards victory.",
-    "phase_playing": "PLAYING PHASE: the deck is exhausted. Every trick from now on counts towards victory."
+    "phase_learning": "ҮЙРЕНУ ФАЗАСЫ: әрбір трюк жеңімпазы беті ашық картаны алады, ал жеңілген ойыншы колодадан келесі картаны тартады. Бұл фазада жеңілген трюктер жеңіске қосылмайды.",
+    "phase_playing": "ОЙНАУ ФАЗАСЫ: колода түгелдей бітті. Қазірден бастап әрбір трюк жеңіске қосылады."
   },
   "next_card": {
     "playing_phase": "Ойын картасы ұсынылмайды - ойын кезеңі басталды.",

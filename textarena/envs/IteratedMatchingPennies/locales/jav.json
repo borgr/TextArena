@@ -6,7 +6,7 @@
     "wrong_format": "Format salah; kirim '[heads]' utawa '[tails]'."
   },
   "message": {
-    "round_match": "Player 0 picked {choice0}; Player 1 picked {choice1}. Match -> Player 0 wins",
+    "round_match": "Pemain 0 milih {choice0}; Pemain 1 milih {choice1}. Cocog -> Pemain 0 menang",
     "round_mismatch": "Pemain 0 milih {choice0}; Pemain 1 milih {choice1}. Ketidakcocokan -> Pemain 1 menang."
   },
   "outcome": {

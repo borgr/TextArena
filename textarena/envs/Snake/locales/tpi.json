@@ -15,7 +15,7 @@
   },
   "board": {
     "current": "Ol i stap long Board: {board}",
-    "after_moves": "Current Board State:\n{board}"
+    "after_moves": "Stet Bilong Bod Nau:\n{board}"
   },
   "game_action": {
     "invalid_death": "Snek {player_id} i dai long wanem em i no inap mekim wok."

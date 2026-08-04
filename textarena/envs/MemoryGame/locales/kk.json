@@ -13,8 +13,8 @@
     "already_matched": "Жарамсыз қимыл. Ойыншы {player_id} бір немесе екі картаны таңдады, олар бұрын-соңды сәйкес келген."
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "Ойыншы {player_id} таңдаған карточкалар [{r1} {c1}] және [{r2} {c2}] позицияларында сәйкес келеді!",
+    "cards_no_match": "Ойыншы {player_id} таңдаған карточкалар сәйкес келмейді. [{r1} {c1}] және [{r2} {c2}] позицияларындағы карточкалар сәйкесінше {pos1} және {pos2}."
   },
   "outcome": {
     "draw": "Екі ойыншы да бірдей сандағы карталарды қосты.",

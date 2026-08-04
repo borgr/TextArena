@@ -11,6 +11,6 @@
   },
   "outcome": {
     "win": "تهانينا، وصلت إلى {target_tile}! النقاط النهائية {score}.",
-    "lose": "No moves left. Max tile {max_tile} - final score {score}."
+    "lose": "لا توجد تحركات متبقية. البلاطة القصوى {max_tile} - النقاط النهائية {score}."
   }
 }

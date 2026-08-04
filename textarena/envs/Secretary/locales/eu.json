@@ -11,6 +11,6 @@
   "outcome": {
     "summary": "Hartu duzu {value} balioa {draw_num}/{N} marrazketan. Orokorrean onena {best} izan zen. {result}",
     "perfect": "Hautapen bikaina!",
-    "not_max": "Not the maximum."
+    "not_max": "Ez da maximoa."
   }
 }

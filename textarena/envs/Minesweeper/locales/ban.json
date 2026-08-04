@@ -17,6 +17,6 @@
   },
   "outcome": {
     "win": "Sugeng tanggap warsa, sampun prasida ngicalang papan Minesweeper.",
-    "turn_limit": "The turn limit has been reached. You successfully uncovered {percent}% of the safe cells."
+    "turn_limit": "Wates giliran sampun kacapai. Cai berhasil nyingkapin {percent}% saking sel sane aman."
   }
 }

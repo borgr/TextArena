@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({piece}). Opponent is ({opp}). Submit moves as '[b1 c3]' (from → to). All pieces move like chess knights.\nEach capture scores {score_per_capture} point. Game ends after {max_moves} moves or when a player has no legal move / no pieces. Higher score wins."
+    "intro": "Tusa an Imreoir {player_id} ({piece}). Tá an freasúra ({opp}). Cuir isteach gluasanna mar '[b1 c3]' (ó → go). Bogann gach píosa mar ridire fichille.\nTugann gach gabháil {score_per_capture} phointe. Críochnaíonn an cluiche tar éis {max_moves} gluasanna nó nuair nach bhfuil gluas dleathach ag imreoir / nach bhfuil píosaí aige. Buaitear an scór is airde."
   },
   "board": {
     "current_board": "Glaoigh #{move_count}\n\n{board}\n\nGluaisne Ar Fáil: {moves}"
@@ -20,6 +20,6 @@
     "no_pieces": "Níl aon phíosa ag imreoir {player_id}.",
     "cannot_move": "Ní féidir le himreoir {player_id} bogadh.",
     "higher_score": "Scór gabhála níos airde.",
-    "move_limit": "Reach Movement Limit."
+    "move_limit": "Teorainn gluasanna bainte amach."
   }
 }

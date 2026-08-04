@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in SimpleTak.\nOn the board, your stones appear as '{player_stone}' and your opponent's stones appear as '{opponent_stone}'.\n\nOn your turn, choose one empty cell (by its numbered index) and place your stone there.\nFor example, '[12]' places your stone in cell 12.\n\nYour objective is to form a continuous path of your stones that connects two opposite edges of the board (top-to-bottom or left-to-right)."
+    "intro": "O kerekere mo ni Player {player_id} ena SimpleTak.\nEna borodi, na nomu stones e rairai vakataki '{player_stone}' kei na stones nei nomu meca e rairai vakataki '{opponent_stone}'.\n\nEna nomu gauna, digitaka e dua na seli vakalala (ena nona naba) ka biuta kina na nomu stone.\nVakataki, '[12]' biuta na nomu stone ena seli 12.\n\nNa nomu inatakala e veitaqa na nomu stones me vaka e dua na sala dodonu ka veikabula na rua na mataivalu ni borodi (cake mai vuqa ki ra kei na kena vo)."
   },
   "invalid_move": {
     "invalid_move_format": "Sega ni dodonu na kena ibulibuli",

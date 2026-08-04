@@ -42,7 +42,7 @@
     "dealer_hand": " شوبون! يد الوكيل: {cards}",
     "community_cards": " بطاقات المجتمع: {cards}",
     "player_best": "🎴 أفضل يد لللاعب: {name} ({cards})",
-    "dealer_best": "🎴 Dealer's best hand: {name} ({cards})",
+    "dealer_best": "🎴 أفضل يد لديلر: {name} ({cards})",
     "ante_lost_folded": " ANTE bet LOST! -${ante} (طوي)",
     "blind_lost_folded": " الرهان العمياء خسر! -${blind} (طوي)",
     "ante_won": "✅ انتو راني فزت! +${amount}",
@@ -59,7 +59,7 @@
     "separator": "──────────────────────────────────────────────────"
   },
   "outcome": {
-    "game_over_win": "🏁 GAME OVER! {max_turns} rounds completed. You have ${chips} chips - YOU WIN!",
+    "game_over_win": "🏁 اللعبة انتهت! {max_turns} جولات مكتملة. لديك ${chips} شرائح - أنت الفائز!",
     "game_over_lose": "لعبة إنتهت، ما عادلكش فيشب. الموزع ربح!",
     "reward_win": "اكتملت {winner_rounds} جولات باللاعب مع ${chips} فишات",
     "reward_lose": "لعبو خلصوا من الشيبس في الجولة {round}",

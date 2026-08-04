@@ -7,7 +7,7 @@
     "out_of_range": "Yu mas ting em i namel long {min_guess} na {max_guess}."
   },
   "message": {
-    "round_guesses": "Player 0 guessed {guess0}; Player 1 guessed {guess1}. Thus the Target is: {target}.",
+    "round_guesses": "Pleia 0 i gessim {guess0}; Pleia 1 i gessim {guess1}. Olsem na, Target i stap: {target}.",
     "round_draw": "Taim em i raun, dispela bai makim olsem ol man i no winim pait.",
     "round_win": "Man {winner} i winim dispela raun!"
   },

@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "Tidak ditemukan format gerakan yang valid. Gunakan [a1b2], contoh [b2c3].",
-    "illegal": "Move [{move}] is illegal."
+    "illegal": "Mappasang [{move}] tenaga illegal."
   },
   "game_action": {
     "moved": "Pelaen {player_id} pindah {move}."

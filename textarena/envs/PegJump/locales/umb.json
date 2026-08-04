@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing PegJump. Jump one peg over another into an empty hole, removing the jumped peg.\nGoal: finish with exactly **one** peg left. Action format: e.g. '[4 1]'."
+    "intro": "Ocikile PegJump. Punda ocikili omo umwe mokwawo mokuwa kwenye ombala, otakula ocikili omo upundile.\nOcipa: omanye nokulala na ocikili **omwe**. Ocipa yocitandu: p.e. '[4 1]'."
   },
   "board": {
     "current_board": "Mipego ilike: {count}\n{board}"

@@ -14,7 +14,7 @@
     "{scores}": "The final scores as a raw player-number to score mapping - do not translate"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player GOPS.\n- You hold the 13 cards A-K (each exactly once).\n- Each round a prize is revealed. Submit ONE card like `[Q]`, `[10]`, `[2]` …\n- Highest card wins the prize (+ any carry-over pot). Ties roll the prize into the next round.\n- After 13 rounds, highest total wins. Invalid moves = elimination."
+    "intro": "Je bent Speler {player_id} in Drie-Speler GOPS.\n- Je hebt de 13 kaarten A-K (elk precies één keer).\n- Elke ronde wordt een prijs onthuld. Dien ÉÉN kaart in zoals `[Q]`, `[10]`, `[2]` …\n- De hoogste kaart wint de prijs (+ eventuele overgedragen pot). Gelijkspel rolt de prijs over naar de volgende ronde.\n- Na 13 rondes wint de hoogste totaal. Ongeldige zetten = eliminatie."
   },
   "round": {
     "header": "### Runde {round}/13 - Pries: {prize} (wurd {worth})",

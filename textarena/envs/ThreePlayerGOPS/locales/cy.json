@@ -14,7 +14,7 @@
     "{scores}": "The final scores as a raw player-number to score mapping - do not translate"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player GOPS.\n- You hold the 13 cards A-K (each exactly once).\n- Each round a prize is revealed. Submit ONE card like `[Q]`, `[10]`, `[2]` …\n- Highest card wins the prize (+ any carry-over pot). Ties roll the prize into the next round.\n- After 13 rounds, highest total wins. Invalid moves = elimination."
+    "intro": "Rydych chi'n Chwaraewr {player_id} yn Three-Player GOPS.\n- Rydych chi'n dal y 13 card A-K (pob un yn union unwaith).\n- Yn ystod pob rownd, datgelir gwobr. Cyflwynwch UN card fel `[Q]`, `[10]`, `[2]` …\n- Y card uchaf sy'n ennill y wobr (+ unrhyw bot a drosglwyddwyd). Mae tei yn rholio'r wobr i'r rownd nesaf.\n- Ar ôl 13 rownd, mae'r cyfanswm uchaf yn ennill. Symudiadau annilys = dilead."
   },
   "round": {
     "header": "### Cyfnod {round}/13 - Gwobr: {prize} (werth {worth})",
@@ -27,7 +27,7 @@
   },
   "invalid_move": {
     "no_token": "Mae angen cerdyn mewn braced fel \"[Q]\" ar gyfer gweithredu",
-    "bad_card": "card a ddefnyddir eisoes neu'n anghywir"
+    "bad_card": "card eisoes wedi'i ddefnyddio neu annilys"
   },
   "elimination": {
     "player": "Chwaraewr {pid} wedi'i ddileu ar ôl symud anghywir dro ar ôl tro."

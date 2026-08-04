@@ -13,7 +13,7 @@
     "repeated_guess": "Bo a yega di hasi un suposicion {guess}. Por fabor purba otro suposishon."
   },
   "game_action": {
-    "feedback": "Submitted [{guess}]. Feedback: {black_pegs} black peg(s), {white_pegs} white peg(s)."
+    "feedback": "Entregá [{guess}]. Feedback: {black_pegs} prenchi pretu, {white_pegs} prenchi blanku."
   },
   "outcome": {
     "win": "Bo a kibra e kodigo, resolvé {black_pegs} for di {code_length} pegs korektamente.",

@@ -11,7 +11,7 @@
     "{groups}": "Neutral ranking data (a list of player-id groups, worst to best); do not translate"
   },
   "player_prompt": {
-    "intro": "{num_players}-Player Snake on a {width}×{height} grid.\nYou control snake {player_id}. Valid moves: '[up]'/'[down]'/'[left]'/'[right]' (or w/s/a/d).\nObjective: survive longest or be the longest and get the highest score (turn limit {max_turns} turns)."
+    "intro": "{num_players}-Akɔnkye Snake wɔ {width}×{height} pɔwboard so.\nWɔyɛ akɔnkyeni {player_id}. Sɛnkyerɛmdeɛ a wɔtumi yɛ: '[up]'/'[down]'/'[left]'/'[right]' (anaa w/s/a/d).\nBotaeɛ: di akɔnkye no mu kyɛm sene wɔn a wɔwɔ hɔ no anaasɛ wɔyɛ akɔnkyeni a wɔtɔ so kyɛm sen wɔn a wɔwɔ hɔ no na wɔnya akɔnkye no mu nsɛm kɛseɛ (sɛnkyerɛmdeɛ {max_turns} sɛnkyerɛmdeɛ)."
   },
   "board": {
     "current": "Adwumayɛbea a ɛwɔ hɔ nnɛ: {board}",
@@ -26,6 +26,6 @@
     "outlived": "Ɔbɔfo no traa ase sen afoforo nyinaa.",
     "all_dead": "Wɔkunkum awɔ no nyinaa.",
     "turn_limit": "Sɛ wudu baabi a ɛsɛ sɛ wohyere no - nea ɔwɔ akatua pa sen biara di nkonim wɔ tie-break mu.",
-    "ranking": "{reason} Final ranking groups (worst→best): {groups}"
+    "ranking": "{reason} Akɔnkye no mu nsɛm a wɔde kyerɛɛ a ɛwɔ hɔ no (bɔne sen kɛseɛ): {groups}"
   }
 }

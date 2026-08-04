@@ -22,7 +22,7 @@
     "final_ranking": "list of player indices from first eliminated to winner"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in an {num_players}-player Liar's Dice game.\nRules:\n- On your turn, you may either:\n  1) Make a new bid with a higher quantity or higher face (or both) than the current bid; i.e. '[Bid: 3, 4]',\n  2) Call the last bid by typing '[Call]'.\n\nIf you call:\n  - If the actual count of that face value among all dice is less than the bid, the last bidder loses one die.\n  - Otherwise, the caller loses one die.\nA player who reaches 0 dice is eliminated. The last remaining player wins."
+    "intro": "UnguMdlali {player_id} kwenye umdlalo we-Liar's Dice wenye {num_players} abadlali.\nImithetho:\n- Kwenye ilixa lakho, unaweza ukwenza:\n  1) Yenkqubo entsha yenye inqwaba ephezulu okanye iamanani asematshana ephezulu (okanye zombini) kuliko inkqubo yamanje; isebenza, '[Bid: 3, 4]',\n  2) Yitshayele inkqubo yokugqibela ngokutshayela '[Call]'.\n\nUkuba uyitshayele:\n  - Ukuba inani lamatshana asematshana kwenye zonke amatshana liphantsi kwenye inkqubo, umdlali othathe umatshana uyakulahlekelwa.\n  - Kungenjalo, oyitshayele uyakulahlekelwa.\nUmdlali othathe umatshana awunayo uyapheliswa. Omdlali oshiyekileyo ophumelela."
   },
   "board": {
     "per_player": "\tMdlali {p}: {d}",
@@ -33,7 +33,7 @@
     "caller_loses": "Mdlali {current_player_id} ethetha! Inani elingaphezulu lezi ntshiselele {face_value} li {count}, elingaphezulu kwakhona {quantity}.\nMdlali {loser_id} (omethethi) uphume inyanga."
   },
   "action": {
-    "bid_announce": "Player {player_id} bids {quantity} of face {face_value}."
+    "bid_announce": "Mdlali {player_id} uyenjenkqubo {quantity} yamatshana asematshana {face_value}."
   },
   "invalid_move": {
     "call_no_bid": "Umnxeba owenziwe ngaphandle kokubhida kwangaphambili.",

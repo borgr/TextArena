@@ -9,7 +9,7 @@
     "progress": "{observation}\nTshego ya phadiso ya nako e e tsamayanang: {progress}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use `[i j op]` where i,j are indices and op is +,-,*,/",
+    "wrong_format": "Mofuta wa kgato o sa siamang. Dirisa `[i j op]` kwa go raya i,j e bile maitshwaro le op e le +,-,*,/",
     "invalid_indices": "Di-indices tse di sa siamang.Di tshwanetse go farologana le tsa 0 -{max_index}",
     "invalid_operation": "Tiragatso e e sa siamang (karolo ka lefela kgotsa maduo a eseng palogotlhe)"
   },

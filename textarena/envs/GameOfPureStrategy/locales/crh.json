@@ -16,7 +16,7 @@
     "bids": "Teklifler: P0 {card0} vs P1 {card1} - ",
     "p0_wins": "{observation}Oyuncu 0 ğalebe qazandı {pot_value}.",
     "p1_wins": "{observation}1. Oyuncu kazandı {pot_value}.",
-    "tie": "{observation}Tie -> pot now {carry_pot}.",
+    "tie": "{observation}Beraberlik -> pot şimdi {carry_pot}.",
     "scores": "Skorlar -> P0:{score0}  P1:{score1}"
   },
   "outcome": {

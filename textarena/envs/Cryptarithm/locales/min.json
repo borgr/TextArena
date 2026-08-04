@@ -9,10 +9,10 @@
     "{pct}": "Progress as a percentage string, e.g. 50%"
   },
   "player_prompt": {
-    "intro": "Map each letter to a unique digit so the arithmetic holds.\nAssign with `[A 5]`, re-assign anytime.\n"
+    "intro": "Peta'an surang-surang huruf ka angka unik supayo aritmetika tasimpan.\nTugaskan jo `[A 5]`, ubah tugasan wakatu-wakatu.\n"
   },
   "invalid_move": {
-    "wrong_format": "Bad action format. Use `[A 5]`.",
+    "wrong_format": "Format tindakan indak elok. Gunokan `[A 5]`.",
     "letter_not_in_puzzle": "Huruf {letter} indak ado dalam puzzle.",
     "digit_used": "Angko {digit} alah digunoan dek {used_letter}.",
     "leading_zero": "Angko pamuloan dari sabuah kato indak dapek manjadi 0."

@@ -1,19 +1,19 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in Nim.\nYour goal is to take the last remaining object.\nOn each turn, choose exactly one pile and remove one or more objects from it.\nUse the format '[pile quantity]', where pile is the pile index and quantity is the number of objects to remove.\nFor example, '[0 3]' removes 3 objects from pile 0."
+    "intro": "Keddaɣ ad tekkiɣ {player_id} ɣef Nim.\nAlɣu-inek teddaɣ ad tekkiɣ ayyaw n yifassen aneggaru.\nDeg krayat n yal ass, fayez pile iɣzifen, d aɣrez ayyawen seg-s.\nSeqdec tawila '[pile quantity]', anda pile d aswir n upile, d quantity d uṭṭun n yifassen ara tekkiɣ.\nAlaɣ, '[0 3]' ad yerrez 3 n yifassen seg upile 0."
   },
   "state": {
     "current_pile": "ⴰⵖⴰⵔⴰⵙ ⵏ ⵓⵎⵏⵣⴰⵢ: {piles}"
   },
   "invalid_move": {
     "wrong_format": "ⵓⵔ ⵉⵜⵜⵢⴰⴼⴰ ⴽⵔⴰ ⵏ ⵓⵙⴽⴰⵔ ⵉⵣⵔⵉⵏ ⵉ ⵓⵙⵙⵎⵓⵜⵜⴳ. ⵙⵔⵙ \"[pile quantity]\".",
-    "correct_format_wrong_fields": "Player {player_id}, Invalid action. Column {col} is out of bounds.",
+    "correct_format_wrong_fields": "Aqeddac {player_id}, Aseqdec n uḍaɣar ur d-ittaɣ ara. Aḍaɣar {col} ur d-yella ara.",
     "out_of_range": "ⵓⴰ ⵢⵂⴰⵏ {pile_index} ⵏ ⴱⵉⵍⵍ ⵓⵔ ⵉⴾⵏⵢ ⴰⵛⵂⵔⵓⵜ.",
     "non_positive": "ⵉⵇⵏⴻⵏ ⴰⴷ ⵢⴰⴽⴽⵙ ⵢⴰⵏ ⵓⵏⴰⵡ ⵙ ⵉⵎⵉⴽ.",
-    "exceeds_pile": "Cannot remove {quantity} from pile {pile_index} (only {pile_count} left)."
+    "exceeds_pile": "Ur d-yefɣel ara {quantity} seg uḍaɣar {pile_index} (kan {pile_count} yella)."
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "Aqeddac {player_id} yefɣel [{pile_index} {quantity}], d-yefɣel {quantity} n t-ileqqiwen seg uḍaɣar {pile_index}."
   },
   "outcome": {
     "win": "ⴰⵛⴰⵆⴰⵍ {player_id} ⵉⴾⵔⴰⵛⵂ ⵂⴰⵔⴰⵜ ⵓⴰⵙ ⵙⴰⵎⴰⵏⴷⵓ (((ⵙ)!"

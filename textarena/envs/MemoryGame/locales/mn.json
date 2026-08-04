@@ -13,8 +13,8 @@
     "already_matched": "Хөлбөмбөгч {player_id} аль хэдийнэ нийцсэн нэг эсвэл хоёр картыг сонгосон."
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "Тоглогч {player_id} сонгосон картууд [{r1} {c1}] болон [{r2} {c2}] байрлалд ижил байна!",
+    "cards_no_match": "Тоглогч {player_id} сонгосон картууд ижил биш байна. [{r1} {c1}] болон [{r2} {c2}] байрлалд картууд {pos1} болон {pos2} тус тус байна."
   },
   "outcome": {
     "draw": "Хоёр тоглогч ижил тооны пар карттай.",

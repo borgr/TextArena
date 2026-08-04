@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are in a room with {num_buttons} buttons: {buttons}. Each button is associated with a Bernoulli distribution with a fixed but unknown mean; the means for the buttons could be different.\nFor each button, when you press it, you will get a reward that is sampled from associated distribution.\nYou have {num_turns} time steps and, on each time step, you can choose any button and receive the reward.\nYour goal is to strategically choose buttons at each time step to collect information about their reward distribution, that will let you choose the button with the highest mean reward correctly at the end of {num_turns} turns."
+    "intro": "Uri mu kazu kandi hari {num_buttons} bafungu: {buttons}. Kila kifungu kikaba kikwitiriwe na ubwoko bw'ikigega cha Bernoulli gifite umwihariko ushobora kutamenyekana; umwihariko w'ibifungu ushobora kutabana.\nKwa kila kifungu, wakigipiga, uzohabwa na igihembo kigemwe muri ikigega kikwitiriwe.\nUfise {num_turns} igihe c'amacakubiri, kandi, kwa kila macakubiri, urashobora kugitondera kifungu na kuhabwa igihembo.\nIngenzi yawe ni kugitondera ibifungu kwa ujanja kwa kila macakubiri kugira ngo ujaze amakuru kuhusu ikigega cy'igihembo, kikagufasha kugitondera kifungu gifite igihembo kinini cyane ku musozo wa {num_turns} za macakubiri."
   },
   "board": {
     "stat_line": "{button}: {reward} (kuzenguruka {count} magara)",
@@ -11,7 +11,7 @@
     "invalid_button": "Akabutoke katemewe karatowe."
   },
   "game_action": {
-    "pressed": "You pressed the {button} button and received a reward of {reward}."
+    "pressed": "Wagipiga kifungu {button} na kuhabwa igihembo cya {reward}."
   },
   "game_message": {
     "final_decision": "Umaze gukoresha amahera yawe yose kugira ngo ugerageze uburyo butandukanye bwo kwivuza no kwitegereza ivyiza bivamwo, nuce rero uhitamwo ubwo ubona ko ari bwiza kuruta ubundi bwose."

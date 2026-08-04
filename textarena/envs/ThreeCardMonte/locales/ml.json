@@ -11,7 +11,7 @@
     "{ball_pos}": "The cup index the ball is under"
   },
   "player_prompt": {
-    "intro": "Track the hidden ball 'X' while the cups are shuffled.\nAfter shuffling, guess its location with `[k]`."
+    "intro": "കപ്പുകൾ ഷഫിൾ ചെയ്യുമ്പോൾ 'X' എന്ന മറഞ്ഞിരിക്കുന്ന ബോൾ ട്രാക്ക് ചെയ്യുക.\nഷഫിൾ ചെയ്ത ശേഷം, അതിന്റെ സ്ഥാനം `[k]` ഉപയോഗിച്ച് ഊഹിക്കുക."
   },
   "game_message": {
     "ball_starts": "പന്ത് തുടങ്ങുന്നു: {line}",
@@ -21,7 +21,7 @@
     "reveal": "(കാണിക്കുക: {ball_pos} എന്നതിനു താഴെയുള്ള പന്ത്)"
   },
   "invalid_move": {
-    "wrong_format": "Bad action. Use `[k]`.",
+    "wrong_format": "തെറ്റായ പ്രവർത്തനം. `[k]` ഉപയോഗിക്കുക.",
     "out_of_range": "സൂചിക 0-{max_index} പരിധിക്കു പുറത്താണ്."
   },
   "outcome": {

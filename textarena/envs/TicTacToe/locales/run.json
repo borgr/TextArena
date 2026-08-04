@@ -10,7 +10,7 @@
     "intro": "Uko kama Mwari {player_id} katika Tic Tac Toe.\nLengo lako ni kushinda tatu mfululizo (kulia, wima, au diagonal) kwenye kibao.\nWakati wa mpango wako, unapaswa kuchagua nambari ya mraba (0-8) unapotaka kuweka alama yako inayofuata.\nKwa mfano, '[4]' inaweka alama yako katikati ya kibao.\nKama Mwari {player_id}, utakuwa '{symbol}', wakati mpinzani wako ni '{opponent_symbol}'."
   },
   "board": {
-    "current_board": "Current Board:\n\n{board}\n\nAvailable Moves: {moves}"
+    "current_board": "Ubao wa Sasa:\n\n{board}\n\nMichezo Inayopatikana: {moves}"
   },
   "invalid_move": {
     "wrong_format": "Ingendo yatanzwe ntiyakurikije uburyo bubereye.",

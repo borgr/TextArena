@@ -44,11 +44,11 @@
   },
   "invalid_move": {
     "wrong_format": "La̱tdɛ [play X] gua̱th in bi̱ X ɛ la ka̱a̱k (1, 2, 3, cetkɛ tɔ̱)",
-    "out_of_range": "Invalid card position. You have {count} cards (1-{count})"
+    "out_of_range": "Kɔ̈k wuɔc dɛ̈l wuɔc. Yɛ̈ɛ̈nɔ̈ŋ {count} kɔ̈k wuɔc (1-{count})"
   },
   "action": {
-    "played": "Player {player_id} played {card}",
-    "trick_win": "Player {winner} wins the trick with {card} and gains {points} points!"
+    "played": "Dɛ̈l wuɔc {player_id} wuɔc {card}",
+    "trick_win": "Dɛ̈l wuɔc {winner} wuɔc wuɔc {card} kuɔɔ {points} kɔ̈ɔ̈r!"
   },
   "outcome": {
     "head": "Kɛɛr acɛ! Riäk {winner} ee thok kɛn {points} pɔɔr!\n\nPɔɔr ë dhɔl:\n{scores}",

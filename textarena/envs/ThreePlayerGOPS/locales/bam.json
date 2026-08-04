@@ -14,7 +14,7 @@
     "{scores}": "The final scores as a raw player-number to score mapping - do not translate"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player GOPS.\n- You hold the 13 cards A-K (each exactly once).\n- Each round a prize is revealed. Submit ONE card like `[Q]`, `[10]`, `[2]` …\n- Highest card wins the prize (+ any carry-over pot). Ties roll the prize into the next round.\n- After 13 rounds, highest total wins. Invalid moves = elimination."
+    "intro": "I ye Player {player_id} ye Three-Player GOPS.\n- I kèra 13 kaati A-K (kelen kelen).\n- Kila tour, ka prize bèè. Sègèrè ONE kaati kama `[Q]`, `[10]`, `[2]` …\n- Kaati sègèrè ye ka prize (+ pot ka carry-over). Ties ka prize ka next tour.\n- A 13 tours, sègèrè total ye. Invalid moves = élimination."
   },
   "round": {
     "header": "### Round {round}/13 - Prize: {prize} (kɛrɛn {worth})",

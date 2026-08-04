@@ -9,7 +9,7 @@
     "wrong_format": "فعل غير صالح. استخدم '[Hit]' أو '[Stand]'."
   },
   "game_message": {
-    "hand_result": "Hand {hand_number}: you {outcome}. Your final {player_score}, Dealer {dealer_score}.",
+    "hand_result": "اليد {hand_number}: انت {outcome}. نتيجتك النهائية {player_score}، نتيجة البائع {dealer_score}.",
     "all_complete": "=== جميع {num_hands} الأيدي مكتملة ===\nالفوز: {wins}, الخسارة: {losses}, التعادل: {draws}\n"
   },
   "outcome": {

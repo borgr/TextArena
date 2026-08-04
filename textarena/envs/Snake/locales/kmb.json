@@ -11,7 +11,7 @@
     "{groups}": "Neutral ranking data (a list of player-id groups, worst to best); do not translate"
   },
   "player_prompt": {
-    "intro": "{num_players}-Player Snake on a {width}×{height} grid.\nYou control snake {player_id}. Valid moves: '[up]'/'[down]'/'[left]'/'[right]' (or w/s/a/d).\nObjective: survive longest or be the longest and get the highest score (turn limit {max_turns} turns)."
+    "intro": "{num_players}-Makaka a ku tanga na rima {width}×{height}.\nO kontrola makaka {player_id}. Mbinzi zinazoweza: '[up]'/'[down]'/'[left]'/'[right]' (ou w/s/a/d).\nKutende: kuzinga kwa mazuva mengi ou kuwa nde makaka mure ure wa mazuva mengi na kupata pontu ya juu zaidi (kikomo cha mazuva {max_turns})."
   },
   "board": {
     "current": "Kibuka kia Utuminu: {board}",

@@ -19,7 +19,7 @@
   "invalid_move": {
     "wrong_format": "ଅବୈଧ ସ୍ଥାନାନ୍ତରଣ ଫର୍ମାଟ୍. '[cell]' ବ୍ୟବହାର କରନ୍ତୁ ଯେଉଁଠାରେ ସେଲ୍ ହେଉଛି 0-{max_cell}.",
     "out_of_range": "ଅବୈଧ ସେଲ ନମ୍ବର: {cell}. ଏହା 0 ରୁ {max_cell} ମଧ୍ୟରେ ହେବା ଆବଶ୍ୟକ.",
-    "already_occupied": "Cell {cell} is already occupied.",
+    "already_occupied": "ସେଲ {cell} ଇତିମଧ୍ୟ ଅଧିକୃତ।",
     "made_invalid": "ଖେଳାଳି {player_id} ଅମାନ୍ୟ ଚାଲାଣ କରିଛନ୍ତି"
   },
   "game_action": {

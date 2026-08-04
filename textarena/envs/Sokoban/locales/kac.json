@@ -1,19 +1,19 @@
 {
   "player_prompt": {
-    "intro": "You are solving the Sokoban puzzle. You are the player and you need to push all boxes to targets.\n        When you are right next to a box, you can push it by moving in the same direction.\n        You cannot push a box through a wall, and you cannot pull a box.\n        On the board, objects are represented as: \n        - The player (you) appears as 'P' \n        - Walls are represented with '#' \n        - Boxes are marked as 'X' \n        - Empty goals are shown with a 'O'\n        - Boxes on goals are visualized with '√'\n        You can also use [w] for up, [a] for left, [s] for down, and [d] for right.\n        "
+    "intro": "Nanhte Sokoban puzzle kasha ai hte. Nanhte player sha re, box mahkra chyu sha hte target ni kau ai.\n        Box langai hta nanhte kaja wa ai shaloi, nanhte box kau ai hte shang lawu na.\n        Nanhte box wa hte shinggan hte sha re pyi, box wa hte langa pyi.\n        Board hta object ni hte: \n        - Player (nanhte) 'P' hte kaja ai \n        - Shinggan '#' hte kaja ai \n        - Box 'X' hte kaja ai \n        - Empty goal 'O' hte kaja ai\n        - Box goal hta '√' hte kaja ai\n        Nanhte [w] hte up, [a] hte left, [s] hte down, [d] hte right hte sha re.\n        "
   },
   "board": {
     "current_board": "Hkum Hta Bra: \n\n{board}\nHkum Hta Mai: {moves}"
   },
   "invalid_move": {
     "wrong_format": "Hkum htai na matut ai hpe gaw na shan htai. [up], [down], [left], [right] ya [w], [a], [s], [d] hpe gaw shalai.",
-    "not_valid_action": "The submitted move is not a valid action.",
+    "not_valid_action": "Kau ai lam hte aja hta na re.",
     "wall_collision": "Hpungdim de nang n sa lu ai.",
     "invalid_position": "N-gun n rawng ai shamu shamawt lam - dai shara de htaw bang lu na n re."
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
-    "pushed_prefix": "pushed a box while"
+    "moved": "Nanhte {pushed} moved [{action}].",
+    "pushed_prefix": "box kau ai shaloi"
   },
   "outcome": {
     "win": "Kabu gara ai. Nang gaw Sokoban manghkang hpe hparan lu sai!",

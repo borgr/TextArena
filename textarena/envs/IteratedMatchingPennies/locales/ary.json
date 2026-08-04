@@ -1,13 +1,13 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({role}) in a {num_rounds}-round Matching Pennies game.\n- Each round, submit [heads] or [tails] (or [h], [t]).\n- If your choice matches your opponent’s, Player 0 wins the round; otherwise Player 1 wins.\nReply with your choice in the format '[heads]' or '[tails]'.\n"
+    "intro": "أنت لعّاب {player_id} ({role}) في لعبة Matching Pennies دايزة على {num_rounds} جولة.\n- في كل جولة، قدم [heads] أو [tails] (أو [h]، [t]).\n- إذا كان اختيارك مطابق للاختيار ديال لعّاب لخر، لعّاب 0 يربح الجولة؛ sinon لعّاب 1 يربح.\nأجاوب بختيارك في الصيغة '[heads]' أو '[tails]'.\n"
   },
   "invalid_move": {
-    "wrong_format": "Invalid format; please submit '[heads]' or '[tails]'."
+    "wrong_format": "صيغة غالطة؛ أرجوك قدم '[heads]' أو '[tails]'."
   },
   "message": {
-    "round_match": "Player 0 picked {choice0}; Player 1 picked {choice1}. Match -> Player 0 wins",
-    "round_mismatch": "Player 0 picked {choice0}; Player 1 picked {choice1}. Mismatch -> Player 1 wins."
+    "round_match": "لعّاب 0 دار {choice0}؛ لعّاب 1 دار {choice1}. مطابقة -> لعّاب 0 يربح",
+    "round_mismatch": "لعّاب 0 دار {choice0}؛ لعّاب 1 دار {choice1}. عدم مطابقة -> لعّاب 1 يربح."
   },
   "outcome": {
     "p0_wins": "لاعب صفر فاز بالمزيد من الجولات.",

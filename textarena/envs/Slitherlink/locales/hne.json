@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing Slitherlink on a {R}x{C} grid!\nDraw a single continuous loop so each numbered cell has that many bordering edges.\nToggle edges with:\n  [h r c] - toggle horizontal edge above dots at row r, column c\n  [v r c] - toggle vertical edge left of dots at row r, column c\nNumbers show required edge count, '.' means no constraint.\nYou have up to {max_turns} moves to solve the puzzle."
+    "intro": "तुमन स्लिथरलिंक {R}x{C} ग्रिड म खेलत हाव!\nएकल सतत लूप बनाओ जतना संख्या वाला सेल उतने किनारे वाला होवय।\nकिनारा बदलने:\n  [h r c] - रो r, कॉलम c म डॉट्स के उपर क्षैतिज किनारा बदलो\n  [v r c] - रो r, कॉलम c म डॉट्स के बायें ऊर्ध्वाधर किनारा बदलो\nसंख्या आवश्यक किनारा गणना दिखात है, '.' का अर्थ कोई प्रतिबंध नइ हय।\nतुम्हार पास {max_turns} चाल के भीतर पहेली हल करने के लिए हाव।"
   },
   "board": {
     "current_board": "{board}\nसंकेत संतुष्ट: {progress}"

@@ -17,20 +17,20 @@
     "move_bomb_or_flag": "Umdlali {player_id} akanakuhambisa ibhombu okanye iflegi."
   },
   "game_action": {
-    "you_moved": "You have moved your piece from {source} to {dest}.",
+    "you_moved": "Ungenye ukunyakaza impawu yakho ukusuka {source} ukuya {dest}.",
     "opponent_moved": "Umdlali {player_id} uhambise iqhekeza ukusuka ku-{source} ukuya kwi-{dest}.",
-    "you_equal_ranks": "You have moved your piece from {source} to {dest}. The attacking piece was {attacking_rank} and the destination piece was {target_rank}. As the ranks are the same, both pieces lost.",
-    "opponent_equal_ranks": "Player {player_id} has moved a piece from {source} to {dest}. The attacking piece was {attacking_rank} and the destination piece was {target_rank}. As the ranks are the same, both pieces lost.",
-    "you_miner_defused": "You have moved your piece from {source} to {dest}. The attacking piece was {attacking_rank} and the destination piece was {target_rank}. As miners can defuse bombs, you won the battle.",
-    "opponent_miner_defused": "Player {player_id} has moved a piece from {source} to {dest}. The attacking piece was {attacking_rank} and the destination piece was {target_rank}. As miners can defuse bombs, you lost the battle.",
-    "you_bomb_lost": "You have moved your piece from {source} to {dest}. The attacking piece was {attacking_rank} and the destination piece was {target_rank}. As the attacker is not a miner, you lost the battle.",
-    "opponent_bomb_won": "Player {player_id} has moved a piece from {source} to {dest}. The attacking piece was {attacking_rank} and the destination piece was {target_rank}. As the attacker is not a miner, you won the battle.",
-    "you_spy_won": "You have moved your piece from {source} to {dest}. The attacking piece was {attacking_rank} and the destination piece was {target_rank}. As the attacker is a spy and the destination is a marshall, you won the battle.",
-    "opponent_spy_lost": "Player {player_id} has moved a piece from {source} to {dest}. The attacking piece was {attacking_rank} and the destination piece was {target_rank}. As the attacker is a spy and the destination is a marshall, you lost the battle.",
-    "you_higher_won": "You have moved your piece from {source} to {dest}. The attacking piece was {attacking_rank} and the destination piece was {target_rank}. As the attacker is a higher rank than the destination, you won the battle.",
-    "opponent_higher_lost": "Player {player_id} has moved a piece from {source} to {dest}. The attacking piece was {attacking_rank} and the destination piece was {target_rank}. As the attacker is a higher rank than the destination, you lost the battle.",
-    "you_lower_lost": "You have moved your piece from {source} to {dest}. The attacking piece was {attacking_rank} and the destination piece was {target_rank}. As the attacker is a lower rank than the destination, you lost the battle.",
-    "opponent_lower_won": "Player {player_id} has moved a piece from {source} to {dest}. The attacking piece was {attacking_rank} and the destination piece was {target_rank}. As the attacker is a lower rank than the destination, you won the battle."
+    "you_equal_ranks": "Ungenye ukunyakaza impawu yakho ukusuka {source} ukuya {dest}. Impawu etshayayo inerank {attacking_rank} ne-impawu edestinasyon inerank {target_rank}. Njengoko i-rank zilingana, zombini iimpawu zilahlekiwe.",
+    "opponent_equal_ranks": "Umdlali {player_id} ungenye ukunyakaza impawu ukusuka {source} ukuya {dest}. Impawu etshayayo inerank {attacking_rank} ne-impawu edestinasyon inerank {target_rank}. Njengoko i-rank zilingana, zombini iimpawu zilahlekiwe.",
+    "you_miner_defused": "Ungenye ukunyakaza impawu yakho ukusuka {source} ukuya {dest}. Impawu etshayayo inerank {attacking_rank} ne-impawu edestinasyon inerank {target_rank}. Njengoko i-miners inaweza ukuyichitha i-bombs, ungenye ukunqoba impi.",
+    "opponent_miner_defused": "Umdlali {player_id} ungenye ukunyakaza impawu ukusuka {source} ukuya {dest}. Impawu etshayayo inerank {attacking_rank} ne-impawu edestinasyon inerank {target_rank}. Njengoko i-miners inaweza ukuyichitha i-bombs, ulahlekiwe impi.",
+    "you_bomb_lost": "Ungenye ukunyakaza impawu yakho ukusuka {source} ukuya {dest}. Impawu etshayayo inerank {attacking_rank} ne-impawu edestinasyon inerank {target_rank}. Njengoko otshayayo akayi-miner, ulahlekiwe impi.",
+    "opponent_bomb_won": "Umdlali {player_id} ungenye ukunyakaza impawu ukusuka {source} ukuya {dest}. Impawu etshayayo inerank {attacking_rank} ne-impawu edestinasyon inerank {target_rank}. Njengoko otshayayo akayi-miner, ungenye ukunqoba impi.",
+    "you_spy_won": "Ungenye ukunyakaza impawu yakho ukusuka {source} ukuya {dest}. Impawu etshayayo inerank {attacking_rank} ne-impawu edestinasyon inerank {target_rank}. Njengoko otshayayo yi-spy ne-destination yi-marshal, ungenye ukunqoba impi.",
+    "opponent_spy_lost": "Umdlali {player_id} ungenye ukunyakaza impawu ukusuka {source} ukuya {dest}. Impawu etshayayo inerank {attacking_rank} ne-impawu edestinasyon inerank {target_rank}. Njengoko otshayayo yi-spy ne-destination yi-marshal, ulahlekiwe impi.",
+    "you_higher_won": "Ungenye ukunyakaza impawu yakho ukusuka {source} ukuya {dest}. Impawu etshayayo inerank {attacking_rank} ne-impawu edestinasyon inerank {target_rank}. Njengoko otshayayo unerank ephakamileyo, ungenye ukunqoba impi.",
+    "opponent_higher_lost": "Umdlali {player_id} ungenye ukunyakaza impawu ukusuka {source} ukuya {dest}. Impawu etshayayo inerank {attacking_rank} ne-impawu edestinasyon inerank {target_rank}. Njengoko otshayayo unerank ephakamileyo, ulahlekiwe impi.",
+    "you_lower_lost": "Ungenye ukunyakaza impawu yakho ukusuka {source} ukuya {dest}. Impawu etshayayo inerank {attacking_rank} ne-impawu edestinasyon inerank {target_rank}. Njengoko otshayayo unerank ephantsi, ulahlekiwe impi.",
+    "opponent_lower_won": "Umdlali {player_id} ungenye ukunyakaza impawu ukusuka {source} ukuya {dest}. Impawu etshayayo inerank {attacking_rank} ne-impawu edestinasyon inerank {target_rank}. Njengoko otshayayo unerank ephantsi, ungenye ukunqoba impi."
   },
   "outcome": {
     "flag_captured": "Umdlali {player_id} uthathe iflegi yomchasi!",

@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "Pamargin patut ring format [row col] genah baris miwah kolom inggih punika wilangan bulat saking 0 ngantos {max_index}.",
-    "out_of_range": "Coordinates must be between 0 and {max_index}. You entered [{row},{col}]."
+    "out_of_range": "Koordinat patut ring tengah 0 miwah {max_index}. Iraga ngetik [{row},{col}]."
   },
   "outcome": {
     "win": "Sugeng tanggap warsa! Ragane sampun mragatang teka-teki antuk gerakan {moves_used}.",

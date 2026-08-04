@@ -14,7 +14,7 @@
     "{scores}": "The final scores as a raw player-number to score mapping - do not translate"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player GOPS.\n- You hold the 13 cards A-K (each exactly once).\n- Each round a prize is revealed. Submit ONE card like `[Q]`, `[10]`, `[2]` …\n- Highest card wins the prize (+ any carry-over pot). Ties roll the prize into the next round.\n- After 13 rounds, highest total wins. Invalid moves = elimination."
+    "intro": "Ikaw an Player {player_id} ha Three-Player GOPS.\n- Ikaw an nagkakaptan han 13 ka karta A-K (kada usa la).\n- Kada round mayda premyo nga ginbubuklad. Isumite USA ka karta pareho `[Q]`, `[10]`, `[2]` …\n- An pinakamataas nga karta nangdaog han premyo (+ bisan ano nga naipon nga pot). An ties nagpapalit han premyo ngadto ha sunod nga round.\n- Kahuman han 13 ka round, an pinakamataas nga total nangdaog. Mga invalid nga mga lihok = eliminasyon."
   },
   "round": {
     "header": "### Round {round}/13 - Premyo: {prize} (kayanan nga {worth})",

@@ -8,9 +8,9 @@
   },
   "invalid_move": {
     "wrong_format": "ዘይቅኑዕ ናይ ስጉምቲ ቅርጺ፡ ተጻዋታይ {player_id} ቅቡል 'ቁጽሪ ዓምዲ' ኣይመለሰን።",
-    "out_of_bounds": "ንቅስቃሴ የተሳሳተ። ተጫዋች {player_id} ለ{num} በ ({row}, {col}) ላይ እንዲተካ ሞክረው ነበረ። ይህ የታላላቅ አቅጣጫ ውስጥ ይገኛል።",
-    "overwrite": "ንቅስቃሴ የተሳሳተ። ተጫዋች {player_id} በ ({row}, {col}) ላይ የተሞላበትን ሴል ለመቀየስ ሞክረው ነበረ።",
-    "violates_rules": "ንቅስቃሴ የተሳሳተ። ተጫዋች {player_id} ለ{num} በ ({row}, {col}) ላይ እንዲተካ ሞክረው ነበረ። ይህ ሱዳን ህጎችን ይጣራል።"
+    "out_of_bounds": "ምላሽ ዘይቅኑዕ። ተጫዋች {player_id} {num} አብ ({row}, {col}) አለዎ፣ አይንከሎ አለዎ።",
+    "overwrite": "ምላሽ ዘይቅኑዕ። ተጫዋች {player_id} ንኡሳምር ሴል ({row}, {col}) አለዎ።",
+    "violates_rules": "ምላሽ ዘይቅኑዕ። ተጫዋች {player_id} {num} አብ ({row}, {col}) አለዎ፣ ሕገት ሱዶኩ ንዘይንብል።"
   },
   "outcome": {
     "win": "እንኳዕ ደስ በለኩም! ተጻዋታይ {player_id} ነቲ ሱዶኩ ዝምልከት ምስጢር ፈጺምዎ እዩ።",

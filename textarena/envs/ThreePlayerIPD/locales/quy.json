@@ -8,7 +8,7 @@
   },
   "results": {
     "header": "### Rundi {round} - Qhipaqkuna:",
-    "pair_line": "{observation}\n\t Player {i} vs Player {j} mañakun ❘ {choice_i} ❘ ❙❘ ❘ ❙❘ {choice_j} (Player {i} ❙❘ ❘ ❙❘ {gain_i}, Player {j} ❙❘ ❘ ❙❘ {gain_j})",
+    "pair_line": "{observation}\n\t Runa {i} vs Runa {j} akllasqa {choice_i}taq {choice_j}taq (Runa {i} chaskirqan {gain_i}, Runa {j} chaskirqan {gain_j})",
     "scores_open": "{observation} -> Kunan puntapi: ",
     "score_first": "{observation}Player {player_id} ({score})",
     "score_next": "{observation}; Player {player_id} ({score})",

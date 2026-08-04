@@ -3,18 +3,18 @@
     "current_board": "Tshikondo etshi: {board}"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} playing a game of Checkers as {color}.\nMake your move in chess-style notation [fileRank fileRank], e.g. '[b2c3]' (column letter a–h, row digit 0–7).\nBasic rules:\n  • Move diagonally forward by 1 if empty.\n  • Capture by jumping over an opponent piece.\n  • A piece is Kinged if it reaches the opposite end.\n"
+    "intro": "Owe udi Mwana {player_id} ukalamba michezo ya Checkers kama {color}.\nTambula kibindo kya kuenda mu mukanda wa chess [fileRank fileRank], ngwa nka '[b2c3]' (barua ya safu a–h, tarakimu ya safu 0–7).\nMilawu ya msingi:\n  • Enda diagonal ku mbele kwa 1 ikiwa kizuu.\n  • Kamata kwa kuzingila kipande cha mshindani.\n  • Kipande kinauzwa Mfalme ikiwa kinafikia mwisho mwingine.\n"
   },
   "invalid_move": {
     "wrong_format": "Te na molongo wa lenduka lwa kweli. Ita [a1b2], fano [b2c3].",
-    "illegal": "Move [{move}] is illegal."
+    "illegal": "Kibindo [{move}] si cha sheria."
   },
   "game_action": {
     "moved": "Muena manaya {player_id} wakanyema {move}."
   },
   "outcome": {
-    "red_no_pieces": "Red has no pieces left. Black wins!",
-    "black_no_pieces": "Black has no pieces left. Red wins!",
+    "red_no_pieces": "Mwana wa kusini hakuna vipande vya kuacha. Mwana wa kibula akushinda!",
+    "black_no_pieces": "Mwana wa kibula hakuna vipande vya kuacha. Mwana wa kusini akushinda!",
     "no_moves": "Muena manaya {player_id} kena ne tshikuabu tshia kuenza to.",
     "draw": "Tudi bafike ku tshipiminu tshia dikudimuka."
   }

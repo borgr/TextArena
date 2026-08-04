@@ -9,7 +9,7 @@
     "progress": "{observation} លទ្ធផលនៃការអភិវឌ្ឍន៍បច្ចុប្បន្ន: {progress}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use `[i j op]` where i,j are indices and op is +,-,*,/",
+    "wrong_format": "ទ្រង់ទ្រាយសកម្មភាពមិនត្រឹមត្រូវ។ ប្រើ `[i j op]` ដែល i,j គឺអង្កេត និង op គឺ +,-,*,/",
     "invalid_indices": "កត្តាមិនត្រឹមត្រូវ ត្រូវតែខុសគ្នា និងស្ថិតនៅក្នុងចន្លោះ 0-{max_index}",
     "invalid_operation": "ប្រតិបត្តិការមិនត្រឹមត្រូវ (ការបែងចែកដោយសូន្យឬលទ្ធផលដែលមិនមែនជាចំនួនសរុប)"
   },

@@ -23,7 +23,7 @@
     "possible_actions": "الإجراءات المحتملة: {legal}"
   },
   "message": {
-    "round_result": "{reason}  Pot {pot} → Player {winner}. (Bankrolls P0:{p0}, P1:{p1})",
+    "round_result": "{reason}  جائزة {pot} → اللاعب {winner}. (رصيد P0:{p0}، P1:{p1})",
     "folded": "لاعب {player_id} انزل.",
     "showdown_win": "العرض: {card_win} يضرب {card_lose}.",
     "showdown_tie": "العرض متساوي: كلاهما {card}. القدر مقسم  كل واحد منهم يحصل على {split} ."

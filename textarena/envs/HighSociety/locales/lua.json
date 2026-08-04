@@ -1,9 +1,9 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a game of HighSociety (2-player version).\nGame flow:  Ten prestige cards are auctioned one after another.\nBidding:    Each auction, secretly choose a money card 1-11 and reveal.\n            • Higher bid wins the prestige card and discards that money card.\n            • Lower bid keeps their money card.\n            • Tie -> both bids are returned and the same prestige card is re-auctioned.\nScoring:    After all ten auctions, add **remaining cash + prestige points**.\n            Higher *net-worth* wins (exact tie -> draw).\n\n**Action syntax**  →  bid a single card like '[7]' or '[11]'."
+    "intro": "Ngeye Mwana {player_id} mu kisalu kya HighSociety (kisalu kya bantu babili).\nMwendo wa kisalu:  Mikwata mikumi ya kisalu kya kuleta kisalu kimoja baada ya kingine.\nKuleta:    Kila kuleta, chagua kwa kuficha kisalu kya pesa 1-11 na fumbula.\n            • Kuleta kwa juu kunashinda kisalu kya kuleta na kukwepa kisalu kile cha pesa.\n            • Kuleta kwa chini kubakiza kisalu chao cha pesa.\n            • Tie -> mabidha yote mawili yanarudishwa na kisalu kile kile kya kuleta kinakwepa tena.\nKupata alama:    Baada ya mikwata yote mikumi, ongeza **pesa zilizobaki + pointi za kuleta**.\n            *Mtaji wa juu* unashinda (tie kamili -> sare).\n\n**Muundo wa hatua**  →  lete kisalu kimoja kama '[7]' au '[11]'."
   },
   "auction": {
-    "announce": "\n### Auction {round}/10  |  Prestige card: {prize}"
+    "announce": "\n### Kuleta {round}/10  |  Kisalu kya kuleta: {prize}"
   },
   "board": {
     "money_cards": "Karte ka makuta akavua kashale: {money}"

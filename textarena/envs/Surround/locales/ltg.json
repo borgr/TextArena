@@ -10,7 +10,7 @@
     "{groups}": "Neutral ranking data (a list of player-id groups, best to worst); do not translate"
   },
   "player_prompt": {
-    "intro": "{num_players}-Player Surround on a {width}x{height} grid.\nYou are player {player_id}. Valid moves: '[up]' '[down]' '[left]' '[right]' or w/s/a/d.\nObjective: outlive everyone else. Trails are deadly; wall hits kill; head-on crashes kill both."
+    "intro": "{num_players}-spēlētāju Ielūcis uz {width}x{height} režģa.\nJūs esat spēlētājs {player_id}. Derīgi gājieni: '[up]' '[down]' '[left]' '[right]' vai w/s/a/d.\nMērķis: pārdzīvot visus pārējos. Takas ir nāvējošas; sienas triecieni nogalina; tiešie sadursmes nogalina abus."
   },
   "board": {
     "current": "Niu asūšuo vaļde: {board}",

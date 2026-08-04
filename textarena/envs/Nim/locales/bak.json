@@ -13,7 +13,7 @@
     "exceeds_pile": "Төймә {pile_index}-нән {quantity} алырға ярамай (бары тик {pile_count} ҡалған)."
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "{player_id} уйынсыһы [{pile_index} {quantity}] уйнаны, {quantity} объектты {pile_index} өйөмдән алып ташланы."
   },
   "outcome": {
     "win": "Уйынсы {player_id} һуңғы объектты алды!"

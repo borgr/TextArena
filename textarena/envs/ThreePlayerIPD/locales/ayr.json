@@ -8,7 +8,7 @@
   },
   "results": {
     "header": "### Round {round} - Resultados: \"Jach'a marka\" (kastilla aru: Reino Unido)",
-    "pair_line": "{observation}\n\t Player {i} vs Player {j} chose to {choice_i} and {choice_j} respectively (Player {i} gained {gain_i}, Player {j} gained {gain_j})",
+    "pair_line": "{observation}\n\t Jumaxa {i} vs Jumaxa {j} yapuchaña ukaxa {choice_i} ukaxa {choice_j} (Jumaxa {i} jayllixa {gain_i}, Jumaxa {j} jayllixa {gain_j})",
     "scores_open": "{observation} -> Jichhaxa: ",
     "score_first": "{observation}Player {player_id} ({score})",
     "score_next": "{observation}; Player {player_id} ({score})",

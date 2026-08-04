@@ -24,8 +24,8 @@
     "intro": "Mwali uchukua Golf (Card Game) - Mwali {player_id}.\nLengo: Pata alama ya chini kabisa katika mzunguko huu. Ikiwa safu zina thamani sawa, zinajumlishwa kama 0.\nThamani za kadi: A=1, 2-10=thamani ya uso, J/Q=10, K=0\n\nHatua (tumia mabano kamili):\n- '[draw]' - Chora kutoka kwenye sitaha\n- '[take]' - Chukua kutoka kwenye discard pile\n- '[swap X Y]' - Badilisha kadi iliyochorwa na nafasi X (safu) Y (safu wima)\n- '[discard]' - Tupa kadi iliyochorwa"
   },
   "board": {
-    "drew": "You drew: {card}\nNow you must [swap X Y] or [discard] it.",
-    "took": "You took: {card} from discard pile\nYou must [swap X Y] with it (cannot discard).",
+    "drew": "Waikuta: {card}\nLelo, efwaya ukalenge [swap X Y] nanti [discard] icadi.",
+    "took": "Wa kutwala: {card} kubwali la makwebo\nWafwile u[swap X Y] nayo (tawakwata ukulonda).",
     "peeked": "Mwali walitazama kwenye nafasi ({row},{col}): {card}",
     "turn_view": "Lukasa lako:\n{hand}\nDiscard pile: {discard}\n{options}",
     "none": "Takwaba"
@@ -43,22 +43,22 @@
   },
   "action_desc": {
     "swapped": "Mwali {pid} waliishibanyika {new} na {old} kwenye nafasi ({row},{col})",
-    "discarded": "Player {pid} discarded {card}"
+    "discarded": "Mchezaji {pid} alitupa {card}"
   },
   "message": {
     "deck_empty": "Icimuti tacakwete nangu cimo!",
-    "knocked": "Player {pid} knocked! Each other player gets one more turn.",
-    "final_round": "Player {pid} {reason}! Each other player gets one more turn."
+    "knocked": "Mchezaji {pid} aligonga! Kila mchezaji mwingine anapata zamu moja zaidi.",
+    "final_round": "Mchezaji {pid} {reason}! Kila mchezaji mwingine anapata zamu moja zaidi."
   },
   "reason": {
-    "all_revealed": "has all cards revealed"
+    "all_revealed": "ana kadi zote zilizofichuliwa"
   },
   "invalid": {
     "wrong_action": "Tumia hatua moja iliyo ndani ya mabano: [draw], [take], [swap X Y], [discard], [knock], or [peek X Y]",
     "discard_empty": "Icitundu ca kusenda icali fye icabula!",
-    "must_draw_first": "You must first [draw], [take], [knock], or [peek X Y]",
+    "must_draw_first": "Wafwile kwanza u[draw], u[take], u[knock], nanti u[peek X Y]",
     "cannot_discard_taken": "Kuti mwaonaula kardi iyo mufumishe ku mulundo wa fintu ifyo mushilefwaya ukubomfya, lelo kuti mwashintilako.",
-    "have_drawn_card": "You have a drawn card. You must [swap X Y] or [discard] it.",
+    "have_drawn_card": "Uli na icadi ilyakutwa. Efyaa ukalenge [swap X Y] nanti [discard] icadi.",
     "need_drawn_swap": "Pa kuti mulelanshanya, mulingile ukubomfya icikope ca muntu uo mwapangana nankwe.",
     "need_drawn_discard": "Pa kuti muleke ukubomfya icikope, mulingile ukusalapo ico mulefwaya.",
     "out_of_bounds": "Nafasi iliyo nje ya mipaka. Tumia safu 1-{max_row}, safu wima 1-{max_col}",
@@ -67,7 +67,7 @@
     "already_revealed": "Iyi kardi yaishibikwe kale!"
   },
   "summary": {
-    "full": "Game Over! Player {winner} wins with a score of {score} points!\n\nFinal Scores:\n{scores}",
+    "full": "Mchezo Umekwisha! Mchezaji {winner} anashinda na alama {score}!\n\nAlama za Mwisho:\n{scores}",
     "line": "Mwali {pid}: {score} pointi\n"
   },
   "board_str": {

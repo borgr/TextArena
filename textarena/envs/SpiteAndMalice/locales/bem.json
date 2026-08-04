@@ -1,14 +1,14 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a two-player game of Spite and Malice. Your goal is to be the first to empty your payoff pile.\n\n### Game Overview:\n- The objective is to clear your payoff pile by playing cards to the center piles.\n- You can play cards from three sources:\n  1. Your **hand** (you start each turn with up to 5 cards in hand).\n  2. The **top card of your payoff pile**.\n  3. The **top card of any of your discard piles**.\n\n### Playing Rules:\n- You may play a card to a center pile if it is **one rank higher** than the top card on that pile (center piles start with Ace and go up to Queen; Kings are wild - they can be played on any card but do not change the rank sequence. This means if a King is used after 4, then that King is ranked 5 and the next card must be a 6).\n- If you can't play any more cards, you must **discard a card** to one of your discard piles to end your turn.\n- If a center pile reaches Queen, it will be cleared automatically.\n- The rank order is: A=1, 2=2, ..., 9=9, J=10, Q=11, K as wild.\n\n### Actions:\n1. **Draw**: At the start of your turn, draw cards to fill your hand up to 5 cards. Enter **[draw]** to begin.\n2. **Play a Card**: To play a card, specify the card and the center pile like this: **[play A♠ 0]** (where 'A♠' is the card and '0' is the center pile index).\n3. **Discard**: If you can't play any more cards, discard a card from your hand to a discard pile to end your turn. Enter **[discard A♠ 1]** (where 'A♠' is the card and '1' is the discard pile index). Note that you cannot discard any card from the payoff pile. You may only discard the cards from your hand.\n\n"
+    "intro": "Nga ni Player {player_id} mu game ya Spite and Malice ya baplayer babili. Lengo lyenu ni kuwa mweo wa kwanza kuimalisha payoff pile yenu.\n\n### Game Overview:\n- Lengo ni kuimalisha payoff pile yenu kwa kuteka kadi ku center piles.\n- Mungatheka kadi kutoka kwa mishoro mitatu:\n  1. **Mukono wenu** (mukwata kwa kila zamu na kadi pamo na 5).\n  2. **Kadi ya juu ya payoff pile yenu**.\n  3. **Kadi ya juu ya yoyote ya discard piles yenu**.\n\n### Playing Rules:\n- Mungatheka kadi ku center pile kama ni **moja ya juu** kuliko kadi ya juu kwenye ile pile (center piles zinatambulika na Ace na kupanda mpaka Queen; Mafumu ni yalube - yangaweza kutekwa kwa kadi yoyote lakini hayabadilishi mpangilio wa kadi. Ichi kama Mfumu ukatumiwa baada ya 4, kisha Mfumu uyo alipangwa 5 na kadi inayofuata lazima iwe 6).\n- Kama mungatheka kadi zaidi, mungalazimika **kutupa kadi** ku mojawapo ya discard piles yenu kumaliza zamu yenu.\n- Kama center pile ikafikia Queen, itaondolewa yenyewe.\n- Mpangilio wa kadi ni: A=1, 2=2, ..., 9=9, J=10, Q=11, K kama yalube.\n\n### Actions:\n1. **Kutambula**: Ku zamu yenu, tambuleni kadi kujaza mukono wenu mpaka kadi 5. Ingilisheni **[draw]** kuanza.\n2. **Kuteka Kadi**: Kuteka kadi, onyeseni kadi na center pile kama hii: **[play A♠ 0]** (kadi 'A♠' na '0' ni index ya center pile).\n3. **Kutupa**: Kama mungatheka kadi zaidi, tupeni kadi kutoka kwa mukono wenu ku discard pile kumaliza zamu yenu. Ingilisheni **[discard A♠ 1]** (kadi 'A♠' na '1' ni index ya discard pile). Kumbuka kwamba mungatupa kadi yoyote kutoka kwa payoff pile. Mungatupa kadi kutoka kwa mukono wenu tu.\n\n"
   },
   "board": {
-    "current_board": "Current Board:\n\n{board}\nAvailable Moves: {moves}"
+    "current_board": "Bodi ya Sasa:\n\n{board}\nMitego Inayopatikana: {moves}"
   },
   "render": {
     "center_piles_header": "--- Inshinga sha pa Kati (Center Piles) -- ",
     "pile": "{observation}Mkeka {i}: {pile}\n",
-    "player_view_header": "{observation}\n--- Player {player_id}'s View ---\n",
+    "player_view_header": "{observation}\n--- Kuona kwa Player {player_id} ---\n",
     "payoff": "{observation}Mkeka wa Malipo (Kadi ya Juu): {top_card}, Urefu wa Mkeka wa Malipo: {payoff_length}\n",
     "hand": "{observation}Hand: {hand}\n",
     "discard": "{observation}Discard Piles: {discard}\n",
@@ -19,23 +19,23 @@
   },
   "invalid_move": {
     "wrong_format": "Ukuposa kwa bufi. Umulayi {player_id} tacitapo cimo mu kubomfya ukuputulako ukwa cine mukati ka makola yabili.",
-    "invalid_play": "Invalid play. Player {player_id} tried to play {card} on center pile {index}.",
+    "invalid_play": "Kuteka si sahihi. Player {player_id} alijaribu kuteka {card} kwa center pile {index}.",
     "discard_from_payoff": "Ukupoosa kwa bufi. Uuleteya {player_id} aeseshe ukupoosa icikope ca ku mupokapoka ico balefwaya ukwisafusha.",
     "discard_not_in_hand": "Ukupoosa kwa bufi. Uuleteya {player_id} aeseshe ukupoosa icikope ico ashakwete mu minwe yakwe.",
-    "wrong_move_type": "Invalid move type. Player {player_id} did not respond with a valid move type . Umulayi wa mu citabo ca \"Special Games\" tailelandapo pa ciputulwa ico balefwaya ukubomfya, lelo alelondolola fye icapusana ne ci citikwa."
+    "wrong_move_type": "Aina ya kuteka si sahihi. Player {player_id} hakujibu na aina sahihi ya kuteka."
   },
   "game_action": {
     "you_drew": "Mwalipushishe.",
     "opponent_drew": "Umulashi {player_id} aalepoka amakardi.",
     "you_played": "Mwalishishe {card} pa kati ka cikota ca mu mpanga {index}.",
     "opponent_played": "Mwina {player_id} alicheza {card} kwenye mkeka wa kati {index}.",
-    "you_discarded": "Umeitupa {card} kwenye mkeka wa kutupwa {index}, ambayo ina maana kwamba umeimaliza mchezo wako. Hatua zingine za mwako hazizingatiwi kwa mchezo huu. Mwina {next_player_id} atacheza mchezo ujao.",
-    "opponent_discarded": "Mwina {player_id} alitupa {card} kwenye mkeka wa kutupwa {index}, ambayo ina maana kwamba amemaliza mchezo wake. Hatua zingine za Mwina {player_id} hazizingatiwi kwa mchezo huu. Mwina {next_player_id}, utacheza mchezo ujao. Tafadhali ingiza hatua yako kwa muundo [action card center_index]."
+    "you_discarded": "Mwatupa {card} ku discard pile {index}, ambayo ina maana mwamaliza zamu yenu. Hakuna hatua zaidi ya kwenu itazingatiwa kwa zamu hii. Player {next_player_id} atakwenda kesho.",
+    "opponent_discarded": "Player {player_id} atupa {card} ku discard pile {index}, ambayo ina maana amemaliza zamu yake. Hakuna hatua zaidi ya Player {player_id} itazingatiwa kwa zamu hii. Player {next_player_id}, utakwenda kesho. Ingilisheni hatua yenu katika fomu [action card center_index]."
   },
   "outcome": {
-    "payoff_cleared": "Mwina {current_player} amemaliza mkeka wake wa malipo! Mwina {current_player} ameshinda!",
-    "deadlock_player_0": "Mchezo umesimama! Mwina 0 ameshinda na {player_0_payoff} kadi zimesalia dhidi ya Mwina 1 {player_1_payoff} kadi.",
+    "payoff_cleared": "Umukalamba {current_player} amalilile salu ya malipiro! Umukalamba {current_player} alishinda!",
+    "deadlock_player_0": "Kufikia kwa Deadlock! Player 0 anashinda na {player_0_payoff} kadi zilizobaki dhidi ya {player_1_payoff} kadi za Player 1.",
     "deadlock_player_1": "Ukuposa pa nsimbi yabili, uwa kwisha ukuteya aishishalapo. Umulashi 1 e wacimfya nga ca kuti akwete {player_1_payoff} amakadi na yambi ayali ku ntanshi yakwe 0 nayo yaba ni {player_0_payoff} makadi.",
-    "deadlock_tie": "Mchezo umesimama na usawa! Wachezaji wote wana {player_0_payoff} kadi zimesalia. Mwina {current_player} anashinda kwa kuwepo."
+    "deadlock_tie": "Kufikia kwa Deadlock na usawa! Wachezaji wote wawili wana {player_0_payoff} kadi zilizobaki. Player {current_player} anashinda kwa chaguo-msingi."
   }
 }

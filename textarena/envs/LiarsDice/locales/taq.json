@@ -22,15 +22,15 @@
     "final_ranking": "list of player indices from first eliminated to winner"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in an {num_players}-player Liar's Dice game.\nRules:\n- On your turn, you may either:\n  1) Make a new bid with a higher quantity or higher face (or both) than the current bid; i.e. '[Bid: 3, 4]',\n  2) Call the last bid by typing '[Call]'.\n\nIf you call:\n  - If the actual count of that face value among all dice is less than the bid, the last bidder loses one die.\n  - Otherwise, the caller loses one die.\nA player who reaches 0 dice is eliminated. The last remaining player wins."
+    "intro": "Keddaɣ ad tekkiɣ {player_id} ɣef waddad n {num_players} n uddaden n warraz n azar.\nTawuriwin:\n- Mi tekkiɣ dawed, zemreɣ ad tekkeɣ:\n  1) Aɣriɣ ayyawen s uɛdaw n uqariɣ uɛdaw neɣ uɛdaw n tafat (neɣ kunu) i uɛdaw n tawuri tura; i.e. '[Bid: 3, 4]',\n  2) Aɣriɣ ayyawen n uɛdaw aneggaru s tikti n '[Call]'.\n\nMi tekkiɣ aɣriɣ ayyawen:\n  - Mi tawuri n tafat n uɛdaw n tafat ɣef akk tuɣalin ɛeddaw n uɛdaw, uɛdaw aneggaru yettara azar.\n  - Wella, uɣriɣ ayyawen yettara azar.\nUddad yettawi 0 tuɣalin yettara. Uddad aneggaru yettawi."
   },
   "board": {
     "per_player": "\tImellyan {p} : {d}",
     "new_round": "\nAsaru amaynu - Ifsan iddan : {dice_summary}\nIfsan inu tetty ddan : {your_dice}"
   },
   "call": {
-    "bidder_loses": "Player {current_player_id} calls! The actual count of face {face_value} is {count}, which is LESS than {quantity}.\nPlayer {loser_id} (the last bidder) loses one die.",
-    "caller_loses": "Player {current_player_id} calls! The actual count of face {face_value} is {count}, which is >= {quantity}.\nPlayer {loser_id} (the caller) loses one die."
+    "bidder_loses": "Uddad {current_player_id} itekka! Tawuri n tafat n {face_value} ɛeddaw {count}, i ɛeddaw d aɣellaw n {quantity}.\nUddad {loser_id} (uɛdaw aneggaru) yettara azar.",
+    "caller_loses": "Uddad {current_player_id} itekka! Tawuri n tafat n {face_value} ɛeddaw {count}, i ɛeddaw d aɣellaw nɣ aɛdaw n {quantity}.\nUddad {loser_id} (uɣriɣ ayyawen) yettara azar."
   },
   "action": {
     "bid_announce": "Imellyan {player_id} ikkis {quantity} n uffir {face_value}."
@@ -42,7 +42,7 @@
   },
   "bid_reason": {
     "quantity_lower": "Tanaffit tamenzut {new_quantity} tetty tafat tamenzut tamaɣt {current_quantity}.",
-    "face_lower": "New face value {new_face_value} is lower than current {current_face_value}.",
+    "face_lower": "Tafat tamaynut {new_face_value} ɛeddaw d aɣellaw n tafat tura {current_face_value}.",
     "identical": "ⴰⵍⵓⴰⵈ ⵓⴻⵏ ⴻⵈⵈⴰⵍ ⴰ ⵉⵍⴰ ⵉⴷⴷⵉⴾⵓⴷ ⵏⴻⵜ.",
     "face_range": "ⵉⵇⵇⴰⵏⴷ ⴰⴷ ⵢⵉⵍⵉ ⵡⴰⵜⵉⴳ ⵏ ⵓⵙⵙⵉⴹⵏ ⴳⵔ 1 ⴷ 6."
   },

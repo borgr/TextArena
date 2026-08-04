@@ -11,22 +11,22 @@
     "{moves}": "The comma-separated list of available move tokens like '[4]' (do not translate)"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player Tic Tac Toe.\nYour symbol is '{symbol}'.\nYou take turns placing your symbol on a 5x5 board to form a line of four.\nLines can be horizontal, vertical, or diagonal.\nSubmit your move using the format '[4]' to mark cell 4."
+    "intro": "Һеҙ өс уйынсылы Тик-Так-То уйынында {player_id} уйынсыһыһығыҙ.\nҺеҙҙең билдәһе '{symbol}'.\nҺеҙ 5х5 таҡтаға һеҙҙең билдәһен урынлаштырып, дүрт билдәнән торған һыҙыҡ яһайһығыҙ.\nҺыҙыҡтар горизонталь, вертикаль йәки диагональ булырға мөмкин.\nҺеҙҙең хәрәкәтте '[4]' форматында яҙығыҙ, 4 күҙәнәген билдәләү өсөн."
   },
   "board": {
-    "current_board": "Current Board:\n\n{board}\n\nAvailable Moves: {moves}"
+    "current_board": "Хәҙерге таҡта:\n\n{board}\n\nМөмкин булған хәрәкәттәр: {moves}"
   },
   "invalid_move": {
-    "wrong_format": "Недопустимый формат хода. Используйте '[cell]', где ячейка 0-{max_cell}.",
-    "out_of_range": "Недопустимый номер ячейки: {cell}. Должно быть между 0 и {max_cell}.",
+    "wrong_format": "Хәрәкәт форматы дөрөҫ түгел. '[cell]' форматын ҡулланығыҙ, cell 0-{max_cell}.",
+    "out_of_range": "Күҙәнәк номеры дөрөҫ түгел: {cell}. 0 һәм {max_cell} араһында булырға тейеш.",
     "already_occupied": "{cell} күҙәнәге инде биләнгән.",
     "made_invalid": "Уйынсы {player_id} ғәмәлдә булмаған хәрәкәт яһаған."
   },
   "game_action": {
-    "placed": "Игрок {player_id} размещает свой символ ({symbol}) в поле ({row}, {col})."
+    "placed": "{player_id} уйынсыһы үҙенең билдәһен ({symbol}) ({row}, {col}) яланына урынлаштырҙы."
   },
   "outcome": {
-    "win": "Игрок {player_id} ({symbol}) побеждает!",
+    "win": "{player_id} уйынсыһы ({symbol}) еңде!",
     "draw": "Уйын тигеҙ иҫәптә!"
   }
 }

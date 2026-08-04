@@ -27,7 +27,7 @@
     "drew": "Thog thu: {card}\nA-nis feumaidh thu [swap X Y] no [discard] e",
     "took": "Thog thu: {card} bho chuibhle dh'fhàgail\nFeumaidh thu [swap X Y] leis (chan urrainn dhut fhàgail)",
     "peeked": "Chunnaic thu aig àite ({row},{col}): {card}",
-    "turn_view": "Your hand:\n{hand}\nDiscard pile: {discard}\n{options}",
+    "turn_view": "Làimh:\n{hand}\nStòc dhì-chur: {discard}\n{options}",
     "none": "Chan eil gin ann."
   },
   "options": {

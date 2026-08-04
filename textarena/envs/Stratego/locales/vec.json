@@ -12,7 +12,7 @@
     "scout_through_pieces": "Formato de asion invàlida. El xugador {player_id} no pol spostar un scout tra i altri tochi.",
     "scout_diagonal": "Formato de asion invàlida. El xugador {player_id} no pol spostar un scout diagonalmente.",
     "non_scout_multi_square": "Formato de asion invàłido. I piezi, fora i scout, pol spostarse soło na caseta al momento.",
-    "move_into_lake": "Invalid action format. Player {player_id} can't move into the lake (input file).",
+    "move_into_lake": "Formato de azion invalido. El zugador {player_id} no pol mover nel lago.",
     "move_onto_own_piece": "Formato de asion invàlida. El xugador {player_id} no pol spostarse so el proprio toco.",
     "move_bomb_or_flag": "Formato de asion invàłido. El xugador {player_id} no pol spostar na bomba o bandiera."
   },
@@ -22,7 +22,7 @@
     "you_equal_ranks": "Ti ga spostà ła to pezza da {source} a {dest}. La pezza atacante jera {attacking_rank} e ła pezza de destinasion jera {target_rank}. Co i gradi i jera stesi, tute e do peze łe ga perso.",
     "opponent_equal_ranks": "Zogador {player_id} ga spostà na pezza da {source} a {dest}. La pezza atacante jera {attacking_rank} e ła pezza de destinasion jera {target_rank}. Co i gradi i jera stesi, tute e do peze łe ga perso.",
     "you_miner_defused": "Ti ga spostà ła to pezza da {source} a {dest}. La pezza atacante jera {attacking_rank} e ła pezza de destinasion jera {target_rank}. Co łe mine łe pol defar bombe, ti ga vinto ła bataja.",
-    "opponent_miner_defused": "Player {player_id} has moved a piece from {source} to {dest}. The attacking piece was {attacking_rank} and the destination piece was {target_rank}. As miners can defuse bombs, you lost the battle.",
+    "opponent_miner_defused": "El zugador {player_id} ga mosso una pieza da {source} a {dest}. La pieza atacante xe sta {attacking_rank} e la pieza de destinazion xe sta {target_rank}. Come i Minatori pol desarmar le Bombe, ti ga perso la bataja.",
     "you_bomb_lost": "Ti ga spostà ła to pezza da {source} a {dest}. La pezza atacante jera {attacking_rank} e ła pezza de destinasion jera {target_rank}. Co łe peze atacanti no jera na mina, ti ga perso ła bataja.",
     "opponent_bomb_won": "Zogador {player_id} ga spostà na pezza da {source} a {dest}. La pezza atacante jera {attacking_rank} e ła pezza de destinasion jera {target_rank}. Co łe peze atacanti no jera na mina, ti ga vinto ła bataja.",
     "you_spy_won": "Ti ga spostà ła to pezza da {source} a {dest}. La pezza atacante jera {attacking_rank} e ła pezza de destinasion jera {target_rank}. Co łe spie łe pol vinser el maresciallo soło se łe ataca prima, ti ga vinto ła bataja.",

@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing the Minesweeper game.\nThe objective of the game is to reveal all cells that do not contain mines.\nTo make a move, simply specify the row and column coordinates you want to reveal using the format:\n- `[row col]`: Reveal the cell at the specified row and column.\nFor example:\n- `[3 2]` to reveal the cell in Row 3, Column 2.\n- `[5 6]` to reveal the cell in Row 5, Column 6.\nOn your first move, you will reveal an area around the cell you choose to ensure a safe start.\nThe current board layout is shown below. Cells that are unrevealed are represented by a dot ('.'), revealed numbers show the count of adjacent mines.\nBe mindful not to choose already revealed cells.\nHere is the current board layout:\n"
+    "intro": "Та Minesweeper тоглоом тоглож байна.\nЭнэ тоглоомын зорилго нь ахлах биш нүдийг нээх явдал юм.\nҮйлдэл хийхийн тулд хүссэн мөр, баганын координатыг дараах хэлбэрээр оруулна уу:\n- `[row col]`: Тусгайлан заасан мөр, баганад байрлах нүдийг нээх.\nЖишээ нь:\n- `[3 2]` гэж оруулахад 3-р мөр, 2-р баганад байрлах нүдийг нээх.\n- `[5 6]` гэж оруулахад 5-р мөр, 6-р баганад байрлах нүдийг нээх.\nТа эхний үйлдэлээ хийхэд, сонгосон нүдийн орчимдох нутаг дэвсгэрийг нээх болно.\nОдоогийн самбарын байрлалыг доорх хэсэгт харуулав.\nНээгдээгүй нүдийг цэг ('.') тэмдэглэсэн болно, нээгдсэн тоонууд нь хөрш ахлахын тоог харуулна.\nНээгдсэн нүдийг сонгохгүй байхыг анхаарна уу.\nОдоогийн самбарын байрлал нь:\n"
   },
   "board": {
     "game_board": "Тоглоомын тасалбар: {board}",
@@ -17,6 +17,6 @@
   },
   "outcome": {
     "win": "Та миньний шидэлтийн товчоог амжилттай цэвэрлэж чадсан.",
-    "turn_limit": "The turn limit has been reached. You successfully uncovered {percent}% of the safe cells."
+    "turn_limit": "Үйлдлийн хязгаар хүрсэн байна. Та {percent}% аюулгүй нүдийг амжилттайгаар нээсэн байна."
   }
 }

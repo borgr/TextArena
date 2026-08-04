@@ -22,23 +22,23 @@
     "final_ranking": "list of player indices from first eliminated to winner"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in an {num_players}-player Liar's Dice game.\nRules:\n- On your turn, you may either:\n  1) Make a new bid with a higher quantity or higher face (or both) than the current bid; i.e. '[Bid: 3, 4]',\n  2) Call the last bid by typing '[Call]'.\n\nIf you call:\n  - If the actual count of that face value among all dice is less than the bid, the last bidder loses one die.\n  - Otherwise, the caller loses one die.\nA player who reaches 0 dice is eliminated. The last remaining player wins."
+    "intro": "Ati kijibicha {player_id} Liar's Dice gurguddaa {num_players}-kijibicha keessa jirta.\nSeerota:\n- Yeroo kee, ati waan kana gochuu dandeessa:\n  1) Kijibicha haaraa bayinaa olaanaa ykn facettaa olaanaa (ykn lachuu) kijibicha ammaa caalaa; '[Bid: 3, 4]' jedhamu,\n  2) Kijibicha dhumaa '[Call]' jedhee galuu.\n\nYoo ati galuu:\n  - Yoo lakkofsa facettaa ilaalchaa kijibichaa hundumaa kijibicha dhumaa caalaa ta'e, kijibicha dhumaa facettaa tokko dhaba.\n  - Alaa, waamicha facettaa tokko dhaba.\nKijibicha facettaa 0 gahe moo'ame. Kijibicha hafee tokko moo'ata."
   },
   "board": {
     "per_player": "\tPlayer {p}: {d}",
-    "new_round": "\nNew round - Remaining dice: {dice_summary}\nYour current Dice are: {your_dice}"
+    "new_round": "\nDhuma haaraa - Facettaa hafee: {dice_summary}\nFacettaa kee ammaa: {your_dice}"
   },
   "call": {
-    "bidder_loses": "Player {current_player_id} calls! The actual count of face {face_value} {count}, {quantity}'tti oltaa.\nPlayer {loser_id} (the last bidder) loses one die.",
-    "caller_loses": "Player {current_player_id} calls! The actual count of face {face_value} {count}, >= {quantity}.\nPlayer {loser_id} (the caller) loses one die."
+    "bidder_loses": "Kijibicha {current_player_id} waamicha godha! Lakkofsa facettaa {face_value} {count} ta'e, kijibicha {quantity} caalaa miti.\nKijibicha {loser_id} (kijibicha dhumaa) facettaa tokko dhaba.",
+    "caller_loses": "Kijibicha {current_player_id} waamicha godha! Lakkofsa facettaa {face_value} {count} ta'e, kijibicha {quantity} caalaa.\nKijibicha {loser_id} (waamicha) facettaa tokko dhaba."
   },
   "action": {
     "bid_announce": "Player {player_id} {quantity} of face {face_value} bidde."
   },
   "invalid_move": {
     "call_no_bid": "Waamichi kan godhame, gatii utuu hin dhiheessin dura ture.",
-    "invalid_bid": "Bid invalid: {reason}",
-    "not_recognized": "Action not recognized as either a valid '[Bid: X, Y]' or '[Call]'. Submitted action: {action}"
+    "invalid_bid": "Kijibicha diddaa: {reason}",
+    "not_recognized": "Sochii hin beekamne kijibicha '[Bid: X, Y]' ykn '[Call]' miti. Sochii ergamaa: {action}"
   },
   "bid_reason": {
     "quantity_lower": "New quantity {new_quantity} current {current_quantity}'tti dhahaa.",
@@ -50,6 +50,6 @@
     "eliminated_invalid": "Taphachiisaa {player_id} taphattuu hin taanee waliin dhabamsiifame."
   },
   "outcome": {
-    "win": "Player {winner} wins! Final ranking: {final_ranking}"
+    "win": "Kijibicha {winner} moo'ate! Tarree kijibichoota kaasee hanga moo'ataa: {final_ranking}"
   }
 }

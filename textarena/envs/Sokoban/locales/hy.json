@@ -12,8 +12,8 @@
     "invalid_position": "Անհնարին շարժում. չի կարող տեղափոխվել այդ դիրք:"
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
-    "pushed_prefix": "pushed a box while"
+    "moved": "Դուք {pushed} շարժվեցիք [{action}]:",
+    "pushed_prefix": "արկղ հրեցիք մինչ"
   },
   "outcome": {
     "win": "Շնորհավորում եմ, դուք լուծել եք Սոկոբանի հանելուկը։",

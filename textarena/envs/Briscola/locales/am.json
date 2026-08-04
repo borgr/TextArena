@@ -19,7 +19,7 @@
     "{deck_count}": "Number of cards left in the deck"
   },
   "game": {
-    "start": "Briscola game started! Trump suit: {trump_suit} (Trump card: {trump_card})"
+    "start": "የብሪስኮላ ጌም ተጀምሯል! የስውት ስውት: {trump_suit} (የስውት ካርድ: {trump_card})"
   },
   "prompt": {
     "intro": "እዚህ ብሪስኮላ ጨዋታ ነው - ኤሌሞን {player_id}.\nዕላማ: ጨዋታዎችን አሸንፋ እና ብዙ ፕዮንቶችን ለማሰብ (120 በሙሉ ፕዮንቶች በካርድ ጠረጴት).\nካርድ ፕዮንቶች: A=11, 3=10, K=4, Q=3, J=2, ሌሎች=0\nካርድ ስልጣን: A > 3 > K > Q > J > 7 > 6 > 5 > 4 > 2\nትራምፕ ካርዶች ሌሎች ካርዶችን ይሸነፋሉ የስልጣን አካል እንደሌለውም.\n\nእርምጃ: '[play X]' እንደ ኤሌሞን ቦታ (1-{max_pos}) ካርድ በእንቅስቃሴው"
@@ -44,14 +44,14 @@
   },
   "invalid_move": {
     "wrong_format": "[play X] ይጠቀሙ X የካርድ ቦታ (1, 2, 3, ወዘተ) ነው ።",
-    "out_of_range": "Invalid card position. You have {count} cards (1-{count})"
+    "out_of_range": "ካርድ ሥፍራ ተገልጿል። አንተ {count} ካርዶች (1-{count})"
   },
   "action": {
     "played": "ኤሌሞን �{player_id} መለሰ �{card}",
     "trick_win": "ኤሌሞን �{winner} አሸንፋለት በ �{card} እና አግኝቷል �{points} ፕዮንቶች!"
   },
   "outcome": {
-    "head": "Game Over! Player {winner} wins with {points} points!\n\nFinal Scores:\n{scores}",
+    "head": "ጌም አልቋል! ተጫዋቾት {winner} {points} ነጥቦች አሸንፏል!\n\nየመጨረሻ ነጥቦች:\n{scores}",
     "player_line": "ኤሌሞን {player_id}: {points} ፕዮንቶች ({tricks} ጨዋታዎች)\n"
   }
 }

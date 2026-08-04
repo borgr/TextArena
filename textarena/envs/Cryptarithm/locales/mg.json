@@ -9,10 +9,10 @@
     "{pct}": "Progress as a percentage string, e.g. 50%"
   },
   "player_prompt": {
-    "intro": "Map each letter to a unique digit so the arithmetic holds.\nAssign with `[A 5]`, re-assign anytime.\n"
+    "intro": "Ampio ny taratra tsy mitovy rehetra ho taratasy mba hahitana ny aritmetika.\nAmpio amin'ny alalan'ny `[A 5]`, na ovay aza.\n"
   },
   "invalid_move": {
-    "wrong_format": "Bad action format. Use `[A 5]`.",
+    "wrong_format": "Tsy mahitsy ny formatin'ny hetsika. Ampiasao ny `[A 5]`.",
     "letter_not_in_puzzle": "Ny litera {letter} tsy ao anaty piozila.",
     "digit_used": "Tarehimarika {digit} efa nampiasain'ny {used_letter}.",
     "leading_zero": "Tsy afaka ny ho 0 ny isa voalohany amin'ny teny iray."

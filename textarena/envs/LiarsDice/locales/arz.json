@@ -38,7 +38,7 @@
   "invalid_move": {
     "call_no_bid": "إتصال بيعت من غير عرض مسبق.",
     "invalid_bid": "عرض غير صالح: {reason}",
-    "not_recognized": "Action not recognized as either a valid '[Bid: X, Y]' or '[Call]'. Submitted action: {action}"
+    "not_recognized": "الإجراء غير معترف به على أنه '[Bid: X, Y]' أو '[Call]'. الإجراء المقدم: {action}"
   },
   "bid_reason": {
     "quantity_lower": "الكمية الجديدة {new_quantity} أقل من الحالية {current_quantity}.",

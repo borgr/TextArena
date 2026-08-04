@@ -1,9 +1,9 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in **Ultimate Tic Tac Toe**.\nSubmit your move as **[macro  micro]** (two numbers 0-8):\n• *macro*  = which mini-board you play in\n• *micro* = which square inside that mini-board\nExample `[7 8]` ➜ place your mark in mini-board 7, square 8, and\nforce your opponent to play in mini-board 8 next.\n\nYou are `{symbol}`.\n"
+    "intro": "چھو تُہم کھلاڑی {player_id} **آلٹیمیٹ ٹِک ٹیک ٹو** مَنز۔\nآپنی چال **[macro  micro]** (دو نمبر 0-8) کے طور پر جمع کرو:\n• *macro*  = کون سا مِنی بورڈ تُہم کھیلتے ہو\n• *micro* = مِنی بورڈ کے اندر کون سا مربع\nمثال `[7 8]` ➜ اپنا نشان مِنی بورڈ 7، مربع 8 میں رکھو، اور\nاپنے مخالف کو اگلی مِنی بورڈ 8 میں کھیلنے پر مجبور کرو۔\n\nتُہم `{symbol}` ہو۔\n"
   },
   "board": {
-    "current_board": "करंट बोर्ड: {board}"
+    "current_board": "موجودہ بورڈ:\n{board}"
   },
   "invalid_move": {
     "wrong_format": "युस मूव छी इ गैसीय फॉर्म [macro micro] साथ नंबर 0 -8 सेथ",
@@ -18,7 +18,7 @@
     "specific": "माइक्रो बोर्ड {nxt}"
   },
   "game_action": {
-    "played": "Player {player_id} played in micro board {macro_idx}, cell {micro_idx} (row {row}, col {col}). Player {opponent_id} must now play in {nxt_txt}."
+    "played": "کھلاڑی {player_id} نے مائیکرو بورڈ {macro_idx}، خلیہ {micro_idx} (قطار {row}، کالم {col}) میں کھیلا۔ کھلاڑی {opponent_id} کو اب {nxt_txt} میں کھیلنا ہوگا۔"
   },
   "outcome": {
     "win": "प्लेयर {player_id} जीत अल्टीमेट टिक टैक टू!",

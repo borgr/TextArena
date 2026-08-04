@@ -14,10 +14,10 @@
     "{scores}": "The final scores as a raw player-number to score mapping - do not translate"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player GOPS.\n- You hold the 13 cards A-K (each exactly once).\n- Each round a prize is revealed. Submit ONE card like `[Q]`, `[10]`, `[2]` …\n- Highest card wins the prize (+ any carry-over pot). Ties roll the prize into the next round.\n- After 13 rounds, highest total wins. Invalid moves = elimination."
+    "intro": "Tu Lîstikvan {player_id} î di Three-Player GOPS de.\n- Tu 13 kartên A-K (her yek carekê) digirî.\n- Di her roundekê de xelatek tê eşkere kirin. Tek kartek mîna `[Q]`, `[10]`, `[2]` … bişîne\n- Kartê herî bilind xelatê qezenc dike (+ nirxa potê ya veguheztî). Hevşêweyî xelatê dikele nav rounda din.\n- Piştî 13 roundan, ya herî bilind qezenc dike. Lêzînên neheq = derxistin."
   },
   "round": {
-    "header": "### Round {round}/13 - Prize: {prize} (worth {worth})",
+    "header": "### Round {round}/13 - Xelat: {prize} (bi nirx {worth})",
     "hand": "Destê we yê mayî: {hand}"
   },
   "reveal": {

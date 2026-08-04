@@ -10,7 +10,7 @@
     "{groups}": "Neutral ranking data (a list of player-id groups, best to worst); do not translate"
   },
   "player_prompt": {
-    "intro": "{num_players}-Player Surround on a {width}x{height} grid.\nYou are player {player_id}. Valid moves: '[up]' '[down]' '[left]' '[right]' or w/s/a/d.\nObjective: outlive everyone else. Trails are deadly; wall hits kill; head-on crashes kill both."
+    "intro": "{num_players}-Amaray deg Surround ɣef {width}x{height} grid.\nDdukki ad tiliḍ umaray {player_id}. Imussa iɣewwaṛen: '[up]' '[down]' '[left]' '[right]' neɣ w/s/a/d.\nAɣewwaṛ: ḍḍiɣ ɣer kraygat yan. Imussa ḍḍayanin gan imettinen; aɣewwaṛ n uḍebsi gan imettinen; imussa n uḍebsi gan imettinen i kraygat yan."
   },
   "board": {
     "current": "ⴰⴳⵔⴰⵡ ⴰⵎⴰⵢⵏⵓ: {board}",

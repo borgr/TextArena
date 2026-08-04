@@ -16,7 +16,7 @@
   },
   "game_action": {
     "skipped": "Уйынсы {pid} үҙ сиратын ҡалдырып китергә мәжбүр була.",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "Уйынсы {pid} ({piece}) [{r}, {c}] уйнай, {flipped} таш(ы) әйләндереп"
   },
   "game_message": {
     "must_skip": "Уйнаусы {pid} ({piece}) допустим хәрәкәттәре юҡ һәм уйындан ситләшергә тейеш."

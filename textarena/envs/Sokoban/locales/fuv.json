@@ -1,19 +1,19 @@
 {
   "player_prompt": {
-    "intro": "You are solving the Sokoban puzzle. You are the player and you need to push all boxes to targets.\n        When you are right next to a box, you can push it by moving in the same direction.\n        You cannot push a box through a wall, and you cannot pull a box.\n        On the board, objects are represented as: \n        - The player (you) appears as 'P' \n        - Walls are represented with '#' \n        - Boxes are marked as 'X' \n        - Empty goals are shown with a 'O'\n        - Boxes on goals are visualized with '√'\n        You can also use [w] for up, [a] for left, [s] for down, and [d] for right.\n        "
+    "intro": "A yi'i solvin Sokoban puzzle. A yi'i player kuma a yi'i bukaci a ɗuuji kese boxes ɗuuji targets.\n        So a yi'i ɗuuji kusa da box, a yi'i ɗuuji pushi ɗum ngam roɓe nder diisa ɗum.\n        A yi'i ɗuuji pushi box ngam roɓe ta wall, kuma a yi'i ɗuuji puli box.\n        Nder board, objekti ɗuuji wakilta kamar haka: \n        - Player (a) o anɗi kamar 'P' \n        - Walls ɗuuji wakilta da '#' \n        - Boxes ɗuuji marki kamar 'X' \n        - Empty goals ɗuuji nuni da 'O'\n        - Boxes ɗuuji goals ɗuuji visuali da '√'\n        A yi'i ɗuuji yi'i [w] ngam roɓe, [a] ngam hampi, [s] ngam ɗuuji, kuma [d] ngam yimi.\n        "
   },
   "board": {
     "current_board": "Bortu njabdunde:\n\n{board}\nCeeñal e hakkunde: {moves}"
   },
   "invalid_move": {
     "wrong_format": "Hakkunde maa yeeso woodani ko hebdii. Soo [up], [down], [left], [right] walla [w], [a], [s], [d].",
-    "not_valid_action": "The submitted move is not a valid action.",
+    "not_valid_action": "Miɗo tawo ngal daɗɗe ba, miɗo jooɗaaku.",
     "wall_collision": "A waawataa yahugo ha nder mahol!",
     "invalid_position": "Jaɓɓorgo Caka - footay jaɓɓa yahude to ɗon darnde."
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
-    "pushed_prefix": "pushed a box while"
+    "moved": "A {pushed} roɓi [{action}].",
+    "pushed_prefix": "ɗuuji box wakkati"
   },
   "outcome": {
     "win": "Koɗol belɗum! A timmini dabare Sokoban.",

@@ -14,7 +14,7 @@
   },
   "game_action": {
     "attack": "P{player_id} nyerang leungeun P{opp_id} {opp_idx}: asalna {opp_val} jadi {new_val}.",
-    "split": "P{player_id} splits into [{L}, {R}]."
+    "split": "P{player_id} bagi jadi [{L}, {R}]."
   },
   "history": {
     "entry": "P{player_id} {desc}"

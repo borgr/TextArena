@@ -10,7 +10,7 @@
     "{to}": "The destination coordinate of a move, such as b3"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in game of LinesOfAction.\nYour pieces are '{side}', opponent pieces are '{other}'.\nMove format: `[b1b3]` (from-coord to-coord). A legal move travels horizontally, vertically, or diagonally a number of squares equal to the total pieces (any colour) in that line. You may jump over your own pieces, but not opponent pieces; landing on an opponent captures it.  Win when all your pieces are 8-neighbour connected."
+    "intro": "Q'umir p'ukllaqmi kanki {player_id} LinesOfAction p'ukllapi.\nQ'umir p'ukllaykunaykiqa '{side}', huk p'ukllaqpa p'ukllaykunataq '{other}'.\nLl'ukuy formatu: `[b1b3]` (qallariy coordinata puriri coordinata). Ll'ukuyqa tiksi, saywa, icha ch'aska k'iti kanayuq k'itikunap maywiy kuti. Q'umir p'ukllaykunallatam ll'uk'iy atinki, ichataq huk p'ukllaqpa p'ukllaykunataq manam atinki; huk p'ukllaqpa p'ukllaykunata ch'askaykumuwanki.  Lliw q'umir p'ukllaykunayki 8-vecino q'aytu kaspa atawanki."
   },
   "board": {
     "current_board": "Consejo: {board}"

@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "ບໍ່ພົບຮູບແບບການຍ້າຍທີ່ຖືກຕ້ອງ. ໃຊ້ [a1b2], ຕົວຢ່າງ [b2c3].",
-    "illegal": "Move [{move}] is illegal."
+    "illegal": "ການເຄື່ອນໄປ [{move}] ບໍ່ຖືກຕ້ອງ."
   },
   "game_action": {
     "moved": "ຜູ້ນ {player_id} ຍ້າຍ {move}."

@@ -11,7 +11,7 @@
     "not_legal": "Ketso e tlameha ho ba {legal_actions}."
   },
   "action": {
-    "submit_move": "Player {player_id}, submitted move: '[{move}]'.",
+    "submit_move": "Player {player_id}, tsoelo-pele e tliselitsoe: '[{move}]'.",
     "valid_actions": "Liketso tsa hao tse fumanehang ke: {legal_actions}.",
     "round_summary": "{reason} Maduo aminwe: Mmoleli 0: '{player_0_chips}'; Mmoleli 1: '{player_1_chips}'"
   },

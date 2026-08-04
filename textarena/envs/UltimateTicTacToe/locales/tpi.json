@@ -1,12 +1,12 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in **Ultimate Tic Tac Toe**.\nSubmit your move as **[macro  micro]** (two numbers 0-8):\n• *macro*  = which mini-board you play in\n• *micro* = which square inside that mini-board\nExample `[7 8]` ➜ place your mark in mini-board 7, square 8, and\nforce your opponent to play in mini-board 8 next.\n\nYou are `{symbol}`.\n"
+    "intro": "Yu Player {player_id} long **Ultimate Tic Tac Toe**.\nGivim yu muv olsem **[macro  micro]** (tu namba 0-8):\n• *macro*  = usim mini-bodi yu pilai long en\n• *micro* = usim skwea insait long mini-bodi\nEksempul `[7 8]` ➜ putim yu mak long mini-bodi 7, skwea 8, na\nmekim yu opisitin pilai long mini-bodi 8 bihain.\n\nYu `{symbol}`.\n"
   },
   "board": {
     "current_board": "Ol i mekim wok long en nau: {board}"
   },
   "invalid_move": {
-    "wrong_format": "Move must be in the form [macro micro] with numbers 0-8.",
+    "wrong_format": "Muv mas i go insait long fom [macro micro] wantaim namba 0-8.",
     "out_of_range": "Olgeta indeks i mas stap namel long 0 na 8.",
     "index_out_of_range": "Micro_board, row or col i no stap long mak.",
     "cell_occupied": "Ol i stap pinis long sel.",

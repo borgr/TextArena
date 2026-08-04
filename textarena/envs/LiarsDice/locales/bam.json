@@ -22,18 +22,18 @@
     "final_ranking": "list of player indices from first eliminated to winner"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in an {num_players}-player Liar's Dice game.\nRules:\n- On your turn, you may either:\n  1) Make a new bid with a higher quantity or higher face (or both) than the current bid; i.e. '[Bid: 3, 4]',\n  2) Call the last bid by typing '[Call]'.\n\nIf you call:\n  - If the actual count of that face value among all dice is less than the bid, the last bidder loses one die.\n  - Otherwise, the caller loses one die.\nA player who reaches 0 dice is eliminated. The last remaining player wins."
+    "intro": "I ye Player {player_id} ye Liar's Dice jɛri kɔnɔ, {num_players} jumɛnɛw na.\nKalanw:\n- Ni i ka tɔɔ, i bɛɛ:\n  1) Kɛɛ bid kɛnɛɛnɛ fɔɔlonɛnɛ, quantity bee face (bee ɲɔgɔn) ka ca a ka ca bid kɔnɔ; i.e. '[Bid: 3, 4]',\n  2) Kɛɛ call kɛnɛɛnɛ fɔɔlonɛnɛ, '[Call]' bɛɛ.\n\nNi i kɛɛ call:\n  - Ni a ka count kɛnɛɛnɛ fɔɔlonɛnɛ, a ka face value kɔnɔ, bee bid kɔnɔ, a ka last bidder kɔnɔ die kɛnɛɛnɛ.\n  - Bee, a ka caller kɔnɔ die kɛnɛɛnɛ.\nJumɛnɛw ka bɔ 0 dice kɔnɔ, a kɛɛ eliminated. A ka last remaining player kɔnɔ wins."
   },
   "board": {
     "per_player": "\tJokelani {p}: {d}",
     "new_round": "\nDɛmɛ sababu - Kɔnɔnw ye: {dice_summary}\nO kɔnɔnw ye: {your_dice}"
   },
   "call": {
-    "bidder_loses": "Player {current_player_id} calls! The actual count of face {face_value} is {count}, which is LESS than {quantity}.\nPlayer {loser_id} (the last bidder) loses one die.",
-    "caller_loses": "Player {current_player_id} calls! The actual count of face {face_value} is {count}, which is >= {quantity}.\nPlayer {loser_id} (the caller) loses one die."
+    "bidder_loses": "Player {current_player_id} kɛɛ call! A ka actual count kɛnɛɛnɛ fɔɔlonɛnɛ, face {face_value} kɔnɔ, bee {count}, bee LESS ka {quantity}.\nPlayer {loser_id} (a ka last bidder) kɔnɔ die kɛnɛɛnɛ.",
+    "caller_loses": "Player {current_player_id} kɛɛ call! A ka actual count kɛnɛɛnɛ fɔɔlonɛnɛ, face {face_value} kɔnɔ, bee {count}, bee >= {quantity}.\nPlayer {loser_id} (a ka caller) kɔnɔ die kɛnɛɛnɛ."
   },
   "action": {
-    "bid_announce": "Player {player_id} bids {quantity} of face {face_value}."
+    "bid_announce": "Player {player_id} kɛɛ bid {quantity} kɛnɛɛnɛ fɔɔlonɛnɛ, face {face_value}."
   },
   "invalid_move": {
     "call_no_bid": "A ye weleli kɛ ni wari hakɛ ma di fɔlɔ.",

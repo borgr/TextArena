@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "సరైన తరలింపు ఫార్మాట్ కనుగొనబడలేదు. [a1b2] ఉపయోగించండి, ఉదా. [b2c3].",
-    "illegal": "Move [{move}] is illegal."
+    "illegal": "కదలిక [{move}] చట్టవిరుద్ధం."
   },
   "game_action": {
     "moved": "ఆటగాడు {player_id} తరలించబడింది {move}."

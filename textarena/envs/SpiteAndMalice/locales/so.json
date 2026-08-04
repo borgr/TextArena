@@ -36,6 +36,6 @@
     "payoff_cleared": "Ciyaaryahanka {current_player} ayaa dhamaystiray lacagtii ay ku bixiyeen! Ciyaaryahanka {current_player} ayaa guuleystay!",
     "deadlock_player_0": "Go'aan la'aan ayaa la gaaray! Ciyaaryahanka 0 ayaa guuleysta iyadoo {player_0_payoff} kaararka haray vs Ciyaaryahanka 1 {player_1_payoff} kaararka.",
     "deadlock_player_1": "Go'aan la'aan ayaa la gaaray! Ciyaaryahanka 1 wuxuu ku guuleystaa kaararka {player_1_payoff} ka harsan kaararka ciyaaryahanka 0 ee {player_0_payoff} kaararka.",
-    "deadlock_tie": "Deadlock reached with tie! Both players have {player_0_payoff} cards remaining. Player {current_player} wins by default."
+    "deadlock_tie": "Cayaarta waa istaagay oo labada cayaaraha waa siman! Labada cayaaraha waxay leeyihiin {player_0_payoff} kaararka haray. Cayaaraha {current_player} ayaa guuleystay oo ku salaysan qaabka."
   }
 }

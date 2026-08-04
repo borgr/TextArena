@@ -26,8 +26,8 @@
   "board": {
     "drew": "لقد drew: {card}\nالآن يجب عليك [swap X Y] أو [discard]",
     "took": "لقد اخذت: {card} من كومة الإلغاء\nيجب عليك [swap X Y] معه (لا يمكن الإلغاء)",
-    "peeked": "You peeked at position ({row},{col}): {card}",
-    "turn_view": "Your hand:\n{hand}\nDiscard pile: {discard}\n{options}",
+    "peeked": "لقد نظرت إلى الموضع ({row},{col}): {card}",
+    "turn_view": "يدك:\n{hand}\nكومة التخلص: {discard}\n{options}",
     "none": "لا شيء."
   },
   "options": {
@@ -43,7 +43,7 @@
   },
   "action_desc": {
     "swapped": "اللاعب {pid} استبدل {new} مع {old} في الموقع ({row}،{col})",
-    "discarded": "Player {pid} discarded {card}"
+    "discarded": "اللاعب {pid} تخلص من {card}"
   },
   "message": {
     "deck_empty": "الطابق فارغ، اللعبة تنتهي حالاً.",
@@ -51,7 +51,7 @@
     "final_round": "اللاعب {pid} {reason}! كل لاعب آخر يحصل على دور إضافي"
   },
   "reason": {
-    "all_revealed": "has all cards revealed"
+    "all_revealed": "كشف جميع البطاقات"
   },
   "invalid": {
     "wrong_action": "استخدم إجراءًا محاطًا بقطعة واحدة: [draw]، [take]، [swap X Y]، [discard]، [knock]، أو [peek X Y]",
@@ -74,6 +74,6 @@
     "title": "=== لعبة الغولف===",
     "discard": "كومة التخلص: {card}",
     "knocked": "الممثل {pid} طرقت الباب!",
-    "player_header": "Player {pid} (Score: {score}):"
+    "player_header": "اللاعب {pid} (النتيجة: {score}):"
   }
 }

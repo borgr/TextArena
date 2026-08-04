@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing Mastermind.\nYou need to find the code that is {code_length} digits long, each digit from 1 to {num_numbers}, {repeats}.\nIn your response, you can submit your guess in the following format: '[2 1 4 5]'.\nAfter each guess, you will receive feedback in the form of black and white pegs.\nA black peg indicates a correct digit in the correct position, while a white peg indicates a correct digit in the wrong position.\nYou have {max_turns} turns to guess the code.\n",
+    "intro": "Osalakaji Mastermind.\nOsalakaji kufwata kodi ya {code_length} tarakimu kubwa, kila tarakimu kutoka 1 hadi {num_numbers}, {repeats}.\nMu njibu yenu, mungasubmita makadirio yenu katika fomu ifuatayo: '[2 1 4 5]'.\nBaada ya kila makadirio, mutapokea maoni katika umbo la vibao vyeusi na vyeupe.\nKibao kyeusi kinamaanisha tarakimu sahihi katika nafasi sahihi, wakati kibao kyeupe kinamaanisha tarakimu sahihi katika nafasi isiyo sahihi.\nMuna {max_turns} zamu za kukadiria kodi.\n",
     "with_repeats": "badi mua kuambulula malu aa:",
     "no_duplicates": "kakuyi diambulula dia mikanda eyi to."
   },
@@ -13,10 +13,10 @@
     "repeated_guess": "Udi muanji kuela meji {guess}. Teta wela meji mushindu mukuabu."
   },
   "game_action": {
-    "feedback": "Submitted [{guess}]. Feedback: {black_pegs} black peg(s), {white_pegs} white peg(s)."
+    "feedback": "Imetumwa [{guess}]. Maoni: {black_pegs} kibao kyeusi (vi), {white_pegs} kibao kyeupe (vi)."
   },
   "outcome": {
-    "win": "Umevunja msimbo, ukitatua {black_pegs} kati ya {code_length} mipepe kwa usahihi",
-    "turn_limit": "Turn limit reached. You guessed {percent} percent of the numbers correctly."
+    "win": "Umefunua kodi, ukisuluhisha {black_pegs} kati ya {code_length} vibao kwa usahihi",
+    "turn_limit": "Kikomo cha zamu kimefikia. Ulikadiria {percent} asilimia ya nambari kwa usahihi."
   }
 }

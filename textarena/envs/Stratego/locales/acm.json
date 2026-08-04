@@ -24,7 +24,7 @@
     "you_miner_defused": "لقد نقلت قطعتك من {source} إلى {dest}. القطعة المهاجمة كانت {attacking_rank} والقطعة الهدف كانت {target_rank}.由于 المنقلة يمكن أن تعطل القنابل ، فازت في المعركة.",
     "opponent_miner_defused": "اللاعب {player_id} قد نقل قطعة من {source} إلى {dest}. القطعة المهاجمة كانت {attacking_rank} والقطعة الهدف كانت {target_rank}.由于 المنقلة يمكن أن تعطل القنابل ، خسرت المعركة.",
     "you_bomb_lost": "لقد نقلت قطعتك من {source} إلى {dest}. القطعة المهاجمة كانت {attacking_rank} والقطعة الهدف كانت {target_rank}.由于 المهاجم ليس منقلاً ، خسرت المعركة.",
-    "opponent_bomb_won": "Player {player_id} has moved a piece from {source} to {dest}. The attacking piece was {attacking_rank} and the destination piece was {target_rank}. As the attacker is not a miner, you won the battle.",
+    "opponent_bomb_won": "اللاعب {player_id} حرك قطعة من {source} إلى {dest}. القطعة المهاجمة كانت {attacking_rank} والقطعة المستهدفة كانت {target_rank}. بما أن المهاجم ليس عامل مناجم، فقد فزت بالمعركة.",
     "you_spy_won": "لقد نقلت قطعتك من {source} إلى {dest}. القطعة المهاجمة كانت {attacking_rank} والقطعة الهدف كانت {target_rank}.由于 المهاجم هو جاسوس والهدف هو مارشال ، فازت في المعركة.",
     "opponent_spy_lost": "اللاعب {player_id} قد نقل قطعة من {source} إلى {dest}. القطعة المهاجمة كانت {attacking_rank} والقطعة الهدف كانت {target_rank}.由于 المهاجم هو جاسوس والهدف هو مارشال ، خسرت المعركة.",
     "you_higher_won": "لقد نقلت قطعتك من {source} إلى {dest}. القطعة المهاجمة كانت {attacking_rank} والقطعة الهدف كانت {target_rank}.由于 المهاجم هو رتبة أعلى من الهدف ، فازت في المعركة.",

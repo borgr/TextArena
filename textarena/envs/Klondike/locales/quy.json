@@ -16,7 +16,7 @@
     "{cards}": "The cards in a pile as neutral labels, or '--' if empty (never translate)"
   },
   "player_prompt": {
-    "intro": "You are playing Klondike Solitaire. Your goal is to move all cards to the foundation piles.\n\nGame Rules:\n- Foundation piles (F1-F4): Build up from Ace to King in suit\n- Tableau piles (T1-T7): Build down alternating colors (red on black, black on red)\n- Stock: Draw cards to waste pile\n- Waste (W): Top card available for play\n\nCommands:\n- 'draw' - Draw cards from stock to waste\n- 'move <source> <destination> [count]' - Move cards between piles\n  Examples: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count can also be 'all', which will try to move all face-up cards.\n- 'forfeit' - End the game immediately and lock in your current score\n- Pile names: W (waste), F1-F4 (foundations), T1-T7 (tableau)\n\nYou can execute multiple actions in one turn by separating them with commas:\n  Example: 'draw, move W T1, move T2 F1'\n\nOnly Kings can be placed on empty tableau piles.\nActions execute in order - if one fails, the remaining actions are skipped.\nUse 'forfeit' if you believe the game is impossible to win."
+    "intro": "Klondike Solitariuta pukllanki. Q'umir q'illaykunata t'ikrana q'umir wasikunaman apayta q'umir q'illay. \n\nPukllay q'anq'ay:\n- Q'umir wasikuna (F1-F4): Ace-manta Rey-kama q'umir q'illayta q'umir \n- T'ikrana wasikuna (T1-T7): Q'umir q'illayta ch'in q'umirpi (puka q'ara q'umirpi, q'ara q'umir puka q'umirpi) \n- Q'umir q'illay q'ipi: Q'umir q'illayta q'umir q'ipipaq \n- Q'umir q'ipipaq (W): Q'umir q'illay q'ipipaqta ñawpa q'umir q'illay \n\nQ'anq'aykuna:\n- 'draw' - Q'umir q'illay q'ipipaqmanta q'umir q'ipipaq \n- 'move <source> <destination> [count]' - Q'umir q'illayta q'umir wasikunapura \n  Uyarinakuna: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count-pas 'all'-pis kanqa, tukuy ñawpa q'umir q'illaykunata apayta q'umir. \n- 'forfeit' - Pukllayta tukuyta q'umir q'ipipaqta \n- Q'umir wasikunapura: W (q'umir q'ipipaq), F1-F4 (q'umir wasikuna), T1-T7 (t'ikrana wasikuna) \n\nTukuy q'anq'aykunata huk p'unchaypi q'umir q'anq'ayta, q'anq'aykunata q'umir q'ipipaqpi kanqa:\n  Uyarinakuna: 'draw, move W T1, move T2 F1' \n\nQ'ara q'umir q'illaykunallamanta t'ikrana wasikunaman apayta kanqa. \nQ'anq'aykunata q'umir q'ipipaqta, huk q'anq'ayqa manch'akuptinqa, wak q'anq'aykunata q'ipipaqta kanqa. \n'forfeit'ta q'umir q'anq'ayta, pukllay imposible kanqaptinqa."
   },
   "format_error": {
     "no_brackets": "Mana allin ruwaykuna, mana allinta ruwasqa.",
@@ -24,15 +24,15 @@
     "empty_command": "Mana ima kamachiy. \"draw\" icha \"move <source> <destination> [count]\" nisqaman qillqay.",
     "empty_action": "Mana imapaq ruwakunchu.",
     "move_needs_args": "Move kamachiyqa maymantachus, imawantaq ripunanta munan. Usualidad: 'move <source> <destination> [count]'",
-    "count_positive": "\"Tukuy\" nisqa valorqa allinpuni kanan tiyan.",
+    "count_positive": "Ñiqiqa chani icha 'all' kanman.",
     "count_invalid": "Mana allin willakuy. \"all\" nisqawan qillqay, icha huk yupayta utilizay.",
-    "unknown_command": "Comando desconocido '{cmd}'. Usa 'draw', 'move <source> <destination> [count]', o 'forfeit'",
+    "unknown_command": "Mana riqsisqa q'anq'ay '{cmd}'. 'draw', 'move <source> <destination> [count]', utaq 'forfeit' q'anq'ay",
     "wrapped": "Accion {n}: {msg}"
   },
   "action_result": {
     "success": "Accion {n}: {msg}",
-    "before_failure": "{n} accion(es) ejecutada(s) antes del fallo.",
-    "failed": "Accion {n} fallo: {msg}"
+    "before_failure": "{n} ruwaykuna ñawpaq pukllay.",
+    "failed": "Ruway {n} p'asñachisqa: {msg}"
   },
   "move_result": {
     "drew": "Cartilla de dibujos nisqa, imachus kasqanmanta willakun.",
@@ -41,28 +41,28 @@
     "foundation_one_card": "1 cartallataqmi fundacionman apachikuyta atin.",
     "waste_to_foundation_ok": "Cartilla de residuos nisqawan fundacionman apasqa F{dst}",
     "waste_to_foundation_bad": "Mana atispa kay tarjetata chay fundamento-man apachikuyta atinchu. 🔍",
-    "tableau_to_foundation_ok": "Movi carta de tableau T{src} a fundacion F{dst}",
+    "tableau_to_foundation_ok": "K'atakuna wasi T{src} tukuy wasiman F{dst} tiyaykachiy.",
     "tableau_to_foundation_bad": "Manan ima cartatapis chay t'ikamanqa apachikuyta atinchu. 🔍",
     "foundation_to_foundation": "Mana ima sayaymantapas maymanpis riyta atinchu.",
     "waste_to_tableau_one_card": "Uchuymanta q'illaymanqa huk kartallata apanapaq.",
     "waste_to_tableau_ok": "Cartilla de residuos nisqawan T{dst} tablapi churasqa.",
     "waste_to_tableau_bad": "Manan tarjeta q'epikunataqa chay tablero-man churayta atinchu.",
     "no_face_up": "Mana ima cartatapis chʼichichanmanchu.",
-    "tableau_to_tableau_ok": "Movi {count} carta(s) de tableau T{src} a T{dst}",
-    "tableau_to_tableau_bad": "No se puede mover {count} carta(s) de T{src} a T{dst}",
+    "tableau_to_tableau_ok": "{count} k'atakuna wasi T{src} wasi T{dst} tiyaykachiy.",
+    "tableau_to_tableau_bad": "Mana {count} k'atakuna wasi T{src} wasi T{dst} tiyaykachiy atin.",
     "foundation_to_tableau_one_card": "Uchuymanta ch'ulla t'ikamanqa huk kartallata apakunman.",
     "foundation_empty": "Fundación F{src} ch'usaqmi.",
-    "foundation_to_tableau_ok": "Moved card from foundation F{src} to tableau T{dst}",
+    "foundation_to_tableau_ok": "K'atakuna tukuy wasi F{src} wasi T{dst} tiyaykachiy.",
     "foundation_to_tableau_bad": "Mana atispa tarjeta de fundaciónpi t'ikrasqa T{dst}",
     "to_waste_or_stock": "Mana ima q'ipis, ni imapas tarikuyta atinchu."
   },
   "outcome": {
     "forfeit": "Q'illaypi: {score} tarjetas.",
     "won": "¡Klondikepi Solitary pukllayta atipanki!",
-    "turn_limit": "Juego terminado! Alcanzaste el maximo de {max_turns} turnos. Puntuacion: {score} cartas en fundaciones."
+    "turn_limit": "Pukllay tukuy ñiqiwan tiyaykachisqa! {max_turns} ñiqikuna tukusqa. Q'umirayki ñiqi: {score} k'atakuna tukuy wasikunapi."
   },
   "board": {
-    "title": "=== KLONDIKE SOLITAIRE === [[Piruwpi:K'iti]] sutiyuq p'anqaman t'inkimuqkuna",
+    "title": "=== KLONDIKE SOLITARIU ===",
     "turn": "Turno: {turn}/{max_turns}",
     "stock": "Ima cartakunachus: {stock} kartakunapi",
     "waste": "Waste (W): {waste} Wastaqa, maypichus kan.",

@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "Welcome to Frozen Lake!\n\nYou are represented by 'P' on the grid.\nGrid symbols:\n  ' ' = Frozen surface (safe to walk on)\n  'H' = Hole (fall in and lose!)\n  'G' = Goal (reach this to win!)\n  'P' = Your current position\n\nAvailable actions: up, down, left, right (or w, a, s, d)\nType your action as: [up], [down], [left], [right] or [w], [a], [s], [d]\n\nObjective: Navigate from the start (top-left) to the goal (bottom-right) without falling into any holes!\n"
+    "intro": "फ्रोजन लेक में आपका स्वागत है!\n\nग्रिड पर आप 'P' द्वारा दर्शाए गए हैं।\nग्रिड प्रतीक:\n  ' ' = जमी हुई सतह (सुरक्षित चलने के लिए)\n  'H' = छेद (गिर जाएं और हार जाएं!)\n  'G' = लक्ष्य (इसे जीतने के लिए पहुंचें!)\n  'P' = आपकी वर्तमान स्थिति\n\nउपलब्ध कार्रवाइयां: ऊपर, नीचे, बाएं, दाएं (या w, a, s, d)\nअपनी कार्रवाई को इस प्रकार टाइप करें: [up], [down], [left], [right] या [w], [a], [s], [d]\n\nउद्देश्य: शुरुआत (ऊपर-बाएं) से लक्ष्य (नीचे-दाएं) तक बिना किसी छेद में गिरे नेविगेट करें!\n"
   },
   "board": {
     "current_board": "वर्तमान बोर्ड:\n\n{board}\n\nउपलब्ध क्रियाएँ: {actions}"

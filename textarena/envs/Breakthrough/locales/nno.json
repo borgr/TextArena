@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing {color} in a game of Breakthrough. You move {direction} on an {board_size}x{board_size} board.\nIn your turn you can move a single piece one step forward or diagonally forward.\nA piece may only move diagonally if an opponent piece is there, and only move into such a preoccupied square in a diagonal step.\nWhen stepping into a square with an opponent piece, you capture it and the opponent's piece is removed permanently from the board.\nUse UCI-like notation in brackets, e.g. [a2a3] to move from a2 to a3.\n* 'a' corresponds to the leftmost column, '1' is the bottom row (from White's perspective).\n* Blacks's home row is the top row (row 8 for an 8x8). White's home row is the bottom row (row 1 for an 8x8).\nThe first player whose piece reaches the opponent's home row wins. If your pieces are all captured, you lose."
+    "intro": "Du spelar {color} i eit parti gjennombrot. Du flyttar {direction} på eit {board_size}x{board_size} brett.\nI din tur kan du flytta eitt enkelt brikke eitt steg fram eller diagonalt fram.\nEit brikke kan berre flytta diagonalt om motstandarbrikke er der, og berre flytta inn i ein slik okkupert rute i eit diagonalt steg.\nNår du stiger inn i ein rute med motstandarbrikke, tar du det og motstandarbrikka vert fjerna permanent frå brettet.\nBruk UCI-liknande notasjon i klammepar, t.d. [a2a3] for å flytta frå a2 til a3.\n* 'a' svarar til den venstre kolonnen, '1' er den nedste raden (frå kvit sitt perspektiv).\n* Svart sin hjemmerad er den øvste raden (rad 8 for eit 8x8-brett). Kvit sin hjemmerad er den nedste raden (rad 1 for eit 8x8-brett).\nDen første spelaren som får eit brikke til motstandaren sin hjemmerad vinn. Om brikkene dine vert tekne, taper du."
   },
   "invalid_move": {
     "wrong_format": "Vennlegvis bruk parenteserte algebraiske notasjonar som [a2a3].",
@@ -13,8 +13,8 @@
   "outcome": {
     "white_reached": "Dei kvite kom fram til den svarte.",
     "black_reached": "Svarte nådde heimarrøya til kvite.",
-    "white_captured": "All White pieces captured.",
-    "black_captured": "All Black pieces captured.",
+    "white_captured": "Alle kvite brikker er tekne.",
+    "black_captured": "Alle svarte brikker er tekne.",
     "no_moves": "Spelaren {player_id} har ikkje meir trekk."
   }
 }

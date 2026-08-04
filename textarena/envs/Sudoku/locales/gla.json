@@ -9,7 +9,7 @@
   "invalid_move": {
     "wrong_format": "Foirm ceum neo-dhligheach. Cha do fhreagair cluicheadair {player_id} le 'àireamh colbh sreath' dhlùth.",
     "out_of_bounds": "Glèidh gluasad. Dh'fhàg {player_id} {num} aig ({row}, {col}), a tha às aonais crìochan.",
-    "overwrite": "Invalid move. Player {player_id} attempted to overwrite a pre-filled cell ({row}, {col}).",
+    "overwrite": "Gluasad mì-dhligheach. Dh'fheuch Player {player_id} sgrìobhadh thairis air ceall ro-làn ({row}, {col}).",
     "violates_rules": "Glèidh gluasad. Dh'fhàg {player_id} {num} aig ({row}, {col}), a tha a' dol an aghaidh riaghailtean Sudoku."
   },
   "outcome": {

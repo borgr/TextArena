@@ -7,13 +7,13 @@
   },
   "invalid_move": {
     "wrong_format": "གནས་གོང་ཅན་ཅིག་བཙུགསཔ་ཨིན་པའི་རྣམ་པ་མ་ཐོབ་པས། '[pile quantity]'འདི་ལག་ལེན་འཐབ་།",
-    "correct_format_wrong_fields": "Player {player_id}, Invalid action. Column {col} is out of bounds.",
-    "out_of_range": "Pile index {pile_index} is out of range.",
+    "correct_format_wrong_fields": "རྩེད་འགྲན་པ་ {player_id} ཁྱེད་ཀྱི་བྱ་བ་མ་འགྲིགས་པ་རེད། དུམ་རེ {col} མཐའ་མ་ལས་བརྒལ་ཡོད་པ་རེད།",
+    "out_of_range": "རིགས་ཀྱི་ཨང་རྟགས་ {pile_index} མཐའ་མ་ལས་བརྒལ་ཡོད་པ་རེད།",
     "non_positive": "དངོས་པོ་ཉུང་ཤོས་གཅིག་ བཏོན་གཏང་དགོ།",
-    "exceeds_pile": "Cannot remove {quantity} from pile {pile_index} (only {pile_count} left)."
+    "exceeds_pile": "རིགས་ {pile_index} ནས་ {quantity} བསལ་མི་ཆོག་པ་རེད། (ད་ལྟ་ {pile_count} ལས་མེད་པ་རེད།)"
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "རྩེད་འགྲན་པ་ {player_id} ཁོང་གིས་ '[{pile_index} {quantity}]' བསྒྱུར་བ་རེད། རིགས་ {pile_index} ནས་ {quantity} རྫས་གཞི་བསལ་བ་རེད།"
   },
   "outcome": {
     "win": "རྩེད་འགྲན་པ་ {player_id} གིས་ མཇུག་གི་དངོས་པོ་འདི་ ༼s༽ ལེན་ནུག!"

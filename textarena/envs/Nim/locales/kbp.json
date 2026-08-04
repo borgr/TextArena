@@ -13,7 +13,7 @@
     "exceeds_pile": "Pɩwɛɛza se pama {quantity} kɛ pile {pile_index} (pɩwɛɛza ɖooo {pile_count})."
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "Kpɛlɛɛ {player_id} tɔm '[{pile_index} {quantity}]', kɩtɛzɩ {quantity} kɩkɛyɛ kɔyɔ {pile_index}."
   },
   "outcome": {
     "win": "Aleɣya {player_id} kpaɣ kɛdɛzaɣ wonuu ((s)!"

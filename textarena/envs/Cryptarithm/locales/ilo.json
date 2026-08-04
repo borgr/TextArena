@@ -9,10 +9,10 @@
     "{pct}": "Progress as a percentage string, e.g. 50%"
   },
   "player_prompt": {
-    "intro": "Map each letter to a unique digit so the arithmetic holds.\nAssign with `[A 5]`, re-assign anytime.\n"
+    "intro": "Ibagay kada letra iti naisangayan a numero tapno mataripato ti aritmetika.\nItugma kadagiti `[A 5]`, ibalik iti tugma aniaman.\n"
   },
   "invalid_move": {
-    "wrong_format": "Bad action format. Use `[A 5]`.",
+    "wrong_format": "Madi a pormat ti tignay. Usaren ti `[A 5]`.",
     "letter_not_in_puzzle": "Ti letra {letter} ket saan a paset ti puzzle.",
     "digit_used": "Digit {digit} a naus-usar idin babaen ti {used_letter}.",
     "leading_zero": "Ti umuna a digit ti maysa a sao ket saan nga agbalin a 0."

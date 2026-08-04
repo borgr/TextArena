@@ -47,7 +47,7 @@
   },
   "message": {
     "deck_empty": "Оюн токтоосуз токтойт.",
-    "knocked": "Player {pid} knocked! Each other player gets one more turn.",
+    "knocked": "Оюнчу {pid} уратты! Ар бир башка оюнчу бир турга кошумча мүмкүнчүлүк алат.",
     "final_round": "Оюнчу {pid} {reason}! Ар бир оюнчу дагы бир жолу айланууга ээ."
   },
   "reason": {

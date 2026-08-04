@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "Bo é Jogadör {player_id} na Jogo di Negosiasaon.\nBo tin algums rezursu, i bo tarefa é troka pa bo rezursu tin valor total aumenta.\nRezursu i valor asosia bo tin aktualmente é:\n\t+ {resource_value_list}\nNa kada turnu, bo podi fala ku oponènti i fizé proposta di troka.\nUsa token spesial siguinti pa aksion:\n  - '[Oferta: 3 Oveja, 2 Minerais -> 5 Tijela, 2 Oveja]': [Oferta: Rezursu oferiu -> Rezursu pediu]\n  - '[Accept]': Pa asetá proposta di entrada.\n  - '[Deny]': Pa negá proposta di entrada (padrão).\nJogo dura pa {max_turns} turnu na total."
+    "intro": "Bo é Jogadör {player_id} na Jogo di Negosiasaon.\nBo tin algums rezursu, i bo tarefa é troka pa bo rezursu tin valor total aumenta.\nRezursu i valor asosia bo tin aktualmente é:\n\t+ {resource_value_list}\nNa kada turnu, bo podi fala ku oponènti i fizé proposta di troka.\nUsa token spesial siguinti pa aksion:\n  - '[Offer: 3 Sheep, 2 Ore -> 5 Brick, 2 Sheep]': [Offer: Offered Resources -> Requested Resources]\n  - '[Accept]': Pa asetá proposta di entrada.\n  - '[Deny]': Pa negá proposta di entrada (padrão).\nJogo dura pa {max_turns} turnu na total."
   },
   "invalid_move": {
     "receiving_with_no_resource": "Jogador tenta aseita un troka sen ten rekursus nisisáriu.",

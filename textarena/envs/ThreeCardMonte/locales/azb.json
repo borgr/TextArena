@@ -11,7 +11,7 @@
     "{ball_pos}": "The cup index the ball is under"
   },
   "player_prompt": {
-    "intro": "Track the hidden ball 'X' while the cups are shuffled.\nAfter shuffling, guess its location with `[k]`."
+    "intro": "قاپلار قاریشدیریلارکن 'X' توپون موقئعسینی ایزله ین.\nقاریشدیرمادان سونرا، `[k]` ایله موقئعسینی تانیم."
   },
   "game_message": {
     "ball_starts": "توپ باشلانیر: {line}",
@@ -21,11 +21,11 @@
     "reveal": "(تکشف: توپ آلتین داکی {ball_pos})"
   },
   "invalid_move": {
-    "wrong_format": "Bad action. Use `[k]`.",
+    "wrong_format": "یالنیش حرکت. `[k]` ایستیفاده ائدین.",
     "out_of_range": "ایندکس 0-{max_index} ساحه سیندن آیری دیر."
   },
   "outcome": {
     "win": "دوغرو! توپو تاپدین.",
-    "lose": "Wrong — ball was under cup {ball_pos}."
+    "lose": "یالنیش — توپ {ball_pos} موقئعسینده ایدی."
   }
 }

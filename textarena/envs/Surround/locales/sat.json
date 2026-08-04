@@ -10,7 +10,7 @@
     "{groups}": "Neutral ranking data (a list of player-id groups, best to worst); do not translate"
   },
   "player_prompt": {
-    "intro": "{num_players}-Player Surround on a {width}x{height} grid.\nYou are player {player_id}. Valid moves: '[up]' '[down]' '[left]' '[right]' or w/s/a/d.\nObjective: outlive everyone else. Trails are deadly; wall hits kill; head-on crashes kill both."
+    "intro": "{num_players}-ᱠᱷᱮᱞᱚᱸᱰᱤ ᱥᱟᱨᱟᱣᱱᱰ ᱢᱤᱫ {width}x{height} ᱜᱨᱤᱰ ᱨᱮ.\nᱟᱢᱮ ᱠᱷᱮᱞᱚᱸᱰᱤ {player_id}. ᱵᱮᱥᱟᱜ ᱢᱩᱵ: '[up]' '[down]' '[left]' '[right]' ᱟᱨᱵᱟ w/s/a/d.\nᱡᱚᱥ: ᱮᱴᱟᱜ ᱠᱚ ᱠᱷᱚᱱ ᱡᱤᱣᱤᱫ ᱛᱟᱦᱮᱸᱢᱮ. ᱴᱨᱮᱞ ᱠᱚ ᱜᱚᱡ ᱜᱮᱭᱟ; ᱫᱮᱭᱟᱞ ᱨᱮ ᱟᱴᱠᱮᱫ ᱜᱚᱡ ᱜᱮᱭᱟ; ᱢᱚᱥᱴᱚ ᱠᱨᱟᱥ ᱨᱮ ᱵᱟᱱᱟᱨ ᱜᱚᱡ ᱜᱮᱭᱟ."
   },
   "board": {
     "current": "ᱱᱤᱛᱚᱜᱟᱜ ᱵᱳᱨᱰ: {board}",

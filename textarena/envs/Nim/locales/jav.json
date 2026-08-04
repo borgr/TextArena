@@ -13,7 +13,7 @@
     "exceeds_pile": "Ora bisa mbusak {quantity} saka tumpukan {pile_index} (mung {pile_count} kiwa)."
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "Pemain {player_id} main [{pile_index} {quantity}], mbusak {quantity} objek saka tumpukan {pile_index}."
   },
   "outcome": {
     "win": "Pemain {player_id} njupuk obyek pungkasan ((s)!"

@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You will observe {N} hidden values sequentially.\nAt each step type [accept] to pick the *current* value, or [continue] to skip it and see the next one.\nIf you never accept, you are forced to take the final value.\nYou win (reward = 1) **only** if the value you ultimately pick is the highest of all."
+    "intro": "Mo kodë {N} mbëri na ndö kodë tî ndö tî mbëri.\nNa ndö tî mbëri, gbi [accept] mbëri na kodë tî sô, ou gbi [continue] mbëri na kodë tî ndö tî mbëri na ndö tî sô.\nTî mo kodë gbi mbëri, mo kodë tî sô na kodë tî ndö tî mbëri.\nMo kodë gbi (récompense = 1) **mbëri** tî kodë tî sô mo kodë tî ndö tî mbëri tî kodë tî ndö."
   },
   "game_action": {
     "current_value": "Wungo ti laso ayeke {value}."

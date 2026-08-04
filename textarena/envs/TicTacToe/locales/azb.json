@@ -7,13 +7,13 @@
     "{cell}": "A board cell number between 0 and 8"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Tic Tac Toe.\nYour goal is to win three in a row (horizontally, vertically, or diagonally) on the board.\nOn your turn, you should select the square number (0-8) you want to put your mark in next.\nFor example, '[4]' places your mark in the center cell of the board.\nAs Player {player_id}, you will be '{symbol}', while your opponent is '{opponent_symbol}'."
+    "intro": "سیز Tic Tac Toe اویونوندا {player_id} نومره لی اوْیونچوسوز.\nهدفینیز اویون تخته سینده اوچ سل یانی یانا (افقی، عمودی و یا قاطری) قازانماقدیر.\nنوبتینیزده، تخته ده ایشاره نین یئرلشدیره جه ین سل نومره سینی (۰-۸) سئچمه لیسینیز.\nمثلا، '[4]' ایشاره نین مرکزی سل ده یئرلشدیریر.\n{player_id} نومره لی اوْیونچو اولاراق، سیز '{symbol}' اولاجاقسینیز، حریفینیز ایسه '{opponent_symbol}' اولاجاق."
   },
   "board": {
     "current_board": "Carı hiện Board:\n\n{board}\n\nMövcud Hərəkətlər: {moves}"
   },
   "invalid_move": {
-    "wrong_format": "تقدیم اولونان حرکت دوزگون فورماتا اویغون دئییل.",
+    "wrong_format": "گؤندریلن حرکت دوزگون فرمتده دئییل.",
     "out_of_range": "{cell} صحیحه بیر حجره دئییل. 0-دن 8-یه قدر اولمالیدیر.",
     "already_occupied": "{cell} حجره ایندیکی کیمی مشغولدور."
   },

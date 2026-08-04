@@ -25,7 +25,7 @@
   },
   "round": {
     "begins": "--- වටය {round_number} ආරම්භ වේ! --- ක් රීඩකයා {proposer_id} යෝජනා කරන්නා, ක් රීඩකයා {responder_id} ප් රතිචාර දක්වන්නා වේ.",
-    "offer": "Round {round_number}: Player {proposer_id} offers ${offer} to Player {responder_id} (keeping ${keep}).",
+    "offer": "වට {round_number}: ක්‍රීඩක {proposer_id} ක්‍රීඩක {responder_id} හට ${offer} යෝජනය කරයි (තබා ගන්නා ${keep}).",
     "accepted": "ක් රීඩකයා {responder_id} පිළිගනු ලැබේ! වටය {round_number} ලාභ: ක් රීඩකයා {proposer_id} + ${proposer_gain}, ක් රීඩකයා {responder_id} + ${responder_gain}. නව මුළු: ක් රීඩකයා 0: ${total_0}, ක් රීඩකයා 1: ${total_1}.",
     "rejected": "ක් රීඩකයා {responder_id} යෝජනාව ප් රතික්ෂේප කරයි! වටය {round_number} ලාභ: ක් රීඩකයින් දෙදෙනාම + $ 0. මුළු මුදල ඉතිරිව ඇත: ක් රීඩකයා 0: $ {total_0}, ක් රීඩකයා 1: $ {total_1}."
   },
@@ -37,7 +37,7 @@
     "accept_or_reject": "ප් රතිචාරකයා [Accept] හෝ [Reject] ඉදිරිපත් කළ යුතුය."
   },
   "outcome": {
-    "win": "Player {winner} won with ${winner_total} total vs Player {loser}'s ${loser_total}.",
+    "win": "ක්‍රීඩක {winner} ${winner_total} මුදලක් සමඟ ජය ගත්තේය, ක්‍රීඩක {loser} ${loser_total} මුදලක් සමඟ පරාජය විය.",
     "draw": "දෙදෙනාම ${total}ක් ලබාගෙන අවසන් විය."
   }
 }

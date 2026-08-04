@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a {max_rounds} round game of Kuhn Poker.\nGame Rules:\n- Kuhn Poker uses a 3-card deck with J, Q, K (J lowest, K highest)\n- Each player antes {ante} chip and receives 1 card each round (note that the cards are dealt without replacement, so you cannot have the same card as your opponent).\n- Game continues for {max_rounds} rounds\n- The player with the most chips after all rounds wins\nAction Rules:\n- '[check]': Pass without betting (only if no bet is on the table)\n- '[bet]': Add 1 chip to the pot (only if no bet is on the table)\n- '[call]': Match an opponent's bet by adding 1 chip to the pot\n- '[fold]': Surrender your hand and let your opponent win the pot"
+    "intro": "Q'umir pukllaypi Player {player_id} kanki, {max_rounds} pukllaykunapi Kuhn Poker pukllayta. \nPukllay Kamachikuna:\n- Kuhn Poker 3 kartakunayuq pukllayta, J, Q, K (J aswan pisi, K aswan hatun)\n- Sapa pukllaq {ante} chipwan qallariyta, 1 karta sapa pukllaypi chaskiyta (karta kanchu k'uskiyta, mana p'inqakunaykichu).\n- Pukllay {max_rounds} pukllaykunapi kawsayta\n- Aswan chipkuna pukllaypa tukukuyninpi atipaqmi\nKamachikuna:\n- '[check]': Mana bet kanchu p'inqayta (p'inqaytaqa pukllay mesa pisi kaspa)\n- '[bet]': 1 chipwan pukllay potman yapayta (p'inqaytaqa pukllay mesa pisi kaspa)\n- '[call]': Pukllay oponenteqa betninman t'inkayta 1 chipwan pukllay potman yapayta\n- '[fold]': K'uskiyta pukllay k'uskiyta, oponenteqa atipaqmi pukllay potman"
   },
   "init_round": {
     "round_start": "### Q'alla p'unchay {current_round} munasq'ayki {max_rounds} p'unchaykunamanta. Q'awakayki k'uskaqa: '{player_card}'",
@@ -11,7 +11,7 @@
     "not_legal": "Chayqa {legal_actions} nisqa kanan tiyan."
   },
   "action": {
-    "submit_move": "Player {player_id}, submitted move: '[{move}]'.",
+    "submit_move": "Player {player_id}, kamachiyta q'umirayta: '[{move}]'.",
     "valid_actions": "Kaykuna ruwasqaykiqa: {legal_actions}.",
     "round_summary": "{reason} Kunan q'illaykuna: Pukllaq 0: '{player_0_chips}'; Pukllaq 1: '{player_1_chips}'"
   },

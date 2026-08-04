@@ -11,17 +11,17 @@
     "{ball_pos}": "The cup index the ball is under"
   },
   "player_prompt": {
-    "intro": "Track the hidden ball 'X' while the cups are shuffled.\nAfter shuffling, guess its location with `[k]`."
+    "intro": "P'ukllay 'X' q'awarapi p'itikusqan. P'itikusqan q'ipin, `[k]`wanmi willay."
   },
   "game_message": {
     "ball_starts": "Pallqa qallarin: {line}",
-    "shuffle": "Shuffle {step}/{steps}: cambian copas {i} y {j}.",
+    "shuffle": "P'itikuy {step}/{steps}: q'awara {i}wan {j} p'itikurqan.",
     "cups": "T'allasqa: {line}  {prompt}",
     "guess_now": "(¡Kunanpacha yuyariy!)",
     "reveal": "(Rikch'ariy: bola {ball_pos})"
   },
   "invalid_move": {
-    "wrong_format": "Bad action. Use `[k]`.",
+    "wrong_format": "Mana allin p'ukllay. `[k]`tam willay.",
     "out_of_range": "Index nisqaqa 0-{max_index} nisqamanta lluqsin."
   },
   "outcome": {

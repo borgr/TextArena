@@ -20,6 +20,6 @@
   },
   "outcome": {
     "win": "Pemain {player_id} meunang deungen tanda-tanda nyang ka geupeukong!",
-    "draw": "Nyan game nyan draw!"
+    "draw": "Game nyan seri!"
   }
 }

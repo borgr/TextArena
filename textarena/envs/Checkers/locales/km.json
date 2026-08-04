@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "មិនមានទម្រង់ចលនាដែលត្រឹមត្រូវត្រូវបានរកឃើញ។ ប្រើ [a1b2], ឧទាហរណ៍ [b2c3] ។",
-    "illegal": "Move [{move}] is illegal."
+    "illegal": "ចលនា [{move}] គឺខុសច្បាប់។"
   },
   "game_action": {
     "moved": "កីឡាករ {player_id} បានចល័ត {move} ។"

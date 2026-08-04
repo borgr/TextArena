@@ -21,10 +21,10 @@
     "{scores}": "The pre-rendered per-player list of final scores"
   },
   "player_prompt": {
-    "intro": "You are playing Golf (Card Game) - Player {player_id}.\nGoal: Get the lowest total score in this single round. If columns share the same value, they are summed as 0.\nCard Values: A=1, 2-10=face value, J/Q=10, K=0\n\nActions (use exact brackets):\n- '[draw]' - Draw from deck\n- '[take]' - Take from discard pile\n- '[swap X Y]' - Swap drawn card with position X (row) Y (column)\n- '[discard]' - Discard the drawn card\n"
+    "intro": "Ti stæ xugando a-o Golf (Giögo de Carte) - Giugador {player_id}.\nObiettivo: Ottegni o punteggio totale ciù basso in questa man sola. Se e colonne condividde o mæximo valô, son sommæ comme 0.\nValori de Carta: A=1, 2-10=valô faciale, J/Q=10, K=0\n\nAçion (dövra e parentexi esatte):\n- '[draw]' - Pescia da-o mazzo\n- '[take]' - Piggia da-a pila de scarto\n- '[swap X Y]' - Scambia a carta pesciâ con a poxision X (riga) Y (colonna)\n- '[discard]' - Scarta a carta pesciâ\n"
   },
   "board": {
-    "drew": "You drew: {card}\nNow you must [swap X Y] or [discard] it.",
+    "drew": "Ti æ pesciou: {card}\nOra ti devi [swap X Y] o [discard] la.",
     "took": "Ti ê pigiò: {card} da-o disco de carte scartae\nTi devi [swap X Y] con lô (nò pôi scartâ)",
     "peeked": "Ti ê guardò a-a poxiçion ({row},{col}): {card}",
     "turn_view": "A ti mano:\n{hand}\nDisco de carte scartae: {discard}\n{options}",
@@ -56,7 +56,7 @@
   "invalid": {
     "wrong_action": "Dêuvi un'açion con brachette: [draw], [take], [swap X Y], [discard], [knock], o [peek X Y]",
     "discard_empty": "A pila de scarto a l'é sciù!",
-    "must_draw_first": "You must first [draw], [take], [knock], or [peek X Y]",
+    "must_draw_first": "Ti devi primma [draw], [take], [knock], o [peek X Y]",
     "cannot_discard_taken": "No ti peu scartâ unna carta piggiâ da-a pila de scarto, l'é beseugno cangiâla.",
     "have_drawn_card": "Ti ê tirò 'na carta. Ti devi [swap X Y] o [discard]",
     "need_drawn_swap": "Ti gh'æ beseugno de unna carta desegnâ pe scambiâ.",
@@ -67,13 +67,13 @@
     "already_revealed": "Sta carta a l'é za stæta rivelaa!"
   },
   "summary": {
-    "full": "Game Over! Player {winner} wins with a score of {score} points!\n\nFinal Scores:\n{scores}",
+    "full": "Giögo Finito! Giugador {winner} o vince con un punteggio de {score} punti!\n\nPunteggi Finâ:\n{scores}",
     "line": "Zeneize: {pid} de puntin pe-o zugatô {score} de punte"
   },
   "board_str": {
     "title": "=== GOLF GAME=== O l'é stæto un bon giorno.",
     "discard": "A-o scartâ: {card}",
     "knocked": "O zugatô {pid} o l'à battou!",
-    "player_header": "Player {pid} (Score: {score}):"
+    "player_header": "Giugador {pid} (Punteggio: {score}):"
   }
 }

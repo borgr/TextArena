@@ -23,9 +23,9 @@
     "no_closing_bracket": "Гадел булмаган эш форматы. Ябылу кысасы юк \"]\"",
     "empty_command": "Буш команда. \"draw\" яки \"move <source><destination> [count]\" дип языгыз.",
     "empty_action": "Буш гамәлләр",
-    "move_needs_args": "Күчәргә командасы чыганак һәм максат таләп итә. Куллану: \"күченергә <чыганак> <килтә> [count]\"",
-    "count_positive": "Сан уңай яки \"барлык\" булырга тиеш.",
-    "count_invalid": "Исәпләү дөрес түгел. Сан яки \"барлык\"ны кулланыгыз",
+    "move_needs_args": "Move command requires source and destination. Usage: 'move <source> <destination> [count]'",
+    "count_positive": "Count must be positive or 'all'",
+    "count_invalid": "Invalid count. Use a number or 'all'",
     "unknown_command": "Билгесез команда '{cmd}'. 'draw', 'move <source> <destination> [count]', яки 'forfeit' кулланыгыз",
     "wrapped": "Гамәл {n}: {msg}"
   },
@@ -62,7 +62,7 @@
     "turn_limit": "Уен тәмам! Сез maksималь {max_turns} чиратка ирештегез. Балл: {score} картлар нигездә."
   },
   "board": {
-    "title": "=== KLONDIKE SOLITAIRE=== [[Казан:Татарстанның милли хәрәкәте]]",
+    "title": "=== KLONDIKE SOLITAIRE ===",
     "turn": "Чират: {turn}/{max_turns}",
     "stock": "Карталар: {stock} карталары",
     "waste": "Чүп (W): {waste}",

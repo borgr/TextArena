@@ -13,7 +13,7 @@
     "repeated_guess": "As giai inditadu {guess}. Proa a fàghere un'inditzu diferente."
   },
   "game_action": {
-    "feedback": "Submitted [{guess}]. Feedback: {black_pegs} black peg(s), {white_pegs} white peg(s)."
+    "feedback": "Presentadu [{guess}]. Feedback: {black_pegs} pitzos nieddos, {white_pegs} pitzos biancos."
   },
   "outcome": {
     "win": "As furriadu su còdighe, resolgendi {black_pegs} de {code_length} pitzos in manera correta",

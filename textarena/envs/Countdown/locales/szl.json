@@ -9,7 +9,7 @@
     "progress": "{observation}\nAktualny postęp punktacji: {progress}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use `[i j op]` where i,j are indices and op is +,-,*,/",
+    "wrong_format": "Niyprowny format akcyje. Użyj `[i j op]`, gdźi i,j sům indeksy, a op to +,-,*,/",
     "invalid_indices": "Niyważne indeksy. Muszōm być roztōmajte i we przedziale 0-{max_index}",
     "invalid_operation": "Niyważno ôperacyjo (dzielyniŏ na nula abo wynik niy cołkości)"
   },

@@ -38,7 +38,7 @@
   },
   "turn": {
     "score_entry": "Player {player_id}: {points} xal",
-    "trump_info": "Trump suit: {trump_suit}",
+    "trump_info": "Kartên serdest: {trump_suit}",
     "trump_info_deck": "Kûlaha tramp: {trump_suit} | Kartên maşê: {deck_count}",
     "board": "{hand}\n\n{trick}\n\nXal: {scores}\n{trump_info}\n\nKartê bikar bîne bi [play X]"
   },

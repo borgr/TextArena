@@ -22,18 +22,18 @@
     "final_ranking": "list of player indices from first eliminated to winner"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in an {num_players}-player Liar's Dice game.\nRules:\n- On your turn, you may either:\n  1) Make a new bid with a higher quantity or higher face (or both) than the current bid; i.e. '[Bid: 3, 4]',\n  2) Call the last bid by typing '[Call]'.\n\nIf you call:\n  - If the actual count of that face value among all dice is less than the bid, the last bidder loses one die.\n  - Otherwise, the caller loses one die.\nA player who reaches 0 dice is eliminated. The last remaining player wins."
+    "intro": "D uqeddac {player_id} i d-turared di urar n Liar's Dice akked {num_players} n uqeddacn.\nTisḍaf:\n- Di tura-inek, tzemreḍ ad teddeḍ:\n  1) Rnu tiddas tamaynut s kantita meqqren neɣ azal meqqren (neɣ snat) n tiddas tura; i.e. '[Bid: 3, 4]',\n  2) Sseɣret tiddas tazelmaḍt s useɣret '[Call]'.\n\nMa sseɣreḍ:\n  - Ma azal n tififen i d-yeglan di meṛṛa n tififen ila meẓẓiy n tiddas, uqeddac aneggaru i d-yefɣen itexser die.\n  - Ma ulac, uqeddac i d-yefɣen itexser die.\nUqeddac i d-iwḍen 0 n tififen ittwaxser. Uqeddac aneggaru i d-iḍelli rebbiḥ."
   },
   "board": {
     "per_player": "\tAmseqraq {p}: {d}",
     "new_round": "\nAsagen aɣelnaw - Imeɣriyen ɣakken: {dice_summary}\nImeɣriyen inu ilulen d: {your_dice}"
   },
   "call": {
-    "bidder_loses": "Player {current_player_id} calls! The actual count of face {face_value} is {count}, which is LESS than {quantity}.\nPlayer {loser_id} (the last bidder) loses one die.",
-    "caller_loses": "Player {current_player_id} calls! The actual count of face {face_value} is {count}, which is >= {quantity}.\nPlayer {loser_id} (the caller) loses one die."
+    "bidder_loses": "Uqeddac {current_player_id} isseɣret! Azal n tififen {face_value} d {count}, i d-ila meẓẓiy n {quantity}.\nUqeddac {loser_id} (aneggaru i d-yefɣen) itexser die.",
+    "caller_loses": "Uqeddac {current_player_id} isseɣret! Azal n tififen {face_value} d {count}, i d-ila >= {quantity}.\nUqeddac {loser_id} (isseɣret) itexser die."
   },
   "action": {
-    "bid_announce": "Player {player_id} bids {quantity} of face {face_value}."
+    "bid_announce": "Amsekrar {player_id} isɣa {quantity} n wajh {face_value}."
   },
   "invalid_move": {
     "call_no_bid": "ⵜⵉⵖⵔⴰ ⵙ ⵓⵔ ⵜⵍⵍⵉ ⴽⵔⴰ ⵏ ⵜⵎⵔⴰⵔⵓⵜ.",

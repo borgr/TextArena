@@ -1,12 +1,12 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a {num_rounds}-round Rock-Paper-Scissors game.\nYour goal is to win as many rounds as possible.\nIn each round, respond with one of: '[rock]', '[paper]', or '[scissors]'.\nYou may also use '[r]', '[p]', or '[s]' as shorthand.\n"
+    "intro": "Yu Player {player_id} long {num_rounds}-raun Rock-Paper-Scissors gem.\nMipela i laik yu winim planti raun i ken.\nLong kila raun, yu mas tok wanpela long: '[rock]', '[paper]', o '[scissors]'.\nYu inap tu usim '[r]', '[p]', o '[s]' olsem shorthand.\n"
   },
   "invalid_move": {
-    "wrong_format": "Move not recognized. Use [rock], [paper], or [scissors]."
+    "wrong_format": "Muvman i no klia. Usim [rock], [paper], o [scissors]."
   },
   "game_action": {
-    "selects": "Player {player_id} selects move {move}."
+    "selects": "Player {player_id} i chusim muvman {move}."
   },
   "message": {
     "round_draw": "Resolve bilong raun: Draw",

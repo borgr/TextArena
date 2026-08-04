@@ -22,7 +22,7 @@
     "you_equal_ranks": "Kamu telah memindahkan bidakmu dari {source} ke {dest}. Bidak penyerang adalah {attacking_rank} dan bidak tujuan adalah {target_rank}. Karena kedua bidak memiliki pangkat yang sama, keduanya hilang.",
     "opponent_equal_ranks": "Pemain {player_id} telah memindahkan bidak dari {source} ke {dest}. Bidak penyerang adalah {attacking_rank} dan bidak tujuan adalah {target_rank}. Karena kedua bidak memiliki pangkat yang sama, keduanya hilang.",
     "you_miner_defused": "Kamu telah memindahkan bidakmu dari {source} ke {dest}. Bidak penyerang adalah {attacking_rank} dan bidak tujuan adalah {target_rank}. Karena penambang dapat menonaktifkan bom, kamu memenangkan pertarungan.",
-    "opponent_miner_defused": "Player {player_id} has moved a piece from {source} to {dest}. The attacking piece was {attacking_rank} and the destination piece was {target_rank}. As miners can defuse bombs, you lost the battle.",
+    "opponent_miner_defused": "Pemain {player_id} ka geu jak meupinah pièce nibak {source} u {dest}. Pièce nyang geujak serang nyan {attacking_rank} ngon pièce nyang dituju nyan {target_rank}. Sawirèh miner jeuët neutralkan bom, gata lé gadoh peuprang nyan.",
     "you_bomb_lost": "Kamu telah memindahkan bidakmu dari {source} ke {dest}. Bidak penyerang adalah {attacking_rank} dan bidak tujuan adalah {target_rank}. Karena penyerang bukanlah penambang, kamu kalah dalam pertarungan.",
     "opponent_bomb_won": "Pemain {player_id} telah memindahkan bidak dari {source} ke {dest}. Bidak penyerang adalah {attacking_rank} dan bidak tujuan adalah {target_rank}. Karena penyerang bukanlah penambang, kamu memenangkan pertarungan.",
     "you_spy_won": "Kamu telah memindahkan bidakmu dari {source} ke {dest}. Bidak penyerang adalah {attacking_rank} dan bidak tujuan adalah {target_rank}. Karena penyerang adalah mata-mata dan tujuan adalah jenderal, kamu memenangkan pertarungan.",
@@ -33,7 +33,7 @@
     "opponent_lower_won": "Pemain {player_id} telah memindahkan bidak dari {source} ke {dest}. Bidak penyerang adalah {attacking_rank} dan bidak tujuan adalah {target_rank}. Karena penyerang memiliki pangkat yang lebih rendah dari tujuan, kamu memenangkan pertarungan."
   },
   "outcome": {
-    "flag_captured": "Pemain {player_id} telah menangkap bendera lawan! ([0]) - geu deh ji geum, oh yeah !",
+    "flag_captured": "Pemain {player_id} telah menangkap bendera lawan!",
     "no_movable_pieces": "Pemain {winner_id} menang! Pemain {loser_id} tidak memiliki bidak yang dapat dipindahkan lagi."
   }
 }

@@ -61,16 +61,16 @@
     "header": "=== Papadi ya Sejeremane ya Whist===",
     "phase": "{observation}\nPhase: {phase}",
     "trump_suit": "{observation}\nSuits ya trump: {trump_suit}",
-    "trump_card": "{observation}\nTrump card: {card}",
+    "trump_card": "{observation}\nKarete ya Trump: {card}",
     "cards_left": "{observation}\nKarte ya kgauswi: {count}",
-    "next_card": "{observation}\nNext card for winner: {card}",
+    "next_card": "{observation}\nKarete e latelago e oferweng ke mofenyi: {card}",
     "blank": "{observation}  go ba gona ga tšona ka mehla",
     "current_trick": "{observation} Mokgwa wa gona bjale:",
     "trump_indicator": "(TRUMP) Ke be ke sa tsebe gore go tla direga eng.",
     "trick_line": "{observation}\n  Player {player_id}: {card}{trump_indicator}",
-    "player_line": "{observation}\nPlayer {player_id}: {scoring} scoring tricks ({tricks} total), {hand_size} cards in hand"
+    "player_line": "{observation}\nPlayer {player_id}: {scoring} mekgwa e sebedisang go fenya ({tricks} ka kakaretso), {hand_size} karete mo seateng"
   },
   "outcome": {
-    "summary": "Learning phase - Player 0: {l0}, Player 1: {l1}. Playing phase - Player 0: {p0}, Player 1: {p1}. Player {winner_id} wins with {winner_tricks} scoring tricks!"
+    "summary": "Kgaolo ya go ithuta - Mothodi 0: {l0}, Mothodi 1: {l1}. Kgaolo ya go bapala - Mothodi 0: {p0}, Mothodi 1: {p1}. Mothodi {winner_id} o hlola ka {winner_tricks} dikgwebo tša go bala!"
   }
 }

@@ -6,7 +6,7 @@
     "wrong_format": "Ugyldig format; vennlegst send '[heads]' eller '[tails]'."
   },
   "message": {
-    "round_match": "Player 0 picked {choice0}; Player 1 picked {choice1}. Match -> Player 0 wins",
+    "round_match": "Spelar 0 valde {choice0}; spelar 1 valde {choice1}. Match -> spelar 0 vinn",
     "round_mismatch": "Spelar 0 valde {choice0}; Spelar 1 valde {choice1}. Usemje -> Spelar 1 vinn."
   },
   "outcome": {

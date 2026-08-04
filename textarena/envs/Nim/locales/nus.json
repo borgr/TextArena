@@ -3,7 +3,7 @@
     "intro": "Yin aa riäŋ {player_id} në Nim.\nYɔk ee yen lɛ̈ɛ̈ wɛ̈t kuɛr ku bɛn.\nNë kɛt yen, lɛ̈ɛ̈ kɛt kɛnɛ kɛn, tɛkɛ wɛ̈t kuɛr kɛnɛ.\nLɔ kɛt '[pile quantity]', kɛt kɛnɛ kɛt ee kɛt kɛnɛ, tɛkɛ wɛ̈t kuɛr ee wɛ̈t kuɛr tɛkɛ.\nNë kɛt nhial, '[0 3]' tɛkɛ wɛ̈t kuɛr 3 kɛnɛ kɛt 0."
   },
   "state": {
-    "current_pile": "Current Pile: {piles} ɛ /ɛ/"
+    "current_pile": "Pile Ci Thok:\n{piles}"
   },
   "invalid_move": {
     "wrong_format": "/Thiɛlɛ mi̱ ca jiek kä ta̱a̱ in ci̱ rɔ lot kɛ jɛ. La̱tdɛ kɛɛ '[pile quantity]'.",
@@ -13,7 +13,7 @@
     "exceeds_pile": "Tiŋ {quantity} kɛnɛ kɛt {pile_index} (tɛkɛ diɛr {pile_count})."
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "Raan {player_id} tiop [{pile_index} {quantity}], kadiak {quantity} diaal i ci pile {pile_index}."
   },
   "outcome": {
     "win": "Ji̱ ŋarä {player_id} naŋkɛ duɔ̱ɔ̱r in jɔak ((s)!"

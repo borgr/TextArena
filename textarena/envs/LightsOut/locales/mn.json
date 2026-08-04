@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "Ажил нь 0-ээс {max_index} хүртэлх бүтэн тооны дагуу [row col] хэлбэртэй байх ёстой.",
-    "out_of_range": "Coordinates must be between 0 and {max_index}. You entered [{row},{col}]."
+    "out_of_range": "Координат нь 0 ээс {max_index} хүртэл байх ёстой. Та [{row},{col}] оруулсан."
   },
   "outcome": {
     "win": "Баярлалаа! Та {moves_used} хөдөлгөөнөөр цогцолбор шийдсэн!",

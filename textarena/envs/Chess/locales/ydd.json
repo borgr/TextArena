@@ -4,7 +4,7 @@
   },
   "board": {
     "current_board": "קראַנט ברעט: {board}",
-    "valid_moves": "{observation}\nValid moves: {moves}"
+    "valid_moves": "{observation}\nגילטיקע צוגן: {moves}"
   },
   "invalid_move": {
     "wrong_format": "נישט ריכטיקע שריט פֿאָרמאַט.",

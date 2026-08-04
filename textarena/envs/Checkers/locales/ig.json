@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "Enweghị usoro mbugharị ziri ezi achọtara. Jiri [a1b2], dịka [b2c3].",
-    "illegal": "Move [{move}] is illegal."
+    "illegal": "Ije [{move}] adịghị mma."
   },
   "game_action": {
     "moved": "Onye na-egwu egwu {player_id} kwagara {move}."

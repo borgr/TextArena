@@ -9,7 +9,7 @@
   },
   "game_action": {
     "you_sunk": "Batdy! Siz {coord} sepgidine gämi batyrdyňyz! Güniň täze板yňiz:\n{view}",
-    "opp_sunk": "Opponent sunk your ship at {coord}! Your updated board:\n{view}",
+    "opp_sunk": "Garşydaşyňyz {coord} ýerinde gämi ýuwurdy! Siziň täzelendirilen tagtanyňyz:\n{view}",
     "you_hit": "Çökti! Siz {coord} sepgidine gämi çöktiňiz! Güniň täze板yňiz:\n{view}",
     "opp_hit": "Düşman güniň gäminiňize {coord} sepgidine çökti! Güniň täze板yňiz:\n{view}",
     "you_miss": "Çökmändi! Siz {coord} sepgidine gämi çökmändiňiz! Güniň täze板yňiz:\n{view}",

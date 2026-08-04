@@ -14,7 +14,7 @@
   },
   "game_action": {
     "attack": "P{player_id} angrip P{opp_id} sin hand {opp_idx}: den går frå {opp_val} til {new_val}.",
-    "split": "P{player_id} splits into [{L}, {R}]."
+    "split": "P{player_id} deler i [{L}, {R}]."
   },
   "history": {
     "entry": "P{player_id} {desc}"

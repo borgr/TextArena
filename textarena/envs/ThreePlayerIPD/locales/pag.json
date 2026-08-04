@@ -4,10 +4,10 @@
   },
   "round": {
     "start": "─── Nagsisimula ang Round {round} ───\tMaaari kang makipag-usap nang malaya sa susunod na {conv_rounds} na round.",
-    "chat_finished": "Chat finished for round {round}. Submit your decisions, one token per opponent: `[pid cooperate]` or `[pid defect]`."
+    "chat_finished": "Tapos na so chat para say round {round}. Isubmit mo sakey desisyon, sakey token per kalaban: `[pid cooperate]` o `[pid defect]`."
   },
   "results": {
-    "header": "### Round {round} - Results: Say so!",
+    "header": "### Round {round} - Resulta:",
     "pair_line": "{observation}\n\t Manlalaro {i} vs Manlalaro {j} ay pumiling {choice_i} at {choice_j} ayon sa pagkakabanggit (Manlalaro {i} ay nakakuha ng {gain_i}, Manlalaro {j} ay nakakuha ng {gain_j})",
     "scores_open": "{observation} -> Saray presentin score: ",
     "score_first": "{observation}Player {player_id} ({score})",
@@ -15,6 +15,6 @@
     "finalize": "{observation}  saray"
   },
   "outcome": {
-    "final": "Final scores: {scores}.  Ranking groups (worst→best): {groups}"
+    "final": "Kinalabutan ya scores: {scores}.  Grupo na ranggo (pekamalas→pekamaong): {groups}"
   }
 }

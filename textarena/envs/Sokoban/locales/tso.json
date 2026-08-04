@@ -12,7 +12,7 @@
     "invalid_position": "Ku famba loku nga riki enawini - a wu nge swi koti ku ya eka xiyimo xexo."
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
+    "moved": "U {pushed} sutisile [{action}].",
     "pushed_prefix": "u susumete bokisi loko a ri karhi a famba hi movha."
   },
   "outcome": {

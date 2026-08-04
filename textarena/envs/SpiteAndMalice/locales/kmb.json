@@ -1,41 +1,41 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a two-player game of Spite and Malice. Your goal is to be the first to empty your payoff pile.\n\n### Game Overview:\n- The objective is to clear your payoff pile by playing cards to the center piles.\n- You can play cards from three sources:\n  1. Your **hand** (you start each turn with up to 5 cards in hand).\n  2. The **top card of your payoff pile**.\n  3. The **top card of any of your discard piles**.\n\n### Playing Rules:\n- You may play a card to a center pile if it is **one rank higher** than the top card on that pile (center piles start with Ace and go up to Queen; Kings are wild - they can be played on any card but do not change the rank sequence. This means if a King is used after 4, then that King is ranked 5 and the next card must be a 6).\n- If you can't play any more cards, you must **discard a card** to one of your discard piles to end your turn.\n- If a center pile reaches Queen, it will be cleared automatically.\n- The rank order is: A=1, 2=2, ..., 9=9, J=10, Q=11, K as wild.\n\n### Actions:\n1. **Draw**: At the start of your turn, draw cards to fill your hand up to 5 cards. Enter **[draw]** to begin.\n2. **Play a Card**: To play a card, specify the card and the center pile like this: **[play A♠ 0]** (where 'A♠' is the card and '0' is the center pile index).\n3. **Discard**: If you can't play any more cards, discard a card from your hand to a discard pile to end your turn. Enter **[discard A♠ 1]** (where 'A♠' is the card and '1' is the discard pile index). Note that you cannot discard any card from the payoff pile. You may only discard the cards from your hand.\n\n"
+    "intro": "Nge ule Mwana-kalunga {player_id} mu joga-ya-bantu badi ya Spite na Malice. Dikwa ndako yawe kufuta pila ya malu ya ku ngoloka.\n\n### Jogo Ku Soneka:\n- Dikwa ndako ni kufuta pila ya malu ya ku ngoloka kwa ku tumba kadi ku pila za kati.\n- Nge ule mukue kadi ku matadi atatu:\n  1. **Moko** (nge ukala mwana kwa kadi 5 ku moko).\n  2. **Kadi ya neno ya pila ya malu ya ku ngoloka**.\n  3. **Kadi ya neno ya pila yoyi ya ku tumbuluka**.\n\n### Mwila ya Ku Tumba:\n- Nge ule mukue kadi ku pila ya kati nge ikele **kadi moxi ya ku lunduluka** kuliko kadi ya neno ya pila iya (pila za kati zinanza na Ase na zikwenda ku Regina; Mwana-kongo ikele kadi ya ku lunduluka - ikele mukue kadi yoyi kadi kansi ikele ku lunduluka mwila ya kadi. Ikiwa Mwana-kongo ikele mukue ku 4, kadi iya ikele 5 na kadi ina ku lunduluka ikele 6).\n- Ikiwa nge ule kueza ku tumba kadi yoyi, nge ule **ku tumbuluka kadi** ku pila yoyi ya ku tumbuluka ku mwaka.\n- Ikiwa pila ya kati ikala Regina, ikele ku futa mwine.\n- Mwila ya ku lunduluka ikele: A=1, 2=2, ..., 9=9, J=10, Q=11, K ikele kadi ya ku lunduluka.\n\n### Mwila:\n1. **Tumba**: Ku mwaka, tumba kadi ku zinga moko ku 5 kadi. Shuka **[draw]** ku mwaka.\n2. **Tumba Kadi**: Ku tumba kadi, sola kadi na pila ya kati nge: **[play A♠ 0]** (kadi 'A♠' ikele kadi na '0' ikele pila ya kati).\n3. **Tumbuluka**: Ikiwa nge ule kueza ku tumba kadi yoyi, tumbuluka kadi ku moko ku pila ya ku tumbuluka ku mwaka. Shuka **[discard A♠ 1]** (kadi 'A♠' ikele kadi na '1' ikele pila ya ku tumbuluka). Kumbuka nge ule kueza ku tumbuluka kadi yoyi ku pila ya malu ya ku ngoloka. Nge ule mukue ku tumbuluka kadi ku moko kansi.\n\n"
   },
   "board": {
-    "current_board": "Current Board:\n\n{board}\nAvailable Moves: {moves}"
+    "current_board": "Bodi ya Sasa:\n\n{board}\nVitendo Vinavyopatikana: {moves}"
   },
   "render": {
-    "center_piles_header": "--- Center Piles ---\n",
+    "center_piles_header": "--- Pilha za Katikati ---\n",
     "pile": "{observation}Pile {i}: {pile}\n",
-    "player_view_header": "{observation}\n--- Player {player_id}'s View ---\n",
-    "payoff": "{observation}Payoff Pile (Top Card): {top_card}, Payoff Pile Length: {payoff_length}\n",
+    "player_view_header": "{observation}\n--- Mtazamo wa Mchezaji {player_id} ---\n",
+    "payoff": "{observation}Pilha ya Dyenu (Kadi ya Juu): {top_card}, Urefu wa Pilha ya Dyenu: {payoff_length}\n",
     "hand": "{observation}Maku: {hand} ",
-    "discard": "{observation}Discard Piles: {discard}\n",
+    "discard": "{observation}Pilha za Kadi Zinazotupwa: {discard}\n",
     "empty": "Empty"
   },
   "game_message": {
-    "no_cards_left": "There are no more cards to draw from. Remember that you can play cards from these sources:\n  1. Your **hand**.\n  2. The **top card of your payoff pile**.\n  3. The **top card of any of your discard piles**.\n\n"
+    "no_cards_left": "Hakuna kadi zaidi za kuchora. Kumbuka kwamba nge ujoga kadi kutoka kwa majogo haya:\n  1. **Mwela wenu**.\n  2. **Kadi ya juu ya pilha ya dyenu**.\n  3. **Kadi ya juu ya pilha yoyi ya kadi zenu zinazotupwa**.\n\n"
   },
   "invalid_move": {
-    "wrong_format": "Invalid move format. Player {player_id} did not respond with a valid move in square brackets.",
-    "invalid_play": "Invalid play. Player {player_id} tried to play {card} on center pile {index}.",
+    "wrong_format": "Muundo usio sahihi wa kitendo. Mchezaji {player_id} hakujibu na kitendo sahihi katika mabano ya mraba.",
+    "invalid_play": "Kujoga kisicho sahihi. Mchezaji {player_id} alijaribu kujoga {card} kwenye pilha ya katikati {index}.",
     "discard_from_payoff": "O muthu u jokala, a mu ixana {player_id} ua mesenene ku takula o ditadi dia kexile bhu kididi kia mukuá.",
     "discard_not_in_hand": "O muthu u jokala, {player_id} ua mesenene ku takula o ditadi dia kambele-ku.",
     "wrong_move_type": "O kijimbuete kia tokala, o muadikimi {player_id} ka tambuijila kiambote."
   },
   "game_action": {
     "you_drew": "Eie ua kexile mu jokala.",
-    "opponent_drew": "Player {player_id} drew cards.",
-    "you_played": "Umecheza {card} kwenye tundu la katikati {index}.",
-    "opponent_played": "Mchezaji {player_id} alicheza {card} kwenye tundu la katikati {index}.",
-    "you_discarded": "Umetupa {card} kwenye tundu la kutupwa {index}, ambalo pia maana yake ni kwamba umeimaliza mchezo wako. Hatua zingine za yako hazizingatiwi kwa mchezo huu. Mchezaji {next_player_id} atacheza mchezo ujao.",
-    "opponent_discarded": "Mchezaji {player_id} alitupa {card} kwenye tundu la kutupwa {index}, ambalo pia maana yake ni kwamba wamemaliza mchezo wao. Hatua zingine za Mchezaji {player_id} hazizingatiwi kwa mchezo huu. Mchezaji {next_player_id}, utacheza mchezo ujao. Tafadhali ingiza hatua yako kwa muundo [action card center_index]."
+    "opponent_drew": "Mchezaji {player_id} alichora kadi.",
+    "you_played": "Nge ujoga {card} kwenye pilha ya katikati {index}.",
+    "opponent_played": "Mchezaji {player_id} alichora {card} kwenye pilha ya katikati {index}.",
+    "you_discarded": "Nge utupa {card} ku pilha ya kadi zenu zinazotupwa {index}, ambayo pia inamaanisha nge umemaliza kilundu chenu. Hakuna vitendo vingine vya kwenu vinavyozingatiwa kwa kilundu hiki. Mchezaji {next_player_id} atajogea kisha.",
+    "opponent_discarded": "Mukishi {player_id} atikisa {card} ku mushitu wa makishi {index}, ina maana kele yamaliza n'genda yao. Kuna mwingiliano wowoze wa Mukishi {player_id} ukalanga mu n'genda yayi. Mukishi {next_player_id}, nge uya kwingila. Nge enda mwingiliano wenu mu fomu [action card center_index]."
   },
   "outcome": {
-    "payoff_cleared": "Mchezaji {current_player} amemaliza tundu lake la malipo! Mchezaji {current_player} anashinda!",
-    "deadlock_player_0": "Deadlock reached! Player 0 wins with {player_0_payoff} cards remaining vs Player 1's {player_1_payoff} cards.",
-    "deadlock_player_1": "Deadlock reached! Player 1 wins with {player_1_payoff} cards remaining vs Player 0's {player_0_payoff} cards.",
-    "deadlock_tie": "Deadlock reached with tie! Both players have {player_0_payoff} cards remaining. Player {current_player} wins by default."
+    "payoff_cleared": "Mchezaji {current_player} amemaliza pilha ya dyenu! Mchezaji {current_player} anashinda!",
+    "deadlock_player_0": "Kufikia kizuizi! Mchezaji 0 anashinda na {player_0_payoff} kadi zilizobaki dhidi ya {player_1_payoff} kadi za Mchezaji 1.",
+    "deadlock_player_1": "Kufikia kizuizi! Mchezaji 1 anashinda na {player_1_payoff} kadi zilizobaki dhidi ya {player_0_payoff} kadi za Mchezaji 0.",
+    "deadlock_tie": "Kufikia kizuizi na usawa! Wachezaji wote wawili wana {player_0_payoff} kadi zilizobaki. Mchezaji {current_player} anashinda kwa chaguo-msingi."
   }
 }

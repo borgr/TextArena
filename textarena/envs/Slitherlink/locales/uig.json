@@ -1,12 +1,12 @@
 {
   "player_prompt": {
-    "intro": "You are playing Slitherlink on a {R}x{C} grid!\nDraw a single continuous loop so each numbered cell has that many bordering edges.\nToggle edges with:\n  [h r c] - toggle horizontal edge above dots at row r, column c\n  [v r c] - toggle vertical edge left of dots at row r, column c\nNumbers show required edge count, '.' means no constraint.\nYou have up to {max_turns} moves to solve the puzzle."
+    "intro": "سىز {R}x{C} تورىدا Slitherlink ئوينىماقتا!\nھەر بىر سانلىق ھۈجەيرىگە شۇنچە چېگرا يۈزى بولغاندەك بىر دۈگىلەك سىزىڭ.\nچېگرا يۈزلىرىنى ئۆزگەرتىش:\n  [h r c] - رەت r، سۇتۇن c دىكى چېكىتلەر ئۈستىدىكى گورىزونتال چېگرا يۈزىنى ئۆزگەرتىش\n  [v r c] - رەت r، سۇتۇن c دىكى چېكىتلەرنىڭ سول تەرىپىدىكى تىك چېگرا يۈزىنى ئۆزگەرتىش\nسانلار چېگرا يۈزىنىڭ تەلەپ قىلىنغان سانىنى كۆرسىتىدۇ، '.' دېگەنلىك ھېچقانداق چەكلىمە يوق دېگەنلىك.\nسىز بۇ جۇغىنى ھەل قىلىش ئۈچۈن {max_turns} قەدەر يۈرۈش قىلالىسىز."
   },
   "board": {
     "current_board": "{board}\nIpaslar ئىشقا ئاشۇرۇلدى: {progress}"
   },
   "invalid_move": {
-    "wrong_format": "Bad action format. Use [h row col] or [v row col].",
+    "wrong_format": "ھەرىكەت فورماتى ناتوغرى. [h row col] ياكى [v row col] شەكلىدە ئىشلىتىڭ.",
     "out_of_bounds": "سىرتتىكى تاختا."
   },
   "outcome": {

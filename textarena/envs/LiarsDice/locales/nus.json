@@ -22,7 +22,7 @@
     "final_ranking": "list of player indices from first eliminated to winner"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in an {num_players}-player Liar's Dice game.\nRules:\n- On your turn, you may either:\n  1) Make a new bid with a higher quantity or higher face (or both) than the current bid; i.e. '[Bid: 3, 4]',\n  2) Call the last bid by typing '[Call]'.\n\nIf you call:\n  - If the actual count of that face value among all dice is less than the bid, the last bidder loses one die.\n  - Otherwise, the caller loses one die.\nA player who reaches 0 dice is eliminated. The last remaining player wins."
+    "intro": "Yin ee Player {player_id} ee game Liar's Dice ee kɔ̈ɔ̈k ë {num_players}.\nKäŋɛ̈ɛ̈r:\n- Ɛe yɔ̈ɔ̈ kɔ̈ɔ̈k, ka yïnï ee:\n  1) Bid tɛ̈ɛ̈m ee kuɔ̈ɔ̈r ku dït ë kuɔ̈ɔ̈r kuɔ̈ɔ̈r (ku dït ë kɔ̈ɔ̈r) ku bid ee kɔ̈ɔ̈r; ee '[Bid: 3, 4]',\n  2) Yɔ̈ɔ̈ '[Call]' ee kuɔ̈ɔ̈r ku bid kɔ̈ɔ̈r.\n\nƐe yïnï yɔ̈ɔ̈ '[Call]':\n  - Ɛe kuɔ̈ɔ̈r ku dït ee dice aɣɔ̈ɔ̈ ee kuɔ̈ɔ̈r ku bid, ku bidder ee kɔ̈ɔ̈r ee dït ee mɛ̈ɛ̈t.\n  - Kuɔ̈ɔ̈r, ku yɔ̈ɔ̈ ee kɔ̈ɔ̈r ee dït ee mɛ̈ɛ̈t.\nKɔ̈ɔ̈ ee kuɔ̈ɔ̈r ee dice ee 0 ee kɔ̈ɔ̈ ee kɔ̈ɔ̈ ee kɔ̈ɔ̈ ee game."
   },
   "board": {
     "per_player": "\tRiäth {p}: {d}",

@@ -16,7 +16,7 @@
   },
   "game_action": {
     "skipped": "Bhí ar imreoir {pid} a thuras a sheachaint.",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "D'imir Imreoir {pid} ({piece}) [{r}, {c}] ag casadh {flipped} píosa(í)"
   },
   "game_message": {
     "must_skip": "Níl aon ghluaisne bailí ag Imreoir {pid} ({piece}) agus caithfidh siad sclíobh."

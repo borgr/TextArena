@@ -13,7 +13,7 @@
     "repeated_guess": "നിങ്ങൾ ഇതിനകം ഊഹിച്ചു {guess}. ദയവായി മറ്റൊരു ഊഹം പരീക്ഷിക്കുക."
   },
   "game_action": {
-    "feedback": "Submitted [{guess}]. Feedback: {black_pegs} black peg(s), {white_pegs} white peg(s)."
+    "feedback": "[{guess}] സമർപ്പിച്ചു. ഫീഡ്ബാക്ക്: {black_pegs} കറുത്ത പെഗുകൾ, {white_pegs} വെളുത്ത പെഗുകൾ."
   },
   "outcome": {
     "win": "നിങ്ങൾ {black_pegs} പെഗ്ഗുകളിൽ {code_length} കൃത്യമായി കോഡ് പിടിച്ചെടുത്തു",

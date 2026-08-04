@@ -1,9 +1,9 @@
 {
   "player_prompt": {
-    "intro": "You are in a room with {num_buttons} buttons: {buttons}. Each button is associated with a Bernoulli distribution with a fixed but unknown mean; the means for the buttons could be different.\nFor each button, when you press it, you will get a reward that is sampled from associated distribution.\nYou have {num_turns} time steps and, on each time step, you can choose any button and receive the reward.\nYour goal is to strategically choose buttons at each time step to collect information about their reward distribution, that will let you choose the button with the highest mean reward correctly at the end of {num_turns} turns."
+    "intro": "Yaa kugri yɩɩsɛgɛ {num_buttons} bouton: {buttons}. Bouton kɩ kɩlɛ yɩɩsɛgɛ waɣɛɛlɛ Bernoulli yɩɩsɛgɛ waɣɛɛlɛ kɩlɛ yɩɩsɛgɛ mɛnɛ; mɛnɛ bouton kɩlɛ yɩɩsɛgɛ wɛɛlɛ pɛɛlɛ.\nBouton kɩ kɩlɛ yɩɩsɛgɛ, yɩɩsɛgɛ yɩɩsɛgɛ waɣɛɛlɛ kɩlɛ yɩɩsɛgɛ, yɩɩsɛgɛ yɩɩsɛgɛ waɣɛɛlɛ.\nYaa kugri {num_turns} sɛgɛ, yɩɩsɛgɛ sɛgɛ kɩlɛ yɩɩsɛgɛ bouton kɩlɛ yɩɩsɛgɛ waɣɛɛlɛ.\nYaa kugri pɛɛlɛ yɩɩsɛgɛ bouton kɩlɛ yɩɩsɛgɛ waɣɛɛlɛ mɛnɛ pɛɛlɛ yɩɩsɛgɛ {num_turns} sɛgɛ."
   },
   "board": {
-    "stat_line": "{button}: {reward} (played {count} times)",
+    "stat_line": "{button}: {reward} (yɩɩsɛgɛ {count} sɛgɛ)",
     "summary": "Kibarã sẽn bilgd bũmb ningã: {stats}"
   },
   "invalid_move": {

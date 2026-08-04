@@ -39,7 +39,7 @@
   "turn": {
     "score_entry": "កីឡាករ {player_id}: {points} pts",
     "trump_info": "សម្លៀកបំពាក់ Trump: {trump_suit}",
-    "trump_info_deck": "Trump suit: {trump_suit} | Cards left in deck: {deck_count}",
+    "trump_info_deck": "សូត: {trump_suit} | ចំនួនកាតដែលនៅសល់នៅក្នុងដំបូល: {deck_count}",
     "board": "{hand} {trick} លទ្ធផល: {scores} {trump_info} លេងកាតដោយប្រើ [play X]"
   },
   "invalid_move": {

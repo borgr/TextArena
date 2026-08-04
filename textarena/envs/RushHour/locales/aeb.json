@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing a {difficulty} RushHour puzzle. Slide cars to free the red car [X] and drive it out the right edge.\nActions: [A+], [B-], etc.  (+ = forward, - = backward)."
+    "intro": "إنت تلعب فازة {difficulty} راش أور. زلق السيارات عشان تخلي السيارة الحمرا [X] وتخرجو من الجانب اليمين.\nأفعال: [A+], [B-]، الخ. (+ = إلى الأمام، - = إلى الخلف)."
   },
   "invalid_move": {
     "wrong_format": "حركة غير صالحة. استخدم التنسيق [A+] / [B-].",

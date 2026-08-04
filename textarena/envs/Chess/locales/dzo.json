@@ -4,14 +4,14 @@
   },
   "board": {
     "current_board": "ད་ལྟོའི་ཡིག་ཚང་: {board}",
-    "valid_moves": "{observation}\nValid moves: {moves}"
+    "valid_moves": "{observation}\nའགྲུབ་པའི་གོམ་སྤོ། {moves}"
   },
   "invalid_move": {
-    "wrong_format": "Wrong move format.",
+    "wrong_format": "གོམ་སྤོའི་རྣམ་པ་ནོར་འདུག",
     "illegal": "ཁྲིམས་འགལ་གྱི་ལཱ་ཚུ་འབད་ཡོདཔ་ཨིན།"
   },
   "game_action": {
-    "moved": "Player {player_id} made the following move: {move_uci}"
+    "moved": "རྩེད་མཁན་ {player_id} གྱིས་གོམ་སྤོ་འདི་བྱས་འདུག་ {move_uci}"
   },
   "outcome": {
     "draw": "རྩེད་འགྲན་འདི་ མཐའ་བཅད་སྦེ་མཇུག་བསྡུ་ནུག",

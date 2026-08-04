@@ -1,11 +1,11 @@
 {
   "player_prompt": {
-    "intro": "I ye jokelani {player_id} o Negotiation Jɛkulu la.\nI be na sɛbɛndɛn, i ka fɔ ko sɛbɛndɛn in kɛlɛbɛcogo bɛɛ o sɛbɛndɛn in bɛɛ kɔnɔnna.\nSɛbɛndɛn i be na, o sɛbɛndɛn in kɛlɛbɛcogo bɛɛ, o ye:\n\t+ {resource_value_list}\nKɛlɛbɛcogo kɛrɛɛn, i ka kɛ jokelani i ye, i ka kɔlɔsi.\nI ka di yan: \n  - '[Offer: 3 Sheep, 2 Ore -> 5 Brick, 2 Sheep]': [Offer: Donkili ye -> Donkili in bɛ se]\n  - '[Accept]': I ka daɲɛ kɔlɔsi in ye.\n  - '[Deny]': I ka kɔlɔsi in kɛrɛɛn (kɛrɛnkɛrɛn).\nJɛkulu in bɛɛ kɛrɛnkɛrɛn {max_turns} kɛlɛbɛcogo la."
+    "intro": "I ni Player {player_id} ye Negotiation Game la.\nI bɛna bɛɛ resources caman, a ni wale ka diɲɛ kɛlen kɔnɔ, i bɛna resources ɲinin kɛlen kɔnɔ.\nResources ani kɛlenw bɛɛ i bɛna sisan:\n\t+ {resource_value_list}\nKɔnɔ kɔnɔ, i bɛna i ka opponent kan ka wale ka trade offer kɛ.\nI bɛna special tokens wɛrɛw kan actions la:\n  - '[Offer: 3 Sheep, 2 Ore -> 5 Brick, 2 Sheep]': [Offer: Offered Resources -> Requested Resources]\n  - '[Accept]': I bɛna incoming offer kɛ.\n  - '[Deny]': I bɛna incoming offer kɛ (default).\nJɛɲɛ bɛɛ {max_turns} kɔnɔ kɔnɔ."
   },
   "invalid_move": {
     "receiving_with_no_resource": "Jalasabatigi y'a ɲini ka jago kɛ k'a sɔrɔ a ma se.",
-    "out_of_range": "Player {player_id}, Invalid action. Column {col} is out of bounds.",
-    "already_full": "Player {player_id}, Invalid action. Column {col} is full.",
+    "out_of_range": "Player {player_id}, Action kɛɛrɛɛ. Column {col} bɛɛ bɛɛ kɔnɔ.",
+    "already_full": "Jwéla {player_id}, kèlê ye kònô. Kolòni {col} donna.",
     "proposing_with_no_resource": "Jagola {player_id} y'a ɲini ka jago kɛ n'o tɛ ni wari bɛrɛ ye.",
     "incorrect_offer_format": "Jagokɛla {player_id} ye jago kɛli waleya jira cogo fili la.",
     "no_new_offer": "Jagokɛla {player_id} ma jago kura kɛ."

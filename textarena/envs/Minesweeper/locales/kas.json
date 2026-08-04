@@ -1,22 +1,22 @@
 {
   "player_prompt": {
-    "intro": "You are playing the Minesweeper game.\nThe objective of the game is to reveal all cells that do not contain mines.\nTo make a move, simply specify the row and column coordinates you want to reveal using the format:\n- `[row col]`: Reveal the cell at the specified row and column.\nFor example:\n- `[3 2]` to reveal the cell in Row 3, Column 2.\n- `[5 6]` to reveal the cell in Row 5, Column 6.\nOn your first move, you will reveal an area around the cell you choose to ensure a safe start.\nThe current board layout is shown below. Cells that are unrevealed are represented by a dot ('.'), revealed numbers show the count of adjacent mines.\nBe mindful not to choose already revealed cells.\nHere is the current board layout:\n"
+    "intro": "تہوہ Minesweeper کھیل کھیلت چھو۔\nکھیل ہند وہم ہے کہ سارے سیلز کھولھے جاو جو مائن نہیں رکھت۔\nایک چال کرنے کے لیے، بس اُس صف اور کالم کوڈینیٹس کا ذکر کرو جو تہوہ کھولھنا چاہتے ہو، اِس فارمیٹ میں:\n- `[row col]`: اُس صف اور کالم میں موجود سیل کھولھو۔\nمثال کے طور پر:\n- `[3 2]` تیسری صف اور دوسرے کالم میں موجود سیل کھولھنے کے لیے۔\n- `[5 6]` پانچویں صف اور چھٹے کالم میں موجود سیل کھولھنے کے لیے۔\nآپنی پہلی چال پر، تہوہ جس سیل کو کھولھتے ہو اُس کے ارد گرد کا علاقہ بھی کھولھا جائے گا تاکہ ایک محفوظ آغاز ہو۔\nموجودہ بورڈ کا ڈیزائن نیچے دکھایا گیا ہے۔ جو سیلز ابھی تک نہیں کھولھے گئے ہیں اُنہیں ایک نقطے ('.') سے ظاہر کیا گیا ہے، اور کھولھے گئے نمبروں سے اُس کے ارد گرد موجود مائنوں کی تعداد ظاہر ہوتی ہے۔\nیہ خیال رکھو کہ پہلے سے کھولھے گئے سیلز کا انتخاب نہ کرو۔\nیہ موجودہ بورڈ کا ڈیزائن ہے:\n"
   },
   "board": {
-    "game_board": "गेम बोर्डः {board}",
-    "current_board": "करंट बोर्ड: {board}"
+    "game_board": "گیم بورڈ:\n\n{board}",
+    "current_board": "موجودہ بورڈ:\n\n{board}"
   },
   "invalid_move": {
     "wrong_format": "तुहुं करोख जवाब वैलिड कोआर्डिनेट्स सेथ स्क्वायर ब्रैकेट मंज़.",
-    "out_of_bounds": "युस स्पेसिफाइड रौ ते कॉलम कोआर्डिनेट छू आउट ऑफ़ बाउंड.",
-    "already_revealed": "The cell at ({row}, {col}) has already been revealed.",
-    "hit_mine": "You hit a mine at ({row}, {col})."
+    "out_of_bounds": "مشخص کردہ قطار اور کالم کوآرڈینیٹس حد سے باہر ہیں۔",
+    "already_revealed": "سیل ({row}, {col}) پر پہلے ہی کھولا گیا ہے۔",
+    "hit_mine": "تہوہ نے ({row}, {col}) پر ایک مائن کو نشانہ بنایا۔"
   },
   "game_action": {
-    "revealed": "तमे ({row}, {col}) सेल खोल्यो।"
+    "revealed": "تہوہ نے سیل ({row}, {col}) کو کھولا۔"
   },
   "outcome": {
-    "win": "बधाई. तुं'हे छे माइन स्वीपर बोर्ड सफलतापूर्वक साफ करले!",
-    "turn_limit": "The turn limit has been reached. You successfully uncovered {percent}% of the safe cells."
+    "win": "مبارک ہو! تہوہ نے کامیابی سے مائن سویپر بورڈ صاف کر دیا ہے۔",
+    "turn_limit": "چال کی حد تک پہنچ گئی ہے۔ تہوہ نے کامیابی سے {percent}% محفوظ سیلز کا انکشاف کیا۔"
   }
 }

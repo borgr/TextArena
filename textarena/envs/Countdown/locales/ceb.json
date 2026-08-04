@@ -9,7 +9,7 @@
     "progress": "{observation}\nKaron nga mga puntos sa pag-antos: {progress}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use `[i j op]` where i,j are indices and op is +,-,*,/",
+    "wrong_format": "Dili tinuod ang format sa aksyon. Gamita ang `[i j op]` diin i,j mao ang mga indeks ug op mao ang +,-,*,/",
     "invalid_indices": "Dili balido nga mga indices. Kinahanglan magkalainlain ug sa saklaw 0-{max_index}",
     "invalid_operation": "Dili balido nga operasyon (pagbahin pinaagi sa zero o dili-integer resulta)"
   },

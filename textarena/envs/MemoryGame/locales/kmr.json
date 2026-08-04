@@ -13,13 +13,13 @@
     "already_matched": "Move Nepejirandî. Lîstikvan {player_id} yek an herdu kartên ku berê hatine hevgirtin hilbijartine."
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "Kartên ku ji aliyê Lêzer {player_id} ve li cihekî [{r1} {c1}] û [{r2} {c2}] hatine hilbijartin, wekhev in!",
+    "cards_no_match": "Kartên ku ji aliyê Lêzer {player_id} ve hatine hilbijartin, ne wekhev in. Kartên li cihekî [{r1} {c1}] û [{r2} {c2}] {pos1} û {pos2} in."
   },
   "outcome": {
     "draw": "Her du lîstikvanan heman hejmara kartên cardin hevpar kirin.",
     "win": "Lîstikvan {winner_id} qezenc kir!",
-    "turn_limit": "The turn limit has been reached. The game is over. Player 0 scored {score_0} points, Player 1 scored {score_1} points.",
+    "turn_limit": "Sînora gavan hatiye gihandin. Lêzê qediya. Lêzer 0 {score_0} pûan, Lêzer 1 {score_1} pûan qezencî.",
     "turn_limit_win": "{reason} Player {winner_id} yariyê bi dest xist!"
   }
 }

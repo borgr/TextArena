@@ -9,11 +9,11 @@
   },
   "game_action": {
     "you_sunk": "डुबो दिया! आपने {coord} पर एक जहाज को डुबो दिया है! आपका अद्यतन बोर्ड:\n{view}",
-    "opp_sunk": "Opponent sunk your ship at {coord}! Your updated board:\n{view}",
+    "opp_sunk": "विरोधी ने आपका जहाज {coord} पर डुबा दिया! आपका अद्यतन बोर्ड:\n{view}",
     "you_hit": "हिट! आपने {coord} पर एक जहाज को मारा है! आपका अद्यतन बोर्ड:\n{view}",
     "opp_hit": "विरोधी आपके जहाज को {coord} पर मारा है! आपका अद्यतन बोर्ड:\n{view}",
     "you_miss": "मिस! आपने {coord} पर जहाज को चूक गये हैं! आपका अद्यतन बोर्ड:\n{view}",
-    "opp_miss": "Opponent missed your ship at {coord}! Your updated board:\n{view}"
+    "opp_miss": "विरोधी ने आपका जहाज {coord} पर मिस कर दिया! आपका अद्यतन बोर्ड:\n{view}"
   },
   "outcome": {
     "win": "खिलाड़ी {player_id} आपन विरोधी के सब जहाज डूबवले बा!"

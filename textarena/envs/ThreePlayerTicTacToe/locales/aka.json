@@ -11,10 +11,10 @@
     "{moves}": "The comma-separated list of available move tokens like '[4]' (do not translate)"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player Tic Tac Toe.\nYour symbol is '{symbol}'.\nYou take turns placing your symbol on a 5x5 board to form a line of four.\nLines can be horizontal, vertical, or diagonal.\nSubmit your move using the format '[4]' to mark cell 4."
+    "intro": "Woyɛ Odwumayɛni {player_id} wɔ Three-Player Tic Tac Toe.\nWo akyerɛ ne '{symbol}'.\nWɔbɛkyerɛ wɔn akyerɛ wɔ 5x5 board so sɛnea wɔbɛnya gyinabea a ɛyɛ anan.\nGyinabea no betumi ayɛ ɔfa, ɔfa a ɛyɛ nkyɛn, anaa ɔfa a ɛyɛ mɛnsa.\nFa w'akyi no wɔ '[4]' mu sɛnea wɔbɛkyerɛ kɔɔto 4."
   },
   "board": {
-    "current_board": "Current Board:\n\n{board}\n\nAvailable Moves: {moves}"
+    "current_board": "Board a ɛte sɛn:\n\n{board}\n\nNkrɔfoɔ a wɔbetumi ayɛ: {moves}"
   },
   "invalid_move": {
     "wrong_format": "Nkyerεkyerεmu a enni mu. Fa '[cell]' di dwuma bere a ɔfese no yɛ 0-{max_cell}.",

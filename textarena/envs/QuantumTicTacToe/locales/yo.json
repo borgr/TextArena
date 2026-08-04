@@ -19,7 +19,7 @@
     "superposition_resolved": "Àkópòsí ti yanjú. Àwòrán ({r}, {c}) jẹ {symbol} báyìí."
   },
   "outcome": {
-    "win": "Player {player_id} wins with solidified marks!",
+    "win": "Oṣere {player_id} gbá pẹ̀lú àwọn àmì àtijọ́!",
     "draw": "Ìjà náà kò parí!"
   }
 }

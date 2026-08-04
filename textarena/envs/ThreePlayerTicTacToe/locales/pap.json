@@ -17,7 +17,7 @@
     "current_board": "Tablero Aktual:\n\n{board}\n\nMovimentonan Disponibel: {moves}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid move format. Use '[cell]' where cell is 0-{max_cell}.",
+    "wrong_format": "Formato di move inválido. Usa '[cell]' kaminda cell ta 0-{max_cell}.",
     "out_of_range": "Number di cel no ta valido: {cell}. E number mester ta entre 0 i {max_cell}.",
     "already_occupied": "E cel {cell} ya ta okupá.",
     "made_invalid": "E hungadó {player_id} a hasi un move inválido."

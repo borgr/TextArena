@@ -3,7 +3,7 @@
     "intro": "Ị bụ onye ọkpụkpọ {player_id} na Njikọ Anọ. Ihe ngosi diski gị: {symbol}. Ogwe egwuregwu nwere {num_rows} ahịrị na {num_cols} ogidi. Ndị egwuregwu na-agbanwe agbanwe na-atụba diski ha n'ime otu n'ime ogidi (0 ruo {end_col}). Onye mbụ jikọtara diski anọ (nke ha) n'ụzọ kwụ ọtọ, n'ụzọ kwụ ọtọ, ma ọ bụ diagonal na-emeri. Na oge gị, tinye nọmba kọlụm na brackets square iji mee ka ị kwalite. Dịka ọmụmaatụ: '[col 4]' ma ọ bụ '[col 1]'."
   },
   "board": {
-    "board_visible_state": "Board steeti: {board_visual}",
+    "board_visible_state": "Ọkwa bọọdụ:\n{board_visual}",
     "board_notvisible_state": "A naghị ahụ bọọdụ egwuregwu ahụ anya."
   },
   "invalid_move": {
@@ -16,6 +16,6 @@
   },
   "outcome": {
     "win": "Onye na-egwu {player_id} na-emeri site na ijikọta anọ!",
-    "draw": "Egwuregwu ahụ biri na draw."
+    "draw": "Egwuregwu ahụ gwụrụ na ịgba."
   }
 }

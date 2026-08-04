@@ -17,6 +17,6 @@
   },
   "outcome": {
     "win": "Congratulazioni, haiu passatu cu successu la scheda di Minesweeper.",
-    "turn_limit": "U limitu di girata hè statu righjuntu. Avete riesciutu à scopre {percent}% di e cellule sicure."
+    "turn_limit": "Lu limiti di turni è statu raggiuntu. Hai riuscitu a scupriri {percent}% di li cèlluli sicuri."
   }
 }

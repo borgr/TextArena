@@ -13,13 +13,13 @@
     "already_matched": "Ýaramaz hereket.Oýunçy {player_id} eýýäm üpjün edilen kartalaryň birini ýa-da ikisini saýlady."
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "Oýunçy {player_id} tarapyndan saýlanan kartlar [{r1} {c1}] we [{r2} {c2}] ýerlerinde gabat gelýär!",
+    "cards_no_match": "Oýunçy {player_id} tarapyndan saýlanan kartlar gabat gelmeýär. [{r1} {c1}] we [{r2} {c2}] ýerlerinde kartlar {pos1} we {pos2} ýaly ýerleşýär."
   },
   "outcome": {
     "draw": "Iki oýunçy hem kartlaryň birmeňzeş sanyny deňeýärler.",
     "win": "Oýunçy {winner_id} ýeňdi!",
-    "turn_limit": "Döwür çägi ýetdi. Oýun tamamlandy. Player 0 {score_0} baldan, Player 1 {score_1} baldan gazandy.",
+    "turn_limit": "Gezek ýetişdi. Oýun gutardy. Oýunçy 0 {score_0} ýeňiş gazandy, Oýunçy 1 {score_1} ýeňiş gazandy.",
     "turn_limit_win": "{reason} Player {winner_id} ýeňdi!"
   }
 }

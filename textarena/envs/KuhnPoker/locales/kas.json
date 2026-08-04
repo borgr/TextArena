@@ -1,27 +1,27 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a {max_rounds} round game of Kuhn Poker.\nGame Rules:\n- Kuhn Poker uses a 3-card deck with J, Q, K (J lowest, K highest)\n- Each player antes {ante} chip and receives 1 card each round (note that the cards are dealt without replacement, so you cannot have the same card as your opponent).\n- Game continues for {max_rounds} rounds\n- The player with the most chips after all rounds wins\nAction Rules:\n- '[check]': Pass without betting (only if no bet is on the table)\n- '[bet]': Add 1 chip to the pot (only if no bet is on the table)\n- '[call]': Match an opponent's bet by adding 1 chip to the pot\n- '[fold]': Surrender your hand and let your opponent win the pot"
+    "intro": "تہوہ پلیئر {player_id} چھوہ کہن پوکر کھیلچ ہن {max_rounds} راؤنڈس مَنٛز۔\nکھیلچ اصول:\n- کہن پوکر چھوہ 3 کارڈ ڈیک استعمال کران J, Q, K (J سب سے کم, K سب سے زیادہ)\n- ہر پلیئر چھوہ {ante} چِپ اینٹی کران تہہ ہر راؤنڈس مَنٛز 1 کارڈ وصول کران (یاد رکھو کہ کارڈس ہن بِلا ریپلیسمنٹ ڈیل کئے گئے، تہوہ تہوہدے مخالف کے ساتھ ایک ہی کارڈ نہیں ہوسکتا)\n- کھیلچ چھوہ {max_rounds} راؤنڈس تاک جاری رہنے\n- سارے راؤنڈس کے بعد سب سے زیادہ چِپس والا پلیئر جیت جاتا ہے\nایکشن اصول:\n- '[check]': بے شرط گزرنا (صرف اگر ٹیبل پر کوئی شرط نہیں ہے)\n- '[bet]': پاٹ میں 1 چِپ شامل کرنا (صرف اگر ٹیبل پر کوئی شرط نہیں ہے)\n- '[call]': مخالف کے شرط کو پورا کرنا 1 چِپ پاٹ میں شامل کرکے\n- '[fold]': اپنا ہاتھ چھوڑنا اور مخالف کو پاٹ جیتنے دینا"
   },
   "init_round": {
-    "round_start": "### राउंड {current_round} शुरू हो रहा है {max_rounds} राउंड्स में से. आपका कार्ड है: '{player_card}'",
+    "round_start": "### {current_round} راؤنڈس مَنٛز سے {max_rounds} راؤنڈس شروع ہو رہے ہیں۔ توہار کارڈ ہے: '{player_card}'",
     "available_actions": "तुह्य़ हेकिव यिथः {available_actions} कारकरदगी।"
   },
   "invalid_move": {
-    "wrong_format": "एक्शन [Check], [Bet], [Call], या [Fold] होना चाहिए.",
-    "not_legal": "एक्शन मट {legal_actions}।"
+    "wrong_format": "ایکشن [Check], [Bet], [Call], یا [Fold] ہونا چاہیے۔",
+    "not_legal": "ایکشن {legal_actions} ہونا چاہیے۔"
   },
   "action": {
-    "submit_move": "Player {player_id}, submitted move: '[{move}]'.",
+    "submit_move": "پلیئر {player_id}, ایکشن جمع کران: '[{move}]'.",
     "valid_actions": "तुह्य़ हेकिव यिथ कनि कारः। {legal_actions} ।",
-    "round_summary": "{reason} हाल के स्कोर: प्लेयर 0: '{player_0_chips}'; प्लेयर 1: '{player_1_chips}'"
+    "round_summary": "{reason} موجودہ سکور: پلیئر 0: '{player_0_chips}'; پلیئر 1: '{player_1_chips}'"
   },
   "showdown": {
-    "showdown_summary": "शोडाउन: प्लेयर {winner} का {winner_card} प्लेयर {loser} का {loser_card} को हराता है. प्लेयर {winner} {pot_value} चिप्स का पॉट जीतता है."
+    "showdown_summary": "شو ڈاؤن: پلیئر {winner} کا {winner_card} پلیئر {loser} کے {loser_card} کو ہرا دیتا ہے۔ پلیئر {winner} {pot_value} چِپس کا پاٹ جیتتا ہے۔"
   },
   "outcome": {
-    "draw": "{max_rounds} राउंड्स किस आखिरस पेठ, दुनवई प्लेयर आस बराबर नंबर चिप्स.",
-    "round_win": "प्लेयर {player_id} छूटे।",
-    "winner_player0": "प्लेयर 0 गेन बिथ मोरे चिप्स इन थे एंड ऑफ़ आल {max_rounds} राउंड्स.",
-    "winner_player1": "प्लेयर 1 गेन बिथ मोरे चिप्स इन एन्ड ऑफ़ आल {max_rounds} राउंड्स."
+    "draw": "{max_rounds} راؤنڈس کے بعد، دونوں پلیئرز کے پاس ایک ہی تعداد میں چِپس تھے۔",
+    "round_win": "پلیئر {player_id} نے ہاتھ چھوڑ دیا ہے۔",
+    "winner_player0": "پلیئر 0 نے تمام {max_rounds} راؤنڈس کے بعد زیادہ چِپس ہونے کی وجہ سے جیت لیا ہے۔",
+    "winner_player1": "پلیئر 1 نے تمام {max_rounds} راؤنڈس کے بعد زیادہ چِپس ہونے کی وجہ سے جیت لیا ہے۔"
   }
 }

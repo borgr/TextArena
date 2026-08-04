@@ -8,7 +8,7 @@
   },
   "invalid_move": {
     "wrong_format": "Ongülteg Bewegung Format. De Spiller {player_id} huet net mat enger gültiger \"Rei Kolonn Nummer\" geäntwert.",
-    "out_of_bounds": "Invalid move. Player {player_id} attempted to place {num} at ({row}, {col}), which is out of bounds.",
+    "out_of_bounds": "Ongëltegen Zuch. Spiller {player_id} huet probéiert, {num} op ({row}, {col}) ze plazéieren, wat baussent den Grenzen ass.",
     "overwrite": "Onwälleg Zuch. Spiller {player_id} huet versicht, eng vircodéiert Zell ({row}, {col}) iwwerschreiwwe ze hunn.",
     "violates_rules": "Onwälleg Zuch. Spiller {player_id} huet versicht {num} op ({row}, {col}) ze setze, wat d'Sudoku-Regelen verletzt."
   },

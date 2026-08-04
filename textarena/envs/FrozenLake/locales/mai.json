@@ -15,7 +15,7 @@
   },
   "outcome": {
     "win": "बधाई! अहाँ लक्ष्य तक पहुँच गेलहुँ !",
-    "fell_in_hole": "You fell into a hole! Game over. You completed {pct}% of the journey to the goal.",
-    "turn_limit": "You reached the turn limit! Game over. You completed {pct}% of the journey to the goal."
+    "fell_in_hole": "तपाईं एक होलमे गिरि गेल! गेम ओवर। तपाईं गोल तकक यात्राक {pct}% पूरा केलक।",
+    "turn_limit": "तपाईं टर्न सीमा तक पहुँचल! गेम ओवर। तपाईं गोल तकक यात्राक {pct}% पूरा केलक।"
   }
 }

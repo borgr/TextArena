@@ -5,7 +5,7 @@
   "invalid_move": {
     "receiving_with_no_resource": "Umukinyi yaragerageje kwemera guhinduranya atafise uburyo bukenewe.",
     "out_of_range": "Umukinnyi {player_id}, Ikintu cyabaye si gihe. Koloni {col} iko hanoze.",
-    "already_full": "Player {player_id}, Invalid action. Column {col} is full.",
+    "already_full": "Player {player_id}, Ngendo ishyari. Koloni {col} imeze.",
     "proposing_with_no_resource": "Umukinyi {player_id} yagerageje gutanga igiciro c'ukugurana atafise uburyo bukenewe.",
     "incorrect_offer_format": "Umukinyi {player_id} yatanze igicapo co guhinduranya mu buryo butari bwo.",
     "no_new_offer": "Umukinyi {player_id} nta kintu gishasha yigeze atanga."

@@ -48,7 +48,7 @@
   "message": {
     "deck_empty": "Kua kore te papa! Ka mutu tonu te kēmu.",
     "knocked": "Ka patua te kaitākaro {pid}! E kotahi anō ngā huringa a ia kaitākaro.",
-    "final_round": "Player {pid} {reason}! Each other player gets one more turn."
+    "final_round": "Kaitākaro {pid} {reason}! Ka whiwhi kaitākaro kē atu i te whiringa kotahi."
   },
   "reason": {
     "all_revealed": "kua whakakitea katoa ngā kāri"

@@ -7,10 +7,10 @@
     "{cell}": "A board cell number between 0 and 8"
   },
   "player_prompt": {
-    "intro": "Ti sei Giocatore {player_id} in Tic Tac Toe.\nIl tuo obiettivo è vincere tre in fila (orizzontalmente, verticalmente o diagonalmente) sulla tavola.\nAl tuo turno, dovresti selezionare il numero della casella (0-8) in cui vuoi mettere il tuo segno dopo.\nAd esempio, '[4]' posiziona il tuo segno nella cella centrale della tavola.\nCome Giocatore {player_id}, sarai '{symbol}', mentre il tuo avversario è '{opponent_symbol}'."
+    "intro": "Tù ses Giogadore {player_id} in Tic Tac Toe.\nSu tuo obiettivu est de bìnchere tres in fila (in orizontale, verticale o diagonale) in sa tàula.\nIn su tuo turnu, depes seberare su nùmeru de sa tzella (0-8) in ue bòles pònnere sa tua marca.\nPro esempru, '[4]' pònnet sa tua marca in sa tzella tzentrale de sa tàula.\nComente Giogadore {player_id}, tù saras '{symbol}', mentras su tuo avversàriu est '{opponent_symbol}'."
   },
   "board": {
-    "current_board": "Tavoliere corrente:\n\n{board}\n\nMozos disponibiles: {moves}"
+    "current_board": "Tàula Atuale:\n\n{board}\n\nMòvidas Disponìbiles: {moves}"
   },
   "invalid_move": {
     "wrong_format": "Sa mossa presentada no sighit su formadu curretu.",
@@ -18,7 +18,7 @@
     "already_occupied": "Sa tzella {cell} est giai ocupada."
   },
   "game_action": {
-    "placed": "Giocatore {player_id} ha posizionato il suo simbolo ({symbol}) nella cella {cell}."
+    "placed": "Giogadore {player_id} at pònnidu sa sua marca ({symbol}) in sa tzella {cell}."
   },
   "outcome": {
     "win": "Su giogadore {player_id} at bintu!",

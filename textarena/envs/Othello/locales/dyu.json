@@ -1,14 +1,14 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} playing {colour} ({piece}) in a game of Othello.\nYour goal is to have more pieces of your color on the board by the end of the game.\nOn your turn, place a piece such that it flanks one or more of your opponent's pieces-in any direction (horizontal, vertical, or diagonal)-between your new piece and another of your existing pieces. All flanked opponent pieces will be flipped to your color.\nProvide your move in the format '[row, col]'."
+    "intro": "I ye Player {player_id} ka kalan {colour} ({piece}) ye Othello ka wari la.\nI ma ɲini ye a ye ka kalan in na wari kɔnɔ, a ye ka wari bɛɛ lajɛlen kɔfɛ.\nI ka tɛmɛn, a ye ka kalan kɛ ka a jɛlen ka kalan in na wari kɔnɔ, a ye ka tɛmɛn kɛ ka a kalan in na wari kɔnɔ, a ye ka wari bɛɛ lajɛlen kɔfɛ, a ka tɛmɛn kɛ ka a jɛlen ka kalan in na wari kɔnɔ. A ka tɛmɛn kɛ ka a jɛlen ka kalan in na wari kɔnɔ, a ka wari in bɛɛ tɛmɛn.\nA ye ka tɛmɛn kɛ ka a ma wari in na '[row, col]' ka fɔrmɛ."
   },
   "board": {
     "game_board": "Ɲinɛnta: {board}",
-    "valid_moves": "{observation}\nValid moves: {moves}",
+    "valid_moves": "{observation}\nKalan ka tɛmɛ wari: {moves}",
     "no_valid_moves_reset": "{observation} I tɛ se ka tɛmɛ sira kan, o kama i be se k'i mabɔ a la.",
     "no_valid_moves_step": "{observation} I tɛ se ka tɛmɛ sira kan.",
-    "scores_reset": "{observation}\nCurren Scores - Black: {black_count}, White: {white_count}\n",
-    "scores_step": "{observation}\nScores - Black: {black_count}, White: {white_count}\n"
+    "scores_reset": "{observation}\nKalan ka tɛmɛ - Fɛnɛ: {black_count}, Kɔrɔn: {white_count}\n",
+    "scores_step": "{observation}\nKalan ka tɛmɛ - Fɛnɛ: {black_count}, Kɔrɔn: {white_count}\n"
   },
   "invalid_move": {
     "wrong_format": "O ye [row, col] tagamasiɲɛ lo ye.",
@@ -16,7 +16,7 @@
   },
   "game_action": {
     "skipped": "Jurusalobaga {pid} ka kan k'a lɔyɔrɔ bila a nɔ na.",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "Player {pid} ({piece}) ka kalan [{r}, {c}] ka tɛmɛ {flipped} wari"
   },
   "game_message": {
     "must_skip": "Jɛɛkɛ {pid} ({piece}) n'in na jɛɛ kɛɛri kɛɛri, o y'a fɛ"

@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "Welcome to Frozen Lake!\n\nYou are represented by 'P' on the grid.\nGrid symbols:\n  ' ' = Frozen surface (safe to walk on)\n  'H' = Hole (fall in and lose!)\n  'G' = Goal (reach this to win!)\n  'P' = Your current position\n\nAvailable actions: up, down, left, right (or w, a, s, d)\nType your action as: [up], [down], [left], [right] or [w], [a], [s], [d]\n\nObjective: Navigate from the start (top-left) to the goal (bottom-right) without falling into any holes!\n"
+    "intro": "Selamatu ri Danau Mabusa!\n\nRikauwéwé ri tanda 'P' ri atas jaring.\nTanda jaring:\n  ' ' = Pamukaan mabusa (aman ri laleng)\n  'H' = Lubang (taro'no ri kale!) \n  'G' = Tujuan (sassuwi ri menang!)\n  'P' = Posiwiwéwé rikauwéwé\n\nAksiwéwé: makkilo, tuwi, kiri, kanan (atawa w, a, s, d)\nTulisi aksiwéwé ri: [up], [down], [left], [right] atau [w], [a], [s], [d]\n\nTujuan: Navigasiwiwé ri awal (kiri-atas) ri tujuan (kanan-bawah) ri laleng tana makkasauwi lubang!\n"
   },
   "board": {
     "current_board": "Papan Saaran:\n\n{board}\n\nAksi Yang Tersedia: {actions}"

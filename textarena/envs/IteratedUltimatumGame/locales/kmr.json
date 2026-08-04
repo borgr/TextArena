@@ -24,10 +24,10 @@
     "intro": "Tu Player {player_id} yî, {num_rounds} xallanên Iterated Ultimatum Game dilîze.\nTe ${pool}î hene ku vê xalanê di navbera xwe û Player {other_id} de bîşê.\n\nPêşniyarkar:\n  - Pêşniyarê bide: [Offer: $X] (0 <= X <= pool)\n  - Heke qebûl bû → Tu $(pool - X) dî, lê yê din $X\n  - Heke red bû → Her du $0\n  - Mînak: [Offer: $3]  an 'Min fêhm dikim ev rêjeya rast e. [Offer: $5]'\n\nBiryarkar:\n  - Li ser pêşniyarê bi [Accept] an [Reject] biryar bidê\n  - Mînak: 'Ev rêjeya rast tê fêhm. [Accept]'\n            'Ev zêde ne adil e. [Reject]'\n"
   },
   "round": {
-    "begins": "--- Xala {round_number} dest pê dike! ---\nPlayer {proposer_id} pêşniyarkar e, Player {responder_id} biryarkar e.",
-    "offer": "Xala {round_number}: Player {proposer_id} ${offer} ji Player {responder_id} pêşniyar dike (di$hêla ${keep}).",
-    "accepted": "Player {responder_id} qebûl kir! Xala {round_number}: Player {proposer_id} +${proposer_gain}, Player {responder_id} +${responder_gain}. Giştî yên nû: Player 0: ${total_0}, Player 1: ${total_1}.",
-    "rejected": "Player {responder_id} red kir! Xala {round_number}: Her du xalan +$0. Giştî mabûn: Player 0: ${total_0}, Player 1: ${total_1}."
+    "begins": "--- Tûra {round_number} dest pê dike! ---\nLîstikvan {proposer_id} pêşnîyazker e, Lîstikvan {responder_id} bersivker e.",
+    "offer": "Tûra {round_number}: Lîstikvan {proposer_id} ${offer} pêşnîyaz dike ji bo Lîstikvan {responder_id} (${keep} dihêle).",
+    "accepted": "Lîstikvan {responder_id} qebûl kir! Qezencên Tûra {round_number}: Lîstikvan {proposer_id} +${proposer_gain}, Lîstikvan {responder_id} +${responder_gain}. Tevahiyên nû: Lîstikvan 0: ${total_0}, Lîstikvan 1: ${total_1}.",
+    "rejected": "Lîstikvan {responder_id} pêşnîyaz red kir! Qezencên Tûra {round_number}: Herdu lîstikvan +$0. Tevahiyên winda: Lîstikvan 0: ${total_0}, Lîstikvan 1: ${total_1}."
   },
   "invalid_move": {
     "no_offer_format": "Pêşniyarker divê pêşkêşek bi bikaranîna formata [Offer: $X] bike.",
@@ -37,7 +37,7 @@
     "accept_or_reject": "Responder divê ya [Accept] an ya [Reject] pêşniyarê qebûl bike."
   },
   "outcome": {
-    "win": "Player {winner} bi giştî ${winner_total} birêve dibîne, beramberî ${loser_total} ya Player {loser}.",
+    "win": "Lîstikvan {winner} bi ${winner_total} tevahî qezenc kir, dijî Lîstikvan {loser} bi ${loser_total} tevahî.",
     "draw": "Her du lîstikvan bi ${total} totalê qedandin."
   }
 }

@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({piece}). Opponent is ({opp}). Submit moves as '[b1 c3]' (from → to). All pieces move like chess knights.\nEach capture scores {score_per_capture} point. Game ends after {max_moves} moves or when a player has no legal move / no pieces. Higher score wins."
+    "intro": "ཁྱེད་མི་སྟག {player_id} ({piece}) ཡིན། ཕྱོགས་གཞན་པ་ ({opp}) ཡིན། འགུལ་བསྐྱོད་འདི་འདྲ་བསྒྲགས་དགོས་'[b1 c3]' (འདི་ནས་འདི་བར)། རྐང་བཏགས་ཚང་མ་རྐང་བཏགས་རྟ་བཞིན་འགུལ་བསྐྱོད་བྱེད།\nབཟུང་བ་རེ་རེ་བཞིན་ {score_per_capture} ཐོ་བཀོད་བྱེད། འགུལ་བསྐྱོད་ {max_moves} ཐོ་བཀོད་བྱེད་པ་དང་མི་སྟག་གི་འགུལ་བསྐྱོད་བྱེད་མི་སྲིད་པ་དང་རྐང་བཏགས་མེད་པའི་དུས་མཇུག་བྱེད། ཐོ་བཀོད་ཆེ་བ་གྱིས་རྒྱལ་ཁ་ཐོབ།"
   },
   "board": {
     "current_board": "འཕྲིན་རྒྱུག་#{move_count}\n\n{board}\n\nའཕྲིན་རྒྱུག་སྟངས་ཡོད་པ།: {moves}"

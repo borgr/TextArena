@@ -21,20 +21,20 @@
     "{scores}": "The pre-rendered per-player list of final scores"
   },
   "player_prompt": {
-    "intro": "You are playing Golf (Card Game) - Player {player_id}.\nGoal: Get the lowest total score in this single round. If columns share the same value, they are summed as 0.\nCard Values: A=1, 2-10=face value, J/Q=10, K=0\n\nActions (use exact brackets):\n- '[draw]' - Draw from deck\n- '[take]' - Take from discard pile\n- '[swap X Y]' - Swap drawn card with position X (row) Y (column)\n- '[discard]' - Discard the drawn card\n"
+    "intro": "गोल्फ इति क्रीडा क्रीडसि - क्रीडक {player_id} ।\nउद्देशः - एतस्मिन् एकस्मिन् वृत्ते निम्नतमः सङ्कलितः अङ्कः प्राप्तः । यदि स्तम्भाः समानां किमपि भागं वहन्ति, ते शून्यरूपेण सङ्कलिताः ।\nपत्रकमूल्यानि - अ=१, २-१०=मुखमूल्य, ज/क्व=१०, क=०\n\nक्रियाः (विनियोगात् अनुसरणीयम्):\n- '[draw]' - प्रतिकर्तृकात् पत्रं गृह्ण\n- '[take]' - निराकृतपट्टिकात् पत्रं गृह्ण\n- '[swap X Y]' - प्रतिकर्तृकात् पत्रं स्थाने X (पङ्क्ति) Y (स्तम्भ) सह विनिमय\n- '[discard]' - प्रतिकर्तृकात् पत्रं निराकुरु\n"
   },
   "board": {
-    "drew": "आपने आकर्षित किया: {card}\nअब आपको [swap X Y] या [discard] करना होगा",
-    "took": "You took: {card} from discard pile\nYou must [swap X Y] with it (cannot discard).",
-    "peeked": "आपने स्थान ({row},{col}) पर देखा: {card}",
-    "turn_view": "Your hand:\n{hand}\nDiscard pile: {discard}\n{options}",
+    "drew": "त्वं प्रतिकर्तृकात् पत्रं गृहीतवान् - {card}\nअधुना त्वं [swap X Y] वा [discard] कर्तुम्",
+    "took": "त्वं गृहीतवान् - {card} निराकृतपट्टिकात्\nत्वं तेन सह [swap X Y] कर्तुं न शक्नोसि (निराकुरितुं न शक्नोसि) ।",
+    "peeked": "त्वं स्थाने ({row},{col}) पत्रं विलोकितवान् - {card}",
+    "turn_view": "तव हस्तः -\n{hand}\nनिराकृतपट्टिका - {discard}\n{options}",
     "none": "न विद्यते।"
   },
   "options": {
-    "final_turns": "अंतिम मोड़! आपके विकल्प: [draw], [take], [peek X Y]",
-    "draw": "आपके विकल्प: [draw], [take]",
+    "final_turns": "अन्तिमवाराः! तव विकल्पाः - [draw], [take], [peek X Y]",
+    "draw": "तव विकल्पाः - [draw], [take]",
     "must_swap": "भवता अवश्यम्: [swap X Y] (अत्र न कर्तुं शक्यते)",
-    "swap_or_discard": "You must: [swap X Y] or [discard]"
+    "swap_or_discard": "त्वं कर्तुम् - [swap X Y] वा [discard]"
   },
   "hand": {
     "no_cards": "न च कार्डं।",
@@ -42,38 +42,38 @@
     "row": "पंक्ति {n}: {cards}"
   },
   "action_desc": {
-    "swapped": "खिलाड़ी {pid} ने {new} को {old} के साथ स्थान ({row},{col}) पर अदल-बदल दिया",
-    "discarded": "Player {pid} discarded {card}"
+    "swapped": "क्रीडक {pid} पत्रं {new} सह {old} स्थाने ({row},{col}) विनिमितवान्",
+    "discarded": "क्रीडक {pid} निराकृतवान् {card}"
   },
   "message": {
     "deck_empty": "क्रीडायाः समापनं तत्क्षणम् भवति।",
     "knocked": "{pid} क्रीडाकारः नट! प्रत्येकं अन्योत्स्करस्य एकम् अधिकं पादः भवति ।",
-    "final_round": "Player {pid} {reason}! Each other player gets one more turn."
+    "final_round": "क्रीडक {pid} {reason}! प्रत्येकः अन्यः क्रीडकः एकं वारं अधिकं प्राप्नोति ।"
   },
   "reason": {
     "all_revealed": "सर्वकार्यं प्रकटितम् अस्ति।"
   },
   "invalid": {
-    "wrong_action": "Use exactly ONE bracketed action: [draw], [take], [swap X Y], [discard], [knock], or [peek X Y]",
+    "wrong_action": "विनियोगात् अनुसरणीयम् एकमेव कार्यम् - [draw], [take], [swap X Y], [discard], [knock], वा [peek X Y]",
     "discard_empty": "अपहृतानां पुष्पाणि रिक्तानि!",
-    "must_draw_first": "You must first [draw], [take], [knock], or [peek X Y]",
+    "must_draw_first": "त्वं प्रथमं [draw], [take], [knock], वा [peek X Y] कर्तुम्",
     "cannot_discard_taken": "न च भवता प्रक्षिप्तं कार्डम् अपसारयितुं शक्यते, परतः एव अदलाभः करणीयः।",
-    "have_drawn_card": "आपके पास एक आकर्षित कार्ड है। आपको [swap X Y] या [discard] करना होगा",
+    "have_drawn_card": "त्वं प्रतिकर्तृकात् पत्रं गृहीतवान् । त्वं [swap X Y] वा [discard] कर्तुम्",
     "need_drawn_swap": "भवद्भिः कार्डं प्रतिस्थापयितुं एकम् चित्रकं आवश्यकता अस्ति ।",
     "need_drawn_discard": "भवद्भिः एकं कार्डम् अपसारयितुं अपेक्षितमस्ति।",
-    "out_of_bounds": "स्थान सीमा से बाहर है। पंक्ति 1-{max_row}, स्तंभ 1-{max_col} का उपयोग करें",
+    "out_of_bounds": "स्थानं सीमातीतम् । पङ्क्तिं १-{max_row}, स्तम्भं १-{max_col} विनियोगात् कर्तुम्",
     "knock_with_card": "न च कर्त्तव्यमस्ति, प्रथमं स्वपादे पूर्णम् करोतु।",
     "already_knocked": "कश्चित् एवम् राण्डं अकरोत् ।",
     "already_revealed": "तत्कार्डं पूर्वमेव प्रकटितम् अस्ति!"
   },
   "summary": {
-    "full": "गेम ओवर! खिलाड़ी {winner} {score} अंकों के साथ जीतता है!\n\nअंतिम स्कोर:\n{scores}",
-    "line": "खिलाड़ी {pid}: {score} अंक\n"
+    "full": "क्रीडा समाप्ता! क्रीडक {winner} विजयी अभवत्, अङ्कानां {score} सह!\n\nअन्तिमाङ्काः -\n{scores}",
+    "line": "क्रीडक {pid} - अङ्कानां {score}\n"
   },
   "board_str": {
     "title": "=== गोल्फ़ खेलः ===",
     "discard": "अपवर्जितः {card}",
     "knocked": "क्रीडाकारः {pid} द्रुतं कृतवान्!",
-    "player_header": "खिलाड़ी {pid} (स्कोर: {score}):"
+    "player_header": "क्रीडक {pid} (अङ्काः {score}) -"
   }
 }

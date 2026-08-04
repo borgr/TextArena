@@ -7,13 +7,13 @@
   },
   "invalid_move": {
     "wrong_format": "Ndajuhúi peteĩ formato de movimiento hekopete. Eipuru \"[pile quantity]\".",
-    "correct_format_wrong_fields": "Player {player_id}, Invalid action. Column {col} is out of bounds.",
+    "correct_format_wrong_fields": "Player {player_id}, Ñe'ẽme noñembyaíri. Sapy'a {col} ndaha'éi.",
     "out_of_range": "Pile índice {pile_index} oĩ okápe.",
     "non_positive": "Ogueraha va'erã 1 objeto.",
-    "exceeds_pile": "No se puede remover {quantity} de pila {pile_index} (solo quedan {pile_count})."
+    "exceeds_pile": "Ndaikatúi eheja {quantity} ñuha {pile_index}-gui (nte {pile_count} oĩma)."
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "Player {player_id} ojapo '[{pile_index} {quantity}]', eheja {quantity} mba'e ñuha {pile_index}-gui."
   },
   "outcome": {
     "win": "¡Peteĩ jugador {player_id} oguenohẽ objeto paha!"

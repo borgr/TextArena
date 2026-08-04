@@ -4,11 +4,11 @@
   },
   "board": {
     "game_board": "Jacha anataña: {board}",
-    "valid_moves": "{observation}\nValid moves: {moves}",
+    "valid_moves": "{observation}\nKunawsa jikxatixa: {moves}",
     "no_valid_moves_reset": "{observation} Janiw kuna movimientos chiqapäkiti, inas jaytjañama.",
     "no_valid_moves_step": "{observation} Janiw kuna movimientos chiqanakas utjkiti. Inasa jaytjañamachi.",
     "scores_reset": "{observation}\nQ'ala P'unchawiriw Wakichiri - Janq'u: {black_count}, Yuraq: {white_count}\n",
-    "scores_step": "{observation}\nScores - Black: {black_count}, White: {white_count}\n"
+    "scores_step": "{observation}\nQ'araña - Ch'iyara: {black_count}, Janq'u: {white_count}\n"
   },
   "invalid_move": {
     "wrong_format": "Uka movimiento ukax [row, col] ukjamäñapawa.",
@@ -16,10 +16,10 @@
   },
   "game_action": {
     "skipped": "{pid} anatirix janiw turkapxiti.",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "Player {pid} ({piece}) [{r}, {c}] mayacht'asi, {flipped} q'ala utt'asi"
   },
   "game_message": {
-    "must_skip": "Player {pid} ({piece}) has no valid moves and must skip."
+    "must_skip": "Player {pid} ({piece}) mayacht'ayasi kamach'i, satañaniwa."
   },
   "outcome": {
     "black_wins": "Ch'iyar jaqinakax atipt'apxaniwa {black_count}-{white_count}.",

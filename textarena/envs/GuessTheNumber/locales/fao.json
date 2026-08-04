@@ -13,6 +13,6 @@
   },
   "outcome": {
     "win": "Til lukku, tú hevur gitað rætta talið.",
-    "turn_limit": "The turn limit has been reached. Guess: {guess}, Target: {target}"
+    "turn_limit": "Umfaratakkið er nátt. Gissi: {guess}, Mál: {target}"
   }
 }

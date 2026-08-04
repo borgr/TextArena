@@ -8,8 +8,8 @@
   },
   "invalid_move": {
     "wrong_format": "Chwaraewr {player_id}, Fformat gweithredu annilys. Fformat disgwyliedig: \"[col x]\".",
-    "out_of_range": "Player {player_id}, Invalid action. Column {col} is out of bounds.",
-    "already_full": "Player {player_id}, Invalid action. Column {col} is full."
+    "out_of_range": "Chwaraewr {player_id}, Gweithred annilys. Mae colofn {col} y tu allan i'r ffiniau.",
+    "already_full": "Chwaraewr {player_id}, Gweithred annilys. Mae colofn {col} yn llawn."
   },
   "action": {
     "dropped_disk": "Mae chwaraewr {player_id} wedi gadael ei ddisg ({player_symbol}) i mewn i golofn {col}."

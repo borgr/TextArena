@@ -24,9 +24,9 @@
     "empty_command": "ባዶ ትእዛዝ። 'draw' ወይ ድማ \"move <source><destination> [count]\" ትእዝዞም።",
     "empty_action": "ባዶ ስጉምቲ",
     "move_needs_args": "ናይ ምንቅስቓስ ትእዛዝ መበገሲን መዕረፊን የድልዮ። ኣጠቓቕማ፦ 'move <source> <destination> [count]'",
-    "count_positive": "እቲ ቆጸራ ኣወንታዊ ወይ 'ኩሉ' ክኸውን ኣለዎ፡",
+    "count_positive": "እቲ ቆጸራ ኣወንታዊ ወይ all ክኸውን ኣለዎ፡",
     "count_invalid": "ዘይቅኑዕ ቆጸራ፡ ቁጽሪ ወይ 'all' ተጠቐም",
-    "unknown_command": "ምልካፍ ስርሕ '{cmd}' ኣይተረኽበን። 'ድራ'፡ 'ስርሕ <መገብሮ> <መደበሮ> [count]'፡ ወይ 'ሕራይ' ብምእንቲ ኣርእያ",
+    "unknown_command": "ምልካፍ ስርሕ {cmd} ኣይተረኽበን። draw፡ move <source> <destination> [count]፡ ወይ forfeit ብምእንቲ ኣርእያ",
     "wrapped": "Action {n}: {msg}"
   },
   "action_result": {

@@ -42,7 +42,7 @@
     "row": "Baris {n}: {cards}"
   },
   "action_desc": {
-    "swapped": "Player {pid} swapped {new} with {old} at position ({row},{col})",
+    "swapped": "Pemain {pid} menukar {new} dengan {old} di posisi ({row},{col})",
     "discarded": "Pemain {pid} membuang {card}"
   },
   "message": {

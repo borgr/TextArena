@@ -3,7 +3,7 @@
     "intro": "Nang gaw PegJump ginsup nga ai. Hkyen langai mi hpe kaga langai a ntsa kaw nna, htu kau da let gat pru mat wa na ra ai. Bandung: ngut kre la lu hkra **one** peg sha ngam sai. Galaw lam hkrang: e.g '[4 1]'."
   },
   "board": {
-    "current_board": "Pegs left: {count}\n{board}"
+    "current_board": "Hkauna kawp shangai: {count}\n{board}"
   },
   "invalid_move": {
     "wrong_format": "N htuk ai syntax. [i->j] hpe lang u.",

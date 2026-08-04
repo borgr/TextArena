@@ -8,7 +8,7 @@
     "cell_already_occupied": "O le sela {cell_num} ua uma ona nofoia. Filifili se avanoa cell."
   },
   "board": {
-    "current_state": "Current Board:\n\n{rendered_board}\nAvailable Moves: {available_moves}"
+    "current_state": "Laupapa o le Taimi Nei:\n\n{rendered_board}\nFa'atonuga e Maua: {available_moves}"
   },
   "action": {
     "placement": "Tagata taʻalo {current_player_id} na tuʻu lona faʻailoga ({symbol}) i seli {cell_num}."

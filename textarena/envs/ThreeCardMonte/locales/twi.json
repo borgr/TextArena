@@ -11,7 +11,7 @@
     "{ball_pos}": "The cup index the ball is under"
   },
   "player_prompt": {
-    "intro": "Track the hidden ball 'X' while the cups are shuffled.\nAfter shuffling, guess its location with `[k]`."
+    "intro": "Hwɛ bɔɔl a wɔayi afi mu 'X' bere a wɔreyɛ kɔpɛn no mu.\nAkyiri yi, hwɛ sɛ wobɛtumi ahwɛ ne baabi a ɛwɔ `[k]`."
   },
   "game_message": {
     "ball_starts": "Bɔl no bɔhyɛ ase: {line}",
@@ -21,7 +21,7 @@
     "reveal": "(Hwɛ: bɔl a ɛwɔ {ball_pos} ase)"
   },
   "invalid_move": {
-    "wrong_format": "Bad action. Use `[k]`.",
+    "wrong_format": "Nneɛma a woyɛ no yɛ bɔne. Fa `[k]`.",
     "out_of_range": "Index a ɛtra 0-{max_index} mu."
   },
   "outcome": {

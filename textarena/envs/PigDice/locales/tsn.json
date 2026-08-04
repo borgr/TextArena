@@ -6,18 +6,18 @@
     "invalid_action": "Tsaya tsela e seng sa tshwane. Dirisa '[roll]' or '[hold]'."
   },
   "actions": {
-    "player_busted": "Player {player_id} busted, losing {turn_total} points!",
-    "player_hold": "Player {player_id} holds and banks {turn_total} points."
+    "player_busted": "Moshomi {player_id} o thukhuthile, a lahlegetse {turn_total} di pointi!",
+    "player_hold": "Moshomi {player_id} o tsaya le tsenya {turn_total} di pointi."
   },
   "board": {
-    "player": "Player 0: '{score_0}'; Player 1: '{score_1}'",
+    "player": "Moshomi 0: '{score_0}'; Moshomi 1: '{score_1}'",
     "current_total_scores": "Dipono Tsa Gagwe Tsa Sekolo: {scores}\nTotal ya gago ya turn e sennye {turn_total}.",
     "roll_history": "{observation}\nHistori ya gago ya roll go ya turn: {roll_history}",
     "first_roll": "{observation} Eno ke tiro ya gago ya ntlha.",
     "available_actions": "{observation}\nTsaya dikgetho: '[roll]' or '[hold]'"
   },
   "outcome": {
-    "winner_by_turn_limit": "Player {winner_id} a fenya ka go na score e kete ka turn limit ({scores})",
+    "winner_by_turn_limit": "Moshomi {winner_id} o weditse ka go nna le setshwano se segolo kwa nako ya tshameko ({scores})",
     "winner_by_score": "Player {winner_id} a fenya ka go feta sekolo sa {winning_score}!",
     "draw": "Tekanyetso ya go dikologa e fitlhetswe mme batshameki botlhe ba na le maduo a a tshwanang: {scores}"
   }

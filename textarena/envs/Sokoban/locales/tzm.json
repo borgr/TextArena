@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are solving the Sokoban puzzle. You are the player and you need to push all boxes to targets.\n        When you are right next to a box, you can push it by moving in the same direction.\n        You cannot push a box through a wall, and you cannot pull a box.\n        On the board, objects are represented as: \n        - The player (you) appears as 'P' \n        - Walls are represented with '#' \n        - Boxes are marked as 'X' \n        - Empty goals are shown with a 'O'\n        - Boxes on goals are visualized with '√'\n        You can also use [w] for up, [a] for left, [s] for down, and [d] for right.\n        "
+    "intro": "Tllaḥt tɛṣṣaṣt tamukrist n Sokoban. Tkul d amukris, tllaḥt a ten-tekkes iɣallen akkʷ s tɣallen n tɣzi.\n        Mllakʷḍ dɣa iɣal, tzemreḍ a ten-tekkes s tɣzi nni.\n        Ur tzemreḍ a ten-tekkes ɣef uɣal, ur tzemreḍ a ten-ɣelles.\n        Ɣef uɣal, tɣallen ttwakkan s: \n        - Amukris (tkul) ittwakka s 'P' \n        - Iɣallen n uɣal ttwaɣalen s '#' \n        - Iɣallen n tɣzi ttwaɣalen s 'X' \n        - Tɣallen n tɣzi ttwakkan s 'O'\n        - Iɣallen n tɣzi ɣef tɣzi ttwakkan s '√'\n        Tzemreḍ a tseqdeḍ [w] i ufella, [a] i tamaẓẓayt, [s] i wadda, [d] i tamaẓẓi."
   },
   "board": {
     "current_board": "Asenmel n uṭṭun:\n\n{board}\nIɣmisen ikelman: {moves}"
@@ -12,11 +12,11 @@
     "invalid_position": "ⴰⵎⵓⵙⵙⵓ ⵓⵔ ⵉⵃⵍⵉⵏ - ⵓⵀⴰ ⵎⴰⴷ ⵜⵔⴰⵎ ⴰⴷ ⵜⵙⴽⵔⵉⵎ."
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
+    "moved": "Tkul {pushed} ten-tekkes [{action}].",
     "pushed_prefix": "ⵙⵙⵓⴼⵖ ⵜⴰⴽⴰⵙⵉⵜ ⴳ ⵜⵉⵣⵉ ⵏ"
   },
   "outcome": {
     "win": "ⴰⵃⵕⵛ, ⵔⵡⵍⴷ ⵜⴰⵇⴱⵓⵛⵜ ⵏ ⵙⵓⴽⵓⴱⴰⵏ!",
-    "turn_limit": "The turn limit has been reached. You did not solve the puzzle."
+    "turn_limit": "Tɣzi n wakud tɛṣṣaṣ. Ur tzemreḍ a ten-tekkes tamukrist."
   }
 }

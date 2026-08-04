@@ -1,11 +1,11 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in the Negotiation Game.\nYou have some resources, and your task is to trade such that the total value of your resources increases.\nThe resources and associated values you currently have are:\n\t+ {resource_value_list}\nAt each turn, you can talk to your opponent and make a trade offer.\nUse the following special tokens for actions:\n  - '[Offer: 3 Sheep, 2 Ore -> 5 Brick, 2 Sheep]': [Offer: Offered Resources -> Requested Resources]\n  - '[Accept]': To accept an incoming offer.\n  - '[Deny]': To deny an incoming offer (default).\nThe game lasts for {max_turns} turns in total."
+    "intro": "Yaa ngone jàngoro {player_id} ci xeexu gaal xelit. Ngone am na ngone ay ngunu, te yaw dal mooy jaayante ngunu nekk ngunu deesi yokkute. Ngone ay ngunu ak seeni dayo ngone am ci: + {resource_value_list}. Ci beneen turn, ngone man ngone wax ak sa xarit, te def ay ndawtal ci jaayante. Jëfandiku ay bokk yu ñuul yi ci ñaari xew-xew: - '[Offer: 3 Sheep, 2 Ore -> 5 Brick, 2 Sheep]': [Offer: Offered Resources -> Requested Resources] - '[Accept]': Ngone nangu ngone ndawtal bi ñu la jox. - '[Deny]': Ngone bañ ngone ndawtal bi ñu la jox (default). Xeex mi dafa am {max_turns} turn ci yëngu-yëngu."
   },
   "invalid_move": {
     "receiving_with_no_resource": "Jëfandikukat bi jéem na nangu ab soppi, waaye amul ay ndimbal yu mu soxla.",
     "out_of_range": "Jigéen {player_id}, Dogu bu njaboot. Kolom {col} doomu nguurte.",
-    "already_full": "Player {player_id}, Invalid action. Column {col} is full.",
+    "already_full": "Player {player_id}, Action bi ñu ñakkul. Kolone {col} dafa tasse.",
     "proposing_with_no_resource": "Jëfandikukat bi {player_id} jéem na a def ab joxe-tànneef bu amul ay ndimbal yu soxla.",
     "incorrect_offer_format": "Jëfandikukat bi {player_id} def na ab joxe-tànk bu baaxul.",
     "no_new_offer": "Jëfandikukat {player_id} deful benn laaj bu bees."

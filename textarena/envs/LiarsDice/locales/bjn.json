@@ -22,14 +22,14 @@
     "final_ranking": "list of player indices from first eliminated to winner"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in an {num_players}-player Liar's Dice game.\nRules:\n- On your turn, you may either:\n  1) Make a new bid with a higher quantity or higher face (or both) than the current bid; i.e. '[Bid: 3, 4]',\n  2) Call the last bid by typing '[Call]'.\n\nIf you call:\n  - If the actual count of that face value among all dice is less than the bid, the last bidder loses one die.\n  - Otherwise, the caller loses one die.\nA player who reaches 0 dice is eliminated. The last remaining player wins."
+    "intro": "Ikam Player {player_id} di dalam pamainan Dadu Pambual {num_players}-urang.\nAturan:\n- Wayah giliran ikam, ikam kawa milih salah satu:\n  1) Mambuat tawaran hanyar lawan kuantitas nang labih ganal atawa angka nang labih ganal (atawa kaduanya) daripada tawaran wayah ini; yaitu '[Bid: 3, 4]',\n  2) Manggil tawaran pauncitan lawan mangetik '[Call]'.\n\nAmun ikam manggil:\n  - Amun kuantitas sabujurnya matan angka nang samunyaan dadu kurang daripada tawaran, pamain pauncitan kalah sambayan.\n  - Lainnya, pamain nang manggil kalah sambayan.\nPemain nang sampai 0 dadu kada masuk pamainan. Pemain pauncitan nang tasisa manang."
   },
   "board": {
     "per_player": "\tPemain {p}: {d}",
     "new_round": "\nRonde baru - Dadu sisa: {dice_summary}\nDadu kamu saat ini adalah: {your_dice}"
   },
   "call": {
-    "bidder_loses": "Player {current_player_id} calls! The actual count of face {face_value} is {count}, which is LESS than {quantity}.\nPlayer {loser_id} (the last bidder) loses one die.",
+    "bidder_loses": "Pemain {current_player_id} manggil! Kuantitas sabujurnya matan angka {face_value} adalah {count}, nang kurang daripada {quantity}.\nPemain {loser_id} (pamain pauncitan nang mambuat tawaran) kalah sambayan.",
     "caller_loses": "Pemain {current_player_id} manyampaikan panggilan! Jumlah aktual wajah {face_value} adalah {count}, yang >= {quantity}.\nPemain {loser_id} (panggil) kehilangan satu dadu."
   },
   "action": {

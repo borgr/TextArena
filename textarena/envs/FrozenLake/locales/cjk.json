@@ -1,21 +1,21 @@
 {
   "player_prompt": {
-    "intro": "Welcome to Frozen Lake!\n\nYou are represented by 'P' on the grid.\nGrid symbols:\n  ' ' = Frozen surface (safe to walk on)\n  'H' = Hole (fall in and lose!)\n  'G' = Goal (reach this to win!)\n  'P' = Your current position\n\nAvailable actions: up, down, left, right (or w, a, s, d)\nType your action as: [up], [down], [left], [right] or [w], [a], [s], [d]\n\nObjective: Navigate from the start (top-left) to the goal (bottom-right) without falling into any holes!\n"
+    "intro": "Ndapota kuwa na imwe kuwa na Mwitu wa Mvula!\n\nMwenecho wakuwepo kwa 'P' pa gridi.\nMabuku agridi:\n  ' ' = Mwitu wa mvula (mwitu uliokomaa kuwenda)\n  'H' = Mwitu wa kuanguka (anguka na ulose!)\n  'G' = Mlengo (fikia hii upate!)\n  'P' = Mwenecho waku wakati uyu\n\nMakhuwiro anuwai: juu, chini, kushoto, kulia (au w, a, s, d)\nTayipa makhuwiro ako kama: [up], [down], [left], [right] au [w], [a], [s], [d]\n\nMlengo: Tambua njia kutoka mwanzo (juu-kushoto) mpaka mlengo (chini-kulia) bila kuanguka mwingine mwitu wa kuanguka!\n"
   },
   "board": {
-    "current_board": "Current Board:\n\n{board}\n\nAvailable Actions: {actions}"
+    "current_board": "Gridi ya Sasa:\n\n{board}\n\nMikalo ya Kuteka: {actions}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use [up], [down], [left], [right] or [w], [a], [s], [d].",
-    "unknown_action": "Unknown action '{action}'. Use up, down, left, right, or w, a, s, d.",
-    "hit_wall": "You tried to move {action} but hit a wall!"
+    "wrong_format": "Mfumo wa makhuwiro siyo sahihi. Utumie [up], [down], [left], [right] au [w], [a], [s], [d].",
+    "unknown_action": "Mikalo isiyolijulikana '{action}'. Teka juu, chini, kushoto, kulia, kana w, a, s, d.",
+    "hit_wall": "Watembea {action} kana kugongana na ukuta!"
   },
   "game_action": {
-    "moved": "You moved {action} to position ({row}, {col})."
+    "moved": "Watembea {action} mpaka malo ({row}, {col})."
   },
   "outcome": {
     "win": "Congratulations! Wanzire ekila!",
-    "fell_in_hole": "You fell into a hole! Game over. You completed {pct}% of the journey to the goal.",
+    "fell_in_hole": "Wetwa mu shimo! Mchezo umalile. Wamalizika {pct}% ya ulendo mpaka golide.",
     "turn_limit": "Wuye ku kwero l'akatala! Wafika. Ukatendeke {pct}% ya mupira wa kona."
   }
 }

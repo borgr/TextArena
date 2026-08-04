@@ -14,7 +14,7 @@
   },
   "game_action": {
     "attack": "P{player_id} ተጫዋችን P{opp_id}ን የእጅ ላይ {opp_idx}: ከ{opp_val} ወደ {new_val} ይሄዳል.",
-    "split": "P{player_id} splits into [{L}, {R}]."
+    "split": "ተጫዋች {player_id} እጅህን በ[{L}, {R}] ከፋፈለ።"
   },
   "history": {
     "entry": "P{player_id} {desc}"

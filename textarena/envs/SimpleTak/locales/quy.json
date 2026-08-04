@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in SimpleTak.\nOn the board, your stones appear as '{player_stone}' and your opponent's stones appear as '{opponent_stone}'.\n\nOn your turn, choose one empty cell (by its numbered index) and place your stone there.\nFor example, '[12]' places your stone in cell 12.\n\nYour objective is to form a continuous path of your stones that connects two opposite edges of the board (top-to-bottom or left-to-right)."
+    "intro": "Qamqa Player {player_id} SimpleTak nisqapi.\nTablero nisqapi, q'umiruyniyki '{player_stone}' hinam, waqaychasqayki '{opponent_stone}' hinam rikunakun.\n\nKikin turnoykikunapi, mayqin ch'usa tiyanakuta (numerokunapi) akllay, q'umiruyniykita chayman q'oy.\nKunanqa, '[12]' q'umiruyniykita 12 kaq tiyanakuman q'oy.\n\nQ'umiruyniykikunawan, tablero nisqap iskay kinraynin (hanan-p'unchaw icha lluq'i-paña) t'inkinakusqa ñan ruranaykim."
   },
   "invalid_move": {
     "invalid_move_format": "Mana allin riqsisqa t'ikrasqa qillqasqan:",

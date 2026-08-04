@@ -11,7 +11,7 @@
     "{groups}": "Neutral ranking data (a list of player-id groups, worst to best); do not translate"
   },
   "player_prompt": {
-    "intro": "{num_players}-Player Snake on a {width}×{height} grid.\nYou control snake {player_id}. Valid moves: '[up]'/'[down]'/'[left]'/'[right]' (or w/s/a/d).\nObjective: survive longest or be the longest and get the highest score (turn limit {max_turns} turns)."
+    "intro": "{num_players}-Matoa Ula ri laleng {width}×{height}.\nIa makkulai matoa {player_id}. Paliwa riolo: '[up]'/'[down]'/'[left]'/'[right]' (atawa w/s/a/d).\nTujuan: ulawengi laleng atau makkulai matoa rilaleng ngasengi nilaina (watesi giliran {max_turns} giliran)."
   },
   "board": {
     "current": "Akkatuong makkokkoe: {board}",
@@ -26,6 +26,6 @@
     "outlived": "Pelaenng e lebbi tuo pole ri laingnge.",
     "all_dead": "Sininna ulaé maténi.",
     "turn_limit": "Watang giliranna lettu - skor kaminang makessing naalai tie-break.",
-    "ranking": "{reason} Final ranking groups (worst→best): {groups}"
+    "ranking": "{reason} Kalerenganna giliranna (buruk→makasi): {groups}"
   }
 }

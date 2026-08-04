@@ -12,7 +12,7 @@
     "invalid_position": "અમાન્ય ચાલ - તે સ્થિતિમાં ખસેડી શકાતી નથી."
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
+    "moved": "તમે {pushed} ચાલ્યા [{action}].",
     "pushed_prefix": "જ્યારે એક બોક્સ દબાણ"
   },
   "outcome": {

@@ -10,7 +10,7 @@
     "{to}": "The destination coordinate of a move, such as b3"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in game of LinesOfAction.\nYour pieces are '{side}', opponent pieces are '{other}'.\nMove format: `[b1b3]` (from-coord to-coord). A legal move travels horizontally, vertically, or diagonally a number of squares equal to the total pieces (any colour) in that line. You may jump over your own pieces, but not opponent pieces; landing on an opponent captures it.  Win when all your pieces are 8-neighbour connected."
+    "intro": "Jūs esat Spēlētājs {player_id} LinesOfAction spēlē.\nJūsu figūras ir '{side}', pretinieka figūras ir '{other}'.\nGājiena formāts: `[b1b3]` (no-koordināta uz-koordināta). Legāls gājiens pārvietojas horizontāli, vertikāli vai diagonāli kvadrātu skaitu, kas vienāds ar kopējo figūru skaitu (jebkura krāsa) šajā līnijā. Jūs varat pārlēkt pāri savām figūrām, bet ne pretinieka figūrām; nosēšanās uz pretinieka figūras to sagrābj. Uzvarēt, kad visas jūsu figūras ir 8-kaimiņu savienotas."
   },
   "board": {
     "current_board": "Bolva: {board}"
@@ -26,7 +26,7 @@
   },
   "game_action": {
     "moved": "Spelejs {player_id} pārvietoja {from} -> {to}",
-    "captured_suffix": "Player {player_id} moved {from} -> {to} capturing an enemy."
+    "captured_suffix": "Spēlētājs {player_id} pārvietojās {from} -> {to} sagrābjot pretinieku."
   },
   "outcome": {
     "win": "Vysi kūpeigī lūcekli ir saisteiti.",

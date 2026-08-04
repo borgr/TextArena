@@ -13,7 +13,7 @@
     "repeated_guess": "A ɗon tammi {guess}. To a foondi feere, foonda nde woore."
   },
   "game_action": {
-    "feedback": "Submitted [{guess}]. Feedback: {black_pegs} black peg(s), {white_pegs} white peg(s)."
+    "feedback": "An gabatar da [{guess}]. Bayanin karin bayani: {black_pegs} kututtuwa baƙi, {white_pegs} kututtuwa fari."
   },
   "outcome": {
     "win": "A yiƴi koɗol, o solvi {black_pegs} daga {code_length} pegs kwaɗin",

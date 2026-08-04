@@ -7,13 +7,13 @@
   },
   "invalid_move": {
     "wrong_format": "Gũtirĩ mũhiano wa gũtwara ũroneka. Hũthĩra \"[pile quantity]\".",
-    "correct_format_wrong_fields": "Player {player_id}, Invalid action. Column {col} is out of bounds.",
+    "correct_format_wrong_fields": "Mchezaji {player_id}, Kitendo kisichoruhusiwa. Safu {col} iko nje ya mipaka.",
     "out_of_range": "Mũtaratara wa mũbango {pile_index} nĩ ũtarĩ harĩa ũngĩ.",
     "non_positive": "No mũhaka ũrutĩre kĩndũ kĩmwe.",
     "exceeds_pile": "Haiwezi kuondoa {quantity} kutoka kwenye mfuko {pile_index} (imebaki {pile_count} pekee)."
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "Mchezaji {player_id} alicheza [{pile_index} {quantity}], akiondoa vitu {quantity} kutoka kundi {pile_index}."
   },
   "outcome": {
     "win": "Mũthaaki {player_id} nĩoire kĩndũ kĩa mũico!"

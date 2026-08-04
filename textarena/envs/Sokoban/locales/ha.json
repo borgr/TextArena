@@ -12,7 +12,7 @@
     "invalid_position": "Ƙaddamarwa mara kyau - ba zai iya motsawa zuwa wannan matsayi ba."
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
+    "moved": "Kai {pushed} motsa [{action}].",
     "pushed_prefix": "tura wani akwati yayin da"
   },
   "outcome": {

@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing the Minesweeper game.\nThe objective of the game is to reveal all cells that do not contain mines.\nTo make a move, simply specify the row and column coordinates you want to reveal using the format:\n- `[row col]`: Reveal the cell at the specified row and column.\nFor example:\n- `[3 2]` to reveal the cell in Row 3, Column 2.\n- `[5 6]` to reveal the cell in Row 5, Column 6.\nOn your first move, you will reveal an area around the cell you choose to ensure a safe start.\nThe current board layout is shown below. Cells that are unrevealed are represented by a dot ('.'), revealed numbers show the count of adjacent mines.\nBe mindful not to choose already revealed cells.\nHere is the current board layout:\n"
+    "intro": "Jumaxa Minesweeper pukllayta. \nPukllay tukuy uñjasa q'iwita jani uka q'iwitaxa jark'asiñani. \nMaya luraña, aka p'iqi aka qhana row ukanaka column ukanaka wakisiña, aka formato q'iwitaxa:\n- `[row col]`: Uka p'iqi uka qhana q'iwitaxa jark'asiña. \nKunjamasa:\n- `[3 2]` 3ka fila, 2ka columna q'iwitaxa jark'asiña.\n- `[5 6]` 5ka fila, 6ka columna q'iwitaxa jark'asiña.\nNayra lurañaxa, aka p'iqi aka qhana alrededor q'iwitaxa jark'asiña maya seguro inicio ukanaka.\nKunanaka pukllay t'iyasiwixa aka layout q'iwitaxa jark'asiña. Q'iwitaxa jani jark'asitaxa aka puntu ('.') q'iwitaxa, jark'asitaxa número q'iwitaxa aka adjacent q'iwitaxa mine ukanaka.\nJaniraki aka q'iwitaxa jark'asitaxa aka p'iqi aka qhana wakisiña.\nAka kunanaka layout q'iwitaxa jark'asiña:\n"
   },
   "board": {
     "game_board": "Jacha anataña: {board}",
@@ -17,6 +17,6 @@
   },
   "outcome": {
     "win": "Jachañchäwinaka, Minasweeper tabla wakichataxa sumwa tukt'ayapxtaxa.",
-    "turn_limit": "The turn limit has been reached. You successfully uncovered {percent}% of the safe cells."
+    "turn_limit": "Mayllay p'unchay q'umanta ch'amanchaña. {percent}% ch'alla k'ullk'uñchiri q'umanta qillqaña."
   }
 }

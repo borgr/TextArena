@@ -14,7 +14,7 @@
     "{scores}": "The final scores as a raw player-number to score mapping - do not translate"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player GOPS.\n- You hold the 13 cards A-K (each exactly once).\n- Each round a prize is revealed. Submit ONE card like `[Q]`, `[10]`, `[2]` …\n- Highest card wins the prize (+ any carry-over pot). Ties roll the prize into the next round.\n- After 13 rounds, highest total wins. Invalid moves = elimination."
+    "intro": "Сиз Three-Player GOPS оюнундагы {player_id} оюнчусусуз.\n- Сиз 13 карточканы кармапсыз A-K (ар бирөө бир жолу).\n- Ар раундда приз ачылат. '[Q]', '[10]', '[2]' сыяктуу бир карточканы киргизиңиз …\n- Эң жогорку карточка призди утат (+ кайра алынган кумара). Тең чыгуулар призди кийинки раундга айландырат.\n- 13 раунддан кийин, эң жогорку жалпы эсеп утат. Жараксыз кыймылдар = элиминация."
   },
   "round": {
     "header": "### Раунд {round}/13 - Байге: {prize} (баасы {worth})",

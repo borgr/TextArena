@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id}. You are playing the Memory Game.\nYour goal is to match more pairs of cards on the board, than your opponent.\nOn your turn, select two cards to flip by entering the row and column numbers of the first and second card respectively like '[0 1 1 0]', where the first card is in row 0 and column 1, and the second card is in row 1 and column 0.\nIf the two cards match, you get a point and the cards remain face up. If they do not match, the cards are flipped back face down, e.g. '.'.\nThe game ends when all pairs have been matched."
+    "intro": "Nge o Player {player_id}. Nge o kubaka Jogo ya Memória.\nKulungu nge i kuunganisha mingi ya mipira ya kadi ku matabua, kulungu ya mbuta nge.\nKuna wakati nge, tonda mbili ya kadi ya kupindukila kwa kutunga nambari ya safu na safu wima ya kadi ya kwanza na ya pili, kama '[0 1 1 0]', wapi kadi ya kwanza i ku safu 0 na safu wima 1, na kadi ya pili i ku safu 1 na safu wima 0.\nKama kadi zote mbili zilingana, nge u pata ponto na kadi zikala zimesimama. Kama hazilingani, kadi zikala zimepinduliwa chini, kwa mfano '.'.\nJogo ikoma wakati mipira yote imeunganishwa."
   },
   "board": {
     "current_board": "Kisalu ya bo ke salaka ntangu yai: {board}",
@@ -13,13 +13,13 @@
     "already_matched": "Muntu yina kebula {player_id} mepona mosi to bakarti yonso zole ya bo mefwanisaka dezia."
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "Kadi zilizochaguliwa na Player {player_id} kwenye nafasi [{r1} {c1}] na [{r2} {c2}] zinalingana!",
+    "cards_no_match": "Kadi zilizochaguliwa na Player {player_id} hazilingani. Kadi kwenye nafasi [{r1} {c1}] na [{r2} {c2}] ni {pos1} na {pos2} mtawalia."
   },
   "outcome": {
     "draw": "Bantu yonso zole ya bo vandaka kubula kusalaka kiteso mosi.",
     "win": "Muntu yina kebula {winner_id} mebaka nsaka!",
-    "turn_limit": "The turn limit has been reached. The game is over. Player 0 scored {score_0} points, Player 1 scored {score_1} points.",
-    "turn_limit_win": "{reason} Player {winner_id} has won!"
+    "turn_limit": "Kikomo cha wakati kimeshikiliwa. Jogo imekwisha. Player 0 alipata {score_0} pointi, Player 1 alipata {score_1} pointi.",
+    "turn_limit_win": "{reason} Player {winner_id} ameshinda!"
   }
 }

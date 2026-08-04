@@ -1,9 +1,9 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({piece}). Opponent is ({opp}). Submit moves as '[b1 c3]' (from → to). All pieces move like chess knights.\nEach capture scores {score_per_capture} point. Game ends after {max_moves} moves or when a player has no legal move / no pieces. Higher score wins."
+    "intro": "I ye jɛgɛ {player_id} ({piece}). Jɛgɛda ye ({opp}). Sɔnɛ ka bɔ kɛ '[b1 c3]' (kɔrɔ → kɔ). Jɛgɛ bɛɛ bɔ kɛ cɛɛ kaba.\nKɔlɔn kɔlɔn bɛ {score_per_capture} pɔɲɛ. Jɛgɛ bɛɛ kɔrɔ {max_moves} bɔ kɔrɔ wa jɛgɛda tɛ sɔnɛ kɛ / jɛgɛ tɛ. Pɔɲɛ caman bɛ sɔrɔ."
   },
   "board": {
-    "current_board": "Move #{move_count}\n\n{board}\n\nAvailable Moves: {moves}"
+    "current_board": "Bɔ kɛ #{move_count}\n\n{board}\n\nBɔ kɛ sɔnɛ: {moves}"
   },
   "invalid_move": {
     "bad_format": "Fɛɛrɛ ma ɲi. '[b1 c3]' kɛ a la.",
@@ -13,7 +13,7 @@
     "not_knight": "O tun tɛ jagwɛlɛya ye."
   },
   "game_action": {
-    "moved": "Player {player_id} moved their piece from {frm} to {to}.",
+    "moved": "Jɛgɛ {player_id} sɔnɛ ka bɔ kɛ kɔrɔ {frm} kɔ {to}.",
     "capture": "{observation} Ka kɛɛ! (+{score_per_capture})"
   },
   "outcome": {

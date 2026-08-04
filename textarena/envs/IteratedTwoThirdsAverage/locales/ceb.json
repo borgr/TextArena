@@ -7,7 +7,7 @@
     "out_of_range": "Ang pagdayagnos kinahanglan nga tali sa {min_guess} ug {max_guess}."
   },
   "message": {
-    "round_guesses": "Player 0 guessed {guess0}; Player 1 guessed {guess1}. Thus the Target is: {target}.",
+    "round_guesses": "Ang Player 0 nagtagna ug {guess0}; Ang Player 1 nagtagna ug {guess1}. Busa ang Target mao: {target}.",
     "round_draw": "Ang round maoy draw.",
     "round_win": "Ang player {winner} ang nagdaog sa round!"
   },

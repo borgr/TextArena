@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing Tower of Hanoi with {num_disks} disks.\nYou have to move the disks from tower A to tower C.\nTo move a disk, type the source tower and the target tower (e.g., '[A C]').\nNote that you can only move the top disk of a tower, and that a bigger disk cannot be placed on a smaller disk.\nAt each turn, submit one move."
+    "intro": "आप टावर ऑफ हनोई {num_disks} डिस्क संग खेल रहल छी।\nआपके डिस्क के टावर ए से टावर सी मे स्थानान्तरित करबाक लेल आवश्यक छी।\nडिस्क स्थानान्तरित करबाक लेल, स्रोत टावर आ लक्ष्य टावर टाइप करू (उदाहरणार्थ, '[A C]').\nनोट करू कि आप एक टावर के शीर्ष डिस्क मात्र स्थानान्तरित कर सकैत छी, आ एक पैग डिस्क के छोट डिस्क पर रखब नै जा सकैत छी।\nप्रत्येक मोड़ मे, एक चाल जमा करू।"
   },
   "board": {
     "current_board": "वर्तमान बोर्ड: {board}।"

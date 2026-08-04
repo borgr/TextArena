@@ -20,20 +20,20 @@
     "you_moved": "Tefka yiwet n tneflayt inek seg {source} ar {dest}.",
     "opponent_moved": "Anecdai {player_id} yefka yiwet n tneflayt seg {source} ar {dest}.",
     "you_equal_ranks": "Tefka yiwet n tneflayt inek seg {source} ar {dest}. Tneflayt tamenzut tettwaliw d {attacking_rank}, d acu kan tettwaliw d {target_rank}. S wakka irran imiran, tewɛed sin.",
-    "opponent_equal_ranks": "Player {player_id} has moved a piece from {source} to {dest}. The attacking piece was {attacking_rank} and the destination piece was {target_rank}. As the ranks are the same, both pieces lost.",
-    "you_miner_defused": "You have moved your piece from {source} to {dest}. The attacking piece was {attacking_rank} and the destination piece was {target_rank}. As miners can defuse bombs, you won the battle.",
-    "opponent_miner_defused": "Player {player_id} has moved a piece from {source} to {dest}. The attacking piece was {attacking_rank} and the destination piece was {target_rank}. As miners can defuse bombs, you lost the battle.",
-    "you_bomb_lost": "You have moved your piece from {source} to {dest}. The attacking piece was {attacking_rank} and the destination piece was {target_rank}. As the attacker is not a miner, you lost the battle.",
-    "opponent_bomb_won": "Player {player_id} has moved a piece from {source} to {dest}. The attacking piece was {attacking_rank} and the destination piece was {target_rank}. As the attacker is not a miner, you won the battle.",
-    "you_spy_won": "You have moved your piece from {source} to {dest}. The attacking piece was {attacking_rank} and the destination piece was {target_rank}. As the attacker is a spy and the destination is a marshall, you won the battle.",
-    "opponent_spy_lost": "Player {player_id} has moved a piece from {source} to {dest}. The attacking piece was {attacking_rank} and the destination piece was {target_rank}. As the attacker is a spy and the destination is a marshall, you lost the battle.",
-    "you_higher_won": "You have moved your piece from {source} to {dest}. The attacking piece was {attacking_rank} and the destination piece was {target_rank}. As the attacker is a higher rank than the destination, you won the battle.",
-    "opponent_higher_lost": "Player {player_id} has moved a piece from {source} to {dest}. The attacking piece was {attacking_rank} and the destination piece was {target_rank}. As the attacker is a higher rank than the destination, you lost the battle.",
-    "you_lower_lost": "You have moved your piece from {source} to {dest}. The attacking piece was {attacking_rank} and the destination piece was {target_rank}. As the attacker is a lower rank than the destination, you lost the battle.",
-    "opponent_lower_won": "Player {player_id} has moved a piece from {source} to {dest}. The attacking piece was {attacking_rank} and the destination piece was {target_rank}. As the attacker is a lower rank than the destination, you won the battle."
+    "opponent_equal_ranks": "Amseḍru {player_id} yessefked ajeṛṛid seg {source} ɣer {dest}. Ajeṛṛid n tmuḍiwin d {attacking_rank} ma d ajeṛṛid n tigawt d {target_rank}. Imi ttwafken deg waddad, snat n tejṛṛidin ṭṭfen.",
+    "you_miner_defused": "Tessefked ajeṛṛid inek seg {source} ɣer {dest}. Ajeṛṛid n tmuḍiwin d {attacking_rank} ma d ajeṛṛid n tigawt d {target_rank}. Imi iminir degsen timsalin, teɣliḍ deg wemgaru.",
+    "opponent_miner_defused": "Amseqdac {player_id} isewḥeq-d ccek i {source} ɣer {dest}. Ccek annect n tmuḥra d {attacking_rank} ma d ccek n tɣiwant d {target_rank}. Imi iminuren zemren ad sfexeḍ ibumbaten, tɣimit.",
+    "you_bomb_lost": "Tessefked ajeṛṛid inek seg {source} ɣer {dest}. Ajeṛṛid n tmuḍiwin d {attacking_rank} ma d ajeṛṛid n tigawt d {target_rank}. Imi amseḍru mači d iminir, teɣliḍ deg wemgaru.",
+    "opponent_bomb_won": "Amseqdac {player_id} isewḥeq-d ccek i {source} ɣer {dest}. Ccek annect n tmuḥra d {attacking_rank} ma d ccek n tɣiwant d {target_rank}. Imi annect n tmuḥra ur d iminur, ternuḍ tɣiwant.",
+    "you_spy_won": "Tessefked ajeṛṛid inek seg {source} ɣer {dest}. Ajeṛṛid n tmuḍiwin d {attacking_rank} ma d ajeṛṛid n tigawt d {target_rank}. Imi amseḍru d aspiyun ma d tigawt d amarṣal, teɣliḍ deg wemgaru.",
+    "opponent_spy_lost": "Amseqdac {player_id} isewḥeq-d ccek i {source} ɣer {dest}. Ccek annect n tmuḥra d {attacking_rank} ma d ccek n tɣiwant d {target_rank}. Imi annect n tmuḥra d ameẓyan ma d ccek n tɣiwant d amaruṣal, tɣimit.",
+    "you_higher_won": "Tzemreḍ ad tesufeḍ tkeččawt-ik·im seg {source} ɣer {dest}. Tkeččawt i d-yusa ad d-yaweḍ d {attacking_rank} d tkeččawt n manaya d {target_rank}. Ma umarir d aɣella i ɣezzifen, tzemreḍ ad tesufeḍ umenɣib.",
+    "opponent_higher_lost": "Amarir {player_id} yesufeḍ tkeččawt seg {source} ɣer {dest}. Tkeččawt i d-yusa ad d-yaweḍ d {attacking_rank} d tkeččawt n manaya d {target_rank}. Ma umarir d aɣella i ɣezzifen, tzemreḍ ad texser umenɣib.",
+    "you_lower_lost": "Tessefked ajeṛṛid inek seg {source} ɣer {dest}. Ajeṛṛid n tmuḍiwin d {attacking_rank} ma d ajeṛṛid n tigawt d {target_rank}. Imi amseḍru d aqbayli meẓẓiyen ɣef tigawt, teɣliḍ deg wemgaru.",
+    "opponent_lower_won": "Amarir {player_id} yesufeḍ tkeččawt seg {source} ɣer {dest}. Tkeččawt i d-yusa ad d-yaweḍ d {attacking_rank} d tkeččawt n manaya d {target_rank}. Ma umarir d aɣella i meẓẓiyen, tzemreḍ ad tesufeḍ umenɣib."
   },
   "outcome": {
     "flag_captured": "Amyurar {player_id} yeṭṭef-d aflag n umennuɣ!",
-    "no_movable_pieces": "Player {winner_id} wins! Player {loser_id} has no more movable pieces."
+    "no_movable_pieces": "Amarir {winner_id} yaweḍ! Amarir {loser_id} ur ɣezzif ara tkeččawt i zemren ad d-tsuɣalen."
   }
 }

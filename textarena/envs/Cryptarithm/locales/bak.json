@@ -9,10 +9,10 @@
     "{pct}": "Progress as a percentage string, e.g. 50%"
   },
   "player_prompt": {
-    "intro": "Map each letter to a unique digit so the arithmetic holds.\nAssign with `[A 5]`, re-assign anytime.\n"
+    "intro": "Һәр хәрефте уникаль цифрға ярашлы итеп ҡуйығыҙ, шулай итеп арифметика дөрөҫ булһын.\n[A 5] ярҙамында билдәләгеҙ, теләһә ниндәй ваҡытта яңынан билдәләгеҙ.\n"
   },
   "invalid_move": {
-    "wrong_format": "Bad action format. Use `[A 5]`.",
+    "wrong_format": "Нәтижәһеҙ формат. [A 5] ҡулланығыҙ.",
     "letter_not_in_puzzle": "{letter} хәрефе ребусҡа инмәй.",
     "digit_used": "Цифр {digit} ҡулланылған {used_letter}.",
     "leading_zero": "Һүҙҙең баш цифрҙары 0 була алмай."

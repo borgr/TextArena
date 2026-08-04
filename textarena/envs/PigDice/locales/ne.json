@@ -17,7 +17,7 @@
     "available_actions": "{observation} उपलब्ध कार्यहरूः \"[roll]\" वा \"[hold]\""
   },
   "outcome": {
-    "winner_by_turn_limit": "Player {winner_id} won by having a higher score at the turn limit ({scores})",
+    "winner_by_turn_limit": "खेलाडी {winner_id}ले पालो सीमामा उच्च स्कोर गरेर जित्यो ({scores})",
     "winner_by_score": "खेलाडी {winner_id} ले {winning_score} को लक्ष्य स्कोरमा पुग्दा जितेका छन्!",
     "draw": "टर्न लिमिट पुगेको छ र सबै खेलाडीको समान स्कोर छः {scores}"
   }

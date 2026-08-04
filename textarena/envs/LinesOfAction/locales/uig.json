@@ -10,7 +10,7 @@
     "{to}": "The destination coordinate of a move, such as b3"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in game of LinesOfAction.\nYour pieces are '{side}', opponent pieces are '{other}'.\nMove format: `[b1b3]` (from-coord to-coord). A legal move travels horizontally, vertically, or diagonally a number of squares equal to the total pieces (any colour) in that line. You may jump over your own pieces, but not opponent pieces; landing on an opponent captures it.  Win when all your pieces are 8-neighbour connected."
+    "intro": "سىز LinesOfAction ئويۇنىدىكى {player_id} نۇمۇرلۇق ئويۇنچىسىز.\nئويۇنچىنىڭ تەڭگىلىرى '{side}'، قارشى تەرەپنىڭ تەڭگىلىرى '{other}'.\nيۆتكەش فورماتى: `[b1b3]` (مەنبە كوردىناتىدىن مەقسەد كوردىناتىغا). قانۇنىي يۆتكەش ھەم ۋېرتىكال، ھەم گورىزۇنتال، ھەم دىئاگۇنال يۆنىلىشلەردە بىر قەدەر تەڭگىلەرنىڭ سانىغا تەڭ كېلىدىغان مۇساپىنى بېسىپ ئۆتىدۇ. سىز ئۆز تەڭگىلىرىڭىزنىڭ ئۈستىدىن سەكرەپ ئۆتەلەيسىز، لېكىن قارشى تەرەپنىڭ تەڭگىلىرىنىڭ ئۈستىدىن سەكرەپ ئۆتەلمەيسىز؛ قارشى تەرەپنىڭ تەڭگىسىنى بېسىپ ئۆتۈپ، ئۇنى تۇتۇۋېلىسىز.  سىزنىڭ بارلىق تەڭگىلىرىڭىز 8 قوشنا بىلەن تۇتاشقاندا غەلىبە قىلىسىز."
   },
   "board": {
     "current_board": "كېڭەش پالاتاسى: {board}"
@@ -26,7 +26,7 @@
   },
   "game_action": {
     "moved": "ئوينچى {player_id} {from} -> {to} يۆتكەلدى.",
-    "captured_suffix": "Player {player_id} moved {from} -> {to} capturing an enemy."
+    "captured_suffix": "{player_id} نۇمۇرلۇق ئويۇنچى {from} -> {to} يۆتكەش قىلىپ، قارشى تەرەپنىڭ تەڭگىسىنى تۇتۇۋالدى."
   },
   "outcome": {
     "win": "ھەممە يېرى بىر گەۋدە.",

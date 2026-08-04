@@ -1,17 +1,17 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in an Iterated Prisoner's Dilemma spanning {num_rounds} rounds.\n\nGame Structure:\n- Before each decision you have {total_conversation_rounds} turns to communicate freely.\n- After that, both players simultaneously choose to cooperate or defect.\n\nPayoff Matrix (fixed each round):\n- Both Cooperate ➜ each {cooperate_reward}\n- Both Defect ➜ each {mutual_defect_reward}\n- One Defects, one Cooperates ➜ Defector {defect_reward}, Cooperator {sucker_reward}\n\nHow to Play:\n- During conversation: type any text you wish.\n- During decision phase: include '[Cooperate]' or '[Defect]' (case-insensitive). You may add extra text before/after the token."
+    "intro": "UnguMdlali {player_id} kwi-Iterated Prisoner's Dilemma esikhulu {num_rounds} izikhathi.\n\nIsakhiwo seGame:\n- Phambi kokuthatha isigqibo, unazo {total_conversation_rounds} amathuba okuthetha ngokukhululeka.\n- Emva koko, abadlali bobabini bakhetha ukusebenzisana okanye ukukhetha ukungasebenzisani ngaxesha nye.\n\nImatrix yePhumelelo (eyiliwe kila xesha):\n- Bobabini Basebenzisana ➜ ilungu ngalinye {cooperate_reward}\n- Bobabini Bakhethe Ukungasebenzisani ➜ ilungu ngalinye {mutual_defect_reward}\n- Omnye Ukhethe Ukungasebenzisani, omnye Usebenzisana ➜ Ongakhetha Ukungasebenzisani {defect_reward}, Osebenzisana {sucker_reward}\n\nIndlela yokudlala:\n- Ngexesha lokuthetha: bhala nantoni na ufuna.\n- Ngexesha lokuthatha isigqibo: bandakanya '[Cooperate]' okanye '[Defect]' (ayikho kubaluleka ukubhala ngobuninzi). Ungafaka izwi zantsi ngaphambi/ emva kwesigqibo."
   },
   "phases": {
     "conversation_finished": "Khaliphile ingcazelo kwi-〕{round}. Ndicela ukhulume ngokuthi '〕[Cooperate]' noma '〕[Defect]' ndani〕\boxed〕{{}}.",
     "starting_round": "--- Ukuqalisa Umjikelo {round} ---",
-    "round_summary": "Imiphumelo yoroundi {round}:\n〕{outcome}\nPlayer 0 wazisa〕{r0} (wonyuka〕{score_0}), Player 1 wazisa〕{r1} (wonyuka〕{score_1})."
+    "round_summary": "Imiphumela yeXesha {round}:\n{outcome}\nMdlali 0 uphumelele {r0} (jikelele {score_0}), Mdlali 1 uphumelele {r1} (jikelele {score_1})."
   },
   "outcome": {
-    "winner": "Player {winner} wins {win_score} - {lose_score}.",
+    "winner": "Mdlali {winner} uphumelele {win_score} - {lose_score}.",
     "draw": "Bobabini abadlali bafumana amanqaku {s0}.",
     "round_both_cooperate": "Bobabini abadlali basebenzisana.",
-    "round_both_defect": "Both players defected.",
+    "round_both_defect": "Abadlali bobabini bakhethe ukungasebenzisani.",
     "round_p0_cooperates_p1_defects": "Umdlali 0 wasebenzisana, uMdlali 1 wasaba.",
     "round_p0_defects_p1_cooperates": "Umdlali 0 ubalekile, uMdlali 1 usebenzisene."
   }

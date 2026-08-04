@@ -8,8 +8,8 @@
   },
   "invalid_move": {
     "wrong_format": "Гулец {player_id}, Несапраўдны фармат дзеяння. Чаканы фармат: \"[col x]\".",
-    "out_of_range": "Player {player_id}, Invalid action. Column {col} is out of bounds.",
-    "already_full": "Player {player_id}, Invalid action. Column {col} is full."
+    "out_of_range": "Гулец {player_id}, Няправільнае дзеянне. Слупок {col} знаходзіцца па-за межамі.",
+    "already_full": "Гулец {player_id}, Няправільнае дзеянне. Слупок {col} поўны."
   },
   "action": {
     "dropped_disk": "Гулец {player_id} скінуў свой дыск ({player_symbol}) у калонку {col}."

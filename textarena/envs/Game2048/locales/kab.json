@@ -11,6 +11,6 @@
   },
   "outcome": {
     "win": "Tawṣṣa, tɛwiḍ {target_tile}! Asaḍ aḍfi {score}.",
-    "lose": "No moves left. Max tile {max_tile} - final score {score}."
+    "lose": "Ulac imenyafen. Azwel ameqran {max_tile} - tiwisi taneggarut {score}."
   }
 }

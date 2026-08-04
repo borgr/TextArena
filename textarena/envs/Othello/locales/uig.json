@@ -16,7 +16,7 @@
   },
   "game_action": {
     "skipped": "ئويۇنچى {pid} ئۆز نۆۋىتىنى ئۆتكۈزۈپ قويدى.",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "{pid} نومۇرلۇق ئويۇنچى ({piece}) [{r}, {c}] يۆتكىلىشىنى قىلىپ، {flipped} تاش(لار)نى ئۆزگەرتتى"
   },
   "game_message": {
     "must_skip": "ئويناشچى {pid} ({piece})نىڭ مۇۋاپىق قەدەمى يوق ۋە ئۇ ئۆتкۈزۈشكە تىگىشلىك."

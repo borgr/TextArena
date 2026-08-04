@@ -19,10 +19,10 @@
     "{deck_count}": "Number of cards left in the deck"
   },
   "game": {
-    "start": "Briscola game started! Trump suit: {trump_suit} (Trump card: {trump_card})"
+    "start": "Taphoota Briscola jalqabame! Suutii trump: {trump_suit} (Kaardii trump: {trump_card})"
   },
   "prompt": {
-    "intro": "You are playing Briscola - Player {player_id}.\nGoal: Win tricks and collect the most points (120 total points in the deck).\nCard Points: A=11, 3=10, K=4, Q=3, J=2, others=0\nCard Power: A > 3 > K > Q > J > 7 > 6 > 5 > 4 > 2\nTrump cards beat non-trump cards regardless of power.\n\nAction: '[play X]' where X is the position (1-{max_pos}) of the card in your hand\n"
+    "intro": "Ati taphoota Briscola - Pilaayyerii {player_id}.\nGoolii: Moo'adhaa trickii fi pointii baayyee (jumla pointii 120 deckii keessa).\nPointii Kaardii: A=11, 3=10, K=4, Q=3, J=2, kannen=0\nQiimaa Kaardii: A > 3 > K > Q > J > 7 > 6 > 5 > 4 > 2\nKaardii trump kannen ala suutii moo'adhaa.\n\nTapha: '[play X]' X poozishinii (1-{max_pos}) kaardii kan harka keessa\n"
   },
   "hand": {
     "none": "Kaardii hin qabu.",
@@ -37,21 +37,21 @@
     "line": "  Player {player_id}: {card}{trump_mark}"
   },
   "turn": {
-    "score_entry": "Player {player_id}: {points} pts",
-    "trump_info": "Trump suit: {trump_suit}",
-    "trump_info_deck": "Trump suit: {trump_suit} | Cards left in deck: {deck_count}",
-    "board": "{hand}\n\n{trick}\n\nScores: {scores}\n{trump_info}\n\nPlay a card using [play X]"
+    "score_entry": "Pilaayyerii {player_id}: {points} pts",
+    "trump_info": "Suutii trump: {trump_suit}",
+    "trump_info_deck": "Suutii trump: {trump_suit} | Kaardii deckii keessa hafte: {deck_count}",
+    "board": "{hand}\n\n{trick}\n\nSkoorii: {scores}\n{trump_info}\n\nKaardii taphadhu [play X]"
   },
   "invalid_move": {
     "wrong_format": "[play X] bakka X'n iddoo kaardii (1, 2, 3, kkf) ta'e fayyadami.",
-    "out_of_range": "Invalid card position. You have {count} cards (1-{count})"
+    "out_of_range": "Poozishinii kaardii hinjiru. Ati {count} kaardii (1-{count}) qabda"
   },
   "action": {
-    "played": "Player {player_id} {card}",
-    "trick_win": "Player {winner} wins the trick with {card} and gains {points} points!"
+    "played": "Pilaayyerii {player_id} kaardii {card} taphate",
+    "trick_win": "Pilaayyerii {winner} trickii {card} waliin moo'ate fi {points} pointii argate!"
   },
   "outcome": {
-    "head": "Game Over! Player {winner} wins with {points} points!\n\nFinal Scores:\n{scores}",
-    "player_line": "Player {player_id}: {points} points ({tricks} tricks)\n"
+    "head": "Taphoota Xumurame! Pilaayyerii {winner} {points} pointii waliin moo'ate!\n\nSkoorii Dhuma:\n{scores}",
+    "player_line": "Pilaayyerii {player_id}: {points} pointii ({tricks} trickii)\n"
   }
 }

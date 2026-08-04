@@ -1,10 +1,10 @@
 {
   "player_prompt": {
-    "intro": "You are playing {color} in a game of Chess.\n Make your moves in UCI format enclosed in square brackets (e.g., [e2e4])."
+    "intro": "Yaa ngone {color} ci geexu Chess.\n Def seeni tànkam ci fomu UCI ci biiru bàkkaar yu weñ (s. n., [e2e4])."
   },
   "board": {
     "current_board": "Jëfandikukat: {board}",
-    "valid_moves": "{observation}\nValid moves: {moves}"
+    "valid_moves": "{observation}\nTànk yi ñu man a def: {moves}"
   },
   "invalid_move": {
     "wrong_format": "Jëf ju ñaaw.",

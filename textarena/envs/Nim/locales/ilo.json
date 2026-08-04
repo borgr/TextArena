@@ -10,10 +10,10 @@
     "correct_format_wrong_fields": "Player {player_id}, Saan a pannakibiang. Kolonna {col} ket awan iti pagbeddengan.",
     "out_of_range": "Ti indeks ti pila {pile_index} ket saan a mabalin.",
     "non_positive": "Masapul a maikkat ti di kumurang a 1 nga object.",
-    "exceeds_pile": "Cannot remove {quantity} from pile {pile_index} (only {pile_count} left)."
+    "exceeds_pile": "Saan a maikkaten ti {quantity} iti pila {pile_index} (laeng {pile_count} ti nabati)."
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "Player {player_id} nagay-ayam ti [{pile_index} {quantity}], ikkaten ti {quantity} nga obheto(s) iti pila {pile_index}."
   },
   "outcome": {
     "win": "Ti agay-ayam {player_id} ti nangala iti maudi a banag!"

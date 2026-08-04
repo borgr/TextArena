@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing 2048 on a {board_size}x{board_size} board. Your goal is to reach a {target_tile} tile by sliding identical numbers together!\nValid moves: [Up], [Down], [Left], [Right]. Tiles combine when they collide, doubling their value.\n"
+    "intro": "A lé mi do 2048 lé tọn to {board_size}x{board_size} tọn mẹ. Awhàn towe wẹ nado jẹ {target_tile} tile gbọn fifọ́n nọmba he yin dopo lẹ po!\nAwhàn he sọgbe: [Up], [Down], [Left], [Right]. Tiles lẹ nọ yin fifọ́n to whenue ye nọ gbọn, bo nọ yin didoakọnna.\n"
   },
   "board": {
     "current_board": "Sɔn: {score}\n{board}"
@@ -10,7 +10,7 @@
     "no_change": "Akpá e è ɖè é ka huzu ǎ - ali ɖevo wɛ ye wá."
   },
   "outcome": {
-    "win": "Congratulations, you reached {target_tile}! Final score {score}.",
-    "lose": "No moves left. Max tile {max_tile} - final score {score}."
+    "win": "Awhànfunnu, a jẹ {target_tile}! Akókò godo tọn {score}.",
+    "lose": "Awhàn ma tin ba. Tile he kọ̀n {max_tile} - akókò godo tọn {score}."
   }
 }

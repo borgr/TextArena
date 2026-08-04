@@ -22,18 +22,18 @@
     "final_ranking": "list of player indices from first eliminated to winner"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in an {num_players}-player Liar's Dice game.\nRules:\n- On your turn, you may either:\n  1) Make a new bid with a higher quantity or higher face (or both) than the current bid; i.e. '[Bid: 3, 4]',\n  2) Call the last bid by typing '[Call]'.\n\nIf you call:\n  - If the actual count of that face value among all dice is less than the bid, the last bidder loses one die.\n  - Otherwise, the caller loses one die.\nA player who reaches 0 dice is eliminated. The last remaining player wins."
+    "intro": "Bu é Jogadór {player_id} na un jogo di Dado di Mintira di {num_players} jogadór.\nRegras:\n- Na bu tornu, bu pode:\n  1) Faze un nova oferta ku un kantidade maior ou valor di cara maior (ou ambos) ki oferta atual; ez. '[Bid: 3, 4]',\n  2) Chamá última oferta digitando '[Call]'.\n\nSi bu chamá:\n  - Si kontadura real di valor di cara di dado entre todus dado é menor ki oferta, últimu ofertante perde un dado.\n  - Si nó, chamadór perde un dado.\nUn jogadór ki chega 0 dado é eliminadu. Últimu jogadór restante ganha."
   },
   "board": {
     "per_player": "\tPlayer {p}: {d}",
-    "new_round": "\nRodada nova - Dadi restanti: {dice_summary}\nSeus dadi atuais são: {your_dice}"
+    "new_round": "\nNova ronda - Dado restante: {dice_summary}\nBu dado atual é: {your_dice}"
   },
   "call": {
     "bidder_loses": "Jogadó {current_player_id} chamô! A konta real di kará {face_value} é {count}, ki é MENOS ki {quantity}.\nJogadó {loser_id} (o últimu ofercedó) perde un dadi.",
     "caller_loses": "Jogadó {current_player_id} chamô! A konta real di kará {face_value} é {count}, ki é >= {quantity}.\nJogadó {loser_id} (o chamadó) perde un dadi."
   },
   "action": {
-    "bid_announce": "Player {player_id} bids {quantity} of face {face_value}."
+    "bid_announce": "Jogadór {player_id} ofertá {quantity} di valor di cara {face_value}."
   },
   "invalid_move": {
     "call_no_bid": "N faze un konbersu sen oferese ninhun prémiu.",

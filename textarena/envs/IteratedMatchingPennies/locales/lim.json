@@ -6,7 +6,7 @@
     "wrong_format": "Ongeldige format; sjtub '[heads]' of '[tails]' in."
   },
   "message": {
-    "round_match": "Player 0 picked {choice0}; Player 1 picked {choice1}. Match -> Player 0 wins",
+    "round_match": "Speler 0 koos {choice0}; Speler 1 koos {choice1}. Match -> Speler 0 wint",
     "round_mismatch": "Speler 0 koos '{choice0}'; Speler 1 koos '{choice1}'. Mismatch -> Speler 1 wint."
   },
   "outcome": {

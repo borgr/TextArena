@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing {color} in a game of Breakthrough. You move {direction} on an {board_size}x{board_size} board.\nIn your turn you can move a single piece one step forward or diagonally forward.\nA piece may only move diagonally if an opponent piece is there, and only move into such a preoccupied square in a diagonal step.\nWhen stepping into a square with an opponent piece, you capture it and the opponent's piece is removed permanently from the board.\nUse UCI-like notation in brackets, e.g. [a2a3] to move from a2 to a3.\n* 'a' corresponds to the leftmost column, '1' is the bottom row (from White's perspective).\n* Blacks's home row is the top row (row 8 for an 8x8). White's home row is the bottom row (row 1 for an 8x8).\nThe first player whose piece reaches the opponent's home row wins. If your pieces are all captured, you lose."
+    "intro": "አንተ በብረክስሩ ጌም {color} እየተጫወትክ ነው። አንተ በ{direction} አቅጣጫ በ{board_size}x{board_size} ቦርድ ላይ ትንቀሳለሃል።\nበድንገትህ አንድ ክፍል አንድ እርምጃ ላይ ወይ ቀኝ ላይ ማንቀሳሰል ትችላለህ።\nክፍል ብቻ ቀኝ ላይ ሊንቀሳሰል ይችላል እንደ ተጫዋቾ ክፍል እዚያ ካለ፣ እና ብቻ እንደዚህ የተያዘ ካለ በቀኝ እርምጃ ውስጥ ሊንቀሳሰል ይችላል።\nበተጫዋቾ ክፍል ያለበት ካለ ሳጥን ውስጥ ስትንቀሳሰል፣ አንተ አሸንፋለህ እና ተጫዋቾ ክፍል ከቦርድ ላይ ልያል።\nUCI-ን የሚመስል አገባብ በቡድን ውስጥ ተጠቀም፣ ለምሳሌ [a2a3] ከa2 ወደ a3 ለመንቀሳሰል።\n* 'a' የግራውን አምድ ይወክላል፣ '1' የታችኛው አምድ ነው (ከነጭ አንፃር)።\n* ጥቁር የቤት አምድ ላይኛው አምድ ነው (አምድ 8 ለ 8x8)። ነጭ የቤት አምድ ታችኛው አምድ ነው (አምድ 1 ለ 8x8)።\nየመጀመሪያው ተጫዋቾ ክፍል የተጫዋቾ የቤት አምድ ያስረክባል ያሸንፋል። ክፍሎችህ ሁሉ ተሸንፈው ካሉ፣ አንተ ትሸነፋለህ።"
   },
   "invalid_move": {
     "wrong_format": "ብኽብረትኩም ኣብ መንጎ ሓጹር ዘሎ ኣልጀብራዊ ምልክታ [a2a3] ተጠቐሙ።",
@@ -8,7 +8,7 @@
     "illegal": "እዚ ስጉምቲ'ዚ ነቲ ናይ መኽፈሊ ሕጊ ኣይስዕብ ወይ ድማ ናትካ ኣይኮነን።"
   },
   "game_action": {
-    "moved": "Player {player_id} moves {move_str} ({piece})."
+    "moved": "ተጫዋቾ {player_id} {move_str} ({piece}) ንቀሳሰለ።"
   },
   "outcome": {
     "white_reached": "ጻዕዳ ናብ ናይ ጸለምቲ መስመር በጺሓ።",

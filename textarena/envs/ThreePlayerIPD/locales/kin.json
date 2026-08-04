@@ -8,7 +8,7 @@
   },
   "results": {
     "header": "### Icyiciro {round} - Ibisubizo:",
-    "pair_line": "{observation}\n\t Player {i} vs Player {j} wafashe kwiyumvira {choice_i} na {choice_j} kuri kuri (Player {i} yongereje {gain_i}, Player {j} yongereje {gain_j})",
+    "pair_line": "{observation}\n\t Ugenzi {i} na Ugenzi {j} bageneye {choice_i} na {choice_j} mtawali (Ugenzi {i} yabonye {gain_i}, Ugenzi {j} yabonye {gain_j})",
     "scores_open": "{observation} -> Imibare y'ubu: ",
     "score_first": "{observation}Player {player_id} ({score})",
     "score_next": "{observation}; Player {player_id} ({score})",

@@ -52,6 +52,6 @@
   },
   "outcome": {
     "head": "ئوينى تامام! ئوينچي {winner} {points} خال بىلەن يەڭدى!\n\nئاخىرلىشىش نەتىجىلىرى:\n{scores}",
-    "player_line": "Player {player_id}: {points} points ({tricks} tricks)\n"
+    "player_line": "ئويۇنچى {player_id}: {points} نۇمۇر ({tricks} ئويۇن)\n"
   }
 }

@@ -1,9 +1,9 @@
 {
   "player_prompt": {
-    "intro": "Anda adalah Pemain {player_id} di Quantum Tic Tac Toe.\nSimbol Anda adalah '{symbol}', dan nomor langkah Anda selalu {parity} (misalnya, X1, X3 atau O2, O4).\n\nTujuan: Menang dengan membentuk garis tiga tanda klasik (dipecahkan dari superposisi).\n\nCara Bermain:\n- Pada setiap giliran, letakkan tanda menakutkan di dua kotak kosong yang berbeda menggunakan format '[a,b]'.\n- Tanda-tanda ini terjalin, dan diberi label seperti 'X1 / X1' atau 'O4 / O4'.\n- Anda tidak dapat meletakkan tanda menakutkan di kotak yang sudah runtuh (dipecahkan).\n\nAturan Runtuh:\n- Jika langkah Anda menciptakan siklus dalam grafik keterjalinan, maka akan runtuh secara otomatis.\n- Setiap tanda menakutkan dalam siklus berubah menjadi tanda klasik di salah satu dari dua posisinya.\n- Tanda-tanda menakutkan tergantung juga runtuh.\n\nKemenangan:\n- Permainan berakhir ketika pemain memiliki tiga tanda klasik dalam baris.\n- Jika kedua pemain mendapatkan garis selama runtuh yang sama, maka pemain dengan nomor langkah maksimum yang lebih rendah memenangkan.\n\nContoh langkah: '[0,4]' meletakkan tanda menakutkan di sel 0 dan 4."
+    "intro": "Sida Player {player_id} ri Quantum Tic Tac Toe.\nSimbolu'mu '{symbol}', siyo nomoro giliranmu selalu {parity} (contona, X1, X3 atawa O2, O4).\n\nTujuan: Menang ngasi jari tiga tanda klasik (mengeras dari superposisi).\n\nCara Main:\n- Ri setiap giliran, taruh tanda mengerikan ri dua lokasi kosong beda menggunakan format '[a,b]'.\n- Tanda-tanda ini terjerat, siyo label 'X1 / X1' atawa 'O4 / O4'.\n- Te' bisa taruh tanda mengerikan ri lokasi yang sudah mengeras (mengeras).\n\nAturan Mengeras:\n- Jika giliranmu menciptakan siklus ri grafik jeratan, maka mengeras secara otomatis.\n- Setiap tanda mengerikan ri siklus berubah jadi tanda klasik ri salah satu posisinya.\n- Tanda mengerikan yang tergantung juga mengeras.\n\nKemenangan:\n- Permainan berakhir ketika pemain memiliki tiga tanda klasik berderet.\n- Jika kedua pemain mendapatkan garis selama mengeras yang sama, maka yang memiliki nomor giliran maksimum lebih rendah menang.\n\nContoh giliran: '[0,4]' taruh tanda mengerikan ri sel 0 siyo 4."
   },
   "board": {
-    "current_board": "Papan Tic Tac Toe Kuantum:\n\n{board}\n\nKirimkan langkah Anda sebagai '[a,b]' untuk meletakkan tanda kuantum di dua lokasi."
+    "current_board": "Papan Quantum Tic Tac Toe:\n\n{board}\n\nKirim giliranmu sebagai '[a,b]' untuk taruh tanda kuantum ri dua lokasi."
   },
   "invalid_move": {
     "wrong_format": "Format de'na valid. Pakkegunai '[a,b]'.",
@@ -11,15 +11,15 @@
     "already_solidified": "Sala seddi sel'e pura matedde."
   },
   "game_action": {
-    "placed": "Pemain {player_id} meletakkan simbol mereka dalam superposisi antara sel {pos_a} dan {pos_b}."
+    "placed": "Pemain {player_id} taruh simbolnya ri superposisi antara sel {pos_a} siyo {pos_b}."
   },
   "game_message": {
-    "dependent_resolved": "Superposisi tergantung telah terpecahkan. Sel ({r}, {c}) sekarang {symbol}.",
-    "last_cell_resolved": "Superposisi untuk sel terakhir telah terpecahkan. Sel ({r}, {c}) sekarang {symbol}.",
-    "superposition_resolved": "Superposisi telah terpecahkan. Sel ({r}, {c}) sekarang {symbol}."
+    "dependent_resolved": "Superposisi tergantung diselesaikan. Sel ({r}, {c}) sekarang {symbol}.",
+    "last_cell_resolved": "Superposisi untuk sel terakhir diselesaikan. Sel ({r}, {c}) sekarang {symbol}.",
+    "superposition_resolved": "Superposisi diselesaikan. Sel ({r}, {c}) sekarang {symbol}."
   },
   "outcome": {
-    "win": "Pemaen {player_id} menang dengan nilai terkonsolidasi!",
+    "win": "Pemain {player_id} menang dengan tanda mengeras!",
     "draw": "Pelengenna padai!"
   }
 }

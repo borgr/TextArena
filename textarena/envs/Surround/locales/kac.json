@@ -10,7 +10,7 @@
     "{groups}": "Neutral ranking data (a list of player-id groups, best to worst); do not translate"
   },
   "player_prompt": {
-    "intro": "{num_players}-Player Surround on a {width}x{height} grid.\nYou are player {player_id}. Valid moves: '[up]' '[down]' '[left]' '[right]' or w/s/a/d.\nObjective: outlive everyone else. Trails are deadly; wall hits kill; head-on crashes kill both."
+    "intro": "{num_players}-ကစားသမား ဘုတ်ပတ်လည် ကစားနည်း {width}x{height} ဘုတ်။\nသင်သည် ကစားသမား {player_id} ဖြစ်သည်။ ခုန်ညင်းများ: '[up]' '[down]' '[left]' '[right]' သို့မဟုတ် w/s/a/d။\nရည်ရွယ်ချက်: အခြား ကစားသမားများ ထက် ပိုကြာအောင် ရှင်သန်ရန်။ လမ်းကြောင်းများသည် အဆုံးသတ် ဖြစ်စေသည်; ဘုတ် တိုက်မိလျှင် အဆုံးသတ် ဖြစ်စေသည်; တိုက်မိလျှင် နှစ်ဦး အဆုံးသတ် ဖြစ်စေသည်။"
   },
   "board": {
     "current": "Ya na Hpung Komiti: {board}",
@@ -25,6 +25,6 @@
     "outlived": "Kaga ni yawng hta grau asak galu ai.",
     "all_dead": "Hpung masha yawng si mat ai.",
     "turn_limit": "Hpang jahtum na matu, asak hkrung ai wa gaw dang lu sai.",
-    "ranking": "{reason} အဆုံး အဆင့် အုပ်စုများ (အကောင်းဆုံး → အဆိုးဆုံး): {groups}"
+    "ranking": "{reason} နောက်ဆုံး အဆင့်သတ်မှတ်ချက် အုပ်စုများ (အကောင်းဆုံး မှ အဆိုးဆုံး): {groups}"
   }
 }

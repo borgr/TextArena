@@ -24,8 +24,8 @@
     "empty_command": "Luso la kusuzga. Lembani 'draw' panji 'move <source><destination> [count]'.",
     "empty_action": "Ntchito Yopanda Zochita",
     "move_needs_args": "Movement command ikufuna source ndi destination. Usage: 'move <source> <destination> [count]'",
-    "count_positive": "Chiŵerengero chiyenera kukhala chabwino kapena \"onse\"",
-    "count_invalid": "Kuwerengera kosagwira ntchito. Gwiritsani ntchito nambala kapena 'onse'",
+    "count_positive": "Idadi lazima iwe chanya au 'all'",
+    "count_invalid": "Idadi isiyo sahihi. Tumia nambari au 'all'",
     "unknown_command": "Galani lisikuziwe '{cmd}'. Tumia 'draw', 'move <source> <destination> [count]', or 'forfeit'",
     "wrapped": "Action {n}: {msg}"
   },
@@ -59,7 +59,7 @@
   "outcome": {
     "forfeit": "Mchezo ulifungwa. Alama ya mwisho: {score} kadini kwenye foundation.",
     "won": "Mwacita makora comene, mwathereska pa maseŵero gha Klondike!",
-    "turn_limit": "Game over! You reached the maximum of {max_turns} turns. Score: {score} cards in foundations."
+    "turn_limit": "Mchezo umemalizika! Umeifikia idadi ya juu ya {max_turns} midundo. Alama: {score} kadi katika msingi."
   },
   "board": {
     "title": "=== KLONDIKE SOLITAIRE=== Kasi mungasambira wuli?",

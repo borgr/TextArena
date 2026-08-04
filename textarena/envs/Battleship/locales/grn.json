@@ -9,11 +9,11 @@
   },
   "game_action": {
     "you_sunk": "Yma! Nderehe ipyahuápe ha yma {coord}! Tuja board pyahu:\n{view}",
-    "opp_sunk": "Opponent sunk your ship at {coord}! Your updated board:\n{view}",
+    "opp_sunk": "Oponente ojukapa nde ygarata {coord}-pe! Ne asesorado pyahu:\n{view}",
     "you_hit": "Ohasa! Nderehe ipyahuápe {coord}! Tuja board pyahu:\n{view}",
     "opp_hit": "Opaite ojogua ipyahuápe {coord}! Tuja board pyahu:\n{view}",
     "you_miss": "Asy! Nderehe asy {coord}! Tuja board pyahu:\n{view}",
-    "opp_miss": "Opponent missed your ship at {coord}! Your updated board:\n{view}"
+    "opp_miss": "Oponente ndaha'éi nde ygarata {coord}-pe! Ne asesorado pyahu:\n{view}"
   },
   "outcome": {
     "win": "Player {player_id} ojogua ipyahuápe opaite ha yma!"

@@ -13,7 +13,7 @@
     "exceeds_pile": "Ba za a iya cire {quantity} daga tarin {pile_index} (kawai {pile_count} hagu)."
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "Dan wasa {player_id} ya buga [{pile_index} {quantity}], cire {quantity} abu daga tari {pile_index}."
   },
   "outcome": {
     "win": "Mai kunnawa {player_id} ya ɗauki abu na ƙarshe ((s)!"

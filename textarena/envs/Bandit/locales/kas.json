@@ -1,14 +1,14 @@
 {
   "player_prompt": {
-    "intro": "You are in a room with {num_buttons} buttons: {buttons}. Each button is associated with a Bernoulli distribution with a fixed but unknown mean; the means for the buttons could be different.\nFor each button, when you press it, you will get a reward that is sampled from associated distribution.\nYou have {num_turns} time steps and, on each time step, you can choose any button and receive the reward.\nYour goal is to strategically choose buttons at each time step to collect information about their reward distribution, that will let you choose the button with the highest mean reward correctly at the end of {num_turns} turns."
+    "intro": "چھوہ تُس اَکھ کمرے ہیتھ {num_buttons} بٹن ہین: {buttons}۔ ہر بٹن اَکھ برنولی ڈسٹری بیوشن سیتھ منسلک ہے جس کا اَکھ مقررہ تہٕ نامعلوم مین ہے؛ بٹنن ہنٛد مین مختلف ہو سکتا ہے۔\nہر بٹن کھاتیر، جب تُس اُسے دبایو، تُسے اَکھ انعام ملے گا جو منسلک ڈسٹری بیوشن سیتھ نمونہ لیا گیا ہے۔\nچھوہ تُس {num_turns} ٹائم سٹیپز ہین تہٕ، ہر ٹائم سٹیپ پہ، تُسے کوئی بھی بٹن چن سکتا ہے تہٕ انعام وصول کر سکتا ہے۔\nچھوہ تُس کا مقصد ہر ٹائم سٹیپ پہ بٹنن کا سٹریٹجیکل چناؤ کرنا ہے تاکہ اُنہنٛد انعام ڈسٹری بیوشن کے بارے میں معلومات اکٹھا کر سکیں، جو تُسے {num_turns} ٹرنز کے آخر میں سب سے زیادہ مین انعام والا بٹن چننے میں مدد کرے گا۔"
   },
   "board": {
     "stat_line": "{button}: {reward} ({count} واری خۆوَٹھ)",
     "summary": "{stats} सिम्बाइरीः एम. एस. एस्केप, एनएसए।"
   },
   "invalid_move": {
-    "wrong_format": "प्लेयर ने वैध एक्शन फॉर्मेट के साथ जवाब न दिया।",
-    "invalid_button": "अमान्य बटन चुनल गय."
+    "wrong_format": "کھلاڑی نے درست ایکشن فارمیٹ کے ساتھ جواب نہیں دیا۔",
+    "invalid_button": "اَکھ غلط بٹن چنا گیا ہے۔"
   },
   "game_action": {
     "pressed": "تۆوے {button} بٹن دَباو۔ تۆوے {reward} انعام وِچال"
@@ -17,7 +17,7 @@
     "final_decision": "तुह्य़ छि वखर फ़ॉरमुत त वुछुन तिम्न ह्न्देन फायदन बापथ अमि सॉति बज़ात। तोय छे अबि अख बेहतरीन फ़ॉयर तय करान।"
   },
   "outcome": {
-    "win": "बधाई. तुहने सही बटन चुनवा।",
-    "lose": "तुह्सीने गलत बटन चुन."
+    "win": "مبارک ہو! چھوہ تُس نے درست بٹن چنا۔",
+    "lose": "چھوہ تُس نے غلط بٹن چنا۔"
   }
 }

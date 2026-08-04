@@ -32,15 +32,15 @@
     "{ranking}": "The final ranking list of player numbers, low to high"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in a {num_players}-player Texas Hold'em Poker game.\nGame Information:\n- {num_rounds} hands total\n- Starting stack: {starting_chips} chips\n- Blinds: {small_blind}/{big_blind}\n\nAvailable actions (exact tokens):\n  '[Check]'  - when no bet is live\n  '[Call]'   - match the current bet\n  '[Fold]'   - discard your hand\n  '[Bet N]'  - open for N chips\n  '[Raise N]'- raise by N chips\n"
+    "intro": "Uli mwine wa kufikisha {player_id} mu kisomo cha Poker cha Texas Hold'em cha {num_players} bantu.\nMashishi ya kisomo:\n- {num_rounds} mikono yote\n- Kusokota kwa ntandiko: {starting_chips} chipu\n- Mabinda: {small_blind}/{big_blind}\n\nMikakati iliyopo (tokeni sahihi):\n  '[Check]'  - wakati hakuna beti iliyopo\n  '[Call]'   - lingana na beti iliyopo\n  '[Fold]'   - suka mkono wako\n  '[Bet N]'  - fungua kwa N chipu\n  '[Raise N]'- ongeza kwa N chipu\n"
   },
   "game": {
-    "start": "Starting a new {num_rounds}-round Texas Hold'em game with {num_players} players."
+    "start": "Kuanza kisomo kipya cha Poker cha Texas Hold'em cha {num_rounds}-round na {num_players} bantu."
   },
   "board": {
-    "panel": "===== Hand {round} / {num_rounds} - {street} =====\nPot: {pot} | Current bet: {current_bet}\nVisible board: [{comm}]\n{lines}\nYour hole: {hole0}, {hole1}\n==============================================",
-    "player_line": "P{pid}{role_txt}: {chips} chips | bet {bet} | {status}",
-    "street_preflop": "Pre‑flop",
+    "panel": "===== Mkono {round} / {num_rounds} - {street} =====\nNtandiko: {pot} | Beti iliyopo: {current_bet}\nBodi iliyopo: [{comm}]\n{lines}\nShimo lako: {hole0}, {hole1}\n==============================================",
+    "player_line": "P{pid}{role_txt}: {chips} chipu | beti {bet} | {status}",
+    "street_preflop": "Kabla ya kufikisha",
     "street_flop": "Flop",
     "street_turn": "Turn",
     "street_river": "River",
@@ -52,29 +52,29 @@
     "status_all_in": "all-in"
   },
   "invalid_move": {
-    "wrong_action": "Invalid poker action.",
-    "check_facing_bet": "Cannot check facing a bet.",
-    "raise_too_small": "Raise must exceed current bet.",
-    "game_complete": "The game is already complete."
+    "wrong_action": "Kakati ya Poker isiyofaa.",
+    "check_facing_bet": "Hauwezi kuangalia ukikabiliwa na beti.",
+    "raise_too_small": "Kuongeza lazima iwe kubwa kuliko beti iliyopo.",
+    "game_complete": "Kisomo tayari kimekamilika."
   },
   "message": {
-    "eliminated_invalid": "Player {pid} was eliminated by invalid move."
+    "eliminated_invalid": "Mwine wa kufikisha {pid} aliondolewa kwa sababu ya kakati isiyofaa."
   },
   "action": {
-    "fold": "Player {pid} folds.",
-    "check": "Player {pid} checks.",
-    "call": "Player {pid} calls {amount}.",
-    "bet": "Player {pid} bets to {total}.",
-    "raise": "Player {pid} raises to {total}."
+    "fold": "Mwine wa kufikisha {pid} anakunja.",
+    "check": "Mwine wa kufikisha {pid} anaangalia.",
+    "call": "Mwine wa kufikisha {pid} anaita {amount}.",
+    "bet": "Mwine wa kufikisha {pid} anafungua hadi {total}.",
+    "raise": "Mwine wa kufikisha {pid} anaongeza hadi {total}."
   },
   "showdown": {
-    "fold_win": "Player {winner} wins the pot of {pot} chips (all others folded).",
+    "fold_win": "Mwine wa kufikisha {winner} anashinda ntandiko wa {pot} chipu (wote wengine wamekunja).",
     "reveal_line": "Player {pid}: {c0} {c1}",
-    "reveal": "Showdown round {round}:\n{reveals}\nCommunity cards: {community}",
-    "win": "Player {winner} wins the pot of {pot} chips.",
-    "tie": "Tie between players {winners}. Each receives {share} chips."
+    "reveal": "Mzunguko wa kuonyesha {round}:\n{reveals}\nKadi za jumuiya: {community}",
+    "win": "Mwine wa kufikisha {winner} anashinda ntandiko wa {pot} chipu.",
+    "tie": "Usawa kati ya wachezaji {winners}. Kila mmoja anapokea {share} chipu."
   },
   "outcome": {
-    "final": "Final ranking (low→high): {ranking}. Winner: Player {winner}"
+    "final": "Uainishaji wa mwisho (chini→juu): {ranking}. Mshindi: Mwine wa kufikisha {winner}"
   }
 }

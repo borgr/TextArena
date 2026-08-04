@@ -14,7 +14,7 @@
   },
   "game_action": {
     "attack": "P{player_id} {opp_id}ଙ୍କ ହାତ {opp_idx} ଉପରେ ଆକ୍ରମଣ କରେ: ଏହା {opp_val} ରୁ {new_val} ପର୍ଯ୍ୟନ୍ତ ଯାଏ.",
-    "split": "P{player_id} splits into [{L}, {R}]."
+    "split": "P{player_id} [{L}, {R}] ମଧ୍ୟରେ ବିଭାଜିତ ହୋଇଛି।"
   },
   "history": {
     "entry": "ପି {player_id} {desc}"

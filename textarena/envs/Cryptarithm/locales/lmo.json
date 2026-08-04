@@ -9,11 +9,11 @@
     "{pct}": "Progress as a percentage string, e.g. 50%"
   },
   "player_prompt": {
-    "intro": "Map each letter to a unique digit so the arithmetic holds.\nAssign with `[A 5]`, re-assign anytime.\n"
+    "intro": "Mappa ogni letera a un digit unich perchè l'aritmetica la tegna.\nAssegna con `[A 5]`, re-assegna in ogni moment.\n"
   },
   "invalid_move": {
-    "wrong_format": "Bad action format. Use `[A 5]`.",
-    "letter_not_in_puzzle": "Letter {letter} not in puzzle.",
+    "wrong_format": "Format de azion sbaglià. Doperà `[A 5]`.",
+    "letter_not_in_puzzle": "La letera {letter} l'è no in del puzzle.",
     "digit_used": "Digit {digit} già usàt da {used_letter}.",
     "leading_zero": "La cifra de punta d'una parolla la pò minga vèss 0."
   },

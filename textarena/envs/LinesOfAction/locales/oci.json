@@ -10,7 +10,7 @@
     "{to}": "The destination coordinate of a move, such as b3"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in game of LinesOfAction.\nYour pieces are '{side}', opponent pieces are '{other}'.\nMove format: `[b1b3]` (from-coord to-coord). A legal move travels horizontally, vertically, or diagonally a number of squares equal to the total pieces (any colour) in that line. You may jump over your own pieces, but not opponent pieces; landing on an opponent captures it.  Win when all your pieces are 8-neighbour connected."
+    "intro": "Sètz lo jogaire {player_id} dins un jòc de LinesOfAction.\nVòstras pèças son '{side}', las pèças de l'adversari son '{other}'.\nFormat de movement: `[b1b3]` (coordenada de partida - coordenada d'arribada). Un movement legal viatja orizontalament, verticalament o diagonalament un nombre de cases egal al nombre total de pèças (de quina que siá color) dins aquela linha. Podètz sautar vòstras pròpias pèças, mas pas las pèças de l'adversari; aterrar sus una pèça de l'adversari la captura.  Ganhatz quand totas vòstras pèças son connectadas en 8 direccions."
   },
   "board": {
     "current_board": "Conselh: {board}"

@@ -1,9 +1,9 @@
 {
   "player_prompt": {
-    "intro": "You are playing {color} in a game of Chess.\n Make your moves in UCI format enclosed in square brackets (e.g., [e2e4])."
+    "intro": "Ocimbila {color} mu joga ya Xadrez.\n Fanya movimentos enu mu formato UCI omuvidiwa kwa mbalango za mraba (ex., [e2e4])."
   },
   "board": {
-    "current_board": "[0]) Oseketa ya velapo yohongele yaco, ko: {board}",
+    "current_board": "Tábua ya joga:\n{board}",
     "valid_moves": "{observation}\nOvilwa viyambo: {moves}"
   },
   "invalid_move": {
@@ -11,10 +11,10 @@
     "illegal": "Oku ci linga ka ca sungulukile."
   },
   "game_action": {
-    "moved": "Player {player_id} made the following move: {move_uci}"
+    "moved": "Jogadori {player_id} afanya movimento ifuatayo: {move_uci}"
   },
   "outcome": {
     "draw": "Omapalo yaco ya sulila lika vekango.",
-    "win": "Player {player_id} wins the match."
+    "win": "Omutu {player_id} unuungula omutandu."
   }
 }

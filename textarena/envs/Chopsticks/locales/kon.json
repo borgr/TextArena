@@ -14,7 +14,7 @@
   },
   "game_action": {
     "attack": "P{player_id} akiluka mkono wa P{opp_id} {opp_idx}: unatoka {opp_val} hadi {new_val}.",
-    "split": "P{player_id} splits into [{L}, {R}]."
+    "split": "Mwana nkenda {player_id} ukala na [{L}, {R}]."
   },
   "history": {
     "entry": "P{player_id} {desc}"

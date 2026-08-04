@@ -17,7 +17,7 @@
     "after_moves": "Papan sanggeus gerakan simultan: {board}"
   },
   "game_action": {
-    "invalid_death": "Pamaén {player_id} maot alatan move anu teu valid."
+    "invalid_death": "Pemain {player_id} maot alatan gerakan anu teu valid."
   },
   "outcome": {
     "survived_win": "Pamaén {player_id} salamet; nu séjénna kacilakaan.",

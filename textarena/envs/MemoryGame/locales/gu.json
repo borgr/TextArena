@@ -13,8 +13,8 @@
     "already_matched": "અમાન્ય ચાલ. ખેલાડી {player_id}એ એક અથવા બંને કાર્ડ પસંદ કર્યા છે જે પહેલાથી મેળ ખાતા હતા."
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "પ્લેયર {player_id} દ્વારા પસંદ કરાયેલા કાર્ડ્સ [{r1} {c1}] અને [{r2} {c2}] પર મેળ ખાય છે!",
+    "cards_no_match": "પ્લેયર {player_id} દ્વારા પસંદ કરાયેલા કાર્ડ્સ મેળ ખાતા નથી. [{r1} {c1}] અને [{r2} {c2}] પરના કાર્ડ્સ અનુક્રમે {pos1} અને {pos2} છે."
   },
   "outcome": {
     "draw": "બંને ખેલાડીઓએ કાર્ડ્સની સમાન સંખ્યાને મેળ ખાતી હતી.",

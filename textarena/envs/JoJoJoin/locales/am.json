@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in JoJoJoin, played on a 5x5 board with cells numbered 0-24.\nOn your turn, place your mark on any empty cell, e.g. '[12]'.\nYOU WIN by getting FOUR of your marks in a row — four consecutive cells horizontally, vertically, or diagonally.\nAs Player {player_id} you are '{symbol}'; your opponent is '{opponent_symbol}'."
+    "intro": "አንተ ተጫዋች {player_id} በጆጆጆይን ነህ፣ በ5x5 መስደድ ላይ ተጫውቶ ሲልኩ 0-24 ተቀባይ ሃላፍ አለ።\nበድንገትህ ላይ፣ ምልክትህን በማናቸውም ባዶ ሃላፍ ላይ አስቀምጥ፣ ለምሳሌ '[12]'።\nአንተ አሸንፋለህ ማለት ምልክቶችህ አራት በስተኳል አራት ተከታታይ ሃላፎች አድርገህ ነው — አራት ተከታታይ ሃላፎች አግድም ፣ አንድ አንድ እንደ ሁለት እንደ ተከታታይ ሃላፎች እንደ ሰንጠረዥ እንደ ተከታታይ ሃላፎች።\nአንተ ተጫዋች {player_id} አንተ ነህ '{symbol}'፤ ተወዳዳሪህ ደግሞ '{opponent_symbol}' ነው።"
   },
   "board": {
     "current_board": "የአሁን ቻርት:\n\n{board}\n\nተገንብቶ እንቅስቃሴዎች: {moves}"

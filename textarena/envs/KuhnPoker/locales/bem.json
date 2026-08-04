@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a {max_rounds} round game of Kuhn Poker.\nGame Rules:\n- Kuhn Poker uses a 3-card deck with J, Q, K (J lowest, K highest)\n- Each player antes {ante} chip and receives 1 card each round (note that the cards are dealt without replacement, so you cannot have the same card as your opponent).\n- Game continues for {max_rounds} rounds\n- The player with the most chips after all rounds wins\nAction Rules:\n- '[check]': Pass without betting (only if no bet is on the table)\n- '[bet]': Add 1 chip to the pot (only if no bet is on the table)\n- '[call]': Match an opponent's bet by adding 1 chip to the pot\n- '[fold]': Surrender your hand and let your opponent win the pot"
+    "intro": "Nga ni Player {player_id} mu mupila wa {max_rounds} wa Kuhn Poker.\nMikwai ya Mupila:\n- Kuhn Poker ukwai kwa kutumia kadi 3 za J, Q, K (J ndiyo ya kung'ara, K ndiyo ya juu zaidi)\n- Kila mupili akwai {ante} chip na akwata kadi 1 kila round (kumbuka kwamba kadi zikwata bila kubadilishwa, kwa hivyo huwezi kuwa na kadi moja na mpinzani wako).\n- Mupila ukwai kwa {max_rounds} round\n- Mupili aliye na chip nyingi zaidi baada ya round zote akwai\nMikwai ya Vitendo:\n- '[check]': Pita bila kubet (ni kwa mpangilio tu hakuna bet iko kwenye meza)\n- '[bet]': Ongeza chip 1 kwenye pot (ni kwa mpangilio tu hakuna bet iko kwenye meza)\n- '[call]': Linganisha bet ya mpinzani wako kwa kuongeza chip 1 kwenye pot\n- '[fold]': Achilia mkono wako na acha mpinzani wako akwai pot"
   },
   "init_round": {
     "round_start": "### Kuanza round {current_round} kati ya {max_rounds} rounds. Kadi yako ni: '{player_card}'",
@@ -11,12 +11,12 @@
     "not_legal": "Icintu cifwile ukuba {legal_actions}."
   },
   "action": {
-    "submit_move": "Player {player_id}, submitted move: '[{move}]'.",
+    "submit_move": "Player {player_id}, alitoa kitendo: '[{move}]'.",
     "valid_actions": "Ifyo mwingacita ni fi: {legal_actions}.",
-    "round_summary": "{reason} Current scores: Player 0: '{player_0_chips}'; Player 1: '{player_1_chips}'"
+    "round_summary": "{reason} Vikwati vya sasa: Mchezaji 0: '{player_0_chips}'; Mchezaji 1: '{player_1_chips}'"
   },
   "showdown": {
-    "showdown_summary": "Showdown: Player {winner}'s {winner_card} beats Player {loser}'s {loser_card}. Player {winner} wins pot of {pot_value} chips."
+    "showdown_summary": "Kupambana: Kalata ya Mchezaji {winner} {winner_card} inashinda Kalata ya Mchezaji {loser} {loser_card}. Mchezaji {winner} akashinda ng'anda ya {pot_value} chips."
   },
   "outcome": {
     "draw": "Pa mpela ya {max_rounds} round, aba bwangalo bonse babili balikwete impendwa imo ine iya fipe.",

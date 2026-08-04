@@ -9,7 +9,7 @@
     "wrong_format": "Gníomh míbhailí. Úsáid '[Hit]' nó '[Stand]'."
   },
   "game_message": {
-    "hand_result": "Hand {hand_number}: you {outcome}. Your final {player_score}, Dealer {dealer_score}.",
+    "hand_result": "Lámh {hand_number}: d'éirigh leat {outcome}. Do scór deiridh {player_score}, Scór an díoltóra {dealer_score}.",
     "all_complete": "=== Tá gach {num_hands} lámh críochnaithe ===\nBuaite: {wins}, Caillte: {losses}, Comhscóir: {draws}\n"
   },
   "outcome": {

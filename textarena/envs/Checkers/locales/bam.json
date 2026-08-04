@@ -3,11 +3,11 @@
     "current_board": "Bi tile la: {board}"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} playing a game of Checkers as {color}.\nMake your move in chess-style notation [fileRank fileRank], e.g. '[b2c3]' (column letter a–h, row digit 0–7).\nBasic rules:\n  • Move diagonally forward by 1 if empty.\n  • Capture by jumping over an opponent piece.\n  • A piece is Kinged if it reaches the opposite end.\n"
+    "intro": "I ni Player {player_id} ka kalan ka Checkers ɔɔrɔn {color}.\nKɛɛ fɛɛ kɔɔnɛ kɛɛ chess-style notation [fileRank fileRank], nɔɔ bɛɛɛ '[b2c3]' (kɔlɔnɛ a–h, sɛri digit 0–7).\nKalan kɔɔrɔ:\n  • Kɛɛ daɲɛ ka ɲɔɔnɛ kɔɔnɛ ɲɔɔnɛ fɛɛ.\n  • Kɛɛ bɔɔɲɛ kɛɛ fɔɔɲɛ dɔɔɲɛ kɔɔnɛ.\n  • Kɛɛ kɔɔnɛ kɛɛ ka fɛɛ dɔɔɲɛ kɔɔnɛ ka kɔɔrɔnɛ."
   },
   "invalid_move": {
     "wrong_format": "A be se ka ca a la, ka [a1b2], oyo [b2c3].",
-    "illegal": "Move [{move}] is illegal."
+    "illegal": "Kɛlɛ [{move}] tɛ kɔrɔ."
   },
   "game_action": {
     "moved": "Jalakɛla {player_id} ye a taama bila {move}."

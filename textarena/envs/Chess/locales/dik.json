@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "Yin aalë bän {color} në lööc cï thïn Chess.\n Luoi kä kuany në UCI format, käär thïn [e.g., [e2e4]]."
+    "intro": "Yin abi ci {color} ee gem ku Chess.\n Cɔɔl apuruŋ yïn ee UCI format ee ku cɔɔl kek ke tiit (tɛnɛ, [e2e4])."
   },
   "board": {
     "current_board": "Akut ye kɔc mac: {board}",

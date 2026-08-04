@@ -1,12 +1,12 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} playing a game of Pig Dice.\n\nRules:\n- On your turn, you can either '[roll]' or '[hold]'\n- Roll a 2-6: Add to your turn total\n- Roll a 1: Lose turn total and end turn\n- Hold: Add turn total to your score and end turn\n- First to {winning_score} points wins\n\nWhen it's your turn, you'll see the current scores and turn total.\nRespond with '[roll]' to roll the die or '[hold]' to bank your points."
+    "intro": "Ami Player {player_id} Pig Dice khel eda.\n\nNiyam:\n- Apni palte, ami '[roll]' ba '[hold]' korte pari\n- 2-6 roll korle: Apni palte total-te joda\n- 1 roll korle: Apni palte total haraon aar palte ses\n- Hold korle: Apni palte total apni score-te joda aar palte ses\n- Sab theke age {winning_score} point pele jite\n\nJokhon apni palte, apni current score aar palte total dekhte parben.\n'[roll]' korte die roll korben ba '[hold]' korte apni point bank korben."
   },
   "invalid_move": {
     "invalid_action": "ᱚᱵᱚᱫᱷ ᱮᱠᱥᱚᱱ ᱯᱷᱳᱨᱢᱮᱴ. '[roll]' ᱟᱨᱵᱟᱝ '[hold]' ᱵᱮᱵᱷᱟᱨ ᱠᱟᱱᱟ."
   },
   "actions": {
-    "player_busted": "Player {player_id} busted, losing {turn_total} points!",
+    "player_busted": "Player {player_id} bust korlo, {turn_total} point haralo!",
     "player_hold": "Player {player_id} ᱫᱚ ᱦᱟᱹᱥᱤ ᱟᱨ {turn_total} ᱯᱚᱭᱮᱱᱴ ᱵᱮᱸᱠ ᱠᱟᱫᱟ."
   },
   "board": {

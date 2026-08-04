@@ -13,8 +13,8 @@
     "already_matched": "Langkah indak sah. Pamain {player_id} mamiliah ciek atau kaduo kartu nan alah disuruak-saruakan."
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "Kartu nan dipilih Pemain {player_id} di posisi [{r1} {c1}] dan [{r2} {c2}] cocok!",
+    "cards_no_match": "Kartu nan dipilih Pemain {player_id} indak cocok. Kartu di posisi [{r1} {c1}] dan [{r2} {c2}] adolah {pos1} dan {pos2} sacaro barurutan."
   },
   "outcome": {
     "draw": "Kaduo pamain mampunyoi jumlah kartu nan samo.",

@@ -7,13 +7,13 @@
   },
   "invalid_move": {
     "wrong_format": "Дөрес күчерү форматы табылмады. \"[pile quantity]\" кулланыгыз.",
-    "correct_format_wrong_fields": "Player {player_id}, Invalid action. Column {col} is out of bounds.",
+    "correct_format_wrong_fields": "{player_id} уенчысы, яраксыз хәрәкәт. {col} баганасы чикләрдән тыш.",
     "out_of_range": "{pile_index} багана индексы диапазоннан тыш.",
     "non_positive": "Берәр әйберне алып куярга кирәк.",
-    "exceeds_pile": "Cannot remove {quantity} from pile {pile_index} (only {pile_count} left)."
+    "exceeds_pile": "{pile_index} өемнән {quantity} объектны алып булмый (тик {pile_count} калган)."
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "{player_id} уенчысы [{pile_index} {quantity}] уйнап, {pile_index} өемнән {quantity} объект(лар)ны алды."
   },
   "outcome": {
     "win": "Уенчы {player_id} соңгы объектны алды!"

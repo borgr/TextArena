@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing Slitherlink on a {R}x{C} grid!\nDraw a single continuous loop so each numbered cell has that many bordering edges.\nToggle edges with:\n  [h r c] - toggle horizontal edge above dots at row r, column c\n  [v r c] - toggle vertical edge left of dots at row r, column c\nNumbers show required edge count, '.' means no constraint.\nYou have up to {max_turns} moves to solve the puzzle."
+    "intro": "Q'umir qhilqa Slitherlink nisqata {R}x{C} siq'ita ruwasq'anki!\nHuklla q'iwiylla q'umir qhilqata ruwa, chaywan siq'itapi numerayuq k'itikuna chay numerayuq kantunayuq kanan.\nKantunakunata q'usq'ayta atinki:\n  [h r c] - r siqi, c k'iti qayllapi q'umir qhilqata q'usq'ay\n  [v r c] - r siqi, c k'iti qayllapi q'umir qhilqata q'usq'ay\nNumerukuna kantunayuq kanan, '.' nisqaqa manam kantunayuqchu.\n{max_turns} kuti q'usq'ayta atinki siq'itata q'umir qhilqanaykipaq."
   },
   "board": {
     "current_board": "{board}\nK'uskaq willakuna: {progress}"
@@ -10,7 +10,7 @@
     "out_of_bounds": "P'anqa, chaki."
   },
   "outcome": {
-    "win": "🎉 You formed a single loop! Puzzle solved!",
+    "win": "🎉 Huklla q'iwiylla q'umir qhilqata ruwasq'anki! Siq'ita q'umir qhilqasq'anki!",
     "turn_limit": "Mana ima ruwayta atisqanraykum, mana tukukuyta atinkuchu."
   }
 }

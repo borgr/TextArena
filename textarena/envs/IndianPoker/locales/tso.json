@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a game of Indian Poker.\n- 52-card deck; you see only the opponent's card.\n- Ante {ante} chip(s) each round, {max_rounds} round(s) total.\n- Valid moves: '[check]'  |  '[bet X]'  |  '[call]'  |  '[raise X]'  |  '[fold]'  (X is a positive integer <= your chip count.)\n- Highest hidden card wins the pot at showdown.\n"
+    "intro": "U n'wi {player_id} eka michezo ya Indian Poker.\n- Deki ya 52 khadi; u vona khadi ya muphikisi ntsena.\n- Ante {ante} chip(s) hi ku ringana, {max_rounds} ringana(s) hinkwato.\n- Mipheto yo pfumeleka: '[check]'  |  '[bet X]'  |  '[call]'  |  '[raise X]'  |  '[fold]'  (X i nambari ya nkoka <= ku hundzuka kwa chip ya wena.)\n- Khadi ya le henhla i winile pot eka ku kombisa.\n"
   },
   "round": {
     "announce": "### Mwaka {current_round}/{max_rounds}\nKadi ya mlweli waku i: {card}"

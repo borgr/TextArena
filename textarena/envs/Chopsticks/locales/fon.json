@@ -13,8 +13,8 @@
     "invalid_command": "Nukun nu wɔn. Na yi „[attack M O]” kɛ „[split L R]”."
   },
   "game_action": {
-    "attack": "P{player_id} attacks P{opp_id}’s hand {opp_idx}: it goes from {opp_val} to {new_val}.",
-    "split": "P{player_id} splits into [{L}, {R}]."
+    "attack": "P{player_id} dèhlan P{opp_id} alɔwla {opp_idx}: e yi {opp_val} yi {new_val}.",
+    "split": "P{player_id} kpè yi [{L}, {R}]."
   },
   "history": {
     "entry": "P{player_id} {desc}"

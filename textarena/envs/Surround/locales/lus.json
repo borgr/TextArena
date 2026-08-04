@@ -17,7 +17,7 @@
     "after_moves": "Board-in a khelh rual hnu: {board}"
   },
   "game_action": {
-    "invalid_death": "Player {player_id} chu a move dik loh avangin a thi."
+    "invalid_death": "Player {player_id} a thi vangin a tih sual avangin."
   },
   "outcome": {
     "survived_win": "Player {player_id} chu a dam chhuak ta; midang zawng zawngte chuan an tla.",

@@ -4,7 +4,7 @@
   },
   "round": {
     "start": "─── အစပိုင်းအဆင့် {round} ─── နောက်ပိုင်း {conv_rounds}အဆင့်များတွင် လွတ်လပ်စွာ စကားပြောနိုင်ပါသည်။",
-    "chat_finished": "Chat finished for round {round}. Submit your decisions, one token per opponent: `[pid cooperate]` or `[pid defect]`."
+    "chat_finished": "{round} အချီတွင် စာပို့ခြင်း ပြီးဆုံးပါပြီ။ သင့်ဆုံးဖြတ်ချက်များကို တင်ပေးပါ၊ ပြိုင်ဘက် တစ်ဦးချင်းစီအတွက် တစ်ခုသော သင်္ကေတ။ `[pid cooperate]` သို့မဟုတ် `[pid defect]`။"
   },
   "results": {
     "header": "### Round {round} - ရလဒ်များ:",

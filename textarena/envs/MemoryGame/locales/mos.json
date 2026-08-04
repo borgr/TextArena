@@ -1,25 +1,25 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id}. You are playing the Memory Game.\nYour goal is to match more pairs of cards on the board, than your opponent.\nOn your turn, select two cards to flip by entering the row and column numbers of the first and second card respectively like '[0 1 1 0]', where the first card is in row 0 and column 1, and the second card is in row 1 and column 0.\nIf the two cards match, you get a point and the cards remain face up. If they do not match, the cards are flipped back face down, e.g. '.'.\nThe game ends when all pairs have been matched."
+    "intro": "Yaa Player {player_id}. Yaa kɛra Memory Game.\nKɛɛrɛ yaa la wɛɛrɛ ka taa pɔɔrɛ kɔɔrɛ kaŋa sɔɔrɔ kaŋa tɛɛ kɔɔrɛ la wɛɛrɛ.\nKɛɛrɛ yaa la wɛɛrɛ, yɛɛlɛ kɔɔrɛ dɛɛ kɔɔrɛ wɛɛrɛ kɛɛrɛ '[0 1 1 0]', kɛɛrɛ kɔɔrɛ dɛɛ kɛɛrɛ wɛɛrɛ la lɔɔrɔ 0 la kɔɔlɔ 1, la kɔɔrɛ dɛɛ kɛɛrɛ wɛɛrɛ la lɔɔrɔ 1 la kɔɔlɔ 0.\nYɛɛ kɔɔrɛ dɛɛ kɛɛrɛ wɛɛrɛ taa pɔɔrɛ, yaa kɛɛrɛ wɛɛrɛ la pɔɔntɛ la kɔɔrɛ wɛɛrɛ taa kɛɛrɛ. Yɛɛ kɔɔrɛ dɛɛ kɛɛrɛ wɛɛrɛ taa pɔɔrɛ la, kɔɔrɛ wɛɛrɛ taa kɛɛrɛ la pɔɔntɛ la, e.g. '.'.\nKɛɛrɛ la wɛɛrɛ taa pɔɔrɛ la wɛɛrɛ kaŋa sɔɔrɔ kaŋa tɛɛ kɔɔrɛ la wɛɛrɛ."
   },
   "board": {
     "current_board": "B sẽn boond tɩ \" board \": {board}",
-    "current_game_board": "Game Board sẽn be masã: {board}"
+    "current_game_board": "Kɛɛrɛ wɛɛrɛ la sɔɔrɔ:\n{board}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid move format. Player {player_id} did not respond with a valid direction in square brackets.",
-    "out_of_bounds": "Invalid move. Player {player_id} selected an out-of-bounds position.",
+    "wrong_format": "Kɛɛrɛ wɛɛrɛ la fɔɔrɛmɛ taa kɛɛrɛ. Player {player_id} taa kɛɛrɛ wɛɛrɛ la dɛɛrɛ kɔɔrɛ la sɔɔrɔ.",
+    "out_of_bounds": "Kɛɛrɛ wɛɛrɛ la taa kɛɛrɛ. Player {player_id} taa kɛɛrɛ wɛɛrɛ la pɔɔzɛsɛ la sɔɔrɔ.",
     "same_card_twice": "Zɛma bukaata. Player {player_id} daa yiɛ kaarte ayi.",
-    "already_matched": "Invalid move. Player {player_id} selected one or both cards that have already been matched."
+    "already_matched": "Kɛɛrɛ wɛɛrɛ la taa kɛɛrɛ. Player {player_id} taa kɛɛrɛ wɛɛrɛ la kɔɔrɛ dɛɛ kɛɛrɛ wɛɛrɛ la taa pɔɔrɛ."
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "Kɔɔrɛ wɛɛrɛ la Player {player_id} taa kɛɛrɛ wɛɛrɛ la pɔzɛsɛsɛ [{r1} {c1}] la [{r2} {c2}] taa pɔɔrɛ!",
+    "cards_no_match": "Kɔɔrɛ wɛɛrɛ la Player {player_id} taa kɛɛrɛ wɛɛrɛ la pɔzɛsɛsɛ [{r1} {c1}] la [{r2} {c2}] taa {pos1} la {pos2} sɔɔrɔ."
   },
   "outcome": {
     "draw": "B yiibã fãa paama kaar dãmb b sẽn tõe n dɩk ne taab sõor a yembr bala.",
     "win": "Yaa {winner_id} n tõoge!",
-    "turn_limit": "The turn limit has been reached. The game is over. Player 0 scored {score_0} points, Player 1 scored {score_1} points.",
+    "turn_limit": "Kɛɛrɛ wɛɛrɛ la taa kɛɛrɛ. Kɛɛrɛ la wɛɛrɛ taa pɔɔrɛ. Player 0 taa kɛɛrɛ {score_0} pɔɔntɛ, Player 1 taa kɛɛrɛ {score_1} pɔɔntɛ.",
     "turn_limit_win": "{reason} Player {winner_id} nyɛla ŋun di!"
   }
 }

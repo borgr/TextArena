@@ -4,14 +4,14 @@
   },
   "init_round": {
     "round_start": "### အစပိုင်းမှာ {current_round} ဂိုး၊ ခင်ဗျားက {max_rounds} ဂိုးနဲ့ စပါတယ်။ ခင်ဗျားက {player_card}",
-    "available_actions": "Your available actions are: {available_actions}"
+    "available_actions": "သင့် လှုပ်ရှားမှုများ သည်: {available_actions}"
   },
   "invalid_move": {
     "wrong_format": "လုပ်ဆောင်ချက်သည် [Check]၊ [Bet]၊ [Call] သို့မဟုတ် [Fold] ဖြစ်ရမည်။",
     "not_legal": "လုပ်ဆောင်ချက်မှာ {legal_actions} ဖြစ်ရပါမယ်။"
   },
   "action": {
-    "submit_move": "Player {player_id}, submitted move: '[{move}]'.",
+    "submit_move": "ကစားသမား {player_id}, လှုပ်ရှားမှု တင်သွင်းသည်: '[{move}]'။",
     "valid_actions": "သင်လုပ်ဆောင်နိုင်သော လုပ်ဆောင်ချက်များမှာ {legal_actions} ဖြစ်သည်။",
     "round_summary": "{reason} လက်ရှိရမှတ်များ: ကစားသမား ၀: \"{player_0_chips}\"; ကစားသမား ၁: \"{player_1_chips}\""
   },

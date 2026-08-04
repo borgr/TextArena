@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing Mastermind.\nYou need to find the code that is {code_length} digits long, each digit from 1 to {num_numbers}, {repeats}.\nIn your response, you can submit your guess in the following format: '[2 1 4 5]'.\nAfter each guess, you will receive feedback in the form of black and white pegs.\nA black peg indicates a correct digit in the correct position, while a white peg indicates a correct digit in the wrong position.\nYou have {max_turns} turns to guess the code.\n",
+    "intro": "Һеҙ Mastermind уйынын уйнайһығыҙ.\nҺеҙ {code_length} һанлы кодты табырға тейешһегеҙ, һәр һан 1-ҙән {num_numbers}-гә тиклем, {repeats}.\nҺеҙҙең яуабығыҙҙа, һеҙ үҙегеҙҙең фаразығыҙҙы ошондай форматта ебәрә алаһығыҙ: '[2 1 4 5]'.\nҺәр фараздан һуң, һеҙ ҡара һәм аҡ шайбалар рәүешендә кире бәйләнеш алаһығыҙ.\nҠара шайба дөрөҫ һанды дөрөҫ урында күрһәтә, ә аҡ шайба дөрөҫ һанды дөрөҫ булмаған урында күрһәтә.\nҺеҙҙең {max_turns} йөрөшө бар кодты табырға.\n",
     "with_repeats": "ҡабатланыуы ихтимал.",
     "no_duplicates": "дубликаттары булмағандар."
   },
@@ -13,7 +13,7 @@
     "repeated_guess": "Һеҙ {guess}-ты инде фаразланығыҙ. Зинһар, икенсе төрлө фаразлауҙы ҡабатлағыҙ."
   },
   "game_action": {
-    "feedback": "Submitted [{guess}]. Feedback: {black_pegs} black peg(s), {white_pegs} white peg(s)."
+    "feedback": "Ебәрелде [{guess}]. Кире бәйләнеш: {black_pegs} ҡара шайба(лар), {white_pegs} аҡ шайба(лар)."
   },
   "outcome": {
     "win": "Сиз кодты онотҡанһығыҙ, {black_pegs}-нән {code_length} болтты дөрөҫ рәүештә сығарғанһығыҙ",

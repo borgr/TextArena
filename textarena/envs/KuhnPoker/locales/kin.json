@@ -11,7 +11,7 @@
     "not_legal": "Igikorwa kigomba kuba {legal_actions}."
   },
   "action": {
-    "submit_move": "Player {player_id}, submitted move: '[{move}]'.",
+    "submit_move": "Mugenzi {player_id}, yatanze guhanga: '[{move}]'.",
     "valid_actions": "Ibikorwa byawe biboneka ni: {legal_actions}.",
     "round_summary": "{reason} Amashyirahamwe ya nyuma: Umukino 0: '{player_0_chips}'; Umukino 1: '{player_1_chips}'"
   },

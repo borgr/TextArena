@@ -7,13 +7,13 @@
   },
   "invalid_move": {
     "wrong_format": "Foyi ma sɔrɔ min bɛ se ka yɛlɛma. I na \"[pile quantity]\" kɛ.",
-    "correct_format_wrong_fields": "Player {player_id}, Invalid action. Column {col} is out of bounds.",
+    "correct_format_wrong_fields": "Jwé {player_id}, kɛlɛ bɛɛ tɛ se ka ɲɛ. Kolɔn {col} bɛɛ bɔɲɔ kɔnɔ tɛ.",
     "out_of_range": "Funteni {pile_index} tɛ yɔrɔ la.",
     "non_positive": "A ka kan ka fɛn kelen ta.",
     "exceeds_pile": "A ka na {quantity} kɔnɔ pile {pile_index} (ni {pile_count} sɔrɔ dɔ.)."
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "Jɛgɛ {player_id} kɛrɛ [{pile_index} {quantity}], kɔrɔ {quantity} fila tɔ dɔɔni {pile_index}."
   },
   "outcome": {
     "win": "Jiginni {player_id} ye fɛn laban ta (s)!"

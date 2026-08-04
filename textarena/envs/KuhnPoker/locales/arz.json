@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a {max_rounds} round game of Kuhn Poker.\nGame Rules:\n- Kuhn Poker uses a 3-card deck with J, Q, K (J lowest, K highest)\n- Each player antes {ante} chip and receives 1 card each round (note that the cards are dealt without replacement, so you cannot have the same card as your opponent).\n- Game continues for {max_rounds} rounds\n- The player with the most chips after all rounds wins\nAction Rules:\n- '[check]': Pass without betting (only if no bet is on the table)\n- '[bet]': Add 1 chip to the pot (only if no bet is on the table)\n- '[call]': Match an opponent's bet by adding 1 chip to the pot\n- '[fold]': Surrender your hand and let your opponent win the pot"
+    "intro": "أنت اللاعب {player_id} في لعبة بوكر كون مدتها {max_rounds} جولة.\nقواعد اللعبة:\n- بوكر كون تستخدم مجموعة من 3 بطاقات مع J و Q و K (J الأقل، K الأعلى)\n- كل لاعب يضع {ante} شيب ويتلقى بطاقة واحدة في كل جولة (لاحظ أن البطاقات توزع بدون استبدال، لذا لا يمكن أن يكون لديك البطاقة نفسها التي لدى خصمك).\n- اللعبة تستمر لمدة {max_rounds} جولات\n- اللاعب الذي لديه أكبر عدد من الشيبس بعد جميع الجولات يفوز\nقواعد الإجراءات:\n- '[check]': تمرير بدون رهان (فقط إذا لم يكن هناك رهان على الطاولة)\n- '[bet]': إضافة شيب واحد إلى البوت (فقط إذا لم يكن هناك رهان على الطاولة)\n- '[call]': مطابقة رهان الخصم بإضافة شيب واحد إلى البوت\n- '[fold]': الاستسلام وترك الخصم يفوز بالبوت"
   },
   "init_round": {
     "round_start": "### بدء الجولة {current_round} من {max_rounds} جولة. بطاقتك هي: '{player_card}'",
@@ -11,12 +11,12 @@
     "not_legal": "التصرف لازم يكون {legal_actions}."
   },
   "action": {
-    "submit_move": "Player {player_id}, submitted move: '[{move}]'.",
+    "submit_move": "اللاعب {player_id}، قدم الإجراء: '[{move}]'.",
     "valid_actions": "الإجراءات اللي عندك هي: {legal_actions}.",
     "round_summary": "{reason} النقاط الحالية: اللاعب 0: '{player_0_chips}'; اللاعب 1: '{player_1_chips}'"
   },
   "showdown": {
-    "showdown_summary": "Showdown: Player {winner}'s {winner_card} beats Player {loser}'s {loser_card}. Player {winner} wins pot of {pot_value} chips."
+    "showdown_summary": "المواجهة: بطاقة اللاعب {winner} {winner_card} تهزم بطاقة اللاعب {loser} {loser_card}. اللاعب {winner} يفوز بالبوت الذي يحتوي على {pot_value} شيبس."
   },
   "outcome": {
     "draw": "في نهاية جولات {max_rounds} ، كان لدى كلا اللاعبين نفس عدد الشرائح.",

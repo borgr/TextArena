@@ -7,14 +7,14 @@
   },
   "invalid_move": {
     "my_hand_dead": "Är Hand {my_idx} ass dout.",
-    "opp_hand_dead": "Opponent Hand {opp_idx} ass schonn dout.",
+    "opp_hand_dead": "D'Géignerhand {opp_idx} ass schonn dout.",
     "split_sum": "Split muss op {total} zoumaachen.",
     "split_no_change": "Split muss Är Handverdeelung änneren.",
     "invalid_command": "Ongülte Zuch. Benotzt „[attack M O]“ oder „[split L R]“."
   },
   "game_action": {
     "attack": "P{player_id} greift P{opp_id} seng Hand {opp_idx} ugräif: et geet vu {opp_val} op {new_val}.",
-    "split": "P{player_id} splits into [{L}, {R}]."
+    "split": "P{player_id} deelt sech an [{L}, {R}]."
   },
   "history": {
     "entry": "P{player_id} {desc}"

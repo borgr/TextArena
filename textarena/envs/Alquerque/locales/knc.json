@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({piece}). Opponent is ({opp}).\nSubmit moves as '[a2 a3]' (from → to).\n- A normal move is one forward step to an adjacent empty vertex.\n- A capture is a jump over an adjacent enemy piece landing on the empty node beyond.\nEach capture yields {score_per_capture} points.\nGame ends after {max_moves} moves or when a player has no legal move."
+    "intro": "Káma {player_id} kaŋ ({piece}) ni. Màràbà káma ({opp}) ye.\nKùwùrí káma '[a2 a3]' (tí → tó).\n- Kùwùrí kólí kaŋ, káma wàzí kwàní kólí kùwùrí.\n- Kùwùrí ngárá kaŋ, káma wàzí kólí ngárá kùwùrí.\nKùwùrí ngárá {score_per_capture} pòíntí kaŋ.\nWúrí kùwùrí {max_moves} kùwùrí kólí, káma káma wàzí kwàní kùwùrí kólí."
   },
   "board": {
     "current_board": "Koŋo #{move_count}\n\n{board}"

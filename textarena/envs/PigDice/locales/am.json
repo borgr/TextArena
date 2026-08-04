@@ -6,7 +6,7 @@
     "invalid_action": "ተሳሳተ እርምጃ መስጫ. '[roll]' ወይም '[hold]' አስገባ."
   },
   "actions": {
-    "player_busted": "Player {player_id} busted, losing {turn_total} points!",
+    "player_busted": "ተጫዋች {player_id} ተሳሳተ፣ {turn_total} ነጥብ አጥፏል!",
     "player_hold": "ኤሌሜንት {player_id} ቆራሪ እና {turn_total} ፖይንቶችን በንክ ላይ ለቀቀ."
   },
   "board": {

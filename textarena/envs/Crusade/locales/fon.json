@@ -1,12 +1,12 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({piece}). Opponent is ({opp}). Submit moves as '[b1 c3]' (from → to). All pieces move like chess knights.\nEach capture scores {score_per_capture} point. Game ends after {max_moves} moves or when a player has no legal move / no pieces. Higher score wins."
+    "intro": "A nyi wẹ Player {player_id} ({piece}). Alọgọto lẹ wẹ ({opp}). Ṣe afọzisi tọn bi '[b1 c3]' (sọn → jẹ). Afọzisi lẹpo wazọ́n taidi knight lẹ to chess mẹ.\nGbọjẹ ṣọṣọ {score_per_capture} wẹ e gbọjẹ na gbọn. Ìgba wẹ gbọawupo to {max_moves} afọzisi lẹ godo taidi kẹkẹkẹ gbọn / afọzisi ma tin to agbàsà mẹ. Gbọjẹ he kọ wẹ e gbawhàn."
   },
   "board": {
     "current_board": "Dɛ̀kɛ̀ #{move_count}\n\n{board}\n\nAɖɛ̀nɔ̀ wɔn: {moves}"
   },
   "invalid_move": {
-    "bad_format": "Bad format. Use '[b1 c3]'.",
+    "bad_format": "Gbọnọgbẹ̀. Ṣe '[b1 c3]' taidi.",
     "unknown_square": "Nǔ e è ma tuùn ǎ é.",
     "not_your_piece": "Nǔ e nɔ nyí mɛ é kún ɖò taji nú we ó.",
     "own_piece": "Mi ma sixu jɛ te ɖò miɖesunɔ sín ali jí ó.",
@@ -19,7 +19,7 @@
   "outcome": {
     "no_pieces": "{player_id} ɔ́ ɖó wèmá ɖé ǎ.",
     "cannot_move": "{player_id} ɔ́' é sixú yì ă.",
-    "higher_score": "Higher capture score.",
+    "higher_score": "Gbọjẹ gbọn he kọ wẹ e gbawhàn.",
     "move_limit": "Nǔ e è sixu wà é ko kpé."
   }
 }

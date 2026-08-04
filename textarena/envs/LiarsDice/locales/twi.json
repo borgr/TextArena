@@ -22,18 +22,18 @@
     "final_ranking": "list of player indices from first eliminated to winner"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in an {num_players}-player Liar's Dice game.\nRules:\n- On your turn, you may either:\n  1) Make a new bid with a higher quantity or higher face (or both) than the current bid; i.e. '[Bid: 3, 4]',\n  2) Call the last bid by typing '[Call]'.\n\nIf you call:\n  - If the actual count of that face value among all dice is less than the bid, the last bidder loses one die.\n  - Otherwise, the caller loses one die.\nA player who reaches 0 dice is eliminated. The last remaining player wins."
+    "intro": "Woyɛ Player {player_id} wɔ {num_players}-player Liar's Dice agorɔ mu.\nMmara:\n- Wɔ wo turn, wobɛtumi:\n  1) Yɛ bid foforɔ a ɛwɔ quantity kɛseɛ anaa face kɛseɛ (anaa ne nyinaa) sen sɛdeɛ ɛteɛ; i.e. '[Bid: 3, 4]',\n  2) Frɛ last bid no denam '[Call]'.\n\nSɛ wofrɛ a:\n  - Sɛ actual count no yɛ face value no mu wɔ dice nyinaa mu no yɛ kɔm deɛ bid no, last bidder no hwɛ die baako.\n  - Sɛ ɛnteɛ a, caller no hwɛ die baako.\nAkyerɛwfoɔ a ɔhwɛ dice 0 no pɛ agorɔ no. Akyerɛwfoɔ a ɔsɛe no di nkunim."
   },
   "board": {
     "per_player": "\tPlayer {p}: {d}",
-    "new_round": "\nNew round - Remaining dice: {dice_summary}\nYour current Dice are: {your_dice}"
+    "new_round": "\nRound foforɔ - Remaining dice: {dice_summary}\nWo Dice a wɔde di agorɔ no ne: {your_dice}"
   },
   "call": {
-    "bidder_loses": "Player {current_player_id} calls! The actual count of face {face_value} is {count}, which is LESS than {quantity}.\nPlayer {loser_id} (the last bidder) loses one die.",
-    "caller_loses": "Player {current_player_id} calls! The actual count of face {face_value} is {count}, which is >= {quantity}.\nPlayer {loser_id} (the caller) loses one die."
+    "bidder_loses": "Player {current_player_id} frɛe! Actual count no yɛ face {face_value} no mu yɛ {count}, a ɛyɛ kɔm deɛ {quantity}.\nPlayer {loser_id} (last bidder) hwɛ die baako.",
+    "caller_loses": "Player {current_player_id} frɛe! Actual count no yɛ face {face_value} no mu yɛ {count}, a ɛyɛ kɛseɛ deɛ {quantity}.\nPlayer {loser_id} (caller) hwɛ die baako."
   },
   "action": {
-    "bid_announce": "Player {player_id} bids {quantity} of face {face_value}."
+    "bid_announce": "Player {player_id} bid {quantity} wɔ face {face_value} so."
   },
   "invalid_move": {
     "call_no_bid": "Wɔfrɛɛ no bere a na wɔnkaa ho asɛm.",
@@ -41,8 +41,8 @@
     "not_recognized": "Action yɛn hu sɛ ɛyɛ '[Bid: X, Y]' anaa '[Call]' valid. Action a ɛsɛe: {action}"
   },
   "bid_reason": {
-    "quantity_lower": "New quantity {new_quantity} is lower than current {current_quantity}.",
-    "face_lower": "New face value {new_face_value} is lower than current {current_face_value}.",
+    "quantity_lower": "Quantity foforɔ {new_quantity} no yɛ kɔm deɛ sɛdeɛ ɛteɛ {current_quantity}.",
+    "face_lower": "Face value foforɔ {new_face_value} no yɛ kɔm deɛ sɛdeɛ ɛteɛ {current_face_value}.",
     "identical": "Ɛho ka yɛ pɛ sɛ ɛboro nea wɔabɔ ho dawuru no so.",
     "face_range": "Ɛsɛ sɛ ne din no yɛ 1 kosi 6."
   },
@@ -50,6 +50,6 @@
     "eliminated_invalid": "Ɔbɔadeɛ {player_id} no twaa ne ho a na ɔnte ase."
   },
   "outcome": {
-    "win": "Player {winner} wins! Final ranking: {final_ranking}"
+    "win": "Player {winner} di nkunim! Final ranking: {final_ranking}"
   }
 }

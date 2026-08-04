@@ -8,9 +8,9 @@
   },
   "invalid_move": {
     "wrong_format": "Дөрес булмаган хәрәкәт форматы. Уенчы {player_id} дөрес \"юлбарыс номеры\" белән җавап бирмәгән.",
-    "out_of_bounds": "Invalid move. Player {player_id} attempted to place {num} at ({row}, {col}), which is out of bounds.",
+    "out_of_bounds": "Дөрес булмаган хәрәкәт. Player {player_id} {num} санын ({row}, {col}) урнаштырмакчы иде, ләкин ул чикләрнең тышында.",
     "overwrite": "Нигили бәла. Уенчы {player_id} ({row}, {col}) алдан тулыландырылган күзәтне язуга маташты.",
-    "violates_rules": "Invalid move. Player {player_id} attempted to place {num} at ({row}, {col}), which violates Sudoku rules."
+    "violates_rules": "Дөрес булмаган хәрәкәт. Player {player_id} {num} санын ({row}, {col}) урнаштырмакчы иде, ләкин ул Судоку кагыйдәләрен бозды."
   },
   "outcome": {
     "win": "Котлыйбыз! {player_id} уенчысы Судоку табышмакны җайлап бетерде.",

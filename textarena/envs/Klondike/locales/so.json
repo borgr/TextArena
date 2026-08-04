@@ -16,17 +16,17 @@
     "{cards}": "The cards in a pile as neutral labels, or '--' if empty (never translate)"
   },
   "player_prompt": {
-    "intro": "You are playing Klondike Solitaire. Your goal is to move all cards to the foundation piles.\n\nGame Rules:\n- Foundation piles (F1-F4): Build up from Ace to King in suit\n- Tableau piles (T1-T7): Build down alternating colors (red on black, black on red)\n- Stock: Draw cards to waste pile\n- Waste (W): Top card available for play\n\nCommands:\n- 'draw' - Draw cards from stock to waste\n- 'move <source> <destination> [count]' - Move cards between piles\n  Examples: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count can also be 'all', which will try to move all face-up cards.\n- 'forfeit' - End the game immediately and lock in your current score\n- Pile names: W (waste), F1-F4 (foundations), T1-T7 (tableau)\n\nYou can execute multiple actions in one turn by separating them with commas:\n  Example: 'draw, move W T1, move T2 F1'\n\nOnly Kings can be placed on empty tableau piles.\nActions execute in order - if one fails, the remaining actions are skipped.\nUse 'forfeit' if you believe the game is impossible to win."
+    "intro": "Waxaad ciyaaraysaa Klondike Solitaire. Ujeedadu waa inaad guudisid dhammaan kaararka ugu foundation piles.\n\nQawaaniinta Ciyaarta:\n- Kooxdaha foundation (F1-F4): Dhis kor ugu Ace ilaa King suuqa\n- Kooxdaha tableau (T1-T7): Dhis hoos ugu midabka isbeddelka (guduud ku guduud, madow ku madow)\n- Stock: Kaararka sawirka ugu waste pile\n- Waste (W): Kaararka sare ee ugu ciyaarta\n\nAmarada:\n- 'draw' - Kaararka sawirka ugu stock ilaa waste\n- 'move <source> <destination> [count]' - Guudisid kaararka ugu kooxda\n  Tusaalooyin: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count sidoo kale waa 'all', oo ay ku doonaysa inay guudiso dhammaan kaararka muuqa.\n- 'forfeit' - Ciyaarta dhamaan si degdeg ah oo ku qulqul score hadda\n- Magacyada kooxdaha: W (waste), F1-F4 (foundations), T1-T7 (tableau)\n\nWaxaad fulin kartaa falka badan oo amarada kuwa komma-ku-jarjaran:\n  Tusaale: 'draw, move W T1, move T2 F1'\n\nKings kaliya ayaa la saari karaa kooxdaha tableau faaruur.\nFalku wuxuu fulinayaa si tartiib ah - haddii mid ka mid ah fashilo, falka soo socda waa la tirtiray.\nIsticmaal 'forfeit' haddii aad u maleyso in ciyaarta ay tahay adag in la guuleysto."
   },
   "format_error": {
     "no_brackets": "Qaabka ficilku waa mid aan sax ahayn.",
     "no_closing_bracket": "Qaabka ficilku waa mid aan sax ahayn.",
-    "empty_command": "Amarka madhan. Ku qor 'soo jiid' ama 'guji <il> <meel> [count]'",
+    "empty_command": "Amarada faaruur. Qor 'draw' ama 'move <source> <destination> [count]'",
     "empty_action": "Waxqabadka madhan",
-    "move_needs_args": "Taliska dhaqaaqa wuxuu u baahan yahay isha iyo meesha loo socdo. Isticmaalka: 'dhaqaaqa <ilaha> <meel gaar ah> [count]'",
-    "count_positive": "Tiradu waa inay noqoto mid wanaagsan ama 'dhammaan'",
-    "count_invalid": "Tirinta aan sax ahayn. Isticmaal lambarka ama 'dhammaan'",
-    "unknown_command": "Amarka aan la garanayn '{cmd}'. Isticmaal 'jiid', 'guji <il> <meel> [count]', ama 'dhaafid'",
+    "move_needs_args": "Amarada 'move' waxay u baahan tahay asal iyo u socota. Isticmaal: 'move <source> <destination> [count]'",
+    "count_positive": "Tirada waa inay tahay taban ama 'all'",
+    "count_invalid": "Tirada waa khaldan. Isticmaal tirada ama 'all'",
+    "unknown_command": "Amarada '{cmd}' aan la aqoon. Isticmaal 'draw', 'move <source> <destination> [count]', ama 'forfeit'",
     "wrapped": "Waxqabadka {n}: {msg}"
   },
   "action_result": {

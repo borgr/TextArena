@@ -21,13 +21,13 @@
     "{scores}": "The pre-rendered per-player list of final scores"
   },
   "player_prompt": {
-    "intro": "You are playing Golf (Card Game) - Player {player_id}.\nGoal: Get the lowest total score in this single round. If columns share the same value, they are summed as 0.\nCard Values: A=1, 2-10=face value, J/Q=10, K=0\n\nActions (use exact brackets):\n- '[draw]' - Draw from deck\n- '[take]' - Take from discard pile\n- '[swap X Y]' - Swap drawn card with position X (row) Y (column)\n- '[discard]' - Discard the drawn card\n"
+    "intro": "Kɩlaŋmɛ laɖɩŋa Golf (Kɛɖɛɛ Kɛɖɛɛ) - Kɩlaŋmɛ {player_id}.\nKɩɖɛɛ: Kɩmɛɛ kɩlaŋmɛ ɖɔɖɔɔ kɛɖɛɛ kɩlaŋmɛ kɩmɛɛ kɩlaŋmɛ. Tozo wɛɛ kɩlaŋmɛ kɩmɛɛ kɩlaŋmɛ kɩmɛɛ kɩlaŋmɛ, pɩwɛɛ kɩmɛɛ 0.\nKɛɖɛɛ Kɩmɛɛ: A=1, 2-10=kɩmɛɛ kɩlaŋmɛ, J/Q=10, K=0\n\nKɩlaŋmɛ (kpɛlɛɛ kɩlaŋmɛ):\n- '[draw]' - Kɩlaŋmɛ kɛɖɛɛ kɩlaŋmɛ\n- '[take]' - Kɩlaŋmɛ kɛɖɛɛ kɩlaŋmɛ kɩlaŋmɛ\n- '[swap X Y]' - Kɩlaŋmɛ kɩlaŋmɛ kɛɖɛɛ kɩlaŋmɛ X (kɩlaŋmɛ) Y (kɩlaŋmɛ)\n- '[discard]' - Kɩlaŋmɛ kɛɖɛɛ kɩlaŋmɛ\n"
   },
   "board": {
     "drew": "Wezuu: {card}\nIyi, ɛyʊ kɔɔ kɩɖɛzɩŋga [swap X Y] ɛlɛ ɛtɩŋa ɖɔɖɔ [discard]",
-    "took": "You took: {card} from discard pile\nYou must [swap X Y] with it (cannot discard).",
+    "took": "Kɩlaŋmɛ kɩlaŋmɛ: {card} kɩlaŋmɛ kɩlaŋmɛ kɩlaŋmɛ\nKɩlaŋmɛ [swap X Y] kɩlaŋmɛ kɩlaŋmɛ (kɩlaŋmɛ kɩlaŋmɛ kɩlaŋmɛ).",
     "peeked": "Weleŋa taa ({row},{col}): {card}",
-    "turn_view": "Your hand:\n{hand}\nDiscard pile: {discard}\n{options}",
+    "turn_view": "Kɩlaŋmɛ kɩlaŋmɛ:\n{hand}\nKɩlaŋmɛ kɩlaŋmɛ kɩlaŋmɛ: {discard}\n{options}",
     "none": "Pa-taa nɔɔyʋ fɛyɩ."
   },
   "options": {
@@ -42,38 +42,38 @@
     "row": "Row {n}: {cards}"
   },
   "action_desc": {
-    "swapped": "Player {pid} swapped {new} with {old} at position ({row},{col})",
-    "discarded": "Player {pid} discarded {card}"
+    "swapped": "Kɩlaŋmɛ {pid} kɩlaŋmɛ {new} kɩlaŋmɛ {old} kɩlaŋmɛ kɩlaŋmɛ ({row},{col})",
+    "discarded": "Kɩlaŋmɛ {pid} kɩlaŋmɛ kɩlaŋmɛ {card}"
   },
   "message": {
     "deck_empty": "Kaɖaɣ fɛyɩ, aleɣya tɛma kpaagbaa.",
     "knocked": "Aleɣya {pid} taa weyi ɛ-taa wɛ kɩmaŋ yɔ, paa anɩ lɛ ɛwɛna waɖɛ se ɛla lɛɛɖɛ.",
-    "final_round": "Player {pid} {reason}! Each other player gets one more turn."
+    "final_round": "Kɩlaŋmɛ {pid} {reason}! Kɩlaŋmɛ kɩlaŋmɛ kɩlaŋmɛ kɩlaŋmɛ kɩlaŋmɛ kɩlaŋmɛ."
   },
   "reason": {
     "all_revealed": "Ɛlɩzɩ ɛ-kɩjɩkpɩŋ tɩŋa na?"
   },
   "invalid": {
-    "wrong_action": "Use exactly ONE bracketed action: [draw], [take], [swap X Y], [discard], [knock], or [peek X Y]",
+    "wrong_action": "Kpɛlɛɛ kɩlaŋmɛ kɩlaŋmɛ kɩlaŋmɛ: [draw], [take], [swap X Y], [discard], [knock], ɖɔɖɔ [peek X Y]",
     "discard_empty": "Kʋñɔŋ ŋgʋ kɩ-taa paawɛɛ yɔ, kɩɩtalɩɣ!",
-    "must_draw_first": "You must first [draw], [take], [knock], or [peek X Y]",
-    "cannot_discard_taken": "You cannot discard a card taken from the discard pile. You must swap it.",
-    "have_drawn_card": "You have a drawn card. You must [swap X Y] or [discard] it.",
+    "must_draw_first": "Kɩlaŋmɛ kɩlaŋmɛ kɩlaŋmɛ [draw], [take], [knock], ɖɔɖɔ [peek X Y]",
+    "cannot_discard_taken": "Kɩlaŋmɛ kɩlaŋmɛ kɩlaŋmɛ kɩlaŋmɛ kɩlaŋmɛ kɩlaŋmɛ kɩlaŋmɛ. Kɩlaŋmɛ kɩlaŋmɛ kɩlaŋmɛ.",
+    "have_drawn_card": "Kɩlaŋmɛ kɩlaŋmɛ kɩlaŋmɛ kɩlaŋmɛ. Kɩlaŋmɛ [swap X Y] ɖɔɖɔ [discard] kɩlaŋmɛ.",
     "need_drawn_swap": "Pɩpɔzʋʋ se ŋla ɖʋtʋ nɛ ña-maɣmaɣ ŋkpaɣ.",
     "need_drawn_discard": "Pɩpɔzʋʋ se ŋlɩzɩ takayaɣ nakɛyɛ nɛ ŋkpaɣ-kɛ.",
-    "out_of_bounds": "Position out of bounds. Use row 1-{max_row}, column 1-{max_col}",
+    "out_of_bounds": "Kɩlaŋmɛ kɩlaŋmɛ kɩlaŋmɛ. Kpɛlɛɛ kɩlaŋmɛ 1-{max_row}, kɩlaŋmɛ 1-{max_col}",
     "knock_with_card": "Ŋŋpɩzɩɣ nɛ ŋma takayaɣ ŋga ka-taa tɔm natʋyʋ fɛyɩ yɔ, ɛlɛ ñaɣ pana pʋcɔ.",
     "already_knocked": "Nɔɔyʋ tɛm labʋ you ŋgʋ.",
     "already_revealed": "Pɔkɔm nɛ patɩlɩ mbʋ pɩ-tɔm pɔyɔɔdʋʋ yɔ!"
   },
   "summary": {
-    "full": "Game Over! Player {winner} wins with a score of {score} points!\n\nFinal Scores:\n{scores}",
-    "line": "Player {pid}: {score} points\n"
+    "full": "Kɩlaŋmɛ kɩlaŋmɛ! Kɩlaŋmɛ {winner} kɩlaŋmɛ kɩlaŋmɛ kɩlaŋmɛ {score} kɩlaŋmɛ!\n\nKɩlaŋmɛ kɩlaŋmɛ kɩlaŋmɛ:\n{scores}",
+    "line": "Kɩlaŋmɛ {pid}: {score} kɩlaŋmɛ\n"
   },
   "board_str": {
     "title": "=== GOLF PƖ-TƆM KPAƔLƲ=== Ñɔɔzɩtʋ:",
     "discard": "Pɩtɛ wondu: {card}",
     "knocked": "Aleɣya laɖʋ {pid} tɔlɩ!",
-    "player_header": "Player {pid} (Score: {score}):"
+    "player_header": "Kɩlaŋmɛ {pid} (Kɩlaŋmɛ: {score}):"
   }
 }

@@ -5,8 +5,8 @@
   "board": {
     "game_board": "Joko taula: {board}",
     "valid_moves": "{observation} Mugimenduak baliozkoak dira: {moves}",
-    "no_valid_moves_reset": "{observation}\nNo valid moves - you may have to skip.",
-    "no_valid_moves_step": "{observation}\nNo valid moves – you may have to skip.",
+    "no_valid_moves_reset": "{observation}\nEz dago mugimendu baliozkorik - salto egin behar duzu.",
+    "no_valid_moves_step": "{observation}\nEz dago mugimendu baliozkorik – salto egin behar duzu.",
     "scores_reset": "{observation} Currenen puntuazioak - Beltza: {black_count}, Zuriak: {white_count} ",
     "scores_step": "{observation} Puntuak - Beltza: {black_count}, Zuriak: {white_count} "
   },
@@ -16,10 +16,10 @@
   },
   "game_action": {
     "skipped": "Jokalari {pid}k behar izan du bere txanda uztea",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "Jokalari {pid} ({piece}) -k [{r}, {c}] jokatu zuen, {flipped} pieza(k) itzuliz"
   },
   "game_message": {
-    "must_skip": "Player {pid} ({piece}) has no valid moves and must skip."
+    "must_skip": "Jokalari {pid} ({piece}) -k ez du mugimendu baliozkorik eta salto egin behar du."
   },
   "outcome": {
     "black_wins": "Beltzek irabazten dute {black_count}-{white_count}.",

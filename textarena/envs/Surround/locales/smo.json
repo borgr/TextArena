@@ -10,7 +10,7 @@
     "{groups}": "Neutral ranking data (a list of player-id groups, best to worst); do not translate"
   },
   "player_prompt": {
-    "intro": "{num_players}-Player Surround on a {width}x{height} grid.\nYou are player {player_id}. Valid moves: '[up]' '[down]' '[left]' '[right]' or w/s/a/d.\nObjective: outlive everyone else. Trails are deadly; wall hits kill; head-on crashes kill both."
+    "intro": "{num_players}-Tagata Ta'alo Surround i le laupapa {width}x{height}.\nOe o le tagata ta'alo {player_id}. Fa'ailoga e talafeagai: '[up]' '[down]' '[left]' '[right]' po'o w/s/a/d.\nFa'amoemoe: outlive tagata ta'alo uma. Ala o le maliu; o le tio i le pa e maliu; o le tio i le ulu e maliu uma."
   },
   "board": {
     "current": "Komiti Faatino o loʻo iai nei: {board}",
@@ -20,7 +20,7 @@
     "invalid_death": "O le tagata taalo {player_id} na maliu ona o se gaoioiga lē saʻo."
   },
   "outcome": {
-    "survived_win": "Na sao mai le tagata taalo {player_id}; na paʻu uma isi.",
+    "survived_win": "O le tagata ta'alo {player_id} na ola; tagata ta'alo uma na tio.",
     "all_crashed": "Na feoti uma tagata taaalo i le taimi e tasi.",
     "outlived": "Na ola le tagata taalo i isi uma.",
     "all_dead": "Ua maliliu tagata taaalo uma.",

@@ -12,7 +12,7 @@
     "invalid_position": "Moviment invalide - no pues movimi a chê posizion."
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
+    "moved": "Tu {pushed} âs movût [{action}].",
     "pushed_prefix": "al à sburtât une scjatule intant che"
   },
   "outcome": {

@@ -1,15 +1,15 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a game of Indian Poker.\n- 52-card deck; you see only the opponent's card.\n- Ante {ante} chip(s) each round, {max_rounds} round(s) total.\n- Valid moves: '[check]'  |  '[bet X]'  |  '[call]'  |  '[raise X]'  |  '[fold]'  (X is a positive integer <= your chip count.)\n- Highest hidden card wins the pot at showdown.\n"
+    "intro": "Wo ne Player {player_id} wɔ Indian Poker agorɔ mu.\n- 52-card deck; wo hu pɛn no kɔɔpo.\n- Ante {ante} chip(s) ɔhaw no mu biara, {max_rounds} round(s) nyinaa.\n- Nsɛm a ɛfata: '[check]'  |  '[bet X]'  |  '[call]'  |  '[raise X]'  |  '[fold]'  (X yɛ dodow a ɛyɛ pɔsɛtɛf biara ≤ wo chip dodow.)\n- Kɔɔpo a ɛkorɔn sen biara na ɛdi nkunim wɔ pot no mu wɔ showdown.\n"
   },
   "round": {
     "announce": "### Ɔkɔmfo {current_round}/{max_rounds}\nWɔkɔmfo no card ne: {card}"
   },
   "invalid_move": {
-    "ambiguous": "Supply exactly ONE bracketed action, e.g. '[check]', '[bet 2]', '[call]', '[raise 3]', or '[fold]'.",
+    "ambiguous": "Fa nsɛm biako pɛ a wɔde aka no, e.g. '[check]', '[bet 2]', '[call]', '[raise 3]', anaa '[fold]'.",
     "cannot_check": "Wuntumi [check] - worehyia akatua.",
     "amount_min": "Bet / Raise amount must be ≥ 1. Ɔbɛtumi ayɛ sɛ ɔgyeɛ a, ɛsɛsɛ ne nyinaa yɛ baako.",
-    "cannot_bet": "Cannot [bet] - must [call] / [raise] / [fold].",
+    "cannot_bet": "Nsɛm '[bet]' ntumi nni - ɛfata sɛ wo '[call]' / '[raise]' / '[fold]'.",
     "nothing_to_call": "Biribiara nni hɔ a ɛsɛ sɛ wofrɛ; wobɛtumi [check] mmom.",
     "no_bet_to_raise": "Fa [bet X] di dwuma ma w'atumi abue; wontua hwee mma no.",
     "insufficient": "Mfonini a enni hɔ mma saa dwumadi no."
@@ -25,7 +25,7 @@
   "message": {
     "round_result": "{reason}  Pot {pot} → Ɔkyeami {winner}. (Bankrolls P0:{p0}, P1:{p1})",
     "folded": "Ɔbɔadeɛ {player_id} a ɔtwa mu.",
-    "showdown_win": "Showdown: {card_win} beats {card_lose}.",
+    "showdown_win": "Showdown: {card_win} dii {card_lose} so.",
     "showdown_tie": "Showdown tie: wɔn mmienu nyinaa {card}. Pot split  obiara nya {split}."
   },
   "outcome": {

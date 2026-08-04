@@ -6,7 +6,7 @@
     "current_board": "Olukiiko oluliwo kati: {board}."
   },
   "invalid_move": {
-    "wrong_format": "You did not respond with valid '[source] [target]'.",
+    "wrong_format": "Ojamu okuddamu mu ngeri ey'okukkiriza '[source] [target]'.",
     "invalid_tower": "Wateekawo ensibuko oba ekigo ky'olina okukwata nga si kituufu.",
     "empty_tower": "Wagezaako okusitula disiki okuva mu kigo ekitalina muntu.",
     "same_tower": "Wagezaako okutwala disiki mu kigo kye kimu.",

@@ -12,7 +12,7 @@
     "invalid_position": "Ongülteg Bewegung - kann net an déi Positioun bewegen."
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
+    "moved": "Dir {pushed} hutt Ech [{action}] geréckelt.",
     "pushed_prefix": "huet eng Këscht gedréckt, während"
   },
   "outcome": {

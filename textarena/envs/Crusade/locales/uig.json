@@ -10,7 +10,7 @@
     "unknown_square": "نامەلۇم مەيدان.",
     "not_your_piece": "مەنبە سىزنىڭ ئەسەرڭىز ئەمەس.",
     "own_piece": "ئۆز ئالدىغا قۇرۇقلۇققا چىقالمايسەن.",
-    "not_knight": "Not a knight move."
+    "not_knight": "ئاتلىق يۈرۈش ئەمەس."
   },
   "game_action": {
     "moved": "Oýunçy {player_id} öz parçasy {frm} dan {to} geçirdi.",

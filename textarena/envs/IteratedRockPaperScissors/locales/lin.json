@@ -1,12 +1,12 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a {num_rounds}-round Rock-Paper-Scissors game.\nYour goal is to win as many rounds as possible.\nIn each round, respond with one of: '[rock]', '[paper]', or '[scissors]'.\nYou may also use '[r]', '[p]', or '[s]' as shorthand.\n"
+    "intro": "Ozali Joueur {player_id} na mokanda ya {num_rounds} ya mokili ya Rock-Paper-Scissors.\nMokono na yo ezali kobwaka mokili mingi ndenge ozali.\nNa kila mokili, kota na mo: '[rock]', '[paper]', to '[scissors]'.\nOzali na poso ya kutumisa '[r]', '[p]', to '[s]' lokola kotiya.\n"
   },
   "invalid_move": {
-    "wrong_format": "Move not recognized. Use [rock], [paper], or [scissors]."
+    "wrong_format": "Mokili emonisi te. Tumisa [rock], [paper], to [scissors]."
   },
   "game_action": {
-    "selects": "Player {player_id} selects move {move}."
+    "selects": "Joueur {player_id} asukoli mokili {move}."
   },
   "message": {
     "round_draw": "Matomba ya molɔngɔ́: Zalá na moto te",

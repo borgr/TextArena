@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in SimpleTak.\nOn the board, your stones appear as '{player_stone}' and your opponent's stones appear as '{opponent_stone}'.\n\nOn your turn, choose one empty cell (by its numbered index) and place your stone there.\nFor example, '[12]' places your stone in cell 12.\n\nYour objective is to form a continuous path of your stones that connects two opposite edges of the board (top-to-bottom or left-to-right)."
+    "intro": "Káma káma {player_id} a SimpleTak.\nA tableri, kúwú kúwú nká '{player_stone}' sí kúwú káma kúwú nká '{opponent_stone}'.\n\nA kúwú káma, zha kúwú kúwú nká (a ndára ndára nká) sí kúwú kúwú nká.\nKám fári, '[12]' sí kúwú kúwú nká 12.\n\nA kúwú káma sí kúwú kúwú nká kúwú kúwú nká káma kúwú nká kúwú nká kúwú kúwú nká kúwú nká (káma-káma sí kúwú-kúwú sí káma-káma)."
   },
   "invalid_move": {
     "invalid_move_format": "Fasal ngalwotǝgǝna ba",
@@ -14,7 +14,7 @@
     "placement": "Ɗaa {current_player_id} woni koɗol e symbol ({symbol}) e cell {cell_num}."
   },
   "outcome": {
-    "winner": "Player {current_player_id} ('{symbol}') connected two opposite edges!",
+    "winner": "Kasan {current_player_id} ('{symbol}') kàmba kàsira kóló kólí!",
     "draw": "Futu dәye kamzǝna. Shima kundowo!"
   }
 }

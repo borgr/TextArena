@@ -13,6 +13,6 @@
   },
   "outcome": {
     "win": "Gratulujymy, zgadliście prawidłowo.",
-    "turn_limit": "The turn limit has been reached. Guess: {guess}, Target: {target}"
+    "turn_limit": "Limit posuniyńć bůł uośůngńůnty. Przipodano: {guess}, Cyl: {target}"
   }
 }

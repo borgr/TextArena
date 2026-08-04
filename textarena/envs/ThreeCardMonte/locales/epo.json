@@ -11,7 +11,7 @@
     "{ball_pos}": "The cup index the ball is under"
   },
   "player_prompt": {
-    "intro": "Track the hidden ball 'X' while the cups are shuffled.\nAfter shuffling, guess its location with `[k]`."
+    "intro": "Sekvu la kaŝitan pilkon 'X' dum la pokaloj estas miksitaj.\nPost miksado, divenu ĝian lokon per `[k]`."
   },
   "game_message": {
     "ball_starts": "Pilko komencas: {line}",
@@ -21,7 +21,7 @@
     "reveal": "(Malkaŝu: pilko sub {ball_pos})"
   },
   "invalid_move": {
-    "wrong_format": "Bad action. Use `[k]`.",
+    "wrong_format": "Malbona ago. Uzu `[k]`.",
     "out_of_range": "Indekso ekster intervalo 0-{max_index}."
   },
   "outcome": {

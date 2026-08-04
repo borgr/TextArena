@@ -7,8 +7,8 @@
     "out_of_range": "Mwini {player_id}, Nthabwala yosatila. Koloni {col} ili ku mphaka.",
     "already_full": "Mwini {player_id}, Nthabwala yosatila. Koloni {col} ili ndi anthu.",
     "proposing_with_no_resource": "Woseŵera {player_id} wakayezga kuti wapeleke ndalama kwambura kuŵa na vinthu vyakukhumbikwa.",
-    "incorrect_offer_format": "Player {player_id} made a trade offer in an incorrect format.",
-    "no_new_offer": "Player {player_id} made no new trade offer."
+    "incorrect_offer_format": "Mchezaji {player_id} anatoa chomwe atapeleka m'chitunzi usio sahihi.",
+    "no_new_offer": "Mchezaji {player_id} anakosa kutoa chomwe atapeleka kwa mpinzako."
   },
   "offers": {
     "reject": "Woseŵera {player_id} wakakana kusinthana.",

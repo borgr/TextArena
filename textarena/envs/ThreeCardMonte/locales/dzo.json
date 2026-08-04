@@ -11,21 +11,21 @@
     "{ball_pos}": "The cup index the ball is under"
   },
   "player_prompt": {
-    "intro": "Track the hidden ball 'X' while the cups are shuffled.\nAfter shuffling, guess its location with `[k]`."
+    "intro": "རྡེའུ་སྦས་པའི་སྐབས་སུ་བྱེ་མ་བསྒྱུར་བ་བལྟོས།\nབསྒྱུར་བའི་རྗེས་སུ་ཨང་རྟགས་བལྟོས་ནས་རྡེའུ་ཡོད་པའི་ས་གནས་བལྟོས། `[k]` གིས་བསྟན་པར་གྱིས།"
   },
   "game_message": {
     "ball_starts": "བཱོལ་འདི་འགོ་བཙུགས་ནུག {line}",
-    "shuffle": "Shuffle {step}/{steps}: swapped cups {i} and {j}.",
+    "shuffle": "བསྒྱུར་བ་{step}/{steps}། བྱེ་མ་{i} དང་ {j} བསྒྱུར་བ།",
     "cups": "ཕེག་རྒྱན།: {line}  {prompt}",
     "guess_now": "ད་འདི་ག་ཨིན་ན་ ཧ་གོ་དགོ!",
     "reveal": "(གསལ་སྟོན་: {ball_pos}གི་འོག་ལུ་ཡོད་པའི་ ball)"
   },
   "invalid_move": {
-    "wrong_format": "Bad action. Use `[k]`.",
+    "wrong_format": "བྱེད་སྟངས་ནོར་བ། `[k]` གིས་བསྟན་པར་གྱིས།",
     "out_of_range": "ཨང་གྲངས་ཚུ་ སྐུགས་ ༠-{max_index}ལས་བརྒལ་མི་འཐོན་འོང་།"
   },
   "outcome": {
     "win": "རྩ་བདེན་ ཁྱོད་ཀྱིས་གཱོལ་འདི་ཐོབ་ནུག",
-    "lose": "Wrong — ball was under cup {ball_pos}."
+    "lose": "ནོར་བ། རྡེའུ་བྱེ་མ་ {ball_pos} ན་ཡོད་པ་རེད།"
   }
 }

@@ -1,18 +1,18 @@
 {
   "player_prompt": {
-    "intro": "You are solving the Sokoban puzzle. You are the player and you need to push all boxes to targets.\n        When you are right next to a box, you can push it by moving in the same direction.\n        You cannot push a box through a wall, and you cannot pull a box.\n        On the board, objects are represented as: \n        - The player (you) appears as 'P' \n        - Walls are represented with '#' \n        - Boxes are marked as 'X' \n        - Empty goals are shown with a 'O'\n        - Boxes on goals are visualized with '√'\n        You can also use [w] for up, [a] for left, [s] for down, and [d] for right.\n        "
+    "intro": "Tadakkest tadabakat n Sokoban. Ad teddakkel d amejjaj, emast ad tesseqdec akk tuqqatin ɣer tezziwin.\n        Mi d-kkent dadda n tuqqat, tzemreḍ ad tesseqdec s tazmart n yidis.\n        Ur tzemreḍ ara ad tesseqdec tuqqat ɣer yegdalen, u ur tzemreḍ ara ad ternuḍ tuqqat.\n        Ɣef tebḍiert, ibuda ttun d akk: \n        - Amejjaj (kečč) itedda d 'P' \n        - Yegdalen ttun d '#' \n        - Tuqqatin ttun d 'X' \n        - Tizziwin tifessiwin ttun d 'O'\n        - Tuqqatin ɣef tizziwin ttun d '√'\n        Tzemreḍ daɣen ad tesseqdec [w] i ufella, [a] i tazelmaṭ, [s] i wadda, u [d] i tazelmaḍ.\n        "
   },
   "board": {
     "current_board": "Asaḍḍa aɣ n wakal:\n\n{board}\nIswi n tikkal: {moves}"
   },
   "invalid_move": {
-    "wrong_format": "The submitted move does not follow the correct format. Use [up], [down], [left], [right] or [w], [a], [s], [d].",
+    "wrong_format": "Aseqdec n wass ur ittam d tazmart saɛɛdit. Seqdec [up], [down], [left], [right] neɣ [w], [a], [s], [d].",
     "not_valid_action": "ⴰⵛⴰⵗⵉⵍ ⵓⴰ ⵉⵋⵋⴰⵏ ⵢⵈⵈⴰⵍ ⵂⴰⵔⴰⵜ ⵏ ⴰⵍⵆⵉⴷⵎⴰⵜ ⵜⴰⵂⵓⵙⴾⴻⵏ",
     "wall_collision": "ⵓⴰⵔ ⴰⴷⴷⵓⴱⴰⵜ ⴰⴾⴰⵉⴰⴷ ⴷⴰⵗ ⵜⴰⵗⴰⵍⴰ!",
     "invalid_position": "ⵜⴰⵙⵙⵓⵜⵍⵜ ⵓⵔ ⵉⴳⵉⵏ ⴰⵣⵔⴼ - ⵓⵍⴰⵇ ⴰⴷ ⵜⵣⵎⵎⴰⵔⵜ ⴰⵖⴰⵔⴰⵙ."
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
+    "moved": "Nekk {pushed} imɛddi [{action}].",
     "pushed_prefix": "ⴰⵜⵓⴰⵣⴰⵉⴰⵏ ⵜⴰⴷⴰⴱⵉⵜ ⴰⵍⵓⴰⵈ ⵓⴻⵏ."
   },
   "outcome": {

@@ -12,7 +12,7 @@
     "cannot_bet": "చేయలేను [bet] - తప్పక [call] / [raise] / [fold].",
     "nothing_to_call": "కాల్ చేయడానికి ఏమీ లేదు; మీరు బదులుగా [check] చేయవచ్చు.",
     "no_bet_to_raise": "తెరవడానికి [bet X] ఉపయోగించండి; పెంచడానికి పందెం లేదు.",
-    "insufficient": "Insufficient chips for that action."
+    "insufficient": "ఆ చర్య కోసం సరిపడని చిప్‌లు."
   },
   "game_action": {
     "action": "Player {player_id} -> [{token}]"

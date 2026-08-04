@@ -1,13 +1,13 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in **Ultimate Tic Tac Toe**.\nSubmit your move as **[macro  micro]** (two numbers 0-8):\n• *macro*  = which mini-board you play in\n• *micro* = which square inside that mini-board\nExample `[7 8]` ➜ place your mark in mini-board 7, square 8, and\nforce your opponent to play in mini-board 8 next.\n\nYou are `{symbol}`.\n"
+    "intro": "O kerekere mo Player {player_id} ena **Ultimate Tic Tac Toe**.\nVakauta nomu i vakaro ena fomu **[macro  micro]** (rua na nambari 0-8):\n• *macro*  = na mini-bodi cava o vakaro kina\n• *micro* = na skwea cava ena loma ni mini-bodi ya\nKerekere ni ivakaraitaki `[7 8]` ➜ vakatura nomu i vakatakilakila ena mini-bodi 7, skwea 8, ka\nvakalawataki kina nomu meca me vakaro ena mini-bodi 8 ena gauna mai muri.\n\nO `{symbol}`.\n"
   },
   "board": {
     "current_board": "Tabana e vakayagataki tiko: {board}"
   },
   "invalid_move": {
     "wrong_format": "Na iwalewale ni kena toki e dodonu me [macro micro] ena naba 0-8.",
-    "out_of_range": "Indices must each be between 0 and 8.",
+    "out_of_range": "Na inisisi me ra tu kina na kena veibasai 0 kei 8.",
     "index_out_of_range": "Na micro_board, laini se kolona e sega ni tiko ena vanua.",
     "cell_occupied": "Sa tu na tamata ena rumu qo.",
     "wrong_micro_board": "Me qito na dauqito ena dua tale na laini lailai.",
@@ -18,7 +18,7 @@
     "specific": "na micro board {nxt}"
   },
   "game_action": {
-    "played": "Player {player_id} a taura ina vatu ni micro board {macro_idx}, seli {micro_idx} (daku {row}, kolomu {col}). Player {opponent_id} yalovinaka me taura ena {nxt_txt}."
+    "played": "Na Player {player_id} a vakaro ena mini-bodi {macro_idx}, seli {micro_idx} (roro {row}, kolomu {col}). Na Player {opponent_id} me vakaro ena {nxt_txt} ena gauna oqo."
   },
   "outcome": {
     "win": "Na dauqito {player_id} e qaqa ena Ultimate Tic Tac Toe!",

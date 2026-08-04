@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing Blackjack against the dealer.\nYour goal is to get as close to 21 as possible without going over.\nOn your turn, choose '[Hit]' to draw another card or '[Stand]' to hold.\nJ/Q/K = 10 points; A = 11 or 1, whichever is better.\n"
+    "intro": "Bu sta jogá Blackjack kontra diálter.\nBu objetivu é di chega mas perto di 21 ki possível sin pasa di lá.\nNa bu vez, skolhi '[Hit]' pa puxa kartón ó '[Stand]' pa mantén.\nJ/Q/K = 10 puntus; A = 11 ó 1, kwalu ki é mehor.\n"
   },
   "board": {
     "current_state": "Manu {hand_number}/{num_hands}\nBo manu: {player_hand} (Pontu: {score})\nDiléri monstra: {dealer_card}"

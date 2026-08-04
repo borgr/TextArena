@@ -4,7 +4,7 @@
   },
   "board": {
     "current_board": "Ubuyobozi bw'ishirahamwe: {board}",
-    "current_game_board": "Ubu Game Board: {board}"
+    "current_game_board": "Ubao wa Mchezo wa sasa:\n{board}"
   },
   "invalid_move": {
     "wrong_format": "Umukinnyi {player_id} ntiyishuye mu buryo bukwiye.",
@@ -13,8 +13,8 @@
     "already_matched": "Umukinyi {player_id} yatoye ikarata imwe canke zose uko ari zibiri zisanzwe zihuye."
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "Karata zilizochaguliwa na Player {player_id} katika nafasi [{r1} {c1}] na [{r2} {c2}] zinafanana!",
+    "cards_no_match": "Karata zilizochaguliwa na Player {player_id} hazifanani. Karata katika nafasi [{r1} {c1}] na [{r2} {c2}] ni {pos1} na {pos2} mtawalia."
   },
   "outcome": {
     "draw": "Abo bakinyi bompi baragereranije igitigiri c'impuzu zingana.",

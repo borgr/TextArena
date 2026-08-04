@@ -9,10 +9,10 @@
     "{pct}": "Progress as a percentage string, e.g. 50%"
   },
   "player_prompt": {
-    "intro": "Map each letter to a unique digit so the arithmetic holds.\nAssign with `[A 5]`, re-assign anytime.\n"
+    "intro": "Onjezani herufi yonse ndi tarakimu yake yolembedwa kuti makhulupiriro a ganeti agwile.\nOnjezani ndi `[A 5]`, mukonzanso nthawi yoyose.\n"
   },
   "invalid_move": {
-    "wrong_format": "Bad action format. Use `[A 5]`.",
+    "wrong_format": "Mbaliro wa njira yayi. Tumizani `[A 5]`.",
     "letter_not_in_puzzle": "Kalata {letter} siili m'mawu osokoneza.",
     "digit_used": "Digit {digit} yogwiritsidwa kale ntchito ndi {used_letter}.",
     "leading_zero": "Digiri lotsogolera la liwu silingakhale 0."

@@ -13,7 +13,7 @@
     "repeated_guess": "Anjeun geus nebak {guess}. Mangga coba tebak nu sejenna."
   },
   "game_action": {
-    "feedback": "Submitted [{guess}]. Feedback: {black_pegs} black peg(s), {white_pegs} white peg(s)."
+    "feedback": "Dikirim [{guess}]. Umpan balik: {black_pegs} pégs hideung, {white_pegs} pégs bodas."
   },
   "outcome": {
     "win": "Anjeun geus ngabongkar kode, ngagaduhan {black_pegs} tina {code_length} pasak anu bener",

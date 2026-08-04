@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "Kujeji haani laato nder dabare [row col] to row be col woni intejairji diga 0 yaaki {max_index}.",
-    "out_of_range": "Coordinates must be between 0 and {max_index}. You entered [{row},{col}]."
+    "out_of_range": "Koordinatiiji ngoniima nder 0 e {max_index}. A yiɗaama [{row},{col}]."
   },
   "outcome": {
     "win": "Bonnki! A timmini dabareji nder {moves_used} yahde.",

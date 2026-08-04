@@ -6,7 +6,7 @@
     "announce": "### Ronda {current_round}/{max_rounds}\nLa carta del to oponente ye: {card}"
   },
   "invalid_move": {
-    "ambiguous": "Supply exactly ONE bracketed action, e.g. '[check]', '[bet 2]', '[call]', '[raise 3]', or '[fold]'.",
+    "ambiguous": "Fornece EXACTAMENTE una aición ente corchetes, p. ex. '[check]', '[bet 2]', '[call]', '[raise 3]', o '[fold]'.",
     "cannot_check": "Nun se puede [check] - ye una apuesta.",
     "amount_min": "El valor de la apuesta/recuperación tien d'esistir ≥ 1.",
     "cannot_bet": "Nun puedes [bet] - debes [call] / [raise] / [fold].",
@@ -23,10 +23,10 @@
     "possible_actions": "Les sos posibles acciones: {legal}"
   },
   "message": {
-    "round_result": "{reason}  Pot {pot} → Player {winner}. (Bankrolls P0:{p0}, P1:{p1})",
+    "round_result": "{reason}  Bote {pot} → Xugador {winner}. (Banca P0:{p0}, P1:{p1})",
     "folded": "El xugador {player_id} retiróse.",
-    "showdown_win": "Showdown: {card_win} beats {card_lose}.",
-    "showdown_tie": "Showdown tie: both {card}. Pot split – each receives {split}."
+    "showdown_win": "Enfrentamientu final: {card_win} gana a {card_lose}.",
+    "showdown_tie": "Empate nel enfrentamientu final: dambes {card}. Bote compartíu – cada unu recibe {split}."
   },
   "outcome": {
     "p0_wins": "Xugador 0 gana ({bank0} > {bank1})",

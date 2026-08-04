@@ -14,16 +14,16 @@
     "intro": "Siz Üçnəfərli Tic Tac Toe-da Oyuncu {player_id}siniz.\nSizin simvolunuz '{symbol}'dir.\nSiz simvolunuzu 5x5 lövhədə sıraya düzəltmək üçün növbə ilə qoyursuz.\nXətlər üfiqi, şaquli və ya diaqonal ola bilər.\nHərəkətinizi '[4]' formatında təqdim edin, 4-cü hücrəni işarələmək üçün."
   },
   "board": {
-    "current_board": "Current Board:\n\n{board}\n\nMövcud Addımlar: {moves}"
+    "current_board": "تخته فعلی:\n\n{board}\n\nحرکت های موجود: {moves}"
   },
   "invalid_move": {
     "wrong_format": "Yanlış addım formatı. '[cell]' istifadə edin, hücrə 0-{max_cell} olduqda.",
-    "out_of_range": "Invalid cell number: {cell}. Must be between 0 and {max_cell}.",
+    "out_of_range": "شماره سلول نامعتبر: {cell}. باید بین 0 و {max_cell} باشد.",
     "already_occupied": "{cell} حجره ایندیکی کیمی مشغولدور.",
     "made_invalid": "اویونچو {player_id} یالنیز حرکت ائتدی."
   },
   "game_action": {
-    "placed": "Player {player_id} places their symbol ({symbol}) in field ({row}, {col})."
+    "placed": "بازیکن {player_id} علامت خود ({symbol}) را در زمینه ({row}، {col}) قرار می دهد."
   },
   "outcome": {
     "win": "Oyuncu {player_id} ({symbol}) qalib gəlir!",

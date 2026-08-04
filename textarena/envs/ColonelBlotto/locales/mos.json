@@ -1,11 +1,11 @@
 {
   "player_prompt": {
-    "intro": "You are {role} in Colonel Blotto.\nYour goal is to win more rounds than your opponent.\nOn each round, allocate exactly {num_total_units} units across fields {field_names}.\nThe player who allocates more units to a field wins that field, and the player who wins more fields wins the round.\nFor example, '[A7 B7 C6]' allocates 7 units to A, 7 to B, and 6 to C.",
+    "intro": "Yaa {role} mɛn Colonel Blotto.\nKɛlɛm kiɛm wɛɛndɛ winɛ pɛɛndɛ kɛlɛm kiɛm lafiɛɛ.\nKɛlɛm kiɛm pɛɛndɛ, kɛlɛm {num_total_units} unitɛɛ kɛlɛm {field_names}.\nNɛɛndɛ kiɛm wɛɛndɛ kɛlɛm unitɛɛ kɛlɛm fieldɛɛ, ɛɛndɛ kiɛm wɛɛndɛ kɛlɛm fieldɛɛ wɛɛndɛ roundɛɛ.\nKɛlɛm kiɛm '[A7 B7 C6]' kɛlɛm 7 unitɛɛ A, 7 B, ɛɛndɛ 6 C.",
     "commander_alpha": "Komandɛɛr Alfa.",
     "commander_beta": "Komandɛɛr Beta."
   },
   "game_state": {
-    "header_round": "=== COLONEL BLOTTO - Round {current_round}/{num_rounds} ===\nRounds Won - Commander Alpha: {alpha_score}, Commander Beta: {beta_score}"
+    "header_round": "=== COLONEL BLOTTO - Round {current_round}/{num_rounds} ===\nRounds Wɛɛndɛ - Commander Alpha: {alpha_score}, Commander Beta: {beta_score}"
   },
   "round_battle": {
     "field_result": "\nZaɣa {current_round}\nCommander Alpha simsɛri la: {p0_allocations}\nCommander Beta simsɛri la: {p1_allocations}\n",

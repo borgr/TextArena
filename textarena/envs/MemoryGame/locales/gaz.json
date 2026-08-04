@@ -10,16 +10,16 @@
     "wrong_format": "Taphachiisaa {player_id} kallattii sirrii hin taaneen deebii kenne.",
     "out_of_bounds": "Taphattuun {player_id} dirree daangaa ala ta'e filate.",
     "same_card_twice": "Taphachiisaa {player_id} kaardii walfakkaataa si'a lama filate.",
-    "already_matched": "Invalid move. Player {player_id} selected one or both cards that have already been matched."
+    "already_matched": "Gochi kee sirrii miti. Player {player_id} kaardii tokko yookiin lamaan wal-qabataman filate."
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "Kaardiin Player {player_id} bakka [{r1} {c1}] fi [{r2} {c2}] irratti filataman wal-qabatu!",
+    "cards_no_match": "Kaardiin Player {player_id} filataman wal-qabatuu hin danda'an. Kaardiin bakka [{r1} {c1}] fi [{r2} {c2}] irratti argaman {pos1} fi {pos2} dha."
   },
   "outcome": {
     "draw": "Taphattoonni lamaanuu kaardii lakkoofsa walfakkaatu qabu.",
     "win": "Taphattuun {winner_id} mo'ate!",
-    "turn_limit": "The turn limit has been reached. The game is over. Player 0 scored {score_0} points, Player 1 scored {score_1} points.",
+    "turn_limit": "Dhimmama gochi xumurame. Taphi suni xumurame. Player 0 poyintii {score_0} argate, Player 1 poyintii {score_1} argate.",
     "turn_limit_win": "{reason} Player {winner_id} tamsaasa kenne!"
   }
 }

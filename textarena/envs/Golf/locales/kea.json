@@ -24,7 +24,7 @@
     "intro": "Bo ta joga Golf (Jogu di Kartu) - Jogadör {player_id}.\nMeta: Bo ten ki pontu total máis baixo na rodada singela. Si kolónna komparti mesmu balor, eli somadu komu 0.\nBalor di Kartu: A=1, 2-10=balor di fas, J/Q=10, K=0\n\nAkseyon (usa braketadu eksatu):\n- '[draw]' - Tira di baraha\n- '[take]' - Tira di monti di desisti\n- '[swap X Y]' - Troka kartu di drew ku pozison X (linha) Y (kolónna)\n- '[discard]' - Desisti di kartu di drew"
   },
   "board": {
-    "drew": "You drew: {card}\nNow you must [swap X Y] or [discard] it.",
+    "drew": "Bu tiru: {card}\nAgora bu é obrigadu [swap X Y] ou [discard] el.",
     "took": "Bo tira: {card} di monti di desisti\nBo ten ki [swap X Y] ku el (no pódé desisti)",
     "peeked": "Bo espió na pozison ({row},{col}): {card}",
     "turn_view": "Bo mão:\n{hand}\nMonti di desisti: {discard}\n{options}",

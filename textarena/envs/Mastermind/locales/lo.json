@@ -13,7 +13,7 @@
     "repeated_guess": "ທ່ານໄດ້ຄາດເດົາແລ້ວ {guess} ກະລຸນາລອງຄາດເດົາແບບອື່ນ."
   },
   "game_action": {
-    "feedback": "Submitted [{guess}]. Feedback: {black_pegs} black peg(s), {white_pegs} white peg(s)."
+    "feedback": "ສົ່ງ [{guess}]. ຄຳເຫັນປັນຍາ: {black_pegs} ຫີກດຳ, {white_pegs} ຫີກຂາວ."
   },
   "outcome": {
     "win": "ທ່ານໄດ້ crack ລະຫັດ, ການແກ້ໄຂ {black_pegs} ອອກຈາກ {code_length} pegs ຢ່າງຖືກຕ້ອງ",

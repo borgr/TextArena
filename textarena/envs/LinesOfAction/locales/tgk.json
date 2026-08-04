@@ -10,7 +10,7 @@
     "{to}": "The destination coordinate of a move, such as b3"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in game of LinesOfAction.\nYour pieces are '{side}', opponent pieces are '{other}'.\nMove format: `[b1b3]` (from-coord to-coord). A legal move travels horizontally, vertically, or diagonally a number of squares equal to the total pieces (any colour) in that line. You may jump over your own pieces, but not opponent pieces; landing on an opponent captures it.  Win when all your pieces are 8-neighbour connected."
+    "intro": "Шумо Бозигари {player_id} дар бозии LinesOfAction ҳастед.\nҚисмҳои шумо '{side}' ҳастанд, қисмҳои рақиб '{other}' ҳастанд.\nФормати ҳаракат: `[b1b3]` (аз координатаи сарчашма ба координатаи мақсад). Ҳаракати қонунӣ дар самти уфуқӣ, амудӣ ё диагоналӣ ба шумораи мураббаъҳои баробар ба шумораи қисмҳои умумӣ (ранги ҳар гуна) дар он хатти ҳаракат мекунад. Шумо метавонед аз болои қисмҳои худ ҷаҳида, вале аз болои қисмҳои рақиб на; фуруд дар болои рақиб онро дастгирӣ мекунад.  Ғолибият ҳангоми пайвастани ҳамаи қисмҳои шумо ба ҳамсояҳои 8-тӯда."
   },
   "board": {
     "current_board": "Шӯрои ташкилот: {board}"

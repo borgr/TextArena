@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are {role} in Colonel Blotto.\nYour goal is to win more rounds than your opponent.\nOn each round, allocate exactly {num_total_units} units across fields {field_names}.\nThe player who allocates more units to a field wins that field, and the player who wins more fields wins the round.\nFor example, '[A7 B7 C6]' allocates 7 units to A, 7 to B, and 6 to C.",
+    "intro": "Nde {role} va'e Colonel Blotto-pe.\nNe remiandu va'e oñembojáva hetave ñeha'ãre ne rivale-gui.\nOñeñeha'ã jave, oñemoĩ {num_total_units} unidad kuéra ñeha'ãme {field_names}.\nPe ñeha'ãhára oñemoĩ hetave unidad kuéra peteĩ ñeha'ãme oñembojáva pe ñeha'ã, ha pe ñeha'ãhára oñembojáva hetave ñeha'ã oñembojáva pe ñeha'ã.\nTechapyrã, '[A7 B7 C6]' oñemoĩ 7 unidad kuéra A-pe, 7 B-pe, ha 6 C-pe.",
     "commander_alpha": "Comandante Alfa-pe guarã",
     "commander_beta": "Comandante Beta-pe guarã"
   },
@@ -15,7 +15,7 @@
   },
   "invalid_move": {
     "wrong_format": "Formato de entrada noĩporãva. Eipuru: A:5, B:10, C:5",
-    "invalid_field": "Invalid field name(s). Valid fields: {field_names}",
+    "invalid_field": "Téra oĩ'ỹva ñe'ẽitépe. Téra ñe'ẽitépe ikatúva: {field_names}",
     "wrong_allocation_value": "Opaite asignación ha'eva'erã entero ndaha'éiva negativo.",
     "incorrect_total_units": "Rehegua {num_total_units} tepy. Ko’ágã: {current_sum}",
     "good_allocations": "Ojekuaa porã."

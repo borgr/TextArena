@@ -1,14 +1,14 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in an Iterated Prisoner's Dilemma spanning {num_rounds} rounds.\n\nGame Structure:\n- Before each decision you have {total_conversation_rounds} turns to communicate freely.\n- After that, both players simultaneously choose to cooperate or defect.\n\nPayoff Matrix (fixed each round):\n- Both Cooperate ➜ each {cooperate_reward}\n- Both Defect ➜ each {mutual_defect_reward}\n- One Defects, one Cooperates ➜ Defector {defect_reward}, Cooperator {sucker_reward}\n\nHow to Play:\n- During conversation: type any text you wish.\n- During decision phase: include '[Cooperate]' or '[Defect]' (case-insensitive). You may add extra text before/after the token."
+    "intro": "Nde Player {player_id} Iterated Prisoner's Dilemma-pe ohasáva {num_rounds} vuelta-pe.\n\nJuego Estructura:\n- Oñepyrũvo ñe'ẽme'ẽ, nderehe {total_conversation_rounds} pyrũ oñe'ẽ haguã.\n- Upéi, mokõi jugador oiporavo oñepytyvõ térã oikundaha.\n\nPayoff Matrix (oĩva ñe'ẽme'ẽ):\n- Mokõi oñepytyvõ ➜ oĩva {cooperate_reward}\n- Mokõi oikundaha ➜ oĩva {mutual_defect_reward}\n- Peteĩ oikundaha, peteĩ oñepytyvõ ➜ oikundaha {defect_reward}, oñepytyvõ {sucker_reward}\n\nMba'éichapa oñeha'ã:\n- Oñe'ẽme'ẽ aja: ehai ñe'ẽnguéra nderehe.\n- Oiporavo aja: ehai '[Cooperate]' térã '[Defect]' (ndaikatúi ichupe). Ikatu rehai ñe'ẽ ambue mboyve/mohu'ã token."
   },
   "phases": {
-    "conversation_finished": "Conversa finalizada para a rodada {round}. Por favor, responda com '[Cooperate]' ou '[Defect]' dentro de \\boxed{{}}.",
+    "conversation_finished": "Ñe'ẽme'ẽ ohasa va'erã round {round}. Ehai '[Cooperate]' térã '[Defect]' \\boxed{{}}-pe.",
     "starting_round": "--- Ñepyrûha ñembyaty {round} ---",
-    "round_summary": "Resultados da rodada {round}:\n{outcome}\nJogador 0 ganhou {r0} (total {score_0}), Jogador 1 ganhou {r1} (total {score_1})."
+    "round_summary": "Round {round} apytu'ũ:\n{outcome}\nJugador 0 ohupyty {r0} (total {score_0}), Jugador 1 ohupyty {r1} (total {score_1})."
   },
   "outcome": {
-    "winner": "Jogador {winner} ganha {win_score} - {lose_score}.",
+    "winner": "Jugador {winner} ohupyty {win_score} - {lose_score}.",
     "draw": "Mokõive jugador ogana {s0}.",
     "round_both_cooperate": "Mokõive jugador omba'apo oñondive.",
     "round_both_defect": "Mokõive jugador ojehekýi.",

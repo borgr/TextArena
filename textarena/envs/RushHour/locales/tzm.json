@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing a {difficulty} RushHour puzzle. Slide cars to free the red car [X] and drive it out the right edge.\nActions: [A+], [B-], etc.  (+ = forward, - = backward)."
+    "intro": "Tqadart ar tettazal tawlaft {difficulty} n RushHour. Sɣel taɣawsa ɣef uɣzu [X] d umnid s tama tayeffust.\nTiddest: [A+], [B-], atg. (+ = s tama tayeffust, - = s tama tazelmadt)."
   },
   "invalid_move": {
     "wrong_format": "Aseɣwen ur igemmnen. Sken format [A+] / [B-].",
@@ -8,7 +8,7 @@
     "blocked": "ⴰⵕⵥⵎ ⵏ ⵓⵎⵓⵙⵙⵓ."
   },
   "game_message": {
-    "solved": "The red car zooms out! You solved the puzzle."
+    "solved": "Tirakatin tamazegt tḥemmlal! Tqadart teṛẓi tijṛit."
   },
   "outcome": {
     "win": "ⵉⵜⵜⵓⵣⵎⵎⴻⵎ ⵓⴷⵡⴰⵍ!"

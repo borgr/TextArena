@@ -1,12 +1,12 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a {num_rounds}-round Rock-Paper-Scissors game.\nYour goal is to win as many rounds as possible.\nIn each round, respond with one of: '[rock]', '[paper]', or '[scissors]'.\nYou may also use '[r]', '[p]', or '[s]' as shorthand.\n"
+    "intro": "Kedda d-iklan {player_id} deg was {num_rounds} n-ufar Rock-Paper-Scissors.\nTamatkda n-ufus d-aweyyas aṭas n-ufar.\nDeg kray ufur, iruḥ d-ijawab s-yan: '[rock]', '[paper]', neɣ '[scissors]'.\nTaqadda a t-sseqdec '[r]', '[p]', neɣ '[s]' am ismal.\n"
   },
   "invalid_move": {
     "wrong_format": "Adar ur sɣan. Sɣid [rock], [paper], neɣ [scissors]."
   },
   "game_action": {
-    "selects": "Player {player_id} selects move {move}."
+    "selects": "Aklan {player_id} iseqdac aseqdec {move}."
   },
   "message": {
     "round_draw": "ⴰⴾⴰⵔⴰⴷ: ⴻⴷⴰⴶ ⵉⵉⴰⵏ",

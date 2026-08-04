@@ -47,13 +47,13 @@
     "blind_lost_folded": " بيھوش شرط گم! -${blind} (ڀريل)",
     "ante_won": "✅ ANTE شرط کٽي! +${amount}",
     "ante_pushed": " ANTE شرط PUSHED! ${ante} واپس موٽيو",
-    "ante_lost": "❌ ANTE bet LOST! -${ante}",
+    "ante_lost": "❌ انٽي بيٽ هارايو! -${ante}",
     "blind_won": "✅ بليڊ شرط کٽي ويو! + ${amount}",
     "blind_pushed": " بليڊ شرط PUSHED! ${blind} واپس ڪيو ويو",
-    "blind_lost": "❌ BLIND bet LOST! -${blind}",
+    "blind_lost": "❌ بلائنڊ بيٽ هارايو! -${blind}",
     "play_won": "✅ راند جو شرط کٽي ويو! + ${amount}",
     "play_pushed": " PLAY شرط PUSHED! ${play} موٽيو",
-    "play_lost": "❌ PLAY bet LOST! -${play}",
+    "play_lost": "❌ پلي بيٽ هارايو! -${play}",
     "net_gain": " گول {round} مڪمل ٿيو! خالص منافعو: + ${net}",
     "net_loss": " گول {round} مڪمل ٿيو! خالص نقصان: ${net}",
     "separator": "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -"
@@ -61,9 +61,9 @@
   "outcome": {
     "game_over_win": " گيم اوور! {max_turns} گول مڪمل ٿي ويا. توھان وٽ ${chips} چپس آھن - توھان کٽيو!",
     "game_over_lose": " گيم اوور! توهان جي چپس ختم ٿي وئي آهي. ڊيلر کٽي ٿو!",
-    "reward_win": "Player completed {winner_rounds} rounds with ${chips} chips",
+    "reward_win": "پليئر {winner_rounds} راؤنڊز مڪمل ڪيا ${chips} چِپس",
     "reward_lose": "رانديگر گول ۾ چپس کان ٻاهر هليو ويو {round}",
-    "reward_win_max": "Player completed {max_turns} rounds with ${chips} chips"
+    "reward_win_max": "پليئر {max_turns} راؤنڊز مڪمل ڪيا ${chips} چِپس"
   },
   "hand_names": {
     "royal_flush": "رائل فلش",

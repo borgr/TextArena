@@ -22,15 +22,15 @@
     "final_ranking": "list of player indices from first eliminated to winner"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in an {num_players}-player Liar's Dice game.\nRules:\n- On your turn, you may either:\n  1) Make a new bid with a higher quantity or higher face (or both) than the current bid; i.e. '[Bid: 3, 4]',\n  2) Call the last bid by typing '[Call]'.\n\nIf you call:\n  - If the actual count of that face value among all dice is less than the bid, the last bidder loses one die.\n  - Otherwise, the caller loses one die.\nA player who reaches 0 dice is eliminated. The last remaining player wins."
+    "intro": "O motshameki {player_id} mo motshamekong wa Liar's Dice wa batsamaisi ba {num_players}.\nMelao:\n- Fa o le mo tshamekong ya gago, o ka:\n  1) Dirisa bid e ntšha ka palo e kgolo gape gape kgolo (kgotsa zombili) go feta bid e e teng; e.g. '[Bid: 3, 4]',\n  2) Bidisa bid ya bofelo ka go keteka '[Call]'.\n\nFa o bidisa:\n  - Fa palo ya nnete ya maadima a matlhopho a tsebe go ralala matlhopho yotlhe e le kwa tlase ga bid, motshameki wa bofelo o latlhega tsebe.\n  - Gape, motshameki yo o bidisitseng o latlhega tsebe.\nMotshameki yo o fitlheletseng 0 matlhopho a tsebe o latlhegelwa. Motshameki wa bofelo yo o setseng o fentse."
   },
   "board": {
     "per_player": "\tMmoleli {p}: {d}",
     "new_round": "\nMafelo a mantsi - Diketo di seng dikgweleditse: {dice_summary}\nDiketo tsa gago tse di mo gae kwa: {your_dice}"
   },
   "call": {
-    "bidder_loses": "Player {current_player_id} calls! The actual count of face {face_value} is {count}, which is LESS than {quantity}.\nPlayer {loser_id} (the last bidder) loses one die.",
-    "caller_loses": "Player {current_player_id} calls! The actual count of face {face_value} is {count}, which is >= {quantity}.\nPlayer {loser_id} (the caller) loses one die."
+    "bidder_loses": "Motshameki {current_player_id} o bidisa! Palo ya nnete ya maadima a matlhopho a tsebe {face_value} ke {count}, e e le kwa tlase ga {quantity}.\nMotshameki {loser_id} (motshameki wa bofelo) o latlhega tsebe.",
+    "caller_loses": "Motshameki {current_player_id} o bitsa! Palo ya sesupo {face_value} ke {count}, e e fetang kana e lekana le {quantity}.\nMotshameki {loser_id} (yoo bitsang) o latlhegelwa ke tsebe nngwe."
   },
   "action": {
     "bid_announce": "Mmoleli {player_id} o biditse {quantity} ya tsala {face_value}."
@@ -50,6 +50,6 @@
     "eliminated_invalid": "Motshameki {player_id} o ne a tswa ka motsamao wa gagwe e le o sa tshwanelang."
   },
   "outcome": {
-    "win": "Player {winner} wins! Final ranking: {final_ranking}"
+    "win": "Motshameki {winner} o fentse! Lenane la batsamaisi: {final_ranking}"
   }
 }

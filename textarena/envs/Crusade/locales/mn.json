@@ -10,7 +10,7 @@
     "unknown_square": "Мэдэхгүй талбай.",
     "not_your_piece": "Эх сурвалж бол таны ажил биш.",
     "own_piece": "Өөрийнхөө гарт газардаж чадахгүй.",
-    "not_knight": "Not a knight move."
+    "not_knight": "Морин хөдөлгөөн биш."
   },
   "game_action": {
     "moved": "{player_id} тоглогч өөрийн хөшөөг {frm}-аас {to}-д шилжүүлсэн.",

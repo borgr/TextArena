@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "Амал [row col] форматында болушу керек, анда сап жана тилке 0дөн {max_index} чейинки бүтүн сандар.",
-    "out_of_range": "Coordinates must be between 0 and {max_index}. You entered [{row},{col}]."
+    "out_of_range": "Координаталар 0 жана {max_index} аралыгында болушу керек. Сиз [{row},{col}] киргиздиниз."
   },
   "outcome": {
     "win": "Куттуктайм! Сиз {moves_used} кыймылдарында табышмакты чечтиңиз!",

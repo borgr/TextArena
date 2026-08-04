@@ -3,11 +3,11 @@
     "current_board": "المجلس الحالي: {board}"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} playing a game of Checkers as {color}.\nMake your move in chess-style notation [fileRank fileRank], e.g. '[b2c3]' (column letter a–h, row digit 0–7).\nBasic rules:\n  • Move diagonally forward by 1 if empty.\n  • Capture by jumping over an opponent piece.\n  • A piece is Kinged if it reaches the opposite end.\n"
+    "intro": "إنتا لعّاب {player_id} تلعب لعبة الدّامة ك {color}.\nخلّي حركتك بترميز الشطرنج [fileRank fileRank]، مثلا '[b2c3]' ( حرف العمود أ–ح، رقم الصف 0–7).\nالقواعد الأساسية:\n  • تحرك قطرياً للأمام ب 1 إذا كان فارغ.\n  • إمسك بقطع الخصم بالقفز فوقها.\n  • القطعة تتحول لمالك إذا وصلت للنهاية المقابلة.\n"
   },
   "invalid_move": {
     "wrong_format": "لم يتم العثور على تنسيق حركة صالح. استخدم [a1b2]، على سبيل المثال [b2c3].",
-    "illegal": "Move [{move}] is illegal."
+    "illegal": "الحركة [{move}] غير قانونية."
   },
   "game_action": {
     "moved": "لاعب {player_id} تحرك {move}."

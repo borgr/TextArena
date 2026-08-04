@@ -9,10 +9,10 @@
     "{pct}": "Progress as a percentage string, e.g. 50%"
   },
   "player_prompt": {
-    "intro": "Map each letter to a unique digit so the arithmetic holds.\nAssign with `[A 5]`, re-assign anytime.\n"
+    "intro": "प्रत्येक अक्षर को एक अद्वितीय अंक के साथ मैप करें ताकि गणित सही हो।\n `[A 5]` के साथ असाइन करें, कभी भी पुनः असाइन करें।\n"
   },
   "invalid_move": {
-    "wrong_format": "Bad action format. Use `[A 5]`.",
+    "wrong_format": "खराब क्रिया प्रारूप। `[A 5]` का उपयोग करें।",
     "letter_not_in_puzzle": "अक्षर {letter} पहेली में ना बा.",
     "digit_used": "अंक {digit} पहले से {used_letter} द्वारा उपयोग कइल गइल बा।",
     "leading_zero": "एगो शब्द के पहिला अंक 0 ना हो सकेला."

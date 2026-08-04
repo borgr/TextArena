@@ -3,7 +3,7 @@
     "intro": "Uyiyithonde ndiyaphi na Player {player_id} kumdlalo we-Indian Poker.\n- 52-card deck; uyibona kuphela icadi lempikiswano.\n- Ante {ante} chip(s) ngemdlalo, {max_rounds} mizamo yomdlalo.\n- Izinto ezivumelekile: '[check]'  |  '[bet X]'  |  '[call]'  |  '[raise X]'  |  '[fold]'  (X ngumahluko omancipheka <= ichip count yakho.)\n- Icadi elihle kude iphumelela ipoti kuliphi ukubonakala.\n"
   },
   "round": {
-    "announce": "### Round {current_round}/{max_rounds}\nYour opponent's card is: {card}"
+    "announce": "### Round {current_round}/{max_rounds}\nIkadi ye-opponent yakho yi: {card}"
   },
   "invalid_move": {
     "ambiguous": "Nika ngaphezu kwe-BRAKITI eyodwa, njengoko '[check]', '[bet 2]', '[call]', '[raise 3]', noma '[fold]'.",

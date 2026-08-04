@@ -43,7 +43,7 @@
     "board": "{hand} {trick} స్కోర్లుః {scores} {trump_info} [play X] ఉపయోగించి కార్డును ప్లే చేయండి"
   },
   "invalid_move": {
-    "wrong_format": "Use [play X] where X is the card position (1, 2, 3, etc.)",
+    "wrong_format": "[play X] ఉపయోగించండి ఇక్కడ X అనేది కార్డ్ స్థానం (1, 2, 3, మొదలైనవి)",
     "out_of_range": "చెల్లని కార్డు స్థానం. మీకు {count} కార్డులు (1-{count}) ఉన్నాయి"
   },
   "action": {

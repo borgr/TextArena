@@ -16,23 +16,23 @@
     "{cards}": "The cards in a pile as neutral labels, or '--' if empty (never translate)"
   },
   "player_prompt": {
-    "intro": "You are playing Klondike Solitaire. Your goal is to move all cards to the foundation piles.\n\nGame Rules:\n- Foundation piles (F1-F4): Build up from Ace to King in suit\n- Tableau piles (T1-T7): Build down alternating colors (red on black, black on red)\n- Stock: Draw cards to waste pile\n- Waste (W): Top card available for play\n\nCommands:\n- 'draw' - Draw cards from stock to waste\n- 'move <source> <destination> [count]' - Move cards between piles\n  Examples: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count can also be 'all', which will try to move all face-up cards.\n- 'forfeit' - End the game immediately and lock in your current score\n- Pile names: W (waste), F1-F4 (foundations), T1-T7 (tableau)\n\nYou can execute multiple actions in one turn by separating them with commas:\n  Example: 'draw, move W T1, move T2 F1'\n\nOnly Kings can be placed on empty tableau piles.\nActions execute in order - if one fails, the remaining actions are skipped.\nUse 'forfeit' if you believe the game is impossible to win."
+    "intro": "Tadakalt tamashek n Klondike Solitaire. Tanegga nnek wad aɣaras n uzzuzzu n wayyuren akken ad ten-teǧǧeɣ ɣer ussudu n uɣaras.\n\nTawuriwin n uzzuzzu:\n- Ussudu n uɣaras (F1-F4): Rnu ɣer wayyur n Ace ɣer wayyur n King di tɣessa\n- Ussudu n tawla (T1-T7): Rnu ɣer wadda n warawen (awraɣ ɣef abayɣur, abayɣur ɣef awraɣ)\n- Aɣaras n yiccaren: Ssuɣel wayyuren ɣer uɣaras n yirɣan\n- Uɣaras n yirɣan (W): Wayyur wiss sin yella ɣer uɣaras\n\nTawuriwin:\n- 'draw' - Ssuɣel wayyuren ɣer uɣaras n yirɣan\n- 'move <source> <destination> [count]' - Ssuɣel wayyuren ɣer uɣaras n wayyuren\n  Imedyaten: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count yezmer ad yili 'all', wad yezmer ad yili akken ad ten-teǧǧeɣ wayyuren wiss sin yella.\n- 'forfeit' - Tfad adrar n uzzuzzu s yiddeɣ ɣer wakud n yimɣuren\n- Isemawen n uɣaras: W (yirɣan), F1-F4 (ussudu n uɣaras), T1-T7 (ussudu n tawla)\n\nTazmert ad ten-teǧǧeɣ tawuriwin tuɣac di wakud wiss sin s yisekaren s tukkuzt:\n  Imedyat: 'draw, move W T1, move T2 F1'\n\nWayyuren n King wiss sin yella yezmer ad yili ɣer uɣaras n tawla wiss sin yella.\nTawuriwin ten-teǧǧeɣ di wakud wiss sin - wad yezmer ad yili wiss sin yella, tawuriwin wiss sin yella ten-teǧǧeɣ.\nSseqdec 'forfeit' wad yezmer ad yili uzzuzzu yezmer ad yili wiss sin yella."
   },
   "format_error": {
     "no_brackets": "ⵜⴰⵍⵖⴰ ⵏ ⵜⵉⴳⴰⵡⵜ ⵓⵔ ⵜⵓⵙⵍⵉⴳ. ⵉⵇⵇⴰⵏⴷ ⴰⴷ ⵢⵉⵍⵉ ⵓⵙⴽⵛⵎ ⴳ ⵉⵏⵙⴰⵜⵏ.",
     "no_closing_bracket": "ⵜⴰⵍⵖⴰ ⵏ ⵜⵉⴳⴰⵡⵜ ⵓⵔ ⵉⴳⵉⵏ ⴰⵣⵔⴼⴰⵏ. ⵉⵛⵜⵜⵉ ⵓⴽⵕⵓⵎ \"]\"",
-    "empty_command": "ⵜⴰⴱⵔⴰⵜ ⵜⵓⵎⵥⴰ. ⴰⵔⵜⴰⵉ \"ⴷⵔ\" ⵏⵖ ⴷ \"ⵎⵓⵡⴼ <ⵙⵓⵕⵚ><ⴰⴷⵉⵙⵜⵉⵢⵓⵏ> [count]\".",
+    "empty_command": "Tawuri wiss sin yella yezmer ad yili wiss sin yella. Tira 'draw' neɣ 'move <source> <destination> [count]'",
     "empty_action": "ⵜⵉⴳⴰⵡⵜ ⵜⴰⵍⵍⵉⵍⵏ.",
     "move_needs_args": "ⴷⴰ ⵉⵜⵜⵉⵔⵉ ⵓⴱⵕⵓⴹ ⵏ ⵓⵎⵣⵉⵣⵣⵍ ⴰⵙⵏⴼⵔ ⴷ ⵜⴰⵏⴰⴼⵓⵜ. ⴰⵙⵙⵎⵔⵙ: \"move <source> <destination> [count]\"",
-    "count_positive": "ⵉⵇⵇⴰⵏⴷ ⴰⴷ ⵉⴳ ⵓⵟⵟⵓⵏ ⴰⵎⵏⵉⴳ ⵏⵖ \" ⴽⵓⵍⵍⵓ\" .",
-    "count_invalid": "ⵓⵙⵙⵉⴹⵏ ⵓⵔ ⵉⴳⵉⵏ ⵡⴰⵍⵍⵉ. ⵙⵎⵔⴰⵙ ⴰⵎⵟⵟⵓⵏ ⵏⵖⴷ \" ⴽⵓⵍⵍⵓ \".",
-    "unknown_command": "Unknown command '{cmd}'. Use 'draw', 'move <source> <destination> [count]', or 'forfeit'",
+    "count_positive": "Tawuri wiss sin yella yezmer ad yili wiss sin yella neɣ 'all'",
+    "count_invalid": "Tawuri wiss sin yella yezmer ad yili wiss sin yella. Sseqdec wakud neɣ 'all'",
+    "unknown_command": "Tawuri wiss sin yella ur yezmir '{cmd}'. Sseqdec 'draw', 'move <source> <destination> [count]', neɣ 'forfeit'",
     "wrapped": "Action {n}: {msg}"
   },
   "action_result": {
     "success": "Action {n}: {msg}",
     "before_failure": "ⵜⵉⴳⴰⵡⵜ {n} ⵏⵏⴰ ⵉⵜⵜⵓⵙⴽⴰⵔⵏ ⴷⴰⵜ ⵓⴱⴰⵢⵢⵓⵔ.",
-    "failed": "Action {n} ur sɛɛdɛq: {msg}"
+    "failed": "Tifinagh n uɣawas {n} ur d-yettwakkes: {msg}"
   },
   "move_result": {
     "drew": "ⴹⵔⵓ ⴽⴰⵔⴷ (ⵙ) ⵙⴳ ⵉⵙⵓⴳⴰⵎ ⴰⵔ ⴰⴱⵍⴰ.",

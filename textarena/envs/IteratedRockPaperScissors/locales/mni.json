@@ -6,15 +6,15 @@
     "wrong_format": "Move ki hichari. [rock], [paper],[scissors] changsillagi."
   },
   "game_action": {
-    "selects": "Player {player_id} move {move} khongba."
+    "selects": "{player_id} ki khilangba {move} thabak touba."
   },
   "message": {
-    "round_draw": "রাউন্দগী ফল: দ্রো",
-    "round_win": "রাউন্দ ফল: শান্নরোই {winner}না মায় পাকখি!"
+    "round_draw": "Round gi result: Thengnei",
+    "round_win": "Round gi result: {winner} ki khilangba jingalakpa!"
   },
   "outcome": {
-    "p0_wins": "শান্নরোই ০না রাউন্দ খ্বাইদগী য়াম্না মায় পাকখি!",
-    "p1_wins": "শান্নরোই 1না রাউন্দ খ্বাইদগী য়াম্না মাই পাকখি!",
-    "draw": "মেটচ অসি দ্রো ওইরে!"
+    "p0_wins": "0 khilangba na round khudingmakpi!",
+    "p1_wins": "1 khilangba na round khudingmakpi!",
+    "draw": "Match ahingba thengnei!"
   }
 }

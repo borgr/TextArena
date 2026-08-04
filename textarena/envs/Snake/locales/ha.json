@@ -11,14 +11,14 @@
     "{groups}": "Neutral ranking data (a list of player-id groups, worst to best); do not translate"
   },
   "player_prompt": {
-    "intro": "{num_players}-Player Snake on a {width}×{height} grid.\nYou control snake {player_id}. Valid moves: '[up]'/'[down]'/'[left]'/'[right]' (or w/s/a/d).\nObjective: survive longest or be the longest and get the highest score (turn limit {max_turns} turns)."
+    "intro": "{num_players}-Dan wasan Snake a kan {width}×{height} grid.\nKa riƙe maciji {player_id}. Motsi masu inganci: '[up]'/'[down]'/'[left]'/'[right]' (ko w/s/a/d).\nBuri: tsira mafi tsawo ko kuwa mafi tsawo kuma samu maki mafi girma (iyakar motsi {max_turns} motsi)."
   },
   "board": {
     "current": "Kwamitin yanzu: {board}",
     "after_moves": "Jihar Hukumar ta yanzu: {board}"
   },
   "game_action": {
-    "invalid_death": "Snake {player_id} died due to invalid move."
+    "invalid_death": "Maciji {player_id} ya mutu saboda motsi mara inganci."
   },
   "outcome": {
     "survived_win": "Mai kunnawa {player_id} ya tsira; duk sauran sun mutu.",

@@ -22,7 +22,7 @@
     "start": "Briscola gemu sa start! Trump suit: {trump_suit} (Trump card: {trump_card})"
   },
   "prompt": {
-    "intro": "O taura Briscola - Player {player_id}.\nGoal: Wini na trick kei na qai vakalougatataki na kena levu na point (120 na point e na deck).\nCard Points: A=11, 3=10, K=4, Q=3, J=2, others=0\nCard Power: A > 3 > K > Q > J > 7 > 6 > 5 > 4 > 2\nTrump cards beat non-trump cards regardless of power.\n\nAction: '[play X]' where X is the position (1-{max_pos}) of the card in your hand\n"
+    "intro": "O kerekere tiko ni Briscola - Vakaitavi {player_id}.\nNodra: Mo ni yacova na kalasi kei kerekere na ilavo levu duadua (120 ilavo taucoko ena deck).\nIlavo ni Kad: A=11, 3=10, K=4, Q=3, J=2, so tale=0\nKaukauwa ni Kad: A > 3 > K > Q > J > 7 > 6 > 5 > 4 > 2\nNa kad ni Trump e yacova na kad sega ni Trump me vaka e kaukauwa.\n\nCakacaka: '[play X]' kerekere X e sa ikoya na kedra itutu (1-{max_pos}) ni kad ena liga mu"
   },
   "hand": {
     "none": "Sega ni dua na kadi.",
@@ -44,14 +44,14 @@
   },
   "invalid_move": {
     "wrong_format": "Vakayagataka na [play X] e vanua X ni kadi (1, 2, 3, kei so tale)",
-    "out_of_range": "Invalid card position. O na taura {count} na kati (1-{count})"
+    "out_of_range": "Na naba ni katoni e sega ni dodonu. O kerekere ni {count} katoni (1-{count})"
   },
   "action": {
     "played": "Player {player_id} a taura {card}",
     "trick_win": "Player {winner} wini na trick kei na {card} kei na qai vakalougatataki {points} na point!"
   },
   "outcome": {
-    "head": "Game Over! Player {winner} wini kei na {points} na point!\n\nFinal Scores:\n{scores}",
+    "head": "Na qito e sa oti! Vakalotu {winner} e wini ira na {points} dinau!\n\nNa kena lewe ni Vakalotu:\n{scores}",
     "player_line": "Player {player_id}: {points} na point ({tricks} na trick)\n"
   }
 }

@@ -7,10 +7,10 @@
   },
   "actions": {
     "player_busted": "Zugador {player_id} el ga perso, perdendo {turn_total} punti!",
-    "player_hold": "Player {player_id} holds and banks {turn_total} points."
+    "player_hold": "Giugador {player_id} tien e mete via {turn_total} punti."
   },
   "board": {
-    "player": "Player 0: '{score_0}'; Player 1: '{score_1}'",
+    "player": "Giugador 0: '{score_0}'; Giugador 1: '{score_1}'",
     "current_total_scores": "Punti totali atuali: {scores}\nEl tuo totale di turno atuale è {turn_total}.",
     "roll_history": "{observation}\nLa tua storia de tiri per questo turno: {roll_history}",
     "first_roll": "{observation} Questo xe el primo tiro del tuo turno.",

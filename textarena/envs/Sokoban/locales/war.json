@@ -12,7 +12,7 @@
     "invalid_position": "An diri-makatuman nga paglugaring - waray makakahimo hin pagbalhin ngadto hiton posisyon."
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
+    "moved": "Ikaw {pushed} nagkiwa [{action}].",
     "pushed_prefix": "gin-iisog an kahon samtang"
   },
   "outcome": {

@@ -13,7 +13,7 @@
     "illegal": "Kwenta lokungekho emtsetfweni."
   },
   "game_action": {
-    "captured": "Player {player_id} captured a piece! (+{score_per_capture})"
+    "captured": "Ummdlali {player_id} wabamba impethu! (+{score_per_capture})"
   },
   "outcome": {
     "no_pieces": "Umdlali {player_id} ute tincetu.",

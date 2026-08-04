@@ -3,10 +3,10 @@
     "intro": "Tɛmɛna ni Frozen Lake!\n\nI ye 'P' ye kɔnɔ kɛ grid dɛsɛ.\nGrid kɛlɛnkɛw:\n  ' ' = Frozen kɔnɔ (kɛlɛnkɛ ye kɔnɔ)\n  'H' = Hole (i fa ka sɔrɔ!)\n  'G' = Lakika (i ka kɛ o lakika!)\n  'P' = I kɛlɛnkɛ kɔnɔ\n\nKɛlɛndɛlen dɔnɔ: up, down, left, right (alama w, a, s, d)\nSɛbɛn kɛlɛndɛlen kɛ: [up], [down], [left], [right] alama [w], [a], [s], [d]\n\nLakika: I ka kɛlɛ sɔrɔ o kɔnɔ (kɔnɔ kɛ) kɔnɔ kɛ lakika (kɔnɔ kɛ) o sɔrɔ hole dɔ! "
   },
   "board": {
-    "current_board": "Current Board:\n\n{board}\n\nAvailable Actions: {actions}"
+    "current_board": "Lɛbɛrɛ kɔnɔ:\n\n{board}\n\nKɛlɛ kɛlɛ: {actions}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use [up], [down], [left], [right] or [w], [a], [s], [d].",
+    "wrong_format": "Fasonin kɛlɛw ye. [up], [down], [left], [right] walima [w], [a], [s], [d] bɔ.",
     "unknown_action": "Baara min tɛ dɔn '{action}'. A bɛ kɛ sanfɛ, duguma, numan fɛ, kinin fɛ walima w, a, s, d.",
     "hit_wall": "I tun b'a fɛ ka taa {action} nka i ye kogo gosi!"
   },

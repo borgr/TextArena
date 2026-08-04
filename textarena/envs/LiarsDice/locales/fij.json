@@ -26,11 +26,11 @@
   },
   "board": {
     "per_player": "\tPlayer {p}: {d}",
-    "new_round": "\nNew round - Remaining dice: {dice_summary}\nOqo na nomuni Dice ni yasa: {your_dice}"
+    "new_round": "\nRaundi vou - Qito e se bula tiko: {dice_summary}\nNa qito ni nomu e: {your_dice}"
   },
   "call": {
-    "bidder_loses": "Player {current_player_id} calls! The actual count of face {face_value} is {count}, which is LESS than {quantity}.\nPlayer {loser_id} (the last bidder) loses one die.",
-    "caller_loses": "Player {current_player_id} call! Na actual count ni face {face_value} e {count}, ka e >= {quantity}.\nPlayer {loser_id} (na caller) lose eka die."
+    "bidder_loses": "Dauqito {current_player_id} kerekere! Na levu ni mata ni qito {face_value} e {count}, e lailai mai {quantity}.\nDauqito {loser_id} (na dauqito e qai oti) e dravudravua e dua na qito.",
+    "caller_loses": "Dauqito {current_player_id} kerekere! Na levu ni mata ni qito {face_value} e {count}, e >= {quantity}.\nDauqito {loser_id} (na kerekere) e dravudravua e dua na qito."
   },
   "action": {
     "bid_announce": "Player {player_id} bidia {quantity} ni face {face_value}."
@@ -50,6 +50,6 @@
     "eliminated_invalid": "Player {player_id} a vakawabokotaki ena sega ni dodonu na toso."
   },
   "outcome": {
-    "win": "Player {winner} win! Na final ranking: {final_ranking}"
+    "win": "Dauqito {winner} e qaleni! Lisi ni qaleni: {final_ranking}"
   }
 }

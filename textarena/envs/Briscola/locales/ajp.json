@@ -19,7 +19,7 @@
     "{deck_count}": "Number of cards left in the deck"
   },
   "game": {
-    "start": "Briscola game started! Trump suit: {trump_suit} (Trump card: {trump_card})"
+    "start": "بدأت لعبة بريسكولا! ورقة الترومب: {trump_suit} (بطاقة الترومب: {trump_card})"
   },
   "prompt": {
     "intro": "أنت تلعب البريسكولا - اللاعب {player_id}.\nالهدف: الفوز بالحيل وجمع أكبر عدد من النقاط (120 نقطة في العدة).\nنقاط البطاقة: A=11, 3=10, K=4, Q=3, J=2, الباقي=0\nقوة البطاقة: A > 3 > K > Q > J > 7 > 6 > 5 > 4 > 2\nبطاقات العالية تهزم البطاقات غير العالية بغض النظر عن القوة.\n\nالإجراء: '[play X]' حيث X هو موقع (1-{max_pos}) البطاقة في يدك\n"

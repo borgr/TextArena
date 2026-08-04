@@ -14,7 +14,7 @@
   },
   "game_action": {
     "attack": "P{player_id} د P{opp_id} په لاس برید کوي {opp_idx}: دا له {opp_val} څخه {new_val} ته ځي.",
-    "split": "P{player_id} splits into [{L}, {R}]."
+    "split": "P{player_id} په [{L}, {R}] ویشل کیږي."
   },
   "history": {
     "entry": "P{player_id} {desc}"

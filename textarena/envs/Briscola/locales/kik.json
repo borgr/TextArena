@@ -39,19 +39,19 @@
   "turn": {
     "score_entry": "Mwathani {player_id}: {points} pointi",
     "trump_info": "Kĩhũngĩro kĩa Trump: {trump_suit}",
-    "trump_info_deck": "Trump suit: {trump_suit} | Cards left in deck: {deck_count}",
+    "trump_info_deck": "Suti ya trump: {trump_suit} | Kadi zilizobaki kwenye sitaha: {deck_count}",
     "board": "{hand}\n\n{trick}\n\nAlama: {scores}\n{trump_info}\n\nCheza kadi kwa kutumia [play X]"
   },
   "invalid_move": {
     "wrong_format": "Hũthĩra [play X] harĩa X nĩ karati (1, 2, 3, na mangĩ)",
-    "out_of_range": "Invalid card position. You have {count} cards (1-{count})"
+    "out_of_range": "Nafasi ya kadi si sahihi. Una {count} kadi (1-{count})"
   },
   "action": {
     "played": "Mwathani {player_id} amecheza {card}",
-    "trick_win": "Player {winner} wins the trick with {card} and gains {points} points!"
+    "trick_win": "Mchezaji {winner} anashinda mzunguko kwa {card} na kupata {points} pointi!"
   },
   "outcome": {
-    "head": "Game Over! Player {winner} wins with {points} points!\n\nFinal Scores:\n{scores}",
-    "player_line": "Player {player_id}: {points} points ({tricks} tricks)\n"
+    "head": "Mchezo Umekwisha! Mchezaji {winner} anashinda kwa {points} pointi!\n\nAlama za Mwisho:\n{scores}",
+    "player_line": "Mchezaji {player_id}: {points} pointi ({tricks} mizunguko)\n"
   }
 }

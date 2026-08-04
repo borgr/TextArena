@@ -6,13 +6,13 @@
     "current_board": "Tavula current:\n\n{board}\nMossi disponibbili: {moves}"
   },
   "invalid_move": {
-    "wrong_format": "The submitted move does not follow the correct format. Use [up], [down], [left], [right] or [w], [a], [s], [d].",
+    "wrong_format": "La mossa inoltrata nun sequi lu formatu giustu. Usa [up], [down], [left], [right] o [w], [a], [s], [d].",
     "not_valid_action": "Lu muvimentu prisintatu nun è n'azzioni valida.",
     "wall_collision": "Non ti po' mmoviri 'nta nu muru!",
     "invalid_position": "Movimentu nvaliddu - nun si pò muviri a sta pusizzioni."
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
+    "moved": "Tu {pushed} ti muvisti [{action}].",
     "pushed_prefix": "spintau na scatula mentri ca"
   },
   "outcome": {

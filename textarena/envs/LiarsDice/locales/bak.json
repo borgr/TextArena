@@ -26,7 +26,7 @@
   },
   "board": {
     "per_player": "\tУйынсы {p}: {d}",
-    "new_round": "\nNew round - Remaining dice: {dice_summary}\nYour current Dice are: {your_dice}"
+    "new_round": "\nЯңы раунд - Ҡалған һөйәктәр: {dice_summary}\nҺеҙҙең хәҙерге һөйәктәр: {your_dice}"
   },
   "call": {
     "bidder_loses": "Уйынсы {current_player_id} тип әйтә! {face_value} ҡыяғының реаль йөҙө {count}, ул {quantity}ҡыяғынан кәм. \nУйынсы {loser_id} (һуңғы телдәүсе) бер күңел юғалта.",

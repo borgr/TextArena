@@ -16,7 +16,7 @@
   },
   "game_action": {
     "skipped": "ਖਿਡਾਰੀ {pid} ਨੂੰ ਆਪਣੀ ਵਾਰੀ ਛੱਡਣੀ ਪਈ",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "ਪਲੇਅਰ {pid} ({piece}) ਨੇ [{r}, {c}] ਖੇਡਿਆ ਅਤੇ {flipped} ਟੁਕੜਾ/ਟੁਕੜੇ ਪਲਟ ਦਿੱਤੇ"
   },
   "game_message": {
     "must_skip": "ਖਿਡਾਰੀ {pid} ({piece}) ਕੋਲ ਕੋਈ ਜਾਇਜ਼ ਚਾਲ ਨਹੀਂ ਹੈ ਅਤੇ ਉਸਨੂੰ ਛੱਡ ਦੇਣਾ ਚਾਹੀਦਾ ਹੈ।"

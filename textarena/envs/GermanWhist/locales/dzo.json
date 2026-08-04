@@ -1,10 +1,10 @@
 {
   "game_start": {
-    "intro": "The game begins. Trump suit: {trump_suit} (trump card: {trump_str}).",
+    "intro": "རྩེད་མོ་འགོ་བཙུགས་པ་ཡིན། རྩེད་མོའི་རིགས་གཙོ་བོ་: {trump_suit} (རྩེད་མོའི་རིགས་གཙོ་བོའི་ཤོག་བུ་: {trump_str})",
     "no_trump_card": "ག་ནི་ཡང་མེན།"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in German Whist.\n{phase_info}\nYou hold {hand_size} cards.\nPlay a card with '[play N]', where N is its position in your hand (for example '[play 3]').",
+    "intro": "ཁྱེད་རྩེད་མོ་མི་ {player_id} ཡིན་པ་དང་འདི་ནི་ཇར་མན་གྱི་རྩེད་མོ་ཡིན།\n{phase_info}\nཁྱེད་ཀྱི་ལག་ཏུ་ {hand_size} ཤོག་བུ་ཡོད།\nཤོག་བུ་རྩེད་པར་ '[play N]' ཟེར་བ་བྱོས། N ནི་ཁྱེད་ཀྱི་ལག་ཏུ་ཡོད་པའི་ཤོག་བུའི་གྲལ་བརྒྱད་ཡིན། (དཔེར་ན་ '[play 3]')",
     "phase_learning": "སྦྱང་བ་གི་རིམ་པ་: ཐིག་ཁྲམ་རེ་རེའི་ནང་ རྒྱལ་ཁ་ཐོབ་མི་གིས་ ཁ་ཕྱེ་ཡོད་པའི་ལག་ཆ་ལེན་ཏེ་ དེ་ལས་ཕམ་སོང་མི་དེ་གིས་ཡང་ གདོང་ཁར་ཡོད་མི་ ལག་ཆས་འདི་བཏོན་དོ་ཡོདཔ་ཨིན། འ་ནི་གནས་སྟངས་ནང་ལུ་ ཐོབ་པའི་ཐིག་ཁྲམ་གྱི་རྩིས་རྐྱབ་ད་ལུ་ གྲུབ་འབྲས་འཐོབ་མི་ཚུགས་པས།",
     "phase_playing": "རྩེད་འགྲན་འབད་ནིའི་དུས་ཡུན་: དུམ་གྲ་རེ་ལུ་ ཌེ་ཀའི་ཆ་ཤས་ཚུ་རྫོགས་ཏེ་ཡོདཔ་ཨིན། ད་ལས་རྩེདམོ་རེ་རེ་བཞིན་དུ་ རྒྱལ་ཁ་ཐོབ་ནི་ལུ་ཕན་ཐོགས་འོང་།"
   },
@@ -21,11 +21,11 @@
     "invalid_play": "འདི་ཚུ་ལག་ལེན་འཐབ་མི་ཚུགས།"
   },
   "game_action": {
-    "played": "Player {player_id} played {card}."
+    "played": "རྩེད་མོ་མི་ {player_id} གྱིས་ {card} ཤོག་བུ་རྩེད་པ་ཡིན།"
   },
   "trick": {
     "won": "མི་སྣ་{winner_id}ཡིས་{card}བཏང་བའི་རྒྱུན་ཆས་ཐོབ།",
-    "won_learning": "Player {winner_id} wins the trick with {card} and takes the face-up card."
+    "won_learning": "རྩེད་མོ་མི་ {winner_id} གྱིས་ {card} ཤོག་བུ་རྩེད་པས་རྩེད་མོ་རྒྱལ་བ་ཡིན་པ་དང་ཁ་ཕྱེ་བའི་ཤོག་བུ་བླངས་པ་ཡིན།"
   },
   "phase": {
     "learning_complete": "ཌེ་ཀེཊ་འདི་རྫོགས་ཏེ་ཡོད། ལྷབ་སྦྱང་གི་དུས་ཡུན་དེ་མཇུག་བསྡུ་སྟེ་ཡོདཔ་ཨིན། མཚམས་འཇོག་འབད་ཡོད་པའི་ཐབས་བྱུས་རེ་རེ་ལས་ རྒྱལ་ཁ་ཐོབ་ཚུགས།"
@@ -37,10 +37,10 @@
   },
   "turn": {
     "board": "{phase}\n{scores}\n{next_card}\n\n{trick}\n\n{hand}",
-    "scores_learning": "Tricks won so far - Player 0: {tricks0}, Player 1: {tricks1}",
-    "scores_playing": "Scoring tricks - Player 0: {tricks0}, Player 1: {tricks1}",
+    "scores_learning": "རྩེད་མོ་རྒྱལ་བའི་གྲལ་བརྒྱད་- རྩེད་མོ་མི་ 0: {tricks0}, རྩེད་མོ་མི་ 1: {tricks1}",
+    "scores_playing": "རྩེད་མོ་རྒྱལ་བའི་གྲལ་བརྒྱད་- རྩེད་མོ་མི་ 0: {tricks0}, རྩེད་མོ་མི་ 1: {tricks1}",
     "phase": "གོ་རིམ་: {phase}",
-    "phase_learning": "Phase: {phase} ({remaining_cards} cards left in the deck)"
+    "phase_learning": "རིམ་པ་: {phase} ({remaining_cards} ཤོག་བུ་གསར་པ་ལས་མེད་པ་)"
   },
   "hand": {
     "no_cards": "གཤམ་འཁོད་ཚུ་མེན།",
@@ -60,9 +60,9 @@
     "not_started": "རྩེད་འདི་འགོ་བཙུགས་མ་ཚུགས།",
     "header": "=== ཇར་མན་གྱི་ཁ་སྐད་ཀྱི་རྩེད་རིགས་===",
     "phase": "{observation}\nདུས་ཡུན།: {phase}",
-    "trump_suit": "{observation}\nTrump suit: {trump_suit}",
-    "trump_card": "{observation}\nTrump card: {card}",
-    "cards_left": "{observation}\nCards left in deck: {count}",
+    "trump_suit": "{observation}\nརྩེད་མོའི་རིགས་གཙོ་བོ་: {trump_suit}",
+    "trump_card": "{observation}\nརྩེད་མོའི་རིགས་གཙོ་བོའི་ཤོག་བུ་: {card}",
+    "cards_left": "{observation}\nཤོག་བུ་གསར་པ་ལས་མེད་པ་: {count}",
     "next_card": "{observation}\nརྒྱལ་ཁ་ཐོབ་མཁན་ལ་རྒྱུན་ཆས་སྟེར་བའི་ལྗང་ཁ།: {card}",
     "blank": "{observation} ཨིན།",
     "current_trick": "{observation} ད་ལྟོའི་ཐབས་ལམ།:",
@@ -71,6 +71,6 @@
     "player_line": "{observation}\nམི་སྣ་{player_id}།: {scoring} རྒྱུན་ཆས་ཐོབ་པ། ({tricks} གྲངས་ཚད་ཡོད་པ།) ལག་ཏུ་ཡོད་པའི་ལྗང་ཁ།: {hand_size}"
   },
   "outcome": {
-    "summary": "Learning phase - Player 0: {l0}, Player 1: {l1}. Playing phase - Player 0: {p0}, Player 1: {p1}. Player {winner_id} wins with {winner_tricks} scoring tricks!"
+    "summary": "སློབ་པའི་རིམ་པ་- རྩེད་མོ་མི་ 0: {l0}, རྩེད་མོ་མི་ 1: {l1}। རྩེད་མོ་རྩེད་པའི་རིམ་པ་- རྩེད་མོ་མི་ 0: {p0}, རྩེད་མོ་མི་ 1: {p1}。 རྩེད་མོ་མི་ {winner_id} གྱིས་ {winner_tricks} རྩེད་མོ་རྒྱལ་བའི་གྲལ་བརྒྱད་རྩེད་པས་རྩེད་མོ་རྒྱལ་བ་ཡིན།"
   }
 }

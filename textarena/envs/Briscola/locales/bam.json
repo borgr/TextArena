@@ -39,19 +39,19 @@
   "turn": {
     "score_entry": "Jokelani {player_id}: {points} pts",
     "trump_info": "Trump ka fini: {trump_suit}",
-    "trump_info_deck": "Trump suit: {trump_suit} | Cards left in deck: {deck_count}",
-    "board": "{hand}\n\n{trick}\n\nScores: {scores}\n{trump_info}\n\nPlay a card using [play X]"
+    "trump_info_deck": "Kɔlɔsɛnɛ kɛcɛ: {trump_suit} | Kɛcɛ wɛrɛ kɔnɔ: {deck_count}",
+    "board": "{hand}\n\n{trick}\n\nKɛlɛ: {scores}\n{trump_info}\n\nKɛcɛ jɛ ka [play X]"
   },
   "invalid_move": {
     "wrong_format": "I bɛ [play X] kɛ ni X ye karti jɔyɔrɔ (1, 2, 3, etc.) ye.",
-    "out_of_range": "Invalid card position. You have {count} cards (1-{count})"
+    "out_of_range": "Kɛcɛ bɔnɛsɛnɛ tɛ sɔrɔ. I kɛcɛ {count} kɛ (1-{count})"
   },
   "action": {
     "played": "Jokelani {player_id} dan {card}",
-    "trick_win": "Player {winner} wins the trick with {card} and gains {points} points!"
+    "trick_win": "Jɛnkɛ {winner} ye kɛcɛ sɔrɔ {card} nɛ ka bɔ {points} kɛlɛ!"
   },
   "outcome": {
-    "head": "Game Over! Player {winner} wins with {points} points!\n\nFinal Scores:\n{scores}",
-    "player_line": "Player {player_id}: {points} points ({tricks} tricks)\n"
+    "head": "Kɛlɛ kɔfɛ! Jɛnkɛ {winner} ye kɛlɛ sɔrɔ {points} kɛlɛ!\n\nKɛlɛ kɔnɔ:\n{scores}",
+    "player_line": "Jɛnkɛ {player_id}: {points} kɛlɛ ({tricks} kɛcɛ)\n"
   }
 }

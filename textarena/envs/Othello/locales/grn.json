@@ -16,7 +16,7 @@
   },
   "game_action": {
     "skipped": "Jokuaihára {pid} omboyke va'erã ijerure.",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "Jugador {pid} ({piece}) ojapó [{r}, {c}] ombogue {flipped} mburuvicha(kuéra)"
   },
   "game_message": {
     "must_skip": "Jogador {pid} ({piece}) naiñupi mba'e porãva ha ohopa'e."

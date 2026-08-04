@@ -11,21 +11,21 @@
     "{groups}": "Neutral ranking data (a list of player-id groups, worst to best); do not translate"
   },
   "player_prompt": {
-    "intro": "{num_players}-प्लेयर स्नेक एक {width}×{height} ग्रिड पर。\nआप स्नेक {player_id} को नियंत्रित करते हैं। वैध चालें: '[up]'/'[down]'/'[left]'/'[right]' (या w/s/a/d)।\nउद्देश्य: सबसे लंबे समय तक जीवित रहें या सबसे लंबा हों और उच्चतम स्कोर प्राप्त करें (मोड़ सीमा {max_turns} मोड़)।"
+    "intro": "{num_players}-کھلاڑی سنیک {width}×{height} گرڈ پہ۔\nتوہان سنیک {player_id} کنٹرول کروہ۔ موزوں مووز: '[up]'/'[down]'/'[left]'/'[right]' (یا w/s/a/d)۔\nمقصد: سب سے زیادہ وقت تک زندہ رہو یا سب سے لمبا سنیک بنو اور سب سے زیادہ سکور حاصل کرو (ٹرن کی حد {max_turns} ٹرن)۔"
   },
   "board": {
-    "current": "करंट बोर्ड: {board}",
-    "after_moves": "करंट बोर्ड स्टेट: {board}"
+    "current": "موجودہ بورڈ:\n{board}",
+    "after_moves": "موجودہ بورڈ حالت:\n{board}"
   },
   "game_action": {
-    "invalid_death": "सांप {player_id} छू अमान्य चाल की वजह से मर गये।"
+    "invalid_death": "سنیک {player_id} غیر قانونی مووز کی وجہ سے مر گیا۔"
   },
   "outcome": {
-    "survived_win": "प्लेयर {player_id} बचे; बाकि सब गये मारी।",
+    "survived_win": "کھلاڑی {player_id} زندہ رہا؛ باقی سب مر گئے۔",
     "all_dead_simul": "सलीम सांप छी एके साथ मरत.",
     "outlived": "प्लेयर छू बाक़ी सब्बो खोत ज़याद ज़िंदा.",
     "all_dead": "सरेन सांपो मर गेय.",
     "turn_limit": "टर्न लिमिट छूत - बेहतरीन स्कोर छी टाई-ब्रेक जीतान.",
-    "ranking": "{reason} अंतिम रैंकिंग समूह (सबसे खराब→सबसे अच्छा): {groups}"
+    "ranking": "{reason} فائنل رینکنگ گروپ (بدترین→بہترین): {groups}"
   }
 }

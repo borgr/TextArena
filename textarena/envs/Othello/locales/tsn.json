@@ -16,7 +16,7 @@
   },
   "game_action": {
     "skipped": "Motshameki {pid} o ne a tshwanelwa ke go tlola motlhala wa gagwe.",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "Player {pid} ({piece}) o tshamekile [{r}, {c}] a fetola {flipped} papisi(e)"
   },
   "game_message": {
     "must_skip": "Mmoki {pid} ({piece}) ga na medimo yeo e halalelang mme a tlile go sala."

@@ -12,8 +12,8 @@
     "invalid_position": "არასწორი მოძრაობა - არ შეიძლება გადასვლა ამ პოზიციაზე."
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
-    "pushed_prefix": "pushed a box while"
+    "moved": "თქვენ {pushed} გადაადგილეთ [{action}].",
+    "pushed_prefix": "ყუთი გადაადგილეთ და"
   },
   "outcome": {
     "win": "გმადლობთ, თქვენ ამოხსენიათ სოკობანის თავსატეხი!",

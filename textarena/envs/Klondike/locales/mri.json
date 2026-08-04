@@ -16,17 +16,17 @@
     "{cards}": "The cards in a pile as neutral labels, or '--' if empty (never translate)"
   },
   "player_prompt": {
-    "intro": "You are playing Klondike Solitaire. Your goal is to move all cards to the foundation piles.\n\nGame Rules:\n- Foundation piles (F1-F4): Build up from Ace to King in suit\n- Tableau piles (T1-T7): Build down alternating colors (red on black, black on red)\n- Stock: Draw cards to waste pile\n- Waste (W): Top card available for play\n\nCommands:\n- 'draw' - Draw cards from stock to waste\n- 'move <source> <destination> [count]' - Move cards between piles\n  Examples: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count can also be 'all', which will try to move all face-up cards.\n- 'forfeit' - End the game immediately and lock in your current score\n- Pile names: W (waste), F1-F4 (foundations), T1-T7 (tableau)\n\nYou can execute multiple actions in one turn by separating them with commas:\n  Example: 'draw, move W T1, move T2 F1'\n\nOnly Kings can be placed on empty tableau piles.\nActions execute in order - if one fails, the remaining actions are skipped.\nUse 'forfeit' if you believe the game is impossible to win."
+    "intro": "Kei te tākaro koe i te Solitaire o Klondike. Ko tō whāinga he neke i ngā kāri katoa ki ngā pūhanga tūāpapa.\n\nNgā Ture o te Kēmu:\n- Ngā pūhanga tūāpapa (F1-F4): Hangaia ake i te Ace ki te King i te kākahu\n- Ngā pūhanga tēpū (T1-T7): Hangaia iho i ngā tae hāngai (whero i runga i te pango, pango i runga i te whero)\n- Stock: Tīkina ngā kāri ki te pūhanga para\n- Para (W): Ko te kāri o runga hei tākaro\n\nNgā Whakahau:\n- 'draw' - Tīkina ngā kāri i te stock ki te para\n- 'move <source> <destination> [count]' - Neke i ngā kāri i waenga i ngā pūhanga\n  Tauira: 'move W T1', 'move T1 F2', 'move T3 T5 2'. Ka taea hoki te 'all', ka whakamātau ki te neke i ngā kāri katoa e tirohia ana.\n- 'forfeit' - Whakamutua te kēmu tonu ātātou, ā, mau ki tō kaiwhiwhi ināianei\n- Ingoa pūhanga: W (para), F1-F4 (tūāpapa), T1-T7 (tēpū)\n\nKa taea e koe te whakahaere i ngā mahi maha i te wā kotahi mā te wehewehe i a rātou ki ngā koma:\n  Tauira: 'draw, move W T1, move T2 F1'\n\nKo ngā King anake ka taea te whakatakoto ki ngā pūhanga tēpū kau.\nKa whakahaere ngā mahi i te otinga - ki te hinga tētahi, ka kore te whakahaere i ngā mahi e toe ana.\nWhakamahia 'forfeit' ki te whakapono koe kāore e taea te wikitoria te kēmu."
   },
   "format_error": {
     "no_brackets": "Kāore i te tika. Me waiho ngā mahi ki roto i nga kōwae.",
     "no_closing_bracket": "He hōputu mahi hē. Kāore i te kōwae kati ']'",
-    "empty_command": "whakahau kau. momo 'tohu' ranei \"move <source> <destination> [count]\"",
+    "empty_command": "Kāore he whakahau. Patohia 'draw' 'move <source> <destination> [count]' rānei",
     "empty_action": "He mahi kau",
     "move_needs_args": "Ko te whakahau neke e hiahia ana ki te putake me te ūnga. Whakamahi: 'move <source> <destination> [count]'",
-    "count_positive": "Me whai pānga te tatau, \"katoa\" rānei.",
-    "count_invalid": "He tau kore. Whakamahia he nama, \"katoa\" rānei",
-    "unknown_command": "Unknown command '{cmd}'. Use 'draw', 'move <source> <destination> [count]', or 'forfeit'",
+    "count_positive": "Tau e taea ana te tau pai āni rānei 'all'",
+    "count_invalid": "Tau hē. Whakamahia he tau āni rānei 'all'",
+    "unknown_command": "Kāore e mōhio ki te whakahau '{cmd}'. Whakamahia 'draw', 'move <source> <destination> [count]', 'forfeit' rānei",
     "wrapped": "Mahi {n}: {msg}"
   },
   "action_result": {

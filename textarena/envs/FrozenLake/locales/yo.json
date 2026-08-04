@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "Welcome to Frozen Lake! You are represented by 'P' on the grid. Grid symbols: ' ' = Frozen surface (safe to walk on) 'H' = Hole (fall in and lose!) 'G' = Goal (reach this to win!) 'P' = Your current position Available actions: up, down, left, right (or w, a, s, d) Type your action as: [up], [down], [left], [right] or [w], [a], [s], [d] Objective: Navigate from the start (top-left) to the goal (bottom-right) without falling into any holes !"
+    "intro": "Kaabo si Frozen Lake!\n\nA 'P' ni aṣẹyọri rẹ lori grid.\nAami grid:\n  ' ' = Eri oju (ọlọrọ lati rin)\n  'H' = Ojiji (subu si ati padanu!)\n  'G' = Ọla (de ọla yii lati ṣẹgun!)\n  'P' = Ipo rẹ lọwọlọwọ\n\nIṣẹ ti o wu: up, down, left, right (tabi w, a, s, d)\nTẹ iṣẹ rẹ bi: [up], [down], [left], [right] tabi [w], [a], [s], [d]\n\nỌla: Rin irin ajo lati ibẹrẹ (oke-ọla) si ọla (isalẹ-ọtun) laisi subu si ojiji kankan!\n"
   },
   "board": {
     "current_board": "Ìgbìmọ̀ tó wà nísinsìnyí: {board} Àwọn ìgbésẹ̀ tó wà nílẹ̀: {actions}"

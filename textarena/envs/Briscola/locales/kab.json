@@ -19,10 +19,10 @@
     "{deck_count}": "Number of cards left in the deck"
   },
   "game": {
-    "start": "Briscola game started! Trump suit: {trump_suit} (Trump card: {trump_card})"
+    "start": "Wakud n Briscola yebda! Uɣerbaz: {trump_suit} (Takarḍa n uɣerbaz: {trump_card})"
   },
   "prompt": {
-    "intro": "You are playing Briscola - Player {player_id}.\nGoal: Win tricks and collect the most points (120 total points in the deck).\nCard Points: A=11, 3=10, K=4, Q=3, J=2, others=0\nCard Power: A > 3 > K > Q > J > 7 > 6 > 5 > 4 > 2\nTrump cards beat non-trump cards regardless of power.\n\nAction: '[play X]' where X is the position (1-{max_pos}) of the card in your hand\n"
+    "intro": "Tiririt daɣen Briscola - Wammud {player_id}.\nAɣilif: Rebḥ takarḍi d akeccem ḍḍay n poinṭi (120 poinṭi deg wakud).\nPoinṭi n takarḍa: A=11, 3=10, K=4, Q=3, J=2, wiyaḍ=0\nTazmert n takarḍa: A > 3 > K > Q > J > 7 > 6 > 5 > 4 > 2\nTakarḍi n uɣerbaz rebḥen takarḍi nniḍen.\n\nAɛewwel: '[play X]' anda X d waddad (1-{max_pos}) n takarḍa deg wammud\n"
   },
   "hand": {
     "none": "Ulac tikarḍiwin.",
@@ -40,18 +40,18 @@
     "score_entry": "Player {player_id}: {points} n point",
     "trump_info": "Aḍebsi n Trump: {trump_suit}",
     "trump_info_deck": "Tasert n trumb: {trump_suit} | Tikwal timeqqṛin deg ufaw: {deck_count}",
-    "board": "{hand}\n\n{trick}\n\nScores: {scores}\n{trump_info}\n\nPlay a card using [play X]"
+    "board": "{hand}\n\n{trick}\n\nScore: {scores}\n{trump_info}\n\nAɛewwel takarḍa s [play X]"
   },
   "invalid_move": {
     "wrong_format": "Seqdec [play X] anda X d amkan n tkarḍa (1, 2, 3, atg.)",
-    "out_of_range": "Invalid card position. You have {count} cards (1-{count})"
+    "out_of_range": "Waddad n takarḍa ur yezmir. Ɣur-k {count} takarḍi (1-{count})"
   },
   "action": {
-    "played": "Player {player_id} played {card}",
+    "played": "Wammud {player_id} yuran {card}",
     "trick_win": "Player {winner} yettwagʷez amek azekku akked {card} akked yettwafek {points} n point!"
   },
   "outcome": {
     "head": "Tallit yettwaxṭer! Player {winner} yettwagʷez akked {points} n point!\n\nIsekna ifeḍlen:\n{scores}",
-    "player_line": "Player {player_id}: {points} points ({tricks} tricks)\n"
+    "player_line": "Wammud {player_id}: {points} poinṭi ({tricks} wakud)\n"
   }
 }

@@ -22,7 +22,7 @@
     "final_ranking": "list of player indices from first eliminated to winner"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in an {num_players}-player Liar's Dice game.\nRules:\n- On your turn, you may either:\n  1) Make a new bid with a higher quantity or higher face (or both) than the current bid; i.e. '[Bid: 3, 4]',\n  2) Call the last bid by typing '[Call]'.\n\nIf you call:\n  - If the actual count of that face value among all dice is less than the bid, the last bidder loses one die.\n  - Otherwise, the caller loses one die.\nA player who reaches 0 dice is eliminated. The last remaining player wins."
+    "intro": "ཁྱེད་མི་གཞི་ {player_id} རྩེད་རིགས་ Liar's Dice ནང་མི་མང་ {num_players} རེད།\nསྒྲིག་གཞི་རྣམས་:\n- ཁྱེད་ཀྱི་སྐབས་སུ་ཁྱེད་རང་གིས་འགྲེམ་གྲངས་གསར་པ་བཟོ་བ་དང་འགྲེམ་གྲངས་ད་ལྟའི་ལས་མང་བ་དང་ཤོ་གྲངས་མང་བ་དང་གཉིས་ཀ་མང་བ་བཟོ་བ་དཔེར་ན་ '[Bid: 3, 4]',\n  2) འགྲེམ་གྲངས་མཇུག་མ་འབོད་པ་བྱེད་པ་ '[Call]' བྱས་པ་བཞིན།\n\nཁྱེད་འབོད་པ་བྱེད་པ་ན་:\n  - ཤོ་གྲངས་གྲངས་ཚབ་དེ་དག་གི་གཞི་གྲངས་དེ་འགྲེམ་གྲངས་ལས་ཉུང་བ་ན་མི་གཞི་གྲངས་ཀྱི་གྲངས་ཚབ་གང་ཞིག་འགྲེམ་གྲངས་མཇུག་མ་བཟོས་པ་ཤོ་གྲངས་གཅིག་པོ་འཐོབ་པ་རེད།\n  - གཞན་དུ་འབོད་པ་བྱེད་མཁན་ཤོ་གྲངས་གཅིག་པོ་འཐོབ་པ་རེད།\nམི་གཞི་གྲངས་ཀྱི་གྲངས་ཚབ་གང་ཞིག་ཤོ་གྲངས་ 0 ལ་སླེབས་པ་དེ་མེད་པར་བཟོས་པ་རེད། མི་གཞི་གྲངས་ཀྱི་གྲངས་ཚབ་གང་ཞིག་ལྷག་པ་དེ་རྒྱལ་བ་རེད།"
   },
   "board": {
     "per_player": "\tམིའོ་{p}: {d}",
@@ -30,10 +30,10 @@
   },
   "call": {
     "bidder_loses": "མིའོ་{current_player_id} གིས་བསྐུལ་ལོ། དོན་དང་བསྟུན་པའི་ངོ་{face_value} གྱི་གྲངས་ཀ་{count} དེ་{quantity} ལས་དམ་པ།\nམིའོ་{loser_id} (མཐའ་མའི་བཏང་མཁན་) ཤོ་གཅིག་སྤྱིན་པ།",
-    "caller_loses": "Player {current_player_id} calls! The actual count of face {face_value} is {count}, which is >= {quantity}.\nPlayer {loser_id} (the caller) loses one die."
+    "caller_loses": "མི་གཞི་ {current_player_id} འབོད་པ་བྱེད་པ་རེད། ཤོ་གྲངས་ {face_value} གྲངས་ཚབ་དེ་ {count} རེད་པ་དང་དེ་འགྲེམ་གྲངས་ {quantity} ལས་མང་བ་རེད།\nམི་གཞི་ {loser_id} (འབོད་པ་བྱེད་མཁན་) ཤོ་གྲངས་གཅིག་པོ་འཐོབ་པ་རེད།"
   },
   "action": {
-    "bid_announce": "Player {player_id} bids {quantity} of face {face_value}."
+    "bid_announce": "མི་གཞི་ {player_id} འགྲེམ་གྲངས་ {quantity} ཤོ་གྲངས་ {face_value} རེད།"
   },
   "invalid_move": {
     "call_no_bid": "གོང་ལས་སླབ་མི་མེད་པར་ འགྲུལ་འཕྲིན་བཏང་ནུག",

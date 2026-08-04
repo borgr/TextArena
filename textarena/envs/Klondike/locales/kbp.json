@@ -16,7 +16,7 @@
     "{cards}": "The cards in a pile as neutral labels, or '--' if empty (never translate)"
   },
   "player_prompt": {
-    "intro": "You are playing Klondike Solitaire. Your goal is to move all cards to the foundation piles.\n\nGame Rules:\n- Foundation piles (F1-F4): Build up from Ace to King in suit\n- Tableau piles (T1-T7): Build down alternating colors (red on black, black on red)\n- Stock: Draw cards to waste pile\n- Waste (W): Top card available for play\n\nCommands:\n- 'draw' - Draw cards from stock to waste\n- 'move <source> <destination> [count]' - Move cards between piles\n  Examples: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count can also be 'all', which will try to move all face-up cards.\n- 'forfeit' - End the game immediately and lock in your current score\n- Pile names: W (waste), F1-F4 (foundations), T1-T7 (tableau)\n\nYou can execute multiple actions in one turn by separating them with commas:\n  Example: 'draw, move W T1, move T2 F1'\n\nOnly Kings can be placed on empty tableau piles.\nActions execute in order - if one fails, the remaining actions are skipped.\nUse 'forfeit' if you believe the game is impossible to win."
+    "intro": "Kɩlɩndayɩ Solitaire kɛ kɛlɛm. Paɣtʊ yɔɔ kɛ kɛlɛm taa wɛɛ kɛ kɛlɛm tɛɛ kɛlɛm. \n\nKɛlɛm Paɣtʊ:\n- Kɛlɛm tɛɛ kɛlɛm (F1-F4): Kɛlɛm kɛ kɛlɛm pɩɩlɩɩ kɛ kɛlɛm\n- Kɛlɛm taa kɛlɛm (T1-T7): Kɛlɛm kɛ kɛlɛm pɩɩlɩɩ kɛ kɛlɛm tɛɛ kɛlɛm\n- Kɛlɛm tɛɛ: Kɛlɛm tɛɛ kɛ kɛlɛm\n- Kɛlɛm tɛɛ (W): Kɛlɛm tɛɛ kɛ kɛlɛm\n\nKɛlɛm Yɔɔ:\n- 'draw' - Kɛlɛm tɛɛ kɛ kɛlɛm\n- 'move <source> <destination> [count]' - Kɛlɛm kɛ kɛlɛm\n  Kɛlɛm tɛɛ: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count pɩɩ taa 'all', kɛlɛm tɛɛ kɛ kɛlɛm.\n- 'forfeit' - Kɛlɛm tɛɛ kɛ kɛlɛm\n- Kɛlɛm tɛɛ: W (kɛlɛm tɛɛ), F1-F4 (kɛlɛm tɛɛ), T1-T7 (kɛlɛm taa)\n\nKɛlɛm tɛɛ kɛ kɛlɛm taa kɛlɛm kɛ kɛlɛm.\nKɛlɛm tɛɛ kɛ kɛlɛm taa kɛlɛm kɛ kɛlɛm.\nKɛlɛm 'forfeit' kɛ kɛlɛm tɛɛ kɛ kɛlɛm taa kɛlɛm."
   },
   "format_error": {
     "no_brackets": "Tʋma wena a-labɩna nɛ pɩfɛyɩ ɖeu yɔ, pɩwɛɛ se awɛ cɛcɛsɩ taa.",
@@ -24,15 +24,15 @@
     "empty_command": "Pɩtɛ paɣtʋ. pamaɣ \"draw\" yaa \"move <source><destination> [count]\".",
     "empty_action": "Tʋma wena paalakɩ yɔ a-tɔm",
     "move_needs_args": "Pɩpɔzʋʋ se pɛɖɛzɩ lone nɖɩ ɖɩ-taa palɩzɩ tɔm yɔ nɛ ɖenɖe papɩzɩɣ patɩŋna yɔ. Tɔm piye: \"move <source> <destination> [count]\"",
-    "count_positive": "Pɩwɛɛ se kɩ-tɛ tɔm ɛtalɩ camɩyɛ yaa \"mba payɩ\" yɔ.",
-    "count_invalid": "Pɩfɛyɩ ɖeu se pama-kʋ. Palakɩna mayaɣ nakɛyɛ yaa \"mba payɩ\" yɔ.",
+    "count_positive": "Kɛlɛm tɛɛ pɩɩ taa kɛlɛm 'all'",
+    "count_invalid": "Kɛlɛm tɛɛ pɩɩ taa kɛlɛm. Kɛlɛm tɛɛ kɛ kɛlɛm taa 'all'",
     "unknown_command": "Pɩlɩŋa weyi ɖɔɖɔ '{cmd}'. Sɩɣa 'draw', 'move <source> <destination> [count]', or 'forfeit'",
     "wrapped": "Action {n}: {msg}"
   },
   "action_result": {
     "success": "Action {n}: {msg}",
-    "before_failure": "Executed {n} action(s) before failure.",
-    "failed": "Action {n} failed: {msg}"
+    "before_failure": "Kɛlɛm {n} kɛlɛm kɛ kɛlɛm tɛɛ kɛ kɛlɛm.",
+    "failed": "Kɛlɛm {n} kɛlɛm tɛɛ: {msg}"
   },
   "move_result": {
     "drew": "Ɛ-tɛ lɛɣtʋ kɩfatʋ kpɛlɛkʋʋ tʋmɩyɛ.",
@@ -64,7 +64,7 @@
   "board": {
     "title": "Kʋnʋmɩŋ ndɩ ndɩ taa tɔm kɩcɛyɩtʋ. === KLONDIKE SOLITAIRE===",
     "turn": "Turn: {turn}/{max_turns}",
-    "stock": "Stock: {stock} cards",
+    "stock": "Kɛlɛm tɛɛ: {stock} kɛlɛm",
     "waste": "Tɛtʊ ndʊ tɩ-taa paɖʊʊ tʊma yɔ: {waste}",
     "foundations_header": "Tʋma ɖɩlaɖɛ nɛ a-taa wobu:",
     "foundation_row": "  F{n}: {cards}",

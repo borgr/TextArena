@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "Welcome to Frozen Lake!\n\nYou are represented by 'P' on the grid.\nGrid symbols:\n  ' ' = Frozen surface (safe to walk on)\n  'H' = Hole (fall in and lose!)\n  'G' = Goal (reach this to win!)\n  'P' = Your current position\n\nAvailable actions: up, down, left, right (or w, a, s, d)\nType your action as: [up], [down], [left], [right] or [w], [a], [s], [d]\n\nObjective: Navigate from the start (top-left) to the goal (bottom-right) without falling into any holes!\n"
+    "intro": "بوزلو گؤلَ خوش گلمیسینیز!\n\nشما 'P' ایله قئید اولونموشسوز.\nقئیدلار:\n  ' ' = بوزلو سطح (گؤزله ایچمه‌یه بولاییر)\n  'H' = چال (دوشوب و اودوزون!)\n  'G' = هدف (بو اورایا چاتماق اۆچون قازانین!)\n  'P' = ایندیکی مؤقئعیتینیز\n\nموجود hành độngلار: یوخاری، آشاغی، سول، ساغ (یا w، a، s، d)\nائتکی ایشلرینیزی بئله یازین: [up]، [down]، [left]، [right] یا [w]، [a]، [s]، [d]\n\nهدف: باشلانیشدان (یوخاری-سول) هدفه (آشاغی-ساغ) چاللارا دوشمه‌دن ناویکاتلاشین!\n"
   },
   "board": {
     "current_board": "کارنت بورد:\n\n{board}\n\nموفع उपलब اولان اکشنلر: {actions}"
@@ -15,7 +15,7 @@
   },
   "outcome": {
     "win": "تبریک! هدفینه چاتدین.",
-    "fell_in_hole": "You fell into a hole! Game over. You completed {pct}% of the journey to the goal.",
+    "fell_in_hole": "سیز چوخورا دوشدونوز! اویون بیتدی. سیز هدفه گئتمک یولونون {pct}% تاماملادینیز.",
     "turn_limit": "تور حدینه چاتدینیز! اویون باشا چاتیب. مقصدین سفرینین {pct}%-ینی تاماملادينيز."
   }
 }

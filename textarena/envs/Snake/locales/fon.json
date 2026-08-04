@@ -11,7 +11,7 @@
     "{groups}": "Neutral ranking data (a list of player-id groups, worst to best); do not translate"
   },
   "player_prompt": {
-    "intro": "{num_players}-Player Snake on a {width}×{height} grid.\nYou control snake {player_id}. Valid moves: '[up]'/'[down]'/'[left]'/'[right]' (or w/s/a/d).\nObjective: survive longest or be the longest and get the highest score (turn limit {max_turns} turns)."
+    "intro": "{num_players}-Mì sɛ̀ ɖò Snake lɛ̀ {width}×{height} kà.\nA xɔ̀ sɛ̀ ɖò {player_id} ɖò. Wàzu a xɔ̀ wɛ̀: '[up]'/'[down]'/'[left]'/'[right]' (alo w/s/a/d).\nNùkɔ̀n: ku dò gbɛ̀n ɖò lɛ̀n ɖò, alo ku dò gɛ̀n ɖò lɛ̀n ɖò bɔ̀ ɖìaɖìaɖì (aɖì {max_turns} ɖìaɖì)."
   },
   "board": {
     "current": "Akɔntaɖomɛ: {board}",
@@ -26,6 +26,6 @@
     "outlived": "Kántóo ɔ nɔ gbɛ hú mɛ ɖevo lɛ bǐ.",
     "all_dead": "Dǒ lɛ bǐ kú.",
     "turn_limit": "E kpò ɖò fí e è ɖó na lɛ́ kɔ dó é - mɛ nɔ mɔ nǔ jɛ nukɔn hugǎn ɔ wɛ ɖu bɔ̀ è ɖè yeɖée.",
-    "ranking": "{reason} Final ranking groups (worst→best): {groups}"
+    "ranking": "{reason} Gbɛ̀n ɖò wɛ̀n ɖò tɛ̀n (gbɛ̀nɖì→gbɛ̀nɖɔ̀): {groups}"
   }
 }

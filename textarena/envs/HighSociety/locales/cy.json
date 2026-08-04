@@ -17,8 +17,8 @@
     "auction_result": "P0 bid {bid0}, P1 bid {bid1}. Mae chwaraewr {winner} yn ennill prestige {prize} (gyfanswm {total})."
   },
   "outcome": {
-    "p0_wins": "Net-worth {nw0} > {nw1}",
-    "p1_wins": "Net-worth {nw1} > {nw0}",
+    "p0_wins": "Werth net {nw0} > {nw1}",
+    "p1_wins": "Werth net {nw1} > {nw0}",
     "draw": "Mae'r ddau werth net {nw0}  cyd-fynd union."
   }
 }

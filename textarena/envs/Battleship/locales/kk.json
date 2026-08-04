@@ -9,11 +9,11 @@
   },
   "game_action": {
     "you_sunk": "Сіз кемеңізді {coord}-те баттыңыз! Сіздің жаңартылған тақтаңыз: {view}",
-    "opp_sunk": "Opponent sunk your ship at {coord}! Your updated board:\n{view}",
+    "opp_sunk": "Қарсыласыңыз {coord} координатасындағы сіздің кемеңізді суға батырды! Жаңартылған тақта:\n{view}",
     "you_hit": "Соқтыңыз! Сіз {coord} нүктесінде қайыққа соқтыңыз! Жаңартылған тақтасыңыз:\n{view}",
     "opp_hit": "Қарсылас {coord} нүктесінде қайықңызға соқты! Жаңартылған тақтасыңыз:\n{view}",
-    "you_miss": "Miss! You missed the ship at {coord}! Your updated board:\n{view}",
-    "opp_miss": "Opponent missed your ship at {coord}! Your updated board:\n{view}"
+    "you_miss": "Жіберіп кетті! Сіз {coord} координатасындағы кемені жіберіп кеттіңіз! Жаңартылған тақта:\n{view}",
+    "opp_miss": "Қарсыласыңыз {coord} координатасындағы сіздің кемеңізді жіберіп кетті! Жаңартылған тақта:\n{view}"
   },
   "outcome": {
     "win": "Ойыншы {player_id} өз қарсыласының барлық қайықтарын батырды!"

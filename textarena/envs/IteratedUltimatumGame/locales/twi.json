@@ -21,12 +21,12 @@
     "{total}": "Each player's tied final total (a number)"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id}, playing {num_rounds} rounds of Iterated Ultimatum Game.\nYou have ${pool} to split this round between yourself and Player {other_id}.\n\nProposer:\n  - Make an offer: [Offer: $X] (0 <= X <= pool)\n  - If accepted → You get $(pool - X), other player gets $X\n  - If rejected → Both get $0\n  - Example: [Offer: $3]  or  'I think this is fair. [Offer: $5]'\n\nResponder:\n  - Decide on the offer with either [Accept] or [Reject]\n  - Example: 'That seems reasonable. [Accept]'\n            'Too unfair. [Reject]'\n"
+    "intro": "Wo ne Odwumayɛni {player_id}, wɔreyɛ {num_rounds} afei wɔ Iterated Ultimatum Game.\nWo wɔ $ {pool} sika a wɔbɛkyɛ no mu wɔ afei yi mu wɔ wo ne Odwumayɛni {other_id}.\n\nOdwumayɛni a ɔreyɛ nhyehyɛe:\n  - Yɛ nhyehyɛe: [Offer: $X] (0 <= X <= pool)\n  - Sɛ wɔgye tom → Wo bɛnya $(pool - X), odwumayɛni foforo no bɛnya $X\n  - Sɛ wɔmpɛ → Wo nyinaa bɛnya $0\n  - Nhwehwɛmu: [Offer: $3]  anaa  'Mewɔ deda sɛ ɛyɛ pɛpɛɛpɛ. [Offer: $5]'\n\nOdwumayɛni a ɔreyɛ nkontɛm:\n  - Yɛ nkontɛm wɔ nhyehyɛe no so sɛ [Accept] anaa [Reject]\n  - Nhwehwɛmu: 'Ɛte sɛ ɛyɛ pɛpɛɛpɛ. [Accept]'\n            'Ɛnyɛ pɛpɛɛpɛ koraa. [Reject]'\n"
   },
   "round": {
     "begins": "--- Akansi {round_number} reba! ---\nƆkandifo {proposer_id} ne ɔkandifo a ɔpɛ sɛ wɔde ahɔde no kɔ ma no hɔ, Ɔkandifo {responder_id} ne ɔkandifo a ɔpɛ sɛ wɔde ahɔde no kɔ ma no hɔ.",
-    "offer": "Round {round_number}: Player {proposer_id} offers ${offer} to Player {responder_id} (keeping ${keep}).",
-    "accepted": "Player {responder_id} accepted! Round {round_number} gains: Player {proposer_id} +${proposer_gain}, Player {responder_id} +${responder_gain}. New totals: Player 0: ${total_0}, Player 1: ${total_1}.",
+    "offer": "Afei {round_number}: Odwumayɛni {proposer_id} de $ {offer} bɛma Odwumayɛni {responder_id} (de $ {keep} bɛkora).",
+    "accepted": "Odwumayɛni {responder_id} gye tom! Afei {round_number} nyinaa: Odwumayɛni {proposer_id} +$ {proposer_gain}, Odwumayɛni {responder_id} +$ {responder_gain}. Nyinaa foforo: Odwumayɛni 0: $ {total_0}, Odwumayɛni 1: $ {total_1}.",
     "rejected": "Ɔkandifo {responder_id} pɛ sɛ wɔde ahɔde no kɔ ma no hɔ! Akansi {round_number} nyinaa: Ɔkandifo nyinaa +$0. Nsɛm a ɛbae: Ɔkandifo 0: ${total_0}, Ɔkandifo 1: ${total_1}."
   },
   "invalid_move": {

@@ -9,10 +9,10 @@
     "{pct}": "Progress as a percentage string, e.g. 50%"
   },
   "player_prompt": {
-    "intro": "Map each letter to a unique digit so the arithmetic holds.\nAssign with `[A 5]`, re-assign anytime.\n"
+    "intro": "Huza kila inyuguti ku tarakimu itandukanye kugira ngo ibarurisho ribereke.\nGaba kwa kutumia `[A 5]`, oza kugabanya wakati wowoze.\n"
   },
   "invalid_move": {
-    "wrong_format": "Bad action format. Use `[A 5]`.",
+    "wrong_format": "Muundo mubi wa gukora. Koresha `[A 5]`.",
     "letter_not_in_puzzle": "Inyuguti {letter} ntabwo iri mu giseke.",
     "digit_used": "Imibare {digit} yamaze gukoreshwa na {used_letter}.",
     "leading_zero": "Imibare y'imbere mu ijambo ntishobora kuba 0."

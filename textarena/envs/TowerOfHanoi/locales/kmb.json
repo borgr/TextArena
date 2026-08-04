@@ -1,13 +1,13 @@
 {
   "player_prompt": {
-    "intro": "You are playing Tower of Hanoi with {num_disks} disks.\nYou have to move the disks from tower A to tower C.\nTo move a disk, type the source tower and the target tower (e.g., '[A C]').\nNote that you can only move the top disk of a tower, and that a bigger disk cannot be placed on a smaller disk.\nAt each turn, submit one move."
+    "intro": "O wala usaka Tower of Hanoi na {num_disks} diski.\nO fala kusunga diski ku torre A kwenda ku torre C.\nKusunga diski, tanga torre ya ntete na torre ya luzingu (e.g., '[A C]').\nKumbuka kuwa o ngi kusunga diski ya kulemba kwa torre, na kuwa diski ya kubwa haiwezi kusungwa ku diski ya ndinga.\nKu kila jira, pese umo kusunga."
   },
   "board": {
     "current_board": "Kibuka kia Utuminu: {board}."
   },
   "invalid_move": {
-    "wrong_format": "You did not respond with valid '[source] [target]'.",
-    "invalid_tower": "You specified an invalid source or target tower.",
+    "wrong_format": "Okwe uvisele kwa kuwuka ku 'ku [source] [target]'.",
+    "invalid_tower": "O badi torre ya ntete au torre ya luzingu.",
     "empty_tower": "Eie ua fikisa ku katula o komputadolo ku thandu dia'nzo.",
     "same_tower": "Eie ua fikisa ku texi o komputadolo iê, phala kuiza ijimbuete ia mukuá.",
     "larger_on_smaller": "Eie ua fikisa ku ta ka diski ia dikota bhu kaxi ka ka disiki iofele."

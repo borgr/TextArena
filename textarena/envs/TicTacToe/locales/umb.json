@@ -7,7 +7,7 @@
     "{cell}": "A board cell number between 0 and 8"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Tic Tac Toe.\nYour goal is to win three in a row (horizontally, vertically, or diagonally) on the board.\nOn your turn, you should select the square number (0-8) you want to put your mark in next.\nFor example, '[4]' places your mark in the center cell of the board.\nAs Player {player_id}, you will be '{symbol}', while your opponent is '{opponent_symbol}'."
+    "intro": "Ove ule ndi Muthu {player_id} mu Tic Tac Toe.\nOthikilo lwetu ni kuthwala ove madikila matatu mokweya (ombali, wima, kana diagonale) pa ubao.\nPa nthanda yove, ove vha sinda ku khetha nambari ya mraba (0-8) mwe wa sinda ku tsimbisa ekwameso liove.\nNgweku, '[4]' ithwala ekwameso liove kwa seli ya katikati ya ubao.\nNgwe Muthu {player_id}, ove vha sinda ku va '{symbol}', kana muthu wove ni '{opponent_symbol}'."
   },
   "board": {
     "current_board": "Ombala oyuukala:\n\n{board}\n\nOndola zilumbu: {moves}"
@@ -15,13 +15,13 @@
   "invalid_move": {
     "wrong_format": "Esokiyo liupange ka lia sungulukile.",
     "out_of_range": "Ocina caco ci kasi oku tangiwa, ale ka ca sonehiwile vocinimbu cimue Cembimbiliya. {cell} Ka citava okuti mu sonehiwa onduko yocinyama.",
-    "already_occupied": "Cell {cell} is already occupied."
+    "already_occupied": "Seli {cell} isha sinda kuvaliwa."
   },
   "game_action": {
     "placed": "Mwene {player_id} akwata ulimo wake ({symbol}) mu celli {cell}."
   },
   "outcome": {
     "win": "Mwene {player_id} ali kwata!",
-    "draw": "The game is a draw!"
+    "draw": "Omadhiro aha sinda kuvalana!"
   }
 }

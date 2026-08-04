@@ -12,7 +12,7 @@
     "invalid_position": "Ҳаракати ғайриқонунӣ - наметавонад ба ин мавқеъ ҳаракат кунад."
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
+    "moved": "Шумо {pushed} ҳаракат кардед [{action}].",
     "pushed_prefix": "дар ҳоле ки як қуттиро тела медод."
   },
   "outcome": {

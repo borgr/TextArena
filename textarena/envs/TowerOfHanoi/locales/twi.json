@@ -6,7 +6,7 @@
     "current_board": "Adwumayɛbea a ɛwɔ hɔ nnɛ: {board}."
   },
   "invalid_move": {
-    "wrong_format": "You did not respond with valid '[source] [target]'.",
+    "wrong_format": "Woankyerɛ adwene a ɛfata a ɛyɛ '[source] [target]'.",
     "invalid_tower": "Wode abodin anaa ɔfasu a wopɛ sɛ wode kɔ no bi na ɛkyerɛwee.",
     "empty_tower": "Wode afiri bi sii abantenten a na hwee nni so.",
     "same_tower": "Wopɛ sɛ wode disk no kɔto saa abantenten koro no ara mu.",

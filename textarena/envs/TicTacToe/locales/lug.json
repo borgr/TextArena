@@ -10,7 +10,7 @@
     "intro": "Oli muzannyi {player_id} mu Tic Tac Toe.\nEkigendererwa kyo kuzizza kamu kamu kaakano (ku mpiso, ku ndagala, oba ku mpeefu).\nKu luzannya lwo, onaanwa okuteeka nambari y'esaala (0-8) oyagala kuteeka ekiteeko kyo.\nKu nnya, '[4]' kikiteeka ekiteeko kyo mu saala ey'omukise.\nNg'oye muzannyi {player_id}, oli {symbol}, wabula omusana wo ali {opponent_symbol}."
   },
   "board": {
-    "current_board": "Current Board:\n\n{board}\n\nAvailable Moves: {moves}"
+    "current_board": "Ubao wa Sasa:\n\n{board}\n\nMichezo Inayopatikana: {moves}"
   },
   "invalid_move": {
     "wrong_format": "Ekikolwa ekiragiddwa tekigoberera mpisa nnungi.",

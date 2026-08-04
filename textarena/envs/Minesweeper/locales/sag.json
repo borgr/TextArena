@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing the Minesweeper game.\nThe objective of the game is to reveal all cells that do not contain mines.\nTo make a move, simply specify the row and column coordinates you want to reveal using the format:\n- `[row col]`: Reveal the cell at the specified row and column.\nFor example:\n- `[3 2]` to reveal the cell in Row 3, Column 2.\n- `[5 6]` to reveal the cell in Row 5, Column 6.\nOn your first move, you will reveal an area around the cell you choose to ensure a safe start.\nThe current board layout is shown below. Cells that are unrevealed are represented by a dot ('.'), revealed numbers show the count of adjacent mines.\nBe mindful not to choose already revealed cells.\nHere is the current board layout:\n"
+    "intro": "Mo kpɛlɛ Minesweeper.\nLɛndɛ tî kpɛlɛ si ye tî gbɛlɛ yɛ tî ndɔ ti bɛlɛ tî mines.\nTî gbɛlɛ yɛ tî ndɔ, tî kpɛlɛ tî format:\n- `[row col]`: Gbɛlɛ tî cell tî ndɔ tî row na tî column.\nTî kpɛlɛ tî example:\n- `[3 2]` tî gbɛlɛ tî cell tî Row 3, Column 2.\n- `[5 6]` tî gbɛlɛ tî cell tî Row 5, Column 6.\nTî ndɔ tî yɛ, mo kpɛlɛ tî gbɛlɛ tî ndɔ tî cell tî yɛ tî kpɛlɛ tî safe start.\nTî board layout tî yɛ tî kpɛlɛ tî gbɛlɛ tî ndɔ. Tî cells tî ndɔ tî gbɛlɛ tî dot ('.'), tî numbers tî gbɛlɛ tî count tî mines tî ndɔ.\nTî kpɛlɛ tî gbɛlɛ tî ndɔ tî cells tî yɛ tî gbɛlɛ.\nTî board layout tî yɛ tî kpɛlɛ:\n"
   },
   "board": {
     "game_board": "A-Joueur ni ayeke: {board}",
@@ -17,6 +17,6 @@
   },
   "outcome": {
     "win": "E bara mo, e wara lege ti zi aye kue na yâ tableau so.",
-    "turn_limit": "The turn limit has been reached. You successfully uncovered {percent}% of the safe cells."
+    "turn_limit": "Tî turn limit tî yɛ tî kpɛlɛ. Mo kpɛlɛ tî {percent}% tî safe cells."
   }
 }

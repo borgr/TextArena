@@ -46,7 +46,7 @@
     "discarded": "កីឡាករ {pid} បោះចោល {card}"
   },
   "message": {
-    "deck_empty": "Deck is empty! Game ends immediately.",
+    "deck_empty": "ដើមកាតទទេ! ល្បែងបញ្ចប់ភ្លាមៗ។",
     "knocked": "កីឡាករ {pid} បាក់! កីឡាករម្នាក់ទៀតទទួលបានមួយជំហានទៀត។",
     "final_round": "កីឡាករ {pid} {reason}! កីឡាករម្នាក់ទៀតទទួលបានមួយជំហានទៀត។"
   },

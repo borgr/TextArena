@@ -4,7 +4,7 @@
   },
   "round": {
     "start": "─── Башталгыч тур {round} ─── Кийинки {conv_rounds} турларда эркин сүйлөшө аласыз.",
-    "chat_finished": "Chat finished for round {round}. Submit your decisions, one token per opponent: `[pid cooperate]` or `[pid defect]`."
+    "chat_finished": "Раунд {round} үчүн чат бүттү. Өзүңүздүн чечимдерди киргизиңиз, ар бир каршылашыңызга бир токен: `[pid cooperate]` же `[pid defect]`."
   },
   "results": {
     "header": "### Round {round} - Жыйынтыктар:",

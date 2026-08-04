@@ -6,12 +6,12 @@
     "current_board": "Bodi Lililonse:\n\n{board}\n\nZithunzi Zilizonse: {actions}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use [up], [down], [left], [right] or [w], [a], [s], [d].",
+    "wrong_format": "Mtundikilo wa ntchito siwafwana. Gwiritsani ntchito [up], [down], [left], [right] kapena [w], [a], [s], [d].",
     "unknown_action": "Ntchito yosazindikirika '{action}'. Gwiritsani ntchito mmwamba, pansi, kumanzere, kumanja kapena w, a, s, d.",
-    "hit_wall": "You tried to move {action} but hit a wall!"
+    "hit_wall": "Mwadalira kupita {action} koma mwakagonga ukuta!"
   },
   "game_action": {
-    "moved": "You moved {action} to position ({row}, {col})."
+    "moved": "Mwadalira {action} mpaka malo ({row}, {col})."
   },
   "outcome": {
     "win": "Wafiska chilato chako!",

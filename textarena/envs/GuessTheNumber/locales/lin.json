@@ -1,14 +1,14 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id}. You are playing Guess The Number.\nYou have to guess the number between {min_number} and {max_number} within {max_turns} turns.\nAs you enter your guess, the game will provide you with hints such as 'higher' or 'lower'.\nYou may provide your response in any manner. Only the number that is wrapped in square brackets will be considered as your guess. For example, [5].\nAs you play, the history of your guesses will be appended below. Use the information to complete the game before you run out of guesses.\nEnter your guess."
+    "intro": "Ozali Joueur {player_id}. Ozali kobeta Guess The Number.\nOzali na misala ya kukoma nambari kati ya {min_number} na {max_number} nde {max_turns} mikolo.\nOzali osalela nambari nayo, jeu ikopesa nge makomi lokola 'koleka' to 'mabe'.\nOzali osalela reponse nayo na njela yonso. Nambari nayo ezali na crochets ya miraba nde ikobalama lokola nambari nayo ya kukoma. Kwa mfano, [5].\nOzali ozwi, mukanda wa makomi nayo ikobalama na se. Sambaza makomi nayo mpaya jeu ikoma mbala ozali na makomi.\nSalela nambari nayo ya kukoma."
   },
   "invalid_move": {
-    "wrong_format": "Invalid move format. Player {player_id} did not respond with valid '[number]'.",
+    "wrong_format": "Mbongwana ya kotiya ezali na mabe. Moyambi {player_id} akoki kozala na reponse ya bwafanya '[number]'.",
     "out_of_range": "Mobembo ya mabe. Moyembi {player_id} akanisaki motango oyo ezali na kati te ya molongo eyebisami.",
     "already_guessed": "Lisano ya mabe. Mosani {player_id} asila kokanisela motango yango."
   },
   "game_message": {
-    "target_higher": "The target number is higher.",
+    "target_higher": "Nambari ya kukoma ezali koleka.",
     "target_lower": "Motángo ya bato oyo bazali na likama ezali moke."
   },
   "outcome": {

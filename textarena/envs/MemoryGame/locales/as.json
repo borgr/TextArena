@@ -13,8 +13,8 @@
     "already_matched": "অবৈধ পদক্ষেপ। খেলুৱৈ {player_id} এজনে ইতিমধ্যে মিলিত হোৱা এখন বা দুয়োখন কাৰ্ড বাছনি কৰে।"
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "প্লেয়াৰ {player_id} এ [{r1} {c1}] আৰু [{r2} {c2}] অবস্থানত বাছনি কৰা কাৰ্ডবোৰ মেলে!",
+    "cards_no_match": "প্লেয়াৰ {player_id} এ বাছনি কৰা কাৰ্ডবোৰ মেলে নাই। [{r1} {c1}] আৰু [{r2} {c2}] অবস্থানত কাৰ্ডবোৰ যথাক্ৰমে {pos1} আৰু {pos2}।"
   },
   "outcome": {
     "draw": "দুয়োটা খেলুৱৈয়ে একে সংখ্যক কাৰ্ডৰ জোপা মিলাইছিল।",

@@ -11,7 +11,7 @@
     "{moves}": "The comma-separated list of available move tokens like '[4]' (do not translate)"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player Tic Tac Toe.\nYour symbol is '{symbol}'.\nYou take turns placing your symbol on a 5x5 board to form a line of four.\nLines can be horizontal, vertical, or diagonal.\nSubmit your move using the format '[4]' to mark cell 4."
+    "intro": "Owe udi mukwetu {player_id} mu Three-Player Tic Tac Toe.\nKibonde kienu ni '{symbol}'.\nOsekeleza kubaka kibonde kienu pa plateau 5x5 po kutunga mstari wa nne.\nMistari inaweza kuwa wima, mlalo au diagonal.\nTumishe mbinu ya kuweka '[4]' po kubaka cellule 4."
   },
   "board": {
     "current_board": "Lubamba lwa Bombo:\n\n{board}\n\nMikondo ya Kufika: {moves}"

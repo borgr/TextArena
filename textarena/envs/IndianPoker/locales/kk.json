@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "ambiguous": "Бiр ғана iшiнде \"[check]\", \"[bet 2]\", \"[call]\", \"[raise 3]\" немесе \"[fold]\" деген сияқты iшiнде бiр ғана iшi бар.",
-    "cannot_check": "Cannot [check] - you are facing a bet.",
+    "cannot_check": "[check] жасауға болмайды - сізге салым қойылған.",
     "amount_min": "Салым / көтеру мөлшері ≥ 1 болуы тиіс.",
     "cannot_bet": "Мүмкін емес [bet] - міндетті [call] / [raise] / [fold].",
     "nothing_to_call": "Шақыруға ештеңе жоқ; сіз [check] орнына шақыра аласыз.",

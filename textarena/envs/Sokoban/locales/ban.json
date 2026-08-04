@@ -1,18 +1,18 @@
 {
   "player_prompt": {
-    "intro": "Anda sedang memecahkan teka-teki Sokoban. Anda adalah pemain dan Anda perlu mendorong semua kotak ke target.\n        Ketika Anda berada tepat di sebelah kotak, Anda dapat mendorongnya dengan bergerak ke arah yang sama.\n        Anda tidak dapat mendorong kotak melalui dinding, dan Anda tidak dapat menarik kotak.\n        Di papan, objek diwakili sebagai: \n        - Pemain (Anda) muncul sebagai 'P' \n        - Dinding diwakili dengan '#' \n        - Kotak ditandai sebagai 'X' \n        - Tujuan kosong ditampilkan dengan 'O'\n        - Kotak di tujuan divisualisasikan dengan '√'\n        Anda juga dapat menggunakan [w] untuk atas, [a] untuk kiri, [s] untuk bawah, dan [d] untuk kanan.\n        "
+    "intro": "Cai ngelah ngrereh teka-teki Sokoban. Cai ngelah dados pemain lan cai perlu ngelah nuduk peti-peti makejang ka sasaran.\n        Yening cai ngelah meremban ring peti, cai ngelah nuduk ipun antuk ngelah gerak ring arah sané pateh.\n        Cai tusing ngelah nuduk peti liwat tembok, lan cai tusing ngelah ngelah peti.\n        Ring papan, objek-objek kawakilin dados: \n        - Pemain (cai) kawakilin dados 'P' \n        - Tembok-tembok kawakilin antuk '#' \n        - Peti-peti kawakilin dados 'X' \n        - Sasaran-sasaran kosong kawakilin dados 'O'\n        - Peti ring sasaran kawakilin dados '√'\n        Cai ngelah tiasa nganggén [w] antuk maju, [a] antuk kiwa, [s] antuk sor, lan [d] antuk tengen.\n        "
   },
   "board": {
-    "current_board": "Papan Saat Ini:\n\n{board}\nGerakan Tersedia: {moves}"
+    "current_board": "Papan Mangkin:\n\n{board}\nGerakan Mangkin: {moves}"
   },
   "invalid_move": {
-    "wrong_format": "Gerakan yang dikirim tidak mengikuti format yang benar. Gunakan [up], [down], [left], [right] atau [w], [a], [s], [d].",
+    "wrong_format": "Gerakan sané kauwah tusing ngelah format sané becik. Anggén [up], [down], [left], [right] utawi [w], [a], [s], [d].",
     "not_valid_action": "Pamargin sané kasobyahang nénten dados kalaksanayang.",
     "wall_collision": "Ragane nenten dados ngranjing ka tembok!",
     "invalid_position": "Pindakan nénten valid - nénten prasida ngingsirang ka genah punika."
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
+    "moved": "Cai {pushed} ngelah gerak [{action}].",
     "pushed_prefix": "nyurung kotak dugasé punika."
   },
   "outcome": {

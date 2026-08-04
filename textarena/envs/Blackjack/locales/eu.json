@@ -9,10 +9,10 @@
     "wrong_format": "Ekintza baliogabea. \"[Hit]\" edo \"[Stand]\" erabili."
   },
   "game_message": {
-    "hand_result": "Hand {hand_number}: you {outcome}. Your final {player_score}, Dealer {dealer_score}.",
+    "hand_result": "Esku {hand_number}: {outcome} zara. Zure azken {player_score}, Dilaria {dealer_score}.",
     "all_complete": "=== {num_hands} Esku guztiak osatuak === Irabaziak: {wins}, Galerak: {losses}, Berdinketak: {draws} "
   },
   "outcome": {
-    "game_over": "The game has concluded. Final scores: Dealer: {losses}, You: {wins}, Draws: {draws}"
+    "game_over": "Jokoa amaitu da. Azken puntuazioak: Dilaria: {losses}, Zu: {wins}, Berdinketak: {draws}"
   }
 }

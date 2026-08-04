@@ -10,7 +10,7 @@
     "{to}": "The destination coordinate of a move, such as b3"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in game of LinesOfAction.\nYour pieces are '{side}', opponent pieces are '{other}'.\nMove format: `[b1b3]` (from-coord to-coord). A legal move travels horizontally, vertically, or diagonally a number of squares equal to the total pieces (any colour) in that line. You may jump over your own pieces, but not opponent pieces; landing on an opponent captures it.  Win when all your pieces are 8-neighbour connected."
+    "intro": "Kai ne Dan wasa {player_id} a wasan LinesOfAction.\nKutunka ni '{side}', kutun abokin wasa ni '{other}'.\nTsarin tafiya: `[b1b3]` (daga lakorde zuwa lakorde). Tafiya halali tana tafiya a tsaye, a kwance, ko a diagonal da yawan murabba'i sawa da jumla ya kutu (kowane launi) a cikin layin. Ka iya tsallake kutunka, amma ba kutun abokin wasa; sauka a kan abokin wasa ka kama shi.  Ka yi nasara lokacin da dukkan kutunka suka hada 8-makwabci."
   },
   "board": {
     "current_board": "Kujeji: {board}"
@@ -26,7 +26,7 @@
   },
   "game_action": {
     "moved": "Ɗan {player_id} yiɓɓi {from} -> {to}",
-    "captured_suffix": "Player {player_id} moved {from} -> {to} capturing an enemy."
+    "captured_suffix": "Dan wasa {player_id} ya tafi {from} -> {to} ya kama abokin wasa."
   },
   "outcome": {
     "win": "Fuu kujeji hauti.",

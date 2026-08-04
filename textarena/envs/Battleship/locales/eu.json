@@ -12,7 +12,7 @@
     "opp_sunk": "Aurkariak zure ontzia hondoratu du {coord}! Zure taula eguneratua:\n{view}",
     "you_hit": "Jo! Ontzi bat jo duzu {coord}! Zure taula eguneratua:\n{view}",
     "opp_hit": "Aurkariak zure ontzia jo du {coord}! Zure taula eguneratua:\n{view}",
-    "you_miss": "Miss! You missed the ship at {coord}! Your updated board:\n{view}",
+    "you_miss": "Huts! Itsasontzia huts egin duzu {coord} koordenatuan! Zure taula eguneratua:\n{view}",
     "opp_miss": "Aurkariak zure ontzia galdu du {coord}! Zure taula eguneratua:\n{view}"
   },
   "outcome": {

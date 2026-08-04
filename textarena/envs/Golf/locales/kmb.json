@@ -21,17 +21,17 @@
     "{scores}": "The pre-rendered per-player list of final scores"
   },
   "player_prompt": {
-    "intro": "You are playing Golf (Card Game) - Player {player_id}.\nGoal: Get the lowest total score in this single round. If columns share the same value, they are summed as 0.\nCard Values: A=1, 2-10=face value, J/Q=10, K=0\n\nActions (use exact brackets):\n- '[draw]' - Draw from deck\n- '[take]' - Take from discard pile\n- '[swap X Y]' - Swap drawn card with position X (row) Y (column)\n- '[discard]' - Discard the drawn card\n"
+    "intro": "O wewe usaka Golf (Kadi ya Jogo) - Usaki {player_id}.\nKimbila: Fwete kikomo kikomo cha kikomo kimo cha kimo. Ikiwa kuzingatia kwa thamani sawa, kuzingatia kwa 0.\nThamani za Kadi: A=1, 2-10=thamani ya uso, J/Q=10, K=0\n\nVitendo (tumia mabano mahususi):\n- '[draw]' - Tora kutoka sitaha\n- '[take]' - Tora kutoka kwenye sitaha ya kufuta\n- '[swap X Y]' - Badilisha kadi iliyochorwa na nafasi X (safu) Y (safu wima)\n- '[discard]' - Tupa kadi iliyochorwa\n"
   },
   "board": {
-    "drew": "You drew: {card}\nNow you must [swap X Y] or [discard] it.",
-    "took": "You took: {card} from discard pile\nYou must [swap X Y] with it (cannot discard).",
+    "drew": "O wewe usaka: {card}\nSasa wewe fwaya [swap X Y] au [discard] yake.",
+    "took": "O wewe usaka: {card} kutoka kwenye sitaha ya kufuta\nWewe fwaya [swap X Y] nayo (haiwezi kutupa).",
     "peeked": "Omwaki ulitazama nafasi ({row},{col}): {card}",
-    "turn_view": "Your hand:\n{hand}\nDiscard pile: {discard}\n{options}",
+    "turn_view": "Kadi yako:\n{hand}\nSitaha ya kufuta: {discard}\n{options}",
     "none": "Kana-ku kima kia iibha."
   },
   "options": {
-    "final_turns": "Final turns! Your options: [draw], [take], [peek X Y]",
+    "final_turns": "Mizunguko ya mwisho! Vitendo vyako: [draw], [take], [peek X Y]",
     "draw": "O ima i u tena o kubhanga: [draw], [take]",
     "must_swap": "Eie ua tokala: [swap X Y] (ku katula o ji kalatá ku kialu kia te kalu)",
     "swap_or_discard": "Eie ua tokala: [swap X Y] mba [discard]"
@@ -42,26 +42,26 @@
     "row": "Row {n}: {cards}"
   },
   "action_desc": {
-    "swapped": "Player {pid} swapped {new} with {old} at position ({row},{col})",
-    "discarded": "Player {pid} discarded {card}"
+    "swapped": "Usaki {pid} usaki {new} na {old} kwenye nafasi ({row},{col})",
+    "discarded": "Usaki {pid} atupa {card}"
   },
   "message": {
     "deck_empty": "O kididi kia kubhânga ki kiala-ku dingi!",
     "knocked": "O jokadolo {pid} a mu beta! Kala muthu uala ni kithangana kia ku bandekesa.",
-    "final_round": "Player {pid} {reason}! Each other player gets one more turn."
+    "final_round": "Usaki {pid} {reason}! Kila usaki mwingine apate mzunguko mmoja zaidi."
   },
   "reason": {
-    "all_revealed": "has all cards revealed"
+    "all_revealed": "ana kadi zote zilizofichuliwa"
   },
   "invalid": {
     "wrong_action": "Tumia hatua moja iliyo na mabano: [draw], [take], [swap X Y], [discard], [knock], au [peek X Y]",
     "discard_empty": "O ima ioso ia ku tokala, iala bhu kididi kiê!",
     "must_draw_first": "Unahitaji kwanza [draw], [take], [knock], au [peek X Y]",
     "cannot_discard_taken": "Eie ku tena kueha ngó o kalatá, ua tokala u ka vutuila.",
-    "have_drawn_card": "You have a drawn card. You must [swap X Y] or [discard] it.",
+    "have_drawn_card": "Wewe una kadi iliyochorwa. Wewe fwaya [swap X Y] au [discard] yake.",
     "need_drawn_swap": "Phala ku tambula o kamukanda kaka, eie ua tokala u kala ni mukanda mu dimi diê.",
     "need_drawn_discard": "Phala ku jimba o iluezu, eie ua tokala u kala ni \"uhete\".",
-    "out_of_bounds": "Position out of bounds. Use row 1-{max_row}, column 1-{max_col}",
+    "out_of_bounds": "Nafasi nje ya mipaka. Tumia safu 1-{max_row}, safu wima 1-{max_col}",
     "knock_with_card": "Eie ku tena ku kala ni ima ia mukuá, kála o ji bola.",
     "already_knocked": "Saí muthu ua nganhala kiá o ita íii.",
     "already_revealed": "O kiteka kiki, a ki tungununa kiá!"
@@ -71,7 +71,7 @@
     "line": "Mukala {pid}: {score} pointi\n"
   },
   "board_str": {
-    "title": "=== GOLF GAME ===",
+    "title": "=== Jogo ya GOLF ===",
     "discard": "Kujimuna o ima: {card}",
     "knocked": "O muadikime {pid} u xika o mbangala!",
     "player_header": "Mukala {pid} (Alama: {score}):"

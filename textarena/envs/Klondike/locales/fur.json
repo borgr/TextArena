@@ -16,7 +16,7 @@
     "{cards}": "The cards in a pile as neutral labels, or '--' if empty (never translate)"
   },
   "player_prompt": {
-    "intro": "You are playing Klondike Solitaire. Your goal is to move all cards to the foundation piles.\n\nGame Rules:\n- Foundation piles (F1-F4): Build up from Ace to King in suit\n- Tableau piles (T1-T7): Build down alternating colors (red on black, black on red)\n- Stock: Draw cards to waste pile\n- Waste (W): Top card available for play\n\nCommands:\n- 'draw' - Draw cards from stock to waste\n- 'move <source> <destination> [count]' - Move cards between piles\n  Examples: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count can also be 'all', which will try to move all face-up cards.\n- 'forfeit' - End the game immediately and lock in your current score\n- Pile names: W (waste), F1-F4 (foundations), T1-T7 (tableau)\n\nYou can execute multiple actions in one turn by separating them with commas:\n  Example: 'draw, move W T1, move T2 F1'\n\nOnly Kings can be placed on empty tableau piles.\nActions execute in order - if one fails, the remaining actions are skipped.\nUse 'forfeit' if you believe the game is impossible to win."
+    "intro": "Tu sês a zuiâ Klondike Solitaire. Il tô obietîf al è di movi dutis lis cartis tai muc di fondament.\n\nRegulis dal zûc:\n- Muc di fondament (F1-F4): Costruîs in sù di As a Re di une sole sorte\n- Muc di tavule (T1-T7): Costruîs in jù alternant i colôrs (ros sul neri, neri sul ros)\n- Stock: Tire cartis tal muc di scart\n- Scart (W): La prime carte disponibile par zuiâ\n\nComandis:\n- 'draw' - Tire cartis dal stock al scart\n- 'move <source> <destination> [count]' - Muovi cartis tra i muc\n  Esempis: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count al pues ancje jessi 'all', che al provarà a movi dutis lis cartis cul mus vuelât in sù.\n- 'forfeit' - Finîs il zûc subit e bloccâ il tô punteç atuâl\n- Non dai muc: W (scart), F1-F4 (fondaments), T1-T7 (tavule)\n\nTu puedis eseguî plui azions in un gir separantlis cun virgulis:\n  Esempi: 'draw, move W T1, move T2 F1'\n\nDome i Re puedin jessi metûts sui muc di tavule vueits.\nLis azions a eseguissin in ordin - se une e falis, lis azions restantis a vegnin saltadis.\nDopre 'forfeit' se tu crodis che il zûc al sedi impossibil di vincî."
   },
   "format_error": {
     "no_brackets": "Formât di azion no valid. La azion e varès di jessi fra parentesiis.",
@@ -24,8 +24,8 @@
     "empty_command": "Comande vueide. Digjitâ \"draw\" o \"move <source> <destination> [count]\".",
     "empty_action": "Azion no fate valôr",
     "move_needs_args": "Il comant move al domande une font e un destin. 'move <source> <destination> [count]'",
-    "count_positive": "Il contignût al à di jessi positîf o \"tots\"",
-    "count_invalid": "Conte invalide. doprâ un numar o \"tuts\"",
+    "count_positive": "Il conte al à di jessi positîf o 'all'",
+    "count_invalid": "Conte no valit. Dopre un numar o 'all'",
     "unknown_command": "Comand incognossût '{cmd}'. Usâ 'draw', 'move <source> <destination> [count]', o 'forfeit'",
     "wrapped": "Azion {n}: {msg}"
   },

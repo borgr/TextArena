@@ -6,8 +6,8 @@
     "current_board": "Tavol current:\n\n{board}\n\nMoviment disponibij: {moves}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid move format. Use \"[cell]\".",
-    "invalid_cell": "Invalid cell index.",
+    "wrong_format": "Format de la mossa minga bon. Doperà '[cell]'.",
+    "invalid_cell": "Indes de la cèlla minga bon.",
     "already_occupied": "La cellula {cell} l'è già ocupada."
   },
   "game_action": {

@@ -11,17 +11,17 @@
     "{ball_pos}": "The cup index the ball is under"
   },
   "player_prompt": {
-    "intro": "Track the hidden ball 'X' while the cups are shuffled.\nAfter shuffling, guess its location with `[k]`."
+    "intro": "Volg de verstopde bal 'X' terwiel de kupkes gesjaafd waere.\nNao 't sjaaffe, raod de lokasie mit `[k]`."
   },
   "game_message": {
-    "ball_starts": "Ball start: {line}",
+    "ball_starts": "De bal begintj: {line}",
     "shuffle": "Sjufle {step}/{steps}: gekruusde koppe {i} en {j}.",
     "cups": "Cups: {line}  {prompt}",
     "guess_now": "(Gèt noe!)",
     "reveal": "(Ontdek: bal ónder {ball_pos})"
   },
   "invalid_move": {
-    "wrong_format": "Bad action. Use `[k]`.",
+    "wrong_format": "Verkieërd hanjele. Gebruuk `[k]`.",
     "out_of_range": "Index oet bereik 0-{max_index}."
   },
   "outcome": {

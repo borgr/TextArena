@@ -12,7 +12,7 @@
     "invalid_position": "حركة غير صالحة، لا يمكن تحريكها لتلك الموقف."
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
+    "moved": "أنت {pushed} تحرك [{action}].",
     "pushed_prefix": "دفعت صندوق بينما..."
   },
   "outcome": {

@@ -22,18 +22,18 @@
     "final_ranking": "list of player indices from first eliminated to winner"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in an {num_players}-player Liar's Dice game.\nRules:\n- On your turn, you may either:\n  1) Make a new bid with a higher quantity or higher face (or both) than the current bid; i.e. '[Bid: 3, 4]',\n  2) Call the last bid by typing '[Call]'.\n\nIf you call:\n  - If the actual count of that face value among all dice is less than the bid, the last bidder loses one die.\n  - Otherwise, the caller loses one die.\nA player who reaches 0 dice is eliminated. The last remaining player wins."
+    "intro": "Jumajasi Player {player_id} uka {num_players}-player Liar's Dice pukllaypi.\nQanunaka:\n- Turnoykapi, jumajasi uka q'epi:\n  1) Musuq bid-ita q'epi uka masi q'epi quantity uta uka masi q'epi face (utawu) uka current bid-ita;\n  i.e. '[Bid: 3, 4]',\n  2) Q'epi last bid-ita typing '[Call]'.\n\nJik'itanaka q'epi:\n  - Jik'itana actual count-ita uka face value-ita among all dice-ita uka bid-ita, last bidder-ita loses one die.\n  - Jik'itana, caller-ita loses one die.\nJumaja 0 dice-ita uka eliminated-ita. Qhipa remaining player-ita wins."
   },
   "board": {
     "per_player": "\tJaqi {p}: {d}",
     "new_round": "\nJani pacha utji - Jani q'ala wali: {dice_summary}\nJani jaqituqo sata sapa q'ala wali: {your_dice}"
   },
   "call": {
-    "bidder_loses": "Player {current_player_id} calls! The actual count of face {face_value} is {count}, which is LESS than {quantity}.\nPlayer {loser_id} (the last bidder) loses one die.",
-    "caller_loses": "Player {current_player_id} calls! The actual count of face {face_value} is {count}, which is >= {quantity}.\nPlayer {loser_id} (the caller) loses one die."
+    "bidder_loses": "Player {current_player_id} q'epi! Jik'itana actual count-ita uka face {face_value} uka {count}, uka LESS uka {quantity}.\nPlayer {loser_id} (last bidder) loses one die.",
+    "caller_loses": "Player {current_player_id} q'epi! Jik'itana actual count-ita uka face {face_value} uka {count}, uka >= uka {quantity}.\nPlayer {loser_id} (caller) loses one die."
   },
   "action": {
-    "bid_announce": "Player {player_id} bids {quantity} of face {face_value}."
+    "bid_announce": "Player {player_id} bids {quantity} uka face {face_value}."
   },
   "invalid_move": {
     "call_no_bid": "Jan kuna alasiwimpiwa jawsthapiwixa.",
@@ -42,7 +42,7 @@
   },
   "bid_reason": {
     "quantity_lower": "Jani wali {new_quantity} jani pacha utji jani wali {current_quantity}.",
-    "face_lower": "New face value {new_face_value} is lower than current {current_face_value}.",
+    "face_lower": "Musi face value {new_face_value} uka lower uka current {current_face_value}.",
     "identical": "Uka ofertax jichha ofertomp kikipakiwa.",
     "face_range": "Uka valor ukax 1 ukat 6 ukch'apankañapawa."
   },

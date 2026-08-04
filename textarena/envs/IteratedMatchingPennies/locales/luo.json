@@ -1,13 +1,13 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({role}) in a {num_rounds}-round Matching Pennies game.\n- Each round, submit [heads] or [tails] (or [h], [t]).\n- If your choice matches your opponent’s, Player 0 wins the round; otherwise Player 1 wins.\nReply with your choice in the format '[heads]' or '[tails]'.\n"
+    "intro": "Inwe ni Player {player_id} ({role}) katika mchezo wa Matching Pennies wa mizunguko {num_rounds}.\n- Katika kila mzunguko, wasilisha [heads] au [tails] (au [h], [t]).\n- Ikiwa chaguo lako linapatana na la mpinzani wako, Player 0 anashinda mzunguko; vinginevyo Player 1 anashinda.\nJibu na chaguo lako katika muundo wa '[heads]' au '[tails]'.\n"
   },
   "invalid_move": {
-    "wrong_format": "Foma isiyo sahihi; tafadhali wasilisha '[heads]' au '[tails]'."
+    "wrong_format": "Muundo usio sahihi; tafadhali wasilisha '[heads]' au '[tails]'."
   },
   "message": {
-    "round_match": "Mchezaji 0 alichagua {choice0}; Mchezaji 1 alichagua {choice1}. Match -> Mchezaji 0 anashinda",
-    "round_mismatch": "Mchezaji 0 alichagua {choice0}; Mchezaji 1 alichagua {choice1}. Mismatch -> Mchezaji 1 anashinda."
+    "round_match": "Jaduong' 0 onyako {choice0}; Jaduong' 1 onyako {choice1}. Otimo -> Jaduong' 0 onyango",
+    "round_mismatch": "Jaduong' 0 ose {choice0}; Jaduong' 1 ose {choice1}. Ok onyalo -> Jaduong' 1 owinjo."
   },
   "outcome": {
     "p0_wins": "Jalo 0 ne oloyo tuke mang'eny.",

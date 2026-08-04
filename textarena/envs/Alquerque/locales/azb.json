@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({piece}). Opponent is ({opp}).\nSubmit moves as '[a2 a3]' (from → to).\n- A normal move is one forward step to an adjacent empty vertex.\n- A capture is a jump over an adjacent enemy piece landing on the empty node beyond.\nEach capture yields {score_per_capture} points.\nGame ends after {max_moves} moves or when a player has no legal move."
+    "intro": "سیز اویونچو {player_id} ({piece}) سیز. رقیب ({opp}) دیر.\nحرکتلری '[a2 a3]' (دان → یئره) اولاراق گؤندرین.\n- عادی حرکت، بوش یئرینه بیتیشیک بیر قدم ایلهدیر.\n- توتما، بیتیشیک دوشمن پارچاسی اوستوندن بوش نودا ائنمکدیر.\nهر توتما {score_per_capture} خال وئریر.\nاويون {max_moves} حرکتدن یا اویونچونون قانونی حرکتی اولمادیقدا سونا چاتیر."
   },
   "board": {
     "current_board": "حرکت #{move_count} {board}"
@@ -13,7 +13,7 @@
     "illegal": "قانونسوز حرکت."
   },
   "game_action": {
-    "captured": "Player {player_id} captured a piece! (+{score_per_capture})"
+    "captured": "اویونچو {player_id} بیر پارچا توتدو! (+{score_per_capture})"
   },
   "outcome": {
     "no_pieces": "اویونچو {player_id} نین تکه سی یوخدور.",

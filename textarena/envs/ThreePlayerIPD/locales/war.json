@@ -4,7 +4,7 @@
   },
   "round": {
     "start": "─── Nagsisimula ang Round {round} ───\tMaaari kang makipag-usap nang malaya sa susunod na {conv_rounds} na mga round.",
-    "chat_finished": "Chat finished for round {round}. Submit your decisions, one token per opponent: `[pid cooperate]` or `[pid defect]`."
+    "chat_finished": "Tapos na an chat para han round {round}. Ihatag an imo mga desisyon, usa ka token kada kalaban: `[pid cooperate]` o `[pid defect]`."
   },
   "results": {
     "header": "### Round {round} - Mga Resulta:",

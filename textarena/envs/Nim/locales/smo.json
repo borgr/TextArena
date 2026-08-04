@@ -13,7 +13,7 @@
     "exceeds_pile": "E le mafai ona aveese {quantity} mai i le faaputuga o {pile_index} (naʻo {pile_count} e totoe)."
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "Ta'aloga {player_id} ta'alo [{pile_index} {quantity}], ave'ese {quantity} mea mai le fa'aputuga {pile_index}."
   },
   "outcome": {
     "win": "O le tagata taalo {player_id} na ia aveina mea mulimuli ((s)!"

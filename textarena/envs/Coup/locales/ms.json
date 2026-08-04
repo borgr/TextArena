@@ -113,7 +113,7 @@
     "assass_others": "Player #{source} baru sahaja memainkan assassinate ke atas Player #{target}. Mereka kehilangan satu kad dan mendedahkan satu {card}. Mereka {remaining}",
     "steal_source": "Anda baru sahaja berjaya mencuri dua syiling daripada Player #{target}. Anda kini mempunyai {scoins} syiling. Player #{target} mempunyai {tcoins} syiling",
     "steal_target": "Player #{source} baru sahaja mencuri dua syiling daripada anda. Anda kini mempunyai {tcoins} syiling. Player #{source} mempunyai {scoins} syiling",
-    "steal_others": "Player #{source} baru sahaja mencuri dua syiling daripada Player #{target}. Player #{source} mempunyai {scoins} syiling. Player #{target} mempunyai {tcoins} syiling",
+    "steal_others": "Pemain #{source} baru saja mencuri dua koin dari Pemain #{target}. Pemain #{source} memiliki {scoins} koin. Pemain #{target} memiliki {tcoins} koin",
     "exchange_source_two": "Anda mengambil dua kad daripada longgokan untuk exchange. Anda kini mempunyai: {cards}. Anda mesti memilih dua kad untuk disimpan menggunakan [keep <card1> <card2>]",
     "exchange_source_one": "Anda mengambil dua kad daripada longgokan untuk exchange. Anda kini mempunyai: {cards}. Kerana anda telah kehilangan satu pengaruh, anda mesti memilih satu kad untuk disimpan menggunakan [keep <card>]",
     "exchange_others": "Player #{source} sedang menukar kad dengan dek Court."
@@ -138,7 +138,7 @@
     "blocked_have": "Mereka disekat daripada melakukannya dan mempunyai {n} kad yang tinggal.",
     "blocked_none": "Mereka tidak mempunyai kad yang tinggal, mereka tersingkir!",
     "refund_they": " Mereka dipulangkan 3 syiling mereka.",
-    "others_succ_head": "Player #{challenger} baru sahaja berjaya mencabar Player #{challenged} ke atas dakwaan {card} mereka! ",
+    "others_succ_head": "Pemain #{challenger} baru saja berhasil menantang Pemain #{challenged} pada klaim {card} mereka! ",
     "others_blocked_have": "Player #{challenged} disekat daripada melakukannya dan mempunyai {n} kad yang tinggal.",
     "others_blocked_none": "Player #{challenged} tidak mempunyai kad yang tinggal, mereka tersingkir!"
   },
@@ -148,7 +148,7 @@
     "others_honest": "Player #{challenger} mencabar sekatan {card} Player #{blocker} dan gagal. Player #{blocker} mempunyai {card}, mengocoknya semula dan mengambil satu kad baharu. Player #{challenger} kehilangan satu {lost} dan mempunyai {n} kad yang tinggal.",
     "blocker_liar": "Anda telah dicabar ke atas sekatan {card} anda oleh Player #{challenger}. Kerana anda tidak mempunyai {card}, anda kehilangan satu {lost} dan mempunyai {n} kad yang tinggal.",
     "challenger_liar": "Cabaran anda ke atas sekatan {card} Player #{blocker} berjaya! Mereka tidak mempunyai {card}. Mereka kehilangan satu {lost} dan mempunyai {n} kad yang tinggal.",
-    "others_liar": "Player #{challenger} berjaya mencabar sekatan {card} Player #{blocker}. Player #{blocker} tidak mempunyai {card}, kehilangan satu {lost} dan mempunyai {n} kad yang tinggal."
+    "others_liar": "Pemain #{challenger} berhasil menantang blokir {card} Pemain #{blocker}. Pemain #{blocker} tidak memiliki kartu {card}, kehilangan kartu {lost} dan memiliki {n} kartu tersisa."
   },
   "ex": {
     "kept_one": "Anda telah menyelesaikan exchange anda dan menyimpan: {card}",
@@ -161,10 +161,10 @@
   "hl": {
     "won": "Player #{winner} telah menang!",
     "turn": "Ini giliran Player #{pid}",
-    "query_block": "Player #{source} sedang cuba melakukan {action}{target}, bertanya sama ada Player #{pid} mahu menyekat/mencabar.",
+    "query_block": "Pemain #{source} mencoba {action}{target}, bertanya apakah Pemain #{pid} ingin memblokir/menantang.",
     "target_on": " ke atas Player #{target}",
     "target_from": " daripada Player #{target}",
-    "query_challenge_blocker": "Player #{blocker} sedang melakukan {block} ke atas Player #{source}, bertanya sama ada Player #{pid} mahu mencabar sekatan itu.",
+    "query_challenge_blocker": "Pemain #{blocker} melakukan {block} pada Pemain #{source}, bertanya apakah Pemain #{pid} ingin menantang blokir.",
     "query_keep": "Player #{source} sedang cuba melakukan Exchange, bertanya yang mana mereka ingin simpan."
   }
 }

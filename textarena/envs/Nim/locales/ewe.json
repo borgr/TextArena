@@ -7,13 +7,13 @@
   },
   "invalid_move": {
     "wrong_format": "Womekpɔ ʋuʋu ƒe ɖoɖo nyui aɖeke o. Zã '[pile quantity]'.",
-    "correct_format_wrong_fields": "Player {player_id}, Invalid action. Column {col} is out of bounds.",
+    "correct_format_wrong_fields": "Nyewe {player_id}, Ƒe maɖo o. Ƒe {col} le akpa gã ƒe didime.",
     "out_of_range": "Dzidzenu si nye {pile_index} mele afisi wòle o.",
     "non_positive": "Ele be woaɖe nu ɖeka ya teti ɖa.",
     "exceeds_pile": "Eŋu ŋko na mi asi {quantity} fɔ́ nɔnɔme {pile_index} si (blɔ́ na ŋko ŋko ŋko {pile_count} te)."
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "Nyewe {player_id} ɖi '[{pile_index} {quantity}]', axɔ {quantity} nɔe(si)wo tso afi {pile_index}."
   },
   "outcome": {
     "win": "Fefewɔla {player_id}e xɔ nu mamlɛtɔa (s)!"

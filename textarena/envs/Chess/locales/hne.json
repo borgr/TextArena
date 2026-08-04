@@ -1,17 +1,17 @@
 {
   "player_prompt": {
-    "intro": "आप {color} के साथ शतरंज का खेल खेल रहे हैं।\n वर्गाकार कोष्ठकों (जैसे, [e2e4]) में UCI प्रारूप में अपनी चालें बनाएं।"
+    "intro": "तुम {color} रंग के साथ चेस के खेल में खेलत हो।\n अपने चाल को यूसीआई फॉर्मेट में स्क्वायर ब्रैकेट में लिखो (उदाहरणार्थ, [e2e4])."
   },
   "board": {
     "current_board": "वर्तमान बोर्ड: {board} अउ",
-    "valid_moves": "{observation}\nवैध चालें: {moves}"
+    "valid_moves": "{observation}\nसही चाल: {moves}"
   },
   "invalid_move": {
-    "wrong_format": "गलत चाल प्रारूप.",
-    "illegal": "अवैध चाल."
+    "wrong_format": "चाल के फॉर्मेट गलत हे।",
+    "illegal": "अवैध चाल हे।"
   },
   "game_action": {
-    "moved": "खिलाड़ी {player_id} ने निम्नलिखित चाल चली: {move_uci}"
+    "moved": "प्लेयर {player_id} ने निम्नलिखित चाल किया हे: {move_uci}"
   },
   "outcome": {
     "draw": "खेल ह ड्रा म खतम हो गिस।",

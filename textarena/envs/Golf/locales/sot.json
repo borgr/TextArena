@@ -27,7 +27,7 @@
     "drew": "O ile a e fumana: {card}\nJwale o lokela [swap X Y] kapa [discard] e",
     "took": "O ile a e fumana: {card} ho tloha molomo o o lahlejileng\nO lokela [swap X Y] ka e (ha e lweke molomo)",
     "peeked": "O ile a e lebelela ha sebopeho ({row},{col}): {card}",
-    "turn_view": "Your hand:\n{hand}\nDiscard pile: {discard}\n{options}",
+    "turn_view": "Letsoho la hao:\n{hand}\nSehlahisoa sa karete tse lahlehileng: {discard}\n{options}",
     "none": "Ha ho le e 'ngoe."
   },
   "options": {
@@ -48,13 +48,13 @@
   "message": {
     "deck_empty": "Mokatong ha ho letho! Papali e fela hang-hang.",
     "knocked": "Sebapali {pid} se otliloe! Sebapali ka seng se fumana monyetla o mong hape.",
-    "final_round": "Player {pid} {reason}! Ba bangwe ba lula ba na turn e 'ngoe feela"
+    "final_round": "Sebapali sa {pid} {reason}! Sebapali se seng le se seng se fumana monyetla o mong."
   },
   "reason": {
     "all_revealed": "na likarete tsohle li senotsoe?"
   },
   "invalid": {
-    "wrong_action": "Use exactly ONE bracketed action: [draw], [take], [swap X Y], [discard], [knock], or [peek X Y]",
+    "wrong_action": "Sebelisa mabana a mabapi a mesebetsi e le 'ngoe: [draw], [take], [swap X Y], [discard], [knock], kapa [peek X Y]",
     "discard_empty": "Mokotla oa lintho tse lahliloeng ha o na letho!",
     "must_draw_first": "O lokela pele [draw], [take], [knock], kapa [peek X Y]",
     "cannot_discard_taken": "U ke ke ua lahla karete e nkiloeng mokotleng oa ho lahloa. E tlameha hore u e fapanyetse ka tse ling.",

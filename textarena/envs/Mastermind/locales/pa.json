@@ -13,7 +13,7 @@
     "repeated_guess": "ਤੁਸੀਂ ਪਹਿਲਾਂ ਹੀ ਅੰਦਾਜ਼ਾ ਲਗਾ ਲਿਆ ਹੈ {guess}. ਕਿਰਪਾ ਕਰਕੇ ਇੱਕ ਵੱਖਰਾ ਅੰਦਾਜ਼ਾ ਲਗਾਉਣ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰੋ."
   },
   "game_action": {
-    "feedback": "Submitted [{guess}]. Feedback: {black_pegs} black peg(s), {white_pegs} white peg(s)."
+    "feedback": "ਜਮਾਂ ਕੀਤਾ [{guess}]। ਫੀਡਬੈਕ: {black_pegs} ਕਾਲੇ ਪੇਗ, {white_pegs} ਚਿੱਟੇ ਪੇਗ।"
   },
   "outcome": {
     "win": "ਤੁਸੀਂ ਕੋਡ ਨੂੰ ਕ੍ਰੈਕ ਕੀਤਾ ਹੈ, {black_pegs} ਨੂੰ {code_length} ਪਿਕਾਂ ਵਿੱਚੋਂ ਠੀਕ ਢੰਗ ਨਾਲ ਹੱਲ ਕੀਤਾ ਹੈ",

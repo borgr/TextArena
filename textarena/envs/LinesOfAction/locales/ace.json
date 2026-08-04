@@ -10,7 +10,7 @@
     "{to}": "The destination coordinate of a move, such as b3"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in game of LinesOfAction.\nYour pieces are '{side}', opponent pieces are '{other}'.\nMove format: `[b1b3]` (from-coord to-coord). A legal move travels horizontally, vertically, or diagonally a number of squares equal to the total pieces (any colour) in that line. You may jump over your own pieces, but not opponent pieces; landing on an opponent captures it.  Win when all your pieces are 8-neighbour connected."
+    "intro": "Droe neuh Pemain {player_id} lam permainan LinesOfAction.\nBijeh-bijeh droe neuh '{side}', bijeh lawan '{other}'.\nFormat gerakan: `[b1b3]` (dari-koord ke-koord). Gerakan nyang sah bejalan horizontal, vertikal, atawa diagonal ngon banyaknya petak nyang sama ngon jumlah bijeh (warna ngon na) lam garis nyan. Droe neuh jeu-jump bijeh droe neuh, tapi hana bijeh lawan; tamong bijeh lawan nyan meukeusah.  Meunang keuh apabila bijeh-bijeh droe neuh hubong ngon 8-tetangga."
   },
   "board": {
     "current_board": "Dewan: {board}"

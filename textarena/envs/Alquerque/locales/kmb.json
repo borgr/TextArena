@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({piece}). Opponent is ({opp}).\nSubmit moves as '[a2 a3]' (from → to).\n- A normal move is one forward step to an adjacent empty vertex.\n- A capture is a jump over an adjacent enemy piece landing on the empty node beyond.\nEach capture yields {score_per_capture} points.\nGame ends after {max_moves} moves or when a player has no legal move."
+    "intro": "Ngweji uge ni Mutuadi {player_id} ({piece}). Mutuadi wa kubambela ni ({opp}).\nTuma kamba kama '[a2 a3]' (kuva → kuya).\n- Kamba ya kawaida ni kuzuka kinyozi kimoja kinyozi kimoja kiwanda kiwanda.\n- Kukwata ni kuzuka kinyozi kimoja kiwanda kya mbanza kiwanda kiwanda kimoja kiwanda.\nKukwata kimoja kikwata {score_per_capture} makota.\nJogo jokwana pambuka {max_moves} kamba au wakati mutuadi uge ke na kamba ya kufuata malayi."
   },
   "board": {
     "current_board": "Move #{move_count}\n\n{board}"

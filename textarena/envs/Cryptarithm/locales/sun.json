@@ -9,10 +9,10 @@
     "{pct}": "Progress as a percentage string, e.g. 50%"
   },
   "player_prompt": {
-    "intro": "Map each letter to a unique digit so the arithmetic holds.\nAssign with `[A 5]`, re-assign anytime.\n"
+    "intro": "Petaan unggal aksara ka digit unik supaya aritmetika jalan.\nTugaskeun jeung `[A 5]`, tugaskeun deui iraha waé.\n"
   },
   "invalid_move": {
-    "wrong_format": "Bad action format. Use `[A 5]`.",
+    "wrong_format": "Format aksi salah. Pake `[A 5]`.",
     "letter_not_in_puzzle": "Huruf {letter} teu aya dina teka-teki.",
     "digit_used": "Digit {digit} geus dipaké ku {used_letter}.",
     "leading_zero": "Angka awal kecap teu bisa jadi 0."

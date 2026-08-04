@@ -11,7 +11,7 @@
     "{groups}": "Neutral ranking data (a list of player-id groups, worst to best); do not translate"
   },
   "player_prompt": {
-    "intro": "{num_players}-Player Snake on a {width}×{height} grid.\nYou control snake {player_id}. Valid moves: '[up]'/'[down]'/'[left]'/'[right]' (or w/s/a/d).\nObjective: survive longest or be the longest and get the highest score (turn limit {max_turns} turns)."
+    "intro": "{num_players}-Banywanyi ba Snake kwenye gridi ya {width}×{height}.\nUkontrola inyoka {player_id}. Zamu zinazokubalika: '[up]'/'[down]'/'[left]'/'[right]' (cyangwa w/s/a/d).\nIngenzi: kubaho kwa muda mrefu zaidi cyangwa uwe urefu zaidi na upate alama ya juu zaidi (kipimo cha zamu {max_turns} zamu)."
   },
   "board": {
     "current": "Ubuyobozi bw'ikigo: {board}",
@@ -26,6 +26,6 @@
     "outlived": "Uwo mukinnyi yarokotse abandi bose.",
     "all_dead": "Inzoka zose zapfuye.",
     "turn_limit": "Igihe ntarengwa cyo guhinduranya cyageze - igitego cyiza kurusha ibindi ni cyo gitsinda.",
-    "ranking": "{reason} Final ranking groups (worst→best): {groups}"
+    "ranking": "{reason} Vikundi vya mwisho vya utaratibu (mbaya→nzuri): {groups}"
   }
 }

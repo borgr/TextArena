@@ -39,7 +39,7 @@
   "turn": {
     "score_entry": "اللاعب {player_id}: {points} نقطة",
     "trump_info": "بدلة ترامب: {trump_suit}",
-    "trump_info_deck": "Trump suit: {trump_suit} | Cards left in deck: {deck_count}",
+    "trump_info_deck": "ورقة الترومبر: {trump_suit} | البطاقات المتبقية في مجموعة البطاقات: {deck_count}",
     "board": "{hand}\n\n{trick}\n\nالنتائج: {scores}\n{trump_info}\n\nالعب بطاقة باستخدام [play X]"
   },
   "invalid_move": {

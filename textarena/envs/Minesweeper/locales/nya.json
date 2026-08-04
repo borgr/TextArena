@@ -17,6 +17,6 @@
   },
   "outcome": {
     "win": "Tikukuyamikirani, mwapambana kuchotsa bolodi la Minesweeper.",
-    "turn_limit": "The turn limit has been reached. You successfully uncovered {percent}% of the safe cells."
+    "turn_limit": "Mpaka wa zunguliro unafikwa. Mwakwanya {percent}% ya ma cell yosathandiza."
   }
 }

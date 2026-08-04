@@ -9,10 +9,10 @@
     "wrong_format": "ብዙሕ ኣሳልፍነት. '[Hit]' ወይ '[Stand]' ይጠቅም."
   },
   "game_message": {
-    "hand_result": "Hand {hand_number}: you {outcome}. Your final {player_score}, Dealer {dealer_score}.",
+    "hand_result": "እጅ {hand_number}: አንተ {outcome}። የአንተ መጨረሻው {player_score}፣ ዲለር {dealer_score}።",
     "all_complete": "=== ሁሉም {num_hands} ህላቆች ተጠናቀቑ ===\nድሎታት: {wins}, ብራታት: {losses}, ኣንድነታት: {draws}\n"
   },
   "outcome": {
-    "game_over": "The game has concluded. Final scores: Dealer: {losses}, You: {wins}, Draws: {draws}"
+    "game_over": "ጨዋታው ተጠናቀቀ። መጨረሻው ነጥብ: ዲለር: {losses}፣ አንተ: {wins}፣ ሙሉት: {draws}"
   }
 }

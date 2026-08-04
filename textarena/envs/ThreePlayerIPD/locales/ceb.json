@@ -4,11 +4,11 @@
   },
   "round": {
     "start": "─── Nagsisimula ang Round {round} ───\tMaaari kang makipag-usap nang malaya sa susunod na {conv_rounds} rounds.",
-    "chat_finished": "Chat finished for round {round}. Submit your decisions, one token per opponent: `[pid cooperate]` or `[pid defect]`."
+    "chat_finished": "Natapos na ang chat alang sa round {round}. I-sumite ang imong mga desisyon, usa ka token kada kaatbang: `[pid cooperate]` o `[pid defect]`."
   },
   "results": {
-    "header": "### Round {round} - Results:",
-    "pair_line": "{observation}\n\t Player {i} vs Player {j} nagpili na {choice_i} at {choice_j} ayon sa pagkakasunod-sunod (Player {i} nakakuha {gain_i}, Player {j} nakakuha {gain_j})",
+    "header": "### Round {round} - Mga Resulta:",
+    "pair_line": "{observation}\n\t Ang Manlalaro {i} batok sa Manlalaro {j} milihong {choice_i} ug {choice_j} sa matag kaniya (ang Manlalaro {i} nakakuha og {gain_i}, ang Manlalaro {j} nakakuha og {gain_j})",
     "scores_open": "{observation} -> Kasamtangang mga marka: ",
     "score_first": "{observation}Player {player_id} ({score})",
     "score_next": "{observation}; Player {player_id} ({score})",

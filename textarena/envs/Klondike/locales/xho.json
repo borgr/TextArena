@@ -16,16 +16,16 @@
     "{cards}": "The cards in a pile as neutral labels, or '--' if empty (never translate)"
   },
   "player_prompt": {
-    "intro": "You are playing Klondike Solitaire. Your goal is to move all cards to the foundation piles.\n\nGame Rules:\n- Foundation piles (F1-F4): Build up from Ace to King in suit\n- Tableau piles (T1-T7): Build down alternating colors (red on black, black on red)\n- Stock: Draw cards to waste pile\n- Waste (W): Top card available for play\n\nCommands:\n- 'draw' - Draw cards from stock to waste\n- 'move <source> <destination> [count]' - Move cards between piles\n  Examples: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count can also be 'all', which will try to move all face-up cards.\n- 'forfeit' - End the game immediately and lock in your current score\n- Pile names: W (waste), F1-F4 (foundations), T1-T7 (tableau)\n\nYou can execute multiple actions in one turn by separating them with commas:\n  Example: 'draw, move W T1, move T2 F1'\n\nOnly Kings can be placed on empty tableau piles.\nActions execute in order - if one fails, the remaining actions are skipped.\nUse 'forfeit' if you believe the game is impossible to win."
+    "intro": "Udlala iKlondike Solitaire. Injongo yakho kukususa zonke ikhadi kwiinduli ezisezantsi.\n\nImithetho yeGame:\n- Iinduli ezisezantsi (F1-F4): Yakha ukusuka kwiAce ukuya kwiKing ngokwekhadi\n- Iinduli zeTableau (T1-T7): Yakha ukusuka phezulu ukuya phantsi ngokwekhadi zoluntu (ebomvu phezu kombala, kombala phezu kebomvu)\n- IStock: Sosa ikhadi ukuya kwipile yasekhusini\n- Ipile yasekhusini (W): Ikhadi ephakanyisiweyo ekhona ukudlala\n\nIzwi Lawa:\n- 'draw' - Sosa ikhadi ukusuka kwiStock ukuya kwipile yasekhusini\n- 'move <source> <destination> [count]' - Sosa ikhadi phakathi kweenduli\n  Iziqondiso: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count inaweza ukuba 'all', eyakha ukususa zonke ikhadi ezibonisiweyo.\n- 'forfeit' - Qeda umdlalo ngokukhawuleza ukususa iskoru yakho yamanje\n- Amagama azeenduli: W (ekhusini), F1-F4 (ezisezantsi), T1-T7 (zeTableau)\n\nUngakwazi ukwenza zintathu ngezwi lawa ngokuhlukanisa zintathu ngekoma:\n  Isiqondiso: 'draw, move W T1, move T2 F1'\n\nIikhadi zeKing kuphela ezinaweza ukubekwa kwiinduli zeTableau ezingenazikhadi.\nIzwi lawa zithatha ngokulandelana - ukuba inye iwe yaphelile, izwi lawa zilishiyekile zingasali.\nSebenzisa 'forfeit' ukuba ucinga umdlalo awunakwenzeka ukunqoba."
   },
   "format_error": {
     "no_brackets": "Ifomathi yesenzo engavumelekanga. Isenzo kufuneka sibe phakathi kweekhonkco.",
     "no_closing_bracket": "Ifomathi yesenzo engavumelekanga. Ukungabikho kwesibiyeli sokuvala ']'",
-    "empty_command": "Umyalelo ongenanto. Chwetheza 'dweba' okanye 'hambisa <umthombo> <indawo ekuyiwa kuyo> [count]'",
+    "empty_command": "Ingxelo ithe vetsiwe. Tika 'draw' okanye 'move <source> <destination> [count]'",
     "empty_action": "Intshukumo engenanto",
     "move_needs_args": "Umyalelo wokuhambisa ufuna umthombo kunye nendawo ekuyiwa kuyo. Ukusetyenziswa: 'move <source> <destination> [count]'",
-    "count_positive": "Inani kufuneka libe lihle okanye 'bonke'",
-    "count_invalid": "Inani elingasebenziyo. Sebenzisa inani okanye 'konke'",
+    "count_positive": "I-Count inaweza ukuba chaphaza okanye 'all'",
+    "count_invalid": "I-Count ayifanelanga. Sebenzisa inombolo okanye 'all'",
     "unknown_command": "Komanda isiyojulikana '{cmd}'. Tumia 'draw', 'move <source> <destination> [count]', or 'forfeit'",
     "wrapped": "Action {n}: {msg}"
   },

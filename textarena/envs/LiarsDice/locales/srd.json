@@ -33,12 +33,12 @@
     "caller_loses": "Giogadore {current_player_id} fa una chiamada! Sa contabilità reale de sa faccia {face_value} est {count}, chi est >= {quantity}.\nGiogadore {loser_id} (su chiàmadori) perdet unu dadu."
   },
   "action": {
-    "bid_announce": "Player {player_id} bids {quantity} of face {face_value}."
+    "bid_announce": "Su Giogadori {player_id} ofertat {quantity} de sa cara {face_value}."
   },
   "invalid_move": {
     "call_no_bid": "Una cunvocatzione fata sena àteru preju.",
     "invalid_bid": "Oferta invalida: {reason}",
-    "not_recognized": "Action not recognized as either a valid '[Bid: X, Y]' or '[Call]'. Submitted action: {action}"
+    "not_recognized": "Azzione no reconnòschida comente una '[Bid: X, Y]' o '[Call]' vàlida. Azzione presentada: {action}"
   },
   "bid_reason": {
     "quantity_lower": "Sa cantidade noa {new_quantity} est prus bàscia de sa currente {current_quantity}.",

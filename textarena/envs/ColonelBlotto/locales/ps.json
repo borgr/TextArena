@@ -5,7 +5,7 @@
     "commander_beta": "د بيټا قوماندان"
   },
   "game_state": {
-    "header_round": "=== COLONEL BLOTTO - Round {current_round}/{num_rounds} ===\nRounds Won - Commander Alpha: {alpha_score}, Commander Beta: {beta_score}"
+    "header_round": "=== کولنل بلوتو - دوره {current_round}/{num_rounds} ===\nد دورو ګټونکي - قومندان الفا: {alpha_score}، قومندان بیټا: {beta_score}"
   },
   "round_battle": {
     "field_result": "د {current_round} دورې قوماندان الفا ته ورکړل شوی: {p0_allocations} قوماندان بیټا ته ورکړل شوی: {p1_allocations} ",

@@ -12,7 +12,7 @@
     "invalid_position": "Ìgbésẹ̀ tí kò bá bófin mu - kò lè lọ sí ipò yẹn."
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
+    "moved": "Iwọ {pushed} gbe [{action}].",
     "pushed_prefix": "ó fi àpò kan tì í nígbà tó ń lọ"
   },
   "outcome": {

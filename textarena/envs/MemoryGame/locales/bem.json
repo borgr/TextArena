@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id}. You are playing the Memory Game.\nYour goal is to match more pairs of cards on the board, than your opponent.\nOn your turn, select two cards to flip by entering the row and column numbers of the first and second card respectively like '[0 1 1 0]', where the first card is in row 0 and column 1, and the second card is in row 1 and column 0.\nIf the two cards match, you get a point and the cards remain face up. If they do not match, the cards are flipped back face down, e.g. '.'.\nThe game ends when all pairs have been matched."
+    "intro": "Nga ni Player {player_id}. Nga ni kubapa Game ya Kumbukumbu.\nCilole nga ni kubapa mipando ya kareti zaidi kwenye bodo, kuliko mpinzani wako.\nPa zamu yako, sangula mipando miwili ya kubadilisha kwa kuingiza nambari za safu na safu wima za kareti ya kwanza na ya pili mtawalia kama '[0 1 1 0]', ambapo kareti ya kwanza iko safu 0 na safu wima 1, na kareti ya pili iko safu 1 na safu wima 0.\nUkibadilisha mipando miwili yakafanana, unapata alama na mipando inasalia juu. Ukibadilisha mipando isiyolingana, mipando inabadilishwa chini tena, mfano '.'.\nGame inaisha ukibadilisha mipando yote."
   },
   "board": {
     "current_board": "Icilye ca pali ino nshita: {board}",
@@ -13,8 +13,8 @@
     "already_matched": "Ukuposa kwabula ukufikapo. Umulashi {player_id} asalilepo nangu ama kardi yonse yabili ayali na mabala ayalingana kale."
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "Mipando iliyosanguliwa na Player {player_id} kwenye nafasi [{r1} {c1}] na [{r2} {c2}] inafanana!",
+    "cards_no_match": "Mipando iliyosanguliwa na Player {player_id} haifanani. Mipando kwenye nafasi [{r1} {c1}] na [{r2} {c2}] ni {pos1} na {pos2} mtawalia."
   },
   "outcome": {
     "draw": "Bonse babili bapangile ifikope fimo fine.",

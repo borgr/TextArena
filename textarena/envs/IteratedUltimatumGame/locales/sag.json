@@ -21,13 +21,13 @@
     "{total}": "Each player's tied final total (a number)"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id}, playing {num_rounds} rounds of Iterated Ultimatum Game.\nYou have ${pool} to split this round between yourself and Player {other_id}.\n\nProposer:\n  - Make an offer: [Offer: $X] (0 <= X <= pool)\n  - If accepted → You get $(pool - X), other player gets $X\n  - If rejected → Both get $0\n  - Example: [Offer: $3]  or  'I think this is fair. [Offer: $5]'\n\nResponder:\n  - Decide on the offer with either [Accept] or [Reject]\n  - Example: 'That seems reasonable. [Accept]'\n            'Too unfair. [Reject]'\n"
+    "intro": "Mo ye Player {player_id}, ye na lînga {num_rounds} ya Iterated Ultimatum Game.\nMo âra ${pool} pou spliti lînga sô na Player {other_id}.\n\nProposer:\n  - Fâ ofri: [Offer: $X] (0 <= X <= pool)\n  - Sô a ye akcepti → Mo ye $(pool - X), Player ôko a ye $X\n  - Sô a ye refusi → Bala ôko a ye $0\n  - Exemple: [Offer: $3]  ou  'Mo kiri sô ye justi. [Offer: $5]'\n\nResponder:\n  - Décidi sô na ofri na [Accept] ou [Reject]\n  - Exemple: 'Sô ye raisonnable. [Accept]'\n            'Sô ye déraisonnable. [Reject]'\n"
   },
   "round": {
-    "begins": "--- Round {round_number} kɛ̈ thɛ̈ëric! ---\nPlayer {proposer_id} acë lɔɔk, Player {responder_id} acë kɔc.",
-    "offer": "Round {round_number}: Player {proposer_id} offers ${offer} to Player {responder_id} (keeping ${keep}).",
-    "accepted": "Player {responder_id} acë kɔc! Round {round_number} cɛ̈t: Player {proposer_id} +${proposer_gain}, Player {responder_id} +${responder_gain}. Kɛ̈n thɛ̈ëric: Player 0: ${total_0}, Player 1: ${total_1}.",
-    "rejected": "Player {responder_id} rejected the offer! Round {round_number} gains: Both players +$0. Totals remain: Player 0: ${total_0}, Player 1: ${total_1}."
+    "begins": "--- Tondi {round_number} asali! ---\nMokonzi {proposer_id} aye mokonzi môko, Mokonzi {responder_id} aye mokonzi môko ôko.",
+    "offer": "Tondi {round_number}: Mokonzi {proposer_id} abêsi mbongo ${offer} na Mokonzi {responder_id} (akpêsi mbongo ${keep}).",
+    "accepted": "Mokonzi {responder_id} atêri! Tondi {round_number} azênga: Mokonzi {proposer_id} +${proposer_gain}, Mokonzi {responder_id} +${responder_gain}. Bilansi yé: Mokonzi 0: ${total_0}, Mokonzi 1: ${total_1}.",
+    "rejected": "Player {responder_id} a refusi ofri! Lînga {round_number} a ye bala ôko: Bala ôko a ye +$0. Totals a resti: Player 0: ${total_0}, Player 1: ${total_1}."
   },
   "invalid_move": {
     "no_offer_format": "A lingbi zo so amû tënë ni asara kua na kode ti fango mbeti [Offer: $X].",
@@ -37,7 +37,7 @@
     "accept_or_reject": "Responder ti kɛ̈ kɔc [Accept] thiɛ̈k [Reject] alɔɔk."
   },
   "outcome": {
-    "win": "Player {winner} acë wɛ̈tde cë ${winner_total} total kɛn Player {loser} cë ${loser_total}.",
+    "win": "Mokonzi {winner} aye mokonzi môko na mbongo ${winner_total} vs Mokonzi {loser} môko na mbongo ${loser_total}.",
     "draw": "A-joueur use kue awara ${total} na nda ni."
   }
 }

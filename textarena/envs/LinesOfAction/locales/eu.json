@@ -10,7 +10,7 @@
     "{to}": "The destination coordinate of a move, such as b3"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in game of LinesOfAction.\nYour pieces are '{side}', opponent pieces are '{other}'.\nMove format: `[b1b3]` (from-coord to-coord). A legal move travels horizontally, vertically, or diagonally a number of squares equal to the total pieces (any colour) in that line. You may jump over your own pieces, but not opponent pieces; landing on an opponent captures it.  Win when all your pieces are 8-neighbour connected."
+    "intro": "Zu zara Jokalaria {player_id} LinesOfAction jokoan.\nZure piezak '{side}' dira, aurkariaren piezak '{other}' dira.\nMugimenduaren formatua: `[b1b3]` (hasierako koordenatua helmugako koordenatura). Mugimendu legalak horizontalki, bertikalki edo diagonalki egiten dira, lerroan dauden pieza guztien (edozein kolore) kopuruaren arabera. Zure piezak salto egin dezakezu, baina ez aurkariaren piezak; aurkariaren gainean lurreratzeak harrapatzen du. Irabazi orduan zure pieza guztiak 8 auzokide konektatuta daudenean."
   },
   "board": {
     "current_board": "Taula:\n\n{board}"
@@ -18,11 +18,11 @@
   "invalid_move": {
     "wrong_format": "Formatua e2e4 izan behar da (koordenatuetatik, koordenatuetara).",
     "no_piece": "Ez {side} pieza bat {coord}-n.",
-    "identical": "Source and destination identical.",
+    "identical": "Hasiera eta helmuga berdinak dira.",
     "not_straight_or_diagonal": "Mugimenduak zuzenak edo diagonalak izan behar du.",
     "wrong_distance": "Pieza guztiak lerro berean sakabanatuta egon behar dute.",
     "enemy_blocks": "Etsaiaren pieza bat da, bidea mozten.",
-    "destination_own": "Destination occupied by own piece."
+    "destination_own": "Helmuga zure pieza batek okupatzen du."
   },
   "game_action": {
     "moved": "Jokalariak {player_id} mugitu zuen {from} -> {to}",

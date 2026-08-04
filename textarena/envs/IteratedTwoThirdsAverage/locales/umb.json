@@ -1,15 +1,15 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a {num_rounds}-round of IteratedTwoThirdsAverage.\nEach round, guess a number between {min_guess} and {max_guess}.\nAfter both guesses, the target is (2/3)x(average of both guesses),\nand the player whose guess is closest to the target wins that round.\nReply with your guess in the format '[<number>]'."
+    "intro": "Ove iwe Mwimbangi {player_id} muna {num_rounds}-tunda ya IteratedTwoThirdsAverage.\nKila tunda, kamba ombi kati ya {min_guess} na {max_guess}.\nOvakwata ombi zote mbali, ombi ove iwe (2/3)x(katengo kwa ombi zote mbali),\nna Mwimbangi ove ombi iwe perto kwa ombi ove iwe ovuunda tunda.\nYamba na ombi yeno muna mfano '[<number>]'."
   },
   "invalid_move": {
     "wrong_format": "Ocinimbu eci ka ca sungulukile. Pole, o sukila oku ci soneha ndoco: [<number>] .",
     "out_of_range": "Kulunga ina kwela kalaashiwa kuwa ni kati ya {min_guess} na {max_guess}."
   },
   "message": {
-    "round_guesses": "Player 0 guessed {guess0}; Player 1 guessed {guess1}. Thus the Target is: {target}.",
+    "round_guesses": "Omutu wa nthala 0 adivinia {guess0}; omutu wa nthala 1 adivinia {guess1}. Ngenyi, Othikilo ni: {target}.",
     "round_draw": "Oku imba ombunje ca soka ndoku yekela.",
-    "round_win": "Player {winner} wins the round!"
+    "round_win": "Mwimbangi {winner} ovuunda tunda!"
   },
   "outcome": {
     "p0_wins": "Omunu wa yulula, eye o kuete vali epondolo lioku yula.",

@@ -3,7 +3,7 @@
     "intro": "I si Jokelani {player_id} kɛ HighSociety (jɛkɔrɔba 2) kɛ.\nJɛkɔrɔba dɔnɔ:  Donso 10 tanu aliba kɛ, sɛbɛn na.\nBido:    Aliba kɛ, a yɛrɛ fɛɛrɛ kɛ 1-11, o kɛ o tɔgɔ.\n            • Bido ɲɛgɛnɛ tanba donso kɛ, o kɛ o fɛɛrɛ.\n            • Bido kɛrɛnkɛrɛnɛ, o kɛ o fɛɛrɛ.\n            • Sɛbɛn -> bido wɛrɛ wɛrɛ, o yɛrɛ tanba donso tɛ se.\nDɔnɔnafɛ:    Aliba wɛrɛ, o kɛ dɔnɔnafɛ + donso tanu.\n            Dɔnɔnafɛ ɲɛgɛnɛ tanba (sɛbɛn -> sɛbɛn).\n\n**Aferen dɔnɔ**  →  bido fɛɛrɛ kɛ '[7]' ni '[11]'."
   },
   "auction": {
-    "announce": "\n### Auction {round}/10  |  Prestige card: {prize}"
+    "announce": "\n### Lɔbɛ {round}/10  |  Sɛbɛnɛ kɛmɛ: {prize}"
   },
   "board": {
     "money_cards": "I ka wari karilen tɔ {money}:"

@@ -9,7 +9,7 @@
     "wrong_format": "يجب أن يكون الإجراء إما [accept] أو [continue]."
   },
   "outcome": {
-    "summary": "You accepted value {value} at draw {draw_num}/{N}. The best overall was {best}. {result}",
+    "summary": "قبلت القيمة {value} في السحب {draw_num}/{N}. كانت أفضل قيمة إجمالية هي {best}. {result}",
     "perfect": "خيار ممتاز! ",
     "not_max": "مو اعلى حد."
   }

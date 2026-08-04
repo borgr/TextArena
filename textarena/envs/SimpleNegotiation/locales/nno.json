@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "Du er Spelar {player_id} i Forhandlingsspelet.\nDu har nokre ressursar, og oppgåva di er å handle slik at den totale verdien av ressursane dine aukar.\nRessursane og tilknytte verdiar du no har, er:\n\t+ {resource_value_list}\nVed kvar omgang, kan du snakke med motstandaren din og la fram eit handels tilbod.\nBruk følgjande spesialteikn for handlingar:\n  - '[Tilbod: 3 Sau, 2 Malm -> 5 Murstein, 2 Sau]': [Tilbod: Tilbodne ressursar -> Ettertrakta ressursar]\n  - '[Accept]': For å akseptere eit innkommende tilbod.\n  - '[Deny]': For å avvise eit innkommende tilbod (standard).\nSpelet varer i {max_turns} omgangar til saman."
+    "intro": "Du er Spelar {player_id} i Forhandlingsspelet.\nDu har nokre ressursar, og oppgåva di er å handle slik at den totale verdien av ressursane dine aukar.\nRessursane og tilknytte verdiar du no har, er:\n\t+ {resource_value_list}\nVed kvar omgang, kan du snakke med motstandaren din og la fram eit handels tilbod.\nBruk følgjande spesialteikn for handlingar:\n  - '[Offer: 3 Sheep, 2 Ore -> 5 Brick, 2 Sheep]': [Offer: Offered Resources -> Requested Resources]\n  - '[Accept]': For å akseptere eit innkommende tilbod.\n  - '[Deny]': For å avvise eit innkommende tilbod (standard).\nSpelet varer i {max_turns} omgangar til saman."
   },
   "invalid_move": {
     "receiving_with_no_resource": "Spelaren prøvde å godta ein bytte utan å ha dei nødvendige ressursane.",

@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in **Ultimate Tic Tac Toe**.\nSubmit your move as **[macro  micro]** (two numbers 0-8):\n• *macro*  = which mini-board you play in\n• *micro* = which square inside that mini-board\nExample `[7 8]` ➜ place your mark in mini-board 7, square 8, and\nforce your opponent to play in mini-board 8 next.\n\nYou are `{symbol}`.\n"
+    "intro": "Ia dados Pemain {player_id} ring **Ultimate Tic Tac Toe**.\nKirim gerakan Iraga dados **[macro  micro]** (kalih angka 0-8):\n• *macro*  = mini-papan dija Iraga main\n• *micro* = kotak di tengah mini-papan punika\nConto `[7 8]` ➜ tempatkan tanda Iraga ring mini-papan 7, kotak 8, miwah\npeksa lawan Iraga main ring mini-papan 8 salanturne.\n\nIraga dados `{symbol}`.\n"
   },
   "board": {
     "current_board": "Papan sané mangkin: {board}"
@@ -18,7 +18,7 @@
     "specific": "papan mikro {nxt}"
   },
   "game_action": {
-    "played": "Player {player_id} played in micro board {macro_idx}, cell {micro_idx} (row {row}, col {col}). Player {opponent_id} must now play in {nxt_txt}."
+    "played": "Pemain {player_id} main ring mini-papan {macro_idx}, kotak {micro_idx} (baris {row}, kolom {col}). Pemain {opponent_id} patut main ring {nxt_txt} mangkin."
   },
   "outcome": {
     "win": "Pamain {player_id} menang ring Ultimate Tic Tac Toe!",

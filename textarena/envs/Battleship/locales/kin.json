@@ -8,8 +8,8 @@
     "already_fired": "Coordonnée {coord} yamaze kurasa."
   },
   "game_action": {
-    "you_sunk": "Sunk! You sunk a ship at {coord}! Your updated board:\n{view}",
-    "opp_sunk": "Opponent sunk your ship at {coord}! Your updated board:\n{view}",
+    "you_sunk": "Zamishwe! Wazamishe imbaraga kuri {coord}! Ubao wawe uliyojongezwa:\n{view}",
+    "opp_sunk": "Mshindani wawe akuzamishe imbaraga yawe kuri {coord}! Ubao wawe uliyojongezwa:\n{view}",
     "you_hit": "Warushijwe! Wakambitse bato ku {coord}! Bato bwawe bufashwe muri:\n{view}",
     "opp_hit": "Mukandida yarakambitse bato yawe ku {coord}! Bato bwawe bufashwe muri:\n{view}",
     "you_miss": "Ntibyaranze! Mukandida wakambitse bato ku {coord}! Bato bwawe bufashwe muri:\n{view}",

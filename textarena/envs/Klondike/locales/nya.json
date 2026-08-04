@@ -16,23 +16,23 @@
     "{cards}": "The cards in a pile as neutral labels, or '--' if empty (never translate)"
   },
   "player_prompt": {
-    "intro": "You are playing Klondike Solitaire. Your goal is to move all cards to the foundation piles.\n\nGame Rules:\n- Foundation piles (F1-F4): Build up from Ace to King in suit\n- Tableau piles (T1-T7): Build down alternating colors (red on black, black on red)\n- Stock: Draw cards to waste pile\n- Waste (W): Top card available for play\n\nCommands:\n- 'draw' - Draw cards from stock to waste\n- 'move <source> <destination> [count]' - Move cards between piles\n  Examples: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count can also be 'all', which will try to move all face-up cards.\n- 'forfeit' - End the game immediately and lock in your current score\n- Pile names: W (waste), F1-F4 (foundations), T1-T7 (tableau)\n\nYou can execute multiple actions in one turn by separating them with commas:\n  Example: 'draw, move W T1, move T2 F1'\n\nOnly Kings can be placed on empty tableau piles.\nActions execute in order - if one fails, the remaining actions are skipped.\nUse 'forfeit' if you believe the game is impossible to win."
+    "intro": "Mukutembenuza Klondike Solitaire. Cholinga chanu ndi kuyenda kadi zonse ku foundation piles.\n\nMwendo wa Mpira:\n- Foundation piles (F1-F4): Munda kadi kuchoka Ace mpaka King mu suit\n- Tableau piles (T1-T7): Munda kadi kuchoka mwamba, kuyenda m'ma oneka (red pa black, black pa red)\n- Stock: Draw kadi ku waste pile\n- Waste (W): Kadi ya juu iliyo wapya kwa mpira\n\nMaagizo:\n- 'draw' - Draw kadi kuchoka stock ku waste\n- 'move <source> <destination> [count]' - Yasogola kadi pakati pa piles\n  Zitsanzo: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count inaweza kuwa 'all', yomwe itayesera kuyenda kadi zonse.\n- 'forfeit' - Maliza mpira mwamsanga na kuyika pa score yanu\n- Maima a piles: W (waste), F1-F4 (foundations), T1-T7 (tableau)\n\nMungathe kuyendetsa zinthu zingapo pa mpinda mmoja kwa kuzigawanya ndi commas:\n  Zitsanzo: 'draw, move W T1, move T2 F1'\n\nKings pekee ndi amene angaweza kuwekwa pa tableau piles.\nZinthu zikuyendetsa m'mwendo - ngati chimodzi chayele, zinthu zinazosala zikuyimiridwa.\nGwiritsani 'forfeit' ngati mukuganiza kuti mpira siyina mpata."
   },
   "format_error": {
     "no_brackets": "Mawonekedwe a zochita zosagwira ntchito. Zochita ziyenera kukhala m'malimagulu.",
     "no_closing_bracket": "Mawonekedwe a chochitika chosagwira ntchito. Kusowa kwa bracket yotseka ']'",
-    "empty_command": "Lamulo lopanda kanthu. Lembani 'kujambula' kapena 'kusuntha <gwero> <cholinga> [count]'",
+    "empty_command": "Agizo lake. Lemba 'draw' kapena 'move <source> <destination> [count]'",
     "empty_action": "Zochita zopanda kanthu",
-    "move_needs_args": "Kusuntha lamulo amafuna gwero ndi kopita. Kagwiritsidwe: 'kusunthira <gwero> <kopita> [count]'",
-    "count_positive": "Chiŵerengerocho chiyenera kukhala chabwino kapena \"onse\"",
-    "count_invalid": "Kuwerengera kosagwira ntchito. Gwiritsani ntchito nambala kapena 'onse'",
-    "unknown_command": "Unknown command '{cmd}'. Use 'draw', 'move <source> <destination> [count]', or 'forfeit'",
+    "move_needs_args": "Agizo la move likufuna source ndi destination. Mtundikano: 'move <source> <destination> [count]'",
+    "count_positive": "Nambari ya count iyenera kuwa chanya kapena 'all'",
+    "count_invalid": "Nambari ya count siyo ya bwino. Gwiritsani nambari kapena 'all'",
+    "unknown_command": "Agizo lisidziwa '{cmd}'. Gwiritsani 'draw', 'move <source> <destination> [count]', kapena 'forfeit'",
     "wrapped": "Action {n}: {msg}"
   },
   "action_result": {
     "success": "Action {n}: {msg}",
     "before_failure": "Kuchita {n} kanthu ((s) asanafike kulephera.",
-    "failed": "Action {n} imeseka: {msg}"
+    "failed": "Hatua {n} ilishindikana: {msg}"
   },
   "move_result": {
     "drew": "Anatulutsa makadi a ndalamazo m'sitoloyo n'kuziponya.",
@@ -59,7 +59,7 @@
   "outcome": {
     "forfeit": "Masewerawa anathamangitsidwa. Zotsatira zomaliza: {score} makadi pamaziko.",
     "won": "Tikukuyamikirani, mwapambana pa mpikisano wa Klondike Solitaire!",
-    "turn_limit": "Game imapa! Munalandira turn yaikulu ya {max_turns}. Score: {score} kadi mu foundations."
+    "turn_limit": "Mchezo umemalizika! Umefikia kiwango cha juu cha {max_turns} mizunguko. Alama: {score} kadi katika msingi."
   },
   "board": {
     "title": "=== KLONDIKE SOLITAIRE=== (Munthu amene ali yekha)",

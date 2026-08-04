@@ -12,8 +12,8 @@
   },
   "offers": {
     "reject": "azɔ̀tɔ́ {player_id} ɔ gbɛ́ nùɖɔxámɛ.",
-    "accept": "Player {acceptor_id} gbaɖe nuwɔnɔ ŋuti na Player {proposer_id}.",
-    "proposal": "Player {player_id} wɔ nuwɔnɔ kɛ na Player {opponent_id}: Nuwɔnɔ gbɔ: {offered} -> Nuwɔnɔ ɖi: {requested}"
+    "accept": "Azɔnwá {acceptor_id} ɖo wɛɖɛ ɖo ɖo azɔnwá {proposer_id}.",
+    "proposal": "Azɔnwá {player_id} ɖo wɛɖɛ ɖo ɖo azɔnwá {opponent_id}: ɖokpo wɛɖɛ ɖo: {offered} -> ɖokpo wɛɖɛ ɖo: {requested}"
   },
   "outcome": {
     "win": "{winner_id} ɔ ɖu kpo akwɛ e é mɔ ɖò nǔ lɛ mɛ é gblamɛ.",

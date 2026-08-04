@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing {color} in a game of Breakthrough. You move {direction} on an {board_size}x{board_size} board.\nIn your turn you can move a single piece one step forward or diagonally forward.\nA piece may only move diagonally if an opponent piece is there, and only move into such a preoccupied square in a diagonal step.\nWhen stepping into a square with an opponent piece, you capture it and the opponent's piece is removed permanently from the board.\nUse UCI-like notation in brackets, e.g. [a2a3] to move from a2 to a3.\n* 'a' corresponds to the leftmost column, '1' is the bottom row (from White's perspective).\n* Blacks's home row is the top row (row 8 for an 8x8). White's home row is the bottom row (row 1 for an 8x8).\nThe first player whose piece reaches the opponent's home row wins. If your pieces are all captured, you lose."
+    "intro": "त्वं {color} वर्णेन क्रीडासि ब्रेकथ्रू इति क्रीडायाम्। त्वं {direction} दिशि {board_size}x{board_size} आकारे फलके चलति।\nस्वकीये पाले त्वं एकमेव खण्डम् एकपदम् अग्रे वा तिर्यक् अग्रे चालयितुं शक्नोषि।\nखण्डः तिर्यक् चलति यदि प्रतिद्वंद्वी खण्डः तत्र भवति, एवं च तिर्यक् पदे गत्वा पूर्वनिविष्टं वर्गं प्रविशति।\nप्रतिद्वंद्वी खण्डेन सह वर्गं प्रविश्य त्वं तं गृह्णासि प्रतिद्वंद्वी खण्डः च फलकात् सर्वदा निवर्तते।\nयथा उदाहरणं [a2a3] इति विन्यासेन, a2 तः a3 प्रति चलति।\n* 'a' स्तम्भः वामतमः, '1' अधः पङ्क्तिः (श्वेतवर्णस्य दृष्टिकोणात्)।\n* कृष्णवर्णस्य गृहपङ्क्तिः उपरि पङ्क्तिः (8x8 आकारे ८ पङ्क्तिः)। श्वेतवर्णस्य गृहपङ्क्तिः अधः पङ्क्तिः (8x8 आकारे १ पङ्क्तिः)।\nयः प्रथमः खण्डः प्रतिद्वंद्वी गृहपङ्क्तिं प्राप्नोति स जयति। यदि तव खण्डाः सर्वे गृहीताः भवन्ति त्वं पराजयं प्राप्नोषि।"
   },
   "invalid_move": {
     "wrong_format": "कृपया [a2a3] इत्यनेन कण्ठस्थं बीजगणितीयसंकेतं प्रयुक्ताः ।",
@@ -8,7 +8,7 @@
     "illegal": "भवद्भिः एव प्रवृत्तिः न अनुवर्तते अथवा ते भवतः शस्त्रं नास्नुवन्ति।"
   },
   "game_action": {
-    "moved": "खिलाड़ी {player_id} {move_str} ({piece}) चालती है।"
+    "moved": "क्रीडकः {player_id} चलति {move_str} ({piece})।"
   },
   "outcome": {
     "white_reached": "श्वेतः कालेन गृहपङ्क्तिं प्राप्तवान्।",

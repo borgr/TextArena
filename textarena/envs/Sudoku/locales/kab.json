@@ -8,7 +8,7 @@
   },
   "invalid_move": {
     "wrong_format": "Aḍris n tikli ur yelhi. Amyurar {player_id} ur d-yerri ara s \"number row column\" ilhan.",
-    "out_of_bounds": "Invalid move. Player {player_id} attempted to place {num} at ({row}, {col}), which is out of bounds.",
+    "out_of_bounds": "Tisfift tameɣtut. Amenzu {player_id} yella yebɣa ad yesɛeddi {num} deg ({row}, {col}), i d-yella bar n yigazen.",
     "overwrite": "Aseɣwen ur yezmir. Player {player_id} yessuter ad yenɛeḍ akken deg cellule yeffɣen ({row}, {col}).",
     "violates_rules": "Aseɣwen ur yezmir. Player {player_id} yessuter ad yenɛeḍ {num} deg ({row}, {col}), acu yettwaṭṭaf deg tɣimit n usuddu."
   },

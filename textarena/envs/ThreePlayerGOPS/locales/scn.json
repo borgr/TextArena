@@ -14,7 +14,7 @@
     "{scores}": "The final scores as a raw player-number to score mapping - do not translate"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player GOPS.\n- You hold the 13 cards A-K (each exactly once).\n- Each round a prize is revealed. Submit ONE card like `[Q]`, `[10]`, `[2]` …\n- Highest card wins the prize (+ any carry-over pot). Ties roll the prize into the next round.\n- After 13 rounds, highest total wins. Invalid moves = elimination."
+    "intro": "Sî siti lu Jucaturi {player_id} ntô Three-Player GOPS.\n- Tinìti li 13 carti A-K (ogni una 'n manera esatta).\n- Ogni tornu, nu premiu veni rivilatu. Mannati NA carta comu `[Q]`, `[10]`, `[2]` …\n- La carta cchiù àuta vinci lu premiu (+ lu pottu ca veni carricatu). Li parità fannu rulà lu premiu ntô prossimu tornu.\n- Doppu 13 torni, lu punteggiu cchiù àutu vinci. Mosci invalidi = eliminazzioni."
   },
   "round": {
     "header": "### Turnu {round}/13 - Premiu: {prize} (vali {worth})",

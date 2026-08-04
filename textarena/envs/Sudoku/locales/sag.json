@@ -7,10 +7,10 @@
     "board_state": "Desizion ti Komite ni: {board}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid move format. Player {player_id} did not respond with valid 'row column number'.",
-    "out_of_bounds": "Invalid move. Player {player_id} attempted to place {num} at ({row}, {col}), which is out of bounds.",
+    "wrong_format": "Gbüä tî ndö ka gbüä. Player {player_id} ka gbüä na gbätä tî 'kûtu gbätä sô manî'.",
+    "out_of_bounds": "Gbüä ndö ka gbüä. Player {player_id} gbüä {num} na ({row}, {col}), ndö ka gbüä na gbätä tî.",
     "overwrite": "Ködörö tî kömändä. Player {player_id} aîî tî kömändä tî sêngö tî kömändä ({row}, {col}).",
-    "violates_rules": "Invalid move. Player {player_id} attempted to place {num} at ({row}, {col}), which violates Sudoku rules."
+    "violates_rules": "Kôbe invalid. Player {player_id} tî placer {num} na ({row}, {col}), kôbe ye bwê na règles ya Sudoku."
   },
   "outcome": {
     "win": "E bara mo! Wafango ngia {player_id} ahunzi kpengo li ti Sudoku ni.",

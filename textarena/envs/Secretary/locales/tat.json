@@ -6,7 +6,7 @@
     "current_value": "Хәзерге кыйммәте {value}."
   },
   "invalid_move": {
-    "wrong_format": "Action must be either [accept] or [continue]."
+    "wrong_format": "Гамәл [accept] яки [continue] булырга тиеш."
   },
   "outcome": {
     "summary": "Сез {value} кимәтен {draw_num}/{N} тиңдәшлек вакытында кабул иттегез. Иң яхшы дөнья күләмендәге {best} булды. {result}",

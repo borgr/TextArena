@@ -3,18 +3,18 @@
     "current_board": "ᱱᱤᱛᱚᱜᱟᱜ ᱵᱳᱨᱰ: {board}"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} playing a game of Checkers as {color}.\nMake your move in chess-style notation [fileRank fileRank], e.g. '[b2c3]' (column letter a–h, row digit 0–7).\nBasic rules:\n  • Move diagonally forward by 1 if empty.\n  • Capture by jumping over an opponent piece.\n  • A piece is Kinged if it reaches the opposite end.\n"
+    "intro": "Am ̣ōm Player {player_id} Checkers khelām {color} hisāb se khelatam.\nApni gativādī chess-style notation meṃ likhām [fileRank fileRank], udāharaṇa '[b2c3]' (kholam akṣara a–h, ṭhahar digit 0–7).\nMūlak āṅgā:\n  • Ṭhikāne khālī ṭhām ṭhikāne 1 ḍhāpe diagonal aage jāo.\n  • Biṛōdhī ke piece ke upar se jhāmp karke dhabo.\n  • Ek piece ulṭā pārām ṭhām pahuṅc ke Rājā bane jāe.\n"
   },
   "invalid_move": {
     "wrong_format": "ᱠᱟᱹᱢᱤ ᱢᱩᱵ ᱞᱮᱠᱟᱛ ᱵᱟᱝ ᱧᱟᱢ ᱟᱠᱟᱱᱟ. ᱵᱮᱵᱷᱟᱨ ᱠᱟᱱᱟ [a1b2], ᱩᱫᱟᱦᱚᱨᱚᱱ ᱞᱮᱠᱟ [b2c3].",
-    "illegal": "Move [{move}] is illegal."
+    "illegal": "ᱥᱮᱱᱚᱜ [{move}] ᱵᱮᱠᱟᱱ ᱠᱟᱱᱟ᱾"
   },
   "game_action": {
     "moved": "ᱠᱷᱮᱞᱚᱸᱰᱤᱭᱟᱹ {player_id} ᱫᱚᱭ ᱥᱮᱱ ᱮᱱᱟ {move} ᱾"
   },
   "outcome": {
     "red_no_pieces": "ᱨᱚᱫᱽ ᱫᱚ ᱚᱠᱚᱭ ᱦᱚᱸ ᱵᱟᱵᱚᱱ ᱧᱟᱢ ᱟᱠᱟᱱᱟ ᱾ ᱵᱷᱤᱛᱨᱤ ᱡᱤᱛᱠᱟ.",
-    "black_no_pieces": "Black has no pieces left. Red wins!",
+    "black_no_pieces": "ᱦᱮᱸᱫᱮ ᱨᱮᱭᱟᱜ ᱪᱤᱛᱟᱹᱨ ᱵᱟᱹᱱᱩᱜ-ᱟ᱾ ᱞᱟᱞ ᱡᱤᱛᱠᱟᱹᱨ ᱮᱱᱟ!",
     "no_moves": "ᱠᱷᱮᱞᱚᱸᱰᱤᱭᱟᱹ {player_id} ᱫᱚ ᱚᱠᱚᱭ ᱦᱚᱸ ᱵᱟᱝ ᱪᱟᱞᱟᱣ ᱟᱠᱟᱱᱟ ᱾",
     "draw": "ᱵᱚᱫᱚᱞᱟᱜ ᱞᱤᱢᱤᱴᱮ ᱦᱟᱛᱟᱣ ᱟᱠᱟᱱᱟ᱾"
   }

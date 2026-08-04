@@ -14,20 +14,20 @@
     "{scores}": "The final scores as a raw player-number to score mapping - do not translate"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player GOPS.\n- You hold the 13 cards A-K (each exactly once).\n- Each round a prize is revealed. Submit ONE card like `[Q]`, `[10]`, `[2]` …\n- Highest card wins the prize (+ any carry-over pot). Ties roll the prize into the next round.\n- After 13 rounds, highest total wins. Invalid moves = elimination."
+    "intro": "Sika so Player {player_id} ed Three-Player GOPS.\n- Sika so nagmamay-ari na 13 cards A-K (kada labat).\n- Kada round, say prize so revealed. I-submit mo so ONE card a singa `[Q]`, `[10]`, `[2]` …\n- Say highest card so manag-abak ed say prize (+ kabyayan na pot). Say ties so manag-roll ed say prize ed say next round.\n- Kayari na 13 rounds, say highest total so manag-abak. Say invalid moves so manag-eliminate."
   },
   "round": {
     "header": "### Round {round}/13 - Premio: {prize} (kabkabat {worth})",
     "hand": "Say akera na nakekeraan a lima: {hand}"
   },
   "reveal": {
-    "win": "Bids » {bids} - Player {winner} wins {pot}.",
+    "win": "Bids » {bids} - Player {winner} so manag-abak {pot}.",
     "tie": "Saray bid  {bids} - tie, pot now {pot}.",
     "scores": "Saray Score → {scoreline}"
   },
   "invalid_move": {
     "no_token": "Say action et mankaukolan na bracketed card a singa say \"[Q]\"",
-    "bad_card": "inusar la odino anggapoy valid card to"
+    "bad_card": "say karta nausar o kalokohan"
   },
   "elimination": {
     "player": "Say manlalaban {pid} et naekal kayari ton aminpigan ag-akadepende ed sikato so taktika to."

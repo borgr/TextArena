@@ -7,21 +7,21 @@
     "{cell}": "A board cell number between 0 and 8"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Tic Tac Toe.\nYour goal is to win three in a row (horizontally, vertically, or diagonally) on the board.\nOn your turn, you should select the square number (0-8) you want to put your mark in next.\nFor example, '[4]' places your mark in the center cell of the board.\nAs Player {player_id}, you will be '{symbol}', while your opponent is '{opponent_symbol}'."
+    "intro": "Wena ule muthu wakwela {player_id} mu Tic Tac Toe.\nKazithu kwenu kukwela kumwena mithatu kwa mstari (kwa mpimo, kwa urefu, kwa diagonal) pa bodo.\nPa nthawi ya kwenu, wena wasankha nambari ya mraba (0-8) mwenu wakutaka kubeka chapa ya kwenu.\nKwa mfano, '[4]' wakubeka chapa ya kwenu kwa katikati ya bodo.\nKwa muthu wakwela {player_id}, wena ule '{symbol}', wakati mpinzani wenu ule '{opponent_symbol}'."
   },
   "board": {
-    "current_board": "Current Board:\n\n{board}\n\nAvailable Moves: {moves}"
+    "current_board": "Bodo la Sasa:\n\n{board}\n\nMikwamo Inayopatikana: {moves}"
   },
   "invalid_move": {
     "wrong_format": "Kengele ya ndundu ewandikutiwa si ye lebaya.",
-    "out_of_range": "{cell} cjk is not a valid cell. Should be between 0 and 8.",
-    "already_occupied": "Cell {cell} is already occupied."
+    "out_of_range": "{cell} si selu halali. Lazima iwe kati ya 0 na 8.",
+    "already_occupied": "Selu {cell} ishaikaliwa."
   },
   "game_action": {
-    "placed": "Player {player_id} placed their symbol ({symbol}) in cell {cell}."
+    "placed": "Muthu wakwela {player_id} wakabeka chapa yao ({symbol}) kwa selu {cell}."
   },
   "outcome": {
-    "win": "Player {player_id} has won!",
+    "win": "Muthu wakwela {player_id} wakawina!",
     "draw": "Mchezo ni draw!"
   }
 }

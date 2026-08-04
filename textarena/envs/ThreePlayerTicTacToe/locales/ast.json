@@ -14,7 +14,7 @@
     "intro": "Yes xugador {player_id} en Three-Player Tic Tac Toe.\nEl to símbolu ye '{symbol}'.\nTomes turns poniendo el to símbolu n'un tableru 5x5 pa formar una llinia de cuatro.\nLes llinies pueden ser horizontales, verticales o diagonales.\nUnvia la to movida usando el formatu '[4]' pa marcar la celda 4."
   },
   "board": {
-    "current_board": "Current Board:\n\n{board}\n\nAvailable Moves: {moves}"
+    "current_board": "Tableru actual:\n\n{board}\n\nMovimientos disponibles: {moves}"
   },
   "invalid_move": {
     "wrong_format": "Esti formatu ye inválidu. Utilizar \"[cell]\" onde la celda ye 0-{max_cell}.",

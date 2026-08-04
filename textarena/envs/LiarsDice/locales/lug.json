@@ -22,18 +22,18 @@
     "final_ranking": "list of player indices from first eliminated to winner"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in an {num_players}-player Liar's Dice game.\nRules:\n- On your turn, you may either:\n  1) Make a new bid with a higher quantity or higher face (or both) than the current bid; i.e. '[Bid: 3, 4]',\n  2) Call the last bid by typing '[Call]'.\n\nIf you call:\n  - If the actual count of that face value among all dice is less than the bid, the last bidder loses one die.\n  - Otherwise, the caller loses one die.\nA player who reaches 0 dice is eliminated. The last remaining player wins."
+    "intro": "Oli Mchezaji {player_id} mu katemba kya Liar's Dice kya {num_players}.\nNnono:\n- Ku kikolwa chako, oyinza:\n  1) Kuteka kikolwa kipya na obungi bwingi oba maadi mangi (oba byombi) kuliko kikolwa kiriko; yaani '[Bid: 3, 4]',\n  2) Kuyita kikolwa kya mwisho kwa kutumia '[Call]'.\n\nBw'oyita:\n  - Bw'obungi bw'dice bw'enkanya businga kikolwa, mchezaji wa mwisho afiirwa dice limo.\n  - Oyinza, mchezaji atakayita afiirwa dice limo.\nMchezaji atakafikirwa 0 dice afiirwa. Mchezaji wa mwisho atawangula."
   },
   "board": {
     "per_player": "\tOmuzannyi {p}: {d}",
     "new_round": "\nMuzannyo mupya - Efumbi zisigalibwa: {dice_summary}\nEfumbi zako za sasa ziri: {your_dice}"
   },
   "call": {
-    "bidder_loses": "Player {current_player_id} calls! The actual count of face {face_value} is {count}, which is LESS than {quantity}.\nPlayer {loser_id} (the last bidder) loses one die.",
-    "caller_loses": "Player {current_player_id} calls! The actual count of face {face_value} is {count}, which is >= {quantity}.\nPlayer {loser_id} (the caller) loses one die."
+    "bidder_loses": "Omuzanyi {current_player_id} ayita! Omuwendo gw'amaziso ag'omuwendo {face_value} guli {count}, oguli wansi wa {quantity}.\nOmuzanyi {loser_id} (eyali asabye) afiirwa kisolo kimo.",
+    "caller_loses": "Omuzanyi {current_player_id} ayita! Omuwendo gw'amaziso {face_value} gwa kweli ni {count}, ogusinga {quantity}.\nOmuzanyi {loser_id} (eyayita) afiirwa kifo kimoja."
   },
   "action": {
-    "bid_announce": "Player {player_id} bids {quantity} of face {face_value}."
+    "bid_announce": "Mchezaji {player_id} ateka {quantity} ya maadi {face_value}."
   },
   "invalid_move": {
     "call_no_bid": "Okuyita kuno kukoleddwa nga tewaliwo kusasulwa kwonna.",

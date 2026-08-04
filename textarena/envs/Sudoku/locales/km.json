@@ -7,7 +7,7 @@
     "board_state": "រដ្ឋបាល: {board}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid move format. Player {player_id} did not respond with valid 'row column number'.",
+    "wrong_format": "ទម្រង់ចលនាមិនត្រឹមត្រូវ។ អ្នកលេង {player_id} មិនបានឆ្លើយតបជាមួយ 'ជួរ ជួរ លេខ' ត្រឹមត្រូវ។",
     "out_of_bounds": "ល្បឿនមិនត្រឹមត្រូវ. កីឡាករ {player_id} បានព្យាយាមដាក់ {num} នៅ ({row}, {col}), ដែលស្ថិតនៅក្រៅព្រំដែន។",
     "overwrite": "ការផ្លាស់ប្តូរមិនត្រឹមត្រូវ. កីឡាករ {player_id} បានព្យាយាមសរសេរលើសកលិកាដែលត្រូវបានបំពេញរួចជាមុន ({row}, {col}) ។",
     "violates_rules": "ល្បឿនមិនត្រឹមត្រូវ. កីឡាករ {player_id} បានព្យាយាមដាក់ {num} នៅ ({row}, {col}), ដែលបានរំលោភច្បាប់ Sudoku ។"

@@ -5,7 +5,7 @@
     "no_duplicates": "дубликатсыз"
   },
   "invalid_move": {
-    "wrong_format": "You did not respond with a space-separated list of numbers wrapped in square brackets.",
+    "wrong_format": "Сиз жообуңузда сандардын тизмесин квадраттык жаактарда бербедиңиз.",
     "not_integers": "Бардык жазуулар бүтүн сандардан болушу керек.",
     "wrong_length": "Болжолунда {code_length} сандары болушу керек.",
     "out_of_range": "Бардык сандар 1 жана {num_numbers} ортосунда болушу керек.",
@@ -13,7 +13,7 @@
     "repeated_guess": "Сиз буга чейин {guess} деп таап алдыңыз. Башка бир нерсени байкап көрүңүз."
   },
   "game_action": {
-    "feedback": "Submitted [{guess}]. Feedback: {black_pegs} black peg(s), {white_pegs} white peg(s)."
+    "feedback": "Киргизилди [{guess}]. Кайта байланыш: {black_pegs} кара казык(тар), {white_pegs} ак казык(тар)."
   },
   "outcome": {
     "win": "Сиз кодду туура чечтиңиз, {black_pegs}ден {code_length}ге чейинки",

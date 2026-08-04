@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({piece}). Opponent is ({opp}). Submit moves as '[b1 c3]' (from → to). All pieces move like chess knights.\nEach capture scores {score_per_capture} point. Game ends after {max_moves} moves or when a player has no legal move / no pieces. Higher score wins."
+    "intro": "တႃႇသူၼ်းပဵၼ်ၵူၼ်းလဵၼ်ႈ {player_id} ({piece})။ ၽူႈၶဵၼ်ၼႆႉပဵၼ် ({opp})။ သူၼ်းၶိုၼ်းလွၵ်းလႆႈတီႈ '[b1 c3]' (တီႈ → တီႈ)။ ၶူဝ်းၶွင်တင်းသဵင်ႈ ၶၢႆႉၵႂႃႇၸိူင်ႉၼင်ႇ ၶူဝ်းၶွင်ၸိူင်းၶျႅတ်ႉ။\nၶၢႆႉၶူဝ်းၶွင်ၼိုင်ႈၶူဝ်း လႆႈ {score_per_capture} ၵုင်ႇ။ ၵူၼ်းလဵၼ်ႈၸဵတ်းၵေႃႈ ပေႃးၶၢႆႉၶူဝ်းၶွင် {max_moves} ၵေႃႈယဝ်ႉ၊ ဢမ်ႇၼၼ် ပေႃးၵူၼ်းလဵၼ်ႈၼိုင်ႈၵေႃႈ ဢမ်ႇမီးၶၢႆႉၶူဝ်းၶွင်လႆႈ / ဢမ်ႇမီးၶူဝ်းၶွင်။ ၵုင်ႇၶိုၵ်ႉလိူဝ်ၵေႃႈ ပႄႉ။"
   },
   "board": {
     "current_board": "လိုက် #{move_count}\n\n{board}\n\nလိုက်လုပ်နိုင်သော လိုက်များ: {moves}"

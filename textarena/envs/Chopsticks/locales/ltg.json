@@ -14,7 +14,7 @@
   },
   "game_action": {
     "attack": "P{player_id} uzbrūk P{opp_id} rokas {opp_idx}: tā mainās no {opp_val} uz {new_val}.",
-    "split": "P{player_id} splits into [{L}, {R}]."
+    "split": "P{player_id} sadala savus pirkstus [{L}, {R}]."
   },
   "history": {
     "entry": "P{player_id} {desc}"

@@ -22,7 +22,7 @@
     "final_ranking": "list of player indices from first eliminated to winner"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in an {num_players}-player Liar's Dice game.\nRules:\n- On your turn, you may either:\n  1) Make a new bid with a higher quantity or higher face (or both) than the current bid; i.e. '[Bid: 3, 4]',\n  2) Call the last bid by typing '[Call]'.\n\nIf you call:\n  - If the actual count of that face value among all dice is less than the bid, the last bidder loses one die.\n  - Otherwise, the caller loses one die.\nA player who reaches 0 dice is eliminated. The last remaining player wins."
+    "intro": "Anda adolah Pamain {player_id} dalam permainan Liar's Dice {num_players} pamain.\nAturan:\n- Pado giliran Anda, Anda buliah mamiliah:\n  1) Mambuek bid baru jo kuantitas nan labiah tinggi atau nilai muko nan labiah tinggi (atau kaduonyo) daripado bid nan sadang balansuang; yaitu '[Bid: 3, 4]',\n  2) Manggil bid tarakhia jo mangetik '[Call]'.\n\nJiko Anda manggil:\n  - Jiko jumlah dadu nan cocok di antaro sadonyo dadu kurang daripado bid, pamain nan mambuek bid tarakhia kalah ciek dadu.\n  - Lain daripado itu, pamain nan manggil kalah ciek dadu.\nPamain nan mancapai 0 dadu dieliminasi. Pamain nan tasiso tarakhia manang."
   },
   "board": {
     "per_player": "\tPamain {p}: {d}",

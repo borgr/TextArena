@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are solving the Sokoban puzzle. You are the player and you need to push all boxes to targets.\n        When you are right next to a box, you can push it by moving in the same direction.\n        You cannot push a box through a wall, and you cannot pull a box.\n        On the board, objects are represented as: \n        - The player (you) appears as 'P' \n        - Walls are represented with '#' \n        - Boxes are marked as 'X' \n        - Empty goals are shown with a 'O'\n        - Boxes on goals are visualized with '√'\n        You can also use [w] for up, [a] for left, [s] for down, and [d] for right.\n        "
+    "intro": "Yin a kɔɔc Sokoban. Yin ee kɔɔc, ku yin a miɛl lɔɔk aɣɔɔk yiic.\n        Yin a neɛk ɣɔɔn a lɔɔk, yin a kɔɔc aɣɔɔn a lɔɔk a neɛk.\n        Yin a kɔɔc aɣɔɔn a lɔɔk a neɛk a dɔɔl, ku yin a kɔɔc aɣɔɔn a lɔɔk a pɛɛl.\n        Aɣɔɔn a lɔɔk, kɛɛc a neɛk a:\n        - Kɔɔc (yin) a neɛk 'P' \n        - Dɔɔl a neɛk '#' \n        - Aɣɔɔk a neɛk 'X' \n        - Ɛɛl a neɛk 'O'\n        - Aɣɔɔk a neɛk '√' a ɛɛl\n        Yin a kɔɔc aɣɔɔn [w] a neɛk a dɛɛl, [a] a neɛk a cɛɛl, [s] a neɛk a pɛɛl, ku [d] a neɛk a neɛk."
   },
   "board": {
     "current_board": "Kɛmɛ̈thi ë̈ Bɔ̈r:\n\n{board}\nCäkë ye wäär: {moves}"
@@ -12,7 +12,7 @@
     "invalid_position": "Mi̱ /ci̱ la̱t ɛ gɔaa -/cɛ rɔ bi̱ luäŋ kɛ ɣöö bɛ wä gua̱a̱th ɛmɔ."
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
+    "moved": "Yin {pushed} a kɔɔc aɣɔɔn [{action}].",
     "pushed_prefix": "la̱t kɛ ɣöö bɛ jiɛn kä mi ci jiäk."
   },
   "outcome": {

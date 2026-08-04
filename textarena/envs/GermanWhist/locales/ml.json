@@ -17,7 +17,7 @@
   "invalid_move": {
     "wrong_format": "അസാധുവായ നീക്കം ഫോർമാറ്റ്. നിങ്ങളുടെ കൈയിലുള്ള Nth കാർഡ് കളിക്കാൻ '[play N]' ഉപയോഗിക്കുക.",
     "bad_position": "ആ കാർഡ് സ്ഥാനം നിലവിലില്ല. നിങ്ങള് {hand_size} കാർഡുകള് കൈവശം വച്ചിരിക്കുന്നു.",
-    "must_follow_suit": "You must follow suit and play a {lead_suit} card.",
+    "must_follow_suit": "നിങ്ങൾ സ്യൂട്ട് പാലിക്കണം, ഒരു {lead_suit} കാർഡ് കളിക്കുക.",
     "invalid_play": "ആ കാർഡ് കളിക്കാനാവില്ല."
   },
   "game_action": {

@@ -39,7 +39,7 @@
   "turn": {
     "score_entry": "Jogadôr {player_id}: {points} pts",
     "trump_info": "Trabadju di Trump: {trump_suit}",
-    "trump_info_deck": "Trump suit: {trump_suit} | Cards left in deck: {deck_count}",
+    "trump_info_deck": "Naipe di trunfu: {trump_suit} | Kartas restantis na baralha: {deck_count}",
     "board": "{hand}\n\n{trick}\n\nPontuaçãu: {scores}\n{trump_info}\n\nJoga karta uzându [play X]"
   },
   "invalid_move": {

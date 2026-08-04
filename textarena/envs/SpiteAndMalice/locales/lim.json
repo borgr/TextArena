@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a two-player game of Spite and Malice. Your goal is to be the first to empty your payoff pile.\n\n### Game Overview:\n- The objective is to clear your payoff pile by playing cards to the center piles.\n- You can play cards from three sources:\n  1. Your **hand** (you start each turn with up to 5 cards in hand).\n  2. The **top card of your payoff pile**.\n  3. The **top card of any of your discard piles**.\n\n### Playing Rules:\n- You may play a card to a center pile if it is **one rank higher** than the top card on that pile (center piles start with Ace and go up to Queen; Kings are wild - they can be played on any card but do not change the rank sequence. This means if a King is used after 4, then that King is ranked 5 and the next card must be a 6).\n- If you can't play any more cards, you must **discard a card** to one of your discard piles to end your turn.\n- If a center pile reaches Queen, it will be cleared automatically.\n- The rank order is: A=1, 2=2, ..., 9=9, J=10, Q=11, K as wild.\n\n### Actions:\n1. **Draw**: At the start of your turn, draw cards to fill your hand up to 5 cards. Enter **[draw]** to begin.\n2. **Play a Card**: To play a card, specify the card and the center pile like this: **[play A♠ 0]** (where 'A♠' is the card and '0' is the center pile index).\n3. **Discard**: If you can't play any more cards, discard a card from your hand to a discard pile to end your turn. Enter **[discard A♠ 1]** (where 'A♠' is the card and '1' is the discard pile index). Note that you cannot discard any card from the payoff pile. You may only discard the cards from your hand.\n\n"
+    "intro": "Geer zeen Speler {player_id} in e twie-speler sjpel van Spite en Malice. Uw doel is óm es ierste uw payoff sjtack leeg te kriege.\n\n### Sjpel Euverzich:\n- 't Doel is óm uw payoff sjtack te kriege door kaarte te sjpele nao de centraal sjtacke.\n- Geer kèn kaarte sjpele van drei bronne:\n  1. Uw **hand** (geer begint eder beurt mit bis 5 kaarte in hand).\n  2. De **baoveste kaart van uw payoff sjtack**.\n  3. De **baoveste kaart van ein van uw aafsjtacke**.\n\n### Sjpelregele:\n- Geer meug 'n kaart sjpele nao 'n centraal sjtack es ze **ein rang hoeger** is dan de baoveste kaart op dae sjtack (centraal sjtacke beginne mit Ace en gaon op bis Koningin; Keuninge zeen wild - ze kènne gesjpeeld waere op eder kaart mer verangere neet de rangvolgorde. Dit beteikent det es 'n Keuning gebruuk wuurt nao 4, dan wuurt dae Keuning gerangschikt es 5 en de volgende kaart mót 'n 6 zeen).\n- Es geer gein kaarte mie kèn sjpele, mót geer **'n kaart aafsjmette** nao ein van uw aafsjtacke óm uw beurt te beëindige.\n- Es 'n centraal sjtack de Koningin bereikt, wuurt ze automatisch geklaord.\n- De rangvolgorde is: A=1, 2=2, ..., 9=9, J=10, Q=11, K es wild.\n\n### Akties:\n1. **Trekke**: Aan 't begin van uw beurt, trek kaarte óm uw hand aan te völle bis 5 kaarte. Gief **[draw]** in óm te beginne.\n2. **'n Kaart sjpele**: Óm 'n kaart te sjpele, sjpecificeer de kaart en de centraal sjtack zoea: **[play A♠ 0]** (wao 'A♠' de kaart is en '0' de centraal sjtack-index is).\n3. **Aafsjmette**: Es geer gein kaarte mie kèn sjpele, sjmet 'n kaart van uw hand aaf nao 'n aafsjtack óm uw beurt te beëindige. Gief **[discard A♠ 1]** in (wao 'A♠' de kaart is en '1' de aafsjtack-index is). Merk op det geer gein kaart van de payoff sjtack kèn aafsjmette. Geer meug allèng kaarte van uw hand aafsjmette.\n\n"
   },
   "board": {
     "current_board": "Hujig spelbord:\n\n{board}\nBesjikbare zètte: {moves}"
@@ -11,7 +11,7 @@
     "player_view_header": "{observation}\n--- Speler {player_id} ziene översich ---\n",
     "payoff": "{observation}Payoff-hoep (Topkaart): {top_card}, Lengde van payoff-hoep: {payoff_length}\n",
     "hand": "{observation}Hand: {hand} ",
-    "discard": "{observation}Discard Piles: {discard}\n",
+    "discard": "{observation}Aaflegstapels: {discard}\n",
     "empty": "Leeg ."
   },
   "game_message": {
@@ -36,6 +36,6 @@
     "payoff_cleared": "Speler {current_player} heet ziene payoff-hoep leeggespeeld! Speler {current_player} wint!",
     "deadlock_player_0": "Doadlop bereik! Speler 0 wint mit {player_0_payoff} kaarte blieve taegeüber Speler 1 ziene {player_1_payoff} kaarte.",
     "deadlock_player_1": "Doadlop bereik! Speler 1 wint mit {player_1_payoff} kaarte blieve taegeüber Speler 0 ziene {player_0_payoff} kaarte.",
-    "deadlock_tie": "Deadlock reached with tie! Both players have {player_0_payoff} cards remaining. Player {current_player} wins by default."
+    "deadlock_tie": "Doodsjleeg bereikt mit gelieke stand! Beide spelers höbbe {player_0_payoff} kaarte euvergebleve. Speler {current_player} wint bij gebrek aan beter."
   }
 }

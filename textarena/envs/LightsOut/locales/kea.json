@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "Asosiason debe ten formatu [row col] undi róda i kóla é númeru interu di 0 ti {max_index}.",
-    "out_of_range": "Coordinates must be between 0 and {max_index}. You entered [{row},{col}]."
+    "out_of_range": "Kordenada tenke sta entre 0 i {max_index}. Bu introduzi [{row},{col}]."
   },
   "outcome": {
     "win": "Parabéns! Bu rezolve es puzle na {moves_used} mudansa.",

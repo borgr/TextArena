@@ -8,7 +8,7 @@
     "round_summary": "Mafuaiga o le tasi {round}:\n{outcome}\nNa te ave Pulega 0 {r0} (aofai {score_0}), na te ave Pulega 1 {r1} (aofai {score_1})."
   },
   "outcome": {
-    "winner": "Player {winner} wins {win_score} - {lose_score}.",
+    "winner": "Taʻaloa {winner} manumalo {win_score} - {lose_score}.",
     "draw": "Na maua uma e le au taaalo sikoa {s0}.",
     "round_both_cooperate": "Na galulue faatasi tagata taaalo uma e toʻalua.",
     "round_both_defect": "Na sosola uma tagata taaalo.",

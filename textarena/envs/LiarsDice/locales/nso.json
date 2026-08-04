@@ -22,7 +22,7 @@
     "final_ranking": "list of player indices from first eliminated to winner"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in an {num_players}-player Liar's Dice game.\nRules:\n- On your turn, you may either:\n  1) Make a new bid with a higher quantity or higher face (or both) than the current bid; i.e. '[Bid: 3, 4]',\n  2) Call the last bid by typing '[Call]'.\n\nIf you call:\n  - If the actual count of that face value among all dice is less than the bid, the last bidder loses one die.\n  - Otherwise, the caller loses one die.\nA player who reaches 0 dice is eliminated. The last remaining player wins."
+    "intro": "O kile wa Bapadi {player_id} mo papading ya Bapadi ba {num_players} ya Liar's Dice.\nMelao:\n- Ka nako ya gago, o ka:\n  1) Fetola kgahlano e mpsha ka bontši bja bontle bja kgahlano ya bjale, goba bontši bja kgahlano ya bjale (goba bobedi); e.g. '[Bid: 3, 4]',\n  2) Bita kgahlano ya mafelelo ka go ngwala '[Call]'.\n\nGe o bita:\n  - Ge palo ya nnete ya boleng bjoo bja sefahlego hara dike gotee le kgahlano, mofetolela wa kgahlano ya mafelelo o lahlegetšwe ke die e tee.\n  - Gaešita, mobiti o lahlegetšwe ke die e tee.\nMopadi yo a fago 0 dike o hlakantšhwa. Mopadi wa mafelelo a setseng o thopa."
   },
   "board": {
     "per_player": "\tMmopi {p}: {d}",
@@ -38,7 +38,7 @@
   "invalid_move": {
     "call_no_bid": "Go be go se na thekišo e dirilwego pele.",
     "invalid_bid": "Tefelo ya go se be le mohola: {reason}",
-    "not_recognized": "Action not recognized as either a valid '[Bid: X, Y]' or '[Call]'. Submitted action: {action}"
+    "not_recognized": "Kgato e sa tsebjeng e le kgato e kgolo '[Bid: X, Y]' goba '[Call]'. Kgato e isitsweng: {action}"
   },
   "bid_reason": {
     "quantity_lower": "Palo ye mpsha {new_quantity} ke ya ka tlase ga yeo e lego gona bjale {current_quantity}.",
@@ -50,6 +50,6 @@
     "eliminated_invalid": "Sebapadi {player_id} se ile sa rakwa ka baka la mosepelo wo o sego wa loka."
   },
   "outcome": {
-    "win": "Player {winner} wins! Final ranking: {final_ranking}"
+    "win": "Bapalami {winner} wina! Lenane la mafelelo: {final_ranking}"
   }
 }

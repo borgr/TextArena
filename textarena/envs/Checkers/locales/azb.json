@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "Heç bir etibarlı hərəkət formatı tapılmadı. [a1b2] istifadə edin, məsələn [b2c3].",
-    "illegal": "Move [{move}] is illegal."
+    "illegal": "حرکت [{move}] قانونی دئییل."
   },
   "game_action": {
     "moved": "اویونچو {player_id} یئرلشیب {move}."

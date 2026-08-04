@@ -1,9 +1,9 @@
 {
   "player_prompt": {
-    "intro": "You are playing the Minesweeper game.\nThe objective of the game is to reveal all cells that do not contain mines.\nTo make a move, simply specify the row and column coordinates you want to reveal using the format:\n- `[row col]`: Reveal the cell at the specified row and column.\nFor example:\n- `[3 2]` to reveal the cell in Row 3, Column 2.\n- `[5 6]` to reveal the cell in Row 5, Column 6.\nOn your first move, you will reveal an area around the cell you choose to ensure a safe start.\nThe current board layout is shown below. Cells that are unrevealed are represented by a dot ('.'), revealed numbers show the count of adjacent mines.\nBe mindful not to choose already revealed cells.\nHere is the current board layout:\n"
+    "intro": "Bo ta hunga e wega di Minesweeper.\nE objektivo di e wega ta pa revelá tur selula ku no tin mina.\nPa hasi un move, simplemente spesifiká e koordinátnan di riña i kolumna ku bo ke revelá, usandu e formato:\n- `[row col]`: Revelá e selula na e riña i kolumna spesifiká.\nPor ehèmpel:\n- `[3 2]` pa revelá e selula den Riña 3, Kolumna 2.\n- `[5 6]` pa revelá e selula den Riña 5, Kolumna 6.\nDen bo promé move, bo lo revelá un área rònt di e selula ku bo skohe pa asegurá un kuminsamentu seguru.\nE layout aktual di e bord ta mustrá abou. Selulanan ku no ta revelá ta representá pa un punto ('.'), mientras númerunan revelá ta mustrá e konteo di minanan adjasente.\nTene kuenta pa no skohe selulanan ku ya ta revelá.\nAki ta e layout aktual di e bord:\n"
   },
   "board": {
-    "game_board": "Game Board: {board}",
+    "game_board": "Tablero di Wega:\n\n{board}",
     "current_board": "Tablon Aktual:\n\n{board}"
   },
   "invalid_move": {

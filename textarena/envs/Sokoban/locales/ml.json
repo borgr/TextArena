@@ -12,7 +12,7 @@
     "invalid_position": "അസാധുവായ നീക്കം - ആ സ്ഥാനത്തേക്ക് നീങ്ങാനാവില്ല."
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
+    "moved": "നിങ്ങൾ {pushed} [{action}] നീക്കി.",
     "pushed_prefix": "ഒരു പെട്ടി തള്ളി"
   },
   "outcome": {

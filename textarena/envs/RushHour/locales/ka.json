@@ -5,12 +5,12 @@
   "invalid_move": {
     "wrong_format": "არასწორი მოქმედება. გამოიყენეთ ფორმატი [A+] / [B-].",
     "no_car": "მანქანა \"{car_id}\" არ არის დაფაზე.",
-    "blocked": "ჟრპაქთრვ."
+    "blocked": "მოძრაობა დაბლოკილია."
   },
   "game_message": {
-    "solved": "The red car zooms out! You solved the puzzle."
+    "solved": "წითელი მანქანა გამოდის! თქვენ გადაწყვიტეთ თავსატეხა."
   },
   "outcome": {
-    "win": "ოჲჟლვეა ჟსმჲ!"
+    "win": "თავსატეხა გადაწყვეტილია!"
   }
 }

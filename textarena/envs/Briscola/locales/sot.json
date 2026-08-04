@@ -37,7 +37,7 @@
     "line": "  Player {player_id}: {card}{trump_mark}"
   },
   "turn": {
-    "score_entry": "Player {player_id}: {points} pts",
+    "score_entry": "Mmoledi {player_id}: {points} ditekanyetso",
     "trump_info": "Sutu ea Trump: {trump_suit}",
     "trump_info_deck": "Suit ya Trump: {trump_suit} | Karte tse setseng kateng: {deck_count}",
     "board": "{hand}\n\n{trick}\n\nMafahleng: {scores}\n{trump_info}\n\nSebelisa karte ka [play X]"
@@ -48,10 +48,10 @@
   },
   "action": {
     "played": "Player {player_id} e sebelisa {card}",
-    "trick_win": "Player {winner} wins the trick with {card} and gains {points} points!"
+    "trick_win": "Mmoledi {winner} o hlola kgato ka {card} le kgobokanya {points} ditekanyetso!"
   },
   "outcome": {
     "head": "Pati e fihlile qeto! Player {winner} o fenya ka {points} points!\n\nMafahleng a qeto:\n{scores}",
-    "player_line": "Player {player_id}: {points} points ({tricks} tricks)\n"
+    "player_line": "Mmoledi {player_id}: {points} ditekanyetso ({tricks} dikgato)\n"
   }
 }

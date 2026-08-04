@@ -4,11 +4,11 @@
   },
   "round": {
     "start": "─── Bidu tar-Rawnd {round} ───\tTista' tikkonversa b'xejn għall- {conv_rounds} rawnds li ġejjin.",
-    "chat_finished": "Chat finished for round {round}. Submit your decisions, one token per opponent: `[pid cooperate]` or `[pid defect]`."
+    "chat_finished": "Ċhat lest għar-rawnd {round}. Ibqa' jissottometti d-deċiżjonijiet tiegħek, token waħda għal kull avversarju: `[pid cooperate]` jew `[pid defect]`."
   },
   "results": {
     "header": "### Round {round} - Riżultati:",
-    "pair_line": "{observation}\n\t Player {i} vs Player {j} għażlu li {choice_i} u {choice_j} rispettivament (Player {i} tilef {gain_i}, Player {j} tilef {gain_j})",
+    "pair_line": "{observation}\n\t Plejer {i} vs Plejer {j} għażlu li {choice_i} u {choice_j} rispettivament (Plejer {i} kiseb {gain_i}, Plejer {j} kiseb {gain_j})",
     "scores_open": "{observation} -> Punteġġi attwali: ",
     "score_first": "{observation}Player {player_id} ({score})",
     "score_next": "{observation}; Player {player_id} ({score})",

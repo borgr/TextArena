@@ -11,7 +11,7 @@
     "{groups}": "Neutral ranking data (a list of player-id groups, worst to best); do not translate"
   },
   "player_prompt": {
-    "intro": "{num_players}-Player Snake on a {width}×{height} grid.\nYou control snake {player_id}. Valid moves: '[up]'/'[down]'/'[left]'/'[right]' (or w/s/a/d).\nObjective: survive longest or be the longest and get the highest score (turn limit {max_turns} turns)."
+    "intro": "{num_players}-Spælarar Snake á einum {width}×{height} neti.\nTú stýrir slanga {player_id}. Góðkendir leikir: '[up]'/'[down]'/'[left]'/'[right]' (ella w/s/a/d).\nMál: overleva longst ella vera longst og fáa hægsta stig (leikumark {max_turns} leikir)."
   },
   "board": {
     "current": "Stýrislimur: {board}",
@@ -23,9 +23,9 @@
   "outcome": {
     "survived_win": "Leikarurin {player_id} yvirlivdi; allir hinir doyðu.",
     "all_dead_simul": "Allar slangurnar doyðu samstundis.",
-    "outlived": "Player livdi longur enn allir hinir.",
+    "outlived": "Spælarin overlevdi allar aðrar.",
     "all_dead": "Allar slangurnar eru deyðar.",
-    "turn_limit": "Turn limit reached - best score wins tie-break.",
-    "ranking": "{reason} Final ranking groups (worst→best): {groups}"
+    "turn_limit": "Leikumark nádd - besta stig vinnur javnleik.",
+    "ranking": "{reason} Endalig rankingbólkar (verst→best): {groups}"
   }
 }

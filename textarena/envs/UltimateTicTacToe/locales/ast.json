@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in **Ultimate Tic Tac Toe**.\nSubmit your move as **[macro  micro]** (two numbers 0-8):\n• *macro*  = which mini-board you play in\n• *micro* = which square inside that mini-board\nExample `[7 8]` ➜ place your mark in mini-board 7, square 8, and\nforce your opponent to play in mini-board 8 next.\n\nYou are `{symbol}`.\n"
+    "intro": "Yes el xugador {player_id} en **Tic Tac Toe Definitivu**.\nUnvia la to movida como **[macro  micro]** (dos númberos 0-8):\n• *macro*  = nel que mini-tableru xuegues\n• *micro* = nel que cuadráu dientro esi mini-tableru\nExemplu `[7 8]` ➜ pon la to marca nel mini-tableru 7, cuadráu 8, y\nobliga al to oponente a xugar nel mini-tableru 8 de siguío.\n\nYes `{symbol}`.\n"
   },
   "board": {
     "current_board": "Tableru actual:\n{board}"

@@ -1,9 +1,9 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a game of HighSociety (2-player version).\nGame flow:  Ten prestige cards are auctioned one after another.\nBidding:    Each auction, secretly choose a money card 1-11 and reveal.\n            • Higher bid wins the prestige card and discards that money card.\n            • Lower bid keeps their money card.\n            • Tie -> both bids are returned and the same prestige card is re-auctioned.\nScoring:    After all ten auctions, add **remaining cash + prestige points**.\n            Higher *net-worth* wins (exact tie -> draw).\n\n**Action syntax**  →  bid a single card like '[7]' or '[11]'."
+    "intro": "Wo ne Player {player_id} wɔ HighSociety agorɔ (2-player version) mu.\nAgorɔ no fa:  Prestige kaad nnum ne du no wɔ auction mu baako pɛ.\nBid:    Auction biara mu, kɔ pim money kaad 1-11 na fa.\n            • Bid kɛse no di prestige kaad no na woyi money kaad no.\n            • Bid ketewa no de money kaad no.\n            • Tie -> bids mmienu no bɛsan na prestige kaad no wɔ auction mu bio.\nNkontabuo:    Auction nnum ne du no akyi, ka **sika a aka + prestige mma**.\n            *Net-worth* kɛse no di (tie pɛ -> draw).\n\n**Action syntax**  →  bid kaad baako sɛ '[7]' anaa '[11]'."
   },
   "auction": {
-    "announce": "\n### Auction {round}/10  |  Prestige card: {prize}"
+    "announce": "\n### Auction {round}/10  |  Prestige kaad: {prize}"
   },
   "board": {
     "money_cards": "W'ahyehyɛ sika nkrataa a aka no: {money}"
@@ -19,6 +19,6 @@
   "outcome": {
     "p0_wins": "Net-worth {nw0} > {nw1}",
     "p1_wins": "Net-worth {nw1} > {nw0}",
-    "draw": "Net-worth {nw0}  exact tie."
+    "draw": "Mmienu net-worth {nw0} – tie pɛ."
   }
 }

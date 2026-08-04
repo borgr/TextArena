@@ -6,14 +6,14 @@
     "current_board": "Gjeldande brett:\n\n{board}\nTilgjengelege trekk: {moves}"
   },
   "invalid_move": {
-    "wrong_format": "The submitted move does not follow the correct format. Use [up], [down], [left], [right] or [w], [a], [s], [d].",
+    "wrong_format": "Det sendte trekket følgjer ikkje korrekt format. Bruk [up], [down], [left], [right] eller [w], [a], [s], [d].",
     "not_valid_action": "Det tek ikkje til.",
     "wall_collision": "Du kan ikkje flytta inn i ei vegg.",
     "invalid_position": "Ugyldig rørsle - kan ikkje flytta til den stillinga."
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
-    "pushed_prefix": "pushed a box while"
+    "moved": "Du {pushed} flytta [{action}].",
+    "pushed_prefix": "dytta ein boks mens"
   },
   "outcome": {
     "win": "Gratulasjon! Du har løst sokoban-gjensellet.",

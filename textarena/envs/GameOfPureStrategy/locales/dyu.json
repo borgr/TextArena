@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a match of GameOfPureStrategy.\n- You hold the 13 cards A-K; each can be used once.\n- Each round a prize card is revealed. Play exactly ONE card by writing something that contains a bracketed token like '[Q]', '[10]', '[2]' ...\n- Higher card wins the prize (plus carry-over). Ties roll prize into the pot for next round.\n- Highest total after 13 rounds wins."
+    "intro": "I ye Player {player_id} ye kɛlɛw ni GameOfPureStrategy.\n- I bɛ kɛlɛw 13 ka karti A-K; kɔnɔkɔnɔ bɛ kɛlɛw ye kelen.\n- Kɔnɔ kɔnɔ, karti dɔw ye alɔ. Kɛlɛw kelen ye karti dɔw kan ka se ka di '[Q]', '[10]', '[2]' ...\n- Karti caman bɛ sɔrɔ karti dɔw la (ni sɔrɔyɔrɔ). Kelen-kelen bɛ karti dɔw la ka kɔnɔ kɔnɔ.\n- Kɛlɛw caman sɔrɔyɔrɔ 13 kɔnɔ kɔnɔ bɛ sɔrɔ."
   },
   "round": {
     "announce": "### Maɲɛ {round}/13 - Kɛɛla: {prize}  (kɛla {worth})"
@@ -9,7 +9,7 @@
     "hand": "I bolo tɔɔ: {hand}"
   },
   "invalid_move": {
-    "wrong_format": "Action must contain exactly ONE bracketed card token.",
+    "wrong_format": "Kɛlɛyɔrɔ koo kɛna ɲɛgɛn kelen bracketed card token.",
     "card_not_held": "O karti tɛ i fɛ tugun."
   },
   "message": {

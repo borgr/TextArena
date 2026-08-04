@@ -11,7 +11,7 @@
     "not_legal": "कृती {legal_actions} असावी."
   },
   "action": {
-    "submit_move": "Player {player_id}, submitted move: '[{move}]'.",
+    "submit_move": "खेळाडू {player_id}, कृती सबमिट केली: '[{move}]'.",
     "valid_actions": "तुमच्या उपलब्ध कृती पुढीलप्रमाणे: {legal_actions}.",
     "round_summary": "{reason} सध्याचे गुण: खेळाडू ०: \"{player_0_chips}\"; खेळाडू १: \"{player_1_chips}\""
   },

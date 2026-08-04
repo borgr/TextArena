@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You will observe {N} hidden values sequentially.\nAt each step type [accept] to pick the *current* value, or [continue] to skip it and see the next one.\nIf you never accept, you are forced to take the final value.\nYou win (reward = 1) **only** if the value you ultimately pick is the highest of all."
+    "intro": "Owe udi mwene {N} bantu badi ya kusakamana.\nPa kila kilaso, tina [accept] kupata mwadi wa *sasa*, kana [continue] kukwepa na kuona kingine.\nKama uwekelele kukwepa, wina talwa kupata mwadi wa mwisho.\nOwe udi ushinde (lubumbu = 1) **kaka** kama mwadi wa kupata mwisho ndi mukubwa wapona wote."
   },
   "game_action": {
     "current_value": "Diakalenga dia matuku aa didi {value}."

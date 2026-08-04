@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "Ayikho ifomethi yokunyakaza evumelekile etholakele. Sebenzisa [a1b2], isibonelo [b2c3].",
-    "illegal": "Move [{move}] is illegal."
+    "illegal": "Ukunyakaza [{move}] kuyinto engavunyelwe."
   },
   "game_action": {
     "moved": "Umdlali {player_id} wahambisa {move}."

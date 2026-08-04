@@ -19,30 +19,30 @@
     "intro": "You are Player {player_id}. You are currently in the Letter Auction game.\nThe goal of the game is to strategically bid on letters to form the highest value word. This is how the game works.\nYou must listen to the gamemaster for guidance to play the game.\nThe game consists of a series of rounds. In each round, a letter will be put up for auction.\nYou can bid on the letter using your coins. The player with the highest bid wins the letter.\nThe letter will be added to your collection, and the coins you bid will be deducted from your total.\nThis bidding of letters will repeat till all the letters have been auctioned off. You are not rewarded for saving your coins.\nAfter all the letters have been auctioned, you will use the letters to form the highest value english word from the letters won.\nThe player with the highest value word wins the game.\nIf you want to bid, submit your bid amount in square brackets like [bid 2] or [bid 10].\nIf you do not want to bid, submit [pass].\nFor the submission of the highest value word, you will be prompted at the end of the game to submit them in square brackets like [dog].\nHere is your starting information:\nYour current coins: {coins}\nYour current letters: {letters}\n\n[Game] Player 0 will go first. The first letter for bid: {letter}.\nStarting bid is {bid_amount} coin. You can bid any amount of coins, or choose not to bid.\n"
   },
   "invalid": {
-    "bad_bid_format": "Invalid action: {action}. Please enter a valid action: '[bid <amount>]' or '[pass]'.",
-    "bad_word_format": "Invalid action: {action}. Please enter a valid action: '[<word>]'.",
-    "not_enough_coins": "Invalid bid: {bid_amount}. You do not have enough coins.",
-    "bid_too_low": "Invalid bid: {bid_amount}. You must bid more than the current bid of {current_bid}.",
-    "not_a_word": "Invalid word: {word}. Please enter a valid English word.",
-    "missing_letter": "Invalid word: {word}. You do not have the letter '{letter}'."
+    "bad_bid_format": "Kutendela kwa muthandeni kusiwe: {action}. Peleka kutendela kwa njia: '[bid <amount>]' au '[pass]'.",
+    "bad_word_format": "Kutendela kwa muthandeni kusiwe: {action}. Peleka kutendela kwa njia: '[<word>]'.",
+    "not_enough_coins": "Panga lisilo sahihi: {bid_amount}. Wena ule huna ndalama za kutosha.",
+    "bid_too_low": "Panga lisilo sahihi: {bid_amount}. Wena ule fanela ku panga zaidi ya panga la sasa la {current_bid}.",
+    "not_a_word": "Neno lisilo sahihi: {word}. Tafadhali weka neno sahihi la Kiingereza.",
+    "missing_letter": "Neno lisilo sahihi: {word}. Wena ule huna muboko '{letter}'."
   },
   "turn": {
-    "bid_more": " Player {current_player}, do you want to bid on the letter '{letter}' for more than {bid_amount}?",
-    "start_bid": " Player {current_player}, do you want to start bid on the letter '{letter}' for {bid_amount}?",
-    "auction_over": "The auction is over. Now, players will use the letters they've won to form the highest value english word from the letters won. The player with the highest value word wins the game. To submit the word, submit it in square brackets like [dog]."
+    "bid_more": " Muthandeni {current_player}, unataka ku panga muboko '{letter}' kwa zaidi ya {bid_amount}?",
+    "start_bid": " Muthandeni {current_player}, unataka kuanza panga muboko '{letter}' kwa {bid_amount}?",
+    "auction_over": "Mapeleka ya thandeni yameisha. Sasa, wathandeni watatumia thandeni zao kupata muthandeni wa thamani ya juu wa kiingelezi kwa thandeni zao. Muthandeni wa muthandeni wa thamani ya juu atashinda muthandeni. Kupeleka muthandeni, peleka mu square brackets kama [dog]."
   },
   "auction": {
-    "pass": "Player {player_id} passes on the letter '{letter}'.{cont}",
-    "pass_opp_wins": "Player {player_id} passes on the letter '{letter}'. Player {opponent_id} will have '{letter}' for {bid_amount}.{cont}",
-    "pass_both": "Player {player_id} passes on the letter '{letter}'. Player {opponent_id} also passes on the letter '{letter}'. So, no one will gain the letter.{cont}",
-    "bid": "Player {player_id} bids {bid_amount} on the letter '{letter}'.{cont}",
-    "bid_opp_pass": "Player {player_id} bids {bid_amount} on the letter '{letter}'. Since Player {opponent_id} passes on the letter '{letter}', Player {player_id} will have it for {bid_amount}.{cont}"
+    "pass": "Muthandeni {player_id} ameacha muboko '{letter}'.{cont}",
+    "pass_opp_wins": "Muthandeni {player_id} ameacha muboko '{letter}'. Muthandeni {opponent_id} atapata muboko '{letter}' kwa {bid_amount}.{cont}",
+    "pass_both": "Muthandeni {player_id} ameacha muboko '{letter}'. Muthandeni {opponent_id} pia ameacha muboko '{letter}'. Kwa hiyo, hakuna atakayepata muboko.{cont}",
+    "bid": "Muthandeni {player_id} amepanga {bid_amount} kwa muboko '{letter}'.{cont}",
+    "bid_opp_pass": "Muthandeni {player_id} amepanga {bid_amount} kwa muboko '{letter}'. Kwa kuwa Muthandeni {opponent_id} ameacha muboko '{letter}', Muthandeni {player_id} atapata muboko kwa {bid_amount}.{cont}"
   },
   "word": {
-    "chosen": "Player {player_id} chooses the word '{word}' with a value of {word_value}."
+    "chosen": "Muthandeni {player_id} amechagua neno '{word}' lenye thamani ya {word_value}."
   },
   "outcome": {
-    "win": "Player {player_id} wins with a score of {score}",
+    "win": "Muthandeni {player_id} ameshinda kwa alama ya {score}",
     "draw": "It's a draw!"
   }
 }

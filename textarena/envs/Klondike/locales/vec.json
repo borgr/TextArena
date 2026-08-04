@@ -16,22 +16,22 @@
     "{cards}": "The cards in a pile as neutral labels, or '--' if empty (never translate)"
   },
   "player_prompt": {
-    "intro": "You are playing Klondike Solitaire. Your goal is to move all cards to the foundation piles.\n\nGame Rules:\n- Foundation piles (F1-F4): Build up from Ace to King in suit\n- Tableau piles (T1-T7): Build down alternating colors (red on black, black on red)\n- Stock: Draw cards to waste pile\n- Waste (W): Top card available for play\n\nCommands:\n- 'draw' - Draw cards from stock to waste\n- 'move <source> <destination> [count]' - Move cards between piles\n  Examples: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count can also be 'all', which will try to move all face-up cards.\n- 'forfeit' - End the game immediately and lock in your current score\n- Pile names: W (waste), F1-F4 (foundations), T1-T7 (tableau)\n\nYou can execute multiple actions in one turn by separating them with commas:\n  Example: 'draw, move W T1, move T2 F1'\n\nOnly Kings can be placed on empty tableau piles.\nActions execute in order - if one fails, the remaining actions are skipped.\nUse 'forfeit' if you believe the game is impossible to win."
+    "intro": "Ti xe drio zugar al Solitario Klondike. El to scopo xe spostar tute le carte ne le pile de fondasion.\n\nRegole del zugo:\n- Pile de fondasion (F1-F4): Costruisci in alto da l'Asso al Re de la stessa carta\n- Pile del tableau (T1-T7): Costruisci in baso alternando i colori (rosso su nero, nero su rosso)\n- Stock: Tira le carte ne la pila de scarto\n- Scarto (W): La carta in sima disponibile par zugar\n\nComandi:\n- 'draw' - Tira le carte dal stock al scarto\n- 'move <source> <destination> [count]' - Sposta le carte tra le pile\n  Exenpi: 'move W T1', 'move T1 F2', 'move T3 T5 2'. el conteggio pol anca esser 'all', che proverà a spostar tute le carte voltade in alto.\n- 'forfeit' - Finisci el zugo subito e blocca el to punteggio corente\n- Nomi de le pile: W (scarto), F1-F4 (fondasion), T1-T7 (tableau)\n\nTi pol eseguir multiple azioni in un solo turno separandole co le virgole:\n  Exenpio: 'draw, move W T1, move T2 F1'\n\nSolo i Re i pol esser piazadi su le pile del tableau vode.\nLe azioni se esegue in ordine - se una fallisce, le azioni rimanenti vegnerà saltade.\nUsa 'forfeit' se ti credi che el zugo sia impossibile da vinsar."
   },
   "format_error": {
     "no_brackets": "Formato de asion invàlida. L'azion ła va in parentesi.",
     "no_closing_bracket": "Formato de asion invàlido. manca el bracket che se ferma \"]\"",
     "empty_command": "Comando vuoto. Tipo \"draw\" o \"move <source> <destination> [count]\".",
     "empty_action": "Asion sensa voxe",
-    "move_needs_args": "Move command requires source and destination. Usage: 'move <source> <destination> [count]'",
-    "count_positive": "El conteo el ga da esar positivo o \"tuto\"",
-    "count_invalid": "Conteggio invàlido. Utilizar un nùmaro o \"tutti\"",
+    "move_needs_args": "El comando move ga bisogno de la fonte e de la destinasion. Uso: 'move <source> <destination> [count]'",
+    "count_positive": "El conto ga da eser positivo o 'all'",
+    "count_invalid": "Conto no vałido. Usa un numero o 'all'",
     "unknown_command": "Comando sconosciuto '{cmd}'. Usa 'draw', 'move <source> <destination> [count]', o 'forfeit'",
     "wrapped": "Azione {n}: {msg}"
   },
   "action_result": {
     "success": "Azione {n}: {msg}",
-    "before_failure": "Executed {n} action (s) before failure. [Esecuzionà asion[e] prima del fallimento.]",
+    "before_failure": "Eseguiłi {n} asion prima del fałimento.",
     "failed": "Azione {n} fallita: {msg}"
   },
   "move_result": {
@@ -62,7 +62,7 @@
     "turn_limit": "Partita finita! Hai raggiunto il massimo di {max_turns} turni. Punteggio: {score} carte nelle fondazioni."
   },
   "board": {
-    "title": "=== KLONDIKE SOLITAIRE ===",
+    "title": "=== SOLITARIO KLONDIKE ===",
     "turn": "Turn: {turn}/{max_turns}",
     "stock": "Scorte: {stock} cartoline",
     "waste": "Rifiuti (W): {waste}",

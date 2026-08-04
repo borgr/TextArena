@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({piece}). Opponent is ({opp}). Submit moves as '[b1 c3]' (from → to). All pieces move like chess knights.\nEach capture scores {score_per_capture} point. Game ends after {max_moves} moves or when a player has no legal move / no pieces. Higher score wins."
+    "intro": "سیز اویونچو {player_id} ({piece}) سیز. رقیب ({opp}) دیر. حرکتلری '[b1 c3]' (دان → یه) شکلینده گؤندرین. بوتون پارچالار شطرنج آتینین کیمی حرکت ائدیرلر.\nهر قازانما {score_per_capture} خال وئریر. اویون {max_moves} حرکتدن سونرا یا اویونچونون قانونی حرکتی اولمادیقدا / پارچاسی اولمادیقدا باشا چاتیر. یوخاری خال قازانان اودور."
   },
   "board": {
     "current_board": "هجوم #{move_count}\n\n{board}\n\nهجوم‌های موجود: {moves}"
@@ -13,7 +13,7 @@
     "not_knight": "آتليلار حرکتي يوخ."
   },
   "game_action": {
-    "moved": "Player {player_id} moved their piece from {frm} to {to}.",
+    "moved": "اویونچو {player_id} پارچاسینی {frm} دان {to} یه چکدی.",
     "capture": "{observation} یک پارچه را به دست آورد! (+{score_per_capture})"
   },
   "outcome": {

@@ -1,9 +1,9 @@
 {
   "player_prompt": {
-    "intro": "You are in a room with {num_buttons} buttons: {buttons}. Each button is associated with a Bernoulli distribution with a fixed but unknown mean; the means for the buttons could be different.\nFor each button, when you press it, you will get a reward that is sampled from associated distribution.\nYou have {num_turns} time steps and, on each time step, you can choose any button and receive the reward.\nYour goal is to strategically choose buttons at each time step to collect information about their reward distribution, that will let you choose the button with the highest mean reward correctly at the end of {num_turns} turns."
+    "intro": "Nanhte htingnu ai {num_buttons} kawng hrang ah um: {buttons}. Kawng kaba ai kawng kaba wa gaw, machyi ai kawng kaba wa gaw shi ai; kawng kaba wa gaw kaba ai kawng kaba wa gaw nanhte hpe shi ai.\nKawng kaba ai kawng kaba wa gaw hpe nanhte hkan sa ai shaloi, nanhte hpe gaw shi ai kawng kaba wa gaw hpe nanhte ra ai.\nNanhte hpe {num_turns} kawng hring ai shaloi, nanhte hpe kawng kaba ai kawng kaba wa gaw hpe nanhte hkan sa ai; nanhte hpe shi ai kawng kaba wa gaw hpe nanhte ra ai.\nNanhte a lam hpe shi ai kawng kaba wa gaw hpe nanhte hkan sa ai, nanhte hpe {num_turns} kawng hring ai shaloi kawng kaba wa gaw hpe nanhte hkan sa ai."
   },
   "board": {
-    "stat_line": "{button}: {reward} (played {count} times)",
+    "stat_line": "{button}: {reward} (kaba {count} langai)",
     "summary": "Sumla: {stats}"
   },
   "invalid_move": {
@@ -11,7 +11,7 @@
     "invalid_button": "N jaw ai button hpe lata da sai."
   },
   "game_action": {
-    "pressed": "You pressed the {button} button and received a reward of {reward}."
+    "pressed": "Nanhte hpe {button} kawng hpe hkan sa ai; shi ai {reward} hpe nanhte ra ai."
   },
   "game_message": {
     "final_decision": "Nang gaw kaga lam amyu myu hpe shakut nna akyu lu wa ai ngu mu mada na matu, gumhpraw n nga sai. Ya kaja htum lata mai ai lam hte seng nna dawdan u."

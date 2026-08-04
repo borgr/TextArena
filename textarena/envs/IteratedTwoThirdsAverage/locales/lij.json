@@ -7,7 +7,7 @@
     "out_of_range": "A congettua a deve êse tra {min_guess} e {max_guess}."
   },
   "message": {
-    "round_guesses": "Player 0 guessed {guess0}; Player 1 guessed {guess1}. Thus the Target is: {target}.",
+    "round_guesses": "O Zugador 0 o l'à azardòu {guess0}; o Zugador 1 o l'à azardòu {guess1}. Donca l'Obiettivo o l'é: {target}.",
     "round_draw": "O rondo o l'é un pareggio.",
     "round_win": "O zugatô {winner} o vinse a rónda!"
   },

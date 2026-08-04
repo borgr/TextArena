@@ -25,7 +25,7 @@
   },
   "trick": {
     "won": "اللاعب {winner_id} بيفوز بالخدعة مع {card}.",
-    "won_learning": "Player {winner_id} wins the trick with {card} and takes the face-up card."
+    "won_learning": "اللاعب {winner_id} يفوز بالخدعة مع {card} ويأخذ الورقة المكشوفة."
   },
   "phase": {
     "learning_complete": "الطابق استنفد. مرحلة التعلم خلصت - كل خدعة باقية بتحسب للنصر."
@@ -51,7 +51,7 @@
     "card_line": "{observation}\n    {index}. {card}"
   },
   "trick_view": {
-    "empty": "No cards played yet this trick.",
+    "empty": "لا أوراق لعبت حتى الآن في هذه الخدعة.",
     "header": "خدعة حالية:",
     "trump_indicator": "(ترامب)",
     "card_line": "〕{observation}\n  اللاعب {player_id}: {card}〕{trump_indicator}"
@@ -71,6 +71,6 @@
     "player_line": "{observation}\nاللاعب {player_id}: {scoring} أخذت أوراق النقاط (〕{tricks}〕 المجموع)، {hand_size} بطاقات في اليد"
   },
   "outcome": {
-    "summary": "Learning phase - Player 0: {l0}, Player 1: {l1}. Playing phase - Player 0: {p0}, Player 1: {p1}. Player {winner_id} wins with {winner_tricks} scoring tricks!"
+    "summary": "مرحلة التعلم - لاعب 0: {l0}, لاعب 1: {l1}. مرحلة اللعب - لاعب 0: {p0}, لاعب 1: {p1}. لاعب {winner_id} يفوز بـ {winner_tricks} خدع تحسب!"
   }
 }

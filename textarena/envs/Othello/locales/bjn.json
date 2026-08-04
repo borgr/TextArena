@@ -16,7 +16,7 @@
   },
   "game_action": {
     "skipped": "Pamain {pid} harus malompati gilirannya.",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "Pemain {pid} ({piece}) bamain [{r}, {c}] mambalik {flipped} bidak"
   },
   "game_message": {
     "must_skip": "Pemain {pid} ({piece}) kada baisi giliran bapawai yang bapakai dan harus melompati."

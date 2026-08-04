@@ -11,7 +11,7 @@
     "{groups}": "Neutral ranking data (a list of player-id groups, worst to best); do not translate"
   },
   "player_prompt": {
-    "intro": "{num_players}-Player Snake on a {width}×{height} grid.\nYou control snake {player_id}. Valid moves: '[up]'/'[down]'/'[left]'/'[right]' (or w/s/a/d).\nObjective: survive longest or be the longest and get the highest score (turn limit {max_turns} turns)."
+    "intro": "{num_players}-Oýunçy Sılan {width}×{height} kwadratda.\nSiz sılan {player_id} dolandyryň. Meşhur hereketler: '[up]'/'[down]'/'[left]'/'[right]' (ýa-da w/s/a/d).\nMaksat: iň uzyn ýaşaň ýa-da iň uzyn bolup iň ýokary ball ýetirin ( {max_turns} gezek möhleti)."
   },
   "board": {
     "current": "Häzirki Ýolbaşçylyk maslahaty: {board}",

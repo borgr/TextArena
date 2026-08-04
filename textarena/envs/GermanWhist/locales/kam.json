@@ -1,12 +1,12 @@
 {
   "game_start": {
-    "intro": "The game begins. Trump suit: {trump_suit} (trump card: {trump_str}).",
+    "intro": "Mchezo unaanza. Suti ya nguvu: {trump_suit} (kadi ya nguvu: {trump_str}).",
     "no_trump_card": "vai ũmwe"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in German Whist.\n{phase_info}\nYou hold {hand_size} cards.\nPlay a card with '[play N]', where N is its position in your hand (for example '[play 3]').",
+    "intro": "Wewe ni Mchezaji {player_id} katika Whist ya Kijerumani.\n{phase_info}\nUna kadi {hand_size}.\nCheza kadi kwa kutumia '[play N]', ambapo N ni nafasi yake katika mkono wako (kwa mfano '[play 3]').",
     "phase_learning": "ĨSOMO YA KŨMANYĨASYA: Mũndũ ũla ũkasinda akakwata kaati yĩ na ĩsyĩtwa yake (face-up) na mũndũ ũla ũkaema kũkwata akosa ĩla ĩngĩ ĩatĩĩe. O tondũ twoona, maũndũ ala meanĩw'a ĩvindanĩ yĩĩ ti ma vata mũno nĩ kana tũsinde mũisyo ũsu.",
-    "phase_playing": "PLAYING PHASE: the deck is exhausted. Every trick from now on counts towards victory."
+    "phase_playing": "MWONGOZO WA KUCHEZA: sitaha imeisha. Kila mchezo kutoka sasa utahesabiwa kuelekea ushindi."
   },
   "next_card": {
     "playing_phase": "Vai kaati ya kũthaũka ĩũngamĩwe nĩ mũndũ. No nginya ala mekũkita methĩwe me aĩkĩĩku na mayĩthĩwa maĩlĩte kũtaĩwa.",
@@ -16,31 +16,31 @@
   },
   "invalid_move": {
     "wrong_format": "Ĩtambya ĩte ya w'o. Tũmĩa \"[play N]\" kũthaũka kaati ĩla yĩ nthũnĩ yaku.",
-    "bad_position": "That card position does not exist. You hold {hand_size} cards.",
-    "must_follow_suit": "You must follow suit and play a {lead_suit} card.",
-    "invalid_play": "That card cannot be played."
+    "bad_position": "Nafasi hiyo ya kadi haipo. Una kadi {hand_size}.",
+    "must_follow_suit": "Lazima ufuate suti na ucheze kadi ya {lead_suit}.",
+    "invalid_play": "Kadi hiyo haiwezi kucheza."
   },
   "game_action": {
-    "played": "Player {player_id} played {card}."
+    "played": "Mchezaji {player_id} alicheza {card}."
   },
   "trick": {
-    "won": "Mchezaji {winner_id} anashinda mchezo huu na {card}.",
-    "won_learning": "Mchezaji {winner_id} anashinda mchezo huu na {card} na kuchukua kadi iliyo wazi."
+    "won": "Mchezaji {winner_id} anashinda mchezo kwa {card}.",
+    "won_learning": "Mchezaji {winner_id} anashinda mchezo kwa {card} na kuchukua kadi iliyo wazi."
   },
   "phase": {
     "learning_complete": "Kĩla kĩminĩte kũseũvw'a no ũndũ ũmwe na ĩvali yasũngawa. Vai ĩngĩ yĩkaema kwĩkala ta ĩvũĩ!"
   },
   "draw": {
-    "winner_received": "Ũkasya wĩ mũsindi, ũkeethĩwa na ĩkoani ya {card}.",
-    "loser_received": "Umeshindwa kwenye mchezo huu na kuchora {card} kutoka kwenye sitaha.",
+    "winner_received": "Ulishinda mchezo na kupokea {card}.",
+    "loser_received": "Ulishindwa mchezo na kuchora {card} kutoka kwenye sitaha.",
     "winner_preview": "Kadi inayofuata inayotolewa ni {card}."
   },
   "turn": {
     "board": "〕{phase}\n〕{scores}\n〕{next_card}\n\n〕{trick}\n\n〕{hand}",
-    "scores_learning": "Mafanikio yaliyopatikana hadi sasa - Mchezaji 0: {tricks0}, Mchezaji 1: {tricks1}",
-    "scores_playing": "Mafanikio ya kadi - Mchezaji 0: {tricks0}, Mchezaji 1: {tricks1}",
+    "scores_learning": "Michezo iliyoshinda hadi sasa - Mchezaji 0: {tricks0}, Mchezaji 1: {tricks1}",
+    "scores_playing": "Michezo inayohesabiwa - Mchezaji 0: {tricks0}, Mchezaji 1: {tricks1}",
     "phase": "Kĩlungu kya: {phase}",
-    "phase_learning": "Mzunguko: {phase} (〕{remaining_cards} kadi zimesalia kwenye sitaha)"
+    "phase_learning": "Hatua: {phase} ({remaining_cards} kadi zimesalia kwenye sitaha)"
   },
   "hand": {
     "no_cards": "Ndũkatũmĩe kaati sya kwĩyonany'a!",
@@ -51,26 +51,26 @@
     "card_line": "{observation}\n    {index}. {card}"
   },
   "trick_view": {
-    "empty": "No cards played yet this trick.",
+    "empty": "Hakuna kadi imechezwa bado katika mchezo huu.",
     "header": "Nzĩa ĩla ĩtũmĩawa ũmũnthĩ:",
     "trump_indicator": "(Kavuku ka Ũvoo Mũseo)",
     "card_line": "{observation}\n  Player {player_id}: {card}{trump_indicator}"
   },
   "board_str": {
-    "not_started": "Game not started",
-    "header": "=== GERMAN WHIST GAME ===",
+    "not_started": "Mchezo haujaanza",
+    "header": "=== WHIST YA KIJERUMANI ===",
     "phase": "{observation}\nPhase: {phase}",
-    "trump_suit": "{observation}\nSuti ya trump: {trump_suit}",
-    "trump_card": "{observation}\nTrump card: {card}",
+    "trump_suit": "{observation}\nSuti ya nguvu: {trump_suit}",
+    "trump_card": "{observation}\nKadi ya nguvu: {card}",
     "cards_left": "{observation}\nKadi zimesalia kwenye sitaha: {count}",
-    "next_card": "{observation}\nNext card for winner: {card}",
+    "next_card": "{observation}\nKadi inayofuata kwa mshindi: {card}",
     "blank": "{observation}  makwatawa nĩ ũwau ta ũsu.",
     "current_trick": "{observation} Kĩndũ kya kũkenga mũndũ:",
     "trump_indicator": "(Kavuku ka Ũvoo Mũseo)",
     "trick_line": "{observation}\n  Mchezaji {player_id}: {card}〕{trump_indicator}",
-    "player_line": "{observation}\nMchezaji {player_id}: {scoring} alipata mafanikio (〕{tricks} jumla), {hand_size} kadi katika mkono"
+    "player_line": "{observation}\nMchezaji {player_id}: {scoring} michezo inayohesabiwa ({tricks} jumla), {hand_size} kadi katika mkono"
   },
   "outcome": {
-    "summary": "Learning phase - Player 0: {l0}, Player 1: {l1}. Playing phase - Player 0: {p0}, Player 1: {p1}. Player {winner_id} wins with {winner_tricks} scoring tricks!"
+    "summary": "Hatua ya kujifunza - Mchezaji 0: {l0}, Mchezaji 1: {l1}. Hatua ya kucheza - Mchezaji 0: {p0}, Mchezaji 1: {p1}. Mchezaji {winner_id} anashinda kwa {winner_tricks} michezo inayohesabiwa!"
   }
 }

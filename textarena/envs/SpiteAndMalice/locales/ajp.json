@@ -30,7 +30,7 @@
     "you_played": "لعبت {card} على كومة الوسطى {index}.",
     "opponent_played": "اللاعب {player_id} لعب {card} على كومة الوسط {index}.",
     "you_discarded": "لقد ألقيت {card} في كومة الإلغاء {index}، مما يعني أيضًا أنك أنهيت دوره. لا يتم النظر في أي إجراءات إضافية لك لهذا الدور. اللاعب {next_player_id} سيلعب بعد ذلك.",
-    "opponent_discarded": "Player {player_id} discarded {card} to discard pile {index}, which also means they finished their turn. No further actions of Player {player_id} is considered for this turn. Player {next_player_id}, you will go next. Please enter your action in the format [action card center_index]."
+    "opponent_discarded": "اللاعب {player_id} تخلص من {card} إلى كومة التخلص {index}، وهذا يعني أيضًا أنه انتهى من دوره. لن يتم النظر في أي إجراءات إضافية من اللاعب {player_id} لهذا الدور. اللاعب {next_player_id}، ستذهب التالي. يرجى إدخال إجراءك في التنسيق [action card center_index]."
   },
   "outcome": {
     "payoff_cleared": "أنهى اللاعب {current_player} كومة العوائد! يفوز اللاعب {current_player}!",

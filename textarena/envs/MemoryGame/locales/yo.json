@@ -13,8 +13,8 @@
     "already_matched": "Àtúnṣe tí kò bá bófin mu. Ẹnìkan {player_id} yan ọkan tàbí àwọn káàdì méjèèjì tí a ti bá pàdé."
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "Kárí tí Oṣẹ {player_id} yan ní ipò [{r1} {c1}] àti [{r2} {c2}] ṣe àjọṣepọ̀!",
+    "cards_no_match": "Kárí tí Oṣẹ {player_id} yan kò ṣe àjọṣepọ̀. Kárí ní ipò [{r1} {c1}] àti [{r2} {c2}] ni {pos1} àti {pos2} lẹ́sẹsẹ."
   },
   "outcome": {
     "draw": "Àwọn òṣèré méjèèjì jọ fi iye kan náà ti àwọn káàdì pa pọ̀.",

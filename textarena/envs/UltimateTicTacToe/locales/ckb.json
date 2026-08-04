@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in **Ultimate Tic Tac Toe**.\nSubmit your move as **[macro  micro]** (two numbers 0-8):\n• *macro*  = which mini-board you play in\n• *micro* = which square inside that mini-board\nExample `[7 8]` ➜ place your mark in mini-board 7, square 8, and\nforce your opponent to play in mini-board 8 next.\n\nYou are `{symbol}`.\n"
+    "intro": "ئەتۆ یاریزانی {player_id}ی لە **Ultimate Tic Tac Toe**.\nجوابی خۆت بە شێوەی **[macro  micro]** (دوو ژمارە 0-8) بنێرە:\n• *macro*  = لە کام تەختەی بچووکدا یاری دەکەیت\n• *micro* = کام چوارگۆشە لەناو ئەو تەختەی بچووکدا\nنموونە `[7 8]` ➜ نیشانەکەت لە تەختەی بچووک 7، چوارگۆشەی 8 دانێ، و\nیاریزانی بەرامبەری ناچار دەکەیت لە تەختەی بچووک 8 یاری بکات.\n\nئەتۆ `{symbol}`ی.\n"
   },
   "board": {
     "current_board": "دەستەی ئێستای: {board}"
@@ -18,7 +18,7 @@
     "specific": "تەختەی مێکرۆ {nxt}"
   },
   "game_action": {
-    "played": "Player {player_id} played in micro board {macro_idx}, cell {micro_idx} (row {row}, col {col}). Player {opponent_id} must now play in {nxt_txt}."
+    "played": "یاریزانی {player_id} لە تەختەی بچووک {macro_idx}، خانەی {micro_idx} (ڕیزی {row}، ستوونی {col}) یاری کرد. یاریزانی {opponent_id} دەبێ ئێستا لە {nxt_txt} یاری بکات."
   },
   "outcome": {
     "win": "یاریزان {player_id} سەرکەوتنی کۆتا تیک تاک تۆ!",

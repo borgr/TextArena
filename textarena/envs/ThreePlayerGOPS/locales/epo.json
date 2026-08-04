@@ -14,7 +14,7 @@
     "{scores}": "The final scores as a raw player-number to score mapping - do not translate"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player GOPS.\n- You hold the 13 cards A-K (each exactly once).\n- Each round a prize is revealed. Submit ONE card like `[Q]`, `[10]`, `[2]` …\n- Highest card wins the prize (+ any carry-over pot). Ties roll the prize into the next round.\n- After 13 rounds, highest total wins. Invalid moves = elimination."
+    "intro": "Vi estas Ludanto {player_id} en Tri-Ludanta GOPS.\n- Vi tenas la 13 kartojn A-K (ĉiu ekzakte unufoje).\n- Ĉiu raŭndo premio estas malkaŝita. Enmetu UNU karton kiel `[Q]`, `[10]`, `[2]` …\n- La plej alta karto gajnas la premion (+ iu ajn kunportita pot). Egalaj rezultoj ruligas la premion en la sekvan raŭndon.\n- Post 13 raŭndoj, la plej alta totalo gajnas. Nevalidaj movoj = elimino."
   },
   "round": {
     "header": "### Raŭndo {round}/13 - Premio: {prize} (valoras {worth})",

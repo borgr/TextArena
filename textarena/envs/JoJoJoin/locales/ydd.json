@@ -1,9 +1,9 @@
 {
   "player_prompt": {
-    "intro": "Du bist Spieler {player_id} in JoJoJoin, gespielt auf einem 5x5-Brett mit Zellen nummeriert 0-24.\nIn deinem Zug platziere dein Zeichen auf einer beliebigen leeren Zelle, z.B. '[12]'.\nDU GEWINNST, indem du VIER deiner Zeichen in einer Reihe bekommst — vier aufeinanderfolgende Zellen horizontal, vertikal oder diagonal.\nAls Spieler {player_id} bist du '{symbol}'; dein Gegner ist '{opponent_symbol}'."
+    "intro": "איר זענט שפילער {player_id} אין JoJoJoin, געשפילט אויף א 5x5 ברעט מיט צעלן נומערירט 0-24.\nווען איר קומט, לייגט אייער מארק אויף יעדן ליידיגן צעל, צ.ב.ש. '[12]'.\nאיר געווינט דורך באקומען פיר פון אייערע מארקן אין א ריי — פיר קאנסעקוטיווע צעלן האריזאנטאל, ווערטיקאל, אדער דיאגאנאל.\nאלס שפילער {player_id} זענט איר '{symbol}'; אייער קעגנער איז '{opponent_symbol}'."
   },
   "board": {
-    "current_board": "Aktueller Brett:\n\n{board}\n\nVerfügbare Züge: {moves}"
+    "current_board": "דער אקטועלער ברעט:\n\n{board}\n\nדערפארבארע צוגן: {moves}"
   },
   "invalid_move": {
     "wrong_format": "דער אַרײַנגעשיקטער מאַך פֿאָלגט נישט דעם ריכטיקן פאָרמאַט.",
@@ -11,7 +11,7 @@
     "already_occupied": "צעל {cell} איז שוין אָוקיופּט."
   },
   "game_action": {
-    "placed": "Spieler {player_id} hat sein Zeichen ({symbol}) in Zelle {cell} platziert."
+    "placed": "שפילער {player_id} האט געלייגט זייער מארק ({symbol}) אין צעל {cell}."
   },
   "outcome": {
     "win": "דער שפּילער {player_id} האָט געווינען!",

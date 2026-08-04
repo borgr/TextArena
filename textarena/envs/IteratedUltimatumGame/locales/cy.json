@@ -27,7 +27,7 @@
     "begins": "--- Mae rownd {round_number} yn dechrau! --- Chwaraewr {proposer_id} yw'r cynnigwr, Chwaraewr {responder_id} yw'r atebwr.",
     "offer": "Cyfnod {round_number}: Mae Chwaraewr {proposer_id} yn cynnig ${offer} i Chwaraewr {responder_id} (gan gadw ${keep}).",
     "accepted": "Chwaraewr {responder_id} a dderbyniwyd! Cyflymder rownd {round_number}: Chwaraewr {proposer_id} + ${proposer_gain}, Chwaraewr {responder_id} + ${responder_gain}. Cyfanswm newydd: Chwaraewr 0: ${total_0}, Chwaraewr 1: ${total_1}.",
-    "rejected": "Player {responder_id} rejected the offer! Round {round_number} gains: Both players +$0. Totals remain: Player 0: ${total_0}, Player 1: ${total_1}."
+    "rejected": "Mae Chwaraewr {responder_id} wedi gwrthod y cynnig! Enillion Rownd {round_number}: Mae'r ddau chwaraewr yn cael $0. Mae'r cyfansymiau yn aros: Chwaraewr 0: ${total_0}, Chwaraewr 1: ${total_1}."
   },
   "invalid_move": {
     "no_offer_format": "Rhaid i'r cynnigwr wneud cynnig gan ddefnyddio'r fformat [Offer: $X].",

@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You will observe {N} hidden values sequentially.\nAt each step type [accept] to pick the *current* value, or [continue] to skip it and see the next one.\nIf you never accept, you are forced to take the final value.\nYou win (reward = 1) **only** if the value you ultimately pick is the highest of all."
+    "intro": "Będziesz uobezdrzał {N} ukrytych wartości po kolei.\nWe każdym kroku wpisz [accept], coby wybrać *terŏźnõ* wartość, abo [continue], coby jōm pominąć i ôbejrzeć nastōmpnõ.\nJeśli nigdy nie zaakceptujesz, musisz wziōńć ôstatniõ wartość.\nWygrōwōsz (nagroda = 1) **inō** jeśli wartość, kerõ ôstatecznie wybierzesz, bydzie nojwyższõ ze wszyjskich."
   },
   "game_action": {
     "current_value": "Aktualno wert to {value}."

@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing {color} in a game of Chess.\n Make your moves in UCI format enclosed in square brackets (e.g., [e2e4])."
+    "intro": "Ukala ukina {color} mu joko ya Xadrez.\n Fanya movimentos iya kuwa na formato UCI iwe na kimbaka ya miraba (ex., [e2e4])."
   },
   "board": {
     "current_board": "Kibuka kia utuminu: {board}",

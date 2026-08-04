@@ -1,12 +1,12 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a {num_rounds}-round Rock-Paper-Scissors game.\nYour goal is to win as many rounds as possible.\nIn each round, respond with one of: '[rock]', '[paper]', or '[scissors]'.\nYou may also use '[r]', '[p]', or '[s]' as shorthand.\n"
+    "intro": "Mo yeke Player {player_id} na jeu Rock-Paper-Scissors tî {num_rounds} round.\nKötä mo yeke a gba na mbï round mingi.\nNa kô round, mo yeke repondre na: '[rock]', '[paper]', ou '[scissors]'.\nMo yeke azi '[r]', '[p]', ou '[s]' koua.\n"
   },
   "invalid_move": {
     "wrong_format": "Mouveman ézé séréko. Sé yé [rock], [paper], ou [scissors]."
   },
   "game_action": {
-    "selects": "Player {player_id} selects move {move}."
+    "selects": "Mbeni {player_id} asondi kpètè {move}."
   },
   "message": {
     "round_draw": "Ye ti peko ni: A sara match oko pëpe.",

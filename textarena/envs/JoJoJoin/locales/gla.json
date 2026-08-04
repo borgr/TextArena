@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in JoJoJoin, played on a 5x5 board with cells numbered 0-24.\nOn your turn, place your mark on any empty cell, e.g. '[12]'.\nYOU WIN by getting FOUR of your marks in a row — four consecutive cells horizontally, vertically, or diagonally.\nAs Player {player_id} you are '{symbol}'; your opponent is '{opponent_symbol}'."
+    "intro": "Is tu Player {player_id} ann an JoJoJoin, air a chluich air bòrd 5x5 le ceallan àireamhichte 0-24.\nAir do thuras, cuir do mharc air ceall faoin, m.e. '[12]'.\nBUANNAICH THU le ceithir de do mharcannan ann an sreath — ceithir ceallan co-leantachainn a tha nan laighe, nan seasamh, no nan trasnadh.\nMar Player {player_id} is tu '{symbol}'; is do nàmhaid '{opponent_symbol}'."
   },
   "board": {
     "current_board": "Bòrd Làithreach:\n\n{board}\n\nGlèidheadh Gleus: {moves}"

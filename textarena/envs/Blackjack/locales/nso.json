@@ -9,7 +9,7 @@
     "wrong_format": "Tseno e seng sa tlwaelo. Sebelisa '[Hit]' kapa '[Stand]'."
   },
   "game_message": {
-    "hand_result": "Hand {hand_number}: you {outcome}. Your final {player_score}, Dealer {dealer_score}.",
+    "hand_result": "Letsoho {hand_number}: o {outcome}. Tlhahlo la gago la mafelelo {player_score}, Moabi {dealer_score}.",
     "all_complete": "=== Diatla tse {num_hands} di feletse ===\nTshwenyego: {wins}, Diphoso: {losses}, Ditswele: {draws}\n"
   },
   "outcome": {

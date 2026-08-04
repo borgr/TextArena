@@ -11,7 +11,7 @@
     "{ball_pos}": "The cup index the ball is under"
   },
   "player_prompt": {
-    "intro": "Track the hidden ball 'X' while the cups are shuffled.\nAfter shuffling, guess its location with `[k]`."
+    "intro": "Li tîpa veşartî 'X' bigere heta qedeçkên tevlihevkirî.\nPiştî tevlihevkirinê, cîhê wê bi `[k]` texmîn bike."
   },
   "game_message": {
     "ball_starts": "Ball dest pê dike: {line}",
@@ -21,11 +21,11 @@
     "reveal": "(Rewisandin: top li jêr {ball_pos})"
   },
   "invalid_move": {
-    "wrong_format": "Bad action. Use `[k]`.",
+    "wrong_format": "Kiryareke xirab. `[k]` bi kar bîne.",
     "out_of_range": "Indeks ji navberê 0-{max_index} derketiye."
   },
   "outcome": {
     "win": "Rast e, te topê dît.",
-    "lose": "Wrong — ball was under cup {ball_pos}."
+    "lose": "Xirab e — tîpa di binê qedeçka {ball_pos} de bû."
   }
 }

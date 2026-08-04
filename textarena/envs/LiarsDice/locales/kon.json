@@ -22,15 +22,15 @@
     "final_ranking": "list of player indices from first eliminated to winner"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in an {num_players}-player Liar's Dice game.\nRules:\n- On your turn, you may either:\n  1) Make a new bid with a higher quantity or higher face (or both) than the current bid; i.e. '[Bid: 3, 4]',\n  2) Call the last bid by typing '[Call]'.\n\nIf you call:\n  - If the actual count of that face value among all dice is less than the bid, the last bidder loses one die.\n  - Otherwise, the caller loses one die.\nA player who reaches 0 dice is eliminated. The last remaining player wins."
+    "intro": "O wina Mwana nkanda {player_id} na nkanda ya {num_players} ya LiarsDice.\nMvutu:\n- Na ntangu yako, o lenda kufua:\n  1) Fua bid mpya na wingi mwingi au uso mwinene (kwa mbili zote) kuluta bid ya sasa; yaani '[Bid: 3, 4]',\n  2) Yambula bid ya mwisho kwa kutipa '[Call]'.\n\nO yambula:\n  - O mwana nkanda alua wingi wa uso huo kati ya nkuku zote ni chini ya bid, mfuasi wa mwisho ahulua nkuku moja.\n  - Mbala zingine, yambuli ahulua nkuku moja.\nMwana nkanda alua nkuku 0 ahulua. Mwana nkanda wa mwisho usala."
   },
   "board": {
     "per_player": "\tMwana {p}: {d}",
     "new_round": "\nMwaka mpya - Mafuta yaliyobaki: {dice_summary}\nMafuta yako ya sasa ni: {your_dice}"
   },
   "call": {
-    "bidder_loses": "Player {current_player_id} calls! The actual count of face {face_value} is {count}, which is LESS than {quantity}.\nPlayer {loser_id} (the last bidder) loses one die.",
-    "caller_loses": "Player {current_player_id} calls! The actual count of face {face_value} is {count}, which is >= {quantity}.\nPlayer {loser_id} (the caller) loses one die."
+    "bidder_loses": "Mwana nkanda {current_player_id} yambula! Wingi wa uso {face_value} ni {count}, ambao ni chini ya {quantity}.\nMwana nkanda {loser_id} (mfuasi wa mwisho) ahulua nkuku moja.",
+    "caller_loses": "Mwana nkanda {current_player_id} yambula! Wingi wa uso {face_value} ni {count}, ambao ni >= {quantity}.\nMwana nkanda {loser_id} (yambuli) ahulua nkuku moja."
   },
   "action": {
     "bid_announce": "Mwana {player_id} akabika {quantity} ya masomo {face_value}."
@@ -38,7 +38,7 @@
   "invalid_move": {
     "call_no_bid": "Bo bingaka yandi kukonda kulomba ntete mbongo.",
     "invalid_bid": "Bo pesaka ve mbongo ya bo lombaka: {reason}",
-    "not_recognized": "Hatua iliyotolewa haijulikani kama '[Bid: X, Y]' halali au '[Call]'. Hatua iliyowasilishwa: {action}"
+    "not_recognized": "Kazi si yamwene kama fua ya '[Bid: X, Y]' au '[Call]' ya mvutu. Kazi iliyotolewa: {action}"
   },
   "bid_reason": {
     "quantity_lower": "Ntalu ya mpa {new_quantity} kele fioti kuluta ntalu yina bo ke sadilaka ntangu yai {current_quantity}.",
@@ -50,6 +50,6 @@
     "eliminated_invalid": "Muntu yina kebula {player_id} bo katulaka yandi na nsaka sambu yo vandaka ve mbote."
   },
   "outcome": {
-    "win": "Mwana {winner} anashinda! Matokeo ya mwisho: {final_ranking}"
+    "win": "Mwana nkanda {winner} usala! Mfululizo wa mwisho: {final_ranking}"
   }
 }

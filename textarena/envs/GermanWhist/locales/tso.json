@@ -1,10 +1,10 @@
 {
   "game_start": {
-    "intro": "Mchezo huanza. Suti ya kufunga: {trump_suit} (kadi ya kufunga: {trump_str}).",
+    "intro": "Mpira u thoma. Suit ya trump: {trump_suit} (khadi ya trump: {trump_str}).",
     "no_trump_card": "a yi kona"
   },
   "player_prompt": {
-    "intro": "Wewe ni Mchezaji {player_id} katika Whist ya Kijerumani.\n{phase_info}\nUshikiliaje {hand_size} makadi.\nCheza kadi kwa '[play N]', ambapo N ni nafasi yake katika mkono wako (kwa mfano '[play 3]').",
+    "intro": "U ngi Player {player_id} ku German Whist.\n{phase_info}\nU na khadi {hand_size}.\nDlala khadi hiyo na '[play N]', laha N i posisheni ya khadi leyi ku leti ya wena (swinawo '[play 3]').",
     "phase_learning": "XIPHEMU Xo DYONDZA: Muhluri wa rhengu rin'wana na rin'we u teka khadi leri nga ehenhla naswona muhlaseriwa a humesa khadi lerin'wana eka xitshuriwa. Rihlevo ra le ka xiyenge lexi ri nge tekiwi tanihi ku hlula.",
     "phase_playing": "XIPHEMU: Nxaxamelo wu herile. Ku sukela sweswi, rhengu rin'wana ni rin'wanyana ri ta pfuna ku hlula."
   },
@@ -25,7 +25,7 @@
   },
   "trick": {
     "won": "Mutlangi {winner_id} u hlula hi ku tirhisa {card}.",
-    "won_learning": "Mchezaji {winner_id} anashinda mkwaju huo na {card} na kuchukua kadi iliyo wazi."
+    "won_learning": "Mmadi {winner_id} a hlula bhande na {card} a teka kareti ya go bonala."
   },
   "phase": {
     "learning_complete": "Xiyenge xo dyondza xi herile - rhengu rin'wana ni rin'wanyana leri seleke ra pfuna eku hluleni."
@@ -37,10 +37,10 @@
   },
   "turn": {
     "board": "{phase}\n{scores}\n{next_card}\n\n{trick}\n\n{hand}",
-    "scores_learning": "Mikwaju iliyoshinda hadi sasa - Mchezaji 0: {tricks0}, Mchezaji 1: {tricks1}",
-    "scores_playing": "Mikwaju ya kufunga - Mchezaji 0: {tricks0}, Mchezaji 1: {tricks1}",
+    "scores_learning": "Mabhande ya go hlula go fihla kwalano - Mmadi 0: {tricks0}, Mmadi 1: {tricks1}",
+    "scores_playing": "Mabhande ya go bala - Mmadi 0: {tricks0}, Mmadi 1: {tricks1}",
     "phase": "Xiyenge: {phase}",
-    "phase_learning": "Mzunguko: {phase} ({remaining_cards} makadi yamesalia katika sitaha)"
+    "phase_learning": "Phase: {phase} ({remaining_cards} khadi ku sala ku deck)"
   },
   "hand": {
     "no_cards": "A ku na makhadi.",
@@ -71,6 +71,6 @@
     "player_line": "{observation}\nMchezaji {player_id}: {scoring} mikwaju ya kufunga ({tricks} jumla), {hand_size} makadi katika mkono"
   },
   "outcome": {
-    "summary": "Learning phase - Player 0: {l0}, Player 1: {l1}. Playing phase - Player 0: {p0}, Player 1: {p1}. Player {winner_id} wins with {winner_tricks} scoring tricks!"
+    "summary": "Tlhelo ya go ithuta - Mmadi 0: {l0}, Mmadi 1: {l1}. Tlhelo ya go rhandza - Mmadi 0: {p0}, Mmadi 1: {p1}. Mmadi {winner_id} a hlula na {winner_tricks} mabhande ya go bala!"
   }
 }

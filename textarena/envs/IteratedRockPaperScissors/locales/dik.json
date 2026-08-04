@@ -1,12 +1,12 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a {num_rounds}-round Rock-Paper-Scissors game.\nYour goal is to win as many rounds as possible.\nIn each round, respond with one of: '[rock]', '[paper]', or '[scissors]'.\nYou may also use '[r]', '[p]', or '[s]' as shorthand.\n"
+    "intro": "Yin ee leek {player_id} ee kuɔny {num_rounds} ee kuɔny Rock-Paper-Scissors.\nYin adhiɛɛr ee men kuɔny kɔ̈ɔ̈c tɛ̈ɛ̈n.\nKɔ̈ɔ̈c kuɔny, kuɛɛr ee kɔ̈k: '[rock]', '[paper]', ku '[scissors]'.\nYin ee kuɛɛr '[r]', '[p]', ku '[s]' ee kɔ̈k kɔ̈ɔ̈c.\n"
   },
   "invalid_move": {
-    "wrong_format": "Move not recognized. Use [rock], [paper], or [scissors]."
+    "wrong_format": "Kuɛɛr ee kɔ̈ɔ̈c acɔl. Kuɛɛr [rock], [paper], ku [scissors]."
   },
   "game_action": {
-    "selects": "Player {player_id} selects move {move}."
+    "selects": "Leek {player_id} ee kuɛɛr kuɔny {move}."
   },
   "message": {
     "round_draw": "Kë cï bɛ̈n bei në ye abak yic: Dɛ̈t.",

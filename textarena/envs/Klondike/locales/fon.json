@@ -16,17 +16,17 @@
     "{cards}": "The cards in a pile as neutral labels, or '--' if empty (never translate)"
   },
   "player_prompt": {
-    "intro": "A ɖo Klondike Solitaire wɛ. Nǔ e a na wa ɔ́ wɛ nyí ɖɔ hwi ni sɛ̀n lɛ bǐ dó ta nú mɛtɛnkpɔn-tɔ́kwɛ́ lɛ é jí. Xò gbɛgbɛ tɔn: - Mɛtɛ́nkpa (F1-F4): Nɔ kplékplé sín Ace yì King ɖò kɔlɛji ɖé nu - Tableau piles (T1-T7): Gbǎ nǔmɛsɛn lɛ (wùvɔ jɛ wiwi, wuntun jɛ cín) - Akpáɖán: Kún akpàxwé bo wá zán kpo gǒflágbá gblamɛ - Gǒflégbánú (W): Atɔxwɛ̌ ɖaxó hugǎn è sixu ɖè bɔ è nɔ xò => 'klɔ' => 'kɔ́n xójlawema bó ná zán kpo goxɔví ɖokpo gudo => 'xota tɛn<font> <title> [count] => 'tú wemaxixa]] => 'só akɔ́nɔ tòdó wè => 'zɔ̌ W1 T1, SÓ F2 T3, SÓ T5 2.' À lĕvo ɔ́, è hɛn ɔ́ yí \"all\" => 'bǐ', ée táá tɛ́n azɔn ɖokpó ɔ́ ba bo na bló bonu we ní mɔ wěma towe ɖíɖó => 'Gbɔ mi ɖó hwɛɖɔ xóxó ó => 'Kpɔ́númɔnɔ = forfeit'; à lè ko kpéte => 'Syɔ kɛɖɛ kpɔ́ndì => 'A ma sɔ́na wà nùɖé ǎ.', Mi ka sixú zɔ́ nùn ye zɛ azɔ̌ ɖě wú => 'Másà xá atɛ lɛ wu => 'Hɛnkɛ́nu ɖe kpowun': Sɛ́ kpan to do => 'Crná mε; Nuxu E má hun hwenu e è hwlàn awovɔ ɔ́n ayi tɔ́n ɔ́ nɛ è nyla fìn hǔn, mi yi te => 'to=$1. É nyɔ́:' [N' => To win!"
+    "intro": "A lé kpɔ́n Klondike Solitaire. Ɛ̀ṣe àṣẹyọri rẹ̀ ni láti gbé gbogbo kárédì sí àwọn ìdí ìpìlẹ̀.\n\nÈtò Ìdíje:\n- Àwọn ìdí ìpìlẹ̀ (F1-F4): Kọ́ọ̀kan sí òkè láti Ace sí King ni àṣọ\n- Àwọn ìdí ìṣẹ̀lẹ̀ (T1-T7): Kọ́ọ̀kan sí òkè láti òkè sí òkè láti òkè sí òkè\n- Stock: Gbé kárédì sí ìdí ìṣẹ̀lẹ̀\n- Waste (W): Kárédì òkè sí òkè\n\nÀwọn Ìlànà:\n- 'draw' - Gbé kárédì láti stock sí waste\n- 'move <source> <destination> [count]' - Gbé kárédì láti ìdí sí òmíràn\n  Àpẹẹrẹ: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count lèè tún jẹ́ 'all', èyí tí yóò gbìyànjú láti gbé gbogbo kárédì òkè.\n- 'forfeit' - Fòpin sí ìdíje lẹ́sẹẹsẹ̀ àti fi ìṣẹ̀lẹ̀ rẹ̀ lọ́wọ́\n- Àwọn orúkọ ìdí: W (waste), F1-F4 (ìdí ìpìlẹ̀), T1-T7 (ìdí ìṣẹ̀lẹ̀)\n\nÌwọ lè ṣe àwọn ìṣẹ̀lẹ̀ pupọ̀ ní ìṣẹ̀lẹ̀ kan ṣoṣo pẹ̀lú lílò àwọn kómá:\n  Àpẹẹrẹ: 'draw, move W T1, move T2 F1'\n\nNíkan Kings lè wà lórí àwọn ìdí ìṣẹ̀lẹ̀ tí kò sí kárédì.\nÀwọn ìṣẹ̀lẹ̀ ṣe ìṣẹ̀lẹ̀ ní ìtẹ̀síwájú - bí ìṣẹ̀lẹ̀ kan bá ṣe àìṣe, àwọn ìṣẹ̀lẹ̀ tókù yóò jẹ́ yọ̀."
   },
   "format_error": {
     "no_brackets": "Nǔwiwa e ma sɔgbe ǎ é sín akpàkpà. Nǔwiwa ɔ ɖó na ɖò ganmɛ mɛ̀.",
     "no_closing_bracket": "Nǔwiwa e è ma sɔ́ ɖó ǎ é sín akpàkpà: wuntun tíìn ă ']'",
     "empty_command": "Xá nùɖé. Wlan 'draw' alǒ 'move <source><destination> [count].'",
     "empty_action": "Nǔ e mɛ̀ ma ɖè ǎ é",
-    "move_needs_args": "move command ɔ byɔ source kpo destination kpo. Usage: 'move <source> <destination> [count]'",
-    "count_positive": "Akwɛ ɔ ɖó na nyí ɖagbe alǒ \" bǐ\"",
-    "count_invalid": "Xà nǔ e ma sɔgbe ǎ é. Wlan nùɖé alǒ ' bǐ'",
-    "unknown_command": "Mɛ ɖɔ ŋɔnla '{cmd}'. Ɖo 'sɔ', 'zɛ <ɖo> <ɖɛ> [count]', ɖi 'xɔ'",
+    "move_needs_args": "Ìlànà 'move' ṣe pàtàkì ìṣẹ̀lẹ̀ àti ìdí ìpìlẹ̀. Lò 'move <source> <destination> [count]'",
+    "count_positive": "Ìwọ̀n ṣe pàtàkì jẹ́ òdodo tàbí 'all'",
+    "count_invalid": "Ìwọ̀n àìtọ́. Lò ìwọ̀n tàbí 'all'",
+    "unknown_command": "Ìlànà àìtọ́ '{cmd}'. Lò 'draw', 'move <source> <destination> [count]', tàbí 'forfeit'",
     "wrapped": "Azo {n}: {msg}"
   },
   "action_result": {
@@ -57,12 +57,12 @@
     "to_waste_or_stock": "E sixu yì nùvɔ mɛ ǎ."
   },
   "outcome": {
-    "forfeit": "Ðàñïðîñòðàíåí. ×åðòîâûé ðåçóëüòàò: {score} êàðòîôåëü â îñíîâíûõ óãîëêàõ.",
+    "forfeit": "Ìdíje fòpin. Ìṣẹ̀lẹ̀ òkè: {score} kárédì nínú ìdí ìpìlẹ̀.",
     "won": "Un dó kú nú mi! Mi ɖu Klondike Solitaire sín ajɔ.",
-    "turn_limit": "Game over! You reached the maximum of {max_turns} turns. Score: {score} cards in foundations."
+    "turn_limit": "Ìdíje parí! Ìwọ ti dé ìpele òkè {max_turns} ìṣẹ̀lẹ̀. Ìṣẹ̀lẹ̀: {score} kárédì nínú ìdí ìpìlẹ̀."
   },
   "board": {
-    "title": "=== KLONDIKE SOLITAIRE = => Ðèñóíîê 1 è ôîðìàò 2 óêàçàíû â ïàïå.",
+    "title": "=== KLONDIKE SOLITAIRE === ɖo ɖo gbɛtɔɖoɖo",
     "turn": "Nusɛ: {turn}/{max_turns}",
     "stock": "Akwɛ: {stock} wema lɛ",
     "waste": "Hɔnlin (W): {waste}",

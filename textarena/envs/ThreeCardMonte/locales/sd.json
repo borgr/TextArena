@@ -11,7 +11,7 @@
     "{ball_pos}": "The cup index the ball is under"
   },
   "player_prompt": {
-    "intro": "Track the hidden ball 'X' while the cups are shuffled.\nAfter shuffling, guess its location with `[k]`."
+    "intro": "ڪپن کي شفل ڪرڻ دوران لڪل بال 'X' کي ٽريڪ ڪريو.\nشفلنگ کان پوءِ، ان جي لوڪيشن `[k]` سان اندازو لڳايو."
   },
   "game_message": {
     "ball_starts": "بال شروع ٿئي ٿو: {line}",
@@ -21,7 +21,7 @@
     "reveal": "(کشف ڪريو: بال هيٺ {ball_pos})"
   },
   "invalid_move": {
-    "wrong_format": "Bad action. Use `[k]`.",
+    "wrong_format": "خراب عمل. `[k]` استعمال ڪريو.",
     "out_of_range": "انڊيڪس حد کان ٻاهر 0-{max_index}."
   },
   "outcome": {

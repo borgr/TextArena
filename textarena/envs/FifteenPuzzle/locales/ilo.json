@@ -1,10 +1,10 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id}. You are playing the 15-Puzzle game.\nThe objective of the game is to arrange the numbered tiles in ascending order from 1 to 15, with the empty space located in the bottom-right corner.\nTo make a move, you can slide a tile into the empty space (represented by a double underscore, e.g. __) by using one of the following commands:\n- 'up': Move the tile below the empty space up.\n- 'down': Move the tile above the empty space down.\n- 'left': Move the tile to the right of the empty space left.\n- 'right': Move the tile to the left of the empty space right.\nTo submit your move, type the direction (e.g., 'up', 'down', 'left', or 'right') in square brackets, e.g. [up].\nThe current board layout is shown below. Use the information to solve the puzzle.\n"
+    "intro": "Sika ti Player {player_id}. Agay-ayamka ti 15-Puzzle game.\nTi gandat ti ay-ayam ket ti agurnos ti naited a tiles iti agpangato a kaso manipud 1 aginggana 15, iti awan a espasio a mabirukan iti kanawan-baba a sulok.\nTapno agaramidka ti maysa a move, mabalinmo a isilde ti tile iti awan a espasio (irepresenta ti doble a guion, e.g. __) babaen ti panag-usar ti maysa kadagiti sumaganad a komando:\n- 'up': Iyabam ti tile iti baba ti awan a espasio pataas.\n- 'down': Iyabam ti tile iti ngato ti awan a espasio pababa.\n- 'left': Iyabam ti tile iti kanawan ti awan a espasio pakalewa.\n- 'right': Iyabam ti tile iti kawanan ti awan a espasio pakakanawan.\nTapno isumitem ti move mo, itype mo ti direksion (e.g., 'up', 'down', 'left', wenno 'right') iti kuadrado a braket, e.g. [up].\nTi agdama a layout ti board ket ipakita dita baba. Usarem ti impormasyon tapno masolbaram ti puzzle.\n"
   },
   "board": {
     "current_board": "Takder a Talaan:\n\n{board}\nDagiti Magagar a Pagliw: {moves}",
-    "game_board": "Game Board: {board}"
+    "game_board": "Board ti Ay-ayam:\n{board}"
   },
   "invalid_move": {
     "wrong_format": "Saan a maitutop nga agpang. Ti agay-ayam {player_id} ket saan a simmungbat babaen ti napudno a direksion kadagiti kuadrado a kurtina.",

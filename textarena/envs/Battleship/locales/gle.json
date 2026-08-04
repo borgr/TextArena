@@ -8,12 +8,12 @@
     "already_fired": "Tá an comhordanú {coord} curtha ar lámhaigh cheana féin."
   },
   "game_action": {
-    "you_sunk": "Sunk! You sunk a ship at {coord}! Your updated board:\n{view}",
-    "opp_sunk": "Opponent sunk your ship at {coord}! Your updated board:\n{view}",
+    "you_sunk": "Báite! Báigh tú long ag {coord}! Do chlár nuashonraithe:\n{view}",
+    "opp_sunk": "Báigh an ceann comhraic do long ag {coord}! Do chlár nuashonraithe:\n{view}",
     "you_hit": "Bhuail! Bhuail tú long ag {coord}! Do chlár nuashonraithe:\n{view}",
     "opp_hit": "Bhuail do chéile comhraic do long seo ag {coord}! Do chlár nuashonraithe:\n{view}",
     "you_miss": "Faoi! Chuir tú faoi long ag {coord}! Do chlár nuashonraithe:\n{view}",
-    "opp_miss": "Opponent missed your ship at {coord}! Your updated board:\n{view}"
+    "opp_miss": "Chaill an ceann comhraic do long ag {coord}! Do chlár nuashonraithe:\n{view}"
   },
   "outcome": {
     "win": "Tá gach long dá chéile ag an imreoir {player_id}!"

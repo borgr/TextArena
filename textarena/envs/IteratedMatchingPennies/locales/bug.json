@@ -1,17 +1,17 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({role}) in a {num_rounds}-round Matching Pennies game.\n- Each round, submit [heads] or [tails] (or [h], [t]).\n- If your choice matches your opponent’s, Player 0 wins the round; otherwise Player 1 wins.\nReply with your choice in the format '[heads]' or '[tails]'.\n"
+    "intro": "Sida Player {player_id} ({role}) ri olahraga Matching Pennies {num_rounds} ronde.\n- Tiap ronde, sampaikan [heads] atau [tails] (atau [h], [t]).\n- Jika pilihanmu sesuai lawanmu, Player 0 menang ronde itu; lainnya Player 1 menang.\nBalas dengan pilihanmu ri format '[heads]' atau '[tails]'.\n"
   },
   "invalid_move": {
-    "wrong_format": "Invalid format; please submit '[heads]' or '[tails]'."
+    "wrong_format": "Format salah; tolong sampaikan '[heads]' atau '[tails]'."
   },
   "message": {
-    "round_match": "Player 0 picked {choice0}; Player 1 picked {choice1}. Match -> Player 0 wins",
-    "round_mismatch": "Player 0 picked {choice0}; Player 1 picked {choice1}. Mismatch -> Player 1 wins."
+    "round_match": "Ana' 0 mamiliki {choice0}; Ana' 1 mamiliki {choice1}. Mappattu -> Ana' 0 menangi",
+    "round_mismatch": "Ana' 0 mamiliki {choice0}; Ana' 1 mamiliki {choice1}. Tidak mappattu -> Ana' 1 menangi"
   },
   "outcome": {
-    "p0_wins": "Pemaen 0 menang lebih banyak ronde.",
-    "p1_wins": "Pemaen 1 menang lebih banyak ronde.",
+    "p0_wins": "Player 0 menang ronde labih banyak.",
+    "p1_wins": "Player 1 menang ronde labih banyak.",
     "draw": "Secara keseluruhannya, pertandingan e'na imbang."
   }
 }

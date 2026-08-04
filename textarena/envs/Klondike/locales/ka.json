@@ -23,9 +23,9 @@
     "no_closing_bracket": "შეუსრულებელი მოქმედების ფორმატი. აკლია დახურვის კრამიტი ']'",
     "empty_command": "ცარიელი ბრძანება. აკრიფეთ \"draw\" ან \"move <source> <destination> [count]\"",
     "empty_action": "ცარიელი ქმედება",
-    "move_needs_args": "გადაადგილების ბრძანება მოითხოვს წყაროს და დანიშნულების ადგილს. გამოყენება: \"გადაადგილება <წყარო> <დანიშნულების ადგილი> [count]\"",
-    "count_positive": "რიცხვი უნდა იყოს დადებითი ან \"ყველა\"",
-    "count_invalid": "არასწორი დათვლა. გამოიყენეთ რიცხვი ან \"ყველა\"",
+    "move_needs_args": "Move command requires source and destination. Usage: 'move <source> <destination> [count]'",
+    "count_positive": "რაოდი უნდა იყოს დადებითი ან 'all'",
+    "count_invalid": "არასწორი რაოდი. გამოიყენეთ რიცხვი ან 'all'",
     "unknown_command": "უცნობი ბრძანება \"{cmd}\". გამოიყენეთ \"draw\", \"move <source> <destination> [count]\", ან \"forfeit\"",
     "wrapped": "მოქმედება {n}: {msg}"
   },
@@ -35,7 +35,7 @@
     "failed": "სარჩელი {n} წარუმატებელი: {msg}"
   },
   "move_result": {
-    "drew": "Drew card(s) from stock to waste.",
+    "drew": "გადააყრეთ ბანქო(ები) სათამაშო გროვიდან გადაყრილ გროვაში.",
     "cannot_draw": "ნვ მჲზვმ ეა ჟოპვმ, თ ჟრანთრვ თ ჟრანთრვ ჟა თჱმწპლთ.",
     "invalid_pile": "არასწორი ქვაბის სახელი. გამოიყენეთ W, F1-F4 ან T1-T7",
     "foundation_one_card": "მხოლოდ ერთი ბარათის გადატანა შეიძლება ფონადში.",
@@ -62,7 +62,7 @@
     "turn_limit": "თამაშის დასასრული! თქვენ მიაღწიეთ მაქსიმუმს {max_turns} რგოლებში. ქულა: {score} კარტები ფონდებში."
   },
   "board": {
-    "title": "=== KLONDIKE SOLITAIRE ===",
+    "title": "=== კლონდაიკის სოლიტერი ===",
     "turn": "მობრუნება: {turn}/{max_turns}",
     "stock": "მარაგი: {stock} ბარათები",
     "waste": "ნარჩენები (W): {waste}",

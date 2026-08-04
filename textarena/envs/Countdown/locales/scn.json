@@ -9,7 +9,7 @@
     "progress": "{observation}\nPunti di progressu attuali: {progress}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use `[i j op]` where i,j are indices and op is +,-,*,/",
+    "wrong_format": "Formatu di l'azzioni nun vàlidu. Usa `[i j op]` unni i,j su' ìndici e op è +,-,*,/",
     "invalid_indices": "Indici invalidi. Devenu esse diversi è à u intervallu 0-{max_index}",
     "invalid_operation": "Operazione invalida (divisione per zeru o risultatu non-intreu)"
   },

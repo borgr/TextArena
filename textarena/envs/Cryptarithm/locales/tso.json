@@ -9,10 +9,10 @@
     "{pct}": "Progress as a percentage string, e.g. 50%"
   },
   "player_prompt": {
-    "intro": "Map each letter to a unique digit so the arithmetic holds.\nAssign with `[A 5]`, re-assign anytime.\n"
+    "intro": "Tsamisa kila herufi na digit ya hambanahambana leswaku arithmetiki yi pfume.\nMpimo wa `[A 5]`, u mpimo wa n'wana n'wana.\n"
   },
   "invalid_move": {
-    "wrong_format": "Bad action format. Use `[A 5]`.",
+    "wrong_format": "Mpangwa wa xitendo wo biha. Tirhisa `[A 5]`.",
     "letter_not_in_puzzle": "Letere {letter} a ri kona eka xiphazamiso.",
     "digit_used": "Digit {digit} leyi se yi tirhisiweke hi {used_letter}.",
     "leading_zero": "Nomboro yo sungula ya rito a yi nge vi 0."

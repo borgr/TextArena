@@ -1,20 +1,20 @@
 {
   "player_prompt": {
-    "intro": "Вы - Игрок {player_id} в 3-игроковой Итерированной Дилемме Пленника. Матч длится {num_rounds} раундов.\nСтруктура раунда:\n• {conv_rounds} бесплатных чат-ходов\n• 1 решающий ход - отправьте один токен на каждого оппонента: '[<opp-id> cooperate]' или '[<opp-id> defect]' (т.е. '[1 defect] [2 cooperate]'; по умолчанию - 'сотрудничать'). \nПарная матрица выплат (применяется к каждой неупорядоченной паре):\n  - Оба сотрудничают  ->  {reward}\n  - Оба предают     ->  {punishment}\n  - Вы предаёте, они сотрудничают -> {temptation}\n  - Вы сотрудничаете, они предают -> {sucker}\nИгрок(и) с наивысшим баллом в конце всех раундов побеждает."
+    "intro": "Һеҙ 3 уйынсының {player_id}-сеһе 3 уйынсылы итерациялы төрмә дилеммаһында. Матч {num_rounds} раунд дауам итә.\nРаунд структураһы:\n• {conv_rounds} ирекле әңгәмәләр\n• 1 ҡарар әйләнеше - һәр оппонентҡа бер токен бирегеҙ: '[<opp-id> cooperate]' йәки '[<opp-id> defect]' (мәҫәлән, '[1 defect] [2 cooperate]'; башланғыс ҡиммәте 'cooperate').\nҺәр тәртипһеҙ парға ҡулланылған парлаусы түләү матрицаһы:\n  - Икеһе лә хеҙмәттәшлек итә -> {reward}\n  - Икеһе лә баш тарта    -> {punishment}\n  - Һеҙ баш тартаһығыҙ, улар хеҙмәттәшлек итә -> {temptation}\n  - Һеҙ хеҙмәттәшлек итәһегеҙ, улар баш тарта -> {sucker}\nБөтә раундтар аҙағында иң юғары балл йыйған уйынсы еңә."
   },
   "round": {
-    "start": "─── Starting Round {round} ───\tYou can converse freely for the next {conv_rounds} rounds.",
-    "chat_finished": "Chat finished for round {round}. Submit your decisions, one token per opponent: `[pid cooperate]` or `[pid defect]`."
+    "start": "─── {round} раунды башлана ───\tҺеҙ киләһе {conv_rounds} раундтарҙа ирекле әңгәмәләр алып бара алаһығыҙ.",
+    "chat_finished": "{round}-се раундта әңгәмә тамамланды. Ҡарарҙарығыҙҙы бирегеҙ, бер оппонентҡа бер токен: `[pid cooperate]` йәки `[pid defect]`."
   },
   "results": {
     "header": "### Түңәрәк {round} - Һөҙөмтәләр:",
-    "pair_line": "{observation}\n\t Player {i} vs Player {j} chose to {choice_i} and {choice_j} respectively (Player {i} gained {gain_i}, Player {j} gained {gain_j})",
+    "pair_line": "{observation}\n\t {i} уйынсыһы {j} уйынсыһына ҡаршы {choice_i} һәм {choice_j} һайланы ( {i} уйынсыһы {gain_i} алды, {j} уйынсыһы {gain_j} алды)",
     "scores_open": "{observation} -> Хәҙерге баллдар: ",
     "score_first": "{observation}Игрок {player_id} ({score})",
     "score_next": "{observation}; Игрок {player_id} ({score})",
     "finalize": "{observation} "
   },
   "outcome": {
-    "final": "Финальные баллы: {scores}. Рейтинговые группы (худшее→лучшее): {groups}"
+    "final": "Һуңғы баллдар: {scores}.  Рейтинг төркөмдәре (иң насар→иң яҡшы): {groups}"
   }
 }

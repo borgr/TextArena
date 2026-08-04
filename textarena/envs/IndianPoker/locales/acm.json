@@ -25,8 +25,8 @@
   "message": {
     "round_result": "{reason}  جائزة {pot} → لاعب {winner}. (رصيد البنك P0:{p0}, P1:{p1})",
     "folded": "لاعب {player_id} طوّى.",
-    "showdown_win": "Showdown: {card_win} beats {card_lose}.",
-    "showdown_tie": "Showdown tie: both {card}. Pot split – each receives {split}."
+    "showdown_win": "المواجهة: {card_win} يهزم {card_lose}.",
+    "showdown_tie": "تعادل المواجهة: كلاهما {card}. الجائزة مقسّمة – كل واحد يحصل على {split}."
   },
   "outcome": {
     "p0_wins": "لاعب 0 يفوز ({bank0} > {bank1})",

@@ -6,7 +6,7 @@
     "receiving_with_no_resource": "Mbeni zo ti pikango mozoko atara ti yeda na mbeni ye so a gbanzi ni sân ti wara aye kue.",
     "out_of_range": "Lokuta {player_id}, Sika nzonzi. Kolóná {col} ezali kozala na mabe.",
     "already_full": "Lokuta {player_id}, Sika nzonzi. Kolóná {col} ezali na mabe.",
-    "proposing_with_no_resource": "Player {player_id} tried to make a trade offer without having the necessary resources.",
+    "proposing_with_no_resource": "Player {player_id} essayé faire offre échange sans avoir ressources nécessaires.",
     "incorrect_offer_format": "Zo ti pikango ye {player_id} amû mbeni mbeti so a sû na lege ni pëpe.",
     "no_new_offer": "Zo ti pikango ye {player_id} amû mbeni fini matabisi pëpe."
   },

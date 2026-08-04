@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "ಕ್ರಿಯೆಯು [row col] ಸ್ವರೂಪದಲ್ಲಿರಬೇಕು, ಅಲ್ಲಿ ಸಾಲು ಮತ್ತು ಕಾಲಮ್ 0 ರಿಂದ {max_index} ವರೆಗಿನ ಪೂರ್ಣಾಂಕಗಳಾಗಿರಬೇಕು.",
-    "out_of_range": "Coordinates must be between 0 and {max_index}. You entered [{row},{col}]."
+    "out_of_range": "ಅಕ್ಷಾಂಶಗಳು 0 ಮತ್ತು {max_index} ನಡುವೆ ಇರಬೇಕು. ನೀವು [{row},{col}] ಪ್ರವೇಶಿಸಿದ್ದೀರಿ."
   },
   "outcome": {
     "win": "ಅಭಿನಂದನೆಗಳು! ನೀವು ಪಜಲ್ ಅನ್ನು {moves_used} ಚಲನೆಗಳಲ್ಲಿ ಪರಿಹರಿಸಿದ್ದೀರಿ!",

@@ -13,7 +13,7 @@
     "repeated_guess": "अहाँसभ अनुमान कऽ चुकल छी {guess}. कृपया दोसर अनुमान लगाउ।"
   },
   "game_action": {
-    "feedback": "Submitted [{guess}]. Feedback: {black_pegs} black peg(s), {white_pegs} white peg(s)."
+    "feedback": "[{guess}] प्रस्तुत गरियो। प्रतिक्रिया: {black_pegs} कालो पेग(हरू), {white_pegs} सेतो पेग(हरू)।"
   },
   "outcome": {
     "win": "तुमने कोड को तोड़ लेलह, {black_pegs} में से {code_length} पेग्स को सही से हल करलह",

@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in an Iterated Prisoner's Dilemma spanning {num_rounds} rounds.\n\nGame Structure:\n- Before each decision you have {total_conversation_rounds} turns to communicate freely.\n- After that, both players simultaneously choose to cooperate or defect.\n\nPayoff Matrix (fixed each round):\n- Both Cooperate ➜ each {cooperate_reward}\n- Both Defect ➜ each {mutual_defect_reward}\n- One Defects, one Cooperates ➜ Defector {defect_reward}, Cooperator {sucker_reward}\n\nHow to Play:\n- During conversation: type any text you wish.\n- During decision phase: include '[Cooperate]' or '[Defect]' (case-insensitive). You may add extra text before/after the token."
+    "intro": "Siz {player_id} oyuncusısınız, {num_rounds} raunddan ibaret Iterated Prisoner's Dilemma oyınında.\n\nOyun Yapısı:\n- Her qarardan evel {total_conversation_rounds} tur serbestçe laqırdı yapmaq imkânıñız bar.\n- Soñra, eki oyuncu aynı vaqıtta iş birliği yapmağa ya da defekt etmağa qarar bere.\n\nÖdene Matrixi (her raund sabit):\n- Eki oyuncu da İş Birliği Yapqan ➜ her biri {cooperate_reward}\n- Eki oyuncu da Defekt Etqen ➜ her biri {mutual_defect_reward}\n- Biri Defekt Etqen, biri İş Birliği Yapqan ➜ Defektor {defect_reward}, İş Birlikçisi {sucker_reward}\n\nNasıl Oynalır:\n- Laqırdı vaqtında: istegeniz metn yazıp.\n- Qarar vaqtında: '[Cooperate]' ya da '[Defect]' (büyük/küçük harf duyarsız) yazmaq mümkün. Qarardan evel/soñra extra metn yazıp."
   },
   "phases": {
     "conversation_finished": "Konuşma {round} raundı içün tamamlanıp qedildi. Lütfen \\boxed{{}} içün '[Cooperate]' yahut '[Defect]' ile cavap ber.",
@@ -9,7 +9,7 @@
   },
   "outcome": {
     "winner": "Oyuncu {winner} {win_score} - {lose_score} utdı.",
-    "draw": "Draw! Both players scored {s0}.",
+    "draw": "Beraberlik! Eki oyuncu da {s0} qazandı.",
     "round_both_cooperate": "Eki oyuncı da işbirlik yaptı.",
     "round_both_defect": "Eki oyuncı da qaçtı.",
     "round_p0_cooperates_p1_defects": "0-cı oyuncı işbirlik yaptı, 1-ci oyuncular ise qaçtı.",

@@ -13,8 +13,8 @@
     "already_matched": "Dhaqdhaqaaq aan ansax ahayn. Ciyaaryahanka {player_id} wuxuu doortay mid ama labada kaar ee horey loo barbar dhigay."
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "Kartida ayuu Cayaarta {player_id} dooray ee boosaska [{r1} {c1}] iyo [{r2} {c2}] waa isku mid!",
+    "cards_no_match": "Kartida ayuu Cayaarta {player_id} dooray ma isku mid yihiin. Kartida boosaska [{r1} {c1}] iyo [{r2} {c2}] waa {pos1} iyo {pos2} kala duwan."
   },
   "outcome": {
     "draw": "Labada ciyaartoyba waxay isku darsadeen tiro isku mid ah oo kaarar ah.",

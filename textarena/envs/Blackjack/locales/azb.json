@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing Blackjack against the dealer.\nYour goal is to get as close to 21 as possible without going over.\nOn your turn, choose '[Hit]' to draw another card or '[Stand]' to hold.\nJ/Q/K = 10 points; A = 11 or 1, whichever is better.\n"
+    "intro": "شما بلک جک قارشی دیلر اویناییرسینیز.\nهدفینیز ۲۱-ه قدر یاخین اولماقدیر، اوستونه گئتمه‌دن.\nنوبتینیزده '[Hit]' سئچین کی بیر کارت چکین یا '[Stand]' توتون.\nJ/Q/K = ۱۰ امتیاز؛ A = ۱۱ یا ۱، هر کیمی یاخشی‌دیر.\n"
   },
   "board": {
     "current_state": "Əl {hand_number}/{num_hands}\nƏlinizdə: {player_hand} (Xal: {score})\nDiler göstərir: {dealer_card}"

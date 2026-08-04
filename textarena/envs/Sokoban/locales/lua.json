@@ -1,18 +1,18 @@
 {
   "player_prompt": {
-    "intro": "You are solving the Sokoban puzzle. You are the player and you need to push all boxes to targets.\n        When you are right next to a box, you can push it by moving in the same direction.\n        You cannot push a box through a wall, and you cannot pull a box.\n        On the board, objects are represented as: \n        - The player (you) appears as 'P' \n        - Walls are represented with '#' \n        - Boxes are marked as 'X' \n        - Empty goals are shown with a 'O'\n        - Boxes on goals are visualized with '√'\n        You can also use [w] for up, [a] for left, [s] for down, and [d] for right.\n        "
+    "intro": "Owe udi kubaka kwa Sokoban. Owe mukwetu, wewe udi mwingidi wa kutunisha masanduku yonse ku mikwaju.\n        Wewe wakati uli pembeni na sanduku, uwezidi kuyitunisha kwa kwenda mu njia imo.\n        Wewe kutawezidi kuyitunisha sanduku kupitia kuta, wala kuyikwata sanduku.\n        Pa bode, bintu bionekana kama: \n        - Mwingidi (wewe) anionekana kama 'P' \n        - Kuta zionekana na '#' \n        - Masanduku yamaketwa kama 'X' \n        - Mikwaju mitupu ionekana na 'O'\n        - Masanduku pa mikwaju yamaketwa kama '√'\n        Wewe uwezidi kutumina [w] kwa juu, [a] kwa kushoto, [s] kwa chini, na [d] kwa kulia.\n        "
   },
   "board": {
     "current_board": "Lubamba lwa Bwalo:\n\n{board}\nMabisi Avuluka: {moves}"
   },
   "invalid_move": {
-    "wrong_format": "The submitted move does not follow the correct format. Use [up], [down], [left], [right] or [w], [a], [s], [d].",
+    "wrong_format": "Kibeko kya kusonga kikwetusanga mu ntekelelo ya kufwaninwa. Tumina [up], [down], [left], [right] to [w], [a], [s], [d].",
     "not_valid_action": "Dienza dia mudimu eu ki ndianyishibue to.",
     "wall_collision": "Kuena mua kuya mu tshimanu to!",
     "invalid_position": "Kuenza bualu bubi - kakuena mua kuenzela muntu nanku to."
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
+    "moved": "Wewe {pushed} umesogezwa [{action}].",
     "pushed_prefix": "wakadi utuma kabuta eku ne eku."
   },
   "outcome": {

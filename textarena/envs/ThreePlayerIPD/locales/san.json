@@ -4,11 +4,11 @@
   },
   "round": {
     "start": "─── राउंड {round} शुरू हो रहा है ───\tआप अगले {conv_rounds} राउंड के लिए स्वतंत्र रूप से बातचीत कर सकते हैं।",
-    "chat_finished": "Chat finished for round {round}. Submit your decisions, one token per opponent: `[pid cooperate]` or `[pid defect]`."
+    "chat_finished": "वार्ता वृत्तं जातं वर्तते {round} इति परायणे। निर्णयान् प्रस्तुतयतु, प्रतिपक्षं प्रति एकं संकेतं: `[pid cooperate]` वा `[pid defect]`।"
   },
   "results": {
     "header": "### राउण्ड {round} - परिणामः:",
-    "pair_line": "{observation}\n\t Player {i} vs Player {j} chose to {choice_i} and {choice_j} respectively (Player {i} gained {gain_i}, Player {j} gained {gain_j})",
+    "pair_line": "{observation}\n\t खिलाडी {i} खिलाडिना {j} सह {choice_i} {choice_j} च व्यचारयत् (खिलाडी {i} {gain_i} प्राप्तवान्, खिलाडी {j} {gain_j} प्राप्तवान्)",
     "scores_open": "{observation} -> वर्तमानस्य गुणः: ",
     "score_first": "{observation}Player {player_id} ({score})",
     "score_next": "{observation}; खिलाड़ी {player_id} ({score})",

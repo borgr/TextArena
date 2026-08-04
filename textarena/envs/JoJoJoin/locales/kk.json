@@ -8,7 +8,7 @@
   "invalid_move": {
     "wrong_format": "Жіберілген жылжыту дұрыс пішімді ұстанбайды.",
     "out_of_range": "{cell} - жарамды ұяшық емес. 0 мен 24-тің арасында болуы тиіс.",
-    "already_occupied": "Cell {cell} is already occupied."
+    "already_occupied": "{cell} жасушасы бос емес."
   },
   "game_action": {
     "placed": "Ойыншы {player_id} {symbol} белгісін {cell} ұяшығына қойды."

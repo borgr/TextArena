@@ -8,7 +8,7 @@
   },
   "results": {
     "header": "### ዙርያ {round} - ውጽኢት:",
-    "pair_line": "{observation}\n\t Player {i} vs Player {j} chose to {choice_i} and {choice_j} respectively (Player {i} gained {gain_i}, Player {j} gained {gain_j})",
+    "pair_line": "{observation}\n\t ተጫዋች {i} እና ተጫዋች {j} እንደሚከተለው ተባበሩ እና {choice_i} እና {choice_j} (ተጫዋች {i} {gain_i} አገኘ፣ ተጫዋች {j} {gain_j} አገኘ)",
     "scores_open": "{observation} -> እዋናዊ ነጥቢታት: ",
     "score_first": "{observation}Player {player_id} ({score})",
     "score_next": "{observation}; ተጫዋት {player_id} ({score})",

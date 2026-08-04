@@ -13,6 +13,6 @@
   },
   "outcome": {
     "win": "مبروك، أخمنت الرقم الصحيح.",
-    "turn_limit": "The turn limit has been reached. Guess: {guess}, Target: {target}"
+    "turn_limit": "تم الوصول إلى حد الدورات. تخمين: {guess}، الهدف: {target}"
   }
 }

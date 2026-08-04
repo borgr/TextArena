@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a match of GameOfPureStrategy.\n- You hold the 13 cards A-K; each can be used once.\n- Each round a prize card is revealed. Play exactly ONE card by writing something that contains a bracketed token like '[Q]', '[10]', '[2]' ...\n- Higher card wins the prize (plus carry-over). Ties roll prize into the pot for next round.\n- Highest total after 13 rounds wins."
+    "intro": "Niwe Mchezaji {player_id} mu mupi wa GameOfPureStrategy.\n- Nikwata kadi 13 kutoka A hadi K; kila moja ingawambilwa mwaka moja.\n- Mupi ulioshikwa, kadi ya zawadi ikashowekwa. Cheza kadi moja tu kwa kuandika kitu ambacho kina ishara iliyojumuishwa kama '[Q]', '[10]', '[2]' ...\n- Kadi iliyo juu ikashinda zawadi (pamo na kubeba). Kushindana kwa usawa kushikilia zawadi kuweka kwenye mchezo wa mupi unaofuata.\n- Jumla ya juu zaidi baada ya mipi 13 ikashinda."
   },
   "round": {
     "announce": "### Raundi {round}/13 - Zawadi: {prize}  (inagharimu {worth})"
@@ -16,7 +16,7 @@
     "bids": "Bids: P0 {card0} vs P1 {card1} - ",
     "p0_wins": "{observation}Uuleteya 0 alicimfya {pot_value}.",
     "p1_wins": "{observation}Uuleteya 1 alicimfya {pot_value}.",
-    "tie": "{observation}Tie -> pot now {carry_pot}.",
+    "tie": "{observation}Kwati -> ndalama yapwa {carry_pot}.",
     "scores": "Mafikizo -> P0:{score0}  P1:{score1}"
   },
   "outcome": {

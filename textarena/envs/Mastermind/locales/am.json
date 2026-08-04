@@ -13,10 +13,10 @@
     "repeated_guess": "{guess} አስቀድመው ገምተዋል፣ እባክዎ ሌላ ለመገመት ይሞክሩ።"
   },
   "game_action": {
-    "feedback": "Submitted [{guess}]. Feedback: {black_pegs} black peg(s), {white_pegs} white peg(s)."
+    "feedback": "[{guess}] አስገብቶአል። ማስታወቂያ: {black_pegs} ጥቁር ፒግ(ስ)፣ {white_pegs} ነጭ ፒግ(ስ)።"
   },
   "outcome": {
-    "win": "You have cracked the code, solving {black_pegs} out of {code_length} pegs correctly",
+    "win": "አንቺ ኮድ ተለለጠሃል፤ {black_pegs} ከ {code_length} በትን በት በአግባቡ አንቺ አዘጋጃለሁ።",
     "turn_limit": "የዞረ ገደብ ደርሷል {percent} በመቶኛዎቹን ቁጥሮች በትክክል ገምተሃል።"
   }
 }

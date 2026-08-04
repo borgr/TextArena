@@ -11,7 +11,7 @@
     "{groups}": "Neutral ranking data (a list of player-id groups, worst to best); do not translate"
   },
   "player_prompt": {
-    "intro": "{num_players}-Player Snake on a {width}×{height} grid.\nYou control snake {player_id}. Valid moves: '[up]'/'[down]'/'[left]'/'[right]' (or w/s/a/d).\nObjective: survive longest or be the longest and get the highest score (turn limit {max_turns} turns)."
+    "intro": "{num_players}  ki  Snake, {width}×{height}  grid da leiriba.\nNang na snake {player_id}  control touriba.  '[up]'/'[down]'/'[left]'/'[right]' (w/s/a/d)  haibagi  valid move oiba.\nMaram:  narakpa  leiriba  nattaba  leiriba  amasung  score  saringei  paoba  (turn limit {max_turns}  turns)."
   },
   "board": {
     "current": "হৌজিক লৈরিবা বোদি: {board}",
@@ -26,6 +26,6 @@
     "outlived": "প্লেয়রনা অতোপ্পশিংদগী হেন্না হিংখি।",
     "all_dead": "সাপ খুদিংমক শিখ্রে।",
     "turn_limit": "তর্ন লিমিৎ য়ৌরে - খ্বাইদগী ফবা স্কোরনা তাই-ব্রেক লৌগনি।",
-    "ranking": "{reason} Final ranking groups (worst→best): {groups}"
+    "ranking": "{reason}  Ranking khutna  group (worst→best): {groups}"
   }
 }

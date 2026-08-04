@@ -1,11 +1,11 @@
 {
   "player_prompt": {
-    "intro": "You are {role} in Colonel Blotto.\nYour goal is to win more rounds than your opponent.\nOn each round, allocate exactly {num_total_units} units across fields {field_names}.\nThe player who allocates more units to a field wins that field, and the player who wins more fields wins the round.\nFor example, '[A7 B7 C6]' allocates 7 units to A, 7 to B, and 6 to C.",
+    "intro": "Ko koe {role} i roto i a Colonel Blotto.\nKo tō whāinga kia wikitoria ngā raupapa nui atu i tō hoa whawhai.\nI ia raupapa, whakaritea {num_total_units} ngā wāhanga ki ngā papa {field_names}.\nKo te kaitākaro e whakarite ana i ngā wāhanga nui atu ki te papa e wikitoria ana i taua papa, ā, ko te kaitākaro e wikitoria ana i ngā papa nui atu e wikitoria ana i te raupapa.\nHe tauira, '[A7 B7 C6]' whakaritea 7 ngā wāhanga ki A, 7 ki B, ā, 6 ki C.",
     "commander_alpha": "Kaiwhakahaere Alpha",
     "commander_beta": "Ko te Kaiwhakahaere Beta."
   },
   "game_state": {
-    "header_round": "=== COLONEL BLOTTO - Round {current_round}/{num_rounds} ===\nRounds Won - Commander Alpha: {alpha_score}, Commander Beta: {beta_score}"
+    "header_round": "=== COLONEL BLOTTO - Raupapa {current_round}/{num_rounds} ===\nNgā Raupapa i Wikitoria - Kaiwhakahaere Alpha: {alpha_score}, Kaiwhakahaere Beta: {beta_score}"
   },
   "round_battle": {
     "field_result": "\nRaunga {current_round}\nKomiti Alpha whakarite ana: {p0_allocations}\nKomiti Beta whakarite ana: {p1_allocations}\n",

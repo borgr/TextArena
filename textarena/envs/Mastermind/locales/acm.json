@@ -13,7 +13,7 @@
     "repeated_guess": "انت اتخمينت {guess}. رجاءً جرب تخميل اخر."
   },
   "game_action": {
-    "feedback": "Submitted [{guess}]. Feedback: {black_pegs} black peg(s), {white_pegs} white peg(s)."
+    "feedback": "تم تقديم [{guess}]. تعليقات: {black_pegs} دبوس أسود، {white_pegs} دبوس أبيض."
   },
   "outcome": {
     "win": "لقد قمت بفك الشفرة ، وحل {black_pegs} من {code_length} المسامير بشكل صحيح",

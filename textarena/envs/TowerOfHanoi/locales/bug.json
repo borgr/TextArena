@@ -6,7 +6,7 @@
     "current_board": "Dewan iya makkokkoe: {board}."
   },
   "invalid_move": {
-    "wrong_format": "You did not respond with valid '[source] [target]'.",
+    "wrong_format": "Miu tenaiwole responssi ri lontara' '[source] [target]'.",
     "invalid_tower": "Pura mutaroi sumber iyarega menara target iya de'e nasituju.",
     "empty_tower": "Mupassuroi mappassu disk pole ri menara kosong'e.",
     "same_tower": "Mupassuroi diske'e lao ri menara iya pada.",
@@ -17,6 +17,6 @@
   },
   "outcome": {
     "win": "Sukkuru'ki! Pura mupebbalii passallekeng Menara Hanoi.",
-    "turn_limit": "The turn limit has been reached. You correctly placed {pct}% of the disks on Tower C."
+    "turn_limit": "Limittu giliranna tenaiwole teddungi. Miu maddenni {pct}% ri diska-diska ri Menara C."
   }
 }

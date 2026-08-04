@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "Maboko mabaya ya kazi. Ita [h row col] au [v row col].",
-    "out_of_bounds": "Edge outside board."
+    "out_of_bounds": "Mpaka uko nje ya ubao."
   },
   "outcome": {
     "win": " Osali kaka mwa molɔngɔ moko! Motuna oyo ezali na eyano.",

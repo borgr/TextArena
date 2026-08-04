@@ -7,13 +7,13 @@
   },
   "invalid_move": {
     "wrong_format": "ಯಾವುದೇ ಮಾನ್ಯವಾದ ಚಲಿಸುವ ಸ್ವರೂಪ ಕಂಡುಬಂದಿಲ್ಲ. '[pile quantity]' ಅನ್ನು ಬಳಸಿ.",
-    "correct_format_wrong_fields": "Player {player_id}, Invalid action. Column {col} is out of bounds.",
+    "correct_format_wrong_fields": "ಆಟಗಾರ {player_id}, ಅಮಾನ್ಯ ಕ್ರಿಯೆ. ನಿಲುವು ಸಾಲು {col} ಮಿತಿಯಿಂದ ಹೊರಗಿದೆ.",
     "out_of_range": "ಪೈಲ್ ಸೂಚ್ಯಂಕ {pile_index} ವ್ಯಾಪ್ತಿಯಿಂದ ಹೊರಗಿದೆ.",
     "non_positive": "ಕನಿಷ್ಠ 1 ವಸ್ತುವನ್ನು ತೆಗೆದುಹಾಕಬೇಕು.",
     "exceeds_pile": "{quantity} ಅನ್ನು ರಾಶಿಯಿಂದ {pile_index} ತೆಗೆಯಲು ಸಾಧ್ಯವಿಲ್ಲ (ಕೇವಲ {pile_count} ಮಾತ್ರ ಉಳಿದಿದೆ)."
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "ಆಟಗಾರ {player_id} [{pile_index} {quantity}] ಆಡಿದರು, ರಾಶಿ {pile_index} ನಿಂದ {quantity} ವಸ್ತು(ಗಳು)ವನ್ನು ತೆಗೆದುಹಾಕಿದರು."
   },
   "outcome": {
     "win": "ಆಟಗಾರ {player_id} ಕೊನೆಯ ವಸ್ತುವನ್ನು ತೆಗೆದುಕೊಂಡು ಹೋದನು!"

@@ -4,13 +4,13 @@
   },
   "board": {
     "game_board": "Qhapaq P'anqa: {board}",
-    "board_state": "Estado de la Junta: {board}"
+    "board_state": "Pampa kachkan: \n{board}"
   },
   "invalid_move": {
     "wrong_format": "Mana allin movimiento. Player {player_id} manan allintachu kutichirqan 'column number' nisqawan.",
-    "out_of_bounds": "Invalid move. Player {player_id} attempted to place {num} at ({row}, {col}), which is out of bounds.",
-    "overwrite": "Invalid move. Player {player_id} attempted to overwrite a pre-filled cell ({row}, {col}).",
-    "violates_rules": "Invalid move. Player {player_id} attempted to place {num} at ({row}, {col}), which violates Sudoku rules."
+    "out_of_bounds": "Mana allin yupay. Kawakim {player_id} yupay {num}ta siqi {row}, wata {col}pi yupanchay, mana pampa ukhupi.",
+    "overwrite": "Mana allin yupay. Kawakim {player_id} ñawpaq p'uktasqa k'itita ({row}, {col}) q'ipiy.",
+    "violates_rules": "Mana allin yupay. Kawakim {player_id} yupay {num}ta siqi {row}, wata {col}pi yupanchay, Sudokup kamachikunata ch'iqay."
   },
   "outcome": {
     "win": "¡Yuyaykusun! {player_id} pukllaqninqa Sudoku rikch'anachiypi tukurqan.",

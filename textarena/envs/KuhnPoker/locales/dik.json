@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a {max_rounds} round game of Kuhn Poker.\nGame Rules:\n- Kuhn Poker uses a 3-card deck with J, Q, K (J lowest, K highest)\n- Each player antes {ante} chip and receives 1 card each round (note that the cards are dealt without replacement, so you cannot have the same card as your opponent).\n- Game continues for {max_rounds} rounds\n- The player with the most chips after all rounds wins\nAction Rules:\n- '[check]': Pass without betting (only if no bet is on the table)\n- '[bet]': Add 1 chip to the pot (only if no bet is on the table)\n- '[call]': Match an opponent's bet by adding 1 chip to the pot\n- '[fold]': Surrender your hand and let your opponent win the pot"
+    "intro": "Yin ee Player {player_id} ku jɔ̈k {max_rounds} de Kuhn Poker.\nKoc piɛ̈ŋ:\n- Kuhn Poker ee lɔ̈ɔ̈ŋ 3 kaɣarɛ̈ɛ̈ŋ J, Q, K (J ee lɔ̈ɔ̈ŋ tïŋ, K ee lɔ̈ɔ̈ŋ nhïïm)\n- Kɔɔ̈ŋ ee kɔɔ̈ŋ {ante} chip ku kɔɔ̈ŋ ee kaɣarɛ̈ɛ̈ŋ 1 kɔɔ̈ŋ kɔɔ̈ŋ (kɔɔ̈ŋ ee kaɣarɛ̈ɛ̈ŋ ee kɔɔ̈ŋ tïŋ kuɔ̈ŋ ee kɔɔ̈ŋ nhïïm)\n- Jɔ̈k ee jɔ̈k {max_rounds} kɔɔ̈ŋ\n- Kɔɔ̈ŋ ee kɔɔ̈ŋ nhïïm chip kɔɔ̈ŋ kɔɔ̈ŋ ee kɔɔ̈ŋ tïŋ\nKoc wɛ̈ɛ̈ŋ:\n- '[check]': Pɛ̈ɛ̈ŋ kuɔ̈ŋ ee kɔɔ̈ŋ (kuɔ̈ŋ ee kɔɔ̈ŋ tïŋ kuɔ̈ŋ ee kɔɔ̈ŋ nhïïm)\n- '[bet]': Kuɔ̈ŋ ee kɔɔ̈ŋ chip kɔɔ̈ŋ kɔɔ̈ŋ (kuɔ̈ŋ ee kɔɔ̈ŋ tïŋ kuɔ̈ŋ ee kɔɔ̈ŋ nhïïm)\n- '[call]': Kuɔ̈ŋ ee kɔɔ̈ŋ chip kɔɔ̈ŋ kɔɔ̈ŋ ee kɔɔ̈ŋ nhïïm\n- '[fold]': Pɛ̈ɛ̈ŋ ee kɔɔ̈ŋ kuɔ̈ŋ ee kɔɔ̈ŋ tïŋ"
   },
   "init_round": {
     "round_start": "### Kɛkɛ̈ cɔɔl {current_round} kɛ̈kɛ̈ thɛɛr {max_rounds} thɛɛr. Kaardiɛt cɛɛk eɛ: '{player_card}'",
@@ -11,12 +11,12 @@
     "not_legal": "Luɔi adhil bï ya {legal_actions}."
   },
   "action": {
-    "submit_move": "Player {player_id}, submitted move: '[{move}]'.",
+    "submit_move": "Player {player_id}, kɔɔ̈ŋ ee kɔɔ̈ŋ: '[{move}]'.",
     "valid_actions": "Kä lëu ba looi aa käkë: {legal_actions}.",
-    "round_summary": "{reason} Tiɛ̈r cɔɔl aacɛɛk: Player 0: '{player_0_chips}'; Player 1: '{player_1_chips}'"
+    "round_summary": "{reason} Akuen ke kɔ̈ɔ̈c: Raan 0: '{player_0_chips}'; Raan 1: '{player_1_chips}'"
   },
   "showdown": {
-    "showdown_summary": "Showdown: Player {winner}'s {winner_card} beats Player {loser}'s {loser_card}. Player {winner} wins pot of {pot_value} chips."
+    "showdown_summary": "Kɔɔ̈ŋ ee kɔɔ̈ŋ: Player {winner} ee kaɣarɛ̈ɛ̈ŋ {winner_card} ee kɔɔ̈ŋ Player {loser} ee kaɣarɛ̈ɛ̈ŋ {loser_card}. Player {winner} ee kɔɔ̈ŋ chip {pot_value}."
   },
   "outcome": {
     "draw": "Në thök de {max_rounds} lɔ̈ɔ̈m, ke kɔc kedhiɛ aake ye naŋ kä thöŋ në kek yiic.",

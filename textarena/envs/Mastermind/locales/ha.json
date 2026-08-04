@@ -13,7 +13,7 @@
     "repeated_guess": "Kun riga kun yi tsammani {guess}. Da fatan za a gwada wani zato."
   },
   "game_action": {
-    "feedback": "Submitted [{guess}]. Feedback: {black_pegs} black peg(s), {white_pegs} white peg(s)."
+    "feedback": "An gabatar da [{guess}]. Sakamako: {black_pegs} tsumba baƙi, {white_pegs} tsumba fari."
   },
   "outcome": {
     "win": "Ka warware lambar, warware {black_pegs} daga {code_length} ƙuƙwalwa daidai",

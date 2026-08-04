@@ -5,7 +5,7 @@
     "commander_beta": "Kommandant Beta"
   },
   "game_state": {
-    "header_round": "=== COLONEL BLOTTO - Round {current_round}/{num_rounds} ===\nRounds Won - Commander Alpha: {alpha_score}, Commander Beta: {beta_score}"
+    "header_round": "=== COLONEL BLOTTO - Rond {current_round}/{num_rounds} ===\nRonne gewonnen - Kommandant Alpha: {alpha_score}, Kommandant Beta: {beta_score}"
   },
   "round_battle": {
     "field_result": "\nRonn {current_round}\nCommander Alpha huet allokéiert: {p0_allocations}\nCommander Beta huet allokéiert: {p1_allocations}\n",

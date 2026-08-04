@@ -8,10 +8,10 @@
     "already_fired": "Xiriirka {coord} horey ayaa loo toogtay."
   },
   "game_action": {
-    "you_sunk": "Sunk! You sunk a ship at {coord}! Your updated board:\n{view}",
+    "you_sunk": "Duqeey! Waxaad duqeeytay markab {coord}! Alwadaaggaaga cusub:\n{view}",
     "opp_sunk": "Opponent wuu kacsay buurkaaga {coord}! Buurkaaga cusboonaantu waa:\n{view}",
     "you_hit": "Guul! Adigoo buurka ugu geestay {coord}! Buurkaaga cusboonaantu waa:\n{view}",
-    "opp_hit": "Opponent hit your ship at {coord}! Buurkaaga cusboonaantu waa:\n{view}",
+    "opp_hit": "Ciyaartoyga kale waxuu ku dhacday markabkaaga {coord}! Alwadaaggaaga cusub:\n{view}",
     "you_miss": "Mise! Adigoo buurka ka daayay {coord}! Buurkaaga cusboonaantu waa:\n{view}",
     "opp_miss": "Opponent wuu ka daayay buurkaaga {coord}! Buurkaaga cusboonaantu waa:\n{view}"
   },

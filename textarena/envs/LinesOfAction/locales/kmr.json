@@ -10,7 +10,7 @@
     "{to}": "The destination coordinate of a move, such as b3"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in game of LinesOfAction.\nYour pieces are '{side}', opponent pieces are '{other}'.\nMove format: `[b1b3]` (from-coord to-coord). A legal move travels horizontally, vertically, or diagonally a number of squares equal to the total pieces (any colour) in that line. You may jump over your own pieces, but not opponent pieces; landing on an opponent captures it.  Win when all your pieces are 8-neighbour connected."
+    "intro": "Tu Lîstikvan {player_id} î di lîstika LinesOfAction de.\nKevirên te '{side}' in, kevirên dijberê '{other}' in.\nFormatê hereketê: `[b1b3]` (ji koordînata-destê heta koordînata-armancê). Hereketa qanûnî bi rengekî wekî hejmara kevirên (rengekî her) di wê rêzê de diçe. Tu dikarî ser kevirên xwe bibihûrî, lê ne ser kevirên dijberê; danîna ser kevirekî dijberê wê digire.  Bi ser ketinî dema hemû kevirên te bi 8-cînarî ve girêdayî ne."
   },
   "board": {
     "current_board": "Deste: {board}"

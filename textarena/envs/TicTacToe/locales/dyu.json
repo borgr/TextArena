@@ -10,10 +10,10 @@
     "intro": "I ye jokelani {player_id} o tɛ Tic Tac Toe.\nO tɛgɛnin ye kojugu kɛlɛ san (dɔw, kɔrɔn, walla kɛlɛkɛlɛ) kanburu kunni.\nO tɛgɛn dɔ, i bɛɛ sɛbɛn kɔnɔ kɛlɛ lakika (0-8) i bɛɛ fɔ o fɔlɛ kɛlɛ kɔnɔ.\nSɛbɛn, '[4]' fɔ i fɔlɛ kɛlɛ kɔnɔ kɛlɛ kanburu kunni kɔrɔn.\nKa jokelani {player_id}, i bɛɛ '{symbol}', wɔle o tɛgɛla ye '{opponent_symbol}'."
   },
   "board": {
-    "current_board": "Current Board:\n\n{board}\n\nAvailable Moves: {moves}"
+    "current_board": "Tablɛ kɔnɔ:\n\n{board}\n\nCɛ ka bɔ kɛlɛ tile: {moves}"
   },
   "invalid_move": {
-    "wrong_format": "The submitted move does not follow the correct format.",
+    "wrong_format": "Kɛlɛyɔrɔ kɔnɔ ka taa ɲɛfɔ ka baara kɛlɛyɔrɔw la.",
     "out_of_range": "{cell} tɛ sɛli ɲuman ye. A ka kan ka kɛ 0 ni 8 cɛ.",
     "already_occupied": "O yɔrɔ nin tɔɔ bɛɛ ye {cell}."
   },

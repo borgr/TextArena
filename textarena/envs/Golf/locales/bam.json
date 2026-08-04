@@ -21,11 +21,11 @@
     "{scores}": "The pre-rendered per-player list of final scores"
   },
   "player_prompt": {
-    "intro": "You are playing Golf (Card Game) - Player {player_id}.\nGoal: Get the lowest total score in this single round. If columns share the same value, they are summed as 0.\nCard Values: A=1, 2-10=face value, J/Q=10, K=0\n\nActions (use exact brackets):\n- '[draw]' - Draw from deck\n- '[take]' - Take from discard pile\n- '[swap X Y]' - Swap drawn card with position X (row) Y (column)\n- '[discard]' - Discard the drawn card\n"
+    "intro": "I ka kɛlɛ Golf (Kaadi Jɛri) - Jɛri {player_id}.\nKɛlɛ: Kɛ jɛri kɔnɔ kɔɔrɔ dɔ la kɛlɛ kɔɔrɔ kan. Ni kɔlɔn bɛ kɔɔrɔ kelen, u bɛ kɔɔrɔ 0.\nKaadi Kɛlɛ: A=1, 2-10=kɛlɛ kɔɔrɔ, J/Q=10, K=0\n\nKɛlɛw (kɛlɛ kɔɔrɔ bɛɛ): \n- '[draw]' - Kaadi kɔɔrɔ jɛri\n- '[take]' - Kaadi kɔɔrɔ fa\n- '[swap X Y]' - Kaadi kɔɔrɔ bɛɛ X (sɛri) Y (kɔlɔn)\n- '[discard]' - Kaadi kɔɔrɔ jɛri kɔɔrɔ.\n"
   },
   "board": {
     "drew": "I ka na: {card}\nYɛrɛ na [swap X Y] wa ni [discard]",
-    "took": "You took: {card} from discard pile\nYou must [swap X Y] with it (cannot discard).",
+    "took": "I fa: {card} kaadi kɔɔrɔ fa\nI ka tɛ [swap X Y] kɛlɛ (tɛ kɔɔrɔ jɛri).",
     "peeked": "I ka kɛ: kɔnɔ ({row}, {col}): {card}",
     "turn_view": "I ka kɛ:\n{hand}\nDanbo pile: {discard}\n{options}",
     "none": "Foyi tɛ yen."
@@ -43,7 +43,7 @@
   },
   "action_desc": {
     "swapped": "Jokelani {pid} doni {new} ni {old} kɔnɔ ({row}, {col})",
-    "discarded": "Player {pid} discarded {card}"
+    "discarded": "Kɛlɛbɔ {pid} kɔnɔw la {card} kɔnɔw la"
   },
   "message": {
     "deck_empty": "Bɛnbaliya bɛ kɛ! Ɲininkali labanna sisan.",
@@ -51,17 +51,17 @@
     "final_round": "Jokelani {pid} {reason}! Anw kɛlen jokelani ye na kɛlen kɔnɔ"
   },
   "reason": {
-    "all_revealed": "has all cards revealed"
+    "all_revealed": "kɔnɔw la ka kɛlɛbɔ kɔnɔw la"
   },
   "invalid": {
-    "wrong_action": "Use exactly ONE bracketed action: [draw], [take], [swap X Y], [discard], [knock], or [peek X Y]",
+    "wrong_action": "Kɛlɛbɔ kɔnɔw la ka kɔrɔw la kɔnɔw la! Kɛlɛbɔ kɔnɔw la ka kɔrɔw la: [draw], [take], [swap X Y], [discard], [knock], walima [peek X Y]",
     "discard_empty": "Falenfɛn kuruw lakolon don!",
     "must_draw_first": "I bɛ na [draw], [take], [knock], ni [peek X Y] kɔnɔ",
     "cannot_discard_taken": "I tɛ se ka kadi min ta k'a bɔ i yɛrɛ la, o fili. I bɛ a yɛlɛma ɲɔgɔn fɛ.",
     "have_drawn_card": "I ka kɛ kɔnɔ. I bɛ na [swap X Y] wa ni [discard]",
     "need_drawn_swap": "I mago bɛ ka kartiw sɔrɔ walasa k'u falenfalen.",
     "need_drawn_discard": "I mago bɛ ka kartiw sɔrɔ walasa k'u fili.",
-    "out_of_bounds": "Position out of bounds. Use row 1-{max_row}, column 1-{max_col}",
+    "out_of_bounds": "Position kɔnɔw la kɔnɔw la! Kɛlɛbɔ kɔnɔw la ka ligne 1-{max_row}, colonne 1-{max_col}",
     "knock_with_card": "I tɛ se ka da sɔgɔ ni i ye kariti bɔ. A' y'aw ta dafa fɔlɔ.",
     "already_knocked": "Mɔgɔ dɔ ye nin ɲɔgɔn kɛ ka ban.",
     "already_revealed": "O karti jirala ka ban!"

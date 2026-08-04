@@ -10,7 +10,7 @@
     "{to}": "The destination coordinate of a move, such as b3"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in game of LinesOfAction.\nYour pieces are '{side}', opponent pieces are '{other}'.\nMove format: `[b1b3]` (from-coord to-coord). A legal move travels horizontally, vertically, or diagonally a number of squares equal to the total pieces (any colour) in that line. You may jump over your own pieces, but not opponent pieces; landing on an opponent captures it.  Win when all your pieces are 8-neighbour connected."
+    "intro": "Tù ses su Giogadore {player_id} in unu giogu de LinesOfAction.\nIs pezzos tuos sunt '{side}', is pezzos de s'avversàriu sunt '{other}'.\nFormatu de sa mòvida: `[b1b3]` (coordinadu de orìgine - coordinadu de destinatzione). Una mòvida legale si movet in orizontale, verticale o diagonale unu nùmeru de cuadrados uguale a su nùmeru totale de pezzos (de colore cale si siat) in cussa lìnia. Podes saltare is pezzos tuos, ma no is pezzos de s'avversàriu; si aterras in unu pezzo de s'avversàriu, lu catturas.  Vincis cando is pezzos tuos sunt tutti connessos in 8 diretziones."
   },
   "board": {
     "current_board": "Cunsigliu: {board}"
@@ -30,7 +30,7 @@
   },
   "outcome": {
     "win": "Totus sas partes sunt collegadas.",
-    "draw_no_capture": "60 moves without capture.",
+    "draw_no_capture": "60 mòvidas senza cattura.",
     "draw_repetition": "Posizione repìtida tres bortas."
   }
 }

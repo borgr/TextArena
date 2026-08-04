@@ -15,7 +15,7 @@
   },
   "invalid_move": {
     "wrong_format": "Ifomethi yekungenisa lengasebenti. Sebentisa: A:5, B:10, C:5",
-    "invalid_field": "Ligama lendzawo lelingasebenti (invalid field name) [s] Tindzawo letisebentako: {field_names}",
+    "invalid_field": "Igama la-field (s) alikho ngempela. Mafield angempela: {field_names}",
     "wrong_allocation_value": "Konkhe kwabiwa kwematfuba kumele kube tinombolo letinemagama langasiwo.",
     "incorrect_total_units": "Kumele uweke ngemali zonke {num_total_units}. Jikelele labo ngoku: {current_sum}",
     "good_allocations": "Kuhlukanisa tintfo kulungile."

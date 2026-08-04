@@ -1,9 +1,9 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a game of HighSociety (2-player version).\nGame flow:  Ten prestige cards are auctioned one after another.\nBidding:    Each auction, secretly choose a money card 1-11 and reveal.\n            • Higher bid wins the prestige card and discards that money card.\n            • Lower bid keeps their money card.\n            • Tie -> both bids are returned and the same prestige card is re-auctioned.\nScoring:    After all ten auctions, add **remaining cash + prestige points**.\n            Higher *net-worth* wins (exact tie -> draw).\n\n**Action syntax**  →  bid a single card like '[7]' or '[11]'."
+    "intro": "Kedda d-iklan {player_id} deg wari n HighSociety (wari n sin imawlan).\nAseqdec n wari:  Krad mertaban n prestij tuzzaltent yan udeffir n wayed.\nTuzzalt:    Yal asqdec, xerrez-d akeddi n tefrimt 1-11 d uffeg.\n            • Tuzzalt tameqqrant tewwi-d takart n prestij d tettarez akeddi n tefrimt.\n            • Tuzzalt tameẓẓyant tettarez akeddi n tefrimt-is.\n            • Tie -> tuzzal tin d tin ttwaɣen d takart n prestij tin tettwazuɣen.\nAseqdec n wakal:    Seld n krad mertaban, rnu **akal ilik + uɣawas n prestij**.\n            Aɣawas *amari* yewwi (tie tameẓẓyant -> aneɣlaf).\n\n**Tasleɣt n tɣawsa**  →  tuzzal takart tameẓẓyant am '[7]' neɣ '[11]'."
   },
   "auction": {
-    "announce": "\n### Auction {round}/10  |  Prestige card: {prize}"
+    "announce": "\n### Asqdec {round}/10  |  Takart n prestij: {prize}"
   },
   "board": {
     "money_cards": "{money} ⵜⴰⴱⴰⵔⴰⵜ ⵜⴰⵏ ⵏ ⴰⵍⵈⵉⵎ ⵓⵉⵏ ⴰⴾⴰⵍ:"
@@ -14,11 +14,11 @@
   },
   "message": {
     "tie": "ⵜⵉⴼⴰⵙⵙⴻⵏ ⵏⴻⵜ-ⴰⴷ ⴰⵔⴰⴷⴰⴱⴰⵜ. ⵔⵢⴱⴰⵉⴷ!",
-    "auction_result": "P0 bid {bid0}, P1 bid {bid1}. Player {winner} wins prestige {prize} (total {total})."
+    "auction_result": "P0 yuzzal {bid0}, P1 yuzzal {bid1}. Amawal {winner} yewwi prestij {prize} (amari {total})."
   },
   "outcome": {
-    "p0_wins": "Net-worth {nw0} > {nw1}",
-    "p1_wins": "Net-worth {nw1} > {nw0}",
+    "p0_wins": "Aɣawas {nw0} > {nw1}",
+    "p1_wins": "Aɣawas {nw1} > {nw0}",
     "draw": "ⵆⵢⵍ ⴰⵈⵉⵎⴰⵏ ⵓⵉⵏ ⵙⴰⵎⵎⵓⵜⴰⵉⵏⵢⵏ {nw0}  ⵜⴰⵂⴰⵛⵉⵍⵜ."
   }
 }

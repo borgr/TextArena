@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({piece}). Opponent is ({opp}).\nSubmit moves as '[a2 a3]' (from → to).\n- A normal move is one forward step to an adjacent empty vertex.\n- A capture is a jump over an adjacent enemy piece landing on the empty node beyond.\nEach capture yields {score_per_capture} points.\nGame ends after {max_moves} moves or when a player has no legal move."
+    "intro": "Inwe ni Oyundi {player_id} ({piece}). Oyundi opira ni ({opp}).\nTie gi moni kama '[a2 a3]' (kutoka → eko).\n- Moni ma ber bedo orumo mbele kanyo kinyume kwa kiti tamo ma kom.\n- Kuwono gi kuomruok orumo mbele kinyume gi oyundi opira to gi kiti kom eko.\nKuwono kila giye {score_per_capture} alama.\nGemo owuo gi {max_moves} moni opira oyundi onge gi moni ma olego."
   },
   "board": {
     "current_board": "Chungo #{move_count}\n\n{board}"

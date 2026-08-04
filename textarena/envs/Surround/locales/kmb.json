@@ -10,14 +10,14 @@
     "{groups}": "Neutral ranking data (a list of player-id groups, best to worst); do not translate"
   },
   "player_prompt": {
-    "intro": "{num_players}-Player Surround on a {width}x{height} grid.\nYou are player {player_id}. Valid moves: '[up]' '[down]' '[left]' '[right]' or w/s/a/d.\nObjective: outlive everyone else. Trails are deadly; wall hits kill; head-on crashes kill both."
+    "intro": "{num_players}-Muntu a Surround mu {width}x{height} kikua.\nNgeye muntu {player_id}. Mikweso ya kwamba: '[up]' '[down]' '[left]' '[right]' kana w/s/a/d.\nKulungu: kuikala kuwa na bantu bosi. Mikweso ya muntu ina kuwa na nda; kukwata kwa kikua kuna kuwa na nda; kukwata kwa muntu wawili kuna kuwa na nda bosi."
   },
   "board": {
     "current": "Kibuka kia Utuminu: {board}",
     "after_moves": "O kididi kiki, ki tena ku kala sé mukengeji: {board}"
   },
   "game_action": {
-    "invalid_death": "Player {player_id} died due to invalid move."
+    "invalid_death": "Muntu {player_id} akufi kwa mikweso isivyo ya kwamba."
   },
   "outcome": {
     "survived_win": "O muthu ua kexile mu jokala, {player_id} a mu bhulula; o athu amukuá afu.",
@@ -25,6 +25,6 @@
     "outlived": "O muthu ua beta o kota mu ku uabha, ió uala bhu kaxi k'etu.",
     "all_dead": "O athu oso a fuile.",
     "turn_limit": "O muthu u nangenena dingi ku muenhu, muéne ua-nda nganhala o ita.",
-    "ranking": "{reason} Final ranking groups (best→worst): {groups}"
+    "ranking": "{reason} Vilandi vya mwisho vya kikundi (mbote→mubi): {groups}"
   }
 }

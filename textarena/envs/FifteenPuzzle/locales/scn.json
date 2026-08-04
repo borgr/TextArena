@@ -1,10 +1,10 @@
 {
   "player_prompt": {
-    "intro": "Tu si Player {player_id}. Tu stai jucannu lu jocu di 15-Puzzle.\nL'obiettivu di lu jocu è di disporri li tile numirati nòrdini ascendentii di 1 a 15, cu lu spazziu vacanti lucatu ntâ cantu nfiriuri-manca.\nPi fari na mossa, puoi slidari nu tile ntô spazziu vacanti (rapprisintatu di dui sottulini, p. es. __) usannu una di li siguenti cumanni:\n- 'nsù': Movi lu tile sutta lu spazziu vacanti nsù.\n- 'nnizzi': Movi lu tile supra lu spazziu vacanti nnizzi.\n- 'manca': Movi lu tile â dritta di lu spazziu vacanti manca.\n- 'dritta': Movi lu tile â manca di lu spazziu vacanti dritta.\nPi spidiri la tua mossa, digita la dirizzioni (p. es., 'nsù', 'nnizzi', 'manca' o 'dritta') ntra parintisi quatrati, p. es. [up].\nLa borta currenti è ammustrata ccà sutta. Usa l'infurmazzioni pi risòliri lu puzzle.\n"
+    "intro": "Siti lu Jucaturi {player_id}. Stati jucannu lu jocu dû 15-Puzzle.\nL'obbiettivu dû jocu è ri disporri li piastri nummirati 'n òrdini criscienti dû 1 ô 15, cô spazziu vacanti situatu 'n bassu a dritta.\nPi fari nu mòvu, putiti sciddicari na piastrella ntô spazziu vacanti (rapprisintatu dû doppiu trattu, p'asempiu __) usannu unu dî seguenti cumandi:\n- 'up': Mòvi la piastrella sutta ô spazziu vacanti 'n susu.\n- 'down': Mòvi la piastrella supra ô spazziu vacanti 'n jusu.\n- 'left': Mòvi la piastrella â dritta dû spazziu vacanti â manca.\n- 'right': Mòvi la piastrella â manca dû spazziu vacanti â dritta.\nPi mannari lu mòvu, diggitati la dirizioni (p'asempiu, 'up', 'down', 'left', o 'right') tra parentisi quatratu, p'asempiu [up].\nLu layout attuali dâ tàvula è mustratu ccà sutta. Usati st'informazioni pi risòrviri lu puzzle.\n"
   },
   "board": {
     "current_board": "Borta Currenti:\n\n{board}\nMossi Disponibbili: {moves}",
-    "game_board": "Cunsigliu di ghjocu: {board}"
+    "game_board": "Tàvula dû Jocu:\n{board}"
   },
   "invalid_move": {
     "wrong_format": "Formatu di mossa nvaliddu. Lu jucaturi {player_id} nun rispunniu cu na direzzioni valida ntê parentizzi quadratici.",
@@ -12,6 +12,6 @@
   },
   "outcome": {
     "win": "Congratulazioni! Lu jocaturi {player_id} ha risoltu cu successu lu 15-Puzzle.",
-    "turn_limit": "U limitu di giru hè statu righjuntu. u mudellu hà cumpletatu {percent} per centu di l'arcuigghiu"
+    "turn_limit": "Lu lìmiti di turni è statu raggiuntu. Lu mudellu cumpretò {percent} percentu dû puzzle"
   }
 }

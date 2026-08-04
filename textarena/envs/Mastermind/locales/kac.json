@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing Mastermind.\nYou need to find the code that is {code_length} digits long, each digit from 1 to {num_numbers}, {repeats}.\nIn your response, you can submit your guess in the following format: '[2 1 4 5]'.\nAfter each guess, you will receive feedback in the form of black and white pegs.\nA black peg indicates a correct digit in the correct position, while a white peg indicates a correct digit in the wrong position.\nYou have {max_turns} turns to guess the code.\n",
+    "intro": "Nan Mastermind hkying sha re.\nNan {code_length} kawoi hku nna re, kawoi kaba hkying 1 kawoi {num_numbers} kawoi rai, {repeats}.\nNan jaw ai majaw, '[2 1 4 5]' hkying re jaw ai sha rai.\nKaba hkying jaw ai hpang, nan hkying jaw ai hpyen pawt hkying re sha rai, hkying pawt hkying re hku nna re.\nHkying pawt hkying re jaw ai hku nna, nan jaw ai hpyen pawt hkying re sha rai, hkying pawt hkying re hku nna re.\nNan {max_turns} kawoi jaw ai sha re.\n",
     "with_repeats": "bai matut byin wa mai ai lam ni hte rau",
     "no_duplicates": "lahkawng lang n galaw ai sha,"
   },
@@ -13,10 +13,10 @@
     "repeated_guess": "Nang sawn yu sai {guess}. Kaga hku bai dinglik u."
   },
   "game_action": {
-    "feedback": "Submitted [{guess}]. Feedback: {black_pegs} black peg(s), {white_pegs} white peg(s)."
+    "feedback": "[{guess}] jaw ai re. Hpyen pawt: {black_pegs} hkying pawt hkying re hku nna, {white_pegs} hkying pawt hkying re hku nna."
   },
   "outcome": {
-    "win": "You have cracked the code, solving {black_pegs} out of {code_length} pegs correctly",
-    "turn_limit": "အခါနယ်လုပ်တုဲရ၊။ မၞိဟ်ဂှ် တီကၠုင် {percent} ပၞောန် ကိုန်ဂစိုတ် တုပ်ကဵုမာန်။"
+    "win": "Nan hkying pawt hkying re jaw ai hku nna, {black_pegs} kawoi {code_length} kawoi hku nna re hpyen pawt hkying re.",
+    "turn_limit": "Kawoi jaw ai sha re hku nna. Nan {percent} kawoi hku nna re jaw ai hpyen pawt hkying re."
   }
 }

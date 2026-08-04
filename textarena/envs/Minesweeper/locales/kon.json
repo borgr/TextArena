@@ -9,7 +9,7 @@
   "invalid_move": {
     "wrong_format": "Nge pesaka ve mvutu na ba coordonnées ya mbote yina kele na kati-kati.",
     "out_of_bounds": "Ba coordonnées ya ba rangée ti ba colonnes kele na nganda.",
-    "already_revealed": "The cell at ({row}, {col}) has already been revealed.",
+    "already_revealed": "Mbanga na ({row}, {col}) imefunguliwa tayari.",
     "hit_mine": "O kala mine kwa ({row}, {col})."
   },
   "game_action": {

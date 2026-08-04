@@ -14,7 +14,7 @@
   },
   "game_action": {
     "attack": "P{player_id} lɔ̈ɔ̈c P{opp_id} thɛ̈k ë bɛ̈n {opp_idx}: ee cɔl yɛ̈k ë bɛ̈n {opp_val} gɔl ë bɛ̈n {new_val}.",
-    "split": "P{player_id} splits into [{L}, {R}]."
+    "split": "R{player_id} pɛɛl tɛɛm [{L}, {R}]."
   },
   "history": {
     "entry": "P{player_id} {desc}"

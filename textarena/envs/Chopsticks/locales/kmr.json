@@ -3,7 +3,7 @@
     "intro": "Tu Player {player_id} yî di Chopsticksê. Di gera te de, yek ji van bije:\n  + Attack:  '[attack M O]'  ku tê de M=destê te (0 an 1), O=destê dijmin (0 an 1).\n    - Hejmarê destê dijmin zêde dibe bi destê te; heger >=5 be, dibe 0.\n  + Split:   '[split L R]'  ku ji bo belavkirina hemû bêngîniyên xwe di L û R (L+R = hemû bêngîniyên te).\nBişîre yek ji van fermanan."
   },
   "board": {
-    "current_board": "Taqeta Heyîn:\nPlayer 0: {hands_0}\nPlayer 1: {hands_1}"
+    "current_board": "Tevahiya Lêzêr:\nLêzer 0: {hands_0}\nLêzer 1: {hands_1}"
   },
   "invalid_move": {
     "my_hand_dead": "Destê te {my_idx} mirî ye.",
@@ -14,7 +14,7 @@
   },
   "game_action": {
     "attack": "P{player_id} êrîşî destê P{opp_id} ê dike {opp_idx}: ew ji {opp_val} digihîje {new_val}.",
-    "split": "P{player_id} splits into [{L}, {R}]."
+    "split": "P{player_id} parve dike di [{L}, {R}]."
   },
   "history": {
     "entry": "P{player_id} {desc}"

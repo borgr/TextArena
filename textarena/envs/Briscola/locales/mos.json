@@ -19,7 +19,7 @@
     "{deck_count}": "Number of cards left in the deck"
   },
   "game": {
-    "start": "Briscola game started! Trump suit: {trump_suit} (Trump card: {trump_card})"
+    "start": "Yɛlɛm kɛ yɔɔda! Kaɣa wɛɛra: {trump_suit} (Kaɣa kɔɔda: {trump_card})"
   },
   "prompt": {
     "intro": "A nyɛla ŋun yi Briscola - Player {player_id}.\nTɛmplet: Di yaɣa mini deei pɔinti pam (120 pɔinti zaŋ ti filimbu).\nKaardi pɔinti: A=11, 3=10, K=4, Q=3, J=2, din kam zaa=0\nKaardi tɛma: A > 3 > K > Q > J > 7 > 6 > 5 > 4 > 2\nTrump kaardi nyɛ ŋun di kaardi shɛŋa ban nyɛ Trump kaardi kamani bɛ ni tooi di shɛli.\n\nTɛmplet: '[play X]' din nyɛ kaardi chibani (1-{max_pos}) a ni mali"
@@ -48,7 +48,7 @@
   },
   "action": {
     "played": "Player {player_id} nyɛla ŋun yi {card}",
-    "trick_win": "Player {winner} wins the trick with {card} and gains {points} points!"
+    "trick_win": "Yɛlɛm kɛ {winner} wɛɛri yɔɔda nɛ {card} nɛ wɛri {points} pɔɔya!"
   },
   "outcome": {
     "head": "Filimbu niŋ na! Player {winner} di yaɣa ŋɔ ni {points} pɔinti!\n\nPɔinti zaŋ ti filimbu: \n{scores}",

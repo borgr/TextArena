@@ -1,13 +1,13 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({role}) in a {num_rounds}-round Matching Pennies game.\n- Each round, submit [heads] or [tails] (or [h], [t]).\n- If your choice matches your opponent’s, Player 0 wins the round; otherwise Player 1 wins.\nReply with your choice in the format '[heads]' or '[tails]'.\n"
+    "intro": "Nge ujile Mubandi {player_id} ({role}) mu joga ya Matching Pennies ya mavu {num_rounds}.\n- Ku mavu yonse, tala [heads] kapwa [tails] (kapwa [h], [t]).\n- Ikiwa kubandi kwako kuhaka na kubandi kwa kambundi wako, Mubandi 0 ujile wina mavu ao; kamba Mubandi 1 ujile wina.\nVutula kubandi kwako mu njila ya '[heads]' kapwa '[tails]'.\n"
   },
   "invalid_move": {
     "wrong_format": "Foma ya makosa; tuma '[heads]' or '[tails]'."
   },
   "message": {
-    "round_match": "Player 0 picked {choice0}; Player 1 picked {choice1}. Match -> Player 0 wins",
-    "round_mismatch": "Player 0 picked {choice0}; Player 1 picked {choice1}. Mismatch -> Player 1 wins."
+    "round_match": "Mubandi 0 yalunda {choice0}; Mubandi 1 yalunda {choice1}. Haka -> Mubandi 0 ujile wina",
+    "round_mismatch": "Mubandi 0 yalunda {choice0}; Mubandi 1 yalunda {choice1}. Kamba haka -> Mubandi 1 ujile wina."
   },
   "outcome": {
     "p0_wins": "O muthu uala ku pholo, u tambula dingi.",

@@ -8,7 +8,7 @@
   },
   "invalid_move": {
     "wrong_format": "Oýunçy dogry hereket formady bilen jogap bermedi.",
-    "invalid_button": "An invalid button has been selected."
+    "invalid_button": "Ýalňyş düwme saýlandy."
   },
   "game_action": {
     "pressed": "Siz {button} düwme basdyňyz we {reward} möçberinde baýrak aldyňyz."

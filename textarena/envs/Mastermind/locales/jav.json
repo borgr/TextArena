@@ -13,7 +13,7 @@
     "repeated_guess": "Sampeyan wis ngira {guess}. Coba coba sing beda-beda."
   },
   "game_action": {
-    "feedback": "Submitted [{guess}]. Feedback: {black_pegs} black peg(s), {white_pegs} white peg(s)."
+    "feedback": "Dikirim [{guess}]. Umpan balik: {black_pegs} pasak ireng, {white_pegs} pasak putih."
   },
   "outcome": {
     "win": "Panjenengan wis mbukak kodhe, ngatasi {black_pegs} saka {code_length} pasung kanthi bener",

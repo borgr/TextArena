@@ -14,14 +14,14 @@
     "{scores}": "The final scores as a raw player-number to score mapping - do not translate"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player GOPS.\n- You hold the 13 cards A-K (each exactly once).\n- Each round a prize is revealed. Submit ONE card like `[Q]`, `[10]`, `[2]` …\n- Highest card wins the prize (+ any carry-over pot). Ties roll the prize into the next round.\n- After 13 rounds, highest total wins. Invalid moves = elimination."
+    "intro": "Üç Oyunculu GOPS'te Oyuncu {player_id}'siniz.\n- 13 kartı (her biri tam olarak bir kez) A-K tutuyorsunuz.\n- Her turda bir ödül açığa çıkarılır. Bir kart gibi `[Q]`, `[10]`, `[2]` … gönderin\n- En yüksek kart ödülü kazanır (+ herhangi bir taşınan pot). Beraberlikler ödülü bir sonraki tura taşır.\n- 13 turdan sonra, en yüksek toplam kazanır. Geçersiz hamleler = elenme."
   },
   "round": {
-    "header": "### Round {round}/13 - Prize: {prize} (worth {worth})",
+    "header": "### Tur {round}/13 - Ödül: {prize} (değeri {worth})",
     "hand": "Qalğan qolıñız: {hand}"
   },
   "reveal": {
-    "win": "Bids » {bids} - Player {winner} wins {pot}.",
+    "win": "Teklifler » {bids} - Oyuncu {winner} {pot} kazanır.",
     "tie": "Teklifler  {bids} - teñ, qazan şimdi {pot}.",
     "scores": "Netice → {scoreline}"
   },

@@ -21,23 +21,23 @@
     "{total}": "Each player's tied final total (a number)"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id}, playing {num_rounds} rounds of Iterated Ultimatum Game.\nYou have ${pool} to split this round between yourself and Player {other_id}.\n\nProposer:\n  - Make an offer: [Offer: $X] (0 <= X <= pool)\n  - If accepted → You get $(pool - X), other player gets $X\n  - If rejected → Both get $0\n  - Example: [Offer: $3]  or  'I think this is fair. [Offer: $5]'\n\nResponder:\n  - Decide on the offer with either [Accept] or [Reject]\n  - Example: 'That seems reasonable. [Accept]'\n            'Too unfair. [Reject]'\n"
+    "intro": "Yaa ngone Player {player_id}, di ko jëfandikoo {num_rounds} tours ci Iterated Ultimatum Game.\nNdaw si ${pool} ngone la ñuy séddale ci benn tour bi ci ndaw si ak Player {other_id}.\n\nProposer:\n  - Defare offrande: [Offer: $X] (0 <= X <= pool)\n  - Suñu njëkk → Yaa ngone $(pool - X), beneen player bi njëkk $X\n  - Suñu bàyyi → Ñeneen njëkk $0\n  - Seetu: [Offer: $3]  mbaa  'Ma xalaat ne dëgg. [Offer: $5]'\n\nResponder:\n  - Tànn offrande bi ak [Accept] mbaa [Reject]\n  - Seetu: 'Dafa xélit. [Accept]'\n            'Too ñaax. [Reject]'\n"
   },
   "round": {
-    "begins": "--- Round {round_number} begins! ---\nPlayer {proposer_id} is the proposer, Player {responder_id} is the responder.",
-    "offer": "Round {round_number}: Player {proposer_id} offers ${offer} to Player {responder_id} (keeping ${keep}).",
-    "accepted": "Player {responder_id} accepted! Round {round_number} gains: Player {proposer_id} +${proposer_gain}, Player {responder_id} +${responder_gain}. New totals: Player 0: ${total_0}, Player 1: ${total_1}.",
-    "rejected": "Player {responder_id} rejected the offer! Round {round_number} gains: Both players +$0. Totals remain: Player 0: ${total_0}, Player 1: ${total_1}."
+    "begins": "--- Ronn {round_number} daal! ---\nJëfandikukat {proposer_id} mooy ki jëfandikoo, Jëfandikukat {responder_id} mooy ki bàyyi.",
+    "offer": "Ronn {round_number}: Jëfandikukat {proposer_id} ofri ${offer} ngir Jëfandikukat {responder_id} (baax ${keep}).",
+    "accepted": "Jëfandikukat {responder_id} nangu! Ronn {round_number} yéwénen: Jëfandikukat {proposer_id} +${proposer_gain}, Jëfandikukat {responder_id} +${responder_gain}. Yéwénen yu bees: Jëfandikukat 0: ${total_0}, Jëfandikukat 1: ${total_1}.",
+    "rejected": "Jëfandikukat {responder_id} bàyyi ofri! Ronn {round_number} yéwénen: Ñaar ñi jëfandikoo +$0. Yéwénen yu bees waxul: Jëfandikukat 0: ${total_0}, Jëfandikukat 1: ${total_1}."
   },
   "invalid_move": {
     "no_offer_format": "Ku bëgg a def ab joowukaay, war na jëfandikoo jëfekaayu [Offer: $X].",
     "bad_integer": "Jëfandikukat bu nekk war na am solo.",
     "out_of_range": "Jëf bi war na nekk ci diggante $0 ak ${pool} .",
     "no_current_offer": "Amul benn laaj bu ñu may ngir tontu.",
-    "accept_or_reject": "Responder must either [Accept] or [Reject] the offer."
+    "accept_or_reject": "Responder bi war naa [Accept] mbaa [Reject] offrande bi."
   },
   "outcome": {
-    "win": "Player {winner} won with ${winner_total} total vs Player {loser}'s ${loser_total}.",
+    "win": "Jëfandikukat {winner} jànge ci ${winner_total} ci wàllug Jëfandikukat {loser} ci ${loser_total}.",
     "draw": "Ginnaaw bi, ñaari xët yi dañu am ${total} ci lu mat."
   }
 }

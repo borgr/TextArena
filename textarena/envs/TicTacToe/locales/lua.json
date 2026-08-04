@@ -7,10 +7,10 @@
     "{cell}": "A board cell number between 0 and 8"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Tic Tac Toe.\nYour goal is to win three in a row (horizontally, vertically, or diagonally) on the board.\nOn your turn, you should select the square number (0-8) you want to put your mark in next.\nFor example, '[4]' places your mark in the center cell of the board.\nAs Player {player_id}, you will be '{symbol}', while your opponent is '{opponent_symbol}'."
+    "intro": "Owe udi mukwetu {player_id} mu Tic Tac Toe.\nKolomo yawe ni kuwina misatu mfululizo (kwa mpimo, wima, au diagonale) pa plateau.\nPa tour yawe, ukwete kuchagua numero ya suka (0-8) mukwete kuweka ishara yawe.\nKwa mfano, '[4]' uweka ishara yawe pa cellule ya kati ya plateau.\nKama mukwetu {player_id}, ukwete kuwa '{symbol}', wakati mukwetu wa kuwana ni '{opponent_symbol}'."
   },
   "board": {
-    "current_board": "Current Board:\n\n{board}\n\nAvailable Moves: {moves}"
+    "current_board": "Plateau ya sasa:\n\n{board}\n\nMikwamo ya kuwana: {moves}"
   },
   "invalid_move": {
     "wrong_format": "Difila dia mukanda eu kadiena dienza mu mushindu muimpe to.",

@@ -4,7 +4,7 @@
   },
   "round": {
     "start": "─── Empecipiando Ronda {round} ───\tPuedes conversar llibremente mientres les próximes {conv_rounds} rondes.",
-    "chat_finished": "Chat finished for round {round}. Submit your decisions, one token per opponent: `[pid cooperate]` or `[pid defect]`."
+    "chat_finished": "Chate termináu pa la ronda {round}. Unvia les tos decisiones, un token por oponente: `[pid cooperate]` o `[pid defect]`."
   },
   "results": {
     "header": "### Ronda {round} - Resultáu:",
@@ -15,6 +15,6 @@
     "finalize": "{observation} "
   },
   "outcome": {
-    "final": "Final scores: {scores}.  Ranking groups (worst→best): {groups}"
+    "final": "Puntuaciones finales: {scores}.  Grupos de clasificación (peor→meyor): {groups}"
   }
 }

@@ -25,7 +25,7 @@
   },
   "round": {
     "begins": "--- Round {round_number} umuna! ---\nTi Player {proposer_id} ket ti proposer, ti Player {responder_id} ket ti responder.",
-    "offer": "Round {round_number}: Ti Player {proposer_id} ket inoffer iti ${offer} ken ti Player {responder_id} (nangateddeng iti ${keep}).",
+    "offer": "Ronda {round_number}: Ti player {proposer_id} ket ag-offer ti ${offer} ken ti player {responder_id} (agtalinaed ti ${keep}).",
     "accepted": "Inaproban ni Player {responder_id}! Round {round_number} ganansia: Player {proposer_id} +${proposer_gain}, Player {responder_id} +${responder_gain}. Baro a dagup: Player 0: ${total_0}, Player 1: ${total_1}.",
     "rejected": "Player {responder_id} rejected the offer! Round {round_number} gains: Both players +$0. Totals remain: Player 0: ${total_0}, Player 1: ${total_1}."
   },

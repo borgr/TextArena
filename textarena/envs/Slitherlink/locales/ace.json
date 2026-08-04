@@ -1,13 +1,13 @@
 {
   "player_prompt": {
-    "intro": "Kamu sedang bermain Slitherlink pada grid {R}x{C}!\nGambarlah satu loop kontinu sehingga setiap sel berangka memiliki tepi yang berbatasan dengan jumlah yang sama.\nToggle tepi dengan:\n  [h r c] - toggle tepi horizontal di atas titik di baris r, kolom c\n  [v r c] - toggle tepi vertikal di sebelah kiri titik di baris r, kolom c\nAngka menunjukkan jumlah tepi yang diperlukan, '.' berarti tidak ada kendala.\nKamu memiliki hingga {max_turns} gerakan untuk memecahkan teka-teki."
+    "intro": "Droe neuhe Slitherlink bak geutanyoe {R}x{C}!\nTuléh lingka tunggal nyambung supaya sel nyang geutumèe angka nyan na banyak èk teupi.\nGantoe èk teupi ngon:\n  [h r c] - gantoe èk teupi horizontal di ateueh titik bak baréh r, kolom c\n  [v r c] - gantoe èk teupi vertikal di kiri titik bak baréh r, kolom c\nAngka nyan peureulèe keubit èk, '.' hana meukeusut.\nDroe na {max_turns} gili nyang peureulèe peusijeuk puzzle nyan."
   },
   "board": {
-    "current_board": "{board}\nPetunjuk yang dipenuhi: {progress}"
+    "current_board": "{board}\nPetunjuk nyang ka lheueh: {progress}"
   },
   "invalid_move": {
-    "wrong_format": "Format aksi salah. Gunakan [h row col] atau [v row col].",
-    "out_of_bounds": "Edge outside board."
+    "wrong_format": "Format tindakan salah. Gunakan [h row col] atawa [v row col].",
+    "out_of_bounds": "Èk teupi di luwa papan."
   },
   "outcome": {
     "win": " Gata peugot saboh lingkongan! Puzzle dipeuseuleusoe!",

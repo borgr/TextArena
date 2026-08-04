@@ -5,7 +5,7 @@
     "commander_beta": "Comandante Beta. El xe un omo de la guera?"
   },
   "game_state": {
-    "header_round": "=== COLONEL BLOTTO - Round {current_round}/{num_rounds} ===\nRounds Won - Commander Alpha: {alpha_score}, Commander Beta: {beta_score}"
+    "header_round": "=== COLONEL BLOTTO - Round {current_round}/{num_rounds} ===\nRound vinti - Comandante Alfa: {alpha_score}, Comandante Beta: {beta_score}"
   },
   "round_battle": {
     "field_result": "\nTurno {current_round}\nComandante Alpha ga asignà: {p0_allocations}\nComandante Beta ga asignà: {p1_allocations}\n",
@@ -14,7 +14,7 @@
     "tie": "{message}Tie!"
   },
   "invalid_move": {
-    "wrong_format": "Invalid input format. Use: A:5 , B:10 , C:5 .",
+    "wrong_format": "Format de input no vàłido. Usa: A:5, B:10, C:5",
     "invalid_field": "Nome de canpo no vałido (s). Canpi validi: {field_names}",
     "wrong_allocation_value": "Tutte le assegnazioni łe ga da esar integer no negativi.",
     "incorrect_total_units": "Ti ga da asignare esattamente {num_total_units} unità. Somma atual: {current_sum}",

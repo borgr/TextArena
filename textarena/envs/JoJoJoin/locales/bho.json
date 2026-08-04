@@ -8,7 +8,7 @@
   "invalid_move": {
     "wrong_format": "प्रस्तुत चाल सही प्रारूप के पालन ना करेला.",
     "out_of_range": "{cell} एगो वैध कोष नइखे. 0 से 24 के बीच होवे के चाही.",
-    "already_occupied": "Cell {cell} is already occupied."
+    "already_occupied": "सेल {cell} पहले से ही कब्जा कइल है।"
   },
   "game_action": {
     "placed": "प्लेयर {player_id} अपनी निशान ({symbol}) को सेल {cell} में रख दिया है।"

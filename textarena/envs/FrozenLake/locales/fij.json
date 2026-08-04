@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "Welcome to Frozen Lake!\n\nYou are represented by 'P' on the grid.\nGrid symbols:\n  ' ' = Frozen surface (safe to walk on)\n  'H' = Hole (fall in and lose!)\n  'G' = Goal (reach this to win!)\n  'P' = Your current position\n\nAvailable actions: up, down, left, right (or w, a, s, d)\nType your action as: [up], [down], [left], [right] or [w], [a], [s], [d]\n\nObjective: Navigate from the start (top-left) to the goal (bottom-right) without falling into any holes!\n"
+    "intro": "Bula ki na Frozen Lake!\n\nO iko e wakilai tu ena 'P' ena grid.\nIvakatakilakila ni grid:\n  ' ' = Vunikau Vakadidike (salama me daru kina)\n  'H' = Holo (darui kina ka oti!)\n  'G' = Nodra (yaco kina me oti kina!)\n  'P' = Nomu iyaya ni tiko e dai\n\nIvakarau e rawa: cake, ra, mawi, kulia (se w, a, s, d)\nVolitaka nomu iyaya me: [up], [down], [left], [right] se [w], [a], [s], [d]\n\nNodra: Navita mai na iyaya ni tiko (e cake-mawi) ki na nodra (e ra-kulia) ka kua ni darui kina e so na holo!\n"
   },
   "board": {
     "current_board": "Bilo ni Board:\n\n{board}\n\nVakadidike ni Vakacaucau: {actions}"

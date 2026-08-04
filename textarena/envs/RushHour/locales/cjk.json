@@ -1,10 +1,10 @@
 {
   "player_prompt": {
-    "intro": "You are playing a {difficulty} RushHour puzzle. Slide cars to free the red car [X] and drive it out the right edge.\nActions: [A+], [B-], etc.  (+ = forward, - = backward)."
+    "intro": "Wena uli kutamba puzzle ya {difficulty} ya RushHour. Sunsa magari kutwala motokari ya bulwe [X] na kuyilandisha ku nseba ya kulia.\nMikwamo: [A+], [B-], n.k. (+ = kwenda mbele, - = kwenda nyuma)."
   },
   "invalid_move": {
-    "wrong_format": "Cjk. Use format [A+] /[B-]. ",
-    "no_car": "No car '{car_id}' on the board.",
+    "wrong_format": "Mikwamo isiyolungama. Tumia mfumo wa [A+] / [B-].",
+    "no_car": "Hapana motokari '{car_id}' pa bodo.",
     "blocked": "Komeka."
   },
   "game_message": {

@@ -13,6 +13,6 @@
   },
   "outcome": {
     "win": "Куттуктайм! Сиз туура санды таап алдыңыз.",
-    "turn_limit": "The turn limit has been reached. Guess: {guess}, Target: {target}"
+    "turn_limit": "Айлануу чеги жетти. Болжол: {guess}, Максат: {target}"
   }
 }

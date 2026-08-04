@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing Countdown numbers game!\nGoal: Combine numbers using +, -, *, / to reach the target.\nAction format: [i j op] where i,j are indices and op is the operation.\nExample: [0 2 *] multiplies number at index 0 with number at index 2.\nDivision must result in whole numbers only."
+    "intro": "Du spelar Countdown-talsspelet!\nMål: Kombiner tal ved hjelp av +, -, *, / for å nå målet.\nFormat for handling: [i j op] der i,j er indeksar og op er operasjonen.\nDøme: [0 2 *] multipliserer talet ved indeks 0 med talet ved indeks 2.\nDivisjon må resultere i heile tal berre."
   },
   "board": {
     "header": "MAAL: {target}\n\nTilgjengelige tall:\n{numbers}",
@@ -9,7 +9,7 @@
     "progress": "{observation}\nGjeldende poengsum: {progress}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use `[i j op]` where i,j are indices and op is +,-,*,/",
+    "wrong_format": "Ugyldig format for handling. Bruk `[i j op]` der i,j er indeksar og op er +,-,*,/",
     "invalid_indices": "Ugyldige indekser. Dei må vera ulike og ligg i området 0-{max_index}",
     "invalid_operation": "Ugyldig operasjon (deling med null eller ikkje-eintal resultat)"
   },

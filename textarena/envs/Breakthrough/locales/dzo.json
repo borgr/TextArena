@@ -12,9 +12,9 @@
   },
   "outcome": {
     "white_reached": "དཀར་པོ་གིས་ བ་རིའི་ཁྱིམ་གྱི་གྲལ་ཁར་ལྷོད་ནུག",
-    "black_reached": "Black reached White's home row.",
+    "black_reached": "ནག་པོས་དཀར་པོའི་ཁྱིམ་རིས་རིས་སུ་སླེབས་ཡོད།",
     "white_captured": "དར་དཀར་པོ་གི་རྡོ་ཆ་མཉམ་འཛིན་བཟུང་འབད་ཡོདཔ་ཨིན།",
-    "black_captured": "All Black pieces captured.",
+    "black_captured": "ཧོནམོ་ཚང་མ་ཕམ་པར་བཟུང་ཡོད།",
     "no_moves": "རྩེད་འགྲན་པ་ {player_id} གིས་ ད་ལྟོའི་བར་ན་ཡང་ མགྱོགས་དྲགས་སྦེ་སྤོ་མི་ཚུགས།"
   }
 }

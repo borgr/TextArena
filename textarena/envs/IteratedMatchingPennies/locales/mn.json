@@ -7,7 +7,7 @@
   },
   "message": {
     "round_match": "Тоглогч 0 сонгосон {choice0}; Тоглогч 1 сонгосон {choice1}. Тоглолт -> Тоглогч 0 ялалт байгуулжээ",
-    "round_mismatch": "Player 0 picked {choice0}; Player 1 picked {choice1}. Mismatch -> Player 1 wins."
+    "round_mismatch": "Тоглогч 0 {choice0} сонгосон; Тоглогч 1 {choice1} сонгосон. Таараагүй -> Тоглогч 1 хожлоо."
   },
   "outcome": {
     "p0_wins": "0 тоглогч илүү олон тойрог авчээ.",

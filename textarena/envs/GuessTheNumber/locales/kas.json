@@ -1,18 +1,18 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id}. You are playing Guess The Number.\nYou have to guess the number between {min_number} and {max_number} within {max_turns} turns.\nAs you enter your guess, the game will provide you with hints such as 'higher' or 'lower'.\nYou may provide your response in any manner. Only the number that is wrapped in square brackets will be considered as your guess. For example, [5].\nAs you play, the history of your guesses will be appended below. Use the information to complete the game before you run out of guesses.\nEnter your guess."
+    "intro": "توہی کھلاڑی {player_id} ہو۔ توہی Guess The Number کھیل رہے ہو۔\nتوہنے {min_number} تے {max_number} دے درمیان گنتی گیسنے ہے {max_turns} موڑن۔\nجیو توہی اپنی گیس داخل کرو، گیم توہنے اشارے دیویگا جیسے 'بڑھ' یا 'کم'۔\nتوہی اپنی جواب کسی بھی طریقے سے دے سکتے ہو۔ صرف گنتی جو مربع بریکٹس میں لپیٹی ہوئی ہے توہی گیس سمجھی جائے گی۔ مثال کے طور پر، [5]۔\nجیو توہی کھیلتے ہو، توہی گیسوں کی تاریخ نیچے منسلک کی جائے گی۔ معلومات استعمال کرو کھیل پورا کرنے کے لئے توہی گیسوں سے باہر نہیں نکلتے۔\nاپنی گیس داخل کرو۔"
   },
   "invalid_move": {
     "wrong_format": "ناجائز چَلنَے کا فارمیٹ۔ کھلاڑی {player_id} نے درست '[number]' کے ساتھ جواب نہیں دیا۔",
-    "out_of_range": "अमान्य चाल.खेल खिलाड़ी {player_id} ने निर्दिष्ट रेंज से बाहर नंबर का अनुमान लगाये।",
-    "already_guessed": "अमान्य चाल.खेल खिलाड़ी {player_id} छू गुडनेव नंबर."
+    "out_of_range": "غلط حرکت۔ کھلاڑی {player_id} نے گنتی حد سے باہر گیس کی۔",
+    "already_guessed": "غلط حرکت۔ کھلاڑی {player_id} نے پہلے ہی گنتی گیس کی ہے۔"
   },
   "game_message": {
-    "target_higher": "टारगेट नंबर छू हायर.",
-    "target_lower": "टारगेट नंबर छू कम."
+    "target_higher": "ہدف گنتی بڑھ ہے۔",
+    "target_lower": "ہدف گنتی کم ہے۔"
   },
   "outcome": {
     "win": "मुबारकबाद! तुहुं छी सही नंबर परसेंट करा.",
-    "turn_limit": "The turn limit has been reached. Guess: {guess}, Target: {target}"
+    "turn_limit": "موڑ کی حد پہنچ گئی ہے۔ گیس: {guess}، ہدف: {target}"
   }
 }

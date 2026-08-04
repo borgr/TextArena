@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({role}) in a {num_rounds}-round Matching Pennies game.\n- Each round, submit [heads] or [tails] (or [h], [t]).\n- If your choice matches your opponent’s, Player 0 wins the round; otherwise Player 1 wins.\nReply with your choice in the format '[heads]' or '[tails]'.\n"
+    "intro": "Ozali Joueur {player_id} ({role}) na mokili ya Matching Pennies ya {num_rounds} mikolo.\n- Na kila mokolo, kotiya [heads] to [tails] (to [h], [t]).\n- Soki bino na bana bino balingani, Joueur 0 akoki mokolo; soki nde balingani te, Joueur 1 akoki.\nYiba na bino bino na formati '[heads]' to '[tails]'.\n"
   },
   "invalid_move": {
     "wrong_format": "Fómú na nkísá; tála '[heads]' tǒ '[tails]'."

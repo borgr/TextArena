@@ -24,8 +24,8 @@
     "intro": "أنت تلعب غولف (لعبة بطاقات) - اللاعب {player_id}.\nالهدف: الحصول على أدنى مجموع نقاط في هذا الدور الواحد. إذا كانت الأعمدة تشترك في نفس القيمة، فسيتم جمعها كـ 0.\nقيم البطاقات: A=1، 2-10 = قيمة الوجه، J/Q=10، K=0\n\nالإجراءات (استخدم الشكل الدقيق):\n- '[draw]' - سحب من الكومة\n- '[take]' - أخذ من كومة الرمى\n- '[swap X Y]' - استبدال البطاقة المشحونة مع الموقع X (الصف) Y (العمود)\n- '[discard]' - رمي البطاقة المشحونة"
   },
   "board": {
-    "drew": "You drew: {card}\nNow you must [swap X Y] or [discard] it.",
-    "took": "You took: {card} from discard pile\nYou must [swap X Y] with it (cannot discard).",
+    "drew": "لقد سحبت: {card}\nالآن يجب عليك [swap X Y] أو [discard] البطاقة.",
+    "took": "لقد أخذت: {card} من كومة التخلص\nيجب عليك [swap X Y] معها (لا يمكنك التخلص منها).",
     "peeked": "لقد نظرت إلى الموقع ({row}،{col}): {card}",
     "turn_view": "يدك:\n{hand}\nكومة الرمى: {discard}\n{options}",
     "none": "ما فيش حاجة."
@@ -43,7 +43,7 @@
   },
   "action_desc": {
     "swapped": "اللاعب {pid} استبدل {new} مع {old} في الموقع ({row}،{col})",
-    "discarded": "Player {pid} discarded {card}"
+    "discarded": "اللاعب {pid} تخلص من {card}"
   },
   "message": {
     "deck_empty": "العربة فارغة، المباراة تنتهي توا.",
@@ -54,11 +54,11 @@
     "all_revealed": "كشفت كل الكروت؟"
   },
   "invalid": {
-    "wrong_action": "استخدم действие واحد محاط بالشكل: [draw]، [take]، [swap X Y]، [discard]، [knock]، أو [peek X Y]",
+    "wrong_action": "استخدم إجراءً واحدًا بالضبط بين الأقواس: [draw], [take], [swap X Y], [discard], [knock], أو [peek X Y]",
     "discard_empty": "الكومة متاع البلايا فارغة.",
     "must_draw_first": "يجب عليك أولاً [draw]، [take]، [knock]، أو [peek X Y]",
     "cannot_discard_taken": "مَا تْنَجِّمْشْ ترْفُضْ الكارِيتْ الّي جَابْهَا، لازمكْ تبدلها.",
-    "have_drawn_card": "You have a drawn card. You must [swap X Y] or [discard] it.",
+    "have_drawn_card": "لديك بطاقة مسحوبة. يجب عليك [swap X Y] أو [discard] البطاقة.",
     "need_drawn_swap": "يلزمك بطاقة متاعها لتتبادلها.",
     "need_drawn_discard": "يلزمك بطاقة متاع لعبة لتقذفها.",
     "out_of_bounds": "الموقع خارج الحدود. استخدم الصف 1-{max_row}، العمود 1-{max_col}",

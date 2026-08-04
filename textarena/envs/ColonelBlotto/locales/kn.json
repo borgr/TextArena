@@ -23,7 +23,7 @@
   "outcome": {
     "winner_alpha": "ಕಮಾಂಡರ್ ಆಲ್ಫಾ {score_0}-{score_1} {num_rounds} ಸುತ್ತುಗಳ ನಂತರ ಗೆದ್ದಿದ್ದಾರೆ!",
     "winner_beta": "ಕಮಾಂಡರ್ ಬೀಟಾ {score_1}-{score_0} {num_rounds} ಸುತ್ತುಗಳ ನಂತರ ಗೆಲ್ಲುತ್ತಾನೆ!",
-    "draw": "Game ends in a {score_0}-{score_1} tie after {num_rounds} rounds!",
+    "draw": "ಆಟ {score_0}-{score_1} ಟೈ ನಂತರ {num_rounds} ಸುತ್ತುಗಳಲ್ಲಿ ಮುಕ್ತಾಯವಾಗುತ್ತದೆ!",
     "early_winner_alpha": "ಕಮಾಂಡರ್ ಆಲ್ಫಾ ಗೆಲುವು {scores_0}-{scores_1} (ಬಹುಮತ ಸಾಧನೆ)!",
     "early_winner_beta": "ಕಮಾಂಡರ್ ಬೀಟಾ ಗೆಲುವು {scores_1}-{scores_0} (ಬಹುಮತ ಸಾಧನೆ)!"
   }

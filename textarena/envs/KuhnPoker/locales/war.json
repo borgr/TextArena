@@ -11,16 +11,16 @@
     "not_legal": "An aksyon kinahanglan {legal_actions}."
   },
   "action": {
-    "submit_move": "Player {player_id}, submitted move: '[{move}]'.",
+    "submit_move": "Paragamit {player_id}, ginsumite an iya gios: '[{move}]'.",
     "valid_actions": "An imo mga mahihimo amo an: {legal_actions}.",
-    "round_summary": "{reason} Kasalukuyan nga mga score: Player 0: '{player_0_chips}'; Player 1: '{player_1_chips}'"
+    "round_summary": "{reason} Aktual nga mga iskor: Paragamit 0: '{player_0_chips}'; Paragamit 1: '{player_1_chips}'"
   },
   "showdown": {
-    "showdown_summary": "Showdown: An {winner_card} ni Player {winner} nakadaog han {loser_card} ni Player {loser}. An Player {winner} nakadaog han pot han {pot_value} chips."
+    "showdown_summary": "Showdown: An {winner_card} ni Paragamit {winner} nalupig an {loser_card} ni Paragamit {loser}. An Paragamit {winner} nakadaog hin {pot_value} ka chip."
   },
   "outcome": {
     "draw": "Ha katapusan han {max_rounds} nga mga round, an duha ka magdudula mayda pareho kadamo hin chips.",
-    "round_win": "Player {player_id} has folded.",
+    "round_win": "An Player {player_id} nag-fold.",
     "winner_player0": "An manlalaro 0 in nagdaog pinaagi han pag-angkon hin damo nga mga chips ha kataposan han ngatanan {max_rounds} ka round.",
     "winner_player1": "An manlalaro 1 in nagdaog pinaagi han pag-angkon hin damo nga mga chips ha kataposan han ngatanan {max_rounds} ka round."
   }

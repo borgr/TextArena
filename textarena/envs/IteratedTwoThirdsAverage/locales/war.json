@@ -7,7 +7,7 @@
     "out_of_range": "An paghibaro kinahanglan nga butnga han {min_guess} ngan {max_guess}."
   },
   "message": {
-    "round_guesses": "Player 0 guessed {guess0}; Player 1 guessed {guess1}. Thus the Target is: {target}.",
+    "round_guesses": "An Player 0 naggues hin {guess0}; an Player 1 naggues hin {guess1}. Kaya an Target amo: {target}.",
     "round_draw": "An round usa nga draw.",
     "round_win": "An manlalaro {winner} an nagdaog han round!"
   },

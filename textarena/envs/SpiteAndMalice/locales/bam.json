@@ -1,17 +1,17 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a two-player game of Spite and Malice. Your goal is to be the first to empty your payoff pile.\n\n### Game Overview:\n- The objective is to clear your payoff pile by playing cards to the center piles.\n- You can play cards from three sources:\n  1. Your **hand** (you start each turn with up to 5 cards in hand).\n  2. The **top card of your payoff pile**.\n  3. The **top card of any of your discard piles**.\n\n### Playing Rules:\n- You may play a card to a center pile if it is **one rank higher** than the top card on that pile (center piles start with Ace and go up to Queen; Kings are wild - they can be played on any card but do not change the rank sequence. This means if a King is used after 4, then that King is ranked 5 and the next card must be a 6).\n- If you can't play any more cards, you must **discard a card** to one of your discard piles to end your turn.\n- If a center pile reaches Queen, it will be cleared automatically.\n- The rank order is: A=1, 2=2, ..., 9=9, J=10, Q=11, K as wild.\n\n### Actions:\n1. **Draw**: At the start of your turn, draw cards to fill your hand up to 5 cards. Enter **[draw]** to begin.\n2. **Play a Card**: To play a card, specify the card and the center pile like this: **[play A♠ 0]** (where 'A♠' is the card and '0' is the center pile index).\n3. **Discard**: If you can't play any more cards, discard a card from your hand to a discard pile to end your turn. Enter **[discard A♠ 1]** (where 'A♠' is the card and '1' is the discard pile index). Note that you cannot discard any card from the payoff pile. You may only discard the cards from your hand.\n\n"
+    "intro": "I ni Player {player_id} ye kɛlɛ sabanan na Spite and Malice. I lakana ni kɛ kɔnɔ i payoff pile la.\n\n### Kɛlɛ Kɔkan:\n- Lakana ni kɛ kɔnɔ i payoff pile la ka karti wɛrɛw kɛlɛ kɔnɔ.\n- I bɛ se ka karti wɛrɛw jɔyɔ kɔfɛ:\n  1. I **bolo** (i bɛ kɔnɔ kɛlɛ kɔfɛ 5 karti wɛrɛw).\n  2. I **payoff pile la karti wɛrɛ**.\n  3. I **discard pile la karti wɛrɛ**.\n\n### Kɛlɛ Sirilan:\n- I bɛ se ka karti wɛrɛ jɔyɔ kɔnɔ center pile kan o bɛ **kelen kɔnɔ** lajɛn kɔnɔ (center pile bɛ kɔnɔ Ace nɔfɛ ka kɔnɔ Queen; Kings bɛ wild - olu bɛ jɔyɔ kɔnɔ karti kamɛn, nka olu tɛ kɛlen kɔnɔ sirilan. O bɛ kɔnɔ 4 kɔfɛ, o bɛ kɔnɔ 5 nɔ, kɔnɔ 6 bɛ na).\n- I bɛ se ka karti wɛrɛ jɔyɔ kɔnɔ, i bɛ **karti wɛrɛ kɛlɛ** discard pile kan ka kɛlɛ kɔfɛ.\n- I center pile bɛ kɔnɔ Queen, a bɛ kɛlɛ kɔnɔ.\n- Sirilan bɛ: A=1, 2=2, ..., 9=9, J=10, Q=11, K bɛ wild.\n\n### Kɛlɛw:\n1. **Karti wɛrɛ sɔrɔ**: Kɛlɛ kɔfɛ, karti wɛrɛ sɔrɔ ka kɛlɛ kɔfɛ 5 karti wɛrɛw. **[draw]** kɔfɛ kɛlɛ kɔnɔ.\n2. **Karti wɛrɛ jɔyɔ**: Karti wɛrɛ jɔyɔ kɔfɛ, karti wɛrɛ nɔfɛ kɔnɔ center pile nɔfɛ kɔfɛ: **[play A♠ 0]** (karti wɛrɛ 'A♠' nɔfɛ kɔnɔ center pile '0' nɔfɛ).\n3. **Karti wɛrɛ kɛlɛ**: I bɛ se ka karti wɛrɛ jɔyɔ kɔnɔ, karti wɛrɛ kɛlɛ discard pile kan ka kɛlɛ kɔfɛ. **[discard A♠ 1]** (karti wɛrɛ 'A♠' nɔfɛ kɔnɔ discard pile '1' nɔfɛ). I bɛ se ka karti wɛrɛ kɛlɛ payoff pile la, nka i bɛ se ka karti wɛrɛ kɛlɛ bolo la.\n\n"
   },
   "board": {
-    "current_board": "Current Board:\n\n{board}\nAvailable Moves: {moves}"
+    "current_board": "Kɔnɔ kɔnɔ:\n\n{board}\nKɛlɛw kɔnɔ: {moves}"
   },
   "render": {
     "center_piles_header": "--- Cɛnti Piles (cɛmancɔgɔ) -- ",
     "pile": "{observation}Pile {i}: {pile}\n",
     "player_view_header": "{observation}\n--- Jokelani {player_id}'s View ---\n",
-    "payoff": "{observation}Payoff Pile (Top Card): {top_card}, Payoff Pile Length: {payoff_length}\n",
+    "payoff": "{observation}Kɛlɛ Kɔnɔ (Kɔnɔ Kɔnɔ): {top_card}, Kɛlɛ Kɔnɔ Kɔnɔ: {payoff_length}\n",
     "hand": "{observation}Hand: {hand}\n",
-    "discard": "{observation}Discard Piles: {discard}\n",
+    "discard": "{observation}Kɛlɛ Kɔnɔ Kɔnɔ: {discard}\n",
     "empty": "Falen tɛ yen."
   },
   "game_message": {
@@ -19,7 +19,7 @@
   },
   "invalid_move": {
     "wrong_format": "Jatebla min tɛ waleya. Ɲinɛnbaa {player_id} ma jabi ni jatebɔ ɲuman ye ka sɔrɔ a bɛ kɛ sigilanw na.",
-    "invalid_play": "Invalid play. Jokelani {player_id} ye {card} kɔnɔ center pile {index}.",
+    "invalid_play": "Karti wɛrɛ jɔyɔ bɛ kɔnɔ. Player {player_id} bɛ karti wɛrɛ {card} jɔyɔ kɔnɔ center pile {index} kan.",
     "discard_from_payoff": "Jate {player_id} ye a ɲini ka kadi bila bɔli la.",
     "discard_not_in_hand": "Karamɔgɔ {player_id} y'a ɲini ka kariti fili min tɛ a bolo.",
     "wrong_move_type": "Jatebla {player_id} ma jaabi ni jatelen ye."
@@ -33,9 +33,9 @@
     "opponent_discarded": "Player {player_id} discarded {card} to discard pile {index}, which also means they finished their turn. No further actions of Player {player_id} is considered for this turn. Player {next_player_id}, you will go next. Please enter your action in the format [action card center_index]."
   },
   "outcome": {
-    "payoff_cleared": "Player {current_player} has finished their payoff pile! Player {current_player} wins!",
-    "deadlock_player_0": "Deadlock reached! Player 0 wins with {player_0_payoff} cards remaining vs Player 1's {player_1_payoff} cards.",
-    "deadlock_player_1": "Deadlock reached! Player 1 wins with {player_1_payoff} cards remaining vs Player 0's {player_0_payoff} cards.",
-    "deadlock_tie": "Deadlock reached with tie! Both players have {player_0_payoff} cards remaining. Player {current_player} wins by default."
+    "payoff_cleared": "Jɛgɛ {current_player} tun bɛ kɛ jɛgɛw ka bɔlɔ kɛ! Jɛgɛ {current_player} ye san kɛ!",
+    "deadlock_player_0": "Kɛlɛ kɔnɔ bɛ kɔnɔ! Player 0 lakana {player_0_payoff} karti wɛrɛw kɔnɔ vs Player 1 {player_1_payoff} karti wɛrɛw.",
+    "deadlock_player_1": "Kɛlɛ kɔnɔ bɛ kɔnɔ! Player 1 lakana {player_1_payoff} karti wɛrɛw kɔnɔ vs Player 0 {player_0_payoff} karti wɛrɛw.",
+    "deadlock_tie": "Kɛlɛ kɔnɔ bɛ kɔnɔ ka tie! Player wɔɔrɔ bɛ {player_0_payoff} karti wɛrɛw kɔnɔ. Player {current_player} lakana kɔfɛ."
   }
 }

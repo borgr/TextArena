@@ -14,7 +14,7 @@
     "{scores}": "The final scores as a raw player-number to score mapping - do not translate"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player GOPS.\n- You hold the 13 cards A-K (each exactly once).\n- Each round a prize is revealed. Submit ONE card like `[Q]`, `[10]`, `[2]` …\n- Highest card wins the prize (+ any carry-over pot). Ties roll the prize into the next round.\n- After 13 rounds, highest total wins. Invalid moves = elimination."
+    "intro": "Kai ne ɗan wasa {player_id} a cikin Three-Player GOPS.\n- Kai ke riƙe katunan 13 A-K (kowane sau ɗaya).\n- A kowane zagaye ana nuna kyauta. Shigar da katun ɗaya kamar `[Q]`, `[10]`, `[2]` …\n- Katun mafi girma ya lashe kyautar (+ kowane tafiyar da aka ɗauka). Ties na tura kyautar zuwa zagaye mai zuwa.\n- Bayan zagaye 13, mafi girma ya lashe. Zugewar da ba ta dace = kawarwa."
   },
   "round": {
     "header": "### Zagaye {round}/13 - Kyauta: {prize} (darajar {worth})",

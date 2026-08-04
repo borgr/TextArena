@@ -16,7 +16,7 @@
     "moved": "Int mċaqlaq disk {disk} minn {source} għal {target}."
   },
   "outcome": {
-    "win": "Congratulations! Inti solvut il- puzzle tat- Tore ta 'Hanoi.",
+    "win": "Prosit! Ħsolt il-puzzle ta' Tower of Hanoi.",
     "turn_limit": "Il-limitu tad-dawran intlaħaq. Inti tqiegħed b'mod korrett {pct}% mid-diski fuq it-Torri C."
   }
 }

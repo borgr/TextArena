@@ -20,7 +20,7 @@
     "invalid_death": "Player {player_id} kɔɣib' di la zuɣu tɔm niŋdi ŋun kam zɛma."
   },
   "outcome": {
-    "survived_win": "Player {player_id} survived; all others crashed.",
+    "survived_win": "Nɛra {player_id} ti yaŋa; wɩŋa kɩmɛ puga zoɣa.",
     "all_crashed": "B fãa lʋɩɩsame wakat a yembre.",
     "outlived": "A sẽn da maandã yɩɩ nin-kãsems a taabã fãa.",
     "all_dead": "Neb nins fãa sẽn da be b sʋkã kiime.",

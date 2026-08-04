@@ -58,7 +58,7 @@
   },
   "board_str": {
     "not_started": "Game indak dimulai",
-    "header": "=== GERMAN WHIST GAME ===",
+    "header": "=== PERMAINAN GERMAN WHIST ===",
     "phase": "{observation}\nFase: {phase}",
     "trump_suit": "{observation}\nJenis truf: {trump_suit}",
     "trump_card": "{observation}\nKartu truf: {card}",

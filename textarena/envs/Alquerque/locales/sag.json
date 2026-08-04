@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({piece}). Opponent is ({opp}).\nSubmit moves as '[a2 a3]' (from → to).\n- A normal move is one forward step to an adjacent empty vertex.\n- A capture is a jump over an adjacent enemy piece landing on the empty node beyond.\nEach capture yields {score_per_capture} points.\nGame ends after {max_moves} moves or when a player has no legal move."
+    "intro": "Mo ye zo {player_id} ({piece}). Kôli ye ({opp}).\nFatï ku so môde '[a2 a3]' (tî → kô).\n- Ku môde ôko ye môde na ndö bïngö tî gböku ôko na ndö sô.\n- Ku gböku ye môde na ndö bïngö tî gböku môde sô na ndö gböku ôko.\nKu gböku ôko môde {score_per_capture} pointi.\nGbanga si na {max_moves} môde ôko tî gbanga si na zo môde na môde ôko."
   },
   "board": {
     "current_board": "Soki #{move_count}\n\n{board}"

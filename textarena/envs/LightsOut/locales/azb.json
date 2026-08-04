@@ -7,10 +7,10 @@
   },
   "invalid_move": {
     "wrong_format": "Fəaliyyət [row col] formatında olmalıdır, burada sətir və sütun 0-dan {max_index}-ə qədər olan ədədlərdir.",
-    "out_of_range": "Coordinates must be between 0 and {max_index}. You entered [{row},{col}]."
+    "out_of_range": "کوردیناتلار 0 و {max_index} آراسیندا اولمالیدیر. سیز [{row},{col}] گirdiniz."
   },
   "outcome": {
     "win": "تبریک! پازلینی {moves_used} حرکتلری ایله حل ائتدین.",
-    "loss": "Game over! You used all {max_turns} moves without solving the puzzle. Final completion: {completion}%\nFinal state:\n{grid}"
+    "loss": "اويون بیتدی! سیز {max_turns} حرکتدن استفاده ائتدینیز، آنجاق بۇلغانی حل ائتمه‌دینیز. سون تاماملانما: {completion}%\nسون وضعیت:\n{grid}"
   }
 }

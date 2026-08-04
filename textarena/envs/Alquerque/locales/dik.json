@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({piece}). Opponent is ({opp}).\nSubmit moves as '[a2 a3]' (from → to).\n- A normal move is one forward step to an adjacent empty vertex.\n- A capture is a jump over an adjacent enemy piece landing on the empty node beyond.\nEach capture yields {score_per_capture} points.\nGame ends after {max_moves} moves or when a player has no legal move."
+    "intro": "Yin ee leek {player_id} ({piece}). Yin ee dhuk dhieth ({opp}).\nDhuk yin kuat yic kuat '[a2 a3]' (kuat → kuat).\n- Kuat aciek ee kuat rot looi kuat tööŋ ee kuat leer.\n- Kuat dom ee kuat pïïr kuat dhieth leer kuat tööŋ leer.\nKuat dom ee {score_per_capture} wët.\nTïïŋ ee dhuk {max_moves} kuat ku dhuk ee leek acïï kuat leer."
   },
   "board": {
     "current_board": "Cuöc #{move_count}\n\n{board}"

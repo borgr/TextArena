@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a {num_rounds}-round Rock-Paper-Scissors game.\nYour goal is to win as many rounds as possible.\nIn each round, respond with one of: '[rock]', '[paper]', or '[scissors]'.\nYou may also use '[r]', '[p]', or '[s]' as shorthand.\n"
+    "intro": "Doe bès Speler {player_id} in e {num_rounds}-ronde Sjèèr-Papier-Sjèr-spel.\nDien doel is óm zoeväöl meugelik rónje te winne.\nIn eder rónje, reageer mit ein van: '[rock]', '[paper]', of '[scissors]'.\nDoe kins ouch '[r]', '[p]', of '[s]' es aafkorting gebroeke.\n"
   },
   "invalid_move": {
     "wrong_format": "Zat niet erkinde bewaeging. Gebruuk [rock], [paper], of [scissors]."

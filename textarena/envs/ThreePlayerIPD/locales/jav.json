@@ -4,7 +4,7 @@
   },
   "round": {
     "start": "─── Miwiti Ronde {round} ───\tKowe bisa ngobrol bébas kanggo {conv_rounds} ronde mengarep.",
-    "chat_finished": "Chat finished for round {round}. Submit your decisions, one token per opponent: `[pid cooperate]` or `[pid defect]`."
+    "chat_finished": "Gegayuhan rembug rampung kanggo ronde {round}. Ajok putusanmu, siji token per lawan: `[pid cooperate]` utawa `[pid defect]`."
   },
   "results": {
     "header": "### Babak {round} - Asil:",

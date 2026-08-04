@@ -21,11 +21,11 @@
     "{scores}": "The pre-rendered per-player list of final scores"
   },
   "player_prompt": {
-    "intro": "You are playing Golf (Card Game) - Player {player_id}.\nGoal: Get the lowest total score in this single round. If columns share the same value, they are summed as 0.\nCard Values: A=1, 2-10=face value, J/Q=10, K=0\n\nActions (use exact brackets):\n- '[draw]' - Draw from deck\n- '[take]' - Take from discard pile\n- '[swap X Y]' - Swap drawn card with position X (row) Y (column)\n- '[discard]' - Discard the drawn card\n"
+    "intro": "A xlẽ nu Golf (Kaadi Ge) - Axlẽ {player_id}.\nGbọjẹ: Xlẽ nọ sogan gbigbọn gbigbọn to azọn ehe. Nọ xlẽ kọn wẹ gbọn ẹn, xlẽ nọ sogan 0.\nGbọjẹ Kaadi tọn: A=1, 2-10=gbọjẹ etọn, J/Q=10, K=0\n\nNu gbigbọn (do ogbọn he ehe):\n- '[draw]' - Xlẽ sọn kaadi\n- '[take]' - Xlẽ sọn ojó kaadi tọn\n- '[swap X Y]' - Pọn kaadi he xlẽ sọn pọn podo X (yí) Y (kọn)\n- '[discard]' - Jẹ kaadi he xlẽ sọn"
   },
   "board": {
-    "drew": "You drew: {card}\nNow you must [swap X Y] or [discard] it.",
-    "took": "You took: {card} from discard pile\nYou must [swap X Y] with it (cannot discard).",
+    "drew": "A xlẽ: {card}\nEgbẹ xlẽ nọ [swap X Y] kavi [discard] ẹ.",
+    "took": "A xlẽ: {card} sọn ojó kaadi tọn\nEgbẹ xlẽ nọ [swap X Y] podo ẹ (mọgọ jẹ).",
     "peeked": "E lo to: ({row}, {col}): {card}",
     "turn_view": "Aɖa ŋku:\n{hand}\nWɔnɖe: {discard}\n{options}",
     "none": "Eɖesu ǎ."
@@ -42,26 +42,26 @@
     "row": "Row {n}: {cards}"
   },
   "action_desc": {
-    "swapped": "Player {pid} swapped {new} with {old} at position ({row},{col})",
-    "discarded": "Player {pid} discarded {card}"
+    "swapped": "Akpɛvi {pid} gbɛ xɔ {new} kpɔ {old} tɔ {row},{col} ɖo",
+    "discarded": "Axlẽ {pid} jẹ {card}"
   },
   "message": {
     "deck_empty": "Akpá ɔ vɔ! Kpo ɔ fó tlolo.",
     "knocked": "{pid} ɔ́' è sú i! Mɛɖěvo lɛ́ɛ bǐ ná yí gbè nú yeɖée azɔn ɖokpo.",
-    "final_round": "Player {pid} {reason}! Each other player gets one more turn."
+    "final_round": "Axlẽ {pid} {reason}! Axlẽ devo lẹpo nọ tindo azọn dopo dogọ."
   },
   "reason": {
-    "all_revealed": "has all cards revealed"
+    "all_revealed": "kọn kaadi lẹpo"
   },
   "invalid": {
     "wrong_action": "Ŋku yɔnɖe: [draw], [take], [swap X Y], [discard], [knock], ɖi [peek X Y]",
     "discard_empty": "Nǔ e è nɔ jó dó lɛ́ɛ vɔ!",
-    "must_draw_first": "You must first [draw], [take], [knock], or [peek X Y]",
+    "must_draw_first": "Egbẹ xlẽ nọ [draw], [take], [knock], kavi [peek X Y] whẹ",
     "cannot_discard_taken": "A sixu ɖè wema e è ɖe sín kpò mɛ é ɖé dó ǎ. É ɖó na nyí nǔɖokan towe.",
-    "have_drawn_card": "You have a drawn card. You must [swap X Y] or [discard] it.",
+    "have_drawn_card": "A xlẽ kaadi. Egbẹ xlẽ nọ [swap X Y] kavi [discard] ẹ.",
     "need_drawn_swap": "A ɖó na dó lɛ́ yí nǔ e è ɖè é.",
     "need_drawn_discard": "A ɖó na dó mɔ nǔ e è ɖè é ɖé bo wá jó.",
-    "out_of_bounds": "Position out of bounds. Use row 1-{max_row}, column 1-{max_col}",
+    "out_of_bounds": "Otẹn gbọn ẹn. Do yí 1-{max_row}, kọn 1-{max_col}",
     "knock_with_card": "A sixu xò alɔ nú mɛ e a sɔ́ lɛ é ǎ. Dǒ gbè towe fó hwɛ̌.",
     "already_knocked": "Mɛ ɖé ko ɖu ɖò mɛ e na yí é jí.",
     "already_revealed": "Akpá enɛ ɔ ko nyí!"

@@ -1,9 +1,9 @@
 {
   "player_prompt": {
-    "intro": "You are in a room with {num_buttons} buttons: {buttons}. Each button is associated with a Bernoulli distribution with a fixed but unknown mean; the means for the buttons could be different.\nFor each button, when you press it, you will get a reward that is sampled from associated distribution.\nYou have {num_turns} time steps and, on each time step, you can choose any button and receive the reward.\nYour goal is to strategically choose buttons at each time step to collect information about their reward distribution, that will let you choose the button with the highest mean reward correctly at the end of {num_turns} turns."
+    "intro": "A xɔ ɖo xó dó {num_buttons} knonnin: {buttons}. Òjò knonnin ɖɔ lɛ̀ Bernoulli tɛ̀tɛ̀ ɖɔ̀ wɛ̀ azɔ̀n wɛ̀ mɛ̀nɖɛ̀; azɔ̀n wɛ̀ mɛ̀nɖɛ̀ na knonnin lɛ̀ ɖɔ̀ kɛ̀nɖɛ̀.\nGbɔ̀ knonnin ɖɔ̀, ɖɔ̀ wɛ̀ a xɔ̀ ɖɔ̀, a na xɔ̀ ɖɔ̀nɖɛ̀n tɛ̀tɛ̀ ɖɔ̀ wɛ̀ a xɔ̀ ɖɔ̀.\nA xɔ̀ {num_turns} ganhi lɛ̀, bɔ̀ ganhi ɖɔ̀, a xɔ̀ knonnin kɛ̀nɖɛ̀ ɖɔ̀ wɛ̀ a na xɔ̀ ɖɔ̀nɖɛ̀n tɛ̀tɛ̀ ɖɔ̀.\nA ɖɔ̀jɛ̀ ɖɔ̀ wɛ̀ a xɔ̀ knonnin lɛ̀ ɖɔ̀ ganhi ɖɔ̀ wɛ̀ a xɔ̀ ɖɔ̀nɖɛ̀n tɛ̀tɛ̀ ɖɔ̀ wɛ̀ a na xɔ̀ knonnin ɖɔ̀ wɛ̀ azɔ̀n wɛ̀ mɛ̀nɖɛ̀ kɛ̀nɖɛ̀ {num_turns} ganhi ɖɔ̀."
   },
   "board": {
-    "stat_line": "{button}: {reward} (played {count} times)",
+    "stat_line": "{button}: {reward} (xɔ̀ {count} ganhi)",
     "summary": "Nǔ e è ɖɔ é: {stats}"
   },
   "invalid_move": {

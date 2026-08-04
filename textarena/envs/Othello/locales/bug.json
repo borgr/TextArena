@@ -4,11 +4,11 @@
   },
   "board": {
     "game_board": "Papan Macenning: {board}",
-    "valid_moves": "{observation}\nGerakan Sah: {moves}",
+    "valid_moves": "{observation}\nGiranna riolo: {moves}",
     "no_valid_moves_reset": "{observation} De'na engka appileng - wedding muelo leppang.",
     "no_valid_moves_step": "{observation} De'na engka appettungeng iya weddingnge ripalettukeng.",
-    "scores_reset": "{observation}\nSkor Saat Ini - Hitam: {black_count}, Putih: {white_count}\n",
-    "scores_step": "{observation}\nSkor - Hitam: {black_count}, Putih: {white_count}\n"
+    "scores_reset": "{observation}\nNilai Sekarang - Itam: {black_count}, Putih: {white_count}\n",
+    "scores_step": "{observation}\nNilai - Itam: {black_count}, Putih: {white_count}\n"
   },
   "invalid_move": {
     "wrong_format": "Naiyya addikanengengnge parellu ripassu'i mancaji [row, col].",
@@ -16,10 +16,10 @@
   },
   "game_action": {
     "skipped": "Pelainang {pid} parellu leppangi giliranna.",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "Player {pid} ({piece}) mammulang [{r}, {c}] membalik {flipped} piro piroe"
   },
   "game_message": {
-    "must_skip": "Pemain {pid} ({piece}) tidak memiliki gerakan sah dan harus melewatkan."
+    "must_skip": "Player {pid} ({piece}) tidak ada giranna riolo dan harus melewati."
   },
   "outcome": {
     "black_wins": "Blekk'e menang {black_count}-{white_count}.",

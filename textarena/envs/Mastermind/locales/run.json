@@ -13,10 +13,10 @@
     "repeated_guess": "Wamaze gufinda {guess}. Nugerageze ikindi gitigiri."
   },
   "game_action": {
-    "feedback": "Submitted [{guess}]. Feedback: {black_pegs} black peg(s), {white_pegs} white peg(s)."
+    "feedback": "Watumise [{guess}]. Ivyo vyagenze: {black_pegs} vimwimbi vy'umwiru, {white_pegs} vimwimbi vy'umweru."
   },
   "outcome": {
-    "win": "You have cracked the code, solving {black_pegs} out of {code_length} pegs correctly",
+    "win": "Wakayaye ikododi, ukamenya {black_pegs} kati ya {code_length} vimwimbi vy'ukuri",
     "turn_limit": "Uwufise uburenganzira bwo guhindukira yarashitse. Warihaye {percent} ku ijana vy'ibiharuro neza."
   }
 }

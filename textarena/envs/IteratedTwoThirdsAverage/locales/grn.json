@@ -7,7 +7,7 @@
     "out_of_range": "Oimo'ãva'erã {min_guess} ha {max_guess} mbytépe."
   },
   "message": {
-    "round_guesses": "Jogador 0 akã {guess0}; Jogador 1 akã {guess1}. Upe a Ñande Róga: {target}.",
+    "round_guesses": "Jugador 0 oipotavé {guess0}; Jugador 1 oipotavé {guess1}. Upéicha, Tembiaporã ha'e: {target}.",
     "round_draw": "Ronde ha'e peteĩ empate.",
     "round_win": "¡Peteĩ jugador {winner} ogana round!"
   },

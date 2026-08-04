@@ -4,7 +4,7 @@
   },
   "board": {
     "current_board": "Patronato atuale: {board}",
-    "current_game_board": "Corente Game Board: {board}"
+    "current_game_board": "Tabellon atuale del zogo:\n{board}"
   },
   "invalid_move": {
     "wrong_format": "Format de mossa invàlida. El xugador {player_id} no ga risposto co na direzion valida in parentesi quadrate.",
@@ -13,8 +13,8 @@
     "already_matched": "Movimento invàlido. El xugador {player_id} el ga selesionà una o tute do le carte che łe xe xà stà conpagnàe."
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "Le carte selezionate dal Zugador {player_id} in posision [{r1} {c1}] e [{r2} {c2}] se corisponde!",
+    "cards_no_match": "Le carte selezionate dal Zugador {player_id} no se corisponde. Le carte in posision [{r1} {c1}] e [{r2} {c2}] xe {pos1} e {pos2} rispetivamente."
   },
   "outcome": {
     "draw": "I do zugadori i ga fato coincider el steso numero de paia de carte.",

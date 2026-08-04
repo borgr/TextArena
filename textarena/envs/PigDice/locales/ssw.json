@@ -10,14 +10,14 @@
     "player_hold": "Umdlali {player_id} ubamba bese ufaka emaphuzu {turn_total}."
   },
   "board": {
-    "player": "Player 0: '{score_0}'; Player 1: '{score_1}'",
-    "current_total_scores": "Current Total Scores: {scores}\nYour current turn total is {turn_total}.",
+    "player": "Mdlali 0: '{score_0}'; Mdlali 1: '{score_1}'",
+    "current_total_scores": "Iscore sikhona samanje: {scores}\nIsamba sakho samanje si {turn_total}.",
     "roll_history": "{observation}\nUmlando wakho wokugijima kulesitokisi: {roll_history}",
     "first_roll": "{observation} Lena yindzima yakho yekucala.",
     "available_actions": "{observation}\nImiyalo iyavunyelwa: '[roll]' noma '[hold]'"
   },
   "outcome": {
-    "winner_by_turn_limit": "Player {winner_id} won by having a higher score at the turn limit ({scores})",
+    "winner_by_turn_limit": "Mdlali {winner_id} uphezile ngoba anesiscore esiphezulu ngelixesha lekugwinya ({scores})",
     "winner_by_score": "Player {winner_id} ushaye ngokufikela kwesikoro esithile {winning_score}!",
     "draw": "Umkhawulo wekujika sewufinyelelwe futsi bonkhe badlali banesipho lesifanako: {scores}"
   }

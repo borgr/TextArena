@@ -9,7 +9,7 @@
     "wrong_format": "Baliw ang aksyon. Gamita '[Hit]' o '[Stand]'."
   },
   "game_message": {
-    "hand_result": "Hand {hand_number}: you {outcome}. Your final {player_score}, Dealer {dealer_score}.",
+    "hand_result": "Kamot {hand_number}: ikaw {outcome}. An imo kataposan nga {player_score}, Dealer {dealer_score}.",
     "all_complete": "=== Natapos na ang tanan {num_hands} kamay ===\nMga daog: {wins}, Mga kadaog: {losses}, Mga tabo: {draws}\n"
   },
   "outcome": {

@@ -6,7 +6,7 @@
     "current_board": "{board}\nڕێنیشەکان بەدیهێنراون: {progress}"
   },
   "invalid_move": {
-    "wrong_format": "Bad action format. Use [h row col] or [v row col].",
+    "wrong_format": "فۆرماتی کارێکی خراپ. [h row col] یان [v row col] بەکاربھێنە.",
     "out_of_bounds": "لێواری دەرەوەی تەختە."
   },
   "outcome": {

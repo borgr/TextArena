@@ -15,6 +15,6 @@
     "black_reached": "Black-in White home row a thleng ta.",
     "white_captured": "White-ho pet zawng zawngte chu an man ta vek a.",
     "black_captured": "Black-te lungphun zawng zawngte chu an man ta vek a.",
-    "no_moves": "Player {player_id} chuan a move tawh lo."
+    "no_moves": "Player {player_id} hian sawnna a nei tawh lo."
   }
 }

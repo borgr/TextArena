@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are {role} in Colonel Blotto.\nYour goal is to win more rounds than your opponent.\nOn each round, allocate exactly {num_total_units} units across fields {field_names}.\nThe player who allocates more units to a field wins that field, and the player who wins more fields wins the round.\nFor example, '[A7 B7 C6]' allocates 7 units to A, 7 to B, and 6 to C.",
+    "intro": "Mo yeke {role} na Colonel Blotto.\nKôli yeke a gba zînga mingi kulê mbênî yeke.\nNa kôli ôko, fa zînga {num_total_units} kulê mbênî {field_names}.\nKôli yeke a fa zînga mingi kulê mbênî ôko, a gba mbênî ôko, na kôli yeke a gba mbênî mingi a gba kôli.\nKôli example, '[A7 B7 C6]' fa zînga 7 kulê A, 7 kulê B, na 6 kulê C.",
     "commander_alpha": "Kota komanda ti ala Alpha.",
     "commander_beta": "Kota zo ti kota kamba Beta."
   },
@@ -9,7 +9,7 @@
   },
   "round_battle": {
     "field_result": "\nLɛlɛ {current_round}\nCommander Alpha kɔza: {p0_allocations}\nCommander Beta kɔza: {p1_allocations}\n",
-    "winner_alpha": "{message}Winner: Commander Alpha [Kozo zo ti bira so ayeke na ndo ni]",
+    "winner_alpha": "{message}A gba: Commandant Alpha",
     "winner_beta": "{message}Winner: Commander Beta ti na ni so a soro lo.",
     "tie": "{message}Kanga kamba!"
   },

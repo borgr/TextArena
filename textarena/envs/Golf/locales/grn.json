@@ -25,9 +25,9 @@
   },
   "board": {
     "drew": "Ogahauséi: {card}\nKo'ágã oñembojevy [swap X Y] térã [discard]",
-    "took": "You took: {card} from discard pile\nYou must [swap X Y] with it (cannot discard).",
+    "took": "Ere rei: {card} umi ka'arãi pyrũgui\nEre va'erã [swap X Y] ndive (ndikatúi reka'arãi).",
     "peeked": "Oiko pe tendáre ({row},{col}): {card}",
-    "turn_view": "Your hand:\n{hand}\nDiscard pile: {discard}\n{options}",
+    "turn_view": "Ne po:\n{hand}\nKa'arãi pyrũ: {discard}\n{options}",
     "none": "Ndaipóri"
   },
   "options": {
@@ -43,7 +43,7 @@
   },
   "action_desc": {
     "swapped": "Jogador {pid} ho'añetéi {new} ndive {old} ápe pe tendáre ({row},{col})",
-    "discarded": "Player {pid} discarded {card}"
+    "discarded": "Jugador {pid} reka'arãi {card}"
   },
   "message": {
     "deck_empty": "Ñembosaraipavẽ oñembotýta!",
@@ -58,7 +58,7 @@
     "discard_empty": "¡Pe mba'e ojeity vaekue yty!",
     "must_draw_first": "Oñembojevy oiko peteĩ ka'arupi, [draw], [take], [knock], térã [peek X Y]",
     "cannot_discard_taken": "Ndaikatúi emboyke peteĩ tarjeta ojehupytýva pila de descarte-gui. Oñeñembohasava'erã chupe.",
-    "have_drawn_card": "You have a drawn card. You must [swap X Y] or [discard] it.",
+    "have_drawn_card": "Ere rei peteĩ ka'i reka'arãi. Ere va'erã [swap X Y] térã [discard] ndive.",
     "need_drawn_swap": "Reikotevẽ peteĩ tarhéta ojehaíva oñemyengovia hag̃ua.",
     "need_drawn_discard": "Reikotevẽ peteĩ tarhéta ojepe'a hag̃ua.",
     "out_of_bounds": "Tendáre oĩ ipype. Eikuaa pochy 1-{max_row}, tenda 1-{max_col}",

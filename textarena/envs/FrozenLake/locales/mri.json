@@ -6,7 +6,7 @@
     "current_board": "Papa Kōwhiri:\n\n{board}\n\nMahi Tūtohu: {actions}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use [up], [down], [left], [right] or [w], [a], [s], [d].",
+    "wrong_format": "He āhua hē ki te whakatinana. Whakamahia [up], [down], [left], [right] rānei [w], [a], [s], [d].",
     "unknown_action": "Mahi kore e mohiotia ana '{action}'. Whakamahia ki runga, raro, maui, matau, w ranei, a, s, d.",
     "hit_wall": "I whāia koe ki te neke i {action} engari kua tu ki te tūpu!"
   },

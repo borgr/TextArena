@@ -9,10 +9,10 @@
     "{pct}": "Progress as a percentage string, e.g. 50%"
   },
   "player_prompt": {
-    "intro": "Map each letter to a unique digit so the arithmetic holds.\nAssign with `[A 5]`, re-assign anytime.\n"
+    "intro": "အက္ခရာ တစ်ခုချင်းစီ ဂဏန်း တစ်ခုချင်းစီ သတ်မှတ်ရန်။\n`[A 5]` ဖြင့် သတ်မှတ်ပါ၊ ပြန်သတ်မှတ်နိုင်သည်။\n"
   },
   "invalid_move": {
-    "wrong_format": "Bad action format. Use `[A 5]`.",
+    "wrong_format": "လှုပ်ရှားမှု ပုံစံ မှားနေသည်။ `[A 5]` ကို သုံးပါ။",
     "letter_not_in_puzzle": "စာလုံး {letter} ဟာ ပဟေဠိထဲမှာ မရှိဘူး။",
     "digit_used": "Digit {digit} ကို {used_letter} က အသုံးပြုပြီးသားပါ။",
     "leading_zero": "စကားလုံးတစ်လုံးရဲ့ ရှေ့ဆုံးကိန်းက ၀ ဖြစ်လို့မရဘူး။"

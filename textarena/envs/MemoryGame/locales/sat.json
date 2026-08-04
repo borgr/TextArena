@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id}. You are playing the Memory Game.\nYour goal is to match more pairs of cards on the board, than your opponent.\nOn your turn, select two cards to flip by entering the row and column numbers of the first and second card respectively like '[0 1 1 0]', where the first card is in row 0 and column 1, and the second card is in row 1 and column 0.\nIf the two cards match, you get a point and the cards remain face up. If they do not match, the cards are flipped back face down, e.g. '.'.\nThe game ends when all pairs have been matched."
+    "intro": "Ami Player {player_id} achi. Ami Memory Game khelachi.\nAmi lakha achi bahu jugal cardke boardre khuntkhan, amar birodhike tike.\nAmi palare, dui cardke flip khanir jonn, pratham ar ditiya carder saf ar kolom numberkhan lekhan '[0 1 1 0]' emon, jekhane pratham card 0 safre ar 1 kolomre achi, ar ditiya card 1 safre ar 0 kolomre achi.\nJodi dui card milaye, ami ek point paye ar cardgulo mukh uthaye thake. Jodi na mile, cardgulo mukh niche firiye deye, uda. '.'.\nKhela ses hole jokhon sab jugal milaye jay."
   },
   "board": {
     "current_board": "ᱱᱤᱛᱚᱜᱟᱜ ᱵᱳᱨᱰ: {board}",
@@ -13,13 +13,13 @@
     "already_matched": "ᱵᱟᱹᱞᱤ ᱪᱟᱞᱟᱜᱼᱟ ᱾ ᱠᱷᱮᱞᱚᱸᱰᱤᱭᱟᱹ {player_id} ᱢᱤᱫ ᱟᱨᱵᱟᱝ ᱵᱟᱱᱟᱨ ᱠᱟᱨᱰ ᱮ ᱵᱟᱪᱷᱟᱣ ᱟᱠᱟᱫᱟ ᱡᱟᱦᱟᱸ ᱫᱚ ᱯᱩᱭᱥᱟ ᱞᱮᱠᱟᱛᱮ ᱦᱟᱢᱮᱴ ᱦᱩᱭ ᱟᱠᱟᱱ ᱛᱟᱦᱮᱸᱱ᱾"
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "Player {player_id} dwara khuntkhan cardgulo [{r1} {c1}] ar [{r2} {c2}] sthanre milaye!",
+    "cards_no_match": "Player {player_id} dwara khuntkhan cardgulo mile na. Cardgulo [{r1} {c1}] ar [{r2} {c2}] sthanre {pos1} ar {pos2} kromik."
   },
   "outcome": {
     "draw": "ᱵᱟᱱᱟᱨ ᱠᱷᱮᱞᱚᱸᱰᱤᱭᱟᱹ ᱜᱮ ᱢᱤᱫ ᱞᱮᱠᱟᱱ ᱠᱟᱨᱰ ᱠᱚᱭ ᱦᱟᱛᱟᱣ ᱞᱮᱫᱼᱟ ᱾",
     "win": "ᱠᱷᱮᱞᱚᱸᱰᱤᱭᱟᱹ {winner_id} ᱡᱤᱛᱠᱟᱹᱨ ᱮᱱᱟ!",
-    "turn_limit": "The turn limit has been reached. The game is over. Player 0 scored {score_0} points, Player 1 scored {score_1} points.",
+    "turn_limit": "ᱫᱟᱣ ᱨᱮᱭᱟᱜ ᱪᱷᱟᱸᱪᱟ ᱯᱟᱨᱚᱢ ᱟᱠᱟᱱᱟ᱾ ᱠᱷᱮᱞ ᱢᱩᱪᱟᱹᱫ ᱟᱠᱟᱱᱟ᱾ ᱠᱷᱮᱞᱚᱸᱰᱤ ᱐ {score_0} ᱯᱚᱭᱮᱱᱴ ᱠᱚᱨᱟᱣ ᱟᱠᱟᱫᱟ, ᱠᱷᱮᱞᱚᱸᱰᱤ ᱑ {score_1} ᱯᱚᱭᱮᱱᱴ ᱠᱚᱨᱟᱣ ᱟᱠᱟᱫᱟ᱾",
     "turn_limit_win": "{reason} Player {winner_id} ᱡᱤᱛᱠᱟᱹᱨ ᱮᱱᱟ!"
   }
 }

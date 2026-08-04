@@ -1,15 +1,15 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a {num_rounds}-round of IteratedTwoThirdsAverage.\nEach round, guess a number between {min_guess} and {max_guess}.\nAfter both guesses, the target is (2/3)x(average of both guesses),\nand the player whose guess is closest to the target wins that round.\nReply with your guess in the format '[<number>]'."
+    "intro": "We u Player {player_id} mwa {num_rounds}-round ya IteratedTwoThirdsAverage.\nKila round, kamba nambari kati ya {min_guess} na {max_guess}.\nKufwa mawili kamba, chenje ni (2/3)x(wastani wa mawili kamba),\nna Player uye kamba chenje ni pafupi sana na chenje uina ile round.\nYamuka na kamba yenu mu fomu '[<number>]'."
   },
   "invalid_move": {
-    "wrong_format": "Invalid format; please submit your guess as “[<number>]”.",
-    "out_of_range": "Cjk cj must be between {min_guess} and{max_guess}."
+    "wrong_format": "Fomu ishikilwe; tafadhal kamba yenu mu fomu '[<number>]'.",
+    "out_of_range": "Khanisa lazima iwe kati ya {min_guess} na {max_guess}."
   },
   "message": {
-    "round_guesses": "Player 0 guessed {guess0}; Player 1 guessed {guess1}. Thus the Target is: {target}.",
+    "round_guesses": "Muthusa 0 akhanisa {guess0}; Muthusa 1 akhanisa {guess1}. Kwa hiyo Thageti ni: {target}.",
     "round_draw": "Kengele ni pondo.",
-    "round_win": "Player {winner} wins the round!"
+    "round_win": "Muthusa {winner} wina mpindi!"
   },
   "outcome": {
     "p0_wins": "Mdlali 0 washinda ngwetsoni أخرى.",

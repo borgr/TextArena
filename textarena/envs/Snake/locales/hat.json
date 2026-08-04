@@ -11,7 +11,7 @@
     "{groups}": "Neutral ranking data (a list of player-id groups, worst to best); do not translate"
   },
   "player_prompt": {
-    "intro": "{num_players}-Player Snake on a {width}×{height} grid.\nYou control snake {player_id}. Valid moves: '[up]'/'[down]'/'[left]'/'[right]' (or w/s/a/d).\nObjective: survive longest or be the longest and get the highest score (turn limit {max_turns} turns)."
+    "intro": "{num_players}-Jwè Sèpan sou yon grid {width}×{height}.\nOu kontwole sèpan {player_id}. Deplasman valab: '[up]'/'[down]'/'[left]'/'[right]' (oubyen w/s/a/d).\nObjektif: siviv pi lontan oubyen vin pi long ak pran pi gwo skò (limit tou {max_turns} tou)."
   },
   "board": {
     "current": "Komisyon Konsèy aktyèl: {board}",

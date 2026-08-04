@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a game of Reverse Tic Tac Toe. Your symbol is '{symbol}'.\nThe goal is to avoid getting three in a row (horizontally, vertically, or diagonally).\nIf you make three in a row, you LOSE.\nSubmit your move using the format '[4]' to place your symbol in cell 4.\nAs Player {player_id}, you are '{symbol}' and your opponent is '{opponent_symbol}'."
+    "intro": "Ikaw amo an Player {player_id} ha usa ka dula hin Reverse Tic Tac Toe. An imo simbolo amo an '{symbol}'.\nAn tuyo amo an likayan an pagkamayda hin tulo ha usa ka linya (ha igbaw, ha ubos, o ha diagonal).\nKon ikaw maghimo hin tulo ha usa ka linya, ikaw an MAAGSA.\nIsumite an imo lihok gamit an format '[4]' para ibutang an imo simbolo ha cell 4.\nBilang Player {player_id}, ikaw amo an '{symbol}' ngan an imo kalaban amo an '{opponent_symbol}'."
   },
   "board": {
     "current_board": "Karuhaan nga Bangon:\n\n{board}\n\nMga Gimbuhaton nga Makukuha: {moves}"

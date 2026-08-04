@@ -13,8 +13,8 @@
     "already_matched": "Tsy mety ny hetsika. Mpilalao {player_id} nifidy ny iray na ny karatra roa izay efa nifanaraka."
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "Ny karatra nosafidin'i Mpilalao {player_id} tamin'ny toerana [{r1} {c1}] sy [{r2} {c2}] dia mitovy!",
+    "cards_no_match": "Ny karatra nosafidin'i Mpilalao {player_id} dia tsy mitovy. Ny karatra tamin'ny toerana [{r1} {c1}] sy [{r2} {c2}] dia {pos1} sy {pos2} avy."
   },
   "outcome": {
     "draw": "Samy nitovy isa ny karatra nalain'ny mpilalao roa.",

@@ -1,6 +1,6 @@
 {
   "game_start": {
-    "intro": "Game e qala. Trump suit: {trump_suit} (trump card: {trump_str}).",
+    "intro": "Papadi e qala. Pampiri e kgethilweng: {trump_suit} (karete e kgethilweng: {trump_str}).",
     "no_trump_card": "ha ho le e 'ngoe"
   },
   "player_prompt": {
@@ -37,8 +37,8 @@
   },
   "turn": {
     "board": "{phase}\n{scores}\n{next_card}\n\n{trick}\n\n{hand}",
-    "scores_learning": "Tricks e kenyang so far - Player 0: {tricks0}, Player 1: {tricks1}",
-    "scores_playing": "Scoring tricks - Player 0: {tricks0}, Player 1: {tricks1}",
+    "scores_learning": "Matshwao ao a thwengwa - Tshwantshwane 0: {tricks0}, Tshwantshwane 1: {tricks1}",
+    "scores_playing": "Ho boloka matshwao - Tshwantshwane 0: {tricks0}, Tshwantshwane 1: {tricks1}",
     "phase": "Mohato: {phase}",
     "phase_learning": "Phase: {phase} ({remaining_cards} karte e tsamayang deck)"
   },
@@ -60,17 +60,17 @@
     "not_started": "Papali ha ea qala",
     "header": "=== GERMAN WHIST GAME=== Ho se ho fetile lilemo tse peli, 'me ke batla hore u tsebe.",
     "phase": "{observation}\nPhase: {phase}",
-    "trump_suit": "{observation}\nTrump suit: {trump_suit}",
-    "trump_card": "{observation}\nTrump card: {card}",
+    "trump_suit": "{observation}\nPampiri e kgethilweng: {trump_suit}",
+    "trump_card": "{observation}\nKarete e kgethilweng: {card}",
     "cards_left": "{observation}\nKarte e tsamayang deck: {count}",
     "next_card": "{observation}\nKarte e tlang ea winner: {card}",
     "blank": "{observation}  e leng ho etsa hore motho a se ke a tseba.",
     "current_trick": "{observation} Leqheka la hona joale:",
     "trump_indicator": "(TRUMP) Ke nahana hore ke ' nete.",
     "trick_line": "{observation}\n  Player {player_id}: {card}{trump_indicator}",
-    "player_line": "{observation}\nPlayer {player_id}: {scoring} scoring tricks ({tricks} efe), {hand_size} karte in hand"
+    "player_line": "{observation}\nPlayer {player_id}: {scoring} makgwa a balwang ({tricks} kaofela), {hand_size} karete letsohong"
   },
   "outcome": {
-    "summary": "Phase ea learning - Player 0: {l0}, Player 1: {l1}. Phase ea playing - Player 0: {p0}, Player 1: {p1}. Player {winner_id} a kenya le {winner_tricks} scoring tricks!"
+    "summary": "Kgato la ithuto - Tshwantshwane 0: {l0}, Tshwantshwane 1: {l1}. Kgato la papadi - Tshwantshwane 0: {p0}, Tshwantshwane 1: {p1}. Tshwantshwane {winner_id} o hlotse ka {winner_tricks} matshwao a bolokang!"
   }
 }

@@ -1,9 +1,9 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a game of HighSociety (2-player version).\nGame flow:  Ten prestige cards are auctioned one after another.\nBidding:    Each auction, secretly choose a money card 1-11 and reveal.\n            • Higher bid wins the prestige card and discards that money card.\n            • Lower bid keeps their money card.\n            • Tie -> both bids are returned and the same prestige card is re-auctioned.\nScoring:    After all ten auctions, add **remaining cash + prestige points**.\n            Higher *net-worth* wins (exact tie -> draw).\n\n**Action syntax**  →  bid a single card like '[7]' or '[11]'."
+    "intro": "Kcemm iseqdac {player_id} deg urar n HighSociety (tamuɣli n 2 n yiseqdac).\nAsrag:     Kcemm mraw n tkeṛṛisit tettwazen walu ar tayeḍ.\nTazna:    Yal tazna, xtar-d s-ɣur-k  takarḍa n flus 1-11, d-ssufeɣ.\n            • Tazna tameqqrant tewwi takarḍa n tkeṛṛisit, d-tettwakkes takarḍa n flus.\n            • Tazna tameẓẓyant tettwaḥrez takarḍa n flus.\n            • Tie -> tazna tettwakkes, d-tettwazen takarḍa n tkeṛṛisit tayed.\nTiswit:    Seld n mraw n tzniwin, rnu **flus iɣallen + tifranin n tkeṛṛisit**.\n            *Taqacuct tameqqrant* tewwi (tie -> tifranin n tkeṛṛisit).\n\n**Tasleḍt n tɣawsa**  →  xtar takarḍa tameẓẓyant am '[7]' neɣ '[11]'."
   },
   "auction": {
-    "announce": "\n### Auction {round}/10  |  Prestige card: {prize}"
+    "announce": "\n### Tazna {round}/10  |  Takarḍa n tkeṛṛisit: {prize}"
   },
   "board": {
     "money_cards": "ⵜⴰⴽⴰⵕⴹⴰ ⵏ ⵓⵥⵕⴼ ⵏⵏⵓⵏ: {money}"
@@ -14,11 +14,11 @@
   },
   "message": {
     "tie": "ⵜⵉⵖⵓⵔⵉⵡⵉⵏ ⵏ ⵓⵙⵙⵉⴹⵏ - ⵜⵜⵓⵢⴰⴽⴽⴰⵏ. ⵔⴱⵉⴷ!",
-    "auction_result": "P0 bid {bid0}, P1 bid {bid1}. Player {winner} wins prestige {prize} (total {total})."
+    "auction_result": "P0 yexdem {bid0}, P1 yexdem {bid1}. Aseqdac {winner} yewwi tkeṛṛisit {prize} (yettwaṭṭaf {total})."
   },
   "outcome": {
-    "p0_wins": "Net-worth {nw0} > {nw1}",
-    "p1_wins": "Net-worth {nw1} > {nw0}",
+    "p0_wins": "Taqacuct {nw0} > {nw1}",
+    "p1_wins": "Taqacuct {nw1} > {nw0}",
     "draw": "ⵙⵏⴰⵜ-ⴰ ⵏⵜⵜⴰⵜ {nw0}  ⵜⴰⴳⴷⴰⵣⴰⵍⵜ."
   }
 }

@@ -6,7 +6,7 @@
     "invalid_action": "Faʻagaioiga le talafeagai. Faʻaoga '[roll]' poʻo '[hold]'."
   },
   "actions": {
-    "player_busted": "Player {player_id} busted, losing {turn_total} points!",
+    "player_busted": "Taaloga {player_id} ua faaletonu, ua leiloa {turn_total} togi!",
     "player_hold": "Tagata taʻalo {player_id} tuʻu ma faʻamaonia {turn_total} puna."
   },
   "board": {

@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "Yɛlɛ̈ pɛ̈i Ŋuɔ̈t {player_id} në run ë GameOfPureStrategy.\n- Yɛlɛ̈ wɛ̈t 13 kɔ̈k ë A-K; kɛ̈kë ëbɛ̈n cɛ̈ thïn.\n- Në luɔ̈i ë kɔ̈k aya, wɛ̈t kɔ̈k ë ŋuɔ̈t ku jɔl yic ë thïn kuɛt kuat ë [[Q]], '[[10]]', '[[2]]' ...\n- Kɔ̈k ë lɔ kuɛt wɛ̈t ë aya (ku jɔl ë kɔ̈k ë bɛ̈n).\n- Kuɛt ë lɔ ë kɔ̈k aya pɛ̈i thïn 13 luɔ̈i."
+    "intro": "Mo yeke Player {player_id} na match ya GameOfPureStrategy.\n- Mo bata carte 13 A-K; kôzo ka sara moko.\n- Kôlô na kôlô carte prize azînga. Sara moko carte na écrire kitô ndêko bracketed token lokola '[Q]', '[10]', '[2]' ...\n- Carte ya juu a gagni carte prize (pius carry-over). Tie a boli carte prize na pot ya kôlô ozui.\n- Total ya juu pêpê 13 kôlô a gagni."
   },
   "round": {
     "announce": "### Luɔ̈i {round}/13 - Aya: {prize}  (kɛ̈k ë ŋuɔ̈t {worth})"
@@ -15,7 +15,7 @@
   "message": {
     "bids": "Bids: P0 {card0} vs P1 {card1} - ",
     "p0_wins": "{observation}Jwɛ̈ ŋuɔ̈t 0 ŋic {pot_value}.",
-    "p1_wins": "{observation}Player 1 wins {pot_value}.",
+    "p1_wins": "{observation}Player 1 yeke {pot_value}.",
     "tie": "{observation}Tie -> pot now {carry_pot}. ti na ta so, a yeke gi teti kete ngoi awe si e lingbi ti wara ye ni kue!",
     "scores": "Scores -> P0:{score0}  P1:{score1}"
   },

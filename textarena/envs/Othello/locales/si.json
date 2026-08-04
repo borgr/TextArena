@@ -16,7 +16,7 @@
   },
   "game_action": {
     "skipped": "ක් රීඩකයාට {pid}ට තමන්ගේ වාරය මඟ හැරීමට සිදු විය.",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "ක්‍රීඩක {pid} ({piece}) [{r}, {c}] පිහිටුවමින් {flipped} කොටස්(ක්) පෙරළීය"
   },
   "game_message": {
     "must_skip": "ක් රීඩකයාට {pid} ({piece}) වලංගු පියවරක් නොමැති අතර එය මඟ හැරිය යුතුය."

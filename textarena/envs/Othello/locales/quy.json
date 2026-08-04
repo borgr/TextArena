@@ -16,13 +16,13 @@
   },
   "game_action": {
     "skipped": "Chaypi {pid} pukllaqqa mana chaymanchu rirqan.",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "Kawak {pid} ({piece})mi pukllaykurqa [{r}, {c}] {flipped} llimp'iykunata t'ikraykurqa"
   },
   "game_message": {
     "must_skip": "Pukaraq {pid} ({piece}) mana kamayaq rinriykuwan, chaywaq k'usqo q'awan"
   },
   "outcome": {
-    "black_wins": "Black wins {black_count}-{white_count}.",
+    "black_wins": "Yana atiparqa {black_count}-{white_count}.",
     "white_wins": "Yuraqqa atipan {white_count}-{black_count}.",
     "draw": "{black_count}-{white_count} nisqaman t'ikray."
   }

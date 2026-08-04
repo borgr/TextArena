@@ -60,7 +60,7 @@
     "not_started": "Masewera sanayambebe.",
     "header": "=== Maseŵera a GERMAN WHIST=== (Maseŵero Olimba)",
     "phase": "{observation}\nPhase: {phase}",
-    "trump_suit": "{observation}\nTrump suit: {trump_suit}",
+    "trump_suit": "{observation}\nSuti ya Trump: {trump_suit}",
     "trump_card": "{observation}\nKadi ya trump: {card}",
     "cards_left": "{observation}\nKadi zili ziko: {count}",
     "next_card": "{observation}\nKadi inayofuata kwa mshindi: {card}",
@@ -71,6 +71,6 @@
     "player_line": "{observation}\nMchezaji {player_id}: {scoring} alipata kadi (〕{tricks} jumla), {hand_size} kadi katika mkono"
   },
   "outcome": {
-    "summary": "Learning phase - Player 0: {l0}, Player 1: {l1}. Playing phase - Player 0: {p0}, Player 1: {p1}. Player {winner_id} wins with {winner_tricks} scoring tricks!"
+    "summary": "Mphindi wa kuphunzira - Mchezaji 0: {l0}, Mchezaji 1: {l1}. Mphindi wa kusewera - Mchezaji 0: {p0}, Mchezaji 1: {p1}. Mchezaji {winner_id} akupambana ndi {winner_tricks} mizere za alama!"
   }
 }

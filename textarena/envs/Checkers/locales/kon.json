@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "Te na fomu ya mezidilo malamu. Sika [a1b2], fano [b2c3].",
-    "illegal": "Move [{move}] is illegal."
+    "illegal": "Kwenda [{move}] kevwandi."
   },
   "game_action": {
     "moved": "Mwana {player_id} mezidila {move}."

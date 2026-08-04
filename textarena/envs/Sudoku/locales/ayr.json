@@ -4,16 +4,16 @@
   },
   "board": {
     "game_board": "Jacha anataña: {board}",
-    "board_state": "Estado de la Junta: {board}"
+    "board_state": "Papaxa phuqhaxa: \n{board}"
   },
   "invalid_move": {
     "wrong_format": "Jani wali wakichata. {player_id} anatirixa janiw chiqpach \"columna fila número\" ukampi jayskataynati.",
-    "out_of_bounds": "Invalid move. Player {player_id} attempted to place {num} at ({row}, {col}), which is out of bounds.",
-    "overwrite": "Invalid move. Player {player_id} attempted to overwrite a pre-filled cell ({row}, {col}).",
-    "violates_rules": "Invalid move. Player {player_id} attempted to place {num} at ({row}, {col}), which violates Sudoku rules."
+    "out_of_bounds": "Q'umachasiña invalida. Player {player_id} {num} siña ({row}, {col}) qhiphañataki, janira limite.",
+    "overwrite": "Q'umachasiña invalida. Player {player_id} ch'ullchu wakich'ata ({row}, {col}) q'alaya.",
+    "violates_rules": "Wak'akunaxa jan wak'akunaxa. Jumakamaxa {player_id} wak'akunaxa {num} wak'a ({row}, {col}), jan wak'akunaxa Sudoku q'awa."
   },
   "outcome": {
     "win": "Jallalla! {player_id} anatirix Sudoku puzzle ukx tukuyawayi.",
-    "turn_limit": "The turn limit has been reached. You correctly filled {percent}% of the empty cells."
+    "turn_limit": "Turno limite ukatxa. Jumakamaxa {percent}% wak'akunaxa phuqhaxa."
   }
 }

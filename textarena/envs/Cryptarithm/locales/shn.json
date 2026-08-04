@@ -9,10 +9,10 @@
     "{pct}": "Progress as a percentage string, e.g. 50%"
   },
   "player_prompt": {
-    "intro": "Map each letter to a unique digit so the arithmetic holds.\nAssign with `[A 5]`, re-assign anytime.\n"
+    "intro": "ႁူမ်ႇတူတ်ႈတွၼ်ႈၽႂ်းႁူမ်ႇတူတ်ႈလိူၼ်ႈ ဢၼ်ႁၢင်ႈႁႅၼ်းၸွမ်းၼင်ႇ ပၢႆးၼပ်ႉၶပ်ႉ။\nၸႂ်ႉ `[A 5]` သေႁူမ်ႇတူတ်ႈ၊ ၶိုၼ်းႁူမ်ႇတူတ်ႈလႆႈ ၵူႈပွၵ်ႈ။\n"
   },
   "invalid_move": {
-    "wrong_format": "Bad action format. Use `[A 5]`.",
+    "wrong_format": "ႁၢင်ႈႁႅၼ်းၶပ်ႉၸႂ်ႉဢၼ်ၸိူင်ႉၼၼ်ႉ ဢမ်ႇလီ။ ၸႂ်ႉ `[A 5]` ၼႆႉလႄႈ။",
     "letter_not_in_puzzle": "တူဝ်လိၵ်ႈ {letter} ဢမ်ႇမီးၼႂ်း ပွင်ႈၵႂၢမ်း။",
     "digit_used": "ႁူမ်ႈတူၺ်း {digit} လႆႈၸႂ်ႉဝႆႉပုၼ်ႈတႃႇ {used_letter}.",
     "leading_zero": "တူဝ်ၼပ်ႉဢၼ်ဢွၼ်တၢင်းသုတ်းၶွင် ၶေႃႈၵႂၢမ်းၼၼ်ႉ ဢမ်ႇၸၢင်ႈပဵၼ် 0 ယဝ်ႉ။"

@@ -12,6 +12,6 @@
   },
   "outcome": {
     "win": "မင်္ဂလာပါ! ကစားသမား {player_id} သည် ၁၅ ပဟေဠိကို အောင်မြင်စွာ ဖြေရှင်းနိုင်ခဲ့သည်။",
-    "turn_limit": "The turn limit has been reached. The model completed {percent} percent of the puzzle"
+    "turn_limit": "လှည့်အရေအတွက် ကန့်သတ်ချက်ကို ရောက်ရှိပြီးဖြစ်သည်။ ပုစ္ဆာ၏ {percent} ရာခိုင်နှုန်းကို မော်ဒယ်က ပြီးစီးခဲ့သည်။"
   }
 }

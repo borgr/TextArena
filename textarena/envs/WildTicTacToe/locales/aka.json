@@ -1,9 +1,9 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in Wild Tic Tac Toe.\nOn your turn, you can place either an 'X' or an 'O' in an empty square.\nYou win by aligning three of the same mark (X or O) in a row.\nYou can win with either symbol.\nChoose your move using the format '[X 4]' to place X in the center.\n"
+    "intro": "Wo ne Player {player_id} wɔ Wild Tic Tac Toe.\nWɔ wo berɛ mu, wo betumi asi 'X' anaa 'O' wɔ kwaeɛ fɛfɛɛ.\nWo di nkunim deɛ wo si nkrɔnkrɔn a ɛyɛ pɛ (X anaa O) wɔ nkrɔnkrɔn.\nWo betumi adi nkunim wɔ nkrɔnkrɔn biara.\nWo nkrɔ si wo berɛ mu wɔ '[X 4]' nhyehyɛeɛ.\n"
   },
   "board": {
-    "current_board": "Current Board:\n\n{board}\n\nAvailable Moves: {moves}"
+    "current_board": "Board a ɛwɔ hɔ nnɛ:\n\n{board}\n\nNkrɔ a wobɛtumi asi: {moves}"
   },
   "invalid_move": {
     "wrong_format": "Mmɔbɔ fɔm no mu nsɛe. De '[X 4]' anaa '[O 2]' fɔm no.",

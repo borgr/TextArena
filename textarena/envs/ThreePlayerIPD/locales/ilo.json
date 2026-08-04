@@ -4,11 +4,11 @@
   },
   "round": {
     "start": "─── Nangrugi ti Round {round} ───\tKayo ket makasao iti libre para iti sunod a {conv_rounds} a round.",
-    "chat_finished": "Chat finished for round {round}. Submit your decisions, one token per opponent: `[pid cooperate]` or `[pid defect]`."
+    "chat_finished": "Nalpasen ti panagsarita para iti round {round}. Isomite dagiti desisyonmo, maysa a token kada kalaban: `[pid cooperate]` wenno `[pid defect]`."
   },
   "results": {
     "header": "### Round {round} - Dagiti resulta:",
-    "pair_line": "{observation}\n\t Player {i} vs Player {j} nagpili a {choice_i} ken {choice_j} respectivamente (Player {i} nakaala {gain_i}, Player {j} nakaala {gain_j})",
+    "pair_line": "{observation}\n\t Agpapel {i} kontra Agpapel {j} ket nagpili nga {choice_i} ken {choice_j} iti tunggal (Agpapel {i} ket nagtalon {gain_i}, Agpapel {j} ket nagtalon {gain_j})",
     "scores_open": "{observation} -> Dagiti agdama a marka: ",
     "score_first": "{observation}Player {player_id} ({score})",
     "score_next": "{observation}; Player {player_id} ({score})",

@@ -24,8 +24,8 @@
     "intro": "Siz O'yinchi {player_id}, Iterated Ultimatum O'yinining {num_rounds} raundini o'ynaysiz.\nSiz ushbu raundni o'zingiz va O'yinchi {other_id} o'rtasida {pool}$ bo'lishish uchun ega siz.\n\nTaklif qiluvchi:\n  - Taklif qil: [Offer: $X] (0 <= X <= pul)\n  - Qabul qilinsa → Sizga (pul - X)$, boshqa o'yinchiga X$\n  - Rad qilinsa → Ikkala o'yinchi ham 0$\n  - Misol: [Offer: $3]  yaki  'Menga bu adil ko'rinadi. [Offer: $5]'\n\nJavob beruvchi:\n  - Taklif bilan [Accept] yaki [Reject] bilan qaror qabul qil\n  - Misol: 'Buni ma'qul ko'raman. [Accept]'\n            'Juda adolatsiz. [Reject]'\n"
   },
   "round": {
-    "begins": "--- Round {round_number} begins! ---\nPlayer {proposer_id} is the proposer, Player {responder_id} is the responder.",
-    "offer": "Round {round_number}: Player {proposer_id} offers ${offer} to Player {responder_id} (keeping ${keep}).",
+    "begins": "--- {round_number} - ئايلانما باشلىنىدۇ! ---\nئويۇنچى {proposer_id} تەكلىپ قىلغۇچى، ئويۇنچى {responder_id} جاۋاب قايتۇرغۇچى.",
+    "offer": "{round_number} - ئايلانما: ئويۇنچى {proposer_id} ئويۇنچى {responder_id} گە ${offer} پۇلنى تەكلىپ قىلىدۇ (${keep} پۇلنى ئۆزىگە قالدۇرىدۇ).",
     "accepted": "O'yinchi {responder_id} qabul qildi! Raund {round_number} foydasi: O'yinchi {proposer_id} +{proposer_gain}$, O'yinchi {responder_id} +{responder_gain}$. Yangi jamlar: O'yinchi 0: {total_0}$, O'yinchi 1: {total_1}$.",
     "rejected": "O'yinchi {responder_id} taklifni rad etdi! Raund {round_number} foydasi: Ikkala o'yinchi ham 0$. Jamlar saqlanadi: O'yinchi 0: {total_0}$, O'yinchi 1: {total_1}$."
   },
@@ -37,7 +37,7 @@
     "accept_or_reject": "Jawapker [Accept] yaki [Reject] taklifni qabul qilishi yaki rad etishi kerak."
   },
   "outcome": {
-    "win": "Player {winner} won with ${winner_total} total vs Player {loser}'s ${loser_total}.",
+    "win": "ئويۇنچى {winner} ${winner_total} پۇل بىلەن گەلىبە قىلدى، ئويۇنچى {loser} ${loser_total} پۇلغا ئۇتۇلدى.",
     "draw": "تەڭلەڭ! ھەر ئىككىسى جەمئىي ${total} بىلەن ئاخىرلاشتى."
   }
 }

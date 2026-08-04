@@ -1,14 +1,14 @@
 {
   "player_prompt": {
-    "intro": "You are playing {color} in a game of Breakthrough. You move {direction} on an {board_size}x{board_size} board.\nIn your turn you can move a single piece one step forward or diagonally forward.\nA piece may only move diagonally if an opponent piece is there, and only move into such a preoccupied square in a diagonal step.\nWhen stepping into a square with an opponent piece, you capture it and the opponent's piece is removed permanently from the board.\nUse UCI-like notation in brackets, e.g. [a2a3] to move from a2 to a3.\n* 'a' corresponds to the leftmost column, '1' is the bottom row (from White's perspective).\n* Blacks's home row is the top row (row 8 for an 8x8). White's home row is the bottom row (row 1 for an 8x8).\nThe first player whose piece reaches the opponent's home row wins. If your pieces are all captured, you lose."
+    "intro": "O keba {color} mu tshimu ya Breakthrough. O keba {direction} mu mbala ya {board_size}x{board_size}.\nMu ntangu ya keba, o keba kimoko moko kisika kimo ketelela mbele to ketelela mbele na kubambela.\nKisika kimo kikeba ketelela na kubambela kaka kuna kisika kimo kya mpinzani, na kikeba ketelela mu mbala ina kisika kimo kya mpinzani kaka na kubambela.\nKisika kimo kikeba mu mbala ina kisika kimo kya mpinzani, o kamba kisika kimo kya mpinzani na kisika kimo kya mpinzani kibuka na mbala.\nTumina notation ya UCI mu mbano, kwa mfano [a2a3] ketelela ku a2 ku a3.\n* 'a' kilingana na koloni ya kushoto kabisa, '1' ni safu ya chini (kutoka kwa mtazamo wa White).\n* Safu ya nyumba ya Blacks ni safu ya juu (safu 8 kwa 8x8). Safu ya nyumba ya White ni safu ya chini (safu 1 kwa 8x8).\nMchezaji wa kwanza kisika kimo chake kifika safu ya nyumba ya mpinzani atashinda. Ikiwa visika vyako vyote vikamba, o hasha."
   },
   "invalid_move": {
     "wrong_format": "Sadila kidimbu ya ba bracket bonso [a2a3].",
-    "out_of_bounds": "Move is out of board bounds.",
+    "out_of_bounds": "Ketelela kiko nje ya mipaka ya mbala.",
     "illegal": "Kusala mutindu yina ke wakana ve ti bansiku ya Kubotula Bima to yo kele ve kitini na nge."
   },
   "game_action": {
-    "moved": "Player {player_id} moves {move_str} ({piece})."
+    "moved": "Mchezaji {player_id} ketelela {move_str} ({piece})."
   },
   "outcome": {
     "white_reached": "Bantu ya mpembe kumaka na ndonga yina bantu-ndombe vandaka kubaka.",

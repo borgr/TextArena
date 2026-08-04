@@ -4,7 +4,7 @@
     "no_trump_card": "ɖeke meli o"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in German Whist.\n{phase_info}\nYou hold {hand_size} cards.\nPlay a card with '[play N]', where N is its position in your hand (for example '[play 3]').",
+    "intro": "Nyɛ Player {player_id} le German Whist me.\n{phase_info}\nNyɛ wɔ {hand_size} kaadi.\nDi kaadi ɖe '[play N]', ne N nye kaadi ɖe gbeɖeɖe le nyɛ asime (sɔŋ '[play 3]' tɔ).",
     "phase_learning": "NUGBLƆÐEŊU: Ame si ɖu dzi le ayemenu ɖesiaɖe me la xɔa agbalẽ gbadzaa eye amesi bu lae toa eƒe lɛta bubu. Ayemenu siwo woxɔna le ɣeyiɣi sia me mele xexlẽme o hena dziɖuɖu.",
     "phase_playing": "ÐEÐEWO: Wowu agba la katã nu. Tso fifia dzi yina la, aɖaŋu ɖesiaɖe si nàɖe akpɔ dzidzedzee nye esi hiã be nàɖu aʋa sia dzi."
   },
@@ -25,7 +25,7 @@
   },
   "trick": {
     "won": "Fefewɔla {winner_id} si tsɔ ƒleƒuka la ɖu dzi kple {card}.",
-    "won_learning": "Player {winner_id} wins the trick with {card} and takes the face-up card."
+    "won_learning": "Player {winner_id} xɔ ɖoɖo ɖe asime ɖe kaadi {card} eye xɔ kaadi ɖe gbeɖeɖe la."
   },
   "phase": {
     "learning_complete": "Nufiafiamɔ la wu enu - aɖaŋu ɖesiaɖe si susɔ le vevie hena aʋadziɖuɖu."
@@ -38,9 +38,9 @@
   "turn": {
     "board": "{phase}\n{scores}\n{next_card}\n\n{trick}\n\n{hand}",
     "scores_learning": "Dzidzedze si wɔ dɔ - Dɔdzikpɔla 0: {tricks0}, Dɔdzikpɔla 1: {tricks1}",
-    "scores_playing": "Scoring tricks - Player 0: {tricks0}, Player 1: {tricks1}",
+    "scores_playing": "Fɔɖuɖu tɔxɛwo - Aʋa 0: {tricks0}, Aʋa 1: {tricks1}",
     "phase": "Mɔzɔzɔnya: {phase}",
-    "phase_learning": "Phase: {phase} ({remaining_cards} cards left in the deck)"
+    "phase_learning": "Phase: {phase} ({remaining_cards} kaadi ɖe gbeɖeɖe la)"
   },
   "hand": {
     "no_cards": "Nyematsɔ agbalẽ aɖeke o.",
@@ -68,9 +68,9 @@
     "current_trick": "{observation} Egbegbe nufitifitiwɔwɔ:",
     "trump_indicator": "(TRUMP) [Afɔkpa]",
     "trick_line": "{observation}\n  Dɔdzikpɔla {player_id}: {card}{trump_indicator}",
-    "player_line": "{observation}\nPlayer {player_id}: {scoring} scoring tricks ({tricks} total), {hand_size} cards in hand"
+    "player_line": "{observation}\nPlayer {player_id}: {scoring} ɖoɖo ɖe asime ({tricks} total), {hand_size} kaadi ɖe nyɛ asime"
   },
   "outcome": {
-    "summary": "Learning phase - Player 0: {l0}, Player 1: {l1}. Playing phase - Player 0: {p0}, Player 1: {p1}. Player {winner_id} wins with {winner_tricks} scoring tricks!"
+    "summary": "Srɔ̃ɖeɖe ƒe nɔnɔ̃ - Aʋa 0: {l0}, Aʋa 1: {l1}. Fɔɖuɖu ƒe nɔnɔ̃ - Aʋa 0: {p0}, Aʋa 1: {p1}. Aʋa {winner_id} ɖu agbe kpo {winner_tricks} fɔɖuɖu tɔxɛ si!"
   }
 }

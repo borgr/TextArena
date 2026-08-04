@@ -11,7 +11,7 @@
     "{groups}": "Neutral ranking data (a list of player-id groups, worst to best); do not translate"
   },
   "player_prompt": {
-    "intro": "{num_players}-Player Snake on a {width}×{height} grid.\nYou control snake {player_id}. Valid moves: '[up]'/'[down]'/'[left]'/'[right]' (or w/s/a/d).\nObjective: survive longest or be the longest and get the highest score (turn limit {max_turns} turns)."
+    "intro": "{num_players}-ተጻዋሪ ሳንክ በ {width}×{height} ግሪድ ላይ።\nአንተ ሳንክ {player_id} ትቆጣጥራለህ። ትክክለኛ ሂደቶች፦ '[up]'/'[down]'/'[left]'/'[right]' (ወይም w/s/a/d)።\nዕድል፦ ከሁሉም ዘልቆ ዘውዕል ወይም ከሁሉም ዘልቆ ወደሆነህ ከፍተኛ ነጥብ አግኝ (ክለዋይ {max_turns} ሂደቶች)።"
   },
   "board": {
     "current": "ናይ ሕጂ ቦርድ: {board}",
@@ -26,6 +26,6 @@
     "outlived": "እቲ ተጻዋታይ ካብ ካልኦት ኩሎም ብህይወት ተሪፉ።",
     "all_dead": "ኩሎም ተመንታት ሞይቶም እዮም።",
     "turn_limit": "ናይ መቐይሮ ገደብ በጺሑ፡ እቲ ዝበለጸ ነጥቢ ኣብ ምቁራጽ ተዓዊቱ እዩ።",
-    "ranking": "{reason} Final ranking groups (worst→best): {groups}"
+    "ranking": "{reason} መጨረሻ ደረጃ ቡድኖች (ከጥፋት ወደ ምርጥነት)፦ {groups}"
   }
 }

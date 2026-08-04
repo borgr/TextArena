@@ -6,7 +6,7 @@
     "current_value": "Niuīneiguo vierteiba ir {value}."
   },
   "invalid_move": {
-    "wrong_format": "Action must be either [accept] or [continue]."
+    "wrong_format": "Darbībai jābūt vai nu [accept], vai [continue]."
   },
   "outcome": {
     "summary": "Jūs pieņēmāt vērtību {value} uzbrūkumā {draw_num}/{N}. Vislabākais kopumā bija {best}. {result}",

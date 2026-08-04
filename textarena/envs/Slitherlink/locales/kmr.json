@@ -1,9 +1,9 @@
 {
   "player_prompt": {
-    "intro": "You are playing Slitherlink on a {R}x{C} grid!\nDraw a single continuous loop so each numbered cell has that many bordering edges.\nToggle edges with:\n  [h r c] - toggle horizontal edge above dots at row r, column c\n  [v r c] - toggle vertical edge left of dots at row r, column c\nNumbers show required edge count, '.' means no constraint.\nYou have up to {max_turns} moves to solve the puzzle."
+    "intro": "Tu di Slitherlinkê de li ser grîdek {R}x{C} dilîzî!\nYek lûpeka berdewam çêke ku her hucreya hejmara xwe hevdu re hevê xwe hejmara wê qirêjiyan heye.\nQirêjiyan bi vî rengî çalak bike:\n  [h r c] - qirêjiya horîzontal a li jorê nîşangan li rêza r, stûna c çalak bike\n  [v r c] - qirêjiya vertîkal a çepê nîşangan li rêza r, stûna c çalak bike\nHejmarên ku hejmara qirêjiyan nîşan didin, '.' tê wateya bê sînor.\nTu heya {max_turns} hereketan ji bo çareserkirina puzleê heye."
   },
   "board": {
-    "current_board": "{board}\nClues satisfied: {progress}"
+    "current_board": "{board}\nNîşanên vala hatine çareser kirin: {progress}"
   },
   "invalid_move": {
     "wrong_format": "Şêweya çûnê ne rast e. Bi [h row col] an [v row col] bikar bîne.",

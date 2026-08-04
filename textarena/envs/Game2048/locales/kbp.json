@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing 2048 on a {board_size}x{board_size} board. Your goal is to reach a {target_tile} tile by sliding identical numbers together!\nValid moves: [Up], [Down], [Left], [Right]. Tiles combine when they collide, doubling their value.\n"
+    "intro": "Kɩlaŋ kɛ mbʊyɔm 2048 kɛ kɔɖɛ {board_size}x{board_size} kɛ kɔɖɛ. Kɛɖɛɣa kɛ kɩlaŋ mbʊyɔm {target_tile} kɛ kɔɖɛ pɩtɩŋɩ pɩ-tɛ kɩlaŋ mbʊyɔm kʊyɔm pɩ-tɛ kɔɖɛɣa!\nKɩlaŋ kɛ mbʊyɔm tɔm: [Up], [Down], [Left], [Right]. Kɔɖɛɣa kɛ kɩlaŋ mbʊyɔm pɩtɩŋɩ pɩ-tɛ kɔɖɛɣa, pɩ-tɛ kɔɖɛɣa kʊyɔm.\n"
   },
   "board": {
     "current_board": "Paya: {score}\n{board}"

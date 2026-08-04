@@ -21,20 +21,20 @@
     "{scores}": "The pre-rendered per-player list of final scores"
   },
   "player_prompt": {
-    "intro": "You are playing Golf (Card Game) - Player {player_id}.\nGoal: Get the lowest total score in this single round. If columns share the same value, they are summed as 0.\nCard Values: A=1, 2-10=face value, J/Q=10, K=0\n\nActions (use exact brackets):\n- '[draw]' - Draw from deck\n- '[take]' - Take from discard pile\n- '[swap X Y]' - Swap drawn card with position X (row) Y (column)\n- '[discard]' - Discard the drawn card\n"
+    "intro": "Yaa ngone Golf (Kart Ginnaaw) - Kóko {player_id}.\nJëfandikoo: Ajjëlëëlë totalu ñaareelu ci arafu benn ronde. Su kulum yu bari ñaareelu ñu ngone, ñu nekk ci 0.\nWàllu Kart: A=1, 2-10=wàll, J/Q=10, K=0\n\nCi tontu (jëfandikoo bekk-brackets):\n- '[draw]' - Ci ndawul deck\n- '[take]' - Ci ndawul pile bu ñàkk\n- '[swap X Y]' - Ci ndawul kart ak position X (ràng) Y (kulum)\n- '[discard]' - Ci ñàkk kart bi\n"
   },
   "board": {
-    "drew": "Vous avez pioché : {card}\nMaintenant, vous devez [swap X Y] ou [discard]",
-    "took": "You took: {card} from discard pile\nYou must [swap X Y] with it (cannot discard).",
-    "peeked": "Vous avez regardé la position ({row},{col}) : {card}",
-    "turn_view": "Votre main :\n{hand}\nTalon : {discard}\n{options}",
+    "drew": "Yaa ndaw: {card}\nLéegi yaa ngone [swap X Y] mbaa [discard] moom.",
+    "took": "Yaa jël: {card} ci pile bu ñàkk\nYaa ngone [swap X Y] ak moom (manu ñàkk).",
+    "peeked": "Yaa xool ci position ({row},{col}): {card}",
+    "turn_view": "Kartu yaa ngone:\n{hand}\nPile bu ñàkk: {discard}\n{options}",
     "none": "Amul benn."
   },
   "options": {
-    "final_turns": "Final turns! Your options: [draw], [take], [peek X Y]",
-    "draw": "Vos options : [draw], [take]",
+    "final_turns": "Tournées yi ñaare! Njëriñ yi: [draw], [take], [peek X Y]",
+    "draw": "Njëriñ yi: [draw], [take]",
     "must_swap": "Danga war a: [swap X Y] (bu mënul sànni ay kaar yu nekk ci daara)",
-    "swap_or_discard": "Vous devez : [swap X Y] ou [discard]"
+    "swap_or_discard": "Yaa ngone: [swap X Y] mbaa [discard]"
   },
   "hand": {
     "no_cards": "Du ay kaarêe.",
@@ -42,38 +42,38 @@
     "row": "Ligne {n} : {cards}"
   },
   "action_desc": {
-    "swapped": "Player {pid} swapped {new} with {old} at position ({row},{col})",
-    "discarded": "Player {pid} discarded {card}"
+    "swapped": "Kóko {pid} jël {new} ak {old} ci position ({row},{col})",
+    "discarded": "Këru {pid} bàyyi {card}"
   },
   "message": {
     "deck_empty": "Géej gi dafa jeex ba tey.",
     "knocked": "Jëfandikukat {pid} dañ koo tëj ! Képp jëtun ci yeneen yi am na benn yoon.",
-    "final_round": "Player {pid} {reason}! Each other player gets one more turn."
+    "final_round": "Kóko {pid} {reason}! Kóko béle nekk na ci benn tur."
   },
   "reason": {
     "all_revealed": "am na ay kaar yu ñu feeñal yépp?"
   },
   "invalid": {
-    "wrong_action": "Utilisez exactement UNE action entre parenthèses : [draw], [take], [swap X Y], [discard], [knock] ou [peek X Y]",
+    "wrong_action": "Jëfandiku ak jëf jëmm ci biiru brackets bi: [draw], [take], [swap X Y], [discard], [knock], walla [peek X Y]",
     "discard_empty": "Géej gi ñu sànni dafa wéet!",
-    "must_draw_first": "Vous devez d'abord [draw], [take], [knock] ou [peek X Y]",
+    "must_draw_first": "Ndaw màm ngone [draw], [take], [knock], walla [peek X Y]",
     "cannot_discard_taken": "Mënuloo sànni kaar-dëgg bu ñu jële ci ndab li ñuy sànne. Dangaa war koo soppi.",
-    "have_drawn_card": "Vous avez une carte piochée. Vous devez [swap X Y] ou [discard]",
+    "have_drawn_card": "Yaa am kartu ndawul. Yaa ngone [swap X Y] mbaa [discard] moom.",
     "need_drawn_swap": "Dafa soxla ab kaarê bu ñu leen di soppi.",
     "need_drawn_discard": "Dafa soxla ab kaarê bu ñu leen di sànni.",
-    "out_of_bounds": "Position en dehors des limites. Utilisez la ligne 1-{max_row}, colonne 1-{max_col}",
+    "out_of_bounds": "Posisyon bi dikk na. Jëfandikoo liggi 1-{max_row}, kolu 1-{max_col}",
     "knock_with_card": "Mënuloo tënk ak kaar-dëgg bu ñu la jël. Jëf sa wàll bi jëkk a mat sëkk.",
     "already_knocked": "Kenn a ko jàppe woon.",
     "already_revealed": "Dafa am benn xalaat!"
   },
   "summary": {
-    "full": "Fin du jeu ! Joueur {winner} gagne avec un score de {score} points !\n\nScores finaux :\n{scores}",
-    "line": "Player {pid}: {score} points\n"
+    "full": "Jëfandikoo jàll! Kóko {winner} jàll na ak ñaareelu {score} póint!\n\nÑaareelu yu mujj:\n{scores}",
+    "line": "Këru {pid}: {score} poin\n"
   },
   "board_str": {
     "title": "=== GOLF Yëre bi===",
     "discard": "Jëfandikukat: {card}",
-    "knocked": "Player {pid} has knocked!",
-    "player_header": "Player {pid} (Score: {score}):"
+    "knocked": "Këru {pid} dafa xëcce!",
+    "player_header": "Këru {pid} (Njël: {score}):"
   }
 }

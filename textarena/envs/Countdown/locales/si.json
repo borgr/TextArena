@@ -9,7 +9,7 @@
     "progress": "{observation} වර්තමාන ප් රගති ලකුණු: {progress}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use `[i j op]` where i,j are indices and op is +,-,*,/",
+    "wrong_format": "අක්‍රිය ක්‍රියා ආකෘතිය. [i j op] ආකෘතිය භාවිත කරන්න මෙහි i,j අනුක්‍රමික අංක වන අතර op යනු +,-,*,/ වේ.",
     "invalid_indices": "වලංගු නොවන දර්ශක. 0-{max_index} පරාසය තුළ වෙනස් විය යුතුය.",
     "invalid_operation": "අක් රමවත් ක් රියාවලිය (ශුන් යයට හෝ පූර්ණ සංඛ් යාවක් නොවන ප් රතිඵලයට බෙදීම)"
   },

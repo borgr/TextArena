@@ -6,8 +6,8 @@
     "wrong_format": "Saanket a pormat; pakairam '[heads]' wenno '[tails]'."
   },
   "message": {
-    "round_match": "Nangpili ti Player 0 ti {choice0}; Nangpili ti Player 1 ti {choice1}. Match -> Nangabak ti Player 0",
-    "round_mismatch": "Nangpili ti Player 0 ti {choice0}; Nangpili ti Player 1 ti {choice1}. Mismatch -> Nangabak ti Player 1."
+    "round_match": "Napili ni Agtutubo 0 ti {choice0}; Napili ni Agtutubo 1 ti {choice1}. Agpada -> Nagabak ti Agtutubo 0",
+    "round_mismatch": "Napili ni Agtutubo 0 ti {choice0}; Napili ni Agtutubo 1 ti {choice1}. Saan nga agpada -> Nagabak ti Agtutubo 1"
   },
   "outcome": {
     "p0_wins": "Ad-adu a round ti inabak ni Player 0.",

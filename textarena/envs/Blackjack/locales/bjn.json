@@ -9,8 +9,8 @@
     "wrong_format": "Aksi tidak baku. Gunakan '[Hit]' atau '[Stand]'."
   },
   "game_message": {
-    "hand_result": "Hand {hand_number}: you {outcome}. Your final {player_score}, Dealer {dealer_score}.",
-    "all_complete": "=== All {num_hands} hands complete ===\nWins: {wins}, Losses: {losses}, Draws: {draws}\n"
+    "hand_result": "Tangan {hand_number}: kamu {outcome}. Skormu akhir {player_score}, Dealer {dealer_score}.",
+    "all_complete": "=== Samunyaan {num_hands} tangan rampung ===\nMenang: {wins}, Kalah: {losses}, Sarik: {draws}\n"
   },
   "outcome": {
     "game_over": "Paturaian sudah usai. Skor ahir: Dealer: {losses}, Kamu: {wins}, Sarimbunan: {draws}"

@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({piece}). Opponent is ({opp}). Submit moves as '[b1 c3]' (from → to). All pieces move like chess knights.\nEach capture scores {score_per_capture} point. Game ends after {max_moves} moves or when a player has no legal move / no pieces. Higher score wins."
+    "intro": "Oli mchezaji {player_id} ({piece}). Omulwaniriza ni ({opp}). Saba michezo ng'amu '[b1 c3]' (kutoka → hadi). Michezo yote inasonga kama knights za chess.\nBululu kila inafungwa {score_per_capture} alama. Omuzanyo guweddeka baada ya {max_moves} michezo oba lwenyanga mchezaji tafuna mchezo halali / tafuna michezo. Alama ya juu inawangula."
   },
   "board": {
     "current_board": "Ku ngulu #{move_count}\n\n{board}\n\nEbirooso: {moves}"

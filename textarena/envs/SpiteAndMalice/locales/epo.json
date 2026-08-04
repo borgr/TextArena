@@ -15,7 +15,7 @@
     "empty": "Malplena."
   },
   "game_message": {
-    "no_cards_left": "There are no more cards to draw from. Remember that you can play cards from these sources:\n  1. Your **hand**.\n  2. The **top card of your payoff pile**.\n  3. The **top card of any of your discard piles**.\n\n"
+    "no_cards_left": "Ne plu estas kartoj por tiri. Memoru ke vi povas ludi kartojn el ĉi tiuj fontoj:\n  1. Via **mano**.\n  2. La **supra karto de via pagopilo**.\n  3. La **supra karto de iu ajn el viaj forĵetpiloj**.\n\n"
   },
   "invalid_move": {
     "wrong_format": "Malvalida movo formato. Ludanto {player_id} ne respondis kun valida movado en kvadrataj krampoj.",

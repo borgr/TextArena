@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "ಯಾವುದೇ ಮಾನ್ಯವಾದ ಚಲನೆಯ ಸ್ವರೂಪ ಕಂಡುಬಂದಿಲ್ಲ. [a1b2] ಬಳಸಿ, ಉದಾ. [b2c3].",
-    "illegal": "Move [{move}] is illegal."
+    "illegal": "ಚಲನೆ [{move}] ಕಾನೂನುಬಾಹಿರವಾಗಿದೆ."
   },
   "game_action": {
     "moved": "ಆಟಗಾರ {player_id} {move} ಅನ್ನು ಸರಿಸಿದರು."

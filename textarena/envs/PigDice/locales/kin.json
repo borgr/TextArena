@@ -7,7 +7,7 @@
   },
   "actions": {
     "player_busted": "Umukinnyi {player_id} yabujijwe, akaba yapigiye {turn_total} pointi!",
-    "player_hold": "Player {player_id} holds and banks {turn_total} points."
+    "player_hold": "Mugenzi {player_id} yafunga akabika {turn_total} amanota."
   },
   "board": {
     "player": "Umukinnyi 0: '{score_0}'; Umukinnyi 1: '{score_1}'",
@@ -17,7 +17,7 @@
     "available_actions": "{observation}\nIbikorwa biruhushwa: '[roll]' cyangwa '[hold]'"
   },
   "outcome": {
-    "winner_by_turn_limit": "Umukinnyi {winner_id} yatsinze kubera kuba ufite score ili canke kuri turn limit ({scores})",
+    "winner_by_turn_limit": "Mugenzi {winner_id} yatsinze kuko yari afite amanota menshi ku kigero cy'uguhugu ({scores})",
     "winner_by_score": "Umukinnyi {winner_id} yatsinze kubera kuzamura score yizerereza ya {winning_score}!",
     "draw": "Umupaka w'agahinduranyirizo ugezweho kandi abakinnyi bose bafite amanota angana: {scores}"
   }

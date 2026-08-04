@@ -16,16 +16,16 @@
     "{cards}": "The cards in a pile as neutral labels, or '--' if empty (never translate)"
   },
   "player_prompt": {
-    "intro": "You are playing Klondike Solitaire. Your goal is to move all cards to the foundation piles.\n\nGame Rules:\n- Foundation piles (F1-F4): Build up from Ace to King in suit\n- Tableau piles (T1-T7): Build down alternating colors (red on black, black on red)\n- Stock: Draw cards to waste pile\n- Waste (W): Top card available for play\n\nCommands:\n- 'draw' - Draw cards from stock to waste\n- 'move <source> <destination> [count]' - Move cards between piles\n  Examples: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count can also be 'all', which will try to move all face-up cards.\n- 'forfeit' - End the game immediately and lock in your current score\n- Pile names: W (waste), F1-F4 (foundations), T1-T7 (tableau)\n\nYou can execute multiple actions in one turn by separating them with commas:\n  Example: 'draw, move W T1, move T2 F1'\n\nOnly Kings can be placed on empty tableau piles.\nActions execute in order - if one fails, the remaining actions are skipped.\nUse 'forfeit' if you believe the game is impossible to win."
+    "intro": "Udlala Klondike Solitaire. Inhloso yakho kuyi kutsalisa kekhozi zonke kwenye pile za-foundation.\n\nImiyalo ye-Mdlalo:\n- Pile za-foundation (F1-F4): Akha phezulu kusuka Ace kuya King ngaphansi kwesuti\n- Pile za-tableau (T1-T7): Akha phansi ngokuhambisana kwamabala (bomvu phezu kwenye mnyama, mnyama phezu kwenye bomvu)\n- Stock: Tsala kekhozi kwenye pile ya-waste\n- Waste (W): Ikekhozi e-top iyatholakala kwenye mdlalo\n\nImiyalo:\n- 'draw' - Tsala kekhozi kusuka stock kuya waste\n- 'move <source> <destination> [count]' - Tsala kekhozi phakathi kwenye pile\n  Imibono: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count inaweza nayo 'all', leyo itakula kutsalisa kekhozi zonke ezibonakalayo.\n- 'forfeit' - Qeda umdlalo manje nje na uyasale ngeskoru yakho sikhona\n- Amagama a-pile: W (waste), F1-F4 (foundation), T1-T7 (tableau)\n\nUngakwenza imidlalo eminingi kwenye mizamo moya ngokuhlukanisa ngekoma:\n  Umbono: 'draw, move W T1, move T2 F1'\n\nKings kuphela angatholakala kwenye pile za-tableau eziphakathi.\nImidlalo iyakwenziwa ngokulandelana - uma eyodwa iqede, imidlalo iliyobaki iyasale.\nSebenzisa 'forfeit' uma ucela ukuthi umdlalo uqedile ukunqoba."
   },
   "format_error": {
     "no_brackets": "Ifomethi yesento lesingasebenti. Lesenzo kumele sibe ngekhatsi kwemakhethini (brackets).",
     "no_closing_bracket": "Ifomethi yekwenta lengasebenti. Kulahleka kwebracket yekuvala ']'",
     "empty_command": "Umyalo longenalutfo. Bhala 'draw' nobe 'move <source><destination> [count]'.",
     "empty_action": "Sento lesingenalutfo",
-    "move_needs_args": "Umyalo wekuhambisa udzinga indzawo lapho uvela khona kanye nalapho uya khona. Kusetjentiswa: 'hambisa <indzawo> [count]'",
-    "count_positive": "Kubalwa kufanele kube ngulokuhle nobe 'konkhe'",
-    "count_invalid": "Kubalwa lokungasebenti. Sebentisa inombolo nobe 'konkhe'",
+    "move_needs_args": "Umyalo wa-move udinga isikhala na indawo. Sebenzisa: 'move <source> <destination> [count]'",
+    "count_positive": "Inombolo kumele ibe ngempela noma 'all'",
+    "count_invalid": "Inombolo siyo ngempela. Sebenzisa inombolo noma 'all'",
     "unknown_command": "Komandi lisikhulumisiwe '{cmd}'. Lacela 'draw', 'move <source> <destination> [count]', or 'forfeit'",
     "wrapped": "Action {n}: {msg}"
   },

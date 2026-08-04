@@ -3,11 +3,11 @@
     "current_board": "ད་ལྟའི་ཡིག་སྣོད་: {board}"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} playing a game of Checkers as {color}.\nMake your move in chess-style notation [fileRank fileRank], e.g. '[b2c3]' (column letter a–h, row digit 0–7).\nBasic rules:\n  • Move diagonally forward by 1 if empty.\n  • Capture by jumping over an opponent piece.\n  • A piece is Kinged if it reaches the opposite end.\n"
+    "intro": "ཁྱེད་མི་སྟེ {player_id} རིགས་རིག་མི་སྟེ ཚོན་མདོག {color} ཡིན་པའི་རིགས་རིག་སྟེ ཆེཀ་ཀེར་སི་རིགས་རིག་འཁྲུག་གི་འགྲན་སྟོང་བྱེད་བཞིན་ཡོད།\nཁྱེད་ཀྱི་གོམ་པ་ཆེཀ་སི་རིགས་རིག་གི་སྟོང་ཚུལ་དུ་བྲི་བཞིན་ཡོད། [fileRank fileRank] དཔེར་ན་'[b2c3]' (ཡི་གེ་ཨེ་ནས་ཧེ་བར་གྱི་སྲེད་དང་ ཨང་ཀི་ ༠ ནས་ ༧ བར)།\nརྩ་དོན་གྱི་དགོངས་དོན།\n  • གུང་སྟེ སྟོང་པ་ཡིན་ན་མདུན་དུ་གོམ་པ་གཅིག་བྱེད་ཆོག\n  • ཕ་རོལ་པའི་རིགས་རིག་སྟེ སྟོང་འགྲན་བྱེད་པའི་ཐོག་ནས་འགྲན་ཆོག\n  • རིགས་རིག་སྟེ ཕ་རོལ་གྱི་མཇུག་སྣེར་སླེབས་ན་རྒྱལ་པོར་བསྒྱུར་བཞིན་ཡོད།\n"
   },
   "invalid_move": {
     "wrong_format": "འགུལ་གྱི་ཚུལ་མི་འགྲིག་པ་ཞིག་མ་རྙེད། [a1b2] དཔེར་ན། [b2c3]",
-    "illegal": "Move [{move}] is illegal."
+    "illegal": "འགྲོའི་རྩེད་སྟངས་འདི་[{move}] ཁྲིམས་འགལ་ཡིན།"
   },
   "game_action": {
     "moved": "རྩེད་འགྲན་པ་ {player_id} སྤོས་པ། {move}།"

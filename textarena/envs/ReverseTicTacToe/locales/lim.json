@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a game of Reverse Tic Tac Toe. Your symbol is '{symbol}'.\nThe goal is to avoid getting three in a row (horizontally, vertically, or diagonally).\nIf you make three in a row, you LOSE.\nSubmit your move using the format '[4]' to place your symbol in cell 4.\nAs Player {player_id}, you are '{symbol}' and your opponent is '{opponent_symbol}'."
+    "intro": "Doe bies Speler {player_id} in e spel van Reverse Tic Tac Toe. Diene symbool is '{symbol}'.\n't Doel is óm te veurkómme det doe drie op rij kries (horizontaal, verticaal of diagonaal).\nEs doe drie op rij kries, verluus doe.\nDien zet inlevere mèt 't formaat '[4]' óm dien symbool in cel 4 te plaotse.\nEs Speler {player_id} bies doe, bies doe '{symbol}' en diene taegestander is '{opponent_symbol}'."
   },
   "board": {
     "current_board": "Huidig Bord:\n\n{board}\n\nBesjikbare Zatse: {moves}"

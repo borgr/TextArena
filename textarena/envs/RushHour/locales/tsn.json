@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing a {difficulty} RushHour puzzle. Slide cars to free the red car [X] and drive it out the right edge.\nActions: [A+], [B-], etc.  (+ = forward, - = backward)."
+    "intro": "O tseneletse tlhôlô ya {difficulty} ya RushHour. Tsamaya dikoloi go ntsha koloi e e rubêlê [X] mme e e ise kwa konyelê. \n Ditiro: [A+], [B-], jj. (+ = pele, - = morago)."
   },
   "invalid_move": {
     "wrong_format": "Tshwanelo ya tshekatsheko e ilega. Dirisa tshekatsheko [A+] / [B-].",

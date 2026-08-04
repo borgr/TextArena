@@ -4,7 +4,7 @@
   },
   "round": {
     "start": "─── Оғози Даври {round} ───\tШумо метавонед барои {conv_rounds} даврҳои оянда гап-занҷир кунед.",
-    "chat_finished": "Chat finished for round {round}. Submit your decisions, one token per opponent: `[pid cooperate]` or `[pid defect]`."
+    "chat_finished": "Сухан гузашта барои давраи {round}. Қарорҳои худро ворид кунед, як токен барои ҳар ҳамла: `[pid cooperate]` ё `[pid defect]`."
   },
   "results": {
     "header": "### Даври {round} - Натиҷаҳо:",
@@ -15,6 +15,6 @@
     "finalize": "{observation} "
   },
   "outcome": {
-    "final": "Final scores: {scores}.  Ranking groups (worst→best): {groups}"
+    "final": "Ҳолати ниҳоии холҳо: {scores}.  Гурӯҳҳои рейтингӣ (бадтарин→беҳтарин): {groups}"
   }
 }

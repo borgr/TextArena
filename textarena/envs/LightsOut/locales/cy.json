@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "Rhaid i weithred fod yn fformat [row col] lle mae rheng a col yn rhifau cyfan o 0 i {max_index}.",
-    "out_of_range": "Coordinates must be between 0 and {max_index}. You entered [{row},{col}]."
+    "out_of_range": "Rhaid i'r cyfesurynnau fod rhwng 0 a {max_index}. Rhowch [{row},{col}]."
   },
   "outcome": {
     "win": "Llongyfarchiadau! Rydych chi wedi datrys y pos mewn symudiadau {moves_used}!",

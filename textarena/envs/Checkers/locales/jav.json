@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "Ora ana format laku sing bener. Gunakake [a1b2], contone [b2c3].",
-    "illegal": "Move [{move}] is illegal."
+    "illegal": "Langkah [{move}] ora sah."
   },
   "game_action": {
     "moved": "Pemain {player_id} pindhah {move}."

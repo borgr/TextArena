@@ -1,9 +1,9 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({piece}). Opponent is ({opp}). Submit moves as '[b1 c3]' (from → to). All pieces move like chess knights.\nEach capture scores {score_per_capture} point. Game ends after {max_moves} moves or when a player has no legal move / no pieces. Higher score wins."
+    "intro": "Yaa {player_id} ({piece}) ka wɛɛlga. O yaa ({opp}) ka wɛɛlga. Gẽẽ wẽẽn yɔɔgɔ kãma '[b1 c3]' (sɔ ka tẽẽŋa → sɔ ka tẽẽŋa). Wẽẽn zãã wẽẽn zẽẽn wẽẽn wẽẽn kãma kẽẽlɛ wẽẽn.\nKẽẽlɛ wẽẽn kẽẽlɛ {score_per_capture} pɔɔntɩ. Gẽẽ wẽẽn tẽẽŋa {max_moves} wẽẽn kãma wẽẽn zãã wẽẽn yaa kãma wẽẽn zẽẽn wẽẽn yaa. Pɔɔntɩ kẽẽlɛ wẽẽn ka wɛɛlga."
   },
   "board": {
-    "current_board": "Move #{move_count}\n\n{board}\n\nAvailable Moves: {moves}"
+    "current_board": "Sɔɔla #{move_count}\n\n{board}\n\nSɔɔla wɛɛrɛ: {moves}"
   },
   "invalid_move": {
     "bad_format": "Fãrã formẽ. rɩk \"[b1 c3]\".",

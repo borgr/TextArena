@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are {role} in Colonel Blotto.\nYour goal is to win more rounds than your opponent.\nOn each round, allocate exactly {num_total_units} units across fields {field_names}.\nThe player who allocates more units to a field wins that field, and the player who wins more fields wins the round.\nFor example, '[A7 B7 C6]' allocates 7 units to A, 7 to B, and 6 to C.",
+    "intro": "አንተ ኮሎኔል ብሎቶ ውስጥ {role} ነህ።\nአንተን የሚጠበቅ ግብ ከተወዳጅህ በላይ ብዙ ዙር ማሸንፈት ነው።\nበእያንዳንዱ ዙር ላይ፣ የሚታየውን {field_names} ሜዳዎች ላይ {num_total_units} ክፍሎችን ዝርጋ።\nአንድ ሜዳ ላይ ብዙ ክፍሎችን ዝርጋት ሜዳውን ያሸንፋል፣ እና ብዙ ሜዳዎችን ያሸንፋል ዙሩን ያሸንፋል።\nለምሳሌ፣ '[A7 B7 C6]' ሜዳ A ላይ 7 ክፍሎችን፣ ሜዳ B ላይ 7 ክፍሎችን፣ እና ሜዳ C ላይ 6 ክፍሎችን ዝርጋል።",
     "commander_alpha": "ኮማንደር አልፋ!",
     "commander_beta": "ኮማንደር ቤታ"
   },
@@ -8,7 +8,7 @@
     "header_round": "=== COLONEL BLOTTO - Round {current_round}/{num_rounds} ===\nሪንዶች የተሸነፈው - ኮማንደር አልፋ: {alpha_score}, ኮማንደር ቤታ: {beta_score}"
   },
   "round_battle": {
-    "field_result": "\nRound {current_round}\nCommander Alpha allocated: {p0_allocations}\nCommander Beta allocated: {p1_allocations}\n",
+    "field_result": "\nዙር {current_round}\nአዛዥ አልፋ ዝርጋለሁ: {p0_allocations}\nአዛዥ ቤታ ዝርጋለሁ: {p1_allocations}\n",
     "winner_alpha": "{message}አሸናፊው: ኮማንደር አልፋ",
     "winner_beta": "{message}አሸናፊው: ኮማንደር ቤታ",
     "tie": "{message}አንድ ላይ ተጣበቁ!"
@@ -23,7 +23,7 @@
   "outcome": {
     "winner_alpha": "ኮማንደር አልፋ በ{score_0}-{score_1} ድል አድርጎሀል በ{num_rounds} ሪንዶች!",
     "winner_beta": "ኮማንደር ቤታ በ{score_1}-{score_0} ድል አድርጎሀል በ{num_rounds} ሪንዶች!",
-    "draw": "Game ends in a {score_0}-{score_1} tie after {num_rounds} rounds!",
+    "draw": "ጌም {score_0}-{score_1} አቻለሁ {num_rounds} ዙሮች በኋላ!",
     "early_winner_alpha": "ኮማንደር አልፋ በ{scores_0}-{scores_1} ድል አድርጎሀል (ብዙሀንነት አስገኝቶሀል)!",
     "early_winner_beta": "ኮማንደር ቤታ በ{scores_1}-{scores_0} ድል አድርጎሀል (ብዙሀንነት አስገኝቶሀል)!"
   }

@@ -1,10 +1,10 @@
 {
   "game_start": {
-    "intro": "The game begins. Trump suit: {trump_suit} (trump card: {trump_str}).",
+    "intro": "Awal n uzzig. Azal n uzzig: {trump_suit} (takarḍa n uzzig: {trump_str}).",
     "no_trump_card": "ⵓⴰⵔ ⵉⵍⵍⴰ ⴽⵔⴰ."
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in German Whist.\n{phase_info}\nYou hold {hand_size} cards.\nPlay a card with '[play N]', where N is its position in your hand (for example '[play 3]').",
+    "intro": "Keddaɣ ad tik i Uzzig {player_id} di Uzzig Aliman.\n{phase_info}\nKeddaɣ {hand_size} tiḍaɣin.\nUzzig tiḍaɣt s '[play N]', anda N d aswir n tiḍaɣt di kifkif (amagut '[play 3]').",
     "phase_learning": "ⵜⴰⴱⴰⵔⴰⵜ ⵜⴰⵏ ⵜⵢⵗⴰⵔ: ⴰⵓⴰ ⵉⴶⵔⴰⵓⴰⵏ ⴷⴰⵗ ⵜⵉⴾⴰⵍⵜ ⴼⵓⴾ ⵢⵂⴰⵉ ⵆⴰⵔⵜ ⵓⴰ ⵙ ⴰⵋⵋⵉⵋ ⵉⵏⵜⴰ ⴷ ⵓⴰⵏ ⴰⴷⴷⵓⴱⵢⵏ ⴰⵙⵉⵍⵎⴰⴷ ⵏ ⴱⴰⵔⴰⵈ ⴰⵏ ⴰⵍⴼⴰⵙ. ⵜⵉⵎⵛⵉⵔⵉⵜⴻⵏ ⵜⵉⵏ ⴰⵎⵓⵙⵏⴻⵏ ⴷⴰⴶⵂ ⵜⴻⵎⵙⴰⴷⵓⵜⴻ ⵜⵓⵍⴰⵙ ⵓⴰⵔ ⵂⵉⵏ ⴰⵙⵙoⵂⴰⵜ ⴼⴰⵍ ⵜⴰⵎⵓⴷⵔⴻ .",
     "phase_playing": "ⵜⴰⴱⴰⵔⴰⵜ ⵜⴰⵏ ⴰⵛⴰⵍ: ⴻⴷⴰⴶ ⵓⴰⵏ ⵉⵂⴰⵏⴰⵉ ⵓⴰ ⵙⴰⵎⵎⵓⵜⵉ. ⴰⵍⵆⵉⴷⵎⴰⵜ ⴼⵓⴾ ⴷⴰⵗ ⴰⵓⴻⵏ ⵜⵉⵋⵋⴰ ⴼⴰⵍ ⴰⴷⴷⵓⴱⵢⵏ ⴰⵙⵉⵍⵎⴰⴷ ⵏⴻⵜ ⵂⴰⵔⴰⴷ"
   },
@@ -16,23 +16,23 @@
   },
   "invalid_move": {
     "wrong_format": "ⵜⴰⵍⵖⴰ ⵏ ⵓⵎⵓⵙⵙⵓ ⵓⵔ ⵉⴳⵉⵏ ⴰⵣⵔⴼ. ⵙⵎⵔⴰⵙ \"[play N]\" ⵉ ⵓⵙⵓⵔⴰⵔ ⵏ ⵜⴽⴰⵕⴹⵜ ⵜⵉⵙⵙ ⵚⵉⵕⴹ ⴳ ⵓⴼⵓⵙ ⵏⵏⵓⵏ.",
-    "bad_position": "That card position does not exist. You hold {hand_size} cards.",
+    "bad_position": "Aswir n tiḍaɣt-agi ur yelli. Keddaɣ {hand_size} tiḍaɣin.",
     "must_follow_suit": "ⵉⵇⵏⴻⵏ ⴰⴷ ⵜⴰⵔⴻⴷ ⴰⵎⵉⵜⵉⴾⵓⴰⵉ ⴷ-ⴰⵙⵙⴰⵔ ⵏⴰⵎⵉⴷ {lead_suit}.",
     "invalid_play": "ⵜⴰⴱⴰⵔⴰⵜ ⵜⴻⵏ ⵓⴰⴷⴷⴻⵔ ⴰⴷ ⵜⴻⵜⴻⴾⴰⵍ."
   },
   "game_action": {
-    "played": "Player {player_id} played {card}."
+    "played": "Uzzig {player_id} yuzzig {card}."
   },
   "trick": {
-    "won": "Player {winner_id} wins the trick with {card}.",
-    "won_learning": "Player {winner_id} wins the trick with {card} and takes the face-up card."
+    "won": "Uzzig {winner_id} yewwi krayat s {card}.",
+    "won_learning": "Uzzig {winner_id} yewwi krayat s {card} d yewwi takarḍa tazayezt."
   },
   "phase": {
     "learning_complete": "ⵜⴰⴱⴰⵔⴰⵜ ⵜⵉⴾⵏⴰ ⴰⵗⴰⵍⴰⵉ. ⴰⵍⵓⴰⵈ ⵓⴰⵏ ⵜⵢⵍⵎⴰⴷ ⵉⵋⵋⵉ - ⵂⵓⵍⵍⴰⵏ ⵎⴰⴶⵔⴰⴷ ⴼⵓⴾ ⵓⵂⴰⵏⵢⵏ ⵢⴷⴰⵋ ⵏ ⴰⵙⵉⵎⵎⵓⵜⵜⵉ"
   },
   "draw": {
-    "winner_received": "You won the trick and received {card}.",
-    "loser_received": "You lost the trick and drew {card} from the deck.",
+    "winner_received": "Tekkiḍ krayat d tuɣ {card}.",
+    "loser_received": "Tellaḍ krayat d tuɣ {card} zdat n uḍebsi.",
     "winner_preview": "ⵜⴰⴱⴰⵔⴰⵜ ⵜⴰⵏ ⵙⴰⵎⴰⵏⴷⵓ ⵏⴰⴾⴰⵍ ⴰⵈⴰⵍⴰⵏ {card}."
   },
   "turn": {
@@ -60,10 +60,10 @@
     "not_started": "ⵜⴰⴱⴰⵔⴰⵜ ⵓⵔ ⵜⵙⵙⵏⵜⵉ.",
     "header": "=== ⴰⵛⴰⵍ ⵏ ⵓⵂⵉⵙⵜ ⵜⴰⵏ ⴰⵍⵍⵢⵎⴰⵏⴷ===",
     "phase": "{observation}\nTafsa : {phase}",
-    "trump_suit": "{observation}\nTrump suit: {trump_suit}",
-    "trump_card": "{observation}\nTrump card: {card}",
-    "cards_left": "{observation}\nCards left in deck: {count}",
-    "next_card": "{observation}\nNext card for winner: {card}",
+    "trump_suit": "{observation}\nAzal n uzzig: {trump_suit}",
+    "trump_card": "{observation}\nTakarḍa n uzzig: {card}",
+    "cards_left": "{observation}\nTiḍaɣin zdat n uḍebsi: {count}",
+    "next_card": "{observation}\nTakarḍa tazayezt i yewwi: {card}",
     "blank": "{observation} ",
     "current_trick": "{observation} ⵜⴰⴱⵔⵉⴷⵜ ⵏ ⴷⵖⵉ:",
     "trump_indicator": "(ⵜⵔⴰⵎⴱ)",
@@ -71,6 +71,6 @@
     "player_line": "{observation}\nAnemhal {player_id} : {scoring} n tuɣalin ({tricks} ɣer yigran), {hand_size} n yimɣan deg yid"
   },
   "outcome": {
-    "summary": "Learning phase - Player 0: {l0}, Player 1: {l1}. Playing phase - Player 0: {p0}, Player 1: {p1}. Player {winner_id} wins with {winner_tricks} scoring tricks!"
+    "summary": "Tafrrart talmant - Uzzig 0: {l0}, Uzzig 1: {l1}. Tafrrart n uzzig - Uzzig 0: {p0}, Uzzig 1: {p1}. Uzzig {winner_id} yewwi s {winner_tricks} krayat i tagara!"
   }
 }

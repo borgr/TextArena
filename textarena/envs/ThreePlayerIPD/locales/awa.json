@@ -4,7 +4,7 @@
   },
   "round": {
     "start": "─── राउंड {round} शुरू हो रहा है ───\tआप अगले {conv_rounds} राउंड के लिए स्वतंत्र रूप से बातचीत कर सकते हैं।",
-    "chat_finished": "Chat finished for round {round}. Submit your decisions, one token per opponent: `[pid cooperate]` or `[pid defect]`."
+    "chat_finished": "राउन्ड {round} खातिर गप्प संपूर्ण भइ गइ। अपने निर्णय जमा करा, एक टोकन प्रति प्रतिद्वंद्वी: `[pid cooperate]` या `[pid defect]`।"
   },
   "results": {
     "header": "### राउंड {round} - परिणाम: मा र् च. का स क प ह।",

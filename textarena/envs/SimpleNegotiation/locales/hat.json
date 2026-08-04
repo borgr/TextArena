@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "Ou se Jwè {player_id} nan Jwè Negosiyasyon.\nOu gen kèk resous, epi ou gen pou ou komèselman pou ogmante valè total resous ou.\nResous ak valè asosye ou genyen kounye a se:\n\t+ {resource_value_list}\nNan chak tou, ou ka pale ak opozan ou epi fè yon ofri echchanj.\nItilize token espesyal swa a pou aksyon:\n  - '[Ofri: 3 Mouton, 2 Min: -> 5 Brik, 2 Mouton]': [Ofri: Resous ofri -> Resous mande]\n  - '[Accept]': Pou aksepte yon ofri ki vin.\n  - '[Deny]': Pou refize yon ofri ki vin (defo).\nJwè a dure pou {max_turns} tou nan total."
+    "intro": "Ou se Jwè {player_id} nan Jwè Negosiyasyon.\nOu gen kèk resous, epi ou gen pou ou komèselman pou ogmante valè total resous ou.\nResous ak valè asosye ou genyen kounye a se:\n\t+ {resource_value_list}\nNan chak tou, ou ka pale ak opozan ou epi fè yon ofri echchanj.\nItilize token espesyal swa a pou aksyon:\n  - '[Offer: 3 Sheep, 2 Ore -> 5 Brick, 2 Sheep]': [Offer: Offered Resources -> Requested Resources]\n  - '[Accept]': Pou aksepte yon ofri ki vin.\n  - '[Deny]': Pou refize yon ofri ki vin (defo).\nJwè a dure pou {max_turns} tou nan total."
   },
   "invalid_move": {
     "receiving_with_no_resource": "Jwè a te eseye aksepte yon echanj san li pa gen resous ki nesesè yo.",

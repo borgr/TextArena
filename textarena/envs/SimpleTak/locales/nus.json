@@ -1,10 +1,10 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in SimpleTak.\nOn the board, your stones appear as '{player_stone}' and your opponent's stones appear as '{opponent_stone}'.\n\nOn your turn, choose one empty cell (by its numbered index) and place your stone there.\nFor example, '[12]' places your stone in cell 12.\n\nYour objective is to form a continuous path of your stones that connects two opposite edges of the board (top-to-bottom or left-to-right)."
+    "intro": "Yin e Player {player_id} ee SimpleTak.\nTɛ̈ɛ̈n, kɔc kee riɛ̈ɛ̈n ee '{player_stone}' ku kɔc kee riɛ̈ɛ̈n ee duɛ̈ɛ̈r ee '{opponent_stone}'.\n\nYɔ̈ɔ̈n tɛ̈ɛ̈n, ɣɔ̈ɔ̈n kɔc kee riɛ̈ɛ̈n tɛ̈ɛ̈n ee kɔc kee riɛ̈ɛ̈n (kɛ̈ɛ̈n tɛ̈ɛ̈n ee kɔc kee riɛ̈ɛ̈n) ku luɛ̈ɛ̈k kɔc kee riɛ̈ɛ̈n tɛ̈ɛ̈n.\nKɛ̈ɛ̈n tɛ̈ɛ̈n, '[12]' luɛ̈ɛ̈k kɔc kee riɛ̈ɛ̈n ee kɔc kee riɛ̈ɛ̈n 12.\n\nYɔ̈ɔ̈n tɛ̈ɛ̈n ee kɔc kee riɛ̈ɛ̈n ee kɔc kee riɛ̈ɛ̈n ee tɛ̈ɛ̈n tɛ̈ɛ̈n ee kɔc kee riɛ̈ɛ̈n ee duɛ̈ɛ̈r ee tɛ̈ɛ̈n (tɛ̈ɛ̈n-tɛ̈ɛ̈n ku tɛ̈ɛ̈n-tɛ̈ɛ̈n)."
   },
   "invalid_move": {
     "invalid_move_format": "Thiɛlɛ mi̱ lotdɛ kɛ ca̱p in jälkɛ jɛ",
-    "cell_out_of_range": "Invalid cell number {cell_num}. Must be between 0 and {max_board_num}.",
+    "cell_out_of_range": "Kɔc kee riɛ̈ɛ̈n ee tɛ̈ɛ̈n {cell_num} aɣɔ̈ɔ̈n. Aɣɔ̈ɔ̈n ee kɛ̈ɛ̈n 0 ku {max_board_num}.",
     "cell_already_occupied": "Thɛli̱ {cell_num} cɛ ku thuŋ te thi̱n. Kiɛ la thɛl mi̱ /thiɛlɛ ŋuänydɛ bi̱ wä rɛy gua̱th ɛmɔ."
   },
   "board": {

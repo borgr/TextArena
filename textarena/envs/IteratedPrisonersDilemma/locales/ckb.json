@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in an Iterated Prisoner's Dilemma spanning {num_rounds} rounds.\n\nGame Structure:\n- Before each decision you have {total_conversation_rounds} turns to communicate freely.\n- After that, both players simultaneously choose to cooperate or defect.\n\nPayoff Matrix (fixed each round):\n- Both Cooperate ➜ each {cooperate_reward}\n- Both Defect ➜ each {mutual_defect_reward}\n- One Defects, one Cooperates ➜ Defector {defect_reward}, Cooperator {sucker_reward}\n\nHow to Play:\n- During conversation: type any text you wish.\n- During decision phase: include '[Cooperate]' or '[Defect]' (case-insensitive). You may add extra text before/after the token."
+    "intro": "تۆ یاریزانی {player_id}ی لە یارییەکی دۆخەی بەندکراو لە ماوەی {num_rounds} قۆناغدا.\n\nپێکھاتەی یاری:\n- پێش هەر بڕیارێک {total_conversation_rounds} قۆناغی پەیوەندی ئازاد دەبێت بۆ تۆ.\n- دوای ئەوە، هەردوو یاریزان هەمان کات بڕیار دەدەن بۆ هاوکاری یان خیانەت.\n\nماتریکسی پاداشتی (ثابت لە هەر قۆناغێکدا):\n- هەردووکیان هاوکاری دەکەن ➜ هەریەکە {cooperate_reward}\n- هەردووکیان خیانەت دەکەن ➜ هەریەکە {mutual_defect_reward}\n- یەکێک خیانەت دەکات، یەکێک هاوکاری دەکات ➜ خائن {defect_reward}، هاوکار {sucker_reward}\n\nچۆنیەتی یاریکردن:\n- لە کاتی پەیوەندیدا: دەقێکی هەر چۆنێک بە دڵی تۆ بێت بنووسە.\n- لە کاتی قۆناغی بڕیاردا: '[Cooperate]' یان '[Defect]' بە کار بێنە (بەبێ کەیس-سەنسیتڤ). تۆ دەتوانی دەقی زیادە پێش/دوای توکەنەکە بنووسێت."
   },
   "phases": {
     "conversation_finished": "قسەکەر لە خول {round} تەواو بوو. تکایە بە '[Cooperate]' یان '[Defect]' لە نێو \\boxed{{}} وەڵام بەرێ.",
@@ -8,7 +8,7 @@
     "round_summary": "ئەنجامەکانی خول {round}:\n{outcome}\nیاریکەر 0 {r0} بەدەستھێناوە (کۆی {score_0})، یاریکەر 1 {r1} بەدەستھێناوە (کۆی {score_1})."
   },
   "outcome": {
-    "winner": "Player {winner} wins {win_score} - {lose_score}.",
+    "winner": "یاریزانی {winner} براوەیە بە {win_score} - {lose_score}.",
     "draw": "یەکسان بوون! هەردوو یاریزانەکە گۆڵیان کرد {s0}.",
     "round_both_cooperate": "هەردوو یاریزانەکە هاوکارییان کرد.",
     "round_both_defect": "هەردوو یاریزانەکە هەڵگەڕاون.",

@@ -9,11 +9,11 @@
   },
   "game_action": {
     "you_sunk": "Cinka! A cinka ship ɗin e {coord}! Ko ko ɓangal board ɗin:\n{view}",
-    "opp_sunk": "Opponent sunk your ship at {coord}! Your updated board:\n{view}",
+    "opp_sunk": "Jemmaare oonaa sunka e {coord}! Ko board mooli maa:\n{view}",
     "you_hit": "Muuɗa! A hitii ship ɗin e {coord}! Ko ko ɓangal board ɗin:\n{view}",
-    "opp_hit": "Opponent hit your ship at {coord}! Your updated board:\n{view}",
+    "opp_hit": "Jemmaare oonaa hitti e {coord}! Ko board mooli maa:\n{view}",
     "you_miss": "Wata! A watai ship ɗin e {coord}! Ko ko ɓangal board ɗin:\n{view}",
-    "opp_miss": "Opponent missed your ship at {coord}! Your updated board:\n{view}"
+    "opp_miss": "Jemmaare oonaa missi e {coord}! Ko board mooli maa:\n{view}"
   },
   "outcome": {
     "win": "Jaawal {player_id} ɗon maɓɓa gal koomboji maɓɓe fuu!"

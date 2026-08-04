@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "Níor aimsíodh formáid glaoch bailí. Úsáid [a1b2], m.sh. [b2c3].",
-    "illegal": "Move [{move}] is illegal."
+    "illegal": "Tá bogadh [{move}] mídhleathach."
   },
   "game_action": {
     "moved": "Imreoir {player_id} bhog sé {move}."

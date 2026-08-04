@@ -25,7 +25,7 @@
   "message": {
     "round_result": "{reason}  ፖት {pot} → ተጫዋች {winner}. (ባንክሮሎች P0:{p0}, P1:{p1})",
     "folded": "ተጫዋች {player_id} ተጣለ።",
-    "showdown_win": "Showdown: {card_win} beats {card_lose}.",
+    "showdown_win": "ሾውዳውን: {card_win} ይሸንፋል {card_lose}.",
     "showdown_tie": "የጨዋታ ማጠናቀቂያ: ሁለቱም {card}. ድስት ተከፋፍሏል እያንዳንዱ ይቀበላል {split} ."
   },
   "outcome": {

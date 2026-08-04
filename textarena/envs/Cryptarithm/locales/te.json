@@ -9,10 +9,10 @@
     "{pct}": "Progress as a percentage string, e.g. 50%"
   },
   "player_prompt": {
-    "intro": "Map each letter to a unique digit so the arithmetic holds.\nAssign with `[A 5]`, re-assign anytime.\n"
+    "intro": "ప్రతి అక్షరాన్ని ఒక ప్రత్యేక అంకెకు మ్యాప్ చేయండి తద్వారా అంకగణితం నిలుస్తుంది.\n`[A 5]`తో అసైన్ చేయండి, ఏ సమయంలోనైనా తిరిగి అసైన్ చేయండి.\n"
   },
   "invalid_move": {
-    "wrong_format": "Bad action format. Use `[A 5]`.",
+    "wrong_format": "చెడు చర్య ఫార్మాట్. `[A 5]`ని ఉపయోగించండి.",
     "letter_not_in_puzzle": "అక్షరం {letter} పజిల్లో లేదు.",
     "digit_used": "అంకె {digit} ఇప్పటికే {used_letter} చే ఉపయోగించబడింది.",
     "leading_zero": "ఒక పదం యొక్క ప్రముఖ అంకె 0 గా ఉండకూడదు."

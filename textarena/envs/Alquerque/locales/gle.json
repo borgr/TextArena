@@ -19,6 +19,6 @@
     "no_pieces": "Níl aon phíosa ag imreoir {player_id}.",
     "cannot_move": "Ní féidir le himreoir {player_id} bogadh.",
     "higher_score": "Scór gabhála níos airde.",
-    "move_limit": "Reach Movement Limit."
+    "move_limit": "Teorainn gluaiseachta bainte amach."
   }
 }

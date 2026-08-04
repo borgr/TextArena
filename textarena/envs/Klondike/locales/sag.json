@@ -16,7 +16,7 @@
     "{cards}": "The cards in a pile as neutral labels, or '--' if empty (never translate)"
   },
   "player_prompt": {
-    "intro": "Mo yeke sala ngia ti Klondike Solitaire. Ye so mo ye ayeke ti gue na acarte kue na ndo molongo ti gere ni. Akpengba-ndia ti jeu: - Molongo ti gunda (F1-F4): Leke lege ti guengo na nduzu, a londo na Ace juska Gbia; A lingbi nga ti leke aye tongana tableau (T1-T7): Gbu li nde nde (vuko na ndö ti vuko, vuko na ndo ti bengba) - Stock: Tinda alettre si ala buba gbâ ti atênë; Waste (W): Kota carte so alingbi ti tene azo asala kua na ni Commandes: 'tinda' - Tirango alettere na place ti bata wala ti zi yâ ni; <source><destination> [count] - Yôro akireti na popo ti apile Exemple: 'Yö W1', 'Zia T1 F2', 'Zi T3 T5 2'. Peut duti nga \"azo kue\", so ayeke tara fade fade ti yôra akugbe so lê asigigi polele pëpe. - 'Ti tï na kuâ\" - Hunzi angoi ti match na kanga iri ti mo laso - Piseau W (awâ), F4-F1-T1), Zua abate kuäle na ndo ni (T7-A)."
+    "intro": "Mo ke nzönî Klondike Solitaire. Lengo mo ke mo gbâ mbëlam na pile fondation.\n\nKötä gbata:\n- Pile fondation (F1-F4): Gbâ na mbëlam na sëngö, na kôti na mbëlam\n- Pile tableau (T1-T7): Gbâ na mbëlam na ndö, na kôti na mbëlam na ndö\n- Stock: Tira mbëlam na pile déchet\n- Déchet (W): Mbëlam na ndö si mo gbâ\n\nKomanda:\n- 'draw' - Tira mbëlam na stock na déchet\n- 'move <source> <destination> [count]' - Déplacer mbëlam na pile\n  Exemple: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count ayeke 'all', si mo gbâ mbëlam na ndö.\n- 'forfeit' - Kötä gbata na ndö, si mo gbâ score na ndö\n- Nömbë na pile: W (déchet), F1-F4 (fondation), T1-T7 (tableau)\n\nMo ke exécuter actions mingi na tour na ndö, na séparer na virgule:\n  Exemple: 'draw, move W T1, move T2 F1'\n\nMbëlam na ndö si mo gbâ na pile tableau vide.\nActions exécuter na ndö - si mo gbâ, actions na ndö si gbâ.\nIya 'forfeit' si mo gbâ gbata na ndö si mo gbâ."
   },
   "format_error": {
     "no_brackets": "A yeke nzoni a zia atënë ni na yâ ti acouche.",
@@ -24,9 +24,9 @@
     "empty_command": "Commande so ayeke senge. Mo lingbi ti sû \"draw\" wala \"move <source><destination> [count]\".",
     "empty_action": "Ye so a sara ni senge senge",
     "move_needs_args": "Komand ti yôro ahunda ndo so a londo dä nga na ndo ni si zo ague. A sala kusala na: 'move <source> <destination> [count]'",
-    "count_positive": "A lingbi wungo ni aduti nzoni wala \"azo kue\"",
-    "count_invalid": "A diko ni nzoni ape. Sara kua na mbeni wungo wala \"azo kue\"",
-    "unknown_command": "Unknown command '{cmd}'. Use 'draw', 'move <source> <destination> [count]', or 'forfeit'",
+    "count_positive": "Nömbë si mo gbâ, ayeke pozitif tö 'all'",
+    "count_invalid": "Nömbë si mo gbâ, iya nömbë tö 'all'",
+    "unknown_command": "Mbëlam na ndö si '{cmd}'. Iya 'draw', 'move <source> <destination> [count]', tö 'forfeit'",
     "wrapped": "Zɛ̈tɛ̈ {n}: {msg}"
   },
   "action_result": {

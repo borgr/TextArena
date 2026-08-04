@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id}. You are playing the Memory Game.\nYour goal is to match more pairs of cards on the board, than your opponent.\nOn your turn, select two cards to flip by entering the row and column numbers of the first and second card respectively like '[0 1 1 0]', where the first card is in row 0 and column 1, and the second card is in row 1 and column 0.\nIf the two cards match, you get a point and the cards remain face up. If they do not match, the cards are flipped back face down, e.g. '.'.\nThe game ends when all pairs have been matched."
+    "intro": "شما اویونچو {player_id} سیز. Siz Memory Game اویونون اویناییرسینیز.\nهدفینیز تخته‌ده‌کی کارت جوتلرینین سایینی قارشی‌دا‌کی اویونچودان چوخ ائتمکدیر.\nنوبتینیزده، ایکی کارت سئچمک اوچون ایلک و ایکینجی کارتین سطیر و sütun نومره‌لرینی '[0 1 1 0]' کیمی یازین، بورادا ایلک کارت 0-جی سطیرده و 1-جی sütunda، ایکینجی کارت ایسه 1-جی سطیرده و 0-جی sütوندadır.\nاگر ایکی کارت اویونچو ایله عئینی اولسا، بیر خال قازانیرسینیز و کارت‌لار اوستو آچیق قالیر. اگر عئینی اولماسالار، کارت‌لار تکرار اۆستو آچیق اولمایاجاق، مثلاً '.'.\nاویون بوتون جوتلر تاپیلان زامان سونا چاتیر."
   },
   "board": {
     "current_board": "ایندیکی بوردا: {board}",
@@ -13,13 +13,13 @@
     "already_matched": "یالنیز اویونچو {player_id} ایندیکی برابرلشمیش کارتلاردان بیریسی و یا هامی سی سئچیلیب."
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "اویونچو {player_id} طرفیندن سئچیلن کارت‌لار [{r1} {c1}] و [{r2} {c2}] مؤقع‌لرینده اویونچو ایله عئینی‌دیر!",
+    "cards_no_match": "اویونچو {player_id} طرفیندن سئچیلن کارت‌لار عئینی دئییل. [{r1} {c1}] و [{r2} {c2}] مؤقع‌لرینده کارت‌لار {pos1} و {pos2} دیر."
   },
   "outcome": {
     "draw": "هر ایکی اویونچو بیرلیکده هئچ نه ساییندا کارت جوتونو برابر ائتدیلر.",
     "win": "اویونچو {winner_id} قازاندی!",
-    "turn_limit": "The turn limit has been reached. The game is over. Player 0 scored {score_0} points, Player 1 scored {score_1} points.",
+    "turn_limit": "نوبت سینی گلیب چاتدی. اویون سونا چاتدی. اویونچو 0 {score_0} خال، اویونچو 1 ایسه {score_1} خال قازاندی.",
     "turn_limit_win": "{reason} Oyunçu {winner_id} qalib gəldi!"
   }
 }

@@ -11,7 +11,7 @@
     "{ball_pos}": "The cup index the ball is under"
   },
   "player_prompt": {
-    "intro": "Track the hidden ball 'X' while the cups are shuffled.\nAfter shuffling, guess its location with `[k]`."
+    "intro": "Ball 'X' thukruk awmna zawnghriat la, cups te an shuffle lai.\nShuffle zawhah, a awmna kha `[k]` hmangin rawn chhut rawh."
   },
   "game_message": {
     "ball_starts": "Ball a ṭan: {line}",
@@ -21,11 +21,11 @@
     "reveal": "(Rilru: ball under {ball_pos})"
   },
   "invalid_move": {
-    "wrong_format": "Bad action. Use `[k]`.",
+    "wrong_format": "Thiltih a dik lo. `[k]` hmang rawh.",
     "out_of_range": "Index chu 0-{max_index} a ni."
   },
   "outcome": {
     "win": "Dik e, ball chu i hmu ta a ni.",
-    "lose": "Wrong — ball was under cup {ball_pos}."
+    "lose": "Dik lo — ball cup {ball_pos} hnuaiah a awm."
   }
 }

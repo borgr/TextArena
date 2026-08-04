@@ -8,7 +8,7 @@
   },
   "results": {
     "header": "### گەڕ {round} - ئەنجامەکان:",
-    "pair_line": "{observation}\n\t Player {i} vs Player {j} chose to {choice_i} and {choice_j} respectively (Player {i} gained {gain_i}, Player {j} gained {gain_j})",
+    "pair_line": "{observation}\n\t یاریزانی {i} دژی یاریزانی {j} ھەڵبژاردەی {choice_i} و {choice_j} کرد (یاریزانی {i} {gain_i} خاڵی بەدەست ھێنا، یاریزانی {j} {gain_j} خاڵی بەدەست ھێنا)",
     "scores_open": "{observation} -> نمرەی ئێستا: ",
     "score_first": "{observation}Player {player_id} ({score})",
     "score_next": "{observation}; یاریکەر {player_id} ({score})",

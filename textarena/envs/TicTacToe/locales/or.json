@@ -15,7 +15,7 @@
   "invalid_move": {
     "wrong_format": "ଦାଖଲ କରାଯାଇଥିବା ପଦକ୍ଷେପ ସଠିକ ଫର୍ମାଟକୁ ଅନୁସରଣ କରେ ନାହିଁ ।",
     "out_of_range": "{cell} ଏକ ବୈଧ କୋଷ ନୁହେଁ. 0 ଏବଂ 8 ମଧ୍ୟରେ ହେବା ଉଚିତ.",
-    "already_occupied": "Cell {cell} is already occupied."
+    "already_occupied": "ସେଲ {cell} ଇତିମଧ୍ୟ ଅଧିକୃତ।"
   },
   "game_action": {
     "placed": "ଖେଳାଳି {player_id} ନିଜ ଚିହ୍ନ ({symbol}) କୁ ସେଲ୍ {cell} ରେ ରଖିଥିଲେ ।"

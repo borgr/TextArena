@@ -1,9 +1,9 @@
 {
   "player_prompt": {
-    "intro": "You are playing Slitherlink on a {R}x{C} grid!\nDraw a single continuous loop so each numbered cell has that many bordering edges.\nToggle edges with:\n  [h r c] - toggle horizontal edge above dots at row r, column c\n  [v r c] - toggle vertical edge left of dots at row r, column c\nNumbers show required edge count, '.' means no constraint.\nYou have up to {max_turns} moves to solve the puzzle."
+    "intro": "Káma káma Slitherlink a {R}x{C} kárá!\nSárà káma wúzà kóò kóò kárá káma kólò kólò kárá kólò kólò káma kólò kólò.\nKáma káma káma kólò kólò káma:\n  [h r c] - káma káma kólò kólò káma kólò kólò káma r, kólò c\n  [v r c] - káma káma kólò kólò káma kólò kólò káma r, kólò c\nKólò kólò káma kólò kólò káma kólò kólò káma, '.' káma káma kólò kólò káma.\nKáma káma {max_turns} káma káma kólò kólò káma kólò kólò káma."
   },
   "board": {
-    "current_board": "{board}\nClues satisfied: {progress}"
+    "current_board": "{board}\nKólò kólò káma kólò kólò: {progress}"
   },
   "invalid_move": {
     "wrong_format": "Mátù ngàlà kárángù. Sárî [h row col] yâ [v row col].",

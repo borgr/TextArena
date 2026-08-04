@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "Aksi kudu dina format [row col] dimana baris jeung kolom nyaéta wilangan bulat ti 0 nepi ka {max_index}.",
-    "out_of_range": "Coordinates must be between 0 and {max_index}. You entered [{row},{col}]."
+    "out_of_range": "Koordinat kudu aya antara 0 jeung {max_index}. Anjeun asupkeun [{row},{col}]."
   },
   "outcome": {
     "win": "Wilujeng! Anjeun ngaréspon teka-teki dina {moves_used} gerakan!",

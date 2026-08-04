@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in Chopsticks. On your turn, choose one of:\n  + Attack:  '[attack M O]'  where M=your hand (0 or 1), O=opponent hand (0 or 1).\n    - Opponent's hand count increases by your hand; if >=5, it becomes 0.\n  + Split:   '[split L R]'  to redistribute your total fingers into L and R (L+R = your total).\nReply with exactly one of those commands."
+    "intro": "Yes el xugador {player_id} en Chopsticks. Nel to tornu, escueyi una de:\n  + Atacar:  '[attack M O]'  onde M=la to mano (0 o 1), O=mano del oponente (0 o 1).\n    - El recuentu de la mano del oponente aumenta cola to mano; si >=5, conviértese en 0.\n  + Estremar:   '[split L R]'  pa redistribuyir los tos deos totales en L y R (L+R = el to total).\nRespuende con esautamente una d'eses órdenes."
   },
   "board": {
     "current_board": "Tableru actual:\nXugador 0: {hands_0}\nXugador 1: {hands_1}"
@@ -10,11 +10,11 @@
     "opp_hand_dead": "La mano del oponente {opp_idx} yá ta muerta.",
     "split_sum": "La suma de la división ye {total}.",
     "split_no_change": "Split debe de cambiar la distribución de les to manes.",
-    "invalid_command": "Invalid move. Use “[attack M O]” or “[split L R]”."
+    "invalid_command": "Movimientu inválidu. Usa “[attack M O]” o “[split L R]”."
   },
   "game_action": {
     "attack": "P{player_id} ataca la mano de P{opp_id} {opp_idx}: va dende {opp_val} a {new_val}.",
-    "split": "P{player_id} splits into [{L}, {R}]."
+    "split": "P{player_id} estrema en [{L}, {R}]."
   },
   "history": {
     "entry": "P{player_id} {desc}"

@@ -9,7 +9,7 @@
     "wrong_format": "ལག་རྩེ་མི་འདུག་. '[Hit]' ཡིག་སྒྱུར་དང་ '[Stand]' སྤྱོད་ཅིག"
   },
   "game_message": {
-    "hand_result": "Hand {hand_number}: you {outcome}. Your final {player_score}, Dealer {dealer_score}.",
+    "hand_result": "ལག་པ་ {hand_number}: ཁྱེད་ {outcome} རེད། ཁྱེད་ཀྱི་མཇུག་མ་ {player_score} རེད། བླུགས་ཇེམ་སྐུད་པ་ {dealer_score} རེད།",
     "all_complete": "=== ཐམས་ཅད་{num_hands} ལག་རྩེ་ཚར་〕===\nརྒྱལ་ཁ་: {wins}, ཤོར་བ་: {losses}, འགྲན་པ་: {draws}\n"
   },
   "outcome": {

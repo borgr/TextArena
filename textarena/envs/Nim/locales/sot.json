@@ -13,7 +13,7 @@
     "exceeds_pile": "Ha khonehe ho tlosa {quantity} ho tšimong {pile_index} (ho sale {pile_count} feela)."
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "Player {player_id} o ile a bapala [{pile_index} {quantity}], a ntsha dintho tse {quantity} ho pile {pile_index}."
   },
   "outcome": {
     "win": "Sebapali {player_id} se nkile ntho ea ho qetela ((s)!"

@@ -12,7 +12,7 @@
     "draw": "Nagparehistro! Agpada a nagsuor dagiti aggay-ayam {s0}.",
     "round_both_cooperate": "Nagtitinnulong dagiti dua nga agay-ayam.",
     "round_both_defect": "Agpadpada a naglibas dagiti agpampanaw.",
-    "round_p0_cooperates_p1_defects": "Nagtrabaho ti Player 0, naglibas ni Player 1.",
-    "round_p0_defects_p1_cooperates": "Naglibas ti Player 0, nagserbi ni Player 1."
+    "round_p0_cooperates_p1_defects": "Ti Agay-ayam 0 ket nangisayud, ti Agay-ayam 1 ket nangibulos.",
+    "round_p0_defects_p1_cooperates": "Ti Agay-ayam 0 ket nangibulos, ti Agay-ayam 1 ket nangisayud."
   }
 }

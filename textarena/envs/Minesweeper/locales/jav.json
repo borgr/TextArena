@@ -9,11 +9,11 @@
   "invalid_move": {
     "wrong_format": "Sampeyan ora nanggapi karo koordinat sing bener ing kurung persegi.",
     "out_of_bounds": "Koordinat baris lan kolom sing ditemtokake ora ana watesan.",
-    "already_revealed": "Sel ing (${{row}}, ${{col}}) wis dibukak.",
-    "hit_mine": "Panjenengan ketemu ranjau ing (${{row}}, ${{col}})."
+    "already_revealed": "Sel ing ({row}, {col}) wis dibukak.",
+    "hit_mine": "Sampeyan nemu ranjau ing ({row}, {col})."
   },
   "game_action": {
-    "revealed": "Panjenengan wis mbukak sel ing (${{row}}, ${{col}})."
+    "revealed": "Sampeyan mbukak sel ing ({row}, {col})."
   },
   "outcome": {
     "win": "Sugeng, panjenengan sampun kasil ngresiki papan Minesweeper.",

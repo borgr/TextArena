@@ -16,7 +16,7 @@
   },
   "game_action": {
     "skipped": "Гулец {pid} павінен быў прапусціць сваю чаргу",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "Гулец {pid} ({piece}) зрабіў ход [{r}, {c}] перавярнуўшы {flipped} фішку(і)"
   },
   "game_message": {
     "must_skip": "Гулец {pid} ({piece}) не мае сапраўдных хадоў і павінен прапусціць."

@@ -14,7 +14,7 @@
   },
   "board": {
     "current": "Tablero Akta:\n{board}",
-    "after_moves": "Board despues di move simultáneo: {board}"
+    "after_moves": "Tablero despues di move simultáneo:\n{board}"
   },
   "game_action": {
     "invalid_death": "E hungadó {player_id} a fayesé pa motibu di un move invalido."

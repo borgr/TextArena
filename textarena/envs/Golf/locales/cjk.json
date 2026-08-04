@@ -21,20 +21,20 @@
     "{scores}": "The pre-rendered per-player list of final scores"
   },
   "player_prompt": {
-    "intro": "You are playing Golf (Card Game) - Player {player_id}.\nGoal: Get the lowest total score in this single round. If columns share the same value, they are summed as 0.\nCard Values: A=1, 2-10=face value, J/Q=10, K=0\n\nActions (use exact brackets):\n- '[draw]' - Draw from deck\n- '[take]' - Take from discard pile\n- '[swap X Y]' - Swap drawn card with position X (row) Y (column)\n- '[discard]' - Discard the drawn card\n"
+    "intro": "Mu kwingila Golf (Kadi ya Mwiza) - Mwina {player_id}.\nKazwiti: Funa kufika na madotha madikidi ya chini kabisa mu mpindi uyu. Ikiwa safu zina thamani ile ile, zinaongezwa kama 0.\nThamani za Kadi: A=1, 2-10=thamani ya uso, J/Q=10, K=0\n\nMakhuwiro (tumia mabano ya kuunga):\n- '[draw]' - Tokota kadi kutoka kwenye sitaha\n- '[take]' - Tokota kadi kutoka kwenye sitaha ya kadi zilizotupwa\n- '[swap X Y]' - Badilisha kadi iliyotokotwa na nafasi X (safu) Y (safu wima)\n- '[discard]' - Tupwa kadi iliyotokotwa\n"
   },
   "board": {
-    "drew": "You drew: {card}\nNow you must [swap X Y] or [discard] it.",
-    "took": "You took: {card} from discard pile\nYou must [swap X Y] with it (cannot discard).",
-    "peeked": "You peeked at position ({row},{col}): {card}",
-    "turn_view": "Your hand:\n{hand}\nDiscard pile: {discard}\n{options}",
+    "drew": "Wakutokota: {card}\nSasa unahitaji [swap X Y] au [discard] kadi.",
+    "took": "Wakutokota: {card} kutoka kwenye sitaha ya kadi zilizotupwa\nUnahitaji [swap X Y] nayo (hauwezi kutupwa).",
+    "peeked": "Wakutazama nafasi ({row},{col}): {card}",
+    "turn_view": "Makhuwiro yako:\n{hand}\nSitaha ya kadi zilizotupwa: {discard}\n{options}",
     "none": "Hakuna"
   },
   "options": {
-    "final_turns": "Final turns! Your options: [draw], [take], [peek X Y]",
-    "draw": "Your options: [draw], [take]",
-    "must_swap": "You must: [swap X Y] (cannot discard cards from discard pile)",
-    "swap_or_discard": "You must: [swap X Y] or [discard]"
+    "final_turns": "Mipindi ya mwisho! Makhuwiro yako: [draw], [take], [peek X Y]",
+    "draw": "Makhuwiro yako: [draw], [take]",
+    "must_swap": "Unahitaji: [swap X Y] (hauwezi kutupwa kadi kutoka kwenye sitaha ya kadi zilizotupwa)",
+    "swap_or_discard": "Unahitaji: [swap X Y] au [discard]"
   },
   "hand": {
     "no_cards": "cj",
@@ -42,38 +42,38 @@
     "row": "Row {n}: {cards}"
   },
   "action_desc": {
-    "swapped": "Player {pid} swapped {new} with {old} at position ({row},{col})",
-    "discarded": "Player {pid} discarded {card}"
+    "swapped": "Mwina {pid} alibadilisha {new} na {old} kwenye nafasi ({row},{col})",
+    "discarded": "Mwina {pid} alitupwa {card}"
   },
   "message": {
     "deck_empty": "Kengele ck'a nderi! Mchezo unaisha immediately.",
-    "knocked": "Player {pid} knocked! Each other player gets one more turn.",
-    "final_round": "Player {pid} {reason}! Each other player gets one more turn."
+    "knocked": "Mwina {pid} aligonga! Kila mchezaji mwingine anapata mpindi mmoja zaidi.",
+    "final_round": "Mwina {pid} {reason}! Kila mchezaji mwingine anapata mpindi mmoja zaidi."
   },
   "reason": {
-    "all_revealed": "cjk has all cards revealed"
+    "all_revealed": "ana kadi zote zilizofunuliwa"
   },
   "invalid": {
-    "wrong_action": "Use exactly ONE bracketed action: [draw], [take], [swap X Y], [discard], [knock], or [peek X Y]",
+    "wrong_action": "Tumia mabano ya kuunga moja tu: [draw], [take], [swap X Y], [discard], [knock], au [peek X Y]",
     "discard_empty": "K'embundu ya ku gunda ni ngonde!",
-    "must_draw_first": "You must first [draw], [take], [knock], or [peek X Y]",
+    "must_draw_first": "Unahitaji kwanza [draw], [take], [knock], au [peek X Y]",
     "cannot_discard_taken": "Unasi ku ghula kadi e ithwale mu bwire. U fanele ku yi thala.",
-    "have_drawn_card": "You have a drawn card. You must [swap X Y] or [discard] it.",
+    "have_drawn_card": "Una kadi iliyotokotwa. Unahitaji [swap X Y] au [discard] kadi.",
     "need_drawn_swap": "Cjk, unahitaji kadi ya kutandikwa.",
-    "need_drawn_discard": "Cj, una besoin d'un carte de crédit pour vérifier.",
-    "out_of_bounds": "Position out of bounds. Use row 1-{max_row}, column 1-{max_col}",
+    "need_drawn_discard": "Unahitaji kadi iliyotokotwa ili kutupwa.",
+    "out_of_bounds": "Nafasi haiko ndani ya mipaka. Tumia safu 1-{max_row}, safu wima 1-{max_col}",
     "knock_with_card": "Cj, uwezi ku ghula na kadi ya benye. Ghala mupira wako wa kwanza.",
     "already_knocked": "Mtu tayari ametimba hii round.",
     "already_revealed": "Kadi hiyo tayari imegunduliwa!"
   },
   "summary": {
-    "full": "Game Over! Player {winner} wins with a score of {score} points!\n\nFinal Scores:\n{scores}",
-    "line": "Player {pid}: {score} points\n"
+    "full": "Mwiza umekwisha! Mwina {winner} anashinda na alama {score}!\n\nAlama za Mwisho:\n{scores}",
+    "line": "Mwina {pid}: {score} pointi\n"
   },
   "board_str": {
-    "title": "=== GOVERNMENT",
-    "discard": "Discard pile: {card}",
-    "knocked": "Player {pid} has knocked!",
-    "player_header": "Player {pid} (Score: {score}):"
+    "title": "=== MWIZA WA GOLF ===",
+    "discard": "Sitaha ya kadi zilizotupwa: {card}",
+    "knocked": "Mwina {pid} amegonga!",
+    "player_header": "Mwina {pid} (Alama: {score}):"
   }
 }

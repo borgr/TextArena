@@ -1,22 +1,22 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a {max_rounds} round game of Kuhn Poker.\nGame Rules:\n- Kuhn Poker uses a 3-card deck with J, Q, K (J lowest, K highest)\n- Each player antes {ante} chip and receives 1 card each round (note that the cards are dealt without replacement, so you cannot have the same card as your opponent).\n- Game continues for {max_rounds} rounds\n- The player with the most chips after all rounds wins\nAction Rules:\n- '[check]': Pass without betting (only if no bet is on the table)\n- '[bet]': Add 1 chip to the pot (only if no bet is on the table)\n- '[call]': Match an opponent's bet by adding 1 chip to the pot\n- '[fold]': Surrender your hand and let your opponent win the pot"
+    "intro": "I ye Player {player_id} ye kɛlɛ {max_rounds} kɔnɔ lajɛ Kuhn Poker.\nLajɛ ka kɔrɔ:\n- Kuhn Poker kɛra 3-kɔkɔrɔ deck ye J, Q, K (J ye kɔkɔrɔ caman, K ye kɔkɔrɔ ɲɛgɛn)\n- Kɛlɛ kɛlɛ ante {ante} chip ye o kɔ kɔrɔ kɛlɛ 1 kɔkɔrɔ kɔnɔ (kɔrɔ kɛlɛ kɔkɔrɔw ye bɛɛ bɛɛ, o kɔ kɔrɔ kɛlɛ kɔkɔrɔw ye bɛɛ bɛɛ).\n- Lajɛ kɔntɛ {max_rounds} kɔnɔ\n- Kɛlɛ ye kɔkɔrɔ caman bɛɛ kɔ kɔrɔ kɛlɛ kɔkɔrɔw ye bɛɛ bɛɛ.\nKɛlɛ ka kɔrɔ:\n- '[check]': Kɛlɛ kɔ kɔrɔ bɛɛ (kɛlɛ kɔ kɔrɔ bɛɛ kɔ kɔrɔ bɛɛ).\n- '[bet]': Kɛlɛ kɔ kɔrɔ 1 chip ye pot kɔnɔ (kɛlɛ kɔ kɔrɔ bɛɛ kɔ kɔrɔ bɛɛ).\n- '[call]': Kɛlɛ kɔ kɔrɔ kɛlɛ kɔ kɔrɔ 1 chip ye pot kɔnɔ.\n- '[fold]': Kɛlɛ kɔ kɔrɔ kɛlɛ kɔ kɔrɔ kɔ kɔrɔ."
   },
   "init_round": {
     "round_start": "### Anɛ maraɛ {current_round} kɔnɔ {max_rounds} maraɛ. Kaati yɛ: '{player_card}'",
     "available_actions": "I ka se k'o kɛ cogo di? {available_actions}"
   },
   "invalid_move": {
-    "wrong_format": "Action must be [Check], [Bet], [Call], or [Fold].",
+    "wrong_format": "Kɛlɛ kɔ kɔrɔ kɛra [Check], [Bet], [Call], o [Fold].",
     "not_legal": "O ka kan k'a kɛ {legal_actions} ye."
   },
   "action": {
-    "submit_move": "Player {player_id}, submitted move: '[{move}]'.",
+    "submit_move": "Player {player_id}, kɛlɛ kɔ kɔrɔ: '[{move}]'.",
     "valid_actions": "I be se ka koo minw kɛ, olu filɛ nin ye: {legal_actions}.",
     "round_summary": "{reason} maraɛ don: Jokori 0: '{player_0_chips}'; Jokori 1: '{player_1_chips}'"
   },
   "showdown": {
-    "showdown_summary": "Showdown: Player {winner}'s {winner_card} beats Player {loser}'s {loser_card}. Player {winner} wins pot of {pot_value} chips."
+    "showdown_summary": "Kɛlɛya: Jɛgɛ {winner} ka {winner_card} kɛra jɛgɛ {loser} ka {loser_card}. Jɛgɛ {winner} sera kɔnɔ {pot_value} kɔpɛ."
   },
   "outcome": {
     "draw": "{max_rounds} lɔyɔrɔ laban na, ɲɔgɔndɛmɛ fila bɛɛ ka jase hakɛya ye kelen ye.",

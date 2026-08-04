@@ -13,7 +13,7 @@
     "exceeds_pile": "نه ٿو ڪري سگھجي {quantity} کي {pile_index} جي پيل مان هٽائي (صرف {pile_count} ڇڏي ويو)."
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "پليئر {player_id} [{pile_index} {quantity}] چال چلايو، ڊھير {pile_index} مان {quantity} شي(ون) کڻي."
   },
   "outcome": {
     "win": "پليئر {player_id} آخري اعتراض ورتو (((s)!"

@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "Kò sí àdàkọ ìyípadà tó bágbà mu. Lo [a1b2], bí àpẹẹrẹ [b2c3].",
-    "illegal": "Move [{move}] is illegal."
+    "illegal": "Ìgbéjáde [{move}] kò wúlò."
   },
   "game_action": {
     "moved": "Ẹ̀yin òṣèré {player_id} yí {move}."

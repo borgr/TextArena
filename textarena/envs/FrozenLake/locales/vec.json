@@ -1,17 +1,17 @@
 {
   "player_prompt": {
-    "intro": "Benvenuto a Frozen Lake!\n\nSei rappresentato da 'P' nella griglia.\nSimboli della griglia:\n  ' ' = Superficie ghiacciata (sicura da camminare)\n  'H' = Buco (cadere e perdere!)\n  'G' = Meta (raggiungere per vincere!)\n  'P' = Posizione corrente\n\nAzioni disponibili: su, giù, sinistra, destra (o w, a, s, d)\nDigita la tua azione come: [up], [down], [left], [right] o [w], [a], [s], [d]\n\nObiettivo: Navigare dall'inizio (in alto a sinistra) alla meta (in basso a destra) senza cadere in nessun buco!"
+    "intro": "Benvenùo al Lago Ghiaccià!\n\nTi xe raprexentà da 'P' so ła griglia.\nSimboli de ła griglia:\n  ' ' = Superfice ghiaccià (sicura par caminar)\n  'H' = Buso (cadi drento e perdi!)\n  'G' = Obietivo (riva fin qua par vinsar!)\n  'P' = Tua poxision atual\n\nAsion disponibili: in alto, in baso, a sinistra, a drita (o w, a, s, d)\nDigita ła tua asion come: [up], [down], [left], [right] o [w], [a], [s], [d]\n\nObietivo: Navega da ła partensa (in alto a sinistra) a l'obietivo (in baso a drita) sensa cader in nesun buso!\n"
   },
   "board": {
-    "current_board": "Tavolo corrente:\n\n{board}\n\nAzione disponibili: {actions}"
+    "current_board": "Tabellone atuale:\n\n{board}\n\nAsion disponibili: {actions}"
   },
   "invalid_move": {
-    "wrong_format": "Formato azione non valido. Usa [up], [down], [left], [right] o [w], [a], [s], [d].",
+    "wrong_format": "Formato de asion no valido. Usa [up], [down], [left], [right] o [w], [a], [s], [d].",
     "unknown_action": "Asion sconosùa \"{action}\". Utilizar su, zo, sinistra, drita o w, a, s, d.",
-    "hit_wall": "Hai cercato di muovere {action} ma hai colpito un muro!"
+    "hit_wall": "Ti ga provà a mover {action} ma ti ga colpìo un muro!"
   },
   "game_action": {
-    "moved": "Ti sei mosso {action} nella posizione ({row}, {col})."
+    "moved": "Ti te si moso {action} a posision ({row}, {col})."
   },
   "outcome": {
     "win": "Complimenti! Te ghe rivà a meta!",

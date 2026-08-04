@@ -14,7 +14,7 @@
     "{scores}": "The final scores as a raw player-number to score mapping - do not translate"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player GOPS.\n- You hold the 13 cards A-K (each exactly once).\n- Each round a prize is revealed. Submit ONE card like `[Q]`, `[10]`, `[2]` …\n- Highest card wins the prize (+ any carry-over pot). Ties roll the prize into the next round.\n- After 13 rounds, highest total wins. Invalid moves = elimination."
+    "intro": "Yin ee ŋɛ̈ɛ̈c {player_id} ee Three-Player GOPS.\n- Yin ee ɣɔ̈ɔ̈ŋ 13 kaɣaar A-K (ɣɔ̈ɔ̈ŋ rɔ̈ɔ̈ŋ tok).\n- Ruɔ̈ɔ̈n tok ee kuɛ̈ɛ̈t ajuɛ̈ɛ̈l. Cɔ̈k kaɣaar tok ee `[Q]`, `[10]`, `[2]` …\n- Kaɣaar baai ee kuɛ̈ɛ̈t ajuɛ̈ɛ̈l (+ kuɛ̈ɛ̈t ciɛ̈ɛ̈ŋ baai). Kaɣaar ciɛ̈ɛ̈ŋ ee kuɛ̈ɛ̈t ajuɛ̈ɛ̈l wɛ̈ɛ̈r.\n- Ruɔ̈ɔ̈n 13, kaɣaar baai ee kuɛ̈ɛ̈t ajuɛ̈ɛ̈l. Luɔ̈ɔ̈i ciɛ̈ɛ̈ŋ ee riɛ̈ɛ̈ŋ."
   },
   "round": {
     "header": "### Round {round}/13 - Prize: {prize} (ke kuɛn {worth})",
@@ -22,7 +22,7 @@
   },
   "reveal": {
     "win": "Bids  {bids} - Player {winner} aye bɛ̈n tiaam në {pot}.",
-    "tie": "Bids  {bids} - tie, pot now {pot}.",
+    "tie": "Kuɛ̈ɛ̈t » {bids} - ciɛ̈ɛ̈ŋ, kuɛ̈ɛ̈t ciɛ̈ɛ̈ŋ ee {pot}.",
     "scores": "Wël cï gɔ̈ɔ̈r → {scoreline}"
   },
   "invalid_move": {

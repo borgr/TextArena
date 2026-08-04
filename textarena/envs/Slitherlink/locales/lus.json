@@ -1,12 +1,12 @@
 {
   "player_prompt": {
-    "intro": "You are playing Slitherlink on a {R}x{C} grid!\nDraw a single continuous loop so each numbered cell has that many bordering edges.\nToggle edges with:\n  [h r c] - toggle horizontal edge above dots at row r, column c\n  [v r c] - toggle vertical edge left of dots at row r, column c\nNumbers show required edge count, '.' means no constraint.\nYou have up to {max_turns} moves to solve the puzzle."
+    "intro": "I Slitherlink {R}x{C} grid-ah khelh dawn i ni!\nLoop khat chauh siam tur a ni, numbered cell tinrengin a border edge zawng zawng a nei thei ang.\nEdge-te chu hetiang hian toggle rawh:\n  [h r c] - row r, column c a dots chungnungah horizontal edge toggle rawh\n  [v r c] - row r, column c a dots veilamah vertical edge toggle rawh\nNumber-te chuan edge zawng zawng a neih ngaihna a entir, '.' chuan harsatna a awm lo tih a entir.\n{max_turns} move thleng i nei a, puzzle chhuang tur a ni."
   },
   "board": {
-    "current_board": "{board}\nClues satisfied: {progress}"
+    "current_board": "{board}\nClues hlawhtlinna: {progress}"
   },
   "invalid_move": {
-    "wrong_format": "Bad action format. Use [h row col] or [v row col].",
+    "wrong_format": "Action format a dik lo. [h row col] emaw [v row col] hman rawh.",
     "out_of_bounds": "A pâwn lam chu a dang ta mai."
   },
   "outcome": {

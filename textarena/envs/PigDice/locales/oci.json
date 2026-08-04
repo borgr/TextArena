@@ -10,10 +10,10 @@
     "player_hold": "Jogador {player_id} ten e banca {turn_total} punts."
   },
   "board": {
-    "player": "Player 0: '{score_0}'; Player 1: '{score_1}'",
+    "player": "Jogaire 0: '{score_0}'; Jogaire 1: '{score_1}'",
     "current_total_scores": "Punts totals actuals: {scores}\nLo vòstre total actual per torn es {turn_total}.",
     "roll_history": "{observation}\nLo vòstre istòric de tiradas per aquest torn: {roll_history}",
-    "first_roll": "{observation} Es lo primièr còp que vos cal.",
+    "first_roll": "{observation}\nAqueste es lo primièr rotlar de vòstre torn.",
     "available_actions": "{observation}\nAccions disponiblas: '[roll]' o '[hold]'"
   },
   "outcome": {

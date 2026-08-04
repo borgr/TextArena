@@ -11,7 +11,7 @@
     "not_legal": "Ago devas esti {legal_actions}."
   },
   "action": {
-    "submit_move": "Player {player_id}, submitted move: '[{move}]'.",
+    "submit_move": "Ludanto {player_id} sendis agon: '[{move}]'.",
     "valid_actions": "Viaj disponeblaj agoj estas: {legal_actions}.",
     "round_summary": "{reason} Nunaj poentoj: Ludanto 0: '{player_0_chips}'; Ludanto 1: '{player_1_chips}'"
   },

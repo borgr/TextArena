@@ -11,7 +11,7 @@
     "invalid_button": "Bad bura moro ok oyier."
   },
   "game_action": {
-    "pressed": "You pressed the {button} button and received a reward of {reward}."
+    "pressed": "Inyalo nyawe bokoro {button} ka nyako reward {reward}."
   },
   "game_message": {
     "final_decision": "Ka isetiyo gi pesa duto ma in-go e temo yore mopogore opogore mag manyo mor, kendo nono ber mokelo, koro non ane gima inyalo timo mondo ibed mamor gadier."

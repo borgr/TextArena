@@ -22,7 +22,7 @@
     "you_equal_ranks": "Siz parçasını {source} dan {dest} ye taşadiniz. Hücum eden parça {attacking_rank} ve hedef parça {target_rank} idi. Rütbe aynı olduğundan, her iki parça da kaybedildi.",
     "opponent_equal_ranks": "Oyuncu {player_id} bir parçasını {source} dan {dest} ye taşadı. Hücum eden parça {attacking_rank} ve hedef parça {target_rank} idi. Rütbe aynı olduğundan, her iki parça da kaybedildi.",
     "you_miner_defused": "Siz parçasını {source} dan {dest} ye taşadiniz. Hücum eden parça {attacking_rank} ve hedef parça {target_rank} idi. Madenciler bombaları devre dışı bırakabildiğinden, siz kazandınız.",
-    "opponent_miner_defused": "Player {player_id} has moved a piece from {source} to {dest}. The attacking piece was {attacking_rank} and the destination piece was {target_rank}. As miners can defuse bombs, you lost the battle.",
+    "opponent_miner_defused": "Oyuncu {player_id} {source}tan {dest}ke bir parça köçürdi. Hücum etken parça {attacking_rank} edi, destinatsiya parçası ise {target_rank} edi. Madenciler bombalarnı zararsızlandırğanda, siz bu cenkniñ ögünde qaldıñız.",
     "you_bomb_lost": "Siz parçasını {source} dan {dest} ye taşadiniz. Hücum eden parça {attacking_rank} ve hedef parça {target_rank} idi. Hücum eden bir madenci olmadığından, siz kaybettiniz.",
     "opponent_bomb_won": "Oyuncu {player_id} bir parçasını {source} dan {dest} ye taşadı. Hücum eden parça {attacking_rank} ve hedef parça {target_rank} idi. Hücum eden bir madenci olmadığından, siz kazandınız.",
     "you_spy_won": "Siz parçasını {source} dan {dest} ye taşadiniz. Hücum eden parça {attacking_rank} ve hedef parça {target_rank} idi. Hücum eden bir casus ve hedef bir mareşalse, siz kazandınız.",

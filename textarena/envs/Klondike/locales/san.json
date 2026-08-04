@@ -16,7 +16,7 @@
     "{cards}": "The cards in a pile as neutral labels, or '--' if empty (never translate)"
   },
   "player_prompt": {
-    "intro": "You are playing Klondike Solitaire. Your goal is to move all cards to the foundation piles.\n\nGame Rules:\n- Foundation piles (F1-F4): Build up from Ace to King in suit\n- Tableau piles (T1-T7): Build down alternating colors (red on black, black on red)\n- Stock: Draw cards to waste pile\n- Waste (W): Top card available for play\n\nCommands:\n- 'draw' - Draw cards from stock to waste\n- 'move <source> <destination> [count]' - Move cards between piles\n  Examples: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count can also be 'all', which will try to move all face-up cards.\n- 'forfeit' - End the game immediately and lock in your current score\n- Pile names: W (waste), F1-F4 (foundations), T1-T7 (tableau)\n\nYou can execute multiple actions in one turn by separating them with commas:\n  Example: 'draw, move W T1, move T2 F1'\n\nOnly Kings can be placed on empty tableau piles.\nActions execute in order - if one fails, the remaining actions are skipped.\nUse 'forfeit' if you believe the game is impossible to win."
+    "intro": "क्लोन्डाइक सोलिटेयर क्रीडा त्वं क्रीडयसि। तव लक्ष्यं सर्वान् पत्रान् प्रतिष्ठापILESu स्थापयितुम्।\n\nक्रीडानियमाः\n- प्रतिष्ठापILESu (F1-F4): एकादशात् राजपर्यन्तं वर्णानुग\n- टेबलो पाइल्स (T1-T7): वर्णान्तरेण अधः कृष्णोपरि रक्तः\n- स्टॉक: वेस्ट पाइले पत्रान् आकर्षय\n- वेस्ट (W): उपरितन पत्रं क्रीडनाय उपलब्धम्\n\nआज्ञाः\n- 'draw' - स्टॉकात् वेस्ट पाइले पत्रान् आकर्षय\n- 'move <source> <destination> [count]' - पत्रान् पाइल्स मध्ये स्थानान्तरय\n  उदाहरणानि: 'move W T1', 'move T1 F2', 'move T3 T5 2'। गणना 'all' अपि भवितुमर्हति, येन सर्वे उद्घाटित पत्रान् स्थानान्तरयितुं प्रयत्स्यते\n- 'forfeit' - क्रीडां त्वरितं समापय विद्यमानं गणनां स्थिरीकुरु\n- पाइल नामानि: W (वेस्ट), F1-F4 (प्रतिष्ठापILES), T1-T7 (टेबलो)\n\nएकस्मिन् क्रीडाकाले बहवः कार्याः विरामेण कृत्वा कर्तुं शक्यन्ते:\n  उदाहरणम्: 'draw, move W T1, move T2 F1'\n\nशून्य टेबलो पाइल्स मध्ये केवलं राजानः स्थापयितुं शक्यन्ते।\nकार्याः क्रमेण क्रियन्ते - यदि एकः विफलः भवति, अवशिष्टाः कार्याः विरमन्ति।\n'forfeit' उपयुज यदि त्वं क्रीडां जेतुं असंभवं मन्यसे"
   },
   "format_error": {
     "no_brackets": "अमान्य क्रिया प्रारूपः। कार्यस्य कंसातो भवितुम् अर्हति ।",
@@ -24,9 +24,9 @@
     "empty_command": "रिक्त आदेशः 'draw' अथवा 'move <source> <destination> [count] टाइप करोतु।",
     "empty_action": "रिक्तः क्रियायाः प्रयोगः",
     "move_needs_args": "'move <source> <destination> [count]' इत्यनेन आदेशः प्राप्ता।",
-    "count_positive": "गणना सकारात्मकं वा \"सर्व\" भवेत् ।",
-    "count_invalid": "अमान्य गणना. संख्या वा 'सर्व' इति प्रयोगः क्रियते",
-    "unknown_command": "अज्ञात आदेश '{cmd}'. 'चित्र', 'चल <स्रोत> <गंतव्य> [count]', या 'त्याग' का प्रयोग करें",
+    "count_positive": "गणना सकारात्मका वा 'all' भवितुमर्हति",
+    "count_invalid": "अवैध गणना। संख्यां वा 'all' उपयुज",
+    "unknown_command": "अज्ञात आज्ञा '{cmd}'। 'draw', 'move <source> <destination> [count]', वा 'forfeit' उपयुज",
     "wrapped": "क्रिया {n}: {msg}"
   },
   "action_result": {

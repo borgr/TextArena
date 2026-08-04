@@ -10,7 +10,7 @@
     "no_change": "Kāore te poari i huri - ka whiriwhiri he aronga rerekē."
   },
   "outcome": {
-    "win": "Congratulations, you reached {target_tile}! Final score {score}.",
+    "win": "Tēnā koe, kua tae koe ki {target_tile}! Kaihua whakamutunga {score}.",
     "lose": "Kore rawa he nekeneke. Wahanga nui {max_tile} - tohu whakamutunga {score}."
   }
 }

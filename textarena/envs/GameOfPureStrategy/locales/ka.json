@@ -6,7 +6,7 @@
     "announce": "### რაუნდი {round}/13 - პრიზი: {prize} (ღირს {worth})"
   },
   "board": {
-    "hand": "Your remaining hand: {hand}"
+    "hand": "თქვენი დარჩენილი ხელი: {hand}"
   },
   "invalid_move": {
     "wrong_format": "ქმედება უნდა შეიცავდეს ზუსტად ერთ ჩარჩოებში ჩასმულ ბარათის ტოკენს.",

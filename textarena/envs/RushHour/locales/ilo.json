@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing a {difficulty} RushHour puzzle. Slide cars to free the red car [X] and drive it out the right edge.\nActions: [A+], [B-], etc.  (+ = forward, - = backward)."
+    "intro": "Agayat ka iti {difficulty} a puzzle ti RushHour. Iyus mo dagiti kotse tapno malayang ti nalabbaga a kotse [X] ken iyabam daytoy idiay kanawan.\nAr-aramid: [A+], [B-], kadagitoy. (+ = agpa-adelante, - = agpa-likud)."
   },
   "invalid_move": {
     "wrong_format": "Saan a pamamano. Usaren ti formato [A+] / [B-].",

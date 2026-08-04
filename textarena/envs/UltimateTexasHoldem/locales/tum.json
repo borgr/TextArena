@@ -44,8 +44,8 @@
     "player_best": "🎴 Mkono bora wa Mchezaji: {name} ({cards})",
     "dealer_best": "🎴 Mkono bora wa Mwandishi: {name} ({cards})",
     "ante_lost_folded": " ANTE bet LOST! -${ante} (wakakulungika)",
-    "blind_lost_folded": "❌ BLIND bet LOST! -${blind} (folded)",
-    "ante_won": "✅ ANTE bet WON! +${amount}",
+    "blind_lost_folded": "❌ Beti ya BLIND IMEPOTEZWA! -${blind} (imekukunjwa)",
+    "ante_won": "✅ Beti ya ANTE IMESHINDA! +${amount}",
     "ante_pushed": " ANTE bet PUSHED! ${ante} wakawelera.",
     "ante_lost": " ANTE bet LOST! -${ante}",
     "blind_won": "✅ WONER! +${amount}",
@@ -60,7 +60,7 @@
   },
   "outcome": {
     "game_over_win": "🏁 GAME OVER! {max_turns} mizunguko imemaliza. Unayo ${chips} chips - UMEFANikiwa!",
-    "game_over_lose": "🏁 GAME OVER! You're out of chips. Dealer wins!",
+    "game_over_lose": "🏁 MCHEZO UMEMALIZIKA! Umekwisha chipu. Mtoa anashinda!",
     "reward_win": "Mchezaji amemaliza {winner_rounds} mizunguko na ${chips} chips",
     "reward_lose": "Wosewera watha chip mu kuzungulira {round}",
     "reward_win_max": "Mchezaji amemaliza {max_turns} mizunguko na ${chips} chips"
@@ -68,13 +68,13 @@
   "hand_names": {
     "royal_flush": "Royal Flush (Mphoto ya Ufumu)",
     "straight_flush": "Kuŵala Kwambura Kusintha (Straight Flush)",
-    "four_of_a_kind": "Four of a Kind",
-    "full_house": "Full House",
+    "four_of_a_kind": "Nne ya Mtundiko",
+    "full_house": "Nyumba Kamili",
     "flush": "Kuŵala.",
     "straight": "M'paka paumaliro.",
     "three_of_a_kind": "Vinthu Vyitatu Ivyo Vikupambana na vinyake",
     "two_pair": "Vipara Viŵiri vya Mkuŵa",
-    "one_pair": "One Pair",
+    "one_pair": "Jozi Limodzi",
     "high_card": "Khadi Lakuru Chomene",
     "unknown": "Woko Lambura Kumanyikwa"
   }

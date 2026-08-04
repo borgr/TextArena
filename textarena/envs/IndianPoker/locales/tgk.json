@@ -25,7 +25,7 @@
   "message": {
     "round_result": "{reason}  Пул {pot} → Бозигар {winner}. (Бонкҳои P0:{p0}, P1:{p1})",
     "folded": "Бозингар {player_id} қатъ шуд.",
-    "showdown_win": "Showdown: {card_win} beats {card_lose}.",
+    "showdown_win": "Шоудавн: {card_win} {card_lose}ро шикаст медиҳад.",
     "showdown_tie": "Муҳокимаи муштарак: ҳарду {card}. Ҷоми тақсимшуда  ҳар кадоме аз онҳо мегирад {split} ."
   },
   "outcome": {

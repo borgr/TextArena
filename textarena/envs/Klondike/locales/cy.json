@@ -16,14 +16,14 @@
     "{cards}": "The cards in a pile as neutral labels, or '--' if empty (never translate)"
   },
   "player_prompt": {
-    "intro": "Rydych chi'n chwarae Solitaire Klondike. Eich nod yw symud pob card i'r pileiau sylfaen.\n\nRheolau'r Gêm:\n- Pileiau sylfaen (F1-F4): Adeiladu i fyny o As i Frenin mewn siwt\n- Pileiau tabl (T1-T7): Adeiladu i lawr mewn lliwiau sy'n amrywio (coch ar ddu, du ar goch)\n- Stoc: Tynnu cardiau i'r pile wastraff\n- Gwastraff (W): Y card uchaf ar gael i'w chwarae\n\nGorchmynion:\n- 'tynnu' - Tynnu cardiau o'r stoc i'r wastraff\n- 'symud <ffynhonnell> <man cyrchfan> [count]' - Symud cardiau rhwng pileiau\n  Enghreifftiau: 'symud W T1', 'symud T1 F2', 'symud T3 T5 2'. gall y cyfrif hefyd fod 'i gyd', a bydd yn ceisio symud pob card wyneb-i-fyny.\n- 'ymddiswyddo' - Diweddu'r gêm ar unwaith a'i gloi eich sgor presennol\n- Enwau pileiau: W (gwastraff), F1-F4 (sylfeini), T1-T7 (tabl)\n\nGallwch chi gyflawni gweithredoedd lluosog mewn un tro gan eu gwahanu â chommau:\n  Enghraifft: 'tynnu, symud W T1, symud T2 F1'\n\nDim ond y Brenhinoedd a all gael eu rhoi ar pileiau tabl gwag.\nMae gweithredoedd yn cael eu cyflawni mewn trefn - os mae un yn methu, caiff y gweithredoedd sy'n weddill eu hepgor.\nDefnyddiwch 'ymddiswyddo' os ydych chi'n credu bod y gêm yn amhosibl i'w ennill."
+    "intro": "Rydych chi'n chwarae Klondike Solitaire. Eich nod yw symud pob cerdyn i'r pyllau sylfaen.\n\nRheolau'r Gêm:\n- Pyllau sylfaen (F1-F4): Adeiladu i fyny o As i Brenin yn ôl lliw\n- Pyllau tableau (T1-T7): Adeiladu i lawr gan newid lliwiau (coch ar ddu, du ar goch)\n- Stoc: Tynnu cardiau i'r pyllau gwastraff\n- Gwastraff (W): Cerdyn brig ar gael i'w chwarae\n\nGorchmynion:\n- 'draw' - Tynnu cardiau o'r stoc i'r pyllau gwastraff\n- 'move <source> <destination> [count]' - Symud cardiau rhwng pyllau\n  Enghreifftiau: 'move W T1', 'move T1 F2', 'move T3 T5 2'. Gall 'count' hefyd fod 'all', a fydd yn ceisio symud pob cerdyn wyneb i fyny.\n- 'forfeit' - Gorffen y gêm ar unwaith a chloi eich sgôr cyfredol\n- Enwau pyllau: W (gwastraff), F1-F4 (sylfaen), T1-T7 (tableau)\n\nGallwch chi weithredu gweithredoedd lluosog mewn un dro trwy eu gwahanu â choma:\n  Enghraifft: 'draw, move W T1, move T2 F1'\n\nDim ond Brenhinoedd a gellir eu rhoi ar byllau tableau gwag.\nGweithredoedd yn cael eu gweithredu yn ôl trefn - os bydd un yn methu, bydd y gweithredoedd sy'n weddill yn cael eu neidio.\nDefnyddiwch 'forfeit' os ydych chi'n credu bod y gêm yn amhosibl i ennill."
   },
   "format_error": {
     "no_brackets": "Fformat gweithredu afradlon. Dylai gweithredu fod mewn bracs.",
     "no_closing_bracket": "Fformat gweithredu annheg. Brentist cloi braced ']'",
-    "empty_command": "Gorchymyn gwag. Tybed 'tynn' neu ' symud <rhyd> <ddestun> [count]'",
+    "empty_command": "Gorchymyn wag. Teipiwch 'draw' neu 'move <source> <destination> [count]'",
     "empty_action": "Gweithredu gwag",
-    "move_needs_args": "Mae'r gorchymyn symud yn gofyn am ffynhonnell a man cyrchfan. Defnydd: 'symud <ffynhonnell> <man cyrchfan> [count]'",
+    "move_needs_args": "Mae gorchymyn symud yn gofyn am ffynhonnell a chyrchfan. Defnydd: 'move <source> <destination> [count]'",
     "count_positive": "Rhaid i'r cyfrif fod yn bositif neu 'all'",
     "count_invalid": "Cyfrifiad anghywir. Defnyddiwch rhif neu 'all'",
     "unknown_command": "Gorchymyn anhysbys '{cmd}'. Defnyddiwch 'draw', 'move <source> <destination> [count]', neu 'forfeit'",
@@ -62,7 +62,7 @@
     "turn_limit": "Gêm drosodd! Rydych chi wedi cyrraedd y uchafswm o {max_turns} droi. Sgôr: {score} cardiau mewn sylfaen."
   },
   "board": {
-    "title": "=== KLONDIKE SOLITAIRE ===",
+    "title": "=== SOLITÊR KLONDIKE ===",
     "turn": "Tro: {turn}/{max_turns}",
     "stock": "Stoc: cardiau {stock}",
     "waste": "Gweithgaredd (W): {waste}",

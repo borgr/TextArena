@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in **Ultimate Tic Tac Toe**.\nSubmit your move as **[macro  micro]** (two numbers 0-8):\n• *macro*  = which mini-board you play in\n• *micro* = which square inside that mini-board\nExample `[7 8]` ➜ place your mark in mini-board 7, square 8, and\nforce your opponent to play in mini-board 8 next.\n\nYou are `{symbol}`.\n"
+    "intro": "Ikaw si Player {player_id} sa **Ultimate Tic Tac Toe**.\nIsumite ang imong lihok sa porma sa **[macro  micro]** (duha ka numero 0-8):\n• *macro*  = kinsa mini-board ka magdula\n• *micro* = kinsa kwadrado sulod sa mini-board\nPananglitan `[7 8]` ➜ ibutang ang imong marka sa mini-board 7, kwadrado 8, ug\npugson ang imong kaatbang sa pagdula sa mini-board 8 sunod.\n\nIkaw si `{symbol}`.\n"
   },
   "board": {
     "current_board": "Kasamtangang board: {board}"
@@ -18,7 +18,7 @@
     "specific": "micro board {nxt}"
   },
   "game_action": {
-    "played": "Ang Player {player_id} nagdula sa micro board {macro_idx}, cell {micro_idx} (row {row}, col {col}). Kinahanglan ang Player {opponent_id} magdula karon sa {nxt_txt}."
+    "played": "Ang magdudula {player_id} nakadula sa micro board {macro_idx}, cell {micro_idx} (hilera {row}, kolum {col}). Kinahanglan karon magdula sa {nxt_txt} ang magdudula {opponent_id}."
   },
   "outcome": {
     "win": "Player {player_id} modaog Ultimate Tic Tac Toe!",

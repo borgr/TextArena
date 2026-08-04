@@ -9,10 +9,10 @@
     "{pct}": "Progress as a percentage string, e.g. 50%"
   },
   "player_prompt": {
-    "intro": "Map each letter to a unique digit so the arithmetic holds.\nAssign with `[A 5]`, re-assign anytime.\n"
+    "intro": "Mapaich gach litir gu digit aon-neach gus an arithmetic a chumail.\nCuir sònrachadh le `[A 5]`, ath-shònrachadh aig àm sam bith.\n"
   },
   "invalid_move": {
-    "wrong_format": "Bad action format. Use `[A 5]`.",
+    "wrong_format": "Dòigh ghnìomhachd mì-cheart. Cleachd `[A 5]`.",
     "letter_not_in_puzzle": "Litir {letter} nach eil ann an puzzle.",
     "digit_used": "Digit {digit} air a chleachdadh mu thràth le {used_letter}.",
     "leading_zero": "Chan urrainn do dhìogal ceannasach facal a bhith 0."

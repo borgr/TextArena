@@ -11,7 +11,7 @@
     "{groups}": "Neutral ranking data (a list of player-id groups, worst to best); do not translate"
   },
   "player_prompt": {
-    "intro": "{num_players}-Player Snake on a {width}×{height} grid.\nYou control snake {player_id}. Valid moves: '[up]'/'[down]'/'[left]'/'[right]' (or w/s/a/d).\nObjective: survive longest or be the longest and get the highest score (turn limit {max_turns} turns)."
+    "intro": "{num_players} ተጫዋቾች ላይ የ{width}×{height} ግሪድ ላይ የእባብ ጨዋታ.\nአንተ እባብ {player_id}ን ትቆጣጠራለህ። ተገቢ እንቅስቃሴዎች፡ '[up]'/'[down]'/'[left]'/'[right]' (ወይም w/s/a/d)።\nዓላማ፡ ረጅሙ ቆይታ ወይም ረጅሙ እባብ ሆነህ ከፍተኛውን አውሮፕስ (ገደብ {max_turns} እንቅስቃሴዎች)።"
   },
   "board": {
     "current": "የአሁኑ ቦርድ: {board}",

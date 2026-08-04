@@ -21,18 +21,18 @@
     "{scores}": "The pre-rendered per-player list of final scores"
   },
   "player_prompt": {
-    "intro": "You are playing Golf (Card Game) - Player {player_id}.\nGoal: Get the lowest total score in this single round. If columns share the same value, they are summed as 0.\nCard Values: A=1, 2-10=face value, J/Q=10, K=0\n\nActions (use exact brackets):\n- '[draw]' - Draw from deck\n- '[take]' - Take from discard pile\n- '[swap X Y]' - Swap drawn card with position X (row) Y (column)\n- '[discard]' - Discard the drawn card\n"
+    "intro": "I ye kɛlɛ Golf (Kadi Ye) - Kɛlɛ {player_id}.\nKɛlɛ: Kɛlɛ score faaba ka wɛrɛ kɔnɔ. Ni columnw ye kelen ye value, olu bɛɛ ka 0.\nKadi Values: A=1, 2-10=face value, J/Q=10, K=0\n\nActions (kɛlɛ brackets ye):\n- '[draw]' - Draw ka deck\n- '[take]' - Take ka discard pile\n- '[swap X Y]' - Swap drawn kadi ye position X (row) Y (column)\n- '[discard]' - Discard drawn kadi ye\n"
   },
   "board": {
-    "drew": "You drew: {card}\nNow you must [swap X Y] or [discard] it.",
-    "took": "You took: {card} from discard pile\nYou must [swap X Y] with it (cannot discard).",
-    "peeked": "You peeked at position ({row},{col}): {card}",
-    "turn_view": "Your hand:\n{hand}\nDiscard pile: {discard}\n{options}",
+    "drew": "I ye drew: {card}\nKɔnɔ i ye [swap X Y] walima [discard] a.",
+    "took": "I ye took: {card} ka discard pile\nI ye [swap X Y] a (ma discard).",
+    "peeked": "I ye peeked position ({row},{col}): {card}",
+    "turn_view": "I ka hand:\n{hand}\nDiscard pile: {discard}\n{options}",
     "none": "B pa tar ye."
   },
   "options": {
     "final_turns": "Final turns! A zaɛ: [draw], [take], [peek X Y]",
-    "draw": "Your options: [draw], [take]",
+    "draw": "I ka options: [draw], [take]",
     "must_swap": "Y segd n: [swap X Y] (y pa tõe n yiis kaar-dãmb nins y sẽn da yãkã ye)",
     "swap_or_discard": "A yɛn kɔm: [swap X Y] ɛɛtooni [discard]"
   },
@@ -43,12 +43,12 @@
   },
   "action_desc": {
     "swapped": "Jɛɛga {pid} zaɛla {new} ni {old} ɛɛtooni ({row},{col})",
-    "discarded": "Player {pid} discarded {card}"
+    "discarded": "Kɛlɛ {pid} discarded {card}"
   },
   "message": {
     "deck_empty": "Bõn-naandgã fãa yaa zaalem.",
-    "knocked": "Player {pid} knocked! Each other player gets one more turn.",
-    "final_round": "Player {pid} {reason}! Each other player gets one more turn."
+    "knocked": "Kɛlɛ {pid} knocked! Kɛlɛ kelen ye tour kɔnɔ.",
+    "final_round": "Kɛlɛ {pid} {reason}! Kɛlɛ kelen ye tour kɔnɔ."
   },
   "reason": {
     "all_revealed": "A wilga a kartã fãa bɩ?"
@@ -58,22 +58,22 @@
     "discard_empty": "B sẽn na n bas bũmb ninsã fãa yaa zaalem!",
     "must_draw_first": "A yɛn kɔm di [draw], [take], [knock], ɛɛtooni [peek X Y]",
     "cannot_discard_taken": "Y pa tõe n bas kart sẽn yi y sẽn da yãk tɩ b yaool n wa rɩk ye.",
-    "have_drawn_card": "You have a drawn card. You must [swap X Y] or [discard] it.",
+    "have_drawn_card": "I ye kadi ye drawn. I ye [swap X Y] walima [discard] a.",
     "need_drawn_swap": "Y segd n yãka karɛt sẽn na yɩl tɩ b tek ne taaba.",
     "need_drawn_discard": "Y segd n yãka kareng sẽn na yɩl n bas-a.",
-    "out_of_bounds": "Position out of bounds. Use row 1-{max_row}, column 1-{max_col}",
+    "out_of_bounds": "Position ye tɛmɛ. Kɛlɛ row 1-{max_row}, column 1-{max_col}",
     "knock_with_card": "Y pa tõe n wẽ ne kart sẽn be y nugẽ ye. Reng-y tɩ b reng n wa kõ yãmb sorã zãnga.",
     "already_knocked": "Ned n zoe n maan woto.",
     "already_revealed": "B zoe n puk-a lame!"
   },
   "summary": {
-    "full": "Game Over! Jɛɛga {winner} wins ni score ɛɛtooni {score} points!\n\nFinal Scores:\n{scores}",
+    "full": "Pʋga yɛrɛ! Pʋga {winner} ka to ka diɛm {score} kɔɔm!\n\nDiɛm kɔɔm wɛɛ:\n{scores}",
     "line": "Jɛɛga {pid}: {score} points\n"
   },
   "board_str": {
     "title": "=== GOLFã WÃMBA===",
     "discard": "B sẽn na n bas-a zĩig ningã: {card}",
-    "knocked": "Player {pid} has knocked!",
+    "knocked": "Kɛlɛ {pid} knocked!",
     "player_header": "Jɛɛga {pid} (Score: {score}):"
   }
 }

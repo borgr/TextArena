@@ -16,16 +16,16 @@
     "{cards}": "The cards in a pile as neutral labels, or '--' if empty (never translate)"
   },
   "player_prompt": {
-    "intro": "You are playing Klondike Solitaire. Your goal is to move all cards to the foundation piles.\n\nGame Rules:\n- Foundation piles (F1-F4): Build up from Ace to King in suit\n- Tableau piles (T1-T7): Build down alternating colors (red on black, black on red)\n- Stock: Draw cards to waste pile\n- Waste (W): Top card available for play\n\nCommands:\n- 'draw' - Draw cards from stock to waste\n- 'move <source> <destination> [count]' - Move cards between piles\n  Examples: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count can also be 'all', which will try to move all face-up cards.\n- 'forfeit' - End the game immediately and lock in your current score\n- Pile names: W (waste), F1-F4 (foundations), T1-T7 (tableau)\n\nYou can execute multiple actions in one turn by separating them with commas:\n  Example: 'draw, move W T1, move T2 F1'\n\nOnly Kings can be placed on empty tableau piles.\nActions execute in order - if one fails, the remaining actions are skipped.\nUse 'forfeit' if you believe the game is impossible to win."
+    "intro": "أنت تلعب Klondike Solitaire. هدفك هو نقل جميع البطاقات إلى أكوام الأساس.\n\nقواعد اللعبة:\n- أكوام الأساس (F1-F4): بناء من Ace إلى King في نفس اللون\n- أكوام الطاولة (T1-T7): بناء لأسفل بالتناوب بين الألوان (الأحمر على الأسود، الأسود على الأحمر)\n- المخزون: سحب البطاقات إلى كومة الفضلات\n- الفضلات (W): البطاقة العليا متاحة للعب\n\nالأوامر:\n- 'draw' - سحب البطاقات من المخزون إلى الفضلات\n- 'move <source> <destination> [count]' - نقل البطاقات بين أكوام\n  أمثلة: 'move W T1'، 'move T1 F2'، 'move T3 T5 2'. يمكن أن يكون العد أيضًا 'all'، والذي سيحاول نقل جميع البطاقات المكشوفة.\n- 'forfeit' - إنهاء اللعبة على الفور وتثبيت النتيجة الحالية\n- أسماء أكوام: W (الفضلات)، F1-F4 (الأساس)، T1-T7 (الطاولة)\n\nيمكنك تنفيذ إجراءات متعددة في دور واحد عن طريق فصلها بفواصل:\n  مثال: 'draw، move W T1، move T2 F1'\n\nيمكن وضع الملوك فقط على أكوام الطاولة الفارغة.\nتنفذ الإجراءات بالترتيب - إذا فشل أحدها، يتم تخطي الإجراءات المتبقية.\nاستخدم 'forfeit' إذا كنت تعتقد أن اللعبة مستحيلة الفوز."
   },
   "format_error": {
     "no_brackets": "شكل عمل غير صحيح. لازم يكون في قوسين.",
     "no_closing_bracket": "شكل عمل غير صحيح. إقربة الختام مفقودة \"]\"",
     "empty_command": "كماندة فارغة. إكتب \"draw\" أو \"move <source> <destination> [count]\".",
     "empty_action": "عمل فارغ.",
-    "move_needs_args": "المطلب هو نقل مصدر ومقصد. استخدام: \"تحرك <صادر> <مقصد> [count]\"",
-    "count_positive": "العد لازم يكون إيجابي أو \"كل\"",
-    "count_invalid": "عد غير صحيح. استخدم رقم أو \"كل\"",
+    "move_needs_args": "أمر النقل يتطلب مصدرًا ووجهة. الاستخدام: 'move <source> <destination> [count]'",
+    "count_positive": "يجب أن يكون العد موجبًا أو 'all'",
+    "count_invalid": "عدد غير صالح. استخدم رقمًا أو 'all'",
     "unknown_command": "أمر غير معروف '{cmd}'. استخدم 'draw' أو 'move <source> <destination> [count]' أو 'forfeit'",
     "wrapped": "العملية {n}: {msg}"
   },

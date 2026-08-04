@@ -8,13 +8,13 @@
   },
   "invalid_move": {
     "wrong_format": "Lu jucaturi nun rispunniu cu nu furmatu d'azzioni validu.",
-    "invalid_button": "Un buttone ùn hè micca validu."
+    "invalid_button": "Fu sielto nu buttuni nun vàlidu."
   },
   "game_action": {
     "pressed": "Haiu appiccicatu lu buttuni {button} e haiu ricevutu na ricumpensa di {reward}."
   },
   "game_message": {
-    "final_decision": "Avete finitu di pruvà diverse scelte è d'osservà i so benefici. Avà fate una deduzione nantu à quale hè a megliu scelta."
+    "final_decision": "Aviti esauritu lu vostro bilanciu pi pruvàri diversi scelti e ossirvàri li ricumpensi. Ora fàciti na diduzzioni supra cu è la scelta megghiu."
   },
   "outcome": {
     "win": "Congratulazioni! Hai sceltu u buttone giustu.",

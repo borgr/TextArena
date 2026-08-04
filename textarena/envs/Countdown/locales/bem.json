@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing Countdown numbers game!\nGoal: Combine numbers using +, -, *, / to reach the target.\nAction format: [i j op] where i,j are indices and op is the operation.\nExample: [0 2 *] multiplies number at index 0 with number at index 2.\nDivision must result in whole numbers only."
+    "intro": "Mwena ukubomba michezo ya Countdown ya nambari!\nLengo: Lungana nambari kwa kutumia +, -, *, / ili kufikia lengo.\nMuundo wa vitendo: [i j op] apo i,j ni viwianishi na op ni shughuli.\nMfano: [0 2 *] zidisha nambari kwa kipimo 0 na nambari kwa kipimo 2.\nMgawanyiko lazima iwe na matokeo ya nambari nzima pekee."
   },
   "board": {
     "header": "INSHITA: {target}\n\nNambari zilipo:\n{numbers}",
@@ -9,7 +9,7 @@
     "progress": "{observation}\nAlinshi kwamba kubadila: {progress}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use `[i j op]` where i,j are indices and op is +,-,*,/",
+    "wrong_format": "Muundo usio sahihi wa vitendo. Tumia `[i j op]` apo i,j ni viwianishi na op ni +,-,*,/",
     "invalid_indices": "Ifyalembwa fyabula ukufikapo. Fifwile ukuba ifyapusana kabili mu cifulo ca 0-{max_index}",
     "invalid_operation": "Ukubomba kwabipa (ukupenda pa zero nangu ukupanga ifishili fya integer)"
   },

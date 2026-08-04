@@ -8,7 +8,7 @@
     "round_summary": "نتائج الجولة {round}:\n{outcome}\nاللاعب 0 حصل على {r0} (المجموع {score_0})، اللاعب 1 حصل على {r1} (المجموع {score_1})."
   },
   "outcome": {
-    "winner": "Player {winner} wins {win_score} - {lose_score}.",
+    "winner": "اللاعب {winner} يفوز {win_score} - {lose_score}.",
     "draw": "العبيد الكلاين سجلوا {s0}.",
     "round_both_cooperate": "اللاعبين الكلا الإثنين تعاونوا.",
     "round_both_defect": "اللاعبين الكلا الإثنين فرقوا.",

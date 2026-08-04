@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are solving the Sokoban puzzle. You are the player and you need to push all boxes to targets.\n        When you are right next to a box, you can push it by moving in the same direction.\n        You cannot push a box through a wall, and you cannot pull a box.\n        On the board, objects are represented as: \n        - The player (you) appears as 'P' \n        - Walls are represented with '#' \n        - Boxes are marked as 'X' \n        - Empty goals are shown with a 'O'\n        - Boxes on goals are visualized with '√'\n        You can also use [w] for up, [a] for left, [s] for down, and [d] for right.\n        "
+    "intro": "A wa to ṣe alọgbọn Sokoban. Awa ni wẹẹ lọgbọn ṣe, a ṣẹṣẹ gbọọ gbọn jọwọ lẹpo do awhàn.\n        Ni gba ti a ba wa lẹgbẹ na gbọn, a le ṣẹ gbọn na lọwọlọwọ.\n        A kọ gbọọ gbọn lẹpo yiya tọn, a kọ sọ gbọọ gbọn.\n        To alọgbọn, nulẹpo wẹẹ yin nukọntọ: \n        - Wẹẹ lọgbọn (a) yin 'P' \n        - Ọpa yiya tọn yin '#' \n        - Gbọn lẹpo yin 'X' \n        - Awhàn wẹẹ ma ko gbọn lẹpo yin 'O'\n        - Gbọn lẹpo to awhàn wẹẹ yin '√'\n        A sọ le zan [w] nado yi aga, [a] nado yi whèzẹtẹn, [s] nado yi gblagbla, podọ [d] nado yi whèyihọ.\n        "
   },
   "board": {
     "current_board": "Dɛɖi si ɖɛ:\n\n{board}\nAɖewɔnɔ blibo: {moves}"
@@ -12,7 +12,7 @@
     "invalid_position": "Dàn nú nùɖé - è sixu yì tɛn enɛ mɛ ǎ."
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
+    "moved": "A {pushed} yi [{action}].",
     "pushed_prefix": "é dó xasun ɖokpo mɛ ɖò hwenu e è nɔ ɖè ɔ"
   },
   "outcome": {

@@ -13,7 +13,7 @@
     "exceeds_pile": "Kāore e taea te tango i {quantity} mai i te puranga o {pile_index} (ko {pile_count} anake ka mahue)."
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "I whakataetae te Kaiwhakataetae {player_id} i [{pile_index} {quantity}], ā, i tangohia {quantity} mea i te pūhara {pile_index}."
   },
   "outcome": {
     "win": "I tangohia e te kaitākaro {player_id} te taonga whakamutunga ((s)!"

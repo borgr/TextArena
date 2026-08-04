@@ -1,9 +1,9 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in Wild Tic Tac Toe.\nOn your turn, you can place either an 'X' or an 'O' in an empty square.\nYou win by aligning three of the same mark (X or O) in a row.\nYou can win with either symbol.\nChoose your move using the format '[X 4]' to place X in the center.\n"
+    "intro": "Yes el xugador {player_id} en Wild Tic Tac Toe.\nNa to vez, puedes asitiar un 'X' o un 'O' nun cuadráu vacíu.\nGanes alliniando tres marques iguales (X o O) nuna fila.\nPuedes ganar con dambos símbolos.\nEscueyi'l to movimientu usando'l formatu '[X 4]' pa asitiar X nel centru.\n"
   },
   "board": {
-    "current_board": "Current Board:\n\n{board}\n\nAvailable Moves: {moves}"
+    "current_board": "Tableru actual:\n\n{board}\n\nMovimientos disponibles: {moves}"
   },
   "invalid_move": {
     "wrong_format": "Formatu de movimientu non válidu. Usa '[X 4]' o '[O 2]' formatu.",

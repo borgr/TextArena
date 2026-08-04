@@ -38,7 +38,7 @@
   "invalid_move": {
     "call_no_bid": "Бұрынғы ұсыныстарсыз жасалған қоңырау.",
     "invalid_bid": "Жарамсыз ұсынысы: {reason}",
-    "not_recognized": "Action not recognized as either a valid '[Bid: X, Y]' or '[Call]'. Submitted action: {action}"
+    "not_recognized": "Іс-әрекет '[Bid: X, Y]' немесе '[Call]' ретінде танылмайды. Жіберілген іс-әрекет: {action}"
   },
   "bid_reason": {
     "quantity_lower": "Жаңа {new_quantity} саны қазіргі {current_quantity} санынан төмен.",

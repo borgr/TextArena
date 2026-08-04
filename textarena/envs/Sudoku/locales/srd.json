@@ -8,9 +8,9 @@
   },
   "invalid_move": {
     "wrong_format": "Formatzione de mossa non vàlida. Giogadore {player_id} no at rispòndidu cun unu nùmeru bàlidu in sa colunna a su giogu.",
-    "out_of_bounds": "Mossa invalida. Giocatore {player_id} ha tentato di posizionare {num} in ({row}, {col}), che è fuori dai limiti.",
-    "overwrite": "Mossa invalida. Giocatore {player_id} ha tentato di sovrascrivere una cella precompilata ({row}, {col}).",
-    "violates_rules": "Mossa invalida. Giocatore {player_id} ha tentato di posizionare {num} in ({row}, {col}), che viola le regole del Sudoku."
+    "out_of_bounds": "Movimentu no vàlidu. Giogadore {player_id} at tentadu de prenare {num} in ({row}, {col}), chi est fora de sos lìmites.",
+    "overwrite": "Movimentu no vàlidu. Giogadore {player_id} at tentadu de subraiscrì una celleta pre-ocupada ({row}, {col}).",
+    "violates_rules": "Movimentu no vàlidu. Giogadore {player_id} at tentadu de prenare {num} in ({row}, {col}), chi violit sas regulas de Sudoku."
   },
   "outcome": {
     "win": "Gratzias! Su giogadore {player_id} at acabadu su puzzle de Sudoku.",

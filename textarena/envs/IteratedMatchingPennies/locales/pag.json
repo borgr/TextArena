@@ -6,8 +6,8 @@
     "wrong_format": "Sala so porma; pakatukneng so '[heads]' o '[tails]'."
   },
   "message": {
-    "round_match": "Pinili ni Player 0 so {choice0}; pinili ni Player 1 so {choice1}. Match -> Player 0 nanalo",
-    "round_mismatch": "Player 0 picked {choice0}; Player 1 picked {choice1}. Mismatch -> Player 1 wins."
+    "round_match": "Say piksawan na Manlalaro 0 so {choice0}; Say piksawan na Manlalaro 1 so {choice1}. Agpareho -> Manlalaro 0 so nangabak",
+    "round_mismatch": "Say piksawan na Manlalaro 0 so {choice0}; Say piksawan na Manlalaro 1 so {choice1}. Agkaiba -> Manlalaro 1 so nangabak."
   },
   "outcome": {
     "p0_wins": "Mas dakel so analo na Player 0.",

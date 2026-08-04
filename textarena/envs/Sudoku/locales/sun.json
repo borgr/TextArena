@@ -7,7 +7,7 @@
     "board_state": "Nagara dewan: {board}"
   },
   "invalid_move": {
-    "wrong_format": "Format move teu valid. Pamaén {player_id} henteu ngajawab ku 'nomer kolom baris' anu sah.",
+    "wrong_format": "Format gerakan teu sah. Player {player_id} teu merespon jeung format 'jajar kolom angka' nu sah.",
     "out_of_bounds": "Langkah teu sah. Pamaén {player_id} nyoba ngasahkeun {num} di ({row}, {col}), nu aya di luar wates.",
     "overwrite": "Langkah teu sah. Pamaén {player_id} nyoba nuliskeun deui sél nu geus dipurnakeun ({row}, {col}).",
     "violates_rules": "Langkah teu sah. Pamaén {player_id} nyoba ngasahkeun {num} di ({row}, {col}), nu melanggar aturan Sudoku."

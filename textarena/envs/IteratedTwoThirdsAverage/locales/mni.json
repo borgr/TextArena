@@ -1,13 +1,13 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a {num_rounds}-round of IteratedTwoThirdsAverage.\nEach round, guess a number between {min_guess} and {max_guess}.\nAfter both guesses, the target is (2/3)x(average of both guesses),\nand the player whose guess is closest to the target wins that round.\nReply with your guess in the format '[<number>]'."
+    "intro": "আপুনি IteratedTwoThirdsAverage গেমসিং {num_rounds} বুদিং মধ্যে Player {player_id} নি।\nপ্রতি বুদি, {min_guess} অমসুং {max_guess}গি মধ্যে মণা অনুমান করুন।\nঅনুমান দুহো অনুসরণ করি, টার্গেট (2/3)গা(দুহো অনুমানগি গড়) অমনি,\nঅমসুং টার্গেটদা নিকটতম অনুমান করে প্লেয়ার বুদিং সিং জয় করে।\nফর্ম্যাট '[<number>]'তা অনুমান জবাব তৈ।"
   },
   "invalid_move": {
     "wrong_format": "ফোর্মেট অসি চৎনদ্রে; অদোমগী থিজিনবা অদু [<number>] ওইনা পীশিনবিয়ু।",
-    "out_of_range": "Guess must be between {min_guess} and {max_guess}."
+    "out_of_range": "চয়ন করা নম্বর {min_guess} অমসুং {max_guess}গী মধ্যদা হবা দেউবা।"
   },
   "message": {
-    "round_guesses": "Player 0 guessed {guess0}; Player 1 guessed {guess1}. Thus the Target is: {target}.",
+    "round_guesses": "খেলোয়াড় 0 চয়ন করা নম্বর {guess0}; খেলোয়াড় 1 চয়ন করা নম্বর {guess1}। অসুমৎ টার্গেট নম্বর হবা: {target}।",
     "round_draw": "রাউন্দ অমগা দ্রো অমা ওই।",
     "round_win": "শান্নরোই {winner}না রাউন্দ অদুদা মায় পাকখি!"
   },

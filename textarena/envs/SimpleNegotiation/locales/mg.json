@@ -4,7 +4,7 @@
   },
   "invalid_move": {
     "receiving_with_no_resource": "Niezaka nanaiky fifanakalozana ny mpilalao nefa tsy nanana ny loharanom-bola ilaina.",
-    "out_of_range": "Player {player_id}, Invalid action. Column {col} is out of bounds.",
+    "out_of_range": "Mpilalao {player_id}, Asa tsy mety. Safidy {col} dia ivelan'ny sisin-tany.",
     "already_full": "Mpilalao {player_id}, Hetsika tsy mety. Feno ny tsanganana {col}.",
     "proposing_with_no_resource": "Niezaka nanao tolotra fifanakalozana ny mpilalao {player_id} nefa tsy nanana ny loharanom-bola ilaina.",
     "incorrect_offer_format": "Nanao tolotra fifanakalozana tamin'ny endrika tsy mety ny mpilalao {player_id}.",

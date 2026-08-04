@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id}. You are playing the Memory Game.\nYour goal is to match more pairs of cards on the board, than your opponent.\nOn your turn, select two cards to flip by entering the row and column numbers of the first and second card respectively like '[0 1 1 0]', where the first card is in row 0 and column 1, and the second card is in row 1 and column 0.\nIf the two cards match, you get a point and the cards remain face up. If they do not match, the cards are flipped back face down, e.g. '.'.\nThe game ends when all pairs have been matched."
+    "intro": "Nyɛ kʋʋ {player_id}. Nyɛ kpɛlɩʋʋ Memory Game.\nKʋʋ tɔmɩyɛ nyɛ se ɛyʋʋ kʋʋ kɔɔ payaɣ pɩŋŋŋ pɩ-taa, pɩ-taa ɛyʋʋ kɔɔ.\nKʋʋ tɔmɩyɛ, kʋʋ piliɣ kɔɔ naalɛ nɛ kʋʋ maɣzɩ kɔɔ naalɛ ɖama yɔɔ kama '[0 1 1 0]', ɛyʋʋ kɔɔ kacalaɣ kɔɔ wɛʋ tɔɔʋ 0 nɛ kɔɔ ŋgʋʋ wɛʋ tɔɔʋ 1, nɛ kɔɔ naalɛ ñɩŋʋ wɛʋ tɔɔʋ 1 nɛ kɔɔ ŋgʋʋ wɛʋ tɔɔʋ 0.\nKʋʋ kɔɔ naalɛ ɖama yɔɔ kama, kʋʋ tɔmɩyɛ pɔɔ nɛ kɔɔ wɛʋ kʋʋ tɔmɩyɛ. Kʋʋ kɔɔ naalɛ ɖama yɔɔ taama, kɔɔ wɛʋ kʋʋ tɔmɩyɛ pɩŋŋŋ, pɩ-taa '.'.\nKpɛlɩʋʋ tɔmɩyɛ pɩŋŋŋ pɩ-taa ɛyʋʋ kɔɔ."
   },
   "board": {
     "current_board": "Kɩ-tɛ alɩwaatʊ taa: {board}",
@@ -13,13 +13,13 @@
     "already_matched": "Pɩfɛyɩ ɖeu se ɛyʋ ɛɖɔ nʋmɔʋ ŋgʋ. Aleɣya tʋ {player_id} lɩzɩna kaarta kʋɖʋmʋʋ yaa naalɛ mba pɛtɛm-wɛ ɖanɩɣ yɔ."
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "Kʋʋ kɔɔ naalɛ ɖama yɔɔ kama Nyɛ {player_id} tɔmɩyɛ kʋʋ tɔmɩyɛ [{r1} {c1}] nɛ [{r2} {c2}]!",
+    "cards_no_match": "Kʋʋ kɔɔ naalɛ ɖama yɔɔ taama Nyɛ {player_id} tɔmɩyɛ. Kʋʋ tɔmɩyɛ kʋʋ tɔmɩyɛ [{r1} {c1}] nɛ [{r2} {c2}] wɛʋ {pos1} nɛ {pos2}."
   },
   "outcome": {
     "draw": "Ɛyaa mba pa-naalɛ pɛkpɛndaa nɛ pakpaɣ takayɩsɩ nzɩ sɩwɛ ndɩ yɔ.",
     "win": "Aleɣya laɖʋ {winner_id} wabɩ!",
-    "turn_limit": "The turn limit has been reached. The game is over. Player 0 scored {score_0} points, Player 1 scored {score_1} points.",
+    "turn_limit": "Kpɛlɩʋʋ tɔmɩyɛ pɩŋŋŋ. Kpɛlɩʋʋ tɔmɩyɛ. Nyɛ 0 tɔmɩyɛ {score_0} pɔɔ, Nyɛ 1 tɔmɩyɛ {score_1} pɔɔ.",
     "turn_limit_win": "{reason} Player {winner_id} ɛwɛ!"
   }
 }

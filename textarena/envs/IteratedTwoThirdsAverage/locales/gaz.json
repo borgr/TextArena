@@ -7,7 +7,7 @@
     "out_of_range": "Akkaataa guutuu {min_guess} fi {max_guess} keessa jiru qabda."
   },
   "message": {
-    "round_guesses": "Player 0 guessed {guess0}; Player 1 guessed {guess1}. Thus the Target is: {target}.",
+    "round_guesses": "Pilaayari 0 {guess0} tilmaame; Pilaayari 1 {guess1} tilmaame. Kanaaf Kuufamiin: {target}.",
     "round_draw": "Marsaan wal madaaluu dha.",
     "round_win": "Taphattuun {winner} marsaa kana mo'atti!"
   },

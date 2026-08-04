@@ -10,7 +10,7 @@
     "{to}": "The destination coordinate of a move, such as b3"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in game of LinesOfAction.\nYour pieces are '{side}', opponent pieces are '{other}'.\nMove format: `[b1b3]` (from-coord to-coord). A legal move travels horizontally, vertically, or diagonally a number of squares equal to the total pieces (any colour) in that line. You may jump over your own pieces, but not opponent pieces; landing on an opponent captures it.  Win when all your pieces are 8-neighbour connected."
+    "intro": "አንተ ተጫዋቹ {player_id} በላይኖች አክሽን ጌም ነህ.\nአንተ አክሽኖች '{side}' ናቸው, ተወዳዳሪው አክሽኖች '{other}' ናቸው.\nየንቅስ ፎርማት: `[b1b3]` (ከ-ኮኦርዲኔት ወደ-ኮኦርዲኔት). ህጋዊ ንቅስ በአንድ አይነት ቀጥታ, በአንድ አይነት አንፃራዊ, ወይም በአንድ አይነት ግራኝ አንፃራዊ እንደ ቦርድ ላይ ያሉት አክሽኖች (ማንኛውም ቀለም) ቁጥር እንደሆነ እንደዚያ ብዛት አድርጎ እንደሚንቀሳቀስ. አንተ ራስህን አክሽኖች ላይ አግለለው ብለህ ሊያልፍ ትችላለህ, ተወዳዳሪውን አክሽኖች ላይ አግለለው ብለህ አልፈው ሊያልፍ አትችልም; ተወዳዳሪውን አክሽን ላይ ሲያርፍ አሸንፎታል. ሁሉም አክሽኖችህ 8-ተናባቢ ተያያዙ ሲሆኑ አሸንፈሀል."
   },
   "board": {
     "current_board": "ቦርድ: {board}"

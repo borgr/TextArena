@@ -12,7 +12,7 @@
   "board": {
     "player": "Spēletājs 0: '{score_0}'; Spēletājs 1: '{score_1}'",
     "current_total_scores": "Pašreizējie kopējie punkti: {scores}\nJūsu pašreizējais gājiena punktu summa ir {turn_total}.",
-    "roll_history": "{observation}\nYour roll history for this turn: {roll_history}",
+    "roll_history": "{observation}\nTava kauliņu metēšanas vēsture šajā gājienā: {roll_history}",
     "first_roll": "{observation} Tys ir pyrmais tovys reiceibys lūks.",
     "available_actions": "{observation}\nPieejamās darbības: '[roll]' vai '[hold]'"
   },

@@ -26,14 +26,14 @@
   "board": {
     "drew": "Zoriatu duzu: {card}\nOrain [swap X Y] egin behar duzu edo [discard]",
     "took": "Hartu zenuen: {card} botatzeko pilotik [swap X Y] berarekin (ezin da bota).",
-    "peeked": "You peeked at position ({row},{col}): {card}",
+    "peeked": "Ikusi duzu posizioa ({row},{col}): {card}",
     "turn_view": "Zure eskua: {hand} Galtzeko piloa: {discard} {options}",
     "none": "Ez dago"
   },
   "options": {
     "final_turns": "Itzuli bukaerakoak! Zure aukerak: [draw], [take], [peek X Y]",
     "draw": "Zure aukerak: [draw], [take]",
-    "must_swap": "You must: [swap X Y] (cannot discard cards from discard pile)",
+    "must_swap": "Egin behar duzu: [swap X Y] (ezin da deseinuko piletik kartak deseinatu)",
     "swap_or_discard": "Hau egin behar duzu: [swap X Y] edo [discard]"
   },
   "hand": {
@@ -46,7 +46,7 @@
     "discarded": "Jokalari {pid} baztertua {card}"
   },
   "message": {
-    "deck_empty": "Deck is empty! Game ends immediately.",
+    "deck_empty": "Deka hutsik dago! Jokoa berehala amaitzen da.",
     "knocked": "Jokalari {pid}-k kolpea jo du! Gainontzeko jokalariek itzuli bat gehiago dute.",
     "final_round": "Jokalari {pid}-k {reason}! Gainontzeko jokalariek itzuli bat gehiago dute."
   },
@@ -55,25 +55,25 @@
   },
   "invalid": {
     "wrong_action": "Erabili itzazu zehazki ERAKUNTZEN bat: [draw], [take], [swap X Y], [discard], [knock] edo [peek X Y]",
-    "discard_empty": "The discard pile is empty!",
+    "discard_empty": "Deseinuko pila hutsik dago!",
     "must_draw_first": "Lehenik [draw], [take], [knock] edo [peek X Y] lerroak ipini behar dituzu.",
     "cannot_discard_taken": "Ezin duzu bota kartatxoa, aldatu egin behar da.",
-    "have_drawn_card": "You have a drawn card. You must [swap X Y] or [discard] it.",
-    "need_drawn_swap": "You need a drawn card to swap.",
-    "need_drawn_discard": "You need a drawn card to discard.",
+    "have_drawn_card": "Ateratako karta duzu. [swap X Y] edo [discard] egin behar duzu.",
+    "need_drawn_swap": "Ateratako karta behar duzu trukatzeko.",
+    "need_drawn_discard": "Ateratako karta behar duzu deseinatzeko.",
     "out_of_bounds": "Posizioa muga gainetik dago. Erabili {max_row}-1 lerrotik, {max_col}-1 zutabetik",
-    "knock_with_card": "You cannot knock with a drawn card. Complete your turn first.",
+    "knock_with_card": "Ezin duzu jo ateratako kartarekin. Lehen zure txanda osatu.",
     "already_knocked": "Norbaitek irabazi du dagoeneko.",
-    "already_revealed": "That card is already revealed!"
+    "already_revealed": "Karta hori dago jada agerian!"
   },
   "summary": {
     "full": "Jokoa amaitu da! Jokalari {winner}-k irabazten du {score} puntuuko puntuazioarekin!\n\nAzken puntuazioak:\n{scores}",
     "line": "Jokalariaren {pid}: {score} puntuak "
   },
   "board_str": {
-    "title": "=== GOLF GAME ===",
+    "title": "=== GOLF JOKOA ===",
     "discard": "Bota ezazu pila: {card}",
-    "knocked": "Player {pid} has knocked!",
+    "knocked": "Jokalaria {pid} jo du!",
     "player_header": "Jokalariaren {pid} (Puntuazioa: {score}):"
   }
 }

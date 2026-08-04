@@ -10,7 +10,7 @@
     "{to}": "The destination coordinate of a move, such as b3"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in game of LinesOfAction.\nYour pieces are '{side}', opponent pieces are '{other}'.\nMove format: `[b1b3]` (from-coord to-coord). A legal move travels horizontally, vertically, or diagonally a number of squares equal to the total pieces (any colour) in that line. You may jump over your own pieces, but not opponent pieces; landing on an opponent captures it.  Win when all your pieces are 8-neighbour connected."
+    "intro": "Dir sidd Spiller {player_id} an engem Spill vu LinesOfAction.\nÄr Steng sinn '{side}', Géigner-Steng sinn '{other}'.\nZuch-Format: `[b1b3]` (vu-Koordinat op-Koordinat). E legale Zuch geet horizontal, vertikal oder diagonal eng Zuel vu Quadraten, déi der Zuel vu Steng (jee no Faarf) an där Linn entsprécht. Dir kënnt iwwer Är eegen Steng sprangen, awer net iwwer Géigner-Steng; wann Dir op en Géigner landt, da gëtt en gefaangen.  Gewonnen, wann all Är Steng 8-Noper-verbonden sinn."
   },
   "board": {
     "current_board": "Board: {board}"

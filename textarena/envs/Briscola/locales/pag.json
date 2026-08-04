@@ -37,7 +37,7 @@
     "line": "  Player {player_id}: {card}{trump_mark}"
   },
   "turn": {
-    "score_entry": "Player {player_id}: {points} pts",
+    "score_entry": "Manggagamot {player_id}: {points} puntos",
     "trump_info": "Say Trump suit: {trump_suit}",
     "trump_info_deck": "Trump suit: {trump_suit} | Karetang nasisilbi ed deck: {deck_count}",
     "board": "{hand}\n\n{trick}\n\nPuntos: {scores}\n{trump_info}\n\nTogawa kareta gamen [play X]"
@@ -51,7 +51,7 @@
     "trick_win": "Player {winner} nanalo sa trick kaaguiyan {card} tan naggainan {points} puntos!"
   },
   "outcome": {
-    "head": "Game Over! Player {winner} wins with {points} points!\n\nFinal Scores:\n{scores}",
+    "head": "Nagtapos na so Laban! Manggagamot {winner} so nangabak ed {points} puntos!\n\nPangkagagawan na Iskor:\n{scores}",
     "player_line": "Player {player_id}: {points} puntos ({tricks} tricks)\n"
   }
 }

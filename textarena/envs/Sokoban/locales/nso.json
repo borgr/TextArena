@@ -1,18 +1,18 @@
 {
   "player_prompt": {
-    "intro": "You are solving the Sokoban puzzle. You are the player and you need to push all boxes to targets.\n        When you are right next to a box, you can push it by moving in the same direction.\n        You cannot push a box through a wall, and you cannot pull a box.\n        On the board, objects are represented as: \n        - The player (you) appears as 'P' \n        - Walls are represented with '#' \n        - Boxes are marked as 'X' \n        - Empty goals are shown with a 'O'\n        - Boxes on goals are visualized with '√'\n        You can also use [w] for up, [a] for left, [s] for down, and [d] for right.\n        "
+    "intro": "O kgaogela papadi ya Sokoban. O kgaogela bjalo ka mmoledi, mme o hloka go tshikinya dibokisi tšohle go ya kwa maikemišetšo.\n        Ge o le kgauswi le bokisi, o ka tshikinya ka go sepela ka tsela e le nngwe.\n        Ga o kgone go tshikinya bokisi ka tsela ya lebota, gomme ga o kgone go goga bokisi.\n        Godimo ga papadi, dilo di emetšwe bjalo ka: \n        - Mmoledi (wena) o bonwa bjalo ka 'P' \n        - Mabota a emetšwe ka '#' \n        - Dibokisi di tšhiwa ka 'X' \n        - Maikemišetšo a sa tšeweng a bonwa ka 'O'\n        - Dibokisi tše di kgorogelwang maikemišetšong di bonwa ka '√'\n        O ka diriša le [w] go ya godimo, [a] go ya le leboa, [s] go ya tlase, le [d] go ya le bohlabela.\n        "
   },
   "board": {
     "current_board": "Boro ya Tokologo:\n\n{board}\nDikgetho tse Diponaheng: {moves}"
   },
   "invalid_move": {
-    "wrong_format": "The submitted move does not follow the correct format. Use [up], [down], [left], [right] or [w], [a], [s], [d].",
+    "wrong_format": "Tšhupetšo e rometšwego ha e latele sebopego sa go nepahala. Šomiša [up], [down], [left], [right] goba [w], [a], [s], [d].",
     "not_valid_action": "Kgato yeo e kgopetšwego ga se tiro ya maleba.",
     "wall_collision": "O ka se kgone go tsena lebotong!",
     "invalid_position": "Go sepela mo go sa dumelelwago - ga se gwa swanela go ya boemong bjoo."
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
+    "moved": "O {pushed} ile wa sepela [{action}].",
     "pushed_prefix": "o ile a kgoromeletša lepokisi ka morago ga nako e telele."
   },
   "outcome": {

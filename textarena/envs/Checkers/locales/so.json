@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "Ma jiro qaab wareejin oo sax ah oo la helay. Isticmaal [a1b2], tusaale ahaan [b2c3].",
-    "illegal": "Move [{move}] is illegal."
+    "illegal": "Dhaqdhaqaaqada [{move}] waa sharci darro."
   },
   "game_action": {
     "moved": "Ciyaaryahanka {player_id} ayaa dhaqaaqay {move}."

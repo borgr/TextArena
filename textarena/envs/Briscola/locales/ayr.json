@@ -19,7 +19,7 @@
     "{deck_count}": "Number of cards left in the deck"
   },
   "game": {
-    "start": "Briscola game started! Trump suit: {trump_suit} (Trump card: {trump_card})"
+    "start": "Briscola pukllay qalltayna! Mallku t'ika: {trump_suit} (Mallku kartanaka: {trump_card})"
   },
   "prompt": {
     "intro": "Jaqiwa Briscola jach'asiña - Jaqi {player_id}.\nAchika: Jach'asiña utjawi, jach'asiña puntus (120 jiliri puntus jach'asiña).\nKarta Puntus: A=11, 3=10, K=4, Q=3, J=2, janiw=0\nKarta Kamani: A > 3 > K > Q > J > 7 > 6 > 5 > 4 > 2\nTrump kartas jach'asiña jan kartas, janiw kamani.\n\nAchika: '[play X]' akax jaqix (1-{max_pos}) karta jaqix q'awiri"
@@ -37,7 +37,7 @@
     "line": "  Player {player_id}: {card}{trump_mark}"
   },
   "turn": {
-    "score_entry": "Player {player_id}: {points} pts",
+    "score_entry": "Pukllayiri {player_id}: {points} puntu",
     "trump_info": "Trump suti: {trump_suit}",
     "trump_info_deck": "Trump suit: {trump_suit} | Kartas jiliri deck: {deck_count}",
     "board": "{hand}\n\n{trick}\n\nPuntus: {scores}\n{trump_info}\n\nJach'a karta akasiña [play X]"
@@ -51,7 +51,7 @@
     "trick_win": "Jaqi {winner} utjawi jach'a {card} utjawi, ukatx jach'asiña {points} puntus!"
   },
   "outcome": {
-    "head": "Game Over! Player {winner} wins with {points} points!\n\nFinal Scores:\n{scores}",
+    "head": "Pukllay tukukuptayna! Pukllayiri {winner} {points} puntunakampi q'epi!\n\nQhipa puntu:\n{scores}",
     "player_line": "Jaqi {player_id}: {points} puntus ({tricks} jach'as)"
   }
 }

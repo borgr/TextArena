@@ -11,7 +11,7 @@
     "not_legal": "L'azion la ga da esar {legal_actions}."
   },
   "action": {
-    "submit_move": "Player {player_id}, submitted move: '[{move}]'.",
+    "submit_move": "Xugador {player_id}, à faxesto ła mossa: '[{move}]'.",
     "valid_actions": "Le to asion dispoxìbiłi łe xe: {legal_actions}.",
     "round_summary": "{reason} Puntegi corenti: Zogador 0: '{player_0_chips}'; Zogador 1: '{player_1_chips}'"
   },

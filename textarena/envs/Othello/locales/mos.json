@@ -3,12 +3,12 @@
     "intro": "You are Player {player_id} playing {colour} ({piece}) in a game of Othello.\nYour goal is to have more pieces of your color on the board by the end of the game.\nOn your turn, place a piece such that it flanks one or more of your opponent's pieces-in any direction (horizontal, vertical, or diagonal)-between your new piece and another of your existing pieces. All flanked opponent pieces will be flipped to your color.\nProvide your move in the format '[row, col]'."
   },
   "board": {
-    "game_board": "Game Board: {board}",
-    "valid_moves": "{observation}\nValid moves: {moves}",
-    "no_valid_moves_reset": "{observation}\nNo valid moves - you may have to skip.",
-    "no_valid_moves_step": "{observation}\nNo valid moves – you may have to skip.",
-    "scores_reset": "{observation}\nCurren Scores - Black: {black_count}, White: {white_count}\n",
-    "scores_step": "{observation}\nScores - Black: {black_count}, White: {white_count}\n"
+    "game_board": "Kɛlɛ Tabili:\n{board}",
+    "valid_moves": "{observation}\nKɛlɛ wɛrɛ wɛrɛ: {moves}",
+    "no_valid_moves_reset": "{observation}\nKɛlɛ wɛrɛ wɛrɛ tɛ - yaa pɔsɛ la yaa kɔlɔ.",
+    "no_valid_moves_step": "{observation}\nKɛlɛ wɛrɛ wɛrɛ tɛ – yaa pɔsɛ la yaa kɔlɔ.",
+    "scores_reset": "{observation}\nKɔntɛ Sɔrɔ - Fɛnɛ: {black_count}, Kɔkɔ: {white_count}\n",
+    "scores_step": "{observation}\nSɔrɔ - Fɛnɛ: {black_count}, Kɔkɔ: {white_count}\n"
   },
   "invalid_move": {
     "wrong_format": "B tog n maana [row, col].",
@@ -16,10 +16,10 @@
   },
   "game_action": {
     "skipped": "B sẽn da wa n na n yãk b soabã, a {pid} pa le paam ye.",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "Player {pid} ({piece}) yaa kɛlɛ [{r}, {c}] kɔlɔ {flipped} kɛlɛ"
   },
   "game_message": {
-    "must_skip": "Player {pid} ({piece}) has no valid moves and must skip."
+    "must_skip": "Player {pid} ({piece}) tɛ kɛlɛ wɛrɛ wɛrɛ tɛ ka kɔlɔ."
   },
   "outcome": {
     "black_wins": "Bõn-biis sẽn yaa bũudã tõoga {black_count} -{white_count}.",

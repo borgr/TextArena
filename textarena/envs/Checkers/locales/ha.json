@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "Babu ingantaccen tsarin motsawa da aka samo. Yi amfani da [a1b2], misali [b2c3].",
-    "illegal": "Move [{move}] is illegal."
+    "illegal": "Motsa [{move}] ba ya doka."
   },
   "game_action": {
     "moved": "Mai kunnawa {player_id} ya motsa {move}."

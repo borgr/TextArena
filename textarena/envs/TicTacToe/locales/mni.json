@@ -7,10 +7,10 @@
     "{cell}": "A board cell number between 0 and 8"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Tic Tac Toe.\nYour goal is to win three in a row (horizontally, vertically, or diagonally) on the board.\nOn your turn, you should select the square number (0-8) you want to put your mark in next.\nFor example, '[4]' places your mark in the center cell of the board.\nAs Player {player_id}, you will be '{symbol}', while your opponent is '{opponent_symbol}'."
+    "intro": "Nangdi Player {player_id} Tic Tac Toe-da ni. \nNang-gi goal ni board-da three in a row (horizontally, vertically, amata diagonally) thok-lip-taba. \nNang-gi turn-da, nang-gi square number (0-8) select-taba che-ena, nang-gi mark thok-lip-taba. \nExample, '[4]' nang-gi mark board-gi center cell-da thok-lip-taba. \nPlayer {player_id} oina, nang-gi '{symbol}' amata nong-gi '{opponent_symbol}'."
   },
   "board": {
-    "current_board": "Current Board:\n\n{board}\n\nAvailable Moves: {moves}"
+    "current_board": "Laina Board:\n\n{board}\n\nThok-lip-taba Moves: {moves}"
   },
   "invalid_move": {
     "wrong_format": "পীশিনখিবা খোঙথাং অদু অচুম্বা ফোর্মেতদুগী মতুং ইন্না নত্তে।",
@@ -18,7 +18,7 @@
     "already_occupied": "সেল {cell} অসি হান্ননা ওকুপেন্দ তৌরে."
   },
   "game_action": {
-    "placed": "Player {player_id} placed their symbol ({symbol}) in cell {cell}."
+    "placed": "Player {player_id} symbol ({symbol}) {cell} cell-da thok-lip-taba."
   },
   "outcome": {
     "win": "শান্নরোই {player_id}না মায় পাকখ্রে!",

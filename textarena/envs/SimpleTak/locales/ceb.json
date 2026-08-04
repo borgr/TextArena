@@ -8,13 +8,13 @@
     "cell_already_occupied": "Cell {cell_num} mao ang na sakup. Pilia sa usa ka walay sulod nga cell."
   },
   "board": {
-    "current_state": "Karon nga Board:\n\n{rendered_board}\nAvailable Moves: {available_moves}"
+    "current_state": "Kasamtangang Board:\n\n{rendered_board}\nMga Paglihok nga Magamit: {available_moves}"
   },
   "action": {
     "placement": "Ang Player {current_player_id} nagpahibalo sa ilang simbolo ({symbol}) sa cell {cell_num}."
   },
   "outcome": {
     "winner": "Ang Player {current_player_id} ('{symbol}') nagkahiusa sa duha ka katumbas nga gilid!",
-    "draw": "Ang board puno. Kini usa ka draw!"
+    "draw": "Puno na ang board. Tabla kini!"
   }
 }

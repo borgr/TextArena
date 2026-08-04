@@ -25,7 +25,7 @@
   "message": {
     "round_result": "{reason}  ポット {pot} → لاعب {winner}. (مصارف البنك P0:{p0}, P1:{p1})",
     "folded": "لاعب {player_id} انزل.",
-    "showdown_win": "Showdown: {card_win} beats {card_lose}.",
+    "showdown_win": "مواجهة: {card_win} يهزم {card_lose}.",
     "showdown_tie": "العرض متساوي: كلاهما {card}. القدر مقسم  كل واحد يحصل على {split} ."
   },
   "outcome": {

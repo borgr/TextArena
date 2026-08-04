@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing Slitherlink on a {R}x{C} grid!\nDraw a single continuous loop so each numbered cell has that many bordering edges.\nToggle edges with:\n  [h r c] - toggle horizontal edge above dots at row r, column c\n  [v r c] - toggle vertical edge left of dots at row r, column c\nNumbers show required edge count, '.' means no constraint.\nYou have up to {max_turns} moves to solve the puzzle."
+    "intro": "Yin ee kɛɛm Slitherlink kɛɛm {R}x{C} grid!\nKɛɛm kɔɔl kuɛɛt tɛɛ ciɛɛŋ kuɛɛt tɛɛ kɛɛm kɛɛŋ kɛɛ ciɛɛŋ kɛɛm tɛɛ kɛɛm kɛɛŋ.\nKɛɛm kɔɔl kuɛɛt tɛɛ ciɛɛŋ kuɛɛt tɛɛ kɛɛm kɛɛŋ kɛɛ ciɛɛŋ kɛɛm tɛɛ kɛɛm kɛɛŋ:\n  [h r c] - kɛɛm kɔɔl kuɛɛt tɛɛ ciɛɛŋ kuɛɛt tɛɛ kɛɛm kɛɛŋ kɛɛ ciɛɛŋ kɛɛm tɛɛ kɛɛm kɛɛŋ\n  [v r c] - kɛɛm kɔɔl kuɛɛt tɛɛ ciɛɛŋ kuɛɛt tɛɛ kɛɛm kɛɛŋ kɛɛ ciɛɛŋ kɛɛm tɛɛ kɛɛm kɛɛŋ\nKɛɛm kɔɔl kuɛɛt tɛɛ ciɛɛŋ kuɛɛt tɛɛ kɛɛm kɛɛŋ kɛɛ ciɛɛŋ kɛɛm tɛɛ kɛɛm kɛɛŋ, '.' kɛɛm kɛɛŋ kɛɛ ciɛɛŋ kɛɛm tɛɛ kɛɛm kɛɛŋ.\nYin ee kɛɛm kɛɛŋ kɛɛ {max_turns} kɛɛm kɛɛŋ kɛɛ ciɛɛŋ kɛɛm tɛɛ kɛɛm kɛɛŋ."
   },
   "board": {
     "current_board": "{board}\nKuɛ̈ɛ̈t cɔl tiɛm: {progress}"

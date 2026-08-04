@@ -14,7 +14,7 @@
     "{scores}": "The final scores as a raw player-number to score mapping - do not translate"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player GOPS.\n- You hold the 13 cards A-K (each exactly once).\n- Each round a prize is revealed. Submit ONE card like `[Q]`, `[10]`, `[2]` …\n- Highest card wins the prize (+ any carry-over pot). Ties roll the prize into the next round.\n- After 13 rounds, highest total wins. Invalid moves = elimination."
+    "intro": "Juma q'ara {player_id} Three-Player GOPS ukatxa.\n- 13 kartanaka A-K (ukaxa mayni maynikï ukhamawa) q'araxa.\n- Kullakï ukatxixa, tunu p'axï q'arxapxi `[Q]`, `[10]`, `[2]` …\n- Kartanaka ukaxa q'ara tunu p'axïxa, ukaxa q'ara tunu p'axï (ukatxa q'ara p'axï ukaxa kullakï ukatxixa).  P'axï ukaxa q'ara ukaxa kullakï ukatxixa, ukaxa q'ara p'axï kullakï ukatxixa.\n- 13 kullakï ukatxixa, q'ara ukaxa q'ara jach'a ukatxixa.  Janï ukaxa p'axï = jark'asi."
   },
   "round": {
     "header": "### Jawq'ux {round}/13 - Phuq'asiñaxa: {prize} (juk'ampi {worth})",

@@ -13,8 +13,8 @@
     "already_matched": "Хәлсез хәрәкәт. Уенчы {player_id} бер яки ике картаны сайлаган, алар инде туры килгәннәр иде."
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "Уенчы {player_id} тарафыннан сайланган карточкалар [{r1} {c1}] һәм [{r2} {c2}] позицияләрендә туры килә!",
+    "cards_no_match": "Уенчы {player_id} тарафыннан сайланган карточкалар туры килми. [{r1} {c1}] һәм [{r2} {c2}] позицияләрендәге карточкалар {pos1} һәм {pos2} буларак күрсәтелгәннәр."
   },
   "outcome": {
     "draw": "Ике уенчы да бер үк сандагы парлы карталар белән уйный.",

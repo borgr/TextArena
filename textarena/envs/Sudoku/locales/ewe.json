@@ -8,8 +8,8 @@
   },
   "invalid_move": {
     "wrong_format": "Mɔnu si mesɔ o. Fefewɔla {player_id} meɖo eŋu kple 'dzeside ƒe xexlẽme' nyuitɔ o.",
-    "out_of_bounds": "Invalid move. Player {player_id} attempted to place {num} at ({row}, {col}), which is out of bounds.",
-    "overwrite": "Invalid move. Player {player_id} attempted to overwrite a pre-filled cell ({row}, {col}).",
+    "out_of_bounds": "Gbeɖeɖe si me nye. Player {player_id} xɔ na {num} le ({row}, {col}), si nye ƒe xoxo siwo mekpɔ.",
+    "overwrite": "Gbeɖeɖe si me nye. Player {player_id} xɔ na ƒe xoxo siwo mekpɔ le ({row}, {col}).",
     "violates_rules": "Ŋkeke ɖe ɖo. Player {player_id} ɖe na yi {num} le ({row}, {col}), si wɔ ɖo ɖe Sudoku ɖoɖowɔwɔ."
   },
   "outcome": {

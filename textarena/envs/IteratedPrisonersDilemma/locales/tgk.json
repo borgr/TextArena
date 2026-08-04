@@ -5,10 +5,10 @@
   "phases": {
     "conversation_finished": "Суханони муошират ба даври {round} тамом шуд. Лутфан ҷавоб гузоред бо '[Cooperate]' ё '[Defect]' дар ҷои \\boxed{{}}.",
     "starting_round": "--- Даври ибтидоӣ {round} ---",
-    "round_summary": "Round {round} results:\n{outcome}\nPlayer 0 earned {r0} (total {score_0}), Player 1 earned {r1} (total {score_1})."
+    "round_summary": "Натиҷаҳои давраи {round}:\n{outcome}\nБозигари 0 {r0} (ҷамъи {score_0}) ба даст овард, бозигари 1 {r1} (ҷамъи {score_1}) ба даст овард."
   },
   "outcome": {
-    "winner": "Player {winner} wins {win_score} - {lose_score}.",
+    "winner": "Бозигари {winner} бо ҳисоби {win_score} - {lose_score} ғолиб омад.",
     "draw": "Равшан! Ҳарду бозингар гол заданд {s0}.",
     "round_both_cooperate": "Ҳарду бозигар ҳамкорӣ карданд.",
     "round_both_defect": "Ҳардуи онҳо аз ҳизб фирор карданд.",

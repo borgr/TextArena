@@ -9,7 +9,7 @@
     "progress": "{observation} Dhibcaha horumarka hadda jira: {progress}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use `[i j op]` where i,j are indices and op is +,-,*,/",
+    "wrong_format": "Formatka falcelinta waa khaldan. Istaag [i j op] halka i,j ay yihiin tirooyin kuwaas oo op ay tahay +,-,*,/",
     "invalid_indices": "Tilmaamaha aan ansax ahayn waa inay kala duwan yihiin waana inay ku jiraan inta u dhaxaysa 0-{max_index}",
     "invalid_operation": "Hawlgal aan sax ahayn (qaybinta eber ama natiijo aan tiro dhan ahayn)"
   },

@@ -40,7 +40,7 @@
     "scores_learning": "Michezo iliyoshinda hadi sasa - Mchezaji 0: {tricks0}, Mchezaji 1: {tricks1}",
     "scores_playing": "Michezo ya kufunga - Mchezaji 0: {tricks0}, Mchezaji 1: {tricks1}",
     "phase": "Sigaba: {phase}",
-    "phase_learning": "Phase: {phase} ({remaining_cards} cards left in the deck)"
+    "phase_learning": "Isigaba: {phase} ({remaining_cards} khadi zisale ekhebheni)"
   },
   "hand": {
     "no_cards": "Kute emakhadi ekubhalisa.",
@@ -71,6 +71,6 @@
     "player_line": "{observation}\nMchezaji {player_id}: {scoring} alipata kadi (〕{tricks} jumla), {hand_size} kadi mkononi"
   },
   "outcome": {
-    "summary": "Learning phase - Player 0: {l0}, Player 1: {l1}. Playing phase - Player 0: {p0}, Player 1: {p1}. Player {winner_id} wins with {winner_tricks} scoring tricks!"
+    "summary": "Sigaba sesifundza - Mdlali 0: {l0}, Mdlali 1: {l1}. Sigaba sesidlala - Mdlali 0: {p0}, Mdlali 1: {p1}. Mdlali {winner_id} uphumelele ngemacala {winner_tricks} angenile emacala!"
   }
 }

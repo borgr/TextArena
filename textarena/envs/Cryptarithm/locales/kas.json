@@ -9,12 +9,12 @@
     "{pct}": "Progress as a percentage string, e.g. 50%"
   },
   "player_prompt": {
-    "intro": "Map each letter to a unique digit so the arithmetic holds.\nAssign with `[A 5]`, re-assign anytime.\n"
+    "intro": "ہر اکھر کس نِیاب ڈِجِٹ ساتھہ مَپ کرو تاکہ حساب برقرار راہے۔\n`[A 5]` ساتھہ اسائن کرو، کسے بھی وَقت دوبارہ اسائن کرو۔\n"
   },
   "invalid_move": {
-    "wrong_format": "Bad action format. Use `[A 5]`.",
+    "wrong_format": "خراب عمل فارمیٹ۔ `[A 5]` استعمال کرو۔",
     "letter_not_in_puzzle": "अक्षर {letter} छुं पहेलीयात ।",
-    "digit_used": "ڈیجیٹ {digit} پہلے ہی {used_letter} نے استعمال کیا ہے.",
+    "digit_used": "{digit} ڈِجِٹ پہلے ہی {used_letter} نے استعمال کیا ہے۔",
     "leading_zero": "लफ़ज़स मंज़ गाछ असनी हुन्द अंज छुं 0 हक़ आसान."
   },
   "outcome": {

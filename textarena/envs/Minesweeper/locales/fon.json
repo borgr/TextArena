@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing the Minesweeper game.\nThe objective of the game is to reveal all cells that do not contain mines.\nTo make a move, simply specify the row and column coordinates you want to reveal using the format:\n- `[row col]`: Reveal the cell at the specified row and column.\nFor example:\n- `[3 2]` to reveal the cell in Row 3, Column 2.\n- `[5 6]` to reveal the cell in Row 5, Column 6.\nOn your first move, you will reveal an area around the cell you choose to ensure a safe start.\nThe current board layout is shown below. Cells that are unrevealed are represented by a dot ('.'), revealed numbers show the count of adjacent mines.\nBe mindful not to choose already revealed cells.\nHere is the current board layout:\n"
+    "intro": "A le tin Minesweeper.\nE nọ wẹkun ẹ non yi gbọn bọ kọn do wẹkun mẹ he mẹ ma tọn aigba lẹ te.\nNado wẹkun, ṣọṣọ dọ alọn po kọn mẹhe a jlo na wẹkun tọn, bo ṣe:\n- `[row col]`: Wẹkun alọn to alọn po kọn mẹhe a dọ.\nApajlẹ:\n- `[3 2]` nado wẹkun alọn to Alọn 3, Kọn 2.\n- `[5 6]` nado wẹkun alọn to Alọn 5, Kọn 6.\nTo whenu a wẹkun whla tintan, a na wẹkun alọn lẹ to gọna alọn he a dọ nado hẹn ogbẹ wẹkun.\nAlọn wẹkun mẹ tọn he wa to godo mẹ. Alọn he ma wẹkun lẹ yin nọ saba do pọntẹn ('.'), alọn wẹkun mẹ tọn he sọ nọ yi nọ din alẹ nọ yi mẹ.\nGọ na mẹhe a ma na wẹkun alọn he ko wẹkun.\nEhe wẹ alọn wẹkun mẹ tọn he wa:\n"
   },
   "board": {
     "game_board": "Ðèãà èíòåðåñîâ: {board}",

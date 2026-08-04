@@ -3,11 +3,11 @@
     "current_board": "Bòrd gnàthach: {board}"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} playing a game of Checkers as {color}.\nMake your move in chess-style notation [fileRank fileRank], e.g. '[b2c3]' (column letter a–h, row digit 0–7).\nBasic rules:\n  • Move diagonally forward by 1 if empty.\n  • Capture by jumping over an opponent piece.\n  • A piece is Kinged if it reaches the opposite end.\n"
+    "intro": "Is tu Player {player_id} a' cluich geama de Checkers mar {color}.\nDèan do ghluasad ann an notaichean stoidhle fichill [fileRank fileRank], m.e. '[b2c3]' (colbh litir a–h, ràn àireamh 0–7).\nRiaghailtean bunaiteach:\n  • Gluais gu diagonal air adhart le 1 ma tha e falamh.\n  • Glac le leum thairis air pìos an neach-céadnaichte.\n  • Tha pìos air a chrùnadh ma ruigeas e ceann eile.\n"
   },
   "invalid_move": {
     "wrong_format": "Cha deach fòrmat gluaisidh dlùth a lorg. Cleachd [a1b2], mar eisimpleir [b2c3].",
-    "illegal": "Move [{move}] is illegal."
+    "illegal": "Tha gluasad [{move}] mì-laghail."
   },
   "game_action": {
     "moved": "Chluich cluicheadair {player_id} a-mach {move}."

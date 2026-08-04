@@ -1,27 +1,27 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in **Ultimate Tic Tac Toe**.\nSubmit your move as **[macro  micro]** (two numbers 0-8):\n• *macro*  = which mini-board you play in\n• *micro* = which square inside that mini-board\nExample `[7 8]` ➜ place your mark in mini-board 7, square 8, and\nforce your opponent to play in mini-board 8 next.\n\nYou are `{symbol}`.\n"
+    "intro": "Nwi uka Mwana {player_id} mu **Ultimate Tic Tac Toe**.\nTuma kambelo kwenu kama **[macro  micro]** (nambari mbili 0-8):\n• *macro*  = ni mini-bodi ya kambelo\n• *micro* = ni mraba ndani ya mini-bodi\nMfano `[7 8]` ➜ weka alama yenu mu mini-bodi 7, mraba 8, na\nfamula mpinzani wenu akambelo mu mini-bodi 8.\n\nNwi `{symbol}`.\n"
   },
   "board": {
-    "current_board": "Current board:\n{board}"
+    "current_board": "Bodi ya sasa:\n{board}"
   },
   "invalid_move": {
-    "wrong_format": "Cjk ck must be in form [macro micro] with numbers 0-8.",
-    "out_of_range": "Cjk, kila moja lazima iwe kati ya 0 na 8.",
-    "index_out_of_range": "Cjk_board, row or col is out of range.",
+    "wrong_format": "Kambelo lazima iwe mu fomu [macro micro] na nambari 0-8.",
+    "out_of_range": "Masharti lazima yawe kati ya 0 na 8.",
+    "index_out_of_range": "Mini-bodi, safu, au safu wima iko nje ya safu.",
     "cell_occupied": "Kengele ya mucele yi ngayivala.",
     "wrong_micro_board": "Omupira kumele achezye mu board ya pili.",
     "micro_board_won": "K'akata ya micro yeye yenji."
   },
   "next_board": {
-    "any": "cjk",
-    "specific": "micro board {nxt}"
+    "any": "mini-bodi yoyote",
+    "specific": "mini-bodi {nxt}"
   },
   "game_action": {
-    "played": "Player {player_id} played in micro board {macro_idx}, cell {micro_idx} (row {row}, col {col}). Player {opponent_id} must now play in {nxt_txt}."
+    "played": "Mwana {player_id} akambelo mu mini-bodi {macro_idx}, mraba {micro_idx} (safu {row}, safu wima {col}). Mwana {opponent_id} lazima sasa akambelo mu {nxt_txt}."
   },
   "outcome": {
-    "win": "Player {player_id} wins Ultimate Tic Tac Toe!",
-    "draw": "Mchezo ni draw!"
+    "win": "Mwana {player_id} ushinda Ultimate Tic Tac Toe!",
+    "draw": "Mchezo ni sare!"
   }
 }

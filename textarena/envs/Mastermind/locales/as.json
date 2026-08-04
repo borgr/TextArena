@@ -13,7 +13,7 @@
     "repeated_guess": "আপুনি ইতিমধ্যে অনুমান কৰিছে {guess}। অনুগ্ৰহ কৰি অন্য এটা অনুমান চেষ্টা কৰক।"
   },
   "game_action": {
-    "feedback": "Submitted [{guess}]. Feedback: {black_pegs} black peg(s), {white_pegs} white peg(s)."
+    "feedback": "জমা দিয়া [{guess}]। পৰ্যালোচনা: {black_pegs} ক'লা পেগ(সমূহ), {white_pegs} বগা পেগ(সমূহ)।"
   },
   "outcome": {
     "win": "আপুনি কোডটো ভাঙিছে, {black_pegs}ৰ পৰা {code_length} পিক সঠিকভাৱে সমাধান কৰিছে",

@@ -27,7 +27,7 @@
     "drew": "Te cardêk wergirt: {card}\nNiha divê tu [swap X Y] an [discard] bikî",
     "took": "Te cardêk wergirt: {card} ji kûpêya vebirinê\nDivê tu bi wê re [swap X Y] bikî (nakevê vê cardê vebirin)",
     "peeked": "Te li pozîsyona ({row},{col}) cardêk temaşe kir: {card}",
-    "turn_view": "Your hand:\n{hand}\nDiscard pile: {discard}\n{options}",
+    "turn_view": "Destê te:\n{hand}\nPîla bermalê: {discard}\n{options}",
     "none": "Ti kesî tuneye."
   },
   "options": {
@@ -43,7 +43,7 @@
   },
   "action_desc": {
     "swapped": "Player {pid} {new} bi {old} li pozîsyona ({row},{col}) îbadel kir",
-    "discarded": "Player {pid} discarded {card}"
+    "discarded": "Lîstikvan {pid} {card} bermal kir"
   },
   "message": {
     "deck_empty": "Qada vala ye! Lîstik di cih de bi dawî dibe.",
@@ -54,7 +54,7 @@
     "all_revealed": "hemû kartên xwe eşkere kiriye?"
   },
   "invalid": {
-    "wrong_action": "Use exactly ONE bracketed action: [draw], [take], [swap X Y], [discard], [knock], or [peek X Y]",
+    "wrong_action": "Bi klamên tam çalakiyekê bikar bîne: [draw], [take], [swap X Y], [discard], [knock], an [peek X Y]",
     "discard_empty": "Gundê hilweşandinê vala ye!",
     "must_draw_first": "Divê tu yekem [draw], [take], [knock], an [peek X Y] bikî",
     "cannot_discard_taken": "Tu nikarî kartek ji pileya hilweşandinê bistîne. Divê tu wê biguherînî.",
@@ -68,12 +68,12 @@
   },
   "summary": {
     "full": "Dawî! Player {winner} bi pûanê {score} xalê sereke distîne!\n\nPûanên Dawî:\n{scores}",
-    "line": "Player {pid}: {score} points\n"
+    "line": "Lîstikvan {pid}: {score} xal\n"
   },
   "board_str": {
     "title": "=== GOLF JÓK===",
     "discard": "Gundê hilweşandin: {card}",
     "knocked": "Lîstikvanê {pid} ket!",
-    "player_header": "Player {pid} (Score: {score}):"
+    "player_header": "Lîstikvan {pid} (Skor: {score}):"
   }
 }

@@ -14,7 +14,7 @@
     "intro": "Yi jottu {player_id} ci Tic Tac Toe yu ñett ñiy jott. \nNgone yi ni '{symbol}'.\nYi taxawal ngone yi ci tablo 5x5 bu gën a rëgg ci mbolem.\nMbolem yi am na ci ñaari gox: sax, des ak ndaw.\nSoom na defte yi ci fórmát '[4]' bu gën a wàcce sel 4."
   },
   "board": {
-    "current_board": "Current Board:\n\n{board}\n\nAvailable Moves: {moves}"
+    "current_board": "Taflaayu Jekk:\n\n{board}\n\nYëngu Yóbbi: {moves}"
   },
   "invalid_move": {
     "wrong_format": "Jëfandikoo \"[cell]\" bu cell bi nekk 0-{max_cell}.",

@@ -3,7 +3,7 @@
     "intro": "Kamu adolah Pamain {player_id} di JoJoJoin, dimainan di papan 5x5 jo sel nomor 0-24.\nPado giliran kamu, mamasang tando kamu di sel kosong, contohnyo '[12]'.\nKAMU MENANG jo mendapek AMPEK tando kamu barurutan — ampek sel barurutan secara horizontal, vertikal, atau diagonal.\nSabagai Pamain {player_id} kamu adolah '{symbol}'; lawan kamu adolah '{opponent_symbol}'."
   },
   "board": {
-    "current_board": "Current Board:\n\n{board}\n\nAvailable Moves: {moves}"
+    "current_board": "Papan Kini:\n\n{board}\n\nLangkah Nan Tersedia: {moves}"
   },
   "invalid_move": {
     "wrong_format": "Pindahan nan diajukan indak manuruik format nan tapek.",

@@ -1,15 +1,15 @@
 {
   "player_prompt": {
-    "intro": "You are playing the Minesweeper game.\nThe objective of the game is to reveal all cells that do not contain mines.\nTo make a move, simply specify the row and column coordinates you want to reveal using the format:\n- `[row col]`: Reveal the cell at the specified row and column.\nFor example:\n- `[3 2]` to reveal the cell in Row 3, Column 2.\n- `[5 6]` to reveal the cell in Row 5, Column 6.\nOn your first move, you will reveal an area around the cell you choose to ensure a safe start.\nThe current board layout is shown below. Cells that are unrevealed are represented by a dot ('.'), revealed numbers show the count of adjacent mines.\nBe mindful not to choose already revealed cells.\nHere is the current board layout:\n"
+    "intro": "I khelh mek Minesweeper game.\nHe game thil tum ber chu mine awm lohna cell zawng zawng pho chhuah a ni.\nMove siam turin, row leh column coordinate zawng zawng pho chhuah duh i neihte chu hetiang hian ziak:\n- `[row col]`: Row leh column i ziah zawng zawng a cell pho chhuah.\nEntirnan:\n- `[3 2]` Row 3, Column 2 a cell pho chhuah.\n- `[5 6]` Row 5, Column 6 a cell pho chhuah.\nI move hmasa berah, i thlang cell chung leh a chhehvela cell pho chhuah vek a ni a, tan sahim a ni thei nana.\nBoard layout tunlai chu a hnuai ami a ni. Cell pho chhuah lohte chu dot ('.') in an ziak a, number pho chhuah chu mine kar a awm zat an entir.\nCell pho chhuah tawhte thlang leh suh u.\nBoard layout tunlai chu heti ami a ni:\n"
   },
   "board": {
-    "game_board": "Game Board: {board}",
+    "game_board": "Inkhuahna Board:\n\n{board}",
     "current_board": "Board-a awm mek: {board}"
   },
   "invalid_move": {
     "wrong_format": "A dikna tûr coordinate chu a ni lo.",
     "out_of_bounds": "A row leh a column coordinate chu bounds-a awm lo.",
-    "already_revealed": "The cell at ({row}, {col}) has already been revealed.",
+    "already_revealed": "Cell ({row}, {col}) chu pho chhuah tawh a ni.",
     "hit_mine": "I mine at ({row}, {col}) hi i tu."
   },
   "game_action": {
@@ -17,6 +17,6 @@
   },
   "outcome": {
     "win": "Ka lawm e, Minesweeper board chu i tifai ta a ni.",
-    "turn_limit": "The turn limit has been reached. You successfully uncovered {percent}% of the safe cells."
+    "turn_limit": "Turn limit a tawp tawh. I cell him tak {percent}% chu i pho chhuak a ni."
   }
 }

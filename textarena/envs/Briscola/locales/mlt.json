@@ -37,9 +37,9 @@
     "line": "  Player {player_id}: {card}{trump_mark}"
   },
   "turn": {
-    "score_entry": "Player {player_id}: {points} pts",
+    "score_entry": "Plejer {player_id}: {points} punti",
     "trump_info": "Il-libsa ta ' Trump: {trump_suit}",
-    "trump_info_deck": "Trump suit: {trump_suit} | Cards left in deck: {deck_count}",
+    "trump_info_deck": "Kulur tal-trump: {trump_suit} | Karti li fadal fid-dekk: {deck_count}",
     "board": "{hand}\n\n{trick}\n\nPunti: {scores}\n{trump_info}\n\nLagħab karta bl-użu ta' [play X]"
   },
   "invalid_move": {

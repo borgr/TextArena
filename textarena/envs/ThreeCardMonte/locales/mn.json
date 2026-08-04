@@ -11,7 +11,7 @@
     "{ball_pos}": "The cup index the ball is under"
   },
   "player_prompt": {
-    "intro": "Track the hidden ball 'X' while the cups are shuffled.\nAfter shuffling, guess its location with `[k]`."
+    "intro": "Аяганууд эмхлэгдэж байхад нуугдсан бөмбөг 'X'-ийг хөөрөө. \nЭмхлэгдсэний дараа `[k]` ашиглан байрлалыг нь тааж үзнэ үү."
   },
   "game_message": {
     "ball_starts": "Тоглолтын эхлэл: {line}",
@@ -21,7 +21,7 @@
     "reveal": "(Халд: бөмбөг {ball_pos} доор)"
   },
   "invalid_move": {
-    "wrong_format": "Bad action. Use `[k]`.",
+    "wrong_format": "Муу үйлдэл. `[k]` ашиглах.",
     "out_of_range": "Индекс 0-{max_index} хүрээний гадагш байна."
   },
   "outcome": {

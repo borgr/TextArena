@@ -7,9 +7,9 @@
   },
   "invalid_move": {
     "wrong_format": "Yu no givim tok bilong '[source] [target]'.",
-    "invalid_tower": "You specified an invalid source or target tower.",
-    "empty_tower": "You tried to move a disk from an empty tower.",
-    "same_tower": "You tried to move a disk to the same tower.",
+    "invalid_tower": "Yu tokim tower asal o tower target i no stret.",
+    "empty_tower": "Yu laik muvim disk longpela tower i no gat disk.",
+    "same_tower": "Yu laik muvim disk i go longpela tower wankain.",
     "larger_on_smaller": "Yu traim long putim wanpela bikpela disk antap long liklik dis."
   },
   "game_action": {

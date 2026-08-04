@@ -9,7 +9,7 @@
     "progress": "{observation} د اوسني پرمختګ سکور: {progress}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use `[i j op]` where i,j are indices and op is +,-,*,/",
+    "wrong_format": "ناسم کړنې د فرمت. د `[i j op]` کارول چیرې چې i,j اندیسونه دي او op د +،-،*،/ کړنه ده.",
     "invalid_indices": "غیر معتبر شاخصونه: باید توپیر ولري او په 0-{max_index} کې وي",
     "invalid_operation": "ناسم عملیات (د صفر یا غیر انټيجر پایلې سره ویشل)"
   },

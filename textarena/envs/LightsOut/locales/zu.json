@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "Isenzo kufanele sibe ngefomethi [row col] lapho umugqa no-col kuyizinombolo eziphelele kusuka ku-0 kuya ku{max_index}.",
-    "out_of_range": "Coordinates must be between 0 and {max_index}. You entered [{row},{col}]."
+    "out_of_range": "Izikohtishi kumele zibe phakathi kwe 0 no {max_index}. Ufaka [{row},{col}]."
   },
   "outcome": {
     "win": "Ngiyakuhalalisela! Uxazulule iphazili ngezinyathelo {moves_used}!",

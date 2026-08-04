@@ -13,11 +13,11 @@
     "intro": "{num_players}-Giocador intorna a 'n {width}x{height} grid.\nSeet el giocador {player_id}. Moviment valid: '[up]' '[down]' '[left]' '[right]' o w/s/a/d.\nObietiv: sopraviv a tucc i alter. I trai a hinn letai; i impatt cont i mur a hinn mortai; i scontr a testa de duu a hinn mortai tutt duu."
   },
   "board": {
-    "current": "CURRENT BOARD: {board}",
+    "current": "Tabella atüala:\n{board}",
     "after_moves": "Board dòp mudàde simultànne: {board}"
   },
   "game_action": {
-    "invalid_death": "Player {player_id} died due to invalid move."
+    "invalid_death": "El giugador {player_id} l'è mòrt per un mòviment minga vàlid."
   },
   "outcome": {
     "survived_win": "Gioca {player_id} è sopravvissuto; tutti gli altri si sono schiantati.",

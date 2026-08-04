@@ -26,7 +26,7 @@
   },
   "board": {
     "per_player": "\tUmukinozi {p}: {d}",
-    "new_round": "\nNew round - Remaining dice: {dice_summary}\nYour current Dice are: {your_dice}"
+    "new_round": "\nMukino mushya - Abakinnyi b'abasigaye: {dice_summary}\nIbicuruzwa by'umukino wanyu ni: {your_dice}"
   },
   "call": {
     "bidder_loses": "Umukinozi {current_player_id} aravuga! Ibiro vy'umwihariko vya face {face_value} ni {count}, vyose vya chini {quantity}.\nUmukinozi {loser_id} (umutangazii wa nyuma) ashyirwa imiringa.",
@@ -36,9 +36,9 @@
     "bid_announce": "Umukinozi {player_id} aratanga {quantity} ya face {face_value}."
   },
   "invalid_move": {
-    "call_no_bid": "Call made with no prior bid.",
+    "call_no_bid": "Witumiwe itari mwanzo yari imaze kubishyurwa.",
     "invalid_bid": "Igitekerezo kidakwiriye: {reason}",
-    "not_recognized": "Action not recognized as either a valid '[Bid: X, Y]' or '[Call]'. Submitted action: {action}"
+    "not_recognized": "Umurongo w'umukino utamenyekana kama umukino wemewe '[Bid: X, Y]' cyangwa '[Call]'. Umurongo w'umukino wakabiriwe: {action}"
   },
   "bid_reason": {
     "quantity_lower": "Ubwoko bushya {new_quantity} ni bugufi kuva na bushya {current_quantity}.",

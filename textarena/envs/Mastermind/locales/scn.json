@@ -13,10 +13,10 @@
     "repeated_guess": "Avete digià indovinatu {guess}. Pruvate un'altra ipotesi per piacè."
   },
   "game_action": {
-    "feedback": "Submitted [{guess}]. Feedback: {black_pegs} black peg(s), {white_pegs} white peg(s)."
+    "feedback": "Mannatu [{guess}]. Feedback: {black_pegs} piolu nìuru(i), {white_pegs} piolu biancu(i)."
   },
   "outcome": {
     "win": "Ai avutu risoltu lu codici, risolvendu {black_pegs} fuori di {code_length} peg correttamenti",
-    "turn_limit": "U limitu di girata hè arrivatu. Avete indovinatu {percent} per centu i numeri currettamente."
+    "turn_limit": "Raggiuntu lu limiti di turni. Azzeccasti lu {percent} percentu di li nummari giusti."
   }
 }

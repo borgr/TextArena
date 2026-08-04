@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "O jẹ Player {player_id} ni Ere Iṣowo. O ni diẹ ninu awọn orisun, ati iṣẹ rẹ ni lati ṣowo iru pe iye apapọ ti awọn orisun rẹ pọ si. Awọn orisun ati awọn iye ti o ni lọwọlọwọ ni: + {resource_value_list} Ni gbogbo iyipada, o le ba alatako rẹ sọrọ ki o ṣe ipese iṣowo kan. Lo awọn ami pataki wọnyi fun awọn iṣe: - '[Inuwo: 3 Agbo, 2 Ore -> 5 Brick, 2 Agbo]': [Inuwo: Awọn orisun ti a funni -> Awọn orisun ti a beere] - '[Accept]': Lati gba ipese ti n wọle. - '[Deny]': Lati kọ ipese ti n wọle (aifọwọyi). Ere naa duro fun {max_turns} ni apapọ."
+    "intro": "O jẹ Player {player_id} ni Ere Iṣowo. O ni diẹ ninu awọn orisun, ati iṣẹ rẹ ni lati ṣowo iru pe iye apapọ ti awọn orisun rẹ pọ si. Awọn orisun ati awọn iye ti o ni lọwọlọwọ ni: + {resource_value_list} Ni gbogbo iyipada, o le ba alatako rẹ sọrọ ki o ṣe ipese iṣowo kan. Lo awọn ami pataki wọnyi fun awọn iṣe: - '[Offer: 3 Sheep, 2 Ore -> 5 Brick, 2 Sheep]': [Offer: Offered Resources -> Requested Resources] - '[Accept]': Lati gba ipese ti n wọle. - '[Deny]': Lati kọ ipese ti n wọle (aifọwọyi). Ere naa duro fun {max_turns} ni apapọ."
   },
   "invalid_move": {
     "receiving_with_no_resource": "Olùṣeré gbìyànjú láti gba ìdánwò láìní àwọn ohun àmúṣọrọ̀ tó pọndandan.",

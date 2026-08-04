@@ -9,7 +9,7 @@
   "invalid_move": {
     "wrong_format": "Ifomathi yokudlula engekho semthethweni. Umdlali {player_id} akazange aphendule 'ngenombolo yomqolo' esebenzayo.",
     "out_of_bounds": "Iseli esiphumelelayo. Umdlali {player_id} wavale ukwenza {num} kwa ({row}, {col}), esingaphakathi kwemigwa.",
-    "overwrite": "Invalid move. Player {player_id} attempted to overwrite a pre-filled cell ({row}, {col}).",
+    "overwrite": "Ukwenza ongavumelekile. Umdlali {player_id} wazama ukubhala ngaphezulu kwezelizijikelezi ({row}, {col}).",
     "violates_rules": "Iseli esiphumelelayo. Umdlali {player_id} wavale ukwenza {num} kwa ({row}, {col}), esivunyelwa amalungu."
   },
   "outcome": {

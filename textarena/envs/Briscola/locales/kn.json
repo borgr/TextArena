@@ -33,7 +33,7 @@
   },
   "trick": {
     "empty": "ಈ ಟ್ರಿಕ್ ಇನ್ನೂ ಯಾವುದೇ ಕಾರ್ಡ್ ಆಡಿದರು.",
-    "header": "Current trick:",
+    "header": "ಪ್ರಸ್ತುತ ಟ್ರಿಕ್:",
     "line": "ಆಟಗಾರ {player_id}: {card}{trump_mark}"
   },
   "turn": {

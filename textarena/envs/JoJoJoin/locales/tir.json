@@ -11,7 +11,7 @@
     "already_occupied": "ዋህዮ {cell} ድሮ ተጨውዩ ኣሎ።"
   },
   "game_action": {
-    "placed": "Player {player_id} placed their mark ({symbol}) in cell {cell}."
+    "placed": "ተጫዋች {player_id} ምልክቱን ({symbol}) በሴል {cell} አስቀምጧል።"
   },
   "outcome": {
     "win": "ተጻዋታይ {player_id} ተዓዊቱ!",

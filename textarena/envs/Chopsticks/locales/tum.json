@@ -1,20 +1,20 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in Chopsticks. On your turn, choose one of:\n  + Attack:  '[attack M O]'  where M=your hand (0 or 1), O=opponent hand (0 or 1).\n    - Opponent's hand count increases by your hand; if >=5, it becomes 0.\n  + Split:   '[split L R]'  to redistribute your total fingers into L and R (L+R = your total).\nReply with exactly one of those commands."
+    "intro": "Ndiwe Mchezaji {player_id} mwa Chopsticks. Pa zamu zako, chagua moja ya:\n  + Kupiga:  '[attack M O]'  ambapo M=mkono wako (0 au 1), O=mkono wa mpinzani (0 au 1).\n    - Idadi ya mkono wa mpinzani huongezeka kwa mkono wako; ukikaribia au kupita 5, huwa 0.\n  + Mgawanyo:   '[split L R]'  ili kusambaza jumla ya vidole vyako kuwa L na R (L+R = jumla yako).\nJibu na amri moja tu kati ya hizo."
   },
   "board": {
-    "current_board": "Bodi Lililonse:\nPlayer 0: {hands_0}\nPlayer 1: {hands_1}"
+    "current_board": "Bodi ya Sasa:\nMchezaji 0: {hands_0}\nMchezaji 1: {hands_1}"
   },
   "invalid_move": {
     "my_hand_dead": "Lukono lako {my_idx} liliwala.",
     "opp_hand_dead": "Wose awo ŵakwimira {opp_idx} ŵali kufwa kale.",
     "split_sum": "Chiwerengero cha zigawozi chiyenera kukhala {total}.",
     "split_no_change": "Split wakwenera kuti wakasintha umo mukapelekera.",
-    "invalid_command": "Invalid move. Use “[attack M O]” or “[split L R]”."
+    "invalid_command": "Hatua batili. Tumia “[attack M O]” au “[split L R]”."
   },
   "game_action": {
-    "attack": "P{player_id} attacks P{opp_id}’s hand {opp_idx}: it goes from {opp_val} to {new_val}.",
-    "split": "P{player_id} splits into [{L}, {R}]."
+    "attack": "P{player_id} anapiga P{opp_id} mkono {opp_idx}: huenda kutoka {opp_val} hadi {new_val}.",
+    "split": "P{player_id} anagawanya kuwa [{L}, {R}]."
   },
   "history": {
     "entry": "P{player_id} {desc}"

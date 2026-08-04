@@ -8,7 +8,7 @@
     "already_guessed": "არასწორი ნაბიჯი. მოთამაშე {player_id} უკვე გამოიცნო ნომერი."
   },
   "game_message": {
-    "target_higher": "The target number is higher.",
+    "target_higher": "სამიზნე რიცხვი მაღალია.",
     "target_lower": "ნიშანდობლივი რიცხვი უფრო დაბალია."
   },
   "outcome": {

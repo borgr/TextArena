@@ -24,10 +24,10 @@
     "intro": "O jẹ oṣere {player_id}, ti o nṣire {num_rounds} awọn iyipo ti Iterated Ultimatum Game. O ni ${pool} lati pin iyipo yii laarin ara rẹ ati oṣere {other_id}. Olufunni: - Ṣe ipese kan: [Offer: $X] (0 <= X <= pool) - Ti o ba gba → O gba $ ((pool - X), oṣere miiran gba $ X - Ti o ba kọ → Awọn mejeeji gba $ 0 - Apẹẹrẹ: [Offer: $3] tabi 'Mo ro pe eyi jẹ ododo. [Offer: $5]' Oluranlowo: - Pinnu lori ipese pẹlu boya [Accept] tabi [Reject] - Apẹẹrẹ: 'O dabi ẹni ti o tọ. [Accept]' 'Kọ si aiṣedeede. [Reject]' "
   },
   "round": {
-    "begins": "--- Round {round_number} begins! ---\nPlayer {proposer_id} is the proposer, Player {responder_id} is the responder.",
+    "begins": "--- Ìgbà {round_number} bẹ̀rẹ̀! ---\nỌmọ orílẹ̀-èdè {proposer_id} ni ọmọ orílẹ̀-èdè tó ńṣe àtẹ̀jáde, ọmọ orílẹ̀-èdè {responder_id} ni ọmọ orílẹ̀-èdè tó ńdáhùn.",
     "offer": "Ìyí {round_number}: Ẹ̀yin {proposer_id} fi ${offer} fún Ẹ̀yin {responder_id} (tí ó sì pa ${keep}).",
-    "accepted": "Player {responder_id} ti gba! Round {round_number} gains: Player {proposer_id} +${proposer_gain}, Player {responder_id} +${responder_gain}. New totals: Player 0: ${total_0}, Player 1: ${total_1}.",
-    "rejected": "Player {responder_id} rejected the offer! Round {round_number} gains: Both players +$0. Totals remain: Player 0: ${total_0}, Player 1: ${total_1}."
+    "accepted": "Ọmọ orílẹ̀-èdè {responder_id} gbà á! Ìgbà {round_number} gbà: Ọmọ orílẹ̀-èdè {proposer_id} +${proposer_gain}, ọmọ orílẹ̀-èdè {responder_id} +${responder_gain}. Iye tuntun: Ọmọ orílẹ̀-èdè 0: ${total_0}, ọmọ orílẹ̀-èdè 1: ${total_1}.",
+    "rejected": "Ọmọ orílẹ̀-èdè {responder_id} kọ̀ á! Ìgbà {round_number} gbà: Àwọn méjéèjì gbà $0. Iye wà ní ìdọ̀tí: Ọmọ orílẹ̀-èdè 0: ${total_0}, ọmọ orílẹ̀-èdè 1: ${total_1}."
   },
   "invalid_move": {
     "no_offer_format": "Olùfèrò gbọdọ ṣe ìfèrò nípa lílo àdàkọ [Offer: $X].",
@@ -37,7 +37,7 @@
     "accept_or_reject": "Olùdáhùn gbọdọ̀ [Accept] tàbí [Reject] fún ọ̀rọ̀ náà."
   },
   "outcome": {
-    "win": "Player {winner} won with ${winner_total} total vs Player {loser}'s ${loser_total}.",
+    "win": "Ọmọ orílẹ̀-èdè {winner} gbé pẹ̀lú ${winner_total} gbogbo vs ọmọ orílẹ̀-èdè {loser} ${loser_total}.",
     "draw": "Àgbá! Àwọn agbábọ́ọ̀lù méjèèjì parí pẹ̀lú ${total} ní àpapọ̀."
   }
 }

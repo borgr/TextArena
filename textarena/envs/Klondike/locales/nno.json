@@ -24,15 +24,15 @@
     "empty_command": "Kommandot er tomt. Skriv \"draw\" eller \"move <source> <destination> [count]\".",
     "empty_action": "Tom handling",
     "move_needs_args": "Move-kommando krev kild og mål. Bruk: 'move <kild> <mål> [count]'",
-    "count_positive": "Teljaren må vera positiv eller \"alle\"",
-    "count_invalid": "Ugyldig teljing. Bruk eit tal eller \"alle\"",
+    "count_positive": "Antal må vere positivt eller 'all'",
+    "count_invalid": "Ugyldig antal. Bruk eit tal eller 'all'",
     "unknown_command": "Ukjent kommando '{cmd}'. Bruk 'draw', 'move <source> <destination> [count]', eller 'forfeit'",
     "wrapped": "Action {n}: {msg}"
   },
   "action_result": {
     "success": "Action {n}: {msg}",
     "before_failure": "Utførde {n} handlingar før feil.",
-    "failed": "Action {n} failed: {msg}"
+    "failed": "Handling {n} feila: {msg}"
   },
   "move_result": {
     "drew": "Trekk kortet frå lager til avfall.",
@@ -62,7 +62,7 @@
     "turn_limit": "Slutt på spelet! Du nådde maksimum {max_turns} turar. Poengsum: {score} kort på grunnlag."
   },
   "board": {
-    "title": "=== KLONDIKE SOLITAIRE ===",
+    "title": "=== KLONDIKE KABAL ===",
     "turn": "Turn: {turn}/{max_turns}",
     "stock": "Stok: {stock} kort",
     "waste": "Avfall (W): {waste}",

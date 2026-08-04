@@ -11,7 +11,7 @@
     "{moves}": "The comma-separated list of available move tokens like '[4]' (do not translate)"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player Tic Tac Toe.\nYour symbol is '{symbol}'.\nYou take turns placing your symbol on a 5x5 board to form a line of four.\nLines can be horizontal, vertical, or diagonal.\nSubmit your move using the format '[4]' to mark cell 4."
+    "intro": "We u Player {player_id} mu Tic Tac Toe ya Vanu Vatu.\nOvite ovayo ni '{symbol}'.\nWe uzinga mukanda wo kufeka ovite ovayo pa tchiboko ya 5x5 kuunda mstari wa ne.\nMistari inaweza kuwa ya ndunda, ya kusimama, kana ya diagonal.\nTuma movi ovayo uzinga mu njila ya '[4]' ku marka selu 4."
   },
   "board": {
     "current_board": "Ombala oyuukala:\n\n{board}\n\nOndjala zilwe: {moves}"
@@ -27,6 +27,6 @@
   },
   "outcome": {
     "win": "Mwene {player_id} ({symbol}) uukala ombala!",
-    "draw": "The game is a draw!"
+    "draw": "O ndambu yi ndambuluka!"
   }
 }

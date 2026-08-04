@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in JoJoJoin, played on a 5x5 board with cells numbered 0-24.\nOn your turn, place your mark on any empty cell, e.g. '[12]'.\nYOU WIN by getting FOUR of your marks in a row — four consecutive cells horizontally, vertically, or diagonally.\nAs Player {player_id} you are '{symbol}'; your opponent is '{opponent_symbol}'."
+    "intro": "Wo ne Player {player_id} wɔ JoJoJoin, a wɔde di wɔ 5x5 board a cells no wɔ nɔma 0-24.\nWɔ wo turn no, fa wo mark si empty cell biara, e.g. '[12]'.\nWO DI nkunim wɔ bere a wo nya wo marks nnan wɔ nkan — nnan cells a ɛtoatoa wɔ horizontal, vertical, anaa diagonal.\nSɛ Player {player_id} no, wo ne '{symbol}'; wo opponent ne '{opponent_symbol}'."
   },
   "board": {
     "current_board": "Bɔɔde akyɛ sen:\n\n{board}\n\nMmerɛ a wɔde bɛsi: {moves}"

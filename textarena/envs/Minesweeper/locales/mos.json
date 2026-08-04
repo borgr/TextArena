@@ -1,14 +1,14 @@
 {
   "player_prompt": {
-    "intro": "You are playing the Minesweeper game.\nThe objective of the game is to reveal all cells that do not contain mines.\nTo make a move, simply specify the row and column coordinates you want to reveal using the format:\n- `[row col]`: Reveal the cell at the specified row and column.\nFor example:\n- `[3 2]` to reveal the cell in Row 3, Column 2.\n- `[5 6]` to reveal the cell in Row 5, Column 6.\nOn your first move, you will reveal an area around the cell you choose to ensure a safe start.\nThe current board layout is shown below. Cells that are unrevealed are represented by a dot ('.'), revealed numbers show the count of adjacent mines.\nBe mindful not to choose already revealed cells.\nHere is the current board layout:\n"
+    "intro": "I kɛnɛ ka Minesweeper kɛlɛ.\nKɛlɛ la tɛɛrɛ ye ka kɛlɛ kɔɔrɔw ye mines ka taa.\nKɛlɛ kɛlɛ ka tɛɛrɛ ye, i kɔɔrɔw ye ka row ni column kɔɔrɔw ye ka tɛɛrɛ ye ka format:\n- `[row col]`: Tɛɛrɛ kɛlɛ kɔɔrɔw ye ka row ni column kɔɔrɔw ye.\nKɔɔrɔ:\n- `[3 2]` ka tɛɛrɛ kɛlɛ kɔɔrɔw ye Row 3, Column 2.\n- `[5 6]` ka tɛɛrɛ kɛlɛ kɔɔrɔw ye Row 5, Column 6.\nKɛlɛ kɛlɛ ka tɛɛrɛ ye ka kɔɔrɔw ye, i kɔɔrɔw ye ka tɛɛrɛ kɛlɛ kɔɔrɔw ye ka safe start.\nKɛlɛ kɔɔrɔw ye ka tɛɛrɛ ye ka board layout ye ka kɔɔrɔw ye.\nKɛlɛ kɔɔrɔw ye ka tɛɛrɛ ye ka dot ('.') ye, kɛlɛ kɔɔrɔw ye ka revealed numbers ye ka count ye ka adjacent mines.\nKɛlɛ kɔɔrɔw ye ka tɛɛrɛ ye ka already revealed cells.\nKɔɔrɔ, kɛlɛ kɔɔrɔw ye ka tɛɛrɛ ye ka current board layout:\n"
   },
   "board": {
-    "game_board": "Game Board: {board}",
+    "game_board": "Kɛlɛ Kɔɔrɔw:\n\n{board}",
     "current_board": "B sẽn get b yell masã wã: {board}"
   },
   "invalid_move": {
-    "wrong_format": "You did not respond with valid coordinates in square brackets.",
-    "out_of_bounds": "The specified row and column coordinates are out of bounds.",
+    "wrong_format": "I kɔɔrɔw ye ka tɛɛrɛ ye ka valid coordinates ka square brackets.",
+    "out_of_bounds": "Kɛlɛ kɔɔrɔw ye ka row ni column kɔɔrɔw ye ka out of bounds.",
     "already_revealed": "Cell la zuɣu ({row}, {col}) daa nyɛla din niŋ revealed.",
     "hit_mine": "A daa deei mine zuɣu ({row}, {col})."
   },

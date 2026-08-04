@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in **Ultimate Tic Tac Toe**.\nSubmit your move as **[macro  micro]** (two numbers 0-8):\n• *macro*  = which mini-board you play in\n• *micro* = which square inside that mini-board\nExample `[7 8]` ➜ place your mark in mini-board 7, square 8, and\nforce your opponent to play in mini-board 8 next.\n\nYou are `{symbol}`.\n"
+    "intro": "Ungumdlali {player_id} ku-**Ultimate Tic Tac Toe**.\nThumela ukunyakaza kwakho njengoba **[macro  micro]** (izinombolo ezimbili 0-8):\n• *macro*  = iphedi elincane ulidlala kuwo\n• *micro* = isikwele esingaphakathi kwalelo phedi elincane\nIsibonelo `[7 8]` ➜ beka isikhala sakho kwenye phedi elincane 7, isikwele 8, futhi\nxhoma umgadli wakho ukuba adlale kwenye phedi elincane 8 ezayo.\n\nUngu `{symbol}`.\n"
   },
   "board": {
     "current_board": "Ibhodi yamanje: {board}"

@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing the Minesweeper game.\nThe objective of the game is to reveal all cells that do not contain mines.\nTo make a move, simply specify the row and column coordinates you want to reveal using the format:\n- `[row col]`: Reveal the cell at the specified row and column.\nFor example:\n- `[3 2]` to reveal the cell in Row 3, Column 2.\n- `[5 6]` to reveal the cell in Row 5, Column 6.\nOn your first move, you will reveal an area around the cell you choose to ensure a safe start.\nThe current board layout is shown below. Cells that are unrevealed are represented by a dot ('.'), revealed numbers show the count of adjacent mines.\nBe mindful not to choose already revealed cells.\nHere is the current board layout:\n"
+    "intro": "Tiririt da Minesweeper.\nInagrawen n wurar d asɣell-nsen i meṛṛa yicellen ur nelli d imiḍanen.\nAkken ad texdem ṛṛay, ṣṣafeḍ kan tiɣzi d tiɣmert n yicelli i tebɣit ad tessɣel s tsefḍa-agi:\n- `[row col]`: Ssɣel icelli deg tiɣzi d tiɣmert i d-ibeddel.\nAmedya:\n- `[3 2]` ad tessɣel icelli deg tiɣzi 3, tiɣmert 2.\n- `[5 6]` ad tessɣel icelli deg tiɣzi 5, tiɣmert 6.\nDeg ṛṛay amenzu, ad tessɣel tamnaḍt i zdat n yicelli i tebɣit ad d-tessɣel i wakken ad tili d aɣellis.\nTalɣa n yicella tura d-tid s ddaw-a. Icellen ur nettwassɣelen d-tenfella s yitri (.), izwilen i ssɣelen d-rnan-d s wuṭṭun n imiḍanen i zdat.\nUr teddil ara ad texdem ṛṛay i yicellen i yellan ssɣelen.\nTalɣa n yicella tura d-tid s ddaw-a:\n"
   },
   "board": {
     "game_board": "Aɣbalu n wurar: {board}",

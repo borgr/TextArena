@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({piece}). Opponent is ({opp}). Submit moves as '[b1 c3]' (from → to). All pieces move like chess knights.\nEach capture scores {score_per_capture} point. Game ends after {max_moves} moves or when a player has no legal move / no pieces. Higher score wins."
+    "intro": "Wo ne Agodifo {player_id} ({piece}). Opponent ne ({opp}). Fa mu sɛ '[b1 c3]' (firi → kɔ). Pieces nyinaa tu kɔ sɛ chess knights.\nMuo biara a wɔfa no kyerɛ {score_per_capture} pɔint. Agodie no bɛba awiee wɔ {max_moves} muo anaa sɛ agodifo biara nni muo a ɛfata / nni pieces. Pɔint kɛseɛ no na ɛdi nkunim."
   },
   "board": {
     "current_board": "Kɔ ｍ#{move_count}\n\n{board}\n\nMfa ho adwuma: {moves}"

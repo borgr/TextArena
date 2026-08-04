@@ -1,17 +1,17 @@
 {
   "player_prompt": {
-    "intro": "Welcome to Frozen Lake!\n\nYou are represented by 'P' on the grid.\nGrid symbols:\n  ' ' = Frozen surface (safe to walk on)\n  'H' = Hole (fall in and lose!)\n  'G' = Goal (reach this to win!)\n  'P' = Your current position\n\nAvailable actions: up, down, left, right (or w, a, s, d)\nType your action as: [up], [down], [left], [right] or [w], [a], [s], [d]\n\nObjective: Navigate from the start (top-left) to the goal (bottom-right) without falling into any holes!\n"
+    "intro": "Talofa i le Frozen Lake!\n\nE fa'aalia oe i le 'P' i luga o le grid.\nFa'ailoga o le grid:\n  ' ' = Satauro pa'u (saogalemu le savali)\n  'H' = Pu (pa'u i totonu ma leiloa!)\n  'G' = Sini (o'o i le mea e manumalo ai!)\n  'P' = O le nofoaga o lo'o i ai nei\n\nGaluega e mafai: i luga, i lalo, i le itu tauagavale, i le itu taumatau (po'o le w, a, s, d)\nTaini le galuega e pei o: [up], [down], [left], [right] po'o [w], [a], [s], [d]\n\nSini: Fa'atautaia mai le amataga (i luga-itu tauagavale) i le sini (i lalo-itu taumatau) e aunoa ma le pa'u i so'o se pu!\n"
   },
   "board": {
-    "current_board": "Current Board:\n\n{board}\n\nAvailable Actions: {actions}"
+    "current_board": "Lapa o le taimi nei:\n\n{board}\n\nGaluega e mafai: {actions}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use [up], [down], [left], [right] or [w], [a], [s], [d].",
-    "unknown_action": "Unknown action '{action}'. Use up, down, left, right, or w, a, s, d.",
+    "wrong_format": "Fa'atusa sese le galuega. Fa'aaoga [up], [down], [left], [right] po'o [w], [a], [s], [d].",
+    "unknown_action": "Galuega le iloa '{action}'. Fa'aoga i luga, i lalo, i le itu tauagavale, i le itu taumatau, po'o w, a, s, d.",
     "hit_wall": "Na e taumafai e gaoioi {action} ae na taia i le pā!"
   },
   "game_action": {
-    "moved": "You moved {action} to position ({row}, {col})."
+    "moved": "Na e si'i {action} i le tulaga ({row}, {col})."
   },
   "outcome": {
     "win": "Faamalo! Ua e ausia le sini!",

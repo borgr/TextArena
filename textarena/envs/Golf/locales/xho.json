@@ -71,7 +71,7 @@
     "line": "Mdlali {pid}: {score} ipointi\n"
   },
   "board_str": {
-    "title": "=== IGOLF GAME === I-Golf Game===",
+    "title": "=== Umdlalo weGOLF ===",
     "discard": "Ukulahla inqwaba: {card}",
     "knocked": "Umdlali {pid} uye wankqonkqoza!",
     "player_header": "Mdlali {pid} (Iskore: {score}):"

@@ -27,6 +27,6 @@
   },
   "outcome": {
     "win": "Aglɔ {player_id} ({symbol}) di!",
-    "draw": "The game is a draw!"
+    "draw": "Akpɛ kpɛ o!"
   }
 }

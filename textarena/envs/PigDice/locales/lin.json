@@ -6,7 +6,7 @@
     "invalid_action": "Mikano esali te. Sika '[roll]' or '[hold]'."
   },
   "actions": {
-    "player_busted": "Player {player_id} busted, losing {turn_total} points!",
+    "player_busted": "Joueur {player_id} abimi, apota {turn_total} pointi!",
     "player_hold": "Mokili {player_id} asili na akoma {turn_total} pointi."
   },
   "board": {

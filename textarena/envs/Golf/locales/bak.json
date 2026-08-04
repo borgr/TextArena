@@ -67,7 +67,7 @@
     "already_revealed": "Был карта асылған да инде!"
   },
   "summary": {
-    "full": "Game Over! Player {winner} wins with a score of {score} points!\n\nFinal Scores:\n{scores}",
+    "full": "Уйын тамамланды! Уйынсы {winner} {score} мәрәй менән еңеү яуланы!\n\nҺуңғы иҫәп:\n{scores}",
     "line": "Уйынсы {pid}: {score} балл"
   },
   "board_str": {

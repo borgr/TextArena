@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({piece}). Opponent is ({opp}). Submit moves as '[b1 c3]' (from → to). All pieces move like chess knights.\nEach capture scores {score_per_capture} point. Game ends after {max_moves} moves or when a player has no legal move / no pieces. Higher score wins."
+    "intro": "Nanhte Player {player_id} ({piece}) rai sai. Hpang de ahte Opponent ({opp}) rai sai. Galoi shakawn as '[b1 c3]' (kaw na → kaw hting) rai sai. Hpang de ahte shakawn hpaw shingkrai langai hpaw shingkrai hpang de ahte kaw shingkrai.\nHpang de ahte hpaw shingkrai {score_per_capture} kaw lu rai sai. Hpang de ahte kaw shingkrai {max_moves} kaw hting rai sai, shi hpang de ahte hpaw shingkrai kaw na n re kaw shingkrai hpang de ahte hpaw shingkrai n re kaw hting rai sai. Kaw lu shingkrai hpang de ahte hpaw shingkrai shingkrai."
   },
   "board": {
     "current_board": "Move #{move_count}\n\n{board}\n\nHkum Htaung {moves}"
@@ -14,7 +14,7 @@
   },
   "game_action": {
     "moved": "Player {player_id} {frm} htawng de {to} na",
-    "capture": "{observation} Capturing a piece! (+{score_per_capture})"
+    "capture": "{observation} Masha hkrai hku shangun da! (+{score_per_capture})"
   },
   "outcome": {
     "no_pieces": "Player {player_id} gaw hpa piece mung n lu ai.",

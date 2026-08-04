@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in SimpleTak.\nOn the board, your stones appear as '{player_stone}' and your opponent's stones appear as '{opponent_stone}'.\n\nOn your turn, choose one empty cell (by its numbered index) and place your stone there.\nFor example, '[12]' places your stone in cell 12.\n\nYour objective is to form a continuous path of your stones that connects two opposite edges of the board (top-to-bottom or left-to-right)."
+    "intro": "D kečč imiraz {player_id} di SimpleTak.\nDi tablatt, imirazen-ik tbanen am '{player_stone}' ma d imirazen n umsaddaq-ik tbanen am '{opponent_stone}'.\n\nDi tedbelt-ik, fker tasga tazegzawt (s yisem-is n yimir) d aɣer imiraz-ik diha.\nAmekkad, '[12]' aɣer imiraz-ik di tasga 12.\n\nTiddi-ik d aɣellid n yimirazen-ik i yeqqnen snat tiggiwin n tablatt (seg waggur ɣer wadda neɣ seg tama tazelmaɣt ɣer tama tayeffust)."
   },
   "invalid_move": {
     "invalid_move_format": "Asebter n usiweḍ ur yelhi ara.",
@@ -14,7 +14,7 @@
     "placement": "Imyurar {current_player_id} yenṣeb aseɛdu ({symbol}) deg cellule {cell_num}."
   },
   "outcome": {
-    "winner": "Player {current_player_id} ('{symbol}') connected two opposite edges!",
+    "winner": "Amiraz {current_player_id} ('{symbol}') yeqqen snat tiggiwin!",
     "draw": "Yeččur usebter. D asekkil!"
   }
 }

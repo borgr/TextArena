@@ -10,7 +10,7 @@
     "{to}": "The destination coordinate of a move, such as b3"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in game of LinesOfAction.\nYour pieces are '{side}', opponent pieces are '{other}'.\nMove format: `[b1b3]` (from-coord to-coord). A legal move travels horizontally, vertically, or diagonally a number of squares equal to the total pieces (any colour) in that line. You may jump over your own pieces, but not opponent pieces; landing on an opponent captures it.  Win when all your pieces are 8-neighbour connected."
+    "intro": "Ianao no Mpilalao {player_id} ao amin'ny lalao LinesOfAction.\nNy pions ao anjanonao dia '{side}', ary ny pions ao anjanon'ny mpifanandrina dia '{other}'.\nFomba fihetsika : `[b1b3]` (avy amin'ny toerana mankany amin'ny toerana). Mihetsika ara-dalàna ihany no azo atao, na anaty, na an-tongotra, na an-katry, ary mandeha amin'ny isan-tsokosoko mitovy amin'ny isan'ny pions rehetra (na volon-koditra na inona) ao amin'ilay andiany. Afaka mitsambikina amin'ny pions ao anjanonao ihany ianao, fa tsy azo atao amin'ny pions ao anjanon'ny mpifanandrina ; raha mihetsika amin'ny toeran'ny mpifanandrina dia azonao."
   },
   "board": {
     "current_board": "Birao: {board}"

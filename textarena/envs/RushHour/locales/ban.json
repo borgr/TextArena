@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing a {difficulty} RushHour puzzle. Slide cars to free the red car [X] and drive it out the right edge.\nActions: [A+], [B-], etc.  (+ = forward, - = backward)."
+    "intro": "Cai ngelah main {difficulty} RushHour puzzle. Geser mobil anggén ngbebasang mobil barak [X] miwah ngajak mobil ka sisi tengen.\nTindakan: [A+], [B-], lsp. (+ = maju, - = mundur)."
   },
   "invalid_move": {
     "wrong_format": "Aksi tidak sah. Gunakan format [A+] / [B-].",

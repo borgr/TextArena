@@ -1,17 +1,17 @@
 {
   "player_prompt": {
-    "intro": "Welcome to Frozen Lake!\n\nYou are represented by 'P' on the grid.\nGrid symbols:\n  ' ' = Frozen surface (safe to walk on)\n  'H' = Hole (fall in and lose!)\n  'G' = Goal (reach this to win!)\n  'P' = Your current position\n\nAvailable actions: up, down, left, right (or w, a, s, d)\nType your action as: [up], [down], [left], [right] or [w], [a], [s], [d]\n\nObjective: Navigate from the start (top-left) to the goal (bottom-right) without falling into any holes!\n"
+    "intro": "Mbote na Etando ya Maza!\n\nOkeleki na 'P' na nganda.\nMakongo ya nganda:\n  ' ' = Etando ya maza (keleka kuna)\n  'H' = Mungwa (tua kuna okeleki!)\n  'G' = Ngelo (kotika kuna okeleki!)\n  'P' = Posi na okeleki sasa\n\nMikakati inayopatikana: juu, chini, kushoto, kulia (au w, a, s, d)\nTatua mikakati yako kama: [up], [down], [left], [right] au [w], [a], [s], [d]\n\nLengo: Tembea kutoka mwanzo (juu-kushoto) hadi ngelo (chini-kulia) bila kuanguka kwenye mungwa yoyote!\n"
   },
   "board": {
-    "current_board": "Current Board:\n\n{board}\n\nAvailable Actions: {actions}"
+    "current_board": "Nganda ya Sik'oyo:\n\n{board}\n\nMikakati Inayopatikana: {actions}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use [up], [down], [left], [right] or [w], [a], [s], [d].",
+    "wrong_format": "Mfumo wa mikakati si sahihi. Tatua [up], [down], [left], [right] au [w], [a], [s], [d].",
     "unknown_action": "Kisalu ya me zabana ve '{action}'. Sadila zulu, na nsi, diboko ya kimama, dibolo ya kibakala to w, a, s, d.",
     "hit_wall": "Ovandaka {action} kasi ovanda ngulu!"
   },
   "game_action": {
-    "moved": "You moved {action} to position ({row}, {col})."
+    "moved": "Omoni kusonga {action} kufika wapi ({row}, {col})."
   },
   "outcome": {
     "win": "Yo kele mbote, nge me nunga!",

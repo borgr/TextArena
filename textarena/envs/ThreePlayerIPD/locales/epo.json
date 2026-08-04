@@ -4,7 +4,7 @@
   },
   "round": {
     "start": "─── Komencas Raŭndo {round} ───\tVi povas konversacii libere dum la sekvaj {conv_rounds} raŭndo(j).",
-    "chat_finished": "Chat finished for round {round}. Submit your decisions, one token per opponent: `[pid cooperate]` or `[pid defect]`."
+    "chat_finished": "Babilo finiĝis por raŭndo {round}. Ensendu viajn decidojn, po unu ĵetono por kontraŭulo: `[pid cooperate]` aŭ `[pid defect]`."
   },
   "results": {
     "header": "Rondo {round} - Rezultoj:",

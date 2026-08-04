@@ -10,7 +10,7 @@
     "{groups}": "Neutral ranking data (a list of player-id groups, best to worst); do not translate"
   },
   "player_prompt": {
-    "intro": "{num_players}-প্লেয়ার পরিবেষ্টন একটি {width}x{height} গ্রিডে。\nআপনি খেলোয়াড় {player_id}। বৈধ নড়াচড়া: '[up]' '[down]' '[left]' '[right]' বা w/s/a/d.\nউদ্দেশ্য: সবার থেকে বেঁচে থাকুন। ট্রেইলগুলি মারাত্মক; দেয়াল আঘাত হত্যা; মাথার সংঘর্ষ দুটিকেই হত্যা করে"
+    "intro": "{num_players}  ki  khwai Surround, {width}x{height}  ki  lamdamda  me.\nNangdi  player {player_id}  ni.  Thokpa  thouram: '[up]' '[down]' '[left]' '[right]'  amata  w/s/a/d.\nMaram: anisabada  khudingi  thouram  amata  nangdi  kaya  thaba  purni;  hawaida  chenba  purni;  makhei  chenba  purni  aduga  anisuba  purni."
   },
   "board": {
     "current": "হৌজিক লৈরিবা বোদি: {board}",

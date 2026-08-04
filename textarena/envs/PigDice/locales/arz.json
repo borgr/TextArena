@@ -7,7 +7,7 @@
   },
   "actions": {
     "player_busted": "اللاعب {player_id} خسر، وفقد {turn_total} نقطة!",
-    "player_hold": "Player {player_id} holds and banks {turn_total} points."
+    "player_hold": "اللاعب {player_id} يحتفظ ب {turn_total} نقطة ويضيفها لرصيده."
   },
   "board": {
     "player": "اللاعب 0: '{score_0}'؛ اللاعب 1: '{score_1}'",

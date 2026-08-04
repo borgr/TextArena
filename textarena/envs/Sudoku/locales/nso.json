@@ -9,7 +9,7 @@
   "invalid_move": {
     "wrong_format": "Sebopego sa mosepelo se sego molaong. Sebapadi {player_id} ga se a araba ka 'nomoro ya kholomo ya mothaladi' e nepagetšego.",
     "out_of_bounds": "Tshebeletso ye botsu. Mmoki {player_id} o ile a tsenya {num} ka ({row}, {col}), e le ka ntle le mafelo.",
-    "overwrite": "Invalid move. Player {player_id} attempted to overwrite a pre-filled cell ({row}, {col}).",
+    "overwrite": "Tsela e sa lekanele. Tau {player_id} o leka go fetola selo se tletsweng ({row}, {col}).",
     "violates_rules": "Tshebeletso ye botsu. Mmoki {player_id} o ile a tsenya {num} ka ({row}, {col}), e le tshebeletso ye e seng kgonega melao ya Sudoku."
   },
   "outcome": {

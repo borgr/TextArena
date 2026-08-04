@@ -6,7 +6,7 @@
     "current_value": "Lartol je ɗon jooni woni {value}."
   },
   "invalid_move": {
-    "wrong_format": "Action must be either [accept] or [continue]."
+    "wrong_format": "Aktion jaɓɓe ina [accept] walla [continue]."
   },
   "outcome": {
     "summary": "Kaɗa ɗon haɓɓe {value} e draw {draw_num}/{N}. Mɛɓɓugo ɗon haɓɓe ko {best}. {result}",

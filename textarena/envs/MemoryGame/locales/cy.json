@@ -13,8 +13,8 @@
     "already_matched": "Symud anghywir. Mae chwaraewr {player_id} wedi dewis un neu'r ddau gerdyn sydd eisoes wedi'u cyfateb."
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "Mae'r cardiau a ddewiswyd gan Chwaraewr {player_id} yn safleoedd [{r1} {c1}] a [{r2} {c2}] yn cydweddu!",
+    "cards_no_match": "Nid yw'r cardiau a ddewiswyd gan Chwaraewr {player_id} yn cydweddu. Mae cardiau yn safleoedd [{r1} {c1}] a [{r2} {c2}] yn {pos1} a {pos2} yn y drefn honno."
   },
   "outcome": {
     "draw": "Mae'r ddau chwaraewr wedi cyfateb i'r un nifer o bapurau cardiau.",

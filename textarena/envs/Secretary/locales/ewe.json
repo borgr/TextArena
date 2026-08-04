@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You will observe {N} hidden values sequentially.\nAt each step type [accept] to pick the *current* value, or [continue] to skip it and see the next one.\nIf you never accept, you are forced to take the final value.\nYou win (reward = 1) **only** if the value you ultimately pick is the highest of all."
+    "intro": "Ameade wòata {N} akɔnta dzidzɛwo tɔxɛwo ɖeɖeɖe.\nLe ɖeɖeɖe sia me, tɔgbe [accept] ɖe nɔ anyi akɔnta siawo, alo [continue] ɖe tsɔ eme nɛ̃, eye wòa kpɔ akɔnta ɖeɖeɖe.\nNe mekpɔ o, wòa xɔ akɔnta ɖeɖeɖe tɔxɛ tsoa.\nWòa ɖo (dzidzɛ = 1) **kpakpa** ne akɔnta si wòkpɔ la, enye akɔnta ga wo katã."
   },
   "game_action": {
     "current_value": "Egbea ƒe asixɔxɔe nye {value}."

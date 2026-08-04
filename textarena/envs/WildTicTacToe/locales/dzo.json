@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in Wild Tic Tac Toe.\nOn your turn, you can place either an 'X' or an 'O' in an empty square.\nYou win by aligning three of the same mark (X or O) in a row.\nYou can win with either symbol.\nChoose your move using the format '[X 4]' to place X in the center.\n"
+    "intro": "ཁྱེད་རང་འདི་ནི་སྤྱི་རྒྱུགས་ཀྱི་འགྲན་སྡུར་འཁྲབ་མཁན་ {player_id} ཡིན།\nཁྱེད་རང་གི་སྐབས་སུ། ཁྱེད་རང་སྟོང་པའི་སྒོ་གང་རུང་གཉིས་ཀྱི་ནང་དུ་ཨེགས་ཡོད་པའི་ 'X' ཡིག་གམ་ 'O' ཡིག་བཞག་ཆོག\nཁྱེད་རང་གིས་རིགས་མཚུངས་པའི་མཚོན་མ་གསུམ་རེག་རིམ་བྱས་ཏེ་རྒྱལ་ཁ་ཐོབ་པ་ཡིན།\nཁྱེད་རང་གིས་མཚོན་མ་གང་རུང་གཉིས་ཀྱིས་རྒྱལ་ཁ་ཐོབ་ཆོག\nཁྱེད་རང་གི་གཡོ་འགུལ་གཏོང་སྟངས་ནི་དཔེར་ན་དབུས་སུ་ X བཞག་པར་ '[X 4]' གཏོང་སྟངས་བཞིན་རོགས་རམ་གནང་།\n"
   },
   "board": {
     "current_board": "དེང་གི་བོད།:\n\n{board}\n\nའགྲོ་སྟངས་ཡོད་པ།: {moves}"

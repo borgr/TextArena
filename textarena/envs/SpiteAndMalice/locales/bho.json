@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a two-player game of Spite and Malice. Your goal is to be the first to empty your payoff pile.\n\n### Game Overview:\n- The objective is to clear your payoff pile by playing cards to the center piles.\n- You can play cards from three sources:\n  1. Your **hand** (you start each turn with up to 5 cards in hand).\n  2. The **top card of your payoff pile**.\n  3. The **top card of any of your discard piles**.\n\n### Playing Rules:\n- You may play a card to a center pile if it is **one rank higher** than the top card on that pile (center piles start with Ace and go up to Queen; Kings are wild - they can be played on any card but do not change the rank sequence. This means if a King is used after 4, then that King is ranked 5 and the next card must be a 6).\n- If you can't play any more cards, you must **discard a card** to one of your discard piles to end your turn.\n- If a center pile reaches Queen, it will be cleared automatically.\n- The rank order is: A=1, 2=2, ..., 9=9, J=10, Q=11, K as wild.\n\n### Actions:\n1. **Draw**: At the start of your turn, draw cards to fill your hand up to 5 cards. Enter **[draw]** to begin.\n2. **Play a Card**: To play a card, specify the card and the center pile like this: **[play A♠ 0]** (where 'A♠' is the card and '0' is the center pile index).\n3. **Discard**: If you can't play any more cards, discard a card from your hand to a discard pile to end your turn. Enter **[discard A♠ 1]** (where 'A♠' is the card and '1' is the discard pile index). Note that you cannot discard any card from the payoff pile. You may only discard the cards from your hand.\n\n"
+    "intro": "आप खिलाड़ी {player_id} दू गो खिलाड़ियन के बीच स्पाइट एंड मैलिस गेम में हईं। आप के लक्ष्य अपना पेऑफ पाइल सबसे पहिले खाली कर देना ह।\n\n### गेम अवलोकन:\n- उद्देश्य अपना पेऑफ पाइल साफ़ करना ह, केंद्र पाइल्स में कार्ड खेल के।\n- आप तीन स्रोत से कार्ड खेल सकते ह:\n  1. आप के **हाथ** (आप हर बारी के शुरुआत में 5 कार्ड तक हाथ में रखते ह)।\n  2. आप के **पेऑफ पाइल के उपरी कार्ड**।\n  3. आप के **किसी भी डिस्कार्ड पाइल के उपरी कार्ड**।\n\n### खेलने के नियम:\n- आप एक कार्ड केंद्र पाइल में खेल सकते ह अगर ऊ **एक रैंक ऊंचा** ह केंद्र पाइल के उपरी कार्ड से (केंद्र पाइल्स एस से शुरू होते ह और क्वीन तक जाते ह; किंग्स जंगली ह - ऊ किसी भी कार्ड पर खेले जा सकते ह लेकिन रैंक अनुक्रम नहीं बदलते ह। इसका मतलब ह अगर एक किंग 4 के बाद इस्तेमाल किया जाता ह, तो ऊ किंग 5 रैंक का ह और अगला कार्ड 6 होना चाहिए)।\n- अगर आप और कोई कार्ड नहीं खेल सकते ह, तो आप **एक कार्ड डिस्कार्ड** करना होगा अपने डिस्कार्ड पाइल्स में से एक में अपनी बारी खत्म करने के लिए।\n- अगर एक केंद्र पाइल क्वीन तक पहुंचता ह, तो ऊ स्वचालित रूप से साफ़ हो जाएगा।\n- रैंक क्रम ह: A=1, 2=2, ..., 9=9, J=10, Q=11, K जंगली के रूप में।\n\n### कार्रवाई:\n1. **ड्रा**: अपनी बारी के शुरुआत में, कार्ड ड्रा करें अपने हाथ को 5 कार्ड तक भरने के लिए। **[draw]** दर्ज करें शुरू करने के लिए।\n2. **एक कार्ड खेलें**: एक कार्ड खेलने के लिए, कार्ड और केंद्र पाइल को इस तरह निर्दिष्ट करें: **[play A♠ 0]** (जहां 'A♠' कार्ड ह और '0' केंद्र पाइल इंडेक्स ह)।\n3. **डिस्कार्ड**: अगर आप और कोई कार्ड नहीं खेल सकते ह, तो अपने हाथ से एक कार्ड डिस्कार्ड करें एक डिस्कार्ड पाइल में अपनी बारी खत्म करने के लिए। **[discard A♠ 1]** दर्ज करें (जहां 'A♠' कार्ड ह और '1' डिस्कार्ड पाइल इंडेक्स ह)। ध्यान दें कि आप पेऑफ पाइल से कोई भी कार्ड डिस्कार्ड नहीं कर सकते ह। आप केवल अपने हाथ से कार्ड डिस्कार्ड कर सकते ह।\n\n"
   },
   "board": {
     "current_board": "वर्तमान बोर्ड:\n\n{board}\nउपलब्ध चालें: {moves}"
@@ -25,16 +25,16 @@
     "wrong_move_type": "अमान्य चाल प्रकार. खिलाड़ी {player_id} एगो वैध चाल के साथ जवाब ना दिहलें।"
   },
   "game_action": {
-    "you_drew": "You drew cards.",
+    "you_drew": "आप ने कार्ड ड्रा किए।",
     "opponent_drew": "खिलाड़ी {player_id} पत्ते खींचलस.",
     "you_played": "आपने {card} को केंद्रीय ढेर {index} पर खेला।",
     "opponent_played": "प्लेयर {player_id} ने {card} को केंद्रीय ढेर {index} पर खेला।",
-    "you_discarded": "You have discarded {card} to discard pile {index}, which also means you have finished their turn. No further actions of yours is considered for this turn. Player {next_player_id} will go next.",
+    "you_discarded": "आप ने {card} को डिस्कार्ड पाइल {index} में डिस्कार्ड किया है, जिसका अर्थ है कि आप ने अपना टर्न समाप्त कर दिया है। अब और कोई कार्रवाई नहीं की जाएगी। खिलाड़ी {next_player_id} की बारी होगी।",
     "opponent_discarded": "Player {player_id} discarded {card} to discard pile {index}, which also means they finished their turn. No further actions of Player {player_id} is considered for this turn. Player {next_player_id}, you will go next. Please enter your action in the format [action card center_index]."
   },
   "outcome": {
     "payoff_cleared": "प्लेयर {current_player} ने अपने पेआफ़ ढेर को साफ़ कर दिया! प्लेयर {current_player} जीतता है!",
-    "deadlock_player_0": "Deadlock reached! Player 0 wins with {player_0_payoff} cards remaining vs Player 1's {player_1_payoff} cards.",
+    "deadlock_player_0": "डेडलॉक पहुंच गया है! खिलाड़ी 0 {player_0_payoff} कार्ड के साथ जीत गया है खिलाड़ी 1 के {player_1_payoff} कार्ड के मुकाबले।",
     "deadlock_player_1": "डेडलॉक पहुंच गया! प्लेयर 1 ने {player_1_payoff} कार्ड शेष के साथ जीत हासिल की बनाम प्लेयर 0 के {player_0_payoff} कार्ड।",
     "deadlock_tie": "डेडलॉक पहुंच गया टाई के साथ! दोनों खिलाड़ियों के पास {player_0_payoff} कार्ड शेष हैं। प्लेयर {current_player} डिफ़ॉल्ट रूप से जीतता है।"
   }

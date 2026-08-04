@@ -4,7 +4,7 @@
   },
   "round": {
     "start": "─── ការចាប់ផ្តើមជុំ {round} ─── អ្នកអាចនិយាយដោយសេរីសម្រាប់ជុំបន្ទាប់ {conv_rounds} ។",
-    "chat_finished": "Chat finished for round {round}. Submit your decisions, one token per opponent: `[pid cooperate]` or `[pid defect]`."
+    "chat_finished": "ការជជែកបានបញ្ចប់សម្រាប់ជុំទី {round}។ ដាក់សេចក្តីសម្រេចរបស់អ្នក មួយសញ្ញាក្នុងមួយគូប្រកួត៖ `[pid cooperate]` ឬ `[pid defect]`។"
   },
   "results": {
     "header": "### ជុំ {round} - លទ្ធផល:",

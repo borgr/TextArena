@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({piece}). Opponent is ({opp}). Submit moves as '[b1 c3]' (from → to). All pieces move like chess knights.\nEach capture scores {score_per_capture} point. Game ends after {max_moves} moves or when a player has no legal move / no pieces. Higher score wins."
+    "intro": "Tu sês Zugadôr {player_id} ({piece}). L'aviersari al è ({opp}). Invie i moviments come '[b1 c3]' (di → a). Dutis lis pedinis si môvin come i cavalîrs degli scacs.\nOgni cjapade e vale {score_per_capture} pont. La partide e finìs dopo {max_moves} moviments o cuant che un zugadôr nol à moviments legâi / nol à pedinis. Il punteç plui alt al vinç."
   },
   "board": {
     "current_board": "Mozion #{move_count}\n\n{board}\n\nMozions disponibils: {moves}"

@@ -48,7 +48,7 @@
   },
   "action": {
     "played": "اللاعب {player_id} لعب {card}",
-    "trick_win": "Player {winner} wins the trick with {card} and gains {points} points!"
+    "trick_win": "اللاعب {winner} يفوز بالخدعة مع {card} ويكسب {points} نقاط!"
   },
   "outcome": {
     "head": "انتهت اللعبة! اللاعب {winner} يفوز بنقاط {points}!\n\nالنتائج النهائية:\n{scores}",

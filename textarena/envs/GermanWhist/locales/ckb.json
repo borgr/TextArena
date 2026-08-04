@@ -21,7 +21,7 @@
     "invalid_play": "ئەو کارتە ناتوانرێت یاری پێ بکرێت."
   },
   "game_action": {
-    "played": "Player {player_id} played {card}."
+    "played": "یاریزانی {player_id} کارتەکەی {card}ی بیلێ."
   },
   "trick": {
     "won": "یاریکەر {winner_id} براوەی ترازوەکەیە لەگەڵ {card}.",
@@ -37,7 +37,7 @@
   },
   "turn": {
     "board": "〕{phase}\n〕{scores}\n〕{next_card}\n\n〕{trick}\n\n〕{hand}",
-    "scores_learning": "Tricks won so far - Player 0: {tricks0}, Player 1: {tricks1}",
+    "scores_learning": "دەستەکان تا ئێستا - یاریزانی 0: {tricks0}, یاریزانی 1: {tricks1}",
     "scores_playing": "ترازوەکانی خاڵ - یاریکەر 0: {tricks0}، یاریکەر 1: {tricks1}",
     "phase": "قۆناغ: {phase}",
     "phase_learning": "قۆناغ: {phase} (〕{remaining_cards} کارتەکان لە دەستەکدا ماوە)"
@@ -60,7 +60,7 @@
     "not_started": "یاریەکە دەست پێ نەکردووە.",
     "header": "=== یاریی گێرمان وایت===",
     "phase": "{observation}\nقۆناغ: {phase}",
-    "trump_suit": "{observation}\nTrump suit: {trump_suit}",
+    "trump_suit": "{observation}\nخەتەی ترەمپ: {trump_suit}",
     "trump_card": "{observation}\nکارتەکانی ترەمپ: {card}",
     "cards_left": "{observation}\nکارتەکانی تر لە دەستەکدا: {count}",
     "next_card": "{observation}\nکارتەکانی داھاتو بۆ براوە: {card}",
@@ -68,9 +68,9 @@
     "current_trick": "{observation} فێڵی ئێستا:",
     "trump_indicator": "(ترەمپ)",
     "trick_line": "{observation}\n  Player {player_id}: {card}{trump_indicator}",
-    "player_line": "{observation}\nPlayer {player_id}: {scoring} scoring tricks ({tricks} total), {hand_size} cards in hand"
+    "player_line": "{observation}\nیاریزانی {player_id}: {scoring} دەستە سەرکەوتوو ({tricks} کۆی گشتی), {hand_size} کارت لە دەستەکەت"
   },
   "outcome": {
-    "summary": "Learning phase - Player 0: {l0}, Player 1: {l1}. Playing phase - Player 0: {p0}, Player 1: {p1}. Player {winner_id} wins with {winner_tricks} scoring tricks!"
+    "summary": "قۆناغی فێربوون - یاریزانی 0: {l0}, یاریزانی 1: {l1}. قۆناغی یاریکردن - یاریزانی 0: {p0}, یاریزانی 1: {p1}. یاریزانی {winner_id} براوەیە بە {winner_tricks} دەستە سەرکەوتوو!"
   }
 }

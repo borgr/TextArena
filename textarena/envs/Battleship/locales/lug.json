@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id}. You are playing the Battleship game.\nYour goal is to sink all of your opponent's ships before they sink yours.\nOn your turn, you can fire missiles at specific coordinates in teh following format: '[a4]'. If the missile hits a ship, it is marked with 'X'. If it misses, it is marked with 'O'. In either scenarios, the game environment will inform you of your hits. If you have sunk a boat, the game environment will tell you!\nThe game ends when all of one player's ships have been sunk.\nYour initial board will show all of your ships placed and your opponent's hits on you, and your hits and misses on your opponent's board without showing your opponent's ships.\nHere is the initial board:\n"
+    "intro": "Oli Player {player_id}. Oli ogomba omuzannyo gwa Battleship.\nEra eriyo kuzizza bubi zonna za mukwano wo nga bwe zibadde zizza bubi zo.\nKu kiseera kyo, oyinza okukuba misaile ku kkoona z'obukodyo mu mwegezeso: '[a4]'. Bw'ekuba bubi, ebalibwa 'X'. Bw'ekosa, ebalibwa 'O'. Mu mbeera yonna, mazingira g'omuzannyo gikubiriza ku bikuba byo. Bw'oba ozizza bubi, mazingira g'omuzannyo gikubiriza!\nOmuzannyo gumala bw'aba bubi z'omuzannyi omu zonna zizza.\nEkyapa kyo ekisooka kijja kuba na bubi zo zonna zikwate ne bikuba bya mukwano wo ku gwo, ne bikuba byo n'ebikosa byo ku kyapa kya mukwano wo nga bubi ze zitabikkulwa.\nHano kyapa ekisooka:\n"
   },
   "invalid_move": {
     "wrong_format": "Omuzannyi teyanukudde na mpagi entuufu mu nkasi.",
@@ -13,7 +13,7 @@
     "you_hit": "Olina akubita! Olinaakubita ekisaako at {coord}! Bodi yange eyasooka:\n{view}",
     "opp_hit": "Mukwano anaakubita ekisaako ko at {coord}! Bodi yange eyasooka:\n{view}",
     "you_miss": "Teko akubita! Olitakubita ekisaako at {coord}! Bodi yange eyasooka:\n{view}",
-    "opp_miss": "Opponent missed your ship at {coord}! Your updated board:\n{view}"
+    "opp_miss": "Mukwano wo akosa bubi yo ku {coord}! Ekyapa kyo kipya:\n{view}"
   },
   "outcome": {
     "win": "Omuzannyo {player_id} guzikirizza amaato gonna aga baliraanwa!"

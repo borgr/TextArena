@@ -9,8 +9,8 @@
   "invalid_move": {
     "wrong_format": "Mawonekedwe olakwika. Wosewera {player_id} sanayankhe ndi 'nambala yolondola ya mzere'.",
     "out_of_bounds": "Lifupha losalakwa. Mche {player_id} anayesa {num} ku ({row}, {col}), komwe kokhala pafupi.",
-    "overwrite": "Invalid move. Player {player_id} attempted to overwrite a pre-filled cell ({row}, {col}).",
-    "violates_rules": "Invalid move. Player {player_id} attempted to place {num} at ({row}, {col}), which violates Sudoku rules."
+    "overwrite": "Kuyankha kwa uipa. Player {player_id} anayesera kusuntha malo ambalo yalembedwa kale ({row}, {col}).",
+    "violates_rules": "Kuyankha kwa uipa. Player {player_id} anayesera kuweka {num} pa ({row}, {col}), ambalo vuta malangizo a Sudoku."
   },
   "outcome": {
     "win": "Tikuthokozani! Wosewera {player_id} anamaliza mpikisano wa Sudoku.",

@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are {role} in Colonel Blotto.\nYour goal is to win more rounds than your opponent.\nOn each round, allocate exactly {num_total_units} units across fields {field_names}.\nThe player who allocates more units to a field wins that field, and the player who wins more fields wins the round.\nFor example, '[A7 B7 C6]' allocates 7 units to A, 7 to B, and 6 to C.",
+    "intro": "Olingi {role} na Colonel Blotto.\nLokeli ya yo ezali kobwaka mizungu mingi kuluta mpangi nayo.\nNa kila mizungu, ata bokoli {num_total_units} bokoli kati ya mabanga {field_names}.\nMoto olingi ata bokoli mingi kati ya mabanga abwaka mabanga maye, na moto olingi abwaka mabanga mingi abwaka mizungu.\nKwa mfano, '[A7 B7 C6]' ata bokoli 7 bokoli kati ya A, 7 kati ya B, na 6 kati ya C.",
     "commander_alpha": "Komanda Alpha",
     "commander_beta": "Komanda Beta"
   },
@@ -16,7 +16,7 @@
   "invalid_move": {
     "wrong_format": "Lolenge ya kotia ezali malamu te. Kosalela: A:5, B:10, C:5",
     "invalid_field": "Nkombo ya elanga ezalí na ndingisa te. Elanga oyo ezali malamu: {field_names}",
-    "wrong_allocation_value": "Ba allocations nyonso esengeli kozala ba integers oyo ezali ya négatif te.",
+    "wrong_allocation_value": "Bokoli zote ezali kaka ziwe nambari zisizo hasi.",
     "incorrect_total_units": "Oza na kosambela makambo {num_total_units} kasi. Kizazi kya sika: {current_sum}",
     "good_allocations": "Kopesa mbongo ezali malamu."
   },

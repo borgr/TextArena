@@ -48,10 +48,10 @@
   },
   "action": {
     "played": "Ka takaro te kaitākaro {player_id} i a ia e tākaro ana ki te {card}",
-    "trick_win": "Player {winner} wins the trick with {card} and gains {points} points!"
+    "trick_win": "Kaitākaro {winner} i wini te whakahirahira ki {card} ka kohia {points} whiwhinga!"
   },
   "outcome": {
     "head": "Kua mutu te whutupaoro! Kaikōwhiri {winner} i te whiri ki a {points} pūruka!\n\nTohungatanga Whakamutunga:\n{scores}",
-    "player_line": "Player {player_id}: {points} points ({tricks} tricks)\n"
+    "player_line": "Kaitākaro {player_id}: {points} whiwhinga ({tricks} whakahirahira)\n"
   }
 }

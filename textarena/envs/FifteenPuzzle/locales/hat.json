@@ -1,13 +1,13 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id}. You are playing the 15-Puzzle game.\nThe objective of the game is to arrange the numbered tiles in ascending order from 1 to 15, with the empty space located in the bottom-right corner.\nTo make a move, you can slide a tile into the empty space (represented by a double underscore, e.g. __) by using one of the following commands:\n- 'up': Move the tile below the empty space up.\n- 'down': Move the tile above the empty space down.\n- 'left': Move the tile to the right of the empty space left.\n- 'right': Move the tile to the left of the empty space right.\nTo submit your move, type the direction (e.g., 'up', 'down', 'left', or 'right') in square brackets, e.g. [up].\nThe current board layout is shown below. Use the information to solve the puzzle.\n"
+    "intro": "Ou se Jwè {player_id}. Ou ap jwe jwèt 15-Puzzle.\nObjektif jwèt la se ranje moso nimewo yo nan òd ascendan soti nan 1 rive 15, avèk espas vid la ki sitiye nan kwen dwat anba.\nPou fè yon mouvman, ou ka glise yon moso nan espas vid la (ki reprezante pa yon underscore double, pa egzanp __) lè ou itilize youn nan komand sa yo:\n- 'up': Deplase moso ki anba espas vid la monte.\n- 'down': Deplase moso ki anwo espas vid la desann.\n- 'left': Deplase moso ki nan dwat espas vid la ale nan goch.\n- 'right': Deplase moso ki nan goch espas vid la ale nan dwat.\nPou soumet mouvman ou, tape direksyon an (pa egzanp 'up', 'down', 'left', oswa 'right') nan kwadra, pa egzanp [up].\nKonfigirasyon aktuel tablo a afiche anba a. Sèvi ak enfòmasyon sa a pou rezoud enig la.\n"
   },
   "board": {
     "current_board": "Bwod Aktyèl:\n\n{board}\nDeplasman Disponib: {moves}",
     "game_board": "Jwèt tab: {board}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid move format. Player {player_id} did not respond with a valid direction in square brackets.",
+    "wrong_format": "Fòma mouvman invalid. Jwè {player_id} pa reponn ak yon direksyon valid nan kwen kwadra.",
     "illegal_move": "Mouvman envalid. mozayik la pa ka deplase nan direksyon ki endike a."
   },
   "outcome": {

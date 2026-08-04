@@ -3,7 +3,7 @@
     "intro": "Uyiyithemba {player_id} kwiHighSociety (igame yabini). \nUmthombo wemidlalo:  Amaqela amathathu anethemba athetha ukuthengwa ngokulandelana.\nUkuthenga:    Ngokuthengwa, khetha iqela elinganiselwe ngokulindelwe 1-11 bese ivalwe.\n            • Ukuthenga okuphezulu kunqabela iqela lethemba kanti lithathele iqela elinganiselwe.\n            • Ukuthenga oludala lithathe iqela elinganiselwe.\n            • Kungaba nokuthi zonke zithengwe zibuyiselwe kanti iqela lethemba siye sithengwe futhi.\nUkubala:    Emva kothengwa konke, yala **imali engapheli + iziponti zothemba**.\n            Inani eliphakeme *net-worth* linqabile (kungaba ukuphelenyana -> kudlalwe).\n\n**Isintaksu yokwenza**  →  bida iqela elilodwa njenge'[7]' noma '[11]'."
   },
   "auction": {
-    "announce": "\n### Auction {round}/10  |  Prestige card: {prize}"
+    "announce": "\n### Itengiso {round}/10  |  Ikhadi yokuhlonipha: {prize}"
   },
   "board": {
     "money_cards": "Amakhadi akho aseleyo emali: {money}"
@@ -14,11 +14,11 @@
   },
   "message": {
     "tie": "Iibhidi ezifanayo zibuyiselwe. Ukuhlawula kwakhona!",
-    "auction_result": "P0 bid {bid0}, P1 bid {bid1}. Player {winner} wins prestige {prize} (total {total})."
+    "auction_result": "P0 inyathela {bid0}, P1 inyathela {bid1}. Mdlali {winner} unqoba ukuhlonipha {prize} (jikelele {total})."
   },
   "outcome": {
-    "p0_wins": "Net-worth {nw0} > {nw1}",
-    "p1_wins": "Net-worth {nw1} > {nw0}",
+    "p0_wins": "Inotho {nw0} > {nw1}",
+    "p1_wins": "Inotho {nw1} > {nw0}",
     "draw": "Zombini ii-net worth {nw0}  ngqo."
   }
 }

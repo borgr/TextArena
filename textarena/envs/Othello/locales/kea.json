@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} playing {colour} ({piece}) in a game of Othello.\nYour goal is to have more pieces of your color on the board by the end of the game.\nOn your turn, place a piece such that it flanks one or more of your opponent's pieces-in any direction (horizontal, vertical, or diagonal)-between your new piece and another of your existing pieces. All flanked opponent pieces will be flipped to your color.\nProvide your move in the format '[row, col]'."
+    "intro": "Bu é Xuugador {player_id} ta djugá {colour} ({piece}) nun djogo di Othello.\nBu objetivu é di tenê mais peças di bu kôr na tábua fin di djogo.\nNa bu vez, põe uma peça manera ki ela flankei uma ou mais peças di bu adversáriu - nun kwalke direksãu (orizontál, vertikal, ou diagonal) - antre bu peça nobu i outru peça di bu ki já eksisti. Todas peças di adversáriu flankeadu será viradu pa bu kôr.\nDá bu djogada nun formatu '[row, col]'."
   },
   "board": {
     "game_board": "Jogu di tavula: {board}",
@@ -16,13 +16,13 @@
   },
   "game_action": {
     "skipped": "Jogu {pid} tinha ki salta ses txon.",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "Jogador {pid} ({piece}) jogou [{r}, {c}] flippá {flipped} peça(s)"
   },
   "game_message": {
     "must_skip": "Jogadó {pid} ({piece}) nka movimentu valídu i tenki skipa."
   },
   "outcome": {
-    "black_wins": "Black wins {black_count}-{white_count}.",
+    "black_wins": "Pretu ganha {black_count}-{white_count}.",
     "white_wins": "Branku ta ganha {white_count}-{black_count}.",
     "draw": "Traze {black_count}-{white_count}."
   }

@@ -13,7 +13,7 @@
     "repeated_guess": "Okanisi ete {guess}. Meká likanisi mosusu."
   },
   "game_action": {
-    "feedback": "Submitted [{guess}]. Feedback: {black_pegs} black peg(s), {white_pegs} white peg(s)."
+    "feedback": "Nabandi [{guess}]. Misiso: {black_pegs} misemo ya mpembe nyeusi, {white_pegs} misemo ya mpembe ya mpaya."
   },
   "outcome": {
     "win": "Ozali kobongisa code, kosolisa {black_pegs} kati ya {code_length} mabula bya ndeke.",

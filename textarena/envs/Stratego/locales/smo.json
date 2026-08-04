@@ -30,7 +30,7 @@
     "you_higher_won": "E te faʻaogaina lau peʻa mai {source} i {dest}. O le peʻa na faʻaaogaina e lau o {attacking_rank} ma le peʻa i le nofoaga o {target_rank}. Ona o le peʻa na faʻaaogaina e lau e sili atu nai lo le peʻa i le nofoaga, na e manaʻomia le tau.",
     "opponent_higher_lost": "Tagata taʻalo {player_id} ua faʻaogaina se peʻa mai {source} i {dest}. O le peʻa na faʻaaogaina e le tagata taʻalo o {attacking_rank} ma le peʻa i le nofoaga o {target_rank}. Ona o le peʻa na faʻaaogaina e le tagata taʻalo e sili atu nai lo le peʻa i le nofoaga, na e le manaʻomia le tau.",
     "you_lower_lost": "E te faʻaogaina lau peʻa mai {source} i {dest}. O le peʻa na faʻaaogaina e lau o {attacking_rank} ma le peʻa i le nofoaga o {target_rank}. Ona o le peʻa na faʻaaogaina e lau e le o sili atu nai lo le peʻa i le nofoaga, na e le manaʻomia le tau.",
-    "opponent_lower_won": "Player {player_id} has moved a piece from {source} to {dest}. The attacking piece was {attacking_rank} and the destination piece was {target_rank}. As the attacker is a lower rank than the destination, you won the battle."
+    "opponent_lower_won": "Ua liua e Player {player_id} se mea mai {source} i {dest}. O le mea osofa'i e {attacking_rank} ma le mea fa'atafa e {target_rank}. Pe a maualalo tulaga o le osofa'i nai lo le mea fa'atafa, ua manumalo oe i le taua."
   },
   "outcome": {
     "flag_captured": "Ua puʻe e le tagata taalo {player_id} le fuʻa a lona fili!",

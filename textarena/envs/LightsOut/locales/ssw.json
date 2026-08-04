@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "Umsebenti kumele ube ngendlela [row col] lapho khona imigca nemakholomu kungemabalwa laphelele kusuka ku-0 kuya ku-{max_index}.",
-    "out_of_range": "Coordinates must be between 0 and {max_index}. You entered [{row},{col}]."
+    "out_of_range": "Izikohto kumele zibe phakathi kuka-0 no-{max_index}. Wafaka [{row},{col}]."
   },
   "outcome": {
     "win": "Ngiyabonga, ulicatulule ngemisho {moves_used}!",

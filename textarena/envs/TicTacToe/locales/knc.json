@@ -7,7 +7,7 @@
     "{cell}": "A board cell number between 0 and 8"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Tic Tac Toe.\nYour goal is to win three in a row (horizontally, vertically, or diagonally) on the board.\nOn your turn, you should select the square number (0-8) you want to put your mark in next.\nFor example, '[4]' places your mark in the center cell of the board.\nAs Player {player_id}, you will be '{symbol}', while your opponent is '{opponent_symbol}'."
+    "intro": "Káma kaŋ Bántu {player_id} á Tic Tac Toe.\nKánta káma kaŋ ásá wúrí á kárá (kárá kúrú, kárá tséré, ámà kárá wúrí) á bọ́rdìn.\nÁ kárá káma kaŋ, ká wúrí káma kaŋ á sákwáti kwárá (0-8) káma kaŋ ásá wúrí ká mákà á kárá.\nÁlìmi, '[4]' á wúrí ká mákà á tséré kárá bọ́rdìn.\nKáma Bántu {player_id}, ká ásá wúrí '{symbol}', ámà kánta ká ásá wúrí '{opponent_symbol}'."
   },
   "board": {
     "current_board": "Borti Kadi:\n\n{board}\n\nKadi Kwatirika: {moves}"

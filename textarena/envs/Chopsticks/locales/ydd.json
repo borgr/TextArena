@@ -14,7 +14,7 @@
   },
   "game_action": {
     "attack": "P{player_id} אַטאַקירט P{opp_id}’ס האַנט {opp_idx}: עס גייט פֿון {opp_val} צו {new_val}.",
-    "split": "P{player_id} splits into [{L}, {R}]."
+    "split": "P{player_id} שפּאַלט אין [{L}, {R}]."
   },
   "history": {
     "entry": "P{player_id} {desc}"

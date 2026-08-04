@@ -9,10 +9,10 @@
     "{pct}": "Progress as a percentage string, e.g. 50%"
   },
   "player_prompt": {
-    "intro": "Map each letter to a unique digit so the arithmetic holds.\nAssign with `[A 5]`, re-assign anytime.\n"
+    "intro": "प्रत्येक अक्षरलाई एक अद्वितीय अंकमा म्याप गर्नुहोस् ताकि गणित स्थिर रहोस्।\n[A 5] साथ असाइन गर्नुहोस्, जुनसुकै समय पुनः असाइन गर्न सक्नुहुन्छ।\n"
   },
   "invalid_move": {
-    "wrong_format": "Bad action format. Use `[A 5]`.",
+    "wrong_format": "खराब कार्य ढाँचा। [A 5] प्रयोग गर्नुहोस्।",
     "letter_not_in_puzzle": "अक्षर {letter} पजलमा छैन।",
     "digit_used": "अंक {digit} पहिले नै {used_letter} द्वारा प्रयोग गरिएको छ।",
     "leading_zero": "कुनै शब्दको अग्रणी अंक ० हुन सक्दैन।"

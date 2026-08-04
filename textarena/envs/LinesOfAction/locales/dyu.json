@@ -10,7 +10,7 @@
     "{to}": "The destination coordinate of a move, such as b3"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in game of LinesOfAction.\nYour pieces are '{side}', opponent pieces are '{other}'.\nMove format: `[b1b3]` (from-coord to-coord). A legal move travels horizontally, vertically, or diagonally a number of squares equal to the total pieces (any colour) in that line. You may jump over your own pieces, but not opponent pieces; landing on an opponent captures it.  Win when all your pieces are 8-neighbour connected."
+    "intro": "I ye Player {player_id} ye kɛlɛbaga LinesOfAction la.\nA ma kɔlɔsi ye '{side}', a kɔlɔsi tɛmɛ ye '{other}'.\nKɛlɛbaga bɔnɛ: `[b1b3]` (kɔɔrɔdɔnɛ kɔɔrɔdɔnɛ). Kɛlɛbaga tɔgɔ ye kɔlɔnɛnɛ, wolonɛnɛ, wala kɔɔrɔnɛnɛ, a ma kɔlɔsi tɔgɔ ye kɔlɔnɛnɛ bɛɛ la. I ka kɔlɔsi wolonɛnɛ, nka a kɔlɔsi tɛmɛ mɔ; a kɔlɔsi tɛmɛ kanɛ bɛ a fa. I ye kɛlɛbaga kɔlɔsi 8-kɔɔrɔdɔnɛ ye, i ye kɛlɛbaga la."
   },
   "board": {
     "current_board": "Jamanakuntigi: {board}"
@@ -20,7 +20,7 @@
     "no_piece": "A te se {side} dɔgɔ kɔnɔ {coord}.",
     "identical": "A bɔyɔrɔ n'a tagayɔrɔ ye kelen ye.",
     "not_straight_or_diagonal": "A ka ɲi k'a kɛ siratilennin na wala a kana tɛmɛ o kan.",
-    "wrong_distance": "Must move distance equal to pieces in line.",
+    "wrong_distance": "Kɛlɛbaga tɔgɔ ye kɔlɔsi tɔgɔ ye kɔlɔnɛnɛ la.",
     "enemy_blocks": "An jugu ka kɛlɛkɛwotoro dɔ be sira dira an ma.",
     "destination_own": "A yɛrɛ ka kɛlɛkɛwotoro kelen lo tun b'a tagara yɔrɔ min na."
   },

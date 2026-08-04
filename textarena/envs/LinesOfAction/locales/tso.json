@@ -10,7 +10,7 @@
     "{to}": "The destination coordinate of a move, such as b3"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in game of LinesOfAction.\nYour pieces are '{side}', opponent pieces are '{other}'.\nMove format: `[b1b3]` (from-coord to-coord). A legal move travels horizontally, vertically, or diagonally a number of squares equal to the total pieces (any colour) in that line. You may jump over your own pieces, but not opponent pieces; landing on an opponent captures it.  Win when all your pieces are 8-neighbour connected."
+    "intro": "U mpiri {player_id} eka michezo ya LinesOfAction.\nSwifaniso swa wena i '{side}', swifaniso swa muphikisi i '{other}'.\nMuundo wa ku famba: `[b1b3]` (khwara ya ku suka ku ya khwara). Ku famba kwa ndlela ya milawu ku famba kwa ushikilele, kwembu, kumbe diagonal ku famba idlala ya makhwara ya swifaniso (makhadi yoyote ya rangi) eka ndlela yoleyo. U nga fambi swifaniso swa wena, kambe u nga fambi swifaniso swa muphikisi; ku wela eka muphikisi ku mu dlaya.  U wini loko swifaniso swa wena swote swi hlanganile."
   },
   "board": {
     "current_board": "Huvo: {board}"

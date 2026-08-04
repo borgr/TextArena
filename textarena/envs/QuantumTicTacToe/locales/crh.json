@@ -1,9 +1,9 @@
 {
   "player_prompt": {
-    "intro": "Siz Quantum Tic Tac Toe'da Oyuncu {player_id}'sınız.\nSembolünüz '{symbol}', ve hareke numaralarınız her zaman {parity} (örn., X1, X3 veya O2, O4).\n\nHedef: Üç klasik markadan (süperpozisyonlardan katılaşan) oluşan bir çizgi oluşturarak kazanmak.\n\nNasıl Oynanır:\n- Her turda, '[a,b]' formatını kullanarak iki farklı boş karede bir hayalet markası yerleştirin.\n- Bu markalar bağlantılıdır ve 'X1 / X1' veya 'O4 / O4' gibi etiketlenir.\n- Daha önce çökmüş (katılaşmış) bir kareye hayalet markası yerleştiremezsiniz.\n\nÇökme Kuralı:\n- Eğer harekeniz bağlantılı grafikte bir döngü oluşturursa, otomatik olarak çöker.\n- Döngüdeki her hayalet markası, iki konumundan birinde klasik bir markaya dönüşür.\n- Bağımlı hayalet markaları da çöker.\n\nZafer:\n- Oyun, bir oyuncu üç klasik markayı sırayla elde ettiğinde biter.\n- Eğer her iki oyuncu aynı çökme sırasında bir çizgi elde ederse, daha düşük maksimum hareke numarasına sahip olan kazanır.\n\nÖrnek hareke: '[0,4]' 0 ve 4 hücrelerinde bir hayalet markası yerleştirir."
+    "intro": "Siz Quantum Tic Tac Toe oyunda {player_id} oyuncusısınız.\nSizin simvolüñiz '{symbol}', ve sizin hamle sayılarıñız daima {parity} (meselâ, X1, X3 veya O2, O4).\n\nMaqsat: Üç klassik işareti bir sırada qoyaraq (üst-üstte superpozitsiyalardan) utmaq.\n\nNasıl Oynanılır:\n- Her turda, '[a,b]' formatında eki farklı boş kvadratqa bir qorqunç işareti qoyun.\n- Bu işaretler entangled olıp, 'X1 / X1' veya 'O4 / O4' kibi etiketlenilir.\n- Sizin bir kvadratqa qorqunç işaret qoymañız mümkün degil, eger o kvadrat artıq çöküntüge uğramışsa (katılaşmışsa).\n\nÇöküntü Qaidası:\n- Eger sizin hamleniz entanglement grafiqinde bir döngü yaratırsa, o avtomatik olarak çöküntüge uğrayır.\n- Döngüdeki her qorqunç işaret ikiye bölünerek klassik işaretlerden birine çevirilir.\n- Herangi bağlı qorqunç işaretler de çöküntüge uğrayır.\n\nUtmaq:\n- Oyun, bir oyuncunun üç klassik işaretini bir sırada qoyğanda bite.\n- Eger eki oyuncu bir sıradaki çöküntüde bir sırada utmağa nail olsa, max hamle sayısı az olanı utmağa nail olur.\n\nMisal hamle: '[0,4]' 0 ve 4 hücrelerge bir qorqunç işaret qoyur."
   },
   "board": {
-    "current_board": "Kvant Tik Tak Toe Taxtası:\n\n{board}\n\nÖz harekeni '[a,b]' olarak göndererek iki yerде kvant markasını yerleştirin."
+    "current_board": "Quantum Tic Tac Toe Tahtası:\n\n{board}\n\n'[a,b]' formatında bir kvant işaretini eki kvadratqa qoyaraq hamleniñizni bildirin."
   },
   "invalid_move": {
     "wrong_format": "Uquqsız format. '[a,b]' qullanıñız.",
@@ -11,12 +11,12 @@
     "already_solidified": "Üceyrelerden biri endi qattılaştı."
   },
   "game_action": {
-    "placed": "Oyuncu {player_id} sembolünü {pos_a} ve {pos_b} hücreleri arasında süperpozisyonda yerleştirdi."
+    "placed": "Oyuncu {player_id} simvolüni {pos_a} ve {pos_b} hücreleri arasında bir superpozitsiyağa qoydu."
   },
   "game_message": {
-    "dependent_resolved": "Bağımlı süperpozisyon çözüldü. Hücre ({r}, {c}) şimdi {symbol}.",
-    "last_cell_resolved": "Son hücre için süperpozisyon çözüldü. Hücre ({r}, {c}) şimdi {symbol}.",
-    "superposition_resolved": "Süperpozisyon çözüldü. Hücre ({r}, {c}) şimdi {symbol}."
+    "dependent_resolved": "Bağlı superpozitsiya halloldu. Hücre ({r}, {c}) şimdi {symbol}.",
+    "last_cell_resolved": "Soñki hücrenin superpozitsiyası halloldu. Hücre ({r}, {c}) şimdi {symbol}.",
+    "superposition_resolved": "Superpozitsiya halloldu. Hücre ({r}, {c}) şimdi {symbol}."
   },
   "outcome": {
     "win": "{player_id} oyuncısı, qatı işaretlernen ğalebe qazana!",

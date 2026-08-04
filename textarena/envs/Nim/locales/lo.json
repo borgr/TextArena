@@ -13,7 +13,7 @@
     "exceeds_pile": "ບໍ່ສາມາດເອົາ {quantity} ອອກຈາກ stack {pile_index} (ພຽງແຕ່ {pile_count} ຊ້າຍ)."
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "ຜູ້ຫຼິ້ນ {player_id} ຫຼິ້ນ [{pile_index} {quantity}], ລົບ {quantity} ວັດຖຸ(ສ) ຈາກກຸ່ມ {pile_index}."
   },
   "outcome": {
     "win": "ຜູ້ນ {player_id} ໄດ້ເອົາວັດຖຸສຸດທ້າຍ (((s)!"

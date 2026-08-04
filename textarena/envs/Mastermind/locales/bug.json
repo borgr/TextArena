@@ -1,7 +1,7 @@
 {
   "player_prompt": {
-    "intro": "You are playing Mastermind.\nYou need to find the code that is {code_length} digits long, each digit from 1 to {num_numbers}, {repeats}.\nIn your response, you can submit your guess in the following format: '[2 1 4 5]'.\nAfter each guess, you will receive feedback in the form of black and white pegs.\nA black peg indicates a correct digit in the correct position, while a white peg indicates a correct digit in the wrong position.\nYou have {max_turns} turns to guess the code.\n",
-    "with_repeats": "with possible repeats",
+    "intro": "Makkita mappattenni Mastermind.\nKauwiwiwiwiwiwi kodi sibawa {code_length} angka laleng, masing-masing angka laleng ri 1 hingga {num_numbers}, {repeats}.\nRi jawabannu, kauwiwiwiwiwiwiwiwiwiwiwiwi format: '[2 1 4 5]'.\nRi kila tebakannu, kauwiwiwiwiwiwiwiwiwiwiwiwi umpan balik ri bentuk paku hitam dan putih.\nPaku hitam nunjukka angka benar ri posisi benar, sadangkan paku putih nunjukka angka benar ri posisi salah.\nKauwiwiwiwiwiwi {max_turns} giliran tebak kodi.\n",
+    "with_repeats": "siagai makkeda répéta",
     "no_duplicates": "degaga duplikatna"
   },
   "invalid_move": {
@@ -13,7 +13,7 @@
     "repeated_guess": "Pura-pura tona nitarima {guess}. Coba'i to mpatarimai anu laen."
   },
   "game_action": {
-    "feedback": "Submitted [{guess}]. Feedback: {black_pegs} black peg(s), {white_pegs} white peg(s)."
+    "feedback": "Naréré [{guess}]. Pasuwala: {black_pegs} péré'  makkalu-kalu, {white_pegs} péré'  pute."
   },
   "outcome": {
     "win": "Andi riakkai kode, manyalasa'i {black_pegs} dari {code_length} pasang coklat dengan bener.",

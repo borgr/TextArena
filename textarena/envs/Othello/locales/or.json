@@ -16,7 +16,7 @@
   },
   "game_action": {
     "skipped": "ଖେଳାଳି {pid}ଙ୍କୁ ତାଙ୍କ ପାଳିକୁ ବାଦ ଦେବାକୁ ପଡିଥିଲା",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "ଖେଳାଳୀ {pid} ({piece}) ଚାଳ [{r}, {c}] ଖେଳି ଫ୍ଲିପ କରି {flipped} ପିସ"
   },
   "game_message": {
     "must_skip": "ଖେଳାଡ଼ି {pid} ({piece}) ନିରାକର ଚାଲଗୁଲି ନାହିଁ ଏବଂ ଅତିକ୍ରମ କରିବା ଆବଶ୍ୟକ."

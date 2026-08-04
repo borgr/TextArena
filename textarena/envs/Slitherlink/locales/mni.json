@@ -1,9 +1,9 @@
 {
   "player_prompt": {
-    "intro": "You are playing Slitherlink on a {R}x{C} grid!\nDraw a single continuous loop so each numbered cell has that many bordering edges.\nToggle edges with:\n  [h r c] - toggle horizontal edge above dots at row r, column c\n  [v r c] - toggle vertical edge left of dots at row r, column c\nNumbers show required edge count, '.' means no constraint.\nYou have up to {max_turns} moves to solve the puzzle."
+    "intro": "আমি {R}x{C} ৰেখাবীথিতে Slitherlink তম্বল কৰি!\nপ্রতিটি সংখ্যা সহ ঘরটিকে সেই সংখ্যক প্রান্ত দিয়ে একটি লুপ আঁকক।\nপ্রান্তগুলি টগল করতে:\n  [h r c] - ডটসটির উপরে অনুভূমিক প্রান্ত টগল করুন r সারি, c কলাম\n  [v r c] - ডটসটির বাম দিকে উল্লম্ব প্রান্ত টগল করুন r সারি, c কলাম\nসংখ্যাগুলি প্রয়োজনীয় প্রান্ত গণনা দেখায়, '.' মানে কোন সীমাবদ্ধতা নেই।\nআপনার কাছে {max_turns} চাল আছে ধাঁধা সমাধান করতে।"
   },
   "board": {
-    "current_board": "{board}\nClues satisfied: {progress}"
+    "current_board": "{board}\nসূত্রগুলি সন্তুষ্ট: {progress}"
   },
   "invalid_move": {
     "wrong_format": "Bad action format. Use [h row col] or [v row col].",

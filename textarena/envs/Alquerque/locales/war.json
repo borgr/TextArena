@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "bad_format": "Diri maopay nga pormat. Gamit an \"[a2 a3]\".",
-    "unknown_square": "An unknown square.",
+    "unknown_square": "Waray kilala nga kwadrado.",
     "not_your_piece": "Diri imo an tinikangan.",
     "dest_not_empty": "An destinasyon diri waray sulod.",
     "illegal": "Ilegal nga pag-alis."

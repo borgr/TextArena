@@ -13,8 +13,8 @@
     "already_matched": "Mana allin movimiento. Juñuri {player_id} huk kartata akllakun, iskayninpas kikinchasqaña kachkanku."
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "Kawak {player_id}qa akllasqa p'uykuna, siq'i [{r1} {c1}]pi, siq'i [{r2} {c2}]pi, huk'uchaptin!",
+    "cards_no_match": "Kawak {player_id}qa akllasqa p'uykuna mana huk'uchaptin. P'uykuna siq'i [{r1} {c1}]pi, siq'i [{r2} {c2}]pi, {pos1}, {pos2} kanku."
   },
   "outcome": {
     "draw": "Iskayninkutaq kikin cartata churarqanku.",

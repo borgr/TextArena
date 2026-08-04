@@ -1,20 +1,20 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in Wild Tic Tac Toe.\nOn your turn, you can place either an 'X' or an 'O' in an empty square.\nYou win by aligning three of the same mark (X or O) in a row.\nYou can win with either symbol.\nChoose your move using the format '[X 4]' to place X in the center.\n"
+    "intro": "আপুনি Wild Tic Tac Toe  গেমত প্লেয়ার {player_id} নি।\nআপুনা টার্নত, আপুনি খালি বর্গক্ষেত্রত 'X' অথবা 'O' তা দিতে পারেন।\nআপুনি একই চিহ্ন (X অথবা O) তিনটা সারিত জগাই করে জিতে পারেন।\nআপুনি যে কোন চিহ্নত জিতে পারেন।\nআপুনা মুভ '[X 4]' ফর্ম্যাট ব্যবহার করে কেন্দ্রত X দিতে পারেন।\n"
   },
   "board": {
-    "current_board": "Current Board:\n\n{board}\n\nAvailable Moves: {moves}"
+    "current_board": "বর্তমান বোর্ড:\n\n{board}\n\nউপলব্ধ মুভ: {moves}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid move format. Use '[X 4]' or '[O 2]' format.",
+    "wrong_format": "ভুল মুভ ফর্ম্যাট। '[X 4]' অথবা '[O 2]' ফর্ম্যাট ব্যবহার করুন।",
     "invalid_cell": "ইনভেলিদ সেল নম্বর: {cell}। 0 অমসুং 8গী মরক্তা ওইগদবনি।",
     "already_occupied": "ইলিজিবল ওইবা খোঙথাং। সেল {cell} অসি হান্ননা ওকুপেন্দ তৌরে."
   },
   "game_action": {
-    "placed": "Player {player_id} placed their symbol ({mark}) in cell {cell}"
+    "placed": "প্লেয়ার {player_id} তাদের চিহ্ন ({mark}) সেল {cell} ত দিলে"
   },
   "outcome": {
-    "win": "Player {player_id} wins with {mark}s!",
+    "win": "প্লেয়ার {player_id} {mark} ত জিতলে!",
     "draw": "শান্নবা অসি দ্রাই ওই!"
   }
 }

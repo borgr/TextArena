@@ -10,7 +10,7 @@
     "{groups}": "Neutral ranking data (a list of player-id groups, best to worst); do not translate"
   },
   "player_prompt": {
-    "intro": "{num_players}-Jugador alrededor de un {width}x{height} cuadrícula.\nUsted es jugador {player_id}. Movimientos válidos: '[up]' '[down]' '[left]' '[right]' o w/s/a/d.\nObjetivo: sobrevivir a todos los demás. Los rastros son mortales; golpes de pared matan; choques frontales matan a ambos."
+    "intro": "{num_players}-Ñande Surround {width}x{height} kuádale.\nNde {player_id} ñande. Tembiaporã: '[up]' '[down]' '[left]' '[right]' térã w/s/a/d.\nObjetivo: nande jukyty ambue. Tape kuéra ojuka; óga ojuka; ñande ojuka ojoaju."
   },
   "board": {
     "current": "Junta ko'ágãgua: {board}",
@@ -25,6 +25,6 @@
     "outlived": "Péva ha'e pe ohasáva opavavépe.",
     "all_dead": "Opavave jugador omano.",
     "turn_limit": "Oñembojávo pe límite de vuelta - ohasáva ipukuveha ogana.",
-    "ranking": "{reason} Ranking final grupo (mejor→peor): {groups}"
+    "ranking": "{reason} Ñande ranking aty paha (mejor→peor): {groups}"
   }
 }

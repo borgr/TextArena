@@ -12,7 +12,7 @@
   },
   "offers": {
     "reject": "Ag-inawat na player {player_id} so imbunog.",
-    "accept": "Player {acceptor_id} inakar a panagtrade nga offer ni Player {proposer_id}.",
+    "accept": "Manag-ayam {acceptor_id} inawat met la'y ipanag-offer a ipanag-trayd ed Manag-ayam {proposer_id}.",
     "proposal": "Player {player_id} inmaka a sumangat a offer ed Player {opponent_id}: Inoffer a bagay: {offered} -> Dinemanda a bagay: {requested}"
   },
   "outcome": {

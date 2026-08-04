@@ -10,27 +10,27 @@
     "{to}": "The destination coordinate of a move, such as b3"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in game of LinesOfAction.\nYour pieces are '{side}', opponent pieces are '{other}'.\nMove format: `[b1b3]` (from-coord to-coord). A legal move travels horizontally, vertically, or diagonally a number of squares equal to the total pieces (any colour) in that line. You may jump over your own pieces, but not opponent pieces; landing on an opponent captures it.  Win when all your pieces are 8-neighbour connected."
+    "intro": "Uli Muthu {player_id} mu nthanda ya LinesOfAction.\nVipande vyako ni '{side}', vipande vya muthu mwingine ni '{other}'.\nMfumo wa kusogea: `[b1b3]` (kutoka-kumbukumbu hadi-kumbukumbu).  Mlusuko wa sheria unatembea wima, mlalo, au diagonally idadi ya miraba sawa na jumla ya vipande (rang yoyote) kwenye mstari huo.  Unaweza kuruka juu ya vipande vyako mwenyewe, lakini si vipande vya muthu mwingine;  kutua kwenye muthu mwingine kumkamata.  Ushinde wakati vipande vyako vyote vimeunganishwa kwa 8-majirani."
   },
   "board": {
     "current_board": "Board:\n\n{board}"
   },
   "invalid_move": {
-    "wrong_format": "Cjk: cj must be e2e4 (from, to coordinates).",
+    "wrong_format": "Mfumo lazima uwe e2e4 (kutoka, hadi viwianishi).",
     "no_piece": "No {side} piece on {coord}.",
-    "identical": "Cjk and destination are similar.",
+    "identical": "Chanzo na mahali pa kusogea ni sawa.",
     "not_straight_or_diagonal": "Kengele cjk lazima iwe straight or diagonal.",
     "wrong_distance": "Cj, esengeli ku sende k'akata na kilo.",
     "enemy_blocks": "Kyangala ndundu ya lunda nzila.",
     "destination_own": "Kwangaya cjk'a nga b'o ng'ama."
   },
   "game_action": {
-    "moved": "Player {player_id} moved {from} -> {to}",
-    "captured_suffix": "Player {player_id} moved {from} -> {to} capturing an enemy."
+    "moved": "Muthu {player_id} alisogea {from} -> {to}",
+    "captured_suffix": "Muthu {player_id} alisogea {from} -> {to} akamkamata muthu mwingine."
   },
   "outcome": {
     "win": "Kwangalu nderi ma cj.",
-    "draw_no_capture": "60 moves without capture.",
+    "draw_no_capture": "Mlusuko 60 bila kumkamata muthu mwingine.",
     "draw_repetition": "Kengele ya cjk ikatiwa mara tatu."
   }
 }

@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "მოქმედება უნდა იყოს ფორმატში [row col], სადაც რიგები და სვეტები არის მთელი რიცხვები 0-დან {max_index}-მდე.",
-    "out_of_range": "Coordinates must be between 0 and {max_index}. You entered [{row},{col}]."
+    "out_of_range": "კოორდინატები უნდა იყოს 0-დან {max_index} მდე. თქვენ შეიყვანეთ [{row},{col}]."
   },
   "outcome": {
     "win": "გილოცავ! შენ გადაჭერი იდუმალება {moves_used} ნაბიჯებით!",

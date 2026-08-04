@@ -14,15 +14,15 @@
     "{scores}": "The final scores as a raw player-number to score mapping - do not translate"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player GOPS.\n- You hold the 13 cards A-K (each exactly once).\n- Each round a prize is revealed. Submit ONE card like `[Q]`, `[10]`, `[2]` …\n- Highest card wins the prize (+ any carry-over pot). Ties roll the prize into the next round.\n- After 13 rounds, highest total wins. Invalid moves = elimination."
+    "intro": "A nyi azɔnwla {player_id} le Three-Player GOPS mẹ.\n- A kpo 13 kaati A-K (kpakpo ɖeka ɖeka).\n- Fiɖokpo ɖeka ɖeka wu a ɖo xexeme. Na kpo kaati ɖeka tɔn, abala `[Q]`, `[10]`, `[2]` …\n- Kaati kpo godo wu xexeme (kpakpo akpaxome godo). Gbɛtɔ lɛ wu xexeme ɖo fiɖokpo ɖeka ɖeka mẹ.\n- Fiɖokpo 13 godo, godo wu xexeme lɛ wu azɔnwla. Ɖo xexe gɛɖeke godo wu azɔnwla ɖo."
   },
   "round": {
-    "header": "### Round {round}/13 - Prize: {prize} (worth {worth})",
+    "header": "### Fiɖokpo {round}/13 - Xexeme: {prize} (ɖo {worth})",
     "hand": "Alɔ towe e kpo é: {hand}"
   },
   "reveal": {
-    "win": "Bids » {bids} - Player {winner} wins {pot}.",
-    "tie": "Bids » {bids} - tie, pot now {pot}.",
+    "win": "Gbɛtɔ » {bids} - Azɔnwla {winner} wu {pot}.",
+    "tie": "Gbɛtɔ » {bids} - gbɛtɔ lɛ, akpaxome ɖo {pot}.",
     "scores": "Akɔnta lɛ → {scoreline}"
   },
   "invalid_move": {
@@ -30,7 +30,7 @@
     "bad_card": "wema e è ko zán ɖ'ayǐ é alǒ mɛ̀ ma sɔgbe ǎ"
   },
   "elimination": {
-    "player": "Ðåæèññåð {pid} èíòåãðèðîâàí ïîñëåäóþùèõ íåâûñîêî óñòóïàåìûõ ðåâèçèé."
+    "player": "Azɔnwla {pid} ɖo kpo ɖo xexe gɛɖeke godo wu."
   },
   "outcome": {
     "auto_win": "Enyi è ɖè mɛ wè sín kplékplé ɔ, ye nɔ ɖu ɖ'é jí.",

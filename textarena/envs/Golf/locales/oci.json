@@ -48,7 +48,7 @@
   "message": {
     "deck_empty": "Lo pòrt es voide! La partida s'acaba immediatament.",
     "knocked": "Joguèt {pid} es tombat! Cada jogaire a un torn de mai.",
-    "final_round": "Player {pid} {reason}! Each other player gets one more turn."
+    "final_round": "Lo jogaire {pid} {reason}! Cada autre jogaire a una mança de mai."
   },
   "reason": {
     "all_revealed": "A totas las cartas reveladas ?"
@@ -67,13 +67,13 @@
     "already_revealed": "Aquela carta es ja revelada!"
   },
   "summary": {
-    "full": "Jòc terminat! Jogador {winner} ganha amb un puntatge de {score} punts!\n\nPuntatges finals:\n{scores}",
+    "full": "Partida acabada! Lo jogaire {winner} ganha amb un escore de {score} punts!\n\nEscores finals:\n{scores}",
     "line": "Jogador {pid}: {score} punts\n"
   },
   "board_str": {
     "title": "=== Jòc de golf ===",
     "discard": "Enregistrament de la pilha: {card}",
     "knocked": "Lo jogaire {pid} a botat !",
-    "player_header": "Player {pid} (Score: {score}):"
+    "player_header": "Jogaire {pid} (Escore: {score}):"
   }
 }

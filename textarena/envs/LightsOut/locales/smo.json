@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "E tatau ona i ai le faatulagaga [row col] lea o laina ma koluma e aofia ai numera atoa mai 0 i {max_index}.",
-    "out_of_range": "Coordinates must be between 0 and {max_index}. You entered [{row},{col}]."
+    "out_of_range": "O le fa'ailoa e tatau ona i le va o le 0 ma le {max_index}. Na e taini [{row},{col}]."
   },
   "outcome": {
     "win": "Faʻafetai lava! Ua e foia le paso i {moves_used} siitiaga!",

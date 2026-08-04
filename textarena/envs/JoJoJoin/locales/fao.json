@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in JoJoJoin, played on a 5x5 board with cells numbered 0-24.\nOn your turn, place your mark on any empty cell, e.g. '[12]'.\nYOU WIN by getting FOUR of your marks in a row — four consecutive cells horizontally, vertically, or diagonally.\nAs Player {player_id} you are '{symbol}'; your opponent is '{opponent_symbol}'."
+    "intro": "Tú ert Spælar {player_id} í JoJoJoin, leikt á eini 5x5 talvu við súlum nummeraðum 0-24.\nÁ tínari røð, set markið títt á hvønn tóman súlu, t.d. '[12]'.\nTÚ VINNER við at fáa FÝRA av markunum tínum í rað — fýra samstøðugar súlur vannskeiðis, lodrætt ella á skák.\nSum Spælar {player_id} ert tú '{symbol}'; móspælarin er '{opponent_symbol}'."
   },
   "board": {
     "current_board": "Núverandi borð:\n\n{board}\n\nFáa framleiðslur: {moves}"

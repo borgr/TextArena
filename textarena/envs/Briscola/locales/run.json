@@ -19,10 +19,10 @@
     "{deck_count}": "Number of cards left in the deck"
   },
   "game": {
-    "start": "Briscola game started! Trump suit: {trump_suit} (Trump card: {trump_card})"
+    "start": "Mchezo wa Briscola umeanza! Suti ya trump: {trump_suit} (Kadi ya trump: {trump_card})"
   },
   "prompt": {
-    "intro": "You are playing Briscola - Player {player_id}.\nGoal: Win tricks and collect the most points (120 total points in the deck).\nCard Points: A=11, 3=10, K=4, Q=3, J=2, others=0\nCard Power: A > 3 > K > Q > J > 7 > 6 > 5 > 4 > 2\nTrump cards beat non-trump cards regardless of power.\n\nAction: '[play X]' where X is the position (1-{max_pos}) of the card in your hand\n"
+    "intro": "Uri kuri kina Briscola - Umukinnyi {player_id}.\nIngenzo: Shukura mikino na kukusanya amanota mengi zaidi (jumla ya amanota 120 muri karata).\nAmanota ya Karata: A=11, 3=10, K=4, Q=3, J=2, izindi=0\nNguvu za Karata: A > 3 > K > Q > J > 7 > 6 > 5 > 4 > 2\nKarata za Trump zishuka karata zisizo za Trump bila kujali nguvu.\n\nIgikorwa: '[play X]' aho X ni umwanya (1-{max_pos}) wa karata muri mkono wawe\n"
   },
   "hand": {
     "none": "Nta makarata yo guhanahana amakuru",
@@ -37,21 +37,21 @@
     "line": "  Player {player_id}: {card}{trump_mark}"
   },
   "turn": {
-    "score_entry": "Player {player_id}: {points} pts",
+    "score_entry": "Mchezaji {player_id}: {points} pts",
     "trump_info": "Urutonde rwa Trump: {trump_suit}",
-    "trump_info_deck": "Trump suit: {trump_suit} | Cards left in deck: {deck_count}",
-    "board": "{hand}\n\n{trick}\n\nScores: {scores}\n{trump_info}\n\nPlay a card using [play X]"
+    "trump_info_deck": "Suti ya trump: {trump_suit} | Kadi zilizosalia kwenye sitaha: {deck_count}",
+    "board": "{hand}\n\n{trick}\n\nAmanota: {scores}\n{trump_info}\n\nKina karata ukitumia [play X]"
   },
   "invalid_move": {
     "wrong_format": "Koresha [play X] aho X ari ikibanza c'ikarata (1, 2, 3, n'ibindi)",
-    "out_of_range": "Invalid card position. You have {count} cards (1-{count})"
+    "out_of_range": "Nafasi ya kadi si sahihi. Una {count} kadi (1-{count})"
   },
   "action": {
-    "played": "Player {player_id} played {card}",
-    "trick_win": "Player {winner} wins the trick with {card} and gains {points} points!"
+    "played": "Mchezaji {player_id} alicheza {card}",
+    "trick_win": "Mchezaji {winner} anashinda mzunguko na {card} na kupata {points} pointi!"
   },
   "outcome": {
-    "head": "Game Over! Player {winner} wins with {points} points!\n\nFinal Scores:\n{scores}",
-    "player_line": "Player {player_id}: {points} points ({tricks} tricks)\n"
+    "head": "Mchezo Umeisha! Mchezaji {winner} anashinda na {points} pointi!\n\nAlama za Mwisho:\n{scores}",
+    "player_line": "Mchezaji {player_id}: {points} pointi ({tricks} mizunguko)\n"
   }
 }

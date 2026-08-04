@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id}. You are playing the Memory Game.\nYour goal is to match more pairs of cards on the board, than your opponent.\nOn your turn, select two cards to flip by entering the row and column numbers of the first and second card respectively like '[0 1 1 0]', where the first card is in row 0 and column 1, and the second card is in row 1 and column 0.\nIf the two cards match, you get a point and the cards remain face up. If they do not match, the cards are flipped back face down, e.g. '.'.\nThe game ends when all pairs have been matched."
+    "intro": "Nde Player {player_id} rei. Nde Memory Game rehe oñeha'ã.\nNe remiandu ha'e ojuhu heta kuña joja rehe, kuña ambue rehe oñeha'ãva.\nNe ñe'ẽme, eiporavo mokõi kuña omboguejy hagua, oike rehe kuña peteĩha ha mokõiha rechaukahápe, ha'eicha '[0 1 1 0]', kuña peteĩha oĩ rehe rango 0 ha columna 1, ha kuña mokõiha oĩ rehe rango 1 ha columna 0.\nKuña mokõi ojuhu ramo, rei puntu peteĩ ha kuña ku omboguejy. Kuña ndojuhu ramo, kuña ku ojepe'a jey, techapyrãme '.'.\nJuego opa ramo, opa kuña joja ojuhu ramo."
   },
   "board": {
     "current_board": "Junta ko'ágãgua: {board}",
@@ -13,13 +13,13 @@
     "already_matched": "Ojejapo'ỹva. Jokuaha {player_id} oiporavo peteĩ térã mokõivéva umi tarjeta oñembojojáva'ekue."
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "Kuña oiporavo Player {player_id} tenda [{r1} {c1}] ha [{r2} {c2}] ojuhu!",
+    "cards_no_match": "Kuña oiporavo Player {player_id} ndojuhu ramo. Kuña tenda [{r1} {c1}] ha [{r2} {c2}] ha'e {pos1} ha {pos2} oĩrikué."
   },
   "outcome": {
     "draw": "Mokõivéva umi jugador ojoaju papapy par de cartas-pe.",
     "win": "¡Oñemomba'e guasúkuri pe jugador {winner_id}!",
-    "turn_limit": "The turn limit has been reached. The game is over. Player 0 scored {score_0} points, Player 1 scored {score_1} points.",
-    "turn_limit_win": "{reason} Player {winner_id} has won!"
+    "turn_limit": "Ojejapóma pe término de tirada. Opa pe ñembosarái. Pe ñembosarái 0 ogana {score_0} punto, pe ñembosarái 1 ogana {score_1} punto.",
+    "turn_limit_win": "{reason} Player {winner_id} oñemohu!"
   }
 }

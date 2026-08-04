@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You will observe {N} hidden values sequentially.\nAt each step type [accept] to pick the *current* value, or [continue] to skip it and see the next one.\nIf you never accept, you are forced to take the final value.\nYou win (reward = 1) **only** if the value you ultimately pick is the highest of all."
+    "intro": "Olija kulaba {N} maadili agenzebwa mu mpangilio.\nKu buli hatua, tiiya [accept] okukakasa maadili *ga kati*, oba [continue] okuleka kugenda osooke ku maadili agenzi.\nBw'otakkiriza, olija kulazimishwa okukakasa maadili ga mwisho.\nOlija kuwangula (ekijja = 1) **yokka** bw'omaadili gwe olija kukakasa gwe maadili ga waggulu w'onna."
   },
   "game_action": {
     "current_value": "Omugaso gw'ennaku zino gwe {value}."

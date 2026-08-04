@@ -4,7 +4,7 @@
     "no_trump_card": "ما فما."
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in German Whist.\n{phase_info}\nYou hold {hand_size} cards.\nPlay a card with '[play N]', where N is its position in your hand (for example '[play 3]').",
+    "intro": "أنت لاعب {player_id} في الويس الألماني.\n{phase_info}\nأنت تمتلك {hand_size} كارت.\nالعب كارت مع '[play N]', حيث N هو موقعه في يدك (على سبيل المثال '[play 3]').",
     "phase_learning": "المرحلة المتعلقة بالعلم: الفائز في كل حيلة يأخذ البطاقة الوجيهة للقمة والخاسر يرسم الكارت التالي من الحزمة. الحيل التي تتم فترة هذه لا تعتبر للفوز.",
     "phase_playing": "المرحلة لعب: الكارطة تخلصت. كل حيلة من هوني تعتبر نصرك."
   },

@@ -1,16 +1,16 @@
 {
   "player_prompt": {
-    "intro": "Anda adalah Pemain {player_id} dalam permainan Batu-Kertas-Gunting {num_rounds}-ronde.\nTujuan Anda adalah memenangkan sebanyak mungkin ronde.\nDi setiap ronde, respons dengan salah satu: '[rock]', '[paper]', atau '[scissors]'.\nAnda juga dapat menggunakan '[r]', '[p]', atau '[s]' sebagai singkatan.\n"
+    "intro": "Ia dados Pemain {player_id} ring pertandingan Batu-Kertas-Gunting salami {num_rounds} puteran.\nTatujon Iraga inggih punika menang ring akeh puteran sané dados.\nRing puteran soang-soang, warih antuk silih tunggil: '[rock]', '[paper]', utawi '[scissors]'.\nIraga taler dados nganggén '[r]', '[p]', utawi '[s]' dados singkatan.\n"
   },
   "invalid_move": {
-    "wrong_format": "Gerakan tidak dikenali. Gunakan [rock], [paper], atau [scissors]."
+    "wrong_format": "Gerakan nénten kauningin. Anggén [rock], [paper], utawi [scissors]."
   },
   "game_action": {
     "selects": "Pamain {player_id} milih pajalan {move}."
   },
   "message": {
-    "round_draw": "Hasil babak: Draw (padu)",
-    "round_win": "Hasil ronde: Pamain {winner} menang!"
+    "round_draw": "Hasil puteran: Imbang",
+    "round_win": "Hasil puteran: Pemain {winner} menang!"
   },
   "outcome": {
     "p0_wins": "Pamain nol menang ring akéh ronde!",

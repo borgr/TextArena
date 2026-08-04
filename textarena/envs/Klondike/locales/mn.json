@@ -16,7 +16,7 @@
     "{cards}": "The cards in a pile as neutral labels, or '--' if empty (never translate)"
   },
   "player_prompt": {
-    "intro": "You are playing Klondike Solitaire. Your goal is to move all cards to the foundation piles.\n\nGame Rules:\n- Foundation piles (F1-F4): Build up from Ace to King in suit\n- Tableau piles (T1-T7): Build down alternating colors (red on black, black on red)\n- Stock: Draw cards to waste pile\n- Waste (W): Top card available for play\n\nCommands:\n- 'draw' - Draw cards from stock to waste\n- 'move <source> <destination> [count]' - Move cards between piles\n  Examples: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count can also be 'all', which will try to move all face-up cards.\n- 'forfeit' - End the game immediately and lock in your current score\n- Pile names: W (waste), F1-F4 (foundations), T1-T7 (tableau)\n\nYou can execute multiple actions in one turn by separating them with commas:\n  Example: 'draw, move W T1, move T2 F1'\n\nOnly Kings can be placed on empty tableau piles.\nActions execute in order - if one fails, the remaining actions are skipped.\nUse 'forfeit' if you believe the game is impossible to win."
+    "intro": "Та Klondike Солитер тоглоом тоглож байна. Таны зорилго бол бүх картыг суурь цамхагуудад шилжүүлэх явдал юм.\n\nТоглоомын дүрэм:\n- Суурь цамхагууд (F1-F4): Ace-ээс King хүртэл өнгөөр нэмэх\n- Табло цамхагууд (T1-T7): Өнгөөр солих (улаан дээр хар, хар дээр улаан)\n- Нөөц: Картыг хаягдсан цамхагт татах\n- Хаягдсан (W): Дээд карт тоглоомд бэлэн байна\n\nКомандууд:\n- 'draw' - Нөөцөөс картыг хаягдсан цамхагт татах\n- 'move <source> <destination> [count]' - Цамхагуудын хооронд карт шилжүүлэх\n  Жишээ: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count 'all' байж болно, бүх нүүрээ харсан картыг шилжүүлэх оролдлого хийнэ.\n- 'forfeit' - Тоглоомыг даруй дуусгах ба одоогийн оноогоо бүртгэнэ\n- Цамхагийн нэрс: W (хаягдсан), F1-F4 (суурь), T1-T7 (табло)\n\nТа нэг ээлжинд олон үйлдлийг хэрэгжүүлэх боломжтой, тэдгээрийг таслалаар тусгаарлах:\n  Жишээ: 'draw, move W T1, move T2 F1'\n\nХоосон табло цамхагуудад зөвхөн Хаадууд тавигдах боломжтой.\nҮйлдлүүд хэрэгжиж байх үед - нэг нь бүтэлгүйтвэл, үлдсэн үйлдлүүд алгасагдах болно.\nТоглоом ялагдахгүй гэж бодсон тохиолдолд 'forfeit' ашиглах боломжтой."
   },
   "format_error": {
     "no_brackets": "Ажил үйлдлийн формат нь хүчингүй. Ажил үйлдэл нь хаалганд байх ёстой.",
@@ -24,8 +24,8 @@
     "empty_command": "Худалгүй команд. \"draw\" эсвэл \"move <source> <destination> [count]\" гэж бичнэ.",
     "empty_action": "Хугацаагүй арга хэмжээ",
     "move_needs_args": "Хөдлөх команд нь эх үүсвэр болон зорилтыг шаарддаг. Хэрэглээ: 'move <source> <destination> [count]'",
-    "count_positive": "Хадгаламж нь эерэг эсвэл \"бүх\" байх ёстой",
-    "count_invalid": "Хэмжээ нь хүчингүй.",
+    "count_positive": "Тоо нь эерэг байх ёстой эсвэл 'all'",
+    "count_invalid": "Хүчингүй тоо. Тоо эсвэл 'all' ашиглах",
     "unknown_command": "Мэдэхгүй команд \"{cmd}\". \"draw\", \"move <source> <destination> [count]\", эсвэл \"forfeit\" ашиглана",
     "wrapped": "Үйл ажиллагаа {n}: {msg}"
   },

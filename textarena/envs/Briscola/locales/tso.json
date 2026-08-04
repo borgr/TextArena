@@ -19,7 +19,7 @@
     "{deck_count}": "Number of cards left in the deck"
   },
   "game": {
-    "start": "Briscola game yuhluriwe! Trump suit: {trump_suit} (Trump card: {trump_card})"
+    "start": "Makhari ya Briscola ya sungula! Khothi ya kula: {trump_suit} (Khadi ya kula: {trump_card})"
   },
   "prompt": {
     "intro": "U hlalela Briscola - Player {player_id}.\nNwila: Nyika tricks na kumelela points ya vutivi (120 points hinkwato eka dekhi).\nPoints ya katihi: A=11, 3=10, K=4, Q=3, J=2, tinxo=0\nMahanyelo ya katihi: A > 3 > K > Q > J > 7 > 6 > 5 > 4 > 2\nTrump katihi hinkwaswo katihi tolawo to fana na mahanyelo.\n\nNkavelo: '[play X]' loko X i nkombo (1-{max_pos}) ya katihi eka rixu"
@@ -37,9 +37,9 @@
     "line": "  Player {player_id}: {card}{trump_mark}"
   },
   "turn": {
-    "score_entry": "Player {player_id}: {points} pts",
+    "score_entry": "Mukhari {player_id}: {points} poyinti",
     "trump_info": "Xiambalo xa Trump: {trump_suit}",
-    "trump_info_deck": "Trump suit: {trump_suit} | Cards left in deck: {deck_count}",
+    "trump_info_deck": "Khothi ya kula: {trump_suit} | Khadi tin'wana ti sale ku kamba: {deck_count}",
     "board": "{hand}\n\n{trick}\n\nMafambiselo: {scores}\n{trump_info}\n\nTshama katihi hi ku tlhela [play X]"
   },
   "invalid_move": {
@@ -48,10 +48,10 @@
   },
   "action": {
     "played": "Player {player_id} u tshamele {card}",
-    "trick_win": "Player {winner} u nyika trick hi {card} na u amukela {points} points!"
+    "trick_win": "Mukhari {winner} u teka khadi na {card} na kuma {points} poyinti!"
   },
   "outcome": {
-    "head": "Game Over! Player {winner} u nyika na {points} points!\n\nMafambiselo ya masiku:\n{scores}",
-    "player_line": "Player {player_id}: {points} points ({tricks} tricks)\n"
+    "head": "Makhari ya Famba! Mukhari {winner} u teka na {points} poyinti!\n\nPoyinti ya Mavunulo:\n{scores}",
+    "player_line": "Mukhari {player_id}: {points} poyinti ({tricks} khadi)\n"
   }
 }

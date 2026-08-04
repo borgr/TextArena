@@ -19,10 +19,10 @@
     "{deck_count}": "Number of cards left in the deck"
   },
   "game": {
-    "start": "Briscola ! Trump suit: {trump_suit} (Trump card: {trump_card})"
+    "start": "ব্রিস্কোলা খেল শুরু! ট্রাম্প সুট: {trump_suit} (ট্রাম্প কার্ড: {trump_card})"
   },
   "prompt": {
-    "intro": "Briscola - Player {player_id}.\n:  ⁝ 120 \nA=11, 3=10, K=4, Q=3, J=2, =0\nA > 3 > K > Q > J > 7 > 6 > 5 > 4 > 2\n ⁝ \nAction: '[play X]' X (1-{max_pos}) \n"
+    "intro": "Nang Briscola khelba - Player {player_id}.\nGoal: Trick jinglakpa amadi point sangtamlakpa (120 total point deck a).\nCard Point: A=11, 3=10, K=4, Q=3, J=2, adang=0\nCard Power: A > 3 > K > Q > J > 7 > 6 > 5 > 4 > 2\nTrump card non-trump card khelakpa.\n\nAction: '[play X]' X hand a card position (1-{max_pos})\n"
   },
   "hand": {
     "none": "কার্দশিং লৈতে।",
@@ -37,21 +37,21 @@
     "line": "  Player {player_id}: {card}{trump_mark}"
   },
   "turn": {
-    "score_entry": "Player {player_id}: {points} ",
+    "score_entry": "খেলোয়াড় {player_id}: {points} পয়েন্ট",
     "trump_info": "ত্রম্প সুত: {trump_suit}",
-    "trump_info_deck": "Trump suit: {trump_suit} | Cards left in deck: {deck_count}",
-    "board": "{hand}\n\n{trick}\n\nScores: {scores}\n{trump_info}\n\n[play X]"
+    "trump_info_deck": "Trump suit: {trump_suit} | Deck a card neijarak: {deck_count}",
+    "board": "{hand}\n\n{trick}\n\nScores: {scores}\n{trump_info}\n\nCard khelba using [play X]"
   },
   "invalid_move": {
     "wrong_format": "X অসি কার্দকী মফম (1, 2, 3, অসিনচিংবা) ওইরিবা [play X] শিজিন্নৌ।",
     "out_of_range": " . {count} (1-{count})"
   },
   "action": {
-    "played": "Player {player_id} {card}",
-    "trick_win": "Player {winner} {card} ⁝ {points} "
+    "played": "Player {player_id} {card} khelba",
+    "trick_win": "Player {winner} trick jinglakpa {card} amadi {points} point sangtamlakpa!"
   },
   "outcome": {
-    "head": "Game Over! Player {winner} wins with {points} points!\n\nFinal Scores:\n{scores}",
-    "player_line": "Player {player_id}: {points} ({tricks} )\n"
+    "head": "খেল শেষ! খেলোয়াড় {winner} ন {points} পয়েন্ট লবদা জিতে!\n\nঅন্তিম স্কোর:\n{scores}",
+    "player_line": "Player {player_id}: {points} point ({tricks} trick)\n"
   }
 }

@@ -14,7 +14,7 @@
     "{scores}": "The final scores as a raw player-number to score mapping - do not translate"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player GOPS.\n- You hold the 13 cards A-K (each exactly once).\n- Each round a prize is revealed. Submit ONE card like `[Q]`, `[10]`, `[2]` …\n- Highest card wins the prize (+ any carry-over pot). Ties roll the prize into the next round.\n- After 13 rounds, highest total wins. Invalid moves = elimination."
+    "intro": "تاسو د درې لوبغاړو GOPS کې لوبغاړی {player_id} یاست.\n- تاسو د 13 کارتونه A-K (هر یو یو ځل) په لاس کې لرئ.\n- په هر راؤنډ کې یو انعام ښکاره کیږي. یو کارت لکه `[Q]`، `[10]`، `[2]` … وړاندې کړئ\n- لوړ کارت انعام ګټي (+ هر ډول پورته شوی پوت). ټای راؤنډ انعام د بل راؤنډ ته رول کوي.\n- تر 13 راؤنډونو وروسته، لوړ ټول ګټونکی دی. ناسم حرکتونه = حذف."
   },
   "round": {
     "header": "### دور {round}/13 - جایزه: {prize} (د {worth} ارزښت لري)",

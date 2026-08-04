@@ -13,9 +13,9 @@
     "exceeds_pile": "{quantity}-ийг {pile_index}-ийн (сайн {pile_count}-г үлдсэн) халааснаас гаргаж чадахгүй."
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "Тоглогч {player_id} [{pile_index} {quantity}] тоглов, дүүрэг {pile_index} ээс {quantity} объект(ууд)ыг хаслаа."
   },
   "outcome": {
-    "win": "Player {player_id} took the last object(s)!"
+    "win": "Тоглогч {player_id} сүүлийн объект(ууд)ыг авлаа!"
   }
 }

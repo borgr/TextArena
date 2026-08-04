@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in **Ultimate Tic Tac Toe**.\nSubmit your move as **[macro  micro]** (two numbers 0-8):\n• *macro*  = which mini-board you play in\n• *micro* = which square inside that mini-board\nExample `[7 8]` ➜ place your mark in mini-board 7, square 8, and\nforce your opponent to play in mini-board 8 next.\n\nYou are `{symbol}`.\n"
+    "intro": "Вы гулец {player_id} у **Ultimate Tic Tac Toe**.\nПадайце свой ход у фармаце **[macro  micro]** (два лікі 0-8):\n• *macro*  = у якім міні-палі гуляеце\n• *micro* = які квадрат у тым міні-палі\nПрыклад `[7 8]` ➜ паставіце сваю адзнаку ў міні-палі 7, квадраце 8, і\nпрымусіце свайго суперніка гуляць у міні-палі 8 далей.\n\nВы `{symbol}`.\n"
   },
   "board": {
     "current_board": "Цяперашняя дошка: {board}"
@@ -9,7 +9,7 @@
     "wrong_format": "Рух павінен быць у форме [macro micro] з лічбамі 0-8.",
     "out_of_range": "Кожны індэкс павінен быць паміж 0 і 8.",
     "index_out_of_range": "Мікра_ дошка, радок, або графа з'яўляецца за межамі дыяпазону.",
-    "cell_occupied": "The cell is already occupied.",
+    "cell_occupied": "Клетка ўжо занята.",
     "wrong_micro_board": "Гулец павінен гуляць у наступнай мікра дошка.",
     "micro_board_won": "Мікра дошка ўжо выйграна."
   },

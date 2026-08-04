@@ -1,9 +1,9 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in **Ultimate Tic Tac Toe**.\nSubmit your move as **[macro  micro]** (two numbers 0-8):\n• *macro*  = which mini-board you play in\n• *micro* = which square inside that mini-board\nExample `[7 8]` ➜ place your mark in mini-board 7, square 8, and\nforce your opponent to play in mini-board 8 next.\n\nYou are `{symbol}`.\n"
+    "intro": "Ove uli Muthandi {player_id} mu **Ultimate Tic Tac Toe**.\nLeta ovingui lyo ngendi **[macro  micro]** (nomero mbili 0-8):\n• *macro*  = mini-tabuleiro wapi ove uli muthandi\n• *micro* = ku quadrado wapi munda mini-tabuleiro\nExemplo `[7 8]` ➜ koma ovingui lyo munda mini-tabuleiro 7, quadrado 8, no\nkuforça oponente lyo muthandi munda mini-tabuleiro 8 ina.\n\nOve uli `{symbol}`.\n"
   },
   "board": {
-    "current_board": "[0]) Oseketa ya velapo yohongele yaco, ko: {board}"
+    "current_board": "Tabuleiro wa hodi:\n{board}"
   },
   "invalid_move": {
     "wrong_format": "Oku imba ku lingiwa lolonduko 0-8 kuenda [macro micro].",
@@ -18,7 +18,7 @@
     "specific": "ombunje yimue yitito {nxt}"
   },
   "game_action": {
-    "played": "Player {player_id} played in micro board {macro_idx}, cell {micro_idx} (row {row}, col {col}). Player {opponent_id} must now play in {nxt_txt}."
+    "played": "Muthandi {player_id} muthandi munda mini-tabuleiro {macro_idx}, kela {micro_idx} (linha {row}, coluna {col}). Muthandi {opponent_id} ana kuwa muthandi munda {nxt_txt}."
   },
   "outcome": {
     "win": "Mukwiyu {player_id} usena Ultimate Tic Tac Toe!",

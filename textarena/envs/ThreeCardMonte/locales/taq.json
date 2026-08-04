@@ -11,21 +11,21 @@
     "{ball_pos}": "The cup index the ball is under"
   },
   "player_prompt": {
-    "intro": "Track the hidden ball 'X' while the cups are shuffled.\nAfter shuffling, guess its location with `[k]`."
+    "intro": "Sḍaq aɣelluy 'X' ma yella yuran ɣef yikubben.\nSeld n uɣelluy, ṛẓem aɣella-k s `[k]`."
   },
   "game_message": {
     "ball_starts": "ⵜⴰⴱⴰⵍⵜ ⵜⵙⵙⵏⵜⵉ: {line}",
-    "shuffle": "Shuffle {step}/{steps}: swapped cups {i} and {j}.",
+    "shuffle": "Uɣelluy {step}/{steps}: yikubben {i} d {j} yudsen.",
     "cups": "Tasast: {line}  {prompt}",
     "guess_now": "(ⴰⵙⵙⵉⴾⵏⴰ ⴰⵛⴰⵍ-ⴻⵏ!)",
     "reveal": "(ⴰⵙⵙⵓⴼⵖ: ⵜⴰⴱⵓⵔⵜ ⴷⴷⴰⵡ {ball_pos})"
   },
   "invalid_move": {
-    "wrong_format": "Bad action. Use `[k]`.",
+    "wrong_format": "Aɣella ur yelli. Ṛẓem `[k]`.",
     "out_of_range": "ⴰⵏⵎⵎⴰⵍ ⵏ ⵓⵙⵙⴼⵔⴽ ⴳ ⴱⵕⵕⴰ ⵏ ⵓⵙⵏⵖⴰⵍ 0-{max_index}."
   },
   "outcome": {
     "win": "ⴰⵂⵓⵙⴾⴻⵏ,ⵜⴰⵋⵔⴰⵓⴻ ⵜⴰⴱⴰⵍⵜ.",
-    "lose": "Wrong — ball was under cup {ball_pos}."
+    "lose": "Ur yelli — aɣelluy yella ɣef yikubben {ball_pos}."
   }
 }

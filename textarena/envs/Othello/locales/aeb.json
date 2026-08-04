@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} playing {colour} ({piece}) in a game of Othello.\nYour goal is to have more pieces of your color on the board by the end of the game.\nOn your turn, place a piece such that it flanks one or more of your opponent's pieces-in any direction (horizontal, vertical, or diagonal)-between your new piece and another of your existing pieces. All flanked opponent pieces will be flipped to your color.\nProvide your move in the format '[row, col]'."
+    "intro": "إنتا لعّاب {player_id} تلعب بلون {colour} ({piece}) في لعبة أوتيللو.\nهدفك هو يكون عندك قطع أكثر بلونك على الطابلة في نهاية اللعبة.\nفي دورك، حط قطعة بحيث تكون جنب قطعة أو أكثر من قطع الخصم-في أي اتجاه (أفقي، عمودي أو قطر)-بين قطعتك الجديدة وقطعة تانية من قطعك الموجودة. كل قطع الخصم المحصورة هتقلب لبلونك.\nدير حركتك بالشكل '[row, col]'."
   },
   "board": {
     "game_board": "لعبة: {board}",
@@ -12,11 +12,11 @@
   },
   "invalid_move": {
     "wrong_format": "المنتقلات لازم تكون في شكل [row, col].",
-    "illegal": "Illegal move. Valid moves: {valid}"
+    "illegal": "حركة غير قانونية. الحركات الصحيحة: {valid}"
   },
   "game_action": {
     "skipped": "اللاعب {pid} لازم يخلّى دورة.",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "لاعب {pid} ({piece}) لعبت [{r}, {c}] وقلبت {flipped} قطعة(ات)"
   },
   "game_message": {
     "must_skip": "اللاعب {pid} ({piece}) ليس لديه حركات صحيحة ويتعين عليه التخطي."

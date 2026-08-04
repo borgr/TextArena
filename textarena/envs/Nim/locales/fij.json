@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in Nim.\nYour goal is to take the last remaining object.\nOn each turn, choose exactly one pile and remove one or more objects from it.\nUse the format '[pile quantity]', where pile is the pile index and quantity is the number of objects to remove.\nFor example, '[0 3]' removes 3 objects from pile 0."
+    "intro": "O kerekere mo ni Player {player_id} ena Nim.\nNomuni inaki ni kerekere mo ni kauta na ikalima ni bula e tiko.\nEna kila gauna, digitaka e dua ga na kerekere mo ni pile ka kauta e dua se sivia na ikalima ni bula mai kerekere.\nVakayagataka na fomu '[pile quantity]', kerekere pile na inasi ni pile kei quantity na kena ikalima ni bula mo ni kauta.\nKerekere mo ni ivakaraitaki, '[0 3]' kauta 3 na ikalima ni bula mai pile 0."
   },
   "state": {
     "current_pile": "Gauna oqo na iYau: {piles}"
@@ -13,7 +13,7 @@
     "exceeds_pile": "Sega ni rawa me kauta tani na {quantity} mai na iwiliwili levu {pile_index} (galega e {pile_count} sa tu)."
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "Player {player_id} a qito [{pile_index} {quantity}], kauta tani {quantity} ika mai kerekere {pile_index}."
   },
   "outcome": {
     "win": "Na dauqito {player_id} e taura na iotioti ni iyaya ((s)!"

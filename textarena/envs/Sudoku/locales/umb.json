@@ -7,13 +7,13 @@
     "board_state": "Ofeka yowiñi: {board}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid move format. Player {player_id} did not respond with valid 'row column number'.",
-    "out_of_bounds": "Invalid move. Player {player_id} attempted to place {num} at ({row}, {col}), which is out of bounds.",
-    "overwrite": "Invalid move. Player {player_id} attempted to overwrite a pre-filled cell ({row}, {col}).",
-    "violates_rules": "Invalid move. Player {player_id} attempted to place {num} at ({row}, {col}), which violates Sudoku rules."
+    "wrong_format": "Muundo usio sahihi wa ovimbulule. Player {player_id} hakujibu na muundo wa 'mwendo koluna nambari'.",
+    "out_of_bounds": "Ovimbulule lisilokubalika. Player {player_id} alijaribu kuweka {num} mu ({row}, {col}), ambayo iko nje ya mipaka.",
+    "overwrite": "Ovimbulule lisilokubalika. Player {player_id} alijaribu kufungwa makasa ya kufungwa ({row}, {col}).",
+    "violates_rules": "Ovimbulule lisilokubalika. Player {player_id} alijaribu kuweka {num} mu ({row}, {col}), ambayo inakiuka milinganyo ya Sudoku."
   },
   "outcome": {
-    "win": "Congratulations! Player {player_id} completed the Sudoku puzzle.",
-    "turn_limit": "Mipaka ya mzunguko imeridhika. Umejaza {percent}% ya seli zilizobaki."
+    "win": "Hongera! Player {player_id} alimaliza puzzle ya Sudoku.",
+    "turn_limit": "Mipaka ya mizunguko imefikia. Ove ulijaza kwa usahihi {percent}% ya makasa ya vupiya."
   }
 }

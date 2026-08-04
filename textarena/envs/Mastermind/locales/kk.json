@@ -13,7 +13,7 @@
     "repeated_guess": "Сіз {guess} дегенді біліп алдыңыз. Басқаны айтып көріңіз."
   },
   "game_action": {
-    "feedback": "Submitted [{guess}]. Feedback: {black_pegs} black peg(s), {white_pegs} white peg(s)."
+    "feedback": "Енгізілді [{guess}]. Кері байланыс: {black_pegs} қара тірек(тер), {white_pegs} ақ тірек(тер)."
   },
   "outcome": {
     "win": "Сіз кодты бұздыңыз, {black_pegs}-ді {code_length}-ден дұрыс шештіңіз",

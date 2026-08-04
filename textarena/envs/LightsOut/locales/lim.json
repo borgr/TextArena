@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "Actie mótte in 't formaot [row col] zin woa row en col heej getalle zint van 0 toet {max_index}.",
-    "out_of_range": "Coordinates must be between 0 and {max_index}. You entered [{row},{col}]."
+    "out_of_range": "Koördinate mótte tösse 0 en {max_index} ligke. Geer höb [{row},{col}] ingegeve."
   },
   "outcome": {
     "win": "Gefeliciteerd! Je hebt de puzzel opgelost in {moves_used} bewegingen.",

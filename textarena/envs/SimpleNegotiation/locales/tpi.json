@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "Yu bilong Pleya {player_id} long Gem bilong Negosiasi.\nYu gat samting, na wok bilong yu em i mekim trai olsem na valui bilong samting yu gat bai i go ap.\nSamting na valui ol i gat nau em i:\n\t+ {resource_value_list}\nLong taim bilong yu, yu ken tokim opponent na mekim ofa bilong trai.\nUsim tokene spesol ol i go long:\n  - '[Ofa: 3 Sheep, 2 Ore -> 5 Brick, 2 Sheep]': [Ofa: Samting i ofa -> Samting i askim]\n  - '[Accept]': Long akseptim ofa i kam.\n  - '[Deny]': Long rifsim ofa i kam (default).\nGem em i go long {max_turns} taim olgeta."
+    "intro": "Yu bilong Pleya {player_id} long Gem bilong Negosiasi.\nYu gat samting, na wok bilong yu em i mekim trai olsem na valui bilong samting yu gat bai i go ap.\nSamting na valui ol i gat nau em i:\n\t+ {resource_value_list}\nLong taim bilong yu, yu ken tokim opponent na mekim ofa bilong trai.\nUsim tokene spesol ol i go long:\n  - '[Offer: 3 Sheep, 2 Ore -> 5 Brick, 2 Sheep]': [Offer: Offered Resources -> Requested Resources]\n  - '[Accept]': Long akseptim ofa i kam.\n  - '[Deny]': Long rifsim ofa i kam (default).\nGem em i go long {max_turns} taim olgeta."
   },
   "invalid_move": {
     "receiving_with_no_resource": "Man i traim long kisim wanpela wok mani, tasol em i no gat ol samting bilong mekim dispela.",
@@ -17,6 +17,6 @@
   },
   "outcome": {
     "win": "Man {winner_id} i winim long rot bilong kisim bikpela mani moa.",
-    "draw": "Same change in inventory value for all players. Draw."
+    "draw": "Sampela senis long vailua bilong olgeta wokabaut i wankain. Draw."
   }
 }

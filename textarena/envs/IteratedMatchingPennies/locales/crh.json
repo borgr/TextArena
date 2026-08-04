@@ -6,7 +6,7 @@
     "wrong_format": "Nadeqlı format; lütfen '[heads]' yaki '[tails]' körinishinde jäwlâñız."
   },
   "message": {
-    "round_match": "Player 0 picked {choice0}; Player 1 picked {choice1}. Match -> Player 0 wins",
+    "round_match": "Oyuncu 0 {choice0} seçti; Oyuncu 1 {choice1} seçti. Eşleşme -> Oyuncu 0 qazandı",
     "round_mismatch": "Oyuncu 0 '{choice0}'ni seçti; Oyuncu 1 '{choice1}'ni seçti. Mismatch -> Oyuncu 1 yeñdi."
   },
   "outcome": {

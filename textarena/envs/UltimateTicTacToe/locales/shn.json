@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in **Ultimate Tic Tac Toe**.\nSubmit your move as **[macro  micro]** (two numbers 0-8):\n• *macro*  = which mini-board you play in\n• *micro* = which square inside that mini-board\nExample `[7 8]` ➜ place your mark in mini-board 7, square 8, and\nforce your opponent to play in mini-board 8 next.\n\nYou are `{symbol}`.\n"
+    "intro": "တို့သည် ကစားသမား {player_id} ဖြစ်ပါ၏ **Ultimate Tic Tac Toe** မှာ။\nသင်၏ လှုပ်ရှားမှုကို **[macro  micro]** (၂ ဂဏန်း ၀-၈) အဖြစ် တင်ပြပါ။\n• *macro*  = မည်သည့် အငယ်ဆုံးဘုတ်တွင် ကစားသည်\n• *micro* = ထို အငယ်ဆုံးဘုတ် အတွင်း မည်သည့် စတုရန်း\nဥပမာ `[7 8]` ➜ သင်၏ သင်္ကေတကို အငယ်ဆုံးဘုတ် ၇၊ စတုရန်း ၈ တွင် ထားပါ၊ နှင့်\nသင်၏ ပြိုင်ဘက်ကို အငယ်ဆုံးဘုတ် ၈ တွင် နောက်တစ်ကြိမ် ကစားရန် အားပါ။\n\nတို့သည် `{symbol}` ဖြစ်ပါ၏။\n"
   },
   "board": {
     "current_board": "ၶွမ်ႇမတီႇဢၼ်ႁဵတ်းသၢင်ႈယူႇယၢမ်းလဵဝ်: {board}"

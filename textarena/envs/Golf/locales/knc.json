@@ -21,20 +21,20 @@
     "{scores}": "The pre-rendered per-player list of final scores"
   },
   "player_prompt": {
-    "intro": "You are playing Golf (Card Game) - Player {player_id}.\nGoal: Get the lowest total score in this single round. If columns share the same value, they are summed as 0.\nCard Values: A=1, 2-10=face value, J/Q=10, K=0\n\nActions (use exact brackets):\n- '[draw]' - Draw from deck\n- '[take]' - Take from discard pile\n- '[swap X Y]' - Swap drawn card with position X (row) Y (column)\n- '[discard]' - Discard the drawn card\n"
+    "intro": "Kuwa kuwa a yin Golf (Kad Kadi) - Mai kadi {player_id}.\nManufa: Samu ƙananan maki a wannan zagaye. Idan ginshi yakan raba ɗaya daraja, ana ƙididdige su azaman 0.\nDaraja Kadi: A=1, 2-10=daraja fuska, J/Q=10, K=0\n\nAyyuka (amfani da mabugu daidai):\n- '[draw]' - Jawo daga ɗan kadi\n- '[take]' - ɗauka daga tariyar wandon kadi\n- '[swap X Y]' - Mubaya kadi jawo da matsayi X (safu) Y (ɗangali)\n- '[discard]' - Wandon kadi jawo."
   },
   "board": {
-    "drew": "You drew: {card}\nNow you must [swap X Y] or [discard] it.",
-    "took": "You took: {card} from discard pile\nYou must [swap X Y] with it (cannot discard).",
-    "peeked": "You peeked at position ({row},{col}): {card}",
+    "drew": "Ka jawo: {card}\nYanzu ka wajibi [swap X Y] ko [discard] shi.",
+    "took": "Ka ɗauka: {card} daga tariyar wandon kadi\nKa wajibi [swap X Y] da shi (ba za ka iya wandon).",
+    "peeked": "Ka duba matsayi ({row},{col}): {card}",
     "turn_view": "Mɛn ɓɛlɛnɛnɛ:\n{hand}\nɗɛnɛ ɓɛlɛnɛnɛ: {discard}\n{options}",
     "none": "Nduma ba."
   },
   "options": {
-    "final_turns": "Final turns! Your options: [draw], [take], [peek X Y]",
-    "draw": "Your options: [draw], [take]",
+    "final_turns": "Zagaye na ƙarshe! Ka zaɓi: [draw], [take], [peek X Y]",
+    "draw": "Ka zaɓi: [draw], [take]",
     "must_swap": "Nyiye: [swap X Y] (kərtəwa gәnyi raksa koltǝgǝn)",
-    "swap_or_discard": "You must: [swap X Y] or [discard]"
+    "swap_or_discard": "Ka wajibi: [swap X Y] ko [discard]"
   },
   "hand": {
     "no_cards": "Karta ba ro waljin.",
@@ -43,12 +43,12 @@
   },
   "action_desc": {
     "swapped": "Mɑɑlɛm {pid} ɓɛɛlɛnɛnɛ {new} kɛrɛnɛ {old} ɓɛ ɗɛnɛ ({row}, {col})",
-    "discarded": "Player {pid} discarded {card}"
+    "discarded": "Mai kadi {pid} wandon {card}"
   },
   "message": {
     "deck_empty": "Kәla dәn ba! Tambo dǝ dawunaro dawono.",
     "knocked": "Kambiwu {pid} dǝga kǝla fuwunna! Kam ndasoye fallo waljin.",
-    "final_round": "Player {pid} {reason}! Each other player gets one more turn."
+    "final_round": "Mai kadi {pid} {reason}! Kowane mai kadi yaɗa zagaye ɗaya."
   },
   "reason": {
     "all_revealed": "kartwa samma fǝlezǝna wa?"
@@ -56,7 +56,7 @@
   "invalid": {
     "wrong_action": "Mɛn ɗon ɓɛ ɓɛlɛnɛnɛ ɓɛ ɓɛ: [draw], [take], [swap X Y], [discard], [knock], ɓe [peek X Y]",
     "discard_empty": "Kәmbu karewa kәltabe dә ba!",
-    "must_draw_first": "You must first [draw], [take], [knock], or [peek X Y]",
+    "must_draw_first": "Ka wajibi kuwa [draw], [take], [knock], ko [peek X Y] farko",
     "cannot_discard_taken": "Karta do suro karәgәwa bannabe dәn gozanyi ma ba. Shima faljinna.",
     "have_drawn_card": "A ɓɛɛlɛnɛnɛ kɛrɛnɛ. Mɛn ɗon ɓɛ [swap X Y] ɓe ɓɛ [discard]",
     "need_drawn_swap": "Kaadi fǝlejin ma murtәgǝna.",
@@ -71,7 +71,7 @@
     "line": "Mɑɑlɛm {pid}: {score} points\n"
   },
   "board_str": {
-    "title": "=== GOLF GAY=== [Golf]",
+    "title": "=== WASAN GOLF ===",
     "discard": "Kǝla awowa gәnatǝnabe: {card}",
     "knocked": "Kambiwu {pid}ye bǝla gǝna!",
     "player_header": "Mɑɑlɛm {pid} (Kɔɔlɛ: {score}):"

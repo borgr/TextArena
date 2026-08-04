@@ -11,14 +11,14 @@
     "{moves}": "The comma-separated list of available move tokens like '[4]' (do not translate)"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player Tic Tac Toe.\nYour symbol is '{symbol}'.\nYou take turns placing your symbol on a 5x5 board to form a line of four.\nLines can be horizontal, vertical, or diagonal.\nSubmit your move using the format '[4]' to mark cell 4."
+    "intro": "O iko na Dauqito {player_id} ena Tic Tac Toe ni Tolu Dauqito.\nNa iqaqalomu e '{symbol}'.\nO ni dauqito vata ena borodi ni 5x5 me vakarautaka na laini ni va.\nNa laini e rawa ni veidigidigi, veitarataravi, se veiqiqo.\nSolia na veiqitomu ena fomu ni '[4]' me biuta na seli 4."
   },
   "board": {
-    "current_board": "Current Board:\n\n{board}\n\nAvailable Moves: {moves}"
+    "current_board": "Na Borodi Tukutuku:\n\n{board}\n\nNa Veiqito e Rawa: {moves}"
   },
   "invalid_move": {
     "wrong_format": "Na ivakarau ni toso e sega ni dodonu. Vakayagataka na \"[cell]\" ena vanua sa 0-{max_cell} kina na vale lalai.",
-    "out_of_range": "Invalid cell number: {cell}. Sa tu kina na 0 kei {max_cell}.",
+    "out_of_range": "Na nambari ni seli e sega ni dina: {cell}. Me vakawati ena 0 kei {max_cell}.",
     "already_occupied": "Sa tu rawa na rumu {cell}.",
     "made_invalid": "Na dauqito {player_id} e cakava na kena sega ni dodonu."
   },
@@ -26,7 +26,7 @@
     "placed": "Player {player_id} e vakaraitaka na itukutuku ni nona ({symbol}) ena vanua ({row}, {col})."
   },
   "outcome": {
-    "win": "Player {player_id} ({symbol}) wini!",
+    "win": "Na Dauqito {player_id} ({symbol}) e qaqa!",
     "draw": "E tautauvata na qito!"
   }
 }

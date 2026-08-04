@@ -52,6 +52,6 @@
   },
   "outcome": {
     "head": "Wasan ya ɗon ƙare! Ɗanƴo {winner} ya ɓuri nde o yaɓɓi {points} pointi!\n\nCiwan pointi:\n{scores}",
-    "player_line": "Player {player_id}: {points} points ({tricks} tricks)\n"
+    "player_line": "ɗan wasa {player_id}: {points} maki ({tricks} trick)\n"
   }
 }

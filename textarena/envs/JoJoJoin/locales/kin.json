@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in JoJoJoin, played on a 5x5 board with cells numbered 0-24.\nOn your turn, place your mark on any empty cell, e.g. '[12]'.\nYOU WIN by getting FOUR of your marks in a row — four consecutive cells horizontally, vertically, or diagonally.\nAs Player {player_id} you are '{symbol}'; your opponent is '{opponent_symbol}'."
+    "intro": "Ni wewe Mugenzi {player_id} muri JoJoJoin, ukina kuri ubao wa 5x5 wenye maseli yambaye nambari ni 0-24.\nMugihe wa zamu yako, shirikisha alama yako kuri seli yoyote itari, urugero '[12]'.\nUTATSINDA ukigeza alama zako nne mfululizo — maseli mane mfululizo yambaye, wima, cyangwa diagonale.\nNk'umugenzi {player_id} niwe '{symbol}'; mugenzi wawe ni '{opponent_symbol}'."
   },
   "board": {
     "current_board": "Kibanza kijyewe:\n\n{board}\n\nImyanya yose: {moves}"

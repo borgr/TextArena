@@ -18,22 +18,22 @@
     "{loser_color}": "The losing player's color - do not translate"
   },
   "player_prompt": {
-    "intro": "You are playing {color} in a game of Santorini.\n\nGame Rules:\n1. Movement:\n   - Workers can only move to adjacent squares (including diagonals)\n   - Cannot move to squares occupied by other workers or domes\n   - Can move up maximum one level, but can move down any number of levels\n\n2. Building:\n   - Must build in a square adjacent to where your worker moved to\n   - Cannot build where any worker is standing\n   - Cannot build on top of a dome (level 4)\n   - Building adds one level (or creates a dome on level 3)\n\n3. Win Conditions:\n   - Win by moving a worker to level 3\n   - Win if opponent has no valid moves\n\nMake your move in the format [worker_id source dest build]\nExample: [{color_initial}1C1C2B2] means move {color} worker 1 from C1 to C2 and build at B2\nYou can include additional text in your messages, but you must only mention the valid move pattern once.\n",
-    "board_state": "\nCurrent board state:\n{board}\n",
-    "valid_moves": "\nValid moves: {valid_moves}"
+    "intro": "Wena uli kutamba {color} mu michezo ya Santorini.\n\nMvila ya Michezo:\n1. Kuendelea:\n   - Vatamba vangana kuenda kwa miraba iliyo karibu (kujumuisha diagonal)\n   - Vatamba vangana kwenda kwa miraba iliyo na vatamba vingine au kupala\n   - Vatamba vangana kupanda kiwango kimoja, lakini vangana kushuka kiwango chochote\n\n2. Kujenga:\n   - Lazima mujenge kwa mraba ulio karibu na ambapo mtumaji wako alienda\n   - Vatamba vangana kujenga ambapo mtumaji yeyote aliwima\n   - Vatamba vangana kujenga juu ya kupala (kiwango 4)\n   - Kujenga kuongeza kiwango kimoja (au kuunda kupala kwa kiwango 3)\n\n3. Masharti ya Kushinda:\n   - Ushinde kwa kuhamisha mtumaji hadi kiwango 3\n   - Ushinde ikiwa mshindani hana michezo halali\n\nFanya mchezo wako kwa umbo [worker_id source dest build]\nMfano: [{color_initial}1C1C2B2] inamaanisha hamisha {color} mtumaji 1 kutoka C1 hadi C2 na ujenzi kwa B2\nUnaweza kuongeza maandishi zaidi katika ujumbe wako, lakini lazima utaje tu muundo wa mchezo halali mara moja.\n",
+    "board_state": "\nHali ya sasa ya ubao:\n{board}\n",
+    "valid_moves": "\nMichezo halali: {valid_moves}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid move format. Expected format: [worker_id source dest build], e.g. [N1C1C2B2]",
-    "wrong_player": "Cannot move {expected_color} worker (you are {player_color})",
-    "no_worker": "No worker {worker_num} at position {source}",
-    "bad_move": "Invalid move from {source} to {dest}",
-    "bad_build": "Invalid build at {build}"
+    "wrong_format": "Umbo la mchezo si sahihi. Umbo unalotarajiwa: [worker_id source dest build], kwa mfano [N1C1C2B2]",
+    "wrong_player": "Vatamba vangana kusonga {expected_color} mtumaji (wena uli {player_color})",
+    "no_worker": "Hakuna mtumaji {worker_num} kwa nafasi {source}",
+    "bad_move": "Mchezo si sahihi kutoka {source} hadi {dest}",
+    "bad_build": "Ujenzi si sahihi kwa {build}"
   },
   "game_action": {
-    "moved": "Player {player_id} ({color}) moved worker {worker_num} from {source} to {dest} and built at {build}"
+    "moved": "Mchezaji {player_id} ({color}) alihamisha mtumaji {worker_num} kutoka {source} hadi {dest} na ujenzi kwa {build}"
   },
   "outcome": {
-    "win_level3": "Player {winner_id} ({winner_color}) won by moving a worker to level 3!",
-    "no_moves": "Player {loser_id} ({loser_color}) has no valid moves. Player {winner_id} ({winner_color}) wins!"
+    "win_level3": "Mchezaji {winner_id} ({winner_color}) alishinda kwa kuhamisha mtumaji hadi kiwango 3!",
+    "no_moves": "Mchezaji {loser_id} ({loser_color}) hana michezo halali. Mchezaji {winner_id} ({winner_color}) anashinda!"
   }
 }

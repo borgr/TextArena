@@ -21,7 +21,7 @@
     "{total}": "Each player's tied final total (a number)"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id}, playing {num_rounds} rounds of Iterated Ultimatum Game.\nYou have ${pool} to split this round between yourself and Player {other_id}.\n\nProposer:\n  - Make an offer: [Offer: $X] (0 <= X <= pool)\n  - If accepted → You get $(pool - X), other player gets $X\n  - If rejected → Both get $0\n  - Example: [Offer: $3]  or  'I think this is fair. [Offer: $5]'\n\nResponder:\n  - Decide on the offer with either [Accept] or [Reject]\n  - Example: 'That seems reasonable. [Accept]'\n            'Too unfair. [Reject]'\n"
+    "intro": "Uri mchezaji {player_id}, ukina {num_rounds} mizunguko ya Iterated Ultimatum Game.\nUfite ${pool} kugawanya mzunguko huu kati yawe na mchezaji {other_id}.\n\nMchezaji anayehitaji:\n  - Hitimisho: [Offer: $X] (0 <= X <= pool)\n  - Ikiyakubaliwa → Ufite $(pool - X), mchezaji wundi afite $X\n  - Ikiyakatwa → Wote mabili afite $0\n  - Urugero: [Offer: $3]  cyangwa  'Ndabyumva ni sawa. [Offer: $5]'\n\nMchezaji anayejibu:\n  - Uamuzi kuhusu hitimisho kwa [Accept] cyangwa [Reject]\n  - Urugero: 'Birahabiri. [Accept]'\n            'Sibyo. [Reject]'\n"
   },
   "round": {
     "begins": "--- Mzunguko {round_number} unanza! ---\nMwari {proposer_id} ni mtoaji, Mwari {responder_id} ni mjibu.",

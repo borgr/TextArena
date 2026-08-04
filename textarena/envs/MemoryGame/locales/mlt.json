@@ -13,8 +13,8 @@
     "already_matched": "Ħielsa. Il-plejer {player_id} għażel karta waħda jew it-tnejn li huma diġà ġew imqabbla ma' xulxin."
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "Il-karti magħżulin mill-Player {player_id} fil-pożizzjonijiet [{r1} {c1}] u [{r2} {c2}] jikkorrispondu!",
+    "cards_no_match": "Il-karti magħżulin mill-Player {player_id} ma jikkorrispondux. Il-karti fil-pożizzjonijiet [{r1} {c1}] u [{r2} {c2}] huma {pos1} u {pos2} rispettivament."
   },
   "outcome": {
     "draw": "Iż- żewġ plejers qabblu l- istess numru taʼ koppji tal- karti.",

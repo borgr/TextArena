@@ -9,7 +9,7 @@
     "wrong_format": "Tsebe e seng sahlolo. Sebelisa '[Hit]' kapa '[Stand]'."
   },
   "game_message": {
-    "hand_result": "Hand {hand_number}: you {outcome}. Your final {player_score}, Dealer {dealer_score}.",
+    "hand_result": "Letsoho {hand_number}: u {outcome}. Diponto tsa hao tsa mafelelo {player_score}, Dealer {dealer_score}.",
     "all_complete": "=== Di-hato {num_hands} tsohle di fihlela ===\nTshwenyane: {wins}, Dihlong: {losses}, Dibosho: {draws}\n"
   },
   "outcome": {

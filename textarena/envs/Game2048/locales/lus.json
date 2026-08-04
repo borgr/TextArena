@@ -6,7 +6,7 @@
     "current_board": "Score: {score}\n{board}"
   },
   "invalid_move": {
-    "invalid_action": "Invalid action. Use '[Up]'/'[Down]'/'[Left]'/'[Right]'.",
+    "invalid_action": "Khelh dan dik lo. '[Up]'/'[Down]'/'[Left]'/'[Right]' hman rawh.",
     "no_change": "Board chu a danglam lo va, kawng dang an thlang ta zâwk mai."
   },
   "outcome": {

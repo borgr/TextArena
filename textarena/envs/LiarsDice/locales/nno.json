@@ -30,7 +30,7 @@
   },
   "call": {
     "bidder_loses": "Spelar {current_player_id} kallar! Den faktiske tellinga av ansikt {face_value} er {count}, som er MINDRE enn {quantity}.\nSpelar {loser_id} (den siste budgjevaren) mister ein terning.",
-    "caller_loses": "Player {current_player_id} calls! The actual count of face {face_value} is {count}, which is >= {quantity}.\nPlayer {loser_id} (the caller) loses one die."
+    "caller_loses": "Spelar {current_player_id} kallar! Den faktiske mengda av fjes {face_value} er {count}, som er >= {quantity}.\nSpelar {loser_id} (kallaren) taper ein terning."
   },
   "action": {
     "bid_announce": "Spelar {player_id} byr {quantity} av ansikt {face_value}."

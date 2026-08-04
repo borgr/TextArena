@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing {color} in a game of Chess.\n Make your moves in UCI format enclosed in square brackets (e.g., [e2e4])."
+    "intro": "Tidḍart {color} i ka-d-turar di urar n Icɛa.\n Ɛeyyed tiririyi-nnek s tɣmert n UCI, ger snat tɣmrtin n taɣawsa (amata, [e2e4])."
   },
   "board": {
     "current_board": "ⵜⴰⵡⵍⴰⴼⵜ ⵏ ⵡⴰⵙⵙ: {board}",

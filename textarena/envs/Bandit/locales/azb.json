@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are in a room with {num_buttons} buttons: {buttons}. Each button is associated with a Bernoulli distribution with a fixed but unknown mean; the means for the buttons could be different.\nFor each button, when you press it, you will get a reward that is sampled from associated distribution.\nYou have {num_turns} time steps and, on each time step, you can choose any button and receive the reward.\nYour goal is to strategically choose buttons at each time step to collect information about their reward distribution, that will let you choose the button with the highest mean reward correctly at the end of {num_turns} turns."
+    "intro": "شما در یک اتاق با {num_buttons} دکمه هستید: {buttons}. هر دکمه با یک توزیع برنولی با میانگین ثابتی اما ناشناخته مرتبط است؛ میانگین‌ها برای دکمه‌ها می‌توانند متفاوت باشند.\nبرای هر دکمه، وقتی آن را فشار می‌دهید، پاداشی دریافت می‌کنید که از توزیع مرتبط نمونه‌برداری شده است.\nشما {num_turns} مرحله زمانی دارید و در هر مرحله زمانی می‌توانید هر دکمه‌ای را انتخاب کنید و پاداش دریافت کنید.\nهدف شما این است که در هر مرحله زمانی به طور استراتژیک دکمه‌ها را انتخاب کنید تا اطلاعات مربوط به توزیع پاداش آن‌ها را جمع‌آوری کنید، که به شما اجازه می‌دهد در پایان {num_turns} مرحله، دکمه با بالاترین میانگین پاداش را به درستی انتخاب کنید."
   },
   "board": {
     "stat_line": "{button}: {reward} ({count} دفعه بازی شده)",

@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing Slitherlink on a {R}x{C} grid!\nDraw a single continuous loop so each numbered cell has that many bordering edges.\nToggle edges with:\n  [h r c] - toggle horizontal edge above dots at row r, column c\n  [v r c] - toggle vertical edge left of dots at row r, column c\nNumbers show required edge count, '.' means no constraint.\nYou have up to {max_turns} moves to solve the puzzle."
+    "intro": "တႄႇလႆႈတိုဝ်းယူႇ Slitherlink ၼိူဝ်ပၢႆ {R}x{C} ယဝ်ႉ။\nႁဵတ်းလူမ်းလဵဝ်ဢၼ်မီးၶိူင်ႈၶိုၼ်ႈၸွမ်းၵၼ် သေႃႉႁႂ်ႈႁႃႈၸဵင်ႇၶဵင်ႇၼႂ်းၶွၵ်ႈၼၼ်ႉ မီးၼင်ႇၼႆႉ။\nပိုတ်ႇၽႃႇႁႄႉၼမ်ႉၸိူင်းၼႆႉ။\n  [h r c] - ပိုတ်ႇၽႃႇႁႄႉၼမ်ႉၸိူင်းၽၢႆႇၼိူဝ်မိုဝ်းၼိူဝ်ၼႃႈၽိူၵ်ႇၼႂ်းၶွၵ်ႈၼၼ်ႉ တီႈၼႃႈလိၼ် r, ၶွၵ်ႈ c\n  [v r c] - ပိုတ်ႇၽႃႇႁႄႉၼမ်ႉၸိူင်းၽၢႆႇၶႂႃႇမိုဝ်းၼိူဝ်ၼႃႈၽိူၵ်ႇၼႂ်းၶွၵ်ႈၼၼ်ႉ တီႈၼႃႈလိၼ် r, ၶွၵ်ႈ c\nႁူဝ်ၼပ်ႉၼႆႉႁဵတ်းႁႂ်ႈႁႃႈၸဵင်ႇၶဵင်ႇၼႂ်းၶွၵ်ႈၼၼ်ႉ မီးၼင်ႇၼႆႉ, '.' ႁႂ်ႈပေႃးဢမ်ႇမီးၶူဝ်ႇ။\nမႂ်းမီးၶၢဝ်းယၢမ်း {max_turns} တႃႇၵေႃႇၶိူင်ႈၶိုၼ်ႈၸွမ်းၵၼ်။"
   },
   "board": {
     "current_board": "{board}\nမူမ်းမႃးလႆးတမ်ႈတွပ်ႇ: {progress}"

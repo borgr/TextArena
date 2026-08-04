@@ -10,7 +10,7 @@
     "{groups}": "Neutral ranking data (a list of player-id groups, best to worst); do not translate"
   },
   "player_prompt": {
-    "intro": "{num_players}-Player Surround on a {width}x{height} grid.\nYou are player {player_id}. Valid moves: '[up]' '[down]' '[left]' '[right]' or w/s/a/d.\nObjective: outlive everyone else. Trails are deadly; wall hits kill; head-on crashes kill both."
+    "intro": "Ba {num_players} Abazannyi Surround ku lusaze lwa {width}x{height}.\nOli muzzannyi {player_id}. Emizannyo egizimbiddwa: '[up]' '[down]' '[left]' '[right]' oba w/s/a/d.\nEkigendererwa: okuwangula abalala bonna. Amakubo gali mabi; okukuba ku lusozi kikutta; okugonga mu maaso kikutta bombi."
   },
   "board": {
     "current": "Olukiiko oluliwo kati: {board}",

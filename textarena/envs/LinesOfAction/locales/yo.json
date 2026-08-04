@@ -10,7 +10,7 @@
     "{to}": "The destination coordinate of a move, such as b3"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in game of LinesOfAction.\nYour pieces are '{side}', opponent pieces are '{other}'.\nMove format: `[b1b3]` (from-coord to-coord). A legal move travels horizontally, vertically, or diagonally a number of squares equal to the total pieces (any colour) in that line. You may jump over your own pieces, but not opponent pieces; landing on an opponent captures it.  Win when all your pieces are 8-neighbour connected."
+    "intro": "Ìwọ ni Akẹ́wì {player_id} nínú eré LinesOfAction.\nÀwọn ère rẹ ni '{side}', àwọn ère alátakò ni '{other}'.\nÌṣe ìtẹ̀wọ́gbà: `[b1b3]` (ìtẹ̀wọ́gbà-ìṣẹ̀lẹ̀ sí ìtẹ̀wọ́gbà-ìgbéró). Ìṣe ìtẹ̀wọ́gbà tó jẹ́ òfin ni ìrìn lẹ́sẹ̀sẹ̀, lẹ́gbè, tàbí lẹ́gbọn ìwọ̀n ìtẹ̀wọ́gbà tó jẹ́ ìwọ̀n gbogbo ère (èyíkéyì ìrísí) nínú ìtẹ̀wọ́gbà ìṣẹ̀lẹ̀. Ìwọ lè fò sórí ère rẹ, ṣùgbọ́n kò lè fò sórí ère alátakò; ìgbéró lórí alátakò kẹ́mu.  Ìwọ gbéwọ̀n tó gbogbo ère rẹ jẹ́ 8-ọ̀rẹ̀-sọ̀rọ̀."
   },
   "board": {
     "current_board": "Ìgbìmọ̀: {board}"

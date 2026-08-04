@@ -1,9 +1,9 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id}. You are playing the 15-Puzzle game.\nThe objective of the game is to arrange the numbered tiles in ascending order from 1 to 15, with the empty space located in the bottom-right corner.\nTo make a move, you can slide a tile into the empty space (represented by a double underscore, e.g. __) by using one of the following commands:\n- 'up': Move the tile below the empty space up.\n- 'down': Move the tile above the empty space down.\n- 'left': Move the tile to the right of the empty space left.\n- 'right': Move the tile to the left of the empty space right.\nTo submit your move, type the direction (e.g., 'up', 'down', 'left', or 'right') in square brackets, e.g. [up].\nThe current board layout is shown below. Use the information to solve the puzzle.\n"
+    "intro": "Aweyi kpɛlɛɛ {player_id}. Aweyi kpɛlɛɛ kpɛlɛɛ FifteenPuzzle tɔm.\nTɔm kpɛlɛɛ ɛyʊʊ se ɛyʊʊ taa wɛɛ wɛɛ wɛɛ tɩŋa ɛzɩ 1 hɛkʊ 15, pɩ-taa ɛwɛɛ ɛwɛɛ tɛɛ kɩɖɛɛɛ.\nAweyi se ɛyʊʊ nɛɛ tɔm, aawe ɛyʊʊ tɛɛ tɛɛ wɛɛ wɛɛ wɛɛ pɩ-taa ɛwɛɛ ɛwɛɛ (ɛzɩ __) nɛɛ aawe ɛyʊʊ tɛɛ kpɛlɛɛ tɛɛ tɔm tɛɛ:\n- 'up': Ɛyʊʊ tɛɛ tɛɛ wɛɛ wɛɛ tɛɛ kɩɖɛɛɛ tɛɛɛ.\n- 'down': Ɛyʊʊ tɛɛ tɛɛ wɛɛ wɛɛ tɛɛ kɩɖɛɛɛ tɛɛɛ.\n- 'left': Ɛyʊʊ tɛɛ tɛɛ wɛɛ wɛɛ tɛɛ kɩɖɛɛɛ tɛɛɛ.\n- 'right': Ɛyʊʊ tɛɛ tɛɛ wɛɛ wɛɛ tɛɛ kɩɖɛɛɛ tɛɛɛ.\nAweyi se ɛyʊʊ nɛɛ tɔm, aawe ɛyʊʊ tɛɛ tɛɛ wɛɛ wɛɛ wɛɛ tɛɛ tɔm tɛɛ (ɛzɩ, 'up', 'down', 'left', ɛntɛ 'right') kɩɖɛɛɛ tɛɛ, ɛzɩ [up].\nTɔm taa tɛɛ wɛɛ wɛɛ tɛɛ tɛɛ tɩŋa tɛɛɛ tɛɛ tɛɛ tɛɛ tɛɛ.\n"
   },
   "board": {
-    "current_board": "Current Board:\n\n{board}\nAvailable Moves: {moves}",
+    "current_board": "Kpɛlɛɛ tɔsɔ kpɛlɛɛ ɛyaa:\n\n{board}\nKpɛlɛɛ tɔsɔ kpɛlɛɛ ɛyaa ɛyɛɛɛ: {moves}",
     "game_board": "Tɛtʊ ndʊ tɩ-taa palakɩ aleɣya yɔ: {board}"
   },
   "invalid_move": {
@@ -11,7 +11,7 @@
     "illegal_move": "Pɩfɛyɩ ɖeu se pɛɖɛzɩ-kʋ. Patapɩzɩɣ pakpaɣ pɩyɛ nɖɩ nɛ pɔcɔna ɖɩ-yɔɔ camɩyɛ yɔ."
   },
   "outcome": {
-    "win": "Congratulations! Player {player_id} have successfully solved the 15-Puzzle.",
-    "turn_limit": "The turn limit has been reached. The model completed {percent} percent of the puzzle"
+    "win": "Aweyi kpɛlɛɛ {player_id} tɔsɔ kpɛlɛɛ ɛyaa 15-Puzzle kpɛlɛɛ!",
+    "turn_limit": "Kɔɔrɩɣa ŋga kɛwɛ kɩɖɩɣa ɛɖɔɔnɩɣa. Kpɛndɛʋ {percent} kɛ pɩŋŋɛ ɖɩɣa peleŋŋɛ ɖɩpɩɣa."
   }
 }

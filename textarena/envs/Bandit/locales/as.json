@@ -14,7 +14,7 @@
     "pressed": "আপুনি {button} বুটাম টিপিছিল আৰু {reward} পুৰস্কাৰ লাভ কৰিছিল।"
   },
   "game_message": {
-    "final_decision": "You have exhausted your budget for trying out different choices and observe their rewards. Now make a deduction about what the best choice is."
+    "final_decision": "আপুনি বিভিন্ন পছন্দ চেষ্টা কৰাৰ আৰু তেওঁলোকৰ পুৰস্কাৰ পৰ্যবেক্ষণ কৰাৰ বাবে আপুনি আপুনি বাজেট শেষ কৰিছেন। এতিয়া সবচেয়ে ভাল পছন্দ কি সেই সম্পৰ্কে একটা উপসংহাৰ কৰক।"
   },
   "outcome": {
     "win": "অভিনন্দন! আপুনি সঠিক বুটামটো বাছনি কৰিলে।",

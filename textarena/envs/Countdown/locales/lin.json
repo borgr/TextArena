@@ -5,11 +5,11 @@
   "board": {
     "header": "KOMBO: {target}\n\nNambari zonika:\n{numbers}",
     "best": "{observation}\n\nEzali te na mbala: {best_value} (nza: {distance})\nElobiseli ya mpepa: {best_expression}",
-    "history": "{observation}\n\nMove history:\n{moves}",
+    "history": "{observation}\n\nMokili ya bisika:\n{moves}",
     "progress": "{observation}\nAlungi ya mpepa ya sika: {progress}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use `[i j op]` where i,j are indices and op is +,-,*,/",
+    "wrong_format": "Mfumo ya mokili siyo. Tumia `[i j op]` wapi i,j nde bisika na op nde +,-,*,/",
     "invalid_indices": "Ba indices ya ba valeurs eza na valeur te. esengeli ezala ndenge moko mpe kati 0-{max_index}",
     "invalid_operation": "Mosala ya mabe (bozwani na zero to mbuma oyo ezali motango mobimba te)"
   },

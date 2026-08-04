@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "නරක ක් රියාකාරී ආකෘතිය. [h row col] හෝ [v row col] භාවිතා කරන්න.",
-    "out_of_bounds": "Edge outside board."
+    "out_of_bounds": "අද්දර පුවරුවෙන් පිටත."
   },
   "outcome": {
     "win": "ඔයාලා එක ලූප් එකක් හැදුවා!",

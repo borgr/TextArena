@@ -14,7 +14,7 @@
     "intro": "I ye jokelani {player_id} o kɛ Three-Player Tic Tac Toe.\nSo bolo ye '{symbol}'.\nI ye dɛmɛ sira duguw ko kanburu 5x5 la ye a ye so bolo.\nSira duguw ye kanburu ye sira dugu ko ɲɛgɛn, kɔrɔn, walla kɛlɛkɛlɛ.\nKan i ko sira duguw ye '[4]' la ko kanburu 4."
   },
   "board": {
-    "current_board": "Current Board:\n\n{board}\n\nAvailable Moves: {moves}"
+    "current_board": "Tablo kɔnɔ:\n\n{board}\n\nKɛlɛw ye minnu: {moves}"
   },
   "invalid_move": {
     "wrong_format": "A tɛ se ka kɛ. I be \"[cell]\" sɛbɛ yen yɔrɔ min na 0 ye - {max_cell} .",

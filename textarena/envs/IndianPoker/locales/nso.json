@@ -23,10 +23,10 @@
     "possible_actions": "Mediro ya gago e ka bago gona: {legal}"
   },
   "message": {
-    "round_result": "{reason}  Pot {pot} → Player {winner}. (Bankrolls P0:{p0}, P1:{p1})",
+    "round_result": "{reason}  Poto {pot} → Modisa {winner}. (Bankrolls P0:{p0}, P1:{p1})",
     "folded": "Sebapadi {player_id} se ile sa tlogela.",
     "showdown_win": "Go bontšhana: {card_win} e betha {card_lose}.",
-    "showdown_tie": "Showdown tie: both {card}. Pot split – each receives {split}."
+    "showdown_tie": "Showdown e tshwana: bobedi {card}. Pot e abelwa - mongwe le mongwe o amogela {split}."
   },
   "outcome": {
     "p0_wins": "Player 0 a fenya ({bank0} > {bank1})",

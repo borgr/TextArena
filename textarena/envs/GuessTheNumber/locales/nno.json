@@ -9,7 +9,7 @@
   },
   "game_message": {
     "target_higher": "Tallinja er endå større.",
-    "target_lower": "The target number is lower."
+    "target_lower": "Måltalet er lågare."
   },
   "outcome": {
     "win": "Gratulasjon! Du gjev rett på talet.",

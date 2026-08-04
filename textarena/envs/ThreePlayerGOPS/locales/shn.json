@@ -14,7 +14,7 @@
     "{scores}": "The final scores as a raw player-number to score mapping - do not translate"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player GOPS.\n- You hold the 13 cards A-K (each exactly once).\n- Each round a prize is revealed. Submit ONE card like `[Q]`, `[10]`, `[2]` …\n- Highest card wins the prize (+ any carry-over pot). Ties roll the prize into the next round.\n- After 13 rounds, highest total wins. Invalid moves = elimination."
+    "intro": "သင်သည် သုံးယောက်ကစားသမား GOPS ၏ ကစားသမား {player_id} ဖြစ်သည်။\n- သင် 13 ကစားတုပ် A-K (တစ်ကစားတုပ် တစ်ကြိမ်) ကို ကိုင်ထားသည်။\n- တစ်အချီ တစ်ဆုကြေး ဖွင့်လို့ မြင်ရသည်။ [Q], [10], [2] ကဲ့သို့ တစ်ကစားတုပ် တင်ပါ။\n- အမြင့်ဆုံး ကစားတုပ် ဆုကြေး (ပို့စာ ပါဝင်) အနိုင်ရသည်။ တန်းတူ ဆုကြေး နောက်အချီ ပို့စာ ပါဝင်။\n- 13 အချီ ပြီးသည်နောက်, စုစုပေါင်း အမြင့်ဆုံး အနိုင်ရသည်။ မှားသော လှုပ်ရှားမှု = ထုတ်ပယ်။"
   },
   "round": {
     "header": "### လုၵ်ႈၽၢႆႇ {round}/13 - ၶႅၼ်ၶႆႈ၊ ၶႅၼ်ၶႆႈ၊ ၶႅၼ်ၶႆႈ: {prize} (ၸွမ်း {worth})",
@@ -33,7 +33,7 @@
     "player": "ၽူႈလဵၼ်ႈ {pid} လႆႈထုၵ်ႇထွၼ်ဢွၵ်ႇပႅတ်ႈ ဝၢႆးသေ လႅၼ်ႈၽိတ်းၶိုၼ်းမႃးထႅင်ႈၵမ်ႈၼမ်ယဝ်ႉ။"
   },
   "outcome": {
-    "auto_win": "Two players eliminated - automatic win.",
+    "auto_win": "ကစားသမား နှစ်ယောက် ထုတ်ပယ်ခံရသည် - အလိုအလျောက် အနိုင်ရသည်။",
     "final": "ၶေႃႈလႆႈၸႂ်လိုၼ်းသုတ်း: {scores}"
   }
 }

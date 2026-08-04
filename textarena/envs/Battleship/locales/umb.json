@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id}. You are playing the Battleship game.\nYour goal is to sink all of your opponent's ships before they sink yours.\nOn your turn, you can fire missiles at specific coordinates in teh following format: '[a4]'. If the missile hits a ship, it is marked with 'X'. If it misses, it is marked with 'O'. In either scenarios, the game environment will inform you of your hits. If you have sunk a boat, the game environment will tell you!\nThe game ends when all of one player's ships have been sunk.\nYour initial board will show all of your ships placed and your opponent's hits on you, and your hits and misses on your opponent's board without showing your opponent's ships.\nHere is the initial board:\n"
+    "intro": "Ove iwe Mwimbangi {player_id}. Ove uimbanga omwimbangi wa Nau.\nOmwimbangi wove ni kuimbanga nau zose za mwimbangi wove wakwenu kabla ya kuzimwimbanga kwenu.\nPa turni yove, ove ungawekelela mau mawili ku mwendo wa kuzingirwa: '[a4]'. Iwa mau ngahala nau, iwekwa 'X'. Iwa mau kalahala, iwekwa 'O'. Pa zaidi ya mau, mwimbangi wove wakwenu wakazungumza mau yenu. Iwa ove wazimwimbile nau, mwimbangi wove wakwenu wakazungumza!\nMwimbangi wove ukoma pa zaidi ya nau zose za mwimbangi mose wakwenu wazimwimbile.\nMwimbangi wove wa kwanza wakazungumza nau zenu zote zikwazikwa na mau yenu yaliyokwazikwa na mwimbangi wenu, na mau yenu yaliyokwazikwa na mau yaliyokwazikwa kwa mwimbangi wenu bila ya kuzungumza nau zenu.\nHii iwe mwimbangi wove wa kwanza:\n"
   },
   "invalid_move": {
     "wrong_format": "Omunu wa nõliwa ka sukila oku eca etambululo lia suapo.",
@@ -11,9 +11,9 @@
     "you_sunk": "Kala! Owe kala shipa ku {coord}! Ombindu yiike yo ku board yo:\n{view}",
     "opp_sunk": "Omupe wa kukala kala shipa yo ku {coord}! Ombindu yiike yo ku board yo:\n{view}",
     "you_hit": "Kukala! Owe kukala shipa ku {coord}! Ombindu yiike yo ku board yo:\n{view}",
-    "opp_hit": "Opponent hit your ship at {coord}! Your updated board:\n{view}",
-    "you_miss": "Miss! You missed the ship at {coord}! Your updated board:\n{view}",
-    "opp_miss": "Opponent missed your ship at {coord}! Your updated board:\n{view}"
+    "opp_hit": "Mwimbangi wenu wakwenu ngahala nau yenu pa {coord}! Mwimbangi wove wapya:\n{view}",
+    "you_miss": "Kalaha! Ove kalahala nau pa {coord}! Mwimbangi wove wapya:\n{view}",
+    "opp_miss": "Mwimbangi wenu wakwenu kalahala nau yenu pa {coord}! Mwimbangi wove wapya:\n{view}"
   },
   "outcome": {
     "win": "Mwene {player_id} akala shipa zote za omupe!"

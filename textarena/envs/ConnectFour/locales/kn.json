@@ -8,7 +8,7 @@
   },
   "invalid_move": {
     "wrong_format": "ಆಟಗಾರ {player_id}, ಅಮಾನ್ಯ ಕ್ರಿಯೆಯ ಸ್ವರೂಪ. ನಿರೀಕ್ಷಿತ ಸ್ವರೂಪಃ \"[col x]\".",
-    "out_of_range": "Player {player_id}, Invalid action. Column {col} is out of bounds.",
+    "out_of_range": "ಆಟಗಾರ {player_id}, ಅಮಾನ್ಯ ಕ್ರಿಯೆ. ನಿಲುವು ವರಸೆ {col} ಮಿತಿಯನ್ನು ಮೀರಿದೆ.",
     "already_full": "ಆಟಗಾರ {player_id}, ಅಮಾನ್ಯ ಕ್ರಿಯೆ. ಕಾಲಮ್ {col} ತುಂಬಿದೆ."
   },
   "action": {

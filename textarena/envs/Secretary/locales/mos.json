@@ -9,7 +9,7 @@
     "wrong_format": "Tʋʋmdã segd n yɩɩ [accept] bɩ [continue] ."
   },
   "outcome": {
-    "summary": "You accepted value {value} at draw {draw_num}/{N}. The best overall was {best}. {result}",
+    "summary": "A kpaŋa yɛlɛm {value} kɔɔlɛ {draw_num}/{N} la. Yɛlɛm kɔɔlɛ la yɛ {best}. {result}",
     "perfect": "Y sẽn yãk yam to-to wã! ",
     "not_max": "Pa sẽn yɩɩd ye."
   }

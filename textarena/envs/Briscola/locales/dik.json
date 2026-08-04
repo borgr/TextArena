@@ -51,7 +51,7 @@
     "trick_win": "Wëër {winner} acë lööc ku {card}, ee dhöl {points} pööc!"
   },
   "outcome": {
-    "head": "Game Over! Player {winner} wins with {points} points!\n\nFinal Scores:\n{scores}",
+    "head": "Dɔ̈ɔ̈r këcïtë! Lööŋ {winner} dhïïm kuɔ̈ɔ̈ {points} pts!\n\nKäŋ ëë lööŋ ëë dhïïm:\n{scores}",
     "player_line": "Wëër {player_id}: {points} pööc ({tricks} lööc)\n"
   }
 }

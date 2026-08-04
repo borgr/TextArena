@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({piece}). Opponent is ({opp}).\nSubmit moves as '[a2 a3]' (from → to).\n- A normal move is one forward step to an adjacent empty vertex.\n- A capture is a jump over an adjacent enemy piece landing on the empty node beyond.\nEach capture yields {score_per_capture} points.\nGame ends after {max_moves} moves or when a player has no legal move."
+    "intro": "অনুমক্তা নং {player_id} নহক্কী ( {piece} )। প্রতিদ্বন্দ্বী নং ( {opp} )।\nআপুনবা অনুগমন মতাং '[a2 a3]' (অনা → অনু) তৌরবা লিখুন।\n- মামলবা অনুগমন অনা অনুবা ফংলো খালা চূড়ান্ত অনুগমনবা অনা অনুবা ফংলো চলচান্ত।\n- ফংলো নকল অনুগমন অনা অনুবা ফংলো চূড়ান্ত অনুবা শত্রু ফংলো লংখনবা খালা চূড়ান্ত অনুগমনবা অনা।\nফংলো নকল অনুগমন অনুমতে {score_per_capture} পয়েন্ট পামবা।\nতমশিং অনুগমন {max_moves} অনুগমন লৈবা লইবা অমা অনুমক্তা অনুগমন নথক্কী অনুমক্তা অনা।"
   },
   "board": {
     "current_board": "Move #{move_count}\n\n{board}"
@@ -13,7 +13,7 @@
     "illegal": "আইনগী ওইবা খোঙথাং নত্তে।"
   },
   "game_action": {
-    "captured": "Player {player_id} captured a piece! (+{score_per_capture})"
+    "captured": "অনুমক্তা নং {player_id} ফংলো নকল্লী! (+{score_per_capture})"
   },
   "outcome": {
     "no_pieces": "শান্নরোই {player_id}দা ফিস অমত্তা লৈতে।",

@@ -8,9 +8,9 @@
   },
   "invalid_move": {
     "wrong_format": "Mũgambo ũtarĩ wa kĩhooto. Mũteng'eri {player_id} ndacokirie na 'mũrango namba ya rũtambĩ.'",
-    "out_of_bounds": "Invalid move. Player {player_id} attempted to place {num} at ({row}, {col}), which is out of bounds.",
-    "overwrite": "Invalid move. Player {player_id} attempted to overwrite a pre-filled cell ({row}, {col}).",
-    "violates_rules": "Invalid move. Player {player_id} attempted to place {num} at ({row}, {col}), which violates Sudoku rules."
+    "out_of_bounds": "Hatua isiyofaa. Mchezaji {player_id} alijaribu kuweka {num} kwenye ({row}, {col}), ambayo iko nje ya mipaka.",
+    "overwrite": "Hatua isiyofaa. Mchezaji {player_id} alijaribu kubadilisha selimisho lililobadilishwa awali ({row}, {col}).",
+    "violates_rules": "Hatua isiyofaa. Mchezaji {player_id} alijaribu kuweka {num} kwenye ({row}, {col}), ambayo inakiuka sheria za Sudoku."
   },
   "outcome": {
     "win": "Nĩ ndakũgeithia! Mwĩroreri {player_id} nĩ ahingirie kĩgeranio kĩa Sudoku.",

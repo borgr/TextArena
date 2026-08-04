@@ -10,7 +10,7 @@
     "{to}": "The destination coordinate of a move, such as b3"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in game of LinesOfAction.\nYour pieces are '{side}', opponent pieces are '{other}'.\nMove format: `[b1b3]` (from-coord to-coord). A legal move travels horizontally, vertically, or diagonally a number of squares equal to the total pieces (any colour) in that line. You may jump over your own pieces, but not opponent pieces; landing on an opponent captures it.  Win when all your pieces are 8-neighbour connected."
+    "intro": "Ngwena uyi Mwana {player_id} mu joga ya LinesOfAction.\nMbilu ya kuwa ni '{side}', mbilu ya kudikana ni '{other}'.\nMfumo ya kusokela: `[b1b3]` (kutoka-kokozi kuenda-kokozi). Sokela ya kufweteke kusokela kwenda kwa mpimo, kwa kusokela, kwa kusokela diagonal, kwa mpimo ya mbilu zote (nge ya lolenge) mu mpimo uwo. Ngwena uyikwenda mbilu ya kuwa, kansi uyikwenda mbilu ya kudikana; kusokela ku mbilu ya kudikana ni kuikwata.  Uyikwata joga lene mbilu ya kuwa zote zikwata ku mpimo wa 8."
   },
   "board": {
     "current_board": "Kibuka: {board}"
@@ -26,7 +26,7 @@
   },
   "game_action": {
     "moved": "Mwana {player_id} sakala {from} -> {to}",
-    "captured_suffix": "Player {player_id} moved {from} -> {to} capturing an enemy."
+    "captured_suffix": "Mwana {player_id} asokelwa {from} -> {to} akwata mbilu ya kudikana."
   },
   "outcome": {
     "win": "O jimbandu joso ja moneka.",

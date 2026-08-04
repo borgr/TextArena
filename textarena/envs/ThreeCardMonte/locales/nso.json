@@ -11,7 +11,7 @@
     "{ball_pos}": "The cup index the ball is under"
   },
   "player_prompt": {
-    "intro": "Track the hidden ball 'X' while the cups are shuffled.\nAfter shuffling, guess its location with `[k]`."
+    "intro": "Latisa bola e fitilwego 'X' ge dikopi di a hlakana.\nMorago ga go hlakana, eka lefelo la yona ka `[k]`."
   },
   "game_message": {
     "ball_starts": "Kgwele e thoma: {line}",
@@ -21,7 +21,7 @@
     "reveal": "(Botolla: kgwele ka tlase ga {ball_pos})"
   },
   "invalid_move": {
-    "wrong_format": "Bad action. Use `[k]`.",
+    "wrong_format": "Tiro e mpe. Šomiša `[k]`.",
     "out_of_range": "Inšorense ya ka ntle ga legoro la 0-{max_index}."
   },
   "outcome": {

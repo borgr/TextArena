@@ -1,13 +1,13 @@
 {
   "player_prompt": {
-    "intro": "Welcome to Lights Out! You have a {size}x{size} grid of lights.\nYour goal is to turn ALL lights OFF (represented by '.')\nWhen you press a light, it toggles itself AND its adjacent neighbors (up/down/left/right).\nType [row col] to press a light (0-indexed, so valid range is 0-{max_index}).\nYou have up to {max_turns} moves to solve the puzzle.\nLegend: 'O' = light ON, '.' = light OFF"
+    "intro": "Haere mai ki Lights Out! He rārangi rama {size}x{size} tōu.\nKo tōu whāinga ko te tinei i ngā rama KATOA (e whakakanohia ana e '.').\nKa pāwhiri koe i tētahi rama, ka hurihia a ia anō me āna hoa tata (ki runga/ki raro/ki mauī/ki katau).\nTāpīria [row col] ki te pāwhiri i tētahi rama (0-inau, nō reira ko te roa whaimana 0-{max_index}).\nTērā tōu whai wā ki te {max_turns} pāwhiri ki te whakaoti i te panga.\nPūrākau: 'O' = rama KŌKŌ, '.' = rama TĀREWĀ"
   },
   "board": {
     "current_state": "E whakaatu tuatahi o te papa (Neke {moves_made}, {moves_left} neke kei runga, {completion}% ka oti):\n{grid}"
   },
   "invalid_move": {
     "wrong_format": "Me noho te mahi i roto i te ahua [row col] i nga wa e whai ana te rori me te kohuru i nga tuhinga mai i 0 ki {max_index}.",
-    "out_of_range": "Coordinates must be between 0 and {max_index}. You entered [{row},{col}]."
+    "out_of_range": "Me mātua whai ngā kōордината i waenga i 0 me {max_index}. I whakauruhia e koe [{row},{col}]."
   },
   "outcome": {
     "win": "Kia ora! Kua whakaotihia e koe te porotiti i roto i nga nekehanga {moves_used}!",

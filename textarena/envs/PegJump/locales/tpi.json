@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "Toktok i no stret. Yusim [i->j].",
-    "illegal_move": "Illegal move."
+    "illegal_move": "Move i no stret."
   },
   "outcome": {
     "win": "Ol i stretim dispela hevi na wanpela stik tasol bilong en i stap!",

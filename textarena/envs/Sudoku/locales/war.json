@@ -13,7 +13,7 @@
     "violates_rules": "Baliw an pagkilos. Nagtangka an Player {player_id} na magpwesto han {num} ha ({row}, {col}), nga naglalabag han mga pamalaod han Sudoku."
   },
   "outcome": {
-    "win": "Congratulations! Player {player_id} completed the Sudoku puzzle.",
+    "win": "Pakpak han kamot! Player {player_id} nakumpleto an puzzle han Sudoku.",
     "turn_limit": "An limitasyon han pag-ikot in naabot. Husto ka hin pagsulod {percent}% han mga waray sulod nga selyula."
   }
 }

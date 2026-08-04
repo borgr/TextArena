@@ -22,7 +22,7 @@
     "start": "Tšwara ya Briscola e simolotse! Suti ya trump: {trump_suit} (Karti ya trump: {trump_card})"
   },
   "prompt": {
-    "intro": "You are playing Briscola - Player {player_id}.\nGoal: Win tricks and collect the most points (120 total points in the deck).\nCard Points: A=11, 3=10, K=4, Q=3, J=2, others=0\nCard Power: A > 3 > K > Q > J > 7 > 6 > 5 > 4 > 2\nTrump cards beat non-trump cards regardless of power.\n\nAction: '[play X]' where X is the position (1-{max_pos}) of the card in your hand\n"
+    "intro": "O raloka papadi ya Briscola - Mmoledi {player_id}.\nSepheo: Hlolela dikgato le kgobokanya diponto tse ngata (diponto tse 120 ka deck).\nDiponto tsa Kareti: A=11, 3=10, K=4, Q=3, J=2, tse ding=0\nMatla a Kareti: A > 3 > K > Q > J > 7 > 6 > 5 > 4 > 2\nKareti tsa trump di hlola kareti tse sa trump ntle le matla.\n\nKgato: '[play X]' kapa X ke boemo (1-{max_pos}) ya kareti ka letsohong la hao\n"
   },
   "hand": {
     "none": "Ga go na dikarata.",
@@ -39,7 +39,7 @@
   "turn": {
     "score_entry": "Modiri {player_id}: {points} dipontsi",
     "trump_info": "Kobo ya Trump: {trump_suit}",
-    "trump_info_deck": "Trump suit: {trump_suit} | Cards left in deck: {deck_count}",
+    "trump_info_deck": "Maphasa a trump: {trump_suit} | Kareti e setseng ka deck: {deck_count}",
     "board": "{hand}\n\n{trick}\n\nMabala: {scores}\n{trump_info}\n\nBana karte ka go tsaya [play X]"
   },
   "invalid_move": {

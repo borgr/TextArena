@@ -13,10 +13,10 @@
     "repeated_guess": "Geer höb 't al gekaoze {guess}. Probeert e ander raod te gaeve."
   },
   "game_action": {
-    "feedback": "Submitted [{guess}]. Feedback: {black_pegs} black peg(s), {white_pegs} white peg(s)."
+    "feedback": "Ingedeend [{guess}]. Feedback: {black_pegs} zwarte knöpkes, {white_pegs} wiete knöpkes."
   },
   "outcome": {
-    "win": "You have cracked the code, solving {black_pegs} out of {code_length} pegs correctly",
+    "win": "Doe höbs de code gekraak, {black_pegs} van de {code_length} knöpkes richtig opgelos",
     "turn_limit": "'t Is de limiet vanne draaje bereikt. Je hebt {percent} procent vaan de getalle goed gerope."
   }
 }

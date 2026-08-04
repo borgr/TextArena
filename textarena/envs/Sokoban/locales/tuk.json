@@ -12,7 +12,7 @@
     "invalid_position": "Nädogry hereket - bu ýere göçüp bolmaýar."
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
+    "moved": "Siz {pushed} ýerleşdiniz [{action}].",
     "pushed_prefix": "bir gutyny iterdiňizde ,"
   },
   "outcome": {

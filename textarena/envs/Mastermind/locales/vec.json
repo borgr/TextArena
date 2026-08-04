@@ -13,7 +13,7 @@
     "repeated_guess": "Te ga za indovinà {guess}. Prova a indovinar qualcossa de diverso, per favor."
   },
   "game_action": {
-    "feedback": "Submitted [{guess}]. Feedback: {black_pegs} black peg(s), {white_pegs} white peg(s)."
+    "feedback": "Invià [{guess}]. Feedback: {black_pegs} piolo(i) nero(i), {white_pegs} piolo(i) bianco(i)."
   },
   "outcome": {
     "win": "Ti ga desfrigà el codice, risolvendo {black_pegs} su {code_length} peghi corettamente",

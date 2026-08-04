@@ -14,15 +14,15 @@
     "{scores}": "The final scores as a raw player-number to score mapping - do not translate"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player GOPS.\n- You hold the 13 cards A-K (each exactly once).\n- Each round a prize is revealed. Submit ONE card like `[Q]`, `[10]`, `[2]` …\n- Highest card wins the prize (+ any carry-over pot). Ties roll the prize into the next round.\n- After 13 rounds, highest total wins. Invalid moves = elimination."
+    "intro": "Ti seet Giugador {player_id} in Three-Player GOPS.\n- Ti te gh'hett i 13 carte A-K (ogni vun esattament vuna volta).\n- Ogni manzana una premio l'è revelada. Invia una carta come `[Q]`, `[10]`, `[2]` …\n- La carta pussee alta vensg la premio (+ qualsiasi portafoglio trasferit). I paregg trasferissen la premio in la prossima manzana.\n- Dopo 13 manzane, el total pussee alt vensg. Mosse invalide = eliminazion."
   },
   "round": {
     "header": "### Giirada {round}/13 - Premi: {prize} (val {worth})",
     "hand": "La tò man restàda: {hand}"
   },
   "reveal": {
-    "win": "Bids  {bids} - Player {winner} wins {pot}.",
-    "tie": "Bids  {bids} - tie, pot now {pot}.",
+    "win": "Offerte » {bids} - Giugador {winner} vensg {pot}.",
+    "tie": "Offerte » {bids} - paregg, portafoglio adess {pot}.",
     "scores": "Scores → {scoreline}"
   },
   "invalid_move": {

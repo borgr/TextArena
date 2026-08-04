@@ -1,13 +1,13 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({role}) in a {num_rounds}-round Matching Pennies game.\n- Each round, submit [heads] or [tails] (or [h], [t]).\n- If your choice matches your opponent’s, Player 0 wins the round; otherwise Player 1 wins.\nReply with your choice in the format '[heads]' or '[tails]'.\n"
+    "intro": "Yaa Player {player_id} ({role}) kʋnɛ Matching Pennies kɛlɛ kʋmɛ {num_rounds} la.\n- Kʋlɛ kʋlɛ, sɔgɛ [heads] wɛlɛ [tails] (wɛlɛ [h], [t]).\n- Yɛm sɔgɛm pʋgɛ yɛm kɛlɛɛm sɔgɛm, Player 0 yaa kʋlɛ kʋmɛ; kɛlɛɛm sɔgɛm pʋgɛ yɛm sɔgɛm, Player 1 yaa kʋlɛ kʋmɛ.\nLɛm sɔgɛm yɛm sɔgɛm '[heads]' wɛlɛ '[tails]' la.\n"
   },
   "invalid_move": {
     "wrong_format": "Fɔma sɛɛra; ka tɔm '[heads]' walla '[tails]'."
   },
   "message": {
     "round_match": "Jɛɛga 0 daa zaɛ '{choice0}'; Jɛɛga 1 daa zaɛ '{choice1}'. Match -> Jɛɛga 0 kɔg",
-    "round_mismatch": "Player 0 picked {choice0}; Player 1 picked {choice1}. Mismatch -> Player 1 wins."
+    "round_mismatch": "Ninsaaliba 0 yelga {choice0}; Ninsaaliba 1 yelga {choice1}. Ka paasam ba'a -> Ninsaaliba 1 yaa'ra."
   },
   "outcome": {
     "p0_wins": "Neb nins sẽn da paam n naagd 0 wã paama b mens sõma.",

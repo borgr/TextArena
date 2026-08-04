@@ -9,7 +9,7 @@
     "progress": "{observation}\n\nFaʻaiʻuga o tupe faʻaalu: {progress}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use `[i j op]` where i,j are indices and op is +,-,*,/",
+    "wrong_format": "Fa'atusa o gaoioiga e le sa'o. Fa'aoga `[i j op]` lea i,j o fusi ma op o le +,-,*,/",
     "invalid_indices": "Faʻailoga le aoga. E tatau ona ese ma i totonu o le 0-{max_index} vaega",
     "invalid_operation": "Faʻagaioiga le saʻo (vaevaega i se zero po o ni taunuuga e lē integer)"
   },

@@ -16,7 +16,7 @@
   },
   "game_action": {
     "skipped": "খেলুৱৈ {pid}য়ে নিজৰ পালটো এৰিব লগা হৈছিল",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "প্লেয়াৰ {pid} ({piece}) [{r}, {c}] চাল খেলিছে আৰু {flipped} টুকুৰা(সমূহ) পৰিবৰ্তন কৰিছে"
   },
   "game_message": {
     "must_skip": "খেলুৱৈ {pid} ({piece}) ৰ কোনো বৈধ পদক্ষেপ নাই আৰু তেওঁ খেল এৰিব লাগিব।"

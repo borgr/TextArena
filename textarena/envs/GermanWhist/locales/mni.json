@@ -4,7 +4,7 @@
     "no_trump_card": "অমত্তা লৈতে"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in German Whist.\n{phase_info}\nYou hold {hand_size} cards.\nPlay a card with '[play N]', where N is its position in your hand (for example '[play 3]').",
+    "intro": "ꯅꯨꯡ ꯇꯦꯝꯄꯥꯎꯇ ꯃꯤ ꯄ꯭ꯂꯦꯌꯔ {player_id} ꯅꯤ ꯖꯔꯃꯟ ꯋꯤꯁ꯭ꯇ ꯇꯥꯇꯤ ꯃꯅꯨꯡꯗ ꯫\n{phase_info}\nꯅꯨꯡ ꯇꯦꯝꯄꯥꯎꯇ {hand_size} ꯀꯥꯔꯗ ꯂꯧꯔꯦ ꯫\n'[play N]' ꯍꯥꯌꯕ ꯋꯥꯍꯩ ꯁꯤꯖꯤꯟꯅꯔꯒ ꯀꯥꯔꯗ ꯑꯃꯥ ꯆꯟꯂꯨ, ꯃꯗꯨ N ꯍꯥꯌꯕ ꯇꯨꯝꯕ ꯃꯅꯨꯡꯗ ꯀꯥꯔꯗ ꯑꯃꯥ ꯃꯐꯝ ꯅꯤ (ꯈꯨꯗꯝ ꯗ ꯃꯈꯥ ꯇꯥꯕ '[play 3]' ꯍꯥꯌꯕ ꯋꯥꯍꯩ ꯁꯤꯖꯤꯟꯅꯕ) ꯫",
     "phase_learning": "লর্নিং ফেজ: ত্রিক খুদিংমক্কী মায় পাক্লবশিংনা মকোক থোংবা কার্দ লৌগনি অমসুং মাংখ্রবনা মথংগী কার্দনা পীরক্কনি। মসিগী ফাজ অসিদা ফংখিবা ত্রিকশিং অসি মাইপাকপগীদমক খন্নরোই।",
     "phase_playing": "শান্নবগী তাঙ্কক: দেক্কী মশিং লোইরে। হৌজিকদগী হৌনা তেক্নিকেল খুদিংমক মায় পাক্ননবা হোৎনগনি।"
   },
@@ -71,6 +71,6 @@
     "player_line": "{observation}\nপ্লেয়ার {player_id}: {scoring} স্কোরিং ট্রিক ({tricks} মোট), {hand_size} কার্ড হাতে"
   },
   "outcome": {
-    "summary": "Learning phase - Player 0: {l0}, Player 1: {l1}. Playing phase - Player 0: {p0}, Player 1: {p1}. Player {winner_id} wins with {winner_tricks} scoring tricks!"
+    "summary": "ꯆꯨꯡꯗ ꯋꯥꯍꯩ ꯃꯅꯨꯡ - ꯄ꯭ꯂꯦꯌꯔ 0: {l0}, ꯄ꯭ꯂꯦꯌꯔ 1: {l1} ꯫ ꯆꯨꯡꯗ ꯄ꯭ꯂꯦ - ꯄ꯭ꯂꯦꯌꯔ 0: {p0}, ꯄ꯭ꯂꯦꯌꯔ 1: {p1} ꯫ ꯄ꯭ꯂꯦꯌꯔ {winner_id} ꯃꯥꯏ ꯆꯟꯂꯨ {winner_tricks} ꯁ꯭ꯀꯣꯔ ꯇꯥꯏ ꯆꯤꯡꯁꯤ ꯈꯔꯒ ꯫"
   }
 }

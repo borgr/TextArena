@@ -16,7 +16,7 @@
     "{cards}": "The cards in a pile as neutral labels, or '--' if empty (never translate)"
   },
   "player_prompt": {
-    "intro": "You are playing Klondike Solitaire. Your goal is to move all cards to the foundation piles.\n\nGame Rules:\n- Foundation piles (F1-F4): Build up from Ace to King in suit\n- Tableau piles (T1-T7): Build down alternating colors (red on black, black on red)\n- Stock: Draw cards to waste pile\n- Waste (W): Top card available for play\n\nCommands:\n- 'draw' - Draw cards from stock to waste\n- 'move <source> <destination> [count]' - Move cards between piles\n  Examples: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count can also be 'all', which will try to move all face-up cards.\n- 'forfeit' - End the game immediately and lock in your current score\n- Pile names: W (waste), F1-F4 (foundations), T1-T7 (tableau)\n\nYou can execute multiple actions in one turn by separating them with commas:\n  Example: 'draw, move W T1, move T2 F1'\n\nOnly Kings can be placed on empty tableau piles.\nActions execute in order - if one fails, the remaining actions are skipped.\nUse 'forfeit' if you believe the game is impossible to win."
+    "intro": "તમે ક્લોન્ડાઇક સોલિટેર રમી રહ્યા છો. તમારો લક્ષ્ય તમામ કાર્ડ્સને ફાઉન્ડેશન પાઈલ્સમાં ખસેડવાનો છે.\n\nરમતના નિયમો:\n- ફાઉન્ડેશન પાઈલ્સ (F1-F4): એસ થી કિંગ સુધી સૂટ બનાવો\n- ટેબ્લો પાઈલ્સ (T1-T7): રંગોની વચ્ચે બદલાતી રીતે નીચે બનાવો (લાલ પર કાળું, કાળું પર લાલ)\n- સ્ટોક: કાર્ડ્સને વેસ્ટ પાઈલમાં ખેંચો\n- વેસ્ટ (W): ટોચનું કાર્ડ રમવા માટે ઉપલબ્ધ છે\n\nઆદેશો:\n- 'draw' - સ્ટોકમાંથી કાર્ડ્સને વેસ્ટ પાઈલમાં ખેંચો\n- 'move <source> <destination> [count]' - પાઈલ્સ વચ્ચે કાર્ડ્સ ખસેડો\n  ઉદાહરણો: 'move W T1', 'move T1 F2', 'move T3 T5 2'. કાઉન્ટ 'all' પણ હોઈ શકે છે, જે તમામ ખુલ્લા કાર્ડ્સ ખસેડવાનો પ્રયાસ કરશે.\n- 'forfeit' - રમત તરત જ પૂરી કરો અને તમારો વર્તમાન સ્કોર લોક કરો\n- પાઈલ નામો: W (વેસ્ટ), F1-F4 (ફાઉન્ડેશન્સ), T1-T7 (ટેબ્લો)\n\nતમે એક ટર્નમાં ઘણી ક્રિયાઓ કરી શકો છો અને તેને કોમા દ્વારા અલગ કરી શકો છો:\n  ઉદાહરણ: 'draw, move W T1, move T2 F1'\n\nમાત્ર રાજાઓ ખાલી ટેબ્લો પાઈલ્સ પર મૂકી શકાય છે.\nક્રિયાઓ ક્રમમાં કાર્યાન્વિત થાય છે - જો એક નિષ્ફળ જાય, તો બાકીની ક્રિયાઓ વિસ્મિત થઈ જાય છે.\n'forfeit' ઉપયોગ કરો જો તમને લાગે છે કે રમત જીતવી અશક્ય છે."
   },
   "format_error": {
     "no_brackets": "અમાન્ય ક્રિયા ફોર્મેટ. ક્રિયા કૌંસમાં હોવી જોઈએ.",
@@ -24,8 +24,8 @@
     "empty_command": "ખાલી આદેશ. પ્રકાર 'draw' અથવા 'move <source> <destination> [count]'",
     "empty_action": "ખાલી ક્રિયા",
     "move_needs_args": "ખસેડો આદેશને સ્રોત અને ગંતવ્યની જરૂર છે. ઉપયોગઃ 'move <source> <destination> [count]'",
-    "count_positive": "ગણતરી હકારાત્મક હોવી જોઈએ અથવા 'બધા'",
-    "count_invalid": "અમાન્ય ગણતરી. સંખ્યા અથવા 'બધા' વાપરો",
+    "count_positive": "કાઉન્ટ ધનાત્મક અથવા 'all' હોવી જોઈએ",
+    "count_invalid": "અમાન્ય કાઉન્ટ. એક સંખ્યા અથવા 'all' ઉપયોગ કરો",
     "unknown_command": "અજ્ઞાત આદેશ '{cmd}'. 'draw', 'move <source> <destination> [count]', અથવા 'forfeit' નો ઉપયોગ કરો",
     "wrapped": "ક્રિયા {n}: {msg}"
   },

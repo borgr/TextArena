@@ -11,13 +11,13 @@
     "{moves}": "The comma-separated list of available move tokens like '[4]' (do not translate)"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player Tic Tac Toe.\nYour symbol is '{symbol}'.\nYou take turns placing your symbol on a 5x5 board to form a line of four.\nLines can be horizontal, vertical, or diagonal.\nSubmit your move using the format '[4]' to mark cell 4."
+    "intro": "Wewe ni Mchezaji {player_id} katika Tic Tac Toe ya Wachezaji Watatu.\nAlama yako ni '{symbol}'.\nUnabadilishana kuweka alama yako kwenye ubao wa 5x5 ili kuunda mstari wa nne.\nMistari inaweza kuwa mlalo, wima, au diagonal.\nWasilisha wachezaji wako kwa kutumia fomu '[4]' ili kuashiria seli 4."
   },
   "board": {
-    "current_board": "Current Board:\n\n{board}\n\nAvailable Moves: {moves}"
+    "current_board": "Ubao wa Sasa:\n\n{board}\n\nVitendo Vinavyopatikana: {moves}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid move format. Use '[cell]' where cell is 0-{max_cell}.",
+    "wrong_format": "Fomu ya wachezaji si sahihi. Tumia '[cell]' ambapo seli ni 0-{max_cell}.",
     "out_of_range": "Nambari ya seli isiyo halali: {cell}. Inabidi iwe kati ya 0 na {max_cell}.",
     "already_occupied": "Cell {cell} yĩthĩawa na mũndũ.",
     "made_invalid": "Mũthaũki {player_id} eeka ũndũ ũtaĩle"
@@ -26,7 +26,7 @@
     "placed": "Mchezaji {player_id} anaweka ishara yake ({symbol}) kwenye uwanja ({row}, {col})."
   },
   "outcome": {
-    "win": "Player {player_id} ({symbol}) wins!",
-    "draw": "The game is a draw!"
+    "win": "Mchezaji {player_id} ({symbol}) anashinda!",
+    "draw": "Mchezo ni sare!"
   }
 }

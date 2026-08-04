@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "ခိုင်လုံသော ရွှေ့ပြောင်းပုံစံကို မတွေ့ရပါ။ [a1b2] ကို အသုံးပြုပါ။ ဥပမာ [b2c3] ပါ။",
-    "illegal": "Move [{move}] is illegal."
+    "illegal": "လှုပ်ရှားမှု [{move}] သည် တရားမဝင် ဖြစ်သည်။"
   },
   "game_action": {
     "moved": "ကစားသမား {player_id} ရွှေ့ပြောင်း {move}"

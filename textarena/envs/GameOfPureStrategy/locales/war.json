@@ -16,7 +16,7 @@
     "bids": "Mga bid: P0 {card0} vs P1 {card1} - ",
     "p0_wins": "{observation}Nagdaog an Manlalaro 0 {pot_value}.",
     "p1_wins": "{observation}Nagdaog an Manlalaro 1 {pot_value}.",
-    "tie": "{observation}Tie -> pot now {carry_pot}. An mga tawo nga nag-aangkon hin usa ka beses ha pagpirma han ira kalugaringon, an magigin tigaman hini amo hira hi [[Juliana]].",
+    "tie": "{observation}Tabla -> an pot yana {carry_pot}.",
     "scores": "Mga score -> P0:{score0}  P1:{score1}"
   },
   "outcome": {

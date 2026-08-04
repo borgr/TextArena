@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in Connect Four.\nYour disc symbol: {symbol}.\nThe game board has {num_rows} rows and {num_cols} columns.\nPlayers take turns dropping their disc into one of the columns (0 to {end_col}).\nThe first to connect (their own) four discs vertically, horizontally, or diagonally wins.\nOn your turn, enter the column number in squared brackets to make your move.\nFor example: '[col 4]' or '[col 1]'."
+    "intro": "Yin e raan {player_id} ee Connect Four.\nRaan ee raan kɛɛl: {symbol}.\nKɛɛlɛ̈ɛ̈n ee kɛɛlɛ̈ɛ̈n {num_rows} ku kɛɛlɛ̈ɛ̈n {num_cols}.\nRaan aɣɛɛ̈ɛ̈n ciɛɛ̈ɛ̈n kɛɛlɛ̈ɛ̈n tɛɛ̈ɛ̈n (0 ku {end_col}).\nRaan ee ciɛɛ̈ɛ̈n kɛɛlɛ̈ɛ̈n (kɛɛlɛ̈ɛ̈n kɛɛ̈ɛ̈n) kɛɛ̈ɛ̈n kuɛ̈ɛ̈n, kɛɛ̈ɛ̈n kɛɛ̈ɛ̈n, ku kɛɛ̈ɛ̈n kɛɛ̈ɛ̈n.\nYin e raan, kɛɛ̈ɛ̈n kɛɛ̈ɛ̈n kɛɛ̈ɛ̈n ee kɛɛ̈ɛ̈n kɛɛ̈ɛ̈n.\nKɛɛ̈ɛ̈n kɛɛ̈ɛ̈n kɛɛ̈ɛ̈n: '[col 4]' ku '[col 1]'."
   },
   "board": {
     "board_visible_state": "Kuär in tä kä kumɛ: {board_visual}",

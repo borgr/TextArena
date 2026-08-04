@@ -1,20 +1,20 @@
 {
   "player_prompt": {
-    "intro": "You are playing {color} in a game of Chess.\n Make your moves in UCI format enclosed in square brackets (e.g., [e2e4])."
+    "intro": "Wena uli kutamba {color} mu tchess.\n Tamba vitendo vyako mu fomu ya UCI mukati mwa mabano ya miraba (kwa mfano, [e2e4])."
   },
   "board": {
-    "current_board": "Current board:\n{board}",
-    "valid_moves": "{observation}\nValid moves: {moves}"
+    "current_board": "Tchess ya sasa:\n{board}",
+    "valid_moves": "{observation}\nVitendo vyema: {moves}"
   },
   "invalid_move": {
     "wrong_format": "Cj.",
     "illegal": "Kanza."
   },
   "game_action": {
-    "moved": "Player {player_id} made the following move: {move_uci}"
+    "moved": "Mchezaji {player_id} alitamba kitendo kifuatacho: {move_uci}"
   },
   "outcome": {
-    "draw": "Mchezo uliisha kwa sare.",
-    "win": "Player {player_id} wins the match."
+    "draw": "Mchezo umemalizika kwa sare.",
+    "win": "Mchezaji {player_id} anashinda mchezo."
   }
 }

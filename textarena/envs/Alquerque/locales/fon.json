@@ -1,12 +1,12 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({piece}). Opponent is ({opp}).\nSubmit moves as '[a2 a3]' (from → to).\n- A normal move is one forward step to an adjacent empty vertex.\n- A capture is a jump over an adjacent enemy piece landing on the empty node beyond.\nEach capture yields {score_per_capture} points.\nGame ends after {max_moves} moves or when a player has no legal move."
+    "intro": "A nyi wẹ Player {player_id} ({piece}). Ovonọ wẹ ({opp}).\nṢe afọzisi tọn to aliho '[a2 a3]' (sọn → jẹ).\n- Afọzisi dagbe wẹ afọ de sọn nukọn yi nudi dogọ tọn he ma do aihọn.\n- Afọzisi wlé wẹ afọ de yi nudi dogọ tọn he do aihọn mẹdetiti tọn bosọ sọ yi nudi dogọ tọn he ma do aihọn.\nAfọzisi wlé lẹpo na {score_per_capture} akọ.\nAihun lọ na wa vivọnu to {max_moves} afọzisi lẹ godo, kavi to whenuena aihọn jẹ mẹdepo ma do afọzisi dagbe ba."
   },
   "board": {
     "current_board": "Kandeko #{move_count}\n\n{board}"
   },
   "invalid_move": {
-    "bad_format": "Bad format. Use '[a2 a3]'.",
+    "bad_format": "Aliho he ma dagbe. Ṣe afọzisi to aliho '[a2 a3]'.",
     "unknown_square": "Nǔ e è ma tuùn ǎ é.",
     "not_your_piece": "Nǔ e nɔ nyí mɛ é kún ɖò taji nú we ó.",
     "dest_not_empty": "Akpá e è ɖó é nyí nǔtí ǎ.",

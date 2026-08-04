@@ -1,10 +1,10 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id}. You are playing the 15-Puzzle game.\nThe objective of the game is to arrange the numbered tiles in ascending order from 1 to 15, with the empty space located in the bottom-right corner.\nTo make a move, you can slide a tile into the empty space (represented by a double underscore, e.g. __) by using one of the following commands:\n- 'up': Move the tile below the empty space up.\n- 'down': Move the tile above the empty space down.\n- 'left': Move the tile to the right of the empty space left.\n- 'right': Move the tile to the left of the empty space right.\nTo submit your move, type the direction (e.g., 'up', 'down', 'left', or 'right') in square brackets, e.g. [up].\nThe current board layout is shown below. Use the information to solve the puzzle.\n"
+    "intro": "Ikaw si Player {player_id}. Nagdula ka sa 15-Puzzle game.\nAng tumong sa dula mao ang pag-arrange sa mga numbered tiles sa pag-asenso nga order gikan 1 hangtod 15, uban sa empty space nahimutang sa ilalom nga too.\nPara makabuhat og move, pwede ka mag-slide og tile ngadto sa empty space (gipakita sa double underscore, e.g. __) pinaagi sa paggamit og usa sa mga mosunod nga komando:\n- 'up': Ibalhin ang tile sa ilalom sa empty space ngadto sa ibabaw.\n- 'down': Ibalhin ang tile sa ibabaw sa empty space ngadto sa ilalom.\n- 'left': Ibalhin ang tile sa too sa empty space ngadto sa wala.\n- 'right': Ibalhin ang tile sa wala sa empty space ngadto sa too.\nPara magsumite sa imong move, itype ang direksyon (e.g., 'up', 'down', 'left', o 'right') sa square brackets, e.g. [up].\nAng kasamtangang layout sa board gipakita sa ubos. Gamita ang impormasyon para masulbad ang puzzle.\n"
   },
   "board": {
-    "current_board": "Kasamtangang Board:\n\n{board}\nAvailable Moves: {moves}",
-    "game_board": "Game Board: {board}"
+    "current_board": "Kasamtangang Board:\n\n{board}\nMga Galamhan nga Makahimo: {moves}",
+    "game_board": "Dula Board:\n{board}"
   },
   "invalid_move": {
     "wrong_format": "Dili balido nga format sa paglihok. Player {player_id} wala motubag uban sa usa ka balido a direksyon diha sa kuwadrado parentesis.",

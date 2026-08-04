@@ -19,7 +19,7 @@
     "{deck_count}": "Number of cards left in the deck"
   },
   "game": {
-    "start": "Briscola game started! Trump suit: {trump_suit} (Trump card: {trump_card})"
+    "start": "Briscola pukllay q'allari! Trump suit: {trump_suit} (Trump kartanka: {trump_card})"
   },
   "prompt": {
     "intro": "Briscola p'ukaranki - Pukaraq {player_id}.\nT'ukri: Atipayakun trickswan puntotakuna akllaspa (120 t'ukri puntokuna k'umusipipas).\nK'arta puntokuna: A=11, 3=10, K=4, Q=3, J=2, wakinkuna=0\nK'arta akllasqa: A > 3 > K > Q > J > 7 > 6 > 5 > 4 > 2\nTrump k'artakuna non-trump k'artakunata atipayanku akllasqakuna manaña.\n\nAkllasqa: '[play X]' icha X k'arta puñu (1-{max_pos}) kanpa k'umusipipas"
@@ -37,7 +37,7 @@
     "line": "  Pukaraq {player_id}: {card}{trump_mark}"
   },
   "turn": {
-    "score_entry": "Player {player_id}: {points} pts",
+    "score_entry": "Pukllaq {player_id}: {points} pts",
     "trump_info": "Trump suti: {trump_suit}",
     "trump_info_deck": "Trump suit: {trump_suit} | K'umusipipas k'artakuna: {deck_count}",
     "board": "{hand}\n\n{trick}\n\nPuntokuna: {scores}\n{trump_info}\n\nK'arta akllaspa [play X]"
@@ -47,7 +47,7 @@
     "out_of_range": "K'aski k'arta puñu. Kanqa {count} k'artayki (1-{count})"
   },
   "action": {
-    "played": "Player {player_id} played {card}",
+    "played": "Pukllaq {player_id} p'ukllay {card}",
     "trick_win": "Pukaraq {winner} atipayaq trickta {card}wan {points} puntotakunawan!"
   },
   "outcome": {

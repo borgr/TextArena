@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "Welcome to Frozen Lake!\n\nYou are represented by 'P' on the grid.\nGrid symbols:\n  ' ' = Frozen surface (safe to walk on)\n  'H' = Hole (fall in and lose!)\n  'G' = Goal (reach this to win!)\n  'P' = Your current position\n\nAvailable actions: up, down, left, right (or w, a, s, d)\nType your action as: [up], [down], [left], [right] or [w], [a], [s], [d]\n\nObjective: Navigate from the start (top-left) to the goal (bottom-right) without falling into any holes!\n"
+    "intro": "Mbote na Frozen Lake!\n\nOzali representé na 'P' o libandi.\nMabandi ya libandi:\n  ' ' = Se ya barafu (ezali na bokasi ya kutambola)\n  'H' = Mbu (tia kuna na ozui!)\n  'G' = Lingomo (fikia kuna na ozwi!)\n  'P' = Position ya sika\n\nMikakatano inayopatikana: juu, chini, kushoto, kulia (tayi w, a, s, d)\nLeta kitendo chako kama: [up], [down], [left], [right] tayi [w], [a], [s], [d]\n\nMalengo: Tambwala kutoka kuanzia (juu-kushoto) hadi lingomo (chini-kulia) bila kuwa na mbu yoyote!\n"
   },
   "board": {
     "current_board": "Lipanda lya sika:\n\n{board}\n\nNkisi ya mikano: {actions}"
@@ -11,7 +11,7 @@
     "hit_wall": "Olingaki kobaluka {action} kasi okutanaki na efelo!"
   },
   "game_action": {
-    "moved": "You moved {action} to position ({row}, {col})."
+    "moved": "Ozali botama {action} na position ({row}, {col})."
   },
   "outcome": {
     "win": "Nazali kopesa yo longonya! Osili kokokisa mokano na yo!",

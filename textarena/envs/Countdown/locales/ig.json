@@ -9,7 +9,7 @@
     "progress": "{observation} Ọganihu ugbu a: {progress}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use `[i j op]` where i,j are indices and op is +,-,*,/",
+    "wrong_format": "Ụdị ọrụ ezighi ezi. Jiri `[i j op]` ebe i,j bụ ndeksi na op bụ +,-,*,/",
     "invalid_indices": "Ihe ngosi na-abaghị uru. Ọ ga-adị iche ma nọrọ n'etiti 0-{max_index}",
     "invalid_operation": "Ọrụ na-abaghị uru (nkewa site na efu ma ọ bụ nsonaazụ na-abụghị integer)"
   },

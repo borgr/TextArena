@@ -7,16 +7,16 @@
     "available_actions": "Tínir tiltøk, sum tú kanst gera eru: {available_actions}"
   },
   "invalid_move": {
-    "wrong_format": "Action must be [Check], [Bet], [Call], or [Fold].",
+    "wrong_format": "Aðgerð má vera [Check], [Bet], [Call], ella [Fold].",
     "not_legal": "Tiltakið skal vera {legal_actions}."
   },
   "action": {
-    "submit_move": "Player {player_id}, submitted move: '[{move}]'.",
+    "submit_move": "Spælari {player_id}, sendi inn aðgerð: '[{move}]'.",
     "valid_actions": "Tínir tiltøk, sum tú kanst gera eru: {legal_actions}.",
     "round_summary": "{reason} Núverandi stig: Leikari 0: '{player_0_chips}'; Leikari 1: '{player_1_chips}'"
   },
   "showdown": {
-    "showdown_summary": "Showdown: Player {winner}'s {winner_card} beats Player {loser}'s {loser_card}. Player {winner} wins pot of {pot_value} chips."
+    "showdown_summary": "Showdown: Spælarin {winner} sín {winner_card} slær Spælarin {loser} sín {loser_card}. Spælari {winner} vinnur pottið á {pot_value} chips."
   },
   "outcome": {
     "draw": "Tá ið {max_rounds} umførini vóru liðug, høvdu báðir leikarar sama tali av flísum.",

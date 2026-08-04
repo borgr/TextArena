@@ -13,8 +13,8 @@
     "already_matched": "ልክ ያልሆነ እንቅስቃሴ ተጫዋቹ {player_id} አንድ ወይም ሁለቱ ካርዶች ቀድሞውኑ ተጣጥመዋል ።"
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "ተጫዋች {player_id} በቦታዎች [{r1} {c1}] እና [{r2} {c2}] ላይ ካርዶቹ አንድ አይነት ናቸው!",
+    "cards_no_match": "ተጫዋች {player_id} ካርዶቹ አንድ አይነት አይደሉም። በቦታዎች [{r1} {c1}] እና [{r2} {c2}] ላይ ካርዶቹ {pos1} እና {pos2} ናቸው።"
   },
   "outcome": {
     "draw": "ሁለቱም ተጫዋቾች እኩል ቁጥር ያላቸው ካርዶች አሏቸው።",

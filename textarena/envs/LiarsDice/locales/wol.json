@@ -22,15 +22,15 @@
     "final_ranking": "list of player indices from first eliminated to winner"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in an {num_players}-player Liar's Dice game.\nRules:\n- On your turn, you may either:\n  1) Make a new bid with a higher quantity or higher face (or both) than the current bid; i.e. '[Bid: 3, 4]',\n  2) Call the last bid by typing '[Call]'.\n\nIf you call:\n  - If the actual count of that face value among all dice is less than the bid, the last bidder loses one die.\n  - Otherwise, the caller loses one die.\nA player who reaches 0 dice is eliminated. The last remaining player wins."
+    "intro": "Yaa Player {player_id} ci xeex bi Liar's Dice ak {num_players} player.\nYoon:\n- Ci sa tur, maa ngi:\n  1) Defare bid bu bees ak limu bu bees walla mboolaani wajj bu bees (walla ñaar ñepp) ci bid bi ñu nekk; maa ngi '[Bid: 3, 4]',\n  2) Woote bid bi ñu nekk ci '[Call]'.\n\nBu ñu woote:\n  - Bu limu wajj bi ñu yabal ci mboolaani wajj bi ñu nekk ci xeex bi duñu kawe ci bid bi, player bi ñu xaje wajj wi.\n  - Bu ñu manke, player bi ñu woote wajj wi.\nPlayer bi ñu xaje wajj wi duñu xeex bi, player bi ñu gañe xeex bi."
   },
   "board": {
     "per_player": "\tJigéen {p}: {d}",
-    "new_round": "\nNew round - Remaining dice: {dice_summary}\nYour current Dice are: {your_dice}"
+    "new_round": "\nRonu bees - Wajj yu nekk: {dice_summary}\nWajj yu nekk ci sa xeex: {your_dice}"
   },
   "call": {
-    "bidder_loses": "Player {current_player_id} calls! The actual count of face {face_value} is {count}, which is LESS than {quantity}.\nPlayer {loser_id} (the last bidder) loses one die.",
-    "caller_loses": "Player {current_player_id} calls! The actual count of face {face_value} is {count}, which is >= {quantity}.\nPlayer {loser_id} (the caller) loses one die."
+    "bidder_loses": "Player {current_player_id} woote! Limu wajj bi ñu yabal ci mboolaani wajj {face_value} mooy {count}, te duñu kawe ci {quantity}.\nPlayer {loser_id} (bidder bi ñu nekk) xaje wajj wi.",
+    "caller_loses": "Player {current_player_id} woote! Limu wajj bi ñu yabal ci mboolaani wajj {face_value} mooy {count}, te kawe ci {quantity}.\nPlayer {loser_id} (player bi ñu woote) xaje wajj wi."
   },
   "action": {
     "bid_announce": "Jigéen {player_id} defar {quantity} bu nekk bu mel ni {face_value}."

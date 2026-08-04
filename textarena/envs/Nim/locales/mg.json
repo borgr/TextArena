@@ -7,13 +7,13 @@
   },
   "invalid_move": {
     "wrong_format": "Tsy hita ny endrika famindrana. Ampiasao ny \"[pile quantity]\".",
-    "correct_format_wrong_fields": "Player {player_id}, Invalid action. Column {col} is out of bounds.",
+    "correct_format_wrong_fields": "Mpilalao {player_id}, hetsika tsy azo ampiasaina. Safidy {col} dia ivelan'ny sisin'ny safidy.",
     "out_of_range": "Tsy ao anatin'ny faritry ny laharana ny {pile_index}.",
     "non_positive": "Tsy maintsy manaisotra zavatra iray farafahakeliny.",
     "exceeds_pile": "Tsy afaka manaisotra {quantity} avy amin'ny antontam-bato {pile_index} (tsy misy afa-tsy {pile_count} sisa)."
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "Mpilalao {player_id} nanova [{pile_index} {quantity}], esory {quantity} zavatra avy amin'ny pile {pile_index}."
   },
   "outcome": {
     "win": "Mpilalao {player_id} no naka ny zavatra farany (s)!"

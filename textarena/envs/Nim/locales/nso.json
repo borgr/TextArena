@@ -13,7 +13,7 @@
     "exceeds_pile": "Ga go na le tokelo ya go tshepa {quantity} go tswa mo pile {pile_index} (go sala {pile_count} pele)."
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "Bapadi {player_id} a ralokile [{pile_index} {quantity}], a tlosa {quantity} sengwe (goba tse ngata) go thaba {pile_index}."
   },
   "outcome": {
     "win": "Sebapadi {player_id} se tšere selo sa mafelelo!"

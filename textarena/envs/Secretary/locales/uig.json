@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You will observe {N} hidden values sequentially.\nAt each step type [accept] to pick the *current* value, or [continue] to skip it and see the next one.\nIf you never accept, you are forced to take the final value.\nYou win (reward = 1) **only** if the value you ultimately pick is the highest of all."
+    "intro": "سىز {N} يوشۇرۇن قىممەتلەرنى تەرتىپ بويىچە كۆرۈسىز.\nھەر بىر قەدەمدە *ھازىرقى* قىممەتنى تاللاش ئۈچۈن [accept] نى ياكى كېيىنكى قىممەتنى كۆرۈش ئۈچۈن [continue] نى كىرگۈزۈڭ.\nئەگەر سىز ھەرگىز قوبۇل قىلمىسىڭىز، سىز ئاخىرقى قىممەتنى ئېلىشقا مەجبۇر بولىسىز.\nئەگەر سىز تاللىغان قىممەت ھەممىدىن يۇقىرى بولسا، سىز (مۇكاپات = 1) غەلىبە قىلىسىز."
   },
   "game_action": {
     "current_value": "نۆۋەتتىكى قىممىتى {value}."
@@ -11,6 +11,6 @@
   "outcome": {
     "summary": "سىز {value} قىممەتنى {draw_num}/{N} تەڭشەككە قوبۇل قىلدىڭىز. ئەڭ ياخشىسى {best} ئىدى. {result}",
     "perfect": "مۇكەممەل تاللاش! ",
-    "not_max": "Not the maximum."
+    "not_max": "ئەڭ يۇقىرىسى ئەمەس."
   }
 }

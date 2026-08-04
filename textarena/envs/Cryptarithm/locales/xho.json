@@ -9,10 +9,10 @@
     "{pct}": "Progress as a percentage string, e.g. 50%"
   },
   "player_prompt": {
-    "intro": "Map each letter to a unique digit so the arithmetic holds.\nAssign with `[A 5]`, re-assign anytime.\n"
+    "intro": "Kwabiwa kileta ngokwalo inani ukuze umathemathika uqhubekile.\nKwabiwa ngo `[A 5]`, ukwabiwa kwakhona ngoku.\n"
   },
   "invalid_move": {
-    "wrong_format": "Bad action format. Use `[A 5]`.",
+    "wrong_format": "Ifomathi yenzonzo ayilunganga. Sebenzisa `[A 5]`.",
     "letter_not_in_puzzle": "Ileta {letter} ayikho kwiphazili.",
     "digit_used": "Idijithi {digit} esele isetyenziswe ngu- {used_letter} .",
     "leading_zero": "Inani lokuqala kwigama alinakuba ngu-0."

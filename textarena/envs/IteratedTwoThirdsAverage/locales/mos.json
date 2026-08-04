@@ -1,13 +1,13 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a {num_rounds}-round of IteratedTwoThirdsAverage.\nEach round, guess a number between {min_guess} and {max_guess}.\nAfter both guesses, the target is (2/3)x(average of both guesses),\nand the player whose guess is closest to the target wins that round.\nReply with your guess in the format '[<number>]'."
+    "intro": "Yɛrɛ kɛɛmɛ {player_id} kɛɛmɛɛ wɛɛrɛ {num_rounds} laɣɛ IteratedTwoThirdsAverage.\nKɛɛmɛɛ laɣɛ kɛɛmɛ, wɛɛmɛ yɛrɛ kɛɛmɛɛ sɔɔrɛ {min_guess} nɛ {max_guess}.\nKɛɛmɛɛ laɣɛ kɛɛmɛɛ wɛɛmɛ yɛrɛ kɛɛmɛɛ lɛɛ, kɛɛmɛɛ tɛɛrɛɛ kɛɛmɛɛ (2/3)x(kɛɛmɛɛ sɔɔrɛ kɛɛmɛɛ lɛɛ),\nkɛɛmɛɛ kɛɛmɛɛ wɛɛmɛ yɛrɛ kɛɛmɛɛ tɛɛrɛɛ kɛɛmɛɛ lɛɛ wɛɛ kɛɛmɛɛ laɣɛ.\nYɛrɛ kɛɛmɛɛ wɛɛmɛ yɛrɛ kɛɛmɛɛ fɔɔrɔmɛ '[<number>]'."
   },
   "invalid_move": {
     "wrong_format": "Fo sẽn dat n bãngã yaa: [<number>].",
     "out_of_range": "Yɛm zaɛ diigo ka sɔɔri {min_guess} ni {max_guess}."
   },
   "message": {
-    "round_guesses": "Player 0 guessed {guess0}; Player 1 guessed {guess1}. Thus the Target is: {target}.",
+    "round_guesses": "Kɛɛmɛ 0 wɛɛmɛ {guess0}; Kɛɛmɛ 1 wɛɛmɛ {guess1}. Kɛɛmɛɛ tɛɛrɛɛ kɛɛmɛɛ: {target}.",
     "round_draw": "B sẽn wa n na n tigim taabã yaa baa fʋɩ.",
     "round_win": "Yaa {winner} n tõoge!"
   },

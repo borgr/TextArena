@@ -16,26 +16,26 @@
     "{cards}": "The cards in a pile as neutral labels, or '--' if empty (never translate)"
   },
   "player_prompt": {
-    "intro": "You are playing Klondike Solitaire. Your goal is to move all cards to the foundation piles.\n\nGame Rules:\n- Foundation piles (F1-F4): Build up from Ace to King in suit\n- Tableau piles (T1-T7): Build down alternating colors (red on black, black on red)\n- Stock: Draw cards to waste pile\n- Waste (W): Top card available for play\n\nCommands:\n- 'draw' - Draw cards from stock to waste\n- 'move <source> <destination> [count]' - Move cards between piles\n  Examples: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count can also be 'all', which will try to move all face-up cards.\n- 'forfeit' - End the game immediately and lock in your current score\n- Pile names: W (waste), F1-F4 (foundations), T1-T7 (tableau)\n\nYou can execute multiple actions in one turn by separating them with commas:\n  Example: 'draw, move W T1, move T2 F1'\n\nOnly Kings can be placed on empty tableau piles.\nActions execute in order - if one fails, the remaining actions are skipped.\nUse 'forfeit' if you believe the game is impossible to win."
+    "intro": "O sa qito Klondike Solitaire tiko. Na nomu icakacaka me move taki na kad kece ki na foundation piles.\n\nNa lawa ni qito:\n- Foundation piles (F1-F4): Build up taka na Ace ki na King ena suit\n- Tableau piles (T1-T7): Build down taka na alternating colors (red ena black, black ena red)\n- Stock: Draw taka na kad ki na waste pile\n- Waste (W): Na kad sa tu ena top sa rawa me qito\n\nNa veikomandi:\n- 'draw' - Draw taka na kad taka na stock ki na waste\n- 'move <source> <destination> [count]' - Move taka na kad taka na piles\n  I-tukutuku: 'move W T1', 'move T1 F2', 'move T3 T5 2'. Na count sa rawa me 'all', ka sa try me move taka na kad kece sa tu vakarau.\n- 'forfeit' - Vakacava na qito tiko ga kei na nomu score sa tu kina\n- Na yaca ni piles: W (waste), F1-F4 (foundations), T1-T7 (tableau)\n\nO sa rawa me execute taka na actions kece ena turn e dua me veikataki ira na komata:\n  I-tukutuku: 'draw, move W T1, move T2 F1'\n\nNa Kings wale ga sa rawa me tu ena tableau piles sa empty.\nNa actions sa execute taka ena kena levu - kevaka e dua sa fail, na actions sa tu me baleta sa skip.\nVakayagataka 'forfeit' kevaka o sa nanuma na qito sa sega ni rawa me wini."
   },
   "format_error": {
     "no_brackets": "Na ivakarau e sega ni dodonu me tiko ena brackets.",
     "no_closing_bracket": "Na ivakarau ni cakacaka e sega ni dodonu. Sega na bracket ni icavacava ']'",
-    "empty_command": "E sega ni dua na ivakaro. Vakacuruma 'dra' se 'move <source><destination> [count].'",
+    "empty_command": "Vakarau ni veika vakaloloma. Volavola 'draw' se 'move <source> <destination> [count]'",
     "empty_action": "Cakacaka lala tu ga",
     "move_needs_args": "Na ivakaro ni toso e gadrevi kina na ivurevure kei na icavacava. Vakayagataki: 'move <source> <destination> [count]'",
-    "count_positive": "Na iwiliwili e dodonu me vinaka se \"na veika kece\"",
-    "count_invalid": "E sega ni dodonu na kena wiliwili. Vakayagataka e dua na iwiliwili se 'kece'",
-    "unknown_command": "Unknown command '{cmd}'. Use 'draw', 'move <source> <destination> [count]', or 'forfeit'",
+    "count_positive": "Na count sa gadreva me positive se 'all'",
+    "count_invalid": "Na count sa sega ni dinau. Vakayagataka e dua na number se 'all'",
+    "unknown_command": "Na komandi sa unknown '{cmd}'. Vakayagataka 'draw', 'move <source> <destination> [count]', se 'forfeit'",
     "wrapped": "Action {n}: {msg}"
   },
   "action_result": {
     "success": "Action {n}: {msg}",
     "before_failure": "Na cakacaka {n} sa vakayacori oti ni bera na druka.",
-    "failed": "Action {n} fail: {msg}"
+    "failed": "Cakacaka {n} sa sega ni yaco: {msg}"
   },
   "move_result": {
-    "drew": "Drew card(s) from stock to waste.",
+    "drew": "Sa draw taka na kad taka na stock ki na waste.",
     "cannot_draw": "E sega ni rawa na droini, sa lala kece tu.",
     "invalid_pile": "Na yaca ni iwiliwili e sega ni dodonu. Vakayagataka na W, F1-F4, se T1-T7",
     "foundation_one_card": "E rawa ni toso ga e 1 na kadi ki na yavu.",
@@ -59,7 +59,7 @@
   "outcome": {
     "forfeit": "Na qito e sa na sega ni rawa. icavacava: {score} kadi ena yavu.",
     "won": "Ni sa qaqa ena sotasota ni Klondike!",
-    "turn_limit": "Game over! You reached the maximum of {max_turns} turns. Score: {score} cards in foundations."
+    "turn_limit": "Na qito sa oti! O sa rawa na {max_turns} turns. Na nomu score sa tu kina: {score} kad sa tu ena foundations."
   },
   "board": {
     "title": "=== KLONDIKE SOLITAIRE=== Na cava e yaco?",

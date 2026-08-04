@@ -16,7 +16,7 @@
   },
   "game_action": {
     "skipped": "Wosewera {pid} adayenera kudumpha nthawi yawo",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "Mchezaji {pid} ({piece}) anacheza [{r}, {c}] akupindua {flipped} mpando"
   },
   "game_message": {
     "must_skip": "Mchezaji {pid} ({piece}) hana mavuto ena osangosola na anatakiwa kupita."

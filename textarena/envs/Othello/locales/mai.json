@@ -16,14 +16,14 @@
   },
   "game_action": {
     "skipped": "खेलाड़ी {pid} अपन पालो छोड़ए पडल छल।",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "खिलाड़ी {pid} ({piece}) ने [{r}, {c}] खेलकर {flipped} टुकड़ा(ओं) को पलट दिया"
   },
   "game_message": {
-    "must_skip": "खिलाड़ी {pid} ({piece}) के पास कोई वैध चाल नहीं है और उन्हें छोड़ना होगा।"
+    "must_skip": "खिलाड़ी {pid} ({piece}) के पास कोई मान्य चाल नहीं है और उन्हें छोड़ना होगा।"
   },
   "outcome": {
     "black_wins": "काला जीतैत अछि {black_count}-{white_count}।",
-    "white_wins": "सफेद जीतता है {white_count}-{black_count}.",
+    "white_wins": "सफेद जीतता है {white_count}-{black_count}।",
     "draw": "ड्रा {black_count}-{white_count}."
   }
 }

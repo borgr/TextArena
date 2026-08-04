@@ -10,7 +10,7 @@
     "{groups}": "Neutral ranking data (a list of player-id groups, best to worst); do not translate"
   },
   "player_prompt": {
-    "intro": "{num_players}-Player Surround on a {width}x{height} grid.\nYou are player {player_id}. Valid moves: '[up]' '[down]' '[left]' '[right]' or w/s/a/d.\nObjective: outlive everyone else. Trails are deadly; wall hits kill; head-on crashes kill both."
+    "intro": "{num_players}-खेलाड़ी सेराउन्ड {width}x{height} ग्रिड मा।\nतुम्हर खेलाड़ी {player_id} हो। वैध चाल: '[up]' '[down]' '[left]' '[right]' या w/s/a/d।\nउद्देश्य: बाकी सबला जीवित रहे। पगडंडी मारले मारे; दीवार में टकराए मारे; आमने-सामने के टकराव मा दूनों मारे।"
   },
   "board": {
     "current": "वर्तमान बोर्ड: {board} अउ",

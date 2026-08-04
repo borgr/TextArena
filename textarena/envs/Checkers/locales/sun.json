@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "Teu aya format gerakan anu sah. Paké [a1b2], contona [b2c3].",
-    "illegal": "Move [{move}] is illegal."
+    "illegal": "Gerakan [{move}] teu sah."
   },
   "game_action": {
     "moved": "Pamaén {player_id} pindahkeun {move}."

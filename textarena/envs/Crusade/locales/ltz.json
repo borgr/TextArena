@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({piece}). Opponent is ({opp}). Submit moves as '[b1 c3]' (from → to). All pieces move like chess knights.\nEach capture scores {score_per_capture} point. Game ends after {max_moves} moves or when a player has no legal move / no pieces. Higher score wins."
+    "intro": "Du bass Spiller {player_id} ({piece}). Den Géigner ass ({opp}). Gitt Är Zich als '[b1 c3]' an (vu → op). All Steng si wéi Schach-Ritter.\nAll Kapturen zielen {score_per_capture} Punkt. D'Spill endegt no {max_moves} Zich oder wann e Spiller keng legal Zich méi huet / keng Steng méi huet. Deen mat dem héchsten Zuel vun Punkten gewënnt."
   },
   "board": {
     "current_board": "Zug #{move_count}\n\n{board}\n\nVerfëgbare Zich: {moves}"

@@ -13,7 +13,7 @@
     "exceeds_pile": "Pa ka retire {quantity} nan pil {pile_index} (sèlman {pile_count} ki rete)."
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "Jwè {player_id} jwe [{pile_index} {quantity}], retire {quantity} objè(s) soti nan pil {pile_index}."
   },
   "outcome": {
     "win": "Jwè {player_id} te pran dènye objè a ((s)!"

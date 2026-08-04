@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "Nta kugeza ibarurisho ryoroshye ryahawe. Urabikorere [a1b2], b.f. [b2c3].",
-    "illegal": "Move [{move}] is illegal."
+    "illegal": "Kwimuka [{move}] ni kinyuranyenzi."
   },
   "game_action": {
     "moved": "Umukinnyi {player_id} yimutse {move}."

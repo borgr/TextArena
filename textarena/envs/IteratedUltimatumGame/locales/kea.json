@@ -24,10 +24,10 @@
     "intro": "Bo é Jogador {player_id}, ke ta joga {num_rounds} rodadas di Jogo di Ultimato Iterado.\nBo teni ${pool} pa reparti na roda ki ta na bo entre bo mesmu i Jogador {other_id}.\n\nProposador:\n  - Faze uma proposta: [Offer: $X] (0 <= X <= poça)\n  - Si akseptá → Bo ganha $(poça - X), joga dor di outro ganha $X\n  - Si rejeitá → Ambos ganha $0\n  - Exemplu: [Offer: $3]  o  'Bo pensa ku é justu. [Offer: $5]'\n\nResponedor:\n  - Desidí na proposta ku either [Accept] o [Reject]\n  - Exemplu: 'Parece razoável. [Accept]'\n            'Sta muintu injustu. [Reject]'\n"
   },
   "round": {
-    "begins": "--- Rodada {round_number} komensa! ---\nJogador {proposer_id} é o proposador, Jogador {responder_id} é o responedor.",
-    "offer": "Rodada {round_number}: Jogador {proposer_id} oferese ${offer} pa Jogador {responder_id} (garda ${keep}).",
-    "accepted": "Jogador {responder_id} akseptá! Rodada {round_number} ganha: Jogador {proposer_id} +${proposer_gain}, Jogador {responder_id} +${responder_gain}. Novu total: Jogador 0: ${total_0}, Jogador 1: ${total_1}.",
-    "rejected": "Jogador {responder_id} rejeitá a proposta! Rodada {round_number} ganha: Ambos joga +$0. Total resta: Jogador 0: ${total_0}, Jogador 1: ${total_1}."
+    "begins": "--- Rondi {round_number} ta kumesa! ---\nDjugador {proposer_id} é proponenti, Djugador {responder_id} é responsável.",
+    "offer": "Rondi {round_number}: Djugador {proposer_id} ofresi ${offer} pa Djugador {responder_id} (manti ${keep}).",
+    "accepted": "Djugador {responder_id} akseiti! Rondi {round_number} ganhu: Djugador {proposer_id} +${proposer_gain}, Djugador {responder_id} +${responder_gain}. Total nobu: Djugador 0: ${total_0}, Djugador 1: ${total_1}.",
+    "rejected": "Djugador {responder_id} rejeitó ofresi! Rondi {round_number} ganhu: Ambus djugadoris +$0. Total konservadu: Djugador 0: ${total_0}, Djugador 1: ${total_1}."
   },
   "invalid_move": {
     "no_offer_format": "Kel ki ta faze pruposta debe uza fórma [Offer: $X] pa oferese.",
@@ -37,7 +37,7 @@
     "accept_or_reject": "Responder ten ki acepta o [Accept] o rejeita [Reject] a proposta."
   },
   "outcome": {
-    "win": "Jogador {winner} ganhou ku ${winner_total} total kontra Jogador {loser} ku ${loser_total}.",
+    "win": "Djugador {winner} ganhó ku ${winner_total} total kontra Djugador {loser} ku ${loser_total}.",
     "draw": "Tudu dôs djugador kaba ku ${total} total."
   }
 }

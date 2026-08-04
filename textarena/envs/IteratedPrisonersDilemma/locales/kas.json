@@ -1,15 +1,15 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in an Iterated Prisoner's Dilemma spanning {num_rounds} rounds.\n\nGame Structure:\n- Before each decision you have {total_conversation_rounds} turns to communicate freely.\n- After that, both players simultaneously choose to cooperate or defect.\n\nPayoff Matrix (fixed each round):\n- Both Cooperate ➜ each {cooperate_reward}\n- Both Defect ➜ each {mutual_defect_reward}\n- One Defects, one Cooperates ➜ Defector {defect_reward}, Cooperator {sucker_reward}\n\nHow to Play:\n- During conversation: type any text you wish.\n- During decision phase: include '[Cooperate]' or '[Defect]' (case-insensitive). You may add extra text before/after the token."
+    "intro": "چھو تہو کھلاڑی {player_id} ایک بار بار دہرائی جانے والی قیدی کے معمے وچ جو {num_rounds} راؤنڈس تھی پھیلے ہوئے ہیں۔\n\nکھیل دا ڈھانچہ:\n- ہر فیصلے توں پہلے تہو {total_conversation_rounds} موڑ ہیں آزادانہ طور تے بات چیت کرن۔\n- اس دے بعد، دونوں کھلاڑی بیک وقت تعاون کرن یا غداری کرن دا انتخاب کرتے ہیں۔\n\nادائیگی میٹرکس (ہر راؤنڈ وچ مقرر):\n- دونوں تعاون ➜ ہر {cooperate_reward}\n- دونوں غداری ➜ ہر {mutual_defect_reward}\n- ایک غداری، ایک تعاون ➜ غدار {defect_reward}، تعاون کرنے والا {sucker_reward}\n\nکھیلنے دا طریقہ:\n- بات چیت دے دوران: کوئی بھی متن تہو چاہو۔\n- فیصلے دے مرحلے وچ: '[Cooperate]' یا '[Defect]' (کیس غیر حساس) شامل کرو۔ تہو اضافی متن بھی شامل کر سکتے ہو ٹوکن توں پہلے/بعد وچ۔"
   },
   "phases": {
-    "conversation_finished": "बातचीत समाप्त हो गई {round} राउंड के लिए। कृपया '[Cooperate]' या '[Defect]' के साथ उत्तर दें {{}} में।",
-    "starting_round": "--- स्टार्टिंग राउंड {round} --- आसान तरीका ----- 1 .",
-    "round_summary": "राउंड {round} के परिणाम:\n{outcome}\nखिलाड़ी 0 ने {r0} अर्जित किया (कुल {score_0}), खिलाड़ी 1 ने {r1} अर्जित किया (कुल {score_1})।"
+    "conversation_finished": "راؤنڈ {round} لئی بات چیت ختم ہو گئی ہے۔ برائے مہربانی \\boxed{{}} وچ '[Cooperate]' یا '[Defect]' دے نال جواب دیں۔",
+    "starting_round": "--- راؤنڈ {round} شروع ہو رہا ہے ---",
+    "round_summary": "راؤنڈ {round} دے نتائج:\n{outcome}\nکھلاڑی 0 نے {r0} (مجموعی {score_0}) کمایا، کھلاڑی 1 نے {r1} (مجموعی {score_1}) کمایا۔"
   },
   "outcome": {
-    "winner": "खिलाड़ी {winner} {win_score} - {lose_score} जीतता है।",
-    "draw": "ड्रा! दोनों खिलाड़ियों ने {s0} स्कोर किया।",
+    "winner": "کھلاڑی {winner} {win_score} - {lose_score} نال جیت گیا۔",
+    "draw": "ڈرا! دونوں کھلاڑیوں نے {s0} سکور کیتا۔",
     "round_both_cooperate": "दुनवई प्लेयर क्र मदद.",
     "round_both_defect": "दुनवई प्लेयर छी डिफेर्ट कारन.",
     "round_p0_cooperates_p1_defects": "प्लेयर 0 क्र कोऑपरेट,प्लेअर 1 डिफेर्टेड.",

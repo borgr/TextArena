@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "ambiguous": "Supply exactament UNA azion tra parentesi, per esempi '[check]', '[bet 2]', '[call]', '[raise 3]', o '[fold]'.",
-    "cannot_check": "Can't [check] - you are facing a bet. ([O]) I l é gnüda fata na scomessa?",
+    "cannot_check": "Te pòdet minga [check] - te se confrontet a una scommessa.",
     "amount_min": "Bet / Raise amount must be ≥ 1. I l i n e r t a s c h o p b u d .",
     "cannot_bet": "No se poda [bet] - se deva [call] / [raise] / [fold].",
     "nothing_to_call": "Nèc'a chiamà; pòi [check] invece.",
@@ -25,7 +25,7 @@
   "message": {
     "round_result": "{reason}  Pot {pot} → Giugadur {winner}. (Bankrolls P0:{p0}, P1:{p1})",
     "folded": "Giocatore {player_id} fold.",
-    "showdown_win": "Showdown: {card_win} beats {card_lose}.",
+    "showdown_win": "Resa dei cunt: {card_win} la bat {card_lose}.",
     "showdown_tie": "Showdown tie: both {card}. Pot split  each receives {split}."
   },
   "outcome": {

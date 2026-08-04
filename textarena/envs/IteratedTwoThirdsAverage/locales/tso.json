@@ -7,7 +7,7 @@
     "out_of_range": "Ku vhumba ku fanele ku va exikarhi ka {min_guess} na {max_guess}."
   },
   "message": {
-    "round_guesses": "Player 0 guessed {guess0}; Player 1 guessed {guess1}. Thus the Target is: {target}.",
+    "round_guesses": "Mukhari 0 u tsundzuke {guess0}; Mukhari 1 u tsundzuke {guess1}. Hikwalaho Thikho i: {target}.",
     "round_draw": "Loko u wu rhendzerile wa ha ringana.",
     "round_win": "Mutlangi {winner} u hlula!"
   },

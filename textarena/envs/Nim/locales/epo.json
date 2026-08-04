@@ -13,7 +13,7 @@
     "exceeds_pile": "Ne eblas forigi {quantity} el amaso {pile_index} (nur {pile_count} restas)."
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "Ludanto {player_id} ludis [{pile_index} {quantity}], forigante {quantity} objekton(jn) el stako {pile_index}."
   },
   "outcome": {
     "win": "Ludanto {player_id} prenis la lastan objekton (s)!"

@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({piece}). Opponent is ({opp}).\nSubmit moves as '[a2 a3]' (from → to).\n- A normal move is one forward step to an adjacent empty vertex.\n- A capture is a jump over an adjacent enemy piece landing on the empty node beyond.\nEach capture yields {score_per_capture} points.\nGame ends after {max_moves} moves or when a player has no legal move."
+    "intro": "Owe udi Mwana {player_id} ({piece}). Mwana wa mpangi i ({opp}).\nTambulisa mizungu kama '[a2 a3]' (kuwa → kwenda).\n- Mizungu ya kawaida iya kuendela kwa kinyonga kimoja kuwa kwenye kipeo kilimbu.\n- Kukwata iya kubuka kwa kinyonga kimoja kwa kipeo kilimbu cha mwenzi, ukakwata kwenye kipeo kilimbu kilichomwa.\nKukwata kimoja kikukutwala {score_per_capture} alama.\nMchezo ukoma baada ya {max_moves} mizungu au wakati Mwana umekosa mizungu ya sheria."
   },
   "board": {
     "current_board": "Suka #{move_count}\n\n{board}"
@@ -18,7 +18,7 @@
   "outcome": {
     "no_pieces": "Muena manaya {player_id} kena ne biamu to.",
     "cannot_move": "Muena manaya {player_id} kena mua kuya to.",
-    "higher_score": "Higher capture score.",
+    "higher_score": "Alama ya juu ya kukwata.",
     "move_limit": "Bungi bua bintu bidibu mua kuenza bukadi bufike."
   }
 }

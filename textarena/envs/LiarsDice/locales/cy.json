@@ -29,7 +29,7 @@
     "new_round": "Cyfnod newydd - Dyw'r dais sy'n weddill: {dice_summary} Eich dais presennol yw: {your_dice}"
   },
   "call": {
-    "bidder_loses": "Player {current_player_id} calls! The actual count of face {face_value} is {count}, which is LESS than {quantity}.\nPlayer {loser_id} (the last bidder) loses one die.",
+    "bidder_loses": "Chwaraewr {current_player_id} yn galw! Y cyfrif gwirioneddol o wyneb {face_value} yw {count}, sy'n LLAI na {quantity}.\nChwaraewr {loser_id} (y chwaraewr a wnaeth y cynnig diwethaf) yn colli un dis.",
     "caller_loses": "Mae'r chwaraewr {current_player_id} yn galw! Mae'r cyfrif gwirioneddol o wyneb {face_value} yn {count}, sef >= {quantity}. Mae'r chwaraewr {loser_id} (y galwr) yn colli un ddad."
   },
   "action": {

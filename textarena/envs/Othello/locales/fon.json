@@ -16,7 +16,7 @@
   },
   "game_action": {
     "skipped": "Azɔ̀tɔ́ {pid} ɔ ɖ'azɔ̌ tɔn mɛ ă",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "Azɔnwla {pid} ({piece}) tɔn ɖɔ [{r}, {c}] gblogblo {flipped} azɔnwla"
   },
   "game_message": {
     "must_skip": "Aɖa {pid} ({piece}) ɖɛ nu nusɛɖo ɖe wɔn kple ɖe ɖo na ɖi wɔ"

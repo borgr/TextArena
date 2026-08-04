@@ -13,10 +13,10 @@
     "repeated_guess": "Шумо аллакай {guess}-ро тахмин кардаед. Лутфан, як чизи дигарро санҷед."
   },
   "game_action": {
-    "feedback": "Submitted [{guess}]. Feedback: {black_pegs} black peg(s), {white_pegs} white peg(s)."
+    "feedback": "Пешниҳодшуда [{guess}]. Посух: {black_pegs} сӯзанҳои сиёҳ, {white_pegs} сӯзанҳои сафед."
   },
   "outcome": {
-    "win": "You have cracked the code, solving {black_pegs} out of {code_length} pegs correctly",
+    "win": "Шумо рамзро шикастед, {black_pegs} аз {code_length} сӯзанҳоро дуруст ҳал кардед",
     "turn_limit": "Ҳадди гардиш ба даст омадааст. Шумо {percent} фоизи рақамҳоро дуруст тахмин кардед."
   }
 }

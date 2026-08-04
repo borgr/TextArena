@@ -1,12 +1,12 @@
 {
   "player_prompt": {
-    "intro": "You are playing PegJump. Jump one peg over another into an empty hole, removing the jumped peg.\nGoal: finish with exactly **one** peg left. Action format: e.g. '[4 1]'."
+    "intro": "Ukiina mchezo wa PegJump. Ruka kigoli kimoja juu ya kingine hadi shimo tupu, ukitupa kigoli kilichorukwa.\nLengo: maliza na kigoli **kimoja** tu kilichobaki. Muundo wa hatua: kwa mfano '[4 1]'."
   },
   "board": {
     "current_board": "Mipira iliyobaki: {count}\n{board}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid syntax. Use [i->j].",
+    "wrong_format": "Muundo usio sahihi. Tumia [i->j].",
     "illegal_move": "Kũthamya kũndũ kũte kũla mĩao yeetĩkĩlĩtye."
   },
   "outcome": {

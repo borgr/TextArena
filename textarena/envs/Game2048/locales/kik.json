@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing 2048 on a {board_size}x{board_size} board. Your goal is to reach a {target_tile} tile by sliding identical numbers together!\nValid moves: [Up], [Down], [Left], [Right]. Tiles combine when they collide, doubling their value.\n"
+    "intro": "Ũrĩ thiki 2048 kwenye ubao wa {board_size}x{board_size}. Irĩa yako ni kufikia tile ya {target_tile} kwa kusogeza nambari zinazofanana pamoja!\nMĩgotho ĩrĩa ĩtumĩka: [Up], [Down], [Left], [Right]. Tiles zĩnakusanyĩka zĩnapokwana, na thamani yao ĩongezeka mara mbĩlĩ.\n"
   },
   "board": {
     "current_board": "Thigi: {score}\n{board}"
@@ -10,7 +10,7 @@
     "no_change": "O na gũtuĩka mũbango ũcio ndwacenjirie, nĩ wacokire ũgĩtuĩka ũndũ ũngĩ."
   },
   "outcome": {
-    "win": "Hongera, umefikia {target_tile}! Alama ya mwisho {score}.",
-    "lose": "Hakuna hatua zilizosalia. Tile kubwa zaidi {max_tile} - alama ya mwisho {score}."
+    "win": "Hongera, ũfikĩte {target_tile}! Alama ya mwisho {score}.",
+    "lose": "Hakuna mĩgotho ĩlĩsalia. Tile kubwa zaidi {max_tile} - alama ya mwisho {score}."
   }
 }

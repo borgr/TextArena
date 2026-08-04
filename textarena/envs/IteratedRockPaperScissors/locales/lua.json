@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a {num_rounds}-round Rock-Paper-Scissors game.\nYour goal is to win as many rounds as possible.\nIn each round, respond with one of: '[rock]', '[paper]', or '[scissors]'.\nYou may also use '[r]', '[p]', or '[s]' as shorthand.\n"
+    "intro": "Ngeye Mwana {player_id} mu kipindi cha {num_rounds} cha mchezo wa Mawe-Papelo-Kisu.\nKulengwa kwenu ni kushinda vipindi vingi iwezekanavyo.\nMu kila kipindi, itikieni na moja ya haya: '[rock]', '[paper]', au '[scissors]'.\nNaweza pia kutumia '[r]', '[p]', au '[s]' kama njia fupi.\n"
   },
   "invalid_move": {
     "wrong_format": "Lisolo lya kutambula teleyi. Ita [rock], [paper], or [scissors]."

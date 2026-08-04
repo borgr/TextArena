@@ -16,17 +16,17 @@
     "{cards}": "The cards in a pile as neutral labels, or '--' if empty (never translate)"
   },
   "player_prompt": {
-    "intro": "You are playing Klondike Solitaire. Your goal is to move all cards to the foundation piles.\n\nGame Rules:\n- Foundation piles (F1-F4): Build up from Ace to King in suit\n- Tableau piles (T1-T7): Build down alternating colors (red on black, black on red)\n- Stock: Draw cards to waste pile\n- Waste (W): Top card available for play\n\nCommands:\n- 'draw' - Draw cards from stock to waste\n- 'move <source> <destination> [count]' - Move cards between piles\n  Examples: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count can also be 'all', which will try to move all face-up cards.\n- 'forfeit' - End the game immediately and lock in your current score\n- Pile names: W (waste), F1-F4 (foundations), T1-T7 (tableau)\n\nYou can execute multiple actions in one turn by separating them with commas:\n  Example: 'draw, move W T1, move T2 F1'\n\nOnly Kings can be placed on empty tableau piles.\nActions execute in order - if one fails, the remaining actions are skipped.\nUse 'forfeit' if you believe the game is impossible to win."
+    "intro": "Osova ukuata Klondike Solitaire. Ondaka yawe ni kuendesa kadi zote ku mukulu wa kipungu.\n\nMukanda wa Mpira:\n- Mukulu wa kipungu (F1-F4): Kuzenga kadi ku mpangula ku kipungu\n- Mukulu wa kubaka (T1-T7): Kuzenga kadi ku mpangula ku ngola zinene (ngola nyama ku ngola ndombe, ngola ndombe ku ngola nyama)\n- Kikwama: Kuinza kadi ku mukulu wa kubula\n- Mukulu wa kubula (W): Kadi ya juu inafaa kubakwa\n\nMakandida:\n- 'draw' - Kuinza kadi ku kikwama ku mukulu wa kubula\n- 'move <source> <destination> [count]' - Kuhamisha kadi kati ya mukulu\n  Mifano: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count inaweza kuwa 'all', ambayo itajaribu kuhamisha kadi zote zinazoweza kuonekana.\n- 'forfeit' - Kuisha mpira mara moja na kufunga alama yawe\n- Majina ya mukulu: W (kubula), F1-F4 (kipungu), T1-T7 (kubaka)\n\nUnaweza kutekeleza matendo mengi katika zamu moja kwa kuyatenganisha na vigawanyiko:\n  Mfano: 'draw, move W T1, move T2 F1'\n\nKadi za Kifalme pekee zinaweza kuwekwa kwenye mukulu wa kubaka tupu.\nMatendo yanatekelezwa kwa mpangula - ikiwa moja inashindwa, matendo yaliyosalia yanapuuzwa.\nTumia 'forfeit' ikiwa unafikiri mpira hauwezekani kushinda."
   },
   "format_error": {
     "no_brackets": "O kijimbuete kia tokala ku i soneka mu mukanda, o mbandu ia mukuá mu kamukanda.",
     "no_closing_bracket": "O kijimbuete kia ku sukina, a tena ngó ku ki katula mu mukanda.",
-    "empty_command": "Empty command. Type 'draw' or 'move <source> <destination> [count]'",
+    "empty_command": "Kandida tupu. Teka 'draw' au 'move <source> <destination> [count]'",
     "empty_action": "O ku bhanga o ima sé kuxinganeka",
-    "move_needs_args": "Move command requires source and destination. Usage: 'move <source> <destination> [count]'",
-    "count_positive": "O kijimbuete kia tokala kukala \"kiambote\" mba \"ioso\".",
-    "count_invalid": "Kaxtiku ka tokala ku kala mu mukanda.",
-    "unknown_command": "Unknown command '{cmd}'. Use 'draw', 'move <source> <destination> [count]', or 'forfeit'",
+    "move_needs_args": "Kandida ya kuhamisha inahitaji chanzo na lengo. Matumizi: 'move <source> <destination> [count]'",
+    "count_positive": "Idadi lazima iwe chanya au 'all'",
+    "count_invalid": "Idadi isiyo sahihi. Tumia nambari au 'all'",
+    "unknown_command": "Kandida isiyofahamika '{cmd}'. Tumia 'draw', 'move <source> <destination> [count]', au 'forfeit'",
     "wrapped": "O kima kia tokala o ku bhanga, {n}: {msg}"
   },
   "action_result": {
@@ -37,34 +37,34 @@
   "move_result": {
     "drew": "O athu a tena ku katula o ji kalatá jiji, phala kubhanga ima ia mukuá.",
     "cannot_draw": "O ima ioso ia kexile mu álaka ki i nange ku kala dingi ni valolo.",
-    "invalid_pile": "Invalid pile name. Use W, F1-F4, or T1-T7",
+    "invalid_pile": "Jina la mukulu lisilo sahihi. Tumia W, F1-F4, au T1-T7",
     "foundation_one_card": "O muthu u tena ku katula ngó o ditadi dimoxi dia valolo, anga u di ta mu kididi kiê.",
     "waste_to_foundation_ok": "O kalatá ka katula o ixete phala ku kala bhu kididi kia tokala F{dst}",
     "waste_to_foundation_bad": "Ka tena ku katula o jifalamenda ja tokala mu kaxa íii phala ku i jikula dingi.",
-    "tableau_to_foundation_ok": "Kadi ilisukwa kutoka meza T{src} hadi msingi F{dst}",
+    "tableau_to_foundation_ok": "Kadi imehamishwa kutoka kwa mukulu wa kubaka T{src} hadi kipungu F{dst}",
     "tableau_to_foundation_bad": "Ka tena kulungulula o jifoto ja mbandu ia tokala mu fikula.",
     "foundation_to_foundation": "Ki tu tena ku tunda mu inzo ietu ni kuia kididi kiéngi sé kikuatekesu kia ji makina.",
     "waste_to_tableau_one_card": "O muthu u tena kukatula ngó o kalatá kamoxi, anga u ka ta mu kididi kiéngi.",
     "waste_to_tableau_ok": "O kalatá ka katula o ima ia texika, anga a kala mu kapa T{dst}",
     "waste_to_tableau_bad": "Ka tena ku ta o jifalamenda ja mukuá mu kididi kimoxi ni íii iala-mu.",
     "no_face_up": "Kana kuta ji kalatá ku pholo phala ka ku katule mu ima ia mukuá.",
-    "tableau_to_tableau_ok": "Kadi {count} zilisukwa kutoka meza T{src} hadi T{dst}",
-    "tableau_to_tableau_bad": "Haiwezi kusuka {count} kadi(s) kutoka T{src} hadi T{dst}",
+    "tableau_to_tableau_ok": "Kadi {count} zimehamishwa kutoka kwa mukulu wa kubaka T{src} hadi T{dst}",
+    "tableau_to_tableau_bad": "Haiwezi kuhamisha kadi {count} kutoka T{src} hadi T{dst}",
     "foundation_to_tableau_one_card": "O muthu u tena ku katula ngó o ditadi dimoxi dia kivunga-nzongo, ni kuia bhu kididi kiéngi.",
     "foundation_empty": "O kididi kia F{src} ki kiala ni athu.",
-    "foundation_to_tableau_ok": "Kadi ilisukwa kutoka msingi F{src} hadi meza T{dst}",
+    "foundation_to_tableau_ok": "Kadi imehamishwa kutoka kipungu F{src} hadi mukulu wa kubaka T{dst}",
     "foundation_to_tableau_bad": "Ki tu tena ku ta o kijimbuete kia mbandu ia kamukanda mu kitutu T{dst}",
     "to_waste_or_stock": "O ima íii ki tu tena ku i texi mu jinzo mba mu ididi iéngi."
   },
   "outcome": {
-    "forfeit": "Game forfeited. Final score: {score} cards in foundations.",
+    "forfeit": "Mpira umefungwa. Alama ya mwisho: {score} kadi kwenye kipungu.",
     "won": "Nga mi sakidila, mua tambula o kikoué!",
-    "turn_limit": "Game over! You reached the maximum of {max_turns} turns. Score: {score} cards in foundations."
+    "turn_limit": "Mpira umemalizika! Umeifikia kikomo cha {max_turns} zamu. Alama: {score} kadi kwenye kipungu."
   },
   "board": {
     "title": "=== KLONDIKE SOLITAIRE ===",
     "turn": "Mwaka: {turn}/{max_turns}",
-    "stock": "Stock: {stock} cards",
+    "stock": "Kikwama: {stock} kadi",
     "waste": "Jimbandu ja kubula (W): {waste}",
     "foundations_header": "O itambuijilu íii:",
     "foundation_row": "F{n}: {cards} O ku di longa o Bibidia mu xikola, kua-nda kuatekesa kiavulu.",

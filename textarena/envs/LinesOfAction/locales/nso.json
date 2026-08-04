@@ -10,7 +10,7 @@
     "{to}": "The destination coordinate of a move, such as b3"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in game of LinesOfAction.\nYour pieces are '{side}', opponent pieces are '{other}'.\nMove format: `[b1b3]` (from-coord to-coord). A legal move travels horizontally, vertically, or diagonally a number of squares equal to the total pieces (any colour) in that line. You may jump over your own pieces, but not opponent pieces; landing on an opponent captures it.  Win when all your pieces are 8-neighbour connected."
+    "intro": "O mmoledi {player_id} mo papading ya LinesOfAction.\nPhecente tsa gago ke '{side}', phecente tsa mmotsana ke '{other}'.\nMofuta wa go tsamaya: `[b1b3]` (koordinete ya go tswa go ya kwa koordinete ya go fihla). Go tsamaya ka tsela e dumelang go ya ka thoko, ka godimo, goba ka tlase ka palo ya di-square e lekanang le phecente e kgolo (mofuta ofe goba ofe) mo tseleng eo. O ka tlama phecente tsa gago, fela o se ke wa tlama phecente tsa mmotsana; go fihla kwa phecente ya mmotsana o e tshwara.  O wina ge phecente tsa gago zinane zinane zikopanywa."
   },
   "board": {
     "current_board": "Lekgotla: {board}"

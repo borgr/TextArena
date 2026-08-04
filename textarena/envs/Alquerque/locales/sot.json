@@ -9,7 +9,7 @@
     "bad_format": "Sebopeho se fosahetseng. Sebelisa '[a2 a3]'.",
     "unknown_square": "Lebala le sa tsejoeng.",
     "not_your_piece": "Mohloli hase mosebetsi oa hao.",
-    "dest_not_empty": "Destination not empty.",
+    "dest_not_empty": "Sehlahisoa ha se le sefe.",
     "illegal": "Ho falla ka tsela e seng molaong."
   },
   "game_action": {

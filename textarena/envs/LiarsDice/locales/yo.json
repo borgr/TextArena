@@ -29,8 +29,8 @@
     "new_round": "Ìyí tuntun - Ìyókù ìdì: {dice_summary} Ìdì rẹ ti o wà lọwọlọwọ ni: {your_dice}"
   },
   "call": {
-    "bidder_loses": "Player {current_player_id} calls! The actual count of face {face_value} is {count}, which is LESS than {quantity}.\nPlayer {loser_id} (the last bidder) loses one die.",
-    "caller_loses": "Player {current_player_id} calls! The actual count of face {face_value} is {count}, which is >= {quantity}.\nPlayer {loser_id} (the caller) loses one die."
+    "bidder_loses": "Oníṣe {current_player_id} pe! Iye àtọ́ka {face_value} tó wà ní {count}, èyí tí ó kéré ju {quantity} lọ.\nOníṣe {loser_id} (ẹni tó ṣẹ̀ṣẹ́ bíd) sọ̀wó dìsì kan.",
+    "caller_loses": "Akọṣẹ {current_player_id} pe! Iye ti oju {face_value} ba ṣẹlẹ ni {count}, eyi ti o ju tàbí dọgba {quantity}.\nAkọṣẹ {loser_id} (ẹni ti o pe) ṣẹgun kan."
   },
   "action": {
     "bid_announce": "Ẹ̀yin olùdíje {player_id} ń díje {quantity} ti ojú {face_value}."
@@ -50,6 +50,6 @@
     "eliminated_invalid": "Ẹ̀yà {player_id} ti yọkuro nítorí ìgbésẹ̀ tí kò bágbà mu."
   },
   "outcome": {
-    "win": "Player {winner} wins! Final ranking: {final_ranking}"
+    "win": "Oníṣe {winner} gbẹjọba! Ìtọ́ka ìgbẹ̀yìn: {final_ranking}"
   }
 }

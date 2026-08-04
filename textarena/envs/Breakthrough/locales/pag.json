@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing {color} in a game of Breakthrough. You move {direction} on an {board_size}x{board_size} board.\nIn your turn you can move a single piece one step forward or diagonally forward.\nA piece may only move diagonally if an opponent piece is there, and only move into such a preoccupied square in a diagonal step.\nWhen stepping into a square with an opponent piece, you capture it and the opponent's piece is removed permanently from the board.\nUse UCI-like notation in brackets, e.g. [a2a3] to move from a2 to a3.\n* 'a' corresponds to the leftmost column, '1' is the bottom row (from White's perspective).\n* Blacks's home row is the top row (row 8 for an 8x8). White's home row is the bottom row (row 1 for an 8x8).\nThe first player whose piece reaches the opponent's home row wins. If your pieces are all captured, you lose."
+    "intro": "Agkalawen kayo {color} ed sakey a palaro na Breakthrough. Gumalaw kayo {direction} ed sakey a tabla na {board_size}x{board_size}.\nDiad say turn yo, saray kayo a gumalaw na sakey a piraso ed abante o ed diagonally abante.\nSay piraso so kagalaw la ed diagonally no adda piraso na kalaban ed saman, tan kagalaw la ed sakey a square a preoccupied ed sakey a diagonal step.\nNo agkalawen yo ed sakey a square a adda piraso na kalaban, kayo so makakapit ed saman tan say piraso na kalaban so matatanggalan la ed tabla.\nUsaren yo sakey a notation a UCI-like ed bracket, e.g. [a2a3] a pangalawen ed a2 ed a3.\n* 'a' so correspond ed say kolum na kawigi, '1' so row na babo (manlapit ed perspektibo na White).\n* Say home row na Black so row na dapo (row 8 para ed sakey a 8x8). Say home row na White so row na babo (row 1 para ed sakey a 8x8).\nSay unaan a player a say piraso so makakarating ed home row na kalaban so manalo. No say piraso yo so amin a makakapit, kayo so talo."
   },
   "invalid_move": {
     "wrong_format": "Mangusar kayo na algebraic notation ya walad bracket a singa say [a2a3].",
@@ -8,7 +8,7 @@
     "illegal": "Satan ya iyalis et agmanunor ed saray totontonen na Breakthrough odino aliwan satan so armas mo."
   },
   "game_action": {
-    "moved": "Player {player_id} moves {move_str} ({piece})."
+    "moved": "Player {player_id} so gumalaw {move_str} ({piece})."
   },
   "outcome": {
     "white_reached": "Akasabi la ray amputin kolor ed home row na saray andeket.",

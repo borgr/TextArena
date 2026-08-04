@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in **Ultimate Tic Tac Toe**.\nSubmit your move as **[macro  micro]** (two numbers 0-8):\n• *macro*  = which mini-board you play in\n• *micro* = which square inside that mini-board\nExample `[7 8]` ➜ place your mark in mini-board 7, square 8, and\nforce your opponent to play in mini-board 8 next.\n\nYou are `{symbol}`.\n"
+    "intro": "ທ່ານເປັນຜູ້ຫຼິ້ນ {player_id} ໃນ **ຕິກຕັກໂຕສຸດທິ**.\nກະລຸນາສົ່ງການເຄື່ອນໄປຢ່າງ **[macro  micro]** (ຕົວເລກສອງຕົວ 0-8):\n• *macro*  = ທີ່ມີນິ້ບອດທີ່ທ່ານຫຼິ້ນ\n• *micro* = ສະກາຍານທີ່ຢູ່ໃນນິ້ບອດນັ້ນ\nຕົວຢ່າງ `[7 8]` ➜ ວັດເຄື່ອງໝາຍຂອງທ່ານໃນນິ້ບອດ 7, ສະກາຍານ 8, ແລະ\nບັງຄັບຜູ້ຫຼິ້ນຂ້າງກົງຂອງທ່ານໃຫ້ຫຼິ້ນໃນນິ້ບອດ 8 ຕໍ່ໄປ.\n\nທ່ານເປັນ `{symbol}`.\n"
   },
   "board": {
     "current_board": "ຄະນະກໍາມະການປັດຈຸບັນ: {board}"
@@ -15,7 +15,7 @@
   },
   "next_board": {
     "any": "ກະດານ micro ໃດ",
-    "specific": "micro board {nxt}"
+    "specific": "ນິ້ບອດຍ່ອຍ {nxt}"
   },
   "game_action": {
     "played": "ຜູ້ນ {player_id} ຫຼິ້ນໃນ micro board {macro_idx}, cell {micro_idx} (row {row}, col {col}). ຜູ້ນ {opponent_id} ຕ້ອງຫຼິ້ນໃນ {nxt_txt}."

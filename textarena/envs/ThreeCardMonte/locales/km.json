@@ -11,7 +11,7 @@
     "{ball_pos}": "The cup index the ball is under"
   },
   "player_prompt": {
-    "intro": "Track the hidden ball 'X' while the cups are shuffled.\nAfter shuffling, guess its location with `[k]`."
+    "intro": "តាមដានបាល់ដែលបានលាក់ 'X' ខណៈដែលពែងត្រូវបានច្របូក។\nបន្ទាប់ពីច្របូក ស្ម័គ្រចិត្តទីតាំងរបស់វាជាមួយ `[k]`។"
   },
   "game_message": {
     "ball_starts": "ការចាប់ផ្តើមបាល់: {line}",
@@ -21,7 +21,7 @@
     "reveal": "(បង្ហាញ: បាល់នៅក្រោម {ball_pos})"
   },
   "invalid_move": {
-    "wrong_format": "Bad action. Use `[k]`.",
+    "wrong_format": "សកម្មភាពខុស។ ប្រើ `[k]`។",
     "out_of_range": "សន្ទស្សន៍ចេញពីចន្លោះ 0-{max_index}"
   },
   "outcome": {

@@ -14,7 +14,7 @@
     "intro": "Jūs esat spēlētājs {player_id} trīs spēlētāju Tik Tac Tō. \nJūsu simbols ir '{symbol}'. \nJūs veicat soļus, ievietojot savu simbolu 5x5 tabulā, lai veidotu četru rindu līniju. \nLīnijas var būt horizontālas, vertikālas vai diagonālas. \nIesniegiet savu soļu, izmantojot formātu '[4]', lai atzīmētu šūnu 4."
   },
   "board": {
-    "current_board": "Current Board:\n\n{board}\n\nAvailable Moves: {moves}"
+    "current_board": "Pašreizējais galdiņš:\n\n{board}\n\nPieejamie gājieni: {moves}"
   },
   "invalid_move": {
     "wrong_format": "Navaleigs puorvītuošonys formats. Izmontuot \"[cell]\", kur šyuna ir 0-{max_cell}.",

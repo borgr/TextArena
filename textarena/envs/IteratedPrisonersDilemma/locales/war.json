@@ -12,7 +12,7 @@
     "draw": "An duha nga magdudula nag-iskor {s0}.",
     "round_both_cooperate": "Nagkooperar an duha nga magdudula.",
     "round_both_defect": "An duha nga magdudula nag-absent.",
-    "round_p0_cooperates_p1_defects": "An Player 0 in nakigkooperar, an Player 1 nag-absent.",
-    "round_p0_defects_p1_cooperates": "An Player 0 in binmaya, an Player 1 nagkooperar."
+    "round_p0_cooperates_p1_defects": "Ang Manugdula 0 nagtinabangay, ang Manugdula 1 nagbulag.",
+    "round_p0_defects_p1_cooperates": "Ang Manugdula 0 nagbulag, ang Manugdula 1 nagtinabangay."
   }
 }

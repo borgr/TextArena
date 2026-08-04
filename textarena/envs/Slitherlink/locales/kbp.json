@@ -1,9 +1,9 @@
 {
   "player_prompt": {
-    "intro": "You are playing Slitherlink on a {R}x{C} grid!\nDraw a single continuous loop so each numbered cell has that many bordering edges.\nToggle edges with:\n  [h r c] - toggle horizontal edge above dots at row r, column c\n  [v r c] - toggle vertical edge left of dots at row r, column c\nNumbers show required edge count, '.' means no constraint.\nYou have up to {max_turns} moves to solve the puzzle."
+    "intro": "Aɣaɣa Slitherlink le gu kɔɖɛ {R}x{C} kɛ!\nAɖɔɣɩ kɛɛkɛɛyɔɔ kɛ pɩyɛ naɖɩyɛ tɛɛ nɛ kɛlɛɛzɩ kɛlɛɛzɩ kɛ pɩyɛ nɖɩ ɖɩ-taa wɛɛ nɛ ɖɩ-tɛɛ kɛlɛɛzɩ tɛɛ.\nKɛlɛɛzɩ tɔɔzɩɣ yɔɔ:\n  [h r c] - tɔɔzɩɣ kɛlɛɛzɩ kɛɛɖɩɖɩ yɔɔ ɖɩ-taa r, kɔɖɩ c\n  [v r c] - tɔɔzɩɣ kɛlɛɛzɩ kɛɛɖɩɖɩ kɛɛlɛɛɖɩɖɩ ɖɩ-taa r, kɔɖɩ c\nKɛlɛɛzɩ tɛɛ wɛɛ nɛ pɩyɛ nɖɩ ɖɩ-taa wɛɛ nɛ '.' tɛɛ wɛɛ nɛ kɛlɛɛzɩ tɛɛ.\nAɣaɣa {max_turns} kɛlɛɛzɩ tɛɛ wɛɛ nɛ kɛlɛɛzɩ tɛɛ."
   },
   "board": {
-    "current_board": "{board}\nClues satisfied: {progress}"
+    "current_board": "{board}\nKɛlɛɛzɩ tɛɛ wɛɛ nɛ pɩyɛ nɖɩ ɖɩ-taa wɛɛ: {progress}"
   },
   "invalid_move": {
     "wrong_format": "Tɔm taa pɩlɩʊ nɛ pɛɛ. Se [h row col] ɖɔɖɔ [v row col].",

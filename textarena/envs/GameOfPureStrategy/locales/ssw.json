@@ -14,8 +14,8 @@
   },
   "message": {
     "bids": "Bids: P0 {card0} vs P1 {card1} - ",
-    "p0_wins": "{observation}Player 0 wins {pot_value}.",
-    "p1_wins": "{observation}Player 1 wins {pot_value}.",
+    "p0_wins": "{observation}Mdlali 0 uyawina {pot_value}.",
+    "p1_wins": "{observation}Mdlali 1 uyawina {pot_value}.",
     "tie": "{observation}Tie -> pot manje {carry_pot}.",
     "scores": "Scores -> P0:{score0}  P1:{score1}"
   },

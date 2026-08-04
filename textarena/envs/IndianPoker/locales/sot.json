@@ -23,14 +23,14 @@
     "possible_actions": "Liketso tsa hao tse ka khonehang: {legal}"
   },
   "message": {
-    "round_result": "{reason}  Pot {pot} → Player {winner}. (Bankrolls P0:{p0}, P1:{p1})",
+    "round_result": "{reason}  Pot {pot} → Tshameki {winner}. (Bankrolls P0:{p0}, P1:{p1})",
     "folded": "Sebapali {player_id} se ile sa tlohela papali.",
     "showdown_win": "Ho loana: {card_win} e otla {card_lose}.",
     "showdown_tie": "Showdown tie: bobeli {card}. Pitsa e arotsoe  ka 'ngoe ea amohela {split} ."
   },
   "outcome": {
-    "p0_wins": "Player 0 wins ({bank0} > {bank1})",
-    "p1_wins": "Player 1 wins ({bank1} > {bank0})",
+    "p0_wins": "Tshameki 0 o hlotse ({bank0} > {bank1})",
+    "p1_wins": "Tshameki 1 o hlotse ({bank1} > {bank0})",
     "draw": "Lichips tse lekanang ka mor'a li-round tsohle"
   }
 }

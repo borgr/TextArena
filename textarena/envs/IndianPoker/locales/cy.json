@@ -26,7 +26,7 @@
     "round_result": "{reason} Pot {pot} → Player {winner}. (Bankrolls P0:{p0}, P1:{p1})",
     "folded": "Chwaraewr {player_id} wedi'i ffoi.",
     "showdown_win": "Cyfradd: {card_win} yn curo {card_lose}.",
-    "showdown_tie": "Showdown tie: both {card}. Pot split – each receives {split}."
+    "showdown_tie": "Sioe gyfartal: y ddau {card}. Pot wedi ei rannu – pob un yn derbyn {split}."
   },
   "outcome": {
     "p0_wins": "Mae chwaraewr 0 yn ennill ({bank0} > {bank1})",

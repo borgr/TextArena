@@ -9,10 +9,10 @@
     "{pct}": "Progress as a percentage string, e.g. 50%"
   },
   "player_prompt": {
-    "intro": "Map each letter to a unique digit so the arithmetic holds.\nAssign with `[A 5]`, re-assign anytime.\n"
+    "intro": "Her bir arifniñ özüne has bir sanağa tañıtqan şekilde hesablawımnıñ doğru olmasınıñ sağlañız.\n`[A 5]` ile tayin etiñiz, istediginiz vaqıtta yeniden tayin etiñiz.\n"
   },
   "invalid_move": {
-    "wrong_format": "Bad action format. Use `[A 5]`.",
+    "wrong_format": "Yanlış areket formatı. `[A 5]` qullanıñız.",
     "letter_not_in_puzzle": "Harf {letter} bulmacada yoq.",
     "digit_used": " Raqam {digit} already {used_letter} taraffından qullanıldı.",
     "leading_zero": "Bir sözniñ baş raqamı 0 olamaz."

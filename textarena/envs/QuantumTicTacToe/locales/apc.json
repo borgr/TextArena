@@ -16,7 +16,7 @@
   "game_message": {
     "dependent_resolved": "تم حل الت重يف التابع. الخلية ({r}, {c}) هي الآن {symbol}.",
     "last_cell_resolved": "تم حل الت重يف للخلية الأخيرة. الخلية ({r}, {c}) هي الآن {symbol}.",
-    "superposition_resolved": "Superposition resolved. Cell ({r}, {c}) is now {symbol}."
+    "superposition_resolved": "التوليف تم حله. الخلية ({r}، {c}) الآن {symbol}."
   },
   "outcome": {
     "win": "اللاعب {player_id} بيفوز بالعلامات المترتبة!",

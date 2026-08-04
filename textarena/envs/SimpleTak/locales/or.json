@@ -5,7 +5,7 @@
   "invalid_move": {
     "invalid_move_format": "ଅବୈଧ ଘୁଞ୍ଚାଇବା ଶୈଳୀ",
     "cell_out_of_range": "ଅବୈଧ ସେଲ ନମ୍ବର {cell_num}. 0 ରୁ {max_board_num} ମଧ୍ୟରେ ହେବା ଆବଶ୍ୟକ.",
-    "cell_already_occupied": "Cell {cell_num} is already occupied. Choose an empty cell."
+    "cell_already_occupied": "{cell_num} କୋଷ ଇତିମଧ୍ୟ ଅଧିକୃତ । ଏକ ଖାଲି କୋଷ ବାଛନ କରନ୍ତୁ ।"
   },
   "board": {
     "current_state": "ବର୍ତ୍ତମାନ ବୋର୍ଡ: {rendered_board} ଉପଲବ୍ଧ ଚାଲ: {available_moves}"

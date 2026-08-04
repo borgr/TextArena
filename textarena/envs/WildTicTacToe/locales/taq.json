@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in Wild Tic Tac Toe.\nOn your turn, you can place either an 'X' or an 'O' in an empty square.\nYou win by aligning three of the same mark (X or O) in a row.\nYou can win with either symbol.\nChoose your move using the format '[X 4]' to place X in the center.\n"
+    "intro": "Kedda d-ikkes {player_id} di Tic Tac Toe d-azawad.\nDi teɣreɣt-ik, nezmer ad tesɛedmeḍ 'X' neɣ 'O' di tɣmrt takawsart.\nTewwiḍ di tesɛedmeḍ krad (X neɣ O) di teɣreɣt.\nTewwiḍ di kray aɣrem.\nFren tiɣreɣt-ik s useɣru '[X 4]' ad tesɛedmeḍ X di tlemmast.\n"
   },
   "board": {
     "current_board": "Asaḍen n wengam:\n\n{board}\n\nIswi imawan: {moves}"
@@ -14,7 +14,7 @@
     "placed": "Amɣid {player_id} yenɣa aseɣwen nnes ({mark}) ɣef tazwagt {cell}"
   },
   "outcome": {
-    "win": "Player {player_id} wins with {mark}s!",
+    "win": "Amɣar {player_id} ittawin s {mark}!",
     "draw": "ⵜⴰⴱⴰⵔⴰⵜ ⵜ-ⴰⵈⵈⴰⵍ ⴰⴾⵔⴰⵎ!"
   }
 }

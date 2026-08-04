@@ -113,7 +113,7 @@
     "assass_others": "Player #{source} hat gerade Assassinate gegen Player #{target} gespielt. Er hat eine Karte verloren und einen {card} aufgedeckt. Er {remaining}",
     "steal_source": "Du hast gerade erfolgreich zwei Münzen von Player #{target} gestohlen. Du hast jetzt {scoins} Münzen. Player #{target} hat {tcoins} Münzen",
     "steal_target": "Player #{source} hat gerade zwei Münzen von dir gestohlen. Du hast jetzt {tcoins} Münzen. Player #{source} hat {scoins} Münzen",
-    "steal_others": "Player #{source} hat gerade zwei Münzen von Player #{target} gestohlen. Player #{source} hat {scoins} Münzen. Player #{target} hat {tcoins} Münzen",
+    "steal_others": "Spieler #{source} hat gerade 2 Münzen von Spieler #{target} gestohlen. Spieler #{source} hat {scoins} Münzen. Spieler #{target} hat {tcoins} Münzen",
     "exchange_source_two": "Du hast für den Tausch zwei Karten vom Stapel gezogen. Du hast jetzt: {cards}. Du musst mit [keep <card1> <card2>] wählen, welche zwei Karten du behalten willst",
     "exchange_source_one": "Du hast für den Tausch zwei Karten vom Stapel gezogen. Du hast jetzt: {cards}. Da du einen Einfluss verloren hast, musst du mit [keep <card>] wählen, welche eine Karte du behalten willst",
     "exchange_others": "Player #{source} tauscht Karten mit dem Hofdeck."
@@ -138,7 +138,7 @@
     "blocked_have": "Er wird daran gehindert und hat {n} Karte übrig.",
     "blocked_none": "Er hat keine Karten mehr übrig, er ist ausgeschieden!",
     "refund_they": " Ihm wurden seine 3 Münzen zurückerstattet.",
-    "others_succ_head": "Player #{challenger} hat gerade erfolgreich Player #{challenged} wegen seiner {card}-Behauptung herausgefordert! ",
+    "others_succ_head": "Spieler #{challenger} hat gerade Spieler #{challenged} auf dessen {card}-Behauptung erfolgreich herausgefordert! ",
     "others_blocked_have": "Player #{challenged} wurde daran gehindert und hat {n} Karte übrig.",
     "others_blocked_none": "Player #{challenged} hat keine Karten mehr übrig, er ist ausgeschieden!"
   },
@@ -161,10 +161,10 @@
   "hl": {
     "won": "Player #{winner} hat gewonnen!",
     "turn": "Player #{pid} ist am Zug",
-    "query_block": "Player #{source} versucht ein {action}{target} und fragt, ob Player #{pid} blocken/herausfordern möchte.",
+    "query_block": "Spieler #{source} versucht, eine {action}{target} durchzuführen und fragt, ob Spieler #{pid} blocken oder herausfordern möchte.",
     "target_on": " gegen Player #{target}",
     "target_from": " von Player #{target}",
-    "query_challenge_blocker": "Player #{blocker} führt ein {block} gegen Player #{source} aus und fragt, ob Player #{pid} den Block herausfordern möchte.",
+    "query_challenge_blocker": "Spieler #{blocker} blockt eine {block} von Spieler #{source} und fragt, ob Spieler #{pid} die Blockierung herausfordern möchte.",
     "query_keep": "Player #{source} versucht einen Exchange und fragt, welche er behalten möchte."
   }
 }

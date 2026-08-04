@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a {num_rounds}-round of IteratedTwoThirdsAverage.\nEach round, guess a number between {min_guess} and {max_guess}.\nAfter both guesses, the target is (2/3)x(average of both guesses),\nand the player whose guess is closest to the target wins that round.\nReply with your guess in the format '[<number>]'."
+    "intro": "አንተ ተጫዋች {player_id} እስከ {num_rounds} የሚደረግ የሁለት ሶስተኛው አማካይ እንደሆንክ አውቃለሁ።\nእያንዳንዱ ዙር ከ {min_guess} እስከ {max_guess} ያለ ቁጥር ግምት አድርግ።\nሁለቱ ግምቶች ከተደረጉ በኋላ፣ አላማው (2/3) x (ሁለቱ ግምቶች አማካይ) ነው፣\nእና ግምቱ አላማው ከቅርብ ያለው ተጫዋች ዙሩን ያሸንፋል።\nግምትህን በአከባቢው '[<number>]' አስገባ።"
   },
   "invalid_move": {
     "wrong_format": "ዘይቅኑዕ ቅርጺ፤ በጃኻ ግምታትካ ከም [<number>] ኣቅርብ።",

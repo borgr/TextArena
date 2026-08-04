@@ -10,7 +10,7 @@
     "{groups}": "Neutral ranking data (a list of player-id groups, best to worst); do not translate"
   },
   "player_prompt": {
-    "intro": "{num_players}-Player Surround on a {width}x{height} grid.\nYou are player {player_id}. Valid moves: '[up]' '[down]' '[left]' '[right]' or w/s/a/d.\nObjective: outlive everyone else. Trails are deadly; wall hits kill; head-on crashes kill both."
+    "intro": "{num_players}-ŋɩɩyɔɔ kɛɛ Surround kɛɛ {width}x{height} kɩɩkɛɛ.\nƐy'aa ŋɩɩyɔɔ {player_id}. Ɖɔɔɖɛɛ kɩɩtɛɛ: '[up]' '[down]' '[left]' '[right]' bee w/s/a/d.\nƉɔsɛɛ: ɛyɩɩ ɛzɩŋɩɩyɔɔ kpaa. Ɛyɩɩɖɛɛ wɛɛ kpɩɩɩŋ; kɩɩɖɛɛ kɩɩɩŋ wɛɛ kpɩɩɩŋ; kɩɩɖɛɛ kɩɩɩŋ kpɩɩɩŋ kɩɩɩŋ."
   },
   "board": {
     "current": "Ɛjaɖɛ ñʊʊtʊ: {board}",
@@ -25,6 +25,6 @@
     "outlived": "Ɛ-ɛyʋ kɩbɩnʋ kaacaɣ wezuu nɛ pɩɖɛɛ lalaa.",
     "all_dead": "Ɛyaa mba pa-tɩŋa pasɩba.",
     "turn_limit": "Ye pɩtalɩ hɔɔlʋʋ ŋgʋ kɩ-taa pɩwɛɛ se ŋpɩzɩ nɛ ŋkɔɔ yɔ, weyi ɛɖɔkʋʋ kpam yɔ eɖewa.",
-    "ranking": "{reason} Final ranking groups (best→worst): {groups}"
+    "ranking": "{reason} Ɖɔsɛɛ kɩɩɖɛɛ kɩɩɩŋ (kpaa→kpɩɩɩŋ): {groups}"
   }
 }

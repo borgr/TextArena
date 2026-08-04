@@ -6,7 +6,7 @@
     "wrong_format": "Fom bɛyɛ; ka biribi '[heads]' anaa '[tails]'."
   },
   "message": {
-    "round_match": "Player 0 picked {choice0}; Player 1 picked {choice1}. Match -> Player 0 wins",
+    "round_match": "Odwumfo 0 yii {choice0}; Odwumfo 1 yii {choice1}. Agyapadee -> Odwumfo 0 di nkunim",
     "round_mismatch": "ɔkɛse 0 gyee {choice0}; ɔkɛse 1 gyee {choice1}. Mismatch -> ɔkɛse 1 di nkonim."
   },
   "outcome": {

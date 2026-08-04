@@ -1,18 +1,18 @@
 {
   "player_prompt": {
-    "intro": "You are playing Blackjack against the dealer.\nYour goal is to get as close to 21 as possible without going over.\nOn your turn, choose '[Hit]' to draw another card or '[Stand]' to hold.\nJ/Q/K = 10 points; A = 11 or 1, whichever is better.\n"
+    "intro": "O keba Blackjack na mobeti.\nKoluka yawu i kuwa pene na 21 bila kupita.\nKwa mviringo yawu, kuma '[Hit]' kodi kadi mosi mpe ya '[Stand]' kodi kusimama.\nJ/Q/K = pointi 10; A = 11 to 1, nde yawu kele mbote.\n"
   },
   "board": {
-    "current_state": "Hand {hand_number}/{num_hands}\nYour hand: {player_hand} (Score: {score})\nDealer shows: {dealer_card}"
+    "current_state": "Libala {hand_number}/{num_hands}\nLibala yawu: {player_hand} (Makolo: {score})\nMobeti anasema: {dealer_card}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action. Use '[Hit]' or '[Stand]'."
+    "wrong_format": "Kodi ya kukeba. Tumina '[Hit]' to '[Stand]'."
   },
   "game_message": {
-    "hand_result": "Hand {hand_number}: you {outcome}. Your final {player_score}, Dealer {dealer_score}.",
-    "all_complete": "=== All {num_hands} hands complete ===\nWins: {wins}, Losses: {losses}, Draws: {draws}\n"
+    "hand_result": "Libala {hand_number}: o {outcome}. Makolo yawu ya mwisho {player_score}, Mobeti {dealer_score}.",
+    "all_complete": "=== Mabala yote {num_hands} yamemalizika ===\nMashinda: {wins}, Hasara: {losses}, Sifuri: {draws}\n"
   },
   "outcome": {
-    "game_over": "The game has concluded. Final scores: Dealer: {losses}, You: {wins}, Draws: {draws}"
+    "game_over": "Mchezo umemalizika. Makolo ya mwisho: Mobeti: {losses}, Yawe: {wins}, Sifuri: {draws}"
   }
 }

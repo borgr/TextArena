@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "Әрекеттің пішімі [row col] болуы тиіс, онда жол мен баған 0-ден {max_index}-ге дейінгі бүтін сандар болып табылады.",
-    "out_of_range": "Coordinates must be between 0 and {max_index}. You entered [{row},{col}]."
+    "out_of_range": "Координаттар 0 мен {max_index} арасында болуы керек. Сіз [{row},{col}] енгіздіңіз."
   },
   "outcome": {
     "win": "Құттықтап отырмын! Сіз жұмбақты {moves_used} қимылдарында шештіңіз!",

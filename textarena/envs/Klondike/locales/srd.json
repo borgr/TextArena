@@ -24,8 +24,8 @@
     "empty_command": "Cumandu bòidu. Iscrie \"draw\" o \"move <source><destination> [count]\".",
     "empty_action": "Atzione bòida",
     "move_needs_args": "Su cumandu move rechedet una fonte e unu destinu. Utilizatzione: 'move <source> <destination> [count]'",
-    "count_positive": "Su contu depet èssere positivu o \"totu\"",
-    "count_invalid": "Contare invalidu. Imprea unu nùmeru o \"totu\"",
+    "count_positive": "Su nùmeru depet èssere positivu o 'all'",
+    "count_invalid": "Nùmeru non vàlidu. Usa unu nùmeru o 'all'",
     "unknown_command": "Comandu iscitu '{cmd}'. Imprea 'draw', 'move <source> <destination> [count]', o 'forfeit'",
     "wrapped": "Azione {n}: {msg}"
   },

@@ -24,8 +24,8 @@
     "empty_command": "खाली आदेश. टाइप 'draw' या 'move <source><destination> [count]' करे के बा.",
     "empty_action": "खाली क्रिया",
     "move_needs_args": "Move कमांड के खातिर स्रोत आ गंतव्य के जरूरत होला. उपयोगः 'move <source><destination> [count]'",
-    "count_positive": "गिनती सकारात्मक या 'सब' होखे के चाहीं.",
-    "count_invalid": "अवैध गिनती. एगो संख्या या 'सब' के प्रयोग करीं",
+    "count_positive": "गणना सकारात्मक या 'all' होनी चाहिए",
+    "count_invalid": "अमान्य गणना। एक संख्या या 'all' का उपयोग करें",
     "unknown_command": "अज्ञात कमांड '{cmd}'. 'draw', 'move <source> <destination> [count]', या 'forfeit' के उपयोग करें",
     "wrapped": "एक्शन {n}: {msg}"
   },

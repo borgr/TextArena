@@ -48,7 +48,7 @@
   "message": {
     "deck_empty": "Dek kosong! Game rampung langsung.",
     "knocked": "Pemain {pid} ketok! Saben pemain liyane entuk siji giliran maneh.",
-    "final_round": "Player {pid} {reason}! Saben pemain liyane olèh sak turn tambahan"
+    "final_round": "Pemain {pid} {reason}! Saben pemain liyane entuk giliran siji maneh."
   },
   "reason": {
     "all_revealed": "wis kabeh kertu dicethakaké"

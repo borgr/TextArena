@@ -6,7 +6,7 @@
     "current_board": "Учурдагы такта: {board} Колдо бар кадамдар: {moves}"
   },
   "invalid_move": {
-    "wrong_format": "The submitted move does not follow the correct format.",
+    "wrong_format": "Көрсөтүлгөн жүрүш туура эмес форматта.",
     "out_of_range": "{cell} жарактуу уяча эмес. 0 жана 24 ортосунда болушу керек.",
     "already_occupied": "{cell} уячасы эбак ээленген."
   },

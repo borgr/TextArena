@@ -13,8 +13,8 @@
     "already_matched": "ಅಮಾನ್ಯ ಚಲನೆ. ಆಟಗಾರ {player_id} ಈಗಾಗಲೇ ಹೊಂದಾಣಿಕೆಯಾದ ಒಂದು ಅಥವಾ ಎರಡೂ ಕಾರ್ಡ್ಗಳನ್ನು ಆಯ್ಕೆಮಾಡಿದ್ದಾರೆ."
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "ಆಟಗಾರ {player_id} ಸ್ಥಾನಗಳಲ್ಲಿ [{r1} {c1}] ಮತ್ತು [{r2} {c2}] ಆಯ್ಕೆ ಮಾಡಿದ ಕಾರ್ಡ್‌ಗಳು ಹೊಂದಿಕೆಯಾಗುತ್ತವೆ!",
+    "cards_no_match": "ಆಟಗಾರ {player_id} ಆಯ್ಕೆ ಮಾಡಿದ ಕಾರ್ಡ್‌ಗಳು ಹೊಂದಿಕೆಯಾಗುವುದಿಲ್ಲ. ಸ್ಥಾನಗಳಲ್ಲಿರುವ ಕಾರ್ಡ್‌ಗಳು [{r1} {c1}] ಮತ್ತು [{r2} {c2}] ಅನುಕ್ರಮವಾಗಿ {pos1} ಮತ್ತು {pos2} ಆಗಿವೆ."
   },
   "outcome": {
     "draw": "ಎರಡೂ ಆಟಗಾರರು ಒಂದೇ ಸಂಖ್ಯೆಯ ಜೋಡಿ ಕಾರ್ಡ್ಗಳನ್ನು ಹೊಂದಿದ್ದಾರೆ.",

@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a match of GameOfPureStrategy.\n- You hold the 13 cards A-K; each can be used once.\n- Each round a prize card is revealed. Play exactly ONE card by writing something that contains a bracketed token like '[Q]', '[10]', '[2]' ...\n- Higher card wins the prize (plus carry-over). Ties roll prize into the pot for next round.\n- Highest total after 13 rounds wins."
+    "intro": "Wee ni Mchezaji {player_id} katika mchezo wa GameOfPureStrategy.\n- Unashikilia kadi 13 A-K; kila moja inaweza kutumika mara moja.\n- Kila raundi kadi ya zawadi inafichuliwa. Cheza kadi moja haswa kwa kuandika kitu ambacho kina alama ya kadi iliyo na mabano kama '[Q]', '[10]', '[2]' ...\n- Kadi ya juu inashinda zawadi (pamoja na kubeba). Usawa unazungusha zawadi kwenye chungu kwa raundi inayofuata.\n- Jumla ya juu zaidi baada ya raundi 13 inashinda."
   },
   "round": {
     "announce": "### Raundi {round}/13 - Zawadi: {prize}  (inayofikia {worth})"
@@ -15,13 +15,13 @@
   "message": {
     "bids": "Bids: P0 {card0} vs P1 {card1} - ",
     "p0_wins": "{observation}Mchezaji 0 anashinda {pot_value}.",
-    "p1_wins": "{observation}Player 1 wins {pot_value}.",
-    "tie": "{observation}Tie -> pot now {carry_pot}.",
+    "p1_wins": "{observation}Mchezaji 1 anashinda {pot_value}.",
+    "tie": "{observation}Usawa -> sasa chungu {carry_pot}.",
     "scores": "Scores -> P0:{score0}  P1:{score1}"
   },
   "outcome": {
     "p0_wins": "P0 {s0} vs P1 {s1}",
     "p1_wins": "P1 {s1} vs P0 {s0}",
-    "draw": "Both scored {s0}"
+    "draw": "Wote walipata {s0}"
   }
 }

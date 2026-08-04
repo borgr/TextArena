@@ -34,10 +34,10 @@
     "bad_integer": "Суммасы тулы сан булырга тиеш.",
     "out_of_range": "Тәкъдим $0 һәм ${pool} арасында булырга тиеш.",
     "no_current_offer": "Хәзерге вакытта җавап бирергә тәкъдим юк.",
-    "accept_or_reject": "Responder must either [Accept] or [Reject] the offer."
+    "accept_or_reject": "Җавап бирүче тәкъдимне [Accept] яки [Reject] белән карар итәргә тиеш."
   },
   "outcome": {
-    "win": "Уенчы {winner} ${{winner_total}} гомуми белән җиңде vs Уенчы {loser}ның ${{loser_total}}.",
+    "win": "Уенчы {winner} ${winner_total} гомуми исәбе белән җиңде, Уенчы {loser} исә ${loser_total} гомуми исәпкә иреште.",
     "draw": "Ике уенчы да ${total} сумма белән тәмамлады."
   }
 }

@@ -11,7 +11,7 @@
     "{groups}": "Neutral ranking data (a list of player-id groups, worst to best); do not translate"
   },
   "player_prompt": {
-    "intro": "{num_players}-Player Snake on a {width}×{height} grid.\nYou control snake {player_id}. Valid moves: '[up]'/'[down]'/'[left]'/'[right]' (or w/s/a/d).\nObjective: survive longest or be the longest and get the highest score (turn limit {max_turns} turns)."
+    "intro": "{num_players}-Jatelo Snake kwenye kisanduku cha {width}×{height}.\nInwezekana unatengeneza nyoka {player_id}. Miendo inayokubalika: '[up]'/'[down]'/'[left]'/'[right]' (ama w/s/a/d).\nLengo: taa kuishi muda mrefu au uwe mrefu zaidi na upate alama ya juu zaidi (kikomo cha zamu {max_turns} zamu)."
   },
   "board": {
     "current": "Bura masani: {board}",

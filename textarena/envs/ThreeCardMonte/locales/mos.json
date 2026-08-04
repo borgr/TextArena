@@ -11,7 +11,7 @@
     "{ball_pos}": "The cup index the ball is under"
   },
   "player_prompt": {
-    "intro": "Track the hidden ball 'X' while the cups are shuffled.\nAfter shuffling, guess its location with `[k]`."
+    "intro": "Kɛlɛm zɩɩm 'X' sɩɩm kʋʋgɔɔsɛɛ kɛɛrɛɛ.\nKɛɛrɛɛ wʋsɩ, kɛlɛm dɩɩɩm pɩɩɩm `[k]`."
   },
   "game_message": {
     "ball_starts": "Ballã sɩngda: {line}",
@@ -21,11 +21,11 @@
     "reveal": "(B wilg-y: bilã sẽn be {ball_pos} tẽngre)"
   },
   "invalid_move": {
-    "wrong_format": "Bad action. Use `[k]`.",
+    "wrong_format": "Kɛlɛm pɩɩɩm ka tɛɛm. Kɔɔrɩ `[k]`.",
     "out_of_range": "Lɛri ti paasen 0-{max_index}."
   },
   "outcome": {
     "win": "Yaa sɩda, y yãa bilã.",
-    "lose": "Wrong — ball was under cup {ball_pos}."
+    "lose": "Kɛlɛm ka tɛɛm — zɩɩm ɩɩɩm kʋʋgɔɔ {ball_pos}."
   }
 }

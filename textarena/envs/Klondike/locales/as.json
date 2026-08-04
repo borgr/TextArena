@@ -16,7 +16,7 @@
     "{cards}": "The cards in a pile as neutral labels, or '--' if empty (never translate)"
   },
   "player_prompt": {
-    "intro": "You are playing Klondike Solitaire. Your goal is to move all cards to the foundation piles.\n\nGame Rules:\n- Foundation piles (F1-F4): Build up from Ace to King in suit\n- Tableau piles (T1-T7): Build down alternating colors (red on black, black on red)\n- Stock: Draw cards to waste pile\n- Waste (W): Top card available for play\n\nCommands:\n- 'draw' - Draw cards from stock to waste\n- 'move <source> <destination> [count]' - Move cards between piles\n  Examples: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count can also be 'all', which will try to move all face-up cards.\n- 'forfeit' - End the game immediately and lock in your current score\n- Pile names: W (waste), F1-F4 (foundations), T1-T7 (tableau)\n\nYou can execute multiple actions in one turn by separating them with commas:\n  Example: 'draw, move W T1, move T2 F1'\n\nOnly Kings can be placed on empty tableau piles.\nActions execute in order - if one fails, the remaining actions are skipped.\nUse 'forfeit' if you believe the game is impossible to win."
+    "intro": "আপনি ক্লোণ্ডাইক সলিটেয়ার খেলছেন। আপনার লক্ষ্য হল সমস্ত কার্ডকে ফাউন্ডেশন পাইলগুলিতে সরানো।\n\nখেলার নিয়ম:\n- ফাউন্ডেশন পাইল (F1-F4): স্যুটে এস থেকে কিং পর্যন্ত তৈরি করুন\n- টেবিলো পাইল (T1-T7): বিকল্প রঙ (লাল কালোর উপর, কালো লালের উপর) নিচের দিকে তৈরি করুন\n- স্টক: বর্জ্য পাইলে কার্ড আঁকুন\n- বর্জ্য (W): শীর্ষ কার্ড খেলার জন্য উপলব্ধ\n\nকমান্ড:\n- 'draw' - স্টক থেকে বর্জ্যে কার্ড আঁকুন\n- 'move <source> <destination> [count]' - পাইলগুলির মধ্যে কার্ড সরান\n  উদাহরণ: 'move W T1', 'move T1 F2', 'move T3 T5 2'। গণনা 'all' হতে পারে, যা সমস্ত মুখ-উপরের কার্ড সরানোর চেষ্টা করবে।\n- 'forfeit' - খেলা তাত্ক্ষণিকভাবে শেষ করুন এবং আপনার বর্তমান স্কোর লক করুন\n- পাইল নাম: W (বর্জ্য), F1-F4 (ফাউন্ডেশন), T1-T7 (টেবিলো)\n\nআপনি একটি পালায় একাধিক ক্রিয়া কমা দিয়ে আলাদা করে সঞ্চালন করতে পারেন:\n  উদাহরণ: 'draw, move W T1, move T2 F1'\n\nশুধুমাত্র রাজারা খালি টেবিলো পাইলে রাখা যেতে পারে।\nক্রিয়াগুলি ক্রমানুসারে সঞ্চালিত হয় - যদি একটি ব্যর্থ হয়, বাকি ক্রিয়াগুলি এড়িয়ে যায়।\n'forfeit' ব্যবহার করুন যদি আপনি বিশ্বাস করেন যে খেলাটি জেতা অসম্ভব।"
   },
   "format_error": {
     "no_brackets": "অবৈধ ক্ৰিয়াৰ বিন্যাস। ক্ৰিয়া বন্ধনী ভিতৰত থাকিব লাগিব।",
@@ -24,8 +24,8 @@
     "empty_command": "খালী আদেশ. টাইপ কৰক 'draw' বা 'move <source> <destination> [count]'",
     "empty_action": "খালী কাৰ্য্য",
     "move_needs_args": "স্থানান্তৰ আদেশৰ বাবে উৎস আৰু গন্তব্যৰ প্ৰয়োজন। ব্যৱহাৰঃ 'move <source> <destination> [count]'",
-    "count_positive": "গণনাটো ধনাত্মক বা 'সকলো' হ'ব লাগিব",
-    "count_invalid": "অচল গণনা. এটা সংখ্যা বা 'সকলো' ব্যৱহাৰ কৰক",
+    "count_positive": "গণনা অবশ্যই ধনাত্মক বা 'all' হতে হবে",
+    "count_invalid": "অবৈধ গণনা। একটি সংখ্যা বা 'all' ব্যবহার করুন",
     "unknown_command": "অজ্ঞাত আদেশ '{cmd}'. 'draw', 'move <source> <destination> [count]', বা 'forfeit' ব্যৱহাৰ কৰক",
     "wrapped": "কাৰ্য্য {n}: {msg}"
   },

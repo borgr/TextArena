@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in Connect Four.\nYour disc symbol: {symbol}.\nThe game board has {num_rows} rows and {num_cols} columns.\nPlayers take turns dropping their disc into one of the columns (0 to {end_col}).\nThe first to connect (their own) four discs vertically, horizontally, or diagonally wins.\nOn your turn, enter the column number in squared brackets to make your move.\nFor example: '[col 4]' or '[col 1]'."
+    "intro": "Ati Player {player_id} ta'a Connect Four keessatti.\nAlbamiin kee mallattoo: {symbol}.\nBordii tapha {num_rows} safuu fi {num_cols} kolomii qaba.\nTaphattoonni marsaa gara garaa albamiin isaanii kolomii tokko (0 hamma {end_col}) keessatti galchu.\nKan jalqaba afur albamiin isaa waliin qabsiisuun (ol ka'uu, irra caaluu, ykn korbuu) moo'ata.\nMarsaa keessan, lakkoofsa kolomii keessatti sarara adda addaa galchuun tapha keessan godhadha.\nFakkeenyaaf: '[col 4]' ykn '[col 1]'."
   },
   "board": {
     "board_visible_state": "Boordiin biyyaa: {board_visual}",

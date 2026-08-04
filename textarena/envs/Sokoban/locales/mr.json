@@ -12,7 +12,7 @@
     "invalid_position": "अवैध चाल - त्या स्थितीत जाऊ शकत नाही."
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
+    "moved": "तुम्ही {pushed} हलवले [{action}].",
     "pushed_prefix": "एक बॉक्स ढकलले तर"
   },
   "outcome": {

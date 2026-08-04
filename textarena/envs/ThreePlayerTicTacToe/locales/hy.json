@@ -26,7 +26,7 @@
     "placed": "Խաղացողը {player_id} դնում է իր խորհրդանիշը ({symbol}) դաշտում ({row}, {col}) ։"
   },
   "outcome": {
-    "win": "Player {player_id} ({symbol}) wins!",
+    "win": "Խաղացող {player_id} ({symbol}) հաղթեց:",
     "draw": "Խաղը հավասար է:"
   }
 }

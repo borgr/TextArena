@@ -13,7 +13,7 @@
     "exceeds_pile": "Onda kukwata {quantity} ku nganda {pile_index} (oni {pile_count} zimo)."
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "Mwimbangi {player_id} akatenda [{pile_index} {quantity}], futa {quantity} kikwanga kikwanga {pile_index}."
   },
   "outcome": {
     "win": "Mukwata {player_id} akwata zinto zote!"

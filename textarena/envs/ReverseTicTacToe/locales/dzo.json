@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a game of Reverse Tic Tac Toe. Your symbol is '{symbol}'.\nThe goal is to avoid getting three in a row (horizontally, vertically, or diagonally).\nIf you make three in a row, you LOSE.\nSubmit your move using the format '[4]' to place your symbol in cell 4.\nAs Player {player_id}, you are '{symbol}' and your opponent is '{opponent_symbol}'."
+    "intro": "ཁྱེད་རེའུ་སི་ཊིཀ་ཊེཀ་ཊོའི་རྩེདམོར་རྩེདམོ་པ་{player_id}ཡིན། ཁྱེད་ཀྱི་རྟགས་འདི་'{symbol}'ཡིན།\nདམིགས་ཡུལ་ནི་གསུམ་རིམ་པར་མ་བྱས་པར་བསྲུང་བ་ཡིན།\nཁྱེད་གསུམ་རིམ་པར་བྱས་ན་ཁྱེད་ཕམ་པར་འགྱུར།\nཁྱེད་ཀྱི་གོམ་པ་འདི་'[4]'འི་རྣམ་པ་བེད་སྤྱད་ནས་སྤུས་བཞིར་ཁྱེད་ཀྱི་རྟགས་བཞག་པར་གྱིས།\nརྩེདམོ་པ་{player_id}ཡིན་པའི་ཁྱེད་ཀྱི་རྟགས་'{symbol}'ཡིན་པ་དང་ཁྱེད་ཀྱི་འགལ་བ་'{opponent_symbol}'ཡིན།"
   },
   "board": {
     "current_board": "དེང་གི་བོད།:\n\n{board}\n\nའགྲོ་སྟངས་ཡོད་པ།: {moves}"
@@ -8,7 +8,7 @@
   "invalid_move": {
     "wrong_format": "སྤོ་བཤུད་རྣམ་པ་ངོ་མ་མེན་པའི་ཡིག་དཔར་འདི་ལག་ལེན་འཐབ་ \"[cell]\".",
     "invalid_cell": "ནང་ཐིག་འདི་ ཆ་མེད་འབདཝ་ཨིན།",
-    "already_occupied": "Cell {cell} is already occupied."
+    "already_occupied": "སྤུས་{cell}ནི་སྔར་ནས་བཞག་ཟིན་པས་མ་འགྲིགས།"
   },
   "game_action": {
     "placed": "མི་སྣ་{player_id} གིས་ཁོང་གི་མཚན་མ་（{symbol}）རྩིག་པ་{cell}ནང་བཞག"

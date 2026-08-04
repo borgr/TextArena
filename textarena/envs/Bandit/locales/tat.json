@@ -14,7 +14,7 @@
     "pressed": "Сез {button} кнопканы бастыгыз һәм {reward} бүләк алдыгыз."
   },
   "game_message": {
-    "final_decision": "You have exhausted your budget for trying out different choices and observe their rewards. Now make a deduction about what the best choice is."
+    "final_decision": "Сездә төрле сайлауларны сынап карарга һәм аларның чыгарылышларын күзәтергә булган чикләнгәнлекне бетердегез. Хәзер иң яхшы сайлау турында нәтиҗә чыгарыгыз."
   },
   "outcome": {
     "win": "Котлыйм! Сез дөрес төймәне сайладыгыз.",

@@ -14,7 +14,7 @@
     "{scores}": "The final scores as a raw player-number to score mapping - do not translate"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player GOPS.\n- You hold the 13 cards A-K (each exactly once).\n- Each round a prize is revealed. Submit ONE card like `[Q]`, `[10]`, `[2]` …\n- Highest card wins the prize (+ any carry-over pot). Ties roll the prize into the next round.\n- After 13 rounds, highest total wins. Invalid moves = elimination."
+    "intro": "Adiga ciyaartoyga {player_id} u tahay Three-Player GOPS.\n- Waxaad haysta 13 kaadh oo A-K (kasta hal mar).\n- Raundi kasta abaalmarin la muujiyay. Gudbi kaadh hal sida `[Q]`, `[10]`, `[2]` …\n- Kaadhka ugu sareeya guusha abaalmarinta (+ wax kasta oo lagu wado). Isku dhafka abaalmarinta u rolaya raundi dambe.\n- Ka dib 13 raundi, qiimaha ugu badan guusha. Hawlgallo aan sax ahayn = cayr."
   },
   "round": {
     "header": "### Wareega {round}/13 - Abaalmarinta: {prize} (qiimaha {worth})",

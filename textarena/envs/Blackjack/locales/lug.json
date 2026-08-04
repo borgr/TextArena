@@ -9,10 +9,10 @@
     "wrong_format": "Kuzaala kwako si kwa bulungi. Gyuma '[Hit]' oba '[Stand]'."
   },
   "game_message": {
-    "hand_result": "Hand {hand_number}: you {outcome}. Your final {player_score}, Dealer {dealer_score}.",
+    "hand_result": "Mukono {hand_number}: oli {outcome}. Alama zo zikomera {player_score}, Dealer {dealer_score}.",
     "all_complete": "=== Bukozi bonna {num_hands} buzze +++\nZzaala: {wins}, Zzibwa: {losses}, Nsizze: {draws}\n"
   },
   "outcome": {
-    "game_over": "The game has concluded. Final scores: Dealer: {losses}, You: {wins}, Draws: {draws}"
+    "game_over": "Omupiira gwamalirira. Alama zikomera: Dealer: {losses}, Gwe: {wins}, Zilemwa: {draws}"
   }
 }

@@ -8,7 +8,7 @@
     "cell_already_occupied": "Say selda {cell_num} et wala la. Pamili na anggapoy cell to."
   },
   "board": {
-    "current_state": "Takder na Board:\n\n{rendered_board}\nMausisa nga Move: {available_moves}"
+    "current_state": "Kasalukuyan a Tabla:\n\n{rendered_board}\nSaray Panagayat ya Makasalukuyan: {available_moves}"
   },
   "action": {
     "placement": "Player {current_player_id} naitakder ira simbolo ({symbol}) ed cell {cell_num}."

@@ -11,7 +11,7 @@
     "{ball_pos}": "The cup index the ball is under"
   },
   "player_prompt": {
-    "intro": "Track the hidden ball 'X' while the cups are shuffled.\nAfter shuffling, guess its location with `[k]`."
+    "intro": "कपच्या फेरफार होत असताना लपलेल्या बॉल 'X' चा मागोवा घ्या. फेरफार झाल्यानंतर, `[k]` सोबत त्याचे स्थान ओळखा."
   },
   "game_message": {
     "ball_starts": "बॉल सुरू होतो: {line}",
@@ -21,7 +21,7 @@
     "reveal": "(उघडणेः बॉल अंतर्गत {ball_pos})"
   },
   "invalid_move": {
-    "wrong_format": "Bad action. Use `[k]`.",
+    "wrong_format": "वाईट क्रिया. `[k]` वापरा.",
     "out_of_range": "निर्देशांक 0-{max_index} च्या बाहेर आहे."
   },
   "outcome": {

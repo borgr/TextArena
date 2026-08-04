@@ -17,6 +17,6 @@
   },
   "outcome": {
     "win": "Та Ханойгийн цамхагтай холбоотой цогцолборыг шийдсэн.",
-    "turn_limit": "The turn limit has been reached. You correctly placed {pct}% of the disks on Tower C."
+    "turn_limit": "Ээлжийн хязгаар хүрсэн байна. Та цамхаг C-д {pct}% дискүүдийг зөв тавилаа."
   }
 }

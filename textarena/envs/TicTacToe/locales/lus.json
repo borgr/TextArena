@@ -7,10 +7,10 @@
     "{cell}": "A board cell number between 0 and 8"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Tic Tac Toe.\nYour goal is to win three in a row (horizontally, vertically, or diagonally) on the board.\nOn your turn, you should select the square number (0-8) you want to put your mark in next.\nFor example, '[4]' places your mark in the center cell of the board.\nAs Player {player_id}, you will be '{symbol}', while your opponent is '{opponent_symbol}'."
+    "intro": "I nih Player {player_id} Tic Tac Toe-ah.\nI tum ber chu board-ah thuma chhinchhiahna ( horizontal, vertical, emaw diagonal) hawn theih tur a ni.\nI turn-ah, i duhna square number (0-8) i thlang ang a, i mark dahna tur a ni.\nEntirnan, '[4]' i mark chu board center cell-ah a dah ang.\nPlayer {player_id} i nih chuan, i ni '{symbol}' a, i opponent chu '{opponent_symbol}'."
   },
   "board": {
-    "current_board": "Current Board:\n\n{board}\n\nAvailable Moves: {moves}"
+    "current_board": "Board Hmanlai:\n\n{board}\n\nKalphung Hman theih: {moves}"
   },
   "invalid_move": {
     "wrong_format": "A thawn chhuah chu a format dik lo.",
@@ -18,7 +18,7 @@
     "already_occupied": "Cell {cell} chu a luah tawh."
   },
   "game_action": {
-    "placed": "Player {player_id} placed their symbol ({symbol}) in cell {cell}."
+    "placed": "Player {player_id} chuan an symbol ({symbol}) cell {cell}-ah an dah."
   },
   "outcome": {
     "win": "Player {player_id} chuan a hneh ta!",

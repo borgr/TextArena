@@ -24,8 +24,8 @@
     "empty_command": "Paréntah kosong. Ketik \"draw\" atawa 'move <source><destination> [count]'",
     "empty_action": "Aksi kosongna",
     "move_needs_args": "Paréntah mindahkeun merlukeun sumber jeung tujuan. Pamakéan: 'move <source> <destination> [count]'",
-    "count_positive": "Jumlah kudu positif atawa 'sadaya'",
-    "count_invalid": "Ngitung teu valid. Paké nomer atawa 'sakabéh'",
+    "count_positive": "Jumlah harus positif atau 'all'",
+    "count_invalid": "Jumlah tidak valid. Gunakan angka atau 'all'",
     "unknown_command": "Perintah tidak dikenal '{cmd}'. Gunakan 'draw', 'move <source> <destination> [count]', atau 'forfeit'",
     "wrapped": "Action {n}: {msg}"
   },

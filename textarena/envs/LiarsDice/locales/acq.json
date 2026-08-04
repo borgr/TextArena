@@ -26,7 +26,7 @@
   },
   "board": {
     "per_player": "\tاللاعب {p}: {d}",
-    "new_round": "\nNew round - Remaining dice: {dice_summary}\nYour current Dice are: {your_dice}"
+    "new_round": "\nجولة جديدة - النرد المتبقي: {dice_summary}\nنردك الحالي هو: {your_dice}"
   },
   "call": {
     "bidder_loses": "اللاعب {current_player_id} يدعو! العدد الفعلي للوجه {face_value} هو {count}، وهو أقل من {quantity}.\nاللاعب {loser_id} (المدعو الأخير) يفقد نردًا واحدًا.",

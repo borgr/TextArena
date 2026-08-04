@@ -1,13 +1,13 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({role}) in a {num_rounds}-round Matching Pennies game.\n- Each round, submit [heads] or [tails] (or [h], [t]).\n- If your choice matches your opponent’s, Player 0 wins the round; otherwise Player 1 wins.\nReply with your choice in the format '[heads]' or '[tails]'.\n"
+    "intro": "တႃႇသူၼ်းပဵၼ်ၵူၼ်းလဵၼ်ႈ {player_id} ({role}) ၼႂ်းပၢႆးလဵၼ်ႈ Matching Pennies ၶၢဝ်း {num_rounds} ပွၵ်ႈ။\n- ၶၢဝ်းၼိုင်ႈၼိုင်ႈၼႆႉ သူလူဝ်ႇသဵင်ႈပၼ် [heads] ဢမ်ႇၼၼ် [tails] (ဢမ်ႇၼၼ် [h], [t])။\n- သင်ၸိူဝ်ႉဝႃႈ လိူၵ်ႈသူၼ်ႁဝ်းၼႆႉ မိူၼ်ၵၼ်တင်း ၵူၼ်းၶႄႉၶဵင်ႇၸိူဝ်းၼၼ်ႉၸိုင် Player 0 ပႄႉၶၢဝ်းၼၼ်ႉ၊ သင်ပဵၼ်ၸိူဝ်ႉၼၼ်ႉတႄႉ Player 1 ပႄႉ။\nတွပ်ႇၶိုၼ်းၸွမ်း လိူၵ်ႈၸိူဝ်းၼၼ်ႉ ၼႂ်းသႅၼ်း '[heads]' ဢမ်ႇၼၼ် '[tails]'။\n"
   },
   "invalid_move": {
     "wrong_format": "အမှားသော ဖော်မတ်။ ကျေးဇူးပြု၍ '[heads]' သို့ '[tails]' ကို တင်ပို့ပါ။"
   },
   "message": {
     "round_match": "Player 0 က '{choice0}' ကို ရွေးချယ်ခဲ့သည်။ Player 1 က '{choice1}' ကို ရွေးချယ်ခဲ့သည်။ မက်ချ် -> Player 0 ရှုံးသည်",
-    "round_mismatch": "Player 0 picked {choice0}; Player 1 picked {choice1}. Mismatch -> Player 1 wins."
+    "round_mismatch": "ၵူၼ်းလဵၼ်ႈ 0 လိူၵ်ႈ {choice0}; ၵူၼ်းလဵၼ်ႈ 1 လိူၵ်ႈ {choice1}။ ဢမ်ႇမႅၼ်ႈၵၼ် -> ၵူၼ်းလဵၼ်ႈ 1 ပႄႉ။"
   },
   "outcome": {
     "p0_wins": "ၽူႈလဵၼ်ႈ 0 ၼႆႉ လႆႈသူးၼမ်လိူဝ်ပိူၼ်ႈယဝ်ႉ။",

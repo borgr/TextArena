@@ -6,7 +6,7 @@
     "wrong_format": "Diri nakilala an move. Gamita an [rock], [paper], o [scissors]."
   },
   "game_action": {
-    "selects": "Player {player_id} selects move {move}."
+    "selects": "An Player {player_id} nagpili hin lihok {move}."
   },
   "message": {
     "round_draw": "Resulta han round: Draw",

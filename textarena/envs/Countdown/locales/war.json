@@ -4,12 +4,12 @@
   },
   "board": {
     "header": "TARGET: {target}\n\nMga numero nga available:\n{numbers}",
-    "best": "{observation}\n\nBest so far: {best_value} (distance: {distance})\nBest expression: {best_expression}",
+    "best": "{observation}\n\nGinmakusog-i: {best_value} (distansya: {distance})\nGinmakusog-i nga ekspresyon: {best_expression}",
     "history": "{observation}\n\nKasaysayan han mga hugot:\n{moves}",
     "progress": "{observation}\nKasamtangan nga score han pag-antos: {progress}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use `[i j op]` where i,j are indices and op is +,-,*,/",
+    "wrong_format": "Diri husto an format hin lihok. Gamita `[i j op]` kun diin i,j mga indeks ngan op +,-,*,/",
     "invalid_indices": "An mga indices in diri balido. Kinahanglan magkaiba ngan ha sakob han 0-{max_index}",
     "invalid_operation": "Waray-pagpahayag nga operasyon (bahin pinaagi han zero o diri integro nga resulta)"
   },

@@ -3,14 +3,14 @@
     "current_board": "Ol i mekim wok long en nau: {board}"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} playing a game of Checkers as {color}.\nMake your move in chess-style notation [fileRank fileRank], e.g. '[b2c3]' (column letter a–h, row digit 0–7).\nBasic rules:\n  • Move diagonally forward by 1 if empty.\n  • Capture by jumping over an opponent piece.\n  • A piece is Kinged if it reaches the opposite end.\n"
+    "intro": "Yu Player {player_id} na yu plei game bilong Checkers olsem {color}.\nMekim yu move long notation bilong chess [fileRank fileRank], olsem '[b2c3]' (leta bilong kolom a–h, digit bilong lain 0–7).\nRul bilong bipo:\n  • Go pas long diagonali go forwet wanpela step sapos emi no gat samting.\n  • Kapsaitim pes bilong birua long jumpim ova.\n  • Wanpela pes i kamap King sapos emi kisim arapela end.\n"
   },
   "invalid_move": {
     "wrong_format": "Nogat fomat muv bilong yu. Usim [a1b2], olsem [b2c3].",
-    "illegal": "Move [{move}] is illegal."
+    "illegal": "Muv [{move}] i no orait."
   },
   "game_action": {
-    "moved": "Player {player_id} moved {move}."
+    "moved": "Player {player_id} i muvim {move}."
   },
   "outcome": {
     "red_no_pieces": "Ol retpela i no gat moa pilai, na blak win!",

@@ -12,9 +12,9 @@
   "board": {
     "player": "प्लेयर 0: '{score_0}'; प्लेयर 1: '{score_1}'",
     "current_total_scores": "वर्तमान कुल स्कोर: {scores}\nआपका वर्तमान टर्न कुल {turn_total} है।",
-    "roll_history": "{observation}\nYour roll history for this turn: {roll_history}",
+    "roll_history": "{observation}\nइस पाली के लिए तेरी रोल इतिहास: {roll_history}",
     "first_roll": "{observation} ई तोहर पहिला रोल हको.",
-    "available_actions": "{observation}\nAvailable actions: '[roll]' or '[hold]'"
+    "available_actions": "{observation}\nउपलब्ध क्रियाएँ: '[roll]' या '[hold]'"
   },
   "outcome": {
     "winner_by_turn_limit": "प्लेयर {winner_id} {scores} (टर्न सीमा) पर उच्च स्कोर होने पर जीत गया",

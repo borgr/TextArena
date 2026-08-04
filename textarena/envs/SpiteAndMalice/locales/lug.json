@@ -1,25 +1,25 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a two-player game of Spite and Malice. Your goal is to be the first to empty your payoff pile.\n\n### Game Overview:\n- The objective is to clear your payoff pile by playing cards to the center piles.\n- You can play cards from three sources:\n  1. Your **hand** (you start each turn with up to 5 cards in hand).\n  2. The **top card of your payoff pile**.\n  3. The **top card of any of your discard piles**.\n\n### Playing Rules:\n- You may play a card to a center pile if it is **one rank higher** than the top card on that pile (center piles start with Ace and go up to Queen; Kings are wild - they can be played on any card but do not change the rank sequence. This means if a King is used after 4, then that King is ranked 5 and the next card must be a 6).\n- If you can't play any more cards, you must **discard a card** to one of your discard piles to end your turn.\n- If a center pile reaches Queen, it will be cleared automatically.\n- The rank order is: A=1, 2=2, ..., 9=9, J=10, Q=11, K as wild.\n\n### Actions:\n1. **Draw**: At the start of your turn, draw cards to fill your hand up to 5 cards. Enter **[draw]** to begin.\n2. **Play a Card**: To play a card, specify the card and the center pile like this: **[play A♠ 0]** (where 'A♠' is the card and '0' is the center pile index).\n3. **Discard**: If you can't play any more cards, discard a card from your hand to a discard pile to end your turn. Enter **[discard A♠ 1]** (where 'A♠' is the card and '1' is the discard pile index). Note that you cannot discard any card from the payoff pile. You may only discard the cards from your hand.\n\n"
+    "intro": "Oli Player {player_id} mu mizannyo ya Spite and Malice ya baana babiri. Ekigendererwa kyo kufuuka wa kwanza okukaliriza kikunja kyo.\n\n### Ekikunja kya Muzannyo:\n- Ekigendererwa kyo kukaliriza kikunja kyo kwa kuzannya kadi ku kikunja kya katikati.\n- Oyinza kuzannya kadi okuva ku masanduku matatu:\n  1. **Lukono lwo** (otandika buli luzannya na kadi tano mu lukono).\n  2. **Kadi ya waggulu wa kikunja kyo**.\n  3. **Kadi ya waggulu wa kikunja ky'oyokya**.\n\n### Engeri za Kuzannya:\n- Oyinza kuzannya kadi ku kikunja kya katikati singa **ekadi emu waggulu** wa kadi ya waggulu wa kikunja ekyo (kikunja kya katikati kitandika na Ace ne kigenda ku Queen; Kings ni za kufunika - zinaweza kuzannywa ku kadi yonna naye tezitakyuka mpangilio wa kadi. Kino kitegeeza singa King etumibwa oluvannyuma lwa 4, King eyo eri waggulu wa 5 ne kadi inayofuuka eteekwa kuwa 6).\n- Singa toweza kuzannya kadi zaidi, oliwagwa **kuyokya kadi** ku kikunja kyo ky'oyokya okukomesa luzannya lwo.\n- Singa kikunja kya katikati kifunike Queen, kijja kukalirizibwa awotokooto.\n- Mpangilio wa kadi ni: A=1, 2=2, ..., 9=9, J=10, Q=11, K ng'ezo za kufunika.\n\n### Emikono:\n1. **Kutunda**: Ku ntandiko ya luzannya lwo, tunda kadi okujaza lukono lwo na kadi tano. Ingiza **[draw]** okutandika.\n2. **Kuzannya Kadi**: Kuzannya kadi, tusa kadi ne kikunja kya katikati nti: **[play A♠ 0]** (nga 'A♠' ye kadi ne '0' ye nambari ya kikunja kya katikati).\n3. **Kuyokya**: Singa toweza kuzannya kadi zaidi, yokya kadi okuva mu lukono lwo ku kikunja kyo ky'oyokya okukomesa luzannya lwo. Ingiza **[discard A♠ 1]** (nga 'A♠' ye kadi ne '1' ye nambari ya kikunja kyo ky'oyokya). Lwaki toliweza kuyokya kadi yonna okuva ku kikunja kyo. Oyinza kuyokya kadi okuva mu lukono lwo.\n\n"
   },
   "board": {
-    "current_board": "Current Board:\n\n{board}\nAvailable Moves: {moves}"
+    "current_board": "Ekikunja kya Sasa:\n\n{board}\nEmikono Inayowezekana: {moves}"
   },
   "render": {
     "center_piles_header": "--- Emizinga egy'omukaaga -- ",
     "pile": "{observation}Pile {i}: {pile}\n",
     "player_view_header": "{observation}\n--- Ekibonero kya Omuzannyi {player_id} ---\n",
-    "payoff": "{observation}Payoff Pile (Top Card): {top_card}, Payoff Pile Length: {payoff_length}\n",
+    "payoff": "{observation}Kikunja kya Payoff (Kadi ya Waggulu): {top_card}, Urefu wa Kikunja kya Payoff: {payoff_length}\n",
     "hand": "{observation}Lukono: {hand}\n",
-    "discard": "{observation}Discard Piles: {discard}\n",
+    "discard": "{observation}Kikunja kya Kuyokya: {discard}\n",
     "empty": "Ebirimu tebiriiko."
   },
   "game_message": {
-    "no_cards_left": "There are no more cards to draw from. Remember that you can play cards from these sources:\n  1. Your **hand**.\n  2. The **top card of your payoff pile**.\n  3. The **top card of any of your discard piles**.\n\n"
+    "no_cards_left": "Tewali kadi zaidi za kutunda. Lwaki oyinza kuzannya kadi okuva ku masanduku matatu:\n  1. **Lukono lwo**.\n  2. **Kadi ya waggulu wa kikunja kyo**.\n  3. **Kadi ya waggulu wa kikunja ky'oyokya**.\n\n"
   },
   "invalid_move": {
     "wrong_format": "Enkola y'empaka embi. Omuzannyi {player_id} teyanukudde n'empakana ennungi mu nkasi eziri wakati w'ennyingo bbiri.",
-    "invalid_play": "Invalid play. Player {player_id} tried to play {card} on center pile {index}.",
+    "invalid_play": "Kuzannya si sahihi. Player {player_id} yayagwa kuzannya {card} ku kikunja {index}.",
     "discard_from_payoff": "Omuzannyo tegulina mugaso. Omuzannyi {player_id} yagezaako okugoba kaadi okuva mu kibinja ky'ebirabo.",
     "discard_not_in_hand": "Omuzannyo tegusaana. Omuzannyi {player_id} yagezaako okugoba kaadi etaali mu ngalo ze.",
     "wrong_move_type": "Omuzannyi {player_id} teyanukula n'ekikolwa ekituufu."
@@ -28,7 +28,7 @@
     "you_drew": "Waakuba kaadi.",
     "opponent_drew": "Omuzannyi {player_id} yafulumya kaadi.",
     "you_played": "Waddako {card} ku kibinja ekisooka {index}.",
-    "opponent_played": "Player {player_id} played {card} on center pile {index}.",
+    "opponent_played": "Player {player_id} azannya {card} ku kikunja {index}.",
     "you_discarded": "Oli yaweereza {card} mu kintu ky'okweyunga {index}, ekitegeeza nti oli amaliriza omuzannyo wo. Tebafuna kuzingira ku mazannyo amalala ago. Omuzannyi {next_player_id} azannya muzannyo ogujja.",
     "opponent_discarded": "Player {player_id} discarded {card} to discard pile {index}, which also means they finished their turn. No further actions of Player {player_id} is considered for this turn. Player {next_player_id}, you will go next. Please enter your action in the format [action card center_index]."
   },
@@ -36,6 +36,6 @@
     "payoff_cleared": "Omuzannyi {current_player} amaliriza kintu kye'okweyunga kwa mugaso! Omuzannyi {current_player} azannyira!",
     "deadlock_player_0": "Ekivuunika kitegeeredde! Omuzannyi 0 azannyira ne {player_0_payoff} kaadi zisigadde vs Omuzannyi 1' {player_1_payoff} kaadi.",
     "deadlock_player_1": "Ekivuunika kitegeeredde! Omuzannyi 1 azannyira ne {player_1_payoff} kaadi zisigadde vs Omuzannyi 0' {player_0_payoff} kaadi.",
-    "deadlock_tie": "Deadlock reached with tie! Both players have {player_0_payoff} cards remaining. Player {current_player} wins by default."
+    "deadlock_tie": "Kikunja kimekomekere na kufungana! Baana babiri balina kadi {player_0_payoff} zisigalawo. Player {current_player} awangudde kwa mpangilio."
   }
 }

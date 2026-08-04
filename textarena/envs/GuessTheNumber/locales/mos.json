@@ -4,8 +4,8 @@
   },
   "invalid_move": {
     "wrong_format": "Invalid move format. Player {player_id} did not respond with valid '[number]'.",
-    "out_of_range": "Invalid move. Player {player_id} guessed a number outside the range specified.",
-    "already_guessed": "Invalid move. Player {player_id} has already guessed the number."
+    "out_of_range": "Kiidwa pana ma yɛnɛɛ kaɲɛ. {player_id} laafi pana ma yɛnɛɛ kɔɔrɔɔ kɛɛnɛ kaɲɛ.",
+    "already_guessed": "Kiidwa pana ma yɛnɛɛ kaɲɛ. {player_id} laafi pana ma yɛnɛɛ kɔɔrɔɔ la ziŋa."
   },
   "game_message": {
     "target_higher": "B sẽn dat n kʋ wã sõor yɩɩda woto.",
@@ -13,6 +13,6 @@
   },
   "outcome": {
     "win": "M pẽgd-y lame! Y bãnga sõor ning sẽn yaa sɩda.",
-    "turn_limit": "The turn limit has been reached. Guess: {guess}, Target: {target}"
+    "turn_limit": "Waɣa kiɛmɛ tara. Kiidu: {guess}, Laasabu: {target}"
   }
 }

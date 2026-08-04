@@ -6,7 +6,7 @@
     "current_board": "المجلس الحالي: {board}."
   },
   "invalid_move": {
-    "wrong_format": "You did not respond with valid '[source] [target]'.",
+    "wrong_format": "ما ردت بِصيغة صحيحة '[source] [target]'.",
     "invalid_tower": "حددت مصدر غير صالح او برج هدف.",
     "empty_tower": "حاولت تحريك قرص من برج فارغ.",
     "same_tower": "حاولت نقل قرص الى نفس البرج.",

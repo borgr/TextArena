@@ -10,7 +10,7 @@
   },
   "message": {
     "round_draw": "Umphumela wemjikelo: Dvweba.",
-    "round_win": "Umphumela welibhola: Player {winner} wins!"
+    "round_win": "Mphumela yendlalo: Mdlali {winner} unqobile!"
   },
   "outcome": {
     "p0_wins": "Umdlali longasilo likhambi nguye loncobe kakhulu!",

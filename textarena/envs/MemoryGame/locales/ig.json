@@ -13,8 +13,8 @@
     "already_matched": "Ọ bụ ihe na-abaghị uru. Onye ọkpụkpọ {player_id} họọrọ otu ma ọ bụ kaadị abụọ ahụ e jikọtara."
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "Kaadị ndị Onye Egwuregwu {player_id} họrọ n'ọnọdụ [{r1} {c1}] na [{r2} {c2}] kwekọrọ!",
+    "cards_no_match": "Kaadị ndị Onye Egwuregwu {player_id} họrọ anaghị kwekọ. Kaadị n'ọnọdụ [{r1} {c1}] na [{r2} {c2}] bụ {pos1} na {pos2} n'otu n'otu."
   },
   "outcome": {
     "draw": "Ndị ọkpụkpọ abụọ ahụ ji otu nọmba nke kaadị abụọ.",

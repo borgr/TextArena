@@ -13,10 +13,10 @@
     "repeated_guess": "O setse o bonye {guess}. Tsweetswee leka go fopholetsa ka tsela e nngwe gape."
   },
   "game_action": {
-    "feedback": "Submitted [{guess}]. Feedback: {black_pegs} black peg(s), {white_pegs} white peg(s)."
+    "feedback": "Tlhahiso e tlhomilwe [{guess}]. Tlhahisolesedi: {black_pegs} piki e ntsho (e), {white_pegs} piki e tshweu (e)."
   },
   "outcome": {
-    "win": "You have cracked the code, solving {black_pegs} out of {code_length} pegs correctly",
+    "win": "O tlhabolotse koodi, o tlhomileng {black_pegs} kwa {code_length} piki tse di siameng",
     "turn_limit": "O fopholeditse sentle diperesente di le {percent} tsa dinomoro."
   }
 }

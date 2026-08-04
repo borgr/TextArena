@@ -12,7 +12,7 @@
     "invalid_position": "Nkwụsị na-abaghị uru - enweghị ike ịkwaga n'ọnọdụ ahụ."
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
+    "moved": "Ị {pushed} gara [{action}].",
     "pushed_prefix": "na-agbanye igbe mgbe"
   },
   "outcome": {

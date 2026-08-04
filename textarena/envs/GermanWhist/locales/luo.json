@@ -25,22 +25,22 @@
   },
   "trick": {
     "won": "Jalo {winner_id} oloyo tugo gi {card}.",
-    "won_learning": "Mchezaji {winner_id} anashinda mzunguko huu na {card} na kuchukua kadi iliyo wazi."
+    "won_learning": "Mchezaji {winner_id} anashinda mchezo kwa {card} na kuchukua kadi iliyo wazi."
   },
   "phase": {
     "learning_complete": "Okenge duto mag tiegruok koro orumo - riekni modong' konyo ahinya e loyo lweny."
   },
   "draw": {
-    "winner_received": "Umeshinda mzunguko huu na umepokea {card}.",
+    "winner_received": "Ulishinda mchezo na kupokea {card}.",
     "loser_received": "Ne ilalo michno mi igoyo {card} e tok gocho.",
     "winner_preview": "Kad maluwo en {card}."
   },
   "turn": {
     "board": "{phase}\n{scores}\n{next_card}\n\n{trick}\n\n{hand}",
-    "scores_learning": "Mafungu yaliyoshinda hadi sasa - Mchezaji 0: {tricks0}, Mchezaji 1: {tricks1}",
-    "scores_playing": "Mafungu ya kuhesabu - Mchezaji 0: {tricks0}, Mchezaji 1: {tricks1}",
+    "scores_learning": "Michezo iliyoshinda hadi sasa - Mchezaji 0: {tricks0}, Mchezaji 1: {tricks1}",
+    "scores_playing": "Michezo inayohesabiwa - Mchezaji 0: {tricks0}, Mchezaji 1: {tricks1}",
     "phase": "Okang ' mar: {phase}",
-    "phase_learning": "Mzunguko: {phase} ({remaining_cards} kadi zimesalia katika sitaha)"
+    "phase_learning": "Hatua: {phase} ({remaining_cards} kadi zimesalia kwenye sitaha)"
   },
   "hand": {
     "no_cards": "Onge kad mag loyo mich.",
@@ -58,19 +58,19 @@
   },
   "board_str": {
     "not_started": "Tugo ok ochakore.",
-    "header": "=== Tuke mar German Whist GAME===",
+    "header": "=== Mchezo wa Whist ya Kijerumani ===",
     "phase": "{observation}\nMzunguko: {phase}",
-    "trump_suit": "{observation}\nSuti ya trump: {trump_suit}",
-    "trump_card": "{observation}\nKadi ya trump: {card}",
-    "cards_left": "{observation}\nKadi zisemo: {count}",
-    "next_card": "{observation}\nKadi inyuwa kwa mshindi: {card}",
+    "trump_suit": "{observation}\nSuti ya Trump: {trump_suit}",
+    "trump_card": "{observation}\nKadi ya Trump: {card}",
+    "cards_left": "{observation}\nKadi zimesalia kwenye sitaha: {count}",
+    "next_card": "{observation}\nKadi inayofuata kwa mshindi: {card}",
     "blank": "{observation}  kendo",
-    "current_trick": "{observation} Rieko masani:",
+    "current_trick": "{observation}\nMchezo wa sasa:",
     "trump_indicator": "(TRUMP) Mano e gima ne otimore.",
     "trick_line": "{observation}\n  Mchezaji {player_id}: {card}{trump_indicator}",
-    "player_line": "{observation}\nMchezaji {player_id}: {scoring} alipata mafungu ({tricks} jumla), {hand_size} kadi katika mkono"
+    "player_line": "{observation}\nMchezaji {player_id}: {scoring} michezo inayohesabiwa ({tricks} jumla), {hand_size} kadi katika mkono"
   },
   "outcome": {
-    "summary": "Learning phase - Player 0: {l0}, Player 1: {l1}. Playing phase - Player 0: {p0}, Player 1: {p1}. Player {winner_id} wins with {winner_tricks} scoring tricks!"
+    "summary": "Hatua ya kujifunza - Mchezaji 0: {l0}, Mchezaji 1: {l1}. Hatua ya kucheza - Mchezaji 0: {p0}, Mchezaji 1: {p1}. Mchezaji {winner_id} anashinda kwa {winner_tricks} michezo inayohesabiwa!"
   }
 }

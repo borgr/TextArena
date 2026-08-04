@@ -4,7 +4,7 @@
   },
   "round": {
     "start": "─── {round}. itzulia hasten –──\tZu mintegi librean aritu zara hurrengo {conv_rounds} itzuldietan.",
-    "chat_finished": "Chat finished for round {round}. Submit your decisions, one token per opponent: `[pid cooperate]` or `[pid defect]`."
+    "chat_finished": "Txat amaitu da {round} txandarako. Bidali zure erabakiak, token bat aurkari bakoitzeko: `[pid cooperate]` edo `[pid defect]`."
   },
   "results": {
     "header": "### {round}. itzulia - Emaitzak:",

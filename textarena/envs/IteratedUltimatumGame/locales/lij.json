@@ -27,7 +27,7 @@
     "begins": "--- Turno {round_number} comença! ---\nGiugouë {proposer_id} è o propositor, Giugouë {responder_id} è o respondent.",
     "offer": "Turno {round_number}: Giugouë {proposer_id} ofre ${offer} a Giugouë {responder_id} (tegnindo ${keep}).",
     "accepted": "Giugouë {responder_id} à accettou! Guadagni do turno {round_number}: Giugouë {proposer_id} +${proposer_gain}, Giugouë {responder_id} +${responder_gain}. Nuovi totali: Giugouë 0: ${total_0}, Giugouë 1: ${total_1}.",
-    "rejected": "Player {responder_id} rejected the offer! Round {round_number} gains: Both players +$0. Totals remain: Player 0: ${total_0}, Player 1: ${total_1}."
+    "rejected": "O Giôxatô {responder_id} o l'à refuòu l'òfèrta! Tùrna {round_number} goâgni: Tutti dôi +$0. Totâli réstan: Giôxatô 0: ${total_0}, Giôxatô 1: ${total_1}."
   },
   "invalid_move": {
     "no_offer_format": "O proponente o deve fâ unn'offerta con l'uso do formato [Offer: $X].",

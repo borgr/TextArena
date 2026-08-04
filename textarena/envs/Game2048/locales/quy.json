@@ -1,12 +1,12 @@
 {
   "player_prompt": {
-    "intro": "You are playing 2048 on a {board_size}x{board_size} board. Your goal is to reach a {target_tile} tile by sliding identical numbers together!\nValid moves: [Up], [Down], [Left], [Right]. Tiles combine when they collide, doubling their value.\n"
+    "intro": "Q'umir p'ampapi 2048 pukllaykitaqmi kachkanki {board_size}x{board_size} p'ampapi. Q'umir q'illaykitaq {target_tile} p'ampata ch'askaspa pukllanaykipaqmi. Ch'askachkaq yupaykunata t'inkispa p'ampakunata iskaychayta atinki!\nKunan pukllaykunata: [Up], [Down], [Left], [Right]. P'ampakuna tupachkaptin, yupayninku iskaynintin.\n"
   },
   "board": {
     "current_board": "Pukllay puntuq: {score}\n{board}"
   },
   "invalid_move": {
-    "invalid_action": "Invalid action. Use '[Up]'/'[Down]'/'[Left]'/'[Right]'.",
+    "invalid_action": "Mana allin pukllay. '[Up]'/'[Down]'/'[Left]'/'[Right]'ta llamk'ay.",
     "no_change": "Mana chaymantachu, manaqa wajman riyta munarqa."
   },
   "outcome": {

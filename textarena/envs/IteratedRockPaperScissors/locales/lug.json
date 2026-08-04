@@ -9,7 +9,7 @@
     "selects": "Omuzannyo {player_id} alonda ekiddako {move}."
   },
   "message": {
-    "round_draw": "Round result: Draw",
+    "round_draw": "Matokeo ya mzunguko: Teku",
     "round_win": "Ekigendererwa ky'omupiira: Omuzannyi {winner} awangula!"
   },
   "outcome": {

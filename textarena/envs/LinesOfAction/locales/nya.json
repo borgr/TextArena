@@ -10,7 +10,7 @@
     "{to}": "The destination coordinate of a move, such as b3"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in game of LinesOfAction.\nYour pieces are '{side}', opponent pieces are '{other}'.\nMove format: `[b1b3]` (from-coord to-coord). A legal move travels horizontally, vertically, or diagonally a number of squares equal to the total pieces (any colour) in that line. You may jump over your own pieces, but not opponent pieces; landing on an opponent captures it.  Win when all your pieces are 8-neighbour connected."
+    "intro": "Ndinu Mchezaji {player_id} katika mchezo wa LinesOfAction.\nVipande vyako ni '{side}', vipande vya mpinzani ni '{other}'.\nFomu ya kusonga: `[b1b3]` (viwianishi vya chanzo hadi viwianishi vya mwisho). Kusonga kwa njia ya kisheria husafiri wima, mlalo, au diagonally idadi ya miraba sawa na jumla ya vipande (rangi yoyote) katika mstari huo. Unaweza kuruka juu ya vipande vyako, lakini si vipande vya mpinzani; kutua kwenye mpinzani humkamata.  Ushindi wakati vipande vyote vimeunganishwa kwa njia ya 8-jirani."
   },
   "board": {
     "current_board": "Komiti Yoona za Ntchito ya Bungwe Lolamulira: {board}"

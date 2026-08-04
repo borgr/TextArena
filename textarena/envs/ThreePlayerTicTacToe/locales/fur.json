@@ -20,7 +20,7 @@
     "wrong_format": "Format di spostament no valid. doprâ \"[cell]\" là che la cjadene e je 0-{max_cell}.",
     "out_of_range": "Numar di celule no valid: {cell}. Al à di jessi tra 0 e {max_cell}.",
     "already_occupied": "La celule {cell} e je za ocupade.",
-    "made_invalid": "Il zuiadôr {player_id} al à fate une mosse invalide."
+    "made_invalid": "Zugador {player_id} al à fat un moviment no valit"
   },
   "game_action": {
     "placed": "Zogadôr {player_id} met il so simbul ({symbol}) tal cjamp ({row}, {col})."

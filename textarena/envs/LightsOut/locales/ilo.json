@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "Ti aksion ket nasken nga adda iti pormat [row col] a sadiay ti linia ken kolumno ket dagiti entero manipud 0 aginggana idiay {max_index}.",
-    "out_of_range": "Coordinates must be between 0 and {max_index}. You entered [{row},{col}]."
+    "out_of_range": "Dagiti koordinado ket nasken a maibalin iti pagbaetan ti 0 ken {max_index}. Imbagam [{row},{col}]."
   },
   "outcome": {
     "win": "Kablaawak! Nasolbarmo ti puzzle iti {moves_used} a tignay!",

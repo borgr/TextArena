@@ -11,14 +11,14 @@
     "{moves}": "The comma-separated list of available move tokens like '[4]' (do not translate)"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player Tic Tac Toe.\nYour symbol is '{symbol}'.\nYou take turns placing your symbol on a 5x5 board to form a line of four.\nLines can be horizontal, vertical, or diagonal.\nSubmit your move using the format '[4]' to mark cell 4."
+    "intro": "አንተ ተጫዋች {player_id} በሦስት ተጫዋቾች ቲክ ታክ ቶ ነህ.\nየአንተ ምልክት '{symbol}' ነው.\nአንተ በ5x5 ቦርድ ላይ ምልክትህን በማድረግ ለማሸንፍ ንቅናቄ ይደረጋል.\nምልክቶች አውራጃ, ከፍተኛ, ወይም ቀጥተኛ ሊሆኑ ይችላሉ.\nንቅናቄህን በ'[4]' ንድፍ በማስገባት ሴል 4 ላይ ምልክትህን ያስቀምጥ."
   },
   "board": {
     "current_board": "የአሁን ቻርት:\n\n{board}\n\nተገኝተው እንቅስቃሴዎች: {moves}"
   },
   "invalid_move": {
     "wrong_format": "የተሳሳተ እንቅስቃሴ አኗኗር። '[cell]' በእንደ ቻል 0-{max_cell} እንደ አስተማማክ በማድረግ ይጠቀሙ።",
-    "out_of_range": "Invalid cell number: {cell}. Must be between 0 and {max_cell}.",
+    "out_of_range": "የሴል ቁጥር ተሳስቷል: {cell}. 0 እና {max_cell} መካከል ሊሆን ይገባል.",
     "already_occupied": "ህዋስ {cell} ቀድሞውኑ ተይዟል ።",
     "made_invalid": "ተጫዋቹ {player_id} ዋጋ የሌለው እንቅስቃሴ አድርጓል ።"
   },

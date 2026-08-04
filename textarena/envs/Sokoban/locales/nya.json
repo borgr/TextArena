@@ -12,7 +12,7 @@
     "invalid_position": "Kusuntha kosaloleka - sikungasinthe malowo."
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
+    "moved": "Inu {pushed} yenda [{action}].",
     "pushed_prefix": "anakankhira bokosi pamene"
   },
   "outcome": {

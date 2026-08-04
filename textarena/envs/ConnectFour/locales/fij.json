@@ -1,13 +1,13 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in Connect Four.\nYour disc symbol: {symbol}.\nThe game board has {num_rows} rows and {num_cols} columns.\nPlayers take turns dropping their disc into one of the columns (0 to {end_col}).\nThe first to connect (their own) four discs vertically, horizontally, or diagonally wins.\nOn your turn, enter the column number in squared brackets to make your move.\nFor example: '[col 4]' or '[col 1]'."
+    "intro": "O kerekere mo ni Player {player_id} ena Connect Four.\nNa ivakatakarakara ni nomu disiki: {symbol}.\nNa borodi ni qito e tiko {num_rows} na yavala {num_cols}.\nNa dauqito era dauvakaloloma me ra droka na nodra disiki ena dua vei ira na yavala (0 ki {end_col}).\nNa imatai me connect (nodra) va na disiki ena tikotiko, vakalivaliva, se diagonal e qaleni.\nEna nomu gauna, vola na naba ni yavala ena kerekere me vaka e dua na nomu i cakacaka.\nKerekere: '[col 4]' se '[col 1]'."
   },
   "board": {
     "board_visible_state": "Vanua e tiko kina na Komiti: {board_visual}",
     "board_notvisible_state": "Era sega ni raica na dauqito na papa."
   },
   "invalid_move": {
-    "wrong_format": "Player {player_id}, Invalid action format. Expected format: '[col x]'.",
+    "wrong_format": "Player {player_id}, Na ivakarau ni cakacaka e sega ni dodonu. Na ivakarau e gadrevi: '[col x]'.",
     "out_of_range": "Player {player_id}, Vakaloloma ni veika. Colana {col} e sega ni kena ibalebale.",
     "already_full": "Player {player_id}, Vakaloloma ni veika. Colana {col} e tawase."
   },

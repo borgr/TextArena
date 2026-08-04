@@ -24,7 +24,7 @@
     "intro": "أنت تلعب غولف (لعبة بطاقات) - اللاعب {player_id}.\nالهدف: الحصول على أدنى مجموع نقاط في هذا الدور الواحد. إذا كانت الأعمدة تشترك في نفس القيمة، فسيتم جمعها كـ 0.\nقيم البطاقات: A=1، 2-10 = القيمة الظاهرة، J/Q=10، K=0\n\nالإجراءات (استخدم القوس بشكل دقيق):\n- '[draw]' - رسم من الكوم\n- '[take]' - أخذ من كومة الإستأصالات\n- '[swap X Y]' - تبادل البطاقة المرسومة مع الموقع X (الصف) Y (العمود)\n- '[discard]' - إستأصال البطاقة المرسومة"
   },
   "board": {
-    "drew": "You drew: {card}\nNow you must [swap X Y] or [discard] it.",
+    "drew": "لقد سحبت: {card}\nالآن يجب عليك [swap X Y] أو [discard] البطاقة.",
     "took": "لقد أخذت: {card} من كومة الإستأصالات\nيجب عليك [swap X Y] معه (لا يمكن الإستأصال)",
     "peeked": "لقد نظرت إلى الموقع ({row}،{col}): {card}",
     "turn_view": "يدك:\n{hand}\nكومة الإستأصالات: {discard}\n{options}",
@@ -42,7 +42,7 @@
     "row": "الصف {n}: {cards}"
   },
   "action_desc": {
-    "swapped": "Player {pid} swapped {new} with {old} at position ({row},{col})",
+    "swapped": "اللاعب {pid} استبدل {new} مع {old} في الموقع ({row},{col})",
     "discarded": "اللاعب {pid} إستأصل {card}"
   },
   "message": {
@@ -58,7 +58,7 @@
     "discard_empty": "كومة التخلص فارغة!",
     "must_draw_first": "يجب عليك أولاً [draw]، [take]، [knock]، أو [peek X Y]",
     "cannot_discard_taken": "ما تقدر تتخلص من بطاقة مأخوذة من كومة التخلي. عليك أن تبدلها.",
-    "have_drawn_card": "You have a drawn card. You must [swap X Y] or [discard] it.",
+    "have_drawn_card": "لديك بطاقة مسحوبة. يجب عليك [swap X Y] أو [discard] البطاقة.",
     "need_drawn_swap": "تحتاج بطاقة رسمية لتبادل.",
     "need_drawn_discard": "تحتاج بطاقة رسمية لتتخلص منها.",
     "out_of_bounds": "الموقع خارج الحدود. استخدم الصف 1-{max_row}، العمود 1-{max_col}",

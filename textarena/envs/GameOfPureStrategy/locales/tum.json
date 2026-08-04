@@ -9,13 +9,13 @@
     "hand": "Woko linu laumaliro: {hand}"
   },
   "invalid_move": {
-    "wrong_format": "Action must contain exactly ONE bracketed card token.",
+    "wrong_format": "Chitendo chikuyenera kuwa na token moja ya makadi iliyo m'kanda.",
     "card_not_held": "Kweni sono mulije kadi ili."
   },
   "message": {
     "bids": "Mabidi: P0 {card0} vs P1 {card1} - ",
     "p0_wins": "{observation}Museŵero 0 watonda {pot_value}.",
-    "p1_wins": "{observation}Player 1 wins {pot_value}.",
+    "p1_wins": "{observation}Mchezaji 1 apambana {pot_value}.",
     "tie": "{observation}Tie -> pot now {carry_pot}. Kasi ni nyengo wuli iyo mungatemwa kuti muŵe na chibwezi?",
     "scores": "Mafuko -> P0:{score0}  P1:{score1}"
   },

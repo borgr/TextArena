@@ -21,7 +21,7 @@
     "{total}": "Each player's tied final total (a number)"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id}, playing {num_rounds} rounds of Iterated Ultimatum Game.\nYou have ${pool} to split this round between yourself and Player {other_id}.\n\nProposer:\n  - Make an offer: [Offer: $X] (0 <= X <= pool)\n  - If accepted → You get $(pool - X), other player gets $X\n  - If rejected → Both get $0\n  - Example: [Offer: $3]  or  'I think this is fair. [Offer: $5]'\n\nResponder:\n  - Decide on the offer with either [Accept] or [Reject]\n  - Example: 'That seems reasonable. [Accept]'\n            'Too unfair. [Reject]'\n"
+    "intro": "UnguPlayer {player_id}, udla {num_rounds} zingqamu zeIterated Ultimatum Game.\nUna ${pool} ukuyahlula kuzingqamu zonke kati kwakho na Player {other_id}.\n\nOshayayo:\n  - Yenze isiphakamiso: [Offer: $X] (0 <= X <= pool)\n  - Uma kwamukelwa → Uyathola $(pool - X), player enye uyathola $X\n  - Uma kwanqatshelwa → Bobabili banothola $0\n  - Isibonelo: [Offer: $3]  noma  'Ngikhona lokhu kuhle. [Offer: $5]'\n\nOkhuluma:\n  - Qamba isinqumo ngesiphakamiso nge [Accept] noma [Reject]\n  - Isibonelo: 'Kuyabonakala lokhu kuhle. [Accept]'\n            'Kuyabi kakhulu. [Reject]'\n"
   },
   "round": {
     "begins": "--- Mhlolo {round_number} ushice! ---\nMdlali {proposer_id} ngumkhokhi, Mdlali {responder_id} ngumkhulumuli.",
@@ -32,7 +32,7 @@
   "invalid_move": {
     "no_offer_format": "Umcashi kumele ente sicelo asebentisa lifomu [Offer: $X].",
     "bad_integer": "Linani lelikhona kumele libe linani leliphelele.",
-    "out_of_range": "Offer must be between $0 and ${pool}.",
+    "out_of_range": "Isiphakamiso kufanele libe phakathi kwe $0 na ${pool}.",
     "no_current_offer": "Kute sipho lesikhona lesingasiphendvula.",
     "accept_or_reject": "Kwinqabanga kumele akwete [Accept] noma [Reject] kwalofu."
   },

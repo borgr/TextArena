@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a game of Reverse Tic Tac Toe. Your symbol is '{symbol}'.\nThe goal is to avoid getting three in a row (horizontally, vertically, or diagonally).\nIf you make three in a row, you LOSE.\nSubmit your move using the format '[4]' to place your symbol in cell 4.\nAs Player {player_id}, you are '{symbol}' and your opponent is '{opponent_symbol}'."
+    "intro": "Tu Lêzer {player_id} î di lîstikek Reverse Tic Tac Toe de. Sembola te '{symbol}' e.\nArmanca ev e ku tu sê li pey hev (li rast, li jor, an jî li xwarê) nebînî.\nGer tu sê li pey hev bikî, tu DIXWÎ.\nHereketa xwe bi formatê '[4]' bişîne da ku sembola xwe di hucreya 4an de bînî.\nWek Lêzer {player_id}, tu '{symbol}' î û dijberê te '{opponent_symbol}' e."
   },
   "board": {
     "current_board": "Taqeta Heyîn:\n\n{board}\n\nBirînên Berfireh: {moves}"

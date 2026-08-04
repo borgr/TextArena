@@ -9,7 +9,7 @@
     "progress": "{observation} ਮੌਜੂਦਾ ਪ੍ਰਗਤੀ ਸਕੋਰ: {progress}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use `[i j op]` where i,j are indices and op is +,-,*,/",
+    "wrong_format": "ਅਵੈਧ ਕਾਰਵਾਈ ਫਾਰਮੈਟ। [i j op] ਦੀ ਵਰਤੋਂ ਕਰੋ ਜਿੱਥੇ i,j ਸੂਚਕ ਹਨ ਅਤੇ op ਹੈ +,-,*,/",
     "invalid_indices": "ਅਵੈਧ ਸੂਚਕਾਂਕ. ਵੱਖਰੇ ਹੋਣੇ ਚਾਹੀਦੇ ਹਨ ਅਤੇ 0-{max_index} ਦੀ ਸੀਮਾ ਵਿੱਚ ਹੋਣੇ ਚਾਹੀਦੇ ਹਨ",
     "invalid_operation": "ਅਵੈਧ ਕਾਰਵਾਈ (ਸਿਫ਼ਰ ਜਾਂ ਗੈਰ-ਪੂਰਨ ਅੰਕ ਨਤੀਜਾ ਦੁਆਰਾ ਵੰਡ)"
   },

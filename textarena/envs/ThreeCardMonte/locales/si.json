@@ -11,7 +11,7 @@
     "{ball_pos}": "The cup index the ball is under"
   },
   "player_prompt": {
-    "intro": "Track the hidden ball 'X' while the cups are shuffled.\nAfter shuffling, guess its location with `[k]`."
+    "intro": "කෝප්ප මිශ්‍ර කරන අතර 'X' නිහඬ බෝල අනුගමනය කරන්න.\nමිශ්‍ර කිරීමෙන් පසු, එහි ස්ථානය `[k]` සමඟ අනුමාන කරන්න."
   },
   "game_message": {
     "ball_starts": "පන්දුව පටන් ගන්නවා: {line}",
@@ -21,7 +21,7 @@
     "reveal": "(පන්දුව {ball_pos} යටතේ ඇති බව පෙන්වන්න)"
   },
   "invalid_move": {
-    "wrong_format": "Bad action. Use `[k]`.",
+    "wrong_format": "වැරදි ක්‍රියාව. `[k]` භාවිත කරන්න.",
     "out_of_range": "දර්ශකය 0-{max_index} පරාසයෙන් පිටත."
   },
   "outcome": {

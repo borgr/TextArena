@@ -5,7 +5,7 @@
     "commander_beta": "Komander Beta"
   },
   "game_state": {
-    "header_round": "=== COLONEL BLOTTO - Round {current_round}/{num_rounds} ===\nRounds Won - Commander Alpha: {alpha_score}, Commander Beta: {beta_score}"
+    "header_round": "=== COLONEL BLOTTO - Round {current_round}/{num_rounds} ===\nDagiti Rounds a Naballigi - Komander Alpha: {alpha_score}, Komander Beta: {beta_score}"
   },
   "round_battle": {
     "field_result": "\nRonda {current_round}\nCommander Alpha ket nangallocate: {p0_allocations}\nCommander Beta ket nangallocate: {p1_allocations}\n",

@@ -10,12 +10,12 @@
     "correct_format_wrong_fields": "प्लेयर {player_id}, अमान्य कार्रवाई। कॉलम {col} सीमा से बाहर है।",
     "out_of_range": "ढेर सूचकांक {pile_index} सीमा से बाहर है.",
     "non_positive": "कम से कम एक चीज का सेवन जरूर करें।",
-    "exceeds_pile": "Cannot remove {quantity} from pile {pile_index} (only {pile_count} left)."
+    "exceeds_pile": "ढेर {pile_index} से {quantity} वस्तु नहीं हटा सकते (केवल {pile_count} बचा हुआ है)।"
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "खिलाड़ी {player_id} ने [{pile_index} {quantity}] खेला, ढेर {pile_index} से {quantity} वस्तु(ओं) हटाकर।"
   },
   "outcome": {
-    "win": "Player {player_id} took the last object(s)!"
+    "win": "खिलाड़ी {player_id} ने आखिरी वस्तु(ओं) ले लिया!"
   }
 }

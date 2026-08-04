@@ -36,6 +36,6 @@
     "payoff_cleared": "Umdlali {current_player} uqedile inqwaba yabo yokukhokha! Umdlali {current_player} uyawina!",
     "deadlock_player_0": "Ukuboshwa kufinyelelwe! Umdlali 0 uyawina ngamakhadi asele {player_0_payoff} vs amakhadi {player_1_payoff} omdlali 1.",
     "deadlock_player_1": "Ukuboshwa kufinyelelwe! Umdlali 1 uyawina ngamakhadi asele {player_1_payoff} vs amakhadi kaMdlali 0 {player_0_payoff} .",
-    "deadlock_tie": "Deadlock reached with tie! Both players have {player_0_payoff} cards remaining. Player {current_player} wins by default."
+    "deadlock_tie": "Isikhathi sesikhala sifikile ngezinga! Bobabili abadlali baneamakadi {player_0_payoff} asala. Mdlali {current_player} uphumelele ngokuzenzakalela."
   }
 }

@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in **Ultimate Tic Tac Toe**.\nSubmit your move as **[macro  micro]** (two numbers 0-8):\n• *macro*  = which mini-board you play in\n• *micro* = which square inside that mini-board\nExample `[7 8]` ➜ place your mark in mini-board 7, square 8, and\nforce your opponent to play in mini-board 8 next.\n\nYou are `{symbol}`.\n"
+    "intro": "Ị bụ onye egwuregwu {player_id} na **Ultimate Tic Tac Toe**.\nNyefee egwuregwu gị dị ka **[macro  micro]** (ọnụọgụ abụọ 0-8):\n• *macro*  = mini-bọọdụ gị na-egwu\n• *micro* = square gị n'ime mini-bọọdụ ahụ\nỌmụmaatụ `[7 8]` ➜ tinye akara gị na mini-bọọdụ 7, square 8, na\nmanyere onye mmegide gị ịgba na mini-bọọdụ 8 ọzọ.\n\nỊ bụ `{symbol}`.\n"
   },
   "board": {
     "current_board": "Kọmitii na-arụ ọrụ ugbu a: {board}"
@@ -15,7 +15,7 @@
   },
   "next_board": {
     "any": "ọ bụla micro board",
-    "specific": "micro board {nxt}"
+    "specific": "micro-bọọdụ {nxt}"
   },
   "game_action": {
     "played": "Onye ọkpụkpọ {player_id} na-egwu na micro board {macro_idx}, cell {micro_idx} (row {row}, col {col}). Onye ọkpụkpọ {opponent_id} ga-egwu ugbu a na {nxt_txt}."

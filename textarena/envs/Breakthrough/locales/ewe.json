@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing {color} in a game of Breakthrough. You move {direction} on an {board_size}x{board_size} board.\nIn your turn you can move a single piece one step forward or diagonally forward.\nA piece may only move diagonally if an opponent piece is there, and only move into such a preoccupied square in a diagonal step.\nWhen stepping into a square with an opponent piece, you capture it and the opponent's piece is removed permanently from the board.\nUse UCI-like notation in brackets, e.g. [a2a3] to move from a2 to a3.\n* 'a' corresponds to the leftmost column, '1' is the bottom row (from White's perspective).\n* Blacks's home row is the top row (row 8 for an 8x8). White's home row is the bottom row (row 1 for an 8x8).\nThe first player whose piece reaches the opponent's home row wins. If your pieces are all captured, you lose."
+    "intro": "Aʋa ʋu ƒo {color} le Breakthrough ƒe ʋɔnawo me. Aʋa ʋu ƒo {direction} le {board_size}x{board_size} ƒe takɛta me.\nLe aʋa ʋu ƒe ga me aʋa ʋu ƒo ɖeka ƒe kɔƒe ɖeka ƒe afɔɖeɖe kple ɖeka ƒe afɔɖeɖe ɖeɖe.\nKɔƒe ɖeka ƒe afɔɖeɖe ɖeɖe le mɔɖeɖe ɖeɖe kple ɖeka ƒe afɔɖeɖe ɖeɖe le mɔɖeɖe ɖeɖe ɖeɖe.\nLe aʋa ʋu ƒe ga me aʋa ʋu ƒo ɖeka ƒe kɔƒe ɖeka ƒe afɔɖeɖe ɖeɖe le mɔɖeɖe ɖeɖe ɖeɖe, aʋa ʋu ƒo ɖeka ƒe kɔƒe ɖeka ɖeɖe kple mɔɖeɖe ɖeɖe ɖeɖe ɖeɖe.\nAɖɔ ƒe UCI ƒe ŋkɔ ƒe ɖeɖe kple ɖeka ƒe afɔɖeɖe ɖeɖe le [a2a3] me.\n* 'a' ƒe ɖeɖe le kɔƒe ɖeka ƒe ɖeɖe, '1' ƒe ɖeɖe le kɔƒe ɖeka ƒe ɖeɖe (le White ƒe ŋkɔ ƒe).\n* Black ƒe ɖeɖe le kɔƒe ɖeka ƒe ɖeɖe (kɔƒe 8 ƒe 8x8). White ƒe ɖeɖe le kɔƒe ɖeka ƒe ɖeɖe (kɔƒe 1 ƒe 8x8).\nAʋa ʋu ƒe kɔƒe ɖeka ƒe afɔɖeɖe ɖeɖe le mɔɖeɖe ɖeɖe ɖeɖe ɖeɖe, aʋa ʋu ƒo ɖeka ƒe ŋkɔ ƒe."
   },
   "invalid_move": {
     "wrong_format": "Taflatse zã algebra ƒe dzesi si le akplowo me abe [a2a3] ene.",
@@ -12,9 +12,9 @@
   },
   "outcome": {
     "white_reached": "Ametilawo ɖo ameyibɔwo ƒe aƒea me.",
-    "black_reached": "Black reached White's home row.",
-    "white_captured": "All White pieces captured.",
-    "black_captured": "All Black pieces captured.",
+    "black_reached": "Black ƒe kɔƒe ɖeka ƒe afɔɖeɖe ɖeɖe White ƒe ɖeɖe.",
+    "white_captured": "White ƒe kɔƒe ɖeka ɖeɖe ɖeɖe.",
+    "black_captured": "Black ƒe kɔƒe ɖeka ɖeɖe ɖeɖe.",
     "no_moves": "Fefewɔla {player_id} megate ŋu le afɔɖeɖe aɖeke wɔm o."
   }
 }

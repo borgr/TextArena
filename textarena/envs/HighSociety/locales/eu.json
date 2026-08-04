@@ -6,7 +6,7 @@
     "announce": "\n### Aukzioa {round}/10  |  Prestige txartela: {prize}"
   },
   "board": {
-    "money_cards": "Your remaining money cards: {money}"
+    "money_cards": "Zure diru-txartelak geratzen dira: {money}"
   },
   "invalid_move": {
     "wrong_format": "Izan behar du [X] txartel bat dirua.",

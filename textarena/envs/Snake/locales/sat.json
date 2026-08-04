@@ -11,7 +11,7 @@
     "{groups}": "Neutral ranking data (a list of player-id groups, worst to best); do not translate"
   },
   "player_prompt": {
-    "intro": "{num_players}-Player Snake on a {width}×{height} grid.\nYou control snake {player_id}. Valid moves: '[up]'/'[down]'/'[left]'/'[right]' (or w/s/a/d).\nObjective: survive longest or be the longest and get the highest score (turn limit {max_turns} turns)."
+    "intro": "{num_players}-ᱠᱷᱮᱞᱚᱸᱰᱤᱭᱟᱹ ᱥᱱᱮᱠ {width}×{height} ᱜᱨᱤᱰ ᱨᱮ᱾\nᱟᱢᱮ ᱥᱱᱮᱠ {player_id} ᱠᱚᱱᱴᱨᱳᱞ ᱠᱚᱨᱟᱢ᱾ ᱵᱮᱲᱤᱰ ᱢᱩᱵᱥ: '[up]'/'[down]'/'[left]'/'[right]' (ᱟᱨᱵᱟ w/s/a/d)᱾\nᱚᱵᱡᱮᱠᱴᱤᱵᱽ: ᱡᱤᱣᱤᱫ ᱛᱟᱦᱮᱸᱱ ᱟᱨᱵᱟ ᱡᱤᱣᱤᱫ ᱛᱟᱦᱮᱸᱱ ᱟᱨ ᱡᱚᱛᱚᱠᱷᱚᱱ ᱡᱤᱞᱤᱧ ᱟᱨ ᱡᱚᱛᱚᱠᱷᱚᱱ ᱥᱚᱨᱮᱥ ᱥᱠᱳᱨ ᱧᱟᱢ ᱢᱮ (ᱴᱚᱨᱱ ᱪᱷᱟᱹᱨ {max_turns} ᱴᱚᱨᱱ)᱾"
   },
   "board": {
     "current": "ᱱᱤᱛᱚᱜᱟᱜ ᱵᱳᱨᱰ: {board}",

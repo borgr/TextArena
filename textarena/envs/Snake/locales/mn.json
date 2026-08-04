@@ -11,7 +11,7 @@
     "{groups}": "Neutral ranking data (a list of player-id groups, worst to best); do not translate"
   },
   "player_prompt": {
-    "intro": "{num_players}-Player Snake on a {width}×{height} grid.\nYou control snake {player_id}. Valid moves: '[up]'/'[down]'/'[left]'/'[right]' (or w/s/a/d).\nObjective: survive longest or be the longest and get the highest score (turn limit {max_turns} turns)."
+    "intro": "{num_players}-Тоглогчтай Могойн тоглолт {width}×{height} торгон самбарт.\nТа {player_id} дугаартай могойг удирдаж байна. Хүчинтэй хөдөлгөөнүүд: '[up]'/'[down]'/'[left]'/'[right]' (эсвэл w/s/a/d).\nЗорилго: хамгийн урт хугацаагаар амьдрах эсвэл хамгийн урт байж хамгийн өндөр оноо авах (ээлжийн хязгаар {max_turns} ээлж)."
   },
   "board": {
     "current": "Одоогийн зөвлөл: {board}",
@@ -23,7 +23,7 @@
   "outcome": {
     "survived_win": "Тоглогч {player_id} амьд үлдсэн; бусад нь бүгд үхсэн.",
     "all_dead_simul": "Бүх зүүд нэгэн зэрэг үхсэн.",
-    "outlived": "Player бусад бүхнээс илүү наслалттай байсан.",
+    "outlived": "Тоглогч бусад бүгдээс урт амьдарлаа.",
     "all_dead": "Бүх зүүд үхсэн.",
     "turn_limit": "Хязгаарлалт хүрсэн - хамгийн сайн оноотой нь тэнцвэрт тоглолтод түрүүлнэ.",
     "ranking": "{reason} Эцсийн жагсаалтын бүлэгүүд (болохгүй→боловсрол): {groups}"

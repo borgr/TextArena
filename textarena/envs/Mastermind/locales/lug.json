@@ -13,7 +13,7 @@
     "repeated_guess": "Otegedde dda {guess}. Nkusaba ogezeemu ekirala."
   },
   "game_action": {
-    "feedback": "Submitted [{guess}]. Feedback: {black_pegs} black peg(s), {white_pegs} white peg(s)."
+    "feedback": "Watteeka [{guess}]. Maoni: {black_pegs} pego za kkala, {white_pegs} pego za bbululu."
   },
   "outcome": {
     "win": "Oli wamuwa akakodyo, olivunja {black_pegs} ku {code_length} pegs ngawulo",

@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing Blackjack against the dealer.\nYour goal is to get as close to 21 as possible without going over.\nOn your turn, choose '[Hit]' to draw another card or '[Stand]' to hold.\nJ/Q/K = 10 points; A = 11 or 1, whichever is better.\n"
+    "intro": "Uri kuzitambira Blackjack na dealer.\nIntego yawe ni kugereranya 21 ufatanye ntafatire.\nKu rundi yawe, hitamo '[Hit]' kugura ikarata nyingine cyangwa '[Stand]' kubikisha.\nJ/Q/K = alama 10; A = 11 cyangwa 1, iyaba myiza.\n"
   },
   "board": {
     "current_state": "Hand {hand_number}/{num_hands}\nKwiyandika kwacu: {player_hand} (Gusoro: {score})\nDealer akazana: {dealer_card}"
@@ -9,7 +9,7 @@
     "wrong_format": "Ikintu cyakorewe si gitujuje. Utumiye '[Hit]' cyangwa '[Stand]'."
   },
   "game_message": {
-    "hand_result": "Hand {hand_number}: you {outcome}. Your final {player_score}, Dealer {dealer_score}.",
+    "hand_result": "Mikono {hand_number}: wowe {outcome}. Alama yawe ya mwisho {player_score}, Dealer {dealer_score}.",
     "all_complete": "=== Amahanda {num_hands} yose yakuye ===\nAmatsinda: {wins}, Imipira: {losses}, Amaranara: {draws}\n"
   },
   "outcome": {

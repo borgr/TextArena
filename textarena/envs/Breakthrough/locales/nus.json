@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing {color} in a game of Breakthrough. You move {direction} on an {board_size}x{board_size} board.\nIn your turn you can move a single piece one step forward or diagonally forward.\nA piece may only move diagonally if an opponent piece is there, and only move into such a preoccupied square in a diagonal step.\nWhen stepping into a square with an opponent piece, you capture it and the opponent's piece is removed permanently from the board.\nUse UCI-like notation in brackets, e.g. [a2a3] to move from a2 to a3.\n* 'a' corresponds to the leftmost column, '1' is the bottom row (from White's perspective).\n* Blacks's home row is the top row (row 8 for an 8x8). White's home row is the bottom row (row 1 for an 8x8).\nThe first player whose piece reaches the opponent's home row wins. If your pieces are all captured, you lose."
+    "intro": "Yin ee Breakthrough luɔ̈m {color} wäär. Yin ɛ̈ɛ̈r {direction} pinyëëëë {board_size}x{board_size} lëëëë.\nYin wäär kɔ̈ɔ̈r kɔ̈ɔ̈r kɛ̈ɛ̈r pinyëëë, ka kɛ̈ɛ̈r wäär kɔ̈ɔ̈r kɔ̈ɔ̈r kɛ̈ɛ̈r pinyëëë.\nKɛ̈ɛ̈r ee kɔ̈ɔ̈r kɔ̈ɔ̈r kɛ̈ɛ̈r pinyëëë, ee kɔ̈ɔ̈r kɔ̈ɔ̈r kɛ̈ɛ̈r wäär, ka ee kɔ̈ɔ̈r kɔ̈ɔ̈r kɛ̈ɛ̈r pinyëëë.\nKɛ̈ɛ̈r ee wäär kɔ̈ɔ̈r kɔ̈ɔ̈r kɛ̈ɛ̈r pinyëëë, ee wäär kɔ̈ɔ̈r kɔ̈ɔ̈r kɛ̈ɛ̈r, ka ee wäär kɔ̈ɔ̈r kɔ̈ɔ̈r kɛ̈ɛ̈r pinyëëë.\nYin wäär UCI kɔ̈ɔ̈r kɔ̈ɔ̈r kɛ̈ɛ̈r pinyëëë, tɛ̈ɛ̈ [a2a3] kɔ̈ɔ̈r kɔ̈ɔ̈r kɛ̈ɛ̈r a2 tɛ̈ɛ̈ a3.\n* 'a' ee kɔ̈ɔ̈r kɔ̈ɔ̈r kɛ̈ɛ̈r pinyëëë lëëëë, '1' ee kɔ̈ɔ̈r kɔ̈ɔ̈r kɛ̈ɛ̈r pinyëëë (kɔ̈ɔ̈r kɔ̈ɔ̈r kɛ̈ɛ̈r White).\n* Blacks ee kɔ̈ɔ̈r kɔ̈ɔ̈r kɛ̈ɛ̈r pinyëëë lëëëë (kɔ̈ɔ̈r kɔ̈ɔ̈r kɛ̈ɛ̈r 8x8). White ee kɔ̈ɔ̈r kɔ̈ɔ̈r kɛ̈ɛ̈r pinyëëë lëëëë (kɔ̈ɔ̈r kɔ̈ɔ̈r kɛ̈ɛ̈r 8x8).\nKɔ̈ɔ̈r kɔ̈ɔ̈r kɛ̈ɛ̈r pinyëëë ee wäär kɔ̈ɔ̈r kɔ̈ɔ̈r kɛ̈ɛ̈r, ee wäär kɔ̈ɔ̈r kɔ̈ɔ̈r kɛ̈ɛ̈r."
   },
   "invalid_move": {
     "wrong_format": "Lätni̱ aljɛbriak in ca gɔ̱r kɛ pörɛkthi̱e̱l ce̱tkɛ [a2a3].",
@@ -12,7 +12,7 @@
   },
   "outcome": {
     "white_reached": "Bi̱lɛk cɛ cop kä biɛl mi̱ te jɔk.",
-    "black_reached": "Cu Black cop kä White's home row.",
+    "black_reached": "Blacks ee wäär White kɔ̈ɔ̈r kɔ̈ɔ̈r kɛ̈ɛ̈r pinyëëë.",
     "white_captured": "Kɛn diaal tin la̱tkɛ ɛ Bɛl caa kɛ käp.",
     "black_captured": "Kɛn diaal ca kɛ käp ɛ la nɛy ti̱ jiath.",
     "no_moves": "Ji̱ ŋarä {player_id} /thiɛlɛ kɛ mi dɔ̱ŋ ti bɛ lɛ wɔ̱ la̱t."

@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing the Minesweeper game.\nThe objective of the game is to reveal all cells that do not contain mines.\nTo make a move, simply specify the row and column coordinates you want to reveal using the format:\n- `[row col]`: Reveal the cell at the specified row and column.\nFor example:\n- `[3 2]` to reveal the cell in Row 3, Column 2.\n- `[5 6]` to reveal the cell in Row 5, Column 6.\nOn your first move, you will reveal an area around the cell you choose to ensure a safe start.\nThe current board layout is shown below. Cells that are unrevealed are represented by a dot ('.'), revealed numbers show the count of adjacent mines.\nBe mindful not to choose already revealed cells.\nHere is the current board layout:\n"
+    "intro": "Bu sta ta jogá Minesweeper.\nO objetivu di jogu é revelá tudu selulá ki nó kontén mina.\nPa fasi movimentu, simplisimenti spesifika koordenadá di linha i koluna ki bu ké revelá, usandi e formatu:\n- `[row col]`: Revelá selulá na linha i koluna spesifikadu.\nPa ezemplu:\n- `[3 2]` pa revelá selulá na Linha 3, Koluna 2.\n- `[5 6]` pa revelá selulá na Linha 5, Koluna 6.\nNa bu priméru movimentu, bu ta revelá área serka di selulá ki bu eskoji pa asegurá kumésu siguru.\nE layout atual di tabuleiru ta ser mostradu embaxu. Selulá ki nó ta reveládu ta ser reprezentádu pa punti ('.'), númeru reveládu ta mostra kontaduri di mina vizinha.\nAtensaun pa nó eskoji selulá ki ja ta reveládu.\nE layout aktual di tabuleiru ta ser:\n"
   },
   "board": {
     "game_board": "Jogu di tavula: {board}",

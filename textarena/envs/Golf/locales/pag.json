@@ -42,13 +42,13 @@
     "row": "Row {n}: {cards}"
   },
   "action_desc": {
-    "swapped": "Player {pid} inswap na {new} with {old} a diad position ({row},{col})",
+    "swapped": "Inswap na {pid} so {new} ed {old} diad posisyon ({row},{col})",
     "discarded": "Player {pid} indiscard na {card}"
   },
   "message": {
     "deck_empty": "Anggapo lay karga na deck! Asumpal a tampol so laro.",
-    "knocked": "Player {pid} inknocked! Say anggad other player gets one more turn.",
-    "final_round": "Player {pid} {reason}! Say anggad other player gets one more turn."
+    "knocked": "Kinabog na {pid}! Makarekord pay metung a turno kada arum a mangilista.",
+    "final_round": "Kinabog na {pid} {reason}! Makarekord pay metung a turno kada arum a mangilista."
   },
   "reason": {
     "all_revealed": "Kasin nipaamta to la so amin a kard?"
@@ -58,7 +58,7 @@
     "discard_empty": "Anggapo lay karga na saray basura!",
     "must_draw_first": "Say ka must umuna a [draw], [take], [knock], or [peek X Y]",
     "cannot_discard_taken": "Agmo nayarin ibantak so sakey a kard ya inala ed saray karga na panangibantak, nepeg mon salatan itan.",
-    "have_drawn_card": "Say ka amta a drawn card. Say ka must [swap X Y] or [discard] it.",
+    "have_drawn_card": "Wala kay naidik na karta. Nabalang kay man [swap X Y] o [discard] ita.",
     "need_drawn_swap": "Kaukolan moy aka-draw a kard pian makapansalat.",
     "need_drawn_discard": "Kaukolan moy aka-draw a kard pian naekal itan.",
     "out_of_bounds": "Position out of bounds. Usaren mo row 1-{max_row}, column 1-{max_col}",
@@ -67,13 +67,13 @@
     "already_revealed": "Napatnagan la itan a kard!"
   },
   "summary": {
-    "full": "Game Over! Player {winner} win na a score of {score} points!\n\nFinal Scores:\n{scores}",
+    "full": "Nagmaliw ya ing palaro! Mangilista {winner} ya ing manalo ed puntos a {score}!\n\nPuntos a Pangwakas:\n{scores}",
     "line": "Player {pid}: {score} points\n"
   },
   "board_str": {
     "title": "=== GOLF GAYAR=== Ag-ira manpapaliis ed saray totoo.",
     "discard": "Say \"discard pile\": {card}",
     "knocked": "Player {pid} inknocked na!",
-    "player_header": "Player {pid} (Score: {score}):"
+    "player_header": "Mangilista {pid} (Puntos: {score}):"
   }
 }

@@ -7,14 +7,14 @@
     "current_game_board": "Kouran jwèt tablo: {board}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid move format. Player {player_id} did not respond with a valid direction in square brackets.",
+    "wrong_format": "Fòma mouvman ki pa valab. Jwè {player_id} pa reponn ak yon direksyon valab nan kwadwo.",
     "out_of_bounds": "Move Envalid. Jwè {player_id} chwazi yon pozisyon deyò-nan limit yo.",
     "same_card_twice": "Mouvman envalid. Jwè {player_id} te chwazi menm kat la de fwa.",
     "already_matched": "Move Envalid. Jwè {player_id} chwazi youn oswa tou de kat ki te deja matche ak yo."
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "Kat yo chwazi pa Jwè {player_id} nan pozisyon [{r1} {c1}] ak [{r2} {c2}] matche!",
+    "cards_no_match": "Kat yo chwazi pa Jwè {player_id} pa matche. Kat nan pozisyon [{r1} {c1}] ak [{r2} {c2}] se {pos1} ak {pos2} respektivman."
   },
   "outcome": {
     "draw": "Tou de jwè yo te matche menm kantite pè kat.",

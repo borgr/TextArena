@@ -10,7 +10,7 @@
     "{groups}": "Neutral ranking data (a list of player-id groups, best to worst); do not translate"
   },
   "player_prompt": {
-    "intro": "{num_players}-Player Surround on a {width}x{height} grid.\nYou are player {player_id}. Valid moves: '[up]' '[down]' '[left]' '[right]' or w/s/a/d.\nObjective: outlive everyone else. Trails are deadly; wall hits kill; head-on crashes kill both."
+    "intro": "{num_players}-Giogadores de Surround in una griglia de {width}x{height}.\nTui ses su giogadore {player_id}. Mòvidas bàlidas: '[up]' '[down]' '[left]' '[right]' o w/s/a/d.\nObiettivu: subrabìvere a totus is àteros. Is rastros sunt mortales; is impàttos cun sa parete ochient; is impàttos frontales ochient totus is duos."
   },
   "board": {
     "current": "Cunsigliu atuale: {board}",
@@ -25,6 +25,6 @@
     "outlived": "Su giogadore at subrabìvidu totu sos àteros.",
     "all_dead": "Totus sos giogadores sunt mortos.",
     "turn_limit": "Sa làcana de su giru est arribbada - chi at subrabìvidu prus a longu binchet.",
-    "ranking": "{reason} Final ranking groups (best→worst): {groups}"
+    "ranking": "{reason} Grupos de classìfica finale (dae su mègius a su peus): {groups}"
   }
 }

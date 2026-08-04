@@ -11,7 +11,7 @@
     "no_new_offer": "Ɛn ŋar {player_id} /cɛ duɔ̱ɔ̱r mi̱ pay nööŋ."
   },
   "offers": {
-    "reject": "Player {player_id} rejected the trade offer.",
+    "reject": "Raan {player_id} a ciɛɛl kɔɔr ee kɔɔr.",
     "accept": "Riäk {acceptor_id} aci luoi kë offer de Player {proposer_id}.",
     "proposal": "Riäk {player_id} cäkë offer de kë Player {opponent_id}: Kënë piööth: {offered} -> Kënë bïk: {requested}"
   },

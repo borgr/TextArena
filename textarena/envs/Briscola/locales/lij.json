@@ -37,7 +37,7 @@
     "line": "  Player {player_id}: {card}{trump_mark}"
   },
   "turn": {
-    "score_entry": "Player {player_id}: {points} pts",
+    "score_entry": "Giocatô {player_id}: {points} ponti",
     "trump_info": "Costumîo Trump: {trump_suit}",
     "trump_info_deck": "Semo de atou: {trump_suit} | Càrte che reman into pacco: {deck_count}",
     "board": "{hand}\n\n{trick}\n\nPonpi: {scores}\n{trump_info}\n\nZuga 'na càrtega doperando [play X]"
@@ -47,11 +47,11 @@
     "out_of_range": "Posizion de càrtega no valìa. Te gh'ê {count} càrte (1-{count})"
   },
   "action": {
-    "played": "Player {player_id} played {card}",
+    "played": "Giocatô {player_id} o l'à zugòu {card}",
     "trick_win": "Giugou {winner} o l'ha vinta a man con {card} e o guadagna {points} ponpi!"
   },
   "outcome": {
     "head": "Giögo finìo! Giugou {winner} o l'ha vinto con {points} ponpi!\n\nRisultæ finæ:\n{scores}",
-    "player_line": "Player {player_id}: {points} points ({tricks} tricks)\n"
+    "player_line": "Zugador {player_id}: {points} punti ({tricks} prexe)\n"
   }
 }

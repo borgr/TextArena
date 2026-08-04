@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id}. You are playing the Memory Game.\nYour goal is to match more pairs of cards on the board, than your opponent.\nOn your turn, select two cards to flip by entering the row and column numbers of the first and second card respectively like '[0 1 1 0]', where the first card is in row 0 and column 1, and the second card is in row 1 and column 0.\nIf the two cards match, you get a point and the cards remain face up. If they do not match, the cards are flipped back face down, e.g. '.'.\nThe game ends when all pairs have been matched."
+    "intro": "Mo yeke Player {player_id}. Mo yeke ti zo kôna Memory Game.\nKôna mo zo kôna, mo gba nda kôna mbili zo kôna ti mbili ti karta ti bongô, ti adu ti mo.\nNa kôna mo, mo sô karta mbili ti bala na nimero ti ligbi ti karta ya kôna, na nimero ti ligbi ti karta ya zo, kôna kôna kôna kôna kôna '[0 1 1 0]', kôna karta ya kôna kôna ligbi 0 na kôlôni 1, na karta ya zo kôna ligbi 1 na kôlôni 0.\nTi karta mbili zo kôna, mo gba pointi kôna karta mbili kôna ti kôna. Ti karta mbili zo kôna kôna, karta mbili kôna kôna ti kôna, kôna '.'.\nKôna kôna kôna kôna kôna kôna kôna kôna zo kôna."
   },
   "board": {
     "current_board": "Ndokua ti fango tënë laso: {board}",
@@ -13,13 +13,13 @@
     "already_matched": "A yeke na lege ni pëpe. Zo ti pikango carte {player_id} asoro mbeni wala acarte use kue so a lingbi tere awe."
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "Karta mbili kôna na Player {player_id} kôna ligbi [{r1} {c1}] na [{r2} {c2}] zo kôna!",
+    "cards_no_match": "Karta mbili kôna na Player {player_id} kôna kôna. Karta kôna ligbi [{r1} {c1}] na [{r2} {c2}] kôna {pos1} na {pos2} kôna."
   },
   "outcome": {
     "draw": "Azo ti pikango carte ni use kue ayeke na wungo ti acarte oko.",
     "win": "{winner_id} asungba ti lo ni ahon!",
-    "turn_limit": "Limiti ya turni î zî reached. Game î zî over. Player 0 à score {score_0} point, Player 1 à score {score_1} point.",
-    "turn_limit_win": "{reason} Player {winner_id} à émergé!"
+    "turn_limit": "Kôna kôna kôna kôna kôna. Kôna kôna kôna. Player 0 kôna {score_0} pointi, Player 1 kôna {score_1} pointi.",
+    "turn_limit_win": "{reason} Player {winner_id} kôna kôna!"
   }
 }

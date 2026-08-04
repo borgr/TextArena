@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "Nav atrasts derīgs gājiena formāts. Lieto [a1b2], piem. [b2c3].",
-    "illegal": "Move [{move}] is illegal."
+    "illegal": "Gājiens [{move}] ir nelegāls."
   },
   "game_action": {
     "moved": "Spālātuojs {player_id} puorguojis {move}."

@@ -22,14 +22,14 @@
     "final_ranking": "list of player indices from first eliminated to winner"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in an {num_players}-player Liar's Dice game.\nRules:\n- On your turn, you may either:\n  1) Make a new bid with a higher quantity or higher face (or both) than the current bid; i.e. '[Bid: 3, 4]',\n  2) Call the last bid by typing '[Call]'.\n\nIf you call:\n  - If the actual count of that face value among all dice is less than the bid, the last bidder loses one die.\n  - Otherwise, the caller loses one die.\nA player who reaches 0 dice is eliminated. The last remaining player wins."
+    "intro": "Káma {player_id} kàmà káma Liar's Dice kàma {num_players} kàmà.\nKáma kanuri:\n- Káma kámàri, káma kàma:\n  1) Káma bid tǝ̀ǵǝ ka wǝri ka wane ka wǝri ka bid tǝ̀ǵǝ; mǝsǝ '[Bid: 3, 4]',\n  2) Káma call ka wǝri ka tǝ̀ǵǝ '[Call]'.\n\nKáma ká call:\n  - Káma wane ka wǝri ka face value ka wǝri ka bid tǝ̀ǵǝ ka wane, káma bidder ka wǝri ka die ka wane.\n  - Bǝri, káma caller ka wǝri ka die ka wane.\nKáma káma 0 ka wane ka die ka wane, káma káma káma káma."
   },
   "board": {
     "per_player": "\tƊon ƙwara {p}: {d}",
     "new_round": "\nSabon zagaye - Dice masu rage: {dice_summary}\nDice na yanzu suna: {your_dice}"
   },
   "call": {
-    "bidder_loses": "Player {current_player_id} calls! The actual count of face {face_value} is {count}, which is LESS than {quantity}.\nPlayer {loser_id} (the last bidder) loses one die.",
+    "bidder_loses": "Káma {current_player_id} ká call! Káma wane ka face {face_value} ka wane {count}, ka wane ka LESS ka {quantity}.\nKáma {loser_id} (káma bidder káma) ka wane ka die ka wane.",
     "caller_loses": "Ɗon ƙwara {current_player_id} ya kira! Jimillar adadin fuska {face_value} shine {count}, wanda >= {quantity}.\nƊon ƙwara {loser_id} (mai kira) ya rasa die daya."
   },
   "action": {

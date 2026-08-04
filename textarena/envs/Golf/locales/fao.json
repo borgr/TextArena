@@ -48,7 +48,7 @@
   "message": {
     "deck_empty": "Spælið endar beinanvegin.",
     "knocked": "Leikarin {pid} er tikin! Hvør annar leikari fær eitt umfar afturat.",
-    "final_round": "Player {pid} {reason}! Each other player gets one more turn."
+    "final_round": "Spælari {pid} {reason}! Hvør annar spælari fær ein umfar til."
   },
   "reason": {
     "all_revealed": "hevur øll kortini víst seg?"
@@ -56,7 +56,7 @@
   "invalid": {
     "wrong_action": "Nýt nákvæmlega EITT bracketraðað ávirkan: [draw], [take], [swap X Y], [discard], [knock], eller [peek X Y]",
     "discard_empty": "Tað er ikki meira at taka av!",
-    "must_draw_first": "You must first [draw], [take], [knock], or [peek X Y]",
+    "must_draw_first": "Tú mást fyrst [draw], [take], [knock], ella [peek X Y]",
     "cannot_discard_taken": "Tú kanst ikki vraka eitt kort, sum tú hevur tikið úr avlopsbunkuni.",
     "have_drawn_card": "Tú hevur eitt dregið kort. Tú mást [swap X Y] eller [discard] ta",
     "need_drawn_swap": "Tú hevur brúk fyri einum kortum til at skifta.",
@@ -74,6 +74,6 @@
     "title": "=== GOLF-leikur ===",
     "discard": "Avlopsstaða: {card}",
     "knocked": "Leikarin {pid} hevur bankað!",
-    "player_header": "Player {pid} (Score: {score}):"
+    "player_header": "Spælari {pid} (Stig: {score}):"
   }
 }

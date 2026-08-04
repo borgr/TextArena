@@ -9,7 +9,7 @@
     "wrong_format": "እርምጃ ከ [accept] ወይም [continue] አንዱ መሆን አለበት."
   },
   "outcome": {
-    "summary": "You accepted value {value} at draw {draw_num}/{N}. The best overall was {best}. {result}",
+    "summary": "አንተ ዋጋ {value}ን በዕለት {draw_num}/{N} ተቀበልክ። ከሁሉም የተሻለ ዋጋ {best} ነበር። {result}",
     "perfect": "ፍጹም ምርጫ! ",
     "not_max": "ከፍተኛው አይደለም።"
   }

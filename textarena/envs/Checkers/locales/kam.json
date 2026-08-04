@@ -3,18 +3,18 @@
     "current_board": "Ĩsandũkũ ya Mũsyaĩĩsya: {board}"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} playing a game of Checkers as {color}.\nMake your move in chess-style notation [fileRank fileRank], e.g. '[b2c3]' (column letter a–h, row digit 0–7).\nBasic rules:\n  • Move diagonally forward by 1 if empty.\n  • Capture by jumping over an opponent piece.\n  • A piece is Kinged if it reaches the opposite end.\n"
+    "intro": "Wee ni Mchezaji {player_id} akicheza mchezo wa Checkers kama {color}.\nTenda wendo wako kwa njia ya chess-style notation [fileRank fileRank], mfano '[b2c3]' (barua ya safu a–h, tarakimu ya safu 0–7).\nSheria za msingi:\n  • Enda diagonally mbele kwa 1 ikiwa tupu.\n  • Piga kwa kuruka juu ya kipande cha mpinzani.\n  • Kipande ni Kinged ikiwa kinafikia mwisho wa pili.\n"
   },
   "invalid_move": {
     "wrong_format": "Hakuna muundo halali wa mchezo uliopatikana. Tumia [a1b2], kwa mfano [b2c3].",
-    "illegal": "Move [{move}] is illegal."
+    "illegal": "Wendo [{move}] si halali."
   },
   "game_action": {
     "moved": "Mchezaji {player_id} alihama {move}."
   },
   "outcome": {
     "red_no_pieces": "Kĩvathũkany'o na ũu, ũsindi wa langi mweũ wĩthĩawa wĩ mũtuku.",
-    "black_no_pieces": "Black has no pieces left. Red wins!",
+    "black_no_pieces": "Nyeusi haina vipande vilivyobaki. Nyekundu inashinda!",
     "no_moves": "Mchezaji {player_id} hana michezo iliyobaki.",
     "draw": "Tũlũlũmĩlye ũtwi witũ wa kũendeea kũkitana na mũisyo ũsu kwa nzĩa nzeo."
   }

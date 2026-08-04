@@ -7,13 +7,13 @@
   },
   "invalid_move": {
     "wrong_format": "Nid oes fformat symud dilys wedi'i ddarganfod. Defnyddiwch [a1b2], e.e. [b2c3].",
-    "illegal": "Move [{move}] is illegal."
+    "illegal": "Mae symudiad [{move}] yn anghyfreithlon."
   },
   "game_action": {
     "moved": "Chwaraewr {player_id} symudodd {move}."
   },
   "outcome": {
-    "red_no_pieces": "Red has no pieces left. Black wins!",
+    "red_no_pieces": "Nid oes darnau coch ar ôl. Enillodd y du!",
     "black_no_pieces": "Nid oes gan du unrhyw ddarnau ar ôl.",
     "no_moves": "Nid oes gan chwaraewr {player_id} unrhyw symudiadau ar ôl.",
     "draw": "Mae'r terfyn troi wedi'i gyrraedd."

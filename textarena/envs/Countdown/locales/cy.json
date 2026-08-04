@@ -9,7 +9,7 @@
     "progress": "{observation} Scôr cynnydd presennol: {progress}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use `[i j op]` where i,j are indices and op is +,-,*,/",
+    "wrong_format": "Fformat gweithred annilys. Defnyddiwch `[i j op]` lle mae i,j yn indecs a op yw +,-,*,/",
     "invalid_indices": "Nodynnau annilys. Rhaid iddynt fod yn wahanol ac yn ystod 0-{max_index}",
     "invalid_operation": "Gweithrediad afreolus (rhannu gan sero neu ganlyniad nad yw'n rhif cyfan)"
   },

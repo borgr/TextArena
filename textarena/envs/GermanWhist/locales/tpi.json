@@ -15,7 +15,7 @@
     "available_trump": "Ol i givim kat: {card} (TRUMP)"
   },
   "invalid_move": {
-    "wrong_format": "Invalid move format. Yusim '[play N]' long pilai namba Nth kat i stap insait long han bilong yu.",
+    "wrong_format": "Format bilong muv i no stret. Usim '[play N]' long pley kad N long han yu.",
     "bad_position": "Dispela posisen i no stap. Yu holim {hand_size} ol kat.",
     "must_follow_suit": "Yu mas bihainim pasin bilong em na pilai wanpela {lead_suit} kat.",
     "invalid_play": "Dispela samting i no inap kamap."
@@ -71,6 +71,6 @@
     "player_line": "{observation}\nPleeya {player_id}: {scoring} skorim triks ({tricks} olgeta), {hand_size} kards long han"
   },
   "outcome": {
-    "summary": "Learning phase - Player 0: {l0}, Player 1: {l1}. Playing phase - Player 0: {p0}, Player 1: {p1}. Player {winner_id} wins with {winner_tricks} scoring tricks!"
+    "summary": "Taim bilong lainim - Pleya 0: {l0}, Pleya 1: {l1}. Taim bilong pley - Pleya 0: {p0}, Pleya 1: {p1}. Pleya {winner_id} i winim long {winner_tricks} trik i gat poi!"
   }
 }

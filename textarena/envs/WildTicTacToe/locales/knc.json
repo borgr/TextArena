@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in Wild Tic Tac Toe.\nOn your turn, you can place either an 'X' or an 'O' in an empty square.\nYou win by aligning three of the same mark (X or O) in a row.\nYou can win with either symbol.\nChoose your move using the format '[X 4]' to place X in the center.\n"
+    "intro": "Káma ká Player {player_id} na Wild Tic Tac Toe.\nKá wúrúku, ká gánà cídà 'X' ko 'O' na mbàtà kúshí.\nKá sàwàrà ká wúlù cídà tálàta ká mbàtà (X ko O) na ndèrè.\nKá sàwàrà ká wúlù cídà mbàtà báwọ̀.\nZhilá ká gánà ká wúrúku ká ndèrè '[X 4]' ká cídà X na kátirí.\n"
   },
   "board": {
     "current_board": "Borti Kadi:\n\n{board}\n\nKadi Kwatirika: {moves}"
@@ -14,7 +14,7 @@
     "placed": "Kadi {player_id} ina kadi alama shi ({mark}) a celi {cell}"
   },
   "outcome": {
-    "win": "Player {player_id} wins with {mark}s!",
+    "win": "Player {player_id} ká wúlù ká {mark}s!",
     "draw": "Kәndodǝ shima kangiwo!"
   }
 }

@@ -11,7 +11,7 @@
     "{ball_pos}": "The cup index the ball is under"
   },
   "player_prompt": {
-    "intro": "Track the hidden ball 'X' while the cups are shuffled.\nAfter shuffling, guess its location with `[k]`."
+    "intro": "Latisa bolo e e fitileng 'X' fa dikopi di fetolwa.\nMorago ga go fetola, kaya kwa ntlha e e leng teng ka `[k]`."
   },
   "game_message": {
     "ball_starts": "Kgwele e simolola: {line}",
@@ -21,7 +21,7 @@
     "reveal": "(Bola mo tlase ga {ball_pos})"
   },
   "invalid_move": {
-    "wrong_format": "Bad action. Use `[k]`.",
+    "wrong_format": "Kitso e e mpe. Tsaya `[k]`.",
     "out_of_range": "Index e kwa ntle ga range 0-{max_index}."
   },
   "outcome": {

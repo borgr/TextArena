@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a {num_rounds}-round of IteratedTwoThirdsAverage.\nEach round, guess a number between {min_guess} and {max_guess}.\nAfter both guesses, the target is (2/3)x(average of both guesses),\nand the player whose guess is closest to the target wins that round.\nReply with your guess in the format '[<number>]'."
+    "intro": "U ena le Player {player_id} ka potlako ya IteratedTwoThirdsAverage e nang le makhuduthamaga a {num_rounds}.\nKa mokhuthamaga o mong le o mong, eka tseba nambari pakeng tsa {min_guess} le {max_guess}.\nKamora makhethe e mabeli, sepheo ke (2/3)x(palo ya makhethe a mabeli),\nle player ya khethe e haufi le sepheo o thabile mokhuthamaga oo.\nAraba ka khethe ya hao ka mokhoa wa '[<number>]'."
   },
   "invalid_move": {
     "wrong_format": "Sebopeho se fosahetseng; ka kopo romella khopolo ea hau e le [<number>].",

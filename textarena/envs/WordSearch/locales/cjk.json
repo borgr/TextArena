@@ -18,20 +18,20 @@
     "intro": "You are Player {player_id}, and you are participating in a Word Search challenge modeled as {mode}. The objective is to find and highlight hidden words on the grid below. The rows and columns are numbered for your reference.\n\nHere is the current state of the Word Search board:\n----------------------------------------\nWords you have already found are marked in square brackets [ ]. Each row and column is numbered for clarity.\n\n\nTo locate a word, specify the row and column of its start and end letters. Note that words are either across or down.\nYou may type your response and thoughts in any manner. But you may only submit one submission at a time. For your submissions, use the format '[start_row start_col end_row end_col]'.\nFor instance, if you want to find the word 'HELLO' starting at row 1, column 1 and ending at row 1, column 5, enter '[1 1 1 5]'.\n\nGuidelines:\n- Each guess must be unique; you cannot repeat the same guess.\n- You have a total of {tries} incorrect attempts remaining.\n- The history of your attempts will be recorded below.\n\nMake your guesses carefully and strategically. Good luck, Player {{player_id}}! Let's see how many words you can find!\n"
   },
   "board": {
-    "state": "Current Board:\n\n{board}\nPlaced Words: {words}\nIncorrect Attempts Remaining: {tries}"
+    "state": " : \n\n{board}\n : {words}\n : {tries}"
   },
   "invalid": {
-    "wrong_format": "Invalid move format. Player {player_id} did not respond with valid 'start_row, start_col, end_row, end_col'.",
-    "out_of_range": "Invalid move format. Player {player_id} did not respond with valid 'start_row, start_col, end_row, end_col'.",
-    "already_attempted": "Invalid move. The action has already been attempted."
+    "wrong_format": " . {player_id} .",
+    "out_of_range": " . {player_id} .",
+    "already_attempted": " ."
   },
   "feedback": {
-    "incorrect": "[{coords}] is an incorrect attempt. {tries} incorrect tries remaining.",
-    "correct": "[{coords}] is a correct attempt. You found the word '{word}'.",
-    "correct_unknown": "[{coords}] is a correct attempt, but the word was not found in the placed words."
+    "incorrect": "[{coords}] . {tries} .",
+    "correct": "[{coords}] . '{word}' .",
+    "correct_unknown": "[{coords}] , ."
   },
   "outcome": {
-    "no_tries": "No more incorrect tries remaining. You found {found} out of {total} words ({pct}%).",
-    "win": "Congratulations! You completed the Word Search puzzle."
+    "no_tries": " . {found} {total} ({pct}%).",
+    "win": " ! ."
   }
 }

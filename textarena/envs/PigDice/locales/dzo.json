@@ -1,13 +1,13 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} playing a game of Pig Dice.\n\nRules:\n- On your turn, you can either '[roll]' or '[hold]'\n- Roll a 2-6: Add to your turn total\n- Roll a 1: Lose turn total and end turn\n- Hold: Add turn total to your score and end turn\n- First to {winning_score} points wins\n\nWhen it's your turn, you'll see the current scores and turn total.\nRespond with '[roll]' to roll the die or '[hold]' to bank your points."
+    "intro": "ཁྱེད་རེད་སྒྲུབ་མཁན་ {player_id} སྒྲུབ་བཞིན་པ་གི་ གྲུག་བརྡར་གྱི་རྩེད་མོ་ཞིག\n\nསྒྲིག་འགྲོ་ཚུལ་ཁྲིམས་འགལ་བའི་སྐབས་སུ་:\n- ཁྱེད་ཀྱི་སྐོར་ལ་སྒྲུབ་བཞིན་པའི་སྐབས་སུ་ཁྱེད་ཀྱིས་ '[roll]' ཡང་ན་ '[hold]'\n- 2-6 བརྡར་བའི་སྐབས་སུ་ཁྱེད་ཀྱི་སྐོར་གྱི་བསྡོམས་གྲངས་སུ་བསྣན་པ་\n- 1 བརྡར་བའི་སྐབས་སུ་ཁྱེད་ཀྱི་སྐོར་གྱི་བསྡོམས་གྲངས་ཤོར་བ་དང་ཁྱེད་ཀྱི་སྐོར་ལ་མཇུག་བསྒྲིགས་པ་\n- བཟུང་བའི་སྐབས་སུ་ཁྱེད་ཀྱི་བསྡོམས་གྲངས་ཁྱེད་ཀྱི་གྲུག་གྲངས་སུ་བསྣན་པ་དང་ཁྱེད་ཀྱི་སྐོར་ལ་མཇུག་བསྒྲིགས་པ་\n- {winning_score} གྲངས་ཐོག་མར་རྒྱལ་ཁ་ཐོབ་པ་\n\nཁྱེད་ཀྱི་སྐོར་ཡིན་པའི་སྐབས་སུ་ཁྱེད་ཀྱིས་ད་ལྟའི་གྲུག་གྲངས་དང་སྐོར་གྱི་བསྡོམས་གྲངས་མཐོང་བ་རེད།\n '[roll]' བརྡར་བའི་སྐབས་སུ་ཁྱེད་ཀྱི་ལན་འདེབས་པ་ཡང་ན་ '[hold]' ཁྱེད་ཀྱི་གྲུག་གྲངས་བཟུང་བའི་སྐབས་སུ་ཁྱེད་ཀྱི་ལན་འདེབས་པ་རེད།"
   },
   "invalid_move": {
     "invalid_action": "བྱ་ངན་གཏོང་སྟངས་མི་འདུག་པ་ཡིན། '[roll]' ཡང་ན་ '[hold]' ཞུ་རོགས།"
   },
   "actions": {
-    "player_busted": "Player {player_id} busted, losing {turn_total} points!",
-    "player_hold": "Player {player_id} holds and banks {turn_total} points."
+    "player_busted": "སྒྲུབ་མཁན་ {player_id} ཤོར་བ་རེད་དང་ {turn_total} གྲུག་གྲངས་ཤོར་བ་རེད།",
+    "player_hold": "སྒྲུབ་མཁན་ {player_id} བཟུང་བ་རེད་དང་ {turn_total} གྲུག་གྲངས་བཟུང་བ་རེད།"
   },
   "board": {
     "player": "མིའུ 0：'{score_0}'；མིའུ 1：'{score_1}'",

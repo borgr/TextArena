@@ -16,7 +16,7 @@
   "game_message": {
     "dependent_resolved": "Atkarīgā superpozīcija ir atrisināta. Šūna ({r}, {c}) tagad ir {symbol}.",
     "last_cell_resolved": "Superpozīcija pēdējai šūnai ir atrisināta. Šūna ({r}, {c}) tagad ir {symbol}.",
-    "superposition_resolved": "Superposition resolved. Cell ({r}, {c}) is now {symbol}."
+    "superposition_resolved": "Superspozīcija izšķirta. Šūna ({r}, {c}) tagad ir {symbol}."
   },
   "outcome": {
     "win": "Spālātuojs {player_id} uzvar ar styprynuotu vierteibu!",

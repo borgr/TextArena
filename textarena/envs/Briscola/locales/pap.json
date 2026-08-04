@@ -37,7 +37,7 @@
     "line": "  Player {player_id}: {card}{trump_mark}"
   },
   "turn": {
-    "score_entry": "Player {player_id}: {points} pts",
+    "score_entry": "Hungadó {player_id}: {points} ptu",
     "trump_info": "Trump suito: {trump_suit}",
     "trump_info_deck": "Palo di trèp: {trump_suit} | Kartas keda den deck: {deck_count}",
     "board": "{hand}\n\n{trick}\n\nPuntuashon: {scores}\n{trump_info}\n\nHunga un karta usando [play X]"

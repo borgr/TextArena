@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "Дзеянне павінна быць у фармаце [row col] дзе радок і графа з'яўляюцца цэлымі лікамі ад 0 да {max_index}.",
-    "out_of_range": "Coordinates must be between 0 and {max_index}. You entered [{row},{col}]."
+    "out_of_range": "Каардынаты павінны быць паміж 0 і {max_index}. Вы ўвялі [{row},{col}]."
   },
   "outcome": {
     "win": "Віншую! Вы вырашылі галаваломку ў {moves_used} кроках!",

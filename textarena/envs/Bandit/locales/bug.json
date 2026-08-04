@@ -1,9 +1,9 @@
 {
   "player_prompt": {
-    "intro": "Andi rioloang ri kamar dengan {num_buttons} tombol: {buttons}. Setiap tombol diasosiasikan dengan distribusi Bernoulli dengan rata-rata tetap tapi tidak diketahui; rata-rata untuk tombol-tombol tersebut bisa berbeda.\nUntuk setiap tombol, ketika Anda menekannya, Anda akan mendapatkan hadiah yang diambil dari distribusi yang terkait.\nAnda memiliki {num_turns} langkah waktu dan, pada setiap langkah waktu, Anda dapat memilih tombol mana saja dan menerima hadiah.\nTujuan Anda adalah untuk memilih tombol-tombol secara strategis pada setiap langkah waktu untuk mengumpulkan informasi tentang distribusi hadiah mereka, yang akan memungkinkan Anda memilih tombol dengan hadiah rata-rata tertinggi dengan benar di akhir {num_turns} giliran."
+    "intro": "Siami ri laleng seddi {num_buttons} tombol: {buttons}. Setiap tombol makkaseng ri distribusi Bernoulli sibawa mean tetap tapi majjekka; mean tombol-tombol bisa berbeda.\nRi setiap tombol, iami nu pappasili', kau akan dapat penghargaan yang diambil dari distribusi terkait.\nKau memiliki {num_turns} langkah waktu dan, ri setiap langkah waktu, kau bisa memilih tombol apa saja dan menerima penghargaan.\nTujuanmu adalah memilih tombol secara strategis ri setiap langkah waktu untuk mengumpulkan informasi tentang distribusi penghargaan mereka, yang akan memungkinkanmu memilih tombol dengan penghargaan mean tertinggi dengan benar ri akhir {num_turns} giliran."
   },
   "board": {
-    "stat_line": "{button}: {reward} (dimainkan {count} kali)",
+    "stat_line": "{button}: {reward} (naléténgi {count} kali)",
     "summary": "Ri lalenna sitongenna: {stats}"
   },
   "invalid_move": {
@@ -14,7 +14,7 @@
     "pressed": "Mupassuroi tombol {button} na tarima pappoji pole ri {reward}."
   },
   "game_message": {
-    "final_decision": "You have exhausted your budget for trying out different choices and observe their rewards. Now make a deduction about what the best choice is."
+    "final_decision": "Miu rékko laleng taniwéro budgetmu untu ménéng-ngéngi pilihatte éréng ngasengi imbalanmu. Naitini ménéngi untu mupaté pilihatte iya séddé."
   },
   "outcome": {
     "win": "Sukkuru'ki! Mupilei butti iya makessingnge.",

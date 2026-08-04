@@ -9,7 +9,7 @@
     "progress": "{observation} Одоогийн хөгжлийн оноо: {progress}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use `[i j op]` where i,j are indices and op is +,-,*,/",
+    "wrong_format": "Буруу үйлдлийн хэлбэр. `[i j op]` хэлбэрийг ашиглах энд i,j нь индексүүд ба op нь +,-,*,/",
     "invalid_indices": "Ашиглагдашгүй индексүүд. 0-{max_index} хооронд өөр өөр байх ёстой",
     "invalid_operation": "Хувьсгал нь хүчингүй (нуул эсвэл бүтэн тоо бус үр дүнг хувааж)"
   },

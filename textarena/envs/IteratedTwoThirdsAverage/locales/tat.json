@@ -7,7 +7,7 @@
     "out_of_range": "Уйлап карагыз, {min_guess} һәм {max_guess} арасында булырга тиеш."
   },
   "message": {
-    "round_guesses": "Player 0 guessed {guess0}; Player 1 guessed {guess1}. Thus the Target is: {target}.",
+    "round_guesses": "0 уенчысы {guess0} тәкъдим итте; 1 уенчысы {guess1} тәкъдим итте. Шулай итеп, Максат: {target}.",
     "round_draw": "Түгәрәк тигез.",
     "round_win": "Уенчы {winner} раундта җиңүче!"
   },

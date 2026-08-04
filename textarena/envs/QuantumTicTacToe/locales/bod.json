@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in Quantum Tic Tac Toe.\nYour symbol is '{symbol}', and your move numbers are always {parity} (e.g., X1, X3 or O2, O4).\n\nGoal: Win by forming a line of three classical marks (solidified from superpositions).\n\nHow to Play:\n- On each turn, place a spooky mark in two different empty squares using the format '[a,b]'.\n- These marks are entangled, and labeled like 'X1 / X1' or 'O4 / O4'.\n- You cannot place spooky marks in a square that has already collapsed (solidified).\n\nCollapse Rule:\n- If your move creates a cycle in the entanglement graph, it collapses automatically.\n- Each spooky mark in the cycle turns into a classical mark in one of its two positions.\n- Any dependent spooky marks also collapse.\n\nVictory:\n- The game ends when a player has three classical marks in a row.\n- If both players get a line during the same collapse, the one with the lower max move number wins.\n\nExample move: '[0,4]' places a spooky mark in cells 0 and 4."
+    "intro": "ཁྱེད་ཀྱི་མིང་འབྲུ་རྩེ་མོ་ཆེན་མོའི་རྩེ་གཉིས་རིམ་པའི་རྩེ་མོ་{player_id}ཡིན།\nཁྱེད་ཀྱི་རྟགས་འབྲུ་'{symbol}'ཡིན་པ་དང་། ཁྱེད་ཀྱི་གོམ་པ་གྲངས་པ་ནི་གནས་སྐབས་{parity}ཡིན།\n\nདམིགས་ཡུལ། གསུམ་གྱི་སྒྲིག་གཞི་གྲུབ་པའི་རྟགས་འབྲུ་གསུམ་གྱིས་རྒྱལ་ཁ་ཐོབ།\n\nརྩེད་སྟངས།\n- རེས་རེས་བཞིན་རྩེ་གཉིས་ཀྱི་སྟོང་པའི་གྲུ་བཞིའི་ནང་དུ་འབྲུ་རྩེ་གཉིས་བཞག་པའི་རྩེད་སྟངས་'[a,b]'བེད་སྤྱོད་གནང་།\n- འབྲུ་རྩེ་འདི་དག་འབྲེལ་བའི་གནས་སྐབས་དང་'X1 / X1'ཡང་ན་'O4 / O4'ལྟར་བཏགས་ཡོད།\n- ཁྱེད་ཀྱིས་སྟོང་པའི་གྲུ་བཞི་ཞིག་ཏུ་གྲུབ་ཟིན་པའི་ནང་དུ་འབྲུ་རྩེ་གཉིས་བཞག་མི་ཆོག\n\nགྲུབ་པའི་དམིགས་ཡུལ།\n- ཁྱེད་ཀྱི་གོམ་པས་འབྲེལ་བའི་གྲུ་བཞིའི་ནང་དུ་འཁོར་བའི་རྐྱེན་བྱས་ན། དེ་གྲུབ་པར་འགྱུར།\n- འཁོར་བའི་ནང་གི་འབྲུ་རྩེ་གཉིས་གནས་སྐབས་གཉིས་ཀྱི་ནང་དུ་གྲུབ་པའི་རྟགས་འབྲུར་འགྱུར།\n- བརྟེན་པའི་འབྲུ་རྩེ་གཉིས་ཀྱང་གྲུབ་པར་འགྱུར།\n\nརྒྱལ་ཁ།\n- རྩེད་མཁན་གཅིག་གིས་གྲུབ་པའི་རྟགས་འབྲུ་གསུམ་གྱི་སྒྲིག་གཞི་བྱས་པའི་དུས་རྩེད་མཇུག་བྱེད།\n- རྩེད་མཁན་གཉིས་ཀས་གྲུབ་པའི་རྟགས་འབྲུ་གསུམ་གྱི་སྒྲིག་གཞི་བྱས་པའི་དུས་རྩེད་མཁན་གྲུབ་པའི་གོམ་པ་ཆུང་བས་རྒྱལ་ཁ་ཐོབ།\n\nརྩེད་སྟངས་དཔེ་མཚོན། '[0,4]'ནི་གྲུ་བཞི་0དང་4ནང་དུ་འབྲུ་རྩེ་གཉིས་བཞག་པའི་རྩེད་སྟངས་ཡིན།"
   },
   "board": {
     "current_board": "ཀྭན་ཏམ་ཏིཀ་ཏཀ་ཏོ་བོད་མེད།:\n\n{board}\n\nའདིར་གཟིགས་དང་ '[a,b]' གྱི་སྒོ་ནས་ཀྭན་ཏམ་རྟགས་གཉིས་སུ་སྦྱར།"
@@ -11,11 +11,11 @@
     "already_solidified": "ཁམས་ཕྲན་གཅིག་ནི་སྔར་ནས་དམ་པོར་གྱུར་ཟིན་པ་ཡིན།"
   },
   "game_action": {
-    "placed": "Player {player_id} placed their symbol in a superposition between cells {pos_a} and {pos_b}."
+    "placed": "རྩེད་མཁན་{player_id}གྱིས་རྟགས་འབྲུ་གྲུ་བཞི་{pos_a}དང་{pos_b}གཉིས་ཀྱི་བར་དུ་བཞག"
   },
   "game_message": {
     "dependent_resolved": "བརྟེན་པའི་སེམས་ཅན་རྫོགས་པ། སེམས་ཅན་ ({r}, {c}) ད་ལྟ་{symbol}",
-    "last_cell_resolved": "Superposition for last cell resolved. Cell ({r}, {c}) is now {symbol}.",
+    "last_cell_resolved": "གྲུ་བཞི་མཇུག་མའི་གནས་སྐབས་གྲུབ་པ་ཡིན། གྲུ་བཞི་({r},{c})ནི་ད་ལྟ་{symbol}ཡིན།",
     "superposition_resolved": "སེམས་ཅན་རྫོགས་པ། སེམས་ཅན་ ({r}, {c}) ད་ལྟ་{symbol}"
   },
   "outcome": {

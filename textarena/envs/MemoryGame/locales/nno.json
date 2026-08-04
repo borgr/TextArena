@@ -13,8 +13,8 @@
     "already_matched": "Ugyldig trekk. Spelaren {player_id} valde ut eit eller begge kort som har blitt matcha."
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "Korta valde av Spelar {player_id} på posisjonane [{r1} {c1}] og [{r2} {c2}] matcher!",
+    "cards_no_match": "Korta valde av Spelar {player_id} matcher ikkje. Korta på posisjonane [{r1} {c1}] og [{r2} {c2}] er {pos1} og {pos2} høvesvis."
   },
   "outcome": {
     "draw": "Begge spelarane spelte det same talet på par kort.",

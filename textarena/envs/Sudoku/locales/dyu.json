@@ -8,12 +8,12 @@
   },
   "invalid_move": {
     "wrong_format": "Jurusarabali.Jurutigi {player_id} ma jaabili kɛ ni 'row column number' ye min ka ɲi.",
-    "out_of_bounds": "Mouvman pa bon. Jwè {player_id} te eseye mete {num} nan ({row}, {col}), ki se deyò limit.",
-    "overwrite": "Mouvman pa bon. Jwè {player_id} te eseye ekrase yon seli ki te deja remplye ({row}, {col}).",
-    "violates_rules": "Mouvman pa bon. Jwè {player_id} te eseye mete {num} nan ({row}, {col}), ki viole règ Sudoku."
+    "out_of_bounds": "Sɔnɔ kɔnɔ. Player {player_id} ka sɔnɔ {num} kɔnɔ ({row}, {col}), kɔnɔ kɔnɔ bɛɛ bɛɛ lajɛli ye.",
+    "overwrite": "Sɔnɔ kɔnɔ. Player {player_id} ka sɔnɔ cɛɛ kɔnɔ kɔnɔ bɛɛ bɛɛ lajɛli ye ({row}, {col}).",
+    "violates_rules": "Sɔnɔ kɔnɔ. Player {player_id} ka sɔnɔ {num} kɔnɔ ({row}, {col}), kɔnɔ kɔnɔ bɛɛ bɛɛ Sudoku sɔnɔ."
   },
   "outcome": {
     "win": "A fɔbaga {player_id} ye Sudoku puzzle dafa.",
-    "turn_limit": "Limite tou a rive. Ou te janm remplye {percent}% nan seli vid yo."
+    "turn_limit": "Kɔɔri taa limiti ye ka reached. I ka kɔɔri {percent}% ye cɛɛni cɛɛni."
   }
 }

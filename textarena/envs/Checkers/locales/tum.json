@@ -3,11 +3,11 @@
     "current_board": "Bwalo la pa nyengo iyi: {board}"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} playing a game of Checkers as {color}.\nMake your move in chess-style notation [fileRank fileRank], e.g. '[b2c3]' (column letter a–h, row digit 0–7).\nBasic rules:\n  • Move diagonally forward by 1 if empty.\n  • Capture by jumping over an opponent piece.\n  • A piece is Kinged if it reaches the opposite end.\n"
+    "intro": "Ndiwe Mchezaji {player_id} akusewera mchezo wa Checkers ngati {color}.\nChita zako mchezo mwa njia ya notation ya chess [fileRank fileRank], e.g. '[b2c3]' (barua la safu wima la a–h, tarakimu ya safu mlalo 0–7).\nMwiko wa msingi:\n  • Sunga mwa ulalo kwenda mbele kwa 1 ngati iliwe.\n  • Kamata kwa kujilomola juu ya kipande cha mpinzani.\n  • Chipande chilichofikia mwisho wa upande mwingine ndicho Chimfumu.\n"
   },
   "invalid_move": {
     "wrong_format": "Hakuna fomu halali ya mwendo iliyopatikana. Tumia [a1b2], kwa mfano [b2c3].",
-    "illegal": "Move [{move}] is illegal."
+    "illegal": "Mchezo [{move}] si wa kisheria."
   },
   "game_action": {
     "moved": "Woseŵera {player_id} wakasama {move}."

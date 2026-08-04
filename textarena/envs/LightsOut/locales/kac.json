@@ -7,10 +7,10 @@
   },
   "invalid_move": {
     "wrong_format": "Hkum hpe gaw shani hkum sha ai [row col] ya ai, ci row col hkum sha 0 na {max_index} ya ai.",
-    "out_of_range": "Coordinates must be between 0 and {max_index}. You entered [{row},{col}]."
+    "out_of_range": "Ningtau ninghpang hta rau ai gaw 0 hku {max_index} rau ai. Nanhte [{row},{col}] rau ai."
   },
   "outcome": {
     "win": "Nga hpaji! Nga {moves_used} hte galaw ai puzzle hkum sha gaw re.",
-    "loss": "Game over! You used all {max_turns} moves without solving the puzzle. Final completion: {completion}%\nFinal state:\n{grid}"
+    "loss": "Mali ai hte! Na gaw {max_turns} lu hte sha rai nna, na kasha shing jaw ai. Kaja kasha shing jaw ai: {completion}%\nKaja mungdan:\n{grid}"
   }
 }

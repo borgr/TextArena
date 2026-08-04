@@ -14,14 +14,14 @@
     "{scores}": "The final scores as a raw player-number to score mapping - do not translate"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player GOPS.\n- You hold the 13 cards A-K (each exactly once).\n- Each round a prize is revealed. Submit ONE card like `[Q]`, `[10]`, `[2]` …\n- Highest card wins the prize (+ any carry-over pot). Ties roll the prize into the next round.\n- After 13 rounds, highest total wins. Invalid moves = elimination."
+    "intro": "Ndinu Mchezaji {player_id} katika Three-Player GOPS.\n- Muna mikunjo 13 ya A-K (kila moja mara moja).\n- Kila mzunguko zawadi inafichuliwa. Wasilisha KADI moja kama `[Q]`, `[10]`, `[2]` …\n- Kadi ya juu inashinda zawadi (+ michezo yoyote iliyobeba). Mipaka inazungusha zawadi hadi mzunguko unaofuata.\n- Baada ya mizunguko 13, jumla ya juu inashinda. Michezo isiyofaa = kumalizwa."
   },
   "round": {
     "header": "### Raundi {round}/13 - Zawadi: {prize} (inayogharimu {worth})",
     "hand": "Dzanja lanu lotsala: {hand}"
   },
   "reveal": {
-    "win": "Bids » {bids} - Player {winner} wins {pot}.",
+    "win": "Michezo » {bids} - Mchezaji {winner} anashinda {pot}.",
     "tie": "Zotsatsa  {bids} - tie, pot tsopano {pot}.",
     "scores": "Zotsatira → {scoreline}"
   },

@@ -11,10 +11,10 @@
     "{groups}": "Neutral ranking data (a list of player-id groups, worst to best); do not translate"
   },
   "player_prompt": {
-    "intro": "{num_players}-Player Snake on a {width}×{height} grid.\nYou control snake {player_id}. Valid moves: '[up]'/'[down]'/'[left]'/'[right]' (or w/s/a/d).\nObjective: survive longest or be the longest and get the highest score (turn limit {max_turns} turns)."
+    "intro": "{num_players}-Giugador Biscia in sü una griglia {width}×{height}.\nTe controllat la biscia {player_id}. Mòse vàlide: '[up]'/'[down]'/'[left]'/'[right]' (o w/s/a/d).\nObietiv: sopravivì püsé a lùng o vess la püsé lunga e ciapà el püsé alt puntegg (lìmit de mòse {max_turns})."
   },
   "board": {
-    "current": "CURRENT BOARD: {board}",
+    "current": "Tabella Atüala:\n{board}",
     "after_moves": "Stat del Consëi de aministrazion: {board}"
   },
   "game_action": {
@@ -26,6 +26,6 @@
     "outlived": "El giugador l'ha vivüü de tutt i alter.",
     "all_dead": "Tutt i serpent hinn mort.",
     "turn_limit": "L'è rivà el limit de gir - la migliore scor vinc l'tie-break.",
-    "ranking": "{reason} Final ranking groups (worst→best): {groups}"
+    "ranking": "{reason} Grupp de classifega finai (del pez al mej): {groups}"
   }
 }

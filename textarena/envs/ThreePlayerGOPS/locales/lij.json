@@ -14,14 +14,14 @@
     "{scores}": "The final scores as a raw player-number to score mapping - do not translate"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player GOPS.\n- You hold the 13 cards A-K (each exactly once).\n- Each round a prize is revealed. Submit ONE card like `[Q]`, `[10]`, `[2]` …\n- Highest card wins the prize (+ any carry-over pot). Ties roll the prize into the next round.\n- After 13 rounds, highest total wins. Invalid moves = elimination."
+    "intro": "Ti sei o Giocatô {player_id} in Three-Player GOPS.\n- Ti tegni e 13 carte da A a K (ogni una esattamente una votta).\n- Ogni tornâ una carta premio a l'é rivelâ. Invia una carta comme `[Q]`, `[10]`, `[2]` …\n- A carta ciù alta a vince a carta premio (+ ogni pot reportou). I pareggi fan rotolâ a carta premio into a prossima tornâ.\n- Dopo 13 tornæ, o punteggio totâle ciù alto o vince. Zughi no validi = eliminasion."
   },
   "round": {
     "header": "### Giòn {round}/13 - Prèmmio: {prize} (vàlido pe {worth})",
     "hand": "A man ch'a l'é restâ: {hand}"
   },
   "reveal": {
-    "win": "Bids » {bids} - Player {winner} wins {pot}.",
+    "win": "Oferte » {bids} - O Giocatô {winner} o vince {pot}.",
     "tie": "Oferte  {bids} - pareggio, pòrto oua {pot}.",
     "scores": "Scòrsi → {scoreline}"
   },

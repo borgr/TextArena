@@ -1,12 +1,12 @@
 {
   "player_prompt": {
-    "intro": "Welcome to Frozen Lake!\n\nYou are represented by 'P' on the grid.\nGrid symbols:\n  ' ' = Frozen surface (safe to walk on)\n  'H' = Hole (fall in and lose!)\n  'G' = Goal (reach this to win!)\n  'P' = Your current position\n\nAvailable actions: up, down, left, right (or w, a, s, d)\nType your action as: [up], [down], [left], [right] or [w], [a], [s], [d]\n\nObjective: Navigate from the start (top-left) to the goal (bottom-right) without falling into any holes!\n"
+    "intro": "Murakaza neza kuri Frozen Lake!\n\nUragiwe na 'P' kuri gridi.\nIbimenyetso bya gridi:\n  ' ' = Isahani yamatehe (ni nziza kugendagenda)\n  'H' = Shimo (ugwa nayo ukayikosa!)\n  'G' = Intego (fikia hano ukoreshe!)\n  'P' = Aho uri ubu\n\nIbikorwa biroroshye: hejuru, hasi, ibumoso, iburyo (cyangwa w, a, s, d)\nAndika igikorwa gikurikije: [up], [down], [left], [right] cyangwa [w], [a], [s], [d]\n\nIntego: Genda uturutse kuva ku ntangiriro (hejuru ibumoso) ujegera intege (hasi iburyo) utagwa muri shimo!\n"
   },
   "board": {
-    "current_board": "Current Board:\n\n{board}\n\nAvailable Actions: {actions}"
+    "current_board": "Karidadi yo hambere:\n\n{board}\n\nIbikorwa biroroshye: {actions}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use [up], [down], [left], [right] or [w], [a], [s], [d].",
+    "wrong_format": "Igikorwa kibisi gifite muundo mubisha. Koresha [up], [down], [left], [right] cyangwa [w], [a], [s], [d].",
     "unknown_action": "Ikora ritatomoka '{action}'. Koresha hejuru, hasi, ibumoso, iburyo canke w, a, s, d.",
     "hit_wall": "Wagerageje kugenda {action} ariko uciye ugwa mu ruhome!"
   },

@@ -1,21 +1,21 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id}. You are playing the Battleship game.\nYour goal is to sink all of your opponent's ships before they sink yours.\nOn your turn, you can fire missiles at specific coordinates in teh following format: '[a4]'. If the missile hits a ship, it is marked with 'X'. If it misses, it is marked with 'O'. In either scenarios, the game environment will inform you of your hits. If you have sunk a boat, the game environment will tell you!\nThe game ends when all of one player's ships have been sunk.\nYour initial board will show all of your ships placed and your opponent's hits on you, and your hits and misses on your opponent's board without showing your opponent's ships.\nHere is the initial board:\n"
+    "intro": "Nwi uja Player {player_id}. Uli tala malonda ya Battleship.\nKulondola kwenu kuli kupungula mashipe yote ya mpingani wenu kabla ya kupungula kwenu.\nPa kutala kwa nenu, mungapi kufa mashipe kwa kuzingatia viwianishi katika fomu hii: '[a4]'. Ikiwa kufa kumpiga mashipe, kimeandikwa 'X'. Ikiwa kufa kukosa, kimeandikwa 'O'. Katika hali zote mbili, mazingira ya malonda yatamufahamisha kuhusu mapigo yenu. Ikiwa mwapunguza mashipe, mazingira ya malonda yatamufahamisha!\nMalonda yanakoma wakati mashipe yote ya mchezaji mmoja yapunguliwa.\nUbao wenu wa kwanza utaonyesha mashipe yote yaliyowekwa na mapigo ya mpingani wenu kwenu, na mapigo na makosa yenu kwenye ubao wa mpingani wenu bila kuonyesha mashipe ya mpingani wenu.\nHili ndilo ubao wa kwanza:\n"
   },
   "invalid_move": {
     "wrong_format": "Mdlalo a nga hlamula na coordinate ya kahle mu bolumbu.",
-    "out_of_board": "Cjk coord {coord} is outside the board.",
-    "already_fired": "The coordinate {coord} has already been fired upon."
+    "out_of_board": "Kizuizi {coord} kiko nje ya ubao.",
+    "already_fired": "Kizuizi {coord} kimepigiwa tayari."
   },
   "game_action": {
-    "you_sunk": "Sunk! You sunk a ship at {coord}! Your updated board:\n{view}",
-    "opp_sunk": "Opponent sunk your ship at {coord}! Your updated board:\n{view}",
-    "you_hit": "Hit! You hit a ship at {coord}! Your updated board:\n{view}",
-    "opp_hit": "Opponent hit your ship at {coord}! Your updated board:\n{view}",
-    "you_miss": "Miss! You missed the ship at {coord}! Your updated board:\n{view}",
-    "opp_miss": "Opponent missed your ship at {coord}! Your updated board:\n{view}"
+    "you_sunk": "Imepunguliwa! Uliweka mashipe kwenye {coord}! Ubao wenu ulioboreshwa:\n{view}",
+    "opp_sunk": "Mpingani wenu alipunguza mashipe yenu kwenye {coord}! Ubao wenu ulioboreshwa:\n{view}",
+    "you_hit": "Imepigwa! Uliweka mashipe kwenye {coord}! Ubao wenu ulioboreshwa:\n{view}",
+    "opp_hit": "Mpingani wenu alipiga mashipe yenu kwenye {coord}! Ubao wenu ulioboreshwa:\n{view}",
+    "you_miss": "Imekosa! Ulikosa mashipe kwenye {coord}! Ubao wenu ulioboreshwa:\n{view}",
+    "opp_miss": "Mpingani wenu alikosa mashipe yenu kwenye {coord}! Ubao wenu ulioboreshwa:\n{view}"
   },
   "outcome": {
-    "win": "Player {player_id} has sunk all of their opponent's ships!"
+    "win": "Mchezaji {player_id} amepunguza mashipe yote ya mpingani wake!"
   }
 }

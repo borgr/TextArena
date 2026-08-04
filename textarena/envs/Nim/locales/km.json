@@ -13,7 +13,7 @@
     "exceeds_pile": "មិនអាចដក {quantity} ចេញពីគំនរ {pile_index} (មានតែ {pile_count} នៅសល់) ។"
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "អ្នកលេង {player_id} លេង [{pile_index} {quantity}] ដក {quantity} វត្ថុ(ស) ពីជួរ {pile_index}។"
   },
   "outcome": {
     "win": "កីឡាករ {player_id} បាន យក វត្ថុ ចុងក្រោយ (((s)!"

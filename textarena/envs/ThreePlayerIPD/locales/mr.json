@@ -4,7 +4,7 @@
   },
   "round": {
     "start": "{round} राऊंड सुरू {conv_rounds} राऊंडमध्ये तुम्ही मोकळेपणाने बोलू शकता.",
-    "chat_finished": "Chat finished for round {round}. Submit your decisions, one token per opponent: `[pid cooperate]` or `[pid defect]`."
+    "chat_finished": "फेरी {round} साठी चॅट संपली. तुमचे निर्णय सादर करा, प्रत्येक विरोधकासाठी एक टोकन: `[pid cooperate]` किंवा `[pid defect]`."
   },
   "results": {
     "header": "### फेरी {round} - निकाल:",

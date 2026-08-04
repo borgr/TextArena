@@ -4,11 +4,11 @@
   },
   "board": {
     "game_board": "Tɛtʊ ndʊ tɩ-taa palakɩ aleɣya yɔ: {board}",
-    "valid_moves": "{observation}\nValid moves: {moves}",
+    "valid_moves": "{observation}\nTɛɛrɛ wɛɛrɛ nyaa: {moves}",
     "no_valid_moves_reset": "{observation} Ŋŋpɩzɩɣ ŋyele nɛ pɛcɛlɛ-ɩ.",
     "no_valid_moves_step": "{observation} Ŋŋpɩzɩɣ ŋyele paa ɛbɛ.",
     "scores_reset": "{observation}\nKɛɛrɩ Ŋzɩ: - Mʊyʊŋ: {black_count}, Ŋgʊlʊm: {white_count}\n",
-    "scores_step": "{observation}\nScores - Black: {black_count}, White: {white_count}\n"
+    "scores_step": "{observation}\nKɛlɛŋ tɛɛrɛ - Kɩɩɩɩ: {black_count}, Piɛlɛɛ: {white_count}\n"
   },
   "invalid_move": {
     "wrong_format": "Pɩwɛɛ se pɛtɛzɩ-ɩ nɛ [row, col].",
@@ -16,13 +16,13 @@
   },
   "game_action": {
     "skipped": "Aleɣya laɖʋ {pid} kaatɔlɩ ɛ-nʋmɔʋ taa.",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "Nyɛ kɛŋ {pid} ({piece}) tɛɛrɛ [{r}, {c}] pɩɩɩŋ {flipped} pɩɩɩŋ"
   },
   "game_message": {
-    "must_skip": "Player {pid} ({piece}) has no valid moves and must skip."
+    "must_skip": "Nyɛ kɛŋ {pid} ({piece}) tɛɛrɛ wɛɛrɛ nyaa kaɣa pɩɩɩŋ mɛɛrɛ kɛŋ tɛɛrɛ."
   },
   "outcome": {
-    "black_wins": "Black wins {black_count}-{white_count}.",
+    "black_wins": "Kɩɩɩɩ wɛɛrɛ {black_count}-{white_count}.",
     "white_wins": "Anasaayɩ wabɩ {white_count}-{black_count}.",
     "draw": "Draw {black_count}-{white_count}."
   }

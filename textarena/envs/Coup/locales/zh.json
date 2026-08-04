@@ -103,17 +103,17 @@
     "income_others": "Player #{source} 刚执行了收入。他们现在拥有 {coins} 枚硬币",
     "coup_source": "你刚成功对 Player #{target} 发动了政变。他们失去一张卡牌并揭示了一张 {card}。他们 {remaining}",
     "coup_target": "你刚失去一张卡牌并揭示了一张 {card} 卡牌。你 {remaining}",
-    "coup_others": "Player #{source} 刚对 Player #{target} 发动了政变。他们失去一张卡牌并揭示了一张 {card} 卡牌。他们 {remaining}",
+    "coup_others": "玩家 #{source} 刚刚对玩家 #{target} 进行了政变。他们失去了 1 张卡片并揭示了一张 {card} 卡片。他们 {remaining}",
     "fa_source": "你刚成功执行了外援。你现在拥有 {coins} 枚硬币",
     "fa_others": "Player #{source} 刚执行了外援。他们现在拥有 {coins} 枚硬币",
     "tax_source": "你刚成功执行了征税。你现在拥有 {coins} 枚硬币",
     "tax_others": "Player #{source} 刚执行了征税。他们现在拥有 {coins} 枚硬币",
     "assass_source": "你刚成功对 Player #{target} 执行了刺杀。他们失去一张卡牌并揭示了一张 {card}。他们 {remaining}",
     "assass_target": "你刚失去一张卡牌并揭示了一张 {card} 卡牌。你 {remaining}",
-    "assass_others": "Player #{source} 刚对 Player #{target} 执行了刺杀。他们失去一张卡牌并揭示了一张 {card}。他们 {remaining}",
-    "steal_source": "你刚成功从 Player #{target} 处偷取了两枚硬币。你现在拥有 {scoins} 枚硬币。Player #{target} 拥有 {tcoins} 枚硬币",
-    "steal_target": "Player #{source} 刚从你这里偷取了两枚硬币。你现在拥有 {tcoins} 枚硬币。Player #{source} 拥有 {scoins} 枚硬币",
-    "steal_others": "Player #{source} 刚从 Player #{target} 处偷取了两枚硬币。Player #{source} 拥有 {scoins} 枚硬币。Player #{target} 拥有 {tcoins} 枚硬币",
+    "assass_others": "玩家 #{source} 刚刚对玩家 #{target} 进行了暗杀。他们失去了 1 张卡片并揭示了一张 {card}。他们 {remaining}",
+    "steal_source": "您刚刚成功地从玩家 #{target} 身上偷取了 2 枚硬币。您现在有 {scoins} 枚硬币。玩家 #{target} 有 {tcoins} 枚硬币",
+    "steal_target": "玩家 #{source} 刚刚从您身上偷取了 2 枚硬币。您现在有 {tcoins} 枚硬币。玩家 #{source} 有 {scoins} 枚硬币",
+    "steal_others": "玩家 #{source} 刚刚从玩家 #{target} 身上偷取了 2 枚硬币。玩家 #{source} 有 {scoins} 枚硬币。玩家 #{target} 有 {tcoins} 枚硬币",
     "exchange_source_two": "你从牌堆中抽取了两张卡牌用于交换。你现在拥有：{cards}。你必须使用 [keep <card1> <card2>] 选择保留哪两张卡牌",
     "exchange_source_one": "你从牌堆中抽取了两张卡牌用于交换。你现在拥有：{cards}。由于你已失去一点影响力，你必须使用 [keep <card>] 选择保留哪一张卡牌",
     "exchange_others": "Player #{source} 正在与宫廷牌堆交换卡牌。"
@@ -124,10 +124,10 @@
     "lost_one_of": "你失去了你的一张 {lost} 卡牌。",
     "now_one_the": "你现在只剩一张卡牌，即 {card0} 卡牌。",
     "now_none_elim": "你没有剩余卡牌，已被淘汰出局！",
-    "chal_survive": "Player #{challenger} 对你的 {card} 声称提出了质疑但未成功。由于你必须揭示你的 {card} 卡牌以证明他们错了，你从牌堆中获得了一张新卡牌。它是一张 {new} 卡牌。Player #{challenger} 揭示并失去了一张 {lost} 卡牌，",
+    "chal_survive": "您被玩家 #{challenger} 在您的 {card} 声明上质疑失败了。由于您必须揭示您的 {card} 卡片来证明他们是错误的，您被给予了一张新卡片。它是一张 {new} 卡片。玩家 #{challenger} 揭示并失去了 1 张 {lost} 卡片，",
     "they_now_one": "他们现在只剩一张卡牌。",
     "they_none_elim": "他们没有剩余卡牌，Player #{challenger} 已被淘汰出局！",
-    "others_unsucc": "Player #{challenger} 刚对 Player #{challenged} 的 {card} 声称呼叫了 bullshit 但未成功！Player #{challenged} 确实拥有一张 {card} 卡牌，将其放回牌堆并获得了一张新卡牌。Player #{challenger} 失去了一点影响力并揭示了一张 {lost} 卡牌。",
+    "others_unsucc": "玩家 #{challenger} 刚刚对玩家 #{challenged} 的 {card} 声明进行了不成功的胡说质疑！玩家 #{challenged} 确实有一张 {card} 卡片，将其放回牌堆并获得了一张新卡片。玩家 #{challenger} 失去了 1 张影响力卡片并揭示了一张 {lost} 卡片。",
     "others_chal_one": "Player #{challenger} 现在还剩 1 张卡牌。",
     "others_chal_none": "Player #{challenger} 没有剩余卡牌，已被淘汰出局！",
     "chal_dishonest_head": "Player #{challenger} 对你的 {card} 声称提出了质疑。由于你没有 {card} 卡牌，你失去了你的 {lost} 卡牌。",
@@ -138,17 +138,17 @@
     "blocked_have": "他们被阻止执行该动作，还剩 {n} 张卡牌。",
     "blocked_none": "他们没有剩余卡牌，已被淘汰出局！",
     "refund_they": " 他们的 3 枚硬币已被退还。",
-    "others_succ_head": "Player #{challenger} 刚成功对 Player #{challenged} 的 {card} 声称提出了质疑！ ",
+    "others_succ_head": "玩家 #{challenger} 刚刚成功地对玩家 #{challenged} 的 {card} 声明进行了质疑！",
     "others_blocked_have": "Player #{challenged} 被阻止执行该动作，还剩 {n} 张卡牌。",
     "others_blocked_none": "Player #{challenged} 没有剩余卡牌，已被淘汰出局！"
   },
   "bb": {
-    "blocker_honest": "Player #{challenger} 对你的 {card} 阻挡提出了质疑。由于你拥有 {card}，你将它洗回牌堆并抽取了一张 {new}。Player #{challenger} 失去了一张 {lost}，还剩 {n} 张卡牌。",
+    "blocker_honest": "您被玩家 #{challenger} 在您的 {card} 阻止上质疑。由于您有 {card}，您将其放回牌堆并抽取了一张 {new}。玩家 #{challenger} 失去了 1 张 {lost} 并且有 {n} 张卡片剩余。",
     "challenger_honest": "你对 Player #{blocker} 的 {card} 阻挡的质疑失败了。他们确实拥有一张 {card}。你失去了一张 {lost}，还剩 {n} 张卡牌。",
-    "others_honest": "Player #{challenger} 质疑了 Player #{blocker} 的 {card} 阻挡但未成功。Player #{blocker} 拥有 {card}，将其洗回牌堆并抽取了一张新卡牌。Player #{challenger} 失去了一张 {lost}，还剩 {n} 张卡牌。",
+    "others_honest": "玩家 #{challenger} 对玩家 #{blocker} 的 {card} 阻止进行了质疑并失败了。玩家 #{blocker} 确实有一张 {card}，将其放回牌堆并抽取了一张新卡片。玩家 #{challenger} 失去了 1 张 {lost} 并且有 {n} 张卡片剩余。",
     "blocker_liar": "Player #{challenger} 对你的 {card} 阻挡提出了质疑。由于你没有 {card}，你失去了一张 {lost}，还剩 {n} 张卡牌。",
     "challenger_liar": "你对 Player #{blocker} 的 {card} 阻挡的质疑成功了！他们没有 {card}。他们失去了一张 {lost}，还剩 {n} 张卡牌。",
-    "others_liar": "Player #{challenger} 成功质疑了 Player #{blocker} 的 {card} 阻挡。Player #{blocker} 没有 {card}，失去了一张 {lost}，还剩 {n} 张卡牌。"
+    "others_liar": "玩家 #{challenger} 成功地对玩家 #{blocker} 的 {card} 阻止进行了质疑。玩家 #{blocker} 没有 {card}，失去了 1 张 {lost} 并且有 {n} 张卡片剩余。"
   },
   "ex": {
     "kept_one": "你已完成交换，保留了：{card}",
@@ -161,10 +161,10 @@
   "hl": {
     "won": "Player #{winner} 获胜了！",
     "turn": "轮到 Player #{pid} 了",
-    "query_block": "Player #{source} 正在尝试 {action}{target}，询问 Player #{pid} 是否想要阻挡/质疑。",
+    "query_block": "玩家 #{source} 正在尝试 {action}{target}，询问玩家 #{pid} 是否要阻止/质疑。",
     "target_on": " 针对 Player #{target}",
     "target_from": " 从 Player #{target}",
-    "query_challenge_blocker": "Player #{blocker} 正在对 Player #{source} 进行 {block}，询问 Player #{pid} 是否想要质疑该阻挡。",
+    "query_challenge_blocker": "玩家 #{blocker} 正在对玩家 #{source} 进行 {block}，询问玩家 #{pid} 是否要质疑阻止者。",
     "query_keep": "Player #{source} 正在尝试交换，询问他们想要保留哪些。"
   }
 }

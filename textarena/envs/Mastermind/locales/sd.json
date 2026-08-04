@@ -13,7 +13,7 @@
     "repeated_guess": "توھان اڳ ۾ ئي اندازو لڳايو آھي {guess}. مھرباني ڪري مختلف اندازو لڳائڻ جي ڪوشش ڪريو."
   },
   "game_action": {
-    "feedback": "Submitted [{guess}]. Feedback: {black_pegs} black peg(s), {white_pegs} white peg(s)."
+    "feedback": "جمع ڪيل [{guess}]. فيڊبيڪ: {black_pegs} بليڪ پگ، {white_pegs} وائيٽ پگ."
   },
   "outcome": {
     "win": "توهان جي ڪوڊ cracked ڪيو آهي، صحيح {black_pegs} ٻاهر {code_length} pegs حل",

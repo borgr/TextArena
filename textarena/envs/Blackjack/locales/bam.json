@@ -9,10 +9,10 @@
     "wrong_format": "A bɛ sɔrɔ fɛ. Ca '[Hit]' wa '[Stand]'."
   },
   "game_message": {
-    "hand_result": "Hand {hand_number}: you {outcome}. Your final {player_score}, Dealer {dealer_score}.",
-    "all_complete": "=== All {num_hands} hands complete ===\nWins: {wins}, Losses: {losses}, Draws: {draws}\n"
+    "hand_result": "Kɔnɔ {hand_number}: i {outcome}. I ka poin {player_score}, Dealer {dealer_score}.",
+    "all_complete": "=== Dɔɔni {num_hands} bɛɛ kɔnɔ ===\nKɛlɛ: {wins}, Kalan: {losses}, Tɛgɛ: {draws}\n"
   },
   "outcome": {
-    "game_over": "The game has concluded. Final scores: Dealer: {losses}, You: {wins}, Draws: {draws}"
+    "game_over": "Jɛri kɔnɔna. Kɔɔri dɛmɛnw: Jɛri tigi: {losses}, I: {wins}, Tɛgɛ: {draws}"
   }
 }

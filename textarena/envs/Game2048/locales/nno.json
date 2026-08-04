@@ -6,7 +6,7 @@
     "current_board": "Poeng: {score}\n{board}"
   },
   "invalid_move": {
-    "invalid_action": "Invalid action. Use '[Up]'/'[Down]'/'[Left]'/'[Right]'.",
+    "invalid_action": "Ugyldig handling. Bruk '[Up]'/'[Down]'/'[Left]'/'[Right]'.",
     "no_change": "Styret endra ikkje -- det valde ein annan retning."
   },
   "outcome": {

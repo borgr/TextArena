@@ -27,7 +27,7 @@
     "drew": "Wyciągnōłś: {card}\nTeraz musisz [swap X Y] abo [discard]",
     "took": "Wziōnś: {card} z kupy ôdciepnyć Musisz [swap X Y] ze tym (niy możesz ôddŏwać).",
     "peeked": "Spójrzōłś na pozycyji ({row},{col}): {card}",
-    "turn_view": "Your hand:\n{hand}\nDiscard pile: {discard}\n{options}",
+    "turn_view": "Twojo rynka:\n{hand}\nŚmietnik: {discard}\n{options}",
     "none": "Niy ma."
   },
   "options": {
@@ -43,7 +43,7 @@
   },
   "action_desc": {
     "swapped": "Graczojz {pid} wymiyńōł {new} z {old} na pozycyji ({row},{col})",
-    "discarded": "Player {pid} discarded {card}"
+    "discarded": "Szpiler {pid} wyrzucił {card}"
   },
   "message": {
     "deck_empty": "Deka je prōzno! Gry kōńczōm sie terŏz.",
@@ -71,7 +71,7 @@
     "line": "Graczojz {pid}: {score} punktōw\n"
   },
   "board_str": {
-    "title": "=== GOLF GAME ===",
+    "title": "=== SZPIL GOLFA ===",
     "discard": "Zrōżka ôdciepowo: {card}",
     "knocked": "Gracz {pid} zaklupoł!",
     "player_header": "Graczojz {pid} (Wynik: {score}):"

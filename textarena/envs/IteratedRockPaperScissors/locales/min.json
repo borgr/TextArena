@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a {num_rounds}-round Rock-Paper-Scissors game.\nYour goal is to win as many rounds as possible.\nIn each round, respond with one of: '[rock]', '[paper]', or '[scissors]'.\nYou may also use '[r]', '[p]', or '[s]' as shorthand.\n"
+    "intro": "Anda adolah Pemain {player_id} dalam pamainan Batu-Gunting-Kertas nan bajumlah {num_rounds} ronde.\nTujuan Anda adolah mamanangkan ronde sebanyak mungkin.\nDalam satiok ronde, tanggapi jo salah satu: '[rock]', '[paper]', atau '[scissors]'.\nAnda buliah juo manggunoan '[r]', '[p]', atau '[s]' sabagai singkatan.\n"
   },
   "invalid_move": {
     "wrong_format": "Gerakan indak dikenal. Gunakan [rock], [paper], atau [scissors]."

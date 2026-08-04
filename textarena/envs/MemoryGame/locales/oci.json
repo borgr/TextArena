@@ -13,8 +13,8 @@
     "already_matched": "Movement invalid. Lo jogaire {player_id} causís una o ambedoas cartas que son ja empegadas."
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "Las cartas seleccionadas pel Joueur {player_id} a las posicions [{r1} {c1}] e [{r2} {c2}] correspondon!",
+    "cards_no_match": "Las cartas seleccionadas pel Jocator {player_id} correspondon pas. Las cartas als emplaçaments [{r1} {c1}] e [{r2} {c2}] son {pos1} e {pos2} respectivament."
   },
   "outcome": {
     "draw": "Ambedos jogaires empegèron lo meteis nombre de pèiras.",

@@ -11,7 +11,7 @@
     "{groups}": "Neutral ranking data (a list of player-id groups, worst to best); do not translate"
   },
   "player_prompt": {
-    "intro": "{num_players}-Player Snake on a {width}×{height} grid.\nYou control snake {player_id}. Valid moves: '[up]'/'[down]'/'[left]'/'[right]' (or w/s/a/d).\nObjective: survive longest or be the longest and get the highest score (turn limit {max_turns} turns)."
+    "intro": "Nyoka wa {num_players}-Wachezaji kwenye gridi ya {width}×{height}.\nUnadhibiti nyoka {player_id}. Misogezo halali: '[up]'/'[down]'/'[left]'/'[right]' (au w/s/a/d).\nLengo: kuishi muda mrefu zaidi au kuwa mrefu zaidi na kupata alama ya juu zaidi (kikomo cha zamu {max_turns} zamu)."
   },
   "board": {
     "current": "Wupu Wakulongozga: {board}",
@@ -21,9 +21,9 @@
     "invalid_death": "Njoka {player_id} yikafwa cifukwa ca kusunthika kwambura kupulikira."
   },
   "outcome": {
-    "survived_win": "Player {player_id} survived; all others perished.",
+    "survived_win": "Mchezaji {player_id} aliishi; wengine wote walifariki.",
     "all_dead_simul": "Njoka zose zikafwa nyengo yimoza.",
-    "outlived": "Player outlived all others.",
+    "outlived": "Mchezaji aliishi muda mrefu kuliko wengine wote.",
     "all_dead": "Njoka zose zikafwa.",
     "turn_limit": "Para nyengo ya kuzgoka kwa chigaŵa ichi yakwana, wose awo ŵafika pa malo ghakwenelera ndiwo ŵakutonda.",
     "ranking": "{reason} Malinga a kuwonga (wabaya→wodzi): {groups}"

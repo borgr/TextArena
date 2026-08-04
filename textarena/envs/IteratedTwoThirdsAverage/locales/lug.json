@@ -7,7 +7,7 @@
     "out_of_range": "Okuteeba kulina okubeera wakati wa {min_guess} ne {max_guess}."
   },
   "message": {
-    "round_guesses": "Player 0 guessed {guess0}; Player 1 guessed {guess1}. Thus the Target is: {target}.",
+    "round_guesses": "Muzannyi 0 yakolwa {guess0}; Muzannyi 1 yakolwa {guess1}. Kwa ngeri eyo Ekiruubirirwa kye: {target}.",
     "round_draw": "Ekitundu kye kimu.",
     "round_win": "Omuzannyi {winner} awangula omupiira!"
   },

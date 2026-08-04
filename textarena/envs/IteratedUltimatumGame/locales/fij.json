@@ -21,23 +21,23 @@
     "{total}": "Each player's tied final total (a number)"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id}, playing {num_rounds} rounds of Iterated Ultimatum Game.\nYou have ${pool} to split this round between yourself and Player {other_id}.\n\nProposer:\n  - Make an offer: [Offer: $X] (0 <= X <= pool)\n  - If accepted → You get $(pool - X), other player gets $X\n  - If rejected → Both get $0\n  - Example: [Offer: $3]  or  'I think this is fair. [Offer: $5]'\n\nResponder:\n  - Decide on the offer with either [Accept] or [Reject]\n  - Example: 'That seems reasonable. [Accept]'\n            'Too unfair. [Reject]'\n"
+    "intro": "O iko na Daunipote {player_id}, e qito tiko {num_rounds} na raundi ni Iterated Ultimatum Game.\nO sa tiko ${pool} me baleta na kena i wase kina kila raundi kei na Daunipote {other_id}.\n\nProposer:\n  - Vakayagataki e dua na tauri: [Offer: $X] (0 <= X <= pool)\n  - Kevaka e vakadonui → O rawata $(pool - X), daunipote tale rawata $X\n  - Kevaka e vakacala → Kila daunipote rawata $0\n  - Ivakaraitaki: [Offer: $3]  se  'Au nanuma ni dina qo. [Offer: $5]'\n\nResponder:\n  - Vakadonui se vakacala na tauri kei na [Accept] se [Reject]\n  - Ivakaraitaki: 'Qo sa dina sara. [Accept]'\n            'Qo sa cala sara. [Reject]'\n"
   },
   "round": {
-    "begins": "--- Round {round_number} e start! ---\nPlayer {proposer_id} e Proposer, Player {responder_id} e Responder.",
-    "offer": "Round {round_number}: Player {proposer_id} e ${offer} me baleta Player {responder_id} (e ${keep} me baleta koya).",
-    "accepted": "Player {responder_id} accepted! Round {round_number} gains: Player {proposer_id} +${proposer_gain}, Player {responder_id} +${responder_gain}. New totals: Player 0: ${total_0}, Player 1: ${total_1}.",
-    "rejected": "Player {responder_id} a lekaleka na iyaloyalo! Round {round_number} na ilavo: Eratou +$0. Na naba e tiko: Player 0: ${total_0}, Player 1: ${total_1}."
+    "begins": "--- Na raundi {round_number} sa qai! ---\nDaunipote {proposer_id} sa proposer, Daunipote {responder_id} sa responder.",
+    "offer": "Na raundi {round_number}: Daunipote {proposer_id} sa tauri ${offer} ki na Daunipote {responder_id} (sa tauri tu ${keep}).",
+    "accepted": "Daunipote {responder_id} sa vakadonui! Na raundi {round_number} sa rawata: Daunipote {proposer_id} +${proposer_gain}, Daunipote {responder_id} +${responder_gain}. Na iyau vou: Daunipote 0: ${total_0}, Daunipote 1: ${total_1}.",
+    "rejected": "Daunipote {responder_id} sa vakacala na tauri! Na raundi {round_number} sa rawata: Kila daunipote +$0. Na iyau sa tiko ga: Daunipote 0: ${total_0}, Daunipote 1: ${total_1}."
   },
   "invalid_move": {
     "no_offer_format": "Na tamata e solia na vakatutu me cakava ena kena vakayagataki na ivakarau [Offer: $X].",
     "bad_integer": "Na levu ni ilavo e soli me dua na iwiliwili taucoko.",
     "out_of_range": "Na ilavo e soli me tiko ena maliwa ni $0 kei na ${pool}.",
     "no_current_offer": "Sega ni dua na ka e soli me saumi.",
-    "accept_or_reject": "Responder must either [Accept] or [Reject] the offer."
+    "accept_or_reject": "Responder me [Accept] se [Reject] na tauri."
   },
   "outcome": {
-    "win": "Player {winner} a wini ${winner_total} ni totolo kei Player {loser} ${loser_total}.",
+    "win": "Daunipote {winner} sa qalovi kei na ${winner_total} na iyau ni ilavo, Daunipote {loser} sa cala kei na ${loser_total}.",
     "draw": "E rau sa rawata ruarua na dauqito ${total} ena iwiliwili taucoko."
   }
 }

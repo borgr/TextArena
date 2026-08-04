@@ -27,7 +27,7 @@
     "drew": "Tai pitidu: {card}\nAra devi [swap X Y] o [discard] lu.",
     "took": "As leadu: {card} dae sa pila de iscadèntzia Deves [swap X Y] cun issa (non podes iscarrigare).",
     "peeked": "Tai controlladu in positzione ({row},{col}): {card}",
-    "turn_view": "Your hand:\n{hand}\nDiscard pile: {discard}\n{options}",
+    "turn_view": "Sa tua manu:\n{hand}\nPila de scartu: {discard}\n{options}",
     "none": "Nemos, mancu unu."
   },
   "options": {
@@ -71,7 +71,7 @@
     "line": "Giogadore {pid}: {score} puntos\n"
   },
   "board_str": {
-    "title": "=== GOLF GAME ===",
+    "title": "=== GIOGU DE GOLF ===",
     "discard": "Pianta de iscadèntzia: {card}",
     "knocked": "Su giogadore {pid} at tocadu!",
     "player_header": "Giogadore {pid} (Puntuatzione: {score}):"

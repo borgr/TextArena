@@ -27,7 +27,7 @@
     "begins": "--- Maitiro {round_number} yanovatenga! ---\nMushandisi {proposer_id} ndiye mubatsiri, Mushandisi {responder_id} ndiye mushandisi wechiperi.",
     "offer": "Maitiro {round_number}: Mushandisi {proposer_id} anatengesa ${offer} kwaMushandisi {responder_id} (akabata ${keep}).",
     "accepted": "Mushandisi {responder_id} wakachema! Maitiro {round_number} anotenga: Mushandisi {proposer_id} +${proposer_gain}, Mushandisi {responder_id} +${responder_gain}. Makumi mapya: Mushandisi 0: ${total_0}, Mushandisi 1: ${total_1}.",
-    "rejected": "Player {responder_id} rejected the offer! Round {round_number} gains: Both players +$0. Totals remain: Player 0: ${total_0}, Player 1: ${total_1}."
+    "rejected": "Mutambo {responder_id} akaramba chipo!  Muzhindu {round_number} mubairo: Vatambi vese +$0.  Zvichenesa zvinosara: Mutambo 0: ${total_0}, Mutambo 1: ${total_1}."
   },
   "invalid_move": {
     "no_offer_format": "Anopa chikumbiro anofanira kuita chipo achishandisa fomati [Offer: $X].",

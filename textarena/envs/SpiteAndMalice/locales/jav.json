@@ -19,7 +19,7 @@
   },
   "invalid_move": {
     "wrong_format": "Format pamindhahan ora valid. Pemain {player_id} durung nanggapi kanthi pamindhahani sing bener ing kurung persegi.",
-    "invalid_play": "Main sing ora sah. Pemain {player_id} nyoba main {card} ing tumpukan tengah {index}.",
+    "invalid_play": "Mainake kartu salah. Pemain {player_id} njajal mainake {card} ing tumpukan tengah {index}.",
     "discard_from_payoff": "Pamundhutan ora sah. Pemain {player_id} nyoba mbuwang kertu saka tumpukan pembayaran .",
     "discard_not_in_hand": "Pamundhutan ora sah. Pemain {player_id} nyoba mbuwang kertu sing ora ana ing tangan kasebut.",
     "wrong_move_type": "Jinis pamindhahan ora sah. Pemain {player_id} durung nanggapi kanthi jinis pamindhahanipun sing bener."

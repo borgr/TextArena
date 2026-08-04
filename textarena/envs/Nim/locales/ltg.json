@@ -13,7 +13,7 @@
     "exceeds_pile": "Nevar noņemt {quantity} no krājuma {pile_index} (atlikušie ir tikai {pile_count})."
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "Spēlētājs {player_id} spēlēja [{pile_index} {quantity}], noņemot {quantity} objektu(s) no kaudzes {pile_index}."
   },
   "outcome": {
     "win": "Spālātuojs {player_id} pajims pādejuo objekta (((s)!"

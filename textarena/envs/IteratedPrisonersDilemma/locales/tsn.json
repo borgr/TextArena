@@ -9,7 +9,7 @@
   },
   "outcome": {
     "winner": "Mmoki {winner} a fenya {win_score} - {lose_score}.",
-    "draw": "Draw! Both players scored {s0}.",
+    "draw": "Kgaisano! Batsamaisi ba babedi ba amogile {s0}.",
     "round_both_cooperate": "Badiri ka bobedi ba ne ba dirisana mmogo.",
     "round_both_defect": "Batshameki ka bobedi ba ne ba ngwega.",
     "round_p0_cooperates_p1_defects": "Motshameki 0 o ne a dirisana mmogo, mme motshameki 1 ene ga a ka a dira jalo.",

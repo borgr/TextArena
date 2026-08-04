@@ -14,7 +14,7 @@
   },
   "message": {
     "tie": "Бертигез бәяләр кире кайтарылды.",
-    "auction_result": "P0 bid {bid0}, P1 bid {bid1}. Player {winner} wins prestige {prize} (total {total})."
+    "auction_result": "P0 {bid0} тәкъдим итте, P1 {bid1} тәкъдим итте. {winner} уйнаучысы {prize} престиж отты (барлыгы {total})."
   },
   "outcome": {
     "p0_wins": "Тулай байлык {nw0} > {nw1}",

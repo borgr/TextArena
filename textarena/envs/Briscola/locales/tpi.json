@@ -22,7 +22,7 @@
     "start": "Gem Briscola i stat! Trump suit: {trump_suit} (Trump kard: {trump_card})"
   },
   "prompt": {
-    "intro": "You are playing Briscola - Player {player_id}.\nGoal: Win tricks and collect the most points (120 total points in the deck).\nCard Points: A=11, 3=10, K=4, Q=3, J=2, others=0\nCard Power: A > 3 > K > Q > J > 7 > 6 > 5 > 4 > 2\nTrump cards beat non-trump cards regardless of power.\n\nAction: '[play X]' where X is the position (1-{max_pos}) of the card in your hand\n"
+    "intro": "Yu plei Briscola - Pleia {player_id}.\nGol: Winim trik na kolektim point i antap (120 point i stap long dek).\nPoint bilong kad: A=11, 3=10, K=4, Q=3, J=2, narapela=0\nPawa bilong kad: A > 3 > K > Q > J > 7 > 6 > 5 > 4 > 2\nKad tramp i winim kad nating sut long pawa.\n\nAksen: '[play X]' we X i namba bilong ples (1-{max_pos}) bilong kad long han yu\n"
   },
   "hand": {
     "none": "No gat ol kat.",
@@ -39,7 +39,7 @@
   "turn": {
     "score_entry": "Pleya {player_id}: {points} pts",
     "trump_info": "Trump i putim: {trump_suit}",
-    "trump_info_deck": "Trump suit: {trump_suit} | Cards left in deck: {deck_count}",
+    "trump_info_deck": "Sut tramp: {trump_suit} | Kad i stap long dek: {deck_count}",
     "board": "{hand}\n\n{trick}\n\nSkor: {scores}\n{trump_info}\n\nPley kard usim [play X]"
   },
   "invalid_move": {

@@ -16,17 +16,17 @@
     "{cards}": "The cards in a pile as neutral labels, or '--' if empty (never translate)"
   },
   "player_prompt": {
-    "intro": "O n ṣere Solitaire Klondike. Ọna re ni lati mu kaadi gbogbo lo si ipile ifowopamo.\n\nOfin Ẹrọ:\n- Ipile ifowopamo (F1-F4): Gba lati Ace de King ninu agbada\n- Ipile itable (T1-T7): Gba sori ni awon okun irawo (bulu lonu dudu, dudu lonu funfun)\n- Ifowopamo: Sa kaadi lo si ipile ikoko\n- Ikoko (W): Kaadi to ga julọ ti o wa fun ṣere\n\nAṣẹ:\n- 'sa' - Sa kaadi lati ifowopamo lo si ikoko\n- 'mu <ori> <ipade> [count]' - Mu kaadi laarin awon ipile\n  Aṣẹ: 'mu W T1', 'mu T1 F2', 'mu T3 T5 2'. iye kaadi ti o le 'gbogbo', ti yio ṣe atunṣe gbogbo awon kaadi to ga julọ.\n- 'yọ' - Pari ẹrọ naa gbangba ati ṣeto ọna re yẹẹ.\n- Oruko ipile: W (ikoko), F1-F4 (ifowopamo), T1-T7 (itable)\n\nO le ṣe amọṣẹ multiple ninu ọkan ṣe pẹlu kọmọṣẹ:\n  Aṣẹ: 'sa, mu W T1, mu T2 F1'\n\nBakanna ni ṣọṣọ ti a le fi si ipile itable to kẹhìn.\nAṣẹ ṣe ni ọdọ - ti eyi ko ṣe alẹ, awon aṣẹ miiran yio ṣọṣọ.\nAmọ ṣe 'yọ' ti o ba gbagbo pe ẹrọ naa ko ṣe ṣeṣe lati gba."
+    "intro": "O ń ṣeré Klondike Solitaire. Èrò rẹ̀ ni láti gbé gbogbo kárí sí ìṣẹ̀lẹ̀ ìgbésẹ̀.\n\nÌlànà Ìṣẹ̀lẹ̀:\n- Ìṣẹ̀lẹ̀ ìgbésẹ̀ (F1-F4): Kọ́ọ̀wé láti Ace sí King nínú àwọn àgbéwọ̀\n- Ìṣẹ̀lẹ̀ oríṣiríṣi (T1-T7): Kọ́ọ̀wé láti òkè sí ìsàlẹ̀ nínú àwọn àgbéwọ̀ aláìní (pupa lórí dúdú, dúdú lórí pupa)\n- Stock: Gbé kárí sí ìṣẹ̀lẹ̀ ìgbésẹ̀\n- Waste (W): Kárí tí ó ku nínú ìṣẹ̀lẹ̀\n\nÌlànà:\n- 'draw' - Gbé kárí láti stock sí waste\n- 'move <source> <destination> [count]' - Gbé kárí láti ìṣẹ̀lẹ̀ kan sí ìṣẹ̀lẹ̀ mìíràn\n  Àpẹẹrẹ: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count pẹ̀lú le jẹ 'all', èyí tí yó gbìyànjú láti gbé gbogbo kárí.\n- 'forfeit' - Fagilé ìṣẹ̀lẹ̀ lẹ́sẹ̀kẹsẹ̀ àti fi ìṣẹ̀lẹ̀ rẹ̀ lọ́wọ́lọ́wọ́\n- Orúkọ ìṣẹ̀lẹ̀: W (waste), F1-F4 (ìṣẹ̀lẹ̀ ìgbésẹ̀), T1-T7 (ìṣẹ̀lẹ̀ oríṣiríṣi)\n\nO le ṣe ìṣẹ̀lẹ̀ púpọ̀ nínú ìṣẹ̀lẹ̀ kan pẹ̀lú lílọ̀ àwọn ìlànà pọ̀ mọ́ àmì kọ́mà:\n  Àpẹẹrẹ: 'draw, move W T1, move T2 F1'\n\nNíkan Kings le wà lórí ìṣẹ̀lẹ̀ oríṣiríṣi tí ó ṣì.\nÌṣẹ̀lẹ̀ ṣe nínú ìtẹ́lẹ̀ - tí ó bá ṣe àìṣe, àwọn ìṣẹ̀lẹ̀ tó ku yóò ṣẹ̀."
   },
   "format_error": {
     "no_brackets": "Àkọlé ìgbésẹ̀ tí kò bá tọ́. Ìgbésẹ̀ náà gbọ́dọ̀ wà nínú àlàfo.",
     "no_closing_bracket": "Àkọlé ìṣe tí kò bágbà mu. Àkọlé ìparí tí kò sí ']'",
-    "empty_command": "Àṣẹ òfo. Kọ 'fa' tabi 'fi <orísun> <ibi tí a ti ń lọ> [count]'",
+    "empty_command": "Ìlànà tí ó ṣì. Tẹ 'draw' tàbí 'move <source> <destination> [count]'",
     "empty_action": "Ìṣe tí kò ní nǹkan",
     "move_needs_args": "Àṣẹ gbigbe nílò orísun àti ibi tí ó ń lọ. Ìlò: 'move <orísun> <ibi tí ó ń lọ> [count]'",
-    "count_positive": "Ìṣírò náà gbọ́dọ̀ jẹ́ èyí tó dára tàbí \"gbogbo\"",
-    "count_invalid": "Àkójọ tí kò bágbà mu. Lo iye kan tàbí 'gbogbo'",
-    "unknown_command": "Àṣẹ tí a kò mọ̀ '{cmd}'. Lo 'fa', 'fi <orísun> <ibi tí ó lọ> [count]', tàbí 'fi'",
+    "count_positive": "Nọ́mbà gbọdọ̀ jẹ́ aláìní tàbí 'all'",
+    "count_invalid": "Nọ́mbà àìṣe. Lílò: nọ́mbà tàbí 'all'",
+    "unknown_command": "Ìlànà àìmọ̀ '{cmd}'. Lílò: 'draw', 'move <source> <destination> [count]', tàbí 'forfeit'",
     "wrapped": "Ìṣe {n}: {msg}"
   },
   "action_result": {

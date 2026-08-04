@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are solving the Sokoban puzzle. You are the player and you need to push all boxes to targets.\n        When you are right next to a box, you can push it by moving in the same direction.\n        You cannot push a box through a wall, and you cannot pull a box.\n        On the board, objects are represented as: \n        - The player (you) appears as 'P' \n        - Walls are represented with '#' \n        - Boxes are marked as 'X' \n        - Empty goals are shown with a 'O'\n        - Boxes on goals are visualized with '√'\n        You can also use [w] for up, [a] for left, [s] for down, and [d] for right.\n        "
+    "intro": "سىز سوكوبان تېپىش مەسىلىسىنى ھەل قىلىۋاتىسىز. سىز ئويۇنچى ۋە سىز بارلىق قۇتىلارنى نىشانلارغا تېپىشىڭىز كېرەك.\n        سىز قۇتىنىڭ يېنىدا تۇرغان ۋاقتىڭىزدا، سىز ئۇنىڭغا ئوخشاش يۆنىلىشتە يۈرۈش قىلىپ تېپەلەيسىز.\n        سىز قۇتىنى دېۋاردىن ئۆتكۈزەلمەيسىز، ۋە سىز قۇتىنى تارتالمايسىز.\n        تاختادا، نەرسىلەر مۇنداق كۆرسىتىلگەن: \n        - ئويۇنچى (سىز) 'P' شەكلىدە كۆرۈنىدۇ \n        - دېۋارلار '#' بىلەن كۆرسىتىلگەن \n        - قۇتىلار 'X' بىلەن بەلگىلەنگەن \n        - بوش نىشانلار 'O' بىلەن كۆرسىتىلگەن\n        - نىشانلاردىكى قۇتىلار '√' بىلەن كۆرۈنىدۇ\n        سىز يەنە [w] يۇقىرى، [a] سول، [s] تۆۋەن، ۋە [d] ئوڭغا يۈرۈش قىلىش ئۈچۈن ئىشلەتسىڭىز بولىدۇ.\n        "
   },
   "board": {
     "current_board": "ھازىرقى تەكىتەك:\n\n{board}\nئىشقا چىقىرغىلى بولىدىغان قەدەملەر: {moves}"
@@ -12,7 +12,7 @@
     "invalid_position": "-- بۇ ئورۇنغا يۆتكىلىش مۇمكىن ئەمەس."
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
+    "moved": "سىز {pushed} يۈرۈش قىلدىڭىز [{action}].",
     "pushed_prefix": "بىر ساندۇقنى ئىتتىرىۋەتتىم."
   },
   "outcome": {

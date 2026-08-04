@@ -7,10 +7,10 @@
     "board_state": "Negara dewan: {board}"
   },
   "invalid_move": {
-    "wrong_format": "Format move nénten valid. Pamain {player_id} nenten nyaurin antuk 'nomer kolom baris' sané patut.",
-    "out_of_bounds": "Gerakan tidak sah. Pemain {player_id} mencoba meletakkan {num} di ({row}, {col}), yang berada di luar batas.",
-    "overwrite": "Gerakan tidak sah. Pemain {player_id} mencoba menimpa sel yang sudah terisi sebelumnya ({row}, {col}).",
-    "violates_rules": "Gerakan tidak sah. Pemain {player_id} mencoba meletakkan {num} di ({row}, {col}), yang melanggar aturan Sudoku."
+    "wrong_format": "Format langkah tusing sah. Pemain {player_id} nenten merespon nganggén format 'baris kolom angka' sané sah.",
+    "out_of_bounds": "Langkah tusing sah. Pemain {player_id} ngusaha ngisi {num} ring ({row}, {col}), sané nenten wénten ring wates.",
+    "overwrite": "Langkah tusing sah. Pemain {player_id} ngusaha ngewahi sel sané sampun keisi ({row}, {col}).",
+    "violates_rules": "Langkah tusing sah. Pemain {player_id} ngusaha ngisi {num} ring ({row}, {col}), sané nglanggar aturan Sudoku."
   },
   "outcome": {
     "win": "Sugeng tanggap warsa! Pamain {player_id} muputang teka-teki Sudoku.",

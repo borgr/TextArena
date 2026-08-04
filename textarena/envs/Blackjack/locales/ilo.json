@@ -9,10 +9,10 @@
     "wrong_format": "Saanko ti aksion. Usaren '[Hit]' wenno '[Stand]'."
   },
   "game_message": {
-    "hand_result": "Hand {hand_number}: you {outcome}. Your final {player_score}, Dealer {dealer_score}.",
+    "hand_result": "Ilimo {hand_number}: nag{outcome}ka. Ti naudi a {player_score}mo, Dealer {dealer_score}.",
     "all_complete": "=== Amin a {num_hands} kamot ket nakompleto ===\nNangabak: {wins}, Ntalina: {losses}, Panta: {draws}\n"
   },
   "outcome": {
-    "game_over": "The game has concluded. Final scores: Dealer: {losses}, You: {wins}, Draws: {draws}"
+    "game_over": "Naipasardeng ti ayatam. Naudi nga iskor: Dealer: {losses}, Sika: {wins}, Tabla: {draws}"
   }
 }

@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "Keng gülleger Zuchformat fonnt. Benotzt [a1b2], z. B. [b2c3].",
-    "illegal": "Move [{move}] is illegal."
+    "illegal": "De Zuch [{move}] ass net erlaabt."
   },
   "game_action": {
     "moved": "De Spiller {player_id} huet geplënnert {move}."

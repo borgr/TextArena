@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing the Minesweeper game.\nThe objective of the game is to reveal all cells that do not contain mines.\nTo make a move, simply specify the row and column coordinates you want to reveal using the format:\n- `[row col]`: Reveal the cell at the specified row and column.\nFor example:\n- `[3 2]` to reveal the cell in Row 3, Column 2.\n- `[5 6]` to reveal the cell in Row 5, Column 6.\nOn your first move, you will reveal an area around the cell you choose to ensure a safe start.\nThe current board layout is shown below. Cells that are unrevealed are represented by a dot ('.'), revealed numbers show the count of adjacent mines.\nBe mindful not to choose already revealed cells.\nHere is the current board layout:\n"
+    "intro": "Сиз Minesweeper оюнун ойноп жатасыз.\nОюнун максаты - минасыз бардык клеткаларды ачуу.\nБир жылдызды жасоо үчүн, жөн гана ачууну каалаган катар жана багыт координаталарын мындай форматта көрсөтүңүз:\n- `[row col]`: Белгиленген катар жана багыттагы клетканы ачуу.\nМисалы:\n- `[3 2]` 3-катар, 2-багыттагы клетканы ачуу үчүн.\n- `[5 6]` 5-катар, 6-багыттагы клетканы ачуу үчүн.\nБиринчи жылдызда, сиз тандаган клетканын айланасындагы аймакты ачып, коопсуз башталышты камсыз кыласыз.\nАзыркы тактанын композициясы төмөн көрсөтүлгөн. Ачылбаган клеткалар чекит ('.') менен белгиленген, ачылган сандар жакынкы миналардын санын көрсөтөт.\nМурда ачылган клеткаларды тандабооңуз.\nБул азыркы тактанын композициясы:\n"
   },
   "board": {
     "game_board": "Оюн тактасы: {board}",
@@ -17,6 +17,6 @@
   },
   "outcome": {
     "win": "Куттуктайм, сиз \"Мина сүртгүч\" тактасын ийгиликтүү тазаладыңыз.",
-    "turn_limit": "The turn limit has been reached. You successfully uncovered {percent}% of the safe cells."
+    "turn_limit": "Жүрүү чеги жетти. Сиз коопсуз жылдыздардын {percent}%ин ийгиликтүү ачып бердиңиз."
   }
 }

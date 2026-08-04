@@ -3,11 +3,11 @@
     "current_board": "Jamanakuntigi: {board}"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} playing a game of Checkers as {color}.\nMake your move in chess-style notation [fileRank fileRank], e.g. '[b2c3]' (column letter a–h, row digit 0–7).\nBasic rules:\n  • Move diagonally forward by 1 if empty.\n  • Capture by jumping over an opponent piece.\n  • A piece is Kinged if it reaches the opposite end.\n"
+    "intro": "I ye Jwɛ̈rɛ {player_id} ka taa lajɛlɛ kɔnɔ Checkers ɲini {color}.\nKɛlɛ kelen kɔ kɔnɔ sɛbɛnɛ-fɔlɔ dondɔ [fileRank fileRank], nɔgɔ. '[b2c3]' (kɔlɔn kɔrɔ a–h, kɔlɔn sɛgɛ 0–7).\nKulujulan na:\n  • Sɔrɔ kɔnɔ kɔlɔn kɔnɔnɛnɛ fɔlɔ kelen ye kɔlɔn kɔnɔnɛnɛ ma.\n  • Dɔrɔ kɛlɛ ka jɔnɔ kɔnɔnɛnɛ kɔlɔn kɔnɔnɛnɛ kan.\n  • Kɛlɛ kelen ye Fama ye kɔlɔn kɔnɔnɛnɛ kɔlɔn kɔnɔnɛnɛ kɔnɔ."
   },
   "invalid_move": {
-    "wrong_format": "No valid move format found. Use [a1b2], e.g. [b2c3].",
-    "illegal": "Move [{move}] is illegal."
+    "wrong_format": "Kɛlɛ kɔrɔ ka notation ma ɲɛ. Kɛlɛ [a1b2], nɔgɔ. [b2c3].",
+    "illegal": "Kɛlɛ [{move}] ma kɔnɔ."
   },
   "game_action": {
     "moved": "Jurusalobaga {player_id} y'a ta ka taga ni a ye {move}."

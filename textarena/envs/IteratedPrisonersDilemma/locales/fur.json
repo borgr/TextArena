@@ -1,11 +1,11 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in an Iterated Prisoner's Dilemma spanning {num_rounds} rounds.\n\nGame Structure:\n- Before each decision you have {total_conversation_rounds} turns to communicate freely.\n- After that, both players simultaneously choose to cooperate or defect.\n\nPayoff Matrix (fixed each round):\n- Both Cooperate ➜ each {cooperate_reward}\n- Both Defect ➜ each {mutual_defect_reward}\n- One Defects, one Cooperates ➜ Defector {defect_reward}, Cooperator {sucker_reward}\n\nHow to Play:\n- During conversation: type any text you wish.\n- During decision phase: include '[Cooperate]' or '[Defect]' (case-insensitive). You may add extra text before/after the token."
+    "intro": "Tu sês Zugador {player_id} in un Dileme dal Presonîr Iterât che si davuelç sô {num_rounds} tornadis.\n\nStruture dal Zûc:\n- Prin di ogni decision tu âs {total_conversation_rounds} tornadis par comunicâ libramentri.\n- Dopo, ducj i doi zugadors sielzin contemporaneamentri di cooperâ o di tradî.\n\nMatrice dai Pajaments (fisse ogni tornade):\n- Ducj i doi Cooperin ➜ ognidun {cooperate_reward}\n- Ducj i doi Tradissin ➜ ognidun {mutual_defect_reward}\n- Un Tradìs, un Cooperi ➜ il Traditôr {defect_reward}, il Cooperadôr {sucker_reward}\n\nCemût Zugâ:\n- Durante la conversazion: scrîf il test che tu vûs.\n- Durante la fasi di decision: includi '[Cooperate]' o '[Defect]' (no è impuartant la maiuscole o minuscole). Tu puedis zontâ test adizionâl prin o dopo il token."
   },
   "phases": {
     "conversation_finished": "Conversazion finide par torn {round}. Rispondi par plesê cu '[Cooperate]' o '[Defect]' dentri \\boxed{{}}.",
     "starting_round": "--- Ronde di partence {round} ---",
-    "round_summary": "Round {round} results:\n{outcome}\nPlayer 0 earned {r0} (total {score_0}), Player 1 earned {r1} (total {score_1})."
+    "round_summary": "Risultâts de tornade {round}:\n{outcome}\nIl Zugadôr 0 al à vint {r0} (totâl {score_0}), il Zugadôr 1 al à vint {r1} (totâl {score_1})."
   },
   "outcome": {
     "winner": "Player {winner} vinç {win_score} - {lose_score}.",

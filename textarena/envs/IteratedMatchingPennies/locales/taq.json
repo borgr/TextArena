@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({role}) in a {num_rounds}-round Matching Pennies game.\n- Each round, submit [heads] or [tails] (or [h], [t]).\n- If your choice matches your opponent’s, Player 0 wins the round; otherwise Player 1 wins.\nReply with your choice in the format '[heads]' or '[tails]'.\n"
+    "intro": "Kedda d-iklan {player_id} ({role}) deg wasaɣ {num_rounds} n wassaɣ n uqerru n ifflen.\n- Yal wassaɣ, ɛedda [heads] neɣ [tails] (neɣ [h], [t]).\n- Ma t-ikli-inek t-iɣda, Massa 0 itarza wassaɣ; neɣer Massa 1 itarza.\nɛedda t-iɣda-inek deg usenfar '[heads]' neɣ '[tails]'.\n"
   },
   "invalid_move": {
     "wrong_format": "Talɣa bahra ; sɣid '[heads]' neɣ '[tails]'."

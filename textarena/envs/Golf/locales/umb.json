@@ -21,17 +21,17 @@
     "{scores}": "The pre-rendered per-player list of final scores"
   },
   "player_prompt": {
-    "intro": "You are playing Golf (Card Game) - Player {player_id}.\nGoal: Get the lowest total score in this single round. If columns share the same value, they are summed as 0.\nCard Values: A=1, 2-10=face value, J/Q=10, K=0\n\nActions (use exact brackets):\n- '[draw]' - Draw from deck\n- '[take]' - Take from discard pile\n- '[swap X Y]' - Swap drawn card with position X (row) Y (column)\n- '[discard]' - Discard the drawn card\n"
+    "intro": "Ove uya tala Golf (Ombandi ya Kadi) - Omutala {player_id}.\nOndjokonona: Fikisa ondjambi ya kule nombali mokati kwa rondi iyi. Ihe ombali ya kule nombali ya kule nombali, ove ikwameka kwa 0.\nOmbandi ya Kadi: A=1, 2-10=onombali ya kule nombali, J/Q=10, K=0\n\nOve ikwameka (use ombakwa oya):\n- '[draw]' - Koka oku ya dekki\n- '[take]' - Koka oku ya kadi ya kule\n- '[swap X Y]' - Koka oku ya kadi ya kule na posha X (mbali) Y (kule)\n- '[discard]' - Koka oku ya kadi ya kule\n"
   },
   "board": {
-    "drew": "You drew: {card}\nNow you must [swap X Y] or [discard] it.",
-    "took": "You took: {card} from discard pile\nYou must [swap X Y] with it (cannot discard).",
+    "drew": "Ove koka: {card}\nElo ove ikwameka [swap X Y] kana [discard] oku.",
+    "took": "Ove koka: {card} oku ya kadi ya kule\nElo ove ikwameka [swap X Y] oku (kana ikwameka kule).",
     "peeked": "Omana ku ngolo ({row},{col}): {card}",
     "turn_view": "Lima lyo:\n{hand}\nNgolo ya kupaya: {discard}\n{options}",
     "none": "Ka kuli layimue."
   },
   "options": {
-    "final_turns": "Final turns! Your options: [draw], [take], [peek X Y]",
+    "final_turns": "Ove na rondi za mwisho! Ove ikwameka: [draw], [take], [peek X Y]",
     "draw": "Chaguo lyo: [draw], [take]",
     "must_swap": "O sukila oku: [swap X Y] (oku yuvula oku pesila okokanda posi)",
     "swap_or_discard": "Ove o sukila oku: [swap X Y] ale [discard]"
@@ -42,8 +42,8 @@
     "row": "Ngolo {n}: {cards}"
   },
   "action_desc": {
-    "swapped": "Player {pid} swapped {new} with {old} at position ({row},{col})",
-    "discarded": "Player {pid} discarded {card}"
+    "swapped": "Omutala {pid} koka {new} na {old} oku posha ({row},{col})",
+    "discarded": "Omutala {pid} koka {card} oku"
   },
   "message": {
     "deck_empty": "Ocimunga comanu vocila caco colomapalo, ca liwekapo.",
@@ -54,9 +54,9 @@
     "all_revealed": "Wa situlula hẽ ovikanda viosi a kuatele?"
   },
   "invalid": {
-    "wrong_action": "Use exactly ONE bracketed action: [draw], [take], [swap X Y], [discard], [knock], or [peek X Y]",
+    "wrong_action": "Koka ombakwa oya moja: [draw], [take], [swap X Y], [discard], [knock], kana [peek X Y]",
     "discard_empty": "Okasia yoku kapa ulela, ka ya kuatele vali esilivilo!",
-    "must_draw_first": "You must first [draw], [take], [knock], or [peek X Y]",
+    "must_draw_first": "Elo ove ikwameka koka [draw], [take], [knock], kana [peek X Y]",
     "cannot_discard_taken": "Poku ci linga, ka mu iñila ovava.",
     "have_drawn_card": "Omana kadi. Ona omane [swap X Y] or [discard] iyayo.",
     "need_drawn_swap": "Pole, o sukila oku kuata uloño woku a soneha.",
@@ -67,13 +67,13 @@
     "already_revealed": "Ovikele viaco, via eciwa komanu vosi!"
   },
   "summary": {
-    "full": "Game Over! Player {winner} wins with a score of {score} points!\n\nFinal Scores:\n{scores}",
-    "line": "Player {pid}: {score} points\n"
+    "full": "Ombandi ya Kadi Ihera! Omutala {winner} uya tala nombali ya {score} pointi!\n\nOmbandi ya Kadi ya Mwisho:\n{scores}",
+    "line": "Omutala {pid}: {score} pointi\n"
   },
   "board_str": {
-    "title": "=== GOLF GAME ===",
+    "title": "=== OMBANDI YA GOLF ===",
     "discard": "Oku imba ovikuata viosi posi: {card}",
-    "knocked": "Player {pid} has knocked!",
-    "player_header": "Player {pid} (Score: {score}):"
+    "knocked": "Omutala {pid} uya koka!",
+    "player_header": "Omutala {pid} (Ondjambi: {score}):"
   }
 }

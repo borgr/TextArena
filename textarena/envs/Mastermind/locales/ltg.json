@@ -13,10 +13,10 @@
     "repeated_guess": "Tu jau esi nūmierss {guess}. Lyudzu, paraugi ar cytu īdūšonu."
   },
   "game_action": {
-    "feedback": "Submitted [{guess}]. Feedback: {black_pegs} black peg(s), {white_pegs} white peg(s)."
+    "feedback": "Iesniegts [{guess}]. Atgriezeniskā saite: {black_pegs} melns/melni īstgaliņi, {white_pegs} balts/balti īstgaliņi."
   },
   "outcome": {
-    "win": "You have cracked the code, solving {black_pegs} out of {code_length} pegs correctly",
+    "win": "Jūs esat salauzis kodu, pareizi atminot {black_pegs} no {code_length} īstgaliņiem",
     "turn_limit": "Izruodis limits sasnāgts. Tu pareizi nūminieji {percent} procentus nu skaitļu."
   }
 }

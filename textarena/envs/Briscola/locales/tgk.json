@@ -39,8 +39,8 @@
   "turn": {
     "score_entry": "Бозигар {player_id}: {points} хол",
     "trump_info": "Либоси Трамп: {trump_suit}",
-    "trump_info_deck": "Trump suit: {trump_suit} | Cards left in deck: {deck_count}",
-    "board": "{hand}\n\n{trick}\n\nScores: {scores}\n{trump_info}\n\nPlay a card using [play X]"
+    "trump_info_deck": "Маънои кортҳои бартарӣ: {trump_suit} | Кортҳо дар колода: {deck_count}",
+    "board": "{hand}\n\n{trick}\n\nБаллҳо: {scores}\n{trump_info}\n\nКорти бозӣ кунед бо [play X]"
   },
   "invalid_move": {
     "wrong_format": "Истифодаи [play X], ки дар он X мавқеъи корт аст (1, 2, 3, ва ғайра)",

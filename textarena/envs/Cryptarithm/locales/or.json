@@ -9,10 +9,10 @@
     "{pct}": "Progress as a percentage string, e.g. 50%"
   },
   "player_prompt": {
-    "intro": "Map each letter to a unique digit so the arithmetic holds.\nAssign with `[A 5]`, re-assign anytime.\n"
+    "intro": "ପ୍ରତି ଅକ୍ଷର ଏକ ସ୍ୱତନ୍ତ୍ର ସଂଖ୍ୟା ସହ ମ୍ୟାପ କରନ୍ତୁ ଯାହା ଗଣିତ ଧରି ରାଖିଥାଏ।\n`[A 5]` ସହ ନିୟୋଜିତ କରନ୍ତୁ, ଯେ କୋଣସି ସମୟ ପୁନଃ-ନିୟୋଜିତ କରନ୍ତୁ।\n"
   },
   "invalid_move": {
-    "wrong_format": "Bad action format. Use `[A 5]`.",
+    "wrong_format": "ଭୁଲ କାର୍ଯ ବିନ୍ୟାସ। `[A 5]` ବ୍ୟବହାର କରନ୍ତୁ।",
     "letter_not_in_puzzle": "ଅକ୍ଷର {letter} ପଜଲ ରେ ନାହିଁ.",
     "digit_used": "ଅଙ୍କ {digit} ପୂର୍ବରୁ {used_letter} ଦ୍ବାରା ବ୍ୟବହୃତ ହୋଇଛି ।",
     "leading_zero": "କୌଣସି ଶବ୍ଦର ଅଗ୍ରଭାଗ ଅଙ୍କ ୦ ହୋଇ ପାରିବ ନାହିଁ ।"

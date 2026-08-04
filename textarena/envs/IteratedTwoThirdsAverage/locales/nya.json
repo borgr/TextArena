@@ -7,7 +7,7 @@
     "out_of_range": "Chiyerekezo chiyenera kukhala pakati pa {min_guess} ndi {max_guess}."
   },
   "message": {
-    "round_guesses": "Player 0 guessed {guess0}; Player 1 guessed {guess1}. Thus the Target is: {target}.",
+    "round_guesses": "Mchezaji 0 anauza {guess0}; Mchezaji 1 anauza {guess1}. Choncho, chaguo la Target ndi: {target}.",
     "round_draw": "Kuzungulira ndi kujambula.",
     "round_win": "Wosewera {winner} amapambana pa mpikisano!"
   },

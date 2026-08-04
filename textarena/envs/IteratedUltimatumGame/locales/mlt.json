@@ -24,10 +24,10 @@
     "intro": "Inti Player {player_id}, qed tilgħab {num_rounds} rawnds tal-Iterated Ultimatum Game.\nGħandek ${pool} li għandek taqsimu dan ir-rawnd bejnek u Player {other_id}.\n\nProposer:\n  - Għamel offerta: [Offer: $X] (0 <= X <= pool)\n  - Jekk aċċettat → Inti tirċievi $(pool - X), l-ieħor player jirċievi $X\n  - Jekk irrifjutat → It-tnejn jirċievu $0\n  - Eżempju: [Offer: $3]  jew  'Nħoss li dan hu ġust. [Offer: $5]'\n\nResponder:\n  - Iddisiema dwar l-offerta b' [Accept] jew [Reject]\n  - Eżempju: 'Dan jidher ragonevoli. [Accept]'\n            'Wisq ingjust. [Reject]'\n"
   },
   "round": {
-    "begins": "--- Rawnd {round_number} tibda! ---\nPlayer {proposer_id} huwa l-proponiment, Player {responder_id} huwa r-rispondent.",
-    "offer": "Rawnd {round_number}: Player {proposer_id} joffri ${offer} lil Player {responder_id} (żamm ${keep}).",
-    "accepted": "Player {responder_id} aċċetta! Rawnd {round_number} rebħ: Player {proposer_id} +${proposer_gain}, Player {responder_id} +${responder_gain}. Totals ġodda: Player 0: ${total_0}, Player 1: ${total_1}.",
-    "rejected": "Player {responder_id} irrifjuta l-offerta! Rawnd {round_number} rebħ: It-tnejn players +$0. Totals jibqgħu: Player 0: ${total_0}, Player 1: ${total_1}."
+    "begins": "--- Ir-Round {round_number} qed jibda! ---\nPlejer {proposer_id} huwa l-proponent, Plejer {responder_id} huwa r-responder.",
+    "offer": "Round {round_number}: Plejer {proposer_id} qed jagħmel offerta ta' ${offer} lil Plejer {responder_id} (qed iżomm ${keep}).",
+    "accepted": "Plejer {responder_id} aċċetta! Ir-Round {round_number} qed jikseb: Plejer {proposer_id} +${proposer_gain}, Plejer {responder_id} +${responder_gain}. Totals ġodda: Plejer 0: ${total_0}, Plejer 1: ${total_1}.",
+    "rejected": "Plejer {responder_id} rifjuta l-offerta! Ir-Round {round_number} qed jikseb: It-tnejn qed jiksbu $0. Totals qed jibqgħu: Plejer 0: ${total_0}, Plejer 1: ${total_1}."
   },
   "invalid_move": {
     "no_offer_format": "Il-proponent għandu jagħmel offerta bl-użu tal-format [Offer: $X].",
@@ -37,7 +37,7 @@
     "accept_or_reject": "Ir-rispondent irid jagħmel [Accept] jew [Reject] l-offerta."
   },
   "outcome": {
-    "win": "Player {winner} rebaħ bi ${winner_total} total kontra ${loser_total} ta' Player {loser}.",
+    "win": "Plejer {winner} rebaħ bi ${winner_total} total kontra Plejer {loser} li kellu ${loser_total}.",
     "draw": "It-tnejn li huma spiċċaw b'total ta '$ {total}."
   }
 }

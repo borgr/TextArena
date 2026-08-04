@@ -9,12 +9,12 @@
     "{pct}": "Progress as a percentage string, e.g. 50%"
   },
   "player_prompt": {
-    "intro": "Map each letter to a unique digit so the arithmetic holds.\nAssign with `[A 5]`, re-assign anytime.\n"
+    "intro": "Mapim ol leta long digit i no wankain, bai arithmetic i go stret.\nAssign wantaim `[A 5]`, ken assign gen long eni taim.\n"
   },
   "invalid_move": {
-    "wrong_format": "Bad action format. Use `[A 5]`.",
+    "wrong_format": "Format bilong action i no stret. Usim `[A 5]`.",
     "letter_not_in_puzzle": "Let {letter} i no stap long wanpela paip.",
-    "digit_used": "Digit {digit} already used by {used_letter}.",
+    "digit_used": "Digit {digit} i stap in use long {used_letter}.",
     "leading_zero": "Namba wan digit bilong wanpela tok i no inap olsem 0."
   },
   "outcome": {

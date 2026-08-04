@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "Welcome to Frozen Lake!\n\nYou are represented by 'P' on the grid.\nGrid symbols:\n  ' ' = Frozen surface (safe to walk on)\n  'H' = Hole (fall in and lose!)\n  'G' = Goal (reach this to win!)\n  'P' = Your current position\n\nAvailable actions: up, down, left, right (or w, a, s, d)\nType your action as: [up], [down], [left], [right] or [w], [a], [s], [d]\n\nObjective: Navigate from the start (top-left) to the goal (bottom-right) without falling into any holes!\n"
+    "intro": "مرحبا بيك في البحيرة المتجمدة!\n\nانت ممثّل ب 'P' في الشبكة.\nرموز الشبكة:\n  ' ' = سطح مجمد (آمن للمشي عليه)\n  'H' = حفرة (تسقط فيها وتخسر!)\n  'G' = الهدف (وصل لهذا لتكسب!)\n  'P' = موقعك الحالي\n\nالإجراءات المتاحة: فوق، تحت، يسار، يمين (أو w، a، s، d)\nاكتب إجراءك كالتالي: [up]، [down]، [left]، [right] أو [w]، [a]، [s]، [d]\n\nالهدف: إنتقل من البداية (أعلى يسار) إلى الهدف (أسفل يمين) من دون السقوط في أي حفرة!\n"
   },
   "board": {
     "current_board": "اللوحة الحالية:\n\n{board}\n\nالإجراءات المتاحة: {actions}"

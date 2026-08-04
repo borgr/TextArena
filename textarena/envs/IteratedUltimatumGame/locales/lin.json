@@ -21,20 +21,20 @@
     "{total}": "Each player's tied final total (a number)"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id}, playing {num_rounds} rounds of Iterated Ultimatum Game.\nYou have ${pool} to split this round between yourself and Player {other_id}.\n\nProposer:\n  - Make an offer: [Offer: $X] (0 <= X <= pool)\n  - If accepted → You get $(pool - X), other player gets $X\n  - If rejected → Both get $0\n  - Example: [Offer: $3]  or  'I think this is fair. [Offer: $5]'\n\nResponder:\n  - Decide on the offer with either [Accept] or [Reject]\n  - Example: 'That seems reasonable. [Accept]'\n            'Too unfair. [Reject]'\n"
+    "intro": "Ozali Joueur {player_id}, ozali kombo {num_rounds} tours ya Iterated Ultimatum Game.\nOzali na ${pool} ya kusala moko mwa tour hii kati ya bino na Joueur {other_id}.\n\nProposer:\n  - Faites une offre : [Offer: $X] (0 <= X <= pool)\n  - Si accepté → Ozali na $(pool - X), l'autre joueur ozali na $X\n  - Si rejeté → Bino bato zote mibale ozali na $0\n  - Exemple : [Offer: $3]  ou  'Nalingi yango ezali malamu. [Offer: $5]'\n\nResponder:\n  - Decidez sur l'offre avec soit [Accept] soit [Reject]\n  - Exemple : 'Yango ezali raisonnable. [Accept]'\n            'Trop injuste. [Reject]'\n"
   },
   "round": {
-    "begins": "--- Round {round_number} begins! ---\nPlayer {proposer_id} is the proposer, Player {responder_id} is the responder.",
+    "begins": "--- Mpiɔ {round_number} ekɔtɛ! ---\nMokili {proposer_id} azalí mokonzi, Mokili {responder_id} azalí moyambi.",
     "offer": "Mziki {round_number}: Mokonzi {proposer_id} anatoa ${offer} kwa Mokonzi {responder_id} (akishika ${keep}).",
-    "accepted": "Player {responder_id} accepted! Round {round_number} gains: Player {proposer_id} +${proposer_gain}, Player {responder_id} +${responder_gain}. New totals: Player 0: ${total_0}, Player 1: ${total_1}.",
-    "rejected": "Player {responder_id} rejected the offer! Round {round_number} gains: Both players +$0. Totals remain: Player 0: ${total_0}, Player 1: ${total_1}."
+    "accepted": "Mokili {responder_id} akɔtí! Mpiɔ {round_number} azwí: Mokili {proposer_id} +${proposer_gain}, Mokili {responder_id} +${responder_gain}. Nkɔmɔ mípɛ: Mokili 0: ${total_0}, Mokili 1: ${total_1}.",
+    "rejected": "Mokili {responder_id} akɔtí ndɛngɛ! Mpiɔ {round_number} azwí: Bato bábalé +$0. Nkɔmɔ mípɛ ikɔní: Mokili 0: ${total_0}, Mokili 1: ${total_1}."
   },
   "invalid_move": {
     "no_offer_format": "Moto oyo azali kopesa likanisi asengeli kosalaka libonza na lolenge ya [Offer: $X].",
     "bad_integer": "Motango ya lifuti esengeli kozala motángo mobimba oyo ebongi.",
     "out_of_range": "Motango ya mbongo esengeli kozala na kati $0 mpe ${pool}.",
     "no_current_offer": "Ezali na eloko moko te oyo tokoki kopesa ye.",
-    "accept_or_reject": "Responder must either [Accept] or [Reject] the offer."
+    "accept_or_reject": "Moto óyo apɛsi ekoki kólya [Accept] tó [Reject] lokóla."
   },
   "outcome": {
     "win": "Mokonzi {winner} amekwa na ${winner_total} wote vs Mokonzi {loser}'s ${loser_total}.",

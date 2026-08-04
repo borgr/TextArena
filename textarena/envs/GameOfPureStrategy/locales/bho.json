@@ -14,8 +14,8 @@
   },
   "message": {
     "bids": "बिड्स: P0 {card0} बनाम P1 {card1} - ",
-    "p0_wins": "{observation}Player 0 wins {pot_value}.",
-    "p1_wins": "{observation}Player 1 wins {pot_value}.",
+    "p0_wins": "{observation}खिलाड़ी 0 {pot_value} जीतता हउअ।",
+    "p1_wins": "{observation}खिलाड़ी 1 {pot_value} जीतता हउअ।",
     "tie": "{observation}टी -> पॉट अब {carry_pot}.",
     "scores": "स्कोर्स -> P0:{score0}  P1:{score1}"
   },

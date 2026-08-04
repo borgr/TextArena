@@ -1,18 +1,18 @@
 {
   "player_prompt": {
-    "intro": "You are solving the Sokoban puzzle. You are the player and you need to push all boxes to targets.\n        When you are right next to a box, you can push it by moving in the same direction.\n        You cannot push a box through a wall, and you cannot pull a box.\n        On the board, objects are represented as: \n        - The player (you) appears as 'P' \n        - Walls are represented with '#' \n        - Boxes are marked as 'X' \n        - Empty goals are shown with a 'O'\n        - Boxes on goals are visualized with '√'\n        You can also use [w] for up, [a] for left, [s] for down, and [d] for right.\n        "
+    "intro": "অনুমতি প্রদান করমকুম সোকোবান পাজল সমাধান করবা নিংবা খেলোয়াড় অমসুং খেলোয়াড় অনুমতি প্রদান করবা সমস্ত বক্সসিংবা টার্গেটসিংবা তোলবা লাইবা হায়বা পারবা অমসুং বক্স অক্কদে লাইবা হায়বা পারবা অমসুং বক্সসিংবা পুলবা লাইবা হায়বা পারবা অমসুং বোর্ডসিংবা অবজেক্টসিংবা প্রতিনিধিত্ব করবা অমসুং:\n        - খেলোয়াড় (নিংবা) 'P' হিসাবে ওঙবা অমসুং\n        - ওয়ালসিংবা '#' হিসাবে প্রতিনিধিত্ব করবা অমসুং\n        - বক্সসিংবা 'X' হিসাবে মার্ক করবা অমসুং\n        - খালি গোলসিংবা 'O' হিসাবে দেখাবা অমসুং\n        - বক্সসিংবা গোলসিংবা '√' হিসাবে ভিজ্যুয়ালাইজ করবা অমসুং\n        নিংবা [w] অপ, [a] বাম, [s] তল, অমসুং [d] ডান ব্যবহার করবা পারবা অমসুং"
   },
   "board": {
-    "current_board": "Current Board:\n\n{board}\nAvailable Moves: {moves}"
+    "current_board": "বর্তমান বোর্ড:\n\n{board}\nউপলব্ধ চাল: {moves}"
   },
   "invalid_move": {
-    "wrong_format": "The submitted move does not follow the correct format. Use [up], [down], [left], [right] or [w], [a], [s], [d].",
+    "wrong_format": "চালনা করা মুভ সঠিক ফরম্যাট অনুসরণ করবত নহিবা। [up], [down], [left], [right] অথবা [w], [a], [s], [d] ব্যবহার করুন।",
     "not_valid_action": "পীরিবা খোঙথাং অসি চৎনবা য়াবা থবক নত্তে।",
     "wall_collision": "নহাক্না ফক্লাং অমদা চঙবা য়ারোই!",
     "invalid_position": "ইনভেল্দ মুব - পোজিসন অদুদা চৎপা য়াদে."
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
+    "moved": "নিংবা {pushed} চলে গেছে [{action}]।",
     "pushed_prefix": "মতম অদুদা বোক্স অমা পুশিন্দুনা থমখি।"
   },
   "outcome": {

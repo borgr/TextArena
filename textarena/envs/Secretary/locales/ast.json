@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You will observe {N} hidden values sequentially.\nAt each step type [accept] to pick the *current* value, or [continue] to skip it and see the next one.\nIf you never accept, you are forced to take the final value.\nYou win (reward = 1) **only** if the value you ultimately pick is the highest of all."
+    "intro": "Vas reparar {N} valores ocultos de forma secuencial.\nEn cada pasu escribe [accept] pa escoyer el valor *actual*, o [continue] pa saltalu y ver el siguiente.\nSi nunca aceptes, te ven obligáu a coyer el valor final.\nGanes (recompensa = 1) **namái** si'l valor que finalmente escoyas ye'l más altu de toos."
   },
   "game_action": {
     "current_value": "El valor actual ye {value}."

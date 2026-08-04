@@ -12,7 +12,7 @@
     "invalid_position": "မမှန်တဲ့ ရွေ့လျားမှု - အဲဒီနေရာကို မရွေ့နိုင်ဘူး။"
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
+    "moved": "သင် {pushed} လှုပ်ရှားခဲ့သည် [{action}]။",
     "pushed_prefix": "တစ်ချိန်လုံး သေတ္တာတစ်လုံး တွန်းနေခဲ့တယ်။"
   },
   "outcome": {

@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "કોઈ માન્ય ચાલ બંધારણ મળ્યું નથી. [a1b2] નો ઉપયોગ કરો, ઉદાહરણ તરીકે [b2c3].",
-    "illegal": "Move [{move}] is illegal."
+    "illegal": "ચાલ [{move}] ગેરકાનૂની છે."
   },
   "game_action": {
     "moved": "ખેલાડી {player_id} ખસેડવામાં {move}."

@@ -6,7 +6,7 @@
     "wrong_format": "Move hi hriat loh a ni. [rock], [paper], [scissors] hi hmang rawh."
   },
   "game_action": {
-    "selects": "Player {player_id} ‘move’ {move} a thlang."
+    "selects": "Player {player_id} chuan {move} a thlang."
   },
   "message": {
     "round_draw": "Round result: Draw a ni ang.",

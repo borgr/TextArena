@@ -10,7 +10,7 @@
     "{groups}": "Neutral ranking data (a list of player-id groups, best to worst); do not translate"
   },
   "player_prompt": {
-    "intro": "{num_players}-Player Surround on a {width}x{height} grid.\nYou are player {player_id}. Valid moves: '[up]' '[down]' '[left]' '[right]' or w/s/a/d.\nObjective: outlive everyone else. Trails are deadly; wall hits kill; head-on crashes kill both."
+    "intro": "{num_players}-ကစားသမား ပတ်ပတ်လည် ကစားနည်း {width}x{height} ပုံစံ။\nသင်သည် ကစားသမား {player_id} ဖြစ်သည်။ လှုပ်ရှားမှုများ: '[up]' '[down]' '[left]' '[right]' သို့မဟုတ် w/s/a/d။\nရည်ရွယ်ချက်: အခြားသူများထက် ရှည်လျားစွာ အသက်ရှင်နေရန်။ လမ်းကြောင်းများသည် အဆုံးစီရင်နိုင်သည်; နံရံများ ရိုက်ချိန် အဆုံးစီရင်နိုင်သည်; ဦးတည်ချိန် တိုက်မိချိန် နှစ်ခုလုံး အဆုံးစီရင်နိုင်သည်။"
   },
   "board": {
     "current": "ၶွမ်ႇမတီႇယၢမ်းလဵဝ်: {board}",
@@ -22,7 +22,7 @@
   "outcome": {
     "survived_win": "ၽူႈလဵၼ်ႈ {player_id} လႆႈလွတ်ႈၽေး၊ တၢင်ႇၸိူဝ်းလႆႈလူႉလႅဝ်ၵႂႃႇ။",
     "all_crashed": "ၽူႈလဵၼ်ႈၶဝ်တင်းသဵင်ႈ လႆႈတူၵ်းသုမ်း မိူဝ်ႈလဵဝ်ၵၼ်ၼၼ်ႉယဝ်ႉ။",
-    "outlived": "Player outlived all others.",
+    "outlived": "ကစားသမား အခြားသူများထက် ရှည်လျားစွာ အသက်ရှင်နေခဲ့သည်။",
     "all_dead": "ၽူႈလဵၼ်ႈၶဝ်တင်းသဵင်ႈ လႆႈတၢႆၵႂႃႇယဝ်ႉ။",
     "turn_limit": "ပေႃးထိုင်တီႈၶွပ်ႇလႅၼ်ႊသုတ်းယဝ်ႉ - ၵေႃႉဢၼ်လႆႈယူႇႁိုင်သေပိူၼ်ႈၼၼ်ႉ လႆႈဢွင်ႇပေႉယဝ်ႉ။",
     "ranking": "{reason} ရလဒ် အဆင့်အတန်း (အကောင်းဆုံး→အဆိုးဆုံး): {groups}"

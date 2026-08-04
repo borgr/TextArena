@@ -22,7 +22,7 @@
   "outcome": {
     "survived_win": "D'éirigh leis an imreoir {player_id} maireachtáil; thit gach duine eile.",
     "all_crashed": "Thit gach imreoir ag an am céanna.",
-    "outlived": "Player outlived gach ceann eile.",
+    "outlived": "Mhair imreoir níos faide ná aon duine eile.",
     "all_dead": "Gach imreoirí marbh.",
     "turn_limit": "Tá an teorainn casadh bainte amach - buaíonn an duine is faide a mhair.",
     "ranking": "{reason} Rangú deiridh grúpaí (is fearr→is measa): {groups}"

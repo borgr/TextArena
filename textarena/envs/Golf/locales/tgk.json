@@ -73,7 +73,7 @@
   "board_str": {
     "title": "=== Бозии голф===",
     "discard": "Бастаи партофташуда: {card}",
-    "knocked": "Player {pid} has knocked!",
+    "knocked": "Бозигар {pid} зарба задааст!",
     "player_header": "Бозигар {pid} (Балл: {score}):"
   }
 }

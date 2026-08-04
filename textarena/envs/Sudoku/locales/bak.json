@@ -8,7 +8,7 @@
   },
   "invalid_move": {
     "wrong_format": "Дөрөҫ булмаған хәрәкәт форматы. Уйынсы {player_id} дөрөҫ \"юлдар бағанаһы һаны\" менән яуап бирмәгән.",
-    "out_of_bounds": "Invalid move. Player {player_id} attempted to place {num} at ({row}, {col}), which is out of bounds.",
+    "out_of_bounds": "Хәрәкәт дөрөҫ түгел. Уйынсы {player_id} {num}-ҙе ({row}, {col})-ға ҡуйырға тырышты, ләкин был сиктәрҙән тыш.",
     "overwrite": "Допустығыҙ булмаған хәл. Уйынсы {player_id} алдан тултырылған ячейкаға ({row}, {col}) яҙырға маташты.",
     "violates_rules": "Допустығыҙ булмаған хәл. Уйынсы {player_id} {num}ты ({row}, {col}) урынлаштырырға маташты, әммә был Судоку ҡағиҙәләрен боҙа."
   },

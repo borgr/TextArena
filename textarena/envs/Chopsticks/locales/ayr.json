@@ -10,17 +10,17 @@
     "opp_hand_dead": "Uñisir amparapax {opp_idx} jiwatäxiwa.",
     "split_sum": "P'iqiña sumaxa {total} ukharuwa.",
     "split_no_change": "Split ukax amparamamp maysar jaljtayir mayjt'ayaniwa.",
-    "invalid_command": "Invalid move. Use “[attack M O]” or “[split L R]”."
+    "invalid_command": "Komando janiwa. Ukatwa “[attack M O]” o “[split L R]”."
   },
   "game_action": {
     "attack": "P{player_id} janiw q'awirin P{opp_id} wakichin {opp_idx}: kunan q'awirin {opp_val} manq'asax {new_val}.",
-    "split": "P{player_id} splits into [{L}, {R}]."
+    "split": "P{player_id} ch'iqanaña [{L}, {R}]."
   },
   "history": {
     "entry": "P{player_id} {desc}"
   },
   "outcome": {
     "win": "Paypach amparas jiwata.",
-    "draw": "The turn limit has been reached."
+    "draw": "Turno llapani jikxatasirixa."
   }
 }

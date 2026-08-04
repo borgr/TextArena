@@ -10,15 +10,15 @@
     "player_hold": "Player {player_id} tinengteng ken nabankek {turn_total} puntos."
   },
   "board": {
-    "player": "Player 0: '{score_0}'; Player 1: '{score_1}'",
+    "player": "Managpapat 0: '{score_0}'; Managpapat 1: '{score_1}'",
     "current_total_scores": "Say Total ya Punto ed Natan: {scores} say total na turn mo natan et {turn_total}.",
     "roll_history": "{observation}\nSay mo roll history diad say turn mo: {roll_history}",
     "first_roll": "{observation} Saya so unonan pangibuntok mo.",
     "available_actions": "{observation}\nMaabig bigay actions: '[roll]' o '[hold]'"
   },
   "outcome": {
-    "winner_by_turn_limit": "Player {winner_id} nanalo lapud mayatdu ken score diad turn limit ({scores})",
-    "winner_by_score": "Player {winner_id} nanalo lapud nakala ken target score na {winning_score}!",
+    "winner_by_turn_limit": "Say Managpapat {winner_id} ya managpapanao lapud mas atagey so score to ed say turn limit ({scores})",
+    "winner_by_score": "Say Managpapat {winner_id} ya managpapanao lapud inabot so target score na {winning_score}!",
     "draw": "Akasabi la so limitasyon na saray turn tan amin a manlalaban et walaan lay parehon score: {scores}"
   }
 }

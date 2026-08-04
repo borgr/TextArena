@@ -1,16 +1,16 @@
 {
   "player_prompt": {
-    "intro": "You are playing 2048 on a {board_size}x{board_size} board. Your goal is to reach a {target_tile} tile by sliding identical numbers together!\nValid moves: [Up], [Down], [Left], [Right]. Tiles combine when they collide, doubling their value.\n"
+    "intro": "O waza kusaka 2048 ku tábua ya {board_size}x{board_size}. O lukolo lwenu lwendi kufikia tábua ya {target_tile} kwa kusukisa manímberos mafana pamo!\nMbinu zina valer: [Up], [Down], [Left], [Right]. Tábua zina kombina wakati zina pangana, zikwiza valer zazo.\n"
   },
   "board": {
     "current_board": "Score: {score}\n{board}"
   },
   "invalid_move": {
-    "invalid_action": "Invalid action. Use '[Up]'/'[Down]'/'[Left]'/'[Right]'.",
+    "invalid_action": "Kakala ka valer. Usa '[Up]'/'[Down]'/'[Left]'/'[Right]'.",
     "no_change": "O athu a solo ku kaiela o njila iéngi."
   },
   "outcome": {
-    "win": "Congratulations, you reached {target_tile}! Final score {score}.",
-    "lose": "No moves left. Max tile {max_tile} - final score {score}."
+    "win": "Mavu, wafikile {target_tile}! Pontu ya mwisho {score}.",
+    "lose": "Kakala ka mbinu. Tábua ya max {max_tile} - pontu ya mwisho {score}."
   }
 }

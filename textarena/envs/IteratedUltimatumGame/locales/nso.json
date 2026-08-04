@@ -21,13 +21,13 @@
     "{total}": "Each player's tied final total (a number)"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id}, playing {num_rounds} rounds of Iterated Ultimatum Game.\nYou have ${pool} to split this round between yourself and Player {other_id}.\n\nProposer:\n  - Make an offer: [Offer: $X] (0 <= X <= pool)\n  - If accepted → You get $(pool - X), other player gets $X\n  - If rejected → Both get $0\n  - Example: [Offer: $3]  or  'I think this is fair. [Offer: $5]'\n\nResponder:\n  - Decide on the offer with either [Accept] or [Reject]\n  - Example: 'That seems reasonable. [Accept]'\n            'Too unfair. [Reject]'\n"
+    "intro": "O mmoledi {player_id}, o tšama {num_rounds} dikgwedi tša Iterated Ultimatum Game.\nO na le $ {pool} go kgatha kgwedi yeo magareng ga wena le mmoledi {other_id}.\n\nMmoleli wa kgopelo:\n  - Dire kgopelo: [Offer: $X] (0 <= X <= pool)\n  - Ge e amogetšwe → O amogetša $ (pool - X), mmoledi wa mošate amogetša $X\n  - Ge e ganne → Ba amogetša $0\n  - Sekhutšo: [Offer: $3]  goba  'Nna ke nagana gore se se lokile. [Offer: $5]'\n\nMmoleli wa karabo:\n  - Tšea kgopelo ka [Accept] goba [Reject]\n  - Sekhutšo: 'Se se bonala bjalo ka gore se se lokile. [Accept]'\n            'Se se sa lokile. [Reject]'\n"
   },
   "round": {
     "begins": "--- Round {round_number} e simolola! ---\nMothusi {proposer_id} ke mothusi yo a kgonego, Mothusi {responder_id} ke mothusi yo a amogeleng.",
     "offer": "Round {round_number}: Mothusi {proposer_id} a tshegetsa ${offer} ho mothusi {responder_id} (a tsamaya le ${keep}).",
-    "accepted": "Player {responder_id} accepted! Round {round_number} gains: Player {proposer_id} +${proposer_gain}, Player {responder_id} +${responder_gain}. New totals: Player 0: ${total_0}, Player 1: ${total_1}.",
-    "rejected": "Player {responder_id} rejected the offer! Round {round_number} gains: Both players +$0. Totals remain: Player 0: ${total_0}, Player 1: ${total_1}."
+    "accepted": "Mmoleli {responder_id} o amogetše! Kgwedi {round_number} e amogetša: Mmoleli {proposer_id} +$ {proposer_gain}, mmoleli {responder_id} +$ {responder_gain}. Tšohle tše mpsha: Mmoleli 0: $ {total_0}, mmoleli 1: $ {total_1}.",
+    "rejected": "Mmoleli {responder_id} o ganne kgopelo! Kgwedi {round_number} e amogetša: Ba amogetša $0. Tšohle di sala: Mmoleli 0: $ {total_0}, mmoleli 1: $ {total_1}."
   },
   "invalid_move": {
     "no_offer_format": "Mofahloši o swanetše go dira tefelo ka sebopego sa [Offer: $X].",

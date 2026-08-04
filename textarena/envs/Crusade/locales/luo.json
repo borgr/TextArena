@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({piece}). Opponent is ({opp}). Submit moves as '[b1 c3]' (from → to). All pieces move like chess knights.\nEach capture scores {score_per_capture} point. Game ends after {max_moves} moves or when a player has no legal move / no pieces. Higher score wins."
+    "intro": "Inu ni Player {player_id} ({piece}). Jakom ni ({opp}). Ketie gi wach moko kuom '[b1 c3]' (koro → e). Gi wach moko duto gini gi chess knights.\nKila mondo ochiero {score_per_capture} alama. Tich moko osiep {max_moves} moko wach e koro player oko wach moko mondo / oko gi wach. Alama moko mang'eny osiep."
   },
   "board": {
     "current_board": "Chopo #{move_count}\n\n{board}\n\nMikwalo Inapatikana: {moves}"
@@ -13,8 +13,8 @@
     "not_knight": "Mano ok en tim ng'at ma jachir."
   },
   "game_action": {
-    "moved": "Mchezaji {player_id} alihamisha kipande chake kutoka {frm} hadi {to}.",
-    "capture": "{observation} Ikamata kipande! (+{score_per_capture})"
+    "moved": "Player {player_id} osewacho gi wach moko koro {frm} e {to}.",
+    "capture": "{observation} Ochiero gi wach moko! (+{score_per_capture})"
   },
   "outcome": {
     "no_pieces": "Jalo {player_id} onge gi kidieny.",

@@ -16,16 +16,16 @@
     "{cards}": "The cards in a pile as neutral labels, or '--' if empty (never translate)"
   },
   "player_prompt": {
-    "intro": "You are playing Klondike Solitaire. Your goal is to move all cards to the foundation piles.\n\nGame Rules:\n- Foundation piles (F1-F4): Build up from Ace to King in suit\n- Tableau piles (T1-T7): Build down alternating colors (red on black, black on red)\n- Stock: Draw cards to waste pile\n- Waste (W): Top card available for play\n\nCommands:\n- 'draw' - Draw cards from stock to waste\n- 'move <source> <destination> [count]' - Move cards between piles\n  Examples: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count can also be 'all', which will try to move all face-up cards.\n- 'forfeit' - End the game immediately and lock in your current score\n- Pile names: W (waste), F1-F4 (foundations), T1-T7 (tableau)\n\nYou can execute multiple actions in one turn by separating them with commas:\n  Example: 'draw, move W T1, move T2 F1'\n\nOnly Kings can be placed on empty tableau piles.\nActions execute in order - if one fails, the remaining actions are skipped.\nUse 'forfeit' if you believe the game is impossible to win."
+    "intro": "Tiririt da Klondike Solitaire. Lmeɛna-k inu d aselkem akken ad teskecem akk tikitiwin ɣer teɣziwin n tuzzma.\n\nTawurta n Ureqqas:\n- Teɣziwin n tuzzma (F1-F4): Rnu ɣef uɛeqqas seg Ace ɣer Tagellid s tɣawsa\n- Teɣziwin n tafla (T1-T7): Rnu ɣef uɛeqqas, azegzaw fell-as aberkan, aberkan fell-as azegzaw\n- Aɣraf: Ssekcem tikitiwin ɣer teɣzi n yifuɣaren\n- Ifuɣaren (W): Tikiti tis kraḍ taɛejbet i wureqqas\n\nIsemyifen:\n- 'draw' - Ssekcem tikitiwin seg uɣraf ɣer teɣzi n yifuɣaren\n- 'move <source> <destination> [count]' - Ssekcem tikitiwin seg yiwet teɣzi ɣer nniḍen\n  Imudiren: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count daɣen 'all', i d-yettanaf ad teskecem akk tikitiwin ttwafiren.\n- 'forfeit' - Freq ureqqas tura d tuqqnaḍ di tmaneɣt-k yimira\n- Isemawen n teɣziwin: W (ifuɣaren), F1-F4 (teɣziwin n tuzzma), T1-T7 (teɣziwin n tafla)\n\nTzemreḍ ad texdem aṭas n tigawin di yiwet n tukkirt s usenqed-nsent s ticomma:\n  Amedya: 'draw, move W T1, move T2 F1'\n\nKan Tagellid i zemren ad tt-rren ɣer teɣziwin n tafla ttwaggiz.\nTigawin tt-ureqqsen s leḥrir - ma yella yiwet ur teddi, tigawin nniḍen ad tt-rren.\nSeqdec 'forfeit' ma tettamneḍ d akken ureqqas ur yezmir ara ad yaweḍ."
   },
   "format_error": {
     "no_brackets": "Ahil ur d-yusi ara deg uḍris. Ilaq ad yili gar yiferrawen n tneqlaft.",
     "no_closing_bracket": "Asenfar n tigawt ur nelli ara d win. Ulac amrar i t-id-yettakken \"]\"",
-    "empty_command": "Aɣerru d ilem. Cceb \"ssufeɣ\" neɣ \"ssusfeḍ <taṣelkit> <tasamunt> [count]\".",
+    "empty_command": "Asegraw d ilem. Seqdec 'draw' neɣ 'move <source> <destination> [count]'",
     "empty_action": "Taɣawsa d-yexlan",
     "move_needs_args": "Aɣawas n usikel yeḥwaǧ aselkim d tanzeɣt. Aseqdec: 'move <source> <destination> [count]'",
-    "count_positive": "Aḥezzu ilaq ad yili d aẓidan neɣ \"kul wa\"",
-    "count_invalid": "Aḥesbu ur nlaq ara. Seqdec amḍan neɣ \"kul wa\"",
+    "count_positive": "Ḍḍayf yessefk ad yili d azayez neɣ 'all'",
+    "count_invalid": "Ḍḍayf aberkan. Seqdec ḍḍayf neɣ 'all'",
     "unknown_command": "Aseɛtu yettwakem '{cmd}'. Sken 'draw', 'move <source> <destination> [count]', neɣ 'forfeit'",
     "wrapped": "Asebter {n}: {msg}"
   },
@@ -59,7 +59,7 @@
   "outcome": {
     "forfeit": "Tazrawt n taggara: {score} tiqṛaḍ deg yisekla.",
     "won": "Ayyuz, rebḥem deg Klondike Solitaire!",
-    "turn_limit": "Game over! You reached the maximum of {max_turns} turns. Score: {score} cards in foundations."
+    "turn_limit": "Tagara n urar! Tewwiḍ ḍḍayf n {max_turns} tigawin. Ḍḍayf: {score} tkarḍiwin deg wadda n wakud."
   },
   "board": {
     "title": "=== KLONDIKE SOLITAIRE=== Tameɣra n usegmi d umennuγ.",

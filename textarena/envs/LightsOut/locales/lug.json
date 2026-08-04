@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "Ekikolwa kirina okubeera mu kika [row col] nga olunyiriri n'olugambo biba nnamba entuufu okuva ku 0 okutuuka ku {max_index}.",
-    "out_of_range": "Coordinates must be between 0 and {max_index}. You entered [{row},{col}]."
+    "out_of_range": "Koordineti zinzaala kuba kati ya 0 na {max_index}. Watikka [{row},{col}]."
   },
   "outcome": {
     "win": "Mwebale nnyo! Omazzeemu ekizibu mu ntambula ya {moves_used}!",

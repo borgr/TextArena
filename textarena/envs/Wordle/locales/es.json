@@ -10,7 +10,7 @@
     "{secret}": "La palabra secreta"
   },
   "prompt": {
-    "intro": "Estás jugando a Wordle.\nSe ha elegido una palabra secreta de {word_length} letras. Tienes {num_guesses} intentos para adivinarla.\nEn cada intento, escribe tu palabra entre corchetes (por ejemplo, '[gatos]').\nLa retroalimentación de cada letra se dará de la siguiente manera:\n  - G (verde): letra correcta en la posición correcta\n  - Y (amarillo): la letra existe en la palabra pero en la posición equivocada\n  - X (incorrecta): la letra no está en la palabra\nEscribe tu intento para empezar.\n"
+    "intro": "Estás jugando Wordle.\nSe ha elegido una palabra secreta de {word_length} letras. Tienes {num_guesses} intentos para adivinarla.\nPara cada intento, coloca tu palabra entre corchetes (por ejemplo, '[apple]').\nSe proporcionará retroalimentación para cada letra de la siguiente manera:\n  - G (verde): letra correcta en la posición correcta\n  - Y (amarillo): la letra existe en la palabra pero en la posición incorrecta\n  - X (equivocado): la letra no está en la palabra\nIngresa tu suposición para comenzar.\n"
   },
   "invalid": {
     "wrong_format": "Intentaste enviar una palabra en el formato equivocado. Asegúrate de usar corchetes.",

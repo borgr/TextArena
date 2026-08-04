@@ -6,8 +6,8 @@
     "wrong_format": "Format invalid; bagħti '[heads]' jew '[tails]'."
   },
   "message": {
-    "round_match": "Player 0 għażel {choice0}; Player 1 għażel {choice1}. Match -> Player 0 rebaħ",
-    "round_mismatch": "Player 0 għażel {choice0}; Player 1 għażel {choice1}. Mismatch -> Player 1 rebaħ."
+    "round_match": "Plejer 0 għażel {choice0}; Plejer 1 għażel {choice1}. Match -> Plejer 0 jirbaħ",
+    "round_mismatch": "Plejer 0 għażel {choice0}; Plejer 1 għażel {choice1}. Mismatch -> Plejer 1 jirbaħ."
   },
   "outcome": {
     "p0_wins": "Il-plejer 0 rebaħ aktar rawnds.",

@@ -1,10 +1,10 @@
 {
   "player_prompt": {
-    "intro": "You are playing the Minesweeper game.\nThe objective of the game is to reveal all cells that do not contain mines.\nTo make a move, simply specify the row and column coordinates you want to reveal using the format:\n- `[row col]`: Reveal the cell at the specified row and column.\nFor example:\n- `[3 2]` to reveal the cell in Row 3, Column 2.\n- `[5 6]` to reveal the cell in Row 5, Column 6.\nOn your first move, you will reveal an area around the cell you choose to ensure a safe start.\nThe current board layout is shown below. Cells that are unrevealed are represented by a dot ('.'), revealed numbers show the count of adjacent mines.\nBe mindful not to choose already revealed cells.\nHere is the current board layout:\n"
+    "intro": "Te see dree al zöch del Minesweeper.\nL'obietiv del zöch l'è revelà tüte i celule che gh'hann minga mine.\nPer fà 'na mossa, specifica domà i coordenad de la riga e de la colona che te vöret revelà cont el format:\n- `[row col]`: Revela la celula a la riga e a la colona specificade.\nPer esempi:\n- `[3 2]` per revelà la celula in Riga 3, Colona 2.\n- `[5 6]` per revelà la celula in Riga 5, Colona 6.\nIn de la tö prima mossa, te revelaree 'n area arent a la celula che te gh'hè scernida per üna partenza següra.\nLa disposizion atuala de la tavola l'è möstrada chí sota. I celule che hinn minga stade revelade hinn representade da 'n pont ('.'), i nümer revelade mostren el cünt di mine arent.\nFà atenzion a mia scernì celule giamò revelade.\nChí l'è la disposizion atuala de la tavola:\n"
   },
   "board": {
-    "game_board": "Game Board: {board}",
-    "current_board": "CURRENT BOARD: {board}"
+    "game_board": "Taula del Giöch:\n\n{board}",
+    "current_board": "Taula Atüala:\n\n{board}"
   },
   "invalid_move": {
     "wrong_format": "Te respondet minga cont coordinade valide in parentesi quadraa.",

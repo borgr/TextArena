@@ -8,12 +8,12 @@
   },
   "invalid_move": {
     "wrong_format": "Yo ma ok owinjore mar tugo. Jalo {player_id} ne ok odwoko gi namba mowinjore e 'row column number'.",
-    "out_of_bounds": "Kuwa mbaya. Mchezaji {player_id} alijaribu kuweka {num} kwa ({row}, {col}), ambayo iko nje ya mipaka.",
-    "overwrite": "Kuwa mbaya. Mchezaji {player_id} alijaribu kuandika tena seli iliyoandikwa mapema ({row}, {col}).",
-    "violates_rules": "Kuwa mbaya. Mchezaji {player_id} alijaribu kuweka {num} kwa ({row}, {col}), ambayo inakiuka kanuni za Sudoku."
+    "out_of_bounds": "Hatua isiyo sahihi. Mchezaji {player_id} alijaribu kuweka {num} kwenye ({row}, {col}), ambayo iko nje ya mipaka.",
+    "overwrite": "Hatua isiyo sahihi. Mchezaji {player_id} alijaribu kubadili cell iliyojazwa ({row}, {col}).",
+    "violates_rules": "Hatua isiyo sahihi. Mchezaji {player_id} alijaribu kuweka {num} kwenye ({row}, {col}), ambayo inakiuka sheria za Sudoku."
   },
   "outcome": {
     "win": "Amor kodi! Jalo {player_id} ne otieko Sudoku.",
-    "turn_limit": "The turn limit has been reached. You correctly filled {percent}% of the empty cells."
+    "turn_limit": "Mipaka ya mizunguko imefikia. Ulijaza kwa usahihi {percent}% ya cells mapek."
   }
 }

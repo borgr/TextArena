@@ -7,10 +7,10 @@
   },
   "invalid_move": {
     "wrong_format": "Kgato e swanetše go ba ka sebopego sa [row col] moo molokoloko le kholomo di lego dinomoro tša gare ga 0 go ya go {max_index}.",
-    "out_of_range": "Coordinates must be between 0 and {max_index}. You entered [{row},{col}]."
+    "out_of_range": "Koordinete e swanetse go ba gare ga 0 le {max_index}. O kgonne [{row},{col}]."
   },
   "outcome": {
-    "win": "Congratulations! You solved the puzzle in {moves_used} moves!",
-    "loss": "Game over! You used all {max_turns} moves without solving the puzzle. Final completion: {completion}%\nFinal state:\n{grid}"
+    "win": "Mahlatse! O rarollotse puzzle ka {moves_used} tshwetso!",
+    "loss": "Ga e sa le! O dirisitse mabaka a {max_turns} a mabaka a go rarolla puzzle. Phetho ya mafelelo: {completion}%\nMaemo a mafelelo:\n{grid}"
   }
 }

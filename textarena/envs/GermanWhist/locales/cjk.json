@@ -1,76 +1,76 @@
 {
   "game_start": {
-    "intro": "The game begins. Trump suit: {trump_suit} (trump card: {trump_str}).",
+    "intro": "Mwito wa michezo unatangaza. Suti ya Trump: {trump_suit} (kadi ya Trump: {trump_str}).",
     "no_trump_card": "hakuna"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in German Whist.\n{phase_info}\nYou hold {hand_size} cards.\nPlay a card with '[play N]', where N is its position in your hand (for example '[play 3]').",
+    "intro": "Ni wewe Mchezaji {player_id} katika Whist ya Kijerumani.\n{phase_info}\nUna kadi {hand_size}.\nCheza kadi kwa kutumia '[play N]', ambapo N ni nafasi yake kwenye mkono wako (kwa mfano '[play 3]').",
     "phase_learning": "KSLK : WTNM: MD B BR: Ngatnm br mnd klkna d gla ckk, na ngwne sandiya td nm muwimbu w’a ndundu ye mbeji.",
     "phase_playing": "KSKD: Dn d krm. a ttg gnyi blkna sd mla ngz z, ckk kεs k'i knd nma kngnga."
   },
   "next_card": {
-    "playing_phase": "Hakuna kadi ya ku nyikiwa - hatua ya kucheza imeanza.",
-    "deck_empty": "Kanduku ya ndundu si ye - kadi yoyi nga yi nyiye.",
-    "available": "Card on offer: {card}",
-    "available_trump": "Card on offer: {card} (TRUMP)"
+    "playing_phase": "Hakuna kadi inayotolewa - hatua ya kucheza imeanza.",
+    "deck_empty": "Sitaha imekauka - hakuna kadi inayotolewa.",
+    "available": "Kadi inayotolewa: {card}",
+    "available_trump": "Kadi inayotolewa: {card} (TRUMP)"
   },
   "invalid_move": {
-    "wrong_format": "Invalid move format. Use '[play N]' to play the Nth card in your hand.",
-    "bad_position": "Cjk cj kd bk n'o si. Una dkk {hand_size} kadi",
-    "must_follow_suit": "You must follow suit and play a {lead_suit} card.",
+    "wrong_format": "Muundo wa hatua si sahihi. Tumia '[play N]' ili kucheza kadi ya N kwenye mkono wako.",
+    "bad_position": "Nafasi hiyo ya kadi haipo. Una kadi {hand_size}.",
+    "must_follow_suit": "Ni lazima ufuate suti na ucheze kadi ya {lead_suit}.",
     "invalid_play": "Kadi hiyo haiwezi kucheza."
   },
   "game_action": {
-    "played": "Player {player_id} played {card}."
+    "played": "Mchezaji {player_id} alicheza {card}."
   },
   "trick": {
-    "won": "Player {winner_id} wins the trick with {card}.",
-    "won_learning": "Player {winner_id} wins the trick with {card} and takes the face-up card."
+    "won": "Mchezaji {winner_id} anashinda mchezo kwa {card}.",
+    "won_learning": "Mchezaji {winner_id} anashinda mchezo kwa {card} na kuchukua kadi iliyo wazi."
   },
   "phase": {
     "learning_complete": "Kengele ya nderi yi bwile. Nzila ye ku ghula ehwa - kila mupira wa mwisho utwala ngonde kweya kwero lwangama."
   },
   "draw": {
-    "winner_received": "You won the trick and received {card}.",
-    "loser_received": "You lost the trick and drew {card} from the deck.",
-    "winner_preview": "Cjk card next on offer is {card}."
+    "winner_received": "Ulishinda mchezo na kupokea {card}.",
+    "loser_received": "Ulishindwa mchezo na kuchora {card} kutoka kwenye sitaha.",
+    "winner_preview": "Kadi inayofuata inayotolewa ni {card}."
   },
   "turn": {
     "board": "{phase}\n{scores}\n{next_card}\n\n{trick}\n\n{hand}",
-    "scores_learning": "Tricks won so far - Player 0: {tricks0}, Player 1: {tricks1}",
-    "scores_playing": "Scoring tricks - Player 0: {tricks0}, Player 1: {tricks1}",
+    "scores_learning": "Michezo iliyoshinda hadi sasa - Mchezaji 0: {tricks0}, Mchezaji 1: {tricks1}",
+    "scores_playing": "Michezo inayopata alama - Mchezaji 0: {tricks0}, Mchezaji 1: {tricks1}",
     "phase": "Phase: {phase}",
-    "phase_learning": "Phase: {phase} ({remaining_cards} cards left in the deck)"
+    "phase_learning": "Hatua: {phase} ({remaining_cards} kadi zimesalia kwenye sitaha)"
   },
   "hand": {
     "no_cards": "cj",
-    "no_cards_in_hand": "Hakuna kadi ndani",
-    "header": "Mukono wako:",
+    "no_cards_in_hand": "Hakuna kadi kwenye mkono",
+    "header": "Mkono wako:",
     "trump_indicator": "(TRUMP)",
     "suit_line": "{observation}\n  {suit}{trump_indicator}:",
     "card_line": "{observation}\n    {index}. {card}"
   },
   "trick_view": {
-    "empty": "Hakuna kadi zilizocheza sasa hii trick.",
-    "header": "Cjk_e:",
+    "empty": "Hakuna kadi ilichezwa bado katika mchezo huu.",
+    "header": "Mchezo wa sasa:",
     "trump_indicator": "(TRUMP)",
     "card_line": "{observation}\n  Player {player_id}: {card}{trump_indicator}"
   },
   "board_str": {
-    "not_started": "Game has not started",
-    "header": "=== GERMAN WHIST GAME ===",
+    "not_started": "Mchezo haujaanza",
+    "header": "=== MCHEZO WA WHIST YA KIJERUMANI ===",
     "phase": "{observation}\nPhase: {phase}",
-    "trump_suit": "{observation}\nTrump suit: {trump_suit}",
-    "trump_card": "{observation}\nTrump card: {card}",
-    "cards_left": "{observation}\nCards left in deck: {count}",
-    "next_card": "{observation}\nNext card for winner: {card}",
+    "trump_suit": "{observation}\nSuti ya Trump: {trump_suit}",
+    "trump_card": "{observation}\nKadi ya Trump: {card}",
+    "cards_left": "{observation}\nKadi zimesalia kwenye sitaha: {count}",
+    "next_card": "{observation}\nKadi inayofuata kwa mshindi: {card}",
     "blank": "{observation}\n",
-    "current_trick": "{observation}\nCurrent trick:",
+    "current_trick": "{observation}\nMchezo wa sasa:",
     "trump_indicator": "(TRUMP)",
     "trick_line": "{observation}\n  Player {player_id}: {card}{trump_indicator}",
-    "player_line": "{observation}\nPlayer {player_id}: {scoring} scoring tricks ({tricks} total), {hand_size} cards in hand"
+    "player_line": "{observation}\nMchezaji {player_id}: {scoring} michezo inayopata alama ({tricks} jumla), {hand_size} kadi kwenye mkono"
   },
   "outcome": {
-    "summary": "cjkcrtk - Player 0: {l0}, player 1 :{l1}. Playing phase - Player 0.: {p0} Player 1: {p1}. Player {winner_id} wins with {winner_tricks} scoring tricks!"
+    "summary": "Hatua ya kujifunza - Mchezaji 0: {l0}, Mchezaji 1: {l1}. Hatua ya kucheza - Mchezaji 0: {p0}, Mchezaji 1: {p1}. Mchezaji {winner_id} anashinda kwa {winner_tricks} michezo inayopata alama!"
   }
 }

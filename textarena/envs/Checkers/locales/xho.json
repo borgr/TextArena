@@ -6,8 +6,8 @@
     "intro": "Uyiyithonji {player_id} edlala igemu leCheckers njengenkwenkwezi {color}.\nYenza khetho lwakho ngendlela yefomati ya chess [fileRank fileRank], t.f. '[b2c3]' (leteru ya koloni a–h, digitu ya row 0–7).\nIinkonzo ezibasa:\n  • Thonjela ngokwezintlobo kushesha ngamanye, uma ilaliwe.\n  • Fuduka kuthonjelwa ngokuvuka phezulu kwempahla yedweshu.\n  • Inkonzo iyathoniwa uma ifika phezulu kwezinye."
   },
   "invalid_move": {
-    "wrong_format": "No valid move format found. Use [a1b2], e.g. [b2c3].",
-    "illegal": "Move [{move}] is illegal."
+    "wrong_format": "Akukho njongo yokuthuka ifumanekayo. Sebenzisa [a1b2], isibonelo [b2c3].",
+    "illegal": "Isithuko [{move}] siyilegal."
   },
   "game_action": {
     "moved": "Umdlali {player_id} uhambile {move}."

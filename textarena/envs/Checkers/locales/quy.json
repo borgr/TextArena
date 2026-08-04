@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "Achka rurasqayki llullayta tarikuqchu. Usaq [a1b2], hinallataq [b2c3].",
-    "illegal": "Move [{move}] is illegal."
+    "illegal": "Q'illqay [{move}] ilegal kan."
   },
   "game_action": {
     "moved": "Pichu {player_id} pukllaqqa purirqan {move}."
@@ -16,6 +16,6 @@
     "red_no_pieces": "Pukaqa mana ima t'aqasqachu, ch'iyarmi atipan!",
     "black_no_pieces": "¡Muruqa mana ima tʼaqasqachu, pukaq atipan!",
     "no_moves": "{player_id} pukllaqqa mana ima movespas kanchu.",
-    "draw": "The turn limit has been reached."
+    "draw": "T'inkay pacha tukukuymi."
   }
 }

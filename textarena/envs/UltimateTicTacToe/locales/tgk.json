@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in **Ultimate Tic Tac Toe**.\nSubmit your move as **[macro  micro]** (two numbers 0-8):\n• *macro*  = which mini-board you play in\n• *micro* = which square inside that mini-board\nExample `[7 8]` ➜ place your mark in mini-board 7, square 8, and\nforce your opponent to play in mini-board 8 next.\n\nYou are `{symbol}`.\n"
+    "intro": "Шумо бозигари {player_id} дар **Ultimate Tic Tac Toe** ҳастед.\nҲаракати худро ҳамчун **[macro  micro]** (ду адад 0-8) ворид кунед:\n• *macro*  = кадом мини-тахта шумо дар он бозӣ мекунед\n• *micro* = кадом квадрат дар дохили он мини-тахта\nНамуна `[7 8]` ➜ нишонаи худро дар мини-тахтаи 7, квадрат 8 гузоред, ва\nҳарифи худро водор кунед, то дар мини-тахтаи 8 бозӣ кунад.\n\nШумо `{symbol}` ҳастед.\n"
   },
   "board": {
     "current_board": "Шӯрои кунунӣ: {board}"

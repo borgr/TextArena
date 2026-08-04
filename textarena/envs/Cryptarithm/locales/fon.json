@@ -9,12 +9,12 @@
     "{pct}": "Progress as a percentage string, e.g. 50%"
   },
   "player_prompt": {
-    "intro": "Map each letter to a unique digit so the arithmetic holds.\nAssign with `[A 5]`, re-assign anytime.\n"
+    "intro": "Xɔ́ gbɛtɔ gbɛtɔ ɖɔ sɔ kɛ ɖɔɖɔ ɖɔɖɔ.\nGbɛtɔ ɖɔɖɔ pɛ [A 5], ɖɔɖɔ gbɛtɔ ɖɔɖɔ kɛ ɖɔɖɔ."
   },
   "invalid_move": {
-    "wrong_format": "Bad action format. Use `[A 5]`.",
+    "wrong_format": "Gbɛtɔ ɖɔɖɔ mɛ ɖɔɖɔ. Xɔ́ gbɛtɔ [A 5].",
     "letter_not_in_puzzle": "Wlεma {letter} e ɖo nùkanbyɔ mɛ ɔ ă.",
-    "digit_used": "Digit {digit} already used by {used_letter}.",
+    "digit_used": "Gbɛtɔ {digit} ɖɔɖɔ gbɛtɔ {used_letter} gbɛtɔ.",
     "leading_zero": "Wema nukɔn tɔn xógbe ɖé tɔn sixu nyí 0 ǎ."
   },
   "outcome": {

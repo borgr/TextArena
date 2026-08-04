@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in JoJoJoin, played on a 5x5 board with cells numbered 0-24.\nOn your turn, place your mark on any empty cell, e.g. '[12]'.\nYOU WIN by getting FOUR of your marks in a row — four consecutive cells horizontally, vertically, or diagonally.\nAs Player {player_id} you are '{symbol}'; your opponent is '{opponent_symbol}'."
+    "intro": "Ko a yi Player {player_id} e JoJoJoin, an waƙa a kan allo 5x5 da sel ɗin da aka ɗauka 0-24.\nA lokacin ku, saita alama nku a kan ko wane sel da ba a yi amfani da shi ba, kwa mf. '[12]'.\nKU CI nasara idan kuka samu alama nku huɗu a jere — sel huɗu masu zuwa wata gaba a tsaye, a kwance, ko a ɗigon ɗigon.\nA matsayin Player {player_id} kuna '{symbol}'; abokin hamayyar ku shine '{opponent_symbol}'."
   },
   "board": {
     "current_board": "Borto Hafinare:\n\n{board}\n\nKoƴe Mawɗe: {moves}"

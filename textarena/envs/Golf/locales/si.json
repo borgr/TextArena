@@ -57,7 +57,7 @@
     "wrong_action": "හරියටම එක කුටීර ක් රියාවක් භාවිතා කරන්න: [draw], [take], [swap X Y], [discard], [knock], හෝ [peek X Y]",
     "discard_empty": "ඉවතලන ගොඩ හිස්!",
     "must_draw_first": "ඔයා මුලින්ම [draw], [take], [knock], නැත්නම් [peek X Y]",
-    "cannot_discard_taken": "You cannot discard a card taken from the discard pile. You must swap it.",
+    "cannot_discard_taken": "ඔබ ඉවත් ගොඩගැසීමේ ගොඩ වෙතින් ගත් කාඩ් ඉවත් කළ නොහැක. ඔබ එය හුවමාරු කළ යුතුය.",
     "have_drawn_card": "ඔයා ගාව කාඩ් එකක් තියෙනවා. ඔයා ඒක [swap X Y] හෝ [discard] කරන්න ඕනේ.",
     "need_drawn_swap": "ඔයාට හුවමාරු කරන්න කාඩ් එකක් ඕන.",
     "need_drawn_discard": "ඔයාලට ඕනේ අදින්න පුළුවන් කාඩ් එකක්.",

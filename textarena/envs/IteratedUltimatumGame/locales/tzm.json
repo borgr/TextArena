@@ -21,11 +21,11 @@
     "{total}": "Each player's tied final total (a number)"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id}, playing {num_rounds} rounds of Iterated Ultimatum Game.\nYou have ${pool} to split this round between yourself and Player {other_id}.\n\nProposer:\n  - Make an offer: [Offer: $X] (0 <= X <= pool)\n  - If accepted → You get $(pool - X), other player gets $X\n  - If rejected → Both get $0\n  - Example: [Offer: $3]  or  'I think this is fair. [Offer: $5]'\n\nResponder:\n  - Decide on the offer with either [Accept] or [Reject]\n  - Example: 'That seems reasonable. [Accept]'\n            'Too unfair. [Reject]'\n"
+    "intro": "Nekk d uɣerbani {player_id}, ar tturarɣ {num_rounds} n tɣulin n Iterated Ultimatum Game.\nḌariɣ ${pool} iɣunab n kraygat tɣult sɣur-k d uɣerbani {other_id}.\n\nAssuɣsi:\n  - Ssuɣs tɣawsa: [Offer: $X] (0 <= X <= pool)\n  - Ma d yiwen iɣunab → Nekk ar tɣamaɣ $(pool - X), uɣerbani nniḍen ar tɣama $X\n  - Ma d yiwen ur iɣunab → Kraygat ar tɣama $0\n  - Amzray: [Offer: $3]  neɣ  'Ḥsabɣ d akken d amḍan. [Offer: $5]'\n\nAssider:\n  - Ṣṣay tɣawsa s [Accept] neɣ [Reject]\n  - Amzray: 'Ḥsabɣ d akken d amḍan. [Accept]'\n            'Ur d yiwen amḍan. [Reject]'\n"
   },
   "round": {
     "begins": "--- Tafra {round_number} teggḍa! ---\nAnegzem {proposer_id} d amseɣẓaḍ, Anegzem {responder_id} d amsenɣẓaḍ.",
-    "offer": "Round {round_number}: Player {proposer_id} offers ${offer} to Player {responder_id} (keeping ${keep}).",
+    "offer": "Tɣult {round_number}: Uɣerbani {proposer_id} iɣunab ${offer} i uɣerbani {responder_id} (ar tɣama ${keep}).",
     "accepted": "Anegzem {responder_id} yessufɣeḍ! Tafra {round_number} tessɛu: Anegzem {proposer_id} +${proposer_gain}, Anegzem {responder_id} +${responder_gain}. Iɣewwaṛen imaynuten: Anegzem 0: ${total_0}, Anegzem 1: ${total_1}.",
     "rejected": "Anegzem {responder_id} yekkes lḥeqq! Tafra {round_number} tessɛu: Snen yakk fell-asen $0. Iɣewwaṛen zemren ad ilin: Anegzem 0: ${total_0}, Anegzem 1: ${total_1}."
   },
@@ -37,7 +37,7 @@
     "accept_or_reject": "Asenmel aɣerman ad yessufɣeḍ [Accept] neɣ [Reject] lḥeqq."
   },
   "outcome": {
-    "win": "Player {winner} won with ${winner_total} total vs Player {loser}'s ${loser_total}.",
+    "win": "Uɣerbani {winner} iɣunab s ${winner_total} ḍari vs uɣerbani {loser} s ${loser_total}.",
     "draw": "ⵙⵙⴽⵛⵎⵏ ⵉⵎⵓⵔⴰⵔⵏ ⴰⴽⴽⵡ ⵥⴹⴰⵕⵏ ⴰⴷ ⵖⵔⵉⵏ ${total} ⴳ ⵓⵎⵎⴰⵣ."
   }
 }

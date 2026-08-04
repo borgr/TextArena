@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "འཇོག་སྟངས་[row col] གི་ཚུལ་ལ་ཡིན་དགོས་པ་དེ་ཨང་ཀི་{max_index} ནས་འགོ་བཟུང་ཡོད།",
-    "out_of_range": "Coordinates must be between 0 and {max_index}. You entered [{row},{col}]."
+    "out_of_range": "ཁྱེད་ཀྱི་ཐིག་གྲངས་ནི་0 བར་{max_index} བར་དུ་བཀོད་པ་ཡིན་དགོས། ཁྱེད་ཀྱིས་[{row},{col}] བཀོད་པ་ཡིན།"
   },
   "outcome": {
     "win": "བཀྲིས་བདེ་ལེགས། ཁྱོད་ཀྱིས་ {moves_used} གི་རིམ་པ་ནང་ལུ་ མགུ་སྐོར་འདི་སེལ་ཚུགས་པས།",

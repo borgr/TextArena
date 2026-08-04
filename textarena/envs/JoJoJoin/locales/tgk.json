@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in JoJoJoin, played on a 5x5 board with cells numbered 0-24.\nOn your turn, place your mark on any empty cell, e.g. '[12]'.\nYOU WIN by getting FOUR of your marks in a row — four consecutive cells horizontally, vertically, or diagonally.\nAs Player {player_id} you are '{symbol}'; your opponent is '{opponent_symbol}'."
+    "intro": "Шумо бозигари {player_id} дар JoJoJoin ҳастед, ки дар тахтаи 5х5 бо ҳуҷайраҳои рақамгузоришуда аз 0 то 24 бозӣ мекунед.\nДар навбати худ, нишонаи худро дар ҳуҷайраи холӣ гузоред, масалан '[12]'.\nШУМО БОРӢ мешавед, агар чор нишонаи худро дар сафҳои ҳамонӣ — чор ҳуҷайраи пай дар пай уфуқӣ, амудӣ ё диагоналӣ гиред.\nҲамчун бозигари {player_id} шумо '{symbol}' ҳастед; рақиби шумо '{opponent_symbol}' аст."
   },
   "board": {
     "current_board": "Борди кунунӣ:\n\n{board}\n\nХаркатҳои дастрас: {moves}"

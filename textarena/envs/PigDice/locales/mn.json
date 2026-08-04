@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} playing a game of Pig Dice.\n\nRules:\n- On your turn, you can either '[roll]' or '[hold]'\n- Roll a 2-6: Add to your turn total\n- Roll a 1: Lose turn total and end turn\n- Hold: Add turn total to your score and end turn\n- First to {winning_score} points wins\n\nWhen it's your turn, you'll see the current scores and turn total.\nRespond with '[roll]' to roll the die or '[hold]' to bank your points."
+    "intro": "Та Таван шооны тоглоом тоглож байгаа Тоглогч {player_id} юм.\n\nДүрэм:\n- Ээлжиндээ, та '[roll]' эсвэл '[hold]' хийх боломжтой\n- 2-6 буулах: Ээлжийн нийт дүнгээ нэмэгдүүл\n- 1 буулах: Ээлжийн нийт дүнгээ алдаж, ээлжээ дуусга\n- Хадгалах: Ээлжийн нийт дүнгээ оноогоо нэмэгдүүлж, ээлжээ дуусга\n- {winning_score} оноо хүрсэн нь түрүүлнэ\n\nТа ээлжээ хүлээж байхад, одоогийн оноо болон ээлжийн нийт дүнг харна.\n'[roll]' хийж шоо шидэх эсвэл '[hold]' хийж оноогоо банкруут хийхийг хариулаарай."
   },
   "invalid_move": {
     "invalid_action": "Гэмт үйлдлийн хэлбэр. \"[roll]\" эсвэл \"[hold]\" ашиглана."

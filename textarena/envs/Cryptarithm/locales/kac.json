@@ -9,10 +9,10 @@
     "{pct}": "Progress as a percentage string, e.g. 50%"
   },
   "player_prompt": {
-    "intro": "Map each letter to a unique digit so the arithmetic holds.\nAssign with `[A 5]`, re-assign anytime.\n"
+    "intro": "Kumhtawng a ahtik hte digit a shapawng ai hte sariq sha shapawng.\n[A 5] hte shapawng, re-assign anytime.\n"
   },
   "invalid_move": {
-    "wrong_format": "Bad action format. Use `[A 5]`.",
+    "wrong_format": "N hkru ai action format. [A 5] hte shapawng.",
     "letter_not_in_puzzle": "Laika {letter} gaw puzzle hta n lawm ai.",
     "digit_used": " {digit} htung ga {used_letter} na re.",
     "leading_zero": "Ga si a shawng na digit gaw 0 n mai rai ai."

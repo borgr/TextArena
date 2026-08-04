@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "ଆକ୍ସନଟି [row col] ଫର୍ମାଟରେ ହେବା ଉଚିତ ଯେଉଁଠାରେ ଧାଡ଼ି ଏବଂ ସ୍ତମ୍ଭ ହେଉଛି ୦ରୁ {max_index} ପର୍ଯ୍ୟନ୍ତ ସମ୍ପୂର୍ଣ୍ଣ ସଂଖ୍ୟା ।",
-    "out_of_range": "Coordinates must be between 0 and {max_index}. You entered [{row},{col}]."
+    "out_of_range": "ସ୍ଥାନାଙ୍କ 0 ଏବଂ {max_index} ମଧ୍ୟ ହୋବ। ଆପଣ [{row},{col}] ପ୍ରବେଶ କରିଛନ୍ତି।"
   },
   "outcome": {
     "win": "ଅଭିନନ୍ଦନ! ଆପଣ {moves_used}ଗତି ରେ ପଜଲ୍ ସମାଧାନ କରିଛନ୍ତି!",

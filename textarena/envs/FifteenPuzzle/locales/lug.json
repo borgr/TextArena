@@ -1,9 +1,9 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id}. You are playing the 15-Puzzle game.\nThe objective of the game is to arrange the numbered tiles in ascending order from 1 to 15, with the empty space located in the bottom-right corner.\nTo make a move, you can slide a tile into the empty space (represented by a double underscore, e.g. __) by using one of the following commands:\n- 'up': Move the tile below the empty space up.\n- 'down': Move the tile above the empty space down.\n- 'left': Move the tile to the right of the empty space left.\n- 'right': Move the tile to the left of the empty space right.\nTo submit your move, type the direction (e.g., 'up', 'down', 'left', or 'right') in square brackets, e.g. [up].\nThe current board layout is shown below. Use the information to solve the puzzle.\n"
+    "intro": "Oli Muzanyi {player_id}. Oli muzanya omuzanyo gw'ekitoone kya 15-Puzzle.\nEkigendererwa ky'omuzanyo kwe kukola matayiro agawuliddwa mu mpangiso ya nambari okuva 1 okutuuka 15, n'ekitundu eky'ali kituusibwamu kisangibwe mu makkati g'ekibinja ky'ebali emabega.\nOkusobola okufuula, oyinza kusogga tayiro limu mu kitundu eky'ali kituusibwamu (ekiragiddwa na dubbulu andabika, e.g. __) nga oyita mu lugendo lwa kufuula kuliko:\n- 'up': Sogga tayiro eri wansi wa kitundu eky'ali kituusibwamu okudda waggulu.\n- 'down': Sogga tayiro eri waggulu wa kitundu eky'ali kituusibwamu okudda wansi.\n- 'left': Sogga tayiro eri ku mabbali wa kitundu eky'ali kituusibwamu okudda ku mabbali wa kkono.\n- 'right': Sogga tayiro eri ku mabbali wa kkono wa kitundu eky'ali kituusibwamu okudda ku mabbali wa kulia.\nOkusobola okuteeka lugendo lwo, tiiypa lugendo (e.g., 'up', 'down', 'left', oba 'right') mu mbawo za mraba, e.g. [up].\nEkibinja ekya sasa kya matayiro kya muzanyo kikulagiddwa wansi. Oyinza kutayambulira ku kibinja kino okutataganya omuzanyo.\n"
   },
   "board": {
-    "current_board": "Current Board:\n\n{board}\nAvailable Moves: {moves}",
+    "current_board": "Ekibajjo kya sasa:\n\n{board}\nEmikolo egiriiwe: {moves}",
     "game_board": "Ekipande ky'omuzannyo: {board}"
   },
   "invalid_move": {

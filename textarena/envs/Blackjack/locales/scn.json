@@ -9,7 +9,7 @@
     "wrong_format": "Azzioni invalida. Usa '[Hit]' o '[Stand]'."
   },
   "game_message": {
-    "hand_result": "Hand {hand_number}: you {outcome}. Your final {player_score}, Dealer {dealer_score}.",
+    "hand_result": "Manu {hand_number}: tu {outcome}. La tò puntuazzioni finali {player_score}, Dealer {dealer_score}.",
     "all_complete": "=== Tutti {num_hands} mani cumpreti ===\nVinci: {wins}, Pèrditi: {losses}, Pari: {draws}\n"
   },
   "outcome": {

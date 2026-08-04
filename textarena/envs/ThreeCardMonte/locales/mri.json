@@ -11,7 +11,7 @@
     "{ball_pos}": "The cup index the ball is under"
   },
   "player_prompt": {
-    "intro": "Track the hidden ball 'X' while the cups are shuffled.\nAfter shuffling, guess its location with `[k]`."
+    "intro": "Whāia te pōro huna 'X' i te wā e hīrautia ana ngā kapu.\nWhai muri i te hīrautanga, kī tōna wāhi ki `[k]`."
   },
   "game_message": {
     "ball_starts": "Ka tīmata te pōro: {line}",
@@ -21,11 +21,11 @@
     "reveal": "(Whakakitea: pōro i raro {ball_pos})"
   },
   "invalid_move": {
-    "wrong_format": "Bad action. Use `[k]`.",
+    "wrong_format": "Mahi hē. Whakamahia `[k]`.",
     "out_of_range": "Ko te taupū kei waho o te awhe 0-{max_index}."
   },
   "outcome": {
     "win": "He tika! I kitea e koe te pōro.",
-    "lose": "Wrong — ball was under cup {ball_pos}."
+    "lose": "Hē — kei raro te pōro i te kapu {ball_pos}."
   }
 }

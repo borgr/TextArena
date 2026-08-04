@@ -26,7 +26,7 @@
   },
   "board": {
     "per_player": "\tJwè {p}: {d}",
-    "new_round": "\nNouvèl tour - Dez avèk {dice_summary} mache.\nDez aktyèl ou ye: {your_dice}"
+    "new_round": "\nTounwa nouvo - Dez rèsan: {dice_summary}\nDez ou yo aktyèlman se: {your_dice}"
   },
   "call": {
     "bidder_loses": "Jwè {current_player_id} rele! Kont kwèl nan figi {face_value} se {count}, ki mwens ke {quantity}.\nJwè {loser_id} (dènye moun ki te fe ofè a) pèdi yon dez.",

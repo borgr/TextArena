@@ -5,8 +5,8 @@
   },
   "player_prompt": {
     "intro": "Та бол Германы Уистийн тоглогч {player_id}. {phase_info} Та {hand_size} карт барьж байна. \"[play N]\"тэй карт тоглож, энд N нь таны гар дахь байрлал нь (жишээ нь \"[play 3]\").",
-    "phase_learning": "LEARNING PHASE: the winner of each trick takes the face-up card and the loser draws the next card from the deck. Tricks won in this phase do not count towards victory.",
-    "phase_playing": "PLAYING PHASE: the deck is exhausted. Every trick from now on counts towards victory."
+    "phase_learning": "СУРАЛЦАХ ШАТ: тоглоомын ялагч бүртгэлийн картыг авна, ялагдагч нь дараагийн картыг таслаас авна. Энэ шатны ялалт нь ялалтад тооцогдохгүй.",
+    "phase_playing": "ТОГЛОХ ШАТ: таслал хоосон. Энэ цагаас хойш ялалтад тооцогдох бүх тоглоом."
   },
   "next_card": {
     "playing_phase": "Ямар ч карт санал болгож байгаагүй - тоглоомын үе шат эхэлжээ.",
@@ -16,8 +16,8 @@
   },
   "invalid_move": {
     "wrong_format": "Хөдөлгөөний хэлбэр нь хүчингүй. '[play N]' -ийг ашиглаж, гартаа байгаа Nth картыг тоглож үзээрэй.",
-    "bad_position": "That card position does not exist. You hold {hand_size} cards.",
-    "must_follow_suit": "You must follow suit and play a {lead_suit} card.",
+    "bad_position": "Тэр картын байрлал байхгүй. Та {hand_size} карттай байна.",
+    "must_follow_suit": "Та өнгө дагах ёстой, {lead_suit} өнгийн карт тоглоно.",
     "invalid_play": "Энэ картыг тоглох боломжгүй."
   },
   "game_action": {
@@ -31,8 +31,8 @@
     "learning_complete": "Суралцах үе шат дууссан - үлдсэн бүх арга нь ялалтын төлөө тооцогддог."
   },
   "draw": {
-    "winner_received": "You won the trick and received {card}.",
-    "loser_received": "You lost the trick and drew {card} from the deck.",
+    "winner_received": "Та тоглоомыг яллаа, {card} картыг авлаа.",
+    "loser_received": "Та тоглоомыг ялагдлаа, {card} картыг таслаас авлаа.",
     "winner_preview": "Дараагийн карт нь {card} юм."
   },
   "turn": {

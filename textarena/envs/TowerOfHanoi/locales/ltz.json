@@ -16,7 +16,7 @@
     "moved": "Dir hueft Scheif {disk} vu {source} op {target}."
   },
   "outcome": {
-    "win": "Congratulations! You solved the Tower of Hanoi puzzle.",
+    "win": "Gratulatiounen! Dir hutt deen Tower vun Hanoi geléist.",
     "turn_limit": "D'Récklimit ass erreecht ginn. Dir hutt {pct}% vun de Scheiben op Tower C richteg plazéiert."
   }
 }

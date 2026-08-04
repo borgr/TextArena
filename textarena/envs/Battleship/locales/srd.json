@@ -10,7 +10,7 @@
   "game_action": {
     "you_sunk": "Affundau! Tu as affundau una navi in {coord}! Sa tua tabella aggiornata:\n{view}",
     "opp_sunk": "Opponente at affundau sa tua navi in {coord}! Sa tua tabella aggiornata:\n{view}",
-    "you_hit": "Hit! You hit a ship at {coord}! Your updated board:\n{view}",
+    "you_hit": "Colpu! As colpidu una nave in {coord}! Sa tua tabella aggiornada:\n{view}",
     "opp_hit": "Opponente atacat sa tua navi in {coord}! Sa tua tabella aggiornata:\n{view}",
     "you_miss": "Erru! Tu as erratu sa navi in {coord}! Sa tua tabella aggiornata:\n{view}",
     "opp_miss": "Opponente at erratu sa tua navi in {coord}! Sa tua tabella aggiornata:\n{view}"

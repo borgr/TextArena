@@ -50,6 +50,6 @@
     "eliminated_invalid": "Ludanto {player_id} estis eliminita per malvalida movo."
   },
   "outcome": {
-    "win": "Player {winner} wins! Final ranking: {final_ranking}"
+    "win": "Ludanto {winner} gajnas! Fina rangordo: {final_ranking}"
   }
 }

@@ -1,9 +1,9 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} playing {colour} ({piece}) in a game of Othello.\nYour goal is to have more pieces of your color on the board by the end of the game.\nOn your turn, place a piece such that it flanks one or more of your opponent's pieces-in any direction (horizontal, vertical, or diagonal)-between your new piece and another of your existing pieces. All flanked opponent pieces will be flipped to your color.\nProvide your move in the format '[row, col]'."
+    "intro": "Nang {player_id} Othello kawp shangai sha ({colour}) ({piece}) na kawp shangai sha rai.\nNang kawp shangai sha rai shingtai nang kawp shangai sha a wunawm nna shingtai nang kawp shangai sha rai shingtai hpang de na matu nang kawp shangai sha rai.\nNang hpang de shingtai, kawp shangai sha nang hpang de shingtai shingtai nang kawp shangai sha rai shingtai hpang de shingtai hpang de shingtai hpawt nna hpang de shingtai shingtai kawp shangai sha nang hpang de shingtai rai shingtai hpang de na matu nang kawp shangai sha rai.\nNang hpang de shingtai '[row, col]' hku format na shingtai hpang de shingtai rai."
   },
   "board": {
-    "game_board": "Game Board: {board} (Jinghpaw hku gaw, JINGHPAWNG)",
+    "game_board": "Sai Hte Hku Board:\n{board}",
     "valid_moves": "{observation}\nHkum Hkaw Htaung: {moves}",
     "no_valid_moves_reset": "{observation} Hkam kaja ai lam n nga yang, lai kau ra na re.",
     "no_valid_moves_step": "{observation} Hkam kaja ai lam n nga yang, nang lai kau ra na re.",
@@ -15,8 +15,8 @@
     "illegal": "Tara n shang ai shamu shamawt lam. Hkam sha mai ai shamawng: {valid}"
   },
   "game_action": {
-    "skipped": "Player {pid} gaw shi a turn hpe lai kau ra ai.",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "skipped": "Kawp shangai sha {pid} hpang de shingtai shingtai hpang de na shingtai rai sha rai",
+    "played": "Player {pid} ({piece}) kaja wa hte hku n-ga hpe mung shangai hku rai [{r}, {c}] hku rai nna {flipped} hku rai n-ga hpe mung shangai hku rai"
   },
   "game_message": {
     "must_skip": "N Hkap {pid} ({piece}) htai hkum htaung kaw na matu sha ai."

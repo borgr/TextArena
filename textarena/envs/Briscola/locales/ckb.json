@@ -52,6 +52,6 @@
   },
   "outcome": {
     "head": "یاری کۆتایی هات! یاریکەر {winner} براوەیە بە {points} خال!\n\n خالەکانی کۆتایی:\n{scores}",
-    "player_line": "Player {player_id}: {points} points ({tricks} tricks)\n"
+    "player_line": "یاریزان {player_id}: {points} خاڵ ({tricks} حەوتە)\n"
   }
 }

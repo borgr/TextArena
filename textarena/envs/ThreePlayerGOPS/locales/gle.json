@@ -14,7 +14,7 @@
     "{scores}": "The final scores as a raw player-number to score mapping - do not translate"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player GOPS.\n- You hold the 13 cards A-K (each exactly once).\n- Each round a prize is revealed. Submit ONE card like `[Q]`, `[10]`, `[2]` …\n- Highest card wins the prize (+ any carry-over pot). Ties roll the prize into the next round.\n- After 13 rounds, highest total wins. Invalid moves = elimination."
+    "intro": "Tusa an Imreoir {player_id} i Three-Player GOPS.\n- Tá na 13 cárta A-K (gach ceann uair amháin) agat.\n- Nochtar duais i ngach babhta. Cuir isteach CÁRDA amháin cosúil le `[Q]`, `[10]`, `[2]` …\n- An cárta is airde a bhuaigh an duais (+ aon phot a tugadh thar). Téann comhscór an duais isteach sa chéad babhta eile.\n- Tar éis 13 babhta, buaigh an scór is airde. Bearta neamhbhailí = cur as."
   },
   "round": {
     "header": "### Babhta {round}/13 - Duais: {prize} (luach {worth})",

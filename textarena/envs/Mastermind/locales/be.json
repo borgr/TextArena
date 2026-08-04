@@ -13,7 +13,7 @@
     "repeated_guess": "Вы ўжо адгадалі {guess}. Калі ласка, паспрабуйце іншы адказ."
   },
   "game_action": {
-    "feedback": "Submitted [{guess}]. Feedback: {black_pegs} black peg(s), {white_pegs} white peg(s)."
+    "feedback": "Пададзена [{guess}]. Водгук: {black_pegs} чорнае колца(оў), {white_pegs} белых колца(оў)."
   },
   "outcome": {
     "win": "Вы расшыфравалі код, рашэнне {black_pegs} з {code_length} пасты правільна",

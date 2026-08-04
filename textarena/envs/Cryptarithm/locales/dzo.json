@@ -9,10 +9,10 @@
     "{pct}": "Progress as a percentage string, e.g. 50%"
   },
   "player_prompt": {
-    "intro": "Map each letter to a unique digit so the arithmetic holds.\nAssign with `[A 5]`, re-assign anytime.\n"
+    "intro": "ཡིག་འབྲུ་རེ་རེ་ཨང་གྲངས་ཐ་དད་པ་ཞིག་ལ་བཞག་གནང་། བཞག་པའི་ཚུལ་ནི་ `[A 5]` འདི་ལྟར་བྱོས། སླར་ཡང་བཞག་ཆོག"
   },
   "invalid_move": {
-    "wrong_format": "Bad action format. Use `[A 5]`.",
+    "wrong_format": "བྱ་སྟངས་ཀྱི་རྣམ་པ་མ་འགྲིག འདི་ལྟར་བྱོས་ `[A 5]` གཡོན་ཕྱོགས་ཀྱི་ཡིག་འབྲུ་དང་གཡས་ཕྱོགས་ཀྱི་ཨང་གྲངས་གཉིས་ཀྱི་བར་དུ་ཚུགས་ཐིག་ཅིག་བཞག་པའི་དོན་ཡིན།",
     "letter_not_in_puzzle": "ཡིག་འབྲུ་ {letter} འདི་ མགུ་སྐོར་ནང་མེདཔ་ཨིན།",
     "digit_used": "ཨང་ཀི {digit} དེ་{used_letter} གྱིས་གོང་བཞག་ཡོད།",
     "leading_zero": "ཚིག་ཡིག་གི་ཨང་གྲངས་ འགོ་དང་པ་འདི་ ༠ འབད་མི་ཚུགས།"

@@ -25,7 +25,7 @@
   },
   "board": {
     "drew": "Wudile: {card}\nNoma wuncoma [swap X Y] noma [discard]",
-    "took": "You took: {card} from discard pile\nYou must [swap X Y] with it (cannot discard).",
+    "took": "Uthathile: {card} kwenye pile ye-discard\nUyahlela [swap X Y] nayo (ungasusi).",
     "peeked": "Wubheke kwipozishini ({row},{col}): {card}",
     "turn_view": "Lwempu lwakho:\n{hand}\nIndlu yokudisa: {discard}\n{options}",
     "none": "Kute"

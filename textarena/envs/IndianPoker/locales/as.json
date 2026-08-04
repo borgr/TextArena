@@ -25,7 +25,7 @@
   "message": {
     "round_result": "{reason} পট {pot} → প্লেয়াৰ {winner}. (ব্যাংক্ৰোলছ পি ০:{p0}, পি ১ঃ{p1})",
     "folded": "খেলুৱৈ {player_id} ফ'ল্ড হৈছে।",
-    "showdown_win": "Showdown: {card_win} beats {card_lose}.",
+    "showdown_win": "শোডাউন: {card_win} {card_lose}ক পৰাস্ত কৰিছে।",
     "showdown_tie": "শ্ব'ডাউন টাইঃ দুয়ো {card}। পট স্প্লিট  প্ৰত্যেকেই লাভ কৰে {split}।"
   },
   "outcome": {

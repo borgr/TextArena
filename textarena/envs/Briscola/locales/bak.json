@@ -39,8 +39,8 @@
   "turn": {
     "score_entry": "Уйынсы {player_id}: {points} пункт",
     "trump_info": "Трамп кейеме: {trump_suit}",
-    "trump_info_deck": "Trump suit: {trump_suit} | Cards left in deck: {deck_count}",
-    "board": "{hand}\n\n{trick}\n\nScores: {scores}\n{trump_info}\n\nPlay a card using [play X]"
+    "trump_info_deck": "Козырь маһы: {trump_suit} | Колодағы карталар иҫәбе: {deck_count}",
+    "board": "{hand}\n\n{trick}\n\nИҫәптәр: {scores}\n{trump_info}\n\nКарта уйнағыҙ [play X] ҡағиҙәһе менән"
   },
   "invalid_move": {
     "wrong_format": "Ҡуллана [play X] бында X - картаның урыны (1, 2, 3, һ.б.)",
@@ -48,10 +48,10 @@
   },
   "action": {
     "played": "Уйынсы {player_id} {card} уйналар",
-    "trick_win": "Player {winner} wins the trick with {card} and gains {points} points!"
+    "trick_win": "Уйынсы {winner} {card} карта менән трюкты отты һәм {points} ҡиммәттәрҙе алды!"
   },
   "outcome": {
-    "head": "Game Over! Player {winner} wins with {points} points!\n\nFinal Scores:\n{scores}",
+    "head": "Уйын аҙағы! Уйынсы {winner} {points} ҡиммәттәр менән отты!\n\nҺуңғы Иҫәптәр:\n{scores}",
     "player_line": "Уйынсы {player_id}: {points} пункт ({tricks} трюктар)\n"
   }
 }

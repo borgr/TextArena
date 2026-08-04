@@ -16,7 +16,7 @@
   },
   "game_action": {
     "skipped": "Lo jogaire {pid} deguèt sautar son torn.",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "Lo Joueur {pid} ({piece}) a jogat [{r}, {c}] virant {flipped} pèça(s)"
   },
   "game_message": {
     "must_skip": "Jogador {pid} ({piece}) a pas de movements valids e deu passar."

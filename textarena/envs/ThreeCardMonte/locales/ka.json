@@ -11,7 +11,7 @@
     "{ball_pos}": "The cup index the ball is under"
   },
   "player_prompt": {
-    "intro": "Track the hidden ball 'X' while the cups are shuffled.\nAfter shuffling, guess its location with `[k]`."
+    "intro": "დააკვირდით დამალულ ბურთს 'X', როდესაც ჭიქები ირევა.\nარევის შემდეგ, გამოიცანით მისი ადგილმდებარეობა `[k]`-ით."
   },
   "game_message": {
     "ball_starts": "ბურთი იწყება: {line}",
@@ -21,7 +21,7 @@
     "reveal": "(აღმოაჩინეთ: ბურთი {ball_pos} ქვეშ)"
   },
   "invalid_move": {
-    "wrong_format": "Bad action. Use `[k]`.",
+    "wrong_format": "არასწორი ქმედება. გამოიყენეთ `[k]`.",
     "out_of_range": "ინდექსი 0-{max_index} დიაპაზონიდან."
   },
   "outcome": {

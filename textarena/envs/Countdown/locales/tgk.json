@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing Countdown numbers game!\nGoal: Combine numbers using +, -, *, / to reach the target.\nAction format: [i j op] where i,j are indices and op is the operation.\nExample: [0 2 *] multiplies number at index 0 with number at index 2.\nDivision must result in whole numbers only."
+    "intro": "Шумо бозии шумораҳои Countdown-ро бозӣ мекунед!\nҲадаф: Шумораҳоро бо истифода аз +, -, *, / ба сӯи ҳадаф расонед.\nФормати амал: [i j op] ки i,j индексҳо ва op амал аст.\nНамуна: [0 2 *] шумораи индекси 0-ро бо шумораи индекси 2 зарб мекунад.\nТақсимот бояд танҳо дар шумораҳои пурра натиҷа диҳад."
   },
   "board": {
     "header": "ТАРГЕТ: {target}\n\nРақамҳои дастрас:\n{numbers}",
@@ -9,7 +9,7 @@
     "progress": "{observation}\nИмтиёзи пешрафти кунунӣ: {progress}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use `[i j op]` where i,j are indices and op is +,-,*,/",
+    "wrong_format": "Формати амал нодуруст аст. Истифода кунед `[i j op]` ки i,j индексҳо ва op амал аст +,-,*,/",
     "invalid_indices": "Нишондиҳандаҳои беэътибор. Бояд гуногун бошанд ва дар доираи 0-{max_index} бошад",
     "invalid_operation": "Амали нодуруст (ба сифр тақсим кардан ё натиҷаи ғайри адад)"
   },

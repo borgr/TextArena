@@ -6,7 +6,7 @@
     "current_board": "Boordiin yeroo ammaa: {board}."
   },
   "invalid_move": {
-    "wrong_format": "You did not respond with valid '[source] [target]'.",
+    "wrong_format": "Ati hinajawatiin '[source] [target]' sirrii.",
     "invalid_tower": "Maddi ykn galmi isaa sirrii miti jettee himteetta.",
     "empty_tower": "Si'a ta'u, diskicha gara iddoo biraa dhaquuf yaalte.",
     "same_tower": "Si'a tokko qofa gara masaraa sanaatti diskii fiduuf yaalte.",
@@ -17,6 +17,6 @@
   },
   "outcome": {
     "win": "Gammachuu guddaa qabaa! Rakkoo masaraa Hanoi hiikeetta.",
-    "turn_limit": "The turn limit has been reached. You correctly placed {pct}% of the disks on Tower C."
+    "turn_limit": "Tura dhumaa gahe. Ati {pct}% diskota gara Tower C sirrii ta'e ka'uu dhiheesse."
   }
 }

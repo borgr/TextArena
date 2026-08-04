@@ -7,13 +7,13 @@
   },
   "invalid_move": {
     "wrong_format": "Ki bhuala kijimbuete kia tokala phala o ima íii. Mu kiki, soneka \"[pile quantity]\".",
-    "correct_format_wrong_fields": "Player {player_id}, Invalid action. Column {col} is out of bounds.",
+    "correct_format_wrong_fields": "Mubadi {player_id}, Kukwata kubeba. Koluna {col} iko nje ya mipaka.",
     "out_of_range": "O kaxa ia kijimbuete {pile_index} iala ku thandu dia dikalu.",
     "non_positive": "Ua tokala kukatula-mu kima kimoxi.",
-    "exceeds_pile": "Cannot remove {quantity} from pile {pile_index} (only {pile_count} left)."
+    "exceeds_pile": "Kapena kuondoa {quantity} kwa kisika {pile_index} (kisika {pile_count} pe)."
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "Mubadi {player_id} akubeba [{pile_index} {quantity}], kuondoa {quantity} kisika (s) kwa kisika {pile_index}."
   },
   "outcome": {
     "win": "O muadikime {player_id} u katula o kima kia suku-ku ((s)!)"

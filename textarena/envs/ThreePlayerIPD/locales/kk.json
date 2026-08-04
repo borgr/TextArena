@@ -4,7 +4,7 @@
   },
   "round": {
     "start": "─── Басталу кезеңі {round} ─── Келесі {conv_rounds} кезеңдерде еркін сөйлесе аласыз.",
-    "chat_finished": "Chat finished for round {round}. Submit your decisions, one token per opponent: `[pid cooperate]` or `[pid defect]`."
+    "chat_finished": "Раунд {round} үшін чат аяқталды. Әр қарсыласқа бір токенді қабылдаңыз: `[pid cooperate]` немесе `[pid defect]`."
   },
   "results": {
     "header": "### Сөйлем {round} - Нәтижелер:",

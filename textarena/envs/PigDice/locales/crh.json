@@ -1,24 +1,24 @@
 {
   "player_prompt": {
-    "intro": "Oyuncu {player_id} olarak Domuz Zarları oyununu oynuyorsunuz.\n\nKurallar:\n- Turunuzda '[roll]' veya '[hold]' yapabilirsiniz\n- 2-6 arası zar atın: Tur toplamınıza ekleyin\n- 1 atın: Tur toplamınızı kaybedin ve turu bitirin\n- Tutun: Tur toplamınızı puanınıza ekleyin ve turu bitirin\n- İlk {winning_score} puanı alan kazanır\n\nSizin turunuzda, geçerli puanları ve tur toplamını göreceksiniz.\nZarı atmak için '[roll]' veya puanlarınızı bankaya koymak için '[hold]' yanıtlayın."
+    "intro": "Siz Oyuncu {player_id} Pig Dice oyununı oynayorsız.\n\nQaydalar:\n- Sıranızda '[roll]' yada '[hold]' yapabilirsiniz\n- 2-6 atsanız: Sıra toplamınıza ekle\n- 1 atsanız: Sıra toplamınızı kaybedin ve sıra bitsin\n- Tutun: Sıra toplamınızı skorunuza ekle ve sıra bitsin\n- {winning_score} puana ilk erişen kazanır\n\nSıranızda olduğunda, şimdiki skorları ve sıra toplamını göreceksiniz.\n'[roll]' ile zar atın yada '[hold]' ile puanlarınızı bankaya koyun."
   },
   "invalid_move": {
-    "invalid_action": "Geçersiz eylem formatı. '[roll]' veya '[hold]' kullanın."
+    "invalid_action": "Geçersiz aksiyon formatı. '[roll]' yada '[hold]' kullanın."
   },
   "actions": {
-    "player_busted": "Oyuncu {player_id} patladı, {turn_total} puan kaybetti!",
-    "player_hold": "Oyuncu {player_id} tuttu ve {turn_total} puanı bankaya koydu."
+    "player_busted": "Oyuncu {player_id} battı, {turn_total} puan kaybediyor!",
+    "player_hold": "Oyuncu {player_id} tutar ve {turn_total} puanı bankaya koyuyor."
   },
   "board": {
     "player": "Oyuncu 0: '{score_0}'; Oyuncu 1: '{score_1}'",
-    "current_total_scores": "Geçerli Toplam Puanlar: {scores}\nBu turun geçerli toplam puanınız {turn_total}.",
-    "roll_history": "{observation}\nYour roll history for this turn: {roll_history}",
+    "current_total_scores": "Şimdiki Toplam Skorlar: {scores}\nSıra toplamınız {turn_total}.",
+    "roll_history": "{observation}\nBu sıradaki zar atışlarınız: {roll_history}",
     "first_roll": "{observation} Bu, nevbetiñizniñ birinci atımı.",
-    "available_actions": "{observation}\nMümkün eylemler: '[roll]' veya '[hold]'"
+    "available_actions": "{observation}\nMevcut aksiyonlar: '[roll]' yada '[hold]'"
   },
   "outcome": {
-    "winner_by_turn_limit": "Oyuncu {winner_id} ({scores}) tur limitine ulaştığında daha yüksek puanı olduğu için kazandı",
-    "winner_by_score": "Oyuncu {winner_id} {winning_score} hedef puanına ulaşarak kazandı!",
+    "winner_by_turn_limit": "Oyuncu {winner_id} sıraların sınırında daha yüksek skorla kazandı ({scores})",
+    "winner_by_score": "Oyuncu {winner_id} {winning_score} hedef skoruna ulaşarak kazandı!",
     "draw": "Tur sıñırı yetildi ve bütün oyuncılarnıñ aynı balları bar: {scores}"
   }
 }

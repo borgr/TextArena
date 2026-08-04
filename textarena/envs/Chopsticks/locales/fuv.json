@@ -10,11 +10,11 @@
     "opp_hand_dead": "Jonta juŋŋgo {opp_idx} maayi.",
     "split_sum": "Feere hauti be {total}.",
     "split_no_change": "Split sey waylita sendol juuɗe ma.",
-    "invalid_command": "Invalid move. Use “[attack M O]” or “[split L R]”."
+    "invalid_command": "Dabbal ɓilaago. Fooɗo “[attack M O]” walla “[split L R]”."
   },
   "game_action": {
     "attack": "P{player_id} woni P{opp_id}’s hand {opp_idx}: e jangi e {opp_val} e {new_val}.",
-    "split": "P{player_id} splits into [{L}, {R}]."
+    "split": "P{player_id} jaɓɓali e [{L}, {R}]."
   },
   "history": {
     "entry": "P{player_id} {desc}"

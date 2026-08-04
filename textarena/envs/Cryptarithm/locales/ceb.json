@@ -9,10 +9,10 @@
     "{pct}": "Progress as a percentage string, e.g. 50%"
   },
   "player_prompt": {
-    "intro": "Map each letter to a unique digit so the arithmetic holds.\nAssign with `[A 5]`, re-assign anytime.\n"
+    "intro": "Ibutang ang matag letra og usa ka lahi nga digit aron ang aritmetika molig-on.\nItugot sa `[A 5]`, itugot usab bisan kanus-a.\n"
   },
   "invalid_move": {
-    "wrong_format": "Bad action format. Use `[A 5]`.",
+    "wrong_format": "Dili maayo ang format sa aksyon. Gamita ang `[A 5]`.",
     "letter_not_in_puzzle": "Ang letra {letter} wala sa puzzle.",
     "digit_used": "Ang digit {digit} gigamit na sa {used_letter}.",
     "leading_zero": "Ang pangunang digit sa usa ka pulong dili mahimong 0."

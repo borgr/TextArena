@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing Mastermind.\nYou need to find the code that is {code_length} digits long, each digit from 1 to {num_numbers}, {repeats}.\nIn your response, you can submit your guess in the following format: '[2 1 4 5]'.\nAfter each guess, you will receive feedback in the form of black and white pegs.\nA black peg indicates a correct digit in the correct position, while a white peg indicates a correct digit in the wrong position.\nYou have {max_turns} turns to guess the code.\n",
+    "intro": "Tha thu a' cluich Mastermind.\nFeumaidh tu an còd a lorg a tha {code_length} àireamhan a dh'fhaid, gach àireamh bho 1 gu {num_numbers}, {repeats}.\nAnns a' freagairt agad, faodaidh tu do dh'fhàisneachd a chur a-steach anns an riochd seo: '[2 1 4 5]'.\nAn dèidh gach fàisneachd, gheibh thu freagairt ann an cruth phègan dubh is geal.\nTha pèg dubh a' comharrachadh àireamh cheart ann an suidheachadh cheart, fhad 's a tha pèg geal a' comharrachadh àireamh cheart ann an suidheachadh ceàrr.\nTha {max_turns} tionndaidhean agad gus an còd a dh'fhàisneachd.\n",
     "with_repeats": "le ath-aithris a dh'fhaodadh tachairt.",
     "no_duplicates": "gun dà-bhreacan sam bith"
   },
@@ -13,10 +13,10 @@
     "repeated_guess": "Tha thu air {guess} a dhearbhadh mu thràth. Feuch ri dearbhadh eile le do thoil."
   },
   "game_action": {
-    "feedback": "Submitted [{guess}]. Feedback: {black_pegs} black peg(s), {white_pegs} white peg(s)."
+    "feedback": "Chaidh [{guess}] a chur a-steach. Freagairt: {black_pegs} pèg(dubh), {white_pegs} pèg(geal)."
   },
   "outcome": {
-    "win": "You have cracked the code, solving {black_pegs} out of {code_length} pegs correctly",
+    "win": "Tha thu air an còd a bhriseadh, a' fuasgladh {black_pegs} àireamhan a-mach à {code_length} pègan gu ceart",
     "turn_limit": "Tha crìoch tionndaidh air a ruighinn. Thuigeadh tu {percent} sa cheud de na h-àireamhan gu ceart."
   }
 }

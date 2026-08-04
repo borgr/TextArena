@@ -12,7 +12,7 @@
     "invalid_position": "अमान्य चाल - ओ स्थिति मे नहि जा सकैत अछि."
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
+    "moved": "तपईँ {pushed} चाल [{action}] केल।",
     "pushed_prefix": "एक समय मे एकटा बक्सा धकेललक अछि।"
   },
   "outcome": {

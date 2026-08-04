@@ -12,7 +12,7 @@
     "invalid_position": "अवैध चाल - ऊ स्थिति में स्थानांतरित ना हो सकई छलई।"
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
+    "moved": "तू {pushed} चाल [{action}] कर देल बाड़ू।",
     "pushed_prefix": "एगो बक्सा के धक्का देलका, जब कि"
   },
   "outcome": {

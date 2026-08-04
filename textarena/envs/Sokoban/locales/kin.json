@@ -12,7 +12,7 @@
     "invalid_position": "Kwimuka bidakwiriye - ntushobora kwimukira muri iyo mwanya."
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
+    "moved": "Wowe {pushed} wimukiye [{action}].",
     "pushed_prefix": "yateye isanduku igihe"
   },
   "outcome": {

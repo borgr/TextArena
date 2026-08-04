@@ -9,7 +9,7 @@
     "progress": "{observation}\nAla ya tshebetso ya fihlela joale: {progress}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use `[i j op]` where i,j are indices and op is +,-,*,/",
+    "wrong_format": "Mofuta wa kgato o sa lokelang. Sebelisa `[i j op]` moo i,j e leng tsebeletso le op e leng +,-,*,/",
     "invalid_indices": "Li-index tse sa sebetseng. li tlameha ho fapana le ho ba ka har'a 0 -{max_index}",
     "invalid_operation": "Tshebetso e sa sebetseng (karolo ka lefela kapa sephetho se seng palo)"
   },

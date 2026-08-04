@@ -12,7 +12,7 @@
     "invalid_position": "Naatbylstūšs kusteibu - navar puorīt iz itū poziceju."
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
+    "moved": "Tu {pushed} pārvietojies [{action}].",
     "pushed_prefix": "stuovēja kastis, cikom"
   },
   "outcome": {

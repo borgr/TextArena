@@ -3,7 +3,7 @@
     "intro": "Vi ludas Blackjack kontraŭ la vendisto.\nVia celo estas atingi tiom proksime al 21 kiom eble sen superi.\nDum via vico, elekt'u '[Hit]' por eltiri alian karton aŭ '[Stand]' por teni.\nJ/Q/K = 10 poentoj; A = 11 aŭ 1, kiu estas pli bona.\n"
   },
   "board": {
-    "current_state": "Hand {hand_number}/{num_hands}\nYour hand: {player_hand} (Score: {score})\nDealer shows: {dealer_card}"
+    "current_state": "Mano {hand_number}/{num_hands}\nVia mano: {player_hand} (Poentoj: {score})\nDisdonanto montras: {dealer_card}"
   },
   "invalid_move": {
     "wrong_format": "Nevalida ago. Uz'u '[Hit]' aŭ '[Stand]'."

@@ -15,7 +15,7 @@
   },
   "outcome": {
     "win": "Gratulasjon! Du nådde målet ditt.",
-    "fell_in_hole": "You fell into a hole! Game over. You completed {pct}% of the journey to the goal.",
+    "fell_in_hole": "Du fall ned i eit hol! Spelet er over. Du fullførte {pct}% av reisa til målet.",
     "turn_limit": "Du har nått vegen din, du er ferdig! Spellet er over. Du har fullført {pct}% av reisa til målet ditt."
   }
 }

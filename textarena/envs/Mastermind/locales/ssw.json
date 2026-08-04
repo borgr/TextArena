@@ -13,10 +13,10 @@
     "repeated_guess": "Sewuvele wacabanga {guess}. Sicela wetame lokunye kucatjangwa."
   },
   "game_action": {
-    "feedback": "Submitted [{guess}]. Feedback: {black_pegs} black peg(s), {white_pegs} white peg(s)."
+    "feedback": "Isubmitele [{guess}]. Imiklamo: {black_pegs} ipigi elimnyama, {white_pegs} ipigi elimhlophe."
   },
   "outcome": {
-    "win": "You have cracked the code, solving {black_pegs} out of {code_length} pegs correctly",
+    "win": "Ufakile ikhodi, ukulungisa {black_pegs} kwe {code_length} amabhala ngempela",
     "turn_limit": "Umkhawulo wekugucuka ufinyelelwe. Ulingise kahle emaphesenti {percent} etinombolo."
   }
 }

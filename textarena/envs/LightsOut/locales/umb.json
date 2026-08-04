@@ -1,16 +1,16 @@
 {
   "player_prompt": {
-    "intro": "Welcome to Lights Out! You have a {size}x{size} grid of lights.\nYour goal is to turn ALL lights OFF (represented by '.')\nWhen you press a light, it toggles itself AND its adjacent neighbors (up/down/left/right).\nType [row col] to press a light (0-indexed, so valid range is 0-{max_index}).\nYou have up to {max_turns} moves to solve the puzzle.\nLegend: 'O' = light ON, '.' = light OFF"
+    "intro": "Ove mwene Lights Out! Nge ule {size}x{size} grid ya tala.\nOsa mwene ni kuima tala zose KUKOMA (zile za '.').\nKokola nge kuima tala, ina toggle nayo na vamene vakeleke (kuvuka/kuhala/kumonga/kunyima).\nTanga [row col] kuima tala (0-indexed, nge muenyo valid ule 0-{max_index}).\nNge ule kufikila {max_turns} moves kuvinga puzzle.\nLegend: 'O' = tala YA, '.' = tala YAHA"
   },
   "board": {
     "current_state": "Ongepo ya kukala kwa sasa (Lukelo {moves_made}, {moves_left} miluko iliyobaki, {completion}% imemaliza):\n{grid}"
   },
   "invalid_move": {
     "wrong_format": "Ocina caco ci sukila oku kala ndomo ca sonehiwa kelivulu lia [row col], kuenda volondimbukiso viaco mu sangiwa atendelo a fetika leli 0 toke ku {max_index}.",
-    "out_of_range": "Coordinates must be between 0 and {max_index}. You entered [{row},{col}]."
+    "out_of_range": "Vakwetu vyene vya kuva kati ya 0 na {max_index}. Nge wakwete [{row},{col}]."
   },
   "outcome": {
-    "win": "Congratulations! You solved the puzzle in {moves_used} moves!",
-    "loss": "Game over! You used all {max_turns} moves without solving the puzzle. Final completion: {completion}%\nFinal state:\n{grid}"
+    "win": "Ove mwene! Nge vingile puzzle mu {moves_used} moves!",
+    "loss": "Ojuva jembo! Nge wakwete moves zose {max_turns} kapena vinga puzzle. Mavu ya kufikila: {completion}%\nMavu ya mwisho:\n{grid}"
   }
 }

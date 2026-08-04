@@ -12,7 +12,7 @@
     "invalid_position": "Noto'g'ri harakat - bu holatga o'tish mumkin emas."
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
+    "moved": "Siz {pushed} harakat qildingiz [{action}].",
     "pushed_prefix": "bir vaqtning oʻzida quti itardi"
   },
   "outcome": {

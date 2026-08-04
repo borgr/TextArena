@@ -13,7 +13,7 @@
     "card_not_held": "Tu no tu âs plui chê carte di credit."
   },
   "message": {
-    "tie": "Tie - bids returned. Rebid!",
+    "tie": "Paritât - lis ofertis a son tornadis indaûr. Ofêri di gnûf!",
     "auction_result": "P0 à fate une oferte di {bid0}, P1 à fate une oferte di {bid1}. Il zogador {winner} vinç la prestigi {prize} (totâl {total})."
   },
   "outcome": {

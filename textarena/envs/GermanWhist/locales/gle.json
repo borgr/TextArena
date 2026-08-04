@@ -71,6 +71,6 @@
     "player_line": "{observation}\nImreoir {player_id}: {scoring} scóráil cártaí ({tricks} iomlán), {hand_size} cártaí in láimh"
   },
   "outcome": {
-    "summary": "Learning phase - Player 0: {l0}, Player 1: {l1}. Playing phase - Player 0: {p0}, Player 1: {p1}. Player {winner_id} wins with {winner_tricks} scoring tricks!"
+    "summary": "Céim fhoghlama - Imreoir 0: {l0}, Imreoir 1: {l1}. Céim sheinnte - Imreoir 0: {p0}, Imreoir 1: {p1}. Buaiteoir Imreoir {winner_id} le {winner_tricks} cleasanna scórála!"
   }
 }

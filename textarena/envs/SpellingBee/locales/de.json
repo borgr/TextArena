@@ -5,11 +5,9 @@
     "{allowed_letters}": "Die Menge der erlaubten Buchstaben, sortiert und zusammengefügt (nicht übersetzen)",
     "{word}": "Ein eingereichtes Wort"
   },
-
   "prompt": {
     "intro": "Du bist Spieler {player_id} im Buchstabenspiel Spelling Bee.\nErlaubte Buchstaben: {allowed_letters}\nJedes Wort muss mindestens so lang sein wie das vorherige Wort.\nWiederholte Wörter sind nicht erlaubt.\nSchreibe dein Wort in eckige Klammern, z. B. '[example]'.\n"
   },
-
   "invalid": {
     "shorter": "Das eingereichte Wort ist kürzer als das vorherige Wort.",
     "repeated": "Das eingereichte Wort wurde bereits eingereicht.",
@@ -17,7 +15,6 @@
     "illegal_characters": "Das eingereichte Wort enthält unzulässige Zeichen.",
     "wrong_format": "Das eingereichte Wort hat nicht das richtige Format. Bitte verwende eckige Klammern."
   },
-
   "feedback": {
     "submitted": "Spieler {player_id} hat das Wort eingereicht: {word}"
   }

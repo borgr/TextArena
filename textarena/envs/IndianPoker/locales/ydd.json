@@ -25,7 +25,7 @@
   "message": {
     "round_result": "{reason}  Pot {pot} → Shpieler {winner}. (Bankroln P0:{p0}, P1:{p1})",
     "folded": "שפּילער {player_id} איז אַוועקגעפֿאָלגט.",
-    "showdown_win": "Showdown: {card_win} beats {card_lose}.",
+    "showdown_win": "שאָוודאַון: {card_win} שלאָגט {card_lose}.",
     "showdown_tie": "Showdown tie: beyde {card}. Pot getaylt – yeder bakumt {split}."
   },
   "outcome": {

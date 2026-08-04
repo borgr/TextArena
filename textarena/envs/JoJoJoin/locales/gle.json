@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in JoJoJoin, played on a 5x5 board with cells numbered 0-24.\nOn your turn, place your mark on any empty cell, e.g. '[12]'.\nYOU WIN by getting FOUR of your marks in a row — four consecutive cells horizontally, vertically, or diagonally.\nAs Player {player_id} you are '{symbol}'; your opponent is '{opponent_symbol}'."
+    "intro": "Tusa an Imreoir {player_id} i JoJoJoin, á imirt ar chlár 5x5 le cealla uimhrithe 0-24.\nAr do sheal, cuir do mharc ar aon cheall folamh, m.sh. '[12]'.\nBUAÍONN TÚ trí cheithre de do mharcanna a fháil i ndiaidh a chéile — ceithre cheall comhleanúnacha go cothrománach, go hingearach, nó go trasna.\nMar Imreoir {player_id} tá tú '{symbol}'; is '{opponent_symbol}' do chéile comhraic."
   },
   "board": {
     "current_board": "Cláir Reatha:\n\n{board}\n\nGluaisne Ar Fáil: {moves}"

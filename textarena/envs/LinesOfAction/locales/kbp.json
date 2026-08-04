@@ -10,7 +10,7 @@
     "{to}": "The destination coordinate of a move, such as b3"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in game of LinesOfAction.\nYour pieces are '{side}', opponent pieces are '{other}'.\nMove format: `[b1b3]` (from-coord to-coord). A legal move travels horizontally, vertically, or diagonally a number of squares equal to the total pieces (any colour) in that line. You may jump over your own pieces, but not opponent pieces; landing on an opponent captures it.  Win when all your pieces are 8-neighbour connected."
+    "intro": "A nye Player {player_id} le egbeleŋa LinesOfAction.\nA ɛyaa si '{side}', ɛyaa putɛ si '{other}'.\nKɛlɛmɛyɔ kife: `[b1b3]` (ɛzɩ-coord ɛza-coord). Kɛlɛmɛyɔ sɔɔlɩm taa wɛʋ wɛʋ hɔɔlɩm tɛɛ cɩŋgaɩŋga, kɩɖɩɖɩ, kɩɖɩɖɩ yɔɔ cɩŋgaɩŋga tɛɛ pɩyɛɛ pɩyɛɛ kʋɖʋmɛɛ tɛɛ. A pɩzɩɣ a ɛyaa kʋɖʋmɛɛ a ɛyaa, pɩtɛɛ a ɛyaa putɛ; ɛzɩɣ a ɛyaa putɛ kɔɔ a ɛyaa. A ɖaŋɩ a ɛyaa tɩŋgaɩŋga ɛwɛɛ a ɛyaa 8-ɛyaa tɛɛ kʋɖʋmɛɛ."
   },
   "board": {
     "current_board": "Ɛgbɛyɛ taa: {board}"
@@ -26,7 +26,7 @@
   },
   "game_action": {
     "moved": "Piloto {player_id} yaa {from} -> {to}",
-    "captured_suffix": "Player {player_id} moved {from} -> {to} capturing an enemy."
+    "captured_suffix": "Player {player_id} kɛlɛmɛyɔ {from} -> {to} kɔɔ a ɛyaa putɛ."
   },
   "outcome": {
     "win": "Pɩtɩŋa pɩ-taa tɔm wɛ nɔɔ kʋɖʋmaɣ.",

@@ -9,10 +9,10 @@
     "wrong_format": "Sêngê êzînga. Na '[Hit]' tô '[Stand]'."
   },
   "game_message": {
-    "hand_result": "Hand {hand_number}: you {outcome}. Your final {player_score}, Dealer {dealer_score}.",
-    "all_complete": "=== All {num_hands} hands complete ===\nWins: {wins}, Losses: {losses}, Draws: {draws}\n"
+    "hand_result": "Mo kôngö {hand_number}: yî {outcome}. Kötä gbätä tî mo, {player_score}, Ködörö {dealer_score}.",
+    "all_complete": "=== Kötä gbätä {num_hands} kôngö gbätä ===\nGbätä tî mo: {wins}, Gbätä tî Ködörö: {losses}, Kôngö pana: {draws}\n"
   },
   "outcome": {
-    "game_over": "The game has concluded. Final scores: Dealer: {losses}, You: {wins}, Draws: {draws}"
+    "game_over": "Kötä gbätä awü. Kötä gbätä tî Ködörö: {losses}, Kötä gbätä tî mo: {wins}, Kôngö pana: {draws}"
   }
 }

@@ -16,7 +16,7 @@
   },
   "game_action": {
     "skipped": "Tsy maintsy nivadika ny fihodinan'ny mpilalao {pid}",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "Mpilalao {pid} ({piece}) nanomboka [{r}, {c}] nanovolavola {flipped} piraka"
   },
   "game_message": {
     "must_skip": "Tsy manana hetsika manan-kery ny mpilalao {pid} ({piece}) ary tsy maintsy mandingana."

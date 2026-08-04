@@ -13,7 +13,7 @@
     "exceeds_pile": "Niy możno wyjmować {quantity} ze słupy {pile_index} (zostało tylko {pile_count})."
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "Gracz {player_id} zagroł [{pile_index} {quantity}], usůńůnc {quantity} ôbiekt(ůw) z kopca {pile_index}."
   },
   "outcome": {
     "win": "Gracz {player_id} wziōn ôstatni przedmiot!"

@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "Չի գտնվել վավեր շարժման ձեւաչափ: Օգտագործեք [a1b2], օրինակ՝ [b2c3]:",
-    "illegal": "Move [{move}] is illegal."
+    "illegal": "[{move}] քայլը անօրինական է։"
   },
   "game_action": {
     "moved": "Խաղացողը {player_id} տեղափոխվեց {move}:"

@@ -12,6 +12,6 @@
   },
   "outcome": {
     "win": "Til lukku við tykkum! Spælarin {player_id} hevur loyst 15-pussilin.",
-    "turn_limit": "The turn limit has been reached. The model completed {percent} percent of the puzzle"
+    "turn_limit": "Dreymarkið er nátt. Modellin kláraði {percent} prosent av puslinum"
   }
 }

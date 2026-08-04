@@ -1,14 +1,14 @@
 {
   "player_prompt": {
-    "intro": "You are {role} in Colonel Blotto.\nYour goal is to win more rounds than your opponent.\nOn each round, allocate exactly {num_total_units} units across fields {field_names}.\nThe player who allocates more units to a field wins that field, and the player who wins more fields wins the round.\nFor example, '[A7 B7 C6]' allocates 7 units to A, 7 to B, and 6 to C.",
+    "intro": "Aweyi {role} le Colonel Blotto.\nŊunɖaŋu ŋgɛ wɛnɖɛ nɛ kɛŋgɛ kɛŋgɛ nɛ kɔɖɔɖɔ.\nLe kɔɖɔɖɔ kɛŋgɛ, kɛŋgɛ {num_total_units} kɛŋgɛ pɛɛ pɛɛ {field_names}.\nŊunɖaŋu ŋgɛ kɛŋgɛ kɛŋgɛ pɛɛ pɛɛ wɛnɖɛ nɛ kɛŋgɛ kɛŋgɛ nɛ kɔɖɔɖɔ.\nKɛɖɛɖɛ, '[A7 B7 C6]' kɛŋgɛ 7 kɛŋgɛ A, 7 kɛŋgɛ B, nɛ 6 kɛŋgɛ C.",
     "commander_alpha": "Ñʋʋdʋ Alfa.",
     "commander_beta": "Komandɩ Betaa."
   },
   "game_state": {
-    "header_round": "=== COLONEL BLOTTO - Round {current_round}/{num_rounds} ===\nRounds Won - Commander Alpha: {alpha_score}, Commander Beta: {beta_score}"
+    "header_round": "=== COLONEL BLOTTO - Kɔɖɔɖɔ {current_round}/{num_rounds} ===\nKɔɖɔɖɔ Wɛnɖɛ - Commander Alpha: {alpha_score}, Commander Beta: {beta_score}"
   },
   "round_battle": {
-    "field_result": "\nRound {current_round}\nCommander Alpha allocated: {p0_allocations}\nCommander Beta allocated: {p1_allocations}\n",
+    "field_result": "\nKɔɖɔɖɔ {current_round}\nCommander Alpha kɛŋgɛ: {p0_allocations}\nCommander Beta kɛŋgɛ: {p1_allocations}\n",
     "winner_alpha": "{message}Wɩzasɩ lʋlʋʋ kazandʋ: Alpha sɔɔja sɔsɔ.",
     "winner_beta": "{message}Wɩzasɩ lʋlʋʋ kazandʋ: Commander Beta",
     "tie": "{message}Kʋñɔŋ!"
@@ -21,10 +21,10 @@
     "good_allocations": "Pahaɣ-ɖʋ liidiye camɩyɛ."
   },
   "outcome": {
-    "winner_alpha": "Commander Alpha wins {score_0}-{score_1} after {num_rounds} rounds!",
-    "winner_beta": "Commander Beta wins {score_1}-{score_0} after {num_rounds} rounds!",
-    "draw": "Game ends in a {score_0}-{score_1} tie after {num_rounds} rounds!",
+    "winner_alpha": "Commander Alpha wɛnɖɛ {score_0}-{score_1} kɔɖɔɖɔ {num_rounds}!",
+    "winner_beta": "Commander Beta wɛnɖɛ {score_1}-{score_0} kɔɖɔɖɔ {num_rounds}!",
+    "draw": "Kɛŋgɛ kɛŋgɛ {score_0}-{score_1} kɔɖɔɖɔ {num_rounds}!",
     "early_winner_alpha": "Commander Alpha kɩlɩŋa {scores_0}-{scores_1} (kɩkpɛndɩɣ kɩwɛɛna)!",
-    "early_winner_beta": "Commander Beta wins {scores_1}-{scores_0} (majority achieved)!"
+    "early_winner_beta": "Commander Beta wɛnɖɛ {scores_1}-{scores_0} (kɛŋgɛ kɛŋgɛ)!"
   }
 }

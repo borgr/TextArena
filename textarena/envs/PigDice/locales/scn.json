@@ -10,7 +10,7 @@
     "player_hold": "Jucaturi {player_id} si ferma e accumula {turn_total} punti."
   },
   "board": {
-    "player": "Player 0: '{score_0}'; Player 1: '{score_1}'",
+    "player": "Jucaturi 0: '{score_0}'; Jucaturi 1: '{score_1}'",
     "current_total_scores": "Punti Totali Attuali: {scores}\nI tuoi punti totali di turnu sunnu {turn_total}.",
     "roll_history": "{observation}\nStoria di li tui rolli pi stu turnu: {roll_history}",
     "first_roll": "{observation} Chistu è lu primu rolu di u vostru turnu.",

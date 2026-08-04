@@ -58,10 +58,10 @@
     "discard_empty": "Тастанды бос!",
     "must_draw_first": "Сіз алдымен [draw], [take], [knock] немесе [peek X Y]",
     "cannot_discard_taken": "Сіз тастап тастау үйірмесінен алынған картаны тастай алмайсыз. Оны алмастыруыңыз керек.",
-    "have_drawn_card": "You have a drawn card. You must [swap X Y] or [discard] it.",
+    "have_drawn_card": "Сіз карта тарттыңыз. Сіз [swap X Y] немесе [discard] жасауыңыз керек.",
     "need_drawn_swap": "Ал алмасу үшін карта керек.",
     "need_drawn_discard": "Бұған дейін бір картаны тастап кету керек.",
-    "out_of_bounds": "Position out of bounds. Use row 1-{max_row}, column 1-{max_col}",
+    "out_of_bounds": "Орын шекаралардан тыс. 1-{max_row} жолын, 1-{max_col} бағанын пайдаланыңыз",
     "knock_with_card": "Сіз картамен қоңырау шала алмайсыз. Алдымен кезегіңізді аяқтаңыз.",
     "already_knocked": "Біреу осы раундты ойнап үлгерді.",
     "already_revealed": "Бұл карта ашылған!"

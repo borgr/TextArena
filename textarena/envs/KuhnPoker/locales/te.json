@@ -11,7 +11,7 @@
     "not_legal": "చర్య {legal_actions} అయి ఉండాలి."
   },
   "action": {
-    "submit_move": "Player {player_id}, submitted move: '[{move}]'.",
+    "submit_move": "ప్లేయర్ {player_id}, చర్యను సమర్పించాడు: '[{move}]'.",
     "valid_actions": "మీ అందుబాటులో ఉన్న చర్యలుః {legal_actions}.",
     "round_summary": "{reason} ప్రస్తుత స్కోర్లుః ఆటగాడు 0: \"{player_0_chips}\"; ఆటగాడు 1: \"{player_1_chips}\""
   },
@@ -20,7 +20,7 @@
   },
   "outcome": {
     "draw": "{max_rounds} రౌండ్ల ముగింపులో, ఇద్దరు ఆటగాళ్ళకు ఒకే సంఖ్యలో చిప్స్ ఉన్నాయి.",
-    "round_win": "Player {player_id} has folded.",
+    "round_win": "{player_id} ఆటగాడు ఫోల్డ్ చేశాడు.",
     "winner_player0": "అన్ని {max_rounds} రౌండ్ల చివరలో ఎక్కువ చిప్స్ కలిగి ఉండటం ద్వారా ఆటగాడు 0 గెలిచాడు.",
     "winner_player1": "అన్ని {max_rounds} రౌండ్ల చివరలో ఎక్కువ చిప్స్ కలిగి ఉండటం ద్వారా ఆటగాడు 1 గెలిచాడు."
   }

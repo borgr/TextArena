@@ -21,13 +21,13 @@
     "{total}": "Each player's tied final total (a number)"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id}, playing {num_rounds} rounds of Iterated Ultimatum Game.\nYou have ${pool} to split this round between yourself and Player {other_id}.\n\nProposer:\n  - Make an offer: [Offer: $X] (0 <= X <= pool)\n  - If accepted → You get $(pool - X), other player gets $X\n  - If rejected → Both get $0\n  - Example: [Offer: $3]  or  'I think this is fair. [Offer: $5]'\n\nResponder:\n  - Decide on the offer with either [Accept] or [Reject]\n  - Example: 'That seems reasonable. [Accept]'\n            'Too unfair. [Reject]'\n"
+    "intro": "Ngue udi Mwene {player_id}, ukala {num_rounds} mavu ya Lodi ya Ultimatum.\nNgue na ${pool} ku kamba muna mavu mayi kati ya ngue na Mwene {other_id}.\n\nMwene wakala:\n  - Tala kamba: [Offer: $X] (0 <= X <= pool)\n  - Kamba yakatukwa → Ngue udi na $(pool - X), Mwene wakala udi na $X\n  - Kamba yakatukwa → Wawili udi na $0\n  - Exemplo: [Offer: $3]  ou  'Ngue ndi mona kamba yayi. [Offer: $5]'\n\nMwene wakalwa:\n  - Sola kamba yayi na [Accept] ou [Reject]\n  - Exemplo: 'Kamba yayi kudi mona. [Accept]'\n            'Kamba yayi kudi mbi. [Reject]'\n"
   },
   "round": {
-    "begins": "--- Round {round_number} begins! ---\nPlayer {proposer_id} is the proposer, Player {responder_id} is the responder.",
-    "offer": "Round {round_number}: Player {proposer_id} offers ${offer} to Player {responder_id} (keeping ${keep}).",
-    "accepted": "Player {responder_id} accepted! Round {round_number} gains: Player {proposer_id} +${proposer_gain}, Player {responder_id} +${responder_gain}. New totals: Player 0: ${total_0}, Player 1: ${total_1}.",
-    "rejected": "Player {responder_id} rejected the offer! Round {round_number} gains: Both players +$0. Totals remain: Player 0: ${total_0}, Player 1: ${total_1}."
+    "begins": "--- Mwezi {round_number} ukina! ---\nNgweji {proposer_id} ndi ngweji wa kuleta, ngweji {responder_id} ndi ngweji wa kujibu.",
+    "offer": "Mwezi {round_number}: Ngweji {proposer_id} ofele $ {offer} kwa ngweji {responder_id} (akishala $ {keep}).",
+    "accepted": "Ngweji {responder_id} yamukinji! Mwezi {round_number} ukina: Ngweji {proposer_id} +$ {proposer_gain}, ngweji {responder_id} +$ {responder_gain}. Jumla mpya: Ngweji 0: $ {total_0}, ngweji 1: $ {total_1}.",
+    "rejected": "Ngweji {responder_id} yamukatiki ofele! Mwezi {round_number} ukina: Ngweji wote +$0. Jumla ikabaki: Ngweji 0: $ {total_0}, ngweji 1: $ {total_1}."
   },
   "invalid_move": {
     "no_offer_format": "O muthu ua mesena kusumba kima, u tena ku ki soneka mu mukanda [Offer: $X].",
@@ -37,7 +37,7 @@
     "accept_or_reject": "O muthu ua tokala u soneka o mukanda iú, [Accept] mba [Reject] ia mbeji."
   },
   "outcome": {
-    "win": "Player {winner} won with ${winner_total} total vs Player {loser}'s ${loser_total}.",
+    "win": "Ngweji {winner} ukina ushindi na $ {winner_total} jumla kinyume na ngweji {loser} wa $ {loser_total}.",
     "draw": "O jokala a zubha ni kitadi kia tenesa mu ${total}."
   }
 }

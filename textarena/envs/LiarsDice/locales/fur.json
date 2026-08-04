@@ -22,14 +22,14 @@
     "final_ranking": "list of player indices from first eliminated to winner"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in an {num_players}-player Liar's Dice game.\nRules:\n- On your turn, you may either:\n  1) Make a new bid with a higher quantity or higher face (or both) than the current bid; i.e. '[Bid: 3, 4]',\n  2) Call the last bid by typing '[Call]'.\n\nIf you call:\n  - If the actual count of that face value among all dice is less than the bid, the last bidder loses one die.\n  - Otherwise, the caller loses one die.\nA player who reaches 0 dice is eliminated. The last remaining player wins."
+    "intro": "Tu sês Zuiadôr {player_id} in un zûc di Liar's Dice cun {num_players} zuiadôrs.\nRegulis:\n- Tal to turn, tu puedis o:\n  1) Fâ une gnove oferte cun une quantitât plui alte o un valôr de face plui alt (o dutis e doi) de oferte atuâl; vâl a dî '[Bid: 3, 4]',\n  2) Clamâ l'ultime oferte scrivint '[Call]'.\n\nSe tu clamas:\n  - Se il numar reâl di dâts cun chê face al è mancul de oferte, l'ultin ofertant al piert un dât.\n  - Altrimenti, il clamadôr al piert un dât.\nUn zuiadôr che al rive a 0 dâts al è eliminât. L'ultin zuiadôr restant al vinç."
   },
   "board": {
     "per_player": "\tZogador {p}: {d}",
     "new_round": "\nGnovis tornadis - Dais rimasti: {dice_summary}\nI dais che tu âs adesso a son: {your_dice}"
   },
   "call": {
-    "bidder_loses": "Player {current_player_id} calls! The actual count of face {face_value} is {count}, which is LESS than {quantity}.\nPlayer {loser_id} (the last bidder) loses one die.",
+    "bidder_loses": "Zuiadôr {current_player_id} al clame! Il numar reâl di facis {face_value} al è {count}, che al è MANCUL di {quantity}.\nZuiadôr {loser_id} (l'ultin ofertant) al piert un dât.",
     "caller_loses": "Zogador {current_player_id} clame! Il numar reâl di facce {face_value} al è {count}, che al è >= {quantity}.\nZogador {loser_id} (il clamatôr) al pìrd un dai."
   },
   "action": {

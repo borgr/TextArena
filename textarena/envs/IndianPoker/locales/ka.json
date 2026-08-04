@@ -12,7 +12,7 @@
     "cannot_bet": "არ შეიძლება [bet] - უნდა [call] / [raise] / [fold].",
     "nothing_to_call": "არაფერი, რომ დარეკოთ; თქვენ შეგიძლიათ [check] ამის ნაცვლად.",
     "no_bet_to_raise": "გამოიყენეთ [bet X] გახსნისთვის; არ არის ფსონის გაზრდა.",
-    "insufficient": "Insufficient chips for that action."
+    "insufficient": "ფიშკები არასაკმარისია ამ მოქმედებისთვის."
   },
   "game_action": {
     "action": "Player {player_id} -> [{token}]"

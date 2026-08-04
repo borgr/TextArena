@@ -1,11 +1,11 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in an Iterated Prisoner's Dilemma spanning {num_rounds} rounds.\n\nGame Structure:\n- Before each decision you have {total_conversation_rounds} turns to communicate freely.\n- After that, both players simultaneously choose to cooperate or defect.\n\nPayoff Matrix (fixed each round):\n- Both Cooperate ➜ each {cooperate_reward}\n- Both Defect ➜ each {mutual_defect_reward}\n- One Defects, one Cooperates ➜ Defector {defect_reward}, Cooperator {sucker_reward}\n\nHow to Play:\n- During conversation: type any text you wish.\n- During decision phase: include '[Cooperate]' or '[Defect]' (case-insensitive). You may add extra text before/after the token."
+    "intro": "Kcemm ad tili Player {player_id} deg uɣiwel n Iterated Prisoner's Dilemma iɣezzifen {num_rounds} n tuzzya.\n\nTasmekta n uɣiwel:\n- Uqbel kraygat asenti, ɣur-k {total_conversation_rounds} n tuzzya n umeslay s tlelli.\n- Sdat, snat n imcaẓen ttnaɣen ad sawln s tɣimit neɣ ad rẓen.\n\nAfaylu n uɣiwel (yettwaḍel deg kraygat tuzzya):\n- Snat n imcaẓen sawln s tɣimit ➜ kraygat {cooperate_reward}\n- Snat n imcaẓen rẓen ➜ kraygat {mutual_defect_reward}\n- Yiwen irzi, yiwen isawel s tɣimit ➜ Arzi {defect_reward}, isawel s tɣimit {sucker_reward}\n\nAmek ara tiliḍ:\n- Deg umeslay: aru aɣawal akk d yiwen.\n- Deg tasmekta n uɣiwel: ɣur-k '[Cooperate]' neɣ '[Defect]' (maɣna-d ameqqran). Tzemreḍ ad ternuḍ aɣawal nniḍen uqbel/neɣ sdat n uɣawal n tasmekta."
   },
   "phases": {
     "conversation_finished": "Taqsi n uṭṭunen yettwafken i ṭṭufra {round}. Teggʷi ad tettawin '[Cooperate]' neɣ '[Defect]' deg ⏺boxed{{}}.",
     "starting_round": "--- Tura yettwabdu {round} ---",
-    "round_summary": "Round {round} results:\n{outcome}\nPlayer 0 earned {r0} (total {score_0}), Player 1 earned {r1} (total {score_1})."
+    "round_summary": "Iɣewwaɣen n tarrayt {round}:\n{outcome}\nAseqdac 0 yerna {r0} (yerna {score_0}), Aseqdac 1 yerna {r1} (yerna {score_1})."
   },
   "outcome": {
     "winner": "Player {winner} yettwi {win_score} - {lose_score}.",

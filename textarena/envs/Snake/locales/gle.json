@@ -11,7 +11,7 @@
     "{groups}": "Neutral ranking data (a list of player-id groups, worst to best); do not translate"
   },
   "player_prompt": {
-    "intro": "{num_players}-Player Snake on a {width}×{height} grid.\nYou control snake {player_id}. Valid moves: '[up]'/'[down]'/'[left]'/'[right]' (or w/s/a/d).\nObjective: survive longest or be the longest and get the highest score (turn limit {max_turns} turns)."
+    "intro": "{num_players}-Imreoir Snake ar ghréasán {width}×{height}.\nTá tú i gceannas ar an nathair {player_id}. Gluaiseachtaí bailí: '[up]'/'[down]'/'[left]'/'[right]' (nó w/s/a/d).\nCuspóir: maireachtáil don tréimhse is faide nó bualadh don scór is airde (teorainn {max_turns} uathroisc)."
   },
   "board": {
     "current": "Bord reatha: {board}",
@@ -23,9 +23,9 @@
   "outcome": {
     "survived_win": "D'éirigh leis an imreoir {player_id} maireachtáil; fuair na daoine eile bás.",
     "all_dead_simul": "Fuair na nathair go léir bás ag an am céanna.",
-    "outlived": "Player outlived gach ceann eile.",
+    "outlived": "D'éirigh le himreoir maireachtáil don tréimhse is faide.",
     "all_dead": "Gach nathair marbh.",
     "turn_limit": "Tá an teorainn tiontaithe bainte amach - is é an scór is fearr a bhuaigh na comhréiteach.",
-    "ranking": "{reason} Final ranking groups (worst→best): {groups}"
+    "ranking": "{reason} Grúpaí rangaithe deiridh (don laghad→don fearr): {groups}"
   }
 }

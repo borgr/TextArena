@@ -12,12 +12,12 @@
     "playing_phase": "Ez dago karta sorta bat ere.",
     "deck_empty": "Mahaiak hutsik daude, ez dago karta bakar bat ere.",
     "available": "Txartel bat eskaintzen dizut: {card}",
-    "available_trump": "Card on offer: {card} (TRUMP)"
+    "available_trump": "Eskainitako karta: {card} (TRIUNFO)"
   },
   "invalid_move": {
     "wrong_format": "Mugimendu ezegokia. Erabili '[play N]' zure eskuetan dagoen N-garren karta jokatzeko.",
     "bad_position": "Karta posizio hori ez dago. {hand_size} karta daukazu.",
-    "must_follow_suit": "You must follow suit and play a {lead_suit} card.",
+    "must_follow_suit": "Pala jarraitu behar duzu eta {lead_suit} karta jokatu.",
     "invalid_play": "Kartel hori ezin da erabili."
   },
   "game_action": {
@@ -51,14 +51,14 @@
     "card_line": "{observation} {index}. {card}"
   },
   "trick_view": {
-    "empty": "No cards played yet this trick.",
+    "empty": "Ez da kartarik jokatu oraindik triku honetan.",
     "header": "Oraingoa marra bat da.",
     "trump_indicator": " (TRUMP)",
     "card_line": "{observation}\n  Jokalari {player_id}: {card}{trump_indicator}"
   },
   "board_str": {
     "not_started": "Jokoa ez da hasi.",
-    "header": "=== GERMAN WHIST GAME ===",
+    "header": "=== ALEMANIAR WHIST JOKOA ===",
     "phase": "{observation} Fase: {phase}",
     "trump_suit": "{observation} Trump jantzia: {trump_suit}",
     "trump_card": "{observation} Tronpetako txartel bat: {card}",

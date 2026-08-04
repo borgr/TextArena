@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in **Ultimate Tic Tac Toe**.\nSubmit your move as **[macro  micro]** (two numbers 0-8):\n• *macro*  = which mini-board you play in\n• *micro* = which square inside that mini-board\nExample `[7 8]` ➜ place your mark in mini-board 7, square 8, and\nforce your opponent to play in mini-board 8 next.\n\nYou are `{symbol}`.\n"
+    "intro": "Сіз **Ultimate Tic Tac Toe** ойынындағы {player_id} ойыншысыз.\nӨзіңіздің қадамыңызды **[macro  micro]** (екі сан 0-8) ретінде енгізіңіз:\n• *macro*  = қай мини-тақтада ойнайсыз\n• *micro* = сол мини-тақтадағы қай шаршыда ойнайсыз\nМысалы `[7 8]` ➜ өзіңіздің белгіңізді мини-тақта 7, шаршы 8-ге қойыңыз, және\nқарсыласыңызды келесі мини-тақта 8-де ойнауға мәжбүрлейсіңіз.\n\nСіз `{symbol}`.\n"
   },
   "board": {
     "current_board": "Қазіргі тақта: {board}"
@@ -8,7 +8,7 @@
   "invalid_move": {
     "wrong_format": "Қозғалыс 0-8 сандары бар [macro micro] түрінде болуы тиіс.",
     "out_of_range": "Әрбір индекс 0 мен 8 аралығында болуы тиіс.",
-    "index_out_of_range": "The micro_board, row, or col is out of range.",
+    "index_out_of_range": "Микро-тақта, жол немесе баған индексі шектен тыс.",
     "cell_occupied": "Ұяшықта адам бар.",
     "wrong_micro_board": "Ойыншы келесі микротақтада ойнауы керек.",
     "micro_board_won": "Микротақтаны жеңіп алдық."

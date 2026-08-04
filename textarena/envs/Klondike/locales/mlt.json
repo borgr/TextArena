@@ -24,8 +24,8 @@
     "empty_command": "Kmand vojt. Ittajpja 'draw' jew 'move <source> <destination> [count]'.",
     "empty_action": "Azzjoni vojta",
     "move_needs_args": "Il-kmand Move jeħtieġ is-sors u d-destinazzjoni. Użu: 'move <source> <destination> [count]'",
-    "count_positive": "Il-għadd għandu jkun pożittiv jew \"kulħadd\"",
-    "count_invalid": "Għadd invalidu. Uża numru jew \"kollha\"",
+    "count_positive": "In-numru għandu jkun pożittiv jew 'all'",
+    "count_invalid": "In-numru invalidu. Uża numru jew 'all'",
     "unknown_command": "Kmand unknown '{cmd}'. Uża 'draw', 'move <source> <destination> [count]', jew 'forfeit'",
     "wrapped": "Action {n}: {msg}"
   },
@@ -35,7 +35,7 @@
     "failed": "Azzjoni {n} faillet: {msg}"
   },
   "move_result": {
-    "drew": "Drew card(s) from stock to waste.",
+    "drew": "Ħa karta/i mill-ħażna għall-iskart.",
     "cannot_draw": "Ma nistgħux inġibdu, kemm l-ħażna kif ukoll il-iskart huma vojta.",
     "invalid_pile": "Isem tal-pil mhux validu. Uża W, F1-F4, jew T1-T7",
     "foundation_one_card": "Jista ' jimxi biss karta 1 għall-bażi",
@@ -58,7 +58,7 @@
   },
   "outcome": {
     "forfeit": "Il-logħba ġiet miċħuda. Punteġġ finali: {score} karti fil-fondazzjonijiet.",
-    "won": "Congratulations! Int rebħet Klondike Solitaire!",
+    "won": "Prosit! Rebħejt il-Klondike Solitaire!",
     "turn_limit": "Logħba spiċċat! Wwasalt il-massimu ta' {max_turns} dawriet. Punteġġ: {score} karti fil-fondazzjonijiet."
   },
   "board": {

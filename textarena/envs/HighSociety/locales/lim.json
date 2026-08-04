@@ -13,7 +13,7 @@
     "card_not_held": "Die geldkaart heb je neet meer."
   },
   "message": {
-    "tie": "Tie - bids returned. Rebid!",
+    "tie": "Gelijkspel - bode tröggegegeve. Opniej biej!",
     "auction_result": "P0 bied {bid0}, P1 bied {bid1}. Speler {winner} wint prestige {prize} (totaal {total})."
   },
   "outcome": {

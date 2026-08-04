@@ -19,7 +19,7 @@
     "{deck_count}": "Number of cards left in the deck"
   },
   "game": {
-    "start": "Briscola game started! Trump suit: {trump_suit} (Trump card: {trump_card})"
+    "start": "Mupamba wa Briscola uanza! Mfumo wa ntete: {trump_suit} (Kadi ya ntete: {trump_card})"
   },
   "prompt": {
     "intro": "Unacheza Briscola - Mwadi {player_id}.\nLengo: Shinda mashindano na kukusanya pointi nyingi (jumla ya pointi 120 kwenye sitaha).\nPointi za Kadi: A=11, 3=10, K=4, Q=3, J=2, zingine=0\nNguvu ya Kadi: A > 3 > K > Q > J > 7 > 6 > 5 > 4 > 2\nKadi za trump hushinda kadi zisizo za trump bila kujali nguvu.\n\nHatua: '[play X]' ambapo X ni nafasi (1-{max_pos}) ya kadi kwenye mkono wako\n"
@@ -40,11 +40,11 @@
     "score_entry": "Mwadi {player_id}: {points} pointi",
     "trump_info": "Tshikondo tshia Trump: {trump_suit}",
     "trump_info_deck": "Suiti ya trump: {trump_suit} | Kadi zilizobaki kwenye sitaha: {deck_count}",
-    "board": "{hand}\n\n{trick}\n\nScores: {scores}\n{trump_info}\n\nPlay a card using [play X]"
+    "board": "{hand}\n\n{trick}\n\nMakomo: {scores}\n{trump_info}\n\nTambula kadi na [play X]"
   },
   "invalid_move": {
     "wrong_format": "Kuenza mudimu ne [play X] muaba udi X muikale miaba idi karte (1, 2, 3, etc.)",
-    "out_of_range": "Invalid card position. You have {count} cards (1-{count})"
+    "out_of_range": "Ntela ya kadi siyo bwino. Una {count} kadi (1-{count})"
   },
   "action": {
     "played": "Mwadi {player_id} akabwaka {card}",

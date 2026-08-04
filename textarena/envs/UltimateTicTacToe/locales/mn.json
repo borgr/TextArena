@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in **Ultimate Tic Tac Toe**.\nSubmit your move as **[macro  micro]** (two numbers 0-8):\n• *macro*  = which mini-board you play in\n• *micro* = which square inside that mini-board\nExample `[7 8]` ➜ place your mark in mini-board 7, square 8, and\nforce your opponent to play in mini-board 8 next.\n\nYou are `{symbol}`.\n"
+    "intro": "Та **Ultimate Tic Tac Toe** тоглоомын Тоглогч {player_id} байна.\nӨөрийн нүүдлийг **[macro  micro]** (хоёр тоо 0-8) хэлбэрээр оруулна уу:\n• *macro*  = ямар мини самбар дээр тоглох вэ\n• *micro* = тэр мини самбарын ямар квадрат дотор тоглох вэ\nЖишээ нь `[7 8]` ➜ 7 дугаар мини самбарын 8 дугаар квадратад тэмдэгээ тавина, дараа нь өрсөлдөгчөө 8 дугаар мини самбар дээр тоглуулах болно.\n\nТа `{symbol}` байна.\n"
   },
   "board": {
     "current_board": "Одоогийн тамирчин: {board}"
@@ -21,7 +21,7 @@
     "played": "{player_id} тоглогч {macro_idx} микро дохио, {micro_idx} өрөөнд (рэг {row}, хуудас {col}) тоглосон. {opponent_id} тоглогч одоо {nxt_txt} өрөөнд тоглох ёстой."
   },
   "outcome": {
-    "win": "Player {player_id} wins Ultimate Tic Tac Toe!",
+    "win": "Тоглогч {player_id} Ultimate Tic Tac Toe тоглоомыг яллаа!",
     "draw": "Тоглолт тэнцсэн!"
   }
 }

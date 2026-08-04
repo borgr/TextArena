@@ -3,11 +3,11 @@
     "current_board": "Käp kɛ jɛ ɛntäämɛ: {board}"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} playing a game of Checkers as {color}.\nMake your move in chess-style notation [fileRank fileRank], e.g. '[b2c3]' (column letter a–h, row digit 0–7).\nBasic rules:\n  • Move diagonally forward by 1 if empty.\n  • Capture by jumping over an opponent piece.\n  • A piece is Kinged if it reaches the opposite end.\n"
+    "intro": "Yin ee Player {player_id} luui kaam ë Checkers kec {color}.\nTɛ̈ɛ̈m miirɛ̈ɛ̈në kɛ̈ɛ̈cɛ̈ɛ̈në kɛ̈ɛ̈cɛ̈ɛ̈në [fileRank fileRank], tɛ̈ɛ̈m 'aade [b2c3]' (kɔ̈ɔ̈m ëëëë a–h, kɛ̈ɛ̈ɛ̈ɛ̈ 0–7).\nKɛ̈ɛ̈cɛ̈ɛ̈në kɛ̈ɛ̈në:\n  • Miirɛ̈ɛ̈në kɛ̈ɛ̈cɛ̈ɛ̈në wɛ̈ɛ̈lɛ̈ɛ̈në tɛ̈ɛ̈m 1 ka ye kɛ̈ɛ̈ɛ̈ɛ̈.\n  • Dɔ̈ɔ̈rɛ̈ɛ̈në kɛ̈ɛ̈ɛ̈ɛ̈ kɛ̈ɛ̈ɛ̈ɛ̈ tɛ̈ɛ̈m kɛ̈ɛ̈ɛ̈ɛ̈.\n  • Kɛ̈ɛ̈cɛ̈ɛ̈në ee Kiŋɛ̈ɛ̈dɛ̈ɛ̈ ka ye kɛ̈ɛ̈ɛ̈ɛ̈ tɛ̈ɛ̈m kɛ̈ɛ̈ɛ̈ɛ̈."
   },
   "invalid_move": {
     "wrong_format": "Kääräk kuɔɔny thïn. Yakë [a1b2], e.g. [b2c3].",
-    "illegal": "Move [{move}] is illegal."
+    "illegal": "Kɛɛm kɛɛŋ [{move}] a kɛɛŋ kɛɛŋ."
   },
   "game_action": {
     "moved": "Riäŋ {player_id} ciɛ̈l {move}."

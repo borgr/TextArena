@@ -22,34 +22,34 @@
     "final_ranking": "list of player indices from first eliminated to winner"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in an {num_players}-player Liar's Dice game.\nRules:\n- On your turn, you may either:\n  1) Make a new bid with a higher quantity or higher face (or both) than the current bid; i.e. '[Bid: 3, 4]',\n  2) Call the last bid by typing '[Call]'.\n\nIf you call:\n  - If the actual count of that face value among all dice is less than the bid, the last bidder loses one die.\n  - Otherwise, the caller loses one die.\nA player who reaches 0 dice is eliminated. The last remaining player wins."
+    "intro": "Uli mwine wa kufikisha {player_id} mu ndila ya Liar's Dice ya bantu {num_players}.\nNidhamu:\n- Pa kufikisha kwako, unaweza kufanya:\n  1) Kukamba kambu kipya na ngalwiko nyingi zaidi au uso wa juu zaidi (au zote mbili) kuliko kambu ya sasa; yaani '[Bid: 3, 4]',\n  2) Kuita kambu ya mwisho kwa kuandika '[Call]'.\n\nUkaita:\n  - Ukiona kwamba kuheswa kwa uso wa thamani yote ya mabakuli ni chini ya kambu, mukambu wa mwisho ahuluke mabakuli moja.\n  - Vinginevyo, mukaita ahuluke mabakuli moja.\nMwine wa kufikisha aliyefikisha mabakuli 0 ahuluke. Mwine wa kufikisha aliyesalia mwisho ahule."
   },
   "board": {
     "per_player": "\tPlayer {p}: {d}",
-    "new_round": "\nNew round - Remaining dice: {dice_summary}\nYour current Dice are: {your_dice}"
+    "new_round": "\nNthawi mpya - Maboya yaliyosalia: {dice_summary}\nMaboya yako ya sasa ni: {your_dice}"
   },
   "call": {
-    "bidder_loses": "Player {current_player_id} calls! The actual count of face {face_value} is {count}, which is LESS than {quantity}.\nPlayer {loser_id} (the last bidder) loses one die.",
-    "caller_loses": "Player {current_player_id} calls! The actual count of face {face_value} is {count}, which is >= {quantity}.\nPlayer {loser_id} (the caller) loses one die."
+    "bidder_loses": "Muthu wakuvutisa {current_player_id} anaita! Wingi wa uso {face_value} ni {count}, ambao ni CHINI ya {quantity}.\nMuthu wakuvutisa {loser_id} (mukwati wa mwisho) atapoteza maboya moja.",
+    "caller_loses": "Muthu wakuvutisa {current_player_id} anaita! Wingi wa uso {face_value} ni {count}, ambao ni >= {quantity}.\nMuthu wakuvutisa {loser_id} (mwitaji) atapoteza maboya moja."
   },
   "action": {
-    "bid_announce": "Player {player_id} bids {quantity} of face {face_value}."
+    "bid_announce": "Muthu wakuvutisa {player_id} anakwata {quantity} ya uso {face_value}."
   },
   "invalid_move": {
     "call_no_bid": "Cj.",
-    "invalid_bid": "Invalid bid: {reason}",
-    "not_recognized": "Action not recognized as valid '[Bid: X, Y]' or '[Call]. Recommendation action: {action} "
+    "invalid_bid": "Kukwata kusiwe: {reason}",
+    "not_recognized": "Kitendo hakijatambulika kama '[Bid: X, Y]' au '[Call]' chenji. Kitendo kilichowasilishwa: {action}"
   },
   "bid_reason": {
     "quantity_lower": "Cjk cj {new_quantity} is lower than current{current_quantity}.",
     "face_lower": "Cjk cjc {new_face_value} is lower than current{current_face_value}.",
     "identical": "Kombi ni sawa na komba ya sasa.",
-    "face_range": "Cjk cj: value must be between 1 and 6."
+    "face_range": "Uso wa thamani lazima uwe kati ya 1 na 6."
   },
   "message": {
-    "eliminated_invalid": "Player {player_id} was eliminated by invalid move."
+    "eliminated_invalid": "Muthu wakuvutisa {player_id} alikomeshwa na kukwata kusiwe."
   },
   "outcome": {
-    "win": "Player {winner} wins! Final ranking: {final_ranking}"
+    "win": "Muthu wakuvutisa {winner} atashinda! Mpangilio wa mwisho: {final_ranking}"
   }
 }

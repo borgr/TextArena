@@ -15,7 +15,7 @@
     "empty": "Tøymd."
   },
   "game_message": {
-    "no_cards_left": "There are no more cards to draw from. Remember that you can play cards from these sources:\n  1. Your **hand**.\n  2. The **top card of your payoff pile**.\n  3. The **top card of any of your discard piles**.\n\n"
+    "no_cards_left": "Det er ikkje fleire kort å trekkja frå. Husk at du kan spela kort frå desse kjeldene:\n  1. Din **hand**.\n  2. Det **øvste kortet på din payoff-stabel**.\n  3. Det **øvste kortet på nokon av dine kastestablar**.\n\n"
   },
   "invalid_move": {
     "wrong_format": "Ugyldig trekkformat. Spelaren {player_id} svara ikkje med ein gyldig trek i parenteser.",

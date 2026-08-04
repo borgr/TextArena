@@ -3,7 +3,7 @@
     "intro": "Wewe ni Mwari {player_id} mumhango wa Indian Poker.\n- 52-card deck; unonyara chete kadhi ya mwari wekutanga.\n- Ante {ante} chip(s) kila mwaka, {max_rounds} mwaka(s) wose.\n- Mwero unowanzika: '[check]'  |  '[bet X]'  |  '[call]'  |  '[raise X]'  |  '[fold]'  (X ni integer chete chisina kudzika kwa chip yako yose.)\n- Kadhi yekutanga inowana pot kuna kuzvimbisa.\n"
   },
   "round": {
-    "announce": "### Round {current_round}/{max_rounds}\nYour opponent's card is: {card}"
+    "announce": "### Raundi {current_round}/{max_rounds}\nKadi ya mupinzani wako ndi: {card}"
   },
   "invalid_move": {
     "ambiguous": "Pesa moja chete action yenziwa kuboka, kubva '[check]', '[bet 2]', '[call]', '[raise 3]', kana '[fold]'.",

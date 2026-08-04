@@ -13,7 +13,7 @@
     "exceeds_pile": "Kama saari karo {quantity} oo ka soo baxa {pile_index} (kaliya {pile_count} ayaa tagay)."
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "Ciyaartoy {player_id} waxa uu ciyaaray [{pile_index} {quantity}], ka saaray {quantity} shay (oo) tuulada {pile_index}."
   },
   "outcome": {
     "win": "Ciyaaryahanka {player_id} wuxuu qaatay shaygii ugu dambeeyay ((s)!"

@@ -10,7 +10,7 @@
     "{to}": "The destination coordinate of a move, such as b3"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in game of LinesOfAction.\nYour pieces are '{side}', opponent pieces are '{other}'.\nMove format: `[b1b3]` (from-coord to-coord). A legal move travels horizontally, vertically, or diagonally a number of squares equal to the total pieces (any colour) in that line. You may jump over your own pieces, but not opponent pieces; landing on an opponent captures it.  Win when all your pieces are 8-neighbour connected."
+    "intro": "Ou se Jwè {player_id} nan jwèt LinesOfAction.\nPyès ou yo se '{side}', pyès opozan yo se '{other}'.\nFòma deplasman: `[b1b3]` (kòdone-sous kòdone-destenasyon). Yon deplasman ki konfòm vwayaje orizontalman, vètikalman, oswa dyagonalman yon kantite kare egal ak total pyès yo (nenpòt koulè) nan liy sa a. Ou ka sote sou pyès ou yo, men pa sou pyès opozan yo; ateri sou yon opozan kaptire li.  Genyen lè tout pyès ou yo konekte nan 8 vwazinaj."
   },
   "board": {
     "current_board": "Komisyon Konsèy: {board}"

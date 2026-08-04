@@ -13,7 +13,7 @@
     "you_hit": "Waduthe! Uduthe ibhoti kwa{coord}! Ibhoqi yakho ephindekezwe:\n{view}",
     "opp_hit": "Mdlali uduthe ibhoti yakho kwa{coord}! Ibhoqi yakho ephindekezwe:\n{view}",
     "you_miss": "Akukuduthe! Wakazithatha ibhoti kwa{coord}! Ibhoqi yakho ephindekezwe:\n{view}",
-    "opp_miss": "Opponent missed your ship at {coord}! Your updated board:\n{view}"
+    "opp_miss": "Omgadli wakho uyiphazamisile inqanawa yakho kwenye {coord}! Ibodi yakho entsha:\n{view}"
   },
   "outcome": {
     "win": "Umdlali {player_id} uye watshona zonke iinqanawa zomchasi wakhe!"

@@ -13,7 +13,7 @@
     "repeated_guess": "Siz endi {guess} tahmin ettiñiz. Lütfen başqa bir tahmini yapıñız."
   },
   "game_action": {
-    "feedback": "Submitted [{guess}]. Feedback: {black_pegs} black peg(s), {white_pegs} white peg(s)."
+    "feedback": "Yollandı [{guess}]. Feedback: {black_pegs} qara çubuq(lar), {white_pegs} aq çubuq(lar)."
   },
   "outcome": {
     "win": "Siz kodu açtıñız, {black_pegs} dan {code_length} çivini doğru tärtipnen açtıñız",

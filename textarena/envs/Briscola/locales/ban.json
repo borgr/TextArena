@@ -19,10 +19,10 @@
     "{deck_count}": "Number of cards left in the deck"
   },
   "game": {
-    "start": "Permainan Briscola dimulai! Jenis trump: {trump_suit} (Kartu trump: {trump_card})"
+    "start": "Pertandingan Briscola sampun kawitin! Kartu pilih: {trump_suit} (Kartu pilih utama: {trump_card})"
   },
   "prompt": {
-    "intro": "Anda sedang bermain Briscola - Pemain {player_id}.\nTujuan: Menangkan trik dan kumpulkan poin terbanyak (120 poin total di dek).\nPoin Kartu: A=11, 3=10, K=4, Q=3, J=2, lainnya=0\nKekuatan Kartu: A > 3 > K > Q > J > 7 > 6 > 5 > 4 > 2\nKartu trump mengalahkan kartu non-trump terlepas dari kekuatan.\n\nAksi: '[play X]' di mana X adalah posisi (1-{max_pos}) kartu di tangan Anda\n"
+    "intro": "Cai ngmain Briscola - Pemain {player_id}.\nTetujon: Menang trik miwah ngumpulang poin paling akeh (120 poin total ring deck).\nPoin Kartu: A=11, 3=10, K=4, Q=3, J=2, liyanan=0\nKakuatan Kartu: A > 3 > K > Q > J > 7 > 6 > 5 > 4 > 2\nKartu Trump ngalahin kartu non-trump tiosan saking kakuatan.\n\nTindakan: '[play X]' di mana X inggih punika genah (1-{max_pos}) kartu ring tangan cainé\n"
   },
   "hand": {
     "none": "Nénten wénten kartu.",
@@ -37,21 +37,21 @@
     "line": "  Pemain {player_id}: {card}{trump_mark}"
   },
   "turn": {
-    "score_entry": "Pemain {player_id}: {points} pts",
-    "trump_info": "Trump suit: {trump_suit} (surat tangan ring ajeng)",
-    "trump_info_deck": "Trump suit: {trump_suit} | Cards left in deck: {deck_count}",
-    "board": "{hand}\n\n{trick}\n\nSkor: {scores}\n{trump_info}\n\nMainkan kartu menggunakan [play X]"
+    "score_entry": "Pemain {player_id}: {points} poin",
+    "trump_info": "Kartu pilih: {trump_suit}",
+    "trump_info_deck": "Kartu pilih: {trump_suit} | Kartu sané kantun ring dek: {deck_count}",
+    "board": "{hand}\n\n{trick}\n\nSkor: {scores}\n{trump_info}\n\nMainang kartu nganggén [play X]"
   },
   "invalid_move": {
     "wrong_format": "Anggén [play X] ring dija X inggih punika genah kartu (1, 2, 3, miwah sané lianan)",
-    "out_of_range": "Posisi kartu tidak valid. Anda memiliki {count} kartu (1-{count})"
+    "out_of_range": "Posisi kartu sané nénten sah. Iraga madué {count} kartu (1-{count})"
   },
   "action": {
-    "played": "Pemain {player_id} memainkan {card}",
-    "trick_win": "Pemain {winner} memenangkan trik dengan {card} dan mendapatkan {points} poin!"
+    "played": "Pemain {player_id} main {card}",
+    "trick_win": "Pemain {winner} menang trik antuk {card} tur ngmolihang {points} poin!"
   },
   "outcome": {
-    "head": "Permainan Berakhir! Pemain {winner} memenangkan dengan {points} poin!\n\nSkor Akhir:\n{scores}",
+    "head": "Pertandingan Sampun! Pemain {winner} menang antuk {points} poin!\n\nPoin Pungkasan:\n{scores}",
     "player_line": "Pemain {player_id}: {points} poin ({tricks} trik)\n"
   }
 }

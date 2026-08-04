@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing the Minesweeper game.\nThe objective of the game is to reveal all cells that do not contain mines.\nTo make a move, simply specify the row and column coordinates you want to reveal using the format:\n- `[row col]`: Reveal the cell at the specified row and column.\nFor example:\n- `[3 2]` to reveal the cell in Row 3, Column 2.\n- `[5 6]` to reveal the cell in Row 5, Column 6.\nOn your first move, you will reveal an area around the cell you choose to ensure a safe start.\nThe current board layout is shown below. Cells that are unrevealed are represented by a dot ('.'), revealed numbers show the count of adjacent mines.\nBe mindful not to choose already revealed cells.\nHere is the current board layout:\n"
+    "intro": "Yin ee dhieu Minesweeper.\nYadhieu ee këër ee rot looi yëp tɛ̈ɛ̈c wei dɛ̈ɛ̈r kek yëp.\nBëë yëp lac gɔ̈ɔ̈r, këër yëp lac wei yëp rot looi ee tɛ̈ɛ̈c wei dɛ̈ɛ̈r kek:\n- `[row col]`: Yëp lac wei yëp rot looi ee tɛ̈ɛ̈c wei.\nTɛ̈ɛ̈c kënë:\n- `[3 2]` yëp lac wei yëp rot looi ee tɛ̈ɛ̈c wei dhiëc 3, dɛ̈ɛ̈r 2.\n- `[5 6]` yëp lac wei yëp rot looi ee tɛ̈ɛ̈c wei dhiëc 5, dɛ̈ɛ̈r 6.\nKëër yëp lac gɔ̈ɔ̈r dhieu, yëp lac wei yëp rot looi ee tɛ̈ɛ̈c wei dɛ̈ɛ̈r kek yëp ee rot looi dɛ̈ɛ̈r.\nYëp lac wei yëp rot looi ee tɛ̈ɛ̈c wei ee tɔ̈:\n. Këër ee rot looi yëp ee dɛ̈ɛ̈r kek yëp ee tɛ̈ɛ̈c wei.\nTɛ̈ɛ̈c ee rot looi yëp ee dɛ̈ɛ̈r kek yëp ee tɛ̈ɛ̈c wei:\n"
   },
   "board": {
     "game_board": "Athör ë Thudän: {board}",

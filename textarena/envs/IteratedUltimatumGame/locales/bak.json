@@ -24,10 +24,10 @@
     "intro": "Син Player {player_id}, Iterated Ultimatum Game уйынының {num_rounds} раундын уйнайсың.\nБыл раундта үҙеңә һәм Player {other_id} араһында бүлеү өсөн ${pool} бар.\n\nProposer:\n  - Тәҡдим ит: [Offer: $X] (0 <= X <= pool)\n  - Әгәр ҡабул ителһә → Һин (pool - X) алаһың, икенсе уйынсы $X ала\n  - Әгәр кире ҡағылһа → Икеһе лә $0 ала\n  - Мисал: [Offer: $3]  йәки  'Мин быны яраҡлы тип иҫәпләйем. [Offer: $5]'\n\nResponder:\n  - Тәҡдимде [Accept] йәки [Reject] менән ҡарар ит\n  - Мисал: 'Был уҡымлыҡлы булып сыға. [Accept]'\n            'Бының өсөн бик тигеҙһеҙ. [Reject]'\n"
   },
   "round": {
-    "begins": "--- Раунд {round_number} башлана! ---\nPlayer {proposer_id} - тәҡдим итеүсе, Player {responder_id} - яуап биреүсе.",
-    "offer": "Раунд {round_number}: Player {proposer_id} Player {responder_id}'ға ${offer} тәҡдим итә (үҙенә ${keep} ҡалдыра).",
-    "accepted": "Player {responder_id} ҡабул итте! Раунд {round_number} отеше: Player {proposer_id} +${proposer_gain}, Player {responder_id} +${responder_gain}. Яңы дөйөм: Player 0: ${total_0}, Player 1: ${total_1}.",
-    "rejected": "Player {responder_id} тәҡдимде кире ҡаҡты! Раунд {round_number} отеше: Ике уйынсыға ла +$0. Дөйөм һан ҡала: Player 0: ${total_0}, Player 1: ${total_1}."
+    "begins": "--- {round_number}-се раунд башлана! ---\n{proposer_id}-се уйынсы тәҡдим итеүсе, {responder_id}-се уйынсы яуап биреүсе.",
+    "offer": "{round_number}-се раунд: {proposer_id}-се уйынсы {responder_id}-се уйынсыға ${offer} тәҡдим итә (${keep} һаҡлап).",
+    "accepted": "{responder_id}-се уйынсы тәҡдимде ҡабул итте! {round_number}-се раундтағы табыш: {proposer_id}-се уйынсы +${proposer_gain}, {responder_id}-се уйынсы +${responder_gain}. Яңы суммалар: 0-се уйынсы: ${total_0}, 1-се уйынсы: ${total_1}.",
+    "rejected": "{responder_id}-се уйынсы тәҡдимде кире ҡаҡты! {round_number}-се раундтағы табыш: Ике уйынсы ла +$0. Суммалар үҙгәрмәй: 0-се уйынсы: ${total_0}, 1-се уйынсы: ${total_1}."
   },
   "invalid_move": {
     "no_offer_format": "Тәҡдим итеүсе [Offer: $X] форматында тәҡдим итергә тейеш.",

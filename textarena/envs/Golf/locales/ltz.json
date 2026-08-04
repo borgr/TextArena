@@ -31,7 +31,7 @@
     "none": "Keng"
   },
   "options": {
-    "final_turns": "Final turns! Your options: [draw], [take], [peek X Y]",
+    "final_turns": "Leschten Tour! Är Optiounen: [draw], [take], [peek X Y]",
     "draw": "Deng Optiounen: [draw], [take]",
     "must_swap": "Dir musst: [swap X Y] (kann net Kaarten aus dem Verzichtstapel entlooss)",
     "swap_or_discard": "Du musst: [swap X Y] oder [discard]"

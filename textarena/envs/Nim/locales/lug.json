@@ -7,13 +7,13 @@
   },
   "invalid_move": {
     "wrong_format": "Tewali kika kya kutambuza kituufu kizuuliddwa. Kozesa '[pile quantity]'.",
-    "correct_format_wrong_fields": "Player {player_id}, Invalid action. Column {col} is out of bounds.",
+    "correct_format_wrong_fields": "Mchezaji {player_id}, kikao si sahihi. Safu {col} si mu mipaka.",
     "out_of_range": "Ekitebe kya Pile {pile_index} kiri ebweru w'ebbanga.",
     "non_positive": "Alina okuggyawo ekintu kimu.",
     "exceeds_pile": "Toleka {quantity} ku kolamu {pile_index} (kati {pile_count} pekee.)."
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "Mchezaji {player_id} alizanya [{pile_index} {quantity}], akiva {quantity} kintu (ki) mu kikundi {pile_index}."
   },
   "outcome": {
     "win": "Omuzannyo {player_id} gw'azannya gusembyeyo!"

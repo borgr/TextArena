@@ -13,7 +13,7 @@
     "repeated_guess": "Դուք արդեն գուշակել եք {guess}: Խնդրում ենք փորձել այլ գուշակություն:"
   },
   "game_action": {
-    "feedback": "Submitted [{guess}]. Feedback: {black_pegs} black peg(s), {white_pegs} white peg(s)."
+    "feedback": "Ներկայացվել է [{guess}]։ Արձագանք. {black_pegs} սև խրոց(ներ), {white_pegs} սպիտակ խրոց(ներ)։"
   },
   "outcome": {
     "win": "Դուք կոտրել եք կոդը, լուծելով {black_pegs}-ը {code_length}-ից ճիշտ",

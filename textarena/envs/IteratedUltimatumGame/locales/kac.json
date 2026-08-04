@@ -24,10 +24,10 @@
     "intro": "Nang chye le Player {player_id}, Iterated Ultimatum Game {num_rounds} rounds kau ya ai.\nNang chye le ${pool} kau split kau ya ai round kau le Player {other_id}.\n\nProposer:\n  - Offer kau: [Offer: $X] (0 <= X <= pool)\n  - Accepted kau → Nang chye le $(pool - X), nang mai chye le $X\n  - Rejected kau → Both chye le $0\n  - Example: [Offer: $3]  or  'Nang ga ai fair kau. [Offer: $5]'\n\nResponder:\n  - Offer kau decide kau ya ai [Accept] or [Reject]\n  - Example: 'Nang ga ai reasonable kau. [Accept]'\n            'Too unfair kau. [Reject]'\n"
   },
   "round": {
-    "begins": "--- Round {round_number} begins! ---\nPlayer {proposer_id} ai proposer, Player {responder_id} ai responder.",
-    "offer": "Round {round_number}: Player {proposer_id} offers ${offer} to Player {responder_id} (keeping ${keep}).",
-    "accepted": "Player {responder_id} accepted! Round {round_number} gains: Player {proposer_id} +${proposer_gain}, Player {responder_id} +${responder_gain}. New totals: Player 0: ${total_0}, Player 1: ${total_1}.",
-    "rejected": "Player {responder_id} rejected the offer! Round {round_number} gains: Both players +$0. Totals remain: Player 0: ${total_0}, Player 1: ${total_1}."
+    "begins": "--- Kumla {round_number} hte kumhkring! ---\nMasha {proposer_id} hpung masha, masha {responder_id} jaw masha.",
+    "offer": "Kumla {round_number}: Masha {proposer_id} hpung jaw ${offer} kasa masha {responder_id} (hpung masha ${keep} kasa).",
+    "accepted": "Masha {responder_id} jaw hte hkring! Kumla {round_number} hte kumhkring: Masha {proposer_id} +${proposer_gain} kasa, masha {responder_id} +${responder_gain} kasa. Kumla hte kumhkring galaw gawng: Masha 0: ${total_0} kasa, masha 1: ${total_1} kasa.",
+    "rejected": "Masha {responder_id} jaw hte hkring hpung jaw kasa! Kumla {round_number} hte kumhkring: Kumla hte kumhkring masha $0 kasa. Kumla hte kumhkring galaw gawng: Masha 0: ${total_0} kasa, masha 1: ${total_1} kasa."
   },
   "invalid_move": {
     "no_offer_format": "Proposer gaw [Offer: $X] ngu ai hkrang hte offer galaw ra na re.",
@@ -37,7 +37,7 @@
     "accept_or_reject": "Responder htai [Accept] mahta [Reject] kau offer."
   },
   "outcome": {
-    "win": "Player {winner} won with ${winner_total} total vs Player {loser}'s ${loser_total}.",
+    "win": "Masha {winner} hpung masha ${winner_total} kasa hte masha {loser} ${loser_total} kasa.",
     "draw": "Ndai ginsup ai hta, marai lahkawng yan ${total} hte dang la ma ai."
   }
 }

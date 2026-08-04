@@ -9,11 +9,11 @@
     "money_cards": "Li tò carti di dinari ristau: {money}"
   },
   "invalid_move": {
-    "wrong_format": "Deve cumprènniri esattamente na [X] carta di dinari.",
+    "wrong_format": "Devi cumprendiri esattamenti na carta di dinaru [X].",
     "card_not_held": "Tu nun hai cchiù 'sta carta di dinari."
   },
   "message": {
-    "tie": "Tie - bids returned. Rebid!",
+    "tie": "Parità - ufferti turnati. Ufferta arrè!",
     "auction_result": "P0 offri {bid0}, P1 offri {bid1}. Giocatore {winner} vinci prestigiu {prize} (totale {total})."
   },
   "outcome": {

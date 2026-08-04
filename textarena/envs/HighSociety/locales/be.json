@@ -13,7 +13,7 @@
     "card_not_held": "У вас больш няма гэтай карткі."
   },
   "message": {
-    "tie": "Tie - bids returned. Rebid!",
+    "tie": "Нічыя - стаўкі вярнуліся. Зрабіце стаўку зноў!",
     "auction_result": "P0 зрабіў стаўку {bid0}, P1 зрабіў стаўку {bid1}. Гулец {winner} атрымае прэстыж {prize} (усяго {total})."
   },
   "outcome": {

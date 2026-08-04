@@ -12,7 +12,7 @@
     "invalid_position": "אומגילטיקע מאַך - קען נישט באַוועגן צו דעם שטעלע."
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
+    "moved": "איר {pushed} האָט איר זיך באַוועגט [{action}].",
     "pushed_prefix": "פּושיד אַ קעסטל בשעת"
   },
   "outcome": {

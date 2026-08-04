@@ -8,12 +8,12 @@
     "already_fired": "Koordinat {coord} alah ditembak."
   },
   "game_action": {
-    "you_sunk": "Sunk! You sunk a ship at {coord}! Your updated board:\n{view}",
-    "opp_sunk": "Opponent sunk your ship at {coord}! Your updated board:\n{view}",
+    "you_sunk": "Tenggelam! Anda alah mangaramkan kapal di {coord}! Papan Anda nan alah diupdate:\n{view}",
+    "opp_sunk": "Lawan alah mangaramkan kapal Anda di {coord}! Papan Anda nan alah diupdate:\n{view}",
     "you_hit": "Sambuik! Anda manyambuik kapal di {coord}! Papan board anda nan tarbaru:\n{view}",
-    "opp_hit": "Opponent hit your ship at {coord}! Your updated board:\n{view}",
+    "opp_hit": "Lawan alah mangenai kapal Anda di {coord}! Papan Anda nan alah diupdate:\n{view}",
     "you_miss": "Indak Sambuik! Anda indak manyambuik kapal di {coord}! Papan board anda nan tarbaru:\n{view}",
-    "opp_miss": "Opponent missed your ship at {coord}! Your updated board:\n{view}"
+    "opp_miss": "Lawan kanyang jo kapal Anda di {coord}! Papan Anda nan alah diupdate:\n{view}"
   },
   "outcome": {
     "win": "Pamain {player_id} alah manenggehi sadonyo kapa musuahnyo!"

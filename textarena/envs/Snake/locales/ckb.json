@@ -11,7 +11,7 @@
     "{groups}": "Neutral ranking data (a list of player-id groups, worst to best); do not translate"
   },
   "player_prompt": {
-    "intro": "{num_players}-Player Snake on a {width}×{height} grid.\nYou control snake {player_id}. Valid moves: '[up]'/'[down]'/'[left]'/'[right]' (or w/s/a/d).\nObjective: survive longest or be the longest and get the highest score (turn limit {max_turns} turns)."
+    "intro": "{num_players}-یاریزانی مار لەسەر تەختەیەکی {width}×{height}.\nئەوە کۆنترۆڵی ماری {player_id} دەکەیت. جووڵەی دروست: '[up]'/'[down]'/'[left]'/'[right]' (یان w/s/a/d).\nئامانج: درێژترین ماوە بژیت یان درێژترین بە و بەرزترین خاڵ بەدەست بھێنیت (سنووری جووڵە {max_turns} جووڵە)."
   },
   "board": {
     "current": "دەستەی ئێستای: {board}",

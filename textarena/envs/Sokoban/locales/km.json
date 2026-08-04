@@ -12,7 +12,7 @@
     "invalid_position": "ចលនាមិនត្រឹមត្រូវ - មិនអាចចលនាទៅកាន់តំណែងនោះបានទេ។"
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
+    "moved": "អ្នក {pushed} បានចលនា [{action}]។",
     "pushed_prefix": "បានជំរុញកញ្ចប់មួយពេល"
   },
   "outcome": {

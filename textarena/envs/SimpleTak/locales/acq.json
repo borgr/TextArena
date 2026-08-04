@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in SimpleTak.\nOn the board, your stones appear as '{player_stone}' and your opponent's stones appear as '{opponent_stone}'.\n\nOn your turn, choose one empty cell (by its numbered index) and place your stone there.\nFor example, '[12]' places your stone in cell 12.\n\nYour objective is to form a continuous path of your stones that connects two opposite edges of the board (top-to-bottom or left-to-right)."
+    "intro": "أنت اللاعب {player_id} في SimpleTak.\nعلى اللوحة، تظهر أحجارك على شكل '{player_stone}' وتظهر أحجار خصمك على شكل '{opponent_stone}'.\n\nفي دورك، اختر خلية فارغة (برقمها) وضع حجرك هناك.\nعلى سبيل المثال، '[12]' يضع حجرك في الخلية 12.\n\nهدفك هو تكوين مسار متصل من أحجارك يربط بين حافتين متقابلتين من اللوحة (من أعلى إلى أسفل أو من اليسار إلى اليمين)."
   },
   "invalid_move": {
     "invalid_move_format": "شكل نقل غير صحيح.",

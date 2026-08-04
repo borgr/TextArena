@@ -1,21 +1,21 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in Connect Four.\nYour disc symbol: {symbol}.\nThe game board has {num_rows} rows and {num_cols} columns.\nPlayers take turns dropping their disc into one of the columns (0 to {end_col}).\nThe first to connect (their own) four discs vertically, horizontally, or diagonally wins.\nOn your turn, enter the column number in squared brackets to make your move.\nFor example: '[col 4]' or '[col 1]'."
+    "intro": "Nwi uka Muthu {player_id} mu Connect Four.\nChikwama chako cha disiki: {symbol}.\nBodi ya michezo ina {num_rows} safu na {num_cols} safu wima.\nWathu wanaingiliana kwa kuweka disiki yao mu safu wima moja (0 hadi {end_col}).\nWa kwanza kuunganisha (disiki zao wenyewe) nne wima, mlalo, au diagonal akashinda.\nPa zamu yako, ingiza nambari ya safu wima mu mabano ya mraba ili kufanya zamu yako.\nKwa mfano: '[col 4]' au '[col 1]'."
   },
   "board": {
-    "board_visible_state": "Board state:\n{board_visual}",
-    "board_notvisible_state": "Kengele ya mupira wa miguu si visible to players."
+    "board_visible_state": "Hali ya bodi:\n{board_visual}",
+    "board_notvisible_state": "Bodi ya michezo haionekani kwa wathu wanaocheza."
   },
   "invalid_move": {
-    "wrong_format": "Player {player_id}, Invalid action format. Expected format: '[col x]'.",
-    "out_of_range": "Player {player_id}, Invalid action. Column {col} is out of bounds.",
-    "already_full": "Player {player_id}, Invalid action. Column {col} is full."
+    "wrong_format": "Muthu {player_id}, Umbo la hatua si sahihi. Umbo linalotarajiwa: '[col x]'.",
+    "out_of_range": "Muthu {player_id}, Hatua si sahihi. Safu wima {col} iko nje ya mipaka.",
+    "already_full": "Muthu {player_id}, Hatua si sahihi. Safu wima {col} imejaa."
   },
   "action": {
-    "dropped_disk": "Player {player_id} dropped their disk ({player_symbol}) into column {col}."
+    "dropped_disk": "Muthu {player_id} aliweka disiki yake ({player_symbol}) mu safu wima {col}."
   },
   "outcome": {
-    "win": "Player {player_id} wins by connecting four!",
-    "draw": "Mchezo uliisha kwa sare."
+    "win": "Muthu {player_id} akashinda kwa kuunganisha nne!",
+    "draw": "Mchezo umemalizika kwa sare."
   }
 }

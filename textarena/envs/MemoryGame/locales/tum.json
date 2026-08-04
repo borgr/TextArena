@@ -13,13 +13,13 @@
     "already_matched": "Chinthu chambura kwenelera: Woseŵera {player_id} wasankha khadi limoza panji ghose ghaŵiri agho ghakumanyikwa kale."
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "Kalata zosankhidwa ndi Mchezaji {player_id} pa malo a [{r1} {c1}] ndi [{r2} {c2}] zikwana!",
+    "cards_no_match": "Kalata zosankhidwa ndi Mchezaji {player_id} zikugwana. Kalata pa malo a [{r1} {c1}] ndi [{r2} {c2}] ni {pos1} ndi {pos2} mtawali."
   },
   "outcome": {
     "draw": "Ŵakucita maseŵero wose ŵaŵiri ŵakayaniska makadi ghamoza.",
     "win": "Woseŵera {winner_id} watonda!",
-    "turn_limit": "The turn limit has been reached. The game is over. Player 0 scored {score_0} points, Player 1 scored {score_1} points.",
-    "turn_limit_win": "{reason} Player {winner_id} has won!"
+    "turn_limit": "Mpaka wa zunguliro unafikwa. Mchezo unatha. Mchezaji 0 anapata alama {score_0}, Mchezaji 1 anapata alama {score_1}.",
+    "turn_limit_win": "{reason} Mchezaji {winner_id} watengwa!"
   }
 }

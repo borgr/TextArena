@@ -1,19 +1,19 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in Nim.\nYour goal is to take the last remaining object.\nOn each turn, choose exactly one pile and remove one or more objects from it.\nUse the format '[pile quantity]', where pile is the pile index and quantity is the number of objects to remove.\nFor example, '[0 3]' removes 3 objects from pile 0."
+    "intro": "Yaa Player {player_id} kɛ Nim.\nKɩɩrɩ yaa laŋɔ yɛɛrɛ kɛɛrɛ kɛlɛ.\nKɩɩlɛ kɛɛrɛ, tɛŋɛ kɛɛrɛ pile yɔɔgɔ laŋɔ yɛɛrɛ kɛɛrɛ kɛlɛ.\nTɛŋɛ format '[pile quantity]', pile wɛɛlɛ pile index yɛɛ laŋɔ quantity wɛɛlɛ kɛɛrɛ kɛlɛ.\nKɩɩlɛ kɛɛrɛ, '[0 3]' kɛɛrɛ 3 kɛɛrɛ kɛlɛ pile 0."
   },
   "state": {
     "current_pile": "Current Pile: {piles} yaa sẽn na n yɩll tɩ b tõog n maan bũmb fãa."
   },
   "invalid_move": {
     "wrong_format": "B pa yãe sẽn zems n dɩk-a ye. rɩk \"[pile quantity]\".",
-    "correct_format_wrong_fields": "Player {player_id}, Invalid action. Column {col} is out of bounds.",
+    "correct_format_wrong_fields": "Jɛnɛ {player_id}, kɛɛrɛ kɔm. Kɔlɔm {col} tɛ wɛɛrɛ.",
     "out_of_range": "Bãngr-gomdã {pile_index} yaa zãagre.",
     "non_positive": "B segd n yiisa bũmb a ye sẽn pa ta woto.",
-    "exceeds_pile": "Cannot remove {quantity} from pile {pile_index} (only {pile_count} left)."
+    "exceeds_pile": "Tɛ kɛɛrɛ {quantity} sɔrɔ kɔm {pile_index} nɛ (kɛmɛ {pile_count} tɛ bɛ)."
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "Player {player_id} kɩɩlɛ [{pile_index} {quantity}], kɛɛrɛ {quantity} kɛɛrɛ kɛlɛ pile {pile_index}."
   },
   "outcome": {
     "win": "Bõn-naandã {player_id} rɩka yaoolem bõn-vɩɩlã (s)!"

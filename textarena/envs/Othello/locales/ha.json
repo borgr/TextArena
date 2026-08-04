@@ -12,11 +12,11 @@
   },
   "invalid_move": {
     "wrong_format": "Dole ne motsawa ya kasance na nau'in [row, col].",
-    "illegal": "Illegal move. Valid moves: {valid}"
+    "illegal": "Motsa jiki mara doka. Motsa jiki halali: {valid}"
   },
   "game_action": {
     "skipped": "Mai kunnawa {pid} ya tsallake jujjuyawar su",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "Dan wasa {pid} ({piece}) ya buga [{r}, {c}] ya juya {flipped} kafa"
   },
   "game_message": {
     "must_skip": "Mai kunnawa {pid} ({piece}) ba shi da ingantattun motsi kuma dole ne ya tsallake."

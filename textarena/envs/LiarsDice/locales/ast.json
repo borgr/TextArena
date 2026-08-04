@@ -22,7 +22,7 @@
     "final_ranking": "list of player indices from first eliminated to winner"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in an {num_players}-player Liar's Dice game.\nRules:\n- On your turn, you may either:\n  1) Make a new bid with a higher quantity or higher face (or both) than the current bid; i.e. '[Bid: 3, 4]',\n  2) Call the last bid by typing '[Call]'.\n\nIf you call:\n  - If the actual count of that face value among all dice is less than the bid, the last bidder loses one die.\n  - Otherwise, the caller loses one die.\nA player who reaches 0 dice is eliminated. The last remaining player wins."
+    "intro": "Yes el xugador {player_id} nun xuegu de Liar's Dice con {num_players} xugadores.\nRegles:\n- Nel to tornu, puedes:\n  1) Facer una nueva ufierta con una cantidá o valor de cara mayor (o dambos) que la ufierta actual; p. ex. '[Bid: 3, 4]',\n  2) Llamar a la última ufierta escribiendo '[Call]'.\n\nSi llames:\n  - Si'l recuentu real d'esi valor de cara ente tolos dados ye menor que la ufierta, el postreru que fixo la ufierta pierde un dau.\n  - De lo contrario, el que llamó pierde un dau.\nUn xugador que llega a 0 dados queda elimináu. El postreru xugador que quede gana."
   },
   "board": {
     "per_player": "\tXugador {p}: {d}",

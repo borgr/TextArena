@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "Say action et nepeg ya format [row col] no say linya tan kolumn so integer manlapud 0 anggad {max_index}.",
-    "out_of_range": "Coordinates must be between 0 and {max_index}. You entered [{row},{col}]."
+    "out_of_range": "Say koordinado ya dapat ya manlapo 0 ya {max_index}. In-enter mo ya [{row},{col}]."
   },
   "outcome": {
     "win": "Komendasyon! Asolusyonan mo so puzzle ed {moves_used} iran galaw!",

@@ -14,7 +14,7 @@
     "{scores}": "The final scores as a raw player-number to score mapping - do not translate"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player GOPS.\n- You hold the 13 cards A-K (each exactly once).\n- Each round a prize is revealed. Submit ONE card like `[Q]`, `[10]`, `[2]` …\n- Highest card wins the prize (+ any carry-over pot). Ties roll the prize into the next round.\n- After 13 rounds, highest total wins. Invalid moves = elimination."
+    "intro": "Mo ye Player {player_id} na GOPS à maboko mitanu.\n- Mo bata koko 13, A-K (koko oko na kati).\n- Na kila lundi, ekolo epende. Mo fa na koko oko lokola `[Q]`, `[10]`, `[2]` …\n- Koko ogbwa zo awe ekolo (+ na ngonda ya kati). Bata zo koli ekolo na lundi ozui.\n- Na lundi 13, ogbwa zo awe ngonda ya kati. Bata pamba = kozo."
   },
   "round": {
     "header": "### Tönöngö {round}/13 - Pîrîzî: {prize} (kötä tî kömïngï {worth})",
@@ -33,7 +33,7 @@
     "player": "A zi mbeni zo ti pikango ndembo {pid} na peko ti so lo sara ambeni sioni tambela."
   },
   "outcome": {
-    "auto_win": "Two players eliminated - automatic win.",
+    "auto_win": "Bata ibiri zo kozo - awe ngonda na otomo.",
     "final": "Nduru wungo ti azo so awara batême: {scores}"
   }
 }

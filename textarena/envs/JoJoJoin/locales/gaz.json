@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in JoJoJoin, played on a 5x5 board with cells numbered 0-24.\nOn your turn, place your mark on any empty cell, e.g. '[12]'.\nYOU WIN by getting FOUR of your marks in a row — four consecutive cells horizontally, vertically, or diagonally.\nAs Player {player_id} you are '{symbol}'; your opponent is '{opponent_symbol}'."
+    "intro": "Ati Player {player_id} ta'a JoJoJoin irratti, booda 5x5 irratti kan maxxanfame 0-24 tiin.\nGurra kee, maxxansa kee bakka hundatti maxxanfame irratti maxxansi, fakkeenya '[12]'.\nATI MO'ATA maqaa arfii kee afur irratti wal qabata — arfii afur walitti aanee irraa gara, olii fi gadi, ykn kor-kora.\nAkka Player {player_id} ta'e, ati '{symbol}' ta'a; kan si qabdu '{opponent_symbol}' ta'a."
   },
   "board": {
     "current_board": "Booradii Ammaa:\n\n{board}\n\nGolee Dheerina: {moves}"

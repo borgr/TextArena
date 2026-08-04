@@ -15,7 +15,7 @@
   },
   "invalid_move": {
     "wrong_format": "अमान्य इनपुट प्रारूप. उपयोग: A:5, B:10, C:5",
-    "invalid_field": "Invalid field name(s). Valid fields: {field_names}",
+    "invalid_field": "अमान्य फील्ड नाम। वैध फील्ड: {field_names}",
     "wrong_allocation_value": "सब आवंटन गैर-नकारात्मक पूर्णांक का होना चाहिए.",
     "incorrect_total_units": "आपको ठीक {num_total_units} यूनिट आवंटित करना होगा। वर्तमान योग: {current_sum}",
     "good_allocations": "आवंटन का ठीक से साथ।"

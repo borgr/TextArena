@@ -16,16 +16,16 @@
     "{cards}": "The cards in a pile as neutral labels, or '--' if empty (never translate)"
   },
   "player_prompt": {
-    "intro": "Wo re di Klondike Solitaire. W' botae ne sɛ wobɛkɔ akɔfa nkrataa nyinaa aba fapem no so. Agodie mmara: - Nnyinasoɔ piles (F1-F4): Yɛ nea edi kan fi Ace kɔsi King wɔ suita mu - Tableau piles, T1-T7): yɛ a ɛtɔso mmienu firi red to black na afei nso efi tableau pile foforo bi ho; - Stock: Draw cards to waste pile - Waste (W): top card available for play Akwankyerɛ: 'twe' - Twe kaade afiri stock de kɔ gu waste hɔ - 'sesa <nfidie><nhyease> [count]' - Sesa ma afedie fa apon ntam Mfatoho: 'sese W1', 'sesue T1 F2', 'sesɛ T3 T5 2'. Wobɛtumi aka 'all' nso, ɛno nti ɛrenyɛ yiye sɛ wɔbɛsɔ anim-anim krataa biara ntɛm ara. - Fa wo hyɛmu - Di agoru awieeɛ na twe w' din ahorow si ananmu seesei ara - Pile: W (was), F4-F1-T1, twere pii bɛtumi ayɛ adwuma bere a wode nneɛma bebree adi dwuma ama atotow ahwere wɔn ase - Waster (W) A/A = Workout commandments: Sɛ wobetwa sika baako pɛ na ɛda fam kanea yi akyi a, wubetumi asisi nnwuma afa ɔfoforo biako nkutoo denam asabammɔdi akwantuo so te sɛ wubu kwan a ɛwɔ funu mu."
+    "intro": "Wɔrekyere Klondike Solitaire. W'abrabɔ ne sɛ wɔbɛfa kaad nnyinaa kɔ foundation piles.\n\nMmara a wɔde di dwuma:\n- Foundation piles (F1-F4): Si kaad firi Ace kɔpem King wɔ suit mu\n- Tableau piles (T1-T7): Si kaad so wɔ nkrɔnkrɔn kɔla (kɔkɔɔ wɔ tuntum, tuntum wɔ kɔkɔɔ)\n- Stock: Fa kaad firi stock kɔ waste pile\n- Waste (W): Kaad a ɛwɔ soro pɛ sɛ wɔbɛfa\n\nNkyerɛkyerɛmu:\n- 'draw' - Fa kaad firi stock kɔ waste\n- 'move <source> <destination> [count]' - Fa kaad firi ɔfa kɔ kɔ\n  Nhwehwɛmu: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count nso betumi ayɛ 'all', a wɔbɛpɛ sɛ wɔbɛfa kaad nnyinaa a ɛwɔ anim.\n- 'forfeit' - Bɔ dwumadie no ɛnɛ na wɔkyekyere w'agorɔ a ɛwɔ soro\n- Pile din: W (waste), F1-F4 (foundations), T1-T7 (tableau)\n\nWobɛtumi ayɛ nnwuma pii wɔ kwan baako mu sɛ wɔde comma na ɛkyekyere:\n  Nhwehwɛmu: 'draw, move W T1, move T2 F1'\n\nNkwaadɔm pɛ sɛ wɔbɛsi no wɔ tableau piles a ɛwɔ hɔ.\nNnwuma no bɛyɛ wɔ kwan no - sɛ ɛbaako antumi, a wɔbɛkye nnwuma a aka no.\nFa 'forfeit' sɛ w'adwen ho sɛ dwumadie no nnyɛ hwee sɛ wɔbɛdi nkonim."
   },
   "format_error": {
     "no_brackets": "Akwan a ɛmfata. Ɛsɛ sɛ akwan no yɛ brackets mu.",
     "no_closing_bracket": "Akwan a wɔfa so yɛ adwuma no ho nteɛ. Nkyinkyimfo bracket nni hɔ ']'",
     "empty_command": "Akwankyerɛ a enni mu. Twerɛ 'draw' anaa 'move <source><destination> [count]'.",
     "empty_action": "Akwan a enni mu",
-    "move_needs_args": "Move command hia source ne destination. Usage: 'move <source> <destination> [count]'",
-    "count_positive": "Ɛsɛ sɛ wɔkan no ma ɛyɛ papa anaa \"ɛwɔ mu\" nyinaa.",
-    "count_invalid": "Nnye din. Fa nɔma anaa 'ne nyinaa' di dwuma",
+    "move_needs_args": "Nkyerɛkyerɛmu 'move' hia ɔfa ne kɔ. Sɛdeɛ wɔde di dwuma: 'move <source> <destination> [count]'",
+    "count_positive": "Nsɛm a wɔka no 'count' no, ɛsɛ sɛ ɛyɛ positive anaa 'all'.",
+    "count_invalid": "Nsɛm a wɔka no 'count' no yɛ saa. Sɛ wɔka number anaa 'all'.",
     "unknown_command": "Ɛhɔ nhwɛso '{cmd}'. Di 'draw', 'move <source> <destination> [count]', anaa 'forfeit'",
     "wrapped": "Action {n}: {msg}"
   },
@@ -45,7 +45,7 @@
     "tableau_to_foundation_bad": "Ntumi mfa tableau card nka saa foundation pile no ho",
     "foundation_to_foundation": "Wontumi nkekae mfi fapem kɔ fapem mu.",
     "waste_to_tableau_one_card": "Wobɛtumi ayi krataa baako pɛ afi ɔfasuo mu akɔ tableau so.",
-    "waste_to_tableau_ok": "Moved card from waste to tableau T{dst}",
+    "waste_to_tableau_ok": "Wɔde krataa no firi waste kɔ tableau T{dst} no mu.",
     "waste_to_tableau_bad": "Wontumi mfa kartidie a w'ayi no nto saa tableau pile yi so",
     "no_face_up": "Nkrataa a ɛda fam nni hɔ a ɛsɛ sɛ wɔtwe no.",
     "tableau_to_tableau_ok": "Kɔɔ kɔtɔn {count} firi tableau T{src} kɔɔ T{dst}",

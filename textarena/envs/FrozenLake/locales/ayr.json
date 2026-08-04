@@ -1,9 +1,9 @@
 {
   "player_prompt": {
-    "intro": "Welcome to Frozen Lake!\n\nYou are represented by 'P' on the grid.\nGrid symbols:\n  ' ' = Frozen surface (safe to walk on)\n  'H' = Hole (fall in and lose!)\n  'G' = Goal (reach this to win!)\n  'P' = Your current position\n\nAvailable actions: up, down, left, right (or w, a, s, d)\nType your action as: [up], [down], [left], [right] or [w], [a], [s], [d]\n\nObjective: Navigate from the start (top-left) to the goal (bottom-right) without falling into any holes!\n"
+    "intro": "Kamisaraki Frozen Lake!\n\n'P' uñjasa q'ala tuqi.\nQ'ala sanampuni:\n  ' ' = Ch'ankha p'iqi (samaña purina)\n  'H' = Lluku (k'irana, p'unchaña!)\n  'G' = Q'ullqi (akhampi ch'amana!)\n  'P' = Juk'ampi ch'iqani\n\nAskik'iri k'anachäwi: arka, t'akhsi, kupi, kupan (ukaxa w, a, s, d)\nK'anachäwimpi qillqa: [up], [down], [left], [right] ukaxa [w], [a], [s], [d]\n\nLurañäwi: Q'ala tuqitaki (ark'a kupi) q'ullqiru (kupan t'akhsi) llukuruxa k'irana!"
   },
   "board": {
-    "current_board": "Current Board:\n\n{board}\n\nAvailable Actions: {actions}"
+    "current_board": "Kunan Q'ala:\n\n{board}\n\nPurina K'anachata: {actions}"
   },
   "invalid_move": {
     "wrong_format": "Jan wakichi kamachirinaka. Usaru [up], [down], [left], [right] utjiwa [w], [a], [s], [d].",
@@ -15,7 +15,7 @@
   },
   "outcome": {
     "win": "¡Jach'a jach'añchäwi! Qhipar purintawa.",
-    "fell_in_hole": "You fell into a hole! Game over. You completed {pct}% of the journey to the goal.",
-    "turn_limit": "You reached the turn limit! Game over. You completed {pct}% of the journey to the goal."
+    "fell_in_hole": "Huk'utani k'amaya! Pukllay tukusqa. {pct}% q'aya ukhupi.",
+    "turn_limit": "Turno p'unchäwimpi jilasaxa! P'unchäwi. {pct}% ch'iqawä q'ullqiru purinä."
   }
 }

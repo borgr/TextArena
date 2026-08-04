@@ -16,7 +16,7 @@
   },
   "game_action": {
     "skipped": "Taphattuun {pid} dabaree isaanii irra darbuu qaba ture.",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "Pilaayi {pid} ({piece}) tapha [{r}, {c}] pilaayaa {flipped} walitti qabu"
   },
   "game_message": {
     "must_skip": "Player {pid} ({piece}) golee maltu hin qabu, ስለሆነም ይተዋል."

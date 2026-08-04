@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a match of GameOfPureStrategy.\n- You hold the 13 cards A-K; each can be used once.\n- Each round a prize card is revealed. Play exactly ONE card by writing something that contains a bracketed token like '[Q]', '[10]', '[2]' ...\n- Higher card wins the prize (plus carry-over). Ties roll prize into the pot for next round.\n- Highest total after 13 rounds wins."
+    "intro": "ཁྱེད་ཀྱིས་ GameOfPureStrategy གྱི་འགྲན་བསྡུར་ནང་དུ་མི་སྣ་ {player_id} ཡིན།\n- ཁྱེད་ཀྱིས་ཤོ་མཚུགས་ 13 ཐོགས་ཡོད་པ་དང་། ཤོ་མཚུགས་རེ་རེ་བཞིན་ཐེངས་གཅིག་བེད་སྤྱོད་བྱེད་ཐུབ།\n- འགྲན་བསྡུར་རེ་རེར་བྱ་དགའི་ཤོ་མཚུགས་གསལ་འདོན་བྱེད་ཀྱི་ཡོད། ཤོ་མཚུགས་གཅིག་བེད་སྤྱོད་བྱེད་པར་འབྲི་བའི་ནང་དུ་འདྲ་པར་སྣོད་ཅན་གྱི་ཚིག་གྲུབ་འདྲ་ '[Q]', '[10]', '[2]' ... ཞིག་ཡོད་པ་དགོས།\n- ཤོ་མཚུགས་མཐོ་ཤོས་ཀྱིས་བྱ་དགའ་ཐོབ་ཐུབ། འདྲ་མཉམ་ཡིན་ན་བྱ་དགའ་རྗེས་མའི་འགྲན་བསྡུར་ནང་དུ་བསྐྱར་འཇོག་བྱེད་ཀྱི་ཡོད།\n- 13 འགྲན་བསྡུར་ནང་དུ་བྱས་པའི་འབྲས་བུ་མཐོ་ཤོས་ཀྱིས་རྒྱལ་ཁ་ཐོབ་ཐུབ།"
   },
   "round": {
     "announce": "### ར་བྱུང་{round}/13 - བྱིན་པ་: {prize}  (སྤྱི་{worth})"

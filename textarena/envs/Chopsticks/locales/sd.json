@@ -14,7 +14,7 @@
   },
   "game_action": {
     "attack": "P{player_id} P{opp_id} جي هٿ تي حملو ڪري ٿو {opp_idx}: اهو {opp_val} کان {new_val} تائين وڃي ٿو.",
-    "split": "P{player_id} splits into [{L}, {R}]."
+    "split": "P{player_id} [{L}, {R}] ۾ تقسيم ٿو ڪري."
   },
   "history": {
     "entry": "پي {player_id} {desc}"

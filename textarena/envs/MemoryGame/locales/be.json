@@ -13,8 +13,8 @@
     "already_matched": "Несапраўдны ход. Гулец {player_id} выбраў адну або абедзве карты, якія ўжо былі супастаўлены."
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "Карты, абраныя гульцом {player_id} на пазіцыях [{r1} {c1}] і [{r2} {c2}], супадаюць!",
+    "cards_no_match": "Карты, абраныя гульцом {player_id}, не супадаюць. Карты на пазіцыях [{r1} {c1}] і [{r2} {c2}] — гэта {pos1} і {pos2} адпаведна."
   },
   "outcome": {
     "draw": "Абодва гульца супалі аднолькавую колькасць пар карт.",

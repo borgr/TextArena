@@ -14,7 +14,7 @@
   },
   "game_action": {
     "moved": "Tagata taʻalo {player_id} sa faʻaalu ai lona pese mai {frm} i {to}.",
-    "capture": "{observation} Capturing a piece! (+{score_per_capture})"
+    "capture": "{observation} Ulu mai se piki! (+{score_per_capture})"
   },
   "outcome": {
     "no_pieces": "E leai ni fasi pepa a le tagata taalo {player_id}.",

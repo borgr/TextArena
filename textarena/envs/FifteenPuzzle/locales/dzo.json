@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id}. You are playing the 15-Puzzle game.\nThe objective of the game is to arrange the numbered tiles in ascending order from 1 to 15, with the empty space located in the bottom-right corner.\nTo make a move, you can slide a tile into the empty space (represented by a double underscore, e.g. __) by using one of the following commands:\n- 'up': Move the tile below the empty space up.\n- 'down': Move the tile above the empty space down.\n- 'left': Move the tile to the right of the empty space left.\n- 'right': Move the tile to the left of the empty space right.\nTo submit your move, type the direction (e.g., 'up', 'down', 'left', or 'right') in square brackets, e.g. [up].\nThe current board layout is shown below. Use the information to solve the puzzle.\n"
+    "intro": "ཁྱེད་མི་སྟོང་པ་གཅིག་རེད་{player_id}। ཁྱེད་དགུང་ལོ་ ༡༥ གྱི་རིགས་པའི་གསརཔའི་འགྲན་བསྡུར་བྱེད་བཞིན་པ་རེད།\nགསརཔའི་དགོས་པ་ནི་ ༡ ནས་ ༡༥ བར་གྱི་གྲངས་སྲོལ་གོ་རེད་ལུ་སྟོང་པ་གཅིག་བཞག་དགོ་པ་རེད།\nསྟོང་པ་ནང་ལུ་གྲངས་སྲོལ་གཅིག་སྤོ་བའི་དོན་ལུ་དབང་འདྲ་མི་གཅིག་བདམས་ཏེ་བཞག་དགོ་པ་རེད།\n- 'up': སྟོང་པ་གི་འོག་ལུ་གྲངས་སྲོལ་གཅིག་ཡར་བསྐྱོད་དགོ་པ་རེད།\n- 'down': སྟོང་པ་གི་གོང་ལུ་གྲངས་སྲོལ་གཅིག་མར་བསྐྱོད་དགོ་པ་རེད།\n- 'left': སྟོང་པ་གི་གཡས་ལུ་གྲངས་སྲོལ་གཅིག་གཡོན་ལུ་བསྐྱོད་དགོ་པ་རེད།\n- 'right': སྟོང་པ་གི་གཡོན་ལུ་གྲངས་སྲོལ་གཅིག་གཡས་ལུ་བསྐྱོད་དགོ་པ་རེད།\nཁྱེད་གི་འགྲན་བསྡུར་བསྐྱོད་པའི་དོན་ལུ་བསྐྱོད་པའི་ཁ་གཏད་བདམས་ཏེ་བཞག་དགོ་པ་རེད། དཔེར་ན་བསྐྱོད་པའི་ཁ་གཏད་འདི་ལུ་བཞག་དགོ་པ་རེད། [up] ད་ལྟོ་གསརཔའི་གོ་རེད་དེ་འོག་ལུ་བཀོད་དེ་འདུག། གསརཔའི་གོ་རེད་ལུ་བསྟུན་ཏེ་གསརཔ་འདི་ཐག་ཆོད་པར་བཞག་དགོ་པ་རེད།\n"
   },
   "board": {
     "current_board": "དེང་གི་བོད།:\n\n{board}\nའགྲོ་སྟངས་ཡོད་པ།: {moves}",
@@ -12,6 +12,6 @@
   },
   "outcome": {
     "win": "དགའ་ཚོར་གྱི་གླུ་གཞས་འདི་ རྩེད་འགྲན་པ་ {player_id} གིས་ གྲུབ་འབྲས་ཅན་སྦེ་ རིག་གནས་༡༥་གི་ མགུ་སྐོར་རྐྱབ་མི་འདི་ སེལ་ཚུགས་ནུག",
-    "turn_limit": "The turn limit has been reached. The model completed {percent} percent of the puzzle"
+    "turn_limit": "བསྒྱུར་བའི་ཚད་གྲངས་ལ་སླེབས་པ། མི་སྟག་སྟོང་པ་{percent}བརྒྱ་ཆ་བསྒྲུབ་པ་མཛད་པ།"
   }
 }

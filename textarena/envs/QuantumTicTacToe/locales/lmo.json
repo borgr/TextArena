@@ -1,22 +1,22 @@
 {
   "player_prompt": {
-    "intro": "Sei il Giocatore {player_id} nel Quantum Tic Tac Toe.\nIl tuo simbolo è '{symbol}', e i tuoi numeri di mossa sono sempre {parity} (ad esempio, X1, X3 o O2, O4).\n\nObiettivo: Vincere formando una linea di tre segni classici (solidificati da sovrapposizioni).\n\nCome giocare:\n- In ogni turno, metti un segno spettrale in due quadrati vuoti diversi utilizzando il formato '[a,b]'.\n- Questi segni sono intrecciati e etichettati come 'X1 / X1' o 'O4 / O4'.\n- Non puoi mettere segni spettrali in un quadrato che è già collassato (solidificato).\n\nRegola di collasso:\n- Se la tua mossa crea un ciclo nel grafico di intreccio, si verifica un collasso automatico.\n- Ogni segno spettrale nel ciclo si trasforma in un segno classico in una delle sue due posizioni.\n- Qualsiasi segno spettrale dipendente si verifica anche il collasso.\n\nVittoria:\n- Il gioco termina quando un giocatore ha tre segni classici in linea.\n- Se entrambi i giocatori ottengono una linea durante lo stesso collasso, il giocatore con il numero di mossa massimo più basso vince.\n\nEsempio di mossa: '[0,4]' mette un segno spettrale nelle celle 0 e 4."
+    "intro": "Ti seet Giugador {player_id} in Tic Tac Toe Quantistich.\nEl tò simbol l'è '{symbol}', e i numer de la tò mossa hinn semper {parity} (per esempi, X1, X3 o O2, O4).\n\nObietiv: Vinci formand una linea de tri march classich (solidificaa da superposizion).\n\nComa Giugà:\n- A ogni gir, mett una marca spaventosa in du quadrati divers e voeui doprà el format '[a,b]'.\n- Quest march hinn intrecciaa, e etichettaa 'me 'X1 / X1' o 'O4 / O4'.\n- Ti podet minga mett march spaventos in d'un quadrat che l'è giamò collapsaa (solidificaa).\n\nRegola de Collaps:\n- Se la tò mossa la crea un cicli in del graf de l'intrecci, la collapsa in automatic.\n- Ogni marca spaventosa in del cicli la se trasforma in d'una marca classica in vuna di sò du posizion.\n- I march spaventos dipendent collapsen anca lor.\n\nVittoria:\n- El giugh el finiss quand un giugador el gh'ha tri march classich in fila.\n- Se tucc du giugador ciapen una linea in del collaps istess, el vincitor l'è quell con el numer de mossa pussee bass.\n\nEsempi de mossa: '[0,4]' el mett una marca spaventosa in di cel 0 e 4."
   },
   "board": {
-    "current_board": "Quantum Tic Tac Toe Board:\n\n{board}\n\nInvia la tua mossa come '[a,b]' per mettere un segno quantistico in due posizioni."
+    "current_board": "Tavola de Tic Tac Toe Quantistich:\n\n{board}\n\nMandà la tò mossa 'me '[a,b]' per mett una marca quantistica in du posizion."
   },
   "invalid_move": {
-    "wrong_format": "Format invalid. Use \"[a,b]\".",
-    "invalid_cells": "Invalid o duplicate cell indices.",
+    "wrong_format": "Format minga valid. Dopra '[a,b]'.",
+    "invalid_cells": "Indici de cel minga valid o doppii.",
     "already_solidified": "Una de le cellule l'è già solidificàda."
   },
   "game_action": {
-    "placed": "Giocatore {player_id} ha messo il suo simbolo in una sovrapposizione tra le celle {pos_a} e {pos_b}."
+    "placed": "El Giugador {player_id} l'ha mettuu el sò simbol in d'una superposizion tra i cel {pos_a} e {pos_b}."
   },
   "game_message": {
-    "dependent_resolved": "Sovrapposizione dipendente risolta. La cella ({r}, {c}) è ora {symbol}.",
-    "last_cell_resolved": "Sovrapposizione dell'ultima cella risolta. La cella ({r}, {c}) è ora {symbol}.",
-    "superposition_resolved": "Sovrapposizione risolta. La cella ({r}, {c}) è ora {symbol}."
+    "dependent_resolved": "Superposizion dipendenta resolta. La cel ({r}, {c}) l'è adess {symbol}.",
+    "last_cell_resolved": "Superposizion per l'ultima cel resolta. La cel ({r}, {c}) l'è adess {symbol}.",
+    "superposition_resolved": "Superposizion resolta. La cel ({r}, {c}) l'è adess {symbol}."
   },
   "outcome": {
     "win": "Gioca {player_id} vince con i segni solidificà!",

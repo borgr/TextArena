@@ -14,7 +14,7 @@
   },
   "game_action": {
     "attack": "P{player_id} သည် P{opp_id} ၏လက်ကို တိုက်ခိုက်သည် {opp_idx}: ၎င်းသည် {opp_val} မှ {new_val} သို့သွားသည်။",
-    "split": "P{player_id} splits into [{L}, {R}]."
+    "split": "P{player_id} သည် [{L}, {R}] အဖြစ် ခွဲခြင်း ပြုသည်။"
   },
   "history": {
     "entry": "P{player_id} {desc}"

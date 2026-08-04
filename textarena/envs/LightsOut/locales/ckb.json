@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "چالاکییەکە دۆخێکە لە [row col] شێوەیەک کە رەدی و کۆڵی تێدا پێیەکەیەکانن لە 0 بۆ {max_index}.",
-    "out_of_range": "Coordinates must be between 0 and {max_index}. You entered [{row},{col}]."
+    "out_of_range": "پۆتانەکان دەبێت لە نێوان 0 و {max_index} بن. تۆ [{row},{col}] چوونەتە ناوەوە."
   },
   "outcome": {
     "win": "پێبڕۆ! تۆ پەزڵەکە بە {moves_used} جوڵە بەدەستھێنات!",

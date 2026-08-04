@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "Хувьсгалт хэлбэр олдоогүй. [a1b2], жишээ нь [b2c3] ашиглана.",
-    "illegal": "Move [{move}] is illegal."
+    "illegal": "[{move}] нүүдэл хууль бус."
   },
   "game_action": {
     "moved": "Тоглогч {player_id} хөдөлсөн {move}."
@@ -15,7 +15,7 @@
   "outcome": {
     "red_no_pieces": "Улаан өнгөт нь үлдээгүй.",
     "black_no_pieces": "Хар өнгөт нь ямар ч хувцас үлдээгүй.",
-    "no_moves": "Player {player_id} has no moves left.",
+    "no_moves": "Тоглогч {player_id}-д нүүдэл үлдээгүй.",
     "draw": "Хаалганы хязгаар хүрчээ."
   }
 }

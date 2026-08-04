@@ -14,7 +14,7 @@
     "{scores}": "The final scores as a raw player-number to score mapping - do not translate"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player GOPS.\n- You hold the 13 cards A-K (each exactly once).\n- Each round a prize is revealed. Submit ONE card like `[Q]`, `[10]`, `[2]` …\n- Highest card wins the prize (+ any carry-over pot). Ties roll the prize into the next round.\n- After 13 rounds, highest total wins. Invalid moves = elimination."
+    "intro": "Ir zent Shpiler {player_id} in Drey-Shpiler GOPS.\n- Ir halt di 13 kartn A-K (yedn genoy eyn mol).\n- Yedn runde iz a pris ufgedekt. Git EYN kartn azoy `[Q]`, `[10]`, `[2]` …\n- Di hekhste kartn gewint di pris (+ yedn pot vos iz ibergetragen). Teysn ruln di pris in di nakste runde.\n- Noch 13 rundn, di hekhste total gewint. Ungiltige zogn = eliminatsye."
   },
   "round": {
     "header": "### רונד {round}/13 - פרייז: {prize} (ווערט {worth})",

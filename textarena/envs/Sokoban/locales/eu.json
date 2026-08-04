@@ -12,8 +12,8 @@
     "invalid_position": "Mugimendu ezegokia, ezinezkoa da posizio horretara mugitzea."
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
-    "pushed_prefix": "pushed a box while"
+    "moved": "Zu {pushed} mugitu duzu [{action}].",
+    "pushed_prefix": "kutxa bat bultzatzen duzun bitartean"
   },
   "outcome": {
     "win": "Zorionak, Sokobaneko asmakizuna ebatzi duzu!",

@@ -10,7 +10,7 @@
     "{to}": "The destination coordinate of a move, such as b3"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in game of LinesOfAction.\nYour pieces are '{side}', opponent pieces are '{other}'.\nMove format: `[b1b3]` (from-coord to-coord). A legal move travels horizontally, vertically, or diagonally a number of squares equal to the total pieces (any colour) in that line. You may jump over your own pieces, but not opponent pieces; landing on an opponent captures it.  Win when all your pieces are 8-neighbour connected."
+    "intro": "Doe bès Speler {player_id} in 't spel LinesOfAction.\nDiene sjievele zeen '{side}', de sjievele van diene taegesjtander zeen '{other}'.\nVerplaatsingsformaat: `[b1b3]` (van-coördinaat nao coördinaat). 'ne Geldige zet geit horizontaal, verticaal of diagonaal 'n aontal veldere geliek aan 't totaal aontal sjievele (in eder kleur) op die lien. Doe maogs euver eige sjievele sjpringe, mer neet euver sjievele van diene taegesjtander; lanje op 'ne sjievel van diene taegesjtander pak 'm. Wins wen al diene sjievele 8-naober verbónge zeen."
   },
   "board": {
     "current_board": "Besjtuur: {board}"

@@ -4,11 +4,11 @@
   },
   "round": {
     "start": "─── Starting Round {round} ───\tYin acë free-chat ë thök ë riɛl ku thök aye {conv_rounds} rounds.",
-    "chat_finished": "Chat finished for round {round}. Submit your decisions, one token per opponent: `[pid cooperate]` or `[pid defect]`."
+    "chat_finished": "Chat e ci ee round {round}. Submit yin decisions, one token per opponent: `[pid cooperate]` or `[pid defect]`."
   },
   "results": {
     "header": "### Round {round} - Kä min ci̱ ben raar:",
-    "pair_line": "{observation}\n\t Player {i} vs Player {j} cë lëu bë '{choice_i}' nɛ '{choice_j}' (Player {i} cë lëu {gain_i}, Player {j} cë lëu {gain_j})",
+    "pair_line": "{observation}\n\t ɛlɔ̈ŋ {i} ku ɛlɔ̈ŋ {j} aɣɔ̈ɔ̈ ɣɔ̈n {choice_i} ku {choice_j} ciɛ̈ɛ̈l (ɛlɔ̈ŋ {i} aɣɔ̈ɔ̈ ciɛ̈ɛ̈l {gain_i}, ɛlɔ̈ŋ {j} aɣɔ̈ɔ̈ ciɛ̈ɛ̈l {gain_j})",
     "scores_open": "{observation} -> Kɛn tin ci̱ rɔ̱ la̱t ɛn wa̱lɛ: ",
     "score_first": "{observation}Player {player_id} ({score})",
     "score_next": "{observation}; Player {player_id} ({score})",

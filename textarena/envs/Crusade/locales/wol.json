@@ -1,9 +1,9 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({piece}). Opponent is ({opp}). Submit moves as '[b1 c3]' (from → to). All pieces move like chess knights.\nEach capture scores {score_per_capture} point. Game ends after {max_moves} moves or when a player has no legal move / no pieces. Higher score wins."
+    "intro": "Yaa ngone jàngoro {player_id} ({piece}). Opponent bi mooy ({opp}). Bindal yooni ci '[b1 c3]' (ci → la). Lu ci nekk ci xeex day doxante ni cavalier.\nDox ci beneen dafay def {score_per_capture} poin. Daje bi dafay jeex ci {max_moves} yoon walla bi jàngoro jee xamul yoon bu baax / du xamul pisi. Poin bu kawe moo gane."
   },
   "board": {
-    "current_board": "Move #{move_count}\n\n{board}\n\nAvailable Moves: {moves}"
+    "current_board": "Dox #{move_count}\n\n{board}\n\nYooni ci cosaanu: {moves}"
   },
   "invalid_move": {
     "bad_format": "Jëfandikoo bu baaxul. jëfandikóoy \"[b1 c3]\".",
@@ -14,7 +14,7 @@
   },
   "game_action": {
     "moved": "Jot {player_id} lekkal na koom jaari {frm} ba {to}.",
-    "capture": "{observation} Capturing a piece! (+{score_per_capture})"
+    "capture": "{observation} Nekkoon na pisi! (+{score_per_capture})"
   },
   "outcome": {
     "no_pieces": "Jëfandikukat {player_id} amul ay xët.",

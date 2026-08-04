@@ -11,7 +11,7 @@
     "invalid_button": "Eng ongülteg Knäppchen ass gewielt ginn."
   },
   "game_action": {
-    "pressed": "You pressed the {button} button and received a reward of {reward}."
+    "pressed": "Dir hutt de {button}-Knäpp gedréckt an eng Belounung vun {reward} krut."
   },
   "game_message": {
     "final_decision": "Dir hutt Är Budget fir verschidde Méiglechkeeten ausprobéiert an hir Belounungen observéiert. Maacht elo eng Oftrëtt iwwer wat déi bescht Wiel ass."

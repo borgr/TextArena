@@ -14,11 +14,11 @@
     "{scores}": "The final scores as a raw player-number to score mapping - do not translate"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player GOPS.\n- You hold the 13 cards A-K (each exactly once).\n- Each round a prize is revealed. Submit ONE card like `[Q]`, `[10]`, `[2]` …\n- Highest card wins the prize (+ any carry-over pot). Ties roll the prize into the next round.\n- After 13 rounds, highest total wins. Invalid moves = elimination."
+    "intro": "თქვენ ხართ მოთამაშე {player_id} Three-Player GOPS-ში.\n- თქვენ გაქვთ 13 ბანქო A-K (თითოეული ზუსტად ერთხელ).\n- ყოველ რაუნდში პრიზი გამოვლინდება. გააგზავნეთ ერთი ბანქო, მაგ. `[Q]`, `[10]`, `[2]` …\n- უმაღლესი ბანქო იგებს პრიზს (+ ნებისმიერი გადატანილი ფული). ფრე პრიზს გადატანს შემდეგ რაუნდში.\n- 13 რაუნდის შემდეგ, უმაღლესი ქულა იგებს. არასწორი სვლები = გამოთიშვა."
   },
   "round": {
     "header": "### რაუნდი {round}/13 - პრიზი: {prize} (ღირს {worth})",
-    "hand": "Your remaining hand: {hand}"
+    "hand": "თქვენი დარჩენილი ხელი: {hand}"
   },
   "reveal": {
     "win": "ბილეთები  {bids} - მოთამაშე {winner} იგებს {pot}.",
@@ -33,7 +33,7 @@
     "player": "მოთამაშე {pid} გამორიცხულია არაერთგზის უქმნილმა გადაადგილებებმა."
   },
   "outcome": {
-    "auto_win": "Two players eliminated - automatic win.",
+    "auto_win": "ორი მოთამაშე გამოითიშა - ავტომატური გამარჯვება.",
     "final": "საბოლოო ქულები: {scores}"
   }
 }

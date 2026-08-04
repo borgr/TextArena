@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You will observe {N} hidden values sequentially.\nAt each step type [accept] to pick the *current* value, or [continue] to skip it and see the next one.\nIf you never accept, you are forced to take the final value.\nYou win (reward = 1) **only** if the value you ultimately pick is the highest of all."
+    "intro": "O tla bona {N} maemo a seswantšho ka tatelano.\nKa mokgwa o mongwe le o mongwe, tšea [accept] go kgetha maemo a bjale, goba [continue] go a hlokomologa le go bona ao a latelago.\nGe o sa kgethe, o tla pšuššetšwa go tšea maemo a mafelelo.\nO fenya (mpho = 1) **fela** ge maemo ao o a kgethago ke ao a phagamego ka moka."
   },
   "game_action": {
     "current_value": "Boleng bja gona bjale ke {value}."

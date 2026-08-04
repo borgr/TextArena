@@ -12,7 +12,7 @@
     "invalid_position": "ການເຄື່ອນຍ້າຍທີ່ບໍ່ຖືກຕ້ອງ - ບໍ່ສາມາດເຄື່ອນຍ້າຍໄປທີ່ ຕໍາ ແຫນ່ງ ນັ້ນ."
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
+    "moved": "ທ່ານ {pushed} ເຄື່ອນທີ່ [{action}].",
     "pushed_prefix": "ໄດ້ຊຸກຍູ້ກ່ອງໃນຂະນະທີ່"
   },
   "outcome": {

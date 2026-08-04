@@ -9,7 +9,7 @@
     "progress": "{observation} Joriy natijalar: {progress}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use `[i j op]` where i,j are indices and op is +,-,*,/",
+    "wrong_format": "Noto'g'ri harakat formati. `[i j op]` formatidan foydalaning, bunda i,j indekslar va op +,-,*,/ belgilaridan biri.",
     "invalid_indices": "Noto'g'ri indekslar. Ularni farq qilishi va diapazon 0-{max_index} ichida bo'lishi kerak",
     "invalid_operation": "Notoʻgʻri operatsiya (nolga boʻlish yoki butun son boʻlmagan natija)"
   },

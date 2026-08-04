@@ -13,8 +13,8 @@
     "already_matched": "غیر معتبر حرکت. لوبغاړي {player_id} یو یا دواړه کارتونه غوره کړي چې دمخه یې سمون موندلی وي."
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "د لوبغاړی {player_id} لخوا د [{r1} {c1}] او [{r2} {c2}] په موقعیتونو کې غورځول شوي کارتونه سمون کوي!",
+    "cards_no_match": "د لوبغاړی {player_id} لخوا غورځول شوي کارتونه سمون نه کوي. د [{r1} {c1}] او [{r2} {c2}] په موقعیتونو کې کارتونه په ترتیب سره {pos1} او {pos2} دي."
   },
   "outcome": {
     "draw": "دواړه لوبغاړي د کارتونو د جوړو ورته شمیر سره سمون لري.",

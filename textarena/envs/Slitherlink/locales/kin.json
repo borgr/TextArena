@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing Slitherlink on a {R}x{C} grid!\nDraw a single continuous loop so each numbered cell has that many bordering edges.\nToggle edges with:\n  [h r c] - toggle horizontal edge above dots at row r, column c\n  [v r c] - toggle vertical edge left of dots at row r, column c\nNumbers show required edge count, '.' means no constraint.\nYou have up to {max_turns} moves to solve the puzzle."
+    "intro": "Uri kuzina Slitherlink kuri gridi ya {R}x{C}!\nGawanya umurongo mwinshi w'uruziga kugira ngo kila seli ineneko nambari ina mipaka minga ya nambari hiyo.\nGuhindura mipaka na:\n  [h r c] - guhindura mpaka wa mbere hejuru ya vidoti kuri safu r, safu c\n  [v r c] - guhindura mpaka wa wima kushoto kwa vidoti kuri safu r, safu c\nNambari zerekana nambari ya mipaka inayohitajika, '.' ina maana hakuna kizuizi.\nUfite imyanya ya kuzina kugeza {max_turns} kugira ngo ushobore kutatua puzzle."
   },
   "board": {
     "current_board": "{board}\nInyandiko zishyizwe: {progress}"
@@ -11,6 +11,6 @@
   },
   "outcome": {
     "win": " Mwagize umuzunguruko umwe! Igitekerezo cyakemutse!",
-    "turn_limit": "Move limit reached. Puzzle unfinished."
+    "turn_limit": "Ugeze kikomo cha kuzina. Puzzle itaratowe."
   }
 }

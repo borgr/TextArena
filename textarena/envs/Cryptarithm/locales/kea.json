@@ -9,16 +9,16 @@
     "{pct}": "Progress as a percentage string, e.g. 50%"
   },
   "player_prompt": {
-    "intro": "Map each letter to a unique digit so the arithmetic holds.\nAssign with `[A 5]`, re-assign anytime.\n"
+    "intro": "Atxa ku leta uniku pa uniku algarismu manera ku konta fiksi.\nAsigna ku `[A 5]`, re-asigna ku ki bai.\n"
   },
   "invalid_move": {
-    "wrong_format": "Bad action format. Use `[A 5]`.",
+    "wrong_format": "Aksaun mal formatadu. Uza `[A 5]`.",
     "letter_not_in_puzzle": "Létra {letter} ka sta na puzle.",
     "digit_used": "Djiu {digit} dja uzadu pa {used_letter}.",
     "leading_zero": "Djiferu prinsipal di un palavra ka pode ser 0."
   },
   "outcome": {
-    "correct": "Correct! Equation satisfied.",
+    "correct": "Koretu! Ekuasaun satisfazi.",
     "incorrect": "Mapeamentu sta konpletu, má ekuason é inpurtanti.",
     "limit": "Nu pode muda."
   },

@@ -6,8 +6,8 @@
     "invalid_action": "Format tindakan salah. Gunakan '[roll]' atau '[hold]'."
   },
   "actions": {
-    "player_busted": "Player {player_id} busted, losing {turn_total} points!",
-    "player_hold": "Player {player_id} holds and banks {turn_total} points."
+    "player_busted": "Pemain {player_id} gagal, kahilangan {turn_total} poin!",
+    "player_hold": "Pemain {player_id} manahan dan mambanko {turn_total} poin."
   },
   "board": {
     "player": "Pamain 0: '{score_0}'; Pamain 1: '{score_1}'",

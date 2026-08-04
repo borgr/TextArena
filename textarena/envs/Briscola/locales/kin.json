@@ -52,6 +52,6 @@
   },
   "outcome": {
     "head": "Umukino waratangiye! Umukinnyi {winner} ashinge na {points} pointi!\n\nAmashusho yanyuma:\n{scores}",
-    "player_line": "Player {player_id}: {points} points ({tricks} tricks)\n"
+    "player_line": "Umukinnyi {player_id}: amanota {points} ({tricks} ibitangaza)\n"
   }
 }

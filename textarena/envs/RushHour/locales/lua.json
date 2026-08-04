@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing a {difficulty} RushHour puzzle. Slide cars to free the red car [X] and drive it out the right edge.\nActions: [A+], [B-], etc.  (+ = forward, - = backward)."
+    "intro": "Owe uli na kubala {difficulty} RushHour. Sungula mabalenge ya kutambulisha masemo ya motoka ya mbwaki [X] na kuyikimbisa kwa kubala kwa kulia.\nMikimbio: [A+], [B-], n.k. (+ = kwenda mbele, - = kwenda nyuma)."
   },
   "invalid_move": {
     "wrong_format": "Lisalo lya maboko. Ita na muundo [A+] / [B-].",

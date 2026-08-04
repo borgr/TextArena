@@ -4,7 +4,7 @@
   },
   "board": {
     "current_board": "Bodi laposachedwa: {board}",
-    "current_game_board": "Panopa Game Board: {board}"
+    "current_game_board": "Bawo la Game la pano:\n{board}"
   },
   "invalid_move": {
     "wrong_format": "Mawonekedwe olakwika. Wosewera {player_id} sanayankhe ndi malangizo olondola m'mapaketi a mabwalo.",
@@ -13,13 +13,13 @@
     "already_matched": "Kusuntha kosaloledwa. Wosewera {player_id} anasankha khadi limodzi kapena onse awiri omwe agwirizanitsidwa kale."
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "Kalata zosankhidwa ndi Player {player_id} pa malo a [{r1} {c1}] ndi [{r2} {c2}] zikafanana!",
+    "cards_no_match": "Kalata zosankhidwa ndi Player {player_id} sizikafanana. Kalata pa malo a [{r1} {c1}] ndi [{r2} {c2}] ndi {pos1} ndi {pos2} mtawali."
   },
   "outcome": {
     "draw": "Osewera onse aŵiriwo anafanana makadi a m'magulu ofanana.",
     "win": "Wosewera {winner_id} wapambana!",
-    "turn_limit": "Mipando ya turn imerekebwa. Game imatola. Player 0 ina {score_0} pointi, Player 1 ina {score_1} pointi.",
+    "turn_limit": "Mpaka wa zunguliro zinazowezekana tayari wafikidwa.  Msewero uwu watha. Mchezaji 0 anapata alama {score_0}, Mchezaji 1 anapata alama {score_1}.",
     "turn_limit_win": "{reason} Player {winner_id} wamene!"
   }
 }

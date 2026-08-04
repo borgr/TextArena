@@ -16,16 +16,16 @@
     "{cards}": "The cards in a pile as neutral labels, or '--' if empty (never translate)"
   },
   "player_prompt": {
-    "intro": "You are playing Klondike Solitaire. Your goal is to move all cards to the foundation piles.\n\nGame Rules:\n- Foundation piles (F1-F4): Build up from Ace to King in suit\n- Tableau piles (T1-T7): Build down alternating colors (red on black, black on red)\n- Stock: Draw cards to waste pile\n- Waste (W): Top card available for play\n\nCommands:\n- 'draw' - Draw cards from stock to waste\n- 'move <source> <destination> [count]' - Move cards between piles\n  Examples: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count can also be 'all', which will try to move all face-up cards.\n- 'forfeit' - End the game immediately and lock in your current score\n- Pile names: W (waste), F1-F4 (foundations), T1-T7 (tableau)\n\nYou can execute multiple actions in one turn by separating them with commas:\n  Example: 'draw, move W T1, move T2 F1'\n\nOnly Kings can be placed on empty tableau piles.\nActions execute in order - if one fails, the remaining actions are skipped.\nUse 'forfeit' if you believe the game is impossible to win."
+    "intro": "Ove uya taka Klondike Solitaire. Ombeto yawe ni ya kwamba ovike kadi zose ku mizungu ya msingi.\n\nMilinganyo ya Mchezo:\n- Mizungu ya msingi (F1-F4): Jenga juu kutoka Ace hadi Mfalme katika suti\n- Mizungu ya meza (T1-T7): Jenga chini kwa kubadilisha rangi (nyekundu juu ya nyeusi, nyeusi juu ya nyekundu)\n- Hisa: Chora kadi hadi mizungu ya taka\n- Taka (W): Kadi ya juu inapatikana kwa mchezo\n\nMaagizo:\n- 'draw' - Chora kadi kutoka hisa hadi taka\n- 'move <source> <destination> [count]' - Hamisha kadi kati ya mizungu\n  Mifano: 'move W T1', 'move T1 F2', 'move T3 T5 2'. idadi inaweza pia kuwa 'all', ambayo itajaribu kuhamisha kadi zote zilizo wazi.\n- 'forfeit' - Maliza mchezo mara moja na ufunge alama yako ya sasa\n- Majina ya mizungu: W (taka), F1-F4 (msingi), T1-T7 (meza)\n\nUnaweza kutekeleza vitendo vingi katika zamu moja kwa kuvitenganisha na virambo:\n  Mfano: 'draw, move W T1, move T2 F1'\n\nMfalme pekee anaweza kuwekwa kwenye mizungu ya meza tupu.\nVitendo vinavyotendwa kwa mpangilio - ikiwa kimoja kinafeli, vitendo vilivyobaki vitapuuzwa.\nTumia 'forfeit' ikiwa unaamini mchezo hauwezekani kushinda."
   },
   "format_error": {
     "no_brackets": "Ocina caco ci kasi vocipakulo.",
     "no_closing_bracket": "Ocinimbu caco ka ci kuete esilivilo. Ka kuli ondimbukiso ']'",
     "empty_command": "Ocikundi ka ci kuete esapulo. soneha \"draw\" ale \"move <source><destination> [count]\".",
     "empty_action": "Oku Yuvula Ovina ka vi Kuete Esilivilo",
-    "move_needs_args": "Move command requires source and destination. Usage: 'move <source> <destination> [count]'",
-    "count_positive": "Atendelo aco a sukila oku kala \"a sunguluka\" ale \"ocili\".",
-    "count_invalid": "Invalid count. Use a number or 'all'",
+    "move_needs_args": "Agizo la kuhamisha linahitaji chanzo na lengo. Matumizi: 'move <source> <destination> [count]'",
+    "count_positive": "Idadi lazima iwe chanya au 'all'",
+    "count_invalid": "Idadi batili. Tumia nambari au 'all'",
     "unknown_command": "Kulaya esizwi '{cmd}'. Utumie 'draw', 'move <chikweti> <chilatu> [count]', or 'forfeit'",
     "wrapped": "Ekintu {n}: {msg}"
   },
@@ -35,9 +35,9 @@
     "failed": "Ekintu {n} kaili: {msg}"
   },
   "move_result": {
-    "drew": "Drew card(s) from stock to waste.",
+    "drew": "Kadi imechorwa kutoka hisa hadi taka.",
     "cannot_draw": "Ovikũla viosi via nyõleha, ka vi kuete vali esilivilo.",
-    "invalid_pile": "Invalid pile name. Use W, F1-F4, or T1-T7",
+    "invalid_pile": "Jina la mzunguko batili. Tumia W, F1-F4, au T1-T7",
     "foundation_one_card": "O pondola lika oku kapa okalivulu kamosi vonumbi yaco yo Internet.",
     "waste_to_foundation_ok": "Oku upa ocikasia caco vovinene oco o ci kape vocimano F{dst}",
     "waste_to_foundation_bad": "O pondola oku kapa o kombutador vo computador yove oco yi ku kuatise oku kuata elomboloko liovina wa tanga.",
@@ -64,7 +64,7 @@
   "board": {
     "title": "=== Ocipepi Lomunda ya Velapo yo Afrika===",
     "turn": "Nkuluntu: {turn}/{max_turns}",
-    "stock": "[0] Olopapelo viuvangi: {stock}",
+    "stock": "Hisa: {stock} kadi",
     "waste": "Ocimbaluku (W): {waste}",
     "foundations_header": "Ocisoko Coku Tata Akundi Votembo Yosi:",
     "foundation_row": "F{n}: {cards}",

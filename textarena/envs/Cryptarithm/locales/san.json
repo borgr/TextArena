@@ -9,12 +9,12 @@
     "{pct}": "Progress as a percentage string, e.g. 50%"
   },
   "player_prompt": {
-    "intro": "Map each letter to a unique digit so the arithmetic holds.\nAssign with `[A 5]`, re-assign anytime.\n"
+    "intro": "प्रत्येक अक्षर को एक अद्वितीय अंक के साथ मैप करें ताकि गणित संतुष्ट हो।\n `[A 5]` के साथ असाइन करें, कभी भी पुनः असाइन करें।\n"
   },
   "invalid_move": {
-    "wrong_format": "Bad action format. Use `[A 5]`.",
+    "wrong_format": "खराब क्रिया प्रारूप। `[A 5]` का उपयोग करें।",
     "letter_not_in_puzzle": "अक्षरः {letter} पहेलिये नास्ति।",
-    "digit_used": "Digit {digit} already used by {used_letter}.",
+    "digit_used": "अंक {digit} पहले से ही {used_letter} द्वारा उपयोग किया जा रहा है।",
     "leading_zero": "शब्दस्य अग्रणीः अङ्कः शून्यं न भवितुम् अर्हति।"
   },
   "outcome": {

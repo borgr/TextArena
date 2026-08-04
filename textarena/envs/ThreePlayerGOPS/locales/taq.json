@@ -14,15 +14,15 @@
     "{scores}": "The final scores as a raw player-number to score mapping - do not translate"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player GOPS.\n- You hold the 13 cards A-K (each exactly once).\n- Each round a prize is revealed. Submit ONE card like `[Q]`, `[10]`, `[2]` …\n- Highest card wins the prize (+ any carry-over pot). Ties roll the prize into the next round.\n- After 13 rounds, highest total wins. Invalid moves = elimination."
+    "intro": "Keddaɣ wammak {player_id} di Three-Player GOPS.\n- Keddaɣ 13 n tkart A-K (yiwet n tikkelt).\n- Di kila turart, azufa n tkart n lukan. Sumer tkart amzun `[Q]`, `[10]`, `[2]` …\n- Tkart n wammak i yernan lukan (+ wakal n lukan). Tifinagh n wammak i yernan lukan, lukan yuɣal di turart n ddaw.\n- Di 13 n turart, wammak i yernan wakal n lukan i yernan. Tifinagh n wammak ur yernin = tukksa."
   },
   "round": {
     "header": "### Awen {round}/13 - Tazwara: {prize} (aqeddec {worth})",
     "hand": "ⵜⴰⵛⴰⵗⵉⵍⵜ ⵏⴻⴾ ⵓⵉ ⵉⴰⴷⵏⴻⵏ: {hand}"
   },
   "reveal": {
-    "win": "Bids » {bids} - Player {winner} wins {pot}.",
-    "tie": "Bids » {bids} - tie, pot now {pot}.",
+    "win": "Tifinagh » {bids} - Wammak {winner} i yernan {pot}.",
+    "tie": "Tifinagh » {bids} - tifinagh, wakal n lukan {pot}.",
     "scores": "ⵜⵉⴼⵔⴰⵙ → {scoreline}"
   },
   "invalid_move": {

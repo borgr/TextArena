@@ -10,7 +10,7 @@
     "{to}": "The destination coordinate of a move, such as b3"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in game of LinesOfAction.\nYour pieces are '{side}', opponent pieces are '{other}'.\nMove format: `[b1b3]` (from-coord to-coord). A legal move travels horizontally, vertically, or diagonally a number of squares equal to the total pieces (any colour) in that line. You may jump over your own pieces, but not opponent pieces; landing on an opponent captures it.  Win when all your pieces are 8-neighbour connected."
+    "intro": "LinesOfAction oyununda Oyuncu {player_id}'siniz.\nParçalarınız '{side}', rakip parçaları '{other}'.\nHamle formatı: `[b1b3]` (başlangıç koordinatı-bitiş koordinatı). Yasal bir hamle, o çizgideki toplam parçalara (herhangi bir renk) eşit sayıda kareyi yatay, dikey veya çapraz olarak geçer. Kendi parçalarınızın üzerinden atlayabilirsiniz, ancak rakip parçalarının üzerinden atlayamazsınız; rakip parçalarına iniş, onu yakalar. Tüm parçalarınız 8-komşu bağlı olduğunda kazanır."
   },
   "board": {
     "current_board": "Tahta: {board}"

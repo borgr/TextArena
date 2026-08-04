@@ -8,7 +8,7 @@
   "invalid_move": {
     "wrong_format": "Жарамсыз жылжыту пішімі. '[cell]' дегенді пайдаланыңыз.",
     "invalid_cell": "Жасалма ұяшық индексі.",
-    "already_occupied": "Cell {cell} is already occupied."
+    "already_occupied": "{cell} жасушасы бос емес."
   },
   "game_action": {
     "placed": "Ойыншы {player_id} өз белгісін ({symbol}) {cell} ұяшығына орналастырды."

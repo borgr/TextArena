@@ -22,7 +22,7 @@
     "final_ranking": "list of player indices from first eliminated to winner"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in an {num_players}-player Liar's Dice game.\nRules:\n- On your turn, you may either:\n  1) Make a new bid with a higher quantity or higher face (or both) than the current bid; i.e. '[Bid: 3, 4]',\n  2) Call the last bid by typing '[Call]'.\n\nIf you call:\n  - If the actual count of that face value among all dice is less than the bid, the last bidder loses one die.\n  - Otherwise, the caller loses one die.\nA player who reaches 0 dice is eliminated. The last remaining player wins."
+    "intro": "Nang {player_id} kaw Liar's Dice kaw shi kaw mi {num_players} kaw shi kaw mi hta.\nTaw dan:\n- Nang hta na kaw, nang hta na:\n  1) Shi kaw mi hta taw kaw shi taw kaw hta [Bid: 3, 4] taw,\n  2) Shi kaw mi hta taw kaw shi taw kaw hta '[Call]' taw.\n\nNang [Call] taw:\n  - Shi kaw mi hta taw kaw shi taw kaw hta kaw shi taw kaw hta kaw na kaw re kaw hta kaw shi taw kaw hta kaw hti kaw kaw, shi kaw mi hta taw kaw shi taw kaw hta kaw hti kaw kaw.\n  - Shi kaw mi hta taw kaw shi taw kaw hta kaw shi taw kaw hta kaw na kaw re kaw hta kaw shi taw kaw hta kaw hti kaw kaw, nang hta kaw shi taw kaw hta kaw hti kaw kaw.\nShi kaw mi hta taw kaw shi taw kaw hta kaw hti kaw kaw kaw 0 hta na kaw re kaw hta kaw shi taw kaw hta kaw hti kaw kaw, shi kaw mi hta taw kaw shi taw kaw hta kaw hti kaw kaw kaw."
   },
   "board": {
     "per_player": "\tPlayer {p}: {d}",
@@ -38,7 +38,7 @@
   "invalid_move": {
     "call_no_bid": "Shawng nnan e n jaw ai sha shaga dat ai.",
     "invalid_bid": "N jaw ai bid: {reason}",
-    "not_recognized": "Action not recognized as either a valid '[Bid: X, Y]' or '[Call]'. Submitted action: {action}"
+    "not_recognized": "{action} kaw shi kaw mi hta taw kaw shi taw kaw hta [Bid: X, Y] kaw shi kaw mi hta taw kaw shi taw kaw hta '[Call]' kaw shi kaw mi hta taw kaw shi taw kaw hta."
   },
   "bid_reason": {
     "quantity_lower": "New quantity {new_quantity} hpe tsang sha ai {current_quantity}.",
@@ -50,6 +50,6 @@
     "eliminated_invalid": "Player {player_id} gaw n htuk ai shamu shamawt lam hte pru mat wa sai."
   },
   "outcome": {
-    "win": "Player {winner} wins! Final ranking: {final_ranking}"
+    "win": "Shi kaw mi {winner} kaw shi kaw mi hta taw kaw shi taw kaw hta! Shi kaw mi hta taw kaw shi taw kaw hta kaw hti kaw kaw {final_ranking}"
   }
 }

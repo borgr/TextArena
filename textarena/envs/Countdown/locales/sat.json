@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing Countdown numbers game!\nGoal: Combine numbers using +, -, *, / to reach the target.\nAction format: [i j op] where i,j are indices and op is the operation.\nExample: [0 2 *] multiplies number at index 0 with number at index 2.\nDivision must result in whole numbers only."
+    "intro": "ᱟᱢᱮ ᱠᱟᱣᱩᱱᱴᱰᱟᱣᱩᱱ ᱮᱞ ᱠᱷᱮᱞ ᱠᱷᱮᱞᱚᱜ ᱠᱟᱱᱟ!\nᱡᱚᱥ: +, -, *, / ᱵᱮᱵᱷᱟᱨ ᱠᱟᱛᱮ ᱮᱞ ᱢᱮᱥᱟᱭ ᱟᱨ ᱞᱟᱹᱠᱛᱤᱭᱟᱱ ᱮᱞ ᱧᱟᱢ ᱞᱟᱹᱜᱤᱫ.\nᱠᱟᱹᱢᱤ ᱨᱩᱯ: [i j op] ᱡᱟᱦᱟᱸ i,j ᱫᱚ ᱤᱱᱰᱮᱠᱥ ᱟᱨ op ᱫᱚ ᱚᱯᱨᱮᱥᱚᱱ.\nᱫᱟᱹᱭᱠᱟᱹ: [0 2 *] ᱤᱱᱰᱮᱠᱥ 0 ᱨᱮᱱᱟᱜ ᱮᱞ ᱤᱱᱰᱮᱠᱥ 2 ᱨᱮᱱᱟᱜ ᱮᱞ ᱥᱟᱶ ᱜᱩᱱ ᱞᱮᱠᱷᱟᱭ.\nᱦᱟᱴᱟᱜ ᱦᱩᱭᱩᱜ ᱞᱟᱹᱜᱤᱫ ᱯᱩᱨᱟᱹ ᱮᱞ ᱜᱮ ᱧᱟᱢᱚᱜ ᱞᱟᱹᱠᱛᱤ."
   },
   "board": {
     "header": "ᱞᱟᱠᱪᱤ: {target}\n\nᱮᱢ ᱟᱠᱟᱱ ᱮᱞᱠᱚ:\n{numbers}",
@@ -9,7 +9,7 @@
     "progress": "{observation}\nᱱᱤᱛ ᱩᱱᱩᱫᱩᱜ ᱟᱨᱡᱟᱣ: {progress}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use `[i j op]` where i,j are indices and op is +,-,*,/",
+    "wrong_format": "ᱵᱟᱹᱲᱤᱡ ᱠᱟᱹᱢᱤ ᱨᱩᱯ. `[i j op]` ᱵᱮᱵᱷᱟᱨ ᱠᱟᱹᱢᱤ ᱡᱟᱦᱟᱸ i,j ᱫᱚ ᱤᱱᱰᱮᱠᱥ ᱟᱨ op ᱫᱚ +,-,*,/",
     "invalid_indices": "ᱵᱟᱹᱞᱤ ᱤᱱᱰᱮᱠᱥ ᱾ ᱮᱴᱟᱜ ᱞᱮᱠᱟᱱ ᱦᱩᱭᱩᱜ ᱞᱟᱹᱠᱛᱤ ᱟᱨ 0-{max_index} ᱛᱷᱚᱠ ᱨᱮ ᱛᱟᱦᱮᱸᱱᱟ",
     "invalid_operation": "ᱵᱟᱹᱞᱤ ᱠᱟᱹᱢᱤ (ᱡᱚᱨᱚ ᱛᱮ ᱦᱟᱴᱤᱧ ᱥᱮ ᱵᱟᱝ-ᱯᱷᱮᱨᱟᱣ ᱟᱹᱭᱫᱟᱹᱨ)"
   },

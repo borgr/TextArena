@@ -10,7 +10,7 @@
     "unknown_square": "سكوير مجهول.",
     "not_your_piece": "مصدره ما يخصكش.",
     "dest_not_empty": "الوجهة ما تخليتش فارغة.",
-    "illegal": "Illegal move."
+    "illegal": "حركة غير قانونية."
   },
   "game_action": {
     "captured": "اللاعب {player_id} أسر قطعة! (+{score_per_capture})"

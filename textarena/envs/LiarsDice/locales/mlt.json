@@ -26,7 +26,7 @@
   },
   "board": {
     "per_player": "\tPlayer {p}: {d}",
-    "new_round": "\nNew round - Remaining dice: {dice_summary}\nYour current Dice are: {your_dice}"
+    "new_round": "\nRawnd ġdid - Dadi li baqgħu: {dice_summary}\nId-dadi tiegħek attwali huma: {your_dice}"
   },
   "call": {
     "bidder_loses": "Player {current_player_id} jsejjaħ! Il-kont attwali tal-faċċ {face_value} huwa {count}, li huwa INQAS minn {quantity}.\nPlayer {loser_id} (l-aħħar li joffri) tilef die waħda.",

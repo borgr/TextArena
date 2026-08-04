@@ -12,7 +12,7 @@
     "invalid_position": "අක් රීය පියවරක් - ඒ තත්වයට යන්න බෑ."
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
+    "moved": "ඔබ {pushed} [{action}] ගමන් කළා.",
     "pushed_prefix": "පෙට්ටියක් තල්ලු කළා"
   },
   "outcome": {

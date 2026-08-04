@@ -4,7 +4,7 @@
   },
   "board": {
     "current_board": "Boto ya ga jaana: {board}",
-    "current_game_board": "Current Game Board: {board}"
+    "current_game_board": "Bodibe jo bo tshamekiwang gompieno:\n{board}"
   },
   "invalid_move": {
     "wrong_format": "Mokgweleo o sa amogelesegang. Motshameki {player_id} ga a araba ka tsela e e siameng mo dikholomong tse di sekwere.",
@@ -13,8 +13,8 @@
     "already_matched": "Motshameki {player_id} o tlhophile karata e le nngwe kgotsa ka bobedi tse di setseng di bapisitswe."
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "Dikarata tse tlhophiwang ke Player {player_id} kwa maemo a [{r1} {c1}] le [{r2} {c2}] di tshwana!",
+    "cards_no_match": "Dikarata tse tlhophiwang ke Player {player_id} ga di tshwane. Dikarata kwa maemo a [{r1} {c1}] le [{r2} {c2}] di le {pos1} le {pos2} ka go latelana."
   },
   "outcome": {
     "draw": "Badiri ka bobedi ba ne ba tshwere palo e le nngwe ya dikarata.",

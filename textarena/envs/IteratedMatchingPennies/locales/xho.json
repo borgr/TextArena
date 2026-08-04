@@ -6,7 +6,7 @@
     "wrong_format": "Isihloko esingewafa; nceda faka '[heads]' noma '[tails]'."
   },
   "message": {
-    "round_match": "Player 0 picked {choice0}; Player 1 picked {choice1}. Match -> Player 0 wins",
+    "round_match": "uMdlali 0 ukhethile {choice0}; uMdlali 1 ukhethile {choice1}. Ukulingana -> uMdlali 0 uthathe",
     "round_mismatch": "Mdlali 0 wakhetha '{choice0}'; Mdlali 1 wakhetha '{choice1}'. Mismatch -> Mdlali 1 uyaphumelela."
   },
   "outcome": {

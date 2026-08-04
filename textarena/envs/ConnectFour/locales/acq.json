@@ -9,7 +9,7 @@
   "invalid_move": {
     "wrong_format": "اللاعب {player_id}، صيغة الإجراء غير صالحة. الصيغة المتوقعة: '[col x]'.",
     "out_of_range": "اللاعب {player_id}، إجراء غير صالح. العمود {col} خارج الحدود.",
-    "already_full": "Player {player_id}, Invalid action. Column {col} is full."
+    "already_full": "اللاعب {player_id}، إجراء غير صالح. العمود {col} ممتلئ."
   },
   "action": {
     "dropped_disk": "اللاعب {player_id} ألقى قرصه ({player_symbol}) في العمود {col}."

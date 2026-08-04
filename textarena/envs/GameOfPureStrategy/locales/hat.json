@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a match of GameOfPureStrategy.\n- You hold the 13 cards A-K; each can be used once.\n- Each round a prize card is revealed. Play exactly ONE card by writing something that contains a bracketed token like '[Q]', '[10]', '[2]' ...\n- Higher card wins the prize (plus carry-over). Ties roll prize into the pot for next round.\n- Highest total after 13 rounds wins."
+    "intro": "Ou se Jwè {player_id} nan yon match GameOfPureStrategy.\n- Ou kenbe 13 kat A-K; chak ka itilize yon fwa.\n- Chak tou yon kat pri yo revele. Jwe eksakteman YON kat lè ou ekri yon bagay ki genyen yon token an bwaket tankou '[Q]', '[10]', '[2]' ...\n- Pi wo kat la genyen pri a (plis pote-kay). Match nul woule pri nan pot la pou pwochen tou.\n- Pi wo total apre 13 tou genyen."
   },
   "round": {
     "announce": "### Tou {round}/13 - Pri: {prize}  (vale {worth})"

@@ -3,12 +3,12 @@
     "intro": "Kamuyki pukaraq {player_id} Connect Fourpi.\nTukay disk simbulu: {symbol}.\nJuego tablakuqa {num_rows} uraykunayas {num_cols} columnakunayuq.\nPukarakuna p'unchaykunallam diskninta columnakunaman (0 kanan {end_col}) uraykuchkanku.\nWak p'unchay ñawpaqkuna (ninpakuna) tawa diskkunata verticalman, horizontalman, diagonalmanchasqanku atinku.\nNinpakam p'unchaykikuna, columnata numero sqala bracketkunapi ukhupi ruwayta ruwaykikikuna.\nSapaq example: '[col 4]' icha '[col 1]'."
   },
   "board": {
-    "board_visible_state": "Estado de la Junta: {board_visual}",
+    "board_visible_state": "Pukllay p'ukllaylla rikukunan:\n{board_visual}",
     "board_notvisible_state": "Chaypi juñukuqkunaqa mana rikukunkuchu."
   },
   "invalid_move": {
     "wrong_format": "Pukaraq {player_id}, Invalidu ruway formatu. Esperasqa formatu: '[col x]'.",
-    "out_of_range": "Player {player_id}, Invalid action. Column {col} is out of bounds.",
+    "out_of_range": "Player {player_id}, Mana allin t'ikray. Wak'a {col}qa p'ukllay p'ukllayllapita hawam.",
     "already_full": "Pukaraq {player_id}, Invalidu ruway. Columna {col} tukupmi."
   },
   "action": {

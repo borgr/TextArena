@@ -11,21 +11,21 @@
     "{ball_pos}": "The cup index the ball is under"
   },
   "player_prompt": {
-    "intro": "Track the hidden ball 'X' while the cups are shuffled.\nAfter shuffling, guess its location with `[k]`."
+    "intro": "Landula ombala ya kufwa 'X' pamwe na makopo a kupelekwa.\nOvakopo vakupelekwa, tala nge ombala iyi na `[k]`."
   },
   "game_message": {
     "ball_starts": "Oku imba ocela: {line}",
-    "shuffle": "Shuffle {step}/{steps}: swapped cups {i} and {j}.",
+    "shuffle": "Kupeleka {step}/{steps}: makopo a {i} na {j} avakusokela.",
     "cups": "Tikwata: {line}  {prompt}",
     "guess_now": "(Tala vorevista ociluvialuvia caco.)",
     "reveal": "(Olondaka vielivulu: \"Bola\" vi sangiwa vemẽhi liemẽla lia {ball_pos})"
   },
   "invalid_move": {
-    "wrong_format": "Bad action. Use `[k]`.",
-    "out_of_range": "Index out of range 0-{max_index}."
+    "wrong_format": "Ovita vya kufwala. Tala `[k]`.",
+    "out_of_range": "Ineksi ya kupeleka 0-{max_index}."
   },
   "outcome": {
     "win": "Ocili okuti, ove wa sanga omapalo.",
-    "lose": "Wrong — ball was under cup {ball_pos}."
+    "lose": "Kufwala — ombala ya kufwa yali ku makopo {ball_pos}."
   }
 }

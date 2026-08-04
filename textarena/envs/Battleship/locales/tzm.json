@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id}. You are playing the Battleship game.\nYour goal is to sink all of your opponent's ships before they sink yours.\nOn your turn, you can fire missiles at specific coordinates in teh following format: '[a4]'. If the missile hits a ship, it is marked with 'X'. If it misses, it is marked with 'O'. In either scenarios, the game environment will inform you of your hits. If you have sunk a boat, the game environment will tell you!\nThe game ends when all of one player's ships have been sunk.\nYour initial board will show all of your ships placed and your opponent's hits on you, and your hits and misses on your opponent's board without showing your opponent's ships.\nHere is the initial board:\n"
+    "intro": "Kemmi d amarir {player_id}. Kemmi d tukksa tamyarut n Battleship.\nTigzi d immaɣ asenɣed n yimruḍen n umsasaɣ-ik ɣef uɣalen nsenɣed n yimruḍen-ik.\nDi tawmirt-ik, zemreɣ a tɣaṭṭeḍ timsisiwin ɣef yikurunin yimanin s azant wakka: '[a4]'. Ma timsisit tɣaṭṭeḍ tamacint, tettemɣer s 'X'. Ma tɣaṭṭeḍ, tettemɣer s 'O'. Di yimruḍen yimɣaren, aneɣruḍ n wurar ad ikemmel-ik imɣaren-ik. Ma tesɣaṭṭeḍ tamacint, aneɣruḍ n wurar ad ikemmel-ik!\nWurar ad iggur sɣuru yimruḍen n yan amarir igguren.\nAneɣruḍ amenzu n wurar ad ikemmel-ik yimruḍen-ik yimɣaren d yimruḍen n umsasaɣ-ik ɣef ik, d yimɣaren-ik d yimɣaren n umsasaɣ-ik ɣef aneɣruḍ n umsasaɣ-ik war asenɣed n yimruḍen n umsasaɣ-ik.\nHa aneɣruḍ amenzu n wurar:\n"
   },
   "invalid_move": {
     "wrong_format": "ⵓⵔ ⵢⵔⴰⵔ ⵓⵎⵓⵔⴰⵔ ⵙ ⵢⴰⵜ ⵜⴽⵓⵕⴹⵉⴼⵜ ⵉⵣⴷⵉⴳⵏ ⴳ ⵉⵛⴳⴳⵡⴰⵖⵏ ⵉⵎⴽⴽⴰⵍⵓⵏ.",
@@ -8,12 +8,12 @@
     "already_fired": "ⵜⵍⵍⴰ ⵜⵎⵖⵔⴰ {coord} ⵖⴼⵙ."
   },
   "game_action": {
-    "you_sunk": "Sunk! You sunk a ship at {coord}! Your updated board:\n{view}",
-    "opp_sunk": "Opponent sunk your ship at {coord}! Your updated board:\n{view}",
-    "you_hit": "Hit! You hit a ship at {coord}! Your updated board:\n{view}",
-    "opp_hit": "Opponent hit your ship at {coord}! Your updated board:\n{view}",
-    "you_miss": "Miss! You missed the ship at {coord}! Your updated board:\n{view}",
-    "opp_miss": "Opponent missed your ship at {coord}! Your updated board:\n{view}"
+    "you_sunk": "Iɣer! Tesɣaṭṭeḍ tamacint ɣef {coord}! Aneɣruḍ n wurar amaynu:\n{view}",
+    "opp_sunk": "Amsasaɣ-ik ɣef tamacint-ik ɣef {coord}! Aneɣruḍ n wurar amaynu:\n{view}",
+    "you_hit": "Iɣaṭṭeḍ! Tesɣaṭṭeḍ tamacint ɣef {coord}! Aneɣruḍ n wurar amaynu:\n{view}",
+    "opp_hit": "Amsasaɣ-ik ɣef tamacint-ik ɣef {coord}! Aneɣruḍ n wurar amaynu:\n{view}",
+    "you_miss": "Ur iɣaṭṭeḍ! Ur tesɣaṭṭeḍ tamacint ɣef {coord}! Aneɣruḍ n wurar amaynu:\n{view}",
+    "opp_miss": "Amsasaɣ-ik ur ɣef tamacint-ik ɣef {coord}! Aneɣruḍ n wurar amaynu:\n{view}"
   },
   "outcome": {
     "win": "ⵓⵎⵓⵔⴰⵔ {player_id} ⵢⵓⵡⵉ ⴰⴽⴽⵡ ⵏ ⵜⴱⵔⴰⵜⵜⵉⵏ ⵏⵏⵙⵏⵜ!"

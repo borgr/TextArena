@@ -7,7 +7,7 @@
     "out_of_range": "Gufata umwanzuro ugomba kuba uri hagati ya {min_guess} na {max_guess}."
   },
   "message": {
-    "round_guesses": "Player 0 guessed {guess0}; Player 1 guessed {guess1}. Thus the Target is: {target}.",
+    "round_guesses": "Mugenzi 0 yatemeye {guess0}; Mugenzi 1 yatemeye {guess1}. Kwa hivyo Lengo ni: {target}.",
     "round_draw": "Ni umukino ubanza.",
     "round_win": "Umukinnyi {winner} atsinda umukino!"
   },

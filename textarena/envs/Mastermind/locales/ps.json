@@ -13,7 +13,7 @@
     "repeated_guess": "تاسو لا دمخه {guess} اټکل کړی دی. لطفاً یو بل اټکل هڅه وکړئ."
   },
   "game_action": {
-    "feedback": "Submitted [{guess}]. Feedback: {black_pegs} black peg(s), {white_pegs} white peg(s)."
+    "feedback": "وړاندې شوی [{guess}]. معلومات: {black_pegs} تور پگ(ونه)، {white_pegs} سپین پگ(ونه)."
   },
   "outcome": {
     "win": "تاسو کوډ مات کړی، د {black_pegs} څخه {code_length} کټونه په سمه توګه حل کړئ",

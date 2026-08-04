@@ -16,7 +16,7 @@
     "{cards}": "The cards in a pile as neutral labels, or '--' if empty (never translate)"
   },
   "player_prompt": {
-    "intro": "You are playing Klondike Solitaire. Your goal is to move all cards to the foundation piles.\n\nGame Rules:\n- Foundation piles (F1-F4): Build up from Ace to King in suit\n- Tableau piles (T1-T7): Build down alternating colors (red on black, black on red)\n- Stock: Draw cards to waste pile\n- Waste (W): Top card available for play\n\nCommands:\n- 'draw' - Draw cards from stock to waste\n- 'move <source> <destination> [count]' - Move cards between piles\n  Examples: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count can also be 'all', which will try to move all face-up cards.\n- 'forfeit' - End the game immediately and lock in your current score\n- Pile names: W (waste), F1-F4 (foundations), T1-T7 (tableau)\n\nYou can execute multiple actions in one turn by separating them with commas:\n  Example: 'draw, move W T1, move T2 F1'\n\nOnly Kings can be placed on empty tableau piles.\nActions execute in order - if one fails, the remaining actions are skipped.\nUse 'forfeit' if you believe the game is impossible to win."
+    "intro": "ਤੁਸੀਂ ਕਲੋਂਡਾਇਕ ਸੋਲੀਟੇਅਰ ਖੇਡ ਰਹੇ ਹੋ। ਤੁਹਾਡਾ ਟੀਚਾ ਸਾਰੀਆਂ ਕਾਰਡਾਂ ਨੂੰ ਫਾਊਂਡੇਸ਼ਨ ਪਾਈਲਾਂ ਵਿੱਚ ਲਿਜਾਣਾ ਹੈ।\n\nਖੇਡ ਦੇ ਨਿਯਮ:\n- ਫਾਊਂਡੇਸ਼ਨ ਪਾਈਲਾਂ (F1-F4): ਏਸ ਤੋਂ ਕਿੰਗ ਤੱਕ ਸੂਟ ਵਿੱਚ ਬਣਾਓ\n- ਟੇਬਲੇਊ ਪਾਈਲਾਂ (T1-T7): ਰੰਗਾਂ ਨੂੰ ਬਦਲਦਿਆਂ ਹੇਠਾਂ ਬਣਾਓ (ਲਾਲ ਕਾਲੇ ਉੱਤੇ, ਕਾਲਾ ਲਾਲ ਉੱਤੇ)\n- ਸਟਾਕ: ਕਾਰਡਾਂ ਨੂੰ ਵੇਸਟ ਪਾਈਲ ਵਿੱਚ ਡਰਾਓ\n- ਵੇਸਟ (W): ਖੇਡ ਲਈ ਉਪਲਬਧ ਸਭ ਤੋਂ ਉੱਪਰਲਾ ਕਾਰਡ\n\nਕਮਾਂਡਾਂ:\n- 'draw' - ਸਟਾਕ ਤੋਂ ਵੇਸਟ ਪਾਈਲ ਵਿੱਚ ਕਾਰਡ ਡਰਾਓ\n- 'move <source> <destination> [count]' - ਪਾਈਲਾਂ ਵਿੱਚ ਕਾਰਡ ਲਿਜਾਓ\n  ਉਦਾਹਰਣਾਂ: 'move W T1', 'move T1 F2', 'move T3 T5 2'। ਗਿਣਤੀ ਵੀ 'all' ਹੋ ਸਕਦੀ ਹੈ, ਜੋ ਸਾਰੇ ਖੁੱਲ੍ਹੇ ਕਾਰਡ ਲਿਜਾਣ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰੇਗੀ।\n- 'forfeit' - ਖੇਡ ਨੂੰ ਤੁਰੰਤ ਖਤਮ ਕਰੋ ਅਤੇ ਆਪਣਾ ਮੌਜੂਦਾ ਸਕੋਰ ਲਾਕ ਕਰੋ\n- ਪਾਈਲ ਨਾਮ: W (ਵੇਸਟ), F1-F4 (ਫਾਊਂਡੇਸ਼ਨ), T1-T7 (ਟੇਬਲੇਊ)\n\nਤੁਸੀਂ ਇੱਕ ਮੋੜ ਵਿੱਚ ਕਈ ਕਾਰਵਾਈਆਂ ਕਰ ਸਕਦੇ ਹੋ ਜਿਨ੍ਹਾਂ ਨੂੰ ਕੰਮਾਂ ਨਾਲ ਵੱਖ ਕਰਦੇ ਹੋ:\n  ਉਦਾਹਰਣ: 'draw, move W T1, move T2 F1'\n\nਸਿਰਫ ਕਿੰਗ ਖਾਲੀ ਟੇਬਲੇਊ ਪਾਈਲਾਂ ਉੱਤੇ ਰੱਖੇ ਜਾ ਸਕਦੇ ਹਨ।\nਕਾਰਵਾਈਆਂ ਕ੍ਰਮ ਵਿੱਚ ਕਾਰਜ ਕਰਦੀਆਂ ਹਨ - ਜੇਕਰ ਇੱਕ ਅਸਫਲ ਹੋ ਜਾਂਦੀ ਹੈ, ਤਾਂ ਬਾਕੀ ਦੀਆਂ ਕਾਰਵਾਈਆਂ ਛੱਡ ਦਿੱਤੀਆਂ ਜਾਂਦੀਆਂ ਹਨ।\n'forfeit' ਦੀ ਵਰਤੋਂ ਕਰੋ ਜੇਕਰ ਤੁਸੀਂ ਸਮਝਦੇ ਹੋ ਕਿ ਖੇਡ ਜਿੱਤਣਾ ਅਸੰਭਵ ਹੈ।"
   },
   "format_error": {
     "no_brackets": "ਅਵੈਧ ਐਕਸ਼ਨ ਫਾਰਮੈਟ। ਐਕਸ਼ਨ ਨੂੰ ਬਰੈਕਟ ਵਿੱਚ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ।",
@@ -24,8 +24,8 @@
     "empty_command": "ਖਾਲੀ ਕਮਾਂਡ. ਟਾਈਪ ਕਰੋ 'draw' ਜਾਂ 'move <source> <destination> [count]'",
     "empty_action": "ਖਾਲੀ ਕਾਰਵਾਈ",
     "move_needs_args": "ਮੂਵ ਕਮਾਂਡ ਲਈ ਸਰੋਤ ਅਤੇ ਮੰਜ਼ਿਲ ਦੀ ਲੋੜ ਹੁੰਦੀ ਹੈ। ਵਰਤੋਂਃ 'move <source> <destination> [count]'",
-    "count_positive": "ਗਿਣਤੀ ਸਕਾਰਾਤਮਕ ਹੋਣੀ ਚਾਹੀਦੀ ਹੈ ਜਾਂ 'ਸਾਰੇ'",
-    "count_invalid": "ਅਵੈਧ ਗਿਣਤੀ। ਇੱਕ ਨੰਬਰ ਜਾਂ 'ਸਾਰੇ' ਦੀ ਵਰਤੋਂ ਕਰੋ",
+    "count_positive": "ਗਿਣਤੀ ਸਕਾਰਾਤਮਕ ਜਾਂ 'all' ਹੋਣੀ ਚਾਹੀਦੀ ਹੈ",
+    "count_invalid": "ਅਮਾਨਤ ਗਿਣਤੀ। ਇੱਕ ਨੰਬਰ ਜਾਂ 'all' ਦੀ ਵਰਤੋਂ ਕਰੋ",
     "unknown_command": "ਅਣਜਾਣ ਕਮਾਂਡ '{cmd}'. 'draw', 'move <source> <destination> [count]', ਜਾਂ 'forfeit' ਦੀ ਵਰਤੋਂ ਕਰੋ",
     "wrapped": "ਕਾਰਵਾਈ {n}: {msg}"
   },

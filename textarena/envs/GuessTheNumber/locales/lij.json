@@ -13,6 +13,6 @@
   },
   "outcome": {
     "win": "Congratulaçioin! Ti t'æ indovinou o numero giusto.",
-    "turn_limit": "The turn limit has been reached. Guess: {guess}, Target: {target}"
+    "turn_limit": "O lìmite de tùrni o l'é stæto razzonto. Supoxiçión: {guess}, Bersàggio: {target}"
   }
 }

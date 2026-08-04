@@ -5,11 +5,11 @@
   "board": {
     "header": "TARGET: {target}\n\nNumber dang awm te:\n{numbers}",
     "best": "{observation}\n\nHe thleng ber tawh: {best_value} (distance: {distance})\nBest expression: {best_expression}",
-    "history": "{observation}\n\nMove history:\n{moves}",
-    "progress": "{observation}\nCurrent progress score: {progress}"
+    "history": "{observation}\n\nInkai dan chanchin:\n{moves}",
+    "progress": "{observation}\nScore tawh mek: {progress}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use `[i j op]` where i,j are indices and op is +,-,*,/",
+    "wrong_format": "Action format dik lo. `[i j op]` hmang rawh, i,j index-te an ni a, op chu +,-,*,/ a ni.",
     "invalid_indices": "Index diklo. A danglam a, 0-{max_index} range chhunga awm tur a ni ang.",
     "invalid_operation": "Operation diklo (zero emaw integer result ni lo a sem)"
   },

@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "Hapana shoko rako peji rakawanda. Tsunga [a1b2], somimba [b2c3].",
-    "illegal": "Move [{move}] is illegal."
+    "illegal": "Kuhamisha [{move}] hakuna kwa sheria."
   },
   "game_action": {
     "moved": "Mutambi {player_id} akafamba {move}."

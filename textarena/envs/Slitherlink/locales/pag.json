@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing Slitherlink on a {R}x{C} grid!\nDraw a single continuous loop so each numbered cell has that many bordering edges.\nToggle edges with:\n  [h r c] - toggle horizontal edge above dots at row r, column c\n  [v r c] - toggle vertical edge left of dots at row r, column c\nNumbers show required edge count, '.' means no constraint.\nYou have up to {max_turns} moves to solve the puzzle."
+    "intro": "Agto ka managpapat na Slitherlink ed sakey a {R}x{C} grid!\nGawaen moy sakey a tuloy-tuloy a loop tapno kada numero a selula so walaoy sananey a bilang a kolor ed tapew na linya.\nIbaliktad so linya na:\n  [h r c] - ibaliktad so patag a linya ed tapew na tuldok ed row r, column c\n  [v r c] - ibaliktad so patindog a linya ed kawigi na tuldok ed row r, column c\nSaray numero so papakitaen na bilang a linya a kaukolan, '.' so walay kaukolan.\nWala ka ed aboton {max_turns} a tulong a managpapat na puzzle."
   },
   "board": {
     "current_board": "{board}\nPeteken ti nakaiyasideg a Clues: {progress}"

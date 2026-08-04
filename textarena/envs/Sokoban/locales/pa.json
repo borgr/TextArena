@@ -12,7 +12,7 @@
     "invalid_position": "ਅਵੈਧ ਚਾਲ - ਉਸ ਸਥਿਤੀ ਵਿੱਚ ਨਹੀਂ ਜਾ ਸਕਦੀ।"
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
+    "moved": "ਤੁਸੀਂ {pushed} ਚਲੇ ਗਏ [{action}].",
     "pushed_prefix": "ਇੱਕ ਬਕਸੇ ਨੂੰ ਧੱਕਾ ਦਿੱਤਾ"
   },
   "outcome": {

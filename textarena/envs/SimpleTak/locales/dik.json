@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in SimpleTak.\nOn the board, your stones appear as '{player_stone}' and your opponent's stones appear as '{opponent_stone}'.\n\nOn your turn, choose one empty cell (by its numbered index) and place your stone there.\nFor example, '[12]' places your stone in cell 12.\n\nYour objective is to form a continuous path of your stones that connects two opposite edges of the board (top-to-bottom or left-to-right)."
+    "intro": "Yin ee leek {player_id} ku SimpleTak.\nKu board, kɔc wei yin ee ku '{player_stone}' ku kɔc wei dhuk ee ku '{opponent_stone}'.\n\nKu wɛ̈ɛ̈r yin, akɔ̈ɔ̈n pamac (ku yɔ̈ɔ̈k deŋ) ku yɔ̈ɔ̈ kɔc wei yin tɛ̈ɛ̈.\nKu yɛ̈ɛ̈k, '[12]' yɔ̈ɔ̈ kɔc wei yin ku yɛ̈ɛ̈k 12.\n\nKu yɛ̈ɛ̈k yin ee kuɔ̈ɔ̈r kɔc wei yin ku bɛ̈ɛ̈i kɔ̈k kuɔ̈ɔ̈r wɛ̈ɛ̈r ku bɛ̈ɛ̈i pamac kuɔ̈ɔ̈r (wɛ̈ɛ̈r-ku-bɛ̈ɛ̈i ku bɛ̈ɛ̈i-ku-wɛ̈ɛ̈r)."
   },
   "invalid_move": {
     "invalid_move_format": "Acie path ba ya lɔ̈ɔ̈m ëbɛ̈n.",
@@ -8,13 +8,13 @@
     "cell_already_occupied": "Cell {cell_num} acï tɔ̈u. Ka kuany cell cïn këde yic."
   },
   "board": {
-    "current_state": "Current Board:\n\n{rendered_board}\nAvailable Moves: {available_moves}"
+    "current_state": "Board Kuɔ̈ɔ̈n:\n\n{rendered_board}\nAkɔ̈ɔ̈n Kuɔ̈ɔ̈n: {available_moves}"
   },
   "action": {
     "placement": "Wär {current_player_id} acë kekë nhom ({symbol}) thïn cell {cell_num}."
   },
   "outcome": {
-    "winner": "Player {current_player_id} ('{symbol}') connected two opposite edges!",
+    "winner": "Leek {current_player_id} ('{symbol}') kuɔ̈ɔ̈n kuɔ̈ɔ̈r wɛ̈ɛ̈r!",
     "draw": "Aci yic thiäŋ. Ee kë ye kɔc thɔ̈ɔ̈ŋ!"
   }
 }

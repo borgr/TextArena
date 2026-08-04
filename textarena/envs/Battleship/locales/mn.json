@@ -9,11 +9,11 @@
   },
   "game_action": {
     "you_sunk": "Сүйрэв! Та {coord}-д хөлөг сүйрэв! Таны шинэчлэгдсэн самбар:\n{view}",
-    "opp_sunk": "Opponent sunk your ship at {coord}! Your updated board:\n{view}",
+    "opp_sunk": "Өрсөлдөгч тоглогч {coord} координатад таны онгоцныг живүүлсэн! Таны шинэчилсэн самбар:\n{view}",
     "you_hit": "Тэмцээн! Та {coord}-д хөлөг онгоцтой тулгараад байна! Таны шинэчилсэн тасалбар: {view}",
-    "opp_hit": "Opponent hit your ship at {coord}! Your updated board:\n{view}",
+    "opp_hit": "Өрсөлдөгч тоглогч {coord} координатад таны онгоцныг туссан! Таны шинэчилсэн самбар:\n{view}",
     "you_miss": "Ороогүй! Та {coord}-д хөлөг ороогүй! Таны шинэчлэгдсэн самбар:\n{view}",
-    "opp_miss": "Opponent missed your ship at {coord}! Your updated board:\n{view}"
+    "opp_miss": "Өрсөлдөгч тоглогч {coord} координатад таны онгоцныг алдсан! Таны шинэчилсэн самбар:\n{view}"
   },
   "outcome": {
     "win": "Тоглогч {player_id} өрсөлдөгчийнхөө бүх хөлөг сүйрэв!"

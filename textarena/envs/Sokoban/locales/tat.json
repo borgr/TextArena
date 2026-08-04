@@ -12,7 +12,7 @@
     "invalid_position": "Хәлсез хәрәкәт - бу позициягә күчә алмый."
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
+    "moved": "Сез {pushed} күчердеңез [{action}].",
     "pushed_prefix": "бер тартманы этеп җибәргәннәр ."
   },
   "outcome": {

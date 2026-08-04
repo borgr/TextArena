@@ -1,20 +1,20 @@
 {
   "player_prompt": {
-    "intro": "You are playing {color} in a game of Chess.\n Make your moves in UCI format enclosed in square brackets (e.g., [e2e4])."
+    "intro": "Uki na tii {color} katika mchezo wa Chess.\n Tunga michezo yako katika muundo wa UCI iliyojumuishwa katika mabano ya mraba (kwa mfano, [e2e4])."
   },
   "board": {
     "current_board": "Ĩsandũkũ ya Mũsyaĩĩsya: {board}",
-    "valid_moves": "{observation}\nValid moves: {moves}"
+    "valid_moves": "{observation}\nMichezo halali: {moves}"
   },
   "invalid_move": {
     "wrong_format": "Nzĩa ĩla ĩtaĩle ya kũsembea.",
     "illegal": "Kũthamya kũndũ kũte kũla mĩao yeetĩkĩlĩtye."
   },
   "game_action": {
-    "moved": "Mchezaji {player_id} alifanya mpango ufuatao: {move_uci}"
+    "moved": "Mchezaji {player_id} alifanya mchezo ufuatao: {move_uci}"
   },
   "outcome": {
     "draw": "Ndulama nĩyaatheleile.",
-    "win": "Player {player_id} wins the match."
+    "win": "Mchezaji {player_id} anashinda mchezo."
   }
 }

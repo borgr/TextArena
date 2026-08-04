@@ -6,13 +6,13 @@
     "current_board": "Bwod Aktyèl:\n\n{board}\nDeplasman Disponib: {moves}"
   },
   "invalid_move": {
-    "wrong_format": "The submitted move does not follow the correct format. Use [up], [down], [left], [right] or [w], [a], [s], [d].",
+    "wrong_format": "Deplasman an ki soumèt pa swiv fòma kòrèk la. Itilize [up], [down], [left], [right] oswa [w], [a], [s], [d].",
     "not_valid_action": "Mouvman an soumèt se pa yon aksyon valab.",
     "wall_collision": "Ou pa ka deplase nan yon miray!",
     "invalid_position": "Mouvman envalid - pa ka deplase nan pozisyon sa a."
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
+    "moved": "Ou {pushed} deplase [{action}].",
     "pushed_prefix": "pouse yon bwat pandan y ap"
   },
   "outcome": {

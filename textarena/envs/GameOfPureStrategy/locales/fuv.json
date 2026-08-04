@@ -1,9 +1,9 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a match of GameOfPureStrategy.\n- You hold the 13 cards A-K; each can be used once.\n- Each round a prize card is revealed. Play exactly ONE card by writing something that contains a bracketed token like '[Q]', '[10]', '[2]' ...\n- Higher card wins the prize (plus carry-over). Ties roll prize into the pot for next round.\n- Highest total after 13 rounds wins."
+    "intro": "Ko a yi Jokkere {player_id} caggal nder GameOfPureStrategy.\n- A hawti kerti 13 A-K; koo haɗe ɗum haɗe so.\n- Kala dow a yi kerti kuugal ngal wiyi. Kuugal so kerti gooto caggal wallude tana daɗe ɗum '[Q]', '[10]', '[2]' ...\n- Kerti ɓurɗum ngari yi kuugal ngal (e ɓaawo ɗeɓɓe). Kala ɓuri ɓaawo pot ngal dow heeɓa.\n- Ɓurɗo ɓurɗum ngari ɓaawo dow 13 yi nasara."
   },
   "round": {
-    "announce": "### Round {round}/13 - Prize: {prize}  (worth {worth})"
+    "announce": "### Dowla {round}/13 - Jalloo: {prize}  (jalloo {worth})"
   },
   "board": {
     "hand": "Jonta juŋŋgo ma je lutti: {hand}"
@@ -14,9 +14,9 @@
   },
   "message": {
     "bids": "Bids: P0 {card0} vs P1 {card1} - ",
-    "p0_wins": "{observation}Player 0 wins {pot_value}.",
-    "p1_wins": "{observation}Player 1 wins {pot_value}.",
-    "tie": "{observation}Tie -> pot now {carry_pot}.",
+    "p0_wins": "{observation}Player 0 jalloo {pot_value}.",
+    "p1_wins": "{observation}Player 1 jalloo {pot_value}.",
+    "tie": "{observation}Kala ɓuri -> pot amma {carry_pot}.",
     "scores": "Scores -> P0:{score0}  P1:{score1}"
   },
   "outcome": {

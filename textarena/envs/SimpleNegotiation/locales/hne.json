@@ -4,16 +4,16 @@
   },
   "invalid_move": {
     "receiving_with_no_resource": "खिलाड़ी हर आवश्यक संसाधनमन के बिना व्यापार ल स्वीकार करे के कोशिश करीस ।",
-    "out_of_range": "प्लेयर {player_id}, अवैध कार्यवाही. कॉलम {col} सीमा से बाहर है.",
-    "already_full": "प्लेयर {player_id}, अवैध कार्यवाही. कॉलम {col} भरा हुआ है.",
+    "out_of_range": "खिलाड़ी {player_id}, अमान्य क्रिया। कॉलम {col} सीमा से बाहर है।",
+    "already_full": "खिलाड़ी {player_id}, अमान्य क्रिया। कॉलम {col} भरा हुआ है।",
     "proposing_with_no_resource": "खिलाड़ी {player_id} आवश्यक संसाधनमन के बिना व्यापार प्रस्ताव करे के कोशिश करिस।",
     "incorrect_offer_format": "खिलाड़ी {player_id} हर गलत प्रारूप म व्यापार प्रस्ताव करिस।",
     "no_new_offer": "खिलाड़ी {player_id} हर कोई नवा व्यापार प्रस्ताव नी करिस।"
   },
   "offers": {
     "reject": "खिलाड़ी {player_id} हर व्यापार प्रस्ताव ल अस्वीकार कर दिस।",
-    "accept": "प्लेयर {acceptor_id} ने प्लेयर {proposer_id} के व्यापारिक प्रस्ताव को स्वीकार कर लिया है.",
-    "proposal": "प्लेयर {player_id} ने प्लेयर {opponent_id} को निम्नलिखित प्रस्ताव दिया है: ऑफर किए गए आइटम: {offered} -> मांगे गए आइटम: {requested}"
+    "accept": "खिलाड़ी {acceptor_id} ने खिलाड़ी {proposer_id} से व्यापार प्रस्ताव स्वीकार किया।",
+    "proposal": "खिलाड़ी {player_id} ने खिलाड़ी {opponent_id} को निम्नलिखित प्रस्ताव दिया: प्रस्तावित वस्तुएं: {offered} -> अनुरोधित वस्तुएं: {requested}"
   },
   "outcome": {
     "win": "खिलाड़ी {winner_id} स्टॉक मूल्य म एकठन बडखा लाभ के साथ जीते।",

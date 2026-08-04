@@ -1,13 +1,13 @@
 {
   "player_prompt": {
-    "intro": "Вы - Игрок {player_id} ({role}) в {num_rounds}-раундовой игре в Монетку.\n- Каждый раунд, введите [heads] или [tails] (или [h], [t]).\n- Если ваш выбор совпадает с выбором вашего оппонента, Игрок 0 выигрывает раунд; в противном случае Игрок 1 выигрывает.\nОтветьте своим выбором в формате '[heads]' или '[tails]'.\n"
+    "intro": "Һеҙ Player {player_id} ({role}) {num_rounds} раундлыҡ Тәңәк Өйөнө уйнайһығыҙ.\n- Һәр раундта, [heads] йәки [tails] (йәки [h], [t]) ебәрәһегеҙ.\n- Әгәр һеҙҙең һайлауығыҙ дәғүәсеңеке менән тап килһә, 0-се уйынсы раундты еңә; юҡ икән, 1-се уйынсы еңә.\nҺеҙҙең һайлауығыҙҙы '[heads]' йәки '[tails]' форматында яҙығыҙ.\n"
   },
   "invalid_move": {
-    "wrong_format": "Недопустимый формат; пожалуйста, введите '[heads]' или '[tails]'."
+    "wrong_format": "Һайлау форматы дөрөҫ түгел; '[heads]' йәки '[tails]' ебәрәһегеҙ."
   },
   "message": {
-    "round_match": "Player 0 picked {choice0}; Player 1 picked {choice1}. Match -> Player 0 wins",
-    "round_mismatch": "Player 0 picked {choice0}; Player 1 picked {choice1}. Mismatch -> Player 1 wins."
+    "round_match": "0-се уйынсы {choice0} һайланы; 1-се уйынсы {choice1} һайланы. Тап килеү -> 0-се уйынсы еңә",
+    "round_mismatch": "0-се уйынсы {choice0} һайланы; 1-се уйынсы {choice1} һайланы. Тап килмәү -> 1-се уйынсы еңә."
   },
   "outcome": {
     "p0_wins": "0-се уйынсы күберәк раундта еңә.",

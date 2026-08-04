@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({piece}). Opponent is ({opp}). Submit moves as '[b1 c3]' (from → to). All pieces move like chess knights.\nEach capture scores {score_per_capture} point. Game ends after {max_moves} moves or when a player has no legal move / no pieces. Higher score wins."
+    "intro": "Yes el xugador {player_id} ({piece}). L'oponente ye ({opp}). Unvia movimientos como '[b1 c3]' (dende → hasta). Toles pieces muévense como caballos d'axedrez.\nCada captura puntúa {score_per_capture} puntu. La partida acaba dempués de {max_moves} movimientos o cuando un xugador nun tien movimientu llegal / nun tien pieces. La puntuación más alta gana."
   },
   "board": {
     "current_board": "Movimientu #{move_count}\n\n{board}\n\nMovimientos disponibles: {moves}"

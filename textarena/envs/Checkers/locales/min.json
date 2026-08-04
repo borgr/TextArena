@@ -3,11 +3,11 @@
     "current_board": "Papan nan ado: {board}"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} playing a game of Checkers as {color}.\nMake your move in chess-style notation [fileRank fileRank], e.g. '[b2c3]' (column letter a–h, row digit 0–7).\nBasic rules:\n  • Move diagonally forward by 1 if empty.\n  • Capture by jumping over an opponent piece.\n  • A piece is Kinged if it reaches the opposite end.\n"
+    "intro": "Anda adolah Pemain {player_id} nan sadang bamain Checkers sabagai {color}.\nBuek langkah Anda dalam notasi gaya catur [fileRank fileRank], misalnyo '[b2c3]' (huruf kolom a–h, angka baris 0–7).\nAturan dasar:\n  • Pindah diagonal ka muko 1 langkah jiko kosong.\n  • Tangkok lawan jo malompek ateh bidak lawan.\n  • Bidak manjadi Rajo jiko mancapai ujuang nan balawanan.\n"
   },
   "invalid_move": {
     "wrong_format": "Format gerakan nan sah indak ditamuan. Gunakan [a1b2], contohnyo [b2c3].",
-    "illegal": "Move [{move}] is illegal."
+    "illegal": "Langkah [{move}] adolah ilegal."
   },
   "game_action": {
     "moved": "Pamain {player_id} manggaruang {move}."

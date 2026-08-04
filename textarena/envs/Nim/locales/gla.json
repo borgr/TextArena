@@ -13,7 +13,7 @@
     "exceeds_pile": "Chan eil e comasach {quantity} a thogail à cruach {pile_index} (chan eil ach {pile_count} air fhàgail)."
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "Chluich Cluicheadair {player_id} [{pile_index} {quantity}], a' toirt air falbh {quantity} objet(an) à cruachan {pile_index}."
   },
   "outcome": {
     "win": "Ghabh cluicheadair {player_id} an rud mu dheireadh (s)!"

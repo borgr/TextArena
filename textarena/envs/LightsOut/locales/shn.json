@@ -7,10 +7,10 @@
   },
   "invalid_move": {
     "wrong_format": "လုပ်ဆောင်ချက်သည် [row col] ပုံစံဖြင့် ရှိရမည်။ row နှင့် col သည် {max_index} အထိ ပုံမှန် သန်းခေါင်စာရင်း ဖြစ်သည်။",
-    "out_of_range": "Coordinates must be between 0 and {max_index}. You entered [{row},{col}]."
+    "out_of_range": "ၵူတ်ႇၼႆႉ တေလႆႈၸႂ်ႉ 0 တေႃႇ {max_index}။ ၸဝ်ႈၵဝ်ႇၶဝ်ႈ [{row},{col}]။"
   },
   "outcome": {
     "win": "မႂ်ႇသုင်ၶႃႈ! သူၵႄႈလိတ်ႈလႆႈ လွင်ႈၶွင်ႈၵႂၢမ်း ၼႂ်းလၢႆး {moves_used}။",
-    "loss": "Game over! You used all {max_turns} moves without solving the puzzle. Final completion: {completion}%\nFinal state:\n{grid}"
+    "loss": "ၵွပ်ႈၼႆႉ! ၸဝ်ႈၵဝ်ႇၸႂ်ႉ {max_turns} ၶိုင်ႈ ဢမ်ႇၶိုၼ်းၸမ်ႉ။ ၶိုင်ႈႁဵတ်းယဝ်ႉ: {completion}%\nၼႃႈလိၵ်ႈၶူဝ်ႇၶူဝ်ႇၸမ်ႉ:\n{grid}"
   }
 }

@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "Action သည် ပုံစံ [row col] ရှိရမည်၊ အဲဒီမှာ row နှင့် col သည် ၀ မှ {max_index} အထိ ကိန်းပြည့်များ ဖြစ်ရမည်။",
-    "out_of_range": "Coordinates must be between 0 and {max_index}. You entered [{row},{col}]."
+    "out_of_range": "ကိုဩဒိနိတ်တွေက 0 နဲ့ {max_index} အကြားမှာ ရှိရမယ်။ မင်းလှမ်းတဲ့အခုန်က [{row},{col}]။"
   },
   "outcome": {
     "win": "မင်္ဂလာပါရှင်။ ပဟေဠိကို {moves_used} လှုပ်ရှားမှုတွေနဲ့ ဖြေရှင်းလိုက်ပြီလေ။",

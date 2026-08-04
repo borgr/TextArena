@@ -21,7 +21,7 @@
     "{scores}": "The pre-rendered per-player list of final scores"
   },
   "player_prompt": {
-    "intro": "You are playing Golf (Card Game) - Player {player_id}.\nGoal: Get the lowest total score in this single round. If columns share the same value, they are summed as 0.\nCard Values: A=1, 2-10=face value, J/Q=10, K=0\n\nActions (use exact brackets):\n- '[draw]' - Draw from deck\n- '[take]' - Take from discard pile\n- '[swap X Y]' - Swap drawn card with position X (row) Y (column)\n- '[discard]' - Discard the drawn card\n"
+    "intro": "Siz Golf (Kart Oyunu) oynaymadasınız - Oyuncu {player_id}.\nMaqsat: Bu bir raundda eñ az toplam ballı almasıdır. Eğer sütunlar aynı değerini paylaşsalar, olar 0 olaraq hesablanır.\nKart Değerleri: A=1, 2-10=yüz değer, J/Q=10, K=0\n\nHareketler (aynı parantezleri qullanıñız):\n- '[draw]' - Desteden al\n- '[take]' - Atılğan kartlardan al\n- '[swap X Y]' - Çizilgen kartı X (sıra) Y (sutun) pozisyonınen deñiştir\n- '[discard]' - Çizilgen kartı at\n"
   },
   "board": {
     "drew": "Sen çektin: {card}\nŞimdi sen [swap X Y] yada [discard] etmelisin",
@@ -61,7 +61,7 @@
     "have_drawn_card": "Sen çektin bir kart. Sen [swap X Y] yada [discard] etmelisin",
     "need_drawn_swap": "Deñişmek içün bir kart kerek.",
     "need_drawn_discard": "Atmaq içün bir kart kerek.",
-    "out_of_bounds": "Position out of bounds. Use row 1-{max_row}, column 1-{max_col}",
+    "out_of_bounds": "Pozitsiya sınırı dışındadır. 1-{max_row} sıra, 1-{max_col} sütun qullanıñız",
     "knock_with_card": "Qabaqnı çekilgen kartnen qalamaysıñız. İlk evelâ nevbetni tamamlañız.",
     "already_knocked": "Birisi bu raundnı endi keçirdi.",
     "already_revealed": "Bu kart endi açılğan!"

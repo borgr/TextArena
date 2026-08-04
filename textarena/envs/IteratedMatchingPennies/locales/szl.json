@@ -1,13 +1,13 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({role}) in a {num_rounds}-round Matching Pennies game.\n- Each round, submit [heads] or [tails] (or [h], [t]).\n- If your choice matches your opponent’s, Player 0 wins the round; otherwise Player 1 wins.\nReply with your choice in the format '[heads]' or '[tails]'.\n"
+    "intro": "Jeżeś Gracz {player_id} ({role}) we {num_rounds}-rundźowej grze Matching Pennies.\n- Kożdŏ runda, podŏwaj [heads] abo [tails] (abo [h], [t]).\n- Jeśli Twůj wybůr bydzie taki sam jak u Twojigo przeciwnika, Gracz 0 wygrywo rundę; inaczej Gracz 1 wygrywo.\nOdpowiedź ze swojim wybůrem we formacie '[heads]' abo '[tails]'.\n"
   },
   "invalid_move": {
-    "wrong_format": "Invalid format; please submit '[heads]' or '[tails]'."
+    "wrong_format": "Niewłaściwy format; proszům podać '[heads]' abo '[tails]'."
   },
   "message": {
-    "round_match": "Player 0 picked {choice0}; Player 1 picked {choice1}. Match -> Player 0 wins",
-    "round_mismatch": "Player 0 picked {choice0}; Player 1 picked {choice1}. Mismatch -> Player 1 wins."
+    "round_match": "Gracz 0 wybrał {choice0}; Gracz 1 wybrał {choice1}. Zgodność -> Gracz 0 wygrywo",
+    "round_mismatch": "Gracz 0 wybrał {choice0}; Gracz 1 wybrał {choice1}. Niezgodność -> Gracz 1 wygrywo."
   },
   "outcome": {
     "p0_wins": "Gracz 0 wygrał wiyncyj rund.",

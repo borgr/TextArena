@@ -7,7 +7,7 @@
   },
   "message": {
     "round_match": "Ludanto 0 elektis {choice0}; Ludanto 1 elektis {choice1}. Kunmatcho -> Ludanto 0 gajnas",
-    "round_mismatch": "Player 0 picked {choice0}; Player 1 picked {choice1}. Mismatch -> Player 1 wins."
+    "round_mismatch": "Ludanto 0 elektis {choice0}; Ludanto 1 elektis {choice1}. Miskongruo -> Ludanto 1 gajnas."
   },
   "outcome": {
     "p0_wins": "Ludanto 0 gajnis pli da rondoj.",

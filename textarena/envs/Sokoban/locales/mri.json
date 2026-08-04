@@ -12,7 +12,7 @@
     "invalid_position": "He nekehanga hē - kāore e taea te neke ki taua tūnga."
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
+    "moved": "Kua {pushed} nekeneke koe [{action}].",
     "pushed_prefix": "i panaia tētahi pouaka, ahakoa"
   },
   "outcome": {

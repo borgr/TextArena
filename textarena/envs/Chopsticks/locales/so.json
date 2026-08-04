@@ -14,7 +14,7 @@
   },
   "game_action": {
     "attack": "P{player_id} wuxuu weerarayaa P{opp_id} gacantiisa {opp_idx}: wuxuu ka socdaa {opp_val} ilaa {new_val}.",
-    "split": "P{player_id} splits into [{L}, {R}]."
+    "split": "P{player_id} qeybistay [{L}, {R}]."
   },
   "history": {
     "entry": "P{player_id} {desc}"

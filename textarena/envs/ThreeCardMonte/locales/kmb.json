@@ -11,18 +11,18 @@
     "{ball_pos}": "The cup index the ball is under"
   },
   "player_prompt": {
-    "intro": "Track the hidden ball 'X' while the cups are shuffled.\nAfter shuffling, guess its location with `[k]`."
+    "intro": "Landula mbole ya kuzingirwa 'X' kufwasa mikwanga ikusokelwa.\nKufwasa kusokelwa, kamba kweji kwau nge ` [k]`."
   },
   "game_message": {
     "ball_starts": "O bola ia mateka: {line}",
-    "shuffle": "Shuffle {step}/{steps}: swapped cups {i} and {j}.",
+    "shuffle": "Kusokelwa {step}/{steps}: mikwanga {i} na {j} isembelana.",
     "cups": "Kikabu: {line}  {prompt}",
     "guess_now": "(Ijiia ihi i ua tokala o ku bhanga kindala!)",
     "reveal": "(Sokesa o pondo ia tokala ku {ball_pos})"
   },
   "invalid_move": {
-    "wrong_format": "Bad action. Use `[k]`.",
-    "out_of_range": "Index out of range 0-{max_index}."
+    "wrong_format": "Kufwasa mbali. Usa `[k]`.",
+    "out_of_range": "Ndunda ya kamba kuleha 0-{max_index}."
   },
   "outcome": {
     "win": "Eie ua sange o bola.",

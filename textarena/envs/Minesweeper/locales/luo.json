@@ -9,14 +9,14 @@
   "invalid_move": {
     "wrong_format": "Ne ok idwoko gi namba mowinjore mar kama ne iwachoe weche manie rang'iny mamalo.",
     "out_of_bounds": "Kode mag kwan matindo kod kidienje ok nyal tiyo.",
-    "already_revealed": "Celli kwa ({row}, {col}) imewekwa kuwa imefunuliwa.",
-    "hit_mine": "Umeingia kwenye shimo la mabomu kwa ({row}, {col})."
+    "already_revealed": "Seli katika ({row}, {col}) tayari imefichuliwa.",
+    "hit_mine": "Umetua miino katika ({row}, {col})."
   },
   "game_action": {
     "revealed": "Iriyo wachni koth celli kwa ({row}, {col})."
   },
   "outcome": {
     "win": "Wamor kodi, nikech koro iserumo gi wach mar Minesweeper.",
-    "turn_limit": "The turn limit has been reached. You successfully uncovered {percent}% of the safe cells."
+    "turn_limit": "Kikomo cha zamu kimefikia. Umeonyesha kwa mafanikio {percent}% ya seli salama."
   }
 }

@@ -13,7 +13,7 @@
     "repeated_guess": "{guess} jettee yaaddeetta. Mee mala gara biraa haa yaaltu."
   },
   "game_action": {
-    "feedback": "Submitted [{guess}]. Feedback: {black_pegs} black peg(s), {white_pegs} white peg(s)."
+    "feedback": "[{guess}] taphatte. Tilmaama: {black_pegs} paagii adii, {white_pegs} paagii dhihaa."
   },
   "outcome": {
     "win": "Kodiin sun cracked, {black_pegs} keessaa {code_length} pegs dubbisanii",

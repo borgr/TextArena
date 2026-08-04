@@ -16,7 +16,7 @@
   },
   "game_action": {
     "skipped": "കളിക്കാരന് {pid} അവരുടെ ഊഴം ഒഴിവാക്കേണ്ടി വന്നു",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "കളിക്കാരൻ {pid} ({piece}) [{r}, {c}] കളിച്ചു {flipped} കരു(കൾ) മാറ്റി"
   },
   "game_message": {
     "must_skip": "കളിക്കാരന് {pid} ({piece}) ന് സാധുവായ നീക്കങ്ങളൊന്നുമില്ല, അതിനാൽ അവ ഒഴിവാക്കണം."

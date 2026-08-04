@@ -22,21 +22,21 @@
     "final_ranking": "list of player indices from first eliminated to winner"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in an {num_players}-player Liar's Dice game.\nRules:\n- On your turn, you may either:\n  1) Make a new bid with a higher quantity or higher face (or both) than the current bid; i.e. '[Bid: 3, 4]',\n  2) Call the last bid by typing '[Call]'.\n\nIf you call:\n  - If the actual count of that face value among all dice is less than the bid, the last bidder loses one die.\n  - Otherwise, the caller loses one die.\nA player who reaches 0 dice is eliminated. The last remaining player wins."
+    "intro": "Nga mwenye kucheza {player_id} mu michezo ya Liar's Dice ya bacheza {num_players}.\nMikano:\n- Pa zamu yako, ungashinakila ukulanda:\n  1) Kukolwa kwa bid mpya na wingi mwingi au uso mwinshi (panono yote mbili) kuliko bid iliyopo; i.e. '[Bid: 3, 4]',\n  2) Kuita bid iliyopita kwa kuandika '[Call]'.\n\nUka ita:\n  - Uka nambari ya kweli ya thamani ya uso miongoni mwa dice zote ni chini ya bid, mcheza wa mwisho wa kukolwa anapoteza die moja.\n  - Ulishi, mcheza wa ita anapoteza die moja.\nMcheza afikila 0 dice anatolewa. Mcheza wa mwisho aliyebaki akalusha."
   },
   "board": {
     "per_player": "\tMwali {p}: {d}",
     "new_round": "\nMwaka wapisuma - Mafumbo yaliyosala: {dice_summary}\nMafumbo yako yaliyosala ni: {your_dice}"
   },
   "call": {
-    "bidder_loses": "Player {current_player_id} calls! The actual count of face {face_value} is {count}, which is LESS than {quantity}.\nPlayer {loser_id} (the last bidder) loses one die.",
-    "caller_loses": "Player {current_player_id} calls! The actual count of face {face_value} is {count}, which is >= {quantity}.\nPlayer {loser_id} (the caller) loses one die."
+    "bidder_loses": "Mcheza {current_player_id} aitisa! Nambari ya kweli ya uso {face_value} ni {count}, iyo ni CHINI ya {quantity}.\nMcheza {loser_id} (mcheza wa mwisho wa kukolwa) anapoteza die moja.",
+    "caller_loses": "Mcheza {current_player_id} aitisa! Nambari ya kweli ya uso {face_value} ni {count}, iyo ni >= {quantity}.\nMcheza {loser_id} (mcheza wa ita) anapoteza die moja."
   },
   "action": {
     "bid_announce": "Mwali {player_id} akabida {quantity} kwa mafumbo {face_value}."
   },
   "invalid_move": {
-    "call_no_bid": "Call made with no prior bid.",
+    "call_no_bid": "Ita iliyofanywa bila bid iliyotangulia.",
     "invalid_bid": "Icipope cabula ukukonka: {reason}",
     "not_recognized": "Kubadila kwakontolwa tabilowa kuli '[Bid: X, Y]' ne '[Call]'. Kubadila kwakontolwa: {action}"
   },
@@ -50,6 +50,6 @@
     "eliminated_invalid": "Umulayi {player_id} alifumishiwe pa mulandu wa kutaluka."
   },
   "outcome": {
-    "win": "Player {winner} wins! Final ranking: {final_ranking}"
+    "win": "Mcheza {winner} akalusha! Mpangilio wa mwisho: {final_ranking}"
   }
 }

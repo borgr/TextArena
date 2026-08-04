@@ -9,7 +9,7 @@
     "wrong_format": "Ɔkasa akyerɛ. De '[Hit]' anaa '[Stand]'."
   },
   "game_message": {
-    "hand_result": "Hand {hand_number}: you {outcome}. Your final {player_score}, Dealer {dealer_score}.",
+    "hand_result": "Nsie {hand_number}: wo {outcome}. Wo akɔm a ɛtwa toɔ {player_score}, Dealer {dealer_score}.",
     "all_complete": "=== All {num_hands} nsa hɔ complete ===\nDi mma: {wins}, Di gu: {losses}, Gu bere: {draws}\n"
   },
   "outcome": {

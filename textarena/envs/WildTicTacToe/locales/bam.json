@@ -14,7 +14,7 @@
     "placed": "Jɛkulu {player_id} yan jɛkulu kɛlɛ ({mark}) kɔnɔ kɛlɛ {cell}"
   },
   "outcome": {
-    "win": "Player {player_id} wins with {mark}s!",
+    "win": "Player {player_id} tagara {mark} wɛrɛw!",
     "draw": "O bɔlɔ ye barajuru don!"
   }
 }

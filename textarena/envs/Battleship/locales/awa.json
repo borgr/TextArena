@@ -11,9 +11,9 @@
     "you_sunk": "डूब गया! आपने {coord} पर एक जहाज को डूबो दिया! आपका अद्यतन बोर्ड:\n{view}",
     "opp_sunk": "विरोधी ने आपके जहाज को {coord} पर डूबो दिया! आपका अद्यतन बोर्ड:\n{view}",
     "you_hit": "हिट! आपने {coord} पर एक जहाज को हिट किया! आपका अद्यतन बोर्ड:\n{view}",
-    "opp_hit": "Opponent hit your ship at {coord}! Your updated board:\n{view}",
+    "opp_hit": "विरोधक तुम्हारी जहाज पर {coord} पर मार दिहिस! तुम्हारी अद्यतन बोर्ड:\n{view}",
     "you_miss": "मिस! आपने {coord} पर जहाज को चूक गए! आपका अद्यतन बोर्ड:\n{view}",
-    "opp_miss": "Opponent missed your ship at {coord}! Your updated board:\n{view}"
+    "opp_miss": "विरोधक तुम्हारी जहाज पर {coord} पर चूक गइल! तुम्हारी अद्यतन बोर्ड:\n{view}"
   },
   "outcome": {
     "win": "खिलाड़ी {player_id} अपने प्रतिद्वंद्वी का सभी जहाज डूब गए हैं!"

@@ -22,6 +22,6 @@
   },
   "outcome": {
     "win": "דער שפּילער {player_id} האָט געווינען!",
-    "draw": "The game is a draw!"
+    "draw": "Di shpil iz a remis!"
   }
 }

@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a {num_rounds}-round of IteratedTwoThirdsAverage.\nEach round, guess a number between {min_guess} and {max_guess}.\nAfter both guesses, the target is (2/3)x(average of both guesses),\nand the player whose guess is closest to the target wins that round.\nReply with your guess in the format '[<number>]'."
+    "intro": "Ses Giogadore {player_id} in unu {num_rounds}-turnu de IteratedTwoThirdsAverage.\nIn ogni turnu, azza unu numeru tra {min_guess} e {max_guess}.\nA pustis de ambas azetas, s'obietivu est (2/3)x(sa media de ambas azetas),\ne su giogadore chi azeta est prus acanta a s'obietivu binchet cuddu turnu.\nRispondi cun sa tua azeta in su formatu '[<number>]'."
   },
   "invalid_move": {
     "wrong_format": "Formadu non vàlidu; ispiegat sa ghetta tua comente [<number>].",

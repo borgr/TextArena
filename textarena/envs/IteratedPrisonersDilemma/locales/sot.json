@@ -5,10 +5,10 @@
   "phases": {
     "conversation_finished": "Puisano e fetilwe ho round {round}. Le ka araba '[Cooperate]' kapa '[Defect]' ka har'a \\boxed{{}}.",
     "starting_round": "--- Ho qala Round {round} ---",
-    "round_summary": "Dipego tsa round {round}:\n{outcome}\nPlayer 0 a fumane {r0} (kafung {score_0}), Player 1 a fumane {r1} (kafung {score_1})."
+    "round_summary": "Matokeo a mabapi {round}:\n{outcome}\nMopani 0 a fumane {r0} (kakaretso {score_0}), Mopani 1 a fumane {r1} (kakaretso {score_1})."
   },
   "outcome": {
-    "winner": "Player {winner} wins {win_score} - {lose_score}.",
+    "winner": "Mopani {winner} o hlotse {win_score} - {lose_score}.",
     "draw": "Bapala ka bobeli ba ile ba fumana lintlha {s0}.",
     "round_both_cooperate": "Bapali bana ba babeli ba ile ba sebelisana.",
     "round_both_defect": "Bapali ka bobeli ba ile ba baleha.",

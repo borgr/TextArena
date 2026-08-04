@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "Tha thu na Chluichiche {player_id} ann an Geam Malairt.\nTha beagan goireasan agad, agus 's e do chùram malairt a dhèanamh gus am faighe thu luach iomlan do ghoireasan ag èirigh.\nTha na goireasan agus na luachan a tha ceangailte riutha aig a bheil thu a-nis:\n\t+ {resource_value_list}\nAig a h-uile turas, faodaidh tu bruidhinn ri do nàmhaid agus tairgse malairt a dhèanamh.\nCleachd na faclan sònraichte a leanas airson gniomhan:\n  - '[Tairgse: 3 Caorach, 2 Mhèinnear -> 5 Brec, 2 Caorach]': [Tairgse: Goireasan a bha e a' tabhann -> Goireasan a bha e ag iarradh]\n  - '[Accept]': Gus tairgse a thighinn a ghabhail.\n  - '[Deny]': Gus tairgse a thighinn a dhiùltadh (gnàthach).\nTha an geam a' mairsinn airson {max_turns} turais gu lèir."
+    "intro": "Tha thu na Chluichiche {player_id} ann an Geam Malairt.\nTha beagan goireasan agad, agus 's e do chùram malairt a dhèanamh gus am faighe thu luach iomlan do ghoireasan ag èirigh.\nTha na goireasan agus na luachan a tha ceangailte riutha aig a bheil thu a-nis:\n\t+ {resource_value_list}\nAig a h-uile turas, faodaidh tu bruidhinn ri do nàmhaid agus tairgse malairt a dhèanamh.\nCleachd na faclan sònraichte a leanas airson gniomhan:\n  - '[Offer: 3 Sheep, 2 Ore -> 5 Brick, 2 Sheep]': [Offer: Offered Resources -> Requested Resources]\n  - '[Accept]': Gus tairgse a thighinn a ghabhail.\n  - '[Deny]': Gus tairgse a thighinn a dhiùltadh (gnàthach).\nTha an geam a' mairsinn airson {max_turns} turais gu lèir."
   },
   "invalid_move": {
     "receiving_with_no_resource": "Dh'fheuch an cluicheadair ri malairt a ghabhail gun na goireasan riatanach aige.",
@@ -12,7 +12,7 @@
   },
   "offers": {
     "reject": "Dhiùlt cluicheadair {player_id} an tairgse malairt.",
-    "accept": "Player {acceptor_id} accepted the trade offer from Player {proposer_id}.",
+    "accept": "Ghabh cluicheadair {acceptor_id} ri tairgse malairt bho Chluicheadair {proposer_id}.",
     "proposal": "Rinn Cluichiche {player_id} an tairgse a leanas do Chluichiche {opponent_id}: Eileanan a bha e a' tabhann: {offered} -> Eileanan a bha e ag iarradh: {requested}"
   },
   "outcome": {

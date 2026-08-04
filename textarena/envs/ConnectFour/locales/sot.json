@@ -8,7 +8,7 @@
   },
   "invalid_move": {
     "wrong_format": "Player {player_id}, Mofuta wa hatsoe ha o lumellane. Mofuta o hlokang: '[col x]'.",
-    "out_of_range": "Player {player_id}, Invalid action. Column {col} is out of bounds.",
+    "out_of_range": "Player {player_id}, Tšepo e si sa mokgwa. Lebala {col} le ha le mo melelwane.",
     "already_full": "Player {player_id}, Hatsoe e seng wona. Kolone {col} e phunyeletse."
   },
   "action": {

@@ -4,7 +4,7 @@
   },
   "invalid_move": {
     "receiving_with_no_resource": "རྩེད་འགྲན་པ་གིས་ དགོས་མཁོ་ཅན་གྱི་ ཐོན་ཁུངས་མེད་རུང་ ཚོང་འབྲེལ་འཐབ་ནིའི་ དཔའ་བཅམ་ནུག",
-    "out_of_range": "Player {player_id}, Invalid action. Column {col} is out of bounds.",
+    "out_of_range": "རྩེདམོག་འགྲན་བྱེད་མི་ {player_id} གྱིས་འགན་འཁྲི་མི་འགྲིགས་པ། དུམ་བུ་ {col} ས་མཚམས་ལས་འགོང་བ།",
     "already_full": "མིའོ་{player_id}، འབྲས་བུ་མེད་པའི་ལས་འགུལ། ཀོ་ལམ་{col} འགོག་པ་ཡིན།",
     "proposing_with_no_resource": "རྩེད་འགྲན་པ་ {player_id} གིས་ དགོས་མཁོ་ཅན་གྱི་ ཐོན་ཁུངས་མེད་རུང་ ཚོང་འབྲེལ་གྱི་གདམ་ཁ་འདི་ བཙུགས་ནི་གི་ དཔའ་བཅམ་ནུག",
     "incorrect_offer_format": "རྩེད་འགྲན་པ་ {player_id} གིས་ ཚོང་འབྲེལ་གྱི་གདམ་ཁ་འདི་ ཚུལ་མིན་བཟོ་རྣམ་ནང་ལུ་བཀོད་ནུག",
@@ -12,7 +12,7 @@
   },
   "offers": {
     "reject": "རྩེད་འགྲན་པ་ {player_id} གིས་ ཚོང་འབྲེལ་གྱི་གདམ་ཁ་འདི་ ཆ་མེད་བཏང་ནུག",
-    "accept": "Player {acceptor_id} accepted the trade offer from Player {proposer_id}.",
+    "accept": "རྩེདམོག་འགྲན་བྱེད་མི་ {acceptor_id} གྱིས་རྩེདམོག་འགྲན་བྱེད་མི་ {proposer_id} གྱི་ཚོང་འབྲེལ་གྱི་གྲོས་བཞེས་པ།",
     "proposal": "མིའོ་{player_id} གིས་ མིའོ་{opponent_id} ལ་འདི་འདྲ་གྱི་ཞུ་ཡིག་ཕུལ་ཡོད།: ཕུལ་བའི་རྫས་སྦྱིན།: {offered} -> སྤྲོད་འཇགས་ཀྱི་རྫས་སྦྱིན།: {requested}"
   },
   "outcome": {

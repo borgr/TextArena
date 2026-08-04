@@ -12,7 +12,7 @@
     "invalid_position": "Malvalida movo - ne povas moviĝi al tiu pozicio."
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
+    "moved": "Vi {pushed} movis [{action}].",
     "pushed_prefix": "puŝis skatolon dum"
   },
   "outcome": {

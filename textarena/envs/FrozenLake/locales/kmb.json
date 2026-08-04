@@ -1,21 +1,21 @@
 {
   "player_prompt": {
-    "intro": "Karibu katika Ziwa Lililofungwa!\n\nWewe unawakilishwa na 'P' kwenye gridi.\nMiwani ya Gridi:\n  ' ' = Uso uliofunika na barafu (salama kuendesha)\n  'H' = Shimo (anguka ndani na upotee!)\n  'G' = Mwisho (fikia hii ili ushinde!)\n  'P' = Nafasi yako ya sasa\n\nMabano yanayopatikana: juu, chini, kushoto, kulia (au w, a, s, d)\nAndika hatua yako kama: [up], [down], [left], [right] au [w], [a], [s], [d]\n\nLengo: Abiri kutoka kuanzia (juu-kushoto) hadi mwisho (chini-kulia) bila kuanguka kwenye mashimo yoyote!"
+    "intro": "Mbote na Frozen Lake!\n\nWakuluzwa na 'P' ku mbazi.\nMikengele ya mbazi:\n  ' ' = Selo ya kufwa (mwafrika ku kutemuka)\n  'H' = Imbo (wakwa na uliwa!)\n  'G' = Ntekele (fikila ku ntekele ku winga!)\n  'P' = Mbazi ya sasa\n\nMikakati iyoko: up, down, left, right (kana w, a, s, d)\nTeka njia ya kutenda kama: [up], [down], [left], [right] kana [w], [a], [s], [d]\n\nNjia: Naviga ku mbazi ya kwanza (juu-kushoto) ku ntekele (kushoto-kwenda) ku si kwenda ku imbo!"
   },
   "board": {
-    "current_board": "Current Board:\n\n{board}\n\nAvailable Actions: {actions}"
+    "current_board": "Mbazi ya Sasa:\n\n{board}\n\nMikakati Iyoko: {actions}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use [up], [down], [left], [right] or [w], [a], [s], [d].",
+    "wrong_format": "Njia ya kutenda si ya kawaida. Tumia [up], [down], [left], [right] kana [w], [a], [s], [d].",
     "unknown_action": "O kijimbuete kia \"{action}\" mu dimi dia Kingileji, kilombolola kuila o muthu u tena ku tala bhoxi mba bhulu ni mesu mê.",
-    "hit_wall": "Ulajaribu kusogea {action} lakini uligonga ukuta!"
+    "hit_wall": "Wakutokota {action} kashi wakukuta ku mbaza!"
   },
   "game_action": {
-    "moved": "You moved {action} to position ({row}, {col})."
+    "moved": "Wakutokota {action} ku mbazi ({row}, {col})."
   },
   "outcome": {
     "win": "Eie ua bhixila!",
-    "fell_in_hole": "Umeanguka kwenye shimo! Mchezo umemaliza. Umeanza {pct}% ya safari hadi mwisho.",
-    "turn_limit": "You reached the turn limit! Game over. You completed {pct}% of the journey to the goal."
+    "fell_in_hole": "Wakwa ku imbo! Jogo oti. Wakukwiza {pct}% ya njia ya kwenda ku ntekele.",
+    "turn_limit": "Wakufikila ku mwisho wa mikakati! Jogo oti. Wakukwiza {pct}% ya njia ya kwenda ku ntekele."
   }
 }

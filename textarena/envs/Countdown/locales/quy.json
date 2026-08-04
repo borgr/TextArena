@@ -9,7 +9,7 @@
     "progress": "{observation}\nKunankamana p'unchaykuna: {progress}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use `[i j op]` where i,j are indices and op is +,-,*,/",
+    "wrong_format": "Kamay formaton mana allin. [i j op] kaqta qillqay maypi i,j kaqkunawan yupaykunap ñiqin, op kaqwan +,-,*,/.",
     "invalid_indices": "Mana allin indices. kanan tiyan ch'ichi, 0-{max_index} rangos ukhupi",
     "invalid_operation": "Mana allin operativo (sillawan utaq mana entero kaq resultadowanmi rakin)"
   },

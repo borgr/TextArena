@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a {max_rounds} round game of Kuhn Poker.\nGame Rules:\n- Kuhn Poker uses a 3-card deck with J, Q, K (J lowest, K highest)\n- Each player antes {ante} chip and receives 1 card each round (note that the cards are dealt without replacement, so you cannot have the same card as your opponent).\n- Game continues for {max_rounds} rounds\n- The player with the most chips after all rounds wins\nAction Rules:\n- '[check]': Pass without betting (only if no bet is on the table)\n- '[bet]': Add 1 chip to the pot (only if no bet is on the table)\n- '[call]': Match an opponent's bet by adding 1 chip to the pot\n- '[fold]': Surrender your hand and let your opponent win the pot"
+    "intro": "Sika'y Managpapat {player_id} ed sakey a {max_rounds} round ya palaro na Kuhn Poker.\nPanagawa na Palaro:\n- Say Kuhn Poker so usaren to 3-card deck ya walay J, Q, K (say J so kababaan, say K so kataasan)\n- Walay managpapat so manan-ante {ante} chip tan makaresebi 1 card kada round (pansinin ya say cards so ipawit na walay replacement, kaya agka makasabi na pareho ya card so kalaban mo).\n- Say palaro so pasulod pa {max_rounds} rounds\n- Say managpapat ya walay dakerakel a chip kayari na amin a rounds so manag-awat\nPanagawa na Aksyon:\n- '[check]': Lumakad na walay pusta (no labat no pusta so wala ed mesa)\n- '[bet]': Idagdag 1 chip ed pot (no labat no pusta so wala ed mesa)\n- '[call]': Tumbalik ya pusta na kalaban mo paagi na pagdagdag 1 chip ed pot\n- '[fold]': Isuko ya lima mo tan ipaawat ya kalaban mo so pot"
   },
   "init_round": {
     "round_start": "### Sikatton na round {current_round} diad {max_rounds} a round. Say karta mo: '{player_card}'",
@@ -11,12 +11,12 @@
     "not_legal": "Say kiwas et nepeg ya {legal_actions}."
   },
   "action": {
-    "submit_move": "Player {player_id}, submitted move: '[{move}]'.",
+    "submit_move": "Managpapat {player_id}, inyawid ya move: '[{move}]'.",
     "valid_actions": "Saray available ya gawaen mo et: {legal_actions}.",
-    "round_summary": "{reason} Kasalanan a puntos: Player 0: '{player_0_chips}'; Player 1: '{player_1_chips}'"
+    "round_summary": "{reason} Say kurrenteng iskor: Managpapat 0: '{player_0_chips}'; Managpapat 1: '{player_1_chips}'"
   },
   "showdown": {
-    "showdown_summary": "Showdown: Player {winner}'s {winner_card} beats Player {loser}'s {loser_card}. Player {winner} wins pot of {pot_value} chips."
+    "showdown_summary": "Showdown: Say {winner_card} na Managpapat {winner} so natalo ed {loser_card} na Managpapat {loser}. Say Managpapat {winner} so nakaawat na pot ya {pot_value} chips."
   },
   "outcome": {
     "draw": "Diad sampot na {max_rounds} a round, parehon bilang so chips da.",

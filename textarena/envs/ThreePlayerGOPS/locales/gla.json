@@ -14,7 +14,7 @@
     "{scores}": "The final scores as a raw player-number to score mapping - do not translate"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player GOPS.\n- You hold the 13 cards A-K (each exactly once).\n- Each round a prize is revealed. Submit ONE card like `[Q]`, `[10]`, `[2]` …\n- Highest card wins the prize (+ any carry-over pot). Ties roll the prize into the next round.\n- After 13 rounds, highest total wins. Invalid moves = elimination."
+    "intro": "Is tusa Cluicheadair {player_id} ann an Three-Player GOPS.\n- Tha na 13 cairtean A-K agad (gach fear uair a-mhàin).\n- Aig gach cuairt, tha duais air a nochdadh. Cuir a-steach AON chairt mar `[Q]`, `[10]`, `[2]` …\n- 'S e a' chairt as àirde a bhuannaicheas a' duais (+ a' phot a tha air a tharraing). Tha tiogaidean a' dol a-steach don chuairt eile.\n- An dèidh 13 cuairtean, 's e an t-iomlan as àirde a bhuannaicheas. Gluasadan mì-dhligheach = fàgail a-mach."
   },
   "round": {
     "header": "### Cuairt {round}/13 - Duais: {prize} (aig {worth})",
@@ -30,7 +30,7 @@
     "bad_card": "cairt a chaidh a chleachdadh mar-thà no neo-dhligheach"
   },
   "elimination": {
-    "player": "Player {pid} air a chuir às an dèidh gluasad neo-dhligheach ath-aithris."
+    "player": "Cluicheadair {pid} air a dh'fhàgail a-mach an dèidh gluasadan mì-dhligheach iomadach."
   },
   "outcome": {
     "auto_win": "Tha dithis chluicheadairean air an cur às - buannachadh fèin-ghluasadach.",

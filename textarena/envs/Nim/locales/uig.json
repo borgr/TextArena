@@ -13,7 +13,7 @@
     "exceeds_pile": "توپ {pile_index} دىن {quantity} نى ئېلىپ تاشلىيەلمەيسىز (بارغانسېرى {pile_count} قالمىقى بار)."
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "{player_id} نومۇرلۇق ئويۇنچى [{pile_index} {quantity}] ھەرىكىتىنى قىلدى، {quantity} نەرسىنى {pile_index} نومۇرلۇق كۇپىدىن چىقىرىۋېتتى."
   },
   "outcome": {
     "win": "ئويۇنچى {player_id} ئاخىرقى ئوبيېكتىنى ئالدى!"

@@ -14,7 +14,7 @@
     "{scores}": "The final scores as a raw player-number to score mapping - do not translate"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player GOPS.\n- You hold the 13 cards A-K (each exactly once).\n- Each round a prize is revealed. Submit ONE card like `[Q]`, `[10]`, `[2]` …\n- Highest card wins the prize (+ any carry-over pot). Ties roll the prize into the next round.\n- After 13 rounds, highest total wins. Invalid moves = elimination."
+    "intro": "તમે ત્રણ-ખેલાડી GOPS માં ખેલાડી {player_id} છો.\n- તમારી પાસે 13 કાર્ડ્સ A-K (દરેક એકદમ એકવાર) છે.\n- દરેક રાઉન્ડમાં એક પ્રાઇઝ પ્રકટ થાય છે. એક કાર્ડ જેમ કે `[Q]`, `[10]`, `[2]` … સબમિટ કરો\n- સૌથી ઊંચો કાર્ડ પ્રાઇઝ (+ કોઈપણ કેરી-ઓવર પોટ) જીતે છે. ટાઇઝ પ્રાઇઝને આગામી રાઉન્ડમાં રોલ કરે છે.\n- 13 રાઉન્ડ પછી, સૌથી ઊંચો કુલ જીતે છે. અમાન્ય ચાલ = એલિમિનેશન."
   },
   "round": {
     "header": "### રાઉન્ડ {round}/13 - ઇનામઃ {prize} (વર્થ {worth})",

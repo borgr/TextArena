@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in the Negotiation Game.\nYou have some resources, and your task is to trade such that the total value of your resources increases.\nThe resources and associated values you currently have are:\n\t+ {resource_value_list}\nAt each turn, you can talk to your opponent and make a trade offer.\nUse the following special tokens for actions:\n  - '[Offer: 3 Sheep, 2 Ore -> 5 Brick, 2 Sheep]': [Offer: Offered Resources -> Requested Resources]\n  - '[Accept]': To accept an incoming offer.\n  - '[Deny]': To deny an incoming offer (default).\nThe game lasts for {max_turns} turns in total."
+    "intro": "איר זענט שפילער {player_id} אין דער האנדל־שפיל.\nאיר האט עטלעכע רעסורסן, און אייער אויפגאבע איז צו האנדלען אזוי אז דער גאנצער ווערט פון אייערע רעסורסן ווערט גרעסער.\nדי רעסורסן און פארבונדענע ווערטן וואס איר האט יעצט זענען:\n\t+ {resource_value_list}\nביי יעדן טור, קענט איר רעדן מיט אייערן קעגנער און מאכן א האנדל־אפער.\nניצט די פאלגנדע ספעציעלע טאקענס פאר אקציעס:\n  - '[Offer: 3 Sheep, 2 Ore -> 5 Brick, 2 Sheep]': [Offer: Offered Resources -> Requested Resources]\n  - '[Accept]': צו אקצעפטירן א האנדל־אפער.\n  - '[Deny]': צו אפזאגן א האנדל־אפער (סטאנדארט).\nדי שפיל דויערט {max_turns} טורן אין גאנצן."
   },
   "invalid_move": {
     "receiving_with_no_resource": "דער שפּילער האָט געפּרוּווט אָננעמען אַ האַנדל אָן צו האָבן די נויטיקע רעסורסן.",

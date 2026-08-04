@@ -11,7 +11,7 @@
     "{groups}": "Neutral ranking data (a list of player-id groups, worst to best); do not translate"
   },
   "player_prompt": {
-    "intro": "{num_players}-Player Snake on a {width}×{height} grid.\nYou control snake {player_id}. Valid moves: '[up]'/'[down]'/'[left]'/'[right]' (or w/s/a/d).\nObjective: survive longest or be the longest and get the highest score (turn limit {max_turns} turns)."
+    "intro": "{num_players}-Motswana wa Snake mo gridi ya {width}×{height}.\nO laola noga {player_id}. Ditiro tse di dumelang: '[up]'/'[down]'/'[left]'/'[right]' (kgotsa w/s/a/d).\nMogopolo: tswelela bophelo bo leele kgotsa nna yo mogolo le wena o nne le tsebego e kgolo (moedi wa {max_turns} ditiro)."
   },
   "board": {
     "current": "Boto ya ga jaana: {board}",

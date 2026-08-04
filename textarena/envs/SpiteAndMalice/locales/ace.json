@@ -1,17 +1,17 @@
 {
   "player_prompt": {
-    "intro": "Anda adalah Pemain {player_id} dalam permainan dua pemain Spite dan Malice. Tujuan Anda adalah menjadi yang pertama untuk mengosongkan tumpukan bayaran Anda.\n\n### Tinjauan Permainan:\n- Tujuan adalah membersihkan tumpukan bayaran Anda dengan memainkan kartu ke tumpukan tengah.\n- Anda dapat memainkan kartu dari tiga sumber:\n  1. **Tangan** Anda (Anda memulai setiap giliran dengan hingga 5 kartu di tangan).\n  2. **Kartu teratas dari tumpukan bayaran** Anda.\n  3. **Kartu teratas dari salah satu tumpukan buang** Anda.\n\n### Aturan Bermain:\n- Anda dapat memainkan kartu ke tumpukan tengah jika itu **satu peringkat lebih tinggi** dari kartu teratas di tumpukan itu (tumpukan tengah dimulai dengan Ace dan naik ke Queen; Kings adalah liar - mereka dapat dimainkan di kartu mana pun tetapi tidak mengubah urutan peringkat. Ini berarti jika King digunakan setelah 4, maka King itu berperingkat 5 dan kartu berikutnya harus 6).\n- Jika Anda tidak dapat memainkan kartu lagi, Anda harus **membuang kartu** ke salah satu tumpukan buang Anda untuk mengakhiri giliran Anda.\n- Jika tumpukan tengah mencapai Queen, itu akan dibersihkan secara otomatis.\n- Urutan peringkat adalah: A=1, 2=2, ..., 9=9, J=10, Q=11, K sebagai liar.\n\n### Tindakan:\n1. **Mengambil**: Di awal giliran Anda, ambil kartu untuk mengisi tangan Anda hingga 5 kartu. Masukkan **[draw]** untuk memulai.\n2. **Memainkan Kartu**: Untuk memainkan kartu, tentukan kartu dan tumpukan tengah seperti ini: **[play A♠ 0]** (di mana 'A♠' adalah kartu dan '0' adalah indeks tumpukan tengah).\n3. **Membuang**: Jika Anda tidak dapat memainkan kartu lagi, buang kartu dari tangan Anda ke tumpukan buang untuk mengakhiri giliran Anda. Masukkan **[discard A♠ 1]** (di mana 'A♠' adalah kartu dan '1' adalah indeks tumpukan buang). Perhatikan bahwa Anda tidak dapat membuang kartu dari tumpukan bayaran. Anda hanya dapat membuang kartu dari tangan Anda.\n\n"
+    "intro": "Droe neu Player {player_id} lam jeu Spite and Malice ngon dua droe. Tujuan droe neu nyan keu peubloe payoff pile droe.\n\n### Gambaran Jeu:\n- Tujuan jeu nyan keu peubloe payoff pile droe ngon main kartu keu center piles.\n- Droe neu bisa main kartu dari tiga sumber:\n  1. **Tangan** droe (droe mulai ngon 5 kartu di tangan).\n  2. **Kartu paling aseh di payoff pile** droe.\n  3. **Kartu paling aseh di salah saboh discard piles** droe.\n\n### Aturan Main:\n- Droe neu bisa main kartu keu center pile jika kartu nyan **satu tingkat leubeh** dari kartu paling aseh di pile nyan (center piles mulai ngon Ace ngon troh keu Queen; Kings nyan kartu bebas - bisa main ngon kartu laen tapi hana meutuka urutan tingkat. Nyan keuh meukeusud ngon King nyan digunakan lepas 4, maka King nyan tingkat 5 ngon kartu lheueh nyan harus 6).\n- Jika droe neu hana bisa main kartu laen, droe neu harus **buwang kartu** keu salah saboh discard piles droe ngon akhe turn droe.\n- Jika center pile troh keu Queen, pile nyan akan peubloe ngon otomatis.\n- Urutan tingkat nyan: A=1, 2=2, ..., 9=9, J=10, Q=11, K ngon kartu bebas.\n\n### Aksi:\n1. **Ngambil**: Di awal turn droe, ngambil kartu ngon isi tangan droe troh keu 5 kartu. Masukkan **[draw]** ngon mulai.\n2. **Main Kartu**: Ngom main kartu, sebut kartu ngon center pile ngon cara nyan: **[play A♠ 0]** (di mana 'A♠' nyan kartu ngon '0' nyan indeks center pile).\n3. **Buwang**: Jika droe neu hana bisa main kartu laen, buwang kartu dari tangan droe keu discard pile ngon akhe turn droe. Masukkan **[discard A♠ 1]** (di mana 'A♠' nyan kartu ngon '1' nyan indeks discard pile). Perlu diingat ngon droe neu hana bisa buwang kartu dari payoff pile. Droe neu bisa buwang kartu dari tangan droe.\n\n"
   },
   "board": {
-    "current_board": "Papan Saat Ini:\n\n{board}\nGerakan Tersedia: {moves}"
+    "current_board": "Papan Jeu Sekarang:\n\n{board}\nGerakan Tersedia: {moves}"
   },
   "render": {
-    "center_piles_header": "--- Pile pusat -- ",
+    "center_piles_header": "--- Center Piles ---\n",
     "pile": "{observation}Tumpukan {i}: {pile}\n",
-    "player_view_header": "{observation}\n--- Tampilan Pemain {player_id} ---\n",
-    "payoff": "{observation}Tumpukan Bayaran (Kartu Teratas): {top_card}, Panjang Tumpukan Bayaran: {payoff_length}\n",
+    "player_view_header": "{observation}\n--- Tampakan Player {player_id} ---\n",
+    "payoff": "{observation}Payoff Pile (Kartu Paling Aseh): {top_card}, Panjang Payoff Pile: {payoff_length}\n",
     "hand": "{observation}Tangan: {hand}\n",
-    "discard": "{observation}Tumpukan Buang: {discard}\n",
+    "discard": "{observation}Discard Piles: {discard}\n",
     "empty": "Hana meuasoe."
   },
   "game_message": {
@@ -19,23 +19,23 @@
   },
   "invalid_move": {
     "wrong_format": "Format langkah hana sah. Peumeuén {player_id} han geu respon deungen saboh gerakan nyang valid lam kurung peut sagoe.",
-    "invalid_play": "Gerakan tidak valid. Pemain {player_id} mencoba memainkan {card} di tumpukan tengah {index}.",
-    "discard_from_payoff": "Pengucilan yang hana sah. Pemain {player_id} mencoba untuk membuang kartu dari tumpukan hadiah.",
+    "invalid_play": "Meulakèe jeu. Peumeulakèe {player_id} meu'usaha meulakèe {card} bak tumpukan teungöh {index}.",
+    "discard_from_payoff": "Buang kartu salah. Player {player_id} mencoba buwang kartu dari payoff pile.",
     "discard_not_in_hand": "Pengucilan yang hana sah. Peumeuén {player_id} meucuba untuk geupeutulak kartu nyang kon bak jaroe jih.",
-    "wrong_move_type": "Tipe langkah hana sah.Pemain {player_id} tidak menanggapi dengan tipe gerakan yang valid."
+    "wrong_move_type": "Jenis gerakan salah. Player {player_id} hana menjawab ngon jenis gerakan ngon benar."
   },
   "game_action": {
     "you_drew": "Gata geutarek kartu.",
-    "opponent_drew": "Pemain {player_id} geutarek kartu.",
-    "you_played": "Neupeumeunang {card} bak pile pusat {index}.",
-    "opponent_played": "Pemain {player_id} memainkan {card} di tumpukan tengah {index}.",
-    "you_discarded": "Anda telah membuang {card} ke tumpukan buang {index}, yang juga berarti Anda telah menyelesaikan giliran Anda. Tidak ada tindakan lebih lanjut dari Anda yang dipertimbangkan untuk giliran ini. Pemain {next_player_id} akan bermain selanjutnya.",
-    "opponent_discarded": "Pemain {player_id} membuang {card} ke tumpukan buang {index}, yang juga berarti mereka telah menyelesaikan giliran mereka. Tidak ada tindakan lebih lanjut dari Pemain {player_id} yang dipertimbangkan untuk giliran ini. Pemain {next_player_id}, giliran Anda selanjutnya. Silakan masukkan tindakan Anda dalam format [action card center_index]."
+    "opponent_drew": "Player {player_id} ngambil kartu.",
+    "you_played": "Droe neu main {card} ngon center pile {index}.",
+    "opponent_played": "Player {player_id} main {card} ngon center pile {index}.",
+    "you_discarded": "Droe neu buwang {card} keu discard pile {index}, ngon nyan juga berarti droe neu akhe turn. Hana aksi laen ngon droe neu ngon turn nyan. Player {next_player_id} akan melanjutkan.",
+    "opponent_discarded": "Player {player_id} discarded {card} to discard pile {index}, which also means they finished their turn. No further actions of Player {player_id} is considered for this turn. Player {next_player_id}, you will go next. Please enter your action in the format [action card center_index]."
   },
   "outcome": {
-    "payoff_cleared": "Pemain {current_player} telah menyelesaikan tumpukan bayaran mereka! Pemain {current_player} menang!",
-    "deadlock_player_0": "Jalan buntu tercapai! Pemain 0 menang dengan {player_0_payoff} kartu tersisa vs Pemain 1's {player_1_payoff} kartu.",
-    "deadlock_player_1": "Jalan buntu tercapai! Pemain 1 menang dengan {player_1_payoff} kartu tersisa vs Pemain 0's {player_0_payoff} kartu.",
-    "deadlock_tie": "Jalan buntu tercapai dengan seri! Kedua pemain memiliki {player_0_payoff} kartu tersisa. Pemain {current_player} menang secara default."
+    "payoff_cleared": "Peumeulakèe {current_player} meu'akhir tumpukan bayaran! Peumeulakèe {current_player} meu'menang!",
+    "deadlock_player_0": "Keuadaan meu'imbak! Peumeulakèe 0 meu'menang ngon {player_0_payoff} kartu meu'sisa vs {player_1_payoff} kartu Peumeulakèe 1.",
+    "deadlock_player_1": "Keuadaan meu'imbak! Peumeulakèe 1 meu'menang ngon {player_1_payoff} kartu meu'sisa vs {player_0_payoff} kartu Peumeulakèe 0.",
+    "deadlock_tie": "Deadlock tercapai ngon seri! Kedua player memiliki {player_0_payoff} kartu tersisa. Player {current_player} menang secara default."
   }
 }

@@ -14,7 +14,7 @@
     "{scores}": "The final scores as a raw player-number to score mapping - do not translate"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player GOPS.\n- You hold the 13 cards A-K (each exactly once).\n- Each round a prize is revealed. Submit ONE card like `[Q]`, `[10]`, `[2]` …\n- Highest card wins the prize (+ any carry-over pot). Ties roll the prize into the next round.\n- After 13 rounds, highest total wins. Invalid moves = elimination."
+    "intro": "Owe udi Player {player_id} mu Three-Player GOPS.\n- Owe udi na mayele 13 ya kadi A-K (kila moja haswa mara moja).\n- Kila wakati wa mchezo, kadi ya prix inatolewa. Wasilisha kadi moja kama `[Q]`, `[10]`, `[2]` …\n- Kadi ya juu inashinda prix (+ pot yoyote iliyobebwa). Ties inaendesha prix hadi wakati wa mchezo unaofuata.\n- Baada ya wakati wa mchezo 13, jumla ya juu inashinda. Hatua batili = kuondolewa."
   },
   "round": {
     "header": "### Mzunguko {round}/13 - Zawadi: {prize} (inayogharimu {worth})",

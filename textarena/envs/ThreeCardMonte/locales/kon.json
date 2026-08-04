@@ -11,7 +11,7 @@
     "{ball_pos}": "The cup index the ball is under"
   },
   "player_prompt": {
-    "intro": "Track the hidden ball 'X' while the cups are shuffled.\nAfter shuffling, guess its location with `[k]`."
+    "intro": "Landisa mpira wa kufwa 'X' ntangu makopo mayebisi.\nKufwa mayebisi, kubanza nkanu yake na `[k]`."
   },
   "game_message": {
     "ball_starts": "Bo me yantika kubula bale: {line}",
@@ -21,11 +21,11 @@
     "reveal": "(Songa: nkweso na nsi ya {ball_pos})"
   },
   "invalid_move": {
-    "wrong_format": "Bad action. Use `[k]`.",
+    "wrong_format": "Mauvanele mabaya. Tuba na `[k]`.",
     "out_of_range": "Index kele na kati ya 0-{max_index}."
   },
   "outcome": {
     "win": "Nge me zwa nkweso.",
-    "lose": "Wrong — ball was under cup {ball_pos}."
+    "lose": "Mabe — mpira wakala mukopo wa {ball_pos}."
   }
 }

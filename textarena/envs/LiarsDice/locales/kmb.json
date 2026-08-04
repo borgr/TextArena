@@ -22,15 +22,15 @@
     "final_ranking": "list of player indices from first eliminated to winner"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in an {num_players}-player Liar's Dice game.\nRules:\n- On your turn, you may either:\n  1) Make a new bid with a higher quantity or higher face (or both) than the current bid; i.e. '[Bid: 3, 4]',\n  2) Call the last bid by typing '[Call]'.\n\nIf you call:\n  - If the actual count of that face value among all dice is less than the bid, the last bidder loses one die.\n  - Otherwise, the caller loses one die.\nA player who reaches 0 dice is eliminated. The last remaining player wins."
+    "intro": "Ndiye Mukandi {player_id} katika mchezo wa Liar's Dice wa {num_players} mukandi.\nKanuni:\n- Katika zamu yako, unaweza ama:\n  1) Fanya ofa mpya na wingi mkubwa au uso wa juu (au zote mbili) kuliko ofa ya sasa; yaani '[Bid: 3, 4]',\n  2) Toa ofa ya mwisho kwa kuandika '[Call]'.\n\nIkiwa unatoa ofa:\n  - Ikiwa hesabu halisi ya adili ya uso wa ndenge kati ya ndenge zote ni chini ya ofa, mtoa ofa wa mwisho anapoteza ndenge moja.\n  - Vinginevyo, mtoa ofa anapoteza ndenge moja.\nMukandi anayefikia ndenge 0 anashindwa. Mukandi wa mwisho anayebaki anashinda."
   },
   "board": {
     "per_player": "\tMukala {p}: {d}",
     "new_round": "\nMvula mpya - Mafuta yamaboko: {dice_summary}\nMafuta yako yamaboko ni: {your_dice}"
   },
   "call": {
-    "bidder_loses": "Player {current_player_id} calls! The actual count of face {face_value} is {count}, which is LESS than {quantity}.\nPlayer {loser_id} (the last bidder) loses one die.",
-    "caller_loses": "Player {current_player_id} calls! The actual count of face {face_value} is {count}, which is >= {quantity}.\nPlayer {loser_id} (the caller) loses one die."
+    "bidder_loses": "Mukandi {current_player_id} anatoa ofa! Hesabu halisi ya uso {face_value} ni {count}, ambayo ni CHINI ya {quantity}.\nMukandi {loser_id} (mtoa ofa wa mwisho) anapoteza ndenge moja.",
+    "caller_loses": "Mukandi {current_player_id} anatoa ofa! Hesabu halisi ya uso {face_value} ni {count}, ambayo ni >= {quantity}.\nMukandi {loser_id} (mtoa ofa) anapoteza ndenge moja."
   },
   "action": {
     "bid_announce": "Mukala {player_id} ukala {quantity} kwa nzamba {face_value}."
@@ -38,11 +38,11 @@
   "invalid_move": {
     "call_no_bid": "O muthu ua kexile mu uixana, ka zuela se nanhi a mu bhana o kitadi.",
     "invalid_bid": "O kitadi kia bhana ki kiexile kia kidi: {reason}",
-    "not_recognized": "Hatua isiyotambulika kama '[Bid: X, Y]' au '[Call]' halali. Hatua iliyopewa: {action}"
+    "not_recognized": "Hatua haijatambuliwa kama ofa halali '[Bid: X, Y]' au '[Call]'. Hatua iliyotolewa: {action}"
   },
   "bid_reason": {
-    "quantity_lower": "New quantity {new_quantity} is lower than current {current_quantity}.",
-    "face_lower": "New face value {new_face_value} is lower than current {current_face_value}.",
+    "quantity_lower": "Wingi mpya {new_quantity} ni chini ya {current_quantity} ya sasa.",
+    "face_lower": "Adili mpya ya uso {new_face_value} ni chini ya {current_face_value} ya sasa.",
     "identical": "O kitadi kia bhana, ki sokela ni kima kiala na-kiu o muthu.",
     "face_range": "O itambuijilu ia tokala i kala bhu kaxi ka 1 ni 6."
   },

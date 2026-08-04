@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in Chopsticks. On your turn, choose one of:\n  + Attack:  '[attack M O]'  where M=your hand (0 or 1), O=opponent hand (0 or 1).\n    - Opponent's hand count increases by your hand; if >=5, it becomes 0.\n  + Split:   '[split L R]'  to redistribute your total fingers into L and R (L+R = your total).\nReply with exactly one of those commands."
+    "intro": "Ati pilaayi {player_id} ta'a Chopsticks irratti. Gochi kee irratti, tokko filadhu:\n  + Miidhuu: '[attack M O]'  M=harka kee (0 ykn 1), O=harka diinaa (0 ykn 1).\n    - Lakkoofsa harka diinaa harka keetiin dabala; yoo >=5 ta'e, 0 ta'a.\n  + Qoodu:   '[split L R]'  harka kee walitti qabu L fi R (L+R = walitti qabu kee).\nDeebii tokko kanatti ajaja."
   },
   "board": {
     "current_board": "Booradii kuusaa:\nPleyer 0: {hands_0}\nPleyer 1: {hands_1}"
@@ -14,7 +14,7 @@
   },
   "game_action": {
     "attack": "P{player_id} {opp_id}-tiif handi {opp_idx}: dhugaa {opp_val}-tiif {new_val}.",
-    "split": "P{player_id} splits into [{L}, {R}]."
+    "split": "P{player_id} [{L}, {R}] qooda."
   },
   "history": {
     "entry": "P{player_id} {desc}"

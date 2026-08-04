@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in **Ultimate Tic Tac Toe**.\nSubmit your move as **[macro  micro]** (two numbers 0-8):\n• *macro*  = which mini-board you play in\n• *micro* = which square inside that mini-board\nExample `[7 8]` ➜ place your mark in mini-board 7, square 8, and\nforce your opponent to play in mini-board 8 next.\n\nYou are `{symbol}`.\n"
+    "intro": "Jius esat Spēlētājs {player_id} **Ultimate Tic Tac Toe** spēlē.\nIesniegiet savu gājienu kā **[macro  micro]** (divi skaitļi 0-8):\n• *macro*  = kurā mini-tabulā jūs spēlējat\n• *micro* = kurā lauciņā iekš tā mini-tabulā\nPiemērs `[7 8]` ➜ novietojiet savu zīmi mini-tabulā 7, lauciņā 8, un\npiespiest savam pretiniekam spēlēt nākamajā mini-tabulā 8.\n\nJius esat `{symbol}`.\n"
   },
   "board": {
     "current_board": "Niu pastuovūšuo biroja {board}"

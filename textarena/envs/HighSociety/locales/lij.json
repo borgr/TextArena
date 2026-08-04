@@ -9,7 +9,7 @@
     "money_cards": "E teu carte de dinæ restante: {money}"
   },
   "invalid_move": {
-    "wrong_format": "A deve includde exattamente unna carta de dinæ [X].",
+    "wrong_format": "Devi includde esattamente una carta de dinæ [X].",
     "card_not_held": "No ti gh'æ ciù quella carta de dinæ."
   },
   "message": {

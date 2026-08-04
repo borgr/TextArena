@@ -9,7 +9,7 @@
     "wrong_format": "Me whakaputa te mahi ki te tuhituhi rite, me [accept], me [continue] ranei."
   },
   "outcome": {
-    "summary": "You accepted value {value} at draw {draw_num}/{N}. The best overall was {best}. {result}",
+    "summary": "I whakaae koe ki te uara {value} i te tīpoka {draw_num}/{N}. Ko te mea pai rawa atu ko {best}. {result}",
     "perfect": "He kōwhiringa tino pai! ",
     "not_max": "Ehara i te mea nui rawa."
   }

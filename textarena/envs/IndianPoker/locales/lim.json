@@ -25,7 +25,7 @@
   "message": {
     "round_result": "{reason}  Pot {pot} → Speler {winner}. (Bankrolle P0:{p0}, P1:{p1})",
     "folded": "Speler {player_id} gevold.",
-    "showdown_win": "Showdown: {card_win} beats {card_lose}.",
+    "showdown_win": "Showdown: {card_win} versleit {card_lose}.",
     "showdown_tie": "Showdown tied: both {card}. Pot split  each receives {split}."
   },
   "outcome": {

@@ -5,10 +5,10 @@
     "commander_beta": "Kommandør Beta, ikkje sant."
   },
   "game_state": {
-    "header_round": "=== COLONEL BLOTTO - Round {current_round}/{num_rounds} ===\nRounds Won - Commander Alpha: {alpha_score}, Commander Beta: {beta_score}"
+    "header_round": "=== COLONEL BLOTTO - Runde {current_round}/{num_rounds} ===\nVunne rundar - Kommandør Alfa: {alpha_score}, Kommandør Beta: {beta_score}"
   },
   "round_battle": {
-    "field_result": "\nRound {current_round}\nCommander Alpha allocated: {p0_allocations}\nCommander Beta allocated: {p1_allocations}\n",
+    "field_result": "\nRunde {current_round}\nKommandør Alfa allokerte: {p0_allocations}\nKommandør Beta allokerte: {p1_allocations}\n",
     "winner_alpha": "{message}Vinnar: Kommandør Alpha",
     "winner_beta": "{message}Vinnar: Kommandør Beta",
     "tie": "{message}Krav!"

@@ -8,9 +8,9 @@
   },
   "invalid_move": {
     "wrong_format": "Format langkah hana sah. Peumeu'en {player_id} han geu respon deungen 'nomor bareh kolom nyang valid'.",
-    "out_of_bounds": "Gerakan tidak sah. Pemain {player_id} mencoba meletakkan {num} di ({row}, {col}), yang berada di luar batas.",
-    "overwrite": "Gerakan tidak sah. Pemain {player_id} mencoba menimpa sel yang sudah terisi sebelumnya ({row}, {col}).",
-    "violates_rules": "Gerakan tidak sah. Pemain {player_id} mencoba meletakkan {num} di ({row}, {col}), yang melanggar aturan Sudoku."
+    "out_of_bounds": "Jawaëb salah. Player {player_id} coba meletakkan {num} di ({row}, {col}), yang di luar batas.",
+    "overwrite": "Jawaëb salah. Player {player_id} coba menulis ulang sel yang ka isi ({row}, {col}).",
+    "violates_rules": "Jawaëb salah. Player {player_id} coba meletakkan {num} di ({row}, {col}), yang melanggar ateur Sudoku."
   },
   "outcome": {
     "win": "Teurimeung bri saleum! Peunemu {player_id} ka meupeuseuleusoe puzzle Sudoku.",

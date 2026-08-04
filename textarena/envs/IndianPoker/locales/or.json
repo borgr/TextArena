@@ -9,7 +9,7 @@
     "ambiguous": "ଗୋଟିଏ ଗୋଟିଏ ବ୍ରେକେଟରେ ଥିବା କ୍ରିୟା, ଯେପରିକି \"[check]\", \"[bet 2]\", \"[call]\", \"[raise 3]\", କିମ୍ବା \"[fold]\" ପ୍ରଦାନ କରନ୍ତୁ ।",
     "cannot_check": "Cannot [check] - ଆପଣ ଏକ ବେଟ୍ ଫେସ କରୁଛନ୍ତି.",
     "amount_min": "ବିଟ୍/ରେଜ୍ର ପରିମାଣ ≥ 1 ହେବା ଉଚିତ ।",
-    "cannot_bet": "Cannot [bet] - must [call] / [raise] / [fold].",
+    "cannot_bet": "[bet] କରିପାରିବେ ନାହିଁ - [call] / [raise] / [fold] କରିବା ଆବଶ୍ୟକ.",
     "nothing_to_call": "ଡାକିବାକୁ କିଛି ନାହିଁ; ଆପଣ [check] ବଦଳରେ ଡାକିବେ ।",
     "no_bet_to_raise": "ଖୋଲିବା ପାଇଁ [bet X] ବ୍ୟବହାର କରନ୍ତୁ; ବଢ଼ାଇବା ପାଇଁ କୌଣସି ବେଟ୍ ନାହିଁ ।",
     "insufficient": "ସେହି କାର୍ଯ୍ୟ ପାଇଁ ଯଥେଷ୍ଟ ଚିପ୍ସ ନାହିଁ ।"

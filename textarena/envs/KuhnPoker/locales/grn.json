@@ -11,12 +11,12 @@
     "not_legal": "Ojejapo va'erã {legal_actions}."
   },
   "action": {
-    "submit_move": "Player {player_id}, submitted move: '[{move}]'.",
+    "submit_move": "Jugador {player_id}, ome'ẽ jehasa: '[{move}]'.",
     "valid_actions": "Umi mba'e ikatúva rejapo ha rejapokuaa hína ko'ã: {legal_actions}.",
-    "round_summary": "{reason} Tapicha tembiapo: Jogador 0: '{player_0_chips}'; Jogador 1: '{player_1_chips}'"
+    "round_summary": "{reason} Mbovy'a opaite: Jugador 0: '{player_0_chips}'; Jugador 1: '{player_1_chips}'"
   },
   "showdown": {
-    "showdown_summary": "Showdown: Player {winner}'s {winner_card} beats Player {loser}'s {loser_card}. Player {winner} wins pot of {pot_value} chips."
+    "showdown_summary": "Paha: Jugador {winner} {winner_card} ohasa Jugador {loser} {loser_card} pe. Jugador {winner} ojeporuha {pot_value} ficha kuéra."
   },
   "outcome": {
     "draw": "Opa rire {max_rounds} ronda, mokõivéva jugador oguereko papapy peteĩcha chip-kuéra.",

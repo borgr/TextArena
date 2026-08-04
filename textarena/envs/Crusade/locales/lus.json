@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({piece}). Opponent is ({opp}). Submit moves as '[b1 c3]' (from → to). All pieces move like chess knights.\nEach capture scores {score_per_capture} point. Game ends after {max_moves} moves or when a player has no legal move / no pieces. Higher score wins."
+    "intro": "I Player {player_id} ({piece}) ni. Opponent chu ({opp}) a ni. '[b1 c3]' (atanga → ah) anga move theh lut rawh. Piece zawng zawng chess knight anga kal an ni.\nCapture tin {score_per_capture} point hmu thei. Game {max_moves} move zoah emaw, player ten legal move an neih loh emaw, piece an neih loh emaw ah a tawp. Score sang zawk chuan a chak."
   },
   "board": {
     "current_board": "Move #{move_count}\n\n{board}\n\nHmun hrang hmang theih: {moves}"

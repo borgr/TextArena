@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are {role} in Colonel Blotto.\nYour goal is to win more rounds than your opponent.\nOn each round, allocate exactly {num_total_units} units across fields {field_names}.\nThe player who allocates more units to a field wins that field, and the player who wins more fields wins the round.\nFor example, '[A7 B7 C6]' allocates 7 units to A, 7 to B, and 6 to C.",
+    "intro": "Siti {role} 'n Colonel Blotto.\nLu vostro obbiettivu è vinciri cchiù turni dû vostro avversariu.\nNtô ogni turnu, allocati esattamenti {num_total_units} unità attraversu li campi {field_names}.\nLu jucaturi ca allocati cchiù unità a un campu vinci ddù campu, e lu jucaturi ca vinci cchiù campi vinci lu turnu.\nPi esempiu, '[A7 B7 C6]' allocati 7 unità a A, 7 a B, e 6 a C.",
     "commander_alpha": "Cumannanti Alpha.",
     "commander_beta": "Cmdr. Beta, u vostru capu!"
   },

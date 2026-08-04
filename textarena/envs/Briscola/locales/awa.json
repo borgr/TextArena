@@ -27,7 +27,7 @@
   "hand": {
     "none": "नाहीं कार्डिगन!",
     "empty": "हाथ मा कौनो कार्ड नाही बा",
-    "header": "Your hand:",
+    "header": "आपका हाथ:",
     "card_line": "  {pos}. {card} [{points} pts]{trump_mark}",
     "trump_mark": "(ट्रांप) कहिन कि-"
   },
@@ -52,6 +52,6 @@
   },
   "outcome": {
     "head": "गेम ओवर! प्लेयर {winner} {points} पॉइंट्स के साथ जीतता है!\n\nअंतिम स्कोर:\n{scores}",
-    "player_line": "Player {player_id}: {points} points ({tricks} tricks)\n"
+    "player_line": "खिलाड़ी {player_id}: {points} पॉइंट्स ({tricks} चाल)\n"
   }
 }

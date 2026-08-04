@@ -13,8 +13,8 @@
     "already_matched": "Noto'g'ri harakat. O'yinchi {player_id} allaqachon moslashtirilgan kartalardan birini yoki ikkalasi ham tanladi."
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "O'yinchi {player_id} tomonidan [{r1} {c1}] va [{r2} {c2}] pozitsiyalarida tanlangan kartalar mos keladi!",
+    "cards_no_match": "O'yinchi {player_id} tomonidan tanlangan kartalar mos kelmaydi. [{r1} {c1}] va [{r2} {c2}] pozitsiyalaridagi kartalar mos ravishda {pos1} va {pos2} dir."
   },
   "outcome": {
     "draw": "Ikkala o'yinchi ham bir xil miqdordagi karta juftlarini tenglashtirdi.",

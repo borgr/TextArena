@@ -16,7 +16,7 @@
     "bids": "Biede: P0 {card0} vs P1 {card1} - ",
     "p0_wins": "{observation}Sjpeler 0 wint {pot_value}.",
     "p1_wins": "{observation}Speler 1 wint {pot_value}.",
-    "tie": "{observation}Tie -> pot now {carry_pot}.",
+    "tie": "{observation}Gelièjd -> pot noe {carry_pot}.",
     "scores": "Sjores -> P0:{score0}  P1:{score1}"
   },
   "outcome": {

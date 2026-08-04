@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "Welcome to Frozen Lake!\n\nYou are represented by 'P' on the grid.\nGrid symbols:\n  ' ' = Frozen surface (safe to walk on)\n  'H' = Hole (fall in and lose!)\n  'G' = Goal (reach this to win!)\n  'P' = Your current position\n\nAvailable actions: up, down, left, right (or w, a, s, d)\nType your action as: [up], [down], [left], [right] or [w], [a], [s], [d]\n\nObjective: Navigate from the start (top-left) to the goal (bottom-right) without falling into any holes!\n"
+    "intro": "Sveicieni uz Salu ezerā!\n\nJius atspīgsta kā 'P' režģī.\nRežģa simboli:\n  ' ' = Salts virsma (droši pastaigāt)\n  'H' = Doņs (kriti iekšā un zaudi!)\n  'G' = Mērķis (sasnieg šo, lai uzvarētu!)\n  'P' = Jūsu pašreizējā pozīcija\n\nPieejamās darbības: augšā, lejā, kreisā, labā (vai w, a, s, d)\nRakstiet savu darbību kā: [up], [down], [left], [right] vai [w], [a], [s], [d]\n\nMērķis: Pārvietojieties no sākuma (augšā-kreisā) uz mērķi (lejā-labā) bez kritiena jebkurā doņā!\n"
   },
   "board": {
     "current_board": "Pašreizējā tabula:\n\n{board}\n\nPieejamie soļi: {actions}"
@@ -8,7 +8,7 @@
   "invalid_move": {
     "wrong_format": "Nederīgs darbības formāts. Lietojiet [up], [down], [left], [right] vai [w], [a], [s], [d].",
     "unknown_action": "Nazynoma darbeiba \"{action}\". Izmontoj augšuok, lejupīluodē, kreisā pusē, lobā pusē voi w, a, s, d.",
-    "hit_wall": "You tried to move {action} but hit a wall!"
+    "hit_wall": "Jūs mēģinājāt pārvietoties {action}, bet saskārāties ar sienu!"
   },
   "game_action": {
     "moved": "Jūs pārvietojāt {action} uz pozīciju ({row}, {col})."

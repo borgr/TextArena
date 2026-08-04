@@ -9,13 +9,13 @@
   },
   "game_action": {
     "you_sunk": "Ngonkoh! Sie ngon ngonkoh kapal di {coord}! Peta sie yang telah diperbarui:\n{view}",
-    "opp_sunk": "Opponent sunk your ship at {coord}! Your updated board:\n{view}",
+    "opp_sunk": "Lawan peusoe kapal perang droeueuh bak {coord}! Papan droeueuh nyang geupuga:\n{view}",
     "you_hit": "Hit! Sie ngon hit kapal di {coord}! Peta sie yang telah diperbarui:\n{view}",
     "opp_hit": "Lawan ngon hit kapal sie di {coord}! Peta sie yang telah diperbarui:\n{view}",
     "you_miss": "Meleset! Sie ngon meleset kapal di {coord}! Peta sie yang telah diperbarui:\n{view}",
     "opp_miss": "Lawan ngon meleset kapal sie di {coord}! Peta sie yang telah diperbarui:\n{view}"
   },
   "outcome": {
-    "win": "Player {player_id} has sunk all of their opponent's ships!"
+    "win": "Pemain {player_id} ka peusoe kapal perang lawan mandum!"
   }
 }

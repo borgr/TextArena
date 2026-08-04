@@ -1,9 +1,9 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a game of HighSociety (2-player version).\nGame flow:  Ten prestige cards are auctioned one after another.\nBidding:    Each auction, secretly choose a money card 1-11 and reveal.\n            • Higher bid wins the prestige card and discards that money card.\n            • Lower bid keeps their money card.\n            • Tie -> both bids are returned and the same prestige card is re-auctioned.\nScoring:    After all ten auctions, add **remaining cash + prestige points**.\n            Higher *net-worth* wins (exact tie -> draw).\n\n**Action syntax**  →  bid a single card like '[7]' or '[11]'."
+    "intro": "Yaa Player {player_id} kɛɛrɛ HighSociety tɛɛnɛ (2-player tɛɛnɛ).\nKɛɛrɛ laɣa:  Kɛɛmɛ prestige kɔɔsɛ kɛɛrɛ kɛɛ kɛɛ.\nKɔɔrɔ:    Kɛɛ kɔɔrɔ, kɛɛmɛ sɔɔrɔ kɛɛ kɛɛ kɛɛ kɛɛ kɛɛ kɛɛ kɛɛ.\n            • Kɔɔrɔ kɛɛ kɛɛ kɛɛ kɛɛ kɛɛ kɛɛ kɛɛ.\n            • Kɔɔrɔ kɛɛ kɛɛ kɛɛ kɛɛ kɛɛ kɛɛ.\n            • Tie -> kɔɔrɔ kɛɛ kɛɛ kɛɛ kɛɛ kɛɛ kɛɛ kɛɛ.\nKɔɔntɛ:    Kɛɛ kɔɔntɛ kɛɛ kɛɛ kɛɛ kɛɛ kɛɛ kɛɛ.\n            Kɔɔntɛ kɛɛ kɛɛ kɛɛ kɛɛ kɛɛ kɛɛ kɛɛ.\n\n**Kɔɔrɔ tɛɛnɛ**  →  kɔɔrɔ kɛɛ kɛɛ kɛɛ '[7]' wɛɛ '[11]'."
   },
   "auction": {
-    "announce": "\n### Auction {round}/10  |  Prestige card: {prize}"
+    "announce": "\n### Kɔɔrɔ {round}/10  |  Prestige kɔɔsɛ: {prize}"
   },
   "board": {
     "money_cards": "Y sẽn ket n tar ligd kartã: {money}"
@@ -14,11 +14,11 @@
   },
   "message": {
     "tie": "B lebs n deegame tɩ b ra pa tõe n yãk ye.",
-    "auction_result": "P0 bid {bid0}, P1 bid {bid1}. Player {winner} wins prestige {prize} (total {total})."
+    "auction_result": "P0 kɔɔrɔ {bid0}, P1 kɔɔrɔ {bid1}. Player {winner} kɛɛ prestige {prize} (kɛɛ {total})."
   },
   "outcome": {
-    "p0_wins": "Net-worth {nw0} > {nw1}",
-    "p1_wins": "Net-worth {nw1} > {nw0}",
+    "p0_wins": "Kɔɔntɛ {nw0} > {nw1}",
+    "p1_wins": "Kɔɔntɛ {nw1} > {nw0}",
     "draw": "B yiibã fãa ligdã sẽn yaa sõma wã {nw0}  zems-n-taar sɩd menga."
   }
 }

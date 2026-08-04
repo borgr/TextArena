@@ -22,7 +22,7 @@
     "final_ranking": "list of player indices from first eliminated to winner"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in an {num_players}-player Liar's Dice game.\nRules:\n- On your turn, you may either:\n  1) Make a new bid with a higher quantity or higher face (or both) than the current bid; i.e. '[Bid: 3, 4]',\n  2) Call the last bid by typing '[Call]'.\n\nIf you call:\n  - If the actual count of that face value among all dice is less than the bid, the last bidder loses one die.\n  - Otherwise, the caller loses one die.\nA player who reaches 0 dice is eliminated. The last remaining player wins."
+    "intro": "A nye Player {player_id} kɩnɛ kpɛlɛkɩm {num_players}-kpɛlɛkɩm Liar's Dice tʋm.\nSɔsɔɔlɩ:\n- A tʋm taa, a pɩzɩɣ a nɛɛ:\n  1) Kpaɣɖɛ kɔɔ mbʋʋ kɩ-taa tɔm kɔɔ pɩ-taa nɛɛ kɩ-taa yɔɔ (ɛzɩ pɩ-taa nɛɛ kɩ-taa tɔm) pɩ-taa nɛɛ kɩ-taa yɔɔ '[Bid: 3, 4]',\n  2) Yɛɛ kpaɣɖɛ kɔɔ tɔm kɔɔ pɩ-taa nɛɛ '[Call]'.\n\nA yɛɛ kpaɣɖɛ kɔɔ:\n  - A tɔm kɔɔ pɩ-taa nɛɛ tɔm kɔɔ ɛ-taa nɛɛ kɩ-taa tɔm kɔɔ pɩ-taa nɛɛ, kpaɣɖɛ kɔɔ tɔm kɔɔ lɩzɩɣ kɔɔ kʋɖʋm.\n  - A tɔm kɔɔ pɩ-taa nɛɛ tɔm kɔɔ ɛ-taa nɛɛ kɩ-taa tɔm kɔɔ pɩ-taa nɛɛ, yɛɛ kpaɣɖɛ kɔɔ lɩzɩɣ kɔɔ kʋɖʋm.\nKpɛlɛkɩm weyi ɛfɛyɩ kʋɖʋm ɛ-taa nɛɛ ɛ-ɛlɩɣ. Kpɛlɛkɩm weyi ɛkɩlɩ ɛ-taa nɛɛ ɛ-ɛwɛʋ."
   },
   "board": {
     "per_player": "\tPiloto {p}: {d}",
@@ -33,12 +33,12 @@
     "caller_loses": "Piloto {current_player_id} calls! Actual count of face {face_value} èyɛ {count}, ɛlɛɛyɛ >= {quantity}.\nPiloto {loser_id} (the caller) loses one die."
   },
   "action": {
-    "bid_announce": "Player {player_id} bids {quantity} of face {face_value}."
+    "bid_announce": "Pilaɣa {player_id} kpɛndɩ {quantity} kɛ kɩkpaɣyɛ {face_value}."
   },
   "invalid_move": {
     "call_no_bid": "Pataaɖʋ liidiye pʋcɔ nɛ paya-ɩ.",
     "invalid_bid": "Pɩtɛ kɩmɩyɛ: {reason}",
-    "not_recognized": "Action not recognized as either a valid '[Bid: X, Y]' or '[Call]'. Submitted action: {action}"
+    "not_recognized": "Tʊmɩŋ tɛɛ tɛɛ tɛɛ tɛɛ tɛɛ tɛɛ '[Bid: X, Y]' yaa '[Call]'. Tʊmɩŋ tɛɛ tɛɛ: {action}"
   },
   "bid_reason": {
     "quantity_lower": "New quantity {new_quantity} èyɛ ɖɩkpaɣna naɣyɩ taa current {current_quantity}.",

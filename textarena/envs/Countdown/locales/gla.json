@@ -9,7 +9,7 @@
     "progress": "{observation}\nScòr adhartais aig an àm seo: {progress}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use `[i j op]` where i,j are indices and op is +,-,*,/",
+    "wrong_format": "Fòrmat gnìomh mì-cheart. Cleachd `[i j op]` far a bheil i,j nan àireamhan-indecs agus op +,-,*,/",
     "invalid_indices": "Tha clàr-amais neo-dhligheach. Feumaidh iad a bhith eadar-dhealaichte agus ann an raon 0 -{max_index}",
     "invalid_operation": "Oibritheachadh neo-dhligheach (roinn le null no toradh nach eil na àireamh iomlan)"
   },

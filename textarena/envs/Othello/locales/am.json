@@ -16,7 +16,7 @@
   },
   "game_action": {
     "skipped": "ተጫዋቹ {pid} ተራውን መተው ነበረበት።",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "ተጫዋች {pid} ({piece}) እንዲጫወት [{r}, {c}] አንድ ወይም በማንኛውም ክፍል እንዲሸከም {flipped} ክፍሎች"
   },
   "game_message": {
     "must_skip": "ተጫዋች {pid} ({piece}) ተስማሚ ሂደቶች የሉም እና መስማማት አለበት."

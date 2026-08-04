@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({piece}). Opponent is ({opp}).\nSubmit moves as '[a2 a3]' (from → to).\n- A normal move is one forward step to an adjacent empty vertex.\n- A capture is a jump over an adjacent enemy piece landing on the empty node beyond.\nEach capture yields {score_per_capture} points.\nGame ends after {max_moves} moves or when a player has no legal move."
+    "intro": "O kerekere mo Player {player_id} ({piece}). O kerekere ni oponenti ni ({opp}).\nVakauta na move me '[a2 a3]' (mai → ki).\n- E dua na move vakadodonu e dua na sori ki liu ki na vertex walu tu vakalala.\n- E dua na capture e dua na soko ki liu na kerekere ni oponenti ka lutu ki na node walu tu vakalala e muri.\nE dua na capture e solia {score_per_capture} poi.\nNa qito e sa voleka ni {max_moves} moves se ni o kerekere e sega ni move vakalawa."
   },
   "board": {
     "current_board": "Kena {move_count}\n\n{board}"

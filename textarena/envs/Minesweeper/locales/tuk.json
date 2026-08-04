@@ -8,7 +8,7 @@
   },
   "invalid_move": {
     "wrong_format": "Siz kvadrat çakyrlarda dogry koordinatalar bilen jogap bermediňiz.",
-    "out_of_bounds": "The specified row and column coordinates are out of bounds.",
+    "out_of_bounds": "Saýlanan setir we sütun koordinatlary ýagdaýlaryň çäklerinden daşarda ýerleşýär.",
     "already_revealed": "Siz ({row}, {col}) ýerini ýene açdýňyz.",
     "hit_mine": "Siz ({row}, {col}) ýerinde miña çydýňyz."
   },
@@ -17,6 +17,6 @@
   },
   "outcome": {
     "win": "Gural alyşlar! Siz Minesweeper tagtyny üstünlikli boşadadyňyz.",
-    "turn_limit": "The turn limit has been reached. You successfully uncovered {percent}% of the safe cells."
+    "turn_limit": "Ýol ýapmak üçin möhlet gutardy. Siz {percent}% howpsuz ýagdaýlary açyk ýapdyňyz."
   }
 }

@@ -4,16 +4,16 @@
   },
   "invalid_move": {
     "receiving_with_no_resource": "Ɛyʋ weyi ɛñɩnaɣ se ɛmʋ tʋmɩyɛ nɖɩ yɔ, ɛtaawɛɛnɩ liidiye.",
-    "out_of_range": "Player {player_id}, Invalid action. Column {col} is out of bounds.",
-    "already_full": "Player {player_id}, Invalid action. Column {col} is full.",
+    "out_of_range": "Aweyi'yɛ {player_id}, tʊmɩyɛ ɛfɛyɩ. Kolɔnɩ {col} ɛwɛɛ pɩtɩŋga.",
+    "already_full": "Aweyi'yɛ {player_id}, tʊmɩyɛ ɛfɛyɩ. Kolɔnɩ {col} ɛwɛɛ camɩyɛ.",
     "proposing_with_no_resource": "Ɖajaa {player_id} ñaɣ pana nɛ ɛla tadɩyɛ ɛlɛ ɛfɛyɩna liidiye nɖɩ pɩpɔzʋʋ yɔ.",
     "incorrect_offer_format": "Aleɣya laɖʋ {player_id} labɩ aleɣya nɛ pɩfɛyɩ ɖeu.",
     "no_new_offer": "Ɖajaa {player_id} tatasɩ haʋ waɖɛ naɖɩyɛ."
   },
   "offers": {
-    "reject": "Player {player_id} rejected the trade offer.",
-    "accept": "Player {acceptor_id} accepted the trade offer from Player {proposer_id}.",
-    "proposal": "Player {player_id} made the following offer to Player {opponent_id}: Offered items: {offered} -> Requested items: {requested}"
+    "reject": "Aweyi'yɛ {player_id} lɛɣzɩ tʊmɩyɛ ndɩ.",
+    "accept": "Aweyi'yɛ {acceptor_id} tɔsɩ tʊmɩyɛ ndɩ aweyi'yɛ {proposer_id} cɔlɔ.",
+    "proposal": "Aweyi'yɛ {player_id} lɛɣzɩ tʊmɩyɛ ndɩ aweyi'yɛ {opponent_id} cɔlɔ: Pɛɛrɛ cɔlɔʊ: {offered} -> Pɛɛrɛ yɔɔdɩ: {requested}"
   },
   "outcome": {
     "win": "Aleɣya laɖʋ {winner_id} wabɩ mbʋ pʋyɔɔ yɔ, ɛ-ñɩm ɖɔ sakɩyɛ.",

@@ -11,11 +11,11 @@
     "{groups}": "Neutral ranking data (a list of player-id groups, worst to best); do not translate"
   },
   "player_prompt": {
-    "intro": "{num_players}-Player Snake on a {width}×{height} grid.\nYou control snake {player_id}. Valid moves: '[up]'/'[down]'/'[left]'/'[right]' (or w/s/a/d).\nObjective: survive longest or be the longest and get the highest score (turn limit {max_turns} turns)."
+    "intro": "{num_players}-Xugador Culiebra nun tableru de {width}×{height}.\nControlas la culiebra {player_id}. Movimientos válidos: '[up]'/'[down]'/'[left]'/'[right]' (o w/s/a/d).\nOxetivu: sobrevivir más tiempu o ser el más llargu y llograr la puntuación más alta (llende de tornos {max_turns} tornos)."
   },
   "board": {
     "current": "El Conseyu actual: {board}",
-    "after_moves": "Current Board State:\n{board}"
+    "after_moves": "Estáu actual del tableru:\n{board}"
   },
   "game_action": {
     "invalid_death": "Serpiente {player_id} morrió por un movimientu inválidu."

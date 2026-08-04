@@ -14,7 +14,7 @@
     "{scores}": "The final scores as a raw player-number to score mapping - do not translate"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player GOPS.\n- You hold the 13 cards A-K (each exactly once).\n- Each round a prize is revealed. Submit ONE card like `[Q]`, `[10]`, `[2]` …\n- Highest card wins the prize (+ any carry-over pot). Ties roll the prize into the next round.\n- After 13 rounds, highest total wins. Invalid moves = elimination."
+    "intro": "Ti si Xugador {player_id} in Three-Player GOPS.\n- Ti tegni łe 13 carte A-K (una volta soła).\n- Ogni ronda un premio xe svelà. Invia una carta come `[Q]`, `[10]`, `[2]` …\n- Ła carta pì alta vince el premio (+ ła posta reportada). I pari fałi el premio in ła ronda sucesiva.\n- Dopo 13 ronde, el totałe pì alto vince. Mosse no vałide = ełiminasion."
   },
   "round": {
     "header": "### Turno {round}/13 - Premio: {prize} (vàl {worth})",

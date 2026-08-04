@@ -11,7 +11,7 @@
     "not_legal": "Amal {legal_actions} boʻlishi kerak."
   },
   "action": {
-    "submit_move": "Player {player_id}, submitted move: '[{move}]'.",
+    "submit_move": "{player_id}-o'yinchi, '[{move}]' harakatini amalga oshirdi.",
     "valid_actions": "Sizda quyidagi harakatlar mavjud: {legal_actions}.",
     "round_summary": "{reason} Joriy natijalar: 0 o'yinchi: \"{player_0_chips}\"; 1 o'yinchi: \"{player_1_chips}\""
   },

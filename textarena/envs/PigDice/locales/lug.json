@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} playing a game of Pig Dice.\n\nRules:\n- On your turn, you can either '[roll]' or '[hold]'\n- Roll a 2-6: Add to your turn total\n- Roll a 1: Lose turn total and end turn\n- Hold: Add turn total to your score and end turn\n- First to {winning_score} points wins\n\nWhen it's your turn, you'll see the current scores and turn total.\nRespond with '[roll]' to roll the die or '[hold]' to bank your points."
+    "intro": "Oli mchezaji {player_id} akicheza mchezo wa Pig Dice.\n\nMizani:\n- Katika zamu yako, unaweza ama '[roll]' au '[hold]'\n- Tekuza 2-6: Ongeza kwenye jumla ya zamu yako\n- Tekuza 1: Poteza jumla ya zamu yako na mwisho zamu\n- Shikilia: Ongeza jumla ya zamu yako kwenye alama zako na mwisho zamu\n- Wa kwanza kufikia {winning_score} pointi atashinda\n\nWakati zamu yako inafika, utaona alama za sasa na jumla ya zamu.\nJibu kwa '[roll]' ili kukunja kufa au '[hold]' ili kuweka pointi zako."
   },
   "invalid_move": {
     "invalid_action": "Ekisa kya kuzannya tekirungi. Guna '[roll]' oba '[hold]'."
@@ -17,8 +17,8 @@
     "available_actions": "{observation}\nEkisa kya kuzannya: '[roll]' oba '[hold]'"
   },
   "outcome": {
-    "winner_by_turn_limit": "Player {winner_id} won by having a higher score at the turn limit ({scores})",
-    "winner_by_score": "Player {winner_id} won by reaching the target score of {winning_score}!",
+    "winner_by_turn_limit": "Mchezaji {winner_id} alishinda kwa kuwa na alama ya juu zaidi katika kikomo cha zamu ({scores})",
+    "winner_by_score": "Mchezaji {winner_id} alishinda kwa kufikia alama lengwa ya {winning_score}!",
     "draw": "Ekigero ky'ekikonde kituuse era abazannyi bonna balina omuwendo gwe gumu: {scores}"
   }
 }

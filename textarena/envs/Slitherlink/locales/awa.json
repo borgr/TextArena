@@ -1,16 +1,16 @@
 {
   "player_prompt": {
-    "intro": "You are playing Slitherlink on a {R}x{C} grid!\nDraw a single continuous loop so each numbered cell has that many bordering edges.\nToggle edges with:\n  [h r c] - toggle horizontal edge above dots at row r, column c\n  [v r c] - toggle vertical edge left of dots at row r, column c\nNumbers show required edge count, '.' means no constraint.\nYou have up to {max_turns} moves to solve the puzzle."
+    "intro": "तुम स्लिथरलिंक खेल रहे हो {R}x{C} ग्रिड पर!\nएकल लगातार लूप बनाओ जिससे प्रत्येक संख्या वाले सेल के उतने ही किनारे हों।\nकिनारों को टॉगल करें:\n  [h r c] - रो r, कॉलम c पर बिंदुओं के ऊपर क्षैतिज किनारे को टॉगल करें\n  [v r c] - रो r, कॉलम c पर बिंदुओं के बाएं ऊर्ध्वाधर किनारे को टॉगल करें\nसंख्या आवश्यक किनारे की संख्या दिखाती है, '.' का अर्थ है कोई प्रतिबंध नहीं।\nतुम्हारे पास {max_turns} मूव्स हैं पहेली को हल करने के लिए।"
   },
   "board": {
-    "current_board": "{board}\nसंकेत संतुष्ट: {progress}"
+    "current_board": "{board}\nसुराग संतुष्ट: {progress}"
   },
   "invalid_move": {
     "wrong_format": "खराब क्रिया प्रारूप। [h row col] या [v row col] का प्रयोग करें।",
-    "out_of_bounds": "बाहर बोर्ड पर Edge।"
+    "out_of_bounds": "किनारा बोर्ड के बाहर है।"
   },
   "outcome": {
-    "win": " आप एक एकल लूप बनाई! पहेली हल की गई है!",
-    "turn_limit": "गति सीमा पहुंच गई है. पहेली अधूरी रही।"
+    "win": "🎉 तुमने एकल लूप बनाया! पहेली हल हो गई!",
+    "turn_limit": "मूव्स की सीमा पूरी हो गई। पहेली अधूरी है।"
   }
 }

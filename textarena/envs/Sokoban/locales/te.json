@@ -12,7 +12,7 @@
     "invalid_position": "చెల్లని తరలింపు - ఆ స్థానానికి తరలించలేము."
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
+    "moved": "మీరు {pushed} [{action}] కదిలారు.",
     "pushed_prefix": "ఒక బాక్స్ నెట్టడం అయితే"
   },
   "outcome": {

@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are in a room with {num_buttons} buttons: {buttons}. Each button is associated with a Bernoulli distribution with a fixed but unknown mean; the means for the buttons could be different.\nFor each button, when you press it, you will get a reward that is sampled from associated distribution.\nYou have {num_turns} time steps and, on each time step, you can choose any button and receive the reward.\nYour goal is to strategically choose buttons at each time step to collect information about their reward distribution, that will let you choose the button with the highest mean reward correctly at the end of {num_turns} turns."
+    "intro": "O wena o kati ya ndako na {num_buttons} boutoni: {buttons}. Kila boutoni ekosambananga na mitala ya Bernoulli na moyenne isikisiki kasi isikijulikana; moyenne ya boutoni ikwezi kusikila ndenge to ndenge.\nKwa kila boutoni, wena o ikikaka, o ke na libunga lya malamu lya kufua kutoka na mitala ikosambananga.\nO na {num_turns} mitondo ya muda na, kwa kila mitondo ya muda, o ke na ku kaka boutoni yoyi na ku baka libunga.\nKoloko yako i ku kaka boutoni kwa njia ya kimfumu kwa kila mitondo ya muda mpaka o mona maelezo kuhusu mitala yao ya malamu, ambayo ikakupatia ku kaka boutoni na moyenne ya juu zaidi ya malamu kwa usahihi mwishoni mwa {num_turns} mitondo."
   },
   "board": {
     "stat_line": "{button}: {reward} (vwaluka {count} makolo)",

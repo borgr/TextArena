@@ -16,23 +16,23 @@
     "{cards}": "The cards in a pile as neutral labels, or '--' if empty (never translate)"
   },
   "player_prompt": {
-    "intro": "Tu spēlēj Klondike Solitaire. Tovs mierkis ir puorceļt vysys kartis iz pamatkuopem. Spēlis nūsacejumi: - Pamatkuopi (F1-F4): Uztaiseit nu asam leidz karalim, kas pīdar kaidam; Tabula kuopuši (T1-T7): Nūstaiguot sovstarpeigi kruosus (sorkons pret malnu i tymss pret sarkanu); Stokšums: Izvuokt kartenis pi atkrytumūs kūpuma; Atkrisšona (W): Vysleluokuo karte, kura var tikt izmontuota komandom \"izvītuot\" (\"draw\") - Aizvītuojiet karteles no stoka da nakryumim; \"nosaukt <bīdru><gaļdestinatieju> [count]\"; Puorstuojit karetes storp kupom pīmāri: \"Nosauktu W1\", \"nosoti T1 F2\", \"nostuoti T3 T5 2\". Var skaiteit ari \"visas\", kurymā naīspiejams tūlaik puorskaut vysu vierzīni uz augšu karti. \"Pārōktīs\" (-i) - Beidzēt spēli un īslodzeigt sovu golda rezultatu ar aktualom vuordzeibu; Stabele stuovūkļu (Rods), Zylts parosti (Zrots), F1-T7-T1, zamakrs (C1), zams (Skrits pret rūtai nieks pret rudi) - izvīnuot kartesūt korpusēsšonu viers kartis lopuos kartis burtim (zynuot vairuokus kartuļus pie plāk)."
+    "intro": "Jius spēļojit Klondike Solitaire. Jūsu mērķis ir pārvīst visus kartis uz pamata kaudzēm.\n\nSpēļu Noteikumi:\n- Pamata kaudzes (F1-F4): Veidot augšup no Ācenī līdz Ķēniņam pēc mastu\n- Tablo kaudzes (T1-T7): Veidot lejup mērot krāsas (sarkans uz melnu, melns uz sarkanu)\n- Krājums: Izvilkt kartis uz atkritumu kaudzi\n- Atkritumi (W): Augšējā karte pieejama spēlei\n\nKomandas:\n- 'draw' - Izvilkt kartis no krājuma uz atkritumu\n- 'move <source> <destination> [count]' - Pārvīst kartis starp kaudzēm\n  Piemēri: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count var būt arī 'all', kas mēģinās pārvīst visas atklātās kartis.\n- 'forfeit' - Beigt spēli tūlīt un nostiprināt pašreizējo punktu skaitu\n- Kaudžu nosaukumi: W (atkritumi), F1-F4 (pamats), T1-T7 (tablo)\n\nJius varit izpildīt vairākas darbības vienā gājienā, atdalot tās ar komatiem:\n  Piemērs: 'draw, move W T1, move T2 F1'\n\nTikai Ķēniņi var tikt novietoti uz tukšām tablo kaudzēm.\nDarbības izpilda pēc kārtas - ja viena neizdodas, atlikušās darbības tiek izlaistas.\nLietojiet 'forfeit', ja jūs ticat, ka spēle ir neiespējama uzvarēt."
   },
   "format_error": {
     "no_brackets": "Naatbylstūšs darbeibys formats. Darbeibai juobyut īkōršonūs.",
     "no_closing_bracket": "Naatbylstūšs darbeibys formats. Izmyra beigšonys īrūbežuojums \"]\"",
     "empty_command": "Vylka komanda. Rokstit \"draw\" voi \"move <source> <destination> [count]\".",
     "empty_action": "Nūteiktuos darbeibys vuordi:",
-    "move_needs_args": "Puorceļšonys komandai ir vajadzeigs olūts i mierki. lītuošona: \"pūst <alku> <mierka> [count]\"",
-    "count_positive": "Skaiteibai juobyut pozitivai voi \"vysam\"",
-    "count_invalid": "Navaleigs skaitiejums. Lītuot ciparu voi \"visus\"",
-    "unknown_command": "Nezināma komanda '{cmd}'. Lieto 'izvelies', 'pārvietot <avots> <mērķis> [count]', vai 'pieņemts'",
+    "move_needs_args": "Pārvīst komanda prasa avotu un galamērķi. Lietojums: 'move <source> <destination> [count]'",
+    "count_positive": "Skaits jābūt pozitīvam vai 'all'",
+    "count_invalid": "Nederīgs skaits. Izmantojiet skaitli vai 'all'",
+    "unknown_command": "Nezināma komanda '{cmd}'. Lietojiet 'draw', 'move <source> <destination> [count]', vai 'forfeit'",
     "wrapped": "Action {n}: {msg}"
   },
   "action_result": {
     "success": "Action {n}: {msg}",
     "before_failure": "Izpiļdeita {n} darbeiba (s) pyrma naveiksmis.",
-    "failed": "Action {n} failed: {msg}"
+    "failed": "Darbība {n} neizdevās: {msg}"
   },
   "move_result": {
     "drew": "Izvuoreita karteņa (s) nu kruojuma iz atkrytumu.",

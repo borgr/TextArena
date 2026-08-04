@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} playing a game of Pig Dice.\n\nRules:\n- On your turn, you can either '[roll]' or '[hold]'\n- Roll a 2-6: Add to your turn total\n- Roll a 1: Lose turn total and end turn\n- Hold: Add turn total to your score and end turn\n- First to {winning_score} points wins\n\nWhen it's your turn, you'll see the current scores and turn total.\nRespond with '[roll]' to roll the die or '[hold]' to bank your points."
+    "intro": "O wewe Mwana {player_id} odima mamboko ya Pig Dice.\n\nMikano:\n- Na ntangu ya kodi, o koki '[roll]' to '[hold]'\n- Tumba 2-6: Ongeza kwa jumla ya ntangu\n- Tumba 1: Vunda jumla ya ntangu mpe kodi\n- Hold: Ongeza jumla ya ntangu kwa makolo na mpe kodi\n- Ya kwanza kupata {winning_score} makolo wenge\n\nNa ntangu ya kodi, o tala makolo ya sasa na jumla ya ntangu.\nYambo na '[roll]' tumba mamboko to '[hold]' kodi makolo."
   },
   "invalid_move": {
     "invalid_action": "Nkisi isusu. Sika '[roll]' or '[hold]'."
@@ -18,7 +18,7 @@
   },
   "outcome": {
     "winner_by_turn_limit": "Mwana {winner_id} akabasuka na kusika malu {scores}",
-    "winner_by_score": "Player {winner_id} won by reaching the target score of {winning_score}!",
+    "winner_by_score": "Mwana {winner_id} wenge kwa kufikia lengo la makolo ya {winning_score}!",
     "draw": "Bo me kuma na nsuka ya kitini yina bo fwete baka mpi bantu yonso kele ti makuki kiteso mosi: {scores}"
   }
 }

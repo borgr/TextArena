@@ -10,7 +10,7 @@
     "{to}": "The destination coordinate of a move, such as b3"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in game of LinesOfAction.\nYour pieces are '{side}', opponent pieces are '{other}'.\nMove format: `[b1b3]` (from-coord to-coord). A legal move travels horizontally, vertically, or diagonally a number of squares equal to the total pieces (any colour) in that line. You may jump over your own pieces, but not opponent pieces; landing on an opponent captures it.  Win when all your pieces are 8-neighbour connected."
+    "intro": "आप खेल लाइन्सऑफएक्शन में खिलाड़ी {player_id} हउ।\nआपके टुकड़े '{side}' हउ, विरोधी के टुकड़े '{other}' हउ।\nचाल का फॉर्मेट: `[b1b3]` (पहले से दूसरे कोऑर्डिनेट तक)। एक कानूनी चाल क्षैतिज, ऊर्ध्वाधर, या तिरछे वर्गों की संख्या के बराबर चलती है जो उस रेखा में कुल टुकड़े (किसी भी रंग के) होते हैं। आप अपने स्वयं के टुकड़ों पर कूद सकते हैं, लेकिन विरोधी के टुकड़ों पर नहीं; विरोधी पर उतरने से वह पकड़ा जाता है। सभी अपने टुकड़े ८-नेबर कनेक्ट होने पर जीत होती है।"
   },
   "board": {
     "current_board": "बोर्ड: {board} मा प म स ह ।"
@@ -21,7 +21,7 @@
     "identical": "स्रोत अउर गंतव्य एक ही अहै।",
     "not_straight_or_diagonal": "गति सीधे या विकर्ण मा होय चाही.",
     "wrong_distance": "रेखा मा बराबर दूरी पे टुकड़ा घुमाव चाही.",
-    "enemy_blocks": "दुश्मन का टुकड़ा रास्ता रोक रहा है।",
+    "enemy_blocks": "विरोधी का टुकड़ा रास्ते को अवरुद्ध करता है।",
     "destination_own": "गंतव्य आपन खुद कय टुकड़ा से लिया गवा अहै।"
   },
   "game_action": {
@@ -29,7 +29,7 @@
     "captured_suffix": "प्लेयर {player_id} {from} -> {to} ले गइल जेकरा में एक दुश्मन के कब्जा कइल गइल"
   },
   "outcome": {
-    "win": "All pieces connected.",
+    "win": "सभी टुकड़े जुड़े हुए हैं।",
     "draw_no_capture": "60 चाल बिना पकड़े नाहीं जाय सकत।",
     "draw_repetition": "स्थिति का तीन बार दोहराव।"
   }

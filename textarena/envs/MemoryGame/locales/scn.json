@@ -4,7 +4,7 @@
   },
   "board": {
     "current_board": "Cunsigliu attuale: {board}",
-    "current_game_board": "Cunsigliu di ghjocu attuale: {board}"
+    "current_game_board": "Tavula di lu Jocu Attuali:\n{board}"
   },
   "invalid_move": {
     "wrong_format": "Formatu di mossa nvaliddu. Lu jucaturi {player_id} nun rispunniu cu na direzzioni valida ntê parentizzi quadratici.",
@@ -13,8 +13,8 @@
     "already_matched": "Muvimentu nvaliddu. Lu jucaturi {player_id} selezziuna una o dui carti ca già sunnu stati abbinati."
   },
   "game_message": {
-    "cards_match": "The cards selected by Player {player_id} at positions [{r1} {c1}] and [{r2} {c2}] match!",
-    "cards_no_match": "The cards selected by Player {player_id} do not match. Cards at positions [{r1} {c1}] and [{r2} {c2}] are {pos1} and {pos2} respectively."
+    "cards_match": "Li carti seleziona di lu Jucaturi {player_id} ntê pusizioni [{r1} {c1}] e [{r2} {c2}] s'abbìnanu!",
+    "cards_no_match": "Li carti seleziona di lu Jucaturi {player_id} nun s'abbìnanu. Li carti ntê pusizioni [{r1} {c1}] e [{r2} {c2}] sunnu {pos1} e {pos2} rispettivamenti."
   },
   "outcome": {
     "draw": "Tutti dui jucatura avìanu lu stissu nùmmuru di paia di carti.",

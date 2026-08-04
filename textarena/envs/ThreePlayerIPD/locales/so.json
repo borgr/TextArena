@@ -4,7 +4,7 @@
   },
   "round": {
     "start": "─── Wareegga Bilowga {round} ─── Waxaad si xor ah ugala hadli kartaa wareegga soo socda {conv_rounds}.",
-    "chat_finished": "Chat finished for round {round}. Submit your decisions, one token per opponent: `[pid cooperate]` or `[pid defect]`."
+    "chat_finished": "Wada-hadalku wuu dhammaaday marka {round}. Gudbi go'aankaaga, hal sumad kasta la kulli cidankaaga: `[pid cooperate]` ama `[pid defect]`."
   },
   "results": {
     "header": "### Wareega {round} - Natiijooyinka:",

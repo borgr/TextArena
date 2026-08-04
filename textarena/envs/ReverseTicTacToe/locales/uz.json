@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a game of Reverse Tic Tac Toe. Your symbol is '{symbol}'.\nThe goal is to avoid getting three in a row (horizontally, vertically, or diagonally).\nIf you make three in a row, you LOSE.\nSubmit your move using the format '[4]' to place your symbol in cell 4.\nAs Player {player_id}, you are '{symbol}' and your opponent is '{opponent_symbol}'."
+    "intro": "Siz Reverse Tic Tac Toe o'yinida {player_id}-o'yinchi siz. Sizning belgizingiz '{symbol}'.\nMaqsad - uchta belgini bir qatorga (gorizontal, vertikal yoki diagonal) joylashtirishdan qochish.\nAgar siz uchta belgini bir qatorga joylashtirsangiz, siz MAG'LUB bo'lasiz.\nHarakatlaringizni '[4]' formatida kiritib, 4-raqamli katakka belgizingizni joylashtiring.\n{player_id}-o'yinchi sifatida siz '{symbol}'siz va sizning raqibingiz '{opponent_symbol}'."
   },
   "board": {
     "current_board": "Joriy kengash: {board} Mavjud harakatlar: {moves}"

@@ -3,10 +3,10 @@
     "intro": "ཁྱེད་Player {player_id} མཚོན་རྩེ་རྡོ་བུམ་མེ་ཡི་{num_rounds}-ར་འཁྲུག་ལ་ཞུགས་ཡོད།\nཁྱེད་ཀྱི་ཕྱོགས་ནི་ར་འཁྲུག་མང་པོ་ཕམ་པ་ཡིན།\nར་འཁྲུག་གི་སྐབས་བཞིན་དུ་'[rock]', '[paper]', ཡོད་པའི་'[scissors]' གང་རུང་ཞིག་ལན་འདེབས་གཏོང་།\nཁྱེད་ཀྱིས་'[r]', '[p]', ཡོད་པའི་'[s]' གང་རུང་ཞིག་རྗེས་སུ་སྤྱོད་ཀྱང་འདུག"
   },
   "invalid_move": {
-    "wrong_format": "Move not recognized. Use [rock], [paper], or [scissors]."
+    "wrong_format": "འགུལ་བསྐྱོད་ངོས་མ་ཟིན། [rock], [paper], ཡང་ན་ [scissors] སྤྱད་དགོས།"
   },
   "game_action": {
-    "selects": "Player {player_id} selects move {move}."
+    "selects": "མི་སྟག་སྡེ་ {player_id} རྒྱབ་འགྲུལ་ {move} འདེམས་བྱས་པ་ཡིན།"
   },
   "message": {
     "round_draw": "གྲུབ་འབྲས་: འདྲན་འདྲ་འབད་ཡོདཔ།",

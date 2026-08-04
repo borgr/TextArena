@@ -10,7 +10,7 @@
     "{to}": "The destination coordinate of a move, such as b3"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in game of LinesOfAction.\nYour pieces are '{side}', opponent pieces are '{other}'.\nMove format: `[b1b3]` (from-coord to-coord). A legal move travels horizontally, vertically, or diagonally a number of squares equal to the total pieces (any colour) in that line. You may jump over your own pieces, but not opponent pieces; landing on an opponent captures it.  Win when all your pieces are 8-neighbour connected."
+    "intro": "Sika'y Managbaybay {player_id} ed laro na LinesOfAction.\nSaray piraso mo so '{side}', saray piraso na kalaban so '{other}'.\nFormat na iyakar: `[b1b3]` (koordinado na pinagmulan - koordinado na destinasyon). Saray iyakar ya legal so naglalakbay ed abong, patayo, o diagonal ya numero na kuadrado ya parehas na bilang na piraso (aruman ya kulay) ed saya linya. Saray iyakar mo so saray piraso mo, balet agmo iyakar ed saray piraso na kalaban; no onla ed kalaban, sayan piraso so masakop mo.  Manalo ka no saray piraso mo so konektado ed 8-kaibigan."
   },
   "board": {
     "current_board": "Board: {board} Say so"

@@ -1,9 +1,9 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({piece}). Opponent is ({opp}). Submit moves as '[b1 c3]' (from → to). All pieces move like chess knights.\nEach capture scores {score_per_capture} point. Game ends after {max_moves} moves or when a player has no legal move / no pieces. Higher score wins."
+    "intro": "Ni wewe Mugenzi {player_id} ({piece}). Uwakinyi wawe ni ({opp}). Ohereza ingendo kama '[b1 c3]' (kutoka → kwa). Ibikoresho byose bigenda nk'ingabo z'ikamba.\nKugwana kila kipande kikubaha {score_per_capture} alama. Umukino urangira nyuma ya {max_moves} ingendo cyangwa igihe umugenzi afite ingendo zisizo za kisheria / nta kipande. Alama ya juu inatsinda."
   },
   "board": {
-    "current_board": "Move #{move_count}\n\n{board}\n\nAvailable Moves: {moves}"
+    "current_board": "Ingendo #{move_count}\n\n{board}\n\nIngendo zirizotolewa: {moves}"
   },
   "invalid_move": {
     "bad_format": "Imiterere mibi. Koresha '[b1 c3]'.",

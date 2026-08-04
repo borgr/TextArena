@@ -3,7 +3,7 @@
     "intro": "Wakapinda uye Player {player_id} muChopsticks. Pamusoro pedu wekutanga, chagua chimwe chino:\n  + Kuvambisa:  '[attack M O]'  apo M=ruko rako (0 kana 1), O=ruko rwevamwe (0 kana 1).\n    - Ruko rwevamwe runokwira kwekutamba kwa ruko rako; kana rive zvikuru kulika 5, ruyafuka 0.\n  + Kugova:   '[split L R]'  kugova utsvina hwe rupande rwenyu kuL na R (L+R = wako wose).\nLingana na chidimbu chimwe chino cha kudzimba."
   },
   "board": {
-    "current_board": "Bhoja rakaari:\nPlayer 0: {hands_0}\nPlayer 1: {hands_1}"
+    "current_board": "Bhodhi ya Sasa:\nMchezaji 0: {hands_0}\nMchezaji 1: {hands_1}"
   },
   "invalid_move": {
     "my_hand_dead": "Ruoko rwako {my_idx} rwakafa.",
@@ -14,7 +14,7 @@
   },
   "game_action": {
     "attack": "P{player_id} anorwisa ruoko rwaP{opp_id} {opp_idx}: rinobva pa {opp_val} richienda ku {new_val}.",
-    "split": "P{player_id} splits into [{L}, {R}]."
+    "split": "P{player_id} akapatsanura kuwa [{L}, {R}]."
   },
   "history": {
     "entry": "P{player_id} {desc}"

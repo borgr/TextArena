@@ -1,10 +1,10 @@
 {
   "game_start": {
-    "intro": "खेल शुरू होता है। ट्रम्प सूट: {trump_suit} (ट्रम्प कार्ड: {trump_str})।",
+    "intro": "क्रीडा आरभते। ट्रम्प सूट: {trump_suit} (ट्रम्प कार्ड: {trump_str})।",
     "no_trump_card": "न किञ्चिदपि ।"
   },
   "player_prompt": {
-    "intro": "आप जर्मन व्हिस्ट में प्लेयर {player_id} हैं।\n{phase_info}\nआपके पास {hand_size} कार्ड हैं।\n'[play N]' के साथ एक कार्ड खेलें, जहां एन आपके हाथ में इसकी स्थिति है (उदाहरण के लिए '[play 3]')।",
+    "intro": "त्वं खिलाडी {player_id} जर्मन व्हिस्टे वर्तसे ।\n{phase_info}\nत्वं {hand_size} पत्राणि धारयसि ।\nपत्रं '[play N]' इत्यनेन क्रीड, यत्र N पत्रं तव हस्ते स्थानं वदति, (उदाहरणार्थ '[play 3]')",
     "phase_learning": "शिक्षणाध्यायः प्रत्येकं षड्विंशतितमं चरणम् विजित्य विजयी मुखपृष्ठे स्थितं कार्डं गृहीत्वा पराजयिन्यः च अग्रेषु चार्टानि गच्छति। अस्य चरणस्य प्राप्ताणि शस्त्रक्रियायाः विजयार्थं गणना न भवति ।",
     "phase_playing": "क्रीडायाः चरणः - डेक् समाप्तम् अभवत् । इदानीं प्रत्येकं युक्तिमात्रं विजयाय उपयोगि भवति ।"
   },
@@ -21,11 +21,11 @@
     "invalid_play": "तत्कारणं कर्त्तुं न शक्यते।"
   },
   "game_action": {
-    "played": "खिलाड़ी {player_id} ने {card} खेला।"
+    "played": "खिलाडी {player_id} पत्रं {card} क्रीडितवान्।"
   },
   "trick": {
-    "won": "प्लेयर {winner_id} {card} के साथ ट्रिक जीतता है।",
-    "won_learning": "प्लेयर {winner_id} {card} के साथ ट्रिक जीतता है और चेहरा-उप कार्ड लेता है।"
+    "won": "खिलाडी {winner_id} पत्रं {card} विजितवान्।",
+    "won_learning": "खिलाडी {winner_id} पत्रं {card} विजितवान् और मुखमुद्रितं पत्रं गृहीतवान्।"
   },
   "phase": {
     "learning_complete": "न चैवं, यदि सः स् वशब्देन \"अभिनन्दनीयः\" इति वदति तर्हि तस्य अर्थम् अयमस्ति यत् अस् य पदानि अपि उपयुज्यन्ते।"
@@ -37,10 +37,10 @@
   },
   "turn": {
     "board": "{phase}\n{scores}\n{next_card}\n\n{trick}\n\n{hand}",
-    "scores_learning": "Tricks won so far - Player 0: {tricks0}, Player 1: {tricks1}",
-    "scores_playing": "स्कोरिंग ट्रिक्स - प्लेयर 0: {tricks0}, प्लेयर 1: {tricks1}",
+    "scores_learning": "विजितानि पत्राणि - खिलाडी 0: {tricks0}, खिलाडी 1: {tricks1}",
+    "scores_playing": "जयस्य पत्राणि - खिलाडी 0: {tricks0}, खिलाडी 1: {tricks1}",
     "phase": "चरणः {phase}",
-    "phase_learning": "प्रावस्था: {phase} ({remaining_cards} कार्ड्स डेक में बचे हैं)"
+    "phase_learning": "अवस्था: {phase} ({remaining_cards} पत्राणि डेके अवशिष्टानि)"
   },
   "hand": {
     "no_cards": "न च कार्डं।",
@@ -62,15 +62,15 @@
     "phase": "{observation}\nप्रावस्था: {phase}",
     "trump_suit": "{observation}\nट्रम्प सूट: {trump_suit}",
     "trump_card": "{observation}\nट्रम्प कार्ड: {card}",
-    "cards_left": "{observation}\nकार्ड्स वामदेव: {count}",
-    "next_card": "{observation}\nअग्रिम कार्ड विजेता के लिए: {card}",
+    "cards_left": "{observation}\nडेके पत्राणि अवशिष्टानि: {count}",
+    "next_card": "{observation}\nअग्रिमं पत्रं विजेत्रे: {card}",
     "blank": "{observation} ।",
-    "current_trick": "{observation} अद्यतनं युक्तिमन्त्रः:",
+    "current_trick": "{observation}\nवर्तमान पत्र:",
     "trump_indicator": "(ट्रम्पः)",
     "trick_line": "{observation}\n  खिलाड़ी {player_id}: {card}{trump_indicator}",
-    "player_line": "{observation}\nखिलाड़ी {player_id}: {scoring} स्कोरिंग ट्रिक्स ({tricks} कुल), {hand_size} कार्ड हाथ में"
+    "player_line": "{observation}\nखिलाडी {player_id}: {scoring} जयस्य पत्राणि ({tricks} मूल्य), {hand_size} पत्राणि हस्ते"
   },
   "outcome": {
-    "summary": "Learning phase - Player 0: {l0}, Player 1: {l1}. Playing phase - Player 0: {p0}, Player 1: {p1}. Player {winner_id} wins with {winner_tricks} scoring tricks!"
+    "summary": "अध्ययनावस्था - खिलाडी 0: {l0}, खिलाडी 1: {l1}। क्रीडावस्था - खिलाडी 0: {p0}, खिलाडी 1: {p1}। खिलाडी {winner_id} {winner_tricks} जयस्य पत्राणि विजितवान्!"
   }
 }

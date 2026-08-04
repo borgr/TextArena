@@ -7,12 +7,12 @@
     "out_of_range": "Player {player_id}, Ivalavala ca. Column {col} e vu mai na kena isau.",
     "already_full": "Player {player_id}, Ivalavala ca. Column {col} e tini.",
     "proposing_with_no_resource": "A tovolea na dauqito {player_id} me solia e dua na isolisoli ni veivoli ka sega vua na ivurevure gadrevi.",
-    "incorrect_offer_format": "Player {player_id} made a trade offer in an incorrect format.",
+    "incorrect_offer_format": "Player {player_id} a vakatutu na kerekere ena fomu e sega ni dodonu.",
     "no_new_offer": "Sega ni dua na nona vakatutu vou o koya e qito {player_id}."
   },
   "offers": {
     "reject": "E sega ni ciqoma na dauqito {player_id} na nona soli me veisau.",
-    "accept": "Player {acceptor_id} e vakacegu na tukinivolavola ni solisoli mai Player {proposer_id}.",
+    "accept": "Na Player {acceptor_id} a vakadonuya na i vakatutu ni veivakatorocaketaki mai na Player {proposer_id}.",
     "proposal": "Player {player_id} e tukuna na tukinivolavola oqo ki Player {opponent_id}: Ivolavola ni kena: {offered} -> Kena ivakaraitaki: {requested}"
   },
   "outcome": {

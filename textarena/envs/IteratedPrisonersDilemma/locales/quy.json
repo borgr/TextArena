@@ -1,18 +1,18 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in an Iterated Prisoner's Dilemma spanning {num_rounds} rounds.\n\nGame Structure:\n- Before each decision you have {total_conversation_rounds} turns to communicate freely.\n- After that, both players simultaneously choose to cooperate or defect.\n\nPayoff Matrix (fixed each round):\n- Both Cooperate ➜ each {cooperate_reward}\n- Both Defect ➜ each {mutual_defect_reward}\n- One Defects, one Cooperates ➜ Defector {defect_reward}, Cooperator {sucker_reward}\n\nHow to Play:\n- During conversation: type any text you wish.\n- During decision phase: include '[Cooperate]' or '[Defect]' (case-insensitive). You may add extra text before/after the token."
+    "intro": "Q'umirlla kachun {player_id} Iterated Prisoner's Dilemma nisqapi {num_rounds} kuti.\n\nPukllay K'iti:\n- Sapa kuti q'umirlla q'awana q'ipirina qhipaq {total_conversation_rounds} kuti rimayta atinki.\n- Chaymanta, iskay pukllaq k'utki q'awana q'ipirina q'umirinakuy defectanakuy.\n\nPayoff Matrix (sapa kuti):\n- Iskay Q'umirinakuy ➜ sapa {cooperate_reward}\n- Iskay Defectanakuy ➜ sapa {mutual_defect_reward}\n- Huk Defectan, huk Q'umirin ➜ Defector {defect_reward}, Cooperator {sucker_reward}\n\nImayna Pukllan:\n- Rimay pacha: imayna qillqa munanki chayta qillqa.\n- Q'awana pacha: '[Cooperate]' icha '[Defect]' (q'illqaypaq mana q'ipirinachu). Q'ipirina qillqata q'umiriy atinki."
   },
   "phases": {
-    "conversation_finished": "Conversation finished for round {round}. Please reply with '[Cooperate]' or '[Defect]' within \\boxed{{}}.",
+    "conversation_finished": "Rimay tukusqa {round} kuti. '[Cooperate]' icha '[Defect]' q'illqay \\boxed{{}} ukhupi.",
     "starting_round": "--- Qallarinapaq Runasimi {round} ---",
     "round_summary": "P'unchay {round} willakuna:\n{outcome}\nP'ikuna 0 atipasqa {r0} (tukuypaq {score_0}), P'ikuna 1 atipasqa {r1} (tukuypaq {score_1})."
   },
   "outcome": {
     "winner": "P'ikuna {winner} atipasqa {win_score} - {lose_score}.",
-    "draw": "Draw! Both players scored {s0}.",
+    "draw": "P'inqakuy! Iskay pukllaq chaskirqan {s0}.",
     "round_both_cooperate": "Iskayninkupas yanapakuq kanku.",
     "round_both_defect": "Iskayninkupas, mana allin ruwaykunata ruwarqanku.",
     "round_p0_cooperates_p1_defects": "Pachaq 0 yanaparqa, 1 mana atipanchu.",
-    "round_p0_defects_p1_cooperates": "Player 0 defected, Player 1 cooperated."
+    "round_p0_defects_p1_cooperates": "Pukllaq 0 defectirqan, Pukllaq 1 q'umirirqan."
   }
 }

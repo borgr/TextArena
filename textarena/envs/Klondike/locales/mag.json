@@ -16,7 +16,7 @@
     "{cards}": "The cards in a pile as neutral labels, or '--' if empty (never translate)"
   },
   "player_prompt": {
-    "intro": "You are playing Klondike Solitaire. Your goal is to move all cards to the foundation piles.\n\nGame Rules:\n- Foundation piles (F1-F4): Build up from Ace to King in suit\n- Tableau piles (T1-T7): Build down alternating colors (red on black, black on red)\n- Stock: Draw cards to waste pile\n- Waste (W): Top card available for play\n\nCommands:\n- 'draw' - Draw cards from stock to waste\n- 'move <source> <destination> [count]' - Move cards between piles\n  Examples: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count can also be 'all', which will try to move all face-up cards.\n- 'forfeit' - End the game immediately and lock in your current score\n- Pile names: W (waste), F1-F4 (foundations), T1-T7 (tableau)\n\nYou can execute multiple actions in one turn by separating them with commas:\n  Example: 'draw, move W T1, move T2 F1'\n\nOnly Kings can be placed on empty tableau piles.\nActions execute in order - if one fails, the remaining actions are skipped.\nUse 'forfeit' if you believe the game is impossible to win."
+    "intro": "आप क्लोंडाइक सोलिटेयर खेल रहे हैं। आपका लक्ष्य सभी कार्डों को फाउंडेशन ढेरों में स्थानांतरित करना है।\n\nगेम नियम:\n- फाउंडेशन ढेर (F1-F4): एस से किंग तक सूट में निर्माण करें\n- टेबलो ढेर (T1-T7): रंगों को वैकल्पिक रूप से नीचे की ओर बनाएं (लाल पर काला, काला पर लाल)\n- स्टॉक: कार्डों को अपशिष्ट ढेर में ड्रा करें\n- अपशिष्ट (W): शीर्ष कार्ड खेल के लिए उपलब्ध है\n\nकमांड:\n- 'draw' - स्टॉक से अपशिष्ट में कार्ड ड्रा करें\n- 'move <source> <destination> [count]' - ढेरों के बीच कार्ड स्थानांतरित करें\n  उदाहरण: 'move W T1', 'move T1 F2', 'move T3 T5 2'। गणना भी 'all' हो सकती है, जो सभी चेहरे के साथ कार्डों को स्थानांतरित करने का प्रयास करेगी।\n- 'forfeit' - गेम को तुरंत समाप्त करें और अपने वर्तमान स्कोर को लॉक करें\n- ढेर नाम: W (अपशिष्ट), F1-F4 (फाउंडेशन), T1-T7 (टेबलो)\n\nआप एक ही टर्न में कई क्रियाओं को अल्पविराम से अलग करके निष्पादित कर सकते हैं:\n  उदाहरण: 'draw, move W T1, move T2 F1'\n\nकेवल राजा खाली टेबलो ढेर पर रखे जा सकते हैं।\nक्रियाएं क्रम में निष्पादित होती हैं - यदि एक विफल हो जाती है, तो शेष क्रियाएं छोड़ दी जाती हैं।\n'forfeit' का उपयोग करें यदि आपको लगता है कि गेम जीतना असंभव है।"
   },
   "format_error": {
     "no_brackets": "अवैध कार्रवाई प्रारूप. कार्रवाई कोष्ठक में होवे के चाहि।",
@@ -24,9 +24,9 @@
     "empty_command": "खाली कमांड. टाइप 'draw' या 'move <source><destination> [count]' करे के चाही .",
     "empty_action": "खाली कार्रवाई हई",
     "move_needs_args": "मूव कमांड के स्रोत और गंतव्य के आवश्यकता होवो हय। उपयोगः 'move <source> <destination> [count]'",
-    "count_positive": "गणना सकारात्मक चाहे 'सभी' होवे के चाहि।",
-    "count_invalid": "अवैध गणना. एगो संख्या चाहे 'सब' के प्रयोग करैं",
-    "unknown_command": "अज्ञात कमांड '{cmd}'। 'ड्रा', 'मूव <स्रोत> <गंतव्य> [count]', या 'त्याग' का उपयोग करें",
+    "count_positive": "गणना सकारात्मक या 'all' होनी चाहिए",
+    "count_invalid": "अमान्य गणना। एक संख्या या 'all' का उपयोग करें",
+    "unknown_command": "अज्ञात कमांड '{cmd}'। 'draw', 'move <source> <destination> [count]', या 'forfeit' का उपयोग करें",
     "wrapped": "कार्रवाई {n}: {msg}"
   },
   "action_result": {

@@ -4,8 +4,8 @@
   },
   "invalid_move": {
     "wrong_format": "გთხოვთ გამოიყენოთ კოლოფში მოთავსებული ალგებრული აღწერა, როგორიცაა [a2a3].",
-    "out_of_bounds": "Move is out of board bounds.",
-    "illegal": "That move does not follow the Breakthrough rules or is not your piece."
+    "out_of_bounds": "გადაადგილება დაფის საზღვრებს გარეთაა.",
+    "illegal": "ეს გადაადგილება არ მიჰყვება გარღვევის წესებს ან ეს არ არის თქვენი ფიგურა."
   },
   "game_action": {
     "moved": "მოთამაშე {player_id} გადაადგილდება {move_str} ({piece})."
@@ -13,8 +13,8 @@
   "outcome": {
     "white_reached": "თეთრებმა შავების საშინაო რიგს მიაღწიეს.",
     "black_reached": "შავმა თეთრმა მიაღწია.",
-    "white_captured": "გჟთფკთ ბვლთრვ ფსკალთ ჟა ჱაკპალთ.",
-    "black_captured": "გჟთფკთ ბლაკ პთჟკთ ჟა ჱაკპალთ.",
+    "white_captured": "ყველა თეთრი ფიგურა დაპყრობილია.",
+    "black_captured": "ყველა შავი ფიგურა დაპყრობილია.",
     "no_moves": "მოთამაშეს {player_id} აღარ აქვს სხვა ნაბიჯები."
   }
 }

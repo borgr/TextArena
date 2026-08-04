@@ -3,11 +3,11 @@
     "intro": "Esi enye Player {player_id} ({role}) le {num_rounds}-round Matching Pennies dzi. \n- Le hafe, ŋlɔ '[heads]' kple '[tails]' (kple [h], [t]).\n- Eɖokui wò na wòakpa ɖe ɖokui, Player 0 xɔ hafe; ɖokui wò na wòakpa ɖe ɖokui, Player 1 xɔ hafe.\nMia gba gbagba le '[heads]' kple '[tails]' ɖe ŋkɔ.\n"
   },
   "invalid_move": {
-    "wrong_format": "Invalid format; please submit '[heads]' or '[tails]'."
+    "wrong_format": "Ɖoɖoɖowo ƒomatsi; xɔ na '[heads]' alo '[tails]'."
   },
   "message": {
-    "round_match": "Player 0 picked {choice0}; Player 1 picked {choice1}. Match -> Player 0 wins",
-    "round_mismatch": "Player 0 ɖe {choice0}; Player 1 ɖe {choice1}. Mismatch -> Player 1 xɔ eŋu."
+    "round_match": "Aɖaŋu 0 tɔ {choice0}; Aɖaŋu 1 tɔ {choice1}. Tɔwo dze -> Aɖaŋu 0 ɖu",
+    "round_mismatch": "Aɖaŋu 0 tɔ {choice0}; Aɖaŋu 1 tɔ {choice1}. Tɔwo meɖe o -> Aɖaŋu 1 ɖu."
   },
   "outcome": {
     "p0_wins": "Fefewɔla 0 ɖu dzi le ho geɖe me.",

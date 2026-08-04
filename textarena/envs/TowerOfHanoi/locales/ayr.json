@@ -17,6 +17,6 @@
   },
   "outcome": {
     "win": "Jallalla, Hanoi torrer mantatapat amuyt'asxapxtha.",
-    "turn_limit": "The turn limit has been reached. You correctly placed {pct}% of the disks on Tower C."
+    "turn_limit": "T'aq'a t'aq'asiñani q'utu q'ala. Q'umir q'ala {pct}% q'ala q'ala q'utu q'ala C q'ala."
   }
 }

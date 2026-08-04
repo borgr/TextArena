@@ -5,7 +5,7 @@
     "no_duplicates": "Ez dago bikoitz bat."
   },
   "invalid_move": {
-    "wrong_format": "You did not respond with a space-separated list of numbers wrapped in square brackets.",
+    "wrong_format": "Ez duzu zenbakiak espazioz bananduta eta karratuetan bilduta erantzun.",
     "not_integers": "Sarrera guztiek zenbaki osoak izan behar dute.",
     "wrong_length": "Asmatzeak {code_length} zenbakiak izan beharko lituzke.",
     "out_of_range": "Zenbaki guztiek 1 eta {num_numbers} artean egon behar dute.",
@@ -13,10 +13,10 @@
     "repeated_guess": "Dagoeneko asmatu duzu {guess}. Saiatu beste asmatze bat egiten."
   },
   "game_action": {
-    "feedback": "Submitted [{guess}]. Feedback: {black_pegs} black peg(s), {white_pegs} white peg(s)."
+    "feedback": "[{guess}] bidali da. Erantzuna: {black_pegs} ziri beltz, {white_pegs} ziri zuri."
   },
   "outcome": {
-    "win": "You have cracked the code, solving {black_pegs} out of {code_length} pegs correctly",
+    "win": "Kodea apurtu duzu, {black_pegs} ziri {code_length}tik ondo konponduz",
     "turn_limit": "Muga iristea. Zurek {percent} ehuneko zenbakiak asmatu zituzte."
   }
 }

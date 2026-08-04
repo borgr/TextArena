@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({piece}). Opponent is ({opp}).\nSubmit moves as '[a2 a3]' (from → to).\n- A normal move is one forward step to an adjacent empty vertex.\n- A capture is a jump over an adjacent enemy piece landing on the empty node beyond.\nEach capture yields {score_per_capture} points.\nGame ends after {max_moves} moves or when a player has no legal move."
+    "intro": "איר זענט שפילער {player_id} ({piece}). דער קעגנער איז ({opp}).\nגעבט אריין צוגן ווי '[a2 a3]' (פון → צו).\n- א נארמאלער צוג איז איין פארווערטס שריט צו א לערער נעבנדיקן קנופ.\n- א כאפ איז א שפרינג איבער א לעבנדיקן פיינטלעכן שטיקל וואס לאנדט אויפן לערן קנופ ווייטער.\nיעדער כאפ גיט {score_per_capture} פונקטן.\nדאס שפיל ענדיגט זיך נאך {max_moves} צוגן אדער ווען א שפילער האט קיין לעגאלן צוג נישט."
   },
   "board": {
     "current_board": "באַוועגונג #{move_count}\n\n{board}"

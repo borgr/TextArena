@@ -16,17 +16,17 @@
     "{cards}": "The cards in a pile as neutral labels, or '--' if empty (never translate)"
   },
   "player_prompt": {
-    "intro": "Ir shpilt Klondike Solitaire. Ayer tsil iz tsuriktsien ale kartn tsu di fondatsye haypen.\n\nShpil regeln:\n- Fondatsye haypen (F1-F4): Bauen oyf fun Ace tsu King in kolir\n- Tabel haypen (T1-T7): Bauen arop alternativ kolirn (royt af shvarts, shvarts af royt)\n- Stok: Tsien kartn tsu vayt-pile\n- Vayt (W): Di oberste kartn iz barayt far shpil\n\nKomandn:\n- 'tsien' - Tsien kartn fun stok tsu vayt\n- 'riren <kval> <tsil> [count]' - Riren kartn tsivishn haypen\n  Ekzempeln: 'riren W T1', 'riren T1 F2', 'riren T3 T5 2'. Di tsahl ken oykh zayn 'ale', vos vet probirn tsuriktsien ale ongedekte kartn.\n- 'farliren' - Endn di shpil onmiten un shlosn ayer aktueln balmel\n- Haypn nemen: W (vayt), F1-F4 (fondatsyes), T1-T7 (tabel)\n\nIr ken eksekutern mehredike aktsyes in ayn tur durkh tsaytn mit komyen:\n  Ekzempel: 'tsien, riren W T1, riren T2 F1'\n\nNarishkeyt ken nor vayzn zikh af leydike tabel haypen.\nAktsyes eksekutern in ordn - ven eyns feylt, di ibergibene aktsyes vern ibergegangen.\nNutzen 'farliren' ven ir gaybn, az di shpil iz onmeglikh tsu gayn."
+    "intro": "Ir shpilt Klondike Solitaire. Ayer tsihl iz tsu movn ale karten tsu di fundament-pilen.\n\nShpil-reglen:\n- Fundament-pilen (F1-F4): Boyt oyf fun Ace tsu Kenig in farb\n- Tabelepilen (T1-T7): Boyt arop in alternirnde farbn (royt af shvarts, shvarts af royt)\n- Zapas: Tsien karten tsu waste-pilen\n- Waste (W): Di ovste karte iz tsugenglekh far shpil\n\nKomanden:\n- 'draw' - Tsien karten fun zapas tsu waste\n- 'move <kvayl> <tsil> [count]' - Mov karten tsvishe pilen\n  Beyspilen: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count ken oykh zayn 'all', vos vet pruvn tsu movn ale aufgedekte karten.\n- 'forfeit' - Endikt das shpil azoy vey iz un shperrt in ayer itstike score\n- Pilen-namen: W (waste), F1-F4 (fundamentn), T1-T7 (tabelepilen)\n\nIr kent ausfirn meerdere aksies in eyn runde durkh komata tsuteyln:\n  Beyspil: 'draw, move W T1, move T2 F1'\n\nNor Kenign kenen gelegt vern oyf leydike tabelepilen.\nAksies firn oyf in rekhtn folger - oyb eyn faylt, di iberige aksies vern ibergegangen.\nNutst 'forfeit' oyb ir glaybt das shpil iz unmeglekh tsu gevinnen."
   },
   "format_error": {
     "no_brackets": "אומגילטיקע קאַמף פֿאָרמאַט. אַקציע זאָל זיין אין בראַקאַץ.",
     "no_closing_bracket": "אומגילטיק קאַמף פֿאָרמאַט. פעלנדיק קלאָוזינג בראַקעט ']'",
-    "empty_command": "ליידיק באַפֿעל. טייפּ \"ציען\" אָדער 'וועג <סאָורסע> <דעסטיניישאַן> [count]'",
+    "empty_command": "Leer komand. Tip 'draw' oder 'move <kvayl> <tsil> [count]'",
     "empty_action": "ליידיק קאַמף",
-    "move_needs_args": "מאָוו קאַמאַנד ריקווייערז מקור און דעסטיניישאַן. באַניץ: 'מייַך <סאָרסע> <דעסטינאַציע> [count]'",
-    "count_positive": "ציילן מוזן זיין positive אָדער \"אַלע\"",
-    "count_invalid": "אומגילטיקע ציילונג. ניצן אַ נומער אָדער \"אַלע\"",
-    "unknown_command": "Unknown command '{cmd}'. Use 'draw', 'move <source> <destination> [count]', or 'forfeit'",
+    "move_needs_args": "Mov-komand hot darf kvayl un tsil. Nutst: 'move <kvayl> <tsil> [count]'",
+    "count_positive": "Count muz zayn pozitiv oder 'all'",
+    "count_invalid": "Ungiltige count. Nutst a numer oder 'all'",
+    "unknown_command": "Ungiltige komand '{cmd}'. Nutst 'draw', 'move <kvayl> <tsil> [count]', oder 'forfeit'",
     "wrapped": "Aktsye {n}: {msg}"
   },
   "action_result": {

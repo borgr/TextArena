@@ -8,7 +8,7 @@
     "cell_already_occupied": "Akasenge {cell_num} kale kabadde kajjuddemu. Londa akasenge akataliiko kintu kyonna."
   },
   "board": {
-    "current_state": "Current Board:\n\n{rendered_board}\nAvailable Moves: {available_moves}"
+    "current_state": "Ebali lya Sasa:\n\n{rendered_board}\nEmikisa Egisoboka: {available_moves}"
   },
   "action": {
     "placement": "Omuzannyi {current_player_id} yaweerezza amakubiro ge ({symbol}) mu saala {cell_num}."

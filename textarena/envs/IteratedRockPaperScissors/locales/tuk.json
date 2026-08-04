@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a {num_rounds}-round Rock-Paper-Scissors game.\nYour goal is to win as many rounds as possible.\nIn each round, respond with one of: '[rock]', '[paper]', or '[scissors]'.\nYou may also use '[r]', '[p]', or '[s]' as shorthand.\n"
+    "intro": "Siz {num_rounds} raundly Daş-Qaǵaz-Makas oyundaky {player_id}-nji oýunçysy.\nSiziň maksadyňyz mümkin bolduǵunca köp raundda ýeňmek.\nHer raundda '[rock]', '[paper]', ýa-da '[scissors]' ýaly ýekeýärdi jogap beriň.\nSiz '[r]', '[p]', ýa-da '[s]' ýaly gysgaça ýazuň hem bolaýar.\n"
   },
   "invalid_move": {
     "wrong_format": "Hereket tanylanmady. [rock], [paper], ýa [scissors] ulanysyn."

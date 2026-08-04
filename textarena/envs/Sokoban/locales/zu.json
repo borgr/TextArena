@@ -12,7 +12,7 @@
     "invalid_position": "Ukuthutha okungasebenzi - akukwazi ukuthuthela kulesosikhundla."
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
+    "moved": "Wena {pushed} wanyakaza [{action}].",
     "pushed_prefix": "ukucindezela ibhokisi ngesikhathi"
   },
   "outcome": {

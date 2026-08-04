@@ -9,10 +9,10 @@
     "{pct}": "Progress as a percentage string, e.g. 50%"
   },
   "player_prompt": {
-    "intro": "Map each letter to a unique digit so the arithmetic holds.\nAssign with `[A 5]`, re-assign anytime.\n"
+    "intro": "Onjezani herufi yonse ndi nambari ya kipekee ili mahesabu yawe ya kweli.\nOnjezani kwa `[A 5]`, mukonzanso wakati wowonse.\n"
   },
   "invalid_move": {
-    "wrong_format": "Bad action format. Use `[A 5]`.",
+    "wrong_format": "Mtundikano wa chitendo uwoipa. Gwiritsani ntchito `[A 5]`.",
     "letter_not_in_puzzle": "Kalata {letter} iyo yili mu ciphapha yayi.",
     "digit_used": "Digit {digit} kale kugwiliskirika ntchito na {used_letter}.",
     "leading_zero": "Chilembo chakwamba pa lizgu lingaŵa 0."

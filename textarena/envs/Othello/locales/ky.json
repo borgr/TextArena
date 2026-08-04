@@ -16,7 +16,7 @@
   },
   "game_action": {
     "skipped": "Оюнчу {pid} кезегин өткөрүп жиберүүгө аргасыз болгон",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "Оюнчу {pid} ({piece}) [{r}, {c}] ойноп, {flipped} фишка(лар)ды өзгөрттү"
   },
   "game_message": {
     "must_skip": "Оюнчу {pid} ({piece}) эч кандай туура кадамдарды жасабайт жана өтүшү керек."

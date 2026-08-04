@@ -11,7 +11,7 @@
     "{groups}": "Neutral ranking data (a list of player-id groups, worst to best); do not translate"
   },
   "player_prompt": {
-    "intro": "{num_players}-Player Snake on a {width}×{height} grid.\nYou control snake {player_id}. Valid moves: '[up]'/'[down]'/'[left]'/'[right]' (or w/s/a/d).\nObjective: survive longest or be the longest and get the highest score (turn limit {max_turns} turns)."
+    "intro": "{num_players}-ක්‍රීඩක ස්නේක් {width}×{height} ග්‍රිඩයක.\nඔබ ස්නේක් {player_id} පාලනය කරන්නා. වලංගු චලන: '[up]'/'[down]'/'[left]'/'[right]' (හෝ w/s/a/d).\nඉලක්කය: දිගම කාලයක් ජීවත් වන්න හෝ දිගම වී ඉහළම ලකුණ ලබන්න (චලන සීමාව {max_turns} චලන)."
   },
   "board": {
     "current": "වර්තමාන මණ්ඩලය: {board}",
@@ -23,7 +23,7 @@
   "outcome": {
     "survived_win": "ක්‍රීඩක {player_id} ජීවත් විය; අනෙක් සියල්ලෝ මිය ගියහ.",
     "all_dead_simul": "සර්පයන් ඔක්කොම එකපාර මැරුණා.",
-    "outlived": "Player outlived all others.",
+    "outlived": "ප්ලේයර් අනෙක් සියල්ලන්ට වඩා දිගට ජීවත් විය.",
     "all_dead": "සර්පයෝ ඔක්කොම මැරිලා.",
     "turn_limit": "වාර සීමාව ඉටුකරලා, හොදම ලකුණු ප් රමාණය දිනුම් අංකය.",
     "ranking": "{reason} අවසාන ශ් රේණිගත කිරීමේ කණ්ඩායම් (නරකම→හොඳම): {groups}"

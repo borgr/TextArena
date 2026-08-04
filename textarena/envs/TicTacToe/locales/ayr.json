@@ -7,7 +7,7 @@
     "{cell}": "A board cell number between 0 and 8"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Tic Tac Toe.\nYour goal is to win three in a row (horizontally, vertically, or diagonally) on the board.\nOn your turn, you should select the square number (0-8) you want to put your mark in next.\nFor example, '[4]' places your mark in the center cell of the board.\nAs Player {player_id}, you will be '{symbol}', while your opponent is '{opponent_symbol}'."
+    "intro": "Jumaxa Jugador {player_id} Tic Tac Toe ukatxapxatä.\nQ'umaxa objetivo ukatxa kimsa filapa (horizontal, vertical o diagonal) tableropa.\nTurnopa, q'umaxa seleccionar número cuadrado (0-8) ukatxapxatä marca jayp'uru.\nUkatxa ejemplo, '[4]' marca jayp'uru centro celda tableropa.\nJugador {player_id} ukatxapxatä '{symbol}', ukatxa contrincante '{opponent_symbol}'."
   },
   "board": {
     "current_board": "Taqina q'ala:\n\n{board}\n\nJach'a manq'asiri: {moves}"

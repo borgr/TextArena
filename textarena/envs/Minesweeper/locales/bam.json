@@ -9,7 +9,7 @@
   "invalid_move": {
     "wrong_format": "I ma jaabi ni yɔrɔ min ye i ka sɛbɛn ɲɛ la.",
     "out_of_bounds": "A ka ca a la, siraw ni sɛrɛdalanw tɛ yɔrɔ kelen na.",
-    "already_revealed": "The cell at ({row}, {col}) has already been revealed.",
+    "already_revealed": "Kɛnɛ kɔnɔ ({row}, {col}) kɔnɔ bɛɛ se ka wale.",
     "hit_mine": "I ka kɛɛra kɛ̀ at ({row}, {col})."
   },
   "game_action": {

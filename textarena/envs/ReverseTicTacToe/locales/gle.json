@@ -3,7 +3,7 @@
     "intro": "Tú Imreoir {player_id} i gcluiche Tic Tac Toe Ar Ais. Is é do shiombail '{symbol}'.\nIs é an sprioc ná trí a chur ina líne (cothrománach, ingearach, nó déanach).\nMás trí a chuirir ina líne, CAILLTEAR tú.\nCuir do ghluaisne isteach sa chomhfhreagra '[4]' chun do shiombail a chur i gcill 4.\nMar Imreoir {player_id}, tá tú '{symbol}' agus is é do chéile comhraic '{opponent_symbol}'."
   },
   "board": {
-    "current_board": "Current Board:\n\n{board}\n\nAvailable Moves: {moves}"
+    "current_board": "Clár Reatha:\n\n{board}\n\nBogaidh ar Fáil: {moves}"
   },
   "invalid_move": {
     "wrong_format": "Formáid gluaiseachta neamhbhailí. Úsáid '[cell]'.",

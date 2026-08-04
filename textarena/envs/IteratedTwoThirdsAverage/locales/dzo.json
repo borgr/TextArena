@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a {num_rounds}-round of IteratedTwoThirdsAverage.\nEach round, guess a number between {min_guess} and {max_guess}.\nAfter both guesses, the target is (2/3)x(average of both guesses),\nand the player whose guess is closest to the target wins that round.\nReply with your guess in the format '[<number>]'."
+    "intro": "ཁྱེད་མི་སྟག་{player_id} སྟེ་ {num_rounds} རིམ་པའི་ སྦྱར་བའི་ མི་སྟག་གཉིས་ཀྱི་ བར་མཚམས་གཉིས་པོའི་ བསྡུར་རིམ་ནང་ཡོད།\nརིམ་པ་རེ་རེར་ {min_guess} དང་ {max_guess} བར་གྱི་ གྲངས་ཀ་གཅོད་དགོས།\nགྲངས་ཀ་གཉིས་པོ་བསྡུར་རྗེས་ བསྟར་གཞི་ནི་ (2/3)×(གྲངས་ཀ་གཉིས་པོའི་ བསྡུར་བར་མཚམས་) ཡིན།\nདེ་དང་ གྲངས་ཀ་བསྟར་གཞི་དང་ ཉེ་བའི་ མི་སྟག་གིས་ རིམ་པ་དེ་ ཐོབ་པ་ཡིན།\nཁྱེད་ཀྱི་ གྲངས་ཀ་འདི་གཟིགས་སྤྱོད་སྒོའི་ རྣམ་པ་ནང་ '[<number>]' བཞིན་ སྤྱོད་དགོས།"
   },
   "invalid_move": {
     "wrong_format": "ཐོ་བཀོད་འདི་ཆ་མེད་ཨིན། ཁྱོད་ཀྱི་འཆར་གཞི་དེ་ [<number>]བཟུམ་ཅིག་སྦེ་གཏང་གནང་།",

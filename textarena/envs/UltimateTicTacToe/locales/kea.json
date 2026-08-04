@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in **Ultimate Tic Tac Toe**.\nSubmit your move as **[macro  micro]** (two numbers 0-8):\n• *macro*  = which mini-board you play in\n• *micro* = which square inside that mini-board\nExample `[7 8]` ➜ place your mark in mini-board 7, square 8, and\nforce your opponent to play in mini-board 8 next.\n\nYou are `{symbol}`.\n"
+    "intro": "Bu é Player {player_id} na **Ultimate Tic Tac Toe**.\nManda bu jogada komo **[macro  micro]** (dos númeru 0-8):\n• *macro*  = kel mini-tabuleiro bu ta jogá\n• *micro* = kel kuadrado lá drentu di mini-tabuleiro\nExemplu `[7 8]` ➜ põe bu marka na mini-tabuleiro 7, kuadrado 8, i\nobriga bu adversário jogá na mini-tabuleiro 8 próssimu.\n\nBu é `{symbol}`.\n"
   },
   "board": {
     "current_board": "Konsedju atual: {board}"

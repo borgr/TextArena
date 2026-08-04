@@ -8,7 +8,7 @@
   "invalid_move": {
     "wrong_format": "Say format na move ekal na sala. Gawisen so '[X 4]' o '[O 2]' a format.",
     "invalid_cell": "Invalid cell number: {cell}. Nepeg ya walad baetan na 0 tan 8.",
-    "already_occupied": "Invalid move. Cell {cell} so busy la."
+    "already_occupied": "Mali a gawa. Selula {cell} et nayokop la."
   },
   "game_action": {
     "placed": "Say Player {player_id} napanek na saray simbolo ({mark}) ed cell {cell}"

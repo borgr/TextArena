@@ -12,8 +12,8 @@
   },
   "offers": {
     "reject": "Taphattuun {player_id} afeerraa jijjiirraa kana hin fudhanne.",
-    "accept": "Player {acceptor_id} accepted the trade offer from Player {proposer_id}.",
-    "proposal": "Player {player_id} made the following offer to Player {opponent_id}: Offered items: {offered} -> Requested items: {requested}"
+    "accept": "Leensa {acceptor_id} kenneera gurgurachuuf Leensa {proposer_id} irraa fudhate.",
+    "proposal": "Leensa {player_id} Leensa {opponent_id} kenneera armaan gadi dhiyeessa: Qabeenya dhiyaate: {offered} -> Qabeenya gaafatame: {requested}"
   },
   "outcome": {
     "win": "Taphachiisaa {winner_id} gatii invastii keessatti bu'aa guddaa qabaachuudhaan mo'ateera.",

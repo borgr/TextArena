@@ -9,7 +9,7 @@
     "progress": "{observation} നിലവിലെ പുരോഗതി സ്കോർ: {progress}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid action format. Use `[i j op]` where i,j are indices and op is +,-,*,/",
+    "wrong_format": "അസാധുവായ പ്രവർത്തന ഫോർമാറ്റ്. `[i j op]` ഉപയോഗിക്കുക അവിടെ i,j എന്നിവ സൂചികകളാണ്, op എന്നത് +,-,*,/",
     "invalid_indices": "അസാധുവായ സൂചികകൾ. 0-{max_index} വരെയുള്ള ശ്രേണിയിലായിരിക്കണം.",
     "invalid_operation": "അസാധുവായ പ്രവർത്തനം (പൂജ്യം കൊണ്ട് വിഭജിക്കുക അല്ലെങ്കിൽ പൂർണ്ണസംഖ്യയല്ലാത്ത ഫലം)"
   },

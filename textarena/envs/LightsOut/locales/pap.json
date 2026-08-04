@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "E akshon mester ta den e formato [row col] kaminda ròl i kolòn ta entero for di 0 te ku {max_index}.",
-    "out_of_range": "Coordinates must be between 0 and {max_index}. You entered [{row},{col}]."
+    "out_of_range": "Koordiná mester ta entre 0 i {max_index}. Bo a drenta [{row},{col}]."
   },
   "outcome": {
     "win": "Felicitacion! Bo a resolve e puzzle den {moves_used} moves!",

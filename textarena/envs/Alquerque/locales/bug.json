@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({piece}). Opponent is ({opp}).\nSubmit moves as '[a2 a3]' (from → to).\n- A normal move is one forward step to an adjacent empty vertex.\n- A capture is a jump over an adjacent enemy piece landing on the empty node beyond.\nEach capture yields {score_per_capture} points.\nGame ends after {max_moves} moves or when a player has no legal move."
+    "intro": "Sida Player {player_id} ({piece}). Lawan sida ({opp}).\nKirim pindah sebagai '[a2 a3]' (dari → ka).\n- Pindah biasa sida satu langkah maju ka titik kosong sebelah.\n- Ngala sida lompati peca musuhi sebelah torroju ka titik kosong siolai.\nNgala sida ngasilki {score_per_capture} poin.\nPermainan akhiri sasudah {max_moves} pindah atawa bila sida pemain de'ni pindah sah."
   },
   "board": {
     "current_board": "Move #{move_count}\n\n{board}"
@@ -13,7 +13,7 @@
     "illegal": "Iyyaro gau'e de na legala."
   },
   "game_action": {
-    "captured": "Player {player_id} captured a piece! (+{score_per_capture})"
+    "captured": "Player {player_id} ngala pion! (+{score_per_capture})"
   },
   "outcome": {
     "no_pieces": "Pemaen {player_id} de'na punnai seddi gangka.",

@@ -3,11 +3,11 @@
     "current_board": "Jichhaxa: {board}"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} playing a game of Checkers as {color}.\nMake your move in chess-style notation [fileRank fileRank], e.g. '[b2c3]' (column letter a–h, row digit 0–7).\nBasic rules:\n  • Move diagonally forward by 1 if empty.\n  • Capture by jumping over an opponent piece.\n  • A piece is Kinged if it reaches the opposite end.\n"
+    "intro": "Jumaxa Player {player_id} saraña Checkers juk'ampi {color}.\nKunämti mayt'äwixä, ajïlawi chess-yäwixä [fileRank fileRank], ukatxa '[b2c3]' (kolumna letira a–h, fila digitu 0–7).\nQhanäwixä wakïxä:\n  • Mayt'äwixä diagonalkamaña q'ara q'aräwixä 1 ukhamä.\n  • Juk'ampi qhanañchaña p'iqiñä ukatxa mayt'äña.\n  • Juk'ampi Reyewa ukhamä jiksxäwixä juk'a tukha t'äwixä.\n"
   },
   "invalid_move": {
     "wrong_format": "Jan wali akipaniraki kamani janiw q'ala. Utjani [a1b2], sapa [b2c3].",
-    "illegal": "Move [{move}] is illegal."
+    "illegal": "T'aqa [{move}] janiw irnaqa."
   },
   "game_action": {
     "moved": "Jaqi {player_id} akipanirakita {move}."

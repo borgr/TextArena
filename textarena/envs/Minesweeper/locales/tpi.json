@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing the Minesweeper game.\nThe objective of the game is to reveal all cells that do not contain mines.\nTo make a move, simply specify the row and column coordinates you want to reveal using the format:\n- `[row col]`: Reveal the cell at the specified row and column.\nFor example:\n- `[3 2]` to reveal the cell in Row 3, Column 2.\n- `[5 6]` to reveal the cell in Row 5, Column 6.\nOn your first move, you will reveal an area around the cell you choose to ensure a safe start.\nThe current board layout is shown below. Cells that are unrevealed are represented by a dot ('.'), revealed numbers show the count of adjacent mines.\nBe mindful not to choose already revealed cells.\nHere is the current board layout:\n"
+    "intro": "Yu pilai Minesweeper gem.\nWok bilong gem em long opim ol sel bilong en i no gat mine.\nLong mekim muv, yu mas kolim ol ko-odinat bilong row na column yu laik opim, usim dispela fomat:\n- `[row col]`: Opim sel bilong en long row na column yu kolim.\nOlsem:\n- `[3 2]` long opim sel bilong en long Row 3, Column 2.\n- `[5 6]` long opim sel bilong en long Row 5, Column 6.\nLong nambawan muv bilong yu, yu opim eria saut long sel yu chusim long mekim save start.\nKasal bilong boda em soim ananit. Ol sel i no opim yet i makim long dot ('.'), na ol nambar i opim i soim ol mine i stap klostu.\nYu mas lukaut long no chusim ol sel i opim pinis.\nHia i stap kasal bilong boda:\n"
   },
   "board": {
     "game_board": "Ples Bilong Pilim Kaikai: {board}",

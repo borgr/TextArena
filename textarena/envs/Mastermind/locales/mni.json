@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing Mastermind.\nYou need to find the code that is {code_length} digits long, each digit from 1 to {num_numbers}, {repeats}.\nIn your response, you can submit your guess in the following format: '[2 1 4 5]'.\nAfter each guess, you will receive feedback in the form of black and white pegs.\nA black peg indicates a correct digit in the correct position, while a white peg indicates a correct digit in the wrong position.\nYou have {max_turns} turns to guess the code.\n",
+    "intro": "মাস্তারমাইন্দ খেলগী অমসুং অমসুং নম্বর {code_length} অঙ্ক লম্বা, অঙ্কশুং 1 মণা {num_numbers} অমসুং, {repeats}।\nঅমসুং জবাব অদুদা, '[2 1 4 5]' মত ফর্মেট অদুদা নিংশিং তারবা পাউজেল্লে।\nপ্রতি নিংশিং তারবা অনুসরণ অদুদা, অমসুং ফিডব্যাক পাম্বল অমসুং অঙ্কশুং পেগ অমসুং অদুদা পাউজেল্লে।\nকালো পেগ শুদ্ধ অঙ্ক শুদ্ধ জায়গা অদুদা, অমসুং পান্দা পেগ শুদ্ধ অঙ্ক অশুদ্ধ জায়গা অদুদা।\n{max_turns} টার্ন অমসুং কোড নিংশিং তারবা অদুদা।",
     "with_repeats": "হন্না পাংথোকপা য়াবা য়াওনা",
     "no_duplicates": "দুপ্লিকেত য়াওদবা"
   },
@@ -13,10 +13,10 @@
     "repeated_guess": "অদোম্না {guess} খংলে। অতোপ্পা খুদম অমা শিজিন্নদুনা য়েংশিনবিয়ু."
   },
   "game_action": {
-    "feedback": "Submitted [{guess}]. Feedback: {black_pegs} black peg(s), {white_pegs} white peg(s)."
+    "feedback": "[{guess}] সাবমিট অদুদা। ফিডব্যাক: {black_pegs} কালো পেগ, {white_pegs} পান্দা পেগ।"
   },
   "outcome": {
-    "win": "You have cracked the code, solving {black_pegs} out of {code_length} pegs correctly",
+    "win": "{black_pegs} পেগ {code_length} অঙ্ক শুদ্ধ অদুদা, কোড ক্র্যাক অদুদা",
     "turn_limit": "অদোম্না মশিংশিংগী {percent}% চুম্মি হায়না খনখি।"
   }
 }

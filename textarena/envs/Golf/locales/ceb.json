@@ -47,8 +47,8 @@
   },
   "message": {
     "deck_empty": "Wala nay sulod sa deck! Ang dula matapos dayon.",
-    "knocked": "Player {pid} knocked! Ang matag laing player adunay usa pa ka turno.",
-    "final_round": "Ang Player {pid} {reason}! Ang tanan nga uban pang mga player makadawat og usa pa ka turn."
+    "knocked": "Ang magduduwa {pid} nakaknock! Matag usa ka laing magduduwa makadawat og usa ka higit pang turno.",
+    "final_round": "Ang magduduwa {pid} {reason}! Matag usa ka laing magduduwa makadawat og usa ka higit pang turno."
   },
   "reason": {
     "all_revealed": "gipadayag na ba ang tanang kard?"
@@ -74,6 +74,6 @@
     "title": "=== GOLF GAYEM=== Ang mga tawo sa Amerika, ang ilang pamilya ug uban pang katawhan.",
     "discard": "Ilabay ang mga tambok: {card}",
     "knocked": "Ang magdudula {pid} nagtuktok!",
-    "player_header": "Player {pid} (Score: {score}):"
+    "player_header": "Magduduwa {pid} (Puntos: {score}):"
   }
 }

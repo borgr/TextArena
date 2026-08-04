@@ -1,13 +1,13 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({role}) in a {num_rounds}-round Matching Pennies game.\n- Each round, submit [heads] or [tails] (or [h], [t]).\n- If your choice matches your opponent’s, Player 0 wins the round; otherwise Player 1 wins.\nReply with your choice in the format '[heads]' or '[tails]'.\n"
+    "intro": "Tu sês Zugadôr {player_id} ({role}) in un zûc di monedis cjapâtis di {num_rounds} tornadis.\n- Ogni tornade, invie [heads] o [tails] (o [h], [t]).\n- Se la tô sielte je compagne di chê dal to aversari, Zugadôr 0 vinç la tornade; se no, Zugadôr 1 vinç.\nRispuindi cu la tô sielte tal format '[heads]' o '[tails]'.\n"
   },
   "invalid_move": {
-    "wrong_format": "Invalid format; please submit '[heads]' or '[tails]'."
+    "wrong_format": "Formât no valid; par plasê, invie '[heads]' o '[tails]'."
   },
   "message": {
-    "round_match": "Player 0 picked {choice0}; Player 1 picked {choice1}. Match -> Player 0 wins",
-    "round_mismatch": "Player 0 picked {choice0}; Player 1 picked {choice1}. Mismatch -> Player 1 wins."
+    "round_match": "Zugadôr 0 al à sielzût {choice0}; Zugadôr 1 al à sielzût {choice1}. Corispondence -> Zugadôr 0 vinç",
+    "round_mismatch": "Zugadôr 0 al à sielzût {choice0}; Zugadôr 1 al à sielzût {choice1}. Discorence -> Zugadôr 1 vinç."
   },
   "outcome": {
     "p0_wins": "Il zuiadôr 0 al vincè plui turnis.",

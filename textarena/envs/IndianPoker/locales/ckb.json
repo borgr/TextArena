@@ -9,7 +9,7 @@
     "ambiguous": "دڵنیابە هەموو چریاکان لە نێو قۆڵەکدا، وەک '[check]'، '[bet 2]'، '[call]'، '[raise 3]'، یان '[fold]'。",
     "cannot_check": "ناتوانیت [check] - تۆ ڕووبەڕووی گرەوێک دەبیتەوە.",
     "amount_min": "بڕی گرەوەکە دەبێت لە ١ بێت.",
-    "cannot_bet": "Cannot [bet] - must [call] / [raise] / [fold].",
+    "cannot_bet": "ناتوانێت [bet] بکات - دەبێ [call] / [raise] / [fold] بکات.",
     "nothing_to_call": "هیچ شتێک نییە بۆ بانگی کردن؛ تۆ ئەتوانیت [check] لە جیاتی ئەوە.",
     "no_bet_to_raise": "بەکارھێنانی [bet X] بۆ کردنەوە؛ ھیچ گرەوێک نییە کە زیاد بکرێت.",
     "insufficient": "چیپسێکی کەم بۆ ئەو کارە."

@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in **Ultimate Tic Tac Toe**.\nSubmit your move as **[macro  micro]** (two numbers 0-8):\n• *macro*  = which mini-board you play in\n• *micro* = which square inside that mini-board\nExample `[7 8]` ➜ place your mark in mini-board 7, square 8, and\nforce your opponent to play in mini-board 8 next.\n\nYou are `{symbol}`.\n"
+    "intro": "Tú ert Spælar {player_id} í **Ultimata Tic Tac Toe**.\nGev upp tínar flytingar sum **[macro  micro]** (tveir tøl 0-8):\n• *macro*  = hvat mini-borð tú spælir á\n• *micro* = hvat firkant inni í tí mini-borði\nDømi `[7 8]` ➜ set tín merki á mini-borð 7, firkant 8, og\nnoyða mótpartin at spæla á mini-borð 8 næst.\n\nTú ert `{symbol}`.\n"
   },
   "board": {
     "current_board": "Núverandi nevnd: {board}"

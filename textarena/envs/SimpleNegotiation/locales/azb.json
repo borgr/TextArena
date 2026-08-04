@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "Siz Müzakirə Oyununda Oyuncu {player_id}-sünüz.\nBəzi resurslara sahibsiniz və sizin tapşırığınız bu resursları eldə etməkdir, belə ki, sizin resurslarınızın ümumi dəyəri artır.\nİndi sahib olduğunuz resurslar və onlarla əlaqəli dəyərlər bunlardır:\n\t+ {resource_value_list}\nHər turda, rəqibinizlə danışa və ticarət təklifi edə bilərsiniz.\nAşağıdakı xüsusi tokenləri hərəkətlər üçün istifadə edin:\n  - '[Təklif: 3 Qoyun, 2 Dəmir -> 5 Kərpic, 2 Qoyun]': [Təklif: Təklif olunan resurslar -> Tələb olunan resurslar]\n  - '[Accept]': Gələn təklifi qəbul etmək üçün.\n  - '[Deny]': Gələn təklifi rədd etmək üçün (əsas).\nOyun {max_turns} tur davam edir."
+    "intro": "Siz Müzakirə Oyununda Oyuncu {player_id}-sünüz.\nBəzi resurslara sahibsiniz və sizin tapşırığınız bu resursları eldə etməkdir, belə ki, sizin resurslarınızın ümumi dəyəri artır.\nİndi sahib olduğunuz resurslar və onlarla əlaqəli dəyərlər bunlardır:\n\t+ {resource_value_list}\nHər turda, rəqibinizlə danışa və ticarət təklifi edə bilərsiniz.\nAşağıdakı xüsusi tokenləri hərəkətlər üçün istifadə edin:\n  - '[Offer: 3 Sheep, 2 Ore -> 5 Brick, 2 Sheep]': [Offer: Offered Resources -> Requested Resources]\n  - '[Accept]': Gələn təklifi qəbul etmək üçün.\n  - '[Deny]': Gələn təklifi rədd etmək üçün (əsas).\nOyun {max_turns} tur davam edir."
   },
   "invalid_move": {
     "receiving_with_no_resource": "اویونچو لازیم اولان قایناقلاری اولمادان بیر آداپلاما قبول ائتمگه چالیشدی.",

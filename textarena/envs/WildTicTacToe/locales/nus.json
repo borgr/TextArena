@@ -14,7 +14,7 @@
     "placed": "Wäär {player_id} aci rɔt lɔ̈k ({mark}) ë thök {cell}"
   },
   "outcome": {
-    "win": "Player {player_id} wins with {mark}s!",
+    "win": "Player {player_id} ee kɛɛl na {mark}s!",
     "draw": "Ɛn duel ɛ mi̱ caa kuɛn!"
   }
 }

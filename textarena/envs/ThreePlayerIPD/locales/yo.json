@@ -4,11 +4,11 @@
   },
   "round": {
     "start": "─── Ìbẹ̀rẹ̀ Ìyí {round} ─── Ẹ lè bá ara yín sọ̀rọ̀ fàlàlà fún ìyí {conv_rounds} tó ń bọ̀.",
-    "chat_finished": "Chat finished for round {round}. Submit your decisions, one token per opponent: `[pid cooperate]` or `[pid defect]`."
+    "chat_finished": "Ifẹsẹ̀wọ̀nsẹ̀ tan an fún ẹ̀rún {round}. Fi ìpinnu rẹ̀ sílẹ̀, ọ̀kan tókẹ́nì fún ọ̀tọ̀ kọ̀ọ̀kan: `[pid cooperate]` tàbí `[pid defect]`."
   },
   "results": {
     "header": "### Ìyí {round} - Ìyọrísí:",
-    "pair_line": "{observation} Player {i} vs Player {j} yàn {choice_i} àti {choice_j} lẹ́sẹ̀kẹsẹ̀ (Player {i} gba {gain_i}, Player {j} gba {gain_j})",
+    "pair_line": "{observation}\n\t Oṣere {i} vs Oṣere {j} yan lati {choice_i} ati {choice_j} bi o ṣe rẹ (Oṣere {i} gba {gain_i}, Oṣere {j} gba {gain_j})",
     "scores_open": "{observation} -> Àwọn ìyọrísí tó wà nísinsìnyí: ",
     "score_first": "{observation}Oṣere {player_id} ({score})",
     "score_next": "{observation}; Òṣèré {player_id} ({score})",

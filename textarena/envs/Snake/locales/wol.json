@@ -11,11 +11,11 @@
     "{groups}": "Neutral ranking data (a list of player-id groups, worst to best); do not translate"
   },
   "player_prompt": {
-    "intro": "{num_players}-Player Snake on a {width}×{height} grid.\nYou control snake {player_id}. Valid moves: '[up]'/'[down]'/'[left]'/'[right]' (or w/s/a/d).\nObjective: survive longest or be the longest and get the highest score (turn limit {max_turns} turns)."
+    "intro": "{num_players}-Jëfandikukat Sàpp bi ci ab {width}×{height} këmbët.\nYaa ngone sàpp {player_id} bi. Lawa yu wóor: '[up]'/'[down]'/'[left]'/'[right]' (wa w/s/a/d).\nJëm kanam: bàyyi màgg ak màgg jëfandikukat bi, jël màgg ñaare ak màgg ñaare (limite {max_turns} jëf)."
   },
   "board": {
     "current": "Jëfandikukat bii: {board}",
-    "after_moves": "Current Board State:\n{board}"
+    "after_moves": "Këmbët Bi ci Saa Sii:\n{board}"
   },
   "game_action": {
     "invalid_death": "Njaan {player_id} dee na ndax jàll bu amul njariñ."
@@ -25,7 +25,7 @@
     "all_dead_simul": "Ay jaan yépp dee ci benn waxtu.",
     "outlived": "Njiit bi moo gën a dund ñi ci des.",
     "all_dead": "Ay jaan yépp dee nañu.",
-    "turn_limit": "Turn limit reached - best score wins tie-break.",
+    "turn_limit": "Limite jëf bi ñaaree - màgg ñaare moo gënëe màgg.",
     "ranking": "{reason} Kàllaayu jëfandikoo (màgg-miñ): {groups}"
   }
 }

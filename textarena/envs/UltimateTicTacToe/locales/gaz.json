@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in **Ultimate Tic Tac Toe**.\nSubmit your move as **[macro  micro]** (two numbers 0-8):\n• *macro*  = which mini-board you play in\n• *micro* = which square inside that mini-board\nExample `[7 8]` ➜ place your mark in mini-board 7, square 8, and\nforce your opponent to play in mini-board 8 next.\n\nYou are `{symbol}`.\n"
+    "intro": "Ati Player {player_id} ta'a **Ultimate Tic Tac Toe** keessatti.\nKunnee kee akka **[macro  micro]** (lakkofsa lama 0-8) dhiyeessi:\n• *macro*  = mini-bordii kamittii kee taphattu\n• *micro* = mini-bordii keessaatti kuta kammittii kee taphattu\nFakkeenya `[7 8]` ➜ mallattoo kee mini-bordii 7, kuta 8 keessatti kaa'i, fi\nmorkataa kee mini-bordii 8 keessatti taphachuuf dirqi.\n\nAti `{symbol}` ta'a.\n"
   },
   "board": {
     "current_board": "Boordiin amma jiru: {board}"
@@ -15,10 +15,10 @@
   },
   "next_board": {
     "any": "micro board kamiyyuu",
-    "specific": "micro board {nxt}"
+    "specific": "mini bordii {nxt}"
   },
   "game_action": {
-    "played": "Player {player_id} micro board {macro_idx}, seli {micro_idx} (row {row}, kolomii {col}) keessatti taphatte. Player {opponent_id} ammoo {nxt_txt} keessatti taphatu qabda."
+    "played": "Player {player_id} mini bordii {macro_idx} keessatti, kuta {micro_idx} (safuu {row}, kuti {col}) keessatti taphate. Player {opponent_id} amma mini bordii {nxt_txt} keessatti taphachu qaba."
   },
   "outcome": {
     "win": "Taphattuun {player_id} Ultimate Tic Tac Toe mo'atti!",

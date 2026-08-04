@@ -14,14 +14,14 @@
     "{scores}": "The final scores as a raw player-number to score mapping - do not translate"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player GOPS.\n- You hold the 13 cards A-K (each exactly once).\n- Each round a prize is revealed. Submit ONE card like `[Q]`, `[10]`, `[2]` …\n- Highest card wins the prize (+ any carry-over pot). Ties roll the prize into the next round.\n- After 13 rounds, highest total wins. Invalid moves = elimination."
+    "intro": "Yu stap Player {player_id} long Three-Player GOPS.\n- Yu holim kat kundu 13 A-K (wanpela tasol).\n- Kila raun i stap prize i reveal. Salim WANPELA kat kundu olsem `[Q]`, `[10]`, `[2]` …\n- Kat kundu i stap long pes bilong winim prize (+ eni keri-ova pot). Tie i rorim prize long nek raun.\n- Biha 13 raun, totol i stap long pes bilong winim. Invalid muv = eliminat."
   },
   "round": {
-    "header": "### Round {round}/13 - Prize: {prize} (worth {worth})",
+    "header": "### Raun {round}/13 - Prize: {prize} (vatu {worth})",
     "hand": "Namba wan han bilong yu: {hand}"
   },
   "reveal": {
-    "win": "Bids » {bids} - Player {winner} wins {pot}.",
+    "win": "Bids » {bids} - Pleia {winner} i winim {pot}.",
     "tie": "Ol i tok  {bids} - tie, pot nau {pot}.",
     "scores": "Ol Skore → {scoreline}"
   },

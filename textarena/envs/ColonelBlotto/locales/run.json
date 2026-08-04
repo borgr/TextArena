@@ -5,7 +5,7 @@
     "commander_beta": "Umugaba Beta"
   },
   "game_state": {
-    "header_round": "=== COLONEL BLOTTO - Round {current_round}/{num_rounds} ===\nRounds Won - Commander Alpha: {alpha_score}, Commander Beta: {beta_score}"
+    "header_round": "=== COLONEL BLOTTO - Umwaka {current_round}/{num_rounds} ===\nImikino Yatsinze - Komandi Alpha: {alpha_score}, Komandi Beta: {beta_score}"
   },
   "round_battle": {
     "field_result": "\nRaundi {current_round}\nCommander Alpha aligawa: {p0_allocations}\nCommander Beta aligawa: {p1_allocations}\n",

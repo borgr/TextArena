@@ -7,13 +7,13 @@
   },
   "invalid_move": {
     "wrong_format": "Níl aon fhormáid gluaiseachta bailí le fáil. Úsáid '[pile quantity]'.",
-    "correct_format_wrong_fields": "Player {player_id}, Invalid action. Column {col} is out of bounds.",
+    "correct_format_wrong_fields": "Imreoir {player_id}, Gníomh neamhbhailí. Tá colún {col} as teorainn.",
     "out_of_range": "Tá innéacs na píola {pile_index} lasmuigh den raon.",
     "non_positive": "Ní mór dó rud amháin ar a laghad a bhaint.",
-    "exceeds_pile": "Cannot remove {quantity} from pile {pile_index} (only {pile_count} left)."
+    "exceeds_pile": "Ní féidir {quantity} a bhaint as carn {pile_index} (níl ach {pile_count} fágtha)."
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "D'imir Imreoir {player_id} [{pile_index} {quantity}], ag baint {quantity} ábhar(as) as carn {pile_index}."
   },
   "outcome": {
     "win": "Ghlac imreoir {player_id} an t-ábhar deireanach ((s)!"

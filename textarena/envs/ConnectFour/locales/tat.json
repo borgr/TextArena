@@ -8,11 +8,11 @@
   },
   "invalid_move": {
     "wrong_format": "Уенчы {player_id}, Гамәл форматы гамәлсез. Көтелгән формат: '[col x]'.",
-    "out_of_range": "Player {player_id}, Invalid action. Column {col} is out of bounds.",
-    "already_full": "Player {player_id}, Invalid action. Column {col} is full."
+    "out_of_range": "{player_id} уенчысы, ялгыш хәрәкәт. {col} баганасы чикләрдән тыш.",
+    "already_full": "{player_id} уенчысы, ялгыш хәрәкәт. {col} баганасы тулы."
   },
   "action": {
-    "dropped_disk": "Player {player_id} dropped their disk ({player_symbol}) into column {col}."
+    "dropped_disk": "{player_id} уенчысы үз дискын ({player_symbol}) {col} баганасына төшерде."
   },
   "outcome": {
     "win": "{player_id} уенчысы дүртне тоташтырып җиңә!",

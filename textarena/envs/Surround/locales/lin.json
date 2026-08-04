@@ -10,7 +10,7 @@
     "{groups}": "Neutral ranking data (a list of player-id groups, best to worst); do not translate"
   },
   "player_prompt": {
-    "intro": "{num_players}-Player Surround on a {width}x{height} grid.\nYou are player {player_id}. Valid moves: '[up]' '[down]' '[left]' '[right]' or w/s/a/d.\nObjective: outlive everyone else. Trails are deadly; wall hits kill; head-on crashes kill both."
+    "intro": "{num_players}-Bato ba Surround o libandi {width}x{height}.\nOzali mokili {player_id}. Mikano ya kozala: '[up]' '[down]' '[left]' '[right]' to w/s/a/d.\nMokono: wumela mingi kuluta bato banso. Mikano ya nzela ikola; kugbama kwa libandi ikola; kugbama kwa mutu na mutu wanyi ikola bato babili."
   },
   "board": {
     "current": "Lisangani ya sika: {board}",

@@ -4,7 +4,7 @@
   },
   "invalid_move": {
     "invalid_move_format": "Format de spostament invalid",
-    "cell_out_of_range": "Invalid cell number {cell_num}. Must be between 0 and {max_board_num}.",
+    "cell_out_of_range": "Numer de cella minga vàlid {cell_num}. El gh'ha de vess tra 0 e {max_board_num}.",
     "cell_already_occupied": "La cellula {cell_num} l'è già ocupada. Sceglie una celula vuda."
   },
   "board": {

@@ -43,7 +43,7 @@
   },
   "action_desc": {
     "swapped": "Muzinda {pid} akaita {new} ne{old} pa nhambo ({row},{col})",
-    "discarded": "Player {pid} discarded {card}"
+    "discarded": "Mchezaji {pid} akadiscard {card}"
   },
   "message": {
     "deck_empty": "Dhekisi harina chinhu! Mutambo unoguma pakarepo.",

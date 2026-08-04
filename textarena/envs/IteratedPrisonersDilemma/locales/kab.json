@@ -1,11 +1,11 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in an Iterated Prisoner's Dilemma spanning {num_rounds} rounds.\n\nGame Structure:\n- Before each decision you have {total_conversation_rounds} turns to communicate freely.\n- After that, both players simultaneously choose to cooperate or defect.\n\nPayoff Matrix (fixed each round):\n- Both Cooperate ➜ each {cooperate_reward}\n- Both Defect ➜ each {mutual_defect_reward}\n- One Defects, one Cooperates ➜ Defector {defect_reward}, Cooperator {sucker_reward}\n\nHow to Play:\n- During conversation: type any text you wish.\n- During decision phase: include '[Cooperate]' or '[Defect]' (case-insensitive). You may add extra text before/after the token."
+    "intro": "D kečč imaray {player_id} deg Iterated Prisoner's Dilemma i ɣezzifen {num_rounds} n tuffɣa.\n\nTasuddest n Urar:\n- Uqbel kila tiɣri, ɣur-k {total_conversation_rounds} n tuffɣa akken ad tmeslay s leḥsab.\n- S akken, snat n imarayen ttnadin ad ṣṣifen neɣ ad ṛṛan ɣer tneɣri.\n\nTafelwit n Tɣellist (teɣzif deg kila tuffɣa):\n- Snat Ṣṣifen ➜ kila {cooperate_reward}\n- Snat Ṛṛan ɣer tneɣri ➜ kila {mutual_defect_reward}\n- Yiwen iṛa ɣer tneɣri, yiwen ṣṣifen ➜ Aṛa ɣer tneɣri {defect_reward}, Aṣṣif {sucker_reward}\n\nAmek i wakken ad Uḍen:\n- Deg wakud n tmeslayt: aru aɣawal i tebɣam.\n- Deg wakud n tiɣri: ṛuḥ '[Cooperate]' neɣ '[Defect]' (war leḥsab n usekkil). Tzemreḍ ad ternuḍ aɣawal uffiɣ/sakin n token."
   },
   "phases": {
     "conversation_finished": "Taqsiṭ tettwafixed akken i ṭṭufa {round}. Cnu ṭṭel '[Cooperate]' neɣ '[Defect]' deg \\boxed{{}}.",
     "starting_round": "--- Tazrawt n tazwara {round} ---",
-    "round_summary": "Round {round} results:\n{outcome}\nPlayer 0 earned {r0} (total {score_0}), Player 1 earned {r1} (total {score_1})."
+    "round_summary": "Iɣewwaṛen n tuɣzi {round}:\n{outcome}\nAmiraz 0 yewwi {r0} (yekkat {score_0}), Amiraz 1 yewwi {r1} (yekkat {score_1})."
   },
   "outcome": {
     "winner": "Player {winner} yeggeṛ {win_score} - {lose_score}.",

@@ -14,7 +14,7 @@
     "{scores}": "The final scores as a raw player-number to score mapping - do not translate"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player GOPS.\n- You hold the 13 cards A-K (each exactly once).\n- Each round a prize is revealed. Submit ONE card like `[Q]`, `[10]`, `[2]` …\n- Highest card wins the prize (+ any carry-over pot). Ties roll the prize into the next round.\n- After 13 rounds, highest total wins. Invalid moves = elimination."
+    "intro": "Ou se Jwè {player_id} nan Three-Player GOPS.\n- Ou kenbe 13 kat A-K (chak yon fwa).\n- Chak wonn, yon prim revele. Soumèt YON kat tankou `[Q]`, `[10]`, `[2]` …\n- Kat ki pi wo genyen prim lan (+ nenpòt pòt ki pote). Ekwalite woule prim lan nan pwochen wonn.\n- Apre 13 wonn, moun ki gen pi gwo total genyen. Deplasman invalid = eliminasyon."
   },
   "round": {
     "header": "### Tou {round}/13 - Pri: {prize} (vale {worth})",

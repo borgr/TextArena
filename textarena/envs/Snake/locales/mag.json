@@ -11,7 +11,7 @@
     "{groups}": "Neutral ranking data (a list of player-id groups, worst to best); do not translate"
   },
   "player_prompt": {
-    "intro": "{num_players}-Player Snake on a {width}×{height} grid.\nYou control snake {player_id}. Valid moves: '[up]'/'[down]'/'[left]'/'[right]' (or w/s/a/d).\nObjective: survive longest or be the longest and get the highest score (turn limit {max_turns} turns)."
+    "intro": "{num_players}-खिलाड़ी साँप {width}×{height} ग्रिड पर।\nआप साँप {player_id} को नियंत्रित करते हैं। वैध मूव: '[up]'/'[down]'/'[left]'/'[right]' (या w/s/a/d)।\nउद्देश्य: सबसे लंबे समय तक जीवित रहें या सबसे लंबे समय तक जीवित रहें और उच्चतम स्कोर प्राप्त करें (टर्न सीमा {max_turns} टर्न)।"
   },
   "board": {
     "current": "वर्तमान बोर्ड: {board}",
@@ -23,7 +23,7 @@
   "outcome": {
     "survived_win": "खिलाड़ी {player_id} बच गेलइ; बाकी सब मर गेले हल।",
     "all_dead_simul": "सभे साँप एक्के साथ मर गेल ।",
-    "outlived": "Player outlived all others.",
+    "outlived": "खिलाड़ी ने सभी अन्य को पीछे छोड़ दिया।",
     "all_dead": "सब साँप मर गेलइ ।",
     "turn_limit": "वक्र सीमा तक पहुँच गेल - सबसे अच्छा स्कोर टाई-ब्रेक जीतलइ।",
     "ranking": "{reason} अंतिम रैंकिंग समूह (सबसे खराब→सबसे अच्छा): {groups}"

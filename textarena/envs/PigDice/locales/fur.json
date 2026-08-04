@@ -11,7 +11,7 @@
   },
   "board": {
     "player": "Zogador 0: '{score_0}'; Zogador 1: '{score_1}'",
-    "current_total_scores": "Current Total Scores: {scores}\nYour current turn total is {turn_total}.",
+    "current_total_scores": "Puntegjos Totâi Atuâi: {scores}\nIl tô totâl di volte atuâl al è {turn_total}.",
     "roll_history": "{observation}\nStorie dai tîrs di chest turn: {roll_history}",
     "first_roll": "{observation} Chest al è il prin rodul dal to turni.",
     "available_actions": "{observation}\nAzions disponiblis: '[roll]' o '[hold]'"

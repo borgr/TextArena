@@ -3,7 +3,7 @@
     "intro": "Wee ndi Player {player_id} mu Chopsticks. Pa turn yako, chagua moja ya:\n  + Attack:  '[attack M O]'  where M=hand yako (0 or 1), O=hand ya mkweli (0 or 1).\n    - Hand ya mkweli ikwama kwa hand yako; ikawa >=5, ikhoza ku 0.\n  + Split:   '[split L R]'  kutengeneza tenge hand yako yote ku L na R (L+R = hand yako yote).\nLonta na moja ya njira zikho."
   },
   "board": {
-    "current_board": "Bodi Lilipo:\nPlayer 0: {hands_0}\nPlayer 1: {hands_1}"
+    "current_board": "Bodi ya Sasa:\nMchezaji 0: {hands_0}\nMchezaji 1: {hands_1}"
   },
   "invalid_move": {
     "my_hand_dead": "Dzanja lanu {my_idx} ndi lakufa.",
@@ -14,7 +14,7 @@
   },
   "game_action": {
     "attack": "P{player_id} akutentha P{opp_id}’s hand {opp_idx}: ikhoza ku {opp_val} mpaka {new_val}.",
-    "split": "P{player_id} splits into [{L}, {R}]."
+    "split": "P{player_id} akugawanya kuwa [{L}, {R}]."
   },
   "history": {
     "entry": "P{player_id} {desc}"

@@ -14,7 +14,7 @@
     "{scores}": "The final scores as a raw player-number to score mapping - do not translate"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player GOPS.\n- You hold the 13 cards A-K (each exactly once).\n- Each round a prize is revealed. Submit ONE card like `[Q]`, `[10]`, `[2]` …\n- Highest card wins the prize (+ any carry-over pot). Ties roll the prize into the next round.\n- After 13 rounds, highest total wins. Invalid moves = elimination."
+    "intro": "Ia dados Pemain {player_id} ring Three-Player GOPS.\n- Ia ngelahang 13 kartu A-K (silih tunggal).\n- Sabilang puteran, hadiah kawedar. Ngirimang SATUNGAL kartu minakadi `[Q]`, `[10]`, `[2]` …\n- Kartu paling tegeh menang hadiah (+ pot ngangkut). Serimbang nggulungang hadiah nuju puteran salanturne.\n- Sasampun 13 puteran, total paling tegeh menang. Gegambaran salah = kaeliminasin."
   },
   "round": {
     "header": "### Putaran {round}/13 - Hadiah: {prize} (tegeh {worth})",

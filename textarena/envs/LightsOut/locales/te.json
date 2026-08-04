@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "చర్య ఫార్మాట్ లో ఉండాలి [row col] ఇక్కడ వరుస మరియు కాలమ్ 0 నుండి {max_index} వరకు పూర్ణాంకాలు.",
-    "out_of_range": "Coordinates must be between 0 and {max_index}. You entered [{row},{col}]."
+    "out_of_range": "కోఆర్డినేట్‌లు 0 మరియు {max_index} మధ్య ఉండాలి. మీరు [{row},{col}] నమోదు చేశారు."
   },
   "outcome": {
     "win": "అభినందనలు! మీరు {moves_used} కదలికలలో పజిల్ ను పరిష్కరించారు!",

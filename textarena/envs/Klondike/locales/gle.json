@@ -16,7 +16,7 @@
     "{cards}": "The cards in a pile as neutral labels, or '--' if empty (never translate)"
   },
   "player_prompt": {
-    "intro": "You are playing Klondike Solitaire. Your goal is to move all cards to the foundation piles.\n\nGame Rules:\n- Foundation piles (F1-F4): Build up from Ace to King in suit\n- Tableau piles (T1-T7): Build down alternating colors (red on black, black on red)\n- Stock: Draw cards to waste pile\n- Waste (W): Top card available for play\n\nCommands:\n- 'draw' - Draw cards from stock to waste\n- 'move <source> <destination> [count]' - Move cards between piles\n  Examples: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count can also be 'all', which will try to move all face-up cards.\n- 'forfeit' - End the game immediately and lock in your current score\n- Pile names: W (waste), F1-F4 (foundations), T1-T7 (tableau)\n\nYou can execute multiple actions in one turn by separating them with commas:\n  Example: 'draw, move W T1, move T2 F1'\n\nOnly Kings can be placed on empty tableau piles.\nActions execute in order - if one fails, the remaining actions are skipped.\nUse 'forfeit' if you believe the game is impossible to win."
+    "intro": "Tá tú ag imirt Klondike Solitaire. Is é do sprioc na cártaí go léir a bhogadh go dtí na cruacha bunaithe.\n\nRialacha an Chluiche:\n- Cruacha bunaithe (F1-F4): Tóg suas ó Ace go Rí i ndath\n- Cruacha tábla (T1-T7): Tóg síos ag déanamh dathanna malartacha (dearg ar dhubh, dubh ar dhearg)\n- Stoc: Tarraing cártaí go dtí an cruach dramhaíola\n- Dramhaíl (W): An cárta barr ar fáil le haghaidh imirt\n\nOrdaithe:\n- 'draw' - Tarraing cártaí ó stoc go dtí dramhaíl\n- 'move <source> <destination> [count]' - Bog cártaí idir cruacha\n  Samplaí: 'move W T1', 'move T1 F2', 'move T3 T5 2'. Is féidir 'all' a bheith in áit an chomhaireamh, a dtriailfidh bogadh na cártaí go léir atá os cionn.\n- 'forfeit' - Críochnaigh an cluiche láithreach agus glasáil do scór reatha\n- Ainmneacha cruacha: W (dramhaíl), F1-F4 (bunaithe), T1-T7 (tábla)\n\nIs féidir leat gníomhartha iolracha a chur i gcrích in aon bhabhta amháin trí iad a dheighilt le camóga:\n  Sampla: 'draw, move W T1, move T2 F1'\n\nNíl ach Ríthe a ceadaithe ar chruacha tábla folamha.\nGníomhartha a chur i gcrích in ord - má theipeann ceann, déantar neamhaird de na gníomhartha eile.\nBain úsáid as 'forfeit' má chreideann tú nach féidir an cluiche a bhuachan."
   },
   "format_error": {
     "no_brackets": "Formáid neamhbhailí gníomhaíochta. Ba cheart go mbeadh an gníomh i gclaontacha.",
@@ -24,9 +24,9 @@
     "empty_command": "Ordú folamh. Téigh 'draw' nó 'move <source> <destination> [count]'.",
     "empty_action": "Gníomh folamh",
     "move_needs_args": "Éilíonn an t-ordú gluaiseachta foinse agus ceann scríbe. Úsáid: 'move <source> <destination> [count]'",
-    "count_positive": "Ní mór go mbeadh an comhaireamh dearfach nó 'go léir'",
+    "count_positive": "Caithfidh líon a bheith dearfach nó 'all'",
     "count_invalid": "Líon neamhbhailí. Úsáid uimhir nó 'all'",
-    "unknown_command": "Ordú anaithnid '{cmd}'. Úsáid 'tarraing', 'gluais <foinse> <críoch> [count]', nó 'éirí as'",
+    "unknown_command": "Ordú anaithnid '{cmd}'. Bain úsáid as 'draw', 'move <source> <destination> [count]', nó 'forfeit'",
     "wrapped": "Action {n}: {msg}"
   },
   "action_result": {

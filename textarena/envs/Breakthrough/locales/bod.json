@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are playing {color} in a game of Breakthrough. You move {direction} on an {board_size}x{board_size} board.\nIn your turn you can move a single piece one step forward or diagonally forward.\nA piece may only move diagonally if an opponent piece is there, and only move into such a preoccupied square in a diagonal step.\nWhen stepping into a square with an opponent piece, you capture it and the opponent's piece is removed permanently from the board.\nUse UCI-like notation in brackets, e.g. [a2a3] to move from a2 to a3.\n* 'a' corresponds to the leftmost column, '1' is the bottom row (from White's perspective).\n* Blacks's home row is the top row (row 8 for an 8x8). White's home row is the bottom row (row 1 for an 8x8).\nThe first player whose piece reaches the opponent's home row wins. If your pieces are all captured, you lose."
+    "intro": "ཁྱེད་ཀྱིས་{color}རང་འདྲེན་བརྩེགས་འཁྲབ་གཞིའི་རྩེད་མོ་ཞིག་རྩེ་བཞིན་ཡོད། ཁྱེད་ཀྱིས་{direction}སྒོར་{board_size}x{board_size}གི་རང་འདྲེན་བརྩེགས་གཞིའི་སྟེང་འགུལ་བཞིན་ཡོད།\nཁྱེད་ཀྱི་འགུལ་སྐབས་སུ་ཁྱེད་ཀྱིས་རང་འདྲེན་གཅིག་གི་མདུན་དུ་གོམ་པ་གཅིག་འགུལ་ཆོག\nརང་འདྲེན་དེ་གཞན་གྱི་རང་འདྲེན་ཡོད་པའི་སྒོ་ནས་གོམ་པ་གཅིག་མདུན་དུ་འགུལ་ཆོག\nཁྱེད་ཀྱིས་གཞན་གྱི་རང་འདྲེན་ཡོད་པའི་སྒོར་འགུལ་སྐབས་ཁྱེད་ཀྱིས་དེ་འཛིན་པ་དང་གཞན་གྱི་རང་འདྲེན་དེ་རྩེད་མོའི་གཞི་ནས་རྒྱུན་དུ་བསལ་བ་ཡིན།\nUCIའདྲ་བའི་རྩིས་གཞི་སྒྲིག་སྟངས་སྤྱད་དེ་འགུལ་སྐབས་འགུལ་སྟངས་བཀོད་དགོས་པ་ཡིན། དཔེར་ན། [a2a3]ནི་a2ནས་a3རུ་འགུལ་བ་ཡིན།\n* 'a'ནི་གཡོན་ཕྱོགས་ཀྱི་དུམ་བུ་དང་'1'ནི་དཀར་པོའི་བལྟ་དུས་ཀྱི་མདུན་ཕྱོགས་ཀྱི་དུམ་བུ་ཡིན།\n* ནག་པོའི་ཁྱིམ་གྱི་དུམ་བུ་ནི་སྟེང་ཕྱོགས་ཀྱི་དུམ་བུ་ཡིན། (8x8གི་རང་འདྲེན་བརྩེགས་གཞིའི་དུམ་བུ་8) དཀར་པོའི་ཁྱིམ་གྱི་དུམ་བུ་ནི་འོག་ཕྱོགས་ཀྱི་དུམ་བུ་ཡིན། (8x8གི་རང་འདྲེན་བརྩེགས་གཞིའི་དུམ་བུ་1)\nརྩེད་མོའི་མགྱོགས་པ་གཞན་གྱི་ཁྱིམ་གྱི་དུམ་བུར་སླེབས་པའི་རྩེད་མཁན་དང་པོ་གྱིས་རྒྱལ་ཁ་ཐོབ་པ་ཡིན། ཁྱེད་ཀྱི་རང་འདྲེན་ཡོད་ཚད་འཛིན་པའི་སྐབས་ཁྱེད་ཕམ་པ་ཡིན།"
   },
   "invalid_move": {
     "wrong_format": "རེ་འདུན་བཀོད་སྒྱུར་གྱི་རྣམ་པ་ལྟར་[a2a3] བཀོད་པ་བཞིན་བཀོད་པར་ཞུ།",
@@ -8,13 +8,13 @@
     "illegal": "ལས་འགུལ་དེ་ནི་ Breakthrough ཀྱི་ཁྲིམས་ལུགས་ལ་མི་བསྟུན་པའམ་ཁྱོད་ལས་འགན་མིན་པ་ལྟ་བུ།"
   },
   "game_action": {
-    "moved": "Player {player_id} moves {move_str} ({piece})."
+    "moved": "རྩེད་མཁན་{player_id}གྱིས་{move_str}({piece})འགུལ་བ་ཡིན།"
   },
   "outcome": {
     "white_reached": "དུང་དཀར་ཚོས་ནག་པོ་ཚོའི་ཁྱིམ་དུ་སླེབས་སོང་།",
     "black_reached": "དུང་དཀར་ཚོས་ཡུལ་གྲུ་ཀྱི་གྲས་ལ་སླེབས་སོང་།",
     "white_captured": "དཀར་པོ་རྣམས་འཛིན་བཟུང་བྱས་ཡོད།",
     "black_captured": "དུང་ནག་གི་མཚོན་ཆ་ཚང་མ་འཛིན་བཟུང་བྱས་འདུག།",
-    "no_moves": "Player {player_id} has no more moves."
+    "no_moves": "རྩེད་མཁན་{player_id}ལ་འགུལ་སྟངས་མེད་པ་ཡིན།"
   }
 }

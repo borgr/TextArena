@@ -8,7 +8,7 @@
   },
   "invalid_move": {
     "wrong_format": "شكل خطوة غلط.",
-    "illegal": "Illegal move."
+    "illegal": "حركة غير قانونية."
   },
   "game_action": {
     "moved": "اللاعب {player_id} قام بالنقلة التالية: {move_uci}"

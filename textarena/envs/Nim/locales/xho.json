@@ -13,7 +13,7 @@
     "exceeds_pile": "Angakwazi ukususa {quantity} kumgangatho {pile_index} (kuphela {pile_count} kushiywe)."
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "Mdlali {player_id} udalile [{pile_index} {quantity}], ukhupha {quantity} into (okanye iinto) kwi-pile {pile_index}."
   },
   "outcome": {
     "win": "Umdlali {player_id} wathabatha into yokugqibela ((s)!"

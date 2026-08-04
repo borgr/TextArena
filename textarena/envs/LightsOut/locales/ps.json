@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "عمل باید په [row col] بڼه وي چېرته چې قطار او کالم د 0 څخه تر {max_index} پورې بشپړ شمیرې وي.",
-    "out_of_range": "Coordinates must be between 0 and {max_index}. You entered [{row},{col}]."
+    "out_of_range": "کوآرډینیټونه باید د 0 او {max_index} ترمینځ وي. تاسو [{row},{col}] داخل کړئ."
   },
   "outcome": {
     "win": "مبارک شه! تاسو په {moves_used} حرکتونو کې پزل حل کړ!",

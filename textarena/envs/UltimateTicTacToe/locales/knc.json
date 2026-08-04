@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in **Ultimate Tic Tac Toe**.\nSubmit your move as **[macro  micro]** (two numbers 0-8):\n• *macro*  = which mini-board you play in\n• *micro* = which square inside that mini-board\nExample `[7 8]` ➜ place your mark in mini-board 7, square 8, and\nforce your opponent to play in mini-board 8 next.\n\nYou are `{symbol}`.\n"
+    "intro": "Káma káma {player_id} a **Ultimate Tic Tac Toe**.\nKárásu káma kúma **[macro  micro]** (mbàri mbàri 0-8):\n• *macro*  = kúma mini-kwásu káma kúma\n• *micro* = kúma kwásu káma kúma mini-kwásu\nMfàno `[7 8]` ➜ sà káma kúma mini-kwásu 7, kwásu 8, ndè\nkúma káma káma káma kúma mini-kwásu 8 kàma.\n\nKáma káma `{symbol}`.\n"
   },
   "board": {
     "current_board": "Kәrma kәndabe: {board}"
@@ -18,7 +18,7 @@
     "specific": "micro board {nxt} Dәga awowabe dәye."
   },
   "game_action": {
-    "played": "Player {player_id} played in micro board {macro_idx}, cell {micro_idx} (row {row}, col {col}). Player {opponent_id} must now play in {nxt_txt}."
+    "played": "Káma {player_id} kárásu kúma mini-kwásu {macro_idx}, kwásu {micro_idx} (kúma {row}, kúma {col}). Káma {opponent_id} kúma kúma kúma {nxt_txt}."
   },
   "outcome": {
     "win": "Kam do {player_id} ye cinna dǝ shima Ultimate Tic Tac Toe!",

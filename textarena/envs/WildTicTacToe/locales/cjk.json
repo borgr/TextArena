@@ -1,20 +1,20 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in Wild Tic Tac Toe.\nOn your turn, you can place either an 'X' or an 'O' in an empty square.\nYou win by aligning three of the same mark (X or O) in a row.\nYou can win with either symbol.\nChoose your move using the format '[X 4]' to place X in the center.\n"
+    "intro": "Wi ule wena Muthandeni {player_id} mu Tic Tac Toe ya Muvu.\nPa nthanda yako, ungaweka 'X' kapena 'O' mu miraba ya malo.\nUngashinda kwa kuweka malembo matatu ayo ayo (X kapena O) mu mstari.\nUngashinda na malembo yoyose.\nSankha nthanda yako kwa kutumia mfano '[X 4]' kuweka X pakati.\n"
   },
   "board": {
-    "current_board": "Current Board:\n\n{board}\n\nAvailable Moves: {moves}"
+    "current_board": "Bodi ya Sasa:\n\n{board}\n\nNthanda Zinazowezekana: {moves}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid move format. Use '[X 4]' or '[O 2]' format.",
-    "invalid_cell": "Cjk ck: {cell}. Must be between 0 and 8.",
-    "already_occupied": "Cjk ck. Cell {cell} is already occupied"
+    "wrong_format": "Mfano wa nthanda si sahihi. Tumia mfano '[X 4]' kapena '[O 2]'.",
+    "invalid_cell": "Nambari ya seli si sahihi: {cell}. Lazima iwe kati ya 0 na 8.",
+    "already_occupied": "Nthanda si sahihi. Seli {cell} tayari iliwekwa."
   },
   "game_action": {
-    "placed": "Player {player_id} placed their symbol ({mark}) in cell {cell}"
+    "placed": "Muthandeni {player_id} aliweka chapa yake ({mark}) mu seli {cell}"
   },
   "outcome": {
-    "win": "Player {player_id} wins with {mark}s!",
+    "win": "Muthandeni {player_id} ashinda na {mark}s!",
     "draw": "Mchezo ni draw!"
   }
 }

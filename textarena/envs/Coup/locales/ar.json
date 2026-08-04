@@ -103,17 +103,17 @@
     "income_others": "لعب Player #{source} للتو income. أصبح لديه الآن {coins} عملات",
     "coup_source": "لقد لعبت coup بنجاح للتو على Player #{target}. فقد بطاقة وكشف {card}. {remaining}",
     "coup_target": "لقد فقدت للتو بطاقة وكشفت بطاقة {card}. {remaining}",
-    "coup_others": "لعب Player #{source} للتو coup على Player #{target}. فقد بطاقة وكشف بطاقة {card}. {remaining}",
+    "coup_others": "اللاعب رقم {source} لعب الانقلاب على اللاعب رقم {target}. فقدوا بطاقة وكشفوا عن {card}. هم {remaining}",
     "fa_source": "لقد لعبت foreign aid بنجاح للتو. أصبح لديك الآن {coins} عملات",
     "fa_others": "لعب Player #{source} للتو foreign aid. أصبح لديه الآن {coins} عملات",
     "tax_source": "لقد لعبت tax بنجاح للتو. أصبح لديك الآن {coins} عملات",
     "tax_others": "لعب Player #{source} للتو tax. أصبح لديه الآن {coins} عملات",
     "assass_source": "لقد لعبت assassinate بنجاح للتو على Player #{target}. فقد بطاقة وكشف {card}. {remaining}",
     "assass_target": "لقد فقدت للتو بطاقة وكشفت بطاقة {card}. {remaining}",
-    "assass_others": "لعب Player #{source} للتو assassinate على Player #{target}. فقد بطاقة وكشف {card}. {remaining}",
+    "assass_others": "اللاعب رقم {source} لعب اغتيال اللاعب رقم {target}. فقدوا بطاقة وكشفوا عن {card}. هم {remaining}",
     "steal_source": "لقد سرقت للتو عملتين بنجاح من Player #{target}. أصبح لديك الآن {scoins} عملات. لدى Player #{target} عدد {tcoins} عملات",
     "steal_target": "سرق Player #{source} للتو عملتين منك. أصبح لديك الآن {tcoins} عملات. لدى Player #{source} عدد {scoins} عملات",
-    "steal_others": "سرق Player #{source} للتو عملتين من Player #{target}. لدى Player #{source} عدد {scoins} عملات. لدى Player #{target} عدد {tcoins} عملات",
+    "steal_others": "اللاعب رقم {source} سرق قطعتين نقدية من اللاعب رقم {target}. اللاعب رقم {source} لديه {scoins} قطع نقدية. اللاعب رقم {target} لديه {tcoins} قطع نقدية",
     "exchange_source_two": "لقد سحبت بطاقتين من الكومة للتبادل. أصبح لديك الآن: {cards}. يجب أن تختار البطاقتين اللتين تحتفظ بهما باستخدام [keep <card1> <card2>]",
     "exchange_source_one": "لقد سحبت بطاقتين من الكومة للتبادل. أصبح لديك الآن: {cards}. بما أنك فقدت نفوذًا، يجب أن تختار البطاقة الواحدة التي تحتفظ بها باستخدام [keep <card>]",
     "exchange_others": "يتبادل Player #{source} البطاقات مع مجموعة البلاط."
@@ -138,7 +138,7 @@
     "blocked_have": "مُنع من فعله وتبقّى لديه {n} بطاقة متبقية.",
     "blocked_none": "لم يعد لديه بطاقات متبقية، لقد أُقصي!",
     "refund_they": " أُعيدت إليه عملاته الثلاث.",
-    "others_succ_head": "تحدّى Player #{challenger} للتو بنجاح Player #{challenged} بشأن ادعائه {card}! ",
+    "others_succ_head": "اللاعب رقم {challenger} نجح في تحدي اللاعب رقم {challenged} على ادعائهم ببطاقة {card}! ",
     "others_blocked_have": "مُنع Player #{challenged} من فعله وتبقّى لديه {n} بطاقة متبقية.",
     "others_blocked_none": "لم يعد لدى Player #{challenged} بطاقات متبقية، لقد أُقصي!"
   },
@@ -164,7 +164,7 @@
     "query_block": "يحاول Player #{source} القيام بـ {action}{target}، ويسأل ما إذا كان Player #{pid} يريد الحجب/التحدي.",
     "target_on": " على Player #{target}",
     "target_from": " من Player #{target}",
-    "query_challenge_blocker": "يقوم Player #{blocker} بـ {block} على Player #{source}، ويسأل ما إذا كان Player #{pid} يريد تحدي الحجب.",
+    "query_challenge_blocker": "اللاعب رقم {blocker} يحظر {block} على اللاعب رقم {source}، يسأل اللاعب رقم {pid} إذا كان يريد تحدي الحظر.",
     "query_keep": "يحاول Player #{source} القيام بتبادل، ويسأل عمّا يرغب في الاحتفاظ به."
   }
 }

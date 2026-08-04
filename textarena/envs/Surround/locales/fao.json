@@ -22,7 +22,7 @@
   "outcome": {
     "survived_win": "Leikarurin {player_id} yvirlivdi; allir hinir datt niður.",
     "all_crashed": "Allir leikararnir fóru at fella samstundis.",
-    "outlived": "Player livdi longur enn allir hinir.",
+    "outlived": "Leikari overlevdi øllum øðrum.",
     "all_dead": "Allir leikarar deyðir.",
     "turn_limit": "Um tú hevur rokkið umstøðurnar, vinnur tann sum livir longst.",
     "ranking": "{reason} Endaliga rangpeðingar bólkar (best→verst): {groups}"

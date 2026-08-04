@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You will observe {N} hidden values sequentially.\nAt each step type [accept] to pick the *current* value, or [continue] to skip it and see the next one.\nIf you never accept, you are forced to take the final value.\nYou win (reward = 1) **only** if the value you ultimately pick is the highest of all."
+    "intro": "Makakita ka iti {N} a naitago a pateg iti agkasarita.\nIti kada daras, itype mo [accept] tapno agpili ka iti *agdama* a pateg, wenno [continue] tapno agpalpas ka iti dayta ken makakita ka iti sumaruno.\nNo kailanman sa ka agpili, mapilit ka a tumawen iti maudi a pateg.\nMangabak ka (gantimpala = 1) **laeng** no ti pateg a pinaltoogan mo iti kinaudi ket isu ti kangatuan amin."
   },
   "game_action": {
     "current_value": "Ti agdama a pateg ket {value}."

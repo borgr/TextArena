@@ -13,7 +13,7 @@
     "exceeds_pile": "Taiweza kuleka {quantity} ku pile {pile_index} (ni {pile_count} zili lelo)."
   },
   "observation": {
-    "removed_from_piles": "Player {player_id} played [{pile_index} {quantity}], removing {quantity} object(s) from pile {pile_index}."
+    "removed_from_piles": "Player {player_id} alekele '[{pile_index} {quantity}]', kutoa {quantity} icimbwi ku icimbwi {pile_index}."
   },
   "outcome": {
     "win": "Umulayi {player_id} aaleteya icintu ca kulekelesha (s)!"

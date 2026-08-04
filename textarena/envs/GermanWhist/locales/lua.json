@@ -1,10 +1,10 @@
 {
   "game_start": {
-    "intro": "The game begins. Trump suit: {trump_suit} (trump card: {trump_str}).",
+    "intro": "Mweshi wa michezo unatangaza. Mweshi wa kushinda: {trump_suit} (kadi ya kushinda: {trump_str}).",
     "no_trump_card": "kakuena nansha umue to."
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in German Whist.\n{phase_info}\nYou hold {hand_size} cards.\nPlay a card with '[play N]', where N is its position in your hand (for example '[play 3]').",
+    "intro": "Ndiwe Mchezaji {player_id} katika Whist ya Kijerumani.\n{phase_info}\nUna kadi {hand_size} mkononi.\nCheza kadi kwa kutumia '[play N]', ambapo N ni nafasi yake katika mkono wako (kwa mfano '[play 3]').",
     "phase_learning": "TSHITATU tshia dilonga: muntu udi mutshimune mu diteta dionso, utu wangata karte kadi ne mpala kuulu eku mubengianganyi uwangata kaarte kakuabu.",
     "phase_playing": "Tshikondo tshia kunaya: tshiamu etshi ntshijike, bualu bua ku mpindieu tshingoma tshionso tshidi ne mushinga wa bungi."
   },
@@ -25,7 +25,7 @@
   },
   "trick": {
     "won": "Muena manaya {winner_id} udi upeta tshiamu ne {card}.",
-    "won_learning": "Player {winner_id} wins the trick with {card} and takes the face-up card."
+    "won_learning": "Mchezaji {winner_id} anashinda mchezo kwa {card} na kuchukua kadi iliyo wazi."
   },
   "phase": {
     "learning_complete": "Tshitupa tshia dilongesha ntshipite, bualu mayele onso adi ashala ne mushinga bua kutshimuna."
@@ -38,9 +38,9 @@
   "turn": {
     "board": "{phase}\n{scores}\n{next_card}\n\n{trick}\n\n{hand}",
     "scores_learning": "Michezo iliyoshinda hadi sasa - Mchezaji 0: {tricks0}, Mchezaji 1: {tricks1}",
-    "scores_playing": "Kadi za kufunga - Mchezaji 0: {tricks0}, Mchezaji 1: {tricks1}",
+    "scores_playing": "Michezo inayohesabiwa - Mchezaji 0: {tricks0}, Mchezaji 1: {tricks1}",
     "phase": "Tshitupa: {phase}",
-    "phase_learning": "Mzunguko: {phase} (〕{remaining_cards} kadi zimesalia katika dekomo)"
+    "phase_learning": "Hatua: {phase} ({remaining_cards} kadi zimesalia kwenye sitaha)"
   },
   "hand": {
     "no_cards": "Kakuena karte to.",
@@ -51,7 +51,7 @@
     "card_line": "{observation}\n    {index}. {card}"
   },
   "trick_view": {
-    "empty": "No cards played yet this trick.",
+    "empty": "Hakuna kadi zilizochewa bado katika mchezo huu.",
     "header": "Tshilumbu tshia matuku aa:",
     "trump_indicator": "(TUMBA) Muanda wa kabingila:",
     "card_line": "{observation}\n  Mchezaji {player_id}: {card}〕{trump_indicator}"
@@ -60,17 +60,17 @@
     "not_started": "Mpuilu ki mmutuadije to.",
     "header": "=== TSHIKUBA KYA DIMANYI DIA BALUMBALA MU MUSOLO WA KU NGANDA YA GERMAN WIST ===",
     "phase": "{observation}\nMzunguko: {phase}",
-    "trump_suit": "{observation}\nSuti ya trump: {trump_suit}",
-    "trump_card": "{observation}\nKadi ya trump: {card}",
-    "cards_left": "{observation}\nKadi zibwele mu dekomo: {count}",
+    "trump_suit": "{observation}\nSuti ya kushinda: {trump_suit}",
+    "trump_card": "{observation}\nKadi ya kushinda: {card}",
+    "cards_left": "{observation}\nKadi zilizobaki kwenye sitaha: {count}",
     "next_card": "{observation}\nKadi inayofuata kwa mshindi: {card}",
     "blank": "{observation}  biena-bualu:",
-    "current_trick": "{observation} Tshilumbu tshia matuku aa:",
+    "current_trick": "{observation}\nMchezo wa sasa:",
     "trump_indicator": "(TUMBA) Muanda wa kabingila:",
     "trick_line": "{observation}\n  Player {player_id}: {card}{trump_indicator}",
-    "player_line": "{observation}\nPlayer {player_id}: {scoring} scoring tricks ({tricks} total), {hand_size} cards in hand"
+    "player_line": "{observation}\nMchezaji {player_id}: {scoring} michezo inayohesabiwa ({tricks} jumla), {hand_size} kadi mkononi"
   },
   "outcome": {
-    "summary": "Learning phase - Player 0: {l0}, Player 1: {l1}. Playing phase - Player 0: {p0}, Player 1: {p1}. Player {winner_id} wins with {winner_tricks} scoring tricks!"
+    "summary": "Hatua ya kujifunza - Mchezaji 0: {l0}, Mchezaji 1: {l1}. Hatua ya kucheza - Mchezaji 0: {p0}, Mchezaji 1: {p1}. Mchezaji {winner_id} anashinda kwa {winner_tricks} michezo inayohesabiwa!"
   }
 }

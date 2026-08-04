@@ -16,17 +16,17 @@
     "{cards}": "The cards in a pile as neutral labels, or '--' if empty (never translate)"
   },
   "player_prompt": {
-    "intro": "Urimo gukina Klondike Solitaire. Intego yawe ni ukujyana amakarita yose ku nkingi z'urufatiro. Amategeko y'umukino: - Inkingi z 'urwego (F1-F4): Kubaka kuva Ace kugeza Umwami mu myambarire - Ibikoresho by'ibaruramari (T1-T7): Gushiraho amabara ahinduranye (umutuku kumweru, umukara kuri umutuku) - Ububiko: Kuramo ikarita yo gusesagura inkingo - Imyanda (W): Karita ya mbere iboneka kugirango ukine Amabwiriza: - \"kurema\" - Kurama amakarito avuye mubikorwa byo gutakaza - 'kugenda <isoko> <ahantu hose> [count]' - Kuvana amakarata hagati yimirongo Ingero:\" kwimuka W T1 \",\" kwimuka T1 F2 \",\" kugenda T3 T5 2 \". Birashobora kandi kuba\" byose\", bizagerageza guhita bimurira amakarite yose hejuru. - 'kubeshya \" - Guhagarika imikino no gufunga amanota yawe muri iki gihe-Imyambaro: Pile W (was), F4 1-F4-T1, imikorere yibanze itangwayo), T7 (gukora ibyuma byinshi) Urashobora gukurikirana mugihe usiga urutonde rwimiterane rwijwe hamwe nuburyo bwimikino A-1, niba ibikorwa bisigaye bishyi bishobora gukorwa iyo abamiwe na commas ikosa wongeye gushyemeza ko ingamba igicya ifoto imwe gusa ushobora kubatsinda igikombe , kurubanza kimwe cyumusoro. Urugero: Kwikurikiririzo cyabakwugame ishobora gukoresha uburyo bwo gutsindwa kwinjiza abakiranirwa nimigenga."
+    "intro": "Uri kuzitambira Klondike Solitaire. Iradufasha kwambukiza karata zote kwa mirongo ya msingi.\n\nItegeko rya Mchezo:\n- Mirongo ya msingi (F1-F4): Jenga kuza kutoka Ace hadi King mu mwonekano wa ruhusa\n- Mirongo ya meza (T1-T7): Jenga kudorora mu mabara mbalimbali ya rangi (umutuku kwa kijivu, kijivu kwa umutuku)\n- Stock: Oza karata kwa mirongo ya hasara\n- Hasara (W): Karata ya juu irahari kwa kuzitambira\n\nKomandi:\n- 'draw' - Oza karata kutoka stock hadi hasara\n- 'move <source> <destination> [count]' - Hamisha karata kati ya mirongo\n  Urugero: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count inaweza kuba 'all', ambayo itagerageza kuhimisha karata zote zimeshushwa.\n- 'forfeit' - Maliza mchezo mara moja na ufunge alama yawe\n- Majina ya mirongo: W (hasara), F1-F4 (msingi), T1-T7 (meza)\n\nUshobora kutekeleza ibikorwa byinshi mu mchezo mmoja kwa kuzitenganisha na virambo:\n  Urugero: 'draw, move W T1, move T2 F1'\n\nNi Abami gusa wabashobora kuzishyirwa kwa mirongo ya meza ishirini.\nIbikorwa bitekelezwa mu mpanganyo - iyo kimwe kimwe gishindikana, ibikorwa bisigishye bishyirwa kando.\nTumia 'forfeit' iyo ukemera kwamba mchezo ureshyitse kugera."
   },
   "format_error": {
     "no_brackets": "Imiterere y'ibikorwa idakwiriye. Ibikorwa bigomba kuba mu nkingi.",
     "no_closing_bracket": "Imiterere y'ibikorwa idakwiriye. Gifite agace ka nyuma ']'",
-    "empty_command": "Itegeko ritagira icyo rivuga. Andika 'kurasa' cyangwa ' kwimura <isoko> <ahantu ugomba kujya > [count]'.",
+    "empty_command": "Komandi ishirini. Andika 'draw' cyangwa 'move <source> <destination> [count]'",
     "empty_action": "Igikorwa cy'ubusa",
-    "move_needs_args": "Gusaba ko itegeko ryo kwimura rikenera isoko n'aho rigana. Gukoresha: 'gushyira <isoko> <ahantu ugenewe > [count]'.",
-    "count_positive": "Kubara bigomba kuba byiza cyangwa 'byose'",
-    "count_invalid": "Kubara bidakwiriye. Koresha umubare cyangwa 'byose'",
-    "unknown_command": "Komandi ishoma '{cmd}'. Utumye 'tambura', 'hamisha <source> <destination> [count]', or 'nyaga'",
+    "move_needs_args": "Komandi ya kuhimisha karata isaba inkomoko na ujumuisho. Ikoreshwa: 'move <source> <destination> [count]'",
+    "count_positive": "Kubara kugaragara kuba chanya cyangwa 'all'",
+    "count_invalid": "Kubara si sahihi. Tumia nambari cyangwa 'all'",
+    "unknown_command": "Komandi isizwi '{cmd}'. Tumia 'draw', 'move <source> <destination> [count]', cyangwa 'forfeit'",
     "wrapped": "Action {n}: {msg}"
   },
   "action_result": {
@@ -35,7 +35,7 @@
     "failed": "Action {n} yashitse: {msg}"
   },
   "move_result": {
-    "drew": "Drew card(s) from stock to waste.",
+    "drew": "Imechora kadi (zi) kutoka kwa hisa hadi taka.",
     "cannot_draw": "Ntibashobora gukusanya. Ibikoresho n'ibisigazwa byombi nta kintu birimo.",
     "invalid_pile": "Izina ry'urutonde ridakwiriye. Koresha W, F1-F4, cyangwa T1-T7",
     "foundation_one_card": "Ishobora kwimura ikarita 1 gusa ku rufatiro",
@@ -45,7 +45,7 @@
     "tableau_to_foundation_bad": "Ntushobora kwimura ikarita y'igiteranyo kuri iyo nkingi ya fondasiyo",
     "foundation_to_foundation": "Ntibishobora kwimuka kuva ku rufatiro kugera ku rundi",
     "waste_to_tableau_one_card": "Ishobora kwimura ikarita 1 gusa kuva mu byo yajugunye muri tableau",
-    "waste_to_tableau_ok": "Moved card from waste to tableau T{dst}",
+    "waste_to_tableau_ok": "Imehamisha kadi kutoka kwa taka hadi jedwali T{dst}",
     "waste_to_tableau_bad": "Ntushobora gushyira ikarita y'ibishingwe kuri iyo miterere ya tableau",
     "no_face_up": "Nta makarita yabaga afunguye ngo ajyanwe ahandi.",
     "tableau_to_tableau_ok": "Yahamishe {count} kati ya tableau T{src} ku T{dst}",

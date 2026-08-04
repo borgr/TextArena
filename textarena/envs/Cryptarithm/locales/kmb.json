@@ -9,10 +9,10 @@
     "{pct}": "Progress as a percentage string, e.g. 50%"
   },
   "player_prompt": {
-    "intro": "Map each letter to a unique digit so the arithmetic holds.\nAssign with `[A 5]`, re-assign anytime.\n"
+    "intro": "Peta kila litra ku digito ujila, vava kubalula kwa kuhala.\nTamba na `[A 5]`, tambula kena uku."
   },
   "invalid_move": {
-    "wrong_format": "Bad action format. Use `[A 5]`.",
+    "wrong_format": "Mbulu ya kufanya kibeni. Tamba na `[A 5]`.",
     "letter_not_in_puzzle": "O kijimbuete {letter} mu phutu, ka tena ku ki sanga.",
     "digit_used": "Dijiti {digit} zajilwa tayi {used_letter}.",
     "leading_zero": "O dífue dia dianga, ki di tokala ku kala 0."

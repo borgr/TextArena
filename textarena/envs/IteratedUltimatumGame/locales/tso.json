@@ -37,7 +37,7 @@
     "accept_or_reject": "Muvoneli a fanele a [Accept] kana a [Reject] tichabo."
   },
   "outcome": {
-    "win": "Player {winner} won with ${winner_total} total vs Player {loser}'s ${loser_total}.",
+    "win": "Mpiri {winner} u hlule hi $ {winner_total} ku tlula Mpiri {loser} loyi a hluriwa hi $ {loser_total}.",
     "draw": "Tintlangu leti ti hetelele hi ${total} loko ku hlanganisiwa."
   }
 }

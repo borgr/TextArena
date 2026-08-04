@@ -24,8 +24,8 @@
     "empty_command": "ശൂന്യമായ കമാൻഡ്. 'draw' അല്ലെങ്കിൽ 'move <source> <destination> [count]' എന്ന് ടൈപ്പ് ചെയ്യുക",
     "empty_action": "ശൂന്യമായ നടപടി",
     "move_needs_args": "നീക്കുക കമാൻഡിന് ഉറവിടവും ലക്ഷ്യസ്ഥാനവും ആവശ്യമാണ്. ഉപയോഗം: 'move <source> <destination> [count]'",
-    "count_positive": "എണ്ണം പോസിറ്റീവ് ആയിരിക്കണം അല്ലെങ്കിൽ 'എല്ലാം'",
-    "count_invalid": "അസാധുവായ എണ്ണം. ഒരു സംഖ്യയോ 'എല്ലാവരും' ഉപയോഗിക്കുക",
+    "count_positive": "എണ്ണം ധനാത്മകമോ 'all' ആയിരിക്കണം",
+    "count_invalid": "അസാധുവായ എണ്ണം. ഒരു സംഖ്യ അല്ലെങ്കിൽ 'all' ഉപയോഗിക്കുക",
     "unknown_command": "അജ്ഞാത കമാൻഡ് '{cmd}'. 'draw', 'move <source> <destination> [count]', അല്ലെങ്കിൽ 'forfeit' ഉപയോഗിക്കുക",
     "wrapped": "നടപടി {n}: {msg}"
   },

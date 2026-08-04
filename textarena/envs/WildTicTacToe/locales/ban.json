@@ -3,7 +3,7 @@
     "intro": "Anda adalah Pemain {player_id} di Wild Tic Tac Toe.\nPada giliran Anda, Anda dapat menaruh 'X' atau 'O' di kotak kosong.\nAnda menang dengan menyelaraskan tiga tanda yang sama (X atau O) dalam satu baris.\nAnda dapat menang dengan simbol mana pun.\nPilih gerakan Anda menggunakan format '[X 4]' untuk menaruh X di tengah.\n"
   },
   "board": {
-    "current_board": "Current Board:\n\n{board}\n\nAvailable Moves: {moves}"
+    "current_board": "Papan Saat Ini:\n\n{board}\n\nGelisahan sané dados kaanggén: {moves}"
   },
   "invalid_move": {
     "wrong_format": "Format gerakan tidak valid. Gunakan format '[X 4]' atau '[O 2]'.",

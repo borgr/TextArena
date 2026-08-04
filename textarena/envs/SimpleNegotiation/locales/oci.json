@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "Ètz Jogador {player_id} dins lo Jòc de Negociacion.\nAvètz de ressorsas e vòstra tòca es de far de comèrcis per que la valor totala de las vòstras ressorsas aumente.\nLas ressorsas e las valors associadas que possedètz actualament son:\n\t+ {resource_value_list}\nA cada torn, podètz parlar amb vòstre adversari e far una ofèrta de comèrci.\nUtilizatz los segents tokens especials per las accions:\n  - '[Ofèrta: 3 Oèls, 2 Minas -> 5 Tijas, 2 Oèls]': [Ofèrta: Ressorsas ofèrtas -> Ressorsas demandadas]\n  - '[Accept]': Per acceptar una ofèrta dintranta.\n  - '[Deny]': Per refusar una ofèrta dintranta (per defaut).\nLo jòc dura {max_turns} torns au total."
+    "intro": "Ètz Jogador {player_id} dins lo Jòc de Negociacion.\nAvètz de ressorsas e vòstra tòca es de far de comèrcis per que la valor totala de las vòstras ressorsas aumente.\nLas ressorsas e las valors associadas que possedètz actualament son:\n\t+ {resource_value_list}\nA cada torn, podètz parlar amb vòstre adversari e far una ofèrta de comèrci.\nUtilizatz los segents tokens especials per las accions:\n  - '[Offer: 3 Sheep, 2 Ore -> 5 Brick, 2 Sheep]': [Offer: Offered Resources -> Requested Resources]\n  - '[Accept]': Per acceptar una ofèrta dintranta.\n  - '[Deny]': Per refusar una ofèrta dintranta (per defaut).\nLo jòc dura {max_turns} torns au total."
   },
   "invalid_move": {
     "receiving_with_no_resource": "Lo jogaire ensagèt d'acceptar un cambi sens aver las ressorsas necessàrias.",
@@ -12,7 +12,7 @@
   },
   "offers": {
     "reject": "Lo jogaire {player_id} refusèt l'ofèrta de cambi.",
-    "accept": "Jogador {acceptor_id} a acceptat l'ofèrta de comèrci de Jogador {proposer_id}.",
+    "accept": "Lo jogaire {acceptor_id} a acceptat l'ofèrta de cambi del jogaire {proposer_id}.",
     "proposal": "Jogador {player_id} a fach l'ofèrta seguenta a Jogador {opponent_id}: Articles ofèrts: {offered} -> Articles demandats: {requested}"
   },
   "outcome": {

@@ -1,24 +1,24 @@
 {
   "player_prompt": {
-    "intro": "You are {role} in Colonel Blotto.\nYour goal is to win more rounds than your opponent.\nOn each round, allocate exactly {num_total_units} units across fields {field_names}.\nThe player who allocates more units to a field wins that field, and the player who wins more fields wins the round.\nFor example, '[A7 B7 C6]' allocates 7 units to A, 7 to B, and 6 to C.",
-    "commander_alpha": "कमांडर अल्फा.",
-    "commander_beta": "कमांडर बीटा, एमएस वर्मा।"
+    "intro": "توہی {role} کولنل بلوٹو چھی۔\nتوہند mụcاد ایہ چھی کہ تمہی اپنے مخالف نالوں زیاده راؤنڈ جیتو۔\nہر راؤنڈس پہ، {num_total_units} یونٹس {field_names} کھیتوں تہ تقسیم کرو۔\nکھلاڑی یوس کھیتس تہ زیادہ یونٹس مختص کرتا چھی اوہ کھیت جیتتا چھی، تے کھلاڑی یوس زیادہ کھیت جیتتا چھی اوہ راؤنڈ جیتتا چھی۔\nمثال دے طور پہ، '[A7 B7 C6]' 7 یونٹس A کھیتس تہ، 7 B کھیتس تہ، تے 6 C کھیتس تہ مختص کرتا چھی۔",
+    "commander_alpha": "کمانڈر الفا",
+    "commander_beta": "کمانڈر بیٹا"
   },
   "game_state": {
     "header_round": "=== COLONEL BLOTTO - Round {current_round}/{num_rounds} ===\nراؤنڈ جِتی گِیہ - کمانڈر الفا: {alpha_score}، کمانڈر بیٹا: {beta_score}"
   },
   "round_battle": {
     "field_result": "\nراؤنڈ {current_round}\nکمانڈر الفا مختص کِرمٕژ: {p0_allocations}\nکمانڈر بیٹا مختص کِرمٕژ: {p1_allocations}\n",
-    "winner_alpha": "{message}विनर: कमांडर अल्फा",
-    "winner_beta": "{message}विनर: कमांडर बीटा",
+    "winner_alpha": "{message}جیتو: کمانڈر الفا",
+    "winner_beta": "{message}جیتو: کمانڈر بیٹا",
     "tie": "{message}टाई! छू लो।"
   },
   "invalid_move": {
-    "wrong_format": "अमान्य इनपुट फॉर्मेट. इस्तेमालः A:5, B:10, C:5",
-    "invalid_field": "अमान्य फ़ील्ड नाव (). वैध फ़ील्स: {field_names}",
+    "wrong_format": "غلط انپٹ فارمیٹ۔ استعمال کرو: A:5, B:10, C:5",
+    "invalid_field": "غلط کھیت کا نام۔ درست کھیت: {field_names}",
     "wrong_allocation_value": "सलीम अलाकेशन छी एवं नोन -नेगेटिव इंतेजरस मंज़",
     "incorrect_total_units": "تہٕ ذاتہٕ {num_total_units} یونٹس مختص کرنہٕ چھِے۔ موجودہ جَماعت: {current_sum}",
-    "good_allocations": "आवंटन छान."
+    "good_allocations": "مختص کرنا ٹھیک ہے۔"
   },
   "outcome": {
     "winner_alpha": "کمانڈر الفا جِتِی {score_0}-{score_1} {num_rounds} راؤنڈ پَس!",

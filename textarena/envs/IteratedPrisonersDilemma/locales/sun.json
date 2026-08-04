@@ -8,7 +8,7 @@
     "round_summary": "Hasil puteran {round}:\n{outcome}\nPamaén 0 meunang {r0} (total {score_0}), Pamaén 1 meunang {r1} (total {score_1})."
   },
   "outcome": {
-    "winner": "Player {winner} wins {win_score} - {lose_score}.",
+    "winner": "Player {winner} meunang {win_score} - {lose_score}.",
     "draw": "Draw! Kadua pamaén nyetak {s0}.",
     "round_both_cooperate": "Kadua pamaén gawé bareng.",
     "round_both_defect": "Duanana pamaén nyimpang.",

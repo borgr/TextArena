@@ -13,7 +13,7 @@
     "repeated_guess": "Ou deja devine {guess}. Tanpri eseye yon lòt devinèt."
   },
   "game_action": {
-    "feedback": "Submitted [{guess}]. Feedback: {black_pegs} black peg(s), {white_pegs} white peg(s)."
+    "feedback": "Soumèt [{guess}]. Reyaksyon: {black_pegs} pèg nwa, {white_pegs} pèg blan."
   },
   "outcome": {
     "win": "Ou te dekriye kòd la, rezoud {black_pegs} sou {code_length} pyon byen.",

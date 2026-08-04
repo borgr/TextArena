@@ -12,7 +12,7 @@
     "invalid_position": "অবৈধ চলন - সেই অৱস্থালৈ চলিব নোৱাৰে।"
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
+    "moved": "আপুনি {pushed} [{action}] গতি কৰিছেন।",
     "pushed_prefix": "এটা বাকচ ঠেলি দিওঁতে"
   },
   "outcome": {

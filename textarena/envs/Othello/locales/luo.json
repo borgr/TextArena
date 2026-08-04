@@ -8,7 +8,7 @@
     "no_valid_moves_reset": "{observation} Onge kaka inyalo dhi nyime gi tugo - nyalo dwarore ni iloye.",
     "no_valid_moves_step": "{observation} Onge gima inyalo timo to ok ing'eyo kaka itime.",
     "scores_reset": "{observation}\nMapiyo marac - Blac: {black_count}, Nyago: {white_count}\n",
-    "scores_step": "{observation}\nScores - Black: {black_count}, White: {white_count}\n"
+    "scores_step": "{observation}\nAlama - Nyeusi: {black_count}, Nyeupe: {white_count}\n"
   },
   "invalid_move": {
     "wrong_format": "Kethruokno nyaka bed mar [row, col].",
@@ -16,7 +16,7 @@
   },
   "game_action": {
     "skipped": "Jalo {pid} ne nyaka we thuolo mare mar tugo.",
-    "played": "Player {pid} ({piece}) played [{r}, {c}] flipping {flipped} piece(s)"
+    "played": "Mchezaji {pid} ({piece}) alicheza [{r}, {c}] akibadilisha {flipped} kipande (vi)"
   },
   "game_message": {
     "must_skip": "Wacheni {pid} ({piece}) okelo mapiyo marach na asile kuwacho."

@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "ambiguous": "ဥပမာ \"[check]\"၊ \"[bet 2]\"၊ \"[call]\"၊ \"[raise 3]\" သို့မဟုတ် \"[fold]\" စသည်ဖြင့် ကန့်လန့်ဖြတ်ထားသော လုပ်ဆောင်ချက်တစ်ခုတည်းကိုသာ ပေးပို့ပါ။",
-    "cannot_check": "Cannot [check] - you are facing a bet.",
+    "cannot_check": "[check] လုပ်လို့ မရပါ - သင် လောင်းကစားခြင်း ခံထားရပါသည်။",
     "amount_min": "အပ်နှံ / မြှင့်တင်ငွေပမာဏသည် ≥ 1 ဖြစ်ရမည်။",
     "cannot_bet": "မဖြစ်နိုင် [bet] - မဖြစ်မနေ [call] / [raise] / [fold]",
     "nothing_to_call": "ဖုန်းခေါ်စရာမရှိဘူး၊ ခင်ဗျား [check]ပဲခေါ်လို့ရတယ်",

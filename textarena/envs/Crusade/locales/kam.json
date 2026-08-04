@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} ({piece}). Opponent is ({opp}). Submit moves as '[b1 c3]' (from → to). All pieces move like chess knights.\nEach capture scores {score_per_capture} point. Game ends after {max_moves} moves or when a player has no legal move / no pieces. Higher score wins."
+    "intro": "Wee ni Mchezaji {player_id} ({piece}). Mpinzani ni ({opp}). Wasilisha michezo kama '[b1 c3]' (kutoka → hadi). Michezo yote inasonga kama farasi wa chess.\nKila kushinda kunatoa alama {score_per_capture}. Mchezo unaisha baada ya {max_moves} michezo au wakati mchezaji hana mchezo halali / hakuna michezo. Alama ya juu inashinda."
   },
   "board": {
     "current_board": "Kuhamia #{move_count}\n\n{board}\n\nMichezo Inayopatikana: {moves}"
@@ -8,18 +8,18 @@
   "invalid_move": {
     "bad_format": "Ũndũ ũla mũthũku nĩ kana mũandĩko ũsu ũilyĩ ta '[b1 c3]'.",
     "unknown_square": "Mwanya ũtesĩkĩe.",
-    "not_your_piece": "Source is not your piece.",
-    "own_piece": "Cannot land on own piece.",
-    "not_knight": "Not a knight move."
+    "not_your_piece": "Chanzo si kipande chako.",
+    "own_piece": "Huwezi kuishia kwenye kipande chako.",
+    "not_knight": "Si mchezo wa farasi."
   },
   "game_action": {
-    "moved": "Player {player_id} moved their piece from {frm} to {to}.",
+    "moved": "Mchezaji {player_id} alisonga kipande chake kutoka {frm} hadi {to}.",
     "capture": "{observation} Inachukua kipande! (+{score_per_capture})"
   },
   "outcome": {
     "no_pieces": "Mũthaũki {player_id} nde na tũvila.",
     "cannot_move": "Ũla ũthaũkaa nĩ {player_id} na ndathaũka.",
-    "higher_score": "Higher capture score.",
+    "higher_score": "Alama ya juu ya kushinda.",
     "move_limit": "Wĩa witũ ũminĩte kũthelelwa."
   }
 }

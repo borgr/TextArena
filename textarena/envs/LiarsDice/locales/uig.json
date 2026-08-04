@@ -22,23 +22,23 @@
     "final_ranking": "list of player indices from first eliminated to winner"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in an {num_players}-player Liar's Dice game.\nRules:\n- On your turn, you may either:\n  1) Make a new bid with a higher quantity or higher face (or both) than the current bid; i.e. '[Bid: 3, 4]',\n  2) Call the last bid by typing '[Call]'.\n\nIf you call:\n  - If the actual count of that face value among all dice is less than the bid, the last bidder loses one die.\n  - Otherwise, the caller loses one die.\nA player who reaches 0 dice is eliminated. The last remaining player wins."
+    "intro": "سىز {num_players} ئويۇنچىلىك Liar's Dice ئويۇنىدىكى {player_id}-نومۇرلۇق ئويۇنچىسى.\nقىسىمچە:\n- سىزنىڭ نۆۋەتتە، سىز يېڭى تەكلىڧنى يۇقىرى مىقدار ياكى يۇقىرى زار نومۇرى (ياكى ھەر ئىككىلىسى) بىلەن تەكلىڧ قىلالىسىز؛ مەسىلەن '[Bid: 3, 4]',\n  2) سىز '[Call]' دەپ كىرگۈزۈپ ئاخىرقى تەكلىڧنى چاقىرالايسىز.\n\nئەگەر سىز چاقىرسىڭىز:\n  - ئەگەر بارلىق زارلاردىكى زار نومۇرىنىڭ ھېسابى تەكلىڧ قىلىنغان مىقداردىن تۆۋەن بولسا، ئاخىرقى تەكلىڧ قىلغۇچى بىر زارنى يېڭىەيدۇ.\n  - ئەگەر ئۇنداق بولمىسا، چاقىرغۇچى بىر زارنى يېڭىەيدۇ.\nزارلىرى تۈگەن ئويۇنچى چەكلەندۇ، ئاخىرقى قالغان ئويۇنچى يەڭگەن ھېسابلىنىدۇ."
   },
   "board": {
     "per_player": "\tئوينچي {p}: {d}",
     "new_round": "\nيېڭى راوند - قالماقتا قىلىچلار: {dice_summary}\nھازىرقى قىلىچلار: {your_dice}"
   },
   "call": {
-    "bidder_loses": "Player {current_player_id} calls! The actual count of face {face_value} is {count}, which is LESS than {quantity}.\nPlayer {loser_id} (the last bidder) loses one die.",
-    "caller_loses": "Player {current_player_id} calls! The actual count of face {face_value} is {count}, which is >= {quantity}.\nPlayer {loser_id} (the caller) loses one die."
+    "bidder_loses": "{current_player_id}-نومۇرلۇق ئويۇنچى چاقىردى! زار نومۇرى {face_value} نىڭ ھېسابى {count}، ئۇ {quantity} دىن تۆۋەن.\n{loser_id}-نومۇرلۇق ئويۇنچى (ئاخىرقى تەكلىڧ قىلغۇچى) بىر زارنى يېڭىەيدۇ.",
+    "caller_loses": "{current_player_id}-نومۇرلۇق ئويۇنچى چاقىردى! زار نومۇرى {face_value} نىڭ ھېسابى {count}، ئۇ {quantity} دىن يۇقىرى ياكى تەڭ.\n{loser_id}-نومۇرلۇق ئويۇنچى (چاقىرغۇچى) بىر زارنى يېڭىەيدۇ."
   },
   "action": {
-    "bid_announce": "Player {player_id} bids {quantity} of face {face_value}."
+    "bid_announce": "{player_id}-نومۇرلۇق ئويۇنچى {quantity} مىقداردىكى زار نومۇرى {face_value} نى تەكلىڧ قىلدى."
   },
   "invalid_move": {
     "call_no_bid": "ئۇ چاقىرىققا ھېچقانداق باھا بەرمىگەن.",
     "invalid_bid": "ناتوغرا باھاسى: {reason}",
-    "not_recognized": "Action not recognized as either a valid '[Bid: X, Y]' or '[Call]'. Submitted action: {action}"
+    "not_recognized": "ھەرىكەت '[Bid: X, Y]' ياكى '[Call]' دەپ تونۇلمىدى. سۇنۇلغان ھەرىكەت: {action}"
   },
   "bid_reason": {
     "quantity_lower": "يېڭى سان {new_quantity} خەزىنە {current_quantity} دىن تۆۋەن.",

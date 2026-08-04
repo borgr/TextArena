@@ -14,7 +14,7 @@
     "placed": "{player_id} ක් රීඩකයා තම සංකේතය {pos_a} සහ {pos_b} කොටුව අතරට තබා ඇත."
   },
   "game_message": {
-    "dependent_resolved": "Dependent superposition resolved. Cell ({r}, {c}) is now {symbol}.",
+    "dependent_resolved": "රඳා පවතින සුපර්පොසිෂන් විසඳුණි. බිත්තිය ({r}, {c}) දැන් {symbol} යි.",
     "last_cell_resolved": "අවසන් කොටුව සඳහා වන ආස්ථානය විසඳා ඇත. කොටුව ({r}, {c}) දැන් {symbol} වේ.",
     "superposition_resolved": "අංකය ({r}, {c}) දැන් {symbol} වේ."
   },

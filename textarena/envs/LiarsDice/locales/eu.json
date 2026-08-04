@@ -30,7 +30,7 @@
   },
   "call": {
     "bidder_loses": "Jokalariak {current_player_id}-ek deitu du! {face_value}-en aurpegien benetako kopurua {count}-a da, hau da, {quantity}-a baino BEHEREN. {loser_id} jokalariak (azken eskaintza egin duenak) dado bat galtzen du.",
-    "caller_loses": "Player {current_player_id} calls! The actual count of face {face_value} is {count}, which is >= {quantity}.\nPlayer {loser_id} (the caller) loses one die."
+    "caller_loses": "Jokalaria {current_player_id} deitzen du! {face_value} aurpegien benetako kontua {count} da, >= {quantity}.\nJokalaria {loser_id} (deitzailea) dado bat galtzen du."
   },
   "action": {
     "bid_announce": "Jokalariak {player_id} aurpegiaren eskaintzak {quantity} egiten ditu {face_value}."

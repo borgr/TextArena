@@ -19,7 +19,7 @@
     "{deck_count}": "Number of cards left in the deck"
   },
   "game": {
-    "start": "Briscola game started! Trump suit: {trump_suit} (Trump card: {trump_card})"
+    "start": "Mchezo wa Briscola umeanza! Suti ya trump: {trump_suit} (Kadi ya trump: {trump_card})"
   },
   "prompt": {
     "intro": "Oli muzannyi wa Briscola - Omuzannyi {player_id}.\nEkigendererwa: Wangula ekikomo na funga pointi nyingi (pointi 120 za jumla mu decks).\nPointi za kadi: A=11, 3=10, K=4, Q=3, J=2, zingine=0\nNguvu ya kadi: A > 3 > K > Q > J > 7 > 6 > 5 > 4 > 2\nKadi za Trump zina nguvu zaidi kuliko zisizo za Trump bila kujali nguvu.\n\nEkisa: '[play X]' ambapo X ni namba (1-{max_pos}) ya kadi mu mkono wako\n"
@@ -38,7 +38,7 @@
   },
   "turn": {
     "score_entry": "Omuzannyi {player_id}: {points} pointi",
-    "trump_info": "Trump suit: {trump_suit}",
+    "trump_info": "Suti ya trump: {trump_suit}",
     "trump_info_deck": "Ekika ekikubirira: {trump_suit} | Kadi zilizobaki mu decks: {deck_count}",
     "board": "{hand}\n\n{trick}\n\nMafudiso: {scores}\n{trump_info}\n\nZannya kadi kwa kutumia [play X]"
   },

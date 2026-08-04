@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "You are solving the Sokoban puzzle. You are the player and you need to push all boxes to targets.\n        When you are right next to a box, you can push it by moving in the same direction.\n        You cannot push a box through a wall, and you cannot pull a box.\n        On the board, objects are represented as: \n        - The player (you) appears as 'P' \n        - Walls are represented with '#' \n        - Boxes are marked as 'X' \n        - Empty goals are shown with a 'O'\n        - Boxes on goals are visualized with '√'\n        You can also use [w] for up, [a] for left, [s] for down, and [d] for right.\n        "
+    "intro": "Ianao no manao ny fanorona Sokoban. Ianao no mpilalao ary mila mianjera ny box rehetra mankany amin'ny tanjona.\n        Rehefa akaikina ny box, azonao atsijavina azy amin'ny fihetsika mitovy amin'ny an'ny box.\n        Tsy afaka mianjera box amin'ny rindrina ianao, ary tsy afaka mikasa box.\n        Amin'ny sehatra, ny zavatra dia voasoratra toy izao: \n        - Ny mpilalao (ianao) dia voasoratra 'P' \n        - Ny rindrina dia soratana amin'ny '#' \n        - Ny box dia marika 'X' \n        - Ny tanjona misy tsy misy dia soratana 'O'\n        - Ny box eo amin'ny tanjona dia voasoratra '√'\n        Afaka mampiasa [w] mihintsy, [a] miankavia, [s] midina, ary [d] miankavanana ianao.\n        "
   },
   "board": {
     "current_board": "Birao ankehitriny: {board} Hetsika azo atao: {moves}"
@@ -12,7 +12,7 @@
     "invalid_position": "Tsy mety ny hetsika - tsy afaka mihetsika amin'io toerana io."
   },
   "game_message": {
-    "moved": "You {pushed} moved [{action}].",
+    "moved": "Ianao {pushed} nihetsika [{action}].",
     "pushed_prefix": "nanosika boaty iray raha"
   },
   "outcome": {

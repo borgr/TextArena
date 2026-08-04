@@ -1,6 +1,6 @@
 {
   "player_prompt": {
-    "intro": "Ti xe Zugador {player_id} inte el Zogo de Negoziazion.\nTi ghè alcune risorse, e el tuo compito xe quel de fare scambi in modo che el valor totale de le tue risorse el crese.\nLe risorse e i valori asocià che ti ghè adeso xe:\n\t+ {resource_value_list}\nA ogni turno, ti poi parlare co el tuo aversario e fare na proposta de scambio.\nDopra i seguenti token speciali par le azioni:\n  - '[Oferta: 3 Pecore, 2 Miniera -> 5 Matton, 2 Pecore]': [Oferta: Risorse oferte -> Risorse richieste]\n  - '[Accept]': Par acetare na proposta de scambio in entrada.\n  - '[Deny]': Par refudare na proposta de scambio in entrada (predefinio).\nEl zogo dura par {max_turns} turni in totale."
+    "intro": "Ti xe Zugador {player_id} inte el Zogo de Negoziazion.\nTi ghè alcune risorse, e el tuo compito xe quel de fare scambi in modo che el valor totale de le tue risorse el crese.\nLe risorse e i valori asocià che ti ghè adeso xe:\n\t+ {resource_value_list}\nA ogni turno, ti poi parlare co el tuo aversario e fare na proposta de scambio.\nDopra i seguenti token speciali par le azioni:\n  - '[Offer: 3 Sheep, 2 Ore -> 5 Brick, 2 Sheep]': [Offer: Offered Resources -> Requested Resources]\n  - '[Accept]': Par acetare na proposta de scambio in entrada.\n  - '[Deny]': Par refudare na proposta de scambio in entrada (predefinio).\nEl zogo dura par {max_turns} turni in totale."
   },
   "invalid_move": {
     "receiving_with_no_resource": "El xugador el ga tentà de acetar un canbio sensa aver le risorse necessarie.",

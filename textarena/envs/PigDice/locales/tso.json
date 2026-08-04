@@ -10,7 +10,7 @@
     "player_hold": "Mkuruleni {player_id} u emela na ku nyika {turn_total} dipointi."
   },
   "board": {
-    "player": "Player 0: '{score_0}'; Player 1: '{score_1}'",
+    "player": "N'wini 0: '{score_0}'; N'wini 1: '{score_1}'",
     "current_total_scores": "Makontente ya Swiviko ya sasa: {scores}\nKontente ya wena ya sasa hi turn hiyi ni {turn_total}.",
     "roll_history": "{observation}\nHistori ya ku rolla ya wena kwi turn hiyi: {roll_history}",
     "first_roll": "{observation} Lowu i nkarhi wa wena wo sungula.",
@@ -18,7 +18,7 @@
   },
   "outcome": {
     "winner_by_turn_limit": "Mkuruleni {winner_id} u dume ngopfu hi ku va na kontente lekhulu kwi limiti ya turn ({scores})",
-    "winner_by_score": "Player {winner_id} won by reaching the target score of {winning_score}!",
+    "winner_by_score": "N'wini {winner_id} u hlule kasi a ku fikela poyinti ya {winning_score}!",
     "draw": "Mpimo wa ndzhendzheleko wu fikeleriwile naswona vatlangi hinkwavo va na mbuyelo lowu fanaka: {scores}"
   }
 }

@@ -11,13 +11,13 @@
     "{moves}": "The comma-separated list of available move tokens like '[4]' (do not translate)"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player Tic Tac Toe.\nYour symbol is '{symbol}'.\nYou take turns placing your symbol on a 5x5 board to form a line of four.\nLines can be horizontal, vertical, or diagonal.\nSubmit your move using the format '[4]' to mark cell 4."
+    "intro": "Uri Mutambo {player_id} muThree-Player Tic Tac Toe.\nChapa yako ndi '{symbol}'.\nUnotamba kwa zamu kwa kuweka chapa yako pa bodo ya 5x5 kuita mstari wa nne.\nMistari inaweza kuwa wima, mlalo, kana diagonal.\nTuma kitendo chako kwa kutumia mfumo '[4]' kuweka alama pa seli 4."
   },
   "board": {
     "current_board": "Bhoja Raunga:\n\n{board}\n\nMikando Yopinda: {moves}"
   },
   "invalid_move": {
-    "wrong_format": "Invalid move format. Use \"[cell]\" apo cell iri 0-{max_cell}.",
+    "wrong_format": "Mfumo usio sahihi wa kitendo. Tumia '[cell]' ambapo seli ndi 0-{max_cell}.",
     "out_of_range": "Nhamba yefoni isiriyo: {cell}. Inofanira kuva pakati pe 0 ne {max_cell}.",
     "already_occupied": "Sero {cell} ratotorwa.",
     "made_invalid": "Mutambi {player_id} akaita kufamba kusina kukodzera."

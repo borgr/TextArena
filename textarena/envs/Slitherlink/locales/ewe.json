@@ -1,12 +1,12 @@
 {
   "player_prompt": {
-    "intro": "You are playing Slitherlink on a {R}x{C} grid!\nDraw a single continuous loop so each numbered cell has that many bordering edges.\nToggle edges with:\n  [h r c] - toggle horizontal edge above dots at row r, column c\n  [v r c] - toggle vertical edge left of dots at row r, column c\nNumbers show required edge count, '.' means no constraint.\nYou have up to {max_turns} moves to solve the puzzle."
+    "intro": "Aɖeke Slitherlink le {R}x{C} kafukafu dzi!\nŊe loop ɖeka si nɔ anyi, be dots ɖeka ɖeka le eŋu nɔ xexe siaa.\nŊlɔ edges be:\n  [h r c] - ɖe horizontal edge ɖe dots ɖe eŋu le afi r, akpa c\n  [v r c] - ɖe vertical edge ɖe dots ɖe eŋu le afi r, akpa c\nNunber ɖeka ɖeka ɖe xexe siaa, '.' gomekpɔkpɔ.\nAɖeke {max_turns} ŋɔŋlɔ ɖe woƒe akpe asi le puzzle sia."
   },
   "board": {
-    "current_board": "{board}\nClues satisfied: {progress}"
+    "current_board": "{board}\nTodokpokpoe wɔxɛ: {progress}"
   },
   "invalid_move": {
-    "wrong_format": "Bad action format. Use [h row col] or [v row col].",
+    "wrong_format": "Ŋɔkpɔkpɔ sia ɖeɖe. Dze [h row col] alo [v row col].",
     "out_of_bounds": "Ƒuƒoƒoa le gota."
   },
   "outcome": {

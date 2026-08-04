@@ -48,7 +48,7 @@
   },
   "action": {
     "played": "Oýunçy {player_id} {card} oýnaýar",
-    "trick_win": "Player {winner} wins the trick with {card} and gains {points} points!"
+    "trick_win": "Oýunçy {winner} {card} kart bilen trik ýeňdi we {points} puany ýygnady!"
   },
   "outcome": {
     "head": "Oýun tamam! Oýunçy {winner} {points} ball bilen ýeňýär!\n\nAhýr ýekdeleri:\n{scores}",

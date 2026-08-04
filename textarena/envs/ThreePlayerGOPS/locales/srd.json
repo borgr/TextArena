@@ -14,7 +14,7 @@
     "{scores}": "The final scores as a raw player-number to score mapping - do not translate"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in Three-Player GOPS.\n- You hold the 13 cards A-K (each exactly once).\n- Each round a prize is revealed. Submit ONE card like `[Q]`, `[10]`, `[2]` …\n- Highest card wins the prize (+ any carry-over pot). Ties roll the prize into the next round.\n- After 13 rounds, highest total wins. Invalid moves = elimination."
+    "intro": "Tù ses su Giogadore {player_id} in Three-Player GOPS.\n- Tù tenes is 13 cartas A-K (onnia una esattamente una borta).\n- In dogna ronda unu prèmiu est reveladu. Invia una carta comente `[Q]`, `[10]`, `[2]` …\n- Sa carta prus arta bint su prèmiu (+ su monte portadu in avantu). Is paritàs faghent girare su prèmiu in sa ronda imbeniente.\n- A pustis de 13 rondas, su totale prus artu bint. Movimentos non vàlidus = eliminatzione."
   },
   "round": {
     "header": "### Turnu {round}/13 - Premiu: {prize} (balore {worth})",
@@ -27,7 +27,7 @@
   },
   "invalid_move": {
     "no_token": "s'atzione recheret una carta in parentesi comente \"[Q]\"",
-    "bad_card": "sa carta est giai impreada o no est vàlida."
+    "bad_card": "carta giai impreada o non vàlida"
   },
   "elimination": {
     "player": "Giogadore {pid} eliminadu a pustis de movimentos inàlidos repìtidos."

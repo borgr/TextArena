@@ -48,10 +48,10 @@
   },
   "action": {
     "played": "Jogador {player_id} jogat {card}",
-    "trick_win": "Jogador {winner} ganha lo truc amb {card} e ganha {points} punts!"
+    "trick_win": "Lo jogaire {winner} ganha lo torn amb {card} e obtèn {points} punts !"
   },
   "outcome": {
-    "head": "Jòc terminat! Jogador {winner} ganha amb {points} punts!\n\nPunts finals:\n{scores}",
+    "head": "Partida acabada ! Lo jogaire {winner} ganha amb {points} ponchs !\n\nPuntuacions finalas :\n{scores}",
     "player_line": "Jogador {player_id}: {points} punts ({tricks} trucs)\n"
   }
 }

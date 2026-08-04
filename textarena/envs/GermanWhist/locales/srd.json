@@ -21,7 +21,7 @@
     "invalid_play": "Custa carta non si podet giogare."
   },
   "game_action": {
-    "played": "Player {player_id} played {card}."
+    "played": "Giogadore {player_id} at giogadu {card}."
   },
   "trick": {
     "won": "Su giogadore {winner_id} binchet su trigu cun {card}.",
@@ -37,7 +37,7 @@
   },
   "turn": {
     "board": "{phase}\n{scores}\n{next_card}\n\n{trick}\n\n{hand}",
-    "scores_learning": "Tricks won so far - Player 0: {tricks0}, Player 1: {tricks1}",
+    "scores_learning": "Tricks binchidos finas a como - Giogadore 0: {tricks0}, Giogadore 1: {tricks1}",
     "scores_playing": "Puntos de brincas - Giogadore 0: {tricks0}, Giogadore 1: {tricks1}",
     "phase": "Fase: {phase}",
     "phase_learning": "Fase: {phase} ({remaining_cards} cartas abarradas in su mazzu)"
@@ -60,10 +60,10 @@
     "not_started": "Sa partida no est cumintzada.",
     "header": "=== GAME DE SU TZERMANU de su BISTU===",
     "phase": "{observation}\nFase: {phase}",
-    "trump_suit": "{observation}\nTrump suit: {trump_suit}",
-    "trump_card": "{observation}\nTrump card: {card}",
-    "cards_left": "{observation}\nCards left in deck: {count}",
-    "next_card": "{observation}\nNext card for winner: {card}",
+    "trump_suit": "{observation}\nSema de trionfu: {trump_suit}",
+    "trump_card": "{observation}\nCarta de trionfu: {card}",
+    "cards_left": "{observation}\nCartas abarradas in su mazzu: {count}",
+    "next_card": "{observation}\nCarta imbeniente pro su binchidore: {card}",
     "blank": "{observation}\n",
     "current_trick": "{observation} Tropu de su tempus:",
     "trump_indicator": " (TRUMP)",
@@ -71,6 +71,6 @@
     "player_line": "{observation}\nGiogadore {player_id}: {scoring} puntos de brincas ({tricks} totale), {hand_size} cartas in manu"
   },
   "outcome": {
-    "summary": "Learning phase - Player 0: {l0}, Player 1: {l1}. Playing phase - Player 0: {p0}, Player 1: {p1}. Player {winner_id} wins with {winner_tricks} scoring tricks!"
+    "summary": "Fase de imparu - Giogadore 0: {l0}, Giogadore 1: {l1}. Fase de giogu - Giogadore 0: {p0}, Giogadore 1: {p1}. Giogadore {winner_id} binchit cun {winner_tricks} tricks de puntuatzione!"
   }
 }

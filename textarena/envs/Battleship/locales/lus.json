@@ -8,12 +8,12 @@
     "already_fired": "Coordinate {coord} chu an kah tawh a ni."
   },
   "game_action": {
-    "you_sunk": "Sunk! You sunk a ship at {coord}! Your updated board:\n{view}",
-    "opp_sunk": "Opponent sunk your ship at {coord}! Your updated board:\n{view}",
+    "you_sunk": "Chim! I ship chim a, {coord} ah! I board thar:\n{view}",
+    "opp_sunk": "I khingpui in i ship chim a, {coord} ah! I board thar:\n{view}",
     "you_hit": "Hit! I ship chu {coord}-ah i hit ta! I board thar leh dan:\n{view}",
     "opp_hit": "Opponent hian i ship chu {coord}-ah a lo hit ta! I board thar leh dan:\n{view}",
-    "you_miss": "Miss! You missed the ship at {coord}! Your updated board:\n{view}",
-    "opp_miss": "Opponent missed your ship at {coord}! Your updated board:\n{view}"
+    "you_miss": "Kap loh! I ship kap loh a, {coord} ah! I board thar:\n{view}",
+    "opp_miss": "I khingpui in i ship kap loh a, {coord} ah! I board thar:\n{view}"
   },
   "outcome": {
     "win": "Player {player_id} chuan an khingpui lawng zawng zawngte a tihtlem vek tawh!"

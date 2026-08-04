@@ -16,7 +16,7 @@
     "revealed": "Għalfet il-ċellula fi ({row}, {col})."
   },
   "outcome": {
-    "win": "Congratulations! Inti b'suċċess imnaddaf il-bord Minesweeper.",
+    "win": "Prosit! Ħadt suċċess fil-klieraġġ tal-bord tal-Minesweeper.",
     "turn_limit": "Il-limitu tad-dawran intlaħaq. Inti b'suċċess skoprit {percent}% taċ-ċelloli sikuri."
   }
 }

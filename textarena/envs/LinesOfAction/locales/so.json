@@ -10,7 +10,7 @@
     "{to}": "The destination coordinate of a move, such as b3"
   },
   "player_prompt": {
-    "intro": "You are Player {player_id} in game of LinesOfAction.\nYour pieces are '{side}', opponent pieces are '{other}'.\nMove format: `[b1b3]` (from-coord to-coord). A legal move travels horizontally, vertically, or diagonally a number of squares equal to the total pieces (any colour) in that line. You may jump over your own pieces, but not opponent pieces; landing on an opponent captures it.  Win when all your pieces are 8-neighbour connected."
+    "intro": "Adiga ciyaartoy {player_id} ugu jirta ciyaarta LinesOfAction.\nQaybahayga waa '{side}', qaybahayga shayga waa '{other}'.\nQaabka guusha: `[b1b3]` (koordinaatada-asal ilaa koordinaatada-socod). Guusha sharci ah ayaa socda si toosan, ama si kor-ama-hoose, ama si karo, idadi sawirada oo ah qaybaha (midab kasta) ee safkaas. Waxaad ka gudbi kartaa qaybahaygaaga, laakiin qaybahayga shayga ma gudbo; halka aad ku soo degto shayga waxaad qabto.  Guusho marka qaybahayga oo dhan ay yihiin kuwa 8-deriska xiriira."
   },
   "board": {
     "current_board": "Guddiga: {board}"

@@ -1,12 +1,12 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a {num_rounds}-round Rock-Paper-Scissors game.\nYour goal is to win as many rounds as possible.\nIn each round, respond with one of: '[rock]', '[paper]', or '[scissors]'.\nYou may also use '[r]', '[p]', or '[s]' as shorthand.\n"
+    "intro": "त्वम् खिलाडी {player_id} असि {num_rounds}-पारायणे पाषाण-कागद-कैंची क्रीडायाम् ।\nतव लक्ष्यम् अस्ति यावद्गुणान् पारायणान् जेतुं शक्नोषि ।\nप्रत्येकस्मिन् पारायणे '[rock]', '[paper]', वा '[scissors]' अन्यतमेन प्रतिवद ।\nसंक्षेपेण '[r]', '[p]', वा '[s]' अपि उपयोक्तुं शक्नोषि ।\n"
   },
   "invalid_move": {
-    "wrong_format": "Move not recognized. Use [rock], [paper], or [scissors]."
+    "wrong_format": "चाला न ज्ञायते । [rock], [paper], वा [scissors] उपयोक्तुं शक्नोषि ।"
   },
   "game_action": {
-    "selects": "Player {player_id} selects move {move}."
+    "selects": "खिलाडी {player_id} चालनां {move} चयनं करोति।"
   },
   "message": {
     "round_draw": "गोलस्य परिणामः बद्धम् अभवत् ।",

@@ -31,6 +31,6 @@
   "outcome": {
     "p0_wins": "Spelar 0 vinn ({bank0} > {bank1})",
     "p1_wins": "Spelar 1 vinn ({bank1} > {bank0})",
-    "draw": "Equal chips after all rounds"
+    "draw": "Like mange chip etter alle rundane"
   }
 }

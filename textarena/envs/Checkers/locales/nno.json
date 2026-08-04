@@ -7,7 +7,7 @@
   },
   "invalid_move": {
     "wrong_format": "Inga gyldig trekkformat funne. Bruk [a1b2], t.d. [b2c3].",
-    "illegal": "Move [{move}] is illegal."
+    "illegal": "Trekket [{move}] er ulovleg."
   },
   "game_action": {
     "moved": "Spelar {player_id} flytta {move}."

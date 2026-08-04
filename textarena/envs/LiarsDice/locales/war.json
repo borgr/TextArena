@@ -29,7 +29,7 @@
     "new_round": "\nBag-o nga round - Natining dice: {dice_summary}\nAn imo yana nga mga Dice: {your_dice}"
   },
   "call": {
-    "bidder_loses": "Player {current_player_id} calls! The actual count of face {face_value} is {count}, which is LESS than {quantity}.\nPlayer {loser_id} (the last bidder) loses one die.",
+    "bidder_loses": "Ang manugdula {current_player_id} nagpatawag! An tinuod nga ihap han nawong {face_value} amo an {count}, nga MAS UBOS kay sa {quantity}.\nAng manugdula {loser_id} (an kataposan nga nanawad) nawad-an hin usa ka dado.",
     "caller_loses": "Player {current_player_id} naghahalar! An aktwal nga kuenta han face {face_value} amo an {count}, nga mas dagko o igual kay {quantity}.\nPlayer {loser_id} (an naghahalar) nawawaran hin usa nga die."
   },
   "action": {

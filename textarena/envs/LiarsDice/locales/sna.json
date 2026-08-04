@@ -29,7 +29,7 @@
     "new_round": "\nMwaka mitsva - Tsvimbo dzerudo: {dice_summary}\nTsvimbo dzauno dziri kuna: {your_dice}"
   },
   "call": {
-    "bidder_loses": "Player {current_player_id} calls! The actual count of face {face_value} is {count}, which is LESS than {quantity}.\nPlayer {loser_id} (the last bidder) loses one die.",
+    "bidder_loses": "Mutambi {current_player_id} anatoa wito! Idadi halisi ya thamani ya uso {face_value} ni {count}, ambayo ni CHINI ya {quantity}.\nMutambi {loser_id} (mtoa ofa wa mwisho) anapoteza dadu moja.",
     "caller_loses": "Mwari {current_player_id} akudza! Kuzungu kwauso {face_value} kunowanikwa {count}, ambayo ndiyo >= {quantity}.\nMwari {loser_id} (akudza) akapera tsvimbo rimwe."
   },
   "action": {

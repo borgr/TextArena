@@ -16,17 +16,17 @@
     "{cards}": "The cards in a pile as neutral labels, or '--' if empty (never translate)"
   },
   "player_prompt": {
-    "intro": "You are playing Klondike Solitaire. Your goal is to move all cards to the foundation piles.\n\nGame Rules:\n- Foundation piles (F1-F4): Build up from Ace to King in suit\n- Tableau piles (T1-T7): Build down alternating colors (red on black, black on red)\n- Stock: Draw cards to waste pile\n- Waste (W): Top card available for play\n\nCommands:\n- 'draw' - Draw cards from stock to waste\n- 'move <source> <destination> [count]' - Move cards between piles\n  Examples: 'move W T1', 'move T1 F2', 'move T3 T5 2'. count can also be 'all', which will try to move all face-up cards.\n- 'forfeit' - End the game immediately and lock in your current score\n- Pile names: W (waste), F1-F4 (foundations), T1-T7 (tableau)\n\nYou can execute multiple actions in one turn by separating them with commas:\n  Example: 'draw, move W T1, move T2 F1'\n\nOnly Kings can be placed on empty tableau piles.\nActions execute in order - if one fails, the remaining actions are skipped.\nUse 'forfeit' if you believe the game is impossible to win."
+    "intro": "మీరు క్లోండైక్ సోలిటైర్ ఆడుతున్నారు. మీ లక్ష్యం అన్ని కార్డ్‌లను ఫౌండేషన్ పైల్స్‌కి తరలించడం.\n\nగేమ్ నియమాలు:\n- ఫౌండేషన్ పైల్స్ (F1-F4): సూట్‌లో ఏస్ నుండి కింగ్ వరకు నిర్మించండి\n- టేబ్లీయు పైల్స్ (T1-T7): రంగులను ప్రత్యామ్నాయం చేస్తూ (ఎరుపు నలుపుపై, నలుపు ఎరుపుపై) క్రిందికి నిర్మించండి\n- స్టాక్: వేస్ట్ పైల్‌కి కార్డ్‌లను గీయండి\n- వేస్ట్ (W): టాప్ కార్డ్ ఆటకు అందుబాటులో ఉంటుంది\n\nకమాండ్‌లు:\n- 'draw' - స్టాక్ నుండి వేస్ట్‌కి కార్డ్‌లను గీయండి\n- 'move <source> <destination> [count]' - పైల్స్ మధ్య కార్డ్‌లను తరలించండి\n  ఉదాహరణలు: 'move W T1', 'move T1 F2', 'move T3 T5 2'. కౌంట్ 'all' కూడా కావచ్చు, ఇది అన్ని ఫేస్-అప్ కార్డ్‌లను తరలించడానికి ప్రయత్నిస్తుంది.\n- 'forfeit' - గేమ్‌ను వెంటనే ముగించి మీ ప్రస్తుత స్కోర్‌ను లాక్ చేయండి\n- పైల్ పేర్లు: W (వేస్ట్), F1-F4 (ఫౌండేషన్స్), T1-T7 (టేబ్లీయు)\n\nమీరు ఒక టర్న్‌లో బహుళ చర్యలను కామాలతో వేరు చేయడం ద్వారా నిర్వహించవచ్చు:\n  ఉదాహరణ: 'draw, move W T1, move T2 F1'\n\nఖాళీ టేబ్లీయు పైల్స్‌పై కింగ్స్ మాత్రమే ఉంచవచ్చు.\nచర్యలు ఆర్డర్‌లో నిర్వహించబడతాయి - ఒకటి విఫలమైతే, మిగిలిన చర్యలు దాటవేయబడతాయి.\nగేమ్ గెలవడం అసాధ్యమని మీరు నమ్మితే 'forfeit'ని ఉపయోగించండి."
   },
   "format_error": {
     "no_brackets": "చర్య ఫార్మాట్ చెల్లదు. చర్య బ్రాకెట్లలో ఉండాలి.",
     "no_closing_bracket": "అక్రమ చర్య ఫార్మాట్. మూసివేసే బ్రాకెట్ లేదు ']'",
-    "empty_command": "ఖాళీ ఆదేశం. 'డ్రా' లేదా 'మార్చు <మూలం> <గమ్యం> [count]' అని టైప్ చేయండి",
+    "empty_command": "ఖాళీ కమాండ్. 'draw' లేదా 'move <source> <destination> [count]' టైప్ చేయండి",
     "empty_action": "ఖాళీ చర్య",
     "move_needs_args": "మూవ్ కమాండ్కు మూలం మరియు గమ్యం అవసరం. వాడుకః 'move <source> <destination> [count]'",
-    "count_positive": "కౌంట్ పాజిటివ్ గా ఉండాలి లేదా 'అన్ని'",
-    "count_invalid": "చెల్లని లెక్కింపు. సంఖ్యను లేదా 'అన్ని'ని ఉపయోగించండి",
-    "unknown_command": "తెలియని ఆదేశం '{cmd}'. 'డ్రా', 'మూలం <మూలం> <గమ్యం> [count]' లేదా 'అవహరించు' ఉపయోగించండి",
+    "count_positive": "కౌంట్ సానుకూలంగా లేదా 'all' ఉండాలి",
+    "count_invalid": "చెల్లని కౌంట్. సంఖ్య లేదా 'all'ని ఉపయోగించండి",
+    "unknown_command": "తెలియని కమాండ్ '{cmd}'. 'draw', 'move <source> <destination> [count]', లేదా 'forfeit'ని ఉపయోగించండి",
     "wrapped": "చర్య {n}: {msg}"
   },
   "action_result": {

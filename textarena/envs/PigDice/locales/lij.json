@@ -10,8 +10,8 @@
     "player_hold": "Giugiou {player_id} o s'è fermou e o l'ha messo in banca {turn_total} ponpi."
   },
   "board": {
-    "player": "Player 0: '{score_0}'; Player 1: '{score_1}'",
-    "current_total_scores": "Current Total Scores: {scores}\nYour current turn total is {turn_total}.",
+    "player": "Zugador 0: '{score_0}'; Zugador 1: '{score_1}'",
+    "current_total_scores": "Punteggi Totâli Corénti: {scores}\nO tò totâle de turno corénte o l'é {turn_total}.",
     "roll_history": "{observation}\nA teua storia de rolli pe questo turno: {roll_history}",
     "first_roll": "{observation} A l'é a primma vòtta che ti t'ê inandiou.",
     "available_actions": "{observation}\nAçioin disponibili: '[roll]' o '[hold]'"

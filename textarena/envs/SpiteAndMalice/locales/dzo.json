@@ -1,17 +1,17 @@
 {
   "player_prompt": {
-    "intro": "You are Player {player_id} in a two-player game of Spite and Malice. Your goal is to be the first to empty your payoff pile.\n\n### Game Overview:\n- The objective is to clear your payoff pile by playing cards to the center piles.\n- You can play cards from three sources:\n  1. Your **hand** (you start each turn with up to 5 cards in hand).\n  2. The **top card of your payoff pile**.\n  3. The **top card of any of your discard piles**.\n\n### Playing Rules:\n- You may play a card to a center pile if it is **one rank higher** than the top card on that pile (center piles start with Ace and go up to Queen; Kings are wild - they can be played on any card but do not change the rank sequence. This means if a King is used after 4, then that King is ranked 5 and the next card must be a 6).\n- If you can't play any more cards, you must **discard a card** to one of your discard piles to end your turn.\n- If a center pile reaches Queen, it will be cleared automatically.\n- The rank order is: A=1, 2=2, ..., 9=9, J=10, Q=11, K as wild.\n\n### Actions:\n1. **Draw**: At the start of your turn, draw cards to fill your hand up to 5 cards. Enter **[draw]** to begin.\n2. **Play a Card**: To play a card, specify the card and the center pile like this: **[play A♠ 0]** (where 'A♠' is the card and '0' is the center pile index).\n3. **Discard**: If you can't play any more cards, discard a card from your hand to a discard pile to end your turn. Enter **[discard A♠ 1]** (where 'A♠' is the card and '1' is the discard pile index). Note that you cannot discard any card from the payoff pile. You may only discard the cards from your hand.\n\n"
+    "intro": "ཁྱེད་རང་སྤེལ་འཇོམས་ཀྱི་རྩེད་མོའི་མི་གཉིས་ཀྱི་མི་ {player_id} ཡིན། ཁྱེད་རང་གི་འདོད་པ་ནི་ཁྱེད་རང་གི་བུ་གསག་རིམ་པ་ཐོག་མར་སྟོང་པ་བཟོ་བ་ཡིན།\n\n### རྩེད་མོ་གནས་ཚུལ།\n- ཁྱེད་རང་གི་བུ་གསག་རིམ་པ་སྟོང་པ་བཟོ་བར་དཀྱིལ་གྱི་བུ་རིམ་པར་བུ་འཇོག་པ་ཡིན།\n- ཁྱེད་རང་གིས་གསུམ་གྱི་ཁུངས་ནས་བུ་འཇོག་ཐུབ།\n  1. ཁྱེད་རང་གི་**ལག** (ཁྱེད་རང་གི་རེས་མོ་རེ་བུ་ 5 ཙམ་ལག་ཏུ་འདུག)\n  2. ཁྱེད་རང་གི་**བུ་གསག་རིམ་པའི་གོང་བུ**\n  3. ཁྱེད་རང་གི་**བུ་སྤངས་རིམ་པ་གང་རུང་གི་གོང་བུ**\n\n### འཇོག་པའི་དམ་ཚིག\n- ཁྱེད་རང་གིས་དཀྱིལ་གྱི་བུ་རིམ་པར་བུ་འཇོག་ཐུབ་ན་གལ་ཏེ་དེ་བུ་རིམ་པའི་གོང་བུ་ལས་**གོ་གནས་གཅིག་མཐོ་བ** ཡིན་ན་ཡིན། (དཀྱིལ་གྱི་བུ་རིམ་པ་ཨེས་ནས་རྒྱལ་མོ་བར་འགོ་བཙུགས་པ་ཡིན། རྒྱལ་པོ་རང་དབང་ཡིན་པ་ལས་བུ་གང་རུང་ལས་འཇོག་ཐུབ་ན་ཡིན་ན་ཡིན། གོ་གནས་ཀྱི་རིམ་པ་མི་འགྱུར་བ་ཡིན། གལ་ཏེ་ 4 རྗེས་རྒྱལ་པོ་བེད་སྤྱད་ན་རྒྱལ་པོ་དེ་ 5 རུ་གོ་གནས་བཟུང་བ་ཡིན་པས་བུ་འོག་མ་ 6 ཡིན་དགོས།)\n- ཁྱེད་རང་གིས་བུ་གཞན་འཇོག་མ་ཐུབ་ན་ཁྱེད་རང་གི་བུ་སྤངས་རིམ་པ་གང་རུང་ལ་**བུ་སྤངས** དགོས།\n- དཀྱིལ་གྱི་བུ་རིམ་པ་རྒྱལ་མོ་ལ་སླེབས་ན་རང་བཞིན་གྱིས་སྟོང་པ་བཟོ་བ་ཡིན།\n- གོ་གནས་ཀྱི་རིམ་པ་ནི། A=1, 2=2, ..., 9=9, J=10, Q=11, K རང་དབང་ཡིན་པ་ཡིན།\n\n### བྱ་བ།\n1. **འདྲེན་པ**། ཁྱེད་རང་གི་རེས་མོའི་ཐོག་མར་བུ་ 5 ཙམ་ལག་ཏུ་འདྲེན་པ་ཡིན། **[draw]** འབྲི་དགོས།\n2. **བུ་འཇོག**། བུ་འཇོག་པར་བུ་དང་དཀྱིལ་གྱི་བུ་རིམ་པ་འདི་ལྟར་བྲི། **[play A♠ 0]** (འཇོག་པར་བུ་ 'A♠' ཡིན་པ་དང་ '0' ནི་དཀྱིལ་གྱི་བུ་རིམ་པའི་ཨང་ཡིན་པ་ཡིན།)\n3. **བུ་སྤངས**། ཁྱེད་རང་གིས་བུ་གཞན་འཇོག་མ་ཐུབ་ན་ཁྱེད་རང་གི་ལག་ནས་བུ་གང་རུང་བུ་སྤངས་རིམ་པ་གང་རུང་ལ་སྤངས་དགོས། **[discard A♠ 1]** འབྲི་དགོས། (འཇོག་པར་བུ་ 'A♠' ཡིན་པ་དང་ '1' ནི་བུ་སྤངས་རིམ་པའི་ཨང་ཡིན་པ་ཡིན།) བུ་གསག་རིམ་པ་ནས་བུ་སྤངས་མི་ཆོག\n\n"
   },
   "board": {
-    "current_board": "Current Board:\n\n{board}\nAvailable Moves: {moves}"
+    "current_board": "ད་ལྟའི་རྩེད་མོའི་སྒོ།\n\n{board}\nརྩེད་མོའི་སྒོ་ནས་བུ་རྩེད་རྒྱག་པའི་གནས། {moves}"
   },
   "render": {
     "center_piles_header": "---ལྟེ་བ་ལུ་ཡོད་པའི་ ཀ་ལ་ཕུག་ཚུ་ -- ",
     "pile": "{observation}Pile {i}: {pile}\n",
-    "player_view_header": "{observation}\n--- Player {player_id}'s View ---\n",
-    "payoff": "{observation}Payoff Pile (Top Card): {top_card}, Payoff Pile Length: {payoff_length}\n",
+    "player_view_header": "{observation}\n--- མི་སྣ་ {player_id} གྱི་རྩེད་མོའི་སྒོ་ནས་བུ་རྩེད་རྒྱག་པའི་གནས། ---\n",
+    "payoff": "{observation}བུ་རྩེད་སྒམ་བཟོ་བའི་སྟེང་གི་བུ་རྩེད་ (སྟེང་གི་བུ་རྩེད་): {top_card}, བུ་རྩེད་སྒམ་བཟོ་བའི་རིང་ཚད།: {payoff_length}\n",
     "hand": "{observation}Hand: {hand}\n",
-    "discard": "{observation}Discard Piles: {discard}\n",
+    "discard": "{observation}བུ་རྩེད་སྒམ་བཟོ་བའི་སྟེང་གི་བུ་རྩེད་: {discard}\n",
     "empty": "སྟོངམ་ཨིན།"
   },
   "game_message": {
@@ -19,7 +19,7 @@
   },
   "invalid_move": {
     "wrong_format": "ཚུལ་མིན་གྱི་རྣམ་པ་ཨིན། རྩེད་འགྲན་པ་ {player_id} གིས་ ཀྲོང་ཁའི་ནང་ཐིག་ཁྲམ་ནང་ལུ་ ཚུལ་ལྡན་གི་རིམ་པ་འདི་ལན་རྐྱབ་མ་ཚུགས་པས།",
-    "invalid_play": "Invalid play. Player {player_id} tried to play {card} on center pile {index}.",
+    "invalid_play": "རྩེད་མོའི་སྒོ་ནས་བུ་རྩེད་རྒྱག་པའི་གནས་མ་འགྲིག་པ་ཡིན། མི་སྣ་ {player_id} གྱིས་བུ་རྩེད་ {card} རྩེད་མོའི་སྒོ་ནས་བུ་རྩེད་རྒྱག་པའི་གནས་ {index} ནས་རྒྱག་པ་ཡིན།",
     "discard_from_payoff": "ཆ་མེད་བཏང་མི་ལག་ལེན་པ་ {player_id} གིས་ དངུལ་ལོག་ཐོབ་པའི་ས་ཁོངས་ནང་ལས་ ལག་ཁྱེར་ཅིག་ བཏོན་ནི་འབད་ཡོདཔ་ཨིན།",
     "discard_not_in_hand": "ཆ་མེད་བཏང་མི་ལག་པར་འདི་ {player_id} གིས་ ལག་པ་ལས་བཏོན་མ་བཏུབ་པའི་ཨང་རྟགས་ཅིག་ བཀོག་བཀོག་ནི་སྦེ་རྩེད་ནུག",
     "wrong_move_type": "མི་ངོམ་ {player_id} གིས་ ཚུལ་ལྡན་མི་ངོམ་ཅིག་སྦེ་ལན་མ་བཏབ་པས།"
@@ -27,15 +27,15 @@
   "game_action": {
     "you_drew": "ཁྱོད་ཀྱིས་ལག་པར་ཚུ་བཏོན་ནུག",
     "opponent_drew": "རྩེད་འགྲན་པ་ {player_id}གིས་ གཱོལ་བཏོན་ནུག",
-    "you_played": "You played {card} on center pile {index}.",
-    "opponent_played": "Player {player_id} played {card} on center pile {index}.",
-    "you_discarded": "You have discarded {card} to discard pile {index}, which also means you have finished their turn. No further actions of yours is considered for this turn. Player {next_player_id} will go next.",
+    "you_played": "ཁྱེད་རང་གིས་བུ་རྩེད་ {card} རྩེད་མོའི་སྒོ་ནས་བུ་རྩེད་རྒྱག་པའི་གནས་ {index} ནས་རྒྱག་པ་ཡིན།",
+    "opponent_played": "མི་སྣ་ {player_id} གྱིས་བུ་རྩེད་ {card} རྩེད་མོའི་སྒོ་ནས་བུ་རྩེད་རྒྱག་པའི་གནས་ {index} ནས་རྒྱག་པ་ཡིན།",
+    "you_discarded": "ཁྱེད་རང་གིས་བུ་རྩེད་ {card} བུ་རྩེད་སྒམ་བཟོ་བ་ {index} ནས་བུ་རྩེད་སྒམ་བཟོ་བ་ཡིན། ཁྱེད་རང་གི་རེས་མོ་རེ་རེར་བུ་རྩེད་སྒམ་བཟོ་བ་ཡིན། མི་སྣ་ {next_player_id} གྱིས་བུ་རྩེད་འགུག་པ་ཡིན།",
     "opponent_discarded": "Player {player_id} discarded {card} to discard pile {index}, which also means they finished their turn. No further actions of Player {player_id} is considered for this turn. Player {next_player_id}, you will go next. Please enter your action in the format [action card center_index]."
   },
   "outcome": {
-    "payoff_cleared": "Player {current_player} has finished their payoff pile! Player {current_player} wins!",
-    "deadlock_player_0": "Deadlock reached! Player 0 wins with {player_0_payoff} cards remaining vs Player 1's {player_1_payoff} cards.",
-    "deadlock_player_1": "Deadlock reached! Player 1 wins with {player_1_payoff} cards remaining vs Player 0's {player_0_payoff} cards.",
-    "deadlock_tie": "Deadlock reached with tie! Both players have {player_0_payoff} cards remaining. Player {current_player} wins by default."
+    "payoff_cleared": "མི་སྣ་ {current_player} གྱིས་བུ་རྩེད་སྒམ་བཟོ་བ་བསལ་པ་ཡིན། མི་སྣ་ {current_player} གྱིས་རྒྱལ་ཁ་ཐོབ་པ་ཡིན།",
+    "deadlock_player_0": "རྩེད་མོ་འགོག་པ་ཡིན། མི་སྣ་ 0 གྱིས་རྒྱལ་ཁ་ཐོབ་པ་ཡིན། མི་སྣ་ 0 གྱི་བུ་རྩེད་ {player_0_payoff} དང་མི་སྣ་ 1 གྱི་བུ་རྩེད་ {player_1_payoff} ཡིན།",
+    "deadlock_player_1": "རྩེད་མོ་འགོག་པ་ཡིན། མི་སྣ་ 1 གྱིས་རྒྱལ་ཁ་ཐོབ་པ་ཡིན། མི་སྣ་ 1 གྱི་བུ་རྩེད་ {player_1_payoff} དང་མི་སྣ་ 0 གྱི་བུ་རྩེད་ {player_0_payoff} ཡིན།",
+    "deadlock_tie": "རྩེད་མོ་འགོག་པ་ཡིན། མི་སྣ་གཉིས་ཀྱི་བུ་རྩེད་ {player_0_payoff} ཡིན། མི་སྣ་ {current_player} གྱིས་རྒྱལ་ཁ་ཐོབ་པ་ཡིན།"
   }
 }

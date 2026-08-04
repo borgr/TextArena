@@ -11,7 +11,7 @@
     "not_legal": "କାର୍ଯ୍ୟାନୁଷ୍ଠାନ {legal_actions} ହେବା ଆବଶ୍ୟକ ।"
   },
   "action": {
-    "submit_move": "Player {player_id}, submitted move: '[{move}]'.",
+    "submit_move": "ଖେଳାଳୀ {player_id}, କାର୍ଯ ଜମା କରିଛନ୍ତି: '[{move}]'.",
     "valid_actions": "ଆପଣଙ୍କର ଉପଲବ୍ଧ କାର୍ଯ୍ୟଗୁଡ଼ିକ ହେଉଛି: {legal_actions} ।",
     "round_summary": "{reason} ବର୍ତ୍ତମାନର ସ୍କୋର: ଖେଳାଳି ୦: \"{player_0_chips}\"; ଖେଳାଳି ୧: \"{player_1_chips}\""
   },

@@ -11,12 +11,12 @@
     "not_legal": "Darbeibai juobyut {legal_actions}."
   },
   "action": {
-    "submit_move": "Player {player_id}, submitted move: '[{move}]'.",
+    "submit_move": "Spēlētājs {player_id} iesniedza gājienu: '[{move}]'.",
     "valid_actions": "Tovi īspiejamī darbeibi ir: {legal_actions}.",
     "round_summary": "{reason} Pašreizējie punkti: Spēlētājs 0: '{player_0_chips}'; Spēlētājs 1: '{player_1_chips}'"
   },
   "showdown": {
-    "showdown_summary": "Showdown: Player {winner}'s {winner_card} beats Player {loser}'s {loser_card}. Player {winner} wins pot of {pot_value} chips."
+    "showdown_summary": "Šovs: Spēlētāja {winner} {winner_card} pārspēj Spēlētāja {loser} {loser_card}. Spēlētājs {winner} uzvar banku ar {pot_value} žetoniem."
   },
   "outcome": {
     "draw": "Piec {max_rounds} raunda obejim spēlnīkim beja vīnaids cipu skaits.",

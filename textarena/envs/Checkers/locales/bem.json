@@ -6,8 +6,8 @@
     "intro": "Ni we Player {player_id} ukuteka bala ya Checkers nga {color}.\nTekeneni umusolo wenu mu notation ya chess-style [fileRank fileRank], fimo '[b2c3]' (kalamba cha a–h, digit ya 0–7).\nMikwito ikulu:\n  • Musolo yenze kufupisha diagonal ku mpela umo.\n  • Tekeni kwa kuyuka pamo na chipumi cha mupinzani.\n  • Chipumi chinshi chenjeshi ukafika ku mutwe ushi."
   },
   "invalid_move": {
-    "wrong_format": "No valid move format found. Use [a1b2], e.g. [b2c3].",
-    "illegal": "Move [{move}] is illegal."
+    "wrong_format": "Hapana njia ya citambulwa icilondolwa. Kuta [a1b2], e.g. [b2c3].",
+    "illegal": "Citambulwa [{move}] ni illegal."
   },
   "game_action": {
     "moved": "Umulashi {player_id} aendele {move}."
